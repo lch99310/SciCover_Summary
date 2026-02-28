@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState, useEffect, useMemo } from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Layout } from './components/layout/Layout';
 import { useTheme } from './hooks/useTheme';
@@ -11,7 +11,7 @@ import { ArticleDetail } from './components/article/ArticleDetail';
 import { ArchivePage } from './components/archive/ArchivePage';
 import { LoadingSpinner } from './components/ui/LoadingSpinner';
 import type { JournalName, ArticleDetail as ArticleDetailType } from './lib/types';
-import { DATA_BASE_URL } from './lib/constants';
+import { getDataUrl } from './lib/constants';
 import './styles/global.css';
 
 const queryClient = new QueryClient({
@@ -25,16 +25,22 @@ const queryClient = new QueryClient({
 
 function HomePage() {
   const [activeJournal, setActiveJournal] = useState<JournalName | 'all'>('all');
-  const { data: index, isLoading } = useArticleIndex();
+  const { data: index, isLoading, isError } = useArticleIndex();
   const [heroArticle, setHeroArticle] = useState<ArticleDetailType | null>(null);
   const [heroLoading, setHeroLoading] = useState(true);
 
   // Load the hero (latest) article detail
-  useMemo(() => {
-    if (!index || index.articles.length === 0) return;
+  useEffect(() => {
+    if (!index || index.articles.length === 0) {
+      setHeroLoading(false);
+      return;
+    }
     const latest = index.articles[0];
-    fetch(`${DATA_BASE_URL}/data/${latest.path}`)
-      .then((r) => r.json())
+    fetch(getDataUrl(`data/${latest.path}`))
+      .then((r) => {
+        if (!r.ok) throw new Error('Failed to load hero article');
+        return r.json();
+      })
       .then((data) => {
         setHeroArticle(data);
         setHeroLoading(false);
@@ -56,6 +62,16 @@ function HomePage() {
 
   if (isLoading || heroLoading) return <LoadingSpinner />;
 
+  if (isError) {
+    return (
+      <div className="container" style={{ padding: '4rem 1.5rem', textAlign: 'center' }}>
+        <p style={{ color: 'var(--color-text-secondary)' }}>
+          Failed to load articles. Please check that data files are deployed correctly.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <>
       {heroArticle && activeJournal === 'all' && (
@@ -72,7 +88,7 @@ function AppContent() {
   const [activeJournal, setActiveJournal] = useState<JournalName | 'all'>('all');
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           element={
@@ -89,7 +105,7 @@ function AppContent() {
           <Route path="/archive" element={<ArchivePage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

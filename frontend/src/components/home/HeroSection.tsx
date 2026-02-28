@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ArticleDetail } from '../../lib/types';
-import { JOURNAL_RAW_COLORS } from '../../lib/constants';
+import { JOURNAL_RAW_COLORS, getDataUrl } from '../../lib/constants';
 import { format } from 'date-fns';
 import './HeroSection.css';
 
@@ -18,7 +18,7 @@ export function HeroSection({ article }: HeroSectionProps) {
       <div className="hero__image-wrapper">
         <div
           className="hero__image"
-          style={{ backgroundImage: `url(${coverImage.url})` }}
+          style={{ backgroundImage: `url(${getDataUrl(coverImage.url)})` }}
         />
         <div className="hero__gradient" />
       </div>

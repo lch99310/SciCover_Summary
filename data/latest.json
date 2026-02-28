@@ -1,34 +1,5 @@
 {
-  "Nature": {
-    "id": "nature-",
-    "journal": "Nature",
-    "volume": "650",
-    "issue": "8103",
-    "date": "",
-    "cover_image": {
-      "url": "https://media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg",
-      "local_path": "images/nature-.jpg",
-      "credit": "Nature"
-    },
-    "cover_description": "",
-    "article": {
-      "title": "Sub-part-per-trillion test of the Standard Model with atomic hydrogen",
-      "authors": [
-        "Lothar Maisenbacher",
-        "Vitaly Wirthl",
-        "Arthur Matveev",
-        "Alexey Grinin",
-        "Randolf Pohl",
-        "Theodor W. Hänsch",
-        "Thomas Udem"
-      ],
-      "abstract": "Quantum electrodynamics (QED), the first relativistic quantum field theory, describes light–matter interactions at a fundamental level and is one of the pillars of the Standard Model (SM). Through the extraordinary precision of QED, the SM predicts the energy levels of simple systems such as the hydrogen atom with up to 13 significant digits1, making hydrogen spectroscopy an ideal test bed. The consistency of physical constants extracted from different transitions in hydrogen using QED, such as the proton charge radius rp, constitutes a test of the theory. However, values of rp from recent measurements2,3,4,5,6,7 of atomic hydrogen are partly discrepant with each other and with a more precise value from spectroscopy of muonic hydrogen8,9. This prevents a test of QED at the level of experimental uncertainties. Here we present a measurement of the 2S–6P transition in atomic hydrogen with sufficient precision to distinguish between the discrepant values of rp and enable rigorous testing of QED and the SM overall. Our result ν2S–6P = 730,690,248,610.79(48) kHz gives a value of rp = 0.8406(15) fm at least 2.5-fold more precise than from other atomic hydrogen determinations and in excellent agreement with the muonic value. The SM prediction of the transition frequency (730,690,248,610.79(23) kHz) is in excellent agreement with our result, testing the SM to 0.7 parts per trillion (ppt) and, specifically, bound-state QED corrections to 0.5 parts per million (ppm), their most precise test so far.",
-      "doi": "10.1038/s41586-026-10124-3",
-      "url": "https://www.nature.com/articles/s41586-026-10124-3",
-      "pages": ""
-    },
-    "preprint_url": "",
-    "ai_summary": null,
-    "created_at": "2026-02-28T12:54:20.760658+00:00"
-  }
+  "Science": "science-2026-02-26",
+  "Nature": "nature-2026-02-26",
+  "Cell": "cell-2026-02-19"
 }

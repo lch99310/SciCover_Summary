@@ -1,4 +1,5 @@
 import type { ArticleImage } from '../../lib/types';
+import { getDataUrl } from '../../lib/constants';
 import './FigureGallery.css';
 
 interface FigureGalleryProps {
@@ -15,7 +16,7 @@ export function FigureGallery({ images, credit }: FigureGalleryProps) {
         <figure key={index} className="figure-gallery__item">
           <div className="figure-gallery__image-wrapper">
             <img
-              src={img.url}
+              src={getDataUrl(img.url)}
               alt={img.caption.en}
               className="figure-gallery__image"
               loading={index === 0 ? 'eager' : 'lazy'}

@@ -18,7 +18,23 @@ export const JOURNAL_RAW_COLORS: Record<JournalName, string> = {
   Cell: '#2E7D32',
 };
 
-export const DATA_BASE_URL = import.meta.env.VITE_DATA_BASE_URL || '';
+/**
+ * Resolve the base URL for data/image assets.
+ * In production (GitHub Pages), Vite's import.meta.env.BASE_URL gives the
+ * subpath (e.g. "/scicover/").  In dev mode it's just "/".
+ */
+const BASE = import.meta.env.BASE_URL || './';
+
+/**
+ * Build a full URL to a data or image asset.
+ * Usage: getDataUrl('data/index.json')  ->  '/scicover/data/index.json'
+ *        getDataUrl('images/science/...')  ->  '/scicover/images/science/...'
+ */
+export function getDataUrl(relativePath: string): string {
+  const base = BASE.endsWith('/') ? BASE : `${BASE}/`;
+  const path = relativePath.startsWith('/') ? relativePath.slice(1) : relativePath;
+  return `${base}${path}`;
+}
 
 export const SITE_NAME = 'SciCover';
 export const SITE_TAGLINE_ZH = '全球顶级科学期刊封面故事 · 双语解读';

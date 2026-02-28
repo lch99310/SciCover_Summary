@@ -1,12 +1,12 @@
 import { useQuery } from '@tanstack/react-query';
 import type { ArticleIndex, ArticleDetail } from '../lib/types';
-import { DATA_BASE_URL } from '../lib/constants';
+import { getDataUrl } from '../lib/constants';
 
 export function useArticleIndex() {
   return useQuery<ArticleIndex>({
     queryKey: ['article-index'],
     queryFn: async () => {
-      const res = await fetch(`${DATA_BASE_URL}/data/index.json`);
+      const res = await fetch(getDataUrl('data/index.json'));
       if (!res.ok) throw new Error('Failed to load article index');
       return res.json();
     },
@@ -22,7 +22,7 @@ export function useArticle(id: string | undefined) {
     queryKey: ['article', id],
     queryFn: async () => {
       if (!entry) throw new Error('Article not found in index');
-      const res = await fetch(`${DATA_BASE_URL}/data/${entry.path}`);
+      const res = await fetch(getDataUrl(`data/${entry.path}`));
       if (!res.ok) throw new Error('Failed to load article');
       return res.json();
     },

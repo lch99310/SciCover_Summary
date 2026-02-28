@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ArticleIndexEntry } from '../../lib/types';
-import { JOURNAL_RAW_COLORS } from '../../lib/constants';
+import { JOURNAL_RAW_COLORS, getDataUrl } from '../../lib/constants';
 import type { JournalName } from '../../lib/types';
 import { format } from 'date-fns';
 import { motion } from 'framer-motion';
@@ -17,7 +17,7 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
 
   // Build a cover image path from the article id
   const journalSlug = article.journal.toLowerCase();
-  const coverImageUrl = `images/${journalSlug}/${article.id}-cover.jpg`;
+  const coverImageUrl = getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
 
   return (
     <motion.div
