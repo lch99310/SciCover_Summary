@@ -1,0 +1,44 @@
+name: Scrape & Summarise Cover Stories
+
+on:
+  schedule:
+    - cron: "0 6 * * 6"          # Every Saturday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write                  # push data/ and images/ back to repo
+
+jobs:
+  scrape-and-summarize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run scrape-and-summarise pipeline
+        run: python -m scripts.main --journal all
+        env:
+          GITHUB_TOKEN: ${{ secrets.MODELS_PAT }}
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "SciCover Bot"
+          git config user.email "scicover-bot@users.noreply.github.com"
+          git add data/ images/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update cover-story data [skip ci]"
+            git push
+          fi
