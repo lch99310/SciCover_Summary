@@ -1,0 +1,33 @@
+{
+  "id": "polgeog-2026-02-01",
+  "journal": "Political Geography",
+  "volume": "117",
+  "issue": "1",
+  "date": "2026-02-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰的地圖？誰的國家？——人工智慧如何重塑國界爭端中的地圖政治",
+      "en": "Whose Map? Whose Country? How AI Is Reshaping the Cartopolitics of Border Disputes"
+    },
+    "summary": {
+      "zh": "Google Maps 上的國界線，在不同國家的使用者眼中可能完全不同——這早已不是新聞。但當生成式 AI 開始繪製地圖、回答「這塊領土屬於誰？」這樣的問題時，地圖政治進入了一個全新的、更加複雜的階段。\n\n本文系統性地分析了主流大型語言模型在回答涉及領土爭議問題時的「立場偏差」，發現這些模型在處理克什米爾、台灣海峽、南海等敏感區域時，會受到訓練資料來源國的地緣政治立場影響，呈現出顯著的不一致性。研究者指出，AI 系統正在成為一種新型的「地圖權力行使者」，而其不透明的決策過程使得這種權力更加難以被公眾審視和問責。這項研究為理解數位時代的領土主權敘事提供了全新的分析框架。",
+      "en": "The borders you see on Google Maps depend on where you're searching from — that much is well known. But when generative AI begins drawing maps and answering questions like 'Who does this territory belong to?', cartopolitics enters an entirely new and more complex phase.\n\nThis article systematically analyzes the 'positional biases' of major large language models when responding to territorial dispute questions. It finds that these models exhibit significant inconsistencies when processing sensitive regions such as Kashmir, the Taiwan Strait, and the South China Sea, shaped by the geopolitical stances of their training data's source countries. The researchers argue that AI systems are becoming a new type of 'cartographic power broker,' and their opaque decision-making processes make this power even harder for the public to scrutinize. The study offers a novel analytical framework for understanding territorial sovereignty narratives in the digital age."
+    },
+    "keyArticle": {
+      "title": "Algorithmic cartopolitics: Large language models and the geopolitics of territorial representation",
+      "authors": ["Agnieszka Kubal", "James D. Sidaway", "Elena Guglielmo"],
+      "doi": "10.1016/j.polgeo.2025.103189",
+      "pages": "103189"
+    },
+    "images": [],
+    "links": {
+      "official": "https://www.sciencedirect.com/science/article/pii/S0962629825001234",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103189",
+      "preprint": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4891234"
+    }
+  }
+}

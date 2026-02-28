@@ -38,7 +38,13 @@ export interface CoverStory {
   links: ArticleLinks;
 }
 
-export type JournalName = 'Science' | 'Nature' | 'Cell';
+export type JournalName =
+  | 'Science'
+  | 'Nature'
+  | 'Cell'
+  | 'Political Geography'
+  | 'International Organization'
+  | 'American Sociological Review';
 
 export interface ArticleDetail {
   id: string;
@@ -69,4 +75,7 @@ export interface LatestArticles {
   Science: string;
   Nature: string;
   Cell: string;
+  'Political Geography': string;
+  'International Organization': string;
+  'American Sociological Review': string;
 }

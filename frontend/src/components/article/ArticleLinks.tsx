@@ -7,6 +7,18 @@ interface ArticleLinksProps {
   links: ArticleLinks;
 }
 
+/**
+ * Detect preprint platform from URL and return a display label.
+ */
+function getPreprintLabel(url: string): string {
+  if (url.includes('arxiv.org')) return 'arXiv 預印本';
+  if (url.includes('biorxiv.org')) return 'bioRxiv 預印本';
+  if (url.includes('ssrn.com')) return 'SSRN 預印本';
+  if (url.includes('socarxiv') || url.includes('socopen.org')) return 'SocArXiv 預印本';
+  if (url.includes('osf.io')) return 'OSF 預印本';
+  return '預印本';
+}
+
 export function ArticleLinksSection({ keyArticle, links }: ArticleLinksProps) {
   const [showToast, setShowToast] = useState(false);
 
@@ -14,6 +26,8 @@ export function ArticleLinksSection({ keyArticle, links }: ArticleLinksProps) {
     setShowToast(true);
     setTimeout(() => setShowToast(false), 2500);
   };
+
+  const preprintLabel = links.preprint ? getPreprintLabel(links.preprint) : '預印本';
 
   return (
     <div className="article-links">
@@ -71,7 +85,7 @@ export function ArticleLinksSection({ keyArticle, links }: ArticleLinksProps) {
               <line x1="16" y1="17" x2="8" y2="17" />
               <polyline points="10 9 9 9 8 9" />
             </svg>
-            arXiv / bioRxiv 預印本
+            {preprintLabel}
           </a>
         ) : (
           <button
@@ -87,7 +101,7 @@ export function ArticleLinksSection({ keyArticle, links }: ArticleLinksProps) {
               <line x1="16" y1="17" x2="8" y2="17" />
               <polyline points="10 9 9 9 8 9" />
             </svg>
-            arXiv / bioRxiv 預印本
+            預印本
           </button>
         )}
       </div>

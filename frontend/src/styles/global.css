@@ -51,10 +51,15 @@
   --transition-base: 200ms ease;
   --transition-slow: 300ms ease;
 
-  /* Journal Colors */
+  /* Journal Colors — Natural Sciences */
   --color-science: #B8271F;
   --color-nature: #0D7EB5;
   --color-cell: #2E7D32;
+
+  /* Journal Colors — Social Sciences */
+  --color-polgeog: #8B5CF6;
+  --color-intorg: #D97706;
+  --color-asr: #0891B2;
 
   /* Accent */
   --color-accent: #D4620A;
@@ -253,6 +258,9 @@ button {
 .badge--science { background-color: var(--color-science); }
 .badge--nature { background-color: var(--color-nature); }
 .badge--cell { background-color: var(--color-cell); }
+.badge--political-geography { background-color: var(--color-polgeog); }
+.badge--international-organization { background-color: var(--color-intorg); }
+.badge--american-sociological-review { background-color: var(--color-asr); }
 
 /* ============================================
    Responsive

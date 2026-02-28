@@ -8,14 +8,15 @@ export function Footer() {
         <div className="footer__brand">
           <span className="footer__name">{SITE_NAME}</span>
           <span className="footer__tagline">
-            AI 驅動的雙語科學期刊封面故事摘要平台
+            AI 驅動的雙語學術期刊封面故事摘要平台
           </span>
         </div>
 
         <div className="footer__intro">
           <p className="footer__intro-text" lang="zh-Hant">
             本站透過人工智慧技術，自動擷取並翻譯 Science、Nature、Cell
-            等國際頂尖科學期刊的每期封面故事，以中英雙語呈現研究摘要，旨在協助中文讀者快速掌握全球最新科學進展。
+            等自然科學期刊以及 Political Geography、International Organization、American Sociological Review
+            等社會科學期刊的最新研究，以中英雙語呈現研究摘要，旨在協助讀者快速掌握全球學術前沿進展。
           </p>
           <p className="footer__intro-text" lang="zh-Hant">
             所有摘要內容均由 AI 自動生成，僅供教育與資訊參考用途，不構成任何學術引用依據。
@@ -23,10 +24,11 @@ export function Footer() {
             如需引用，請以各期刊官方發表版本為準。
           </p>
           <p className="footer__intro-text" lang="en">
-            This site uses artificial intelligence to automatically extract and translate cover stories
-            from leading international science journals including Science, Nature, and Cell, presenting
+            This site uses artificial intelligence to automatically extract and translate featured articles
+            from leading natural-science journals (Science, Nature, Cell) and social-science journals
+            (Political Geography, International Organization, American Sociological Review), presenting
             bilingual (Chinese/English) research summaries to help readers stay up to date with the
-            latest scientific advances.
+            latest academic advances.
           </p>
           <p className="footer__intro-text" lang="en">
             All summaries are AI-generated and intended solely for educational and informational purposes.

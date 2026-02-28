@@ -4,18 +4,27 @@ export const JOURNALS: { name: JournalName; color: string; label: string }[] = [
   { name: 'Science', color: 'var(--color-science)', label: 'Science' },
   { name: 'Nature', color: 'var(--color-nature)', label: 'Nature' },
   { name: 'Cell', color: 'var(--color-cell)', label: 'Cell' },
+  { name: 'Political Geography', color: 'var(--color-polgeog)', label: 'Pol. Geog.' },
+  { name: 'International Organization', color: 'var(--color-intorg)', label: 'Int. Org.' },
+  { name: 'American Sociological Review', color: 'var(--color-asr)', label: 'ASR' },
 ];
 
 export const JOURNAL_COLORS: Record<JournalName, string> = {
   Science: 'var(--color-science)',
   Nature: 'var(--color-nature)',
   Cell: 'var(--color-cell)',
+  'Political Geography': 'var(--color-polgeog)',
+  'International Organization': 'var(--color-intorg)',
+  'American Sociological Review': 'var(--color-asr)',
 };
 
 export const JOURNAL_RAW_COLORS: Record<JournalName, string> = {
   Science: '#B8271F',
   Nature: '#0D7EB5',
   Cell: '#2E7D32',
+  'Political Geography': '#8B5CF6',
+  'International Organization': '#D97706',
+  'American Sociological Review': '#0891B2',
 };
 
 /**
@@ -41,5 +50,5 @@ export function getDataUrl(relativePath: string): string {
 }
 
 export const SITE_NAME = 'SciCover Summary';
-export const SITE_TAGLINE_ZH = '全球頂級科學期刊封面故事 · 雙語解讀';
-export const SITE_TAGLINE_EN = 'Top Science Journal Cover Stories · Bilingual Summaries';
+export const SITE_TAGLINE_ZH = '頂級學術期刊封面故事 · 雙語解讀';
+export const SITE_TAGLINE_EN = 'Top Academic Journal Cover Stories · Bilingual Summaries';

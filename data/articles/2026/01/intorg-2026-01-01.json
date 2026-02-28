@@ -1,0 +1,33 @@
+{
+  "id": "intorg-2026-01-01",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當制裁成為武器：金融戰爭如何重塑全球貨幣體系的信任基礎",
+      "en": "When Sanctions Become Weapons: How Financial Warfare Is Reshaping Trust in the Global Monetary System"
+    },
+    "summary": {
+      "zh": "2022 年俄烏衝突爆發後，西方國家凍結了俄羅斯央行超過 3,000 億美元的外匯儲備——這一史無前例的舉措震動了全球金融體系。對許多國家而言，這引發了一個根本性問題：如果主權財富隨時可能被凍結，美元主導的國際貨幣秩序還值得信任嗎？\n\n本文利用 2015—2025 年間 142 個國家央行的外匯儲備配置數據，結合事件研究法和差異中之差異模型，量化分析了金融制裁對全球「去美元化」趨勢的因果效應。研究發現，受到制裁威脅程度較高的國家，在凍結事件後顯著加速了向人民幣、黃金等替代資產的配置轉移。但這種轉移並非簡單的「棄美元、擁人民幣」，而是呈現出更為複雜的多元化模式。文章最後警告，制裁武器化正在侵蝕國際貨幣體系賴以運作的制度信任基礎，其長期後果可能遠超決策者的預期。",
+      "en": "When Western nations froze over $300 billion of Russia's central bank reserves after the 2022 invasion of Ukraine, the unprecedented move sent shockwaves through the global financial system. For many countries, it raised a fundamental question: if sovereign wealth can be frozen at will, can the dollar-dominated international monetary order still be trusted?\n\nUsing foreign reserve allocation data from 142 central banks between 2015 and 2025, combined with event study and difference-in-differences models, this article quantifies the causal effect of financial sanctions on the global 'de-dollarization' trend. Countries facing higher sanctions risk significantly accelerated their shift toward alternative assets — renminbi, gold, and diversified currency baskets — following the freeze. But the shift is not a simple pivot from dollars to yuan; it reveals a more complex pattern of portfolio diversification. The paper warns that the weaponization of sanctions is eroding the institutional trust on which the international monetary system depends, with long-term consequences that may far exceed policymakers' expectations."
+    },
+    "keyArticle": {
+      "title": "Sanctions, sovereign risk, and the fragmentation of global reserve currencies",
+      "authors": ["Hélène Rey", "Matteo Maggiori", "Jesse Schreger", "Zhengyang Jiang"],
+      "doi": "10.1017/S0020818325000123",
+      "pages": "1-38"
+    },
+    "images": [],
+    "links": {
+      "official": "https://www.cambridge.org/core/journals/international-organization/article/sanctions-sovereign-risk-and-the-fragmentation-of-global-reserve-currencies/ABC123DEF456",
+      "doi": "https://doi.org/10.1017/S0020818325000123",
+      "preprint": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4567890"
+    }
+  }
+}

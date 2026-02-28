@@ -60,6 +60,8 @@ def _build_parser() -> argparse.ArgumentParser:
         metavar="NAME",
         help=(
             "Journal to process.  Accepted values: Science, Nature, Cell, "
+            "'Political Geography' (or polgeog), 'International Organization' "
+            "(or intorg), 'American Sociological Review' (or asr), "
             "or 'all' (default).  May be specified multiple times, e.g. "
             "--journal Science --journal Nature."
         ),

@@ -26,7 +26,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Type
 
-from ..scraper import ALL_SCRAPERS, ScienceScraper, NatureScraper, CellScraper
+from ..scraper import (
+    ALL_SCRAPERS,
+    ScienceScraper, NatureScraper, CellScraper,
+    PolGeogScraper, IntOrgScraper, ASRScraper,
+)
 from ..scraper.base import BaseScraper, CoverArticleRaw
 from ..ai.summarizer import BilingualSummarizer
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
@@ -49,6 +53,12 @@ SCRAPER_MAP: Dict[str, Type[BaseScraper]] = {
     "science": ScienceScraper,
     "nature": NatureScraper,
     "cell": CellScraper,
+    "political geography": PolGeogScraper,
+    "polgeog": PolGeogScraper,
+    "international organization": IntOrgScraper,
+    "intorg": IntOrgScraper,
+    "american sociological review": ASRScraper,
+    "asr": ASRScraper,
 }
 
 

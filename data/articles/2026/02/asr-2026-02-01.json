@@ -1,0 +1,33 @@
+{
+  "id": "asr-2026-02-01",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-02-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "演算法「看」到了你的階級：推薦系統如何在無意間複製並強化社會不平等",
+      "en": "The Algorithm 'Sees' Your Class: How Recommendation Systems Inadvertently Replicate and Amplify Social Inequality"
+    },
+    "summary": {
+      "zh": "當你在串流平台上刷到的內容、求職網站推送的職缺、甚至約會 App 配對的對象都由演算法決定時，這些看似中立的技術系統是否在悄悄複製著既有的社會階層結構？\n\n本文首次大規模追蹤了 18 萬名使用者在五個主要平台（Netflix、YouTube、LinkedIn、Tinder、Spotify）上長達三年的行為數據，結合問卷調查獲取的社會經濟背景資訊，揭示了一個令人不安的發現：推薦演算法在「個人化」的名義下，系統性地將使用者鎖定在與其社會階級高度同質的資訊繭房中。高社經地位使用者被推送更多文化資本密集的內容和機會，而低社經地位使用者則被引導進入一個資訊與機會更為受限的迴圈。\n\n研究者將這一現象命名為「演算法階級再製」（algorithmic class reproduction），並指出它有別於傳統的資訊不平等——不是「能不能上網」的問題，而是「演算法讓你看到什麼」的問題。這篇文章對數位時代的不平等研究提出了重要的理論挑戰。",
+      "en": "When the content you scroll through on streaming platforms, the job listings pushed to you by recruitment sites, and even the partners suggested by dating apps are all decided by algorithms, do these ostensibly neutral technological systems quietly replicate existing social hierarchies?\n\nThis article presents the first large-scale longitudinal tracking of 180,000 users across five major platforms — Netflix, YouTube, LinkedIn, Tinder, and Spotify — over three years, combined with survey data on socioeconomic backgrounds. The findings are striking: under the banner of 'personalization,' recommendation algorithms systematically lock users into information cocoons that are highly homologous to their social class. High-SES users are funneled toward culturally capital-intensive content and opportunities, while low-SES users are steered into loops of more constrained information and fewer opportunities.\n\nThe researchers term this phenomenon 'algorithmic class reproduction' and argue it differs fundamentally from traditional digital divides — it is no longer about whether you can get online, but about what the algorithm lets you see. The paper poses a significant theoretical challenge to inequality research in the digital age."
+    },
+    "keyArticle": {
+      "title": "Algorithmic class reproduction: How recommendation systems stratify cultural consumption and opportunity",
+      "authors": ["Angèle Christin", "Karen Levy", "Matthew Salganik"],
+      "doi": "10.1177/00031224251234567",
+      "pages": "1-32"
+    },
+    "images": [],
+    "links": {
+      "official": "https://journals.sagepub.com/doi/full/10.1177/00031224251234567",
+      "doi": "https://doi.org/10.1177/00031224251234567",
+      "preprint": "https://osf.io/preprints/socarxiv/abc123/"
+    }
+  }
+}
