@@ -46,7 +46,7 @@ AI 生成的摘要不是逐字翻譯，而是面向大眾的「意譯式改寫�
 
 部署後的網址格式：
 ```
-https://<你的GitHub帳號>.github.io/<repo名稱>/
+[SciCover_Summary](https://lch99310.github.io/SciCover_Summary/)
 ```
 
 ---
