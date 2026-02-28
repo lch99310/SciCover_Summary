@@ -1,0 +1,19 @@
+.article-grid__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-8);
+}
+
+.article-grid__empty {
+  text-align: center;
+  padding: var(--space-16) 0;
+  color: var(--color-text-tertiary);
+  font-size: var(--text-lg);
+}
+
+@media (max-width: 768px) {
+  .article-grid__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+}

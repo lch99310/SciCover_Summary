@@ -1,0 +1,40 @@
+{
+  "id": "cell-2026-02-19",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-02-19",
+  "coverImage": {
+    "url": "images/cell/cell-2026-02-19-cover.jpg",
+    "credit": "Giselle McCallum"
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肠道里的「哨兵」：工程化共生菌成为体内实时健康传感器",
+      "en": "Sentinels in the Gut: Engineered Commensal Bacteria Become Real-Time Health Sensors"
+    },
+    "summary": {
+      "zh": "如果肠道中的常驻细菌能像哨兵一样，实时报告消化系统的健康状况，会怎样？这不再是科幻设想。McCallum、Burckhardt 和 He 等人开发了一套模块化的合成生物学工具包，能够在人类肠道中最丰富的共生菌之一——多形拟杆菌（Bacteroides thetaiotaomicron）中实现基于荧光的转录报告系统。\n\n利用这套工具，他们构建了一种渗透压生物传感器，能够检测到与肠道吸收不良相关的渗透压变化。本期封面展示的荧光显微图片，正是这种工程化传感菌株在小鼠结肠中的实际工作画面——它们如同微型探针，在肠道深处默默监测着那些传统临床手段难以捕捉的亚临床生理变化。这项工作为将共生菌转化为体内原位报告器奠定了重要基础。",
+      "en": "What if the bacteria already living in your gut could act as sentinels, reporting on digestive health in real time? That scenario is now a step closer to reality. McCallum, Burckhardt, He and colleagues have built a modular synthetic-biology toolkit that enables fluorescence-based transcriptional reporting inside Bacteroides thetaiotaomicron, one of the most abundant commensal species in the human gut.\n\nUsing this system, they engineered osmolality biosensors that detect changes associated with intestinal malabsorption. The striking fluorescence micrograph on this issue's cover shows the engineered biosensor strain at work inside the mouse colon — tiny probes deep in the gut silently monitoring subclinical physiological shifts that conventional clinical methods struggle to catch. The work lays a critical foundation for turning commensal bacteria into in-situ reporters of dynamic gut physiology."
+    },
+    "keyArticle": {
+      "title": "A Bacteroides synthetic biology toolkit to build an in vivo malabsorption biosensor",
+      "authors": ["Giselle McCallum", "Juan C. Burckhardt", "Jerry He", "Alice Hong", "Laurent Potvin-Trottier", "Carolina Tropini"],
+      "doi": "10.1016/j.cell.2025.01501",
+      "pages": ""
+    },
+    "images": [
+      {
+        "url": "images/cell/cell-2026-02-19-cover.jpg",
+        "caption": {
+          "zh": "工程化传感菌株在小鼠结肠中的荧光显微图像——共生菌被改造为能够实时检测肠道渗透压变化的活体生物传感器。",
+          "en": "Fluorescent micrograph of the engineered biosensor strain in the mouse colon — commensal bacteria reprogrammed to detect osmolality changes in the living gut in real time."
+        }
+      }
+    ],
+    "links": {
+      "official": "https://www.cell.com/cell/fulltext/S0092-8674(25)01501-6",
+      "doi": "https://doi.org/10.1016/j.cell.2025.01501"
+    }
+  }
+}

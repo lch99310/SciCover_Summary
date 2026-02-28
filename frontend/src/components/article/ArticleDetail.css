@@ -1,0 +1,72 @@
+.article-detail {
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-16);
+}
+
+.article-detail__header {
+  margin-bottom: var(--space-8);
+}
+
+.article-detail__back-link {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  margin-bottom: var(--space-6);
+  transition: color var(--transition-fast);
+}
+
+.article-detail__back-link:hover {
+  color: var(--color-accent);
+}
+
+.article-detail__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.article-detail__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: white;
+}
+
+.article-detail__info {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.article-detail__date {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+}
+
+.article-detail__error {
+  padding: var(--space-20) 0;
+  text-align: center;
+}
+
+.article-detail__error h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: var(--text-2xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+}
+
+.article-detail__error p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-6);
+}

@@ -1,0 +1,40 @@
+{
+  "id": "science-2026-02-26",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6788",
+  "date": "2026-02-26",
+  "coverImage": {
+    "url": "images/science/science-2026-02-26-cover.jpg",
+    "credit": "NASA, CXC, IfA, NRAO, STScI"
+  },
+  "coverStory": {
+    "title": {
+      "zh": "摇摆的星系喷流：超大质量黑洞如何改写恒星的命运",
+      "en": "A Wobbling Galactic Jet: How Supermassive Black Holes Rewrite the Fate of Stars"
+    },
+    "summary": {
+      "zh": "在距离地球约四亿五千万光年之外，一对名为 VV 340 的交互星系正上演着一场宇宙级的拉锯战。科学家利用多波段观测——从X射线到可见光——揭示了上方的边缘星系 VV 340a 内部隐藏着一个惊人秘密：一道由超大质量黑洞驱动的等离子体喷流正在剧烈进动，如同宇宙中的消防水管般来回摆动。\n\n这道喷流不仅仅是壮观的天文奇观，更是一台强大的「恒星形成调节器」——它驱动大规模气体外流，直接影响着星系中用以孕育新恒星的气体储备。这一发现为理解星系演化中「活跃星系核反馈」这一关键过程提供了迄今最清晰的直接证据，也解释了为何宇宙学模拟必须引入这种反馈机制，才能重现我们所观测到的大质量星系特性。",
+      "en": "Some 450 million light-years away, a pair of interacting galaxies called VV 340 is staging a cosmic tug-of-war. Using observations spanning X-ray to visible wavelengths, researchers have uncovered a startling secret inside VV 340a, the edge-on spiral at the top of the pair: a jet of plasma, launched by a supermassive black hole, is precessing wildly — swaying back and forth like a cosmic fire hose.\n\nFar from being mere spectacle, this wobbling jet acts as a powerful regulator of star formation. It drives vast outflows of gas from the galaxy, directly depleting the reservoir from which new stars are born. The discovery offers the clearest direct evidence yet for 'active galactic nucleus feedback' — the process cosmological simulations must invoke to reproduce the observed properties of massive galaxies. It answers a long-standing question: how do black holes, tiny compared to their host galaxies, manage to shape the evolution of structures millions of times their size?"
+    },
+    "keyArticle": {
+      "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+      "authors": ["Justin A. Kader", "Vivian U", "Loreto Barcos-Muñoz", "George C. Privon", "Yiqing Song"],
+      "doi": "10.1126/science.adp8989",
+      "pages": "911-916"
+    },
+    "images": [
+      {
+        "url": "images/science/science-2026-02-26-cover.jpg",
+        "caption": {
+          "zh": "VV 340 交互星系的多波段合成影像：紫色为X射线，红绿蓝为不同可见光波段。上方的边缘星系 VV 340a 内部隐藏着一道剧烈进动的星系级等离子体喷流。",
+          "en": "Multi-wavelength composite of the interacting galaxies VV 340: purple shows X-rays, red/green/blue represent different optical wavelengths. The edge-on spiral VV 340a (top) harbors a violently precessing galactic-scale plasma jet."
+        }
+      }
+    ],
+    "links": {
+      "official": "https://www.science.org/doi/10.1126/science.adp8989",
+      "doi": "https://doi.org/10.1126/science.adp8989"
+    }
+  }
+}

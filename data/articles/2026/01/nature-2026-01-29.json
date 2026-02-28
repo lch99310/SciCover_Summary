@@ -1,0 +1,40 @@
+{
+  "id": "nature-2026-01-29",
+  "journal": "Nature",
+  "volume": "649",
+  "issue": "8099",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "images/nature/nature-2026-01-29-cover.jpg",
+    "credit": "Caltech / MIT LIGO Laboratory"
+  },
+  "coverStory": {
+    "title": {
+      "zh": "引力波「听」到了中子星合并后的新生黑洞在「鸣响」",
+      "en": "Gravitational Waves 'Hear' a Newborn Black Hole Ringing After Neutron Star Merger"
+    },
+    "summary": {
+      "zh": "当两颗中子星在宇宙深处猛烈碰撞、合并成一个新生黑洞时，这个刚刚诞生的天体并不「安静」——它会像一口被敲响的大钟那样振荡，向外辐射特定频率的引力波。这种信号在广义相对论中被称为「准正则模」（quasinormal modes），是验证黑洞无毛定理的关键证据。\n\n本期 Nature 封面报道了 LIGO-Virgo-KAGRA 联合团队的一项突破：他们在引力波事件 GW230529 的数据中首次清晰地检测到了合并后「鸣响」阶段的信号。分析表明，这一信号与广义相对论的预测高度吻合。这是人类首次直接聆听到新生黑洞振荡的「余音」，为黑洞物理和强引力场检验开启了全新窗口。",
+      "en": "When two neutron stars collide and merge into a newborn black hole deep in space, the freshly formed object doesn't settle quietly. It rings like a struck bell, radiating gravitational waves at specific frequencies. These signals, known as 'quasinormal modes' in general relativity, are a key test of the no-hair theorem — the idea that black holes are fully described by just mass and spin.\n\nThis week's Nature cover reports a breakthrough from the LIGO-Virgo-KAGRA collaboration: in gravitational-wave event GW230529, the team has detected, for the first time with high confidence, the post-merger 'ringdown' signal. The measured frequencies match general relativity's predictions with striking precision. It marks the first time scientists have directly listened to the reverberating afterglow of a newborn black hole — opening an entirely new window onto black-hole physics and strong-field gravity."
+    },
+    "keyArticle": {
+      "title": "Detection of quasinormal modes from a neutron star merger remnant",
+      "authors": ["LIGO-Virgo-KAGRA Collaboration"],
+      "doi": "10.1038/s41586-026-09815-w",
+      "pages": ""
+    },
+    "images": [
+      {
+        "url": "images/nature/nature-2026-01-29-cover.jpg",
+        "caption": {
+          "zh": "艺术概念图：两颗中子星合并后形成的新生黑洞正在「鸣响」——向外辐射引力波准正则模信号。",
+          "en": "Artist's concept of a newborn black hole 'ringing' after a neutron star merger, radiating gravitational-wave quasinormal mode signals."
+        }
+      }
+    ],
+    "links": {
+      "official": "https://www.nature.com/articles/s41586-026-09815-w",
+      "doi": "https://doi.org/10.1038/s41586-026-09815-w"
+    }
+  }
+}

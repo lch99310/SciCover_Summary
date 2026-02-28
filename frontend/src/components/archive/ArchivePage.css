@@ -1,0 +1,123 @@
+.archive-page {
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-16);
+}
+
+.archive-page__header {
+  margin-bottom: var(--space-10);
+}
+
+.archive-page__back {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  margin-bottom: var(--space-6);
+  transition: color var(--transition-fast);
+}
+
+.archive-page__back:hover {
+  color: var(--color-accent);
+}
+
+.archive-page__title {
+  font-size: var(--text-4xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.archive-page__subtitle {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+}
+
+.archive-page__nav {
+  margin-bottom: var(--space-10);
+}
+
+.archive-nav__years {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.archive-nav__year-btn {
+  padding: var(--space-2) var(--space-5);
+  border-radius: var(--radius-full);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  border: 1px solid var(--color-border);
+}
+
+.archive-nav__year-btn:hover {
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+}
+
+.archive-nav__year-btn--active {
+  background-color: var(--color-text-primary);
+  color: var(--color-text-inverse);
+  border-color: var(--color-text-primary);
+}
+
+.archive-nav__year-btn--active:hover {
+  color: var(--color-text-inverse);
+}
+
+.archive-nav__months {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--space-2);
+}
+
+.archive-nav__month-btn {
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.archive-nav__month-btn:hover:not(:disabled) {
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+}
+
+.archive-nav__month-btn--active {
+  background-color: var(--color-accent);
+  color: white;
+  border-color: var(--color-accent);
+}
+
+.archive-nav__month-btn--active:hover {
+  color: white;
+}
+
+.archive-nav__month-btn--disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .archive-nav__months {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .archive-nav__months {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
