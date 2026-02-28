@@ -2,16 +2,26 @@ name: Scrape & Summarise Cover Stories
 
 on:
   schedule:
-    - cron: "0 6 * * 6"          # Every Saturday 06:00 UTC
+    # Natural-science journals (weekly issues): every Saturday 06:00 UTC
+    - cron: "0 6 * * 6"
+    # Social-science journals (bimonthly/quarterly): 1st and 15th of each month 06:00 UTC
+    - cron: "0 6 1,15 * *"
   workflow_dispatch:
+    inputs:
+      journals:
+        description: "Journals to scrape (comma-separated, or 'all')"
+        required: false
+        default: "all"
 
 permissions:
   contents: write                  # push data/ and images/ back to repo
 
 jobs:
-  scrape-and-summarize:
+  scrape-natural-science:
+    # Runs weekly on Saturday — handles Science, Nature, Cell
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    if: github.event.schedule == '0 6 * * 6' || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout repository
@@ -27,8 +37,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run scrape-and-summarise pipeline
-        run: python -m scripts.main --journal all
+      - name: Scrape natural-science journals
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            JOURNALS="${{ github.event.inputs.journals }}"
+            if [ "$JOURNALS" = "all" ] || [ -z "$JOURNALS" ]; then
+              python -m scripts.main --journal all
+            else
+              # Convert comma-separated to --journal flags
+              IFS=',' read -ra NAMES <<< "$JOURNALS"
+              ARGS=""
+              for name in "${NAMES[@]}"; do
+                ARGS="$ARGS --journal $(echo $name | xargs)"
+              done
+              python -m scripts.main $ARGS
+            fi
+          else
+            python -m scripts.main --journal Science --journal Nature --journal Cell
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.MODELS_PAT }}
         continue-on-error: true
@@ -41,6 +67,59 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update cover-story data [skip ci]"
+            git commit -m "chore: update natural-science cover-story data [skip ci]"
+            git push
+          fi
+
+  scrape-social-science:
+    # Runs twice monthly (1st and 15th) — handles Political Geography, International Organization, ASR
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.event.schedule == '0 6 1,15 * *' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scrape social-science journals
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            JOURNALS="${{ github.event.inputs.journals }}"
+            if [ "$JOURNALS" = "all" ] || [ -z "$JOURNALS" ]; then
+              python -m scripts.main --journal all
+            else
+              IFS=',' read -ra NAMES <<< "$JOURNALS"
+              ARGS=""
+              for name in "${NAMES[@]}"; do
+                ARGS="$ARGS --journal $(echo $name | xargs)"
+              done
+              python -m scripts.main $ARGS
+            fi
+          else
+            python -m scripts.main --journal polgeog --journal intorg --journal asr
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.MODELS_PAT }}
+        continue-on-error: true
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "SciCover Bot"
+          git config user.email "scicover-bot@users.noreply.github.com"
+          git add data/ images/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update social-science cover-story data [skip ci]"
             git push
           fi
