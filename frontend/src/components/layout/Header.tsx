@@ -27,7 +27,7 @@ export function Header({ theme, onToggleTheme }: HeaderProps) {
         </Link>
 
         <div className="header__actions">
-          <Link to="/archive" className="header__archive-link">歷史文章</Link>
+          <Link to="/archive" className="header__archive-link">歷史文章/Archive</Link>
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
         </div>
       </div>

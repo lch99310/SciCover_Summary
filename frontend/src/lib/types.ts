@@ -57,6 +57,7 @@ export interface ArticleIndexEntry {
   path: string;
   title_zh: string;
   title_en: string;
+  cover_url?: string;
 }
 
 export interface ArticleIndex {

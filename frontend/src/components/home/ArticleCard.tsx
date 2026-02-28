@@ -15,9 +15,12 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
   const journalColor = JOURNAL_RAW_COLORS[article.journal as JournalName] || '#666';
   const formattedDate = format(new Date(article.date), 'MMM d, yyyy');
 
-  // Build a cover image path from the article id
+  // Use the article's own cover_url if available; fall back to convention path
   const journalSlug = article.journal.toLowerCase();
-  const coverImageUrl = getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
+  const fallbackUrl = getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
+  const coverImageUrl = article.cover_url
+    ? getDataUrl(article.cover_url)
+    : fallbackUrl;
 
   return (
     <motion.div

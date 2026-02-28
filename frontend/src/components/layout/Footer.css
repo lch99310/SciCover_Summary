@@ -39,10 +39,17 @@
 }
 
 .footer__intro-text {
-  font-family: 'Noto Sans SC', 'Inter', sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-tertiary);
   line-height: 1.8;
+}
+
+.footer__intro-text[lang="zh-Hant"] {
+  font-family: 'Noto Sans SC', 'Inter', sans-serif;
+}
+
+.footer__intro-text[lang="en"] {
+  font-family: 'Inter', 'Source Serif 4', sans-serif;
 }
 
 .footer__meta {
@@ -51,25 +58,36 @@
   gap: var(--space-3);
 }
 
-.footer__links {
+.footer__credits {
   display: flex;
-  align-items: center;
-  gap: var(--space-2);
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.footer__credit-text {
   font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.footer__credit-text[lang="zh-Hant"] {
+  font-family: 'Noto Sans SC', 'Inter', sans-serif;
+}
+
+.footer__credit-text[lang="en"] {
+  font-family: 'Inter', sans-serif;
 }
 
 .footer__link {
   color: var(--color-text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .footer__link:hover {
   color: var(--color-accent);
 }
 
-.footer__separator {
-  color: var(--color-text-tertiary);
-}
-
 .footer__copyright {
+  font-size: var(--text-xs);
   color: var(--color-text-tertiary);
 }
