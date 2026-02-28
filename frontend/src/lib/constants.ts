@@ -27,15 +27,19 @@ const BASE = import.meta.env.BASE_URL || './';
 
 /**
  * Build a full URL to a data or image asset.
+ * If the path is already an absolute URL (https://...), return it as-is.
  * Usage: getDataUrl('data/index.json')  ->  '/scicover/data/index.json'
- *        getDataUrl('images/science/...')  ->  '/scicover/images/science/...'
+ *        getDataUrl('https://example.com/img.jpg')  ->  'https://example.com/img.jpg'
  */
 export function getDataUrl(relativePath: string): string {
+  if (relativePath.startsWith('http://') || relativePath.startsWith('https://')) {
+    return relativePath;
+  }
   const base = BASE.endsWith('/') ? BASE : `${BASE}/`;
   const path = relativePath.startsWith('/') ? relativePath.slice(1) : relativePath;
   return `${base}${path}`;
 }
 
-export const SITE_NAME = 'SciCover';
-export const SITE_TAGLINE_ZH = '全球顶级科学期刊封面故事 · 双语解读';
+export const SITE_NAME = 'SciCover Summary';
+export const SITE_TAGLINE_ZH = '全球頂級科學期刊封面故事 · 雙語解讀';
 export const SITE_TAGLINE_EN = 'Top Science Journal Cover Stories · Bilingual Summaries';

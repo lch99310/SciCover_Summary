@@ -55,10 +55,10 @@ export function ArchivePage() {
   return (
     <div className="archive-page">
       <div className="archive-page__header container">
-        <Link to="/" className="archive-page__back">&larr; Back to Home</Link>
-        <h1 className="archive-page__title heading-en">Archive</h1>
+        <Link to="/" className="archive-page__back">&larr; 回到首頁</Link>
+        <h1 className="archive-page__title heading-en">歷史文章</h1>
         <p className="archive-page__subtitle">
-          Browse past cover story summaries by date
+          依日期瀏覽過往封面故事摘要
         </p>
       </div>
 

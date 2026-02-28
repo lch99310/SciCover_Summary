@@ -23,7 +23,7 @@ export function FigureGallery({ images, credit }: FigureGalleryProps) {
             />
           </div>
           <figcaption className="figure-gallery__caption">
-            <p className="figure-gallery__caption-zh body-zh" lang="zh-Hans">
+            <p className="figure-gallery__caption-zh body-zh" lang="zh-Hant">
               {img.caption.zh}
             </p>
             <p className="figure-gallery__caption-en body-en" lang="en">

@@ -66,7 +66,7 @@ function HomePage() {
     return (
       <div className="container" style={{ padding: '4rem 1.5rem', textAlign: 'center' }}>
         <p style={{ color: 'var(--color-text-secondary)' }}>
-          Failed to load articles. Please check that data files are deployed correctly.
+          文章載入失敗，請確認資料檔案已正確部署。
         </p>
       </div>
     );
@@ -85,7 +85,6 @@ function HomePage() {
 
 function AppContent() {
   const { theme, toggleTheme } = useTheme();
-  const [activeJournal, setActiveJournal] = useState<JournalName | 'all'>('all');
 
   return (
     <HashRouter>
@@ -95,8 +94,6 @@ function AppContent() {
             <Layout
               theme={theme}
               onToggleTheme={toggleTheme}
-              activeJournal={activeJournal}
-              onJournalChange={setActiveJournal}
             />
           }
         >

@@ -18,9 +18,9 @@ export function ArticleDetail() {
   if (error || !article) {
     return (
       <div className="article-detail__error container reading-column">
-        <h2>Article not found</h2>
-        <p>The article you're looking for doesn't exist or failed to load.</p>
-        <Link to="/" className="article-detail__back-link">&larr; Back to Home</Link>
+        <h2>找不到文章</h2>
+        <p>您所尋找的文章不存在或載入失敗。</p>
+        <Link to="/" className="article-detail__back-link">&larr; 回到首頁</Link>
       </div>
     );
   }
@@ -37,7 +37,7 @@ export function ArticleDetail() {
       transition={{ duration: 0.4 }}
     >
       <div className="article-detail__header container reading-column">
-        <Link to="/" className="article-detail__back-link">&larr; Back to Home</Link>
+        <Link to="/" className="article-detail__back-link">&larr; 回到首頁</Link>
 
         <div className="article-detail__meta">
           <span

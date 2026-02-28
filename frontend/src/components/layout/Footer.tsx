@@ -8,14 +8,23 @@ export function Footer() {
         <div className="footer__brand">
           <span className="footer__name">{SITE_NAME}</span>
           <span className="footer__tagline">
-            AI-powered bilingual science journalism
+            AI 驅動的雙語科學期刊封面故事摘要平台
           </span>
         </div>
+
+        <div className="footer__intro">
+          <p className="footer__intro-text">
+            本站透過人工智慧技術，自動擷取並翻譯 Science、Nature、Cell
+            等國際頂尖科學期刊的每期封面故事，以中英雙語呈現研究摘要，旨在協助中文讀者快速掌握全球最新科學進展。
+          </p>
+          <p className="footer__intro-text">
+            所有摘要內容均由 AI 自動生成，僅供教育與資訊參考用途，不構成任何學術引用依據。
+            文章之著作權歸屬原出版機構與作者所有，本站不主張對原始論文內容之任何權利。
+            如需引用，請以各期刊官方發表版本為準。
+          </p>
+        </div>
+
         <div className="footer__meta">
-          <span className="footer__disclaimer">
-            Summaries are AI-generated for educational purposes.
-            Always refer to the original publications for authoritative content.
-          </span>
           <div className="footer__links">
             <a
               href="https://github.com"

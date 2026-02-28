@@ -34,7 +34,7 @@ export function HeroSection({ article }: HeroSectionProps) {
         </div>
         <h1 className="hero__title-zh heading-zh">{coverStory.title.zh}</h1>
         <h2 className="hero__title-en heading-en">{coverStory.title.en}</h2>
-        <span className="hero__cta">Read More &rarr;</span>
+        <span className="hero__cta">閱讀更多 &rarr;</span>
       </div>
     </Link>
   );

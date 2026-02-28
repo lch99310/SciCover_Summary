@@ -1,17 +1,14 @@
 import { Link } from 'react-router-dom';
-import { SITE_NAME, JOURNALS } from '../../lib/constants';
-import type { JournalName } from '../../lib/types';
+import { SITE_NAME } from '../../lib/constants';
 import { ThemeToggle } from '../ui/ThemeToggle';
 import './Header.css';
 
 interface HeaderProps {
-  activeJournal?: JournalName | 'all';
-  onJournalChange?: (journal: JournalName | 'all') => void;
   theme: 'light' | 'dark';
   onToggleTheme: () => void;
 }
 
-export function Header({ activeJournal, onJournalChange, theme, onToggleTheme }: HeaderProps) {
+export function Header({ theme, onToggleTheme }: HeaderProps) {
   return (
     <header className="header">
       <div className="header__inner container">
@@ -29,29 +26,8 @@ export function Header({ activeJournal, onJournalChange, theme, onToggleTheme }:
           <span className="header__logo-text">{SITE_NAME}</span>
         </Link>
 
-        {onJournalChange && (
-          <nav className="header__nav">
-            <button
-              className={`header__tab ${activeJournal === 'all' ? 'header__tab--active' : ''}`}
-              onClick={() => onJournalChange('all')}
-            >
-              All
-            </button>
-            {JOURNALS.map((j) => (
-              <button
-                key={j.name}
-                className={`header__tab ${activeJournal === j.name ? 'header__tab--active' : ''}`}
-                style={activeJournal === j.name ? { '--tab-color': j.color } as React.CSSProperties : undefined}
-                onClick={() => onJournalChange(j.name)}
-              >
-                {j.label}
-              </button>
-            ))}
-          </nav>
-        )}
-
         <div className="header__actions">
-          <Link to="/archive" className="header__archive-link">Archive</Link>
+          <Link to="/archive" className="header__archive-link">歷史文章</Link>
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
         </div>
       </div>

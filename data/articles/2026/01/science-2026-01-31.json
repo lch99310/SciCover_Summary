@@ -10,11 +10,11 @@
   },
   "coverStory": {
     "title": {
-      "zh": "人脑的「谷歌地图」：科学家首次绘制完整人类大脑细胞图谱",
+      "zh": "人腦的「Google 地圖」：科學家首次繪製完整人類大腦細胞圖譜",
       "en": "Google Maps for the Brain: Scientists Chart the First Complete Human Brain Cell Atlas"
     },
     "summary": {
-      "zh": "想象一下，如果有一天你能像浏览谷歌地图那样，逐个细胞地探索人类大脑——这正是 BRAIN Initiative Cell Atlas Network（BICAN）联盟的终极目标。在本期《科学》封面文章中，来自全球数十家机构的研究者联手发布了迄今最完整的人脑细胞类型目录。\n\n研究者利用单细胞RNA测序技术，对超过300万个脑细胞进行了系统分析，识别出了超过3000种不同的细胞亚型。这份图谱不仅揭示了人脑中惊人的细胞多样性，还发现了与精神分裂症、双相情感障碍、阿尔茨海默病等神经精神疾病风险基因高度相关的特定细胞群体——为理解和治疗这些疾病提供了全新的靶向线索。",
+      "zh": "想像一下，如果有一天你能像瀏覽 Google 地圖那樣，逐個細胞地探索人類大腦——這正是 BRAIN Initiative Cell Atlas Network（BICAN）聯盟的終極目標。在本期《Science》封面文章中，來自全球數十家機構的研究者聯手發布了迄今最完整的人腦細胞類型目錄。\n\n研究者利用單細胞 RNA 定序技術，對超過 300 萬個腦細胞進行了系統分析，識別出了超過 3,000 種不同的細胞亞型。這份圖譜不僅揭示了人腦中驚人的細胞多樣性，還發現了與思覺失調症、雙相情緒障礙症、阿茲海默症等神經精神疾病風險基因高度相關的特定細胞群體——為理解和治療這些疾病提供了全新的標靶線索。",
       "en": "Imagine browsing the human brain the way you browse Google Maps — zooming from hemisphere to lobe to individual cell. That ambition drives the BRAIN Initiative Cell Atlas Network (BICAN), and in this issue of Science, a global consortium takes a giant step toward making it real.\n\nUsing single-cell RNA sequencing on more than three million brain cells, the team has assembled the most complete catalog of human brain cell types to date, identifying over 3,000 distinct subtypes. The atlas doesn't merely showcase the brain's staggering cellular diversity; it also pinpoints specific cell populations that are tightly linked to risk genes for schizophrenia, bipolar disorder, and Alzheimer's disease — offering fresh targets for understanding and eventually treating these conditions."
     },
     "keyArticle": {
@@ -27,7 +27,7 @@
       {
         "url": "images/science/science-2026-01-31-cover.jpg",
         "caption": {
-          "zh": "人脑细胞图谱的三维可视化——不同颜色代表不同的细胞亚型，共超过3000种。",
+          "zh": "人腦細胞圖譜的三維視覺化——不同顏色代表不同的細胞亞型，共超過 3,000 種。",
           "en": "Three-dimensional visualization of the human brain cell atlas — different colors represent distinct cell subtypes, totaling over 3,000."
         }
       }

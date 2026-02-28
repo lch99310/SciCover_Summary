@@ -15,7 +15,7 @@ export function JournalTabs({ active, onChange }: JournalTabsProps) {
           className={`journal-tabs__tab ${active === 'all' ? 'journal-tabs__tab--active' : ''}`}
           onClick={() => onChange('all')}
         >
-          All Journals
+          所有期刊
         </button>
         {JOURNALS.map((j) => (
           <button

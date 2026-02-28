@@ -16,7 +16,7 @@ export function BilingualSummary({ title, summary, journalColor }: BilingualSumm
       >
         <span className="bilingual-summary__lang-label">中文</span>
         <h2 className="bilingual-summary__title-zh heading-zh">{title.zh}</h2>
-        <div className="bilingual-summary__body-zh body-zh" lang="zh-Hans">
+        <div className="bilingual-summary__body-zh body-zh" lang="zh-Hant">
           {summary.zh.split('\n\n').map((para, i) => (
             <p key={i}>{para}</p>
           ))}

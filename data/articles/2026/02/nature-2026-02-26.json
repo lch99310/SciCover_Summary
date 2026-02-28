@@ -5,16 +5,16 @@
   "issue": "8103",
   "date": "2026-02-26",
   "coverImage": {
-    "url": "images/nature/nature-2026-02-26-cover.jpg",
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10132-3/MediaObjects/41586_2026_10132_Fig1_HTML.png",
     "credit": "Adel Djellouli / Jackson Wilt"
   },
   "coverStory": {
     "title": {
-      "zh": "球鞋为什么会吱吱叫？物理学家解码了摩擦的「音乐」",
+      "zh": "球鞋為什麼會吱吱叫？物理學家解碼了摩擦的「音樂」",
       "en": "Why Do Sneakers Squeak? Physicists Decode the 'Music' of Friction"
     },
     "summary": {
-      "zh": "从生锈的门铰到自行车刹车，吱吱声是日常生活的背景音。然而，当柔软材料在坚硬表面上滑动时，声音究竟从何而来，科学界一直缺乏清晰的解释。哈佛大学的 Katia Bertoldi 团队通过高速摄影与声学分析给出了答案：当篮球鞋在光滑玻璃板上滑动时，鞋底与地板之间的摩擦会引发类似地震破裂的波状形变——一种「超音速开裂滑移脉冲」。\n\n这些脉冲以突发的方式在鞋底传播，而吱吱声的音调恰好对应脉冲突发的重复频率。更令人意想不到的是，当研究者用带有脊状结构的硅橡胶块替代球鞋进行实验时，发现脊状结构能将振动锁定在一个由橡胶块高度决定的特定自然频率上——精确到足以用调谐后的橡胶块「演奏」一首完整的乐曲。",
+      "zh": "從生鏽的門鉸到腳踏車煞車，吱吱聲是日常生活的背景音。然而，當柔軟材料在堅硬表面上滑動時，聲音究竟從何而來，科學界一直缺乏清晰的解釋。哈佛大學的 Katia Bertoldi 團隊透過高速攝影與聲學分析給出了答案：當籃球鞋在光滑玻璃板上滑動時，鞋底與地板之間的摩擦會引發類似地震破裂的波狀形變——一種「超音速開裂滑移脈衝」。\n\n這些脈衝以突發的方式在鞋底傳播，而吱吱聲的音調恰好對應脈衝突發的重複頻率。更令人意想不到的是，當研究者用帶有脊狀結構的矽橡膠塊替代球鞋進行實驗時，發現脊狀結構能將振動鎖定在一個由橡膠塊高度決定的特定自然頻率上——精確到足以用調諧後的橡膠塊「演奏」一首完整的樂曲。",
       "en": "From sticky hinges to bicycle brakes, squeaks form part of the everyday soundscape. Yet how sound is generated when a soft material slides on a rigid surface has remained poorly understood. Now a team led by Katia Bertoldi at Harvard has cracked the code using high-speed imaging and acoustic analysis.\n\nWhen basketball shoes slide on a smooth glass plate, friction at the shoe–floor interface triggers wave-like deformations of the sole — a phenomenon resembling 'intersonic opening slip pulses,' akin to earthquake ruptures. These pulses travel across the sole in bursts, and the pitch of the resulting squeak matches the repetition rate of those bursts. In a delightful twist, when the researchers substituted silicone rubber blocks with ridges for the shoes, they found that the ridges lock the block into a specific natural frequency determined by the block's height — so precisely that the team could tune different blocks and play a recognizable song."
     },
     "keyArticle": {
@@ -25,9 +25,9 @@
     },
     "images": [
       {
-        "url": "images/nature/nature-2026-02-26-cover.jpg",
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10132-3/MediaObjects/41586_2026_10132_Fig1_HTML.png",
         "caption": {
-          "zh": "篮球鞋在光滑玻璃板上滑动的高速摄影画面——本期 Nature 封面研究揭示了球鞋吱吱声背后的物理机制。",
+          "zh": "籃球鞋在光滑玻璃板上滑動的高速攝影畫面——本期 Nature 封面研究揭示了球鞋吱吱聲背後的物理機制。",
           "en": "High-speed image of a basketball shoe sliding on a smooth glass plate — this week's Nature cover study reveals the physics behind the squeak of sneakers."
         }
       }
