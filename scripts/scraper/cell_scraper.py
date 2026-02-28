@@ -16,7 +16,7 @@ import logging
 import re
 from typing import Optional
 
-from scraper.base import BaseScraper, CoverArticleRaw
+from .base import BaseScraper, CoverArticleRaw
 
 logger = logging.getLogger(__name__)
 

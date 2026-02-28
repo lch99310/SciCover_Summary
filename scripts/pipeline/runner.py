@@ -26,10 +26,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Type
 
-from scraper import ALL_SCRAPERS, ScienceScraper, NatureScraper, CellScraper
-from scraper.base import BaseScraper, CoverArticleRaw
-from ai.summarizer import BilingualSummarizer
-from utils.helpers import generate_article_id, download_image, ensure_dir
+from ..scraper import ALL_SCRAPERS, ScienceScraper, NatureScraper, CellScraper
+from ..scraper.base import BaseScraper, CoverArticleRaw
+from ..ai.summarizer import BilingualSummarizer
+from ..utils.helpers import generate_article_id, download_image, ensure_dir
 
 logger = logging.getLogger(__name__)
 

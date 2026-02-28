@@ -14,8 +14,8 @@ from typing import Any, Dict, Optional
 
 from openai import OpenAI
 
-from ai.prompts import SYSTEM_PROMPT, COVER_STORY_PROMPT
-from scraper.base import CoverArticleRaw
+from .prompts import SYSTEM_PROMPT, COVER_STORY_PROMPT
+from ..scraper.base import CoverArticleRaw
 
 logger = logging.getLogger(__name__)
 

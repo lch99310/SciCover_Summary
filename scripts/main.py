@@ -2,19 +2,19 @@
 """
 main.py — CLI entry point for the SciCover pipeline.
 
-Usage
+Usage (run from the repository root)
 -----
     # Scrape and summarise all journals (default)
-    python -m main
+    python -m scripts.main
 
     # Scrape only Nature, skip AI summarisation
-    python -m main --journal Nature --dry-run
+    python -m scripts.main --journal Nature --dry-run
 
     # Scrape Science and Cell
-    python -m main --journal Science --journal Cell
+    python -m scripts.main --journal Science --journal Cell
 
     # Show help
-    python -m main --help
+    python -m scripts.main --help
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ import logging
 import sys
 from typing import List
 
-from pipeline.runner import PipelineRunner
+from .pipeline.runner import PipelineRunner
 
 
 def _configure_logging(verbose: bool = False) -> None:
