@@ -1,0 +1,48 @@
+{
+  "id": "cell-2026-02-19",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-02-19",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-19-cover.jpg",
+    "credit": "Giselle McCallum"
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腸道裡的「哨兵」：工程化共生菌成為體內即時健康感測器",
+      "en": "Sentinels in the Gut: Engineered Commensal Bacteria Become Real-Time Health Sensors"
+    },
+    "summary": {
+      "zh": "【總結】本研究開發了一套針對人類腸道共生菌多形擬桿菌（Bacteroides thetaiotaomicron, B. theta）的擴展合成生物學工具包，並利用它成功建構了能夠在活體小鼠腸道中即時偵測吸收不良的螢光生物感測器，靈敏度可達亞臨床等級。\n\n【研究問題】人類腸道是一個高度動態的物理環境，酸化、氧化和滲透壓等擾動會影響微生物群組成並促發疾病。然而，目前缺乏非侵入性的持續腸道環境監測方法。B. theta 作為基因工程宿主具有巨大潛力，但其用於精確模組化環境感測和報告控制的遺傳工具仍然有限。\n\n【研究方法】研究團隊開發了四項關鍵工具：(1) 三組正交誘導啟動子庫，(2) 一套 DNA 海綿系統來調節 B. theta 中的抑制子活性，(3) 一個模組化轉錄報告迴路，整合原生啟動子激活與螢光輸出，以及 (4) 一種新型質體整合模式的表徵。利用已識別的滲透壓響應型原生啟動子，建構了可通過梯度螢光輸出偵測腸道生理變化的生物感測器。\n\n【結果】這些生物感測器在體外和體內（使用瀉劑誘導的小鼠吸收不良模型）均經驗證有效，能夠從糞便樣本中實現近即時的非侵入性單細胞螢光監測，靈敏度可達亞臨床吸收不良水準。這證明了工程化腸道共生菌作為多元腸道健康監測平台的可行性。",
+      "en": "**Summary:** This study develops an expanded synthetic biology toolkit for the human gut commensal *Bacteroides thetaiotaomicron* and uses it to engineer fluorescence-based biosensors capable of detecting intestinal malabsorption in live mice with sensitivity down to subclinical levels.\n\n**Problem:** The human gut is a highly dynamic environment where perturbations in pH, oxygen, and osmolality can influence microbiota composition and drive disease. However, non-invasive methods for continuously monitoring the gut environment remain severely limited. While *B. theta* is a promising host for engineered biosensors, the available genetic tools for precise, modular environmental sensing in this species were too limited for practical use.\n\n**Approach:** The team built four key components: (i) three libraries of orthogonally inducible promoters, (ii) a DNA sponge system to tune repressor activity, (iii) a modular transcriptional reporter circuit integrating native promoter activation with fluorescent outputs, and (iv) characterization of a novel plasmid integration mode. They then identified osmolality-responsive native promoters from *B. theta* and used them to construct biosensors with graded fluorescent outputs.\n\n**Results:** The biosensors were validated both *in vitro* and *in vivo* using a murine model of laxative-induced malabsorption. They enabled near real-time, non-invasive monitoring of single-cell responses from fecal samples, with sensitivity to subclinical malabsorption levels. This demonstrates the feasibility of engineered gut commensals as a monitoring platform for diverse gut health applications."
+    },
+    "keyArticle": {
+      "title": "A Bacteroides synthetic biology toolkit to build an in vivo malabsorption biosensor",
+      "authors": [
+        "Giselle McCallum",
+        "Juan C. Burckhardt",
+        "Jerry He",
+        "Alice Hong",
+        "Laurent Potvin-Trottier",
+        "Carolina Tropini"
+      ],
+      "doi": "10.1016/j.cell.2025.12.052",
+      "pages": ""
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-19-cover.jpg",
+        "caption": {
+          "zh": "工程化感測菌株在小鼠結腸中的螢光顯微圖像——共生菌被改造為能夠即時偵測腸道滲透壓變化的活體生物感測器。",
+          "en": "Fluorescent micrograph of the engineered biosensor strain in the mouse colon — commensal bacteria reprogrammed to detect osmolality changes in the living gut in real time."
+        }
+      }
+    ],
+    "links": {
+      "official": "https://www.cell.com/cell/fulltext/S0092-8674(25)01501-6",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.052",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.18.644028v1"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "intorg-2025-01-01",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-01-01",
+  "coverImage": {
+    "url": "data/images/International_Organization/IO-2025-01-01-fig1.png",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當「新皇室主義」重返國際政治——川普時代如何改寫全球秩序的遊戲規則",
+      "en": "The Return of Neo-Royalism: How the Trump Administration Is Rewriting the Rules of Global Order"
+    },
+    "summary": {
+      "zh": "【總結】川普政府的國際行為——與對手結盟、打壓盟友、追求個人而非國家利益——並非可用西發里亞體系（Westphalian system）解釋的大國政治回歸，而是一種全新的「新皇室主義」（neo-royalism）國際秩序的浮現，其核心特徵是以小圈子菁英（cliques）為中心、以個人忠誠和進貢體系取代規則與制度。\n\n【研究問題】隨著自由主義國際秩序（LIO）走向衰退，學界普遍預期將回歸以主權和均勢為核心的西發里亞式大國體系。但川普政府的行為卻與此預測嚴重不符：美國選擇與俄羅斯、中國合作而非對抗，卻針對加拿大和丹麥等長期盟友，且交易型外交往往服務於狹隘的個人利益而非國家目標。現有的國際關係理論框架是否足以理解正在浮現的國際秩序？\n\n【研究方法】這是一篇概念性/理論性短文，而非實證研究。作者借鑑歐洲國家形成、帝國與王朝政治，以及歷史國際秩序的學術研究，構建了「新皇室主義」國際秩序的理想型模型，並從四個維度——主要行為者、秩序目的、維持秩序的手段、正當性基礎——將其與西發里亞體系和自由主義國際秩序進行比較。\n\n【結果】新皇室主義框架揭示了新秩序的四個核心特徵：(1) 主要行為者不是國家，而是以絕對主權者為中心的「小圈子」菁英網絡；(2) 秩序的目的不是互利或安全競爭，而是通過榨取物質和地位「進貢」來建立持久的等級體系；(3) 秩序依靠尋租而非規則或規範來維繫；(4) 正當性基於個人/主權者的「例外主義」而非法律權威。此框架解釋了川普政府看似矛盾的外交行為，並揭示了與普京、艾爾多安、莫迪、奧爾班、MBS 等領導人的結構性平行關係。",
+      "en": "**Summary:** The emerging international order under Trump is better understood not as a return to Westphalian great power competition, but as 'neo-royalism' — a system structured around hyper-elite cliques centered on absolute sovereigns who extract financial and cultural tributes and legitimize their authority through claims of personal exceptionalism.\n\n**Problem:** With the Liberal International Order in decline, scholars have focused on a possible return to a Westphalian great power system. But the Trump administration's behavior generates deep puzzles for this framework: the US seeks deals with adversaries (Russia, China) while targeting allies (Canada, Denmark), and transactional politics often serve narrow personalist interests rather than national objectives. Are existing IR frameworks adequate to interpret the emerging international order?\n\n**Approach:** This is a conceptual/theoretical essay rather than an empirical study. The authors construct an ideal-typical model of 'neo-royalist' international order by drawing on historical scholarship on European state formation, imperial and dynastic politics, and pre-modern international orders. They systematically compare the neo-royalist model against Westphalian and Liberal International Orders across four dimensions: primary actors, purpose, means of sustaining order, and legitimation.\n\n**Results:** The neo-royalist framework illuminates four structural features of the emerging order: (1) primary actors are not states but 'cliques' — small, exclusive networks centered on absolute sovereigns; (2) the purpose is extraction of material and status tributes to create durable hierarchies, not mutual gains or security competition; (3) order is sustained through rent-seeking rather than rules or norms; (4) legitimation rests on claims of personal sovereign exceptionalism rather than legal authority. The framework explains otherwise puzzling Trump administration behaviors and reveals structural parallels with leaders like Putin, Erdogan, Modi, Orban, and MBS."
+    },
+    "keyArticle": {
+      "title": "Further Back to the Future: Neo-Royalism, the Trump Administration, and the Emerging International System",
+      "authors": [
+        "Stacie E. Goddard",
+        "Abraham Newman"
+      ],
+      "doi": "10.1017/S0020818325101057",
+      "pages": "S12-S25"
+    },
+    "images": [
+      {
+        "url": "data/images/International_Organization/IO-2025-01-01-fig1.png",
+        "caption": {
+          "zh": "自由主義、西發里亞與新皇室主義國際秩序比較",
+          "en": "Liberal, Westphalian, and neo-royalist orders"
+        }
+      }
+    ],
+    "links": {
+      "official": "https://www.cambridge.org/core/journals/international-organization/article/further-back-to-the-future-neoroyalism-the-trump-administration-and-the-emerging-international-system/ABB12906CA345BBCA5049B544363D391",
+      "doi": "https://doi.org/10.1017/S0020818325101057"
+    }
+  }
+}
