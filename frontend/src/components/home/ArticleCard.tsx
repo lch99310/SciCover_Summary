@@ -16,8 +16,15 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
   const formattedDate = format(new Date(article.date), 'MMM d, yyyy');
 
   // Use the article's own cover_url if available; fall back to convention path
+  const defaultCoverMap: Record<string, string> = {
+    'Political Geography': 'images/Political_Geography/PG-cover.png',
+    'International Organization': 'images/International_Organization/IO-cover.png',
+    'American Sociological Review': 'images/ASR/ASR-cover.png',
+  };
   const journalSlug = article.journal.toLowerCase();
-  const fallbackUrl = getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
+  const fallbackUrl = defaultCoverMap[article.journal]
+    ? getDataUrl(defaultCoverMap[article.journal])
+    : getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
   const coverImageUrl = article.cover_url
     ? getDataUrl(article.cover_url)
     : fallbackUrl;

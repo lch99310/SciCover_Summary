@@ -35,7 +35,7 @@
       "path": "articles/2025/01/polgeog-2025-01-01.json",
       "title_zh": "被忽視的鄉村如何投向極右翼——葡萄牙的政治邊緣化啟示",
       "title_en": "How Politically Neglected Rural Communities Turn to the Radical Right — Lessons from Portugal",
-      "cover_url": "images/political-geography/default-cover.jpg"
+      "cover_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0962629824001732-gr1.jpg"
     },
     {
       "id": "asr-2026-02-01",
@@ -44,7 +44,7 @@
       "path": "articles/2026/02/asr-2026-02-01.json",
       "title_zh": "政治仇恨的長影：黨派對立如何拖垮民主國家的氣候行動",
       "title_en": "The Long Shadow of Partisan Hostility: How Political Polarization Undermines Climate Action",
-      "cover_url": "images/american-sociological-review/default-cover.jpg"
+      "cover_url": "images/ASR/ASR-cover.png"
     },
     {
       "id": "science-2026-01-31",
@@ -71,7 +71,7 @@
       "path": "articles/2025/01/intorg-2025-01-01.json",
       "title_zh": "當「新皇室主義」重返國際政治——川普時代如何改寫全球秩序的遊戲規則",
       "title_en": "The Return of Neo-Royalism: How the Trump Administration Is Rewriting the Rules of Global Order",
-      "cover_url": "images/international-organization/default-cover.jpg"
+      "cover_url": "https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20251119153145740-0800:S0020818325101057:S0020818325101057_fig1.png?pub-status=live"
     }
   ]
 }

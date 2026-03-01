@@ -5,7 +5,7 @@
   "issue": "S1",
   "date": "2025-01-01",
   "coverImage": {
-    "url": "images/international-organization/default-cover.jpg",
+    "url": "https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20251119153145740-0800:S0020818325101057:S0020818325101057_fig1.png?pub-status=live",
     "credit": ""
   },
   "coverStory": {
@@ -23,7 +23,15 @@
       "doi": "10.1017/S0020818325101057",
       "pages": "S12-S25"
     },
-    "images": [],
+    "images": [
+      {
+        "url": "https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20251119153145740-0800:S0020818325101057:S0020818325101057_fig1.png?pub-status=live",
+        "caption": {
+          "zh": "自由主義、西發里亞與新皇室主義國際秩序比較",
+          "en": "Liberal, Westphalian, and neo-royalist orders"
+        }
+      }
+    ],
     "links": {
       "official": "https://www.cambridge.org/core/journals/international-organization/article/further-back-to-the-future-neoroyalism-the-trump-administration-and-the-emerging-international-system/ABB12906CA345BBCA5049B544363D391",
       "doi": "https://doi.org/10.1017/S0020818325101057"
