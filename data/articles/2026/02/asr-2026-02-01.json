@@ -5,29 +5,28 @@
   "issue": "1",
   "date": "2026-02-01",
   "coverImage": {
-    "url": "",
+    "url": "images/american-sociological-review/default-cover.jpg",
     "credit": ""
   },
   "coverStory": {
     "title": {
-      "zh": "演算法「看」到了你的階級：推薦系統如何在無意間複製並強化社會不平等",
-      "en": "The Algorithm 'Sees' Your Class: How Recommendation Systems Inadvertently Replicate and Amplify Social Inequality"
+      "zh": "政治仇恨的長影：黨派對立如何拖垮民主國家的氣候行動",
+      "en": "The Long Shadow of Partisan Hostility: How Political Polarization Undermines Climate Action"
     },
     "summary": {
-      "zh": "當你在串流平台上刷到的內容、求職網站推送的職缺、甚至約會 App 配對的對象都由演算法決定時，這些看似中立的技術系統是否在悄悄複製著既有的社會階層結構？\n\n本文首次大規模追蹤了 18 萬名使用者在五個主要平台（Netflix、YouTube、LinkedIn、Tinder、Spotify）上長達三年的行為數據，結合問卷調查獲取的社會經濟背景資訊，揭示了一個令人不安的發現：推薦演算法在「個人化」的名義下，系統性地將使用者鎖定在與其社會階級高度同質的資訊繭房中。高社經地位使用者被推送更多文化資本密集的內容和機會，而低社經地位使用者則被引導進入一個資訊與機會更為受限的迴圈。\n\n研究者將這一現象命名為「演算法階級再製」（algorithmic class reproduction），並指出它有別於傳統的資訊不平等——不是「能不能上網」的問題，而是「演算法讓你看到什麼」的問題。這篇文章對數位時代的不平等研究提出了重要的理論挑戰。",
-      "en": "When the content you scroll through on streaming platforms, the job listings pushed to you by recruitment sites, and even the partners suggested by dating apps are all decided by algorithms, do these ostensibly neutral technological systems quietly replicate existing social hierarchies?\n\nThis article presents the first large-scale longitudinal tracking of 180,000 users across five major platforms — Netflix, YouTube, LinkedIn, Tinder, and Spotify — over three years, combined with survey data on socioeconomic backgrounds. The findings are striking: under the banner of 'personalization,' recommendation algorithms systematically lock users into information cocoons that are highly homologous to their social class. High-SES users are funneled toward culturally capital-intensive content and opportunities, while low-SES users are steered into loops of more constrained information and fewer opportunities.\n\nThe researchers term this phenomenon 'algorithmic class reproduction' and argue it differs fundamentally from traditional digital divides — it is no longer about whether you can get online, but about what the algorithm lets you see. The paper poses a significant theoretical challenge to inequality research in the digital age."
+      "zh": "氣候變遷是全球最緊迫的公共議題之一，但為什麼許多民主國家在減碳行動上舉步維艱？Grant 等人的這項研究提出了一個令人深思的答案：問題的核心不在於科學認知的不足，而在於日益加劇的「情感極化」（affective polarization）。\n\n所謂情感極化，是指政黨支持者對對方陣營產生的強烈厭惡與不信任——不是基於政策分歧，而是出於對「他們那群人」的本能排斥。研究團隊分析了多個民主國家的數據，發現當社會中的黨派敵意越高，政府在推動氣候政策上就越困難。原因在於：氣候政策需要跨黨派的長期合作，而情感極化恰恰摧毀了這種合作的社會基礎。\n\n這項研究的啟示超越了環境政策本身：它揭示了民主制度在面對需要長期集體行動的問題時，可能因為內部的政治撕裂而自我癱瘓。當「打敗對手」比「解決問題」更重要時，整個社會都將付出代價。",
+      "en": "Climate change ranks among the most urgent collective action problems facing democracies today. Yet progress on mitigation varies enormously across nations with similar economic capacities. Why?\n\nIn this important study, Don Grant, Andrew Jorgenson, Wesley Longhofer, and Bodi Vasi offer a compelling explanation: affective polarization — the visceral dislike and distrust that partisans feel toward the opposing party — is a significant structural barrier to climate policy. Unlike ideological disagreement over specific policies, affective polarization corrodes the social trust and cross-party cooperation that ambitious, long-term climate action demands.\n\nDrawing on cross-national data, the authors demonstrate that democracies with higher levels of affective polarization consistently underperform on climate change mitigation, even after controlling for economic development, energy infrastructure, and institutional design. The mechanism is straightforward but devastating: when defeating the opposition becomes more important than solving shared problems, policies requiring sustained bipartisan commitment — like carbon reduction — become politically impossible.\n\nThe implications extend well beyond environmental policy. The study reveals a deeper vulnerability of democratic governance: the capacity for long-term collective action may be fundamentally compromised by the very partisan dynamics that are intensifying across the democratic world."
     },
     "keyArticle": {
-      "title": "Algorithmic class reproduction: How recommendation systems stratify cultural consumption and opportunity",
-      "authors": ["Angèle Christin", "Karen Levy", "Matthew Salganik"],
-      "doi": "10.1177/00031224251234567",
-      "pages": "1-32"
+      "title": "The Long Shadow of Partisan Hostility: How Affective Polarization Hinders Democracies' Ability to Mitigate Climate Change",
+      "authors": ["Don Grant", "Andrew Jorgenson", "Wesley Longhofer", "Ion Bogdan Vasi"],
+      "doi": "10.1177/00031224251396518",
+      "pages": "19-54"
     },
     "images": [],
     "links": {
-      "official": "https://journals.sagepub.com/doi/full/10.1177/00031224251234567",
-      "doi": "https://doi.org/10.1177/00031224251234567",
-      "preprint": "https://osf.io/preprints/socarxiv/abc123/"
+      "official": "https://journals.sagepub.com/doi/abs/10.1177/00031224251396518",
+      "doi": "https://doi.org/10.1177/00031224251396518"
     }
   }
 }

@@ -4,9 +4,9 @@ export const JOURNALS: { name: JournalName; color: string; label: string }[] = [
   { name: 'Science', color: 'var(--color-science)', label: 'Science' },
   { name: 'Nature', color: 'var(--color-nature)', label: 'Nature' },
   { name: 'Cell', color: 'var(--color-cell)', label: 'Cell' },
-  { name: 'Political Geography', color: 'var(--color-polgeog)', label: 'Pol. Geog.' },
-  { name: 'International Organization', color: 'var(--color-intorg)', label: 'Int. Org.' },
-  { name: 'American Sociological Review', color: 'var(--color-asr)', label: 'ASR' },
+  { name: 'Political Geography', color: 'var(--color-polgeog)', label: 'Political Geography' },
+  { name: 'International Organization', color: 'var(--color-intorg)', label: 'International Organization' },
+  { name: 'American Sociological Review', color: 'var(--color-asr)', label: 'American Sociological Review' },
 ];
 
 export const JOURNAL_COLORS: Record<JournalName, string> = {

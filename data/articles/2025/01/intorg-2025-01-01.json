@@ -1,0 +1,32 @@
+{
+  "id": "intorg-2025-01-01",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-01-01",
+  "coverImage": {
+    "url": "images/international-organization/default-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當「新皇室主義」重返國際政治——川普時代如何改寫全球秩序的遊戲規則",
+      "en": "The Return of Neo-Royalism: How the Trump Administration Is Rewriting the Rules of Global Order"
+    },
+    "summary": {
+      "zh": "冷戰結束後，自由主義國際秩序（liberal international order）一度被視為歷史的終點。然而，隨著美國政治的劇烈轉向，一種被學者稱為「新皇室主義」（neo-royalism）的治理邏輯正在崛起——它以個人化的權力集中、對多邊制度的蔑視，以及基於交易而非規則的外交模式為特徵。\n\nGoddard 與 Newman 在這篇重要論文中指出，川普政府的外交政策並非僅是「不按牌理出牌」，而是體現了一種深層的國際體系變革。從退出國際協定、削弱聯合國體系，到以關稅與雙邊談判取代多邊合作，這些行動背後有一套連貫的邏輯：權力不再被制度約束，而是集中在領導者個人的意志中。作者將此與歷史上的皇室外交（royal diplomacy）進行類比，認為當前的國際體系正在從規則為基礎（rule-based）轉向以個人關係為基礎（relationship-based）的模式。\n\n這對全球秩序意味著什麼？論文警告，如果這種趨勢持續，國際合作的基礎——可預測性、透明度與制度性承諾——將被大幅削弱，取而代之的是一個更加不穩定、更加依賴大國領導者個人意志的世界。",
+      "en": "For decades after the Cold War, the liberal international order appeared to be the settled architecture of global politics. But as Stacie Goddard and Abraham Newman argue in this landmark article, a far more fundamental transformation is underway — one they call 'neo-royalism.'\n\nThe concept captures a pattern in which executive authority is increasingly personalized, multilateral institutions are systematically bypassed, and diplomacy is conducted through transactional bilateral deals rather than rule-based frameworks. Drawing on the Trump administration as a paradigmatic case, the authors trace how withdrawal from international agreements, weakening of UN agencies, and reliance on tariff-based coercion reflect not mere policy idiosyncrasy but a coherent governing logic. Power, in this model, flows not through institutions but through personal relationships between leaders.\n\nGoddard and Newman draw a provocative historical parallel with pre-modern royal diplomacy, where the sovereign's personal will — rather than codified rules — determined the terms of international engagement. The implications are stark: if neo-royalism becomes the dominant mode of international politics, the foundations of global cooperation — predictability, transparency, and institutional commitment — will erode, giving way to a more volatile world shaped by the preferences and whims of a few powerful leaders."
+    },
+    "keyArticle": {
+      "title": "Further Back to the Future: Neo-Royalism, the Trump Administration, and the Emerging International System",
+      "authors": ["Stacie E. Goddard", "Abraham Newman"],
+      "doi": "10.1017/S0020818325101057",
+      "pages": "S12-S25"
+    },
+    "images": [],
+    "links": {
+      "official": "https://www.cambridge.org/core/journals/international-organization/article/further-back-to-the-future-neoroyalism-the-trump-administration-and-the-emerging-international-system/ABB12906CA345BBCA5049B544363D391",
+      "doi": "https://doi.org/10.1017/S0020818325101057"
+    }
+  }
+}
