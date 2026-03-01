@@ -73,8 +73,8 @@
 }
 
 .archive-nav__months {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--space-2);
 }
 
@@ -88,6 +88,7 @@
   transition: all var(--transition-fast);
   border: 1px solid var(--color-border);
   text-align: center;
+  min-width: 3.5rem;
 }
 
 .archive-nav__month-btn:hover:not(:disabled) {
@@ -110,14 +111,9 @@
   cursor: not-allowed;
 }
 
-@media (max-width: 768px) {
-  .archive-nav__months {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .archive-nav__months {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.archive-page__empty {
+  text-align: center;
+  padding: var(--space-16) var(--space-4);
+  color: var(--color-text-secondary);
+  font-size: var(--text-base);
 }

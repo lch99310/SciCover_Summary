@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useArticleIndex } from '../../hooks/useArticles';
 import { ArticleGrid } from '../home/ArticleGrid';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
@@ -20,20 +20,23 @@ export function ArchivePage() {
     return Array.from(years).sort((a, b) => b - a);
   }, [index]);
 
-  const [selectedYear, setSelectedYear] = useState<number>(() => {
-    return new Date().getFullYear();
-  });
+  // null = "All"
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
+  const [selectedMonth, setSelectedMonth] = useState<number | null>(null);
 
-  const [selectedMonth, setSelectedMonth] = useState<number>(() => {
-    return new Date().getMonth();
-  });
+  // Reset month to "All" when year changes
+  useEffect(() => {
+    setSelectedMonth(null);
+  }, [selectedYear]);
 
   // Filter articles for selected year/month
   const filteredArticles = useMemo(() => {
     if (!index) return [];
     return index.articles.filter((a) => {
       const d = new Date(a.date);
-      return d.getFullYear() === selectedYear && d.getMonth() === selectedMonth;
+      if (selectedYear !== null && d.getFullYear() !== selectedYear) return false;
+      if (selectedMonth !== null && d.getMonth() !== selectedMonth) return false;
+      return true;
     });
   }, [index, selectedYear, selectedMonth]);
 
@@ -43,7 +46,7 @@ export function ArchivePage() {
     const months = new Set<number>();
     index.articles.forEach((a) => {
       const d = new Date(a.date);
-      if (d.getFullYear() === selectedYear) {
+      if (selectedYear === null || d.getFullYear() === selectedYear) {
         months.add(d.getMonth());
       }
     });
@@ -55,15 +58,21 @@ export function ArchivePage() {
   return (
     <div className="archive-page">
       <div className="archive-page__header container">
-        <Link to="/" className="archive-page__back">&larr; 回到首頁</Link>
-        <h1 className="archive-page__title heading-en">歷史文章</h1>
+        <Link to="/" className="archive-page__back">&larr; 回到首頁 / Back</Link>
+        <h1 className="archive-page__title heading-en">歷史文章 / Archive</h1>
         <p className="archive-page__subtitle">
-          依日期瀏覽過往封面故事摘要
+          依日期瀏覽過往封面故事摘要 · Browse past cover story summaries by date
         </p>
       </div>
 
       <div className="archive-page__nav container">
         <div className="archive-nav__years">
+          <button
+            className={`archive-nav__year-btn ${selectedYear === null ? 'archive-nav__year-btn--active' : ''}`}
+            onClick={() => setSelectedYear(null)}
+          >
+            All
+          </button>
           {availableYears.map((year) => (
             <button
               key={year}
@@ -76,6 +85,12 @@ export function ArchivePage() {
         </div>
 
         <div className="archive-nav__months">
+          <button
+            className={`archive-nav__month-btn ${selectedMonth === null ? 'archive-nav__month-btn--active' : ''}`}
+            onClick={() => setSelectedMonth(null)}
+          >
+            All
+          </button>
           {MONTHS.map((name, idx) => {
             const hasData = monthsWithData.has(idx);
             return (
@@ -92,8 +107,14 @@ export function ArchivePage() {
         </div>
       </div>
 
-      <div className="archive-page__results">
-        <ArticleGrid articles={filteredArticles} />
+      <div className="archive-page__results container">
+        {filteredArticles.length === 0 ? (
+          <p className="archive-page__empty">
+            此期間暫無文章 · No articles found for this period
+          </p>
+        ) : (
+          <ArticleGrid articles={filteredArticles} />
+        )}
       </div>
     </div>
   );
