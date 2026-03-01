@@ -5,7 +5,7 @@
   "issue": "8103",
   "date": "2026-02-26",
   "coverImage": {
-    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10132-3/MediaObjects/41586_2026_10132_Fig1_HTML.png",
+    "url": "data/images/nature/nature-2026-02-26-cover.png",
     "credit": "Adel Djellouli / Jackson Wilt"
   },
   "coverStory": {
@@ -19,13 +19,18 @@
     },
     "keyArticle": {
       "title": "Squeaking at soft-rigid frictional interfaces",
-      "authors": ["Adel Djellouli", "Gabriele Albertini", "Jackson Wilt", "Katia Bertoldi"],
+      "authors": [
+        "Adel Djellouli",
+        "Gabriele Albertini",
+        "Jackson Wilt",
+        "Katia Bertoldi"
+      ],
       "doi": "10.1038/s41586-026-10132-3",
       "pages": ""
     },
     "images": [
       {
-        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10132-3/MediaObjects/41586_2026_10132_Fig1_HTML.png",
+        "url": "data/images/nature/nature-2026-02-26-cover.png",
         "caption": {
           "zh": "籃球鞋在光滑玻璃板上滑動的高速攝影畫面——本期 Nature 封面研究揭示了球鞋吱吱聲背後的物理機制。",
           "en": "High-speed image of a basketball shoe sliding on a smooth glass plate — this week's Nature cover study reveals the physics behind the squeak of sneakers."

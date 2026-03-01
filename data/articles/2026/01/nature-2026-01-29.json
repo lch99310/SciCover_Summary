@@ -5,7 +5,7 @@
   "issue": "8099",
   "date": "2026-01-29",
   "coverImage": {
-    "url": "images/nature/nature-2026-01-29-cover.jpg",
+    "url": "data/images/nature/nature-2026-01-29-cover.jpg",
     "credit": "Caltech / MIT LIGO Laboratory"
   },
   "coverStory": {
@@ -19,13 +19,15 @@
     },
     "keyArticle": {
       "title": "Detection of quasinormal modes from a neutron star merger remnant",
-      "authors": ["LIGO-Virgo-KAGRA Collaboration"],
+      "authors": [
+        "LIGO-Virgo-KAGRA Collaboration"
+      ],
       "doi": "10.1038/s41586-026-09815-w",
       "pages": ""
     },
     "images": [
       {
-        "url": "images/nature/nature-2026-01-29-cover.jpg",
+        "url": "data/images/nature/nature-2026-01-29-cover.jpg",
         "caption": {
           "zh": "藝術概念圖：兩顆中子星合併後形成的新生黑洞正在「鳴響」——向外輻射引力波準正則模訊號。",
           "en": "Artist's concept of a newborn black hole 'ringing' after a neutron star merger, radiating gravitational-wave quasinormal mode signals."

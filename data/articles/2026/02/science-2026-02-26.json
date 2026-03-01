@@ -5,7 +5,7 @@
   "issue": "6788",
   "date": "2026-02-26",
   "coverImage": {
-    "url": "https://www.science.org/cms/10.1126/science.adp8989/asset/84b7ea69-5ece-4c8c-9ece-7dc33dcb089c/assets/images/large/science.adp8989-fa.jpg",
+    "url": "data/images/science/science-2026-02-26-cover.jpg",
     "credit": "NASA, CXC, IfA, NRAO, STScI"
   },
   "coverStory": {
@@ -19,13 +19,19 @@
     },
     "keyArticle": {
       "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
-      "authors": ["Justin A. Kader", "Vivian U", "Loreto Barcos-Muñoz", "George C. Privon", "Yiqing Song"],
+      "authors": [
+        "Justin A. Kader",
+        "Vivian U",
+        "Loreto Barcos-Muñoz",
+        "George C. Privon",
+        "Yiqing Song"
+      ],
       "doi": "10.1126/science.adp8989",
       "pages": "911-916"
     },
     "images": [
       {
-        "url": "https://www.science.org/cms/10.1126/science.adp8989/asset/84b7ea69-5ece-4c8c-9ece-7dc33dcb089c/assets/images/large/science.adp8989-fa.jpg",
+        "url": "data/images/science/science-2026-02-26-cover.jpg",
         "caption": {
           "zh": "VV 340 交互星系的多波段合成影像：紫色為 X 射線，紅綠藍為不同可見光波段。上方的邊緣星系 VV 340a 內部隱藏著一道劇烈進動的星系級電漿噴流。",
           "en": "Multi-wavelength composite of the interacting galaxies VV 340: purple shows X-rays, red/green/blue represent different optical wavelengths. The edge-on spiral VV 340a (top) harbors a violently precessing galactic-scale plasma jet."

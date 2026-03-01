@@ -5,7 +5,7 @@
   "issue": "6784",
   "date": "2026-01-31",
   "coverImage": {
-    "url": "images/science/science-2026-01-31-cover.jpg",
+    "url": "data/images/science/science-2026-01-31-cover.jpg",
     "credit": "Allen Institute for Brain Science"
   },
   "coverStory": {
@@ -19,13 +19,18 @@
     },
     "keyArticle": {
       "title": "A complete cell-type atlas of the human brain",
-      "authors": ["Kimberly Siletti", "Rebecca Hodge", "Sten Linnarsson", "Ed Lein"],
+      "authors": [
+        "Kimberly Siletti",
+        "Rebecca Hodge",
+        "Sten Linnarsson",
+        "Ed Lein"
+      ],
       "doi": "10.1126/science.adf6812",
       "pages": "482-489"
     },
     "images": [
       {
-        "url": "images/science/science-2026-01-31-cover.jpg",
+        "url": "data/images/science/science-2026-01-31-cover.jpg",
         "caption": {
           "zh": "人腦細胞圖譜的三維視覺化——不同顏色代表不同的細胞亞型，共超過 3,000 種。",
           "en": "Three-dimensional visualization of the human brain cell atlas — different colors represent distinct cell subtypes, totaling over 3,000."
