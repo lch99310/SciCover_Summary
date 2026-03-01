@@ -1,4 +1,4 @@
-# SciCover
+# SciCover Summary
 
 **全球頂級科學期刊封面故事 · 雙語解讀**
 *Top Science Journal Cover Stories · Bilingual Summaries*
