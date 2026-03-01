@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ArticleIndexEntry } from '../../lib/types';
-import { JOURNAL_RAW_COLORS, getDataUrl } from '../../lib/constants';
+import { JOURNAL_RAW_COLORS, getDataUrl, getDefaultCoverUrl } from '../../lib/constants';
 import type { JournalName } from '../../lib/types';
 import { format } from 'date-fns';
 import { motion } from 'framer-motion';
@@ -15,19 +15,17 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
   const journalColor = JOURNAL_RAW_COLORS[article.journal as JournalName] || '#666';
   const formattedDate = format(new Date(article.date), 'MMM d, yyyy');
 
-  // Use the article's own cover_url if available; fall back to convention path
-  const defaultCoverMap: Record<string, string> = {
-    'Political Geography': 'images/Political_Geography/PG-cover.png',
-    'International Organization': 'images/International_Organization/IO-cover.png',
-    'American Sociological Review': 'images/ASR/ASR-cover.png',
-  };
-  const journalSlug = article.journal.toLowerCase();
-  const fallbackUrl = defaultCoverMap[article.journal]
-    ? getDataUrl(defaultCoverMap[article.journal])
-    : getDataUrl(`images/${journalSlug}/${article.id}-cover.jpg`);
   const coverImageUrl = article.cover_url
     ? getDataUrl(article.cover_url)
-    : fallbackUrl;
+    : getDefaultCoverUrl(article.journal);
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const target = e.currentTarget;
+    const fallback = getDefaultCoverUrl(article.journal);
+    if (target.src !== fallback) {
+      target.src = fallback;
+    }
+  };
 
   return (
     <motion.div
@@ -37,9 +35,12 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
     >
       <Link to={`/article/${article.id}`} className="article-card">
         <div className="article-card__image-wrapper">
-          <div
+          <img
             className="article-card__image"
-            style={{ backgroundImage: `url(${coverImageUrl})` }}
+            src={coverImageUrl}
+            alt={article.title_en || article.title_zh}
+            loading="lazy"
+            onError={handleImageError}
           />
           <div className="article-card__image-overlay" style={{ backgroundColor: journalColor }} />
         </div>

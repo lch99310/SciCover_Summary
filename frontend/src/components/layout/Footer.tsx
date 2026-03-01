@@ -39,6 +39,19 @@ export function Footer() {
         </div>
 
         <div className="footer__meta">
+          <div className="footer__credits">
+            <p className="footer__credit-text" lang="en">
+              Developed and maintained by{' '}
+              <a
+                href="https://lch99310.github.io/chunghao_lee/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__link"
+              >
+                Chung-Hao Lee
+              </a>
+            </p>
+          </div>
           <span className="footer__copyright">
             &copy; {new Date().getFullYear()} {SITE_NAME}
           </span>
