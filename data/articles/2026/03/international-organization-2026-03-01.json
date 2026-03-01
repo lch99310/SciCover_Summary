@@ -1,0 +1,41 @@
+{
+  "id": "international-organization-2026-03-01",
+  "journal": "International Organization",
+  "volume": "",
+  "issue": "",
+  "date": "2026-03-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "The Future of Global Governance and World Order",
+      "en": "The Future of Global Governance and World Order"
+    },
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "keyArticle": {
+      "title": "The Future of Global Governance and World Order",
+      "authors": [
+        "Brett Ashley Leeds",
+        "Layna Mosley",
+        "B. Peter Rosendorff",
+        "Ayşe Zarakol"
+      ],
+      "doi": "10.1017/S0020818325101185",
+      "pages": "S1-S11"
+    },
+    "images": [],
+    "links": {
+      "official": "https://www.cambridge.org/core/journals/international-organization/article/future-of-global-governance-and-world-order/DF1B5CA87E4939CA8BC36378C63C229A",
+      "doi": "https://doi.org/10.1017/S0020818325101185"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-01T03:43:12.332512+00:00"
+  }
+}
