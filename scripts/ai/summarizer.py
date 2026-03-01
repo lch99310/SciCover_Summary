@@ -3,6 +3,11 @@ ai.summarizer — Bilingual cover-story summariser powered by DeepSeek-V3.
 
 Uses the OpenAI-compatible endpoint on Azure AI (GitHub Models) to produce
 a structured JSON object containing Chinese and English titles and summaries.
+
+Supports two modes:
+  - **Abstract-only**: 2–4 paragraph free-form summary (original mode).
+  - **Full-text**: Structured 4-part summary (總結/問題/方法/結果) when the
+    full article text is available via preprints or open-access pages.
 """
 
 from __future__ import annotations
@@ -14,7 +19,7 @@ from typing import Any, Dict, Optional
 
 from openai import OpenAI
 
-from .prompts import SYSTEM_PROMPT, COVER_STORY_PROMPT
+from .prompts import SYSTEM_PROMPT, COVER_STORY_PROMPT, COVER_STORY_FULLTEXT_PROMPT
 from ..scraper.base import CoverArticleRaw
 
 logger = logging.getLogger(__name__)
@@ -89,27 +94,55 @@ class BilingualSummarizer:
     # Public API
     # ------------------------------------------------------------------
 
-    def summarize(self, article: CoverArticleRaw) -> Optional[Dict[str, Any]]:
+    def summarize(
+        self,
+        article: CoverArticleRaw,
+        fulltext: Optional[str] = None,
+    ) -> Optional[Dict[str, Any]]:
         """Generate a bilingual summary for *article*.
+
+        Parameters
+        ----------
+        article:
+            The scraped article metadata (title, abstract, etc.).
+        fulltext:
+            Optional full-text content.  When provided, the summariser
+            uses the structured 4-part prompt (總結/問題/方法/結果).
+            When ``None``, falls back to the abstract-only prompt.
 
         Returns a ``dict`` with ``title`` and ``summary`` keys (each
         containing ``zh`` and ``en`` sub-keys), or ``None`` if generation
         or parsing fails after retries.
         """
-        user_prompt = COVER_STORY_PROMPT.format(
-            journal=article.journal,
-            volume=article.volume or "—",
-            issue=article.issue or "—",
-            date=article.date or "—",
-            cover_description=article.cover_description or "(not available)",
-            article_title=article.article_title or "(not available)",
-            authors=", ".join(article.article_authors) if article.article_authors else "(not available)",
-            abstract=article.article_abstract or "(not available)",
-        )
+        if fulltext:
+            mode = "full-text"
+            user_prompt = COVER_STORY_FULLTEXT_PROMPT.format(
+                journal=article.journal,
+                volume=article.volume or "—",
+                issue=article.issue or "—",
+                date=article.date or "—",
+                cover_description=article.cover_description or "(not available)",
+                article_title=article.article_title or "(not available)",
+                authors=", ".join(article.article_authors) if article.article_authors else "(not available)",
+                fulltext=fulltext,
+            )
+        else:
+            mode = "abstract-only"
+            user_prompt = COVER_STORY_PROMPT.format(
+                journal=article.journal,
+                volume=article.volume or "—",
+                issue=article.issue or "—",
+                date=article.date or "—",
+                cover_description=article.cover_description or "(not available)",
+                article_title=article.article_title or "(not available)",
+                authors=", ".join(article.article_authors) if article.article_authors else "(not available)",
+                abstract=article.article_abstract or "(not available)",
+            )
 
         for attempt in range(1, self.MAX_RETRIES + 2):  # +2 because range is exclusive
             logger.info(
-                "Requesting summary from %s (attempt %d/%d) ...",
+                "Requesting %s summary from %s (attempt %d/%d) ...",
+                mode,
                 self.MODEL,
                 attempt,
                 self.MAX_RETRIES + 1,

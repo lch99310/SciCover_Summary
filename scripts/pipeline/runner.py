@@ -8,8 +8,9 @@ Responsibilities
    a. Scrape the current issue (or a specific back-issue).
    b. Check whether we have already processed this issue (deduplicate).
    c. Download the cover image to the local ``data/images/`` directory.
-   d. Call the AI summariser to produce bilingual titles and summaries.
-   e. Write the resulting entry to ``data/<article_id>.json``.
+   d. Attempt to fetch the full article text from preprints or open-access.
+   e. Call the AI summariser (full-text or abstract-only mode).
+   f. Write the resulting entry to ``data/<article_id>.json``.
 3. Rebuild the global ``data/index.json`` and ``data/latest.json`` manifests.
 
 Error handling: a failure in one journal MUST NOT prevent the others from
@@ -33,6 +34,7 @@ from ..scraper import (
 )
 from ..scraper.base import BaseScraper, CoverArticleRaw
 from ..ai.summarizer import BilingualSummarizer
+from ..ai.fulltext import fetch_fulltext
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
 
 logger = logging.getLogger(__name__)
@@ -175,15 +177,41 @@ class PipelineRunner:
                 logger.warning("Image download failed for %s", article_id)
                 image_path = None
 
-        # Step 4 — AI summarisation (skipped in dry-run mode).
+        # Step 4 — Attempt full-text retrieval (preprint or open-access).
+        fulltext: Optional[str] = None
+        if not self.dry_run:
+            try:
+                fulltext = fetch_fulltext(
+                    preprint_url=raw.preprint_url,
+                    article_url=raw.article_url,
+                    doi=raw.article_doi,
+                )
+                if fulltext:
+                    logger.info(
+                        "Full text available for %s (%d chars) — using structured summary",
+                        article_id,
+                        len(fulltext),
+                    )
+                else:
+                    logger.info(
+                        "No full text available for %s — using abstract-only summary",
+                        article_id,
+                    )
+            except Exception as exc:
+                logger.warning("Full-text fetch failed for %s: %s", article_id, exc)
+
+        # Step 5 — AI summarisation (skipped in dry-run mode).
         ai_output: Optional[Dict[str, Any]] = None
         if not self.dry_run and self.summarizer is not None:
-            ai_output = self.summarizer.summarize(raw)
+            ai_output = self.summarizer.summarize(raw, fulltext=fulltext)
             if ai_output is None:
                 logger.warning("AI summarisation failed for %s", article_id)
 
-        # Step 5 — Assemble and write the entry JSON.
-        entry = self._build_entry(raw, article_id, image_path, ai_output)
+        # Step 6 — Assemble and write the entry JSON.
+        entry = self._build_entry(
+            raw, article_id, image_path, ai_output,
+            summary_mode="full-text" if fulltext else "abstract-only",
+        )
         self._write_json(entry_file, entry)
 
         report["processed"].append(article_id)
@@ -199,6 +227,7 @@ class PipelineRunner:
         article_id: str,
         image_path: Optional[Path],
         ai_output: Optional[Dict[str, Any]],
+        summary_mode: str = "abstract-only",
     ) -> Dict[str, Any]:
         """Build the final JSON entry from scraped + AI data."""
         entry: Dict[str, Any] = {
@@ -225,6 +254,7 @@ class PipelineRunner:
             },
             "preprint_url": raw.preprint_url,
             "ai_summary": ai_output,  # None if dry-run or failed
+            "summary_mode": summary_mode,  # "full-text" or "abstract-only"
             "created_at": datetime.now(timezone.utc).isoformat(),
         }
         return entry

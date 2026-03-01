@@ -11,6 +11,14 @@ Design goals
   prose, clear structure, and intellectual depth.
 - The two versions are NOT word-for-word translations; they are
   **meaning-for-meaning rewrites** optimised for each audience.
+
+Two modes
+---------
+- **Abstract-only mode**: When only the abstract is available (paywalled
+  articles without preprints), produce a free-form 2–4 paragraph summary.
+- **Full-text mode**: When the full article text is available (preprints or
+  open-access), produce a structured 4-part summary covering: Summary,
+  Research Question, Methodology, and Results.
 """
 
 # ---------------------------------------------------------------------------
@@ -39,13 +47,13 @@ Important rules:
      other.  Each is an independent rewrite optimised for its audience.
   2. The title should hook readers immediately — think of a headline a
      curious person would click on.
-  3. The summary should be 2–4 short paragraphs.
-  4. Chinese text MUST use Traditional Chinese characters (繁體字).
-  5. ALWAYS respond with valid JSON — no markdown fences, no commentary.
+  3. Chinese text MUST use Traditional Chinese characters (繁體字).
+  4. ALWAYS respond with valid JSON — no markdown fences, no commentary.
 """
 
 # ---------------------------------------------------------------------------
-# Per-article prompt — filled via str.format() or f-string
+# Abstract-only prompt (original mode) — used when only the abstract is
+# available (paywalled articles without preprints).
 # ---------------------------------------------------------------------------
 
 COVER_STORY_PROMPT = """\
@@ -81,6 +89,83 @@ Return a JSON object with EXACTLY this structure (no extra keys):
   "summary": {{
     "zh": "繁體中文摘要（2–4 段）",
     "en": "English summary (2–4 paragraphs)"
+  }}
+}}
+"""
+
+# ---------------------------------------------------------------------------
+# Full-text prompt (enhanced mode) — used when the full article text is
+# available via preprint servers or open-access publisher pages.
+#
+# Produces a structured 4-part summary:
+#   1. 總結 / Summary — What did the article find?
+#   2. 研究問題 / Problem — What question does it address?
+#   3. 研究方法 / Approach — How did they tackle it?
+#   4. 結果 / Results — What are the key findings?
+# ---------------------------------------------------------------------------
+
+COVER_STORY_FULLTEXT_PROMPT = """\
+You have the FULL TEXT of the following journal article.  Read it carefully
+and produce a structured bilingual summary.
+
+──────────── Source Material ────────────
+
+Journal:       {journal}
+Volume/Issue:  Vol. {volume}, No. {issue}
+Date:          {date}
+
+Article title:
+{article_title}
+
+Authors:
+{authors}
+
+Cover description:
+{cover_description}
+
+──── Full Text (may be truncated) ────
+
+{fulltext}
+
+──────────── Output Instructions ────────────
+
+Write a 4-part structured summary in BOTH Chinese and English.
+
+**Chinese summary format** (use these exact section headers):
+
+【總結】一段簡短概述，說明這篇文章的核心發現或主張。
+
+【研究問題】這篇文章想要探討或解決什麼問題？為什麼這個問題重要？
+
+【研究方法】作者用了什麼方法、資料或理論框架來回答這個問題？
+
+【結果】研究的主要發現是什麼？回答了什麼？有什麼重要意義？
+
+**English summary format** (use these exact section headers with bold markdown):
+
+**Summary:** A concise overview of the article's core finding or argument.
+
+**Problem:** What question or issue does the article address? Why does it matter?
+
+**Approach:** What methods, data, or theoretical framework did the authors use?
+
+**Results:** What are the key findings? What do they mean?
+
+Each section should be 2–4 sentences.  Be specific — include key numbers,
+names, and concrete details rather than vague generalities.
+
+──────────── Output Format ────────────
+
+Return a JSON object with EXACTLY this structure (no extra keys):
+
+{{
+  "title": {{
+    "zh": "引人入勝的繁體中文標題",
+    "en": "Compelling English Title"
+  }},
+  "summary": {{
+    "zh": "【總結】...\\n\\n【研究問題】...\\n\\n【研究方法】...\\n\\n【結果】...",
+    "en": "**Summary:** ...\\n\\n**Problem:** ...\\n\\n**Approach:** ...\\n\\n**Results:** ..."
   }}
 }}
 """

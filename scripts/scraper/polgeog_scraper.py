@@ -225,6 +225,10 @@ class PolGeogScraper(BaseScraper):
         # --- Preprint URL (check for SSRN or SocArXiv links) ---
         for a_tag in soup.select("a[href]"):
             href = a_tag.get("href", "")
-            if "ssrn.com" in href or "socopen.org" in href or "osf.io/preprints/socarxiv" in href:
+            if any(repo in href for repo in (
+                "arxiv.org", "biorxiv.org", "medrxiv.org",
+                "ssrn.com", "socopen.org", "osf.io/preprints/socarxiv",
+                "chemrxiv.org",
+            )):
                 raw.preprint_url = href
                 break

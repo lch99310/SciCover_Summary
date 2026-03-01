@@ -254,3 +254,13 @@ class NatureScraper(BaseScraper):
                 m = re.search(r"(10\.\d{4,}/\S+)", doi_tag.get("href", ""))
                 if m:
                     raw.article_doi = m.group(1).rstrip(".")
+
+        # --- Preprint URL ---
+        for a_tag in soup.select("a[href]"):
+            href = a_tag.get("href", "")
+            if any(repo in href for repo in (
+                "arxiv.org", "biorxiv.org", "medrxiv.org",
+                "ssrn.com", "chemrxiv.org",
+            )):
+                raw.preprint_url = href
+                break

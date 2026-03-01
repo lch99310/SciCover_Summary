@@ -269,3 +269,13 @@ class CellScraper(BaseScraper):
             raw.article_pages = (
                 f"{meta_fp.get('content', '')}-{meta_lp.get('content', '')}"
             )
+
+        # --- Preprint URL ---
+        for a_tag in soup.select("a[href]"):
+            href = a_tag.get("href", "")
+            if any(repo in href for repo in (
+                "arxiv.org", "biorxiv.org", "medrxiv.org",
+                "ssrn.com", "chemrxiv.org",
+            )):
+                raw.preprint_url = href
+                break
