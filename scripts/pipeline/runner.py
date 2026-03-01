@@ -160,18 +160,30 @@ class PipelineRunner:
 
         # Step 2 — Deduplicate.
         article_id = generate_article_id(raw.journal, raw.date)
-        entry_file = DATA_DIR / f"{article_id}.json"
+        # Store articles under data/articles/<year>/<month>/<id>.json
+        # matching the directory structure the frontend expects.
+        try:
+            dt = datetime.strptime(raw.date, "%Y-%m-%d")
+            entry_file = (
+                DATA_DIR / "articles" / f"{dt.year:04d}" / f"{dt.month:02d}"
+                / f"{article_id}.json"
+            )
+        except (ValueError, TypeError):
+            entry_file = DATA_DIR / "articles" / f"{article_id}.json"
 
         if entry_file.exists():
             logger.info("Already have %s — skipping", article_id)
             report["skipped"].append(article_id)
             return
 
-        # Step 3 — Download cover image.
+        # Step 3 — Download cover image to data/images/<journal_slug>/.
         image_path: Optional[Path] = None
         if raw.cover_image_url:
+            journal_slug = raw.journal.lower().replace(" ", "_")
+            journal_img_dir = IMAGES_DIR / journal_slug
+            ensure_dir(journal_img_dir)
             ext = self._guess_image_ext(raw.cover_image_url)
-            image_path = IMAGES_DIR / f"{article_id}{ext}"
+            image_path = journal_img_dir / f"{article_id}-cover{ext}"
             result = download_image(raw.cover_image_url, image_path)
             if result is None:
                 logger.warning("Image download failed for %s", article_id)
@@ -229,33 +241,74 @@ class PipelineRunner:
         ai_output: Optional[Dict[str, Any]],
         summary_mode: str = "abstract-only",
     ) -> Dict[str, Any]:
-        """Build the final JSON entry from scraped + AI data."""
+        """Build the final JSON entry in the frontend-compatible format.
+
+        The output matches the ``ArticleDetail`` TypeScript interface used by
+        the React front-end:
+        ``{ id, journal, volume, issue, date, coverImage, coverStory }``.
+        """
+        # Resolve the local image path relative to the data directory.
+        # The frontend loads images via getDataUrl("data/images/…").
+        if image_path:
+            try:
+                local_img = "data/" + str(image_path.relative_to(DATA_DIR))
+            except ValueError:
+                local_img = str(image_path)
+        else:
+            local_img = ""
+
+        # Extract bilingual title/summary from AI output.
+        ai = ai_output or {}
+        title_zh = ai.get("title", {}).get("zh", raw.article_title or "")
+        title_en = ai.get("title", {}).get("en", raw.article_title or "")
+        summary_zh = ai.get("summary", {}).get("zh", "")
+        summary_en = ai.get("summary", {}).get("en", "")
+
+        # Build the cover image entry in the gallery.
+        images: List[Dict[str, Any]] = []
+        if local_img:
+            images.append({
+                "url": local_img,
+                "caption": {
+                    "zh": raw.cover_description or "",
+                    "en": raw.cover_description or "",
+                },
+            })
+
+        # Construct DOI URL.
+        doi = raw.article_doi or ""
+        doi_url = f"https://doi.org/{doi}" if doi else ""
+
         entry: Dict[str, Any] = {
             "id": article_id,
             "journal": raw.journal,
-            "volume": raw.volume,
-            "issue": raw.issue,
+            "volume": raw.volume or "",
+            "issue": raw.issue or "",
             "date": raw.date,
-            "cover_image": {
-                "url": raw.cover_image_url,
-                "local_path": str(image_path.relative_to(image_path.parents[1]))
-                if image_path
-                else "",
-                "credit": raw.cover_image_credit,
+            "coverImage": {
+                "url": local_img,
+                "credit": raw.cover_image_credit or "",
             },
-            "cover_description": raw.cover_description,
-            "article": {
-                "title": raw.article_title,
-                "authors": raw.article_authors,
-                "abstract": raw.article_abstract,
-                "doi": raw.article_doi,
-                "url": raw.article_url,
-                "pages": raw.article_pages,
+            "coverStory": {
+                "title": {"zh": title_zh, "en": title_en},
+                "summary": {"zh": summary_zh, "en": summary_en},
+                "keyArticle": {
+                    "title": raw.article_title or "",
+                    "authors": raw.article_authors or [],
+                    "doi": doi,
+                    "pages": raw.article_pages or "",
+                },
+                "images": images,
+                "links": {
+                    "official": raw.article_url or "",
+                    "doi": doi_url,
+                    **({"preprint": raw.preprint_url} if raw.preprint_url else {}),
+                },
             },
-            "preprint_url": raw.preprint_url,
-            "ai_summary": ai_output,  # None if dry-run or failed
-            "summary_mode": summary_mode,  # "full-text" or "abstract-only"
-            "created_at": datetime.now(timezone.utc).isoformat(),
+            "_meta": {
+                "summary_mode": summary_mode,
+                "created_at": datetime.now(timezone.utc).isoformat(),
+            },
         }
         return entry
 
@@ -266,49 +319,85 @@ class PipelineRunner:
     def _rebuild_index(self) -> None:
         """Rebuild ``data/index.json`` from all individual entry files.
 
-        The index is a sorted list of lightweight references (id, journal,
-        date, title) so the front-end can render a catalogue without
-        loading every full entry.
+        The index follows the ``ArticleIndex`` TypeScript interface:
+        ``{ lastUpdated, articles: [{ id, journal, date, path, title_zh, title_en, cover_url }] }``
         """
-        entries = []
+        articles = []
+        for f in sorted(DATA_DIR.glob("articles/**/*.json"), recursive=True):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+                article_id = data.get("id", f.stem)
+                date_str = data.get("date", "")
+                # Compute the relative path from data/ to this file.
+                rel_path = str(f.relative_to(DATA_DIR))
+                # Extract bilingual titles.
+                title = data.get("coverStory", {}).get("title", {})
+                title_zh = title.get("zh", "")
+                title_en = title.get("en", "")
+                cover_url = data.get("coverImage", {}).get("url", "")
+
+                articles.append({
+                    "id": article_id,
+                    "journal": data.get("journal", ""),
+                    "date": date_str,
+                    "path": rel_path,
+                    "title_zh": title_zh,
+                    "title_en": title_en,
+                    "cover_url": cover_url,
+                })
+            except (json.JSONDecodeError, KeyError) as exc:
+                logger.warning("Skipping malformed entry %s: %s", f, exc)
+
+        # Also scan flat data/*.json files (legacy format).
         for f in sorted(DATA_DIR.glob("*.json")):
             if f.name in ("index.json", "latest.json"):
                 continue
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
-                entries.append(
-                    {
-                        "id": data.get("id", f.stem),
-                        "journal": data.get("journal", ""),
-                        "date": data.get("date", ""),
-                        "title": (
-                            data.get("ai_summary", {}) or {}
-                        ).get("title", {}).get("en", data.get("article", {}).get("title", "")),
-                        "cover_image_local": data.get("cover_image", {}).get("local_path", ""),
-                    }
-                )
+                article_id = data.get("id", f.stem)
+                # Skip if already found in articles/ directory.
+                if any(a["id"] == article_id for a in articles):
+                    continue
+                date_str = data.get("date", "")
+                title = data.get("coverStory", {}).get("title", {})
+                title_zh = title.get("zh", "")
+                title_en = title.get("en", "")
+                cover_url = data.get("coverImage", {}).get("url", "")
+                articles.append({
+                    "id": article_id,
+                    "journal": data.get("journal", ""),
+                    "date": date_str,
+                    "path": f.name,
+                    "title_zh": title_zh,
+                    "title_en": title_en,
+                    "cover_url": cover_url,
+                })
             except (json.JSONDecodeError, KeyError) as exc:
                 logger.warning("Skipping malformed entry %s: %s", f, exc)
 
         # Sort newest first.
-        entries.sort(key=lambda e: e.get("date", ""), reverse=True)
+        articles.sort(key=lambda e: e.get("date", ""), reverse=True)
 
-        self._write_json(INDEX_FILE, {"entries": entries, "count": len(entries)})
-        logger.info("Rebuilt %s with %d entries", INDEX_FILE, len(entries))
+        index = {
+            "lastUpdated": datetime.now(timezone.utc).isoformat(),
+            "articles": articles,
+        }
+        self._write_json(INDEX_FILE, index)
+        logger.info("Rebuilt %s with %d entries", INDEX_FILE, len(articles))
 
     def _rebuild_latest(self) -> None:
-        """Rebuild ``data/latest.json`` containing the most recent entry
-        per journal.  This powers the front-end "hero" display.
+        """Rebuild ``data/latest.json`` containing the path to the most
+        recent entry per journal.  This powers the front-end "hero" display.
         """
-        latest: Dict[str, Any] = {}
-        for f in sorted(DATA_DIR.glob("*.json"), reverse=True):
-            if f.name in ("index.json", "latest.json"):
-                continue
+        latest: Dict[str, str] = {}  # journal -> article path
+        # Scan articles/ directory.
+        all_files = sorted(DATA_DIR.glob("articles/**/*.json"), reverse=True)
+        for f in all_files:
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
                 journal = data.get("journal", "")
                 if journal and journal not in latest:
-                    latest[journal] = data
+                    latest[journal] = str(f.relative_to(DATA_DIR))
             except (json.JSONDecodeError, KeyError) as exc:
                 logger.warning("Skipping malformed entry %s: %s", f, exc)
 
