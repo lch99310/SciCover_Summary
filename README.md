@@ -61,3 +61,7 @@ AI 生成的摘要不是逐字翻譯，而是面向大眾的「意譯式改寫�
 5. 本地測試：`python -m main --journal Lancet`
 6. 合併 PR 後，每週排程會自動開始處理
 
+---
+
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org)
+
