@@ -6,6 +6,7 @@ on:
     paths:
       - "frontend/**"
       - "data/**"
+      - "images/**"
   workflow_dispatch:
 
 permissions:
@@ -40,9 +41,10 @@ jobs:
         run: npm run build
         working-directory: frontend/
 
-      - name: Copy data (articles, images, manifests) into dist
+      - name: Copy data and images into dist
         run: |
-          cp -r data/ frontend/dist/data/
+          cp -r data/   frontend/dist/data/
+          cp -r images/  frontend/dist/images/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
