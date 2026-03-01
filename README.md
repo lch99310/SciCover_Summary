@@ -1,6 +1,8 @@
 # SciCover Summary
 ### A web-based application that provide Bilingual Summaries of cover articles from scientific journals
 
+Other Language：[Chinese](README.CN.md)
+
 ![cover](images/cover.png)
 ---
 
