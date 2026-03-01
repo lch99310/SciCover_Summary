@@ -1,77 +1,19 @@
 {
-  "lastUpdated": "2026-02-28T00:00:00Z",
-  "articles": [
+  "entries": [
     {
-      "id": "science-2026-02-26",
-      "journal": "Science",
-      "date": "2026-02-26",
-      "path": "articles/2026/02/science-2026-02-26.json",
-      "title_zh": "搖擺的星系噴流：超大質量黑洞如何改寫恆星的命運",
-      "title_en": "A Wobbling Galactic Jet: How Supermassive Black Holes Rewrite the Fate of Stars",
-      "cover_url": "data/images/science/science-2026-02-26-cover.jpg"
-    },
-    {
-      "id": "nature-2026-02-26",
-      "journal": "Nature",
-      "date": "2026-02-26",
-      "path": "articles/2026/02/nature-2026-02-26.json",
-      "title_zh": "球鞋為什麼會吱吱叫？物理學家解碼了摩擦的「音樂」",
-      "title_en": "Why Do Sneakers Squeak? Physicists Decode the 'Music' of Friction",
-      "cover_url": "data/images/nature/nature-2026-02-26-cover.png"
-    },
-    {
-      "id": "cell-2026-02-19",
-      "journal": "Cell",
-      "date": "2026-02-19",
-      "path": "articles/2026/02/cell-2026-02-19.json",
-      "title_zh": "腸道裡的「哨兵」：工程化共生菌成為體內即時健康感測器",
-      "title_en": "Sentinels in the Gut: Engineered Commensal Bacteria Become Real-Time Health Sensors",
-      "cover_url": "data/images/cell/cell-2026-02-19-cover.jpg"
-    },
-    {
-      "id": "polgeog-2025-01-01",
-      "journal": "Political Geography",
-      "date": "2025-01-01",
-      "path": "articles/2025/01/polgeog-2025-01-01.json",
-      "title_zh": "被忽視的鄉村如何投向極右翼——葡萄牙的政治邊緣化啟示",
-      "title_en": "How Politically Neglected Rural Communities Turn to the Radical Right — Lessons from Portugal",
-      "cover_url": "data/images/Political_Geography/PG-2025-01-01-fig1.jpg"
-    },
-    {
-      "id": "asr-2026-02-01",
-      "journal": "American Sociological Review",
-      "date": "2026-02-01",
-      "path": "articles/2026/02/asr-2026-02-01.json",
-      "title_zh": "政治仇恨的長影：黨派對立如何拖垮民主國家的氣候行動",
-      "title_en": "The Long Shadow of Partisan Hostility: How Political Polarization Undermines Climate Action",
-      "cover_url": "data/images/ASR/ASR-cover.png"
-    },
-    {
-      "id": "science-2026-01-31",
-      "journal": "Science",
-      "date": "2026-01-31",
-      "path": "articles/2026/01/science-2026-01-31.json",
-      "title_zh": "人腦的「Google 地圖」：科學家首次繪製完整人類大腦細胞圖譜",
-      "title_en": "Google Maps for the Brain: Scientists Chart the First Complete Human Brain Cell Atlas",
-      "cover_url": "data/images/science/science-2026-01-31-cover.jpg"
-    },
-    {
-      "id": "nature-2026-01-29",
-      "journal": "Nature",
-      "date": "2026-01-29",
-      "path": "articles/2026/01/nature-2026-01-29.json",
-      "title_zh": "引力波「聽」到了中子星合併後的新生黑洞在「鳴響」",
-      "title_en": "Gravitational Waves 'Hear' a Newborn Black Hole Ringing After Neutron Star Merger",
-      "cover_url": "data/images/nature/nature-2026-01-29-cover.jpg"
-    },
-    {
-      "id": "intorg-2025-01-01",
+      "id": "international-organization-",
       "journal": "International Organization",
-      "date": "2025-01-01",
-      "path": "articles/2025/01/intorg-2025-01-01.json",
-      "title_zh": "當「新皇室主義」重返國際政治——川普時代如何改寫全球秩序的遊戲規則",
-      "title_en": "The Return of Neo-Royalism: How the Trump Administration Is Rewriting the Rules of Global Order",
-      "cover_url": "data/images/International_Organization/IO-2025-01-01-fig1.png"
+      "date": "",
+      "title": "The Future of Global Governance and World Order",
+      "cover_image_local": ""
+    },
+    {
+      "id": "nature-",
+      "journal": "Nature",
+      "date": "",
+      "title": "Sub-part-per-trillion test of the Standard Model with atomic hydrogen",
+      "cover_image_local": "images/nature-.jpg"
     }
-  ]
+  ],
+  "count": 2
 }

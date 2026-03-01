@@ -5,7 +5,7 @@
   "issue": "4",
   "date": "2026-02-19",
   "coverImage": {
-    "url": "data/images/cell/cell-2026-02-19-cover.jpg",
+    "url": "https://www.cell.com/cms/10.1016/j.cell.2025.12.052/asset/d2e2808a-a0a4-4e28-9339-81575b5fc914/main.assets/fx1_lrg.jpg",
     "credit": "Giselle McCallum"
   },
   "coverStory": {
@@ -19,20 +19,13 @@
     },
     "keyArticle": {
       "title": "A Bacteroides synthetic biology toolkit to build an in vivo malabsorption biosensor",
-      "authors": [
-        "Giselle McCallum",
-        "Juan C. Burckhardt",
-        "Jerry He",
-        "Alice Hong",
-        "Laurent Potvin-Trottier",
-        "Carolina Tropini"
-      ],
+      "authors": ["Giselle McCallum", "Juan C. Burckhardt", "Jerry He", "Alice Hong", "Laurent Potvin-Trottier", "Carolina Tropini"],
       "doi": "10.1016/j.cell.2025.12.052",
       "pages": ""
     },
     "images": [
       {
-        "url": "data/images/cell/cell-2026-02-19-cover.jpg",
+        "url": "https://www.cell.com/cms/10.1016/j.cell.2025.12.052/asset/d2e2808a-a0a4-4e28-9339-81575b5fc914/main.assets/fx1_lrg.jpg",
         "caption": {
           "zh": "工程化感測菌株在小鼠結腸中的螢光顯微圖像——共生菌被改造為能夠即時偵測腸道滲透壓變化的活體生物感測器。",
           "en": "Fluorescent micrograph of the engineered biosensor strain in the mouse colon — commensal bacteria reprogrammed to detect osmolality changes in the living gut in real time."

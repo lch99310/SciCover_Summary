@@ -5,7 +5,7 @@
   "issue": "1",
   "date": "2026-02-01",
   "coverImage": {
-    "url": "data/images/ASR/ASR-cover.png",
+    "url": "images/ASR/ASR-cover.png",
     "credit": ""
   },
   "coverStory": {
@@ -19,12 +19,7 @@
     },
     "keyArticle": {
       "title": "The Long Shadow of Partisan Hostility: How Affective Polarization Hinders Democracies' Ability to Mitigate Climate Change",
-      "authors": [
-        "Don Grant",
-        "Andrew Jorgenson",
-        "Wesley Longhofer",
-        "Ion Bogdan Vasi"
-      ],
+      "authors": ["Don Grant", "Andrew Jorgenson", "Wesley Longhofer", "Ion Bogdan Vasi"],
       "doi": "10.1177/00031224251396518",
       "pages": "19-54"
     },

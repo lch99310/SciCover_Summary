@@ -5,7 +5,7 @@
   "issue": "",
   "date": "2025-01-01",
   "coverImage": {
-    "url": "data/images/Political_Geography/PG-2025-01-01-fig1.jpg",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0962629824001732-gr1.jpg",
     "credit": ""
   },
   "coverStory": {
@@ -19,23 +19,20 @@
     },
     "keyArticle": {
       "title": "Political neglect and support for the radical right: The case of rural Portugal",
-      "authors": [
-        "Pedro C. Magalhães",
-        "João Cancela"
-      ],
+      "authors": ["Pedro C. Magalhães", "João Cancela"],
       "doi": "10.1016/j.polgeo.2024.103224",
       "pages": "103224"
     },
     "images": [
       {
-        "url": "data/images/Political_Geography/PG-2025-01-01-fig1.jpg",
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0962629824001732-gr1.jpg",
         "caption": {
           "zh": "Chega 投票行為的階層隨機截距平行多重中介模型",
           "en": "Hierarchical random intercept parallel multiple mediation model of the vote for Chega"
         }
       },
       {
-        "url": "data/images/Political_Geography/PG-2025-01-01-fig2.jpg",
+        "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0962629824001732-gr2.jpg",
         "caption": {
           "zh": "農村性對 Chega 投票的總效果、直接效果與特定間接效果的觀察係數和偏差校正自助法信賴區間",
           "en": "Observed coefficients and bias-corrected bootstrapped confidence intervals for total, direct, and specific indirect effects of Rurality on the Vote for Chega"
