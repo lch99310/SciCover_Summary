@@ -1,14 +1,23 @@
 import type { ArticleImage } from '../../lib/types';
-import { getDataUrl } from '../../lib/constants';
+import { getDataUrl, getDefaultCoverUrl } from '../../lib/constants';
 import './FigureGallery.css';
 
 interface FigureGalleryProps {
   images: ArticleImage[];
   credit?: string;
+  journal?: string;
 }
 
-export function FigureGallery({ images, credit }: FigureGalleryProps) {
+export function FigureGallery({ images, credit, journal }: FigureGalleryProps) {
   if (images.length === 0) return null;
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const target = e.currentTarget;
+    const fallback = getDefaultCoverUrl(journal || 'Science');
+    if (target.src !== fallback) {
+      target.src = fallback;
+    }
+  };
 
   return (
     <div className="figure-gallery">
@@ -20,6 +29,7 @@ export function FigureGallery({ images, credit }: FigureGalleryProps) {
               alt={img.caption.en}
               className="figure-gallery__image"
               loading={index === 0 ? 'eager' : 'lazy'}
+              onError={handleImageError}
             />
           </div>
           <figcaption className="figure-gallery__caption">

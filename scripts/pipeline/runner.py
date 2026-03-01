@@ -63,6 +63,17 @@ SCRAPER_MAP: Dict[str, Type[BaseScraper]] = {
     "asr": ASRScraper,
 }
 
+# Map journal name -> image directory slug.
+# Must match the folder names under data/images/.
+JOURNAL_IMAGE_SLUG: Dict[str, str] = {
+    "Science": "science",
+    "Nature": "nature",
+    "Cell": "cell",
+    "Political Geography": "Political_Geography",
+    "International Organization": "International_Organization",
+    "American Sociological Review": "ASR",
+}
+
 
 # ---------------------------------------------------------------------------
 # Pipeline runner
@@ -158,6 +169,15 @@ class PipelineRunner:
             )
             return
 
+        # Validate: date is required for a meaningful article ID.
+        if not raw.date or not raw.date.strip():
+            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            logger.warning(
+                "Scraper for %s returned empty date — falling back to today (%s)",
+                journal, today,
+            )
+            raw.date = today
+
         # Step 2 — Deduplicate.
         article_id = generate_article_id(raw.journal, raw.date)
         # Store articles under data/articles/<year>/<month>/<id>.json
@@ -179,7 +199,9 @@ class PipelineRunner:
         # Step 3 — Download cover image to data/images/<journal_slug>/.
         image_path: Optional[Path] = None
         if raw.cover_image_url:
-            journal_slug = raw.journal.lower().replace(" ", "_")
+            journal_slug = JOURNAL_IMAGE_SLUG.get(
+                raw.journal, raw.journal.lower().replace(" ", "_")
+            )
             journal_img_dir = IMAGES_DIR / journal_slug
             ensure_dir(journal_img_dir)
             ext = self._guess_image_ext(raw.cover_image_url)
