@@ -68,14 +68,17 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: update natural-science cover-story data [skip ci]"
+            git pull --rebase origin main
             git push
           fi
 
   scrape-social-science:
     # Runs twice monthly (1st and 15th) — handles Political Geography, International Organization, ASR
+    # Wait for natural-science job to finish first to avoid push conflicts
+    needs: scrape-natural-science
+    if: always() && (github.event.schedule == '0 6 1,15 * *' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    if: github.event.schedule == '0 6 1,15 * *' || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout repository
@@ -121,5 +124,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: update social-science cover-story data [skip ci]"
+            git pull --rebase origin main
             git push
           fi
