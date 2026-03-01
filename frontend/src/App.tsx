@@ -53,10 +53,6 @@ function HomePage() {
     const articles = activeJournal === 'all'
       ? index.articles
       : index.articles.filter((a) => a.journal === activeJournal);
-    // Skip the first article if it's the hero (shown in hero section)
-    if (activeJournal === 'all' && articles.length > 0) {
-      return articles.slice(1);
-    }
     return articles;
   }, [index, activeJournal]);
 

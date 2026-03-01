@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useArticle } from '../../hooks/useArticles';
 import { JOURNAL_RAW_COLORS } from '../../lib/constants';
 import { BilingualSummary } from './BilingualSummary';
@@ -11,7 +11,16 @@ import './ArticleDetail.css';
 
 export function ArticleDetail() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const { data: article, isLoading, error } = useArticle(id);
+
+  const handleGoBack = () => {
+    if (window.history.length > 1) {
+      navigate(-1);
+    } else {
+      navigate('/');
+    }
+  };
 
   if (isLoading) return <LoadingSpinner />;
 
@@ -20,7 +29,7 @@ export function ArticleDetail() {
       <div className="article-detail__error container reading-column">
         <h2>找不到文章</h2>
         <p>您所尋找的文章不存在或載入失敗。</p>
-        <Link to="/" className="article-detail__back-link">&larr; 回到首頁</Link>
+        <button onClick={handleGoBack} className="article-detail__back-link">&larr; 回到上一頁 / Go Back</button>
       </div>
     );
   }
@@ -37,7 +46,7 @@ export function ArticleDetail() {
       transition={{ duration: 0.4 }}
     >
       <div className="article-detail__header container reading-column">
-        <Link to="/" className="article-detail__back-link">&larr; 回到首頁</Link>
+        <button onClick={handleGoBack} className="article-detail__back-link">&larr; 回到上一頁 / Go Back</button>
 
         <div className="article-detail__meta">
           <span

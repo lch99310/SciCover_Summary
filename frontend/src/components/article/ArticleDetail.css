@@ -16,6 +16,10 @@
   text-decoration: none;
   margin-bottom: var(--space-6);
   transition: color var(--transition-fast);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .article-detail__back-link:hover {
