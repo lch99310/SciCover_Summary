@@ -14,7 +14,7 @@ on:
         default: "all"
 
 permissions:
-  contents: write                  # push data/ and images/ back to repo
+  contents: write                  # push data/ back to repo
 
 jobs:
   scrape-natural-science:
@@ -63,12 +63,17 @@ jobs:
         run: |
           git config user.name  "SciCover Bot"
           git config user.email "scicover-bot@users.noreply.github.com"
-          git add data/ images/
+          # Clean up Python bytecode so it doesn't cause unstaged-changes errors
+          find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: update natural-science cover-story data [skip ci]"
+            # Stash any remaining untracked/unstaged files before rebase
+            git stash --include-untracked || true
             git pull --rebase origin main
+            git stash pop || true
             git push
           fi
 
@@ -119,11 +124,16 @@ jobs:
         run: |
           git config user.name  "SciCover Bot"
           git config user.email "scicover-bot@users.noreply.github.com"
-          git add data/ images/
+          # Clean up Python bytecode so it doesn't cause unstaged-changes errors
+          find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: update social-science cover-story data [skip ci]"
+            # Stash any remaining untracked/unstaged files before rebase
+            git stash --include-untracked || true
             git pull --rebase origin main
+            git stash pop || true
             git push
           fi
