@@ -46,9 +46,8 @@ AI 生成的摘要不是逐字翻譯，而是面向大眾的「意譯式改寫�
 
 ---
 
-## 線上預覽
+## 網站連結
 
-部署後的網址格式：
 [SciCover Summary](https://lch99310.github.io/SciCover_Summary/)
 
 
