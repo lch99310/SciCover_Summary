@@ -3,7 +3,7 @@
 **全球頂級科學期刊封面故事 · 雙語解讀**
 *Top Science Journal Cover Stories · Bilingual Summaries*
 
-[cover](image/cover.png)
+[cover](images/cover.png)
 ---
 
 ## 為什麼需要 SciCover？
