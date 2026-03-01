@@ -52,26 +52,3 @@ export function getDataUrl(relativePath: string): string {
 export const SITE_NAME = 'SciCover Summary';
 export const SITE_TAGLINE_ZH = '頂級學術期刊封面故事 · 雙語解讀';
 export const SITE_TAGLINE_EN = 'Top Academic Journal Cover Stories · Bilingual Summaries';
-
-/**
- * Map journal names to their default-cover image path under data/images/.
- * Each journal folder should contain a default-cover.jpg as a fallback.
- * Folder names must match what exists on disk.
- */
-const DEFAULT_COVER_MAP: Record<string, string> = {
-  Science: 'data/images/science/default-cover.jpg',
-  Nature: 'data/images/nature/default-cover.jpg',
-  Cell: 'data/images/cell/default-cover.jpg',
-  'Political Geography': 'data/images/Political_Geography/default-cover.jpg',
-  'International Organization': 'data/images/International_Organization/default-cover.jpg',
-  'American Sociological Review': 'data/images/ASR/default-cover.jpg',
-};
-
-/**
- * Get the default cover image URL for a given journal.
- * Falls back to the Science default if the journal is unknown.
- */
-export function getDefaultCoverUrl(journal: string): string {
-  const path = DEFAULT_COVER_MAP[journal] || DEFAULT_COVER_MAP.Science;
-  return getDataUrl(path);
-}

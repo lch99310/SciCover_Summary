@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ArticleDetail } from '../../lib/types';
-import { JOURNAL_RAW_COLORS, getDataUrl, getDefaultCoverUrl } from '../../lib/constants';
+import { JOURNAL_RAW_COLORS, getDataUrl } from '../../lib/constants';
 import { format } from 'date-fns';
 import './HeroSection.css';
 
@@ -13,26 +13,12 @@ export function HeroSection({ article }: HeroSectionProps) {
   const journalColor = JOURNAL_RAW_COLORS[journal];
   const formattedDate = format(new Date(date), 'MMMM d, yyyy');
 
-  const coverUrl = coverImage.url
-    ? getDataUrl(coverImage.url)
-    : getDefaultCoverUrl(journal);
-
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    const target = e.currentTarget;
-    const fallback = getDefaultCoverUrl(journal);
-    if (target.src !== fallback) {
-      target.src = fallback;
-    }
-  };
-
   return (
     <Link to={`/article/${article.id}`} className="hero">
       <div className="hero__image-wrapper">
-        <img
+        <div
           className="hero__image"
-          src={coverUrl}
-          alt={coverStory.title.en}
-          onError={handleImageError}
+          style={{ backgroundImage: `url(${getDataUrl(coverImage.url)})` }}
         />
         <div className="hero__gradient" />
       </div>

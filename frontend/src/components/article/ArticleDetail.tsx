@@ -66,7 +66,6 @@ export function ArticleDetail() {
         <FigureGallery
           images={coverStory.images}
           credit={coverImage.credit}
-          journal={journal}
         />
       </div>
 
