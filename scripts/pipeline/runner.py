@@ -360,7 +360,7 @@ class PipelineRunner:
         ``{ lastUpdated, articles: [{ id, journal, date, path, title_zh, title_en, cover_url }] }``
         """
         articles = []
-        for f in sorted(DATA_DIR.glob("articles/**/*.json"), recursive=True):
+        for f in sorted(DATA_DIR.glob("articles/**/*.json")):
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
                 article_id = data.get("id", f.stem)

@@ -92,25 +92,40 @@ class IntOrgScraper(BaseScraper):
 
         Cambridge Core typically shows:
             <h1>Volume 80, Issue 1 - January 2026</h1>
-        or structured elements with volume/issue info.
+        or in the <title>:
+            Latest issue | International Organization | Cambridge Core
+        Also handles supplement issues like "Issue S1".
         """
         header = soup.select_one(
             ".journal-issue h1, .issue-title, "
             "h1[class*='issue'], .current-issue__details"
         )
+
+        # Also try <title> tag as fallback for page metadata
+        title_tag = soup.select_one("title")
+
+        text = ""
         if header:
             text = self._clean_text(header.get_text())
+        elif title_tag:
+            text = self._clean_text(title_tag.get_text())
+
+        if text:
             m_vol = re.search(r"Volume\s+(\d+)", text, re.IGNORECASE)
             if m_vol:
                 raw.volume = m_vol.group(1)
-            m_iss = re.search(r"Issue\s+(\d+)", text, re.IGNORECASE)
+            # Handle both "Issue 1" and "Issue S1" (supplement)
+            m_iss = re.search(r"Issue\s+(\w+)", text, re.IGNORECASE)
             if m_iss:
                 raw.issue = m_iss.group(1)
 
             from dateutil.parser import parse as parse_date
-            date_match = re.search(
-                r"(\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})", text
-            )
+            # Try date after a dash: "Volume 79, Issue S1 - December 2025"
+            date_match = re.search(r"-\s*(\w+\s+\d{4})", text)
+            if not date_match:
+                date_match = re.search(
+                    r"(\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})", text
+                )
             if date_match:
                 try:
                     raw.date = parse_date(date_match.group(1)).strftime("%Y-%m-%d")
@@ -130,6 +145,19 @@ class IntOrgScraper(BaseScraper):
             meta = soup.select_one("meta[name='citation_publication_date']")
             if meta:
                 raw.date = meta.get("content", "")[:10]
+
+        # Also try to extract volume/issue from the page body text if still missing
+        if not raw.volume or not raw.issue:
+            for tag in soup.select("h1, h2, h3, .volume-issue"):
+                tag_text = self._clean_text(tag.get_text())
+                if not raw.volume:
+                    m = re.search(r"Volume\s+(\d+)", tag_text, re.IGNORECASE)
+                    if m:
+                        raw.volume = m.group(1)
+                if not raw.issue:
+                    m = re.search(r"Issue\s+(\w+)", tag_text, re.IGNORECASE)
+                    if m:
+                        raw.issue = m.group(1)
 
     # --- Cover image -----------------------------------------------------
 

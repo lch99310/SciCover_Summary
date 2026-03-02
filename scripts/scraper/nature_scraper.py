@@ -137,19 +137,53 @@ class NatureScraper(BaseScraper):
         Nature hosts cover images on the Springer Nature CDN, typically:
             https://media.springernature.com/w580/nature-cms/uploads/…/cover.jpg
         The page usually wraps it in a ``<picture>`` or ``<img>`` tag.
-        """
-        # TODO: Verify selectors against live HTML structure.
 
-        # Strategy 1 — img whose src matches the springernature CDN pattern.
-        img = soup.select_one("img[src*='springernature.com']")
+        IMPORTANT: Must skip SVG files (header logos) and only grab actual
+        raster cover images (jpg/png/webp).
+        """
+        def _is_valid_cover(tag) -> bool:
+            """Return True if the img tag points to a real cover image."""
+            src = (tag.get("src") or tag.get("data-src") or "").lower()
+            # Skip SVG files — these are logos/headers, not covers
+            if src.endswith(".svg") or "/header" in src or "/logo" in src:
+                return False
+            # Must be an actual image file
+            if not src:
+                return False
+            return True
+
+        img = None
+
+        # Strategy 1 — dedicated cover wrapper on the TOC page.
+        for candidate in soup.select(
+            ".c-issue-cover img, [data-test='issue-cover'] img, "
+            ".issue-cover-image img"
+        ):
+            if _is_valid_cover(candidate):
+                img = candidate
+                break
+
+        # Strategy 2 — img whose src matches CDN pattern for uploads (not headers).
         if not img:
-            img = soup.select_one("img[src*='nature-cms']")
+            for candidate in soup.select("img[src*='springernature.com']"):
+                src = (candidate.get("src") or "").lower()
+                if "uploads" in src and _is_valid_cover(candidate):
+                    img = candidate
+                    break
+
         if not img:
-            # Strategy 2 — wrapper class used on the TOC page.
-            img = soup.select_one(
-                ".c-issue-cover img, [data-test='issue-cover'] img, "
-                "[class*='cover'] img, .issue-cover-image img"
-            )
+            for candidate in soup.select("img[src*='nature-cms']"):
+                src = (candidate.get("src") or "").lower()
+                if "uploads" in src and _is_valid_cover(candidate):
+                    img = candidate
+                    break
+
+        # Strategy 3 — any cover-related class with a raster image.
+        if not img:
+            for candidate in soup.select("[class*='cover'] img"):
+                if _is_valid_cover(candidate):
+                    img = candidate
+                    break
 
         if img:
             src = img.get("src") or img.get("data-src") or ""
