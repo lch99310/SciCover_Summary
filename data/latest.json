@@ -1,8 +1,8 @@
 {
-  "Nature": "nature-2026-02-26",
-  "Science": "science-2026-02-26",
-  "Cell": "cell-2026-02-19",
-  "American Sociological Review": "asr-2026-02-01",
-  "Political Geography": "polgeog-2026-02-01",
-  "International Organization": "intorg-2026-01-01"
+  "Nature": "articles/2026/03/nature-2026-03-02.json",
+  "International Organization": "articles/2026/03/international-organization-2026-03-02.json",
+  "Science": "articles/2026/02/science-2026-02-26.json",
+  "Political Geography": "articles/2026/02/polgeog-2026-02-01.json",
+  "Cell": "articles/2026/02/cell-2026-02-19.json",
+  "American Sociological Review": "articles/2026/02/asr-2026-02-01.json"
 }
