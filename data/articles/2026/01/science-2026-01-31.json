@@ -35,11 +35,27 @@
           "zh": "人腦細胞圖譜的三維視覺化——不同顏色代表不同的細胞亞型，共超過 3,000 種。",
           "en": "Three-dimensional visualization of the human brain cell atlas — different colors represent distinct cell subtypes, totaling over 3,000."
         }
+      },
+      {
+        "url": "data/images/science/science-2026-01-31-fig1.jpg",
+        "caption": {
+          "zh": "圖一：人類皮質區域的轉錄組細胞類型多樣性——八個皮質區域的單核 RNA 定序分析，揭示了 24 種細胞亞類的組成。",
+          "en": "Fig. 1: Transcriptomic cell type diversity across human cortical areas — snRNA-seq profiling of eight cortical areas reveals the composition of 24 cell subclasses."
+        }
+      },
+      {
+        "url": "data/images/science/science-2026-01-31-fig5.jpg",
+        "caption": {
+          "zh": "圖五：跨區域共識分類——整合八個皮質區域的數據，建立統一的細胞類型分類體系。",
+          "en": "Fig. 5: Cross-areal consensus taxonomy — integrating data across eight cortical areas to establish a unified cell type classification."
+        }
       }
     ],
     "links": {
       "official": "https://www.science.org/doi/10.1126/science.adf6812",
-      "doi": "https://doi.org/10.1126/science.adf6812"
+      "doi": "https://doi.org/10.1126/science.adf6812",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2022.11.06.515349v1",
+      "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687949/"
     }
   }
 }

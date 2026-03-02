@@ -32,11 +32,20 @@
           "zh": "藝術概念圖：兩顆中子星合併後形成的新生黑洞正在「鳴響」——向外輻射引力波準正則模訊號。",
           "en": "Artist's concept of a newborn black hole 'ringing' after a neutron star merger, radiating gravitational-wave quasinormal mode signals."
         }
+      },
+      {
+        "url": "data/images/nature/nature-2026-01-29-fig1.jpg",
+        "caption": {
+          "zh": "圖一：雙中子星合併後引力波「長鳴響」訊號的數值模擬——不同顏色代表不同的物質狀態方程。",
+          "en": "Fig. 1: Numerical simulation of the post-merger gravitational wave 'long ringdown' signal from binary neutron star mergers — different colors represent different equations of state."
+        }
       }
     ],
     "links": {
-      "official": "https://www.nature.com/articles/s41586-026-09815-w",
-      "doi": "https://doi.org/10.1038/s41586-026-09815-w"
+      "official": "https://www.nature.com/articles/s41467-025-56500-x",
+      "doi": "https://doi.org/10.1038/s41467-025-56500-x",
+      "preprint": "https://arxiv.org/abs/2509.08099",
+      "note": "Related: LVK Collaboration black hole spectroscopy with GW250114"
     }
   }
 }

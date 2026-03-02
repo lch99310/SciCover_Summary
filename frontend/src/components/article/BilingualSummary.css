@@ -19,16 +19,34 @@
   margin-bottom: var(--space-4);
 }
 
+/* ── Titles ─────────────────────────────────────── */
+
 .bilingual-summary__title-zh {
   font-size: var(--text-3xl);
   color: var(--color-text-primary);
   margin-bottom: var(--space-6);
+  line-height: 1.4;
 }
 
 .bilingual-summary__title-en {
   font-size: var(--text-2xl);
   color: var(--color-text-primary);
   margin-bottom: var(--space-6);
+  line-height: 1.35;
+}
+
+/* ── Body text (shared) ─────────────────────────── */
+
+.bilingual-summary__body {
+  line-height: 1.8;
+}
+
+.bilingual-summary__body p {
+  margin-bottom: var(--space-4);
+}
+
+.bilingual-summary__body p:last-child {
+  margin-bottom: 0;
 }
 
 .bilingual-summary__body-zh {
@@ -36,32 +54,62 @@
   color: var(--color-text-primary);
 }
 
-.bilingual-summary__body-zh p {
-  margin-bottom: var(--space-4);
-}
-
-.bilingual-summary__body-zh p:last-child {
-  margin-bottom: 0;
-}
-
 .bilingual-summary__body-en {
   font-size: var(--text-base);
   color: var(--color-text-primary);
+  line-height: 1.75;
 }
 
-.bilingual-summary__body-en p {
-  margin-bottom: var(--space-4);
+/* ── Structured section blocks ──────────────────── */
+
+.structured-section {
+  margin-bottom: var(--space-6);
 }
 
-.bilingual-summary__body-en p:last-child {
+.structured-section:last-child {
   margin-bottom: 0;
 }
+
+.structured-section__header {
+  font-family: 'Inter', 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  color: var(--section-accent, var(--color-accent));
+  margin: 0 0 var(--space-2) 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+.structured-section__header--zh {
+  font-family: 'Noto Sans SC', 'Inter', sans-serif;
+  font-size: var(--text-base);
+  letter-spacing: 0.08em;
+}
+
+.structured-section__header--en {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.structured-section p {
+  margin-bottom: var(--space-3);
+}
+
+.structured-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Divider ────────────────────────────────────── */
 
 .bilingual-summary__divider {
   border: none;
   border-top: 1px solid var(--color-divider);
   margin: var(--space-10) 0;
 }
+
+/* ── Responsive ─────────────────────────────────── */
 
 @media (max-width: 768px) {
   .bilingual-summary__section {
@@ -74,5 +122,9 @@
 
   .bilingual-summary__title-en {
     font-size: var(--text-xl);
+  }
+
+  .bilingual-summary__body-zh {
+    font-size: var(--text-base);
   }
 }
