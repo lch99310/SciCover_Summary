@@ -45,6 +45,7 @@ class CoverArticleRaw:
     article_doi: str = ""                 # e.g. "10.1126/science.abc1234"
     article_url: str = ""                 # Absolute URL to the full article page
     article_pages: str = ""               # e.g. "123-127"
+    article_date: str = ""                # Article-level publication date (may differ from issue date)
 
     preprint_url: str = ""                # Optional link to a preprint version
 

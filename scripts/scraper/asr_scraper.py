@@ -176,11 +176,15 @@ class ASRScraper(BaseScraper):
     # --- Article enrichment ----------------------------------------------
 
     def _enrich_from_article_page(self, raw: CoverArticleRaw) -> None:
-        """Fetch the article page and pull abstract, authors, and DOI."""
+        """Fetch the article page and pull abstract, authors, DOI,
+        article-level publication date, and fallback image."""
         soup = self._fetch_and_parse(raw.article_url)
         if soup is None:
             logger.warning("Could not fetch article page: %s", raw.article_url)
             return
+
+        # --- Article-level publication date ---
+        self._extract_article_date(soup, raw)
 
         # --- Title ---
         title_tag = soup.select_one(
@@ -239,6 +243,10 @@ class ASRScraper(BaseScraper):
                 f"{meta_fp.get('content', '')}-{meta_lp.get('content', '')}"
             )
 
+        # --- Fallback cover image from og:image ---
+        if not raw.cover_image_url:
+            self._extract_og_image(soup, raw)
+
         # --- Preprint URL (check for SocArXiv or SSRN links) ---
         for a_tag in soup.select("a[href]"):
             href = a_tag.get("href", "")
@@ -249,3 +257,63 @@ class ASRScraper(BaseScraper):
             )):
                 raw.preprint_url = href
                 break
+
+    # --- Article date extraction -----------------------------------------
+
+    @staticmethod
+    def _extract_article_date(soup, raw: CoverArticleRaw) -> None:
+        """Extract article-level publication date from SAGE Journals page.
+
+        SAGE uses meta tags like:
+            <meta name="citation_online_date" content="2025/12/15">
+            <meta name="dc.Date" content="2026-02-01">
+        Also "First Published" text patterns.
+        """
+        from dateutil.parser import parse as parse_date
+
+        # Strategy 1: citation_online_date
+        meta_online = soup.select_one("meta[name='citation_online_date']")
+        if meta_online:
+            try:
+                raw.article_date = parse_date(
+                    meta_online.get("content", "")
+                ).strftime("%Y-%m-%d")
+            except (ValueError, OverflowError):
+                pass
+
+        # Strategy 2: dc.Date
+        if not raw.article_date:
+            meta_dc = soup.select_one("meta[name='dc.Date']")
+            if meta_dc:
+                try:
+                    raw.article_date = parse_date(
+                        meta_dc.get("content", "")
+                    ).strftime("%Y-%m-%d")
+                except (ValueError, OverflowError):
+                    pass
+
+        # Strategy 3: "First Published" text
+        if not raw.article_date:
+            for tag in soup.select("span, div, p"):
+                text = tag.get_text()
+                if "First Published" in text or "First published" in text:
+                    date_match = re.search(
+                        r"(\w+\s+\d{1,2},?\s+\d{4}|\d{1,2}\s+\w+\s+\d{4})", text
+                    )
+                    if date_match:
+                        try:
+                            raw.article_date = parse_date(date_match.group(1)).strftime("%Y-%m-%d")
+                        except (ValueError, OverflowError):
+                            pass
+                        break
+
+    @staticmethod
+    def _extract_og_image(soup, raw: CoverArticleRaw) -> None:
+        """Fallback: use og:image meta tag as article thumbnail."""
+        og_img = soup.select_one("meta[property='og:image']")
+        if og_img:
+            url = og_img.get("content", "")
+            if url and "default" not in url.lower() and "logo" not in url.lower():
+                # Skip generic ASR cover social images
+                if "cover-social" not in url.lower() and "cover-alt" not in url.lower():
+                    raw.cover_image_url = url

@@ -71,8 +71,7 @@ class NatureScraper(BaseScraper):
             self._enrich_from_article_page(raw)
 
         if not raw.cover_image_url:
-            logger.warning("No cover image found for %s — skipping", toc_url)
-            return None
+            logger.warning("No cover image found for %s — proceeding without cover", toc_url)
 
         logger.info(
             "Scraped %s vol.%s #%s — %s",
@@ -208,11 +207,15 @@ class NatureScraper(BaseScraper):
     # --- Article enrichment ----------------------------------------------
 
     def _enrich_from_article_page(self, raw: CoverArticleRaw) -> None:
-        """Fetch the article page and pull abstract, DOI, and authors."""
+        """Fetch the article page and pull abstract, DOI, authors,
+        article-level publication date, and fallback image."""
         soup = self._fetch_and_parse(raw.article_url)
         if soup is None:
             logger.warning("Could not fetch article page: %s", raw.article_url)
             return
+
+        # --- Article-level publication date ---
+        self._extract_article_date(soup, raw)
 
         # --- Title ---
         title_tag = soup.select_one(
@@ -223,8 +226,6 @@ class NatureScraper(BaseScraper):
             raw.article_title = self._clean_text(title_tag.get_text())
 
         # --- Authors ---
-        # TODO: Verify selectors — Nature typically uses:
-        #   <li class="c-article-author-list__item">…<a …>Author Name</a></li>
         author_tags = soup.select(
             ".c-article-author-list__item a[data-test='author-name'], "
             "[itemprop='author'] [itemprop='name'], "
@@ -255,6 +256,10 @@ class NatureScraper(BaseScraper):
                 if m:
                     raw.article_doi = m.group(1).rstrip(".")
 
+        # --- Fallback cover image from og:image ---
+        if not raw.cover_image_url:
+            self._extract_og_image(soup, raw)
+
         # --- Preprint URL ---
         for a_tag in soup.select("a[href]"):
             href = a_tag.get("href", "")
@@ -264,3 +269,56 @@ class NatureScraper(BaseScraper):
             )):
                 raw.preprint_url = href
                 break
+
+    # --- Article date extraction -----------------------------------------
+
+    @staticmethod
+    def _extract_article_date(soup, raw: CoverArticleRaw) -> None:
+        """Extract the article-level publication date from the Nature article page.
+
+        Nature uses meta tags like:
+            <meta name="citation_online_date" content="2026/01/15">
+            <meta name="dc.date" content="2026-01-15">
+            <meta name="citation_publication_date" content="2026/02/26">
+        And also <time datetime="..."> elements.
+        We prefer the earliest date (online/first-published date).
+        """
+        from dateutil.parser import parse as parse_date
+
+        # Strategy 1: citation_online_date (first published online)
+        meta_online = soup.select_one("meta[name='citation_online_date']")
+        if meta_online:
+            try:
+                raw.article_date = parse_date(
+                    meta_online.get("content", "")
+                ).strftime("%Y-%m-%d")
+            except (ValueError, OverflowError):
+                pass
+
+        # Strategy 2: dc.date meta tag
+        if not raw.article_date:
+            meta_dc = soup.select_one("meta[name='dc.date']")
+            if meta_dc:
+                try:
+                    raw.article_date = parse_date(
+                        meta_dc.get("content", "")
+                    ).strftime("%Y-%m-%d")
+                except (ValueError, OverflowError):
+                    pass
+
+        # Strategy 3: <time> elements with "Published:" context
+        if not raw.article_date:
+            for time_tag in soup.select("time[datetime]"):
+                dt_str = time_tag.get("datetime", "")[:10]
+                if dt_str and len(dt_str) == 10:
+                    if not raw.article_date or dt_str < raw.article_date:
+                        raw.article_date = dt_str
+
+    @staticmethod
+    def _extract_og_image(soup, raw: CoverArticleRaw) -> None:
+        """Fallback: use og:image meta tag as article thumbnail."""
+        og_img = soup.select_one("meta[property='og:image']")
+        if og_img:
+            url = og_img.get("content", "")
+            if url and "default" not in url.lower() and "logo" not in url.lower():
+                raw.cover_image_url = url

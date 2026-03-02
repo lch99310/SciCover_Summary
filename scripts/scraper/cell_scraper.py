@@ -70,8 +70,7 @@ class CellScraper(BaseScraper):
             self._enrich_from_article_page(raw)
 
         if not raw.cover_image_url:
-            logger.warning("No cover image found for %s — skipping", toc_url)
-            return None
+            logger.warning("No cover image found for %s — proceeding without cover", toc_url)
 
         logger.info(
             "Scraped %s vol.%s #%s — %s",
@@ -210,11 +209,15 @@ class CellScraper(BaseScraper):
     # --- Article enrichment ----------------------------------------------
 
     def _enrich_from_article_page(self, raw: CoverArticleRaw) -> None:
-        """Fetch the article page and pull abstract, authors, and DOI."""
+        """Fetch the article page and pull abstract, authors, DOI,
+        article-level publication date, and fallback image."""
         soup = self._fetch_and_parse(raw.article_url)
         if soup is None:
             logger.warning("Could not fetch article page: %s", raw.article_url)
             return
+
+        # --- Article-level publication date ---
+        self._extract_article_date(soup, raw)
 
         # --- Title ---
         title_tag = soup.select_one(
@@ -228,8 +231,6 @@ class CellScraper(BaseScraper):
                 raw.article_title = self._clean_text(title_tag.get_text())
 
         # --- Authors ---
-        # TODO: Verify selectors — Cell Press uses:
-        #   <span class="author-name" ...>First Last</span>
         author_tags = soup.select(
             ".author-name, [class*='authorName'], "
             "meta[name='citation_author']"
@@ -270,6 +271,10 @@ class CellScraper(BaseScraper):
                 f"{meta_fp.get('content', '')}-{meta_lp.get('content', '')}"
             )
 
+        # --- Fallback cover image from og:image ---
+        if not raw.cover_image_url:
+            self._extract_og_image(soup, raw)
+
         # --- Preprint URL ---
         for a_tag in soup.select("a[href]"):
             href = a_tag.get("href", "")
@@ -279,3 +284,60 @@ class CellScraper(BaseScraper):
             )):
                 raw.preprint_url = href
                 break
+
+    # --- Article date extraction -----------------------------------------
+
+    @staticmethod
+    def _extract_article_date(soup, raw: CoverArticleRaw) -> None:
+        """Extract the article-level publication date from the Cell article page.
+
+        Cell Press / Elsevier uses meta tags like:
+            <meta name="citation_online_date" content="2026/01/10">
+            <meta name="citation_publication_date" content="2026/02/19">
+        We prefer citation_online_date as the earliest publication date.
+        """
+        from dateutil.parser import parse as parse_date
+
+        # Strategy 1: citation_online_date (first published online)
+        meta_online = soup.select_one("meta[name='citation_online_date']")
+        if meta_online:
+            try:
+                raw.article_date = parse_date(
+                    meta_online.get("content", "")
+                ).strftime("%Y-%m-%d")
+            except (ValueError, OverflowError):
+                pass
+
+        # Strategy 2: dc.date or citation_publication_date
+        if not raw.article_date:
+            for meta_name in ("dc.date", "citation_publication_date"):
+                meta = soup.select_one(f"meta[name='{meta_name}']")
+                if meta:
+                    try:
+                        raw.article_date = parse_date(
+                            meta.get("content", "")
+                        ).strftime("%Y-%m-%d")
+                        break
+                    except (ValueError, OverflowError):
+                        pass
+
+        # Strategy 3: Look for "Published:" text with date
+        if not raw.article_date:
+            for tag in soup.select(".article-header__publish-date, .publication-date"):
+                date_match = re.search(
+                    r"(\w+\s+\d{1,2},?\s+\d{4}|\d{1,2}\s+\w+\s+\d{4})", tag.get_text()
+                )
+                if date_match:
+                    try:
+                        raw.article_date = parse_date(date_match.group(1)).strftime("%Y-%m-%d")
+                    except (ValueError, OverflowError):
+                        pass
+
+    @staticmethod
+    def _extract_og_image(soup, raw: CoverArticleRaw) -> None:
+        """Fallback: use og:image meta tag as article thumbnail."""
+        og_img = soup.select_one("meta[property='og:image']")
+        if og_img:
+            url = og_img.get("content", "")
+            if url and "default" not in url.lower() and "logo" not in url.lower():
+                raw.cover_image_url = url

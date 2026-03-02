@@ -169,6 +169,17 @@ class PipelineRunner:
             )
             return
 
+        # --- Use article-level date when available (Issue #1 fix) ---
+        # The article_date is the actual publication date of the article
+        # on the journal website, which may differ from the issue-level
+        # TOC date stored in raw.date.
+        if raw.article_date and raw.article_date.strip():
+            logger.info(
+                "%s: using article-level date %s (TOC date was %s)",
+                journal, raw.article_date, raw.date,
+            )
+            raw.date = raw.article_date
+
         # Validate: date is required for a meaningful article ID.
         if not raw.date or not raw.date.strip():
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -210,6 +221,10 @@ class PipelineRunner:
             if result is None:
                 logger.warning("Image download failed for %s", article_id)
                 image_path = None
+
+        # Note: Do NOT skip articles just because they lack a cover image.
+        # Social-science journals often have no cover image — the frontend
+        # will fall back to the default cover.
 
         # Step 4 — Attempt full-text retrieval (preprint or open-access).
         fulltext: Optional[str] = None

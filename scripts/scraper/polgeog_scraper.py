@@ -90,15 +90,29 @@ class PolGeogScraper(BaseScraper):
     # --- Metadata --------------------------------------------------------
 
     def _extract_issue_metadata(self, soup, raw: CoverArticleRaw) -> None:
-        """Pull volume, issue number, and date from the TOC page."""
+        """Pull volume, issue number, and date from the TOC page.
+
+        Handles both complete issues (Volume 126, March 2026) and
+        in-progress issues (Volume 127, In progress (May 2026)).
+        """
         # ScienceDirect uses: <h2 class="js-issue-status">Volume 115, January 2026</h2>
         header = soup.select_one(
             ".js-issue-status, .issue-heading, "
             "h2[class*='issue'], .u-text-bold"
         )
+
+        # Also try extracting from <title> tag as fallback
+        # e.g. "Political Geography | Vol 127, In progress (May 2026) | ScienceDirect"
+        title_tag = soup.select_one("title")
+
+        text = ""
         if header:
             text = self._clean_text(header.get_text())
-            m_vol = re.search(r"Volume\s+(\d+)", text, re.IGNORECASE)
+        elif title_tag:
+            text = self._clean_text(title_tag.get_text())
+
+        if text:
+            m_vol = re.search(r"Vol(?:ume)?\s+(\d+)", text, re.IGNORECASE)
             if m_vol:
                 raw.volume = m_vol.group(1)
             m_iss = re.search(r"Issue\s+(\d+)", text, re.IGNORECASE)
@@ -106,9 +120,14 @@ class PolGeogScraper(BaseScraper):
                 raw.issue = m_iss.group(1)
 
             from dateutil.parser import parse as parse_date
+            # Try to extract date — handle "In progress (May 2026)" pattern
             date_match = re.search(
-                r"(\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})", text
+                r"\((\w+\s+\d{4})\)", text  # e.g. "(May 2026)"
             )
+            if not date_match:
+                date_match = re.search(
+                    r"(\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})", text
+                )
             if date_match:
                 try:
                     raw.date = parse_date(date_match.group(1)).strftime("%Y-%m-%d")
@@ -158,12 +177,15 @@ class PolGeogScraper(BaseScraper):
     # --- Article enrichment ----------------------------------------------
 
     def _enrich_from_article_page(self, raw: CoverArticleRaw) -> None:
-        """Fetch the article page and pull abstract, authors, DOI, and
-        graphical abstract if available."""
+        """Fetch the article page and pull abstract, authors, DOI,
+        article-level publication date, and graphical abstract / og:image."""
         soup = self._fetch_and_parse(raw.article_url)
         if soup is None:
             logger.warning("Could not fetch article page: %s", raw.article_url)
             return
+
+        # --- Article-level publication date ---
+        self._extract_article_date(soup, raw)
 
         # --- Title ---
         title_tag = soup.select_one(
@@ -211,7 +233,7 @@ class PolGeogScraper(BaseScraper):
                 if m:
                     raw.article_doi = m.group(1).rstrip(".")
 
-        # --- Cover image (graphical abstract) ---
+        # --- Cover image (graphical abstract, then figures, then og:image) ---
         if not raw.cover_image_url:
             ga_img = soup.select_one(
                 "img[src*='fx1'], .graphical-abstract img, "
@@ -221,6 +243,10 @@ class PolGeogScraper(BaseScraper):
             if ga_img:
                 src = ga_img.get("src") or ga_img.get("data-src") or ""
                 raw.cover_image_url = self._abs_url(self.BASE_URL, src)
+
+        # --- Fallback: og:image meta tag ---
+        if not raw.cover_image_url:
+            self._extract_og_image(soup, raw)
 
         # --- Preprint URL (check for SSRN or SocArXiv links) ---
         for a_tag in soup.select("a[href]"):
@@ -232,3 +258,63 @@ class PolGeogScraper(BaseScraper):
             )):
                 raw.preprint_url = href
                 break
+
+    # --- Article date extraction -----------------------------------------
+
+    @staticmethod
+    def _extract_article_date(soup, raw: CoverArticleRaw) -> None:
+        """Extract the article-level publication date from ScienceDirect page.
+
+        Elsevier/ScienceDirect uses meta tags like:
+            <meta name="citation_online_date" content="2026/01/05">
+            <meta name="citation_publication_date" content="2026/03/01">
+        Also looks for "Available online" date in the page text.
+        """
+        from dateutil.parser import parse as parse_date
+
+        # Strategy 1: citation_online_date (first published online)
+        meta_online = soup.select_one("meta[name='citation_online_date']")
+        if meta_online:
+            try:
+                raw.article_date = parse_date(
+                    meta_online.get("content", "")
+                ).strftime("%Y-%m-%d")
+            except (ValueError, OverflowError):
+                pass
+
+        # Strategy 2: dc.date or citation_publication_date
+        if not raw.article_date:
+            for meta_name in ("dc.date", "citation_publication_date"):
+                meta = soup.select_one(f"meta[name='{meta_name}']")
+                if meta:
+                    try:
+                        raw.article_date = parse_date(
+                            meta.get("content", "")
+                        ).strftime("%Y-%m-%d")
+                        break
+                    except (ValueError, OverflowError):
+                        pass
+
+        # Strategy 3: "Available online" text in page
+        if not raw.article_date:
+            for tag in soup.select("div, span, p"):
+                text = tag.get_text()
+                if "Available online" in text:
+                    date_match = re.search(
+                        r"(\d{1,2}\s+\w+\s+\d{4}|\w+\s+\d{1,2},?\s+\d{4})", text
+                    )
+                    if date_match:
+                        try:
+                            raw.article_date = parse_date(date_match.group(1)).strftime("%Y-%m-%d")
+                        except (ValueError, OverflowError):
+                            pass
+                        break
+
+    @staticmethod
+    def _extract_og_image(soup, raw: CoverArticleRaw) -> None:
+        """Fallback: use og:image meta tag as article thumbnail."""
+        og_img = soup.select_one("meta[property='og:image']")
+        if og_img:
+            url = og_img.get("content", "")
+            if url and "default" not in url.lower() and "logo" not in url.lower():
+                raw.cover_image_url = url
