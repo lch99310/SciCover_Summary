@@ -56,5 +56,10 @@ Deployed URL format: [SciCover Summary](https://lch99310.github.io/SciCover_Summ
 
 ---
 
+**🛡️ Commitment to Transparency & Sourcing:**
+The platform strictly aggregates **publicly available metadata** and provides **direct official links** to the original publishers for every article. This ensures full transparency, respects intellectual property, and directs traffic back to the primary academic sources.
+
+---
+
 **License:** CC BY-NC-ND 4.0
 
