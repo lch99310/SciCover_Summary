@@ -101,15 +101,15 @@ Return a JSON object with EXACTLY this structure (no extra keys):
 # available via preprint servers or open-access publisher pages.
 #
 # Produces a structured 4-part summary:
-#   1. 總結 / Summary — What did the article find?
-#   2. 研究問題 / Problem — What question does it address?
-#   3. 研究方法 / Approach — How did they tackle it?
-#   4. 結果 / Results — What are the key findings?
+#   1. 總結 / Summary — What did the article find and why it matters?
+#   2. 研究問題 / Problem — The context, the gap, and the question.
+#   3. 研究方法 / Approach — Step-by-step methodology and unique data.
+#   4. 結果 / Results — Key findings, data points, and broader implications.
 # ---------------------------------------------------------------------------
 
 COVER_STORY_FULLTEXT_PROMPT = """\
-You have the FULL TEXT of the following journal article.  Read it carefully
-and produce a structured bilingual summary.
+You have the FULL TEXT of the following journal article. Read it carefully
+and produce a structured, detailed, and engaging bilingual summary.
 
 ──────────── Source Material ────────────
 
@@ -132,30 +132,32 @@ Cover description:
 
 ──────────── Output Instructions ────────────
 
-Write a 4-part structured summary in BOTH Chinese and English.
+Write a 4-part structured summary in BOTH Chinese and English. 
+Do not be overly brief. Provide enough depth, context, and concrete details 
+so the reader truly understands the mechanics and significance of the research, 
+but avoid academic jargon and repetitive filler.
 
 **Chinese summary format** (use these exact section headers):
 
-【總結】一段簡短概述，說明這篇文章的核心發現或主張。
+【總結】詳細概述文章的核心發現、突破點及其重要性。讓讀者一眼看出這項研究的價值所在。
 
-【研究問題】這篇文章想要探討或解決什麼問題？為什麼這個問題重要？
+【研究問題】這篇文章探討的具體問題是什麼？過去的研究有什麼盲點或不足（研究缺口）？為什麼解決這個問題至關重要？
 
-【研究方法】作者用了什麼方法、資料或理論框架來回答這個問題？
+【研究方法】具體且清晰地解釋作者的研究步驟。他們使用了什麼獨特的數據、實驗設計、技術或理論框架？請用通俗易懂的方式拆解複雜的方法論。
 
-【結果】研究的主要發現是什麼？回答了什麼？有什麼重要意義？
+【結果】列出具體的關鍵發現（必須包含重要的數據、比例或具體案例）。這些結果代表了什麼意義？對未來的領域發展或實際應用有什麼深遠影響？
 
 **English summary format** (use these exact section headers with bold markdown):
 
-**Summary:** A concise overview of the article's core finding or argument.
+**Summary:** A comprehensive overview of the article's core discovery, its breakthrough nature, and its overall significance. 
 
-**Problem:** What question or issue does the article address? Why does it matter?
+**Problem:** What specific question does the article address? What is the historical context or the gap in previous research? Why is this a crucial problem to solve?
 
-**Approach:** What methods, data, or theoretical framework did the authors use?
+**Approach:** Explain the methodology clearly and step-by-step. What unique data, experimental designs, technologies, or theoretical frameworks were utilized? Break down complex methods into understandable concepts.
 
-**Results:** What are the key findings? What do they mean?
+**Results:** Detail the key findings, including specific and striking data points, percentages, or examples. What do these results mean, and what are their broader implications for the field or society?
 
-Each section should be 2–4 sentences.  Be specific — include key numbers,
-names, and concrete details rather than vague generalities.
+Length constraint: Each section should be 1 to 2 well-developed paragraphs (roughly 80–150 words per section). Be specific, vivid, and intellectually engaging.
 
 ──────────── Output Format ────────────
 
