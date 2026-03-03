@@ -69,7 +69,7 @@ jobs:
           fi
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-          MODELS_PAT_DEEPSEEK_V3: ${{ secrets.MODELS_PAT_DEEPSEEK_V3 }}
+          MODELS_PAT_QWEN3_VL_30B: ${{ secrets.MODELS_PAT_QWEN3_VL_30B }}
         continue-on-error: true
 
       - name: Commit and push updated data
