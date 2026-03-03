@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2025-08-11",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "5",
+  "date": "2025-08-11",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "同樣免試政策，不同校園光景：招生價值觀如何決定弱勢學生的機會",
+      "en": "When Test-Optional Doesn't Mean Equal: How College Values Shape Who Benefits from Dropping SAT Requirements"
+    },
+    "summary": {
+      "zh": "近年美國大學紛紛採行『免標準化考試』政策，表面上是為促進校園多元平等，但史丹佛大學最新研究發現：政策效果取決於各校招生辦的『價值排序』。當學校仍高度重視量化學術指標（如AP課程數量、GPA），弱勢族裔學生的錄取增長幅度會減半。\n\n研究團隊分析全美1,200所大學數據後指出，財政壓力才是真正的『多元殺手』。當學校面臨預算短缺時，免試政策帶來的族裔多元效益會顯著下降——因為招生辦公室可能轉向優先錄取能支付全額學費的學生。這解釋了為何有些名校雖宣稱免試，弱勢學生比例卻紋風不動。\n\n這項發表在《美國社會學評論》的研究特別點出：在最高法院禁止平權法案的2025年，單純取消SAT要求已不足夠。若想真正改變校園組成，必須重新定義『優秀』的內涵——例如增加對社區貢獻、逆境克服等質化指標的權重。否則，免試政策終將淪為另一場精英遊戲的裝飾性改革。",
+      "en": "The move toward test-optional college admissions was supposed to democratize higher education, but new research reveals a stark divide: Whether dropping SAT/ACT requirements actually increases campus diversity depends crucially on what else colleges value. Analyzing data from 1,200 institutions, sociologists Greta Hsu and Amanda Sharkey found that schools emphasizing quantitative metrics (like AP courses or class rank) saw minority enrollment gains 50% smaller than peers with holistic review processes.\n\nThe study uncovers an even more powerful constraint—budget realities. At colleges facing financial pressures, the diversity benefits of test-optional policies virtually disappeared as admissions offices prioritized revenue-generating students. This explains why some prestigious universities show minimal demographic shifts despite dropping test requirements.\n\nPublished in the American Sociological Review, these findings carry urgent implications as universities navigate post-affirmative action admissions. The research suggests test-optional policies alone can't level the playing field unless institutions fundamentally rethink how they define merit. Without valuing attributes like community contributions or resilience alongside traditional metrics, eliminating standardized tests may simply repackage inequality in new forms."
+    },
+    "keyArticle": {
+      "title": "Same Policy, No Standardized Outcome: How Admissions Values and Institutional Priorities Shape the Effect of Test-Optional Policies on Campus Diversity",
+      "authors": [
+        "Greta Hsu",
+        "Amanda Sharkey"
+      ],
+      "doi": "10.1177/00031224251352432",
+      "pages": "813-847"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251352432",
+      "doi": "https://doi.org/10.1177/00031224251352432"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T14:50:12.394425+00:00",
+    "source": "openalex"
+  }
+}

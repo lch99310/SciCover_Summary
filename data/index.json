@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T13:35:38.355347+00:00",
+  "lastUpdated": "2026-03-03T14:50:12.398405+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -47,6 +47,15 @@
       "cover_url": "data/images/cell/cell-2026-02-19-cover.jpg"
     },
     {
+      "id": "nature-2026-02-04",
+      "journal": "Nature",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/nature-2026-02-04.json",
+      "title_zh": "量子真空的「雙人舞」：科學家首次捕捉到夸克自旋糾纏的瞬間",
+      "title_en": "The Quantum Tango: Physicists Capture First Evidence of Entangled Quark Spins in the Vacuum",
+      "cover_url": ""
+    },
+    {
       "id": "asr-2026-02-01",
       "journal": "American Sociological Review",
       "date": "2026-02-01",
@@ -83,6 +92,15 @@
       "cover_url": "data/images/science/science-2026-01-31-cover.jpg"
     },
     {
+      "id": "cell-2026-01-29",
+      "journal": "Cell",
+      "date": "2026-01-29",
+      "path": "articles/2026/01/cell-2026-01-29.json",
+      "title_zh": "大腦煞車失靈？科學家發現強迫症「當機時刻」的關鍵腦波",
+      "title_en": "The Brain's Broken Brake: Scientists Pinpoint Gamma Wave Signature of OCD Symptom Flares",
+      "cover_url": ""
+    },
+    {
       "id": "nature-2026-01-29",
       "journal": "Nature",
       "date": "2026-01-29",
@@ -116,6 +134,15 @@
       "path": "articles/2025/11/international-organization-2025-11-20.json",
       "title_zh": "美元霸權的黃昏：川普時代如何動搖全球金融秩序",
       "title_en": "The Twilight of Dollar Dominance: How the Trump Era Shook the Foundations of Global Finance",
+      "cover_url": ""
+    },
+    {
+      "id": "american-sociological-review-2025-08-11",
+      "journal": "American Sociological Review",
+      "date": "2025-08-11",
+      "path": "articles/2025/08/american-sociological-review-2025-08-11.json",
+      "title_zh": "同樣免試政策，不同校園光景：招生價值觀如何決定弱勢學生的機會",
+      "title_en": "When Test-Optional Doesn't Mean Equal: How College Values Shape Who Benefits from Dropping SAT Requirements",
       "cover_url": ""
     },
     {
