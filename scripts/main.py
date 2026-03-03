@@ -4,14 +4,14 @@ main.py — CLI entry point for the SciCover pipeline.
 
 Usage (run from the repository root)
 -----
-    # Scrape and summarise all journals (default)
+    # Fetch and summarise all journals (default)
     python -m scripts.main
 
-    # Scrape only Nature, skip AI summarisation
-    python -m scripts.main --journal Nature --dry-run
+    # Fetch only Nature, skip AI summarisation
+    python -m scripts.main --journal nature --dry-run
 
-    # Scrape Science and Cell
-    python -m scripts.main --journal Science --journal Cell
+    # Fetch Science and Cell
+    python -m scripts.main --journal science --journal cell
 
     # Show help
     python -m scripts.main --help
@@ -48,8 +48,8 @@ def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="scicover",
         description=(
-            "SciCover — scrape top journal covers and generate bilingual "
-            "summaries for a general audience."
+            "SciCover — fetch top journal articles via OpenAlex and generate "
+            "bilingual summaries for a general audience."
         ),
     )
 
@@ -59,11 +59,11 @@ def _build_parser() -> argparse.ArgumentParser:
         dest="journals",
         metavar="NAME",
         help=(
-            "Journal to process.  Accepted values: Science, Nature, Cell, "
-            "'Political Geography' (or polgeog), 'International Organization' "
-            "(or intorg), 'American Sociological Review' (or asr), "
-            "or 'all' (default).  May be specified multiple times, e.g. "
-            "--journal Science --journal Nature."
+            "Journal to process.  Accepted values: science, nature, cell, "
+            "polgeog (or 'political geography'), intorg (or "
+            "'international organization'), asr (or "
+            "'american sociological review'), or 'all' (default).  "
+            "May be specified multiple times."
         ),
     )
 
@@ -72,8 +72,8 @@ def _build_parser() -> argparse.ArgumentParser:
         action="store_true",
         default=False,
         help=(
-            "Scrape and download images but skip AI summarisation.  "
-            "Useful for testing scrapers without consuming API credits."
+            "Fetch article metadata but skip AI summarisation.  "
+            "Useful for testing without consuming API credits."
         ),
     )
 
@@ -101,7 +101,7 @@ def main(argv: List[str] | None = None) -> int:
     if journals and any(j.lower() == "all" for j in journals):
         journals = None  # explicit "all" -> same as omitting the flag
 
-    logger.info("Starting SciCover pipeline")
+    logger.info("Starting SciCover pipeline (OpenAlex API)")
     if args.dry_run:
         logger.info("DRY RUN mode — AI summarisation is disabled")
 

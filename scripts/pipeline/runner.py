@@ -3,14 +3,14 @@ pipeline.runner — End-to-end orchestrator for the SciCover pipeline.
 
 Responsibilities
 ----------------
-1. Iterate over the requested journal scrapers.
+1. Iterate over the requested journals.
 2. For each journal:
-   a. Scrape the current issue (or a specific back-issue).
-   b. Check whether we have already processed this issue (deduplicate).
-   c. Download the cover image to the local ``data/images/`` directory.
-   d. Attempt to fetch the full article text from preprints or open-access.
+   a. Fetch the latest research article via the OpenAlex API.
+   b. Check whether we have already processed this article (deduplicate).
+   c. Download the cover image (if available) to ``data/images/``.
+   d. Attempt to fetch the full article text via OpenAlex content API.
    e. Call the AI summariser (full-text or abstract-only mode).
-   f. Write the resulting entry to ``data/<article_id>.json``.
+   f. Write the resulting entry to ``data/articles/<year>/<month>/<id>.json``.
 3. Rebuild the global ``data/index.json`` and ``data/latest.json`` manifests.
 
 Error handling: a failure in one journal MUST NOT prevent the others from
@@ -22,19 +22,17 @@ from __future__ import annotations
 
 import json
 import logging
-import os
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Type
+from typing import Any, Dict, List, Optional
 
-from ..scraper import (
-    ALL_SCRAPERS,
-    ScienceScraper, NatureScraper, CellScraper,
-    PolGeogScraper, IntOrgScraper, ASRScraper,
+from ..scraper.openalex_fetcher import (
+    OpenAlexFetcher,
+    JOURNAL_REGISTRY,
+    JOURNAL_ALIASES,
 )
-from ..scraper.base import BaseScraper, CoverArticleRaw
+from ..scraper.base import CoverArticleRaw
 from ..ai.summarizer import BilingualSummarizer
-from ..ai.fulltext import fetch_fulltext
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
 
 logger = logging.getLogger(__name__)
@@ -43,28 +41,13 @@ logger = logging.getLogger(__name__)
 # Constants
 # ---------------------------------------------------------------------------
 
-# Root data directory — lives next to the ``scripts/`` package.
-_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent  # …/scicover
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = _PROJECT_ROOT / "data"
 IMAGES_DIR = DATA_DIR / "images"
 INDEX_FILE = DATA_DIR / "index.json"
 LATEST_FILE = DATA_DIR / "latest.json"
 
-# Map of journal name -> scraper class for --journal filtering.
-SCRAPER_MAP: Dict[str, Type[BaseScraper]] = {
-    "science": ScienceScraper,
-    "nature": NatureScraper,
-    "cell": CellScraper,
-    "political geography": PolGeogScraper,
-    "polgeog": PolGeogScraper,
-    "international organization": IntOrgScraper,
-    "intorg": IntOrgScraper,
-    "american sociological review": ASRScraper,
-    "asr": ASRScraper,
-}
-
-# Map journal name -> image directory slug.
-# Must match the folder names under data/images/.
+# Map journal display name -> image directory slug.
 JOURNAL_IMAGE_SLUG: Dict[str, str] = {
     "Science": "science",
     "Nature": "nature",
@@ -74,34 +57,27 @@ JOURNAL_IMAGE_SLUG: Dict[str, str] = {
     "American Sociological Review": "ASR",
 }
 
+# All journal keys from the registry.
+ALL_JOURNAL_KEYS = list(JOURNAL_REGISTRY.keys())
+
 
 # ---------------------------------------------------------------------------
 # Pipeline runner
 # ---------------------------------------------------------------------------
 
 class PipelineRunner:
-    """Orchestrates the full scrape -> summarise -> persist pipeline."""
+    """Orchestrates the full fetch -> summarise -> persist pipeline."""
 
     def __init__(
         self,
         journals: Optional[List[str]] = None,
         dry_run: bool = False,
     ) -> None:
-        """
-        Parameters
-        ----------
-        journals:
-            List of journal names to process (case-insensitive).
-            ``None`` or ``["all"]`` means all available scrapers.
-        dry_run:
-            If ``True``, scrape and download images but skip AI
-            summarisation.  Useful for testing scrapers in isolation.
-        """
         self.dry_run = dry_run
-        self.scrapers = self._resolve_scrapers(journals)
+        self.journal_keys = self._resolve_journals(journals)
+        self.fetcher = OpenAlexFetcher()
         self.summarizer = None if dry_run else BilingualSummarizer()
 
-        # Ensure base directories exist.
         ensure_dir(DATA_DIR)
         ensure_dir(IMAGES_DIR)
 
@@ -110,36 +86,29 @@ class PipelineRunner:
     # ------------------------------------------------------------------
 
     def run(self) -> Dict[str, Any]:
-        """Execute the pipeline and return a summary report.
-
-        Returns
-        -------
-        dict
-            ``{"processed": [...], "skipped": [...], "errors": [...]}``.
-        """
+        """Execute the pipeline and return a summary report."""
         report: Dict[str, list] = {
             "processed": [],
             "skipped": [],
             "errors": [],
         }
 
-        for scraper_cls in self.scrapers:
-            scraper = scraper_cls()
-            journal = scraper.JOURNAL_NAME
+        for key in self.journal_keys:
+            info = JOURNAL_REGISTRY[key]
+            journal_name = info["display_name"]
 
             try:
-                self._process_journal(scraper, report)
+                self._process_journal(key, journal_name, report)
             except Exception as exc:
-                logger.exception("Unhandled error processing %s", journal)
+                logger.exception("Unhandled error processing %s", journal_name)
                 report["errors"].append(
-                    {"journal": journal, "error": str(exc)}
+                    {"journal": journal_name, "error": str(exc)}
                 )
 
         # Rebuild global manifests.
         self._rebuild_index()
         self._rebuild_latest()
 
-        # Log final summary.
         logger.info(
             "Pipeline complete: %d processed, %d skipped, %d errors",
             len(report["processed"]),
@@ -154,45 +123,42 @@ class PipelineRunner:
 
     def _process_journal(
         self,
-        scraper: BaseScraper,
+        journal_key: str,
+        journal_name: str,
         report: Dict[str, list],
     ) -> None:
-        """Scrape, summarise, and persist one journal."""
-        journal = scraper.JOURNAL_NAME
+        """Fetch, summarise, and persist one journal."""
 
-        # Step 1 — Scrape.
-        raw = scraper.scrape_current_issue()
+        # Step 1 — Fetch latest article from OpenAlex.
+        logger.info("Fetching latest article for %s via OpenAlex...", journal_name)
+        raw = self.fetcher.fetch_latest(journal_key)
         if raw is None:
-            logger.warning("Scraping returned nothing for %s", journal)
+            logger.warning("OpenAlex returned nothing for %s", journal_name)
             report["errors"].append(
-                {"journal": journal, "error": "scraper returned None"}
+                {"journal": journal_name, "error": "OpenAlex returned no results"}
             )
             return
 
-        # --- Use article-level date when available (Issue #1 fix) ---
-        # The article_date is the actual publication date of the article
-        # on the journal website, which may differ from the issue-level
-        # TOC date stored in raw.date.
-        if raw.article_date and raw.article_date.strip():
-            logger.info(
-                "%s: using article-level date %s (TOC date was %s)",
-                journal, raw.article_date, raw.date,
-            )
-            raw.date = raw.article_date
+        logger.info(
+            "%s: found '%s' (vol.%s #%s, %s)",
+            journal_name,
+            raw.article_title[:60],
+            raw.volume,
+            raw.issue,
+            raw.date,
+        )
 
-        # Validate: date is required for a meaningful article ID.
+        # Validate date.
         if not raw.date or not raw.date.strip():
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             logger.warning(
-                "Scraper for %s returned empty date — falling back to today (%s)",
-                journal, today,
+                "Article for %s has no date — falling back to today (%s)",
+                journal_name, today,
             )
             raw.date = today
 
         # Step 2 — Deduplicate.
         article_id = generate_article_id(raw.journal, raw.date)
-        # Store articles under data/articles/<year>/<month>/<id>.json
-        # matching the directory structure the frontend expects.
         try:
             dt = datetime.strptime(raw.date, "%Y-%m-%d")
             entry_file = (
@@ -207,56 +173,65 @@ class PipelineRunner:
             report["skipped"].append(article_id)
             return
 
-        # Step 3 — Download cover image to data/images/<journal_slug>/.
+        # Step 3 — Download cover image (if available).
+        # OpenAlex doesn't provide journal cover images, so we check for
+        # an OA PDF URL that could serve as a source. For now, we skip
+        # cover image download — the frontend uses default covers.
         image_path: Optional[Path] = None
-        if raw.cover_image_url:
-            journal_slug = JOURNAL_IMAGE_SLUG.get(
-                raw.journal, raw.journal.lower().replace(" ", "_")
-            )
-            journal_img_dir = IMAGES_DIR / journal_slug
-            ensure_dir(journal_img_dir)
-            ext = self._guess_image_ext(raw.cover_image_url)
-            image_path = journal_img_dir / f"{article_id}-cover{ext}"
-            result = download_image(raw.cover_image_url, image_path)
-            if result is None:
-                logger.warning("Image download failed for %s", article_id)
-                image_path = None
+        oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
+        # Future: could extract first page of PDF as thumbnail.
 
-        # Note: Do NOT skip articles just because they lack a cover image.
-        # Social-science journals often have no cover image — the frontend
-        # will fall back to the default cover.
-
-        # Step 4 — Attempt full-text retrieval (preprint or open-access).
+        # Step 4 — Attempt full-text retrieval via OpenAlex content API.
         fulltext: Optional[str] = None
         if not self.dry_run:
-            try:
-                fulltext = fetch_fulltext(
-                    preprint_url=raw.preprint_url,
-                    article_url=raw.article_url,
-                    doi=raw.article_doi,
-                )
-                if fulltext:
-                    logger.info(
-                        "Full text available for %s (%d chars) — using structured summary",
-                        article_id,
-                        len(fulltext),
+            openalex_id = getattr(raw, "_openalex_id", "")
+            if openalex_id:
+                try:
+                    fulltext = self.fetcher.fetch_fulltext(openalex_id)
+                    if fulltext:
+                        logger.info(
+                            "Full text available for %s (%d chars)",
+                            article_id, len(fulltext),
+                        )
+                    else:
+                        logger.info(
+                            "No full text from OpenAlex for %s — "
+                            "using abstract-only summary",
+                            article_id,
+                        )
+                except Exception as exc:
+                    logger.warning(
+                        "Full-text fetch failed for %s: %s", article_id, exc
                     )
-                else:
-                    logger.info(
-                        "No full text available for %s — using abstract-only summary",
-                        article_id,
-                    )
-            except Exception as exc:
-                logger.warning("Full-text fetch failed for %s: %s", article_id, exc)
 
-        # Step 5 — AI summarisation (skipped in dry-run mode).
+            # Fallback: try preprint URL if available.
+            if not fulltext and raw.preprint_url:
+                try:
+                    from ..ai.fulltext import fetch_fulltext as fetch_ft_legacy
+                    fulltext = fetch_ft_legacy(
+                        preprint_url=raw.preprint_url,
+                        article_url=raw.article_url,
+                        doi=raw.article_doi,
+                    )
+                    if fulltext:
+                        logger.info(
+                            "Full text from preprint for %s (%d chars)",
+                            article_id, len(fulltext),
+                        )
+                except Exception as exc:
+                    logger.warning(
+                        "Preprint full-text fetch failed for %s: %s",
+                        article_id, exc,
+                    )
+
+        # Step 5 — AI summarisation.
         ai_output: Optional[Dict[str, Any]] = None
         if not self.dry_run and self.summarizer is not None:
             ai_output = self.summarizer.summarize(raw, fulltext=fulltext)
             if ai_output is None:
                 logger.warning("AI summarisation failed for %s", article_id)
 
-        # Step 6 — Assemble and write the entry JSON.
+        # Step 6 — Assemble and write JSON entry.
         entry = self._build_entry(
             raw, article_id, image_path, ai_output,
             summary_mode="full-text" if fulltext else "abstract-only",
@@ -278,14 +253,7 @@ class PipelineRunner:
         ai_output: Optional[Dict[str, Any]],
         summary_mode: str = "abstract-only",
     ) -> Dict[str, Any]:
-        """Build the final JSON entry in the frontend-compatible format.
-
-        The output matches the ``ArticleDetail`` TypeScript interface used by
-        the React front-end:
-        ``{ id, journal, volume, issue, date, coverImage, coverStory }``.
-        """
-        # Resolve the local image path relative to the data directory.
-        # The frontend loads images via getDataUrl("data/images/…").
+        """Build the final JSON entry in the frontend-compatible format."""
         if image_path:
             try:
                 local_img = "data/" + str(image_path.relative_to(DATA_DIR))
@@ -294,14 +262,12 @@ class PipelineRunner:
         else:
             local_img = ""
 
-        # Extract bilingual title/summary from AI output.
         ai = ai_output or {}
         title_zh = ai.get("title", {}).get("zh", raw.article_title or "")
         title_en = ai.get("title", {}).get("en", raw.article_title or "")
         summary_zh = ai.get("summary", {}).get("zh", "")
         summary_en = ai.get("summary", {}).get("en", "")
 
-        # Build the cover image entry in the gallery.
         images: List[Dict[str, Any]] = []
         if local_img:
             images.append({
@@ -312,7 +278,6 @@ class PipelineRunner:
                 },
             })
 
-        # Construct DOI URL.
         doi = raw.article_doi or ""
         doi_url = f"https://doi.org/{doi}" if doi else ""
 
@@ -345,6 +310,7 @@ class PipelineRunner:
             "_meta": {
                 "summary_mode": summary_mode,
                 "created_at": datetime.now(timezone.utc).isoformat(),
+                "source": "openalex",
             },
         }
         return entry
@@ -354,20 +320,14 @@ class PipelineRunner:
     # ------------------------------------------------------------------
 
     def _rebuild_index(self) -> None:
-        """Rebuild ``data/index.json`` from all individual entry files.
-
-        The index follows the ``ArticleIndex`` TypeScript interface:
-        ``{ lastUpdated, articles: [{ id, journal, date, path, title_zh, title_en, cover_url }] }``
-        """
+        """Rebuild ``data/index.json`` from all individual entry files."""
         articles = []
         for f in sorted(DATA_DIR.glob("articles/**/*.json")):
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
                 article_id = data.get("id", f.stem)
                 date_str = data.get("date", "")
-                # Compute the relative path from data/ to this file.
                 rel_path = str(f.relative_to(DATA_DIR))
-                # Extract bilingual titles.
                 title = data.get("coverStory", {}).get("title", {})
                 title_zh = title.get("zh", "")
                 title_en = title.get("en", "")
@@ -392,7 +352,6 @@ class PipelineRunner:
             try:
                 data = json.loads(f.read_text(encoding="utf-8"))
                 article_id = data.get("id", f.stem)
-                # Skip if already found in articles/ directory.
                 if any(a["id"] == article_id for a in articles):
                     continue
                 date_str = data.get("date", "")
@@ -412,7 +371,6 @@ class PipelineRunner:
             except (json.JSONDecodeError, KeyError) as exc:
                 logger.warning("Skipping malformed entry %s: %s", f, exc)
 
-        # Sort newest first.
         articles.sort(key=lambda e: e.get("date", ""), reverse=True)
 
         index = {
@@ -423,11 +381,8 @@ class PipelineRunner:
         logger.info("Rebuilt %s with %d entries", INDEX_FILE, len(articles))
 
     def _rebuild_latest(self) -> None:
-        """Rebuild ``data/latest.json`` containing the path to the most
-        recent entry per journal.  This powers the front-end "hero" display.
-        """
-        latest: Dict[str, str] = {}  # journal -> article path
-        # Scan articles/ directory.
+        """Rebuild ``data/latest.json``."""
+        latest: Dict[str, str] = {}
         all_files = sorted(DATA_DIR.glob("articles/**/*.json"), reverse=True)
         for f in all_files:
             try:
@@ -446,37 +401,32 @@ class PipelineRunner:
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _resolve_scrapers(
-        journals: Optional[List[str]],
-    ) -> List[Type[BaseScraper]]:
-        """Map user-supplied journal names to scraper classes."""
+    def _resolve_journals(journals: Optional[List[str]]) -> List[str]:
+        """Map user-supplied journal names to registry keys."""
         if not journals or journals == ["all"]:
-            return list(ALL_SCRAPERS)
+            return list(JOURNAL_REGISTRY.keys())
 
         result = []
         for name in journals:
-            cls = SCRAPER_MAP.get(name.lower())
-            if cls is None:
-                logger.warning(
-                    "Unknown journal '%s'. Available: %s",
-                    name,
-                    ", ".join(SCRAPER_MAP.keys()),
-                )
-            else:
-                result.append(cls)
+            lower = name.lower().strip()
+            # Direct key match.
+            if lower in JOURNAL_REGISTRY:
+                result.append(lower)
+                continue
+            # Alias match.
+            alias = JOURNAL_ALIASES.get(lower)
+            if alias:
+                result.append(alias)
+                continue
+            logger.warning(
+                "Unknown journal '%s'. Available: %s",
+                name,
+                ", ".join(
+                    list(JOURNAL_REGISTRY.keys())
+                    + list(JOURNAL_ALIASES.keys())
+                ),
+            )
         return result
-
-    @staticmethod
-    def _guess_image_ext(url: str) -> str:
-        """Guess a file extension from an image URL."""
-        lower = url.lower().split("?")[0]
-        if lower.endswith(".png"):
-            return ".png"
-        if lower.endswith(".gif"):
-            return ".gif"
-        if lower.endswith(".webp"):
-            return ".webp"
-        return ".jpg"  # default for JPEG and unknown
 
     @staticmethod
     def _write_json(path: Path, data: Any) -> None:
@@ -490,6 +440,5 @@ class PipelineRunner:
             )
             tmp.replace(path)
         except OSError:
-            # Clean up on failure.
             tmp.unlink(missing_ok=True)
             raise

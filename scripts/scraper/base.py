@@ -19,6 +19,50 @@ from bs4 import BeautifulSoup
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
+# Playwright singleton  (lazy-initialised, shared across all scrapers)
+# ---------------------------------------------------------------------------
+
+_pw_browser = None
+_pw_playwright = None
+
+
+def _get_playwright_browser():
+    """Return a shared Playwright Chromium browser instance (headless).
+
+    Lazily created on first call so that Playwright is only imported
+    when actually needed (i.e. after a 403 from ``requests``).
+    """
+    global _pw_browser, _pw_playwright
+    if _pw_browser is not None:
+        return _pw_browser
+    try:
+        from playwright.sync_api import sync_playwright
+        _pw_playwright = sync_playwright().start()
+        _pw_browser = _pw_playwright.chromium.launch(headless=True)
+        logger.info("Playwright browser launched for fallback fetching")
+        return _pw_browser
+    except Exception as exc:
+        logger.warning("Playwright unavailable — no fallback for 403: %s", exc)
+        return None
+
+
+def shutdown_playwright() -> None:
+    """Clean up the shared Playwright browser (called at pipeline exit)."""
+    global _pw_browser, _pw_playwright
+    if _pw_browser:
+        try:
+            _pw_browser.close()
+        except Exception:
+            pass
+        _pw_browser = None
+    if _pw_playwright:
+        try:
+            _pw_playwright.stop()
+        except Exception:
+            pass
+        _pw_playwright = None
+
+# ---------------------------------------------------------------------------
 # Data model
 # ---------------------------------------------------------------------------
 
@@ -124,14 +168,21 @@ class BaseScraper(ABC):
         """GET *url* and return the response text, or ``None`` on failure.
 
         Retries up to *retries* times with a linear back-off of *delay*
-        seconds between attempts.  All HTTP and network errors are caught
-        and logged rather than propagated so one bad page does not crash
-        the entire pipeline.
+        seconds between attempts.  If all ``requests`` attempts fail with
+        a **403 Forbidden** (common on publisher sites that block
+        non-browser traffic), a single Playwright headless-Chromium
+        fallback attempt is made before giving up.
+
+        All HTTP and network errors are caught and logged rather than
+        propagated so one bad page does not crash the entire pipeline.
         """
+        last_status: Optional[int] = None
+
         for attempt in range(1, retries + 1):
             try:
                 logger.debug("Fetching %s (attempt %d/%d)", url, attempt, retries)
                 resp = self._session.get(url, timeout=30, allow_redirects=True)
+                last_status = resp.status_code
                 resp.raise_for_status()
                 return resp.text
             except requests.RequestException as exc:
@@ -144,7 +195,50 @@ class BaseScraper(ABC):
                 )
                 if attempt < retries:
                     time.sleep(delay * attempt)
+
+        # ----- Playwright fallback for 403 Forbidden -----
+        if last_status == 403:
+            html = self._fetch_with_playwright(url)
+            if html is not None:
+                return html
+
         return None
+
+    # ------------------------------------------------------------------
+    # Playwright fallback
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _fetch_with_playwright(url: str, timeout_ms: int = 30_000) -> Optional[str]:
+        """Fetch *url* using headless Chromium via Playwright.
+
+        Returns the fully-rendered page HTML, or ``None`` on failure.
+        This is only called as a fallback after ``requests`` receives a
+        403 Forbidden, so the overhead of a real browser is acceptable.
+        """
+        browser = _get_playwright_browser()
+        if browser is None:
+            return None
+
+        page = None
+        try:
+            page = browser.new_page()
+            logger.info("Playwright fallback: loading %s", url)
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+            # Give JS-rendered content a moment to settle.
+            page.wait_for_timeout(3000)
+            html = page.content()
+            logger.info("Playwright fallback succeeded for %s (%d chars)", url, len(html))
+            return html
+        except Exception as exc:
+            logger.warning("Playwright fallback failed for %s: %s", url, exc)
+            return None
+        finally:
+            if page is not None:
+                try:
+                    page.close()
+                except Exception:
+                    pass
 
     def _parse_html(self, html: str) -> BeautifulSoup:
         """Parse raw HTML into a ``BeautifulSoup`` tree using the fast *lxml* parser."""

@@ -1,17 +1,17 @@
 """
-scraper — Journal cover-page scrapers for SciCover.
+scraper — Journal article fetchers for SciCover.
 
-Re-exports every concrete scraper so callers can simply write:
-
-    from scraper import ScienceScraper, NatureScraper, CellScraper
+Primary approach: OpenAlex API (``OpenAlexFetcher``).
+Legacy web scrapers are retained for backward compatibility but are no
+longer used by the default pipeline.
 """
 
-# Natural sciences
+from .openalex_fetcher import OpenAlexFetcher, JOURNAL_REGISTRY, JOURNAL_ALIASES
+
+# Legacy web scrapers — kept for backward compatibility.
 from .science_scraper import ScienceScraper
 from .nature_scraper import NatureScraper
 from .cell_scraper import CellScraper
-
-# Social sciences
 from .polgeog_scraper import PolGeogScraper
 from .intorg_scraper import IntOrgScraper
 from .asr_scraper import ASRScraper
@@ -26,6 +26,9 @@ ALL_SCRAPERS = [
 ]
 
 __all__ = [
+    "OpenAlexFetcher",
+    "JOURNAL_REGISTRY",
+    "JOURNAL_ALIASES",
     "ScienceScraper",
     "NatureScraper",
     "CellScraper",
