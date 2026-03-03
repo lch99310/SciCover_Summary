@@ -229,7 +229,15 @@ class PipelineRunner:
         if not self.dry_run and self.summarizer is not None:
             ai_output = self.summarizer.summarize(raw, fulltext=fulltext)
             if ai_output is None:
-                logger.warning("AI summarisation failed for %s", article_id)
+                logger.warning(
+                    "AI summarisation failed for %s — skipping (will not "
+                    "write an entry with empty summaries)",
+                    article_id,
+                )
+                report["errors"].append(
+                    {"journal": journal_name, "error": "AI summarisation failed"}
+                )
+                return
 
         # Step 6 — Assemble and write JSON entry.
         entry = self._build_entry(

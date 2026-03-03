@@ -141,15 +141,19 @@ class OpenAlexFetcher:
         journal_name = info["display_name"]
 
         # Query: latest research articles from this source, sorted by date.
+        # The biblio.volume filter ensures we only get articles assigned to a
+        # published volume/issue — this excludes news, editorials, and blog
+        # posts that journals like Nature publish online without volume data.
         params: Dict[str, str] = {
             "filter": (
                 f"primary_location.source.id:{source_id},"
                 "type:article,"
                 "is_paratext:false,"
-                "is_retracted:false"
+                "is_retracted:false,"
+                "biblio.volume:!null"
             ),
             "sort": "publication_date:desc",
-            "per_page": "5",
+            "per_page": "10",
         }
         if self._api_key:
             params["api_key"] = self._api_key

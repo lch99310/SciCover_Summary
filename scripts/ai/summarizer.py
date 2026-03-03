@@ -78,11 +78,15 @@ class BilingualSummarizer:
         api_key:
             An explicit API key.  Falls back to ``GITHUB_TOKEN`` env var.
         """
-        resolved_key = api_key or os.environ.get("GITHUB_TOKEN", "")
+        resolved_key = (
+            api_key
+            or os.environ.get("MODELS_PAT_DEEPSEEK_V3", "")
+            or os.environ.get("GITHUB_TOKEN", "")
+        )
         if not resolved_key:
             logger.warning(
-                "No API key provided and GITHUB_TOKEN is not set. "
-                "Summarisation calls will fail."
+                "No API key provided (checked MODELS_PAT_DEEPSEEK_V3 and "
+                "GITHUB_TOKEN). Summarisation calls will fail."
             )
 
         self._client = OpenAI(
