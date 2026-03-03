@@ -140,20 +140,26 @@ class OpenAlexFetcher:
         source_id = info["source_id"]
         journal_name = info["display_name"]
 
-        # Query: latest research articles from this source, sorted by date.
-        # The biblio.volume filter ensures we only get articles assigned to a
-        # published volume/issue — this excludes news, editorials, and blog
-        # posts that journals like Nature publish online without volume data.
+        # Query: latest open-access research articles from this source.
+        # Filters:
+        #   - type:article — research articles only (not reviews/editorials)
+        #   - open_access.is_oa:true — only open-access articles (ensures
+        #     we can download the PDF for thumbnails and full-text extraction)
+        #   - is_paratext:false — no supplementary/front matter
+        #   - is_retracted:false — no retracted papers
+        #   - biblio.volume:!null — assigned to a published volume/issue
+        #     (excludes news, blog posts published without volume data)
         params: Dict[str, str] = {
             "filter": (
                 f"primary_location.source.id:{source_id},"
                 "type:article,"
+                "open_access.is_oa:true,"
                 "is_paratext:false,"
                 "is_retracted:false,"
                 "biblio.volume:!null"
             ),
             "sort": "publication_date:desc",
-            "per_page": "10",
+            "per_page": "25",
         }
         if self._api_key:
             params["api_key"] = self._api_key
@@ -168,8 +174,10 @@ class OpenAlexFetcher:
             logger.warning("No articles found for %s", journal_name)
             return None
 
-        # Pick the first result (most recent research article).
-        work = results[0]
+        # Pick the best candidate from results: prefer articles that have
+        # an OA PDF URL (for thumbnail extraction) and an abstract (genuine
+        # research article, not news/comment).
+        work = self._pick_best_candidate(results, journal_name)
         return self._work_to_raw(work, journal_name)
 
     def fetch_fulltext(self, openalex_id: str) -> Optional[str]:
@@ -202,25 +210,93 @@ class OpenAlexFetcher:
 
     def get_preprint_url(self, work: Dict[str, Any]) -> str:
         """Extract a preprint URL from the work's locations, if available."""
+        _PREPRINT_SERVERS = ("arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv")
+
         for loc in work.get("locations", []):
             version = (loc.get("version") or "").lower()
             source = loc.get("source") or {}
             source_type = (source.get("type") or "").lower()
             landing = loc.get("landing_page_url") or ""
 
-            # Check for preprint repositories.
-            if version in ("submittedVersion", "submitted"):
+            if not landing:
+                continue
+
+            # Check version field (already lowercased above).
+            if version in ("submittedversion", "submitted"):
                 return landing
+
+            # Check source type + known preprint server domains.
             if source_type == "repository":
-                # Check for known preprint servers.
-                for server in ("arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv"):
+                for server in _PREPRINT_SERVERS:
                     if server in landing.lower():
                         return landing
+
+            # Also check landing URL directly for preprint servers,
+            # regardless of source_type (some entries lack proper metadata).
+            landing_lower = landing.lower()
+            for server in _PREPRINT_SERVERS:
+                if server in landing_lower:
+                    return landing
+
         return ""
 
     # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
+
+    def _pick_best_candidate(
+        self, results: List[Dict[str, Any]], journal_name: str,
+    ) -> Dict[str, Any]:
+        """Select the best article from a list of OpenAlex results.
+
+        Prefers articles that:
+          1. Have an OA PDF URL (needed for thumbnail extraction).
+          2. Have an abstract (genuine research, not news/commentary).
+          3. Are the most recent.
+
+        Falls back to the first result if no ideal candidate is found.
+        """
+        best = None
+        for work in results:
+            best_oa = work.get("best_oa_location", {}) or {}
+            primary_loc = work.get("primary_location", {}) or {}
+            has_pdf = bool(
+                best_oa.get("pdf_url") or primary_loc.get("pdf_url")
+            )
+            has_abstract = bool(work.get("abstract_inverted_index"))
+
+            # Skip news/commentary articles (Nature d41586-* DOIs, etc.).
+            doi = work.get("doi") or ""
+            if "d41586" in doi or "d41591" in doi:
+                logger.debug(
+                    "Skipping non-research article: %s (%s)",
+                    work.get("display_name", "")[:60], doi,
+                )
+                continue
+
+            if has_pdf and has_abstract:
+                logger.info(
+                    "%s: selected '%s' (has PDF + abstract)",
+                    journal_name, work.get("display_name", "")[:60],
+                )
+                return work
+
+            # Remember the first valid candidate as fallback.
+            if best is None and has_abstract:
+                best = work
+
+        if best is not None:
+            logger.info(
+                "%s: using fallback candidate '%s' (no PDF but has abstract)",
+                journal_name, best.get("display_name", "")[:60],
+            )
+            return best
+
+        # Last resort: return the first result.
+        logger.warning(
+            "%s: no ideal candidate found, using first result", journal_name,
+        )
+        return results[0]
 
     def _work_to_raw(
         self, work: Dict[str, Any], journal_name: str,

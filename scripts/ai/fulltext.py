@@ -13,7 +13,9 @@ from __future__ import annotations
 
 import logging
 import re
+import tempfile
 import time
+from pathlib import Path
 from typing import Optional
 
 import requests
@@ -44,13 +46,16 @@ def fetch_fulltext(
     preprint_url: str = "",
     article_url: str = "",
     doi: str = "",
+    oa_pdf_url: str = "",
 ) -> Optional[str]:
     """Try to retrieve the full text of an article.
 
     Strategy (tried in order):
       1. If *preprint_url* points to a known server, fetch from there.
       2. If *article_url* is on a known open-access publisher, try that.
-      3. Return ``None`` — caller should fall back to abstract-only mode.
+      3. If *oa_pdf_url* is available, download the PDF and extract text
+         using PyMuPDF.
+      4. Return ``None`` — caller should fall back to abstract-only mode.
 
     Returns
     -------
@@ -67,6 +72,12 @@ def fetch_fulltext(
     # --- Strategy 2: Open-access article URL ---
     if article_url:
         text = _try_open_access(article_url)
+        if text:
+            return _truncate(text)
+
+    # --- Strategy 3: Extract text from OA PDF via PyMuPDF ---
+    if oa_pdf_url:
+        text = _extract_text_from_pdf(oa_pdf_url)
         if text:
             return _truncate(text)
 
@@ -233,6 +244,73 @@ def _fetch_cambridge(url: str) -> Optional[str]:
             return text
 
     return None
+
+
+# ---------------------------------------------------------------------------
+# PDF text extraction (via PyMuPDF)
+# ---------------------------------------------------------------------------
+
+def _extract_text_from_pdf(pdf_url: str, *, timeout: int = 60) -> Optional[str]:
+    """Download a PDF and extract text using PyMuPDF (fitz).
+
+    This is a last-resort strategy for when HTML full-text is unavailable.
+    Works well for open-access articles that provide a direct PDF link.
+    """
+    try:
+        import fitz  # PyMuPDF
+    except ImportError:
+        logger.debug("PyMuPDF not installed — cannot extract text from PDF")
+        return None
+
+    # Download the PDF.
+    try:
+        resp = requests.get(
+            pdf_url, headers=_HEADERS, timeout=timeout, stream=True,
+        )
+        resp.raise_for_status()
+
+        ct = resp.headers.get("Content-Type", "")
+        if "pdf" not in ct.lower() and "octet-stream" not in ct.lower():
+            logger.debug("URL did not return a PDF (Content-Type: %s)", ct)
+            return None
+    except requests.RequestException as exc:
+        logger.debug("PDF download failed for text extraction: %s", exc)
+        return None
+
+    # Write to temp file and extract text.
+    tmp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+            tmp_path = tmp.name
+            for chunk in resp.iter_content(chunk_size=8192):
+                tmp.write(chunk)
+
+        doc = fitz.open(tmp_path)
+        text_parts = []
+        for page in doc:
+            text_parts.append(page.get_text())
+        doc.close()
+
+        text = "\n\n".join(text_parts)
+        # Clean up: collapse excessive whitespace.
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()
+
+        if len(text) > 500:
+            logger.info("Extracted full text from PDF (%d chars)", len(text))
+            return text
+
+        logger.debug("PDF text too short (%d chars), skipping", len(text))
+        return None
+
+    except Exception as exc:
+        logger.debug("PDF text extraction failed: %s", exc)
+        return None
+    finally:
+        if tmp_path:
+            try:
+                Path(tmp_path).unlink(missing_ok=True)
+            except Exception:
+                pass
 
 
 # ---------------------------------------------------------------------------

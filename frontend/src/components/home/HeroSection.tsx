@@ -19,10 +19,9 @@ export function HeroSection({ article }: HeroSectionProps) {
 
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const target = e.currentTarget;
-    const fallback = getDefaultCoverUrl(journal);
-    if (target.src !== fallback) {
-      target.src = fallback;
-    }
+    if (target.dataset.fallbackAttempted) return;
+    target.dataset.fallbackAttempted = 'true';
+    target.src = getDefaultCoverUrl(journal);
   };
 
   return (

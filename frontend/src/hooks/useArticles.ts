@@ -15,10 +15,10 @@ export function useArticleIndex() {
 }
 
 export function useArticle(id: string | undefined) {
-  const { data: index } = useArticleIndex();
+  const { data: index, isLoading: indexLoading } = useArticleIndex();
   const entry = index?.articles.find((a) => a.id === id);
 
-  return useQuery<ArticleDetail>({
+  const query = useQuery<ArticleDetail>({
     queryKey: ['article', id],
     queryFn: async () => {
       if (!entry) throw new Error('Article not found in index');
@@ -29,4 +29,12 @@ export function useArticle(id: string | undefined) {
     enabled: !!entry,
     staleTime: Infinity,
   });
+
+  return {
+    ...query,
+    // Show loading while index is loading OR article is fetching for the first time.
+    isLoading: indexLoading || query.isLoading,
+    // Article is genuinely not found only when index has loaded but entry is missing.
+    isNotFound: !indexLoading && !!index && !entry,
+  };
 }

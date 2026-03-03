@@ -49,13 +49,14 @@ INDEX_FILE = DATA_DIR / "index.json"
 LATEST_FILE = DATA_DIR / "latest.json"
 
 # Map journal display name -> image directory slug.
+# Uses lowercase-hyphenated names for consistency with generate_article_id().
 JOURNAL_IMAGE_SLUG: Dict[str, str] = {
     "Science": "science",
     "Nature": "nature",
     "Cell": "cell",
-    "Political Geography": "Political_Geography",
-    "International Organization": "International_Organization",
-    "American Sociological Review": "ASR",
+    "Political Geography": "political-geography",
+    "International Organization": "international-organization",
+    "American Sociological Review": "american-sociological-review",
 }
 
 # All journal keys from the registry.
@@ -214,23 +215,24 @@ class PipelineRunner:
                         "Full-text fetch failed for %s: %s", article_id, exc
                     )
 
-            # Fallback: try preprint URL if available.
-            if not fulltext and raw.preprint_url:
+            # Fallback: try preprint URL, article URL, or OA PDF.
+            if not fulltext:
                 try:
                     from ..ai.fulltext import fetch_fulltext as fetch_ft_legacy
                     fulltext = fetch_ft_legacy(
                         preprint_url=raw.preprint_url,
                         article_url=raw.article_url,
                         doi=raw.article_doi,
+                        oa_pdf_url=oa_pdf_url,
                     )
                     if fulltext:
                         logger.info(
-                            "Full text from preprint for %s (%d chars)",
+                            "Full text from fallback sources for %s (%d chars)",
                             article_id, len(fulltext),
                         )
                 except Exception as exc:
                     logger.warning(
-                        "Preprint full-text fetch failed for %s: %s",
+                        "Fallback full-text fetch failed for %s: %s",
                         article_id, exc,
                     )
 
