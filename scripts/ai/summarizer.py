@@ -31,6 +31,13 @@ logger = logging.getLogger(__name__)
 _REQUIRED_KEYS = {"title", "summary"}
 _REQUIRED_LANG_KEYS = {"zh", "en"}
 
+# Maximum characters of full text to include in the summariser prompt.
+# GitHub Models free tier limits DeepSeek-V3 to ~4 000 input tokens;
+# reserving ~800 tokens for the system/template overhead leaves ~3 200
+# tokens for article content.  At ~4 chars/token that is ~12 800 chars;
+# we use 8 000 as a safe default.  Override via environment variable.
+_MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "8000"))
+
 
 def _validate_output(data: Any) -> bool:
     """Return ``True`` if *data* conforms to the expected schema."""
@@ -93,6 +100,7 @@ class BilingualSummarizer:
             api_key=resolved_key,
             base_url=self.BASE_URL,
         )
+        self._last_mode = "abstract-only"
 
     # ------------------------------------------------------------------
     # Public API
@@ -117,9 +125,57 @@ class BilingualSummarizer:
         Returns a ``dict`` with ``title`` and ``summary`` keys (each
         containing ``zh`` and ``en`` sub-keys), or ``None`` if generation
         or parsing fails after retries.
+
+        If full-text mode fails (e.g. due to token limits), the method
+        automatically falls back to abstract-only mode.  The actual mode
+        used is stored in ``self._last_mode``.
         """
+        self._last_mode = "abstract-only"
+
+        # --- Try full-text mode first (if text available) ---
         if fulltext:
-            mode = "full-text"
+            truncated = self._truncate_fulltext(fulltext)
+            if len(truncated) < len(fulltext):
+                logger.info(
+                    "Truncated full text from %d to %d chars for model input",
+                    len(fulltext), len(truncated),
+                )
+            result = self._try_mode("full-text", article, fulltext=truncated)
+            if result is not None:
+                self._last_mode = "full-text"
+                return result
+            logger.warning(
+                "Full-text summary failed for %s — falling back to "
+                "abstract-only mode",
+                article.journal,
+            )
+
+        # --- Abstract-only mode (primary or fallback) ---
+        result = self._try_mode("abstract-only", article, fulltext=None)
+        if result is not None:
+            self._last_mode = "abstract-only"
+            return result
+
+        logger.error(
+            "Failed to generate valid summary for %s vol.%s #%s",
+            article.journal,
+            article.volume,
+            article.issue,
+        )
+        return None
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+
+    def _try_mode(
+        self,
+        mode: str,
+        article: CoverArticleRaw,
+        fulltext: Optional[str],
+    ) -> Optional[Dict[str, Any]]:
+        """Attempt summarisation in the given *mode* with retries."""
+        if mode == "full-text" and fulltext:
             user_prompt = COVER_STORY_FULLTEXT_PROMPT.format(
                 journal=article.journal,
                 volume=article.volume or "—",
@@ -131,7 +187,6 @@ class BilingualSummarizer:
                 fulltext=fulltext,
             )
         else:
-            mode = "abstract-only"
             user_prompt = COVER_STORY_PROMPT.format(
                 journal=article.journal,
                 volume=article.volume or "—",
@@ -143,7 +198,7 @@ class BilingualSummarizer:
                 abstract=article.article_abstract or "(not available)",
             )
 
-        for attempt in range(1, self.MAX_RETRIES + 2):  # +2 because range is exclusive
+        for attempt in range(1, self.MAX_RETRIES + 2):
             logger.info(
                 "Requesting %s summary from %s (attempt %d/%d) ...",
                 mode,
@@ -158,19 +213,27 @@ class BilingualSummarizer:
                 logger.warning("Invalid JSON structure on attempt %d", attempt)
             except Exception as exc:
                 logger.error("Model call failed on attempt %d: %s", attempt, exc)
+                # If the request body is too large, no point retrying the
+                # same prompt — break immediately so the caller can fall
+                # back to a shorter prompt (abstract-only mode).
+                if "413" in str(exc) or "too large" in str(exc).lower():
+                    logger.warning(
+                        "Request too large — aborting retries for %s mode",
+                        mode,
+                    )
+                    break
 
-        logger.error(
-            "Failed to generate valid summary for %s vol.%s #%s after %d attempts",
-            article.journal,
-            article.volume,
-            article.issue,
-            self.MAX_RETRIES + 1,
-        )
         return None
 
-    # ------------------------------------------------------------------
-    # Internal helpers
-    # ------------------------------------------------------------------
+    @staticmethod
+    def _truncate_fulltext(text: str) -> str:
+        """Truncate full text to fit within the model's input token budget."""
+        if len(text) <= _MAX_FULLTEXT_CHARS:
+            return text
+        cut = text[:_MAX_FULLTEXT_CHARS].rfind("\n\n")
+        if cut > _MAX_FULLTEXT_CHARS * 0.8:
+            return text[:cut].rstrip()
+        return text[:_MAX_FULLTEXT_CHARS].rstrip()
 
     def _call_model(self, user_prompt: str) -> Optional[Dict[str, Any]]:
         """Send a single request to the model and parse the response.
