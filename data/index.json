@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T21:49:54.063078+00:00",
+  "lastUpdated": "2026-03-03T22:34:18.145404+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -9,6 +9,15 @@
       "title_zh": "看不見的界線如何左右選票？德國研究揭開行政邊界對投票行為的隱形影響",
       "title_en": "The Invisible Lines That Shape Elections: How Administrative Borders Influence Voting Behavior in Germany",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-02-12",
+      "journal": "Science",
+      "date": "2026-02-12",
+      "path": "articles/2026/02/science-2026-02-12.json",
+      "title_zh": "大象鬍子藏玄機：從根到尖的「功能梯度」讓象鼻觸覺超靈敏",
+      "title_en": "The Elephant’s Tactile Superpower: How a Stiff-to-Soft Gradient Makes Touch Sensing Exceptionally Precise",
+      "cover_url": "data/images/science/science-2026-02-12-cover.jpg"
     },
     {
       "id": "nature-2026-02-04",
