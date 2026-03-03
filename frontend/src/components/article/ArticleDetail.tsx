@@ -12,7 +12,7 @@ import './ArticleDetail.css';
 export function ArticleDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { data: article, isLoading, error } = useArticle(id);
+  const { data: article, isLoading, isNotFound, error } = useArticle(id);
 
   const handleGoBack = () => {
     if (window.history.length > 1) {
@@ -24,7 +24,7 @@ export function ArticleDetail() {
 
   if (isLoading) return <LoadingSpinner />;
 
-  if (error || !article) {
+  if (error || isNotFound || !article) {
     return (
       <div className="article-detail__error container reading-column">
         <h2>找不到文章</h2>

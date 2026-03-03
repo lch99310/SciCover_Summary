@@ -13,10 +13,9 @@ export function FigureGallery({ images, credit, journal }: FigureGalleryProps) {
 
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const target = e.currentTarget;
-    const fallback = getDefaultCoverUrl(journal || 'Science');
-    if (target.src !== fallback) {
-      target.src = fallback;
-    }
+    if (target.dataset.fallbackAttempted) return;
+    target.dataset.fallbackAttempted = 'true';
+    target.src = getDefaultCoverUrl(journal || 'Science');
   };
 
   return (

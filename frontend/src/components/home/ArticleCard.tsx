@@ -21,10 +21,10 @@ export function ArticleCard({ article, index }: ArticleCardProps) {
 
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     const target = e.currentTarget;
-    const fallback = getDefaultCoverUrl(article.journal);
-    if (target.src !== fallback) {
-      target.src = fallback;
-    }
+    // Prevent infinite loop: only attempt fallback once.
+    if (target.dataset.fallbackAttempted) return;
+    target.dataset.fallbackAttempted = 'true';
+    target.src = getDefaultCoverUrl(article.journal);
   };
 
   return (

@@ -62,9 +62,9 @@ const DEFAULT_COVER_MAP: Record<string, string> = {
   Science: 'data/images/science/default-cover.jpg',
   Nature: 'data/images/nature/default-cover.jpg',
   Cell: 'data/images/cell/default-cover.jpg',
-  'Political Geography': 'data/images/Political_Geography/default-cover.jpg',
-  'International Organization': 'data/images/International_Organization/default-cover.jpg',
-  'American Sociological Review': 'data/images/ASR/default-cover.jpg',
+  'Political Geography': 'data/images/political-geography/default-cover.jpg',
+  'International Organization': 'data/images/international-organization/default-cover.jpg',
+  'American Sociological Review': 'data/images/american-sociological-review/default-cover.jpg',
 };
 
 /**
