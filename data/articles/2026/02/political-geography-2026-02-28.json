@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-28",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "en": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior"
+    },
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "keyArticle": {
+      "title": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "authors": [
+        "Jona-Frederik Baumert"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103521",
+      "pages": "103521"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T12:01:48.473492+00:00",
+    "source": "openalex"
+  }
+}

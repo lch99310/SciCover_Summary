@@ -1,0 +1,41 @@
+{
+  "id": "nature-2026-02-27",
+  "journal": "Nature",
+  "volume": "",
+  "issue": "",
+  "date": "2026-02-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "White House stalls release of approved US science budgets",
+      "en": "White House stalls release of approved US science budgets"
+    },
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "keyArticle": {
+      "title": "White House stalls release of approved US science budgets",
+      "authors": [
+        "Max Kozlov",
+        "Alexandra Witze",
+        "Dan Garisto"
+      ],
+      "doi": "10.1038/d41586-026-00601-0",
+      "pages": ""
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1038/d41586-026-00601-0",
+      "doi": "https://doi.org/10.1038/d41586-026-00601-0"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T12:01:41.417091+00:00",
+    "source": "openalex"
+  }
+}

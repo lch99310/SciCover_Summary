@@ -1,0 +1,53 @@
+{
+  "id": "cell-2026-02-01",
+  "journal": "Cell",
+  "volume": "",
+  "issue": "",
+  "date": "2026-02-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "Nuclear speckles enable processing of RNA from GC-rich isochores",
+      "en": "Nuclear speckles enable processing of RNA from GC-rich isochores"
+    },
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "keyArticle": {
+      "title": "Nuclear speckles enable processing of RNA from GC-rich isochores",
+      "authors": [
+        "Michał Małszycki",
+        "Lisa Martina",
+        "İbrahim Avşar Ilık",
+        "Sourya Bhattacharyya",
+        "Nirmalya Dasgupta",
+        "Mensura Feray Çoşar",
+        "Keun-Tae Kim",
+        "Gil Carraco",
+        "Beatrix Fauler",
+        "David Meierhofer",
+        "Thorsten Mielke",
+        "Hiroo Imai",
+        "Cantas Alev",
+        "Ferhat Ay",
+        "Tugce Uslu Aktas"
+      ],
+      "doi": "10.1016/j.cell.2026.01.011",
+      "pages": ""
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.011",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.011"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T12:01:44.891923+00:00",
+    "source": "openalex"
+  }
+}

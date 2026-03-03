@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-02T22:23:30.625395+00:00",
+  "lastUpdated": "2026-03-03T12:01:56.015296+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-02-28",
+      "journal": "Political Geography",
+      "date": "2026-02-28",
+      "path": "articles/2026/02/political-geography-2026-02-28.json",
+      "title_zh": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "title_en": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "cover_url": ""
+    },
+    {
+      "id": "nature-2026-02-27",
+      "journal": "Nature",
+      "date": "2026-02-27",
+      "path": "articles/2026/02/nature-2026-02-27.json",
+      "title_zh": "White House stalls release of approved US science budgets",
+      "title_en": "White House stalls release of approved US science budgets",
+      "cover_url": ""
+    },
     {
       "id": "nature-2026-02-26",
       "journal": "Nature",
@@ -20,6 +38,15 @@
       "cover_url": "data/images/science/science-2026-02-26-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-02-22",
+      "journal": "American Sociological Review",
+      "date": "2026-02-22",
+      "path": "articles/2026/02/american-sociological-review-2026-02-22.json",
+      "title_zh": "Pedagogy of Fear: Folklore and the Far-Right in Weimar Germany",
+      "title_en": "Pedagogy of Fear: Folklore and the Far-Right in Weimar Germany",
+      "cover_url": ""
+    },
+    {
       "id": "cell-2026-02-19",
       "journal": "Cell",
       "date": "2026-02-19",
@@ -29,6 +56,15 @@
       "cover_url": "data/images/cell/cell-2026-02-19-cover.jpg"
     },
     {
+      "id": "international-organization-2026-02-13",
+      "journal": "International Organization",
+      "date": "2026-02-13",
+      "path": "articles/2026/02/international-organization-2026-02-13.json",
+      "title_zh": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
+      "title_en": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
+      "cover_url": ""
+    },
+    {
       "id": "asr-2026-02-01",
       "journal": "American Sociological Review",
       "date": "2026-02-01",
@@ -36,6 +72,15 @@
       "title_zh": "政治仇恨的長影：黨派對立如何拖垮民主國家的氣候行動",
       "title_en": "The Long Shadow of Partisan Hostility: How Political Polarization Undermines Climate Action",
       "cover_url": "data/images/ASR/ASR-cover.png"
+    },
+    {
+      "id": "cell-2026-02-01",
+      "journal": "Cell",
+      "date": "2026-02-01",
+      "path": "articles/2026/02/cell-2026-02-01.json",
+      "title_zh": "Nuclear speckles enable processing of RNA from GC-rich isochores",
+      "title_en": "Nuclear speckles enable processing of RNA from GC-rich isochores",
+      "cover_url": ""
     },
     {
       "id": "polgeog-2026-02-01",
@@ -90,6 +135,24 @@
       "title_zh": "被忽視的鄉村如何投向極右翼——葡萄牙的政治邊緣化啟示",
       "title_en": "How Politically Neglected Rural Communities Turn to the Radical Right — Lessons from Portugal",
       "cover_url": "data/images/Political_Geography/PG-2025-01-01-fig1.jpg"
+    },
+    {
+      "id": "international-organization-",
+      "journal": "International Organization",
+      "date": "",
+      "path": "international-organization-.json",
+      "title_zh": "",
+      "title_en": "",
+      "cover_url": ""
+    },
+    {
+      "id": "nature-",
+      "journal": "Nature",
+      "date": "",
+      "path": "nature-.json",
+      "title_zh": "",
+      "title_en": "",
+      "cover_url": ""
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "id": "international-organization-2026-02-13",
+  "journal": "International Organization",
+  "volume": "",
+  "issue": "",
+  "date": "2026-02-13",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
+      "en": "Geography of Grievance: Industrial Hubs Magnify Political Discontent"
+    },
+    "summary": {
+      "zh": "",
+      "en": ""
+    },
+    "keyArticle": {
+      "title": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
+      "authors": [
+        "Sung Eun Kim",
+        "Krzysztof Pelc"
+      ],
+      "doi": "10.1017/s0020818325101203",
+      "pages": "1-37"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101203",
+      "doi": "https://doi.org/10.1017/s0020818325101203"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T12:01:52.091741+00:00",
+    "source": "openalex"
+  }
+}
