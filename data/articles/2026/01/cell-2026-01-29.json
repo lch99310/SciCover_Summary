@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-01-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "OCD「反覆思考」的神經密碼！前額葉γ波活動揭開強迫行為真相",
+      "en": "The Brain's Gamma Wave 'Loop' in OCD: How Frontal Cortex Activity Fuels Compulsive Behaviors"
+    },
+    "summary": {
+      "zh": "當你反覆確認門鎖、洗手，大腦裡的哪個區域在作祟？這正是強迫症（OCD）患者每天經歷的困擾。最新研究透過大腦植入電極監測，發現前額葉內側（anteromedial OFC）的低頻γ波活動，在症狀加劇時明顯升高。這就像大腦裡的「警報系統」過度活躍，讓患者陷入無法自拔的反覆行為循環。更關鍵的是，當研究人員電刺激腦部的腹側基底核（ventral basal ganglia）來減輕症狀時，前額葉的γ波活動也同步下降——這揭示了症狀與神經活動之間的直接關聯。\n\n這項發現不僅解釋了OCD為何會「突然爆發」，更為精準治療提供了新方向。例如，深腦刺激技術（DBS）若能精準調整前額葉的神經活動，或許能像按「暫停鍵」一樣，切斷強迫行為的神經迴路。未來治療可能不再僅靠藥物或心理療法，而是透過「神經密碼」的精準解碼，為每個患者量身打造個性化方案。",
+      "en": "Have you ever found yourself washing your hands for the fifth time, even though you know you’ve already cleaned them? For people with obsessive-compulsive disorder (OCD), such compulsions are not just inconvenient—they are relentless, often debilitating cycles of behavior driven by the brain itself. A groundbreaking study in *Cell* has now uncovered the neural mechanism behind these spirals: in the orbitofrontal cortex (OFC), low-frequency gamma waves (30–70 Hz) surge during high symptom states. This activity acts like an overactive alarm system, locking patients into compulsive loops.\n\nUsing intracranial electrodes to monitor patients’ brain activity, researchers observed that stimulating the ventral basal ganglia—known to reduce OCD symptoms—also dampened gamma power in the OFC. This connection suggests that the brain’s “compulsion circuit” functions like a feedback loop: abnormal gamma activity in the OFC triggers compulsions, which in turn reinforce the neural pattern. The findings provide critical insights for precision therapies, such as deep brain stimulation (DBS), which could disrupt this loop by targeting specific neural signatures. By decoding the brain’s internal language of obsession, clinicians may soon move beyond one-size-fits-all treatments toward personalized interventions that address the root of OCD’s chaos."
+    },
+    "keyArticle": {
+      "title": "Human orbitofrontal neural activity is linked to obsessive-compulsive behavioral dynamics",
+      "authors": [
+        "Young-Hoon Nho",
+        "Liming Qiu",
+        "Robert Seilheimer",
+        "Gustavo Campos",
+        "Andrew Chang",
+        "Z Wang",
+        "John F. Magnotti",
+        "Zhengjia Wang",
+        "Daniel A.N. Barbosa",
+        "Andreas Horn",
+        "Nolan Williams",
+        "Lily A. Brown",
+        "Taneeta M. Ganguly",
+        "Mario A. Cristancho",
+        "Bijan Pesaran",
+        "Desmond J. Oathes",
+        "Kai Miller",
+        "Katherine W. Scangos",
+        "Casey H. Halpern"
+      ],
+      "doi": "10.1016/j.cell.2025.12.037",
+      "pages": "739-747.e8"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.037",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.037"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T23:42:27.837822+00:00",
+    "source": "openalex"
+  }
+}

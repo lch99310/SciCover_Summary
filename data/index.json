@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T22:34:18.145404+00:00",
+  "lastUpdated": "2026-03-03T23:44:34.774690+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
       "journal": "Political Geography",
       "date": "2026-02-28",
       "path": "articles/2026/02/political-geography-2026-02-28.json",
-      "title_zh": "看不見的界線如何左右選票？德國研究揭開行政邊界對投票行為的隱形影響",
-      "title_en": "The Invisible Lines That Shape Elections: How Administrative Borders Influence Voting Behavior in Germany",
+      "title_zh": "哪條邊界最關鍵？德國選舉背後的行政裂痕",
+      "title_en": "Which Border Matters Most? How Germany’s Administrative Divisions Shape Voting Behavior",
       "cover_url": ""
     },
     {
@@ -15,8 +15,8 @@
       "journal": "Science",
       "date": "2026-02-12",
       "path": "articles/2026/02/science-2026-02-12.json",
-      "title_zh": "大象鬍子藏玄機：從根到尖的「功能梯度」讓象鼻觸覺超靈敏",
-      "title_en": "The Elephant’s Tactile Superpower: How a Stiff-to-Soft Gradient Makes Touch Sensing Exceptionally Precise",
+      "title_zh": "大象鬍鬚的隱形工程：三重梯度設計讓觸覺精準度破百",
+      "title_en": "The Elephant's Tactile Superpower: How Graded Whiskers Unlock Precision Touch",
       "cover_url": "data/images/science/science-2026-02-12-cover.jpg"
     },
     {
@@ -24,8 +24,8 @@
       "journal": "Nature",
       "date": "2026-02-04",
       "path": "articles/2026/02/nature-2026-02-04.json",
-      "title_zh": "量子真空中的「雙人舞」：科學家首次捕捉到夸克自旋糾纏的瞬間",
-      "title_en": "The Quantum Tango: Scientists Capture First Evidence of Entangled Quark Spins in the Vacuum",
+      "title_zh": "夸克的自旋默契：RHIC實驗揭開強核力中的量子關聯奧秘",
+      "title_en": "The Spin Connection: Quantum Correlations Revealed in QCD Confinement",
       "cover_url": ""
     },
     {
@@ -33,8 +33,8 @@
       "journal": "Cell",
       "date": "2026-01-29",
       "path": "articles/2026/01/cell-2026-01-29.json",
-      "title_zh": "大腦「煞車失靈」解密：前額葉異常放電如何驅動強迫行為",
-      "title_en": "The Brain's Broken Brake: How Frontal Lobe Gamma Waves Fuel OCD Symptoms",
+      "title_zh": "OCD「反覆思考」的神經密碼！前額葉γ波活動揭開強迫行為真相",
+      "title_en": "The Brain's Gamma Wave 'Loop' in OCD: How Frontal Cortex Activity Fuels Compulsive Behaviors",
       "cover_url": ""
     },
     {
@@ -42,8 +42,8 @@
       "journal": "International Organization",
       "date": "2025-11-20",
       "path": "articles/2025/11/international-organization-2025-11-20.json",
-      "title_zh": "收容的建築學：後自由主義時代的難民保護困境",
-      "title_en": "The Silent Reconfiguration: How States Are Redefining Refugee Protection Without Changing the Rules",
+      "title_zh": "難民庇護的『隱形圍牆』：後自由主義秩序下的政策轉型",
+      "title_en": "The Invisible Walls: Refugee Protection in a Postliberal Era",
       "cover_url": ""
     },
     {
@@ -51,8 +51,8 @@
       "journal": "American Sociological Review",
       "date": "2025-08-11",
       "path": "articles/2025/08/american-sociological-review-2025-08-11.json",
-      "title_zh": "同樣免試政策，不同校園光景：招生價值觀如何決定「免SAT」政策的多元成效",
-      "title_en": "When Test-Optional Doesn't Mean Equal: How Institutional Values Shape the Diversity Outcomes of Admissions Reforms",
+      "title_zh": "同一政策，無標準結果：招生價值觀如何決定免試政策的多元成效",
+      "title_en": "Same Policy, Different Outcomes: How Institutional Priorities Shape Test-Optional Admissions' Diversity Impact",
       "cover_url": ""
     }
   ]

@@ -1,0 +1,56 @@
+{
+  "id": "science-2026-02-12",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6786",
+  "date": "2026-02-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大象鬍鬚的隱形工程：三重梯度設計讓觸覺精準度破百",
+      "en": "The Elephant's Tactile Superpower: How Graded Whiskers Unlock Precision Touch"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開大象鬍鬚的神奇設計：從根到尖，形狀、多孔性與硬度呈現「漸變梯度」，讓觸覺訊號能精準編碼接觸位置。傳統觀點認為鬍鬚是均質結構，但大象的鬍鬚無肌肉控制，卻透過三重梯度——根部厚實多孔、尖端細膩堅韌——實現「觸覺感知」。這種設計不僅減少磨損，更讓觸碰時的振動訊號在根部放大2000%，如同將環境訊息轉換成「觸覺密碼」，讓大象能精確操控數百公斤的物品。這項發現不僅解開生物學謎題，更為機器人觸覺設計提供全新思路。\n\n【研究問題】過去研究假設鬍鬚是均質材料，但大象的鬍鬚缺乏肌肉控制，傳統模型無法解釋其觸覺機制。為何重要？大象每天用鬍鬚抓取數百公斤食物，卻依靠「被動觸覺」感知環境，這種精準操作背後的生物學原理長期未被破解。若不理解這點，仿生機器人將無法突破現有觸覺設計的瓶頸。\n\n【研究方法】研究團隊結合顯微鏡、微CT掃描與納米壓痕技術，精細測量大象鬍鬚從根到尖的形狀變化、多孔率與硬度。他們對比幼象與成象的差異，並運用有限元素分析模擬不同梯度如何影響訊號傳遞。關鍵突破在於發現鬍鬚的「功能梯度」——根部多孔率高達82%，硬度逐漸降低，如同一張精密的「觸覺天線」。\n\n【結果】幼象鬍鬚根部多孔率82%，到20%長度時降至15%；根部硬度0.57 GPa，尖端僅0.1 GPa。成象根部硬度達2.99 GPa，尖端0.7 GPa，梯度跨度達兩倍量級。當觸碰點位於60%長度處時，訊號功率激增2000%，讓大象能像使用「觸覺雷達」般定位物體。這項發現證明：生物結構的「功能梯度」是提升感知能力的關鍵，為機器人觸覺設計提供了革命性啟示。",
+      "en": "**Summary:** This study reveals the elephant's hidden tactile engineering: a triple-gradient design in shape, porosity, and stiffness along the whisker length enables precise encoding of contact location through vibrational signals. Contrary to the long-held assumption of uniform whisker structure, elephants—whose whiskers lack muscle control—have evolved a sophisticated system where the root is thick and porous, while the tip is delicate and resilient. This design not only minimizes wear but amplifies tactile signals by 2000% at the root, transforming environmental information into a 'tactile code' that allows elephants to manipulate objects weighing hundreds of kilograms with precision. Beyond solving a biological mystery, this discovery offers revolutionary insights for robotics.\n\n**Problem:** Previous research assumed whiskers were uniform materials, but elephants' passive whiskers (lacking muscle control) defy this model. Why does it matter? Elephants rely on these whiskers for daily tasks like handling hundreds of kilograms of food, yet the precise mechanics of their passive touch remained unexplained. Without understanding this, bio-inspired robots will continue to face limitations in tactile sensing.\n\n**Approach:** The team combined microscopy, micro-CT scanning, and nano-indentation to map the whisker's shape, porosity, and stiffness gradients from root to tip. They compared juvenile and adult elephants, using finite element analysis to simulate how these gradients affect signal transmission. A breakthrough was identifying the 'functional gradient'—with root porosity reaching 82% and stiffness decreasing by two orders of magnitude—acting as a biological 'tactile antenna'.\n\n**Results:** Juvenile whiskers have 82% porosity at the root, dropping to 15% at 20% length; root stiffness is 0.57 GPa, while the tip is just 0.1 GPa. In adults, root stiffness climbs to 2.99 GPa, with the tip at 0.7 GPa—spanning two orders of magnitude. When contact occurs at 60% length, signal power increases by 2000%, allowing elephants to locate touches with radar-like precision. This proves that functional gradients are key to advanced sensory capabilities, offering a blueprint for next-generation robotic touch sensors."
+    },
+    "keyArticle": {
+      "title": "Functional gradients facilitate tactile sensing in elephant whiskers",
+      "authors": [
+        "Andrew Schulz",
+        "Lena V. Kaufmann",
+        "Lynne T. Smith",
+        "Deepti S. Philip",
+        "Hilda David",
+        "Jelena Lazović",
+        "Michael Brecht",
+        "Gunther Richter",
+        "Katherine J. Kuchenbecker"
+      ],
+      "doi": "10.1126/science.adx8981",
+      "pages": "712-718"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx8981",
+      "doi": "https://doi.org/10.1126/science.adx8981",
+      "preprint": "http://arxiv.org/abs/2504.07143"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-03T23:41:28.295581+00:00",
+    "source": "openalex"
+  }
+}

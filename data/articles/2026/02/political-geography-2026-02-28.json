@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-28",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "哪條邊界最關鍵？德國選舉背後的行政裂痕",
+      "en": "Which Border Matters Most? How Germany’s Administrative Divisions Shape Voting Behavior"
+    },
+    "summary": {
+      "zh": "這項研究顛覆傳統選舉分析模式：不聚焦於選區或州內的投票結果，而是探討相鄰區域間的選票模式差異。研究者採用改良版加拉赫指數（類似衡量選舉不公的指標）量化這些差異，發現德國東西分治邊界是影響最顯著的分界線。選區邊界對候選人投票至關重要，卻對政黨投票毫無影響；相反，州、行政區和縣的邊界才是政黨選票差異最明顯的地方。這表明行政邊界不僅是地理標記，更深刻塑造了政治認同。",
+      "en": "This study reimagines electoral analysis by shifting focus from territorial units to the boundaries between them. Using a modified Gallagher index to quantify electoral differences between neighboring regions, the authors find that Germany’s former East-West divide remains the most potent electoral boundary. While constituency lines influence candidate votes, it is state, government districts, and county borders that most sharply divide party vote patterns. These findings challenge the assumption that electoral districts are the primary units of political analysis, highlighting how administrative boundaries profoundly shape voting behavior."
+    },
+    "keyArticle": {
+      "title": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "authors": [
+        "Jona-Frederik Baumert"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103521",
+      "pages": "103521"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T23:43:14.274440+00:00",
+    "source": "openalex"
+  }
+}

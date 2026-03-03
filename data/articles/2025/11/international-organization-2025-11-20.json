@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2025-11-20",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "難民庇護的『隱形圍牆』：後自由主義秩序下的政策轉型",
+      "en": "The Invisible Walls: Refugee Protection in a Postliberal Era"
+    },
+    "summary": {
+      "zh": "當全球難民庇護體系仍以1951年《難民公約》為基石時，一場靜默的轉型正在發生。各國並非放棄庇護責任，而是透過「邊境外部化」、「法律模糊性」與「非正式合作」，將難民問題「封閉」在國境之外。這就像一座老宅仍保留著大門，卻悄悄將院牆移至遠處——庇護的責任未被撕毀，卻被重新編排在國界的外圍。\n\n這種「彈性 containment」（彈性管控）的運作，源於「制度性漂移」與「法律替換」的雙重機制。國家透過延長程序、委託第三方機構處理 asylum 申請，既不違反公約條文，又巧妙降低庇護門檻。例如歐盟與土耳其的協議，將難民接收責任轉嫁至第三國；或是拖延審理時間，讓申請人陷入「程序性拖延」的迷宮。這些做法看似維持了制度的完整性，實則悄然重塑了庇護的本質。\n\n研究指出，這並非 refugee regime 的崩解，而是其在後自由主義秩序中的重新組裝。新邏輯將「國家主權」與「風險管理」置於「多邊合作」與「人權保障」之上，標誌著國際治理邏輯的根本轉向。面對這場「隱形圍牆」的興建，傳統的「團結精神」已難以應對，亟需重新思考全球治理中「責任分擔」的實質意義。",
+      "en": "The global refugee regime, long anchored by the 1951 Refugee Convention, is not collapsing but undergoing a fundamental transformation. States are increasingly managing displacement through externalization, legal ambiguity, and informal cooperation, creating a \"flexible containment\" model that preserves the appearance of compliance while limiting access to asylum. This shift reflects a broader reconfiguration of international norms in a postliberal era.\n\nDrawing on institutional drift and legal substitution, the author shows how states recalibrate their obligations without formally renouncing them. Examples include border externalization (e.g., EU-Turkey agreements), procedural delays (prolonged asylum procedures), and institutional delegation (outsourcing asylum processing to third countries). These practices form an architecture of containment that prioritizes sovereignty and risk management over multilateralism.\n\nThe new logic of refugee protection underscores a shift from rights-based enforcement to state discretion. Rather than restoring past commitments, the challenge lies in confronting the evolving politics of mobility in a fragmented international order. The essay calls for rethinking solidarity to address this structural shift in global governance."
+    },
+    "keyArticle": {
+      "title": "The Architecture of Containment: Refugee Protection in a Postliberal Order",
+      "authors": [
+        "Perisa Davutoglu"
+      ],
+      "doi": "10.1017/s0020818325101100",
+      "pages": "S180-S193"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101100",
+      "doi": "https://doi.org/10.1017/s0020818325101100"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T23:44:02.721806+00:00",
+    "source": "openalex"
+  }
+}
