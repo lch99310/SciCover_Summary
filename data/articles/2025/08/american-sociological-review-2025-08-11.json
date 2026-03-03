@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2025-08-11",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "5",
+  "date": "2025-08-11",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "同樣免試政策，不同校園光景：招生價值觀如何決定「免SAT」政策的多元成效",
+      "en": "When Test-Optional Doesn't Mean Equal: How Institutional Values Shape the Diversity Outcomes of Admissions Reforms"
+    },
+    "summary": {
+      "zh": "近年越來越多美國大學採行『免標準化考試』(test-optional)政策，希望藉此促進校園多元性。但史丹佛大學社會學家Greta Hsu和Amanda Sharkey的最新研究發現，這項政策的實際效果高度取決於各校的招生價值觀與財務壓力。\n\n透過分析全美高等教育數據，研究者發現：當學校雖取消SAT/ACT要求，卻仍高度重視量化學術指標時，弱勢族裔學生的入學增長幅度會大打折扣。更關鍵的是，當學校面臨財務壓力時，招生辦公室往往會優先考慮能支付全額學費的學生，導致免試政策帶來的多元效益大幅衰減。這項研究在2025年格外具有現實意義——當美國最高法院禁止大學採用種族裔因素招生後，許多院校將免試政策視為替代方案，但本研究顯示，若不同時改變對『優秀』的定義，單靠技術性政策調整難以真正打破階級複製。",
+      "en": "As U.S. colleges increasingly adopt test-optional admissions policies to promote diversity, a groundbreaking study reveals these reforms produce starkly different outcomes depending on institutional priorities. Sociologists Greta Hsu and Amanda Sharkey demonstrate that simply removing standardized test requirements isn't enough to level the playing field.\n\nAnalyzing national higher education datasets, the researchers found colleges that maintain strong emphasis on quantitative academic metrics see significantly smaller increases in underrepresented minority enrollment—even when going test-optional. More crucially, when financial pressures mount, institutions often prioritize revenue-generating students, undermining potential diversity gains. These findings carry particular weight in 2025, as universities seek race-neutral alternatives following Supreme Court restrictions on affirmative action. The study suggests lasting change requires rethinking fundamental notions of merit beyond technical policy adjustments, exposing how deeply institutional values shape educational equity."
+    },
+    "keyArticle": {
+      "title": "Same Policy, No Standardized Outcome: How Admissions Values and Institutional Priorities Shape the Effect of Test-Optional Policies on Campus Diversity",
+      "authors": [
+        "Greta Hsu",
+        "Amanda Sharkey"
+      ],
+      "doi": "10.1177/00031224251352432",
+      "pages": "813-847"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251352432",
+      "doi": "https://doi.org/10.1177/00031224251352432"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T15:11:45.910776+00:00",
+    "source": "openalex"
+  }
+}

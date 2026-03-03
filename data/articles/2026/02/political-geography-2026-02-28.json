@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-28",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "看不見的界線如何左右選票？德國研究揭開行政邊界對投票行為的隱形影響",
+      "en": "The Invisible Lines That Shape Elections: How Administrative Borders Influence Voting Behavior in Germany"
+    },
+    "summary": {
+      "zh": "政治地理學最新研究提出一個創新視角：與其分析行政區內的選舉結果，不如聚焦『邊界效應』——即相鄰行政區之間的投票差異。德國學者Jona-Frederik Baumert開發出類似加拉格爾指數的標準差模型，量化不同層級行政邊界（如州界、縣界）對選舉的影響。\n\n研究發現，前東西德邊界至今仍造成最顯著的投票差異。有趣的是，選區劃分僅影響候選人票，對政黨票毫無作用；相反地，州、行政專區和縣級邊界會明顯加劇政黨票的分歧。這項方法論突破為理解『地域認同如何轉化為政治行為』提供了精準測量工具。",
+      "en": "A groundbreaking study in Political Geography shifts the analytical lens from voting patterns within territorial units to the electoral disparities across administrative borders. Jona-Frederik Baumert introduces a methodological innovation using a modified standard deviation measure akin to the Gallagher index, quantifying how different boundary types—from state lines to county borders—affect voting behavior.\n\nThe German case reveals enduring political fault lines: the former East-West German border still creates the most pronounced electoral differences. Intriguingly, constituency boundaries only matter for candidate votes but not party votes, whereas state, government district, and county borders significantly amplify partisan divides. This research provides a precise tool to measure how territorial identities translate into political behavior, challenging conventional approaches to electoral geography."
+    },
+    "keyArticle": {
+      "title": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "authors": [
+        "Jona-Frederik Baumert"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103521",
+      "pages": "103521"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T15:09:43.723139+00:00",
+    "source": "openalex"
+  }
+}
