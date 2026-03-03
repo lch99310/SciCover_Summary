@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T12:30:09.150809+00:00",
+  "lastUpdated": "2026-03-03T13:35:38.355347+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -135,24 +135,6 @@
       "title_zh": "被忽視的鄉村如何投向極右翼——葡萄牙的政治邊緣化啟示",
       "title_en": "How Politically Neglected Rural Communities Turn to the Radical Right — Lessons from Portugal",
       "cover_url": "data/images/Political_Geography/PG-2025-01-01-fig1.jpg"
-    },
-    {
-      "id": "international-organization-",
-      "journal": "International Organization",
-      "date": "",
-      "path": "international-organization-.json",
-      "title_zh": "",
-      "title_en": "",
-      "cover_url": ""
-    },
-    {
-      "id": "nature-",
-      "journal": "Nature",
-      "date": "",
-      "path": "nature-.json",
-      "title_zh": "",
-      "title_en": "",
-      "cover_url": ""
     }
   ]
 }
