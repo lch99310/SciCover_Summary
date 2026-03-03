@@ -48,7 +48,10 @@ Important rules:
   2. The title should hook readers immediately — think of a headline a
      curious person would click on.
   3. Chinese text MUST use Traditional Chinese characters (繁體字).
-  4. ALWAYS respond with valid JSON — no markdown fences, no commentary.
+  4. ALWAYS respond with valid JSON — no markdown fences, no commentary
+     outside the JSON object.
+  5. Do NOT wrap your response in ```json``` code blocks.
+  6. Your ENTIRE response must be a single valid JSON object.
 """
 
 # ---------------------------------------------------------------------------

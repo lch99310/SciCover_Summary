@@ -1,8 +1,8 @@
 """
-ai.summarizer — Bilingual cover-story summariser powered by DeepSeek-V3.
+ai.summarizer — Bilingual cover-story summariser powered by Qwen3 VL via OpenRouter.
 
-Uses the OpenAI-compatible endpoint on Azure AI (GitHub Models) to produce
-a structured JSON object containing Chinese and English titles and summaries.
+Uses the OpenAI-compatible endpoint on OpenRouter to produce a structured
+JSON object containing Chinese and English titles and summaries.
 
 Supports two modes:
   - **Abstract-only**: 2–4 paragraph free-form summary (original mode).
@@ -15,6 +15,8 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
+import time
 from typing import Any, Dict, Optional
 
 from openai import OpenAI
@@ -32,11 +34,10 @@ _REQUIRED_KEYS = {"title", "summary"}
 _REQUIRED_LANG_KEYS = {"zh", "en"}
 
 # Maximum characters of full text to include in the summariser prompt.
-# GitHub Models free tier limits DeepSeek-V3 to ~4 000 input tokens;
-# reserving ~800 tokens for the system/template overhead leaves ~3 200
-# tokens for article content.  At ~4 chars/token that is ~12 800 chars;
-# we use 8 000 as a safe default.  Override via environment variable.
-_MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "8000"))
+# Qwen3 VL 30B A3B Thinking has a 131 072-token context window, so we can
+# comfortably accommodate the full article text fetched by fulltext.py
+# (capped at 60 000 chars there).  Override via environment variable.
+_MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000"))
 
 
 def _validate_output(data: Any) -> bool:
@@ -63,19 +64,24 @@ def _validate_output(data: Any) -> bool:
 # ---------------------------------------------------------------------------
 
 class BilingualSummarizer:
-    """Generates bilingual (zh + en) summaries using DeepSeek-V3 via Azure AI.
+    """Generates bilingual (zh + en) summaries using Qwen3 VL via OpenRouter.
 
     Configuration
     -------------
-    - **API key**: read from the ``GITHUB_TOKEN`` environment variable.
-    - **Base URL**: ``https://models.inference.ai.azure.com``
-    - **Model**: ``DeepSeek-V3-0324``
+    - **API key**: read from ``MODELS_PAT_QWEN3_VL_30B`` environment variable,
+      falling back to ``GITHUB_TOKEN``.
+    - **Base URL**: ``https://openrouter.ai/api/v1``
+    - **Model**: ``qwen/qwen3-vl-30b-a3b-thinking`` (131K context window)
     """
 
-    MODEL = "DeepSeek-V3-0324"
-    BASE_URL = "https://models.inference.ai.azure.com"
+    MODEL = os.environ.get(
+        "SUMMARIZER_MODEL", "qwen/qwen3-vl-30b-a3b-thinking"
+    )
+    BASE_URL = os.environ.get(
+        "SUMMARIZER_BASE_URL", "https://openrouter.ai/api/v1"
+    )
     TEMPERATURE = 0.7
-    MAX_RETRIES = 1  # Number of *additional* attempts after the first failure.
+    MAX_RETRIES = 2  # Number of *additional* attempts after the first failure.
 
     def __init__(self, api_key: Optional[str] = None) -> None:
         """Initialise the OpenAI client.
@@ -83,22 +89,27 @@ class BilingualSummarizer:
         Parameters
         ----------
         api_key:
-            An explicit API key.  Falls back to ``GITHUB_TOKEN`` env var.
+            An explicit API key.  Falls back to ``MODELS_PAT_QWEN3_VL_30B``
+            or ``GITHUB_TOKEN`` env vars.
         """
         resolved_key = (
             api_key
-            or os.environ.get("MODELS_PAT_DEEPSEEK_V3", "")
+            or os.environ.get("MODELS_PAT_QWEN3_VL_30B", "")
             or os.environ.get("GITHUB_TOKEN", "")
         )
         if not resolved_key:
             logger.warning(
-                "No API key provided (checked MODELS_PAT_DEEPSEEK_V3 and "
+                "No API key provided (checked MODELS_PAT_QWEN3_VL_30B and "
                 "GITHUB_TOKEN). Summarisation calls will fail."
             )
 
         self._client = OpenAI(
             api_key=resolved_key,
             base_url=self.BASE_URL,
+            default_headers={
+                "HTTP-Referer": "https://github.com/lch99310/SciCover_Summary",
+                "X-Title": "SciCover Summary",
+            },
         )
         self._last_mode = "abstract-only"
 
@@ -212,16 +223,28 @@ class BilingualSummarizer:
                     return result
                 logger.warning("Invalid JSON structure on attempt %d", attempt)
             except Exception as exc:
+                exc_str = str(exc)
                 logger.error("Model call failed on attempt %d: %s", attempt, exc)
                 # If the request body is too large, no point retrying the
                 # same prompt — break immediately so the caller can fall
                 # back to a shorter prompt (abstract-only mode).
-                if "413" in str(exc) or "too large" in str(exc).lower():
+                if "413" in exc_str or "too large" in exc_str.lower():
                     logger.warning(
                         "Request too large — aborting retries for %s mode",
                         mode,
                     )
                     break
+                # Rate limit: extract wait time from the error message and
+                # sleep before retrying.
+                if "429" in exc_str or "rate" in exc_str.lower():
+                    wait = self._extract_retry_wait(exc_str)
+                    if attempt < self.MAX_RETRIES + 1:
+                        logger.info(
+                            "Rate limited — waiting %d seconds before retry",
+                            wait,
+                        )
+                        time.sleep(wait)
+                    continue
 
         return None
 
@@ -234,6 +257,14 @@ class BilingualSummarizer:
         if cut > _MAX_FULLTEXT_CHARS * 0.8:
             return text[:cut].rstrip()
         return text[:_MAX_FULLTEXT_CHARS].rstrip()
+
+    @staticmethod
+    def _extract_retry_wait(error_msg: str) -> int:
+        """Parse the number of seconds to wait from a rate-limit error message."""
+        match = re.search(r"(?:wait|retry.*?)\s+(\d+)\s*seconds?", error_msg, re.I)
+        if match:
+            return min(int(match.group(1)) + 2, 120)  # cap at 2 min, add buffer
+        return 65  # default: slightly over 1 minute
 
     def _call_model(self, user_prompt: str) -> Optional[Dict[str, Any]]:
         """Send a single request to the model and parse the response.
@@ -257,8 +288,12 @@ class BilingualSummarizer:
 
         logger.debug("Raw model response: %s", raw_text[:500])
 
+        # Strip <think>...</think> blocks from reasoning/thinking models.
+        cleaned = re.sub(
+            r"<think>.*?</think>", "", raw_text, flags=re.DOTALL
+        ).strip()
+
         # Strip markdown code fences if the model ignores our instructions.
-        cleaned = raw_text.strip()
         if cleaned.startswith("```"):
             # Remove ```json ... ``` wrapper.
             cleaned = cleaned.split("\n", 1)[-1]  # drop first line
