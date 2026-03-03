@@ -16,7 +16,7 @@ import re
 import tempfile
 import time
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -47,15 +47,16 @@ def fetch_fulltext(
     article_url: str = "",
     doi: str = "",
     oa_pdf_url: str = "",
+    all_pdf_urls: Optional[List[str]] = None,
 ) -> Optional[str]:
     """Try to retrieve the full text of an article.
 
     Strategy (tried in order):
       1. If *preprint_url* points to a known server, fetch from there.
-      2. If *article_url* is on a known open-access publisher, try that.
-      3. If *oa_pdf_url* is available, download the PDF and extract text
-         using PyMuPDF.
-      4. Return ``None`` — caller should fall back to abstract-only mode.
+      2. If *doi* is available, try Europe PMC (free full-text API).
+      3. If *article_url* is on a known open-access publisher, try that.
+      4. If PDF URLs are available, download and extract text via PyMuPDF.
+      5. Return ``None`` — caller should fall back to abstract-only mode.
 
     Returns
     -------
@@ -69,15 +70,24 @@ def fetch_fulltext(
         if text:
             return _truncate(text)
 
-    # --- Strategy 2: Open-access article URL ---
+    # --- Strategy 2: Europe PMC (very reliable for OA articles) ---
+    if doi:
+        text = _fetch_europepmc(doi)
+        if text:
+            return _truncate(text)
+
+    # --- Strategy 3: Open-access article URL ---
     if article_url:
         text = _try_open_access(article_url)
         if text:
             return _truncate(text)
 
-    # --- Strategy 3: Extract text from OA PDF via PyMuPDF ---
-    if oa_pdf_url:
-        text = _extract_text_from_pdf(oa_pdf_url)
+    # --- Strategy 4: Extract text from OA PDF(s) via PyMuPDF ---
+    pdf_urls_to_try = list(all_pdf_urls or [])
+    if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
+        pdf_urls_to_try.append(oa_pdf_url)
+    for pdf_url in pdf_urls_to_try:
+        text = _extract_text_from_pdf(pdf_url)
         if text:
             return _truncate(text)
 
@@ -199,9 +209,12 @@ def _try_open_access(url: str) -> Optional[str]:
         return _fetch_sciencedirect(url)
     if "cambridge.org" in url:
         return _fetch_cambridge(url)
-    # Nature / Science / Cell Press often require subscriptions for the full
-    # text body — the abstract is already captured by the scraper, so we
-    # skip them here.
+    if "nature.com" in url:
+        return _fetch_nature(url)
+    if "science.org" in url or "sciencemag.org" in url:
+        return _fetch_science(url)
+    if "cell.com" in url:
+        return _fetch_cell(url)
     return None
 
 
@@ -242,6 +255,118 @@ def _fetch_cambridge(url: str) -> Optional[str]:
         if len(text) > 500:
             logger.info("Got Cambridge Core full text (%d chars)", len(text))
             return text
+
+    return None
+
+
+def _fetch_nature(url: str) -> Optional[str]:
+    """Fetch full text from Nature.com for open-access articles.
+
+    Nature serves OA articles as full HTML at the landing-page URL.
+    """
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    body = soup.select_one(
+        "div.c-article-body, article .article__body, "
+        "#article-body, .main-content"
+    )
+    if body:
+        text = _extract_text(body)
+        if len(text) > 500:
+            logger.info("Got Nature full text (%d chars)", len(text))
+            return text
+
+    return None
+
+
+def _fetch_science(url: str) -> Optional[str]:
+    """Fetch full text from Science.org for open-access articles."""
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    body = soup.select_one(
+        ".article__body, .bodySection, #bodymatter, "
+        "div[role='doc-chapter'], .hlFld-Fulltext"
+    )
+    if body:
+        text = _extract_text(body)
+        if len(text) > 500:
+            logger.info("Got Science.org full text (%d chars)", len(text))
+            return text
+
+    return None
+
+
+def _fetch_cell(url: str) -> Optional[str]:
+    """Fetch full text from Cell.com (Cell Press) for OA articles."""
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    body = soup.select_one(
+        ".article-body, #body, div[class*='body'], "
+        ".article__sections, .fullText"
+    )
+    if body:
+        text = _extract_text(body)
+        if len(text) > 500:
+            logger.info("Got Cell Press full text (%d chars)", len(text))
+            return text
+
+    return None
+
+
+def _fetch_europepmc(doi: str) -> Optional[str]:
+    """Fetch full text from Europe PMC REST API.
+
+    Europe PMC provides free XML full text for open-access articles.
+    This is one of the most reliable sources for OA biomedical content.
+    """
+    if not doi:
+        return None
+
+    api_url = (
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+        f"?query=DOI:{doi}&resultType=core&format=json"
+    )
+    try:
+        resp = requests.get(api_url, headers=_HEADERS, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        results = data.get("resultList", {}).get("result", [])
+        if not results:
+            return None
+
+        pmcid = results[0].get("pmcid")
+        if not pmcid:
+            logger.debug("No PMC ID found for DOI %s", doi)
+            return None
+
+        xml_url = (
+            f"https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
+        )
+        xml_resp = requests.get(xml_url, timeout=60)
+        if xml_resp.status_code != 200:
+            return None
+
+        soup = BeautifulSoup(xml_resp.text, "lxml-xml")
+        body = soup.find("body")
+        if body:
+            for ref in body.select("ref-list, back"):
+                ref.decompose()
+            text = body.get_text(separator="\n", strip=True)
+            text = re.sub(r"\n{3,}", "\n\n", text)
+            if len(text) > 500:
+                logger.info("Got Europe PMC full text (%d chars)", len(text))
+                return text
+    except Exception as exc:
+        logger.debug("Europe PMC fetch failed for DOI %s: %s", doi, exc)
 
     return None
 

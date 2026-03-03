@@ -366,6 +366,35 @@ class OpenAlexFetcher:
         raw._openalex_id = openalex_id  # type: ignore[attr-defined]
         raw._oa_pdf_url = oa_pdf  # type: ignore[attr-defined]
 
+        # Collect ALL PDF URLs from all locations.  Prioritise repository
+        # copies (PMC, Europe PMC, etc.) which are more reliably downloadable
+        # than publisher PDFs that often block automated requests.
+        repo_pdfs: List[str] = []
+        publisher_pdfs: List[str] = []
+        for loc in work.get("locations", []):
+            loc_pdf = loc.get("pdf_url")
+            if not loc_pdf:
+                continue
+            source = loc.get("source") or {}
+            source_type = (source.get("type") or "").lower()
+            if source_type == "repository":
+                repo_pdfs.append(loc_pdf)
+            elif loc_pdf != oa_pdf:
+                publisher_pdfs.append(loc_pdf)
+        # repos first, then the primary OA PDF, then other publisher PDFs
+        all_pdfs = repo_pdfs
+        if oa_pdf:
+            all_pdfs.append(oa_pdf)
+        all_pdfs.extend(publisher_pdfs)
+        # deduplicate while preserving order
+        seen: set = set()
+        deduped: List[str] = []
+        for u in all_pdfs:
+            if u not in seen:
+                seen.add(u)
+                deduped.append(u)
+        raw._all_pdf_urls = deduped  # type: ignore[attr-defined]
+
         return raw
 
     def _api_get(

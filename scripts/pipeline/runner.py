@@ -34,7 +34,7 @@ from ..scraper.openalex_fetcher import (
 from ..scraper.base import CoverArticleRaw
 from ..ai.summarizer import BilingualSummarizer
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
-from ..utils.pdf_thumbnail import extract_thumbnail_from_pdf
+from ..utils.pdf_thumbnail import extract_thumbnail_from_urls
 
 logger = logging.getLogger(__name__)
 
@@ -178,15 +178,22 @@ class PipelineRunner:
         # Step 3 — Extract thumbnail from OA PDF (if available).
         # OpenAlex doesn't provide journal cover images, but many articles
         # have open-access PDFs.  We render the first page as a JPEG thumbnail
-        # using PyMuPDF.
+        # using PyMuPDF.  We try ALL available PDF URLs — repository copies
+        # (PMC, etc.) are tried first as they are more reliably downloadable
+        # than publisher PDFs which often block automated requests.
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
-        if oa_pdf_url and not self.dry_run:
+        all_pdf_urls: list = getattr(raw, "_all_pdf_urls", [])
+        if not self.dry_run and (oa_pdf_url or all_pdf_urls):
             img_slug = JOURNAL_IMAGE_SLUG.get(journal_name, journal_name.lower())
             img_dir = IMAGES_DIR / img_slug
             ensure_dir(img_dir)
             thumb_file = img_dir / f"{article_id}-cover.jpg"
-            image_path = extract_thumbnail_from_pdf(oa_pdf_url, thumb_file)
+            # Build ordered list: repository copies first, then publisher.
+            pdf_urls_to_try = list(all_pdf_urls)
+            if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
+                pdf_urls_to_try.append(oa_pdf_url)
+            image_path = extract_thumbnail_from_urls(pdf_urls_to_try, thumb_file)
             if image_path:
                 logger.info("Thumbnail extracted for %s", article_id)
             else:
@@ -224,6 +231,7 @@ class PipelineRunner:
                         article_url=raw.article_url,
                         doi=raw.article_doi,
                         oa_pdf_url=oa_pdf_url,
+                        all_pdf_urls=all_pdf_urls,
                     )
                     if fulltext:
                         logger.info(
@@ -252,9 +260,15 @@ class PipelineRunner:
                 return
 
         # Step 6 — Assemble and write JSON entry.
+        # Use the actual mode from the summariser — it may have fallen back
+        # from full-text to abstract-only if the model rejected the input.
+        if self.summarizer:
+            actual_mode = getattr(self.summarizer, "_last_mode", "abstract-only")
+        else:
+            actual_mode = "full-text" if fulltext else "abstract-only"
         entry = self._build_entry(
             raw, article_id, image_path, ai_output,
-            summary_mode="full-text" if fulltext else "abstract-only",
+            summary_mode=actual_mode,
         )
         self._write_json(entry_file, entry)
 

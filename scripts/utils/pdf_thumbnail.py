@@ -25,6 +25,25 @@ TARGET_WIDTH = 800
 JPEG_QUALITY = 85
 
 
+def extract_thumbnail_from_urls(
+    pdf_urls: list[str],
+    output_path: str | Path,
+    *,
+    timeout: int = 60,
+) -> Optional[Path]:
+    """Try multiple PDF URLs in order, returning the first successful thumbnail.
+
+    Repository copies (PubMed Central, Europe PMC, etc.) are typically more
+    accessible than publisher PDFs, so callers should order *pdf_urls* with
+    the most reliable sources first.
+    """
+    for url in pdf_urls:
+        result = extract_thumbnail_from_pdf(url, output_path, timeout=timeout)
+        if result is not None:
+            return result
+    return None
+
+
 def extract_thumbnail_from_pdf(
     pdf_url: str,
     output_path: str | Path,
