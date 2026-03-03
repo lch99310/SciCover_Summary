@@ -10,6 +10,7 @@ import { ArticleGrid } from './components/home/ArticleGrid';
 import { ArticleDetail } from './components/article/ArticleDetail';
 import { ArchivePage } from './components/archive/ArchivePage';
 import { LoadingSpinner } from './components/ui/LoadingSpinner';
+import { ErrorBoundary } from './components/ui/ErrorBoundary';
 import type { JournalName, ArticleDetail as ArticleDetailType } from './lib/types';
 import { getDataUrl } from './lib/constants';
 import './styles/global.css';
@@ -104,8 +105,10 @@ function AppContent() {
 
 export default function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <AppContent />
-    </QueryClientProvider>
+    <ErrorBoundary>
+      <QueryClientProvider client={queryClient}>
+        <AppContent />
+      </QueryClientProvider>
+    </ErrorBoundary>
   );
 }
