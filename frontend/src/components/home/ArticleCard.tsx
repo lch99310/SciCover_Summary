@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import type { ArticleIndexEntry } from '../../lib/types';
 import { JOURNAL_RAW_COLORS, getDataUrl, getDefaultCoverUrl } from '../../lib/constants';
 import type { JournalName } from '../../lib/types';
-import { format } from 'date-fns';
+import { safeFormatDate } from '../../lib/dateUtils';
 import { motion } from 'framer-motion';
 import './ArticleCard.css';
 
@@ -13,7 +13,7 @@ interface ArticleCardProps {
 
 export function ArticleCard({ article, index }: ArticleCardProps) {
   const journalColor = JOURNAL_RAW_COLORS[article.journal as JournalName] || '#666';
-  const formattedDate = format(new Date(article.date), 'MMM d, yyyy');
+  const formattedDate = safeFormatDate(article.date, 'MMM d, yyyy');
 
   const coverImageUrl = article.cover_url
     ? getDataUrl(article.cover_url)

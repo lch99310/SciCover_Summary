@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { ArticleDetail } from '../../lib/types';
 import { JOURNAL_RAW_COLORS, getDataUrl, getDefaultCoverUrl } from '../../lib/constants';
-import { format } from 'date-fns';
+import { safeFormatDate } from '../../lib/dateUtils';
 import './HeroSection.css';
 
 interface HeroSectionProps {
@@ -11,7 +11,7 @@ interface HeroSectionProps {
 export function HeroSection({ article }: HeroSectionProps) {
   const { coverStory, journal, date, coverImage } = article;
   const journalColor = JOURNAL_RAW_COLORS[journal];
-  const formattedDate = format(new Date(date), 'MMMM d, yyyy');
+  const formattedDate = safeFormatDate(date, 'MMMM d, yyyy');
 
   const coverUrl = coverImage.url
     ? getDataUrl(coverImage.url)

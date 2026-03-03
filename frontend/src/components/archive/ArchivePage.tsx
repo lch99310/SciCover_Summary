@@ -3,6 +3,7 @@ import { useArticleIndex } from '../../hooks/useArticles';
 import { ArticleGrid } from '../home/ArticleGrid';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
 import { Link } from 'react-router-dom';
+import { safeGetYear, safeGetMonth } from '../../lib/dateUtils';
 import './ArchivePage.css';
 
 const MONTHS = [
@@ -16,7 +17,11 @@ export function ArchivePage() {
   // Extract available years from data
   const availableYears = useMemo(() => {
     if (!index) return [];
-    const years = new Set(index.articles.map((a) => new Date(a.date).getFullYear()));
+    const years = new Set<number>();
+    index.articles.forEach((a) => {
+      const y = safeGetYear(a.date);
+      if (!isNaN(y)) years.add(y);
+    });
     return Array.from(years).sort((a, b) => b - a);
   }, [index]);
 
@@ -33,9 +38,11 @@ export function ArchivePage() {
   const filteredArticles = useMemo(() => {
     if (!index) return [];
     return index.articles.filter((a) => {
-      const d = new Date(a.date);
-      if (selectedYear !== null && d.getFullYear() !== selectedYear) return false;
-      if (selectedMonth !== null && d.getMonth() !== selectedMonth) return false;
+      const y = safeGetYear(a.date);
+      const m = safeGetMonth(a.date);
+      if (isNaN(y)) return false; // skip entries with invalid dates
+      if (selectedYear !== null && y !== selectedYear) return false;
+      if (selectedMonth !== null && m !== selectedMonth) return false;
       return true;
     });
   }, [index, selectedYear, selectedMonth]);
@@ -45,9 +52,11 @@ export function ArchivePage() {
     if (!index) return new Set<number>();
     const months = new Set<number>();
     index.articles.forEach((a) => {
-      const d = new Date(a.date);
-      if (selectedYear === null || d.getFullYear() === selectedYear) {
-        months.add(d.getMonth());
+      const y = safeGetYear(a.date);
+      const m = safeGetMonth(a.date);
+      if (isNaN(y) || isNaN(m)) return;
+      if (selectedYear === null || y === selectedYear) {
+        months.add(m);
       }
     });
     return months;

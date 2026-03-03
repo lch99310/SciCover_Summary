@@ -5,7 +5,7 @@ import { BilingualSummary } from './BilingualSummary';
 import { FigureGallery } from './FigureGallery';
 import { ArticleLinksSection } from './ArticleLinks';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
-import { format } from 'date-fns';
+import { safeFormatDate } from '../../lib/dateUtils';
 import { motion } from 'framer-motion';
 import './ArticleDetail.css';
 
@@ -36,7 +36,7 @@ export function ArticleDetail() {
 
   const { coverStory, journal, volume, issue, date, coverImage } = article;
   const journalColor = JOURNAL_RAW_COLORS[journal];
-  const formattedDate = format(new Date(date), 'MMMM d, yyyy');
+  const formattedDate = safeFormatDate(date, 'MMMM d, yyyy');
 
   return (
     <motion.article
