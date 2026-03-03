@@ -34,6 +34,7 @@ from ..scraper.openalex_fetcher import (
 from ..scraper.base import CoverArticleRaw
 from ..ai.summarizer import BilingualSummarizer
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
+from ..utils.pdf_thumbnail import extract_thumbnail_from_pdf
 
 logger = logging.getLogger(__name__)
 
@@ -173,13 +174,22 @@ class PipelineRunner:
             report["skipped"].append(article_id)
             return
 
-        # Step 3 — Download cover image (if available).
-        # OpenAlex doesn't provide journal cover images, so we check for
-        # an OA PDF URL that could serve as a source. For now, we skip
-        # cover image download — the frontend uses default covers.
+        # Step 3 — Extract thumbnail from OA PDF (if available).
+        # OpenAlex doesn't provide journal cover images, but many articles
+        # have open-access PDFs.  We render the first page as a JPEG thumbnail
+        # using PyMuPDF.
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
-        # Future: could extract first page of PDF as thumbnail.
+        if oa_pdf_url and not self.dry_run:
+            img_slug = JOURNAL_IMAGE_SLUG.get(journal_name, journal_name.lower())
+            img_dir = IMAGES_DIR / img_slug
+            ensure_dir(img_dir)
+            thumb_file = img_dir / f"{article_id}-cover.jpg"
+            image_path = extract_thumbnail_from_pdf(oa_pdf_url, thumb_file)
+            if image_path:
+                logger.info("Thumbnail extracted for %s", article_id)
+            else:
+                logger.info("No thumbnail for %s (PDF unavailable or failed)", article_id)
 
         # Step 4 — Attempt full-text retrieval via OpenAlex content API.
         fulltext: Optional[str] = None
@@ -341,6 +351,14 @@ class PipelineRunner:
                 title_en = title.get("en", "")
                 cover_url = data.get("coverImage", {}).get("url", "")
 
+                # Validate: skip entries with missing critical fields.
+                if not date_str or not date_str.strip():
+                    logger.warning("Skipping %s: empty date", f)
+                    continue
+                if not title_zh and not title_en:
+                    logger.warning("Skipping %s: no title", f)
+                    continue
+
                 articles.append({
                     "id": article_id,
                     "journal": data.get("journal", ""),
@@ -353,31 +371,10 @@ class PipelineRunner:
             except (json.JSONDecodeError, KeyError) as exc:
                 logger.warning("Skipping malformed entry %s: %s", f, exc)
 
-        # Also scan flat data/*.json files (legacy format).
-        for f in sorted(DATA_DIR.glob("*.json")):
-            if f.name in ("index.json", "latest.json"):
-                continue
-            try:
-                data = json.loads(f.read_text(encoding="utf-8"))
-                article_id = data.get("id", f.stem)
-                if any(a["id"] == article_id for a in articles):
-                    continue
-                date_str = data.get("date", "")
-                title = data.get("coverStory", {}).get("title", {})
-                title_zh = title.get("zh", "")
-                title_en = title.get("en", "")
-                cover_url = data.get("coverImage", {}).get("url", "")
-                articles.append({
-                    "id": article_id,
-                    "journal": data.get("journal", ""),
-                    "date": date_str,
-                    "path": f.name,
-                    "title_zh": title_zh,
-                    "title_en": title_en,
-                    "cover_url": cover_url,
-                })
-            except (json.JSONDecodeError, KeyError) as exc:
-                logger.warning("Skipping malformed entry %s: %s", f, exc)
+        # NOTE: We intentionally do NOT scan flat data/*.json files.
+        # Legacy root-level JSON files use an old schema (cover_image,
+        # article, ai_summary) that is incompatible with the frontend
+        # and can cause crashes (e.g. empty date fields).
 
         articles.sort(key=lambda e: e.get("date", ""), reverse=True)
 
