@@ -1,22 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T12:01:56.015296+00:00",
+  "lastUpdated": "2026-03-03T12:30:09.150809+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
       "journal": "Political Geography",
       "date": "2026-02-28",
       "path": "articles/2026/02/political-geography-2026-02-28.json",
-      "title_zh": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
-      "title_en": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
-      "cover_url": ""
-    },
-    {
-      "id": "nature-2026-02-27",
-      "journal": "Nature",
-      "date": "2026-02-27",
-      "path": "articles/2026/02/nature-2026-02-27.json",
-      "title_zh": "White House stalls release of approved US science budgets",
-      "title_en": "White House stalls release of approved US science budgets",
+      "title_zh": "看不見的界線如何左右選票？德國研究揭開行政邊界對投票行為的隱形影響",
+      "title_en": "The Invisible Lines That Divide Voters: How Administrative Borders Shape Electoral Behavior in Germany",
       "cover_url": ""
     },
     {
@@ -38,12 +29,12 @@
       "cover_url": "data/images/science/science-2026-02-26-cover.jpg"
     },
     {
-      "id": "american-sociological-review-2026-02-22",
-      "journal": "American Sociological Review",
-      "date": "2026-02-22",
-      "path": "articles/2026/02/american-sociological-review-2026-02-22.json",
-      "title_zh": "Pedagogy of Fear: Folklore and the Far-Right in Weimar Germany",
-      "title_en": "Pedagogy of Fear: Folklore and the Far-Right in Weimar Germany",
+      "id": "nature-2026-02-25",
+      "journal": "Nature",
+      "date": "2026-02-25",
+      "path": "articles/2026/02/nature-2026-02-25.json",
+      "title_zh": "學術詐欺現形記：五招教你識破造假論文",
+      "title_en": "The Telltale Signs: Five Red Flags of Scientific Fraud",
       "cover_url": ""
     },
     {
@@ -54,15 +45,6 @@
       "title_zh": "腸道裡的「哨兵」：工程化共生菌成為體內即時健康感測器",
       "title_en": "Sentinels in the Gut: Engineered Commensal Bacteria Become Real-Time Health Sensors",
       "cover_url": "data/images/cell/cell-2026-02-19-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-02-13",
-      "journal": "International Organization",
-      "date": "2026-02-13",
-      "path": "articles/2026/02/international-organization-2026-02-13.json",
-      "title_zh": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
-      "title_en": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
-      "cover_url": ""
     },
     {
       "id": "asr-2026-02-01",
@@ -78,8 +60,8 @@
       "journal": "Cell",
       "date": "2026-02-01",
       "path": "articles/2026/02/cell-2026-02-01.json",
-      "title_zh": "Nuclear speckles enable processing of RNA from GC-rich isochores",
-      "title_en": "Nuclear speckles enable processing of RNA from GC-rich isochores",
+      "title_zh": "腸道幹細胞革命：顛覆傳統的再生密碼",
+      "title_en": "Gut Check: How Intestinal Stem Cells Are Rewriting the Rules of Regeneration",
       "cover_url": ""
     },
     {
@@ -110,12 +92,30 @@
       "cover_url": "data/images/nature/nature-2026-01-29-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-01-17",
+      "journal": "American Sociological Review",
+      "date": "2026-01-17",
+      "path": "articles/2026/01/american-sociological-review-2026-01-17.json",
+      "title_zh": "氣候變遷的時間陷阱：美國媒體如何塑造我們的「行動倒數計時」？",
+      "title_en": "The Temporal Paradox of Climate Change: How U.S. Media Shapes Our Countdown to Action",
+      "cover_url": ""
+    },
+    {
       "id": "intorg-2026-01-01",
       "journal": "International Organization",
       "date": "2026-01-01",
       "path": "articles/2026/01/intorg-2026-01-01.json",
       "title_zh": "當制裁成為武器：金融戰爭如何重塑全球貨幣體系的信任基礎",
       "title_en": "When Sanctions Become Weapons: How Financial Warfare Is Reshaping Trust in the Global Monetary System",
+      "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20.json",
+      "title_zh": "美元霸權的黃昏：川普時代如何動搖全球金融秩序",
+      "title_en": "The Twilight of Dollar Dominance: How the Trump Era Shook the Foundations of Global Finance",
       "cover_url": ""
     },
     {

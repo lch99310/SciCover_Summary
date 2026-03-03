@@ -1,0 +1,39 @@
+{
+  "id": "nature-2026-02-25",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "學術詐欺現形記：五招教你識破造假論文",
+      "en": "The Telltale Signs: Five Red Flags of Scientific Fraud"
+    },
+    "summary": {
+      "zh": "在學術界，造假論文就像隱形的病毒，不僅浪費研究經費，更可能誤導後續研究。Stephanie Melchor在《自然》期刊中揭露了五種識破學術詐欺的關鍵跡象。\n\n首先，異常完美的數據往往是危險信號。自然界充滿變異性，若數據呈現『過度整齊』的規律，例如所有實驗組與對照組的差異都剛好達到統計顯著，很可能經過人為操弄。其次，作者團隊的『幽靈共筆』現象——某些掛名作者對研究內容一無所知，或無法解釋關鍵實驗步驟時，就可能存在學術不端。\n\n第三，方法論描述模糊不清，像是『依照標準程序』這類籠統說法，讓他人無法重現實驗。第四，圖片造假在生物醫學領域尤其常見，例如Western blot條帶有複製貼上痕跡。最後，違反常識的突破性結論，若缺乏合理的機轉解釋，很可能只是『童話故事』。Melchor強調，這些警訊需要學術社群共同監督，才能維護研究的可信度。",
+      "en": "Scientific fraud undermines the very foundation of academic integrity, yet it often slips through peer review undetected. Stephanie Melchor's groundbreaking analysis in *Nature* identifies five cardinal signs that should prompt scrutiny of potentially fraudulent research.\n\nThe first red flag is suspiciously perfect data. In reality, experimental results invariably contain noise and variability; datasets showing implausible consistency—such as all control groups exhibiting identical variance—often indicate manipulation. Secondly, the presence of 'ghost authors' who cannot substantively discuss the study's methodology suggests questionable authorship practices.\n\nMethodological opacity constitutes the third warning sign. Vague descriptions like 'following standard protocols' without specifying critical parameters make replication impossible—a hallmark of dubious research. Image manipulation, particularly in molecular biology papers with duplicated gel electrophoresis results, emerges as the fourth telltale pattern. Finally, extraordinary claims divorced from mechanistic plausibility—'universe-altering' findings without coherent explanatory frameworks—frequently collapse under scrutiny.\n\nMelchor's framework empowers reviewers and readers to become active detectors of scientific misconduct, advocating for collective vigilance as the best defense against epistemic pollution in academia."
+    },
+    "keyArticle": {
+      "title": "Five ways to spot when a paper is a fraud",
+      "authors": [
+        "Stephanie Melchor"
+      ],
+      "doi": "10.1038/d41586-026-00569-x",
+      "pages": "1066-1067"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1038/d41586-026-00569-x",
+      "doi": "https://doi.org/10.1038/d41586-026-00569-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-03T12:26:07.794617+00:00",
+    "source": "openalex"
+  }
+}
