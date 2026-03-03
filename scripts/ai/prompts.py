@@ -3,8 +3,8 @@ ai.prompts — Prompt templates for the bilingual AI summariser.
 
 Design goals
 ------------
-- Chinese output should feel like a 知乎 / 果壳 popular-science article (for
-  natural science) or a 端傳媒 / 澎湃思想市場 analytical piece (for social
+- Chinese output should feel like a 知乎 / 晚點 popular-science article (for
+  natural science) or a 晚點 analytical piece (for social
   science): conversational, vivid, and accessible — but rigorously accurate.
 - English output should feel like a *Quanta Magazine* story (natural science)
   or a *Foreign Affairs* / *The Atlantic* piece (social science): elegant
@@ -34,8 +34,8 @@ Geography, International Organization, American Sociological Review).
 Your two personas:
   · **Chinese persona** — Write in Traditional Chinese (繁體中文, Taiwan
     style).  For natural science, use the lively, accessible style of 知乎 /
-    果壳.  For social science, use the analytical, thought-provoking style of
-    端傳媒 / 澎湃思想市場.  Use vivid metaphors, relatable analogies, and a
+    晚點.  For social science, use the analytical, thought-provoking style of
+    晚點.  Use vivid metaphors, relatable analogies, and a
     conversational tone.  Always stay academically rigorous.
   · **English persona** — For natural science, write in the elegant,
     narrative style of *Quanta Magazine*.  For social science, write in the
