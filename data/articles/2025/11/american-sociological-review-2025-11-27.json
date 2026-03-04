@@ -1,0 +1,42 @@
+{
+  "id": "american-sociological-review-2025-11-27",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "6",
+  "date": "2025-11-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰有生育權？巴西研究揭開種族與階級的隱形審判",
+      "en": "Who Deserves to Have a Baby? How Race and Class Shape the Social Rules of Reproduction"
+    },
+    "summary": {
+      "zh": "在巴西的社會評分卡上，黑人女性即使擁有高學歷，仍難逃低階層的污名。新研究揭開生育權背後的隱形審判：種族與階級如何形塑『適合生育』的社會規則。美國社會學期刊《American Sociological Review》最新論文指出，當下關於生育的社會規範並非中立，而是深刻反映並強化了社會階級與種族的不平等。研究團隊提出『社會認可生殖理論』(TSSR)，揭示生育評價如何透過個人與交集性特質，被評價者與評價者雙方的社會屬性共同塑造。\n\n研究在巴西伯南布哥州進行兩階段調查，邀請18-34歲女性評估隨機組合的虛擬已婚女性資料。這些資料包含種族、教育程度、收入等多種屬性，受訪者需判斷對方是否適合生育。結果顯示，黑人女性若處於低社會經濟地位，獲得的生育認可明顯較少；但白人女性即使收入偏低，仍獲得與高收入者相近的評價。這表明種族與階級的交集效應，正以隱性方式決定誰有資格成為母親。\n\n研究更發現，評價者的社會背景會顯著影響判斷結果。當評價者本身是低階層黑人，對同族群的生育評價反而更低，反映『群體內排斥』現象；而高階層白人則傾向維持『種族優越』的評價框架。這印證TSSR理論的核心觀點：生育權的爭奪，實質是『他者化』與『群體歸屬』的動態過程。這項研究不僅解開巴西社會的生育迷思，更為全球探討生殖權利、收養政策等議題提供重要啟示。",
+      "en": "In Brazil's deeply unequal society, the question 'Who deserves to have a baby?' is answered not by biology, but by invisible social hierarchies. A groundbreaking study published in the *American Sociological Review* reveals how race and class intersect to shape who is deemed 'fit for motherhood'—a finding that upends assumptions about reproductive rights as neutral or universal. The researchers propose the Theory of Socially Sanctioned Reproduction (TSSR), which argues that reproductive norms are not merely personal opinions but structured social judgments influenced by multiple intersecting identities.\n\nUsing paired conjoint surveys with women aged 18–34 in Pernambuco, Brazil—a region marked by stark racial and economic inequality—the team tested how respondents evaluated hypothetical married women with varying attributes. The results were stark: Black women in low socioeconomic positions received significantly less approval for childbearing than their high-SES counterparts, while White women’s approval remained consistent regardless of income level. Crucially, the study found that the evaluators' own social identities—particularly race and class—drastically influenced judgments, revealing how 'othering' and group loyalty shape reproductive norms.\n\nThis research underscores a critical truth: reproductive rights are not just about legal access, but about societal approval. In Brazil's context, the 'social scorecard' for motherhood is heavily weighted toward whiteness and privilege. The authors caution that these patterns extend far beyond childbirth, informing debates on adoption, family planning, and even immigration policy. By exposing the hidden mechanics of reproductive discrimination, this work challenges us to rethink who truly has the right to reproduce in an unequal world."
+    },
+    "keyArticle": {
+      "title": "Who Can Have a Baby? Social Norms and the Right to Reproduce",
+      "authors": [
+        "Letícia J. Marteleto",
+        "Sneha Kumar",
+        "Luiz Gustavo Fernandes Sereno",
+        "Alexandre Gori Maia"
+      ],
+      "doi": "10.1177/00031224251387273",
+      "pages": "1060-1091"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251387273",
+      "doi": "https://doi.org/10.1177/00031224251387273"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T13:07:00.139578+00:00",
+    "source": "openalex"
+  }
+}

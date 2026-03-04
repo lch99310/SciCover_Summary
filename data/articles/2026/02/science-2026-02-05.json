@@ -1,0 +1,65 @@
+{
+  "id": "science-2026-02-05",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6785",
+  "date": "2026-02-05",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "100公里量子密鑰分發突破！單原子站點實現「無設備認證」安全通訊",
+      "en": "Quantum Keys Across 100 Kilometers: How Single Atoms Became the Secret to Unbreakable Encryption"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究成功實現「無設備認證」量子密鑰分發（DI-QKD）跨越100公里，首次將量子網絡從實驗室推向城市級應用。傳統量子加密需信任設備，而DI-QKD透過量子力學原理（貝爾不等式 violation）自證安全，即使設備被竊聽也能防護。研究團隊解決三大難題：用「里德堡原子發光」抑制光子反衝破壞量子糾纏；透過量子頻率轉換將780nm光轉為1315nm低損耗通訊波長；以「單光子干擾」取代傳統雙光子干預，效率提升兩倍。這不僅讓量子加密首次適用於城市光纖網路，更為未來量子互聯網奠定基礎。\n\n【研究問題】過去DI-QKD僅能實現3.5米（離子）或數百米（原子）距離，因光纖衰減、原子反衝效應及雜訊破壞量子糾纏品質。實驗室成果與現實應用間存在巨大鴻溝：城市網路需10-100公里傳輸，但傳統方案在長距離下關鍵率歸零，無法滿足實際通訊需求。如何維持高品質量子關聯？如何抵禦光纖衰減？如何避免設備被竊聽？這些問題困擾量子加密領域二十年。\n\n【研究方法】團隊設計三重突破：首先，開發「里德堡原子發光」技術，將原子激發至高能態後精準控制光子發射，使原子反衝效應降至最低，如同為原子配備「量子減震器」；其次，用量子頻率轉換將780nm光轉為1315nm，將光纖衰減從3dB/km降至0.32dB/km，如同為光子裝上「高速公路專用引擎」；最後，採用單光子干擾技術，單次偵測即可完成量子糾纏，使生成速率比傳統方案高一倍。所有操作均在單原子級完成，如同為量子網路量身打造「精準外科手術」。\n\n【結果】實驗連續624小時運作，11公里距離下產生120萬次量子糾纏事件，安全密鑰產出率達0.112比特/事件（0.06比特/秒）。即使在100公里處，量子糾纏保真度仍維持在0.9以上，遠超DI-QKD最低要求。CHSH參數測得2.612，證實量子非定域性持續存在。這標誌著首個具備實際應用價值的都市級DI-QKD系統，未來10公里網路可達10千赫茲速率，為城市量子通信網鋪路。",
+      "en": "**Summary:** This study achieves a milestone in quantum communication: device-independent quantum key distribution (DI-QKD) over 100 kilometers using single atoms as quantum nodes. Unlike conventional quantum cryptography, DI-QKD’s security is rooted in quantum mechanics itself, requiring no trust in the hardware. By overcoming three fundamental challenges—fiber loss, atomic recoil effects, and signal noise—the team has transformed DI-QKD from a laboratory curiosity into a practical technology for securing communications across metropolitan areas. This breakthrough bridges the gap between proof-of-concept experiments and real-world applications, offering a pathway to unbreakable encryption against future quantum computing threats.\n\n**Problem:** For decades, DI-QKD remained confined to short-distance laboratory demonstrations. Previous efforts could only achieve positive key rates over 3.5 meters with trapped ions or a few hundred meters with atoms, as fiber loss and measurement noise degraded entanglement quality. The critical gap was the inability to maintain high-fidelity quantum correlations over distances relevant to city-wide networks. Without solving these issues, DI-QKD remained a theoretical concept rather than a practical tool for securing communications against quantum attacks.\n\n**Approach:** The researchers implemented three innovative solutions. First, they developed a Rydberg-based single-photon emission scheme to suppress atomic recoil effects that normally compromise entanglement quality. Second, they used quantum frequency conversion to shift 780nm photons to 1315nm telecom wavelengths, reducing fiber loss from 3dB/km to 0.32dB/km. Third, they employed single-photon interference (SPI) instead of two-photon interference, which doubles the entanglement rate. To maintain atomic coherence during the 100km journey, they applied dynamical decoupling techniques as quantum \"stabilizers\".\n\n**Results:** Over 624 hours of operation, the system generated 1.2 million heralded Bell pairs at 11km, yielding a secure key rate of 0.112 bits per event—enough for a 135.3kbit key. Most notably, entanglement fidelity remained above 0.9 even at 100km, exceeding DI-QKD requirements. The CHSH violation of 2.612 demonstrated robust nonlocal correlations. This marks the first practical demonstration of DI-QKD for metropolitan areas, with potential to scale to 10kHz rates at 10km. The work sets the stage for city-wide quantum networks that could withstand even the most advanced hacking attempts."
+    },
+    "keyArticle": {
+      "title": "Device-independent quantum key distribution over 100 km with single atoms",
+      "authors": [
+        "Bo-Wei Lu",
+        "Chao-Wei Yang",
+        "Run-Qi Wang",
+        "Boyang Gao",
+        "Yi-Zheng Zhen",
+        "Zhen‐Gang Wang",
+        "J. L. Shi",
+        "Zhong-Qi Ren",
+        "Thomas Hahn",
+        "Ernest Y.-Z. Tan",
+        "Xiu-Ping Xie",
+        "Ming-Yang Zheng",
+        "Y. Y. Ji",
+        "Jun Zhang",
+        "Feihu Xu",
+        "Q. J. Zhang",
+        "Xiao‐Hui Bao",
+        "Jianyu Pan"
+      ],
+      "doi": "10.1126/science.aec6243",
+      "pages": "592-597"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aec6243",
+      "doi": "https://doi.org/10.1126/science.aec6243",
+      "preprint": "http://arxiv.org/abs/2602.09596"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T13:04:35.091328+00:00",
+    "source": "openalex"
+  }
+}
