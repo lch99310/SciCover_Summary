@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-01-17",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-01-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "媽咪學歷飆升，為子女大學路開道？新研究揭開母職關鍵轉變",
+      "en": "Mothers' Rising Status: Why Today's College Graduation Rates Owe More to Mom Than Dad"
+    },
+    "summary": {
+      "zh": "過去媽咪常被視為家庭後盾，如今卻成孩子大學路的關鍵引擎。美國學者最新研究揭開驚人真相：雖然媽咪地位的『回報率』和爸媽一樣穩定，但近年媽咪學歷、職業地位與收入急劇攀升，讓她的貢獻實際上超越爸媽。就像汽車雙引擎中，媽咪這台『新引擎』突然加速，讓子女大學完成率飛速躍升。\n\n研究分析三組全國性調查數據，發現1960年代後出生的世代，媽咪的教育程度與收入提升，直接推升了家庭標準，也讓孩子大學畢業率大幅增加。過去研究忽略的關鍵在於：『媽咪地位的絕對值上升』比『相對回報率』更重要。就像把小火苗點成大風暴，媽咪的進步雖未改變教育投資的『效率』，卻大幅放大了『規模』，成為近年大學畢業率飆升的隱形推手。",
+      "en": "For decades, mothers were often seen as the family’s silent support system—until now. A groundbreaking study from the American Sociological Review reveals that while the *marginal impact* of maternal status on college completion has remained stable relative to fathers’, the *magnitude* of women’s recent socioeconomic gains has shifted the balance dramatically. For children born after the 1960s, mothers’ rising education, occupational status, and earnings have become the primary engine driving higher college graduation rates—not fathers.\n\nUsing data from three large-scale U.S. surveys, researchers Christine R. Schwartz and Michael D. King show that the surge in women’s college enrollment since the 1960s (15 percentage points) is largely explained by mothers’ improved status, not fathers’. While past research assumed equal parental influence, the study’s decomposition analysis uncovers a critical nuance: the *absolute increase* in maternal status—driven by rising educational attainment and earnings—has outpaced fathers’ contributions. This hidden dynamic, overlooked for decades, underscores how gendered shifts in labor markets and family structures have reshaped intergenerational mobility, making mothers the unsung architects of today’s college-graduation boom."
+    },
+    "keyArticle": {
+      "title": "The Changing Role of Mothers’ Status in Children’s College Completion",
+      "authors": [
+        "Christine R. Schwartz",
+        "Michael D. King"
+      ],
+      "doi": "10.1177/00031224251401938",
+      "pages": "123-157"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251401938",
+      "doi": "https://doi.org/10.1177/00031224251401938"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T10:55:21.001670+00:00",
+    "source": "openalex"
+  }
+}

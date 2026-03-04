@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-04T10:17:47.375570+00:00",
+  "lastUpdated": "2026-03-04T10:55:21.003655+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
       "journal": "Political Geography",
       "date": "2026-02-28",
       "path": "articles/2026/02/political-geography-2026-02-28.json",
-      "title_zh": "哪條邊界最關鍵？德國選舉中的隱形疆界效應",
-      "title_en": "Which Border Matters Most? The Hidden Border Effect in German Elections",
+      "title_zh": "選票的裂痕：德國東西邊界如何決定政治選擇？",
+      "title_en": "The Invisible Divide: How Germany’s Historical Borders Still Split Votes Today",
       "cover_url": ""
     },
     {
@@ -15,8 +15,8 @@
       "journal": "Nature",
       "date": "2026-02-25",
       "path": "articles/2026/02/nature-2026-02-25.json",
-      "title_zh": "超導體的量子調節器：六方氮化硼「光學腔」精準抑制超流體密度",
-      "title_en": "Quantum Tuning Fork for Superconductors: How a Boron Nitride Cavity Suppresses Superfluid Density",
+      "title_zh": "超導體的電磁微腔：hBN讓超流密度暴跌50%的突破實驗",
+      "title_en": "Quantum Tuner: How a Nano-Cavity Slashes Superfluid Density by Half",
       "cover_url": "data/images/nature/nature-2026-02-25-cover.jpg"
     },
     {
@@ -24,8 +24,8 @@
       "journal": "Science",
       "date": "2026-02-12",
       "path": "articles/2026/02/science-2026-02-12.json",
-      "title_zh": "大象鬍子的隱形設計：從堅硬根部到柔軟尖端，如何讓觸覺更精準？",
-      "title_en": "The Elephant Whisker’s Secret: How a Stiff-to-Soft Gradient Boosts Touch Sensitivity",
+      "title_zh": "大象鬍子的隱形地圖：從根到尖的梯度設計，讓觸覺感知精準定位",
+      "title_en": "Elephant Whiskers’ Invisible Map: How Gradient Design Enables Precise Tactile Localization",
       "cover_url": "data/images/science/science-2026-02-12-cover.jpg"
     },
     {
@@ -33,8 +33,8 @@
       "journal": "Cell",
       "date": "2026-01-29",
       "path": "articles/2026/01/cell-2026-01-29.json",
-      "title_zh": "大腦的「強迫循環」：OFC神經活動揭開強迫症瞬間動態之謎",
-      "title_en": "The Brain’s Obsessive Loop: How Gamma Waves in the Orbitofrontal Cortex Drive OCD Symptoms",
+      "title_zh": "大腦「過度警戒」的密碼：眶額葉伽馬波動與強迫症的瞬間對話",
+      "title_en": "The Brain's Hidden Rhythm: How Gamma Waves in the Orbitofrontal Cortex Drive Obsessive-Compulsive Behaviors",
       "cover_url": ""
     },
     {
@@ -42,8 +42,8 @@
       "journal": "American Sociological Review",
       "date": "2026-01-17",
       "path": "articles/2026/01/american-sociological-review-2026-01-17.json",
-      "title_zh": "母親地位躍升，大學畢業率攀升的隱形推手",
-      "title_en": "Mothers’ Rising Status: The Overlooked Driver of College Graduation Rates",
+      "title_zh": "媽咪學歷飆升，為子女大學路開道？新研究揭開母職關鍵轉變",
+      "title_en": "Mothers' Rising Status: Why Today's College Graduation Rates Owe More to Mom Than Dad",
       "cover_url": ""
     },
     {
@@ -51,8 +51,8 @@
       "journal": "International Organization",
       "date": "2025-11-20",
       "path": "articles/2025/11/international-organization-2025-11-20.json",
-      "title_zh": "邊界之外： refugee 保護的後自由主義轉型",
-      "title_en": "The Invisible Walls: How the Refugee System Is Being Reconfigured in a Postliberal World",
+      "title_zh": "邊境外移、法律模糊、制度委託：難民庇護如何被轉化為「 containment」？",
+      "title_en": "The Architecture of Containment: How Refugee Protection Became a Game of Borders and Bureaucracy",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-cover.jpg"
     }
   ]

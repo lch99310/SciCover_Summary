@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-28",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "選票的裂痕：德國東西邊界如何決定政治選擇？",
+      "en": "The Invisible Divide: How Germany’s Historical Borders Still Split Votes Today"
+    },
+    "summary": {
+      "zh": "當德國選民在投票箱前徘徊，他們的選擇背後隱藏著一道道無形的牆——這些牆並非物理上的柏林牆，而是行政邊界所構成的「政治地理基因」。傳統選舉研究習慣聚焦單一選區或邦的結果，但這篇《政治地理》期刊的新研究卻逆向思考：為什麼鄰近選區的選票差異，比單一單位的結果更能揭示政治奧祕？研究團隊創建了一種「邊界分析法」，透過計算相鄰行政區的選票標準差（類似選舉公正指數），發現前東德與西德的分界線，仍是選票差異最為劇烈的「隱形裂痕」。\n\n更令人驚訝的是，不同行政層級的邊界影響力截然不同。州界（邦）對政黨得票差異影響顯著，卻與選區邊界無關——這意味著選民對政黨的認同，正沿著州界形成意識形態的「防波堤」。而選區邊界則僅影響候選人得票，如同選民在「地方代表」選舉中仍受歷史邊界牽制。這項研究揭開了政治地理的深層邏輯：邊界不只劃分行政區，更在選民心中築起思想的高牆。",
+      "en": "While Germany’s reunification is celebrated as a triumph of democracy, a hidden political geography continues to shape elections decades later. Traditional studies of voting behavior focus on electoral outcomes within single constituencies or states, but this groundbreaking research flips the script: Why do vote differences *between* neighboring administrative units matter more than the units themselves? By analyzing electoral disparities using a modified version of the Gallagher index, the study reveals that the former inner-German border remains the most pronounced divide—not as a physical wall, but as a psychological barrier etched into voters’ choices.\n\nThe findings challenge conventional wisdom about political boundaries. State borders (Länder) significantly affect party vote differences, while constituency boundaries matter only for candidate-level votes. This suggests that voters’ ideological leanings align more with state-level identities than with electoral districts. In other words, the legacy of East and West Germany lives on not in physical monuments, but in the subtle, everyday ways voters cast ballots across administrative lines—proving that political geography is less about territory than about the invisible walls we carry in our minds."
+    },
+    "keyArticle": {
+      "title": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "authors": [
+        "Jona-Frederik Baumert"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103521",
+      "pages": "103521"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T10:53:36.423931+00:00",
+    "source": "openalex"
+  }
+}

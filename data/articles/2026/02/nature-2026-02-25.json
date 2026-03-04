@@ -1,0 +1,79 @@
+{
+  "id": "nature-2026-02-25",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超導體的電磁微腔：hBN讓超流密度暴跌50%的突破實驗",
+      "en": "Quantum Tuner: How a Nano-Cavity Slashes Superfluid Density by Half"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了「微腔電磁環境」如何操控超導體的奧秘。研究團隊利用六方氮化硼（hBN）構建的微腔，成功將有機超導體κ-ET的超流密度壓縮至原本的50%以下，創造出「電磁調控」超導性的新里程碑。這不僅證明了光子腔體能直接影響物質的基態性質，更為設計新型量子材料提供了全新思維——未來可能透過精準調整電磁環境，實現超導體的「按需調節」。\n\n【研究問題】過去研究曾試圖用光子腔體控制超導性，但多數聚焦於聲子耦合或驅動腔體，缺乏對「共振耦合」機制的實驗證據。本研究直指關鍵盲點：當微腔與材料的振動模式共振時，是否會產生根本性相變？這問題的解答，將決定能否突破傳統超導材料的設計框架，開拓「電磁操控」新範式。\n\n【研究方法】團隊以「原子力顯微鏡」為核心工具，透過測量「邁斯納效應」的磁力變化，精確檢測超流密度。他們設計了hBN/κ-ET異質結構，利用hBN的「超極化特性」（hyperbolic phonon polaritons）與κ-ET的C=C伸縮振動模式共振。通過s-SNOM技術，更直接觀測到光子極化子與分子振動的耦合現象，並以理論模擬驗證零點漲落的作用。\n\n【結果】實驗顯示，在共振界面處超流密度降幅達50%以上，且效果與hBN厚度無關（25-110nm皆有效）。控制實驗中，不共振的RuCl₃層僅造成7%影響，證實共振機制的關鍵性。這項成果不僅驗證了「電磁環境能改變超導基態」的理論預測，更為未來開發「可調超導體」奠定基礎，甚至可能應用於量子計算與能源傳輸領域。",
+      "en": "**Summary:** This study unveils a groundbreaking method to manipulate superconductivity through electromagnetic cavities, achieving a 50% reduction in superfluid density for the organic superconductor κ-ET. By engineering a nanoscale cavity using hexagonal boron nitride (hBN), researchers demonstrated that resonant coupling between the cavity's hyperbolic phonon polaritons and molecular vibrations can fundamentally alter a material's quantum ground state. This work bridges theoretical predictions with experimental evidence, opening new pathways for designing quantum materials with tunable properties.\n\n**Problem:** Previous attempts to control superconductivity via photon cavities focused on phonon-mediated pairing or driven-cavity effects but lacked direct evidence of how resonant electromagnetic environments induce phase transitions. A critical gap existed in understanding whether cavity engineering could alter superconductivity without lattice reconstruction. Addressing this gap is vital for developing materials that can be precisely tuned for quantum technologies.\n\n**Approach:** The team combined magnetic force microscopy (MFM) to measure the Meissner effect's force gradient and scattering-type scanning near-field optical microscopy (s-SNOM) to observe polariton-molecular vibration coupling. They fabricated heterostructures with hBN layers on κ-ET crystals, leveraging hBN's hyperbolic phonon polaritons to resonate with κ-ET's C=C stretching mode. Theoretical models explained how zero-point fluctuations in the cavity induce coupling.\n\n**Results:** Over hBN/κ-ET interfaces, superfluid density dropped by ≥50%, regardless of hBN thickness (25–110 nm). Control experiments with non-resonant RuCl₃ showed only a 7% effect, confirming the resonance mechanism. This suppression of superfluid density—directly tied to superconductivity's thermodynamic properties—provides experimental proof that electromagnetic environments can reshape quantum ground states. Future applications may include tunable superconductors for quantum computing and energy-efficient devices."
+    },
+    "keyArticle": {
+      "title": "Cavity-altered superconductivity",
+      "authors": [
+        "Itai Keren",
+        "Tatiana A. Webb",
+        "Shuai Zhang",
+        "Jikai Xu",
+        "Dihao Sun",
+        "Brian S. Y. Kim",
+        "Dongbin Shin",
+        "Songtian S. Zhang",
+        "Junhe Zhang",
+        "Giancarlo Pereira",
+        "Juntao Yao",
+        "Takuya Okugawa",
+        "Marios H. Michael",
+        "Martin Claassen",
+        "James H. Edgar",
+        "Stuart Wolf",
+        "Matthew Julian",
+        "Rohit P. Prasankumar",
+        "Kazuya Miyagawa",
+        "Kazushi Kanoda",
+        "Genda Gu",
+        "Matthew Cothrine",
+        "David Mandrus",
+        "M. Buzzi",
+        "Andrea Cavalleri",
+        "Cory R. Dean",
+        "Dante M. Kennes",
+        "Andrew J. Millis",
+        "Qiang Li",
+        "Michael A. Sentef",
+        "Angel Rubio",
+        "Abhay N. Pasupathy",
+        "D. N. Basov"
+      ],
+      "doi": "10.1038/s41586-025-10062-6",
+      "pages": "864-868"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10062-6",
+      "doi": "https://doi.org/10.1038/s41586-025-10062-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T10:52:39.028544+00:00",
+    "source": "openalex"
+  }
+}

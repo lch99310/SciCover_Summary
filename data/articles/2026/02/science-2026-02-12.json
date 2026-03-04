@@ -1,0 +1,56 @@
+{
+  "id": "science-2026-02-12",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6786",
+  "date": "2026-02-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大象鬍子的隱形地圖：從根到尖的梯度設計，讓觸覺感知精準定位",
+      "en": "Elephant Whiskers’ Invisible Map: How Gradient Design Enables Precise Tactile Localization"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開大象鬍子的「漸層設計」奧秘：從根部到尖端，其幾何形狀、孔隙率與硬度呈梯度變化，讓大象能透過振動的振幅與頻率，精準判斷觸碰位置。這種結構使大象在無肌肉驅動的情況下，仍能精確感知環境，突破傳統認為鬍子是均質結構的觀念。這項發現不只解釋了大象觸覺的進化優勢，更為機器人觸覺感測器的設計提供了自然界的靈感，可能引發感測技術的革新。\n\n【研究問題】以往研究聚焦於鬍子的毛囊與感測環，假設鬍子為均質結構。但大象的鬍子缺乏肌肉控制，與老鼠或貓不同，導致科學家無法解釋其觸覺精準度的來源。本研究針對「非主動驅動的鬍子如何實現高精度觸覺」這一關鍵缺口，揭示大象鬍子獨特的梯度結構，解開長期存在的生物學謎題。\n\n【研究方法】研究團隊透過顯微CT掃描、掃描電子顯微鏡與微米級壓痕測試，精確測量大象鬍子從根部到尖端的孔隙率與硬度變化。再利用有限元素分析模擬觸碰時的訊號傳遞，並比較大象遠端（刀片狀）與近端（圓形）鬍子的機械特性，找出梯度結構對觸覺感知的影響。\n\n【結果】遠端鬍子根部孔隙率高達82%，隨長度增加至20%處降至15%，硬度則從0.57 GPa（幼象根部）降至0.1 GPa（尖端）。這種梯度使觸碰點位於60%長度時，訊號功率暴增2000%，大幅提升定位精準度。同時，梯度設計減輕振動衝擊，降低鬍子磨損，確保大象終生觸覺靈敏。",
+      "en": "**Summary:** This study uncovers how elephant whiskers use a functionally graded structure—varying in geometry, porosity, and stiffness from root to tip—to encode tactile information with exceptional precision. Unlike previous assumptions of uniform whisker properties, this design enables elephants to sense contact location through vibration amplitude and frequency, even without muscular actuation. The findings redefine our understanding of biological tactile systems and offer a blueprint for next-generation tactile sensors.\n\n**Problem:** Research on whiskers has historically treated them as uniform structures, focusing on the follicle and sensory ring while assuming consistent mechanical properties along their length. However, elephant whiskers lack muscular control (unlike rats or cats), creating a critical gap in understanding how non-actuated whiskers achieve high-fidelity touch. This study addresses why elephants rely on a unique structural gradient to compensate for their lack of active whisker movement.\n\n**Approach:** The authors combined micro-CT imaging, scanning electron microscopy, and pico-indentation to map variations in porosity and stiffness across elephant whiskers. Finite element analysis simulated how these gradients affect signal transmission during contact. They compared distal (blade-like) and proximal (circular) whiskers from Asian elephants, revealing distinct mechanical properties in each region.\n\n**Results:** Distal whiskers exhibit 82% porosity at the root (decreasing to 15% at 20% length) and a modulus gradient spanning 2 orders of magnitude (e.g., 0.57 GPa to 0.1 GPa in young elephants). This design amplifies signal power by 2000% when contact occurs at 60% of the whisker length, enabling precise localization of touch. The gradient also reduces stress concentrations, preventing breakage during repeated use—a key advantage for elephants' long lifespan."
+    },
+    "keyArticle": {
+      "title": "Functional gradients facilitate tactile sensing in elephant whiskers",
+      "authors": [
+        "Andrew Schulz",
+        "Lena V. Kaufmann",
+        "Lynne T. Smith",
+        "Deepti S. Philip",
+        "Hilda David",
+        "Jelena Lazović",
+        "Michael Brecht",
+        "Gunther Richter",
+        "Katherine J. Kuchenbecker"
+      ],
+      "doi": "10.1126/science.adx8981",
+      "pages": "712-718"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx8981",
+      "doi": "https://doi.org/10.1126/science.adx8981",
+      "preprint": "http://arxiv.org/abs/2504.07143"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T10:52:00.678696+00:00",
+    "source": "openalex"
+  }
+}
