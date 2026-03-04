@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Layout } from './components/layout/Layout';
 import { useTheme } from './hooks/useTheme';
@@ -14,6 +14,9 @@ import { ErrorBoundary } from './components/ui/ErrorBoundary';
 import type { JournalName, ArticleDetail as ArticleDetailType } from './lib/types';
 import { getDataUrl } from './lib/constants';
 import './styles/global.css';
+
+/** Number of days to consider "recent" for the homepage. */
+const RECENT_DAYS = 30;
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -49,13 +52,27 @@ function HomePage() {
       .catch(() => setHeroLoading(false));
   }, [index]);
 
+  // Split articles into recent (last RECENT_DAYS days) and older.
+  const { recentArticles, olderCount } = useMemo(() => {
+    if (!index) return { recentArticles: [], olderCount: 0 };
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - RECENT_DAYS);
+
+    const recent = index.articles.filter((a) => {
+      const d = new Date(a.date);
+      return !isNaN(d.getTime()) && d >= cutoff;
+    });
+    const older = index.articles.length - recent.length;
+
+    return { recentArticles: recent, olderCount: older };
+  }, [index]);
+
   const filteredArticles = useMemo(() => {
-    if (!index) return [];
     const articles = activeJournal === 'all'
-      ? index.articles
-      : index.articles.filter((a) => a.journal === activeJournal);
+      ? recentArticles
+      : recentArticles.filter((a) => a.journal === activeJournal);
     return articles;
-  }, [index, activeJournal]);
+  }, [recentArticles, activeJournal]);
 
   if (isLoading || heroLoading) return <LoadingSpinner />;
 
@@ -76,6 +93,27 @@ function HomePage() {
       )}
       <JournalTabs active={activeJournal} onChange={setActiveJournal} />
       <ArticleGrid articles={filteredArticles} />
+
+      {olderCount > 0 && (
+        <div className="container" style={{ textAlign: 'center', padding: '2rem 1.5rem 3rem' }}>
+          <Link
+            to="/archive"
+            style={{
+              display: 'inline-block',
+              padding: '0.75rem 2rem',
+              border: '1px solid var(--color-border)',
+              borderRadius: 'var(--radius-md)',
+              color: 'var(--color-text-primary)',
+              textDecoration: 'none',
+              fontFamily: 'var(--font-ui)',
+              fontSize: 'var(--step-0)',
+              transition: 'var(--transition-base)',
+            }}
+          >
+            查看更多歷史文章 / View {olderCount} more in Archive &rarr;
+          </Link>
+        </div>
+      )}
     </>
   );
 }
