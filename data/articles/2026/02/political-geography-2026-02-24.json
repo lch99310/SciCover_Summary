@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-24",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "雨林的雙面刃：馬達加斯加拉諾馬法納的國家邊界爭奪戰",
+      "en": "The Forest’s Double Edge: How Conservation and Mining Erase Madagascar’s Last Refuge"
+    },
+    "summary": {
+      "zh": "在馬達加斯加東部的雨林深處，一場持續數百年的國家邊界拉鋸戰正悄然上演。這片被稱為「避難所」的熱帶森林，既是逃亡者的藏身之所，也是國家權力試圖掌控的前沿地帶。從梅里納帝國時期的難民潮，到殖民時代的資源掠奪，再到1947年民族起義後的森林保護區設立，乃至2010年代至今的黃金開採與保育軍事化，拉諾馬法納國家公園始終是國家與邊緣力量角力的焦點。\n\n研究揭示了一個令人不安的真相：傳統觀點將黃金開採與保育視為對立雙方，實際上兩者卻都是「商品前線」，共同加速了「避難所」的消亡。當保育區封閉當地的土地管理結構，為黃金開採鋪平道路，暴力衝突便接踵而至。這不僅是資源競爭，更是國家治理邏輯的悖論——原本用來保護森林的保育政策，最終卻成了剝奪在地農民生計的工具。\n\n這項研究挑戰了邊界理論的傳統認知，指出「避難所」因缺乏領土權威而存在，「前線」則因過度控制而形成，兩者本質上是國家控制邊緣的兩個相反過程。在拉諾馬法納，保育與開採的共謀讓雨林從避難所轉變為國家邊界，也讓農民失去土地與希望。",
+      "en": "The rainforest of eastern Madagascar’s Ranomafana National Park is a paradox: a landscape where the state’s reach is both strongest and weakest. What was once a refuge for refugees fleeing the Merina Empire now faces a new frontier of artisanal gold mining and militarized conservation. This ethnographic study reveals how conservation and extractive industries—often seen as rivals—both function as \"commodity frontiers\" that erase zones of refuge. By sealing off local land governance structures, conservation efforts inadvertently create space for violent resource competition, displacing communities and intensifying state control.\n\nThe article traces this dynamic from the 1947 Malagasy Uprising through colonial forestry policies to today’s gold rush. Rather than a clash between preservation and exploitation, the study shows how these forces converge to advance territorialization. Conservation’s enclosure of land removes traditional forms of local stewardship, allowing gold miners to seize territory amid rising banditry. What emerges is not a choice between two evils, but a single trajectory where state-building and resource extraction mutually reinforce each other.\n\nThis challenges conventional frontier theory by framing refuge and frontier as opposing ends of a continuum. Zones of refuge exist where the state fails to govern; frontiers emerge where the state overextends. In Ranomafana, the line between them blurs as conservation becomes a tool for territorial control, ultimately eroding the very spaces it claims to protect. The result is a landscape where protection and exploitation are two sides of the same coin."
+    },
+    "keyArticle": {
+      "title": "Tropical forests as frontiers and zones of refuge: The case of Ranomafana in eastern Madagascar",
+      "authors": [
+        "Marketta Vuola"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103524",
+      "pages": "103524"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103524",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103524"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T20:21:38.283204+00:00",
+    "source": "openalex"
+  }
+}
