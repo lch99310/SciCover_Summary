@@ -3,9 +3,9 @@ name: Fetch & Summarise Cover Stories
 on:
   schedule:
     # Weekly: every Saturday 06:00 UTC (natural-science journals)
-    - cron: "0 6 * * 6"
+    - cron: "0 20 * * *"
     # Bimonthly: 1st and 15th of each month 06:00 UTC (social-science journals)
-    - cron: "0 6 1,15 * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
     inputs:
       journals:
