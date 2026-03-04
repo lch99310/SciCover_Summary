@@ -161,7 +161,7 @@ def extract_thumbnail_from_pdf(
         logger.warning("PDF download failed: %s", exc)
         return None
 
-    # Write to a temp file, then render with PyMuPDF.
+    # Write to a temp file, then extract figure with PyMuPDF.
     tmp_path: str | None = None
     try:
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
@@ -169,16 +169,25 @@ def extract_thumbnail_from_pdf(
             for chunk in resp.iter_content(chunk_size=8192):
                 tmp.write(chunk)
 
-        # Step 2 — Open the PDF and find the best page.
+        # Step 2 — Open the PDF and try to extract the best embedded figure.
         doc = fitz.open(tmp_path)
         if doc.page_count == 0:
             logger.warning("PDF has zero pages: %s", pdf_url)
             doc.close()
             return None
 
-        best_page = _find_page_with_image(doc)
+        # Try to extract the largest embedded figure image directly.
+        extracted = _extract_best_figure(doc, out)
+        if extracted:
+            doc.close()
+            size_kb = out.stat().st_size / 1024
+            logger.info(
+                "PDF figure extracted (%0.1f KB) to %s", size_kb, out,
+            )
+            return out
 
-        # Step 3 — Render and save as JPEG.
+        # Fallback: render the best page as a whole-page JPEG.
+        best_page = _find_page_with_image(doc)
         page = doc[best_page]
         rect = page.rect
         zoom = TARGET_WIDTH / rect.width
@@ -190,7 +199,7 @@ def extract_thumbnail_from_pdf(
 
         size_kb = out.stat().st_size / 1024
         logger.info(
-            "PDF thumbnail saved (%0.1f KB, %dx%d, page %d) to %s",
+            "PDF page rendered (%0.1f KB, %dx%d, page %d) to %s",
             size_kb, pix.width, pix.height, best_page + 1, out,
         )
         return out
@@ -234,6 +243,81 @@ def _find_page_with_image(doc) -> int:
 
     # No page with a large image found — default to first page.
     return 0
+
+
+def _extract_best_figure(doc, output_path: Path) -> bool:
+    """Extract the largest embedded figure image from the PDF.
+
+    Instead of rendering a whole page (which includes text, headers, etc.),
+    this extracts the actual image data of the biggest figure.  This gives
+    a clean figure image suitable for use as a cover thumbnail.
+
+    Scans the first ``_MAX_PAGES_TO_SCAN`` pages and picks the image with
+    the largest pixel area (width × height).  Skips tiny images (logos, etc.)
+    below ``_MIN_IMAGE_AREA``.
+
+    Returns ``True`` if a figure was successfully extracted and saved.
+    """
+    best_xref = None
+    best_area = 0
+    pages_to_check = min(doc.page_count, _MAX_PAGES_TO_SCAN)
+
+    for i in range(pages_to_check):
+        try:
+            page = doc[i]
+            images = page.get_images(full=True)
+            for img_info in images:
+                # img_info: (xref, smask, width, height, bpc, colorspace, ...)
+                xref = img_info[0]
+                w, h = img_info[2], img_info[3]
+                area = w * h
+                if area >= _MIN_IMAGE_AREA and area > best_area:
+                    best_area = area
+                    best_xref = xref
+        except Exception:
+            continue
+
+    if best_xref is None:
+        logger.debug("No extractable figure found in PDF")
+        return False
+
+    try:
+        img_data = doc.extract_image(best_xref)
+        if not img_data or not img_data.get("image"):
+            logger.debug("Failed to extract image data for xref %d", best_xref)
+            return False
+
+        raw_bytes = img_data["image"]
+        ext = img_data.get("ext", "png")
+
+        # Convert to JPEG via Pillow for consistent output format.
+        try:
+            from PIL import Image
+            img = Image.open(io.BytesIO(raw_bytes))
+            # Resize if too large, maintaining aspect ratio.
+            if img.width > TARGET_WIDTH:
+                ratio = TARGET_WIDTH / img.width
+                new_h = int(img.height * ratio)
+                img = img.resize((TARGET_WIDTH, new_h), Image.LANCZOS)
+            img = img.convert("RGB")
+            img.save(str(output_path), "JPEG", quality=JPEG_QUALITY)
+        except ImportError:
+            # No PIL — if already JPEG, save directly; otherwise skip.
+            if ext in ("jpeg", "jpg"):
+                output_path.write_bytes(raw_bytes)
+            else:
+                logger.debug("No PIL for image conversion, ext=%s", ext)
+                return False
+
+        logger.debug(
+            "Extracted figure: xref=%d, area=%d px, ext=%s",
+            best_xref, best_area, ext,
+        )
+        return True
+
+    except Exception as exc:
+        logger.debug("Figure extraction failed: %s", exc)
+        return False
 
 
 # ---------------------------------------------------------------------------
@@ -329,8 +413,11 @@ def _find_meta_image(soup: BeautifulSoup, base_url: str) -> Optional[str]:
 def _find_graphical_abstract(soup: BeautifulSoup, base_url: str) -> Optional[str]:
     """Find a graphical abstract / TOC image on the page."""
     selectors = [
-        "img.graphical-abstract",
+        # Cell Press: graphical abstracts live in section.graphic > div.figure-wrap
+        "section.graphic .figure-wrap img",
+        "section.graphic img",
         ".graphical-abstract img",
+        "img.graphical-abstract",
         "img.toc-image",
         ".toc-image img",
         ".cover-image img",
@@ -338,19 +425,24 @@ def _find_graphical_abstract(soup: BeautifulSoup, base_url: str) -> Optional[str
         "[class*='toc-art'] img",
         "[id*='graphical'] img",
         "figure.graphical-abstract img",
+        # Elsevier / ScienceDirect
+        ".abstract-graphical img",
+        ".ga_image img",
     ]
     for selector in selectors:
         el = soup.select_one(selector)
         if el:
             src = el.get("src") or el.get("data-src") or ""
             if src:
+                logger.debug("Found graphical abstract (%s): %s", selector, src)
                 return urljoin(base_url, src)
     return None
 
 
 def _find_figure_image(soup: BeautifulSoup, base_url: str) -> Optional[str]:
-    """Find the first large image inside a <figure> tag."""
-    for figure in soup.select("figure"):
+    """Find the first large image inside a <figure> or figure-wrap tag."""
+    # Include Cell Press .figure-wrap containers alongside standard <figure>.
+    for figure in soup.select("figure, .figure-wrap"):
         img = figure.select_one("img")
         if not img:
             continue
