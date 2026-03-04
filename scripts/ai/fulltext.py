@@ -3,7 +3,9 @@ ai.fulltext — Full-text retrieval for preprint and open-access articles.
 
 Attempts to fetch the full text of an article from:
   1. Preprint servers (arXiv, bioRxiv, medRxiv, SSRN, SocArXiv, etc.)
-  2. Open-access publisher pages (ScienceDirect, Cambridge Core, etc.)
+  2. Europe PMC (free full-text API).
+  3. Open-access publisher pages (with generic HTML fallback).
+  4. PDF text extraction (cookie-based session to bypass anti-scraping).
 
 Returns plain text suitable for feeding to the AI summariser.  If retrieval
 fails, the caller should fall back to abstract-only summarisation.
@@ -17,14 +19,15 @@ import tempfile
 import time
 from pathlib import Path
 from typing import List, Optional
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-# Maximum characters to keep from the full text.  DeepSeek-V3 has a 128k
-# context window, but we stay well under that to leave room for the prompt.
+# Maximum characters to keep from the full text.  Qwen3 VL has a 131k
+# context window; we stay well under that to leave room for the prompt.
 MAX_FULLTEXT_CHARS = 60_000
 
 # Shared HTTP session headers — mimic a real browser to avoid anti-scraping.
@@ -85,11 +88,20 @@ def fetch_fulltext(
             return _truncate(text)
 
     # --- Strategy 4: Extract text from OA PDF(s) via PyMuPDF ---
+    # Use a cookie-based session: visit the article landing page first to
+    # acquire cookies, then download the PDF with those cookies.  This
+    # bypasses publisher anti-scraping that blocks direct PDF requests.
     pdf_urls_to_try = list(all_pdf_urls or [])
     if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
         pdf_urls_to_try.append(oa_pdf_url)
     for pdf_url in pdf_urls_to_try:
-        text = _extract_text_from_pdf(pdf_url)
+        text = _extract_text_from_pdf(pdf_url, article_url=article_url)
+        if text:
+            return _truncate(text)
+
+    # --- Strategy 5: Generic HTML scraper (any OA publisher page) ---
+    if article_url:
+        text = _fetch_generic_html(article_url)
         if text:
             return _truncate(text)
 
@@ -238,7 +250,6 @@ def _fetch_osf(url: str) -> Optional[str]:
     if pdf_link:
         pdf_href = pdf_link.get("href", "")
         if pdf_href and not pdf_href.startswith("http"):
-            from urllib.parse import urljoin
             pdf_href = urljoin(url, pdf_href)
         if pdf_href:
             text = _extract_text_from_pdf(pdf_href)
@@ -276,7 +287,6 @@ def _fetch_repec(url: str) -> Optional[str]:
     if pdf_link:
         pdf_href = pdf_link.get("href", "")
         if pdf_href and not pdf_href.startswith("http"):
-            from urllib.parse import urljoin
             pdf_href = urljoin(url, pdf_href)
         if pdf_href:
             text = _extract_text_from_pdf(pdf_href)
@@ -312,18 +322,29 @@ def _fetch_nber(url: str) -> Optional[str]:
 # ---------------------------------------------------------------------------
 
 def _try_open_access(url: str) -> Optional[str]:
-    """Try to fetch full text from open-access publisher pages."""
-    if "sciencedirect.com" in url:
-        return _fetch_sciencedirect(url)
-    if "cambridge.org" in url:
-        return _fetch_cambridge(url)
-    if "nature.com" in url:
-        return _fetch_nature(url)
-    if "science.org" in url or "sciencemag.org" in url:
-        return _fetch_science(url)
-    if "cell.com" in url:
-        return _fetch_cell(url)
-    return None
+    """Try to fetch full text from open-access publisher pages.
+
+    First tries publisher-specific selectors, then falls back to a generic
+    HTML scraper that works with any OA publisher page.
+    """
+    _fetchers = [
+        ("sciencedirect.com", _fetch_sciencedirect),
+        ("cambridge.org", _fetch_cambridge),
+        ("nature.com", _fetch_nature),
+        ("science.org", _fetch_science),
+        ("sciencemag.org", _fetch_science),
+        ("cell.com", _fetch_cell),
+    ]
+    for domain, fetcher in _fetchers:
+        if domain in url:
+            result = fetcher(url)
+            if result:
+                return result
+            # Publisher-specific failed — try generic below.
+            break
+
+    # Generic fallback for any OA publisher page.
+    return _fetch_generic_html(url)
 
 
 def _fetch_sciencedirect(url: str) -> Optional[str]:
@@ -483,11 +504,18 @@ def _fetch_europepmc(doi: str) -> Optional[str]:
 # PDF text extraction (via PyMuPDF)
 # ---------------------------------------------------------------------------
 
-def _extract_text_from_pdf(pdf_url: str, *, timeout: int = 60) -> Optional[str]:
-    """Download a PDF and extract text using PyMuPDF (fitz).
+def _extract_text_from_pdf(
+    pdf_url: str,
+    *,
+    article_url: str = "",
+    timeout: int = 60,
+) -> Optional[str]:
+    """Download a PDF and extract the entire article text using PyMuPDF (fitz).
 
-    This is a last-resort strategy for when HTML full-text is unavailable.
-    Works well for open-access articles that provide a direct PDF link.
+    Uses a cookie-based requests.Session: visits the article landing page
+    first to acquire cookies / session tokens, then downloads the PDF with
+    those cookies.  This mimics browser behaviour and bypasses many
+    publisher anti-scraping mechanisms that block direct PDF requests.
     """
     try:
         import fitz  # PyMuPDF
@@ -495,10 +523,18 @@ def _extract_text_from_pdf(pdf_url: str, *, timeout: int = 60) -> Optional[str]:
         logger.debug("PyMuPDF not installed — cannot extract text from PDF")
         return None
 
+    # Build a session and warm it up by visiting the landing page first.
+    session = _build_session(article_url)
+
     # Download the PDF.
     try:
-        resp = requests.get(
-            pdf_url, headers=_HEADERS, timeout=timeout, stream=True,
+        resp = session.get(
+            pdf_url,
+            timeout=timeout,
+            stream=True,
+            headers={
+                "Accept": "application/pdf,application/octet-stream,*/*;q=0.8",
+            },
         )
         resp.raise_for_status()
 
@@ -544,6 +580,115 @@ def _extract_text_from_pdf(pdf_url: str, *, timeout: int = 60) -> Optional[str]:
                 Path(tmp_path).unlink(missing_ok=True)
             except Exception:
                 pass
+
+
+# ---------------------------------------------------------------------------
+# Generic HTML full-text scraper
+# ---------------------------------------------------------------------------
+
+def _fetch_generic_html(url: str) -> Optional[str]:
+    """Generic fallback: fetch any OA article page and extract body text.
+
+    Uses a cascade of CSS selectors ordered from most to least specific.
+    Works with most publisher sites that serve OA articles as full HTML.
+    """
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+
+    # Remove noise elements first.
+    for tag in soup.select(
+        "script, style, nav, header, footer, aside, "
+        ".references, .ref-list, .bibliography, .supplementary, "
+        ".article-metrics, .related-articles, .social-sharing, "
+        "#cookie-banner, .cookie-notice, .modal, .popup, "
+        ".sidebar, .nav, .menu, .breadcrumb, .pagination"
+    ):
+        tag.decompose()
+
+    # Selectors ordered from most specific to most generic.
+    _SELECTORS = [
+        # Publisher article bodies
+        "div.c-article-body",             # Nature / Springer
+        ".article__body",                 # Science.org
+        ".article-body",                  # Cell Press
+        "#body",                          # ScienceDirect
+        ".Body",                          # ScienceDirect alt
+        "#bodymatter",                    # Science.org alt
+        ".hlFld-Fulltext",                # Taylor & Francis, Wiley
+        ".NLM_sec_level_1",              # various OA journals
+        ".article-content",              # SAGE, misc
+        ".article-full-text",            # generic
+        ".fulltext",                     # generic
+        ".paper-content",               # generic
+        # Semantic elements
+        "article",
+        "[role='main']",
+        "main",
+        "#main-content",
+        "#maincontent",
+        "#content",
+        ".content",
+    ]
+
+    for selector in _SELECTORS:
+        el = soup.select_one(selector)
+        if el:
+            text = _extract_text(el)
+            if len(text) > 1000:
+                logger.info(
+                    "Got generic HTML full text (%d chars, selector=%s) from %s",
+                    len(text), selector, url,
+                )
+                return text
+
+    # Last resort: try the whole <body>.
+    body = soup.find("body")
+    if body:
+        text = _extract_text(body)
+        if len(text) > 2000:
+            logger.info(
+                "Got generic HTML full text from <body> (%d chars) from %s",
+                len(text), url,
+            )
+            return text
+
+    logger.debug("Generic HTML scraper found no usable text from %s", url)
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Cookie-based session builder
+# ---------------------------------------------------------------------------
+
+def _build_session(article_url: str = "") -> requests.Session:
+    """Create a requests.Session pre-warmed with cookies from the article page.
+
+    Visiting the landing page first mimics browser behaviour: the publisher
+    sets session cookies, which then allow the PDF download to succeed.
+    """
+    session = requests.Session()
+    session.headers.update(_HEADERS)
+
+    if article_url:
+        try:
+            logger.debug("Warming session by visiting %s", article_url)
+            resp = session.get(
+                article_url,
+                timeout=30,
+                allow_redirects=True,
+            )
+            logger.debug(
+                "Session warm-up: status=%d, cookies=%d",
+                resp.status_code,
+                len(session.cookies),
+            )
+        except requests.RequestException as exc:
+            logger.debug("Session warm-up failed (continuing anyway): %s", exc)
+
+    return session
 
 
 # ---------------------------------------------------------------------------
