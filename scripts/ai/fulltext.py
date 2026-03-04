@@ -94,6 +94,14 @@ def fetch_fulltext(
     pdf_urls_to_try = list(all_pdf_urls or [])
     if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
         pdf_urls_to_try.append(oa_pdf_url)
+
+    # Also try Unpaywall to discover additional PDF URLs (free API, covers
+    # all DOIs including Elsevier/ScienceDirect which are hard to scrape).
+    if doi:
+        unpaywall_pdf = _fetch_unpaywall_pdf_url(doi)
+        if unpaywall_pdf and unpaywall_pdf not in pdf_urls_to_try:
+            pdf_urls_to_try.append(unpaywall_pdf)
+
     for pdf_url in pdf_urls_to_try:
         text = _extract_text_from_pdf(pdf_url, article_url=article_url)
         if text:
@@ -496,6 +504,45 @@ def _fetch_europepmc(doi: str) -> Optional[str]:
                 return text
     except Exception as exc:
         logger.debug("Europe PMC fetch failed for DOI %s: %s", doi, exc)
+
+    return None
+
+
+def _fetch_unpaywall_pdf_url(doi: str) -> Optional[str]:
+    """Query the Unpaywall API for a direct OA PDF URL.
+
+    Unpaywall (https://unpaywall.org/) is a free API that provides OA PDF
+    locations for any DOI.  Particularly useful for Elsevier/ScienceDirect
+    articles where the HTML is JavaScript-rendered and impossible to scrape.
+
+    Returns the PDF URL or ``None``.
+    """
+    if not doi:
+        return None
+
+    # Unpaywall requires an email in the query.
+    api_url = f"https://api.unpaywall.org/v2/{doi}?email=scicover@example.com"
+    try:
+        resp = requests.get(api_url, timeout=15)
+        if resp.status_code != 200:
+            return None
+
+        data = resp.json()
+        best_oa = data.get("best_oa_location") or {}
+        pdf_url = best_oa.get("url_for_pdf") or ""
+        if pdf_url:
+            logger.info("Unpaywall found PDF URL for DOI %s: %s", doi, pdf_url)
+            return pdf_url
+
+        # Try other OA locations.
+        for loc in data.get("oa_locations", []):
+            pdf_url = loc.get("url_for_pdf") or ""
+            if pdf_url:
+                logger.info("Unpaywall found PDF URL for DOI %s: %s", doi, pdf_url)
+                return pdf_url
+
+    except Exception as exc:
+        logger.debug("Unpaywall API failed for DOI %s: %s", doi, exc)
 
     return None
 

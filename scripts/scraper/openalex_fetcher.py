@@ -16,6 +16,7 @@ from __future__ import annotations
 import logging
 import os
 import re
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
 
 import requests
@@ -70,6 +71,11 @@ JOURNAL_ALIASES: Dict[str, str] = {
 
 API_BASE = "https://api.openalex.org"
 CONTENT_BASE = "https://content.openalex.org"
+
+# Only consider articles published within this many days as "recent".
+# This prevents the tier system from selecting old articles with better
+# metadata over newer articles with less metadata.
+_RECENT_DAYS = 180
 
 
 # ---------------------------------------------------------------------------
@@ -213,7 +219,12 @@ class OpenAlexFetcher:
         return None
 
     def get_preprint_url(self, work: Dict[str, Any]) -> str:
-        """Extract a preprint URL from the work's locations, if available."""
+        """Extract a preprint URL from a *known* preprint server.
+
+        Only returns URLs on servers that our fulltext fetcher can actually
+        handle.  Institutional repositories (DSpace, university repos, etc.)
+        are excluded because they rarely provide scrapable full text.
+        """
         _PREPRINT_SERVERS = (
             "arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv",
             "osf.io/preprints", "osf.io", "repec", "ideas.repec",
@@ -221,26 +232,11 @@ class OpenAlexFetcher:
         )
 
         for loc in work.get("locations", []):
-            version = (loc.get("version") or "").lower()
-            source = loc.get("source") or {}
-            source_type = (source.get("type") or "").lower()
             landing = loc.get("landing_page_url") or ""
-
             if not landing:
                 continue
 
-            # Check version field (already lowercased above).
-            if version in ("submittedversion", "submitted"):
-                return landing
-
-            # Check source type + known preprint server domains.
-            if source_type == "repository":
-                for server in _PREPRINT_SERVERS:
-                    if server in landing.lower():
-                        return landing
-
-            # Also check landing URL directly for preprint servers,
-            # regardless of source_type (some entries lack proper metadata).
+            # Only match known preprint server domains.
             landing_lower = landing.lower()
             for server in _PREPRINT_SERVERS:
                 if server in landing_lower:
@@ -255,31 +251,31 @@ class OpenAlexFetcher:
     def _pick_best_candidate(
         self, results: List[Dict[str, Any]], journal_name: str,
     ) -> Dict[str, Any]:
-        """Select the best article from a list of OpenAlex results.
+        """Select the best *recent* article from a list of OpenAlex results.
 
-        Priority tiers (first match wins):
-          1. Has full text available (``has_fulltext`` flag from OpenAlex)
-             AND has an abstract AND has a PDF.
-          2. Has a preprint URL on a known server AND has an abstract.
-          3. Has an OA PDF URL AND has an abstract.
-          4. Has an abstract (fallback).
-          5. First result (last resort).
+        Results arrive sorted by ``publication_date:desc`` (newest first).
+
+        Strategy:
+          1. Only consider articles from the last ``_RECENT_DAYS`` days.
+          2. Among recent articles, prefer articles with the most content:
+               tier1 = has_fulltext + PDF + abstract
+               tier2 = preprint + abstract
+               tier3 = PDF + abstract
+               tier4 = abstract only
+          3. If NO recent article has tier1/2/3, still prefer the newest
+             article (tier4) over an old tier1 from 2 years ago.
         """
+        # Date cutoff: only consider articles from the last N days.
+        cutoff = (
+            datetime.now(timezone.utc) - timedelta(days=_RECENT_DAYS)
+        ).strftime("%Y-%m-%d")
+
         tier1 = None   # has_fulltext + abstract + PDF
         tier2 = None   # preprint + abstract
         tier3 = None   # PDF + abstract
         tier4 = None   # abstract only
 
         for work in results:
-            best_oa = work.get("best_oa_location", {}) or {}
-            primary_loc = work.get("primary_location", {}) or {}
-            has_pdf = bool(
-                best_oa.get("pdf_url") or primary_loc.get("pdf_url")
-            )
-            has_abstract = bool(work.get("abstract_inverted_index"))
-            has_fulltext = bool(work.get("has_fulltext"))
-            has_preprint = bool(self.get_preprint_url(work))
-
             # Skip news/commentary articles (Nature d41586-* DOIs, etc.).
             doi = work.get("doi") or ""
             if "d41586" in doi or "d41591" in doi:
@@ -289,8 +285,26 @@ class OpenAlexFetcher:
                 )
                 continue
 
+            has_abstract = bool(work.get("abstract_inverted_index"))
             if not has_abstract:
                 continue
+
+            # Enforce recency: skip articles older than the cutoff.
+            pub_date = work.get("publication_date", "") or ""
+            if pub_date < cutoff:
+                logger.debug(
+                    "Skipping old article: %s (%s)",
+                    work.get("display_name", "")[:60], pub_date,
+                )
+                continue
+
+            best_oa = work.get("best_oa_location", {}) or {}
+            primary_loc = work.get("primary_location", {}) or {}
+            has_pdf = bool(
+                best_oa.get("pdf_url") or primary_loc.get("pdf_url")
+            )
+            has_fulltext = bool(work.get("has_fulltext"))
+            has_preprint = bool(self.get_preprint_url(work))
 
             # Tier 1: full text confirmed by OpenAlex.
             if has_fulltext and has_pdf and tier1 is None:
@@ -306,9 +320,23 @@ class OpenAlexFetcher:
                 tier4 = work
 
         chosen = tier1 or tier2 or tier3 or tier4
+
+        # If no recent candidate found, fall back to the newest result
+        # that has an abstract (regardless of age).
+        if chosen is None:
+            for work in results:
+                if bool(work.get("abstract_inverted_index")):
+                    chosen = work
+                    logger.warning(
+                        "%s: no recent article found (cutoff=%s), "
+                        "falling back to newest with abstract: '%s' (%s)",
+                        journal_name, cutoff,
+                        work.get("display_name", "")[:60],
+                        work.get("publication_date", ""),
+                    )
+                    break
+
         if chosen is not None:
-            has_ft = bool(chosen.get("has_fulltext"))
-            has_pp = bool(self.get_preprint_url(chosen))
             tag = (
                 "has_fulltext + PDF + abstract" if chosen is tier1
                 else "has preprint + abstract" if chosen is tier2
@@ -316,8 +344,9 @@ class OpenAlexFetcher:
                 else "abstract only"
             )
             logger.info(
-                "%s: selected '%s' (%s)",
-                journal_name, chosen.get("display_name", "")[:60], tag,
+                "%s: selected '%s' (%s, %s)",
+                journal_name, chosen.get("display_name", "")[:60],
+                tag, chosen.get("publication_date", ""),
             )
             return chosen
 
