@@ -1,0 +1,79 @@
+{
+  "id": "nature-2026-02-25",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超導體的量子調節器：六方氮化硼「光學腔」精準抑制超流體密度",
+      "en": "Quantum Tuning Fork for Superconductors: How a Boron Nitride Cavity Suppresses Superfluid Density"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了「光學腔」如何精準調控超導體的量子狀態，為材料科學帶來革命性突破。研究團隊發現，當將超導體κ-ET置於六方氮化硼（hBN）的超極化腔中時，其超流體密度可被抑制高達50%，這不僅證明電磁環境能直接操控超導相變，更開創了用光學手段調控物質性質的新路徑。此發現如同為超導體裝上「量子調節器」，為開發高效能量子裝置鋪路。\n\n【研究問題】過去研究雖知光學 cavity 可影響量子霍爾效應等現象，但對超導體的基礎量子態（如超流體密度）卻缺乏直接操控證據。關鍵缺口在於：能否透過 cavity 精準調節超導體的「超導本質」？這問題牽涉到量子材料的本質理解，若能解答，將為設計下一代超導裝置提供全新方法。\n\n【研究方法】研究團隊以「原子力顯微鏡磁力測量」（MFM）為核心工具，像用磁針探測超導體的「磁力脈搏」。他們將κ-ET超導體與hBN超極化材料組成異質結構，並用RuCl3做對照。當hBN的超極化模式與κ-ET的C=C振動模式共振時，MFM測得的超流體密度明顯下降，如同超導體的「量子呼吸」被外力壓縮。\n\n【結果】實驗顯示，hBN使κ-ET的超流體密度平均減少50%，且效果與hBN厚度無關（25-110nm均有效）。更關鍵的是，當溫度升至超導轉變溫度（Tc=11.5K）時，這種抑制效果消失，證實是超導性質的變化。這結果表明，透過精準設計cavity，我們能「調節」超導體的量子特性，為未來開發室溫超導體或量子計算元件提供新思路。",
+      "en": "**Summary:** This groundbreaking study demonstrates how electromagnetic cavities can precisely manipulate the fundamental quantum state of superconductors, opening a new frontier in quantum materials engineering. By creating a hyperbolic cavity using hexagonal boron nitride (hBN), researchers observed up to 50% suppression of superfluid density in κ-ET superconductors—a phenomenon directly tied to the material's quantum ground state. This work is akin to giving superconductors a \"quantum tuning fork,\" revealing how electromagnetic environments can reshape material properties without altering their chemical composition.\n\n**Problem:** While previous studies showed cavity effects on quantum Hall states and charge-density waves, a critical gap remained: could cavity engineering directly manipulate the superconducting ground state? Understanding this would address a fundamental question in condensed matter physics—whether quantum fluctuations in engineered electromagnetic environments can trigger new phases of matter. This knowledge is essential for developing next-generation quantum technologies.\n\n**Approach:** The team used magnetic force microscopy (MFM) to detect the Meissner effect—the magnetic field expulsion characteristic of superconductors—acting as a \"quantum pulse monitor.\" They fabricated heterostructures with κ-ET superconductors layered with hBN (a hyperbolic material) and RuCl3 (a control insulator). By comparing how the Meissner force weakened under hBN versus RuCl3, they isolated the resonant cavity effect. Scattering-type near-field optical microscopy (s-SNOM) further visualized how hBN's hyperbolic phonon polaritons coupled to κ-ET's molecular vibrations.\n\n**Results:** The hBN cavity reduced κ-ET's superfluid density by at least 50% across various thicknesses (25–110 nm), with the effect vanishing above the superconducting transition temperature (Tc = 11.5 K). Crucially, the suppression occurred only when hBN's hyperbolic modes resonated with κ-ET's C=C stretching vibration, confirming the quantum coupling mechanism. This discovery suggests that cavity engineering could potentially enhance superconductivity in conventional materials and provides a new pathway for manipulating quantum states in materials."
+    },
+    "keyArticle": {
+      "title": "Cavity-altered superconductivity",
+      "authors": [
+        "Itai Keren",
+        "Tatiana A. Webb",
+        "Shuai Zhang",
+        "Jikai Xu",
+        "Dihao Sun",
+        "Brian S. Y. Kim",
+        "Dongbin Shin",
+        "Songtian S. Zhang",
+        "Junhe Zhang",
+        "Giancarlo Pereira",
+        "Juntao Yao",
+        "Takuya Okugawa",
+        "Marios H. Michael",
+        "Martin Claassen",
+        "James H. Edgar",
+        "Stuart Wolf",
+        "Matthew Julian",
+        "Rohit P. Prasankumar",
+        "Kazuya Miyagawa",
+        "Kazushi Kanoda",
+        "Genda Gu",
+        "Matthew Cothrine",
+        "David Mandrus",
+        "M. Buzzi",
+        "Andrea Cavalleri",
+        "Cory R. Dean",
+        "Dante M. Kennes",
+        "Andrew J. Millis",
+        "Qiang Li",
+        "Michael A. Sentef",
+        "Angel Rubio",
+        "Abhay N. Pasupathy",
+        "D. N. Basov"
+      ],
+      "doi": "10.1038/s41586-025-10062-6",
+      "pages": "864-868"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10062-6",
+      "doi": "https://doi.org/10.1038/s41586-025-10062-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T10:15:16.939446+00:00",
+    "source": "openalex"
+  }
+}

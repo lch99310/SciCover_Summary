@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-01-17",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-01-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "母親地位躍升，大學畢業率攀升的隱形推手",
+      "en": "Mothers’ Rising Status: The Overlooked Driver of College Graduation Rates"
+    },
+    "summary": {
+      "zh": "研究揭曉，母親教育、職業地位與收入的大幅提升，雖未改變其對子女大學畢業率的「每單位影響力」（與父親相當），卻因整體水準突破天際，使得母親的貢獻比例超越父親。這就像引擎功率穩定，但燃料品質飛躍提升——當母親們的社會地位如火箭般躋升，她們對子女學業的影響力也隨之爆發，成為近年大學畢業率攀升的隱形引擎。\n\n研究指出，1930至1980年代出生的孩子，母親與父親的「地位回報率」相近，因此母親地位變化並未解釋大學畢業率的提升。但1960年代後出生的世代，母親地位的躍升（源自婦女教育普及、職場晉升與收入增長）已成為大學畢業率飆升的關鍵動力。這項發現顛覆傳統觀點：不是母親影響力變強，而是她們的社會位階更高，讓微小影響力在量級上產生質變。未來教育政策若忽略母親的社會地位，將難以應對人才競爭的挑戰。",
+      "en": "Contrary to prior assumptions, new research reveals that while the marginal impact of mothers’ status (per unit of education, occupation, or earnings) remains comparable to fathers’, the sheer scale of mothers’ elevated status since the 1960s has transformed its role in college completion. For cohorts born after 1960, the surge in mothers’ educational attainment, occupational prestige, and income—not the changing returns of their status—explains a larger share of rising college graduation rates than fathers’ status. This dynamic, overlooked by prior studies, underscores how societal shifts in women’s status have quietly reshaped educational outcomes.\n\nThe study, analyzing three national U.S. surveys, shows that for children born between the 1930s and 1980s, mothers’ status had similar returns to fathers’ in driving college completion, meaning their status changes did not explain rising graduation rates. Yet for post-1960 cohorts, the outsized gains in women’s education and earnings—fueled by decades of gender equality progress—have made mothers’ status a more significant driver of college attendance. This distinction matters: it’s not that mothers’ influence grew stronger, but that their higher baseline status (a product of broader societal change) now amplifies their contribution. Policymakers seeking to boost educational equity must recognize mothers’ rising status as a critical, if overlooked, factor in the college completion equation."
+    },
+    "keyArticle": {
+      "title": "The Changing Role of Mothers’ Status in Children’s College Completion",
+      "authors": [
+        "Christine R. Schwartz",
+        "Michael D. King"
+      ],
+      "doi": "10.1177/00031224251401938",
+      "pages": "123-157"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251401938",
+      "doi": "https://doi.org/10.1177/00031224251401938"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T10:17:47.373406+00:00",
+    "source": "openalex"
+  }
+}
