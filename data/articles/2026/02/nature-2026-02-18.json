@@ -1,0 +1,93 @@
+{
+  "id": "nature-2026-02-18",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8102",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "激光刻字玻璃：1萬年不壞的數位存儲革命",
+      "en": "Glass as the Digital Time Capsule: How Laser Writing Could Store Data for 10,000 Years"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了數位時代的存儲革命：科學家開發出「Silica」系統，透過飛秒雷射在玻璃中刻寫微型3D像素（voxel），成功實現每立方毫米0.678G位元的超密集儲存，且資料壽命超過1萬年。這不僅解決了數位資料快速腐壞的危機，更以90%的能源效率超越傳統儲存技術，為雲端資料庫提供永續存續的解決方案。\n\n【研究問題】人類資料量每3年翻倍，但現有數位儲存媒體（如硬碟）平均壽命僅3-5年，需頻繁遷移造成巨大成本。過去研究試圖用玻璃儲存，卻受限於寫入速度慢、能量消耗高，且無法同時滿足容量、穩定性與成本要求。Silica突破性地解決了這些關鍵瓶頸，讓玻璃真正成為可靠的「數位時間膠囊」。\n\n【研究方法】研究團隊設計兩種創新型寫入方式：①「類單脈衝」技術讓玻璃形成「雙軸異向性微孔」，以偏振光調節儲存符號；②「單脈衝相位寫入」在硼矽酸鹽玻璃中製造折射率變化，避免散射干擾。他們更結合機器學習解碼，用類神經網路從光學影像中還原資料，並以閉環控制系統動態調整雷射能量，確保每顆微像素寫入精度。\n\n【結果】實驗顯示，Silica在單張120mm玻璃板上儲存2.02TB資料（相當於5000部電影），寫入速度達65.9Mbit/s（4倍於單光束）。加速老化測試預測：室溫下資料可保存10,000年以上。更驚人的是，系統自動化程度高，每批測試寫入數十億個微像素仍能保持0.0023的品質變異率，證明其商業化可行性。這將徹底改變雲端儲存的未來。",
+      "en": "**Summary:** Scientists have engineered a breakthrough data storage system called Silica, using femtosecond lasers to etch microscopic 3D pixels (voxels) into glass. This technology achieves unprecedented storage density of 0.678 Gbit/mm³ while guaranteeing data durability for over 10,000 years at room temperature. Unlike conventional storage media, Silica combines extreme energy efficiency (8.85 nJ/bit) with high-speed multi-beam writing, offering a viable solution to the global data preservation crisis. By treating glass as a digital time capsule, this system could redefine archival storage for the next millennium.\n\n**Problem:** With digital data doubling every three years, current storage media degrade within years, requiring costly, energy-intensive migration. Previous glass-based storage solutions suffered from slow write speeds, high energy consumption, and unreliable error correction. The critical gap: no system could simultaneously meet industry demands for capacity, longevity, energy efficiency, and scalability. Silica addresses this urgent need for sustainable digital preservation.\n\n**Approach:** The team developed two novel voxel writing regimes: 1) Pseudo-single-pulse birefringent writing creates elongated nanovoids using precisely timed seed and data pulses, while 2) single-pulse phase writing induces controlled refractive index changes in borosilicate glass. Crucially, they implemented closed-loop emission monitoring to stabilize laser energy during writing and employed convolutional neural networks to decode noisy images. This combination of hardware innovation (e.g., 4-beam parallel writing) and machine learning enabled reliable data retrieval from complex 3D structures.\n\n**Results:** Silica achieves 2.02 TB of usable capacity per 120mm glass platter with 90% less energy than traditional methods. Its 65.9 Mbit/s throughput—scalable to 16 beams—exceeds previous glass storage records. Accelerated aging tests using Arrhenius plots confirmed stability exceeding 10,000 years at room temperature. Most impressively, the system maintains a quality factor variation of just 0.0023 across billions of voxels, with error correction enabling lossless data recovery. This breakthrough makes glass-based archival storage commercially viable for the first time."
+    },
+    "keyArticle": {
+      "title": "Laser writing in glass for dense, fast and efficient archival data storage",
+      "authors": [
+        "James P. Allison",
+        "Patrick Anderson",
+        "Erika Aranas",
+        "Youssef Assaf",
+        "Richard Black",
+        "Marco Caballero",
+        "Burcu Canakci",
+        "John Antony Chattaway",
+        "Andromachi Chatzieleftheriou",
+        "James Clegg",
+        "Daniel Cletheroe",
+        "Bridgette Cooper",
+        "Tim Deegan",
+        "Austin Donnelly",
+        "Rokas Drevinskas",
+        "Zhonghe Feng",
+        "Christos Gkantsidis",
+        "Ariel Gomez Diaz",
+        "Istvan Haller",
+        "Freddie Hong",
+        "Teodora Ilieva",
+        "Russell Joyce",
+        "Valentin Kapitány",
+        "Mint Kunkel",
+        "David Lara",
+        "Takashi Lawson",
+        "Sergey Legtchenko",
+        "Fanglin Liu",
+        "Xiaoqi Liu",
+        "Bruno Magalhaes",
+        "Sebastian Nowozin",
+        "Hiske Overweg",
+        "Antony Rowstron",
+        "Masaaki Sakakura",
+        "Nina Schreiner",
+        "Adam Smith",
+        "Oliver Snowdon",
+        "Ioan Stefanovici",
+        "David Sweeney",
+        "Govert Verkes",
+        "Phil Wainman",
+        "Charles Whittaker",
+        "Pablo Wilke Berenguer",
+        "Hugh Williams",
+        "Thomas Winkler",
+        "Stefan Winzeck"
+      ],
+      "doi": "10.1038/s41586-025-10042-w",
+      "pages": "606-612"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10042-w",
+      "doi": "https://doi.org/10.1038/s41586-025-10042-w",
+      "preprint": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12916313/"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T03:15:47.798326+00:00",
+    "source": "openalex"
+  }
+}

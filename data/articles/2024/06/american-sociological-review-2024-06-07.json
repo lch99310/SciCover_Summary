@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2024-06-07",
+  "journal": "American Sociological Review",
+  "volume": "89",
+  "issue": "4",
+  "date": "2024-06-07",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "社區連結的黑暗面：墨西哥私刑背後的集體行動密碼",
+      "en": "When Neighborhood Bonds Turn Violent: How Community Ties Fuel Lynchings in Mexico"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了墨西哥私刑現象背後的關鍵機制：強大的社區連結不僅促進正向合作，也會催生暴力集體行動。研究發現，鄰里間密切的社交網絡能透過『團結感』和『同儕壓力』，克服傳統社會學理論中暴力集體行動的『集體行動困境』。這項突破性發現解釋了為何在弱國力環境下，沒有組織結構的私刑群體仍能有效動員——社區連結正是其隱形的『組織骨架』。對理解弱政府地區的暴力現象，以及預防社區暴力的政策設計具有重要啟發。\n\n【研究問題】過去研究聚焦於國家弱化或道德憤怒解釋私刑，但未能說明：為何缺乏組織結構的群體仍能協調暴力行動？這項研究指出關鍵盲點在於忽略社區連結的『暗面』功能。傳統觀點認為社區關係僅有利於合作，但實際上在特定環境下，這些連結會成為暴力的催化劑。理解這個問題至關重要，因為在墨西哥等國，私刑已是常見的『非正式社會控制』手段，而其背後的動員機制長期未被釐清。\n\n【研究方法】研究者設計三重證據鏈：首先，透過墨西哥市2,183人調查，以『認識鄰居姓名數量』作為社區連結指標，並結合私刑場景試題，證實社群連結與參與率正相關。其次，分析 municipality 級數據，以『鄰里互助指數』衡量社區連結，發現與私刑發生率顯著相關。最後，利用2017年地震作為自然實驗，證明集體危機能強化社群連結，進而引發更多私刑。研究巧妙排除了反向因果關係，並用『祖父母兄弟數量』等代理變量驗證因果關係。\n\n【結果】調查顯示9.6%受訪者承認參與過私刑，而認識越多鄰居的人，參與率每增加10%就提升3.6%。在 municipalities 級分析中，鄰里互助指數每增加1個標準差，私刑率上升2.1-2.6倍。地震後受影響地區私刑事件增加17%，驗證了社群連結與暴力的因果關係。這項研究揭示：私刑並非僅因『國家失能』而發生，而是社區連結在特定環境下被扭曲為暴力工具的結果，為政策制定提供了新視角。",
+      "en": "**Summary:** This groundbreaking study reveals how neighborhood bonds in Mexico transform into engines of violence, solving the long-standing puzzle of why ad-hoc mobs can coordinate violent collective action. By demonstrating that community ties create solidarity and peer pressure—acting as an invisible organizational structure—the research explains why lynchings thrive in weak-state environments where formal institutions fail. This discovery challenges conventional wisdom about social capital, showing its 'dark side' as a catalyst for violence, with profound implications for understanding and preventing community-based violence globally.\n\n**Problem:** Traditional theories could not explain how unorganized mobs overcome the 'collective action problem'—the challenge of mobilizing individuals to participate in risky collective violence. Previous research focused on state weakness or moral outrage but overlooked how community ties enable coordination without formal structures. This gap is critical because, in Mexico, lynching has become a normalized form of social control, yet the mechanisms behind its geographic variation remained unexplained.\n\n**Approach:** The study employed a three-pronged methodology: First, a representative survey of 2,183 residents in Mexico City measured 'names known' in neighborhoods as a proxy for community ties, finding a direct relationship with lynching participation. Second, municipality-level analysis of neighborly cooperation data showed strong correlations with lynching rates. Third, the 2017 earthquake served as a natural experiment, where community solidarity after the disaster led to increased lynching in affected areas. The researchers carefully controlled for confounding variables and used innovative causal inference techniques to isolate community ties' effects.\n\n**Results:** Survey data revealed 9.6% of respondents admitted participation in lynching events. Those knowing more neighbors were 3.6% more likely to participate per 10% increase in community ties. Municipal analyses showed a 2.1-2.6x higher lynching rate in areas with strong neighborly cooperation. After the earthquake, lynching rates rose by 17% in exposed regions. These findings prove that community ties—not just state failure—create the conditions for violence, challenging the assumption that lynching is solely a response to governmental weakness. This insight could transform policies addressing community-based violence worldwide."
+    },
+    "keyArticle": {
+      "title": "The “Dark Side” of Community Ties: Collective Action and Lynching in Mexico",
+      "authors": [
+        "Enzo Nussio"
+      ],
+      "doi": "10.1177/00031224241253268",
+      "pages": "708-734"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224241253268",
+      "doi": "https://doi.org/10.1177/00031224241253268",
+      "preprint": "https://www.ncbi.nlm.nih.gov/pmc/articles/11294007"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T03:18:41.602901+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,31 +1,22 @@
 {
-  "lastUpdated": "2026-03-04T02:56:36.977246+00:00",
+  "lastUpdated": "2026-03-04T03:18:41.605235+00:00",
   "articles": [
-    {
-      "id": "political-geography-2026-02-28",
-      "journal": "Political Geography",
-      "date": "2026-02-28",
-      "path": "articles/2026/02/political-geography-2026-02-28.json",
-      "title_zh": "哪條邊界最關鍵？德國選舉背後的行政裂痕",
-      "title_en": "Which Border Matters Most? How Germany’s Administrative Divisions Shape Voting Behavior",
-      "cover_url": ""
-    },
     {
       "id": "nature-2026-02-18",
       "journal": "Nature",
       "date": "2026-02-18",
       "path": "articles/2026/02/nature-2026-02-18.json",
-      "title_zh": "激光刻寫玻璃：1萬年數位檔案的永恆密室",
-      "title_en": "Laser-Engraved Glass: The Eternal Vault for 10,000-Year Digital Archives",
-      "cover_url": ""
+      "title_zh": "激光刻字玻璃：1萬年不壞的數位存儲革命",
+      "title_en": "Glass as the Digital Time Capsule: How Laser Writing Could Store Data for 10,000 Years",
+      "cover_url": "data/images/nature/nature-2026-02-18-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-18",
       "journal": "Political Geography",
       "date": "2026-02-18",
       "path": "articles/2026/02/political-geography-2026-02-18.json",
-      "title_zh": "從家到山頂：庫德山區旅遊中的主權之身與日常地緣政治",
-      "title_en": "From Home to Summit: How Mountain Tourism Reshapes Sovereignty in Iraqi Kurdistan",
+      "title_zh": "從家門到峰頂：庫德斯坦山區旅遊者如何悄然重塑邊界",
+      "title_en": "Sovereign Bodies on the Trail: How Mountain Tourism Reshapes Borders in Iraqi Kurdistan",
       "cover_url": ""
     },
     {
@@ -33,26 +24,8 @@
       "journal": "Science",
       "date": "2026-02-12",
       "path": "articles/2026/02/science-2026-02-12.json",
-      "title_zh": "大象鬍鬚的隱形工程：三重梯度設計讓觸覺精準度破百",
-      "title_en": "The Elephant's Tactile Superpower: How Graded Whiskers Unlock Precision Touch",
-      "cover_url": "data/images/science/science-2026-02-12-cover.jpg"
-    },
-    {
-      "id": "nature-2026-02-04",
-      "journal": "Nature",
-      "date": "2026-02-04",
-      "path": "articles/2026/02/nature-2026-02-04.json",
-      "title_zh": "夸克的自旋默契：RHIC實驗揭開強核力中的量子關聯奧秘",
-      "title_en": "The Spin Connection: Quantum Correlations Revealed in QCD Confinement",
-      "cover_url": ""
-    },
-    {
-      "id": "cell-2026-01-29",
-      "journal": "Cell",
-      "date": "2026-01-29",
-      "path": "articles/2026/01/cell-2026-01-29.json",
-      "title_zh": "OCD「反覆思考」的神經密碼！前額葉γ波活動揭開強迫行為真相",
-      "title_en": "The Brain's Gamma Wave 'Loop' in OCD: How Frontal Cortex Activity Fuels Compulsive Behaviors",
+      "title_zh": "蛋白質「找對象」的隱藏規則：從無到有構建全新界面",
+      "title_en": "How Proteins Find Their Partners: Decoding the Molecular Rules of Evolution",
       "cover_url": ""
     },
     {
@@ -60,8 +33,8 @@
       "journal": "Cell",
       "date": "2025-12-29",
       "path": "articles/2025/12/cell-2025-12-29.json",
-      "title_zh": "果蠅大腦里的「方向翻轉器」：鈣離子火花讓向量180度大逆轉",
-      "title_en": "How Calcium Sparks in Fruit Flies Flip Your Sense of Direction",
+      "title_zh": "果蠅大腦的數學特工：鈣離子尖峰讓方向反轉180度",
+      "title_en": "Fruit Flies Reverse Their Mental Maps With Calcium Spikes",
       "cover_url": ""
     },
     {
@@ -69,17 +42,8 @@
       "journal": "International Organization",
       "date": "2025-11-20",
       "path": "articles/2025/11/international-organization-2025-11-20.json",
-      "title_zh": "難民庇護的『隱形圍牆』：後自由主義秩序下的政策轉型",
-      "title_en": "The Invisible Walls: Refugee Protection in a Postliberal Era",
-      "cover_url": ""
-    },
-    {
-      "id": "american-sociological-review-2025-08-11",
-      "journal": "American Sociological Review",
-      "date": "2025-08-11",
-      "path": "articles/2025/08/american-sociological-review-2025-08-11.json",
-      "title_zh": "同一政策，無標準結果：招生價值觀如何決定免試政策的多元成效",
-      "title_en": "Same Policy, Different Outcomes: How Institutional Priorities Shape Test-Optional Admissions' Diversity Impact",
+      "title_zh": "美元霸權崩解：川普2.0如何終結美國金融霸權",
+      "title_en": "Dollar Diminished: How Trump 2.0 Is Unmaking US Financial Hegemony",
       "cover_url": ""
     },
     {
@@ -87,8 +51,8 @@
       "journal": "American Sociological Review",
       "date": "2024-06-07",
       "path": "articles/2024/06/american-sociological-review-2024-06-07.json",
-      "title_zh": "社區溫情下的暴力暗流：墨西哥私刑背後的群體動員機制",
-      "title_en": "The Dark Side of Community Ties: How Neighborhood Bonds Fuel Lynching in Mexico",
+      "title_zh": "社區連結的黑暗面：墨西哥私刑背後的集體行動密碼",
+      "title_en": "When Neighborhood Bonds Turn Violent: How Community Ties Fuel Lynchings in Mexico",
       "cover_url": ""
     }
   ]

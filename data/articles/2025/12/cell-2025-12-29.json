@@ -1,0 +1,45 @@
+{
+  "id": "cell-2025-12-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "果蠅大腦的數學特工：鈣離子尖峰讓方向反轉180度",
+      "en": "Fruit Flies Reverse Their Mental Maps With Calcium Spikes"
+    },
+    "summary": {
+      "zh": "在果蠅的微小腦海中，隱藏著一場神祕的數學特技。通常神經元會在去極化時釋放鈉離子尖峰（sodium spikes）來傳遞訊號，但某些神經元卻在超極化時竄出鈣離子尖峰（calcium spikes），這行為宛如神經系統的「反轉特工」。最新《Cell》研究揭開真相：果蠅中央複雜體中的一群神經元，正是靠這組「反轉特工」，將二維向量瞬間翻轉180度，讓飛行中的方向感實現完美校正。\n\n研究團隊發現，當飛行中的果蠅需要調整方向時，這些神經元會從鈉離子尖峰切換為鈣離子尖峰。這看似微小的轉換，實際上是將神經元群體編碼的向量與飛行器內部的指南針信號對齊，從而完成向量的180度翻轉。關鍵在於T型鈣離子通道Ca-α1T，它如同神經系統的「數學旋轉門」，讓飛蟲得以進入原本無法計算的-angular空間。\n\n這項發現不僅揭開了神經元雙向傳訊的奧秘，更顯示大腦如何巧妙整合分子、細胞與迴路層級的特性，實現複雜的向量運算。就像一場精準的數學魔術，讓果蠅在瞬間完成方向反轉，為理解大腦的運算邏輯開闢了新視野。",
+      "en": "In the tiny brain of the fruit fly, a remarkable mathematical trick unfolds: neurons can fire calcium spikes during hyperpolarization—a behavior that defies traditional models of neural signaling. A new study published in *Cell* reveals how these neurons act as \"mathematical acrobats\" in the fly’s central complex, flipping two-dimensional vectors by 180 degrees. This mechanism, driven by T-type calcium channels, allows the fly to reorient its internal compass with astonishing precision, solving spatial puzzles that were previously thought intractable.\n\nThe researchers found that when a fruit fly needs to adjust its direction, specific neurons switch from sodium to calcium spikes. This transition effectively inverts the vector encoded by the neural population, aligning it with the fly’s internal compass. Crucially, this process relies on the Ca-α1T channel, which acts as a molecular \"rotation switch,\" enabling computations in angular spaces that would otherwise remain inaccessible. Through a combination of computational modeling and experimental validation, the team demonstrated that this mechanism expands the fly’s navigational toolkit significantly.\n\nThis discovery highlights how the brain integrates molecular, cellular, and circuit-level properties to perform sophisticated mathematical operations. It challenges the conventional view of neurons as simple on/off switches and suggests a deeper layer of computation in neural circuits. For neuroscientists, this work opens new avenues for understanding how the brain processes spatial information—a critical step toward unraveling the mysteries of cognition."
+    },
+    "keyArticle": {
+      "title": "Neuronal calcium spikes enable vector inversion in the Drosophila brain",
+      "authors": [
+        "Itzel G. Ishida",
+        "Sachin Sethi",
+        "Thomas L. Mohren",
+        "Mia Haraguchi",
+        "L.F. Abbott",
+        "Gaby Maimon"
+      ],
+      "doi": "10.1016/j.cell.2025.11.040",
+      "pages": "748-764.e25"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "preprint": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12758628/"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T03:16:26.767244+00:00",
+    "source": "openalex"
+  }
+}

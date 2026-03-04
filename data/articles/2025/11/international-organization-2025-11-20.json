@@ -1,0 +1,42 @@
+{
+  "id": "international-organization-2025-11-20",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "美元霸權崩解：川普2.0如何終結美國金融霸權",
+      "en": "Dollar Diminished: How Trump 2.0 Is Unmaking US Financial Hegemony"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示，川普第二任期的政策正以史無前例的速度瓦解美元霸權。與以往單一維度的挑戰不同，川普政府同時動搖了美元在貿易支付、儲備貨幣及國際投資三大核心領域的主導地位。這種「三維崩解」不僅加速了全球金融秩序的碎片化，更標誌著美國主導的自由國際秩序進入「金融間隔期」——各國積極尋求自主權，卻又缺乏接棒的霸權責任。這不僅是貨幣霸權的衰落，更是全球治理邏輯的根本轉變。\n\n【研究問題】過去學界總認為美元霸權「此時不同」，因為2008年金融危機後美元反而更強。但研究指出，問題在於：當政治力量開始系統性動搖美元信任基礎時，連經濟規則也無法維持。過去的「邊緣性裂痕」（如制裁引發的去美元化）與川普政策的「系統性崩塌」本質不同，卻長期被忽視。這解釋了為何前人預測的「美元衰落」總是落空，而這次卻可能真正觸及核心。\n\n【研究方法】作者採用「三維度分析法」：貿易支付（56%全球貿易用美元結算）、儲備貨幣（外國央行58%外匯儲備為美元）、國際投資（全球40%資本市場為美元主導）。他們追蹤2009-2024年間的數據，特別聚焦川普政策如何破壞「信任」這一隱性支柱。例如，通過分析中央銀行黃金儲備變化（中國黃金從1,054噸增至2,298噸）、美元貸款下降（2022-2024年新興市場美元貸款下降10%）及美元信用評級變化（2025年美國CDS風險升至G7最高）。\n\n【結果】關鍵數據顯示：2025年美元價值單月暴跌11%，創50年新低；中國將美國國債 holdings 減半，黃金儲備翻倍；全球美元清算量因CHIPS等替代系統崛起而萎縮。更嚴重的是，歐洲央行與瑞士央行開始「大規模將美元轉為歐元」。這並非「美元衰落」，而是「美元信任崩解」——當世界開始質疑美國能否維持金融秩序，全球就進入了「金融間隔期」：各國既拒絕美元霸權，又不敢承擔新秩序責任，導致金融版圖碎片化。",
+      "en": "**Summary:** This research reveals how the Trump 2.0 administration is triggering an unprecedented unraveling of US financial hegemony. Unlike previous challenges that targeted only one dimension of dollar dominance, Trump’s policies are simultaneously undermining the dollar’s role in trade payments, reserve assets, and global investment. This \"triple breakdown\" accelerates financial fragmentation and ushers in a \"financial interregnum\" where no currency can replace the dollar, while rising powers seek autonomy without assuming hegemonic responsibility. This is not just a currency shift—it signals a fundamental transformation of global governance.\n\n**Problem:** Prior studies assumed the dollar’s dominance was unshakeable, citing its post-2008 crisis resilience. But this research identifies a critical gap: when political actors systematically erode trust in the US as the guarantor of financial stability, economic rules collapse. Previous \"marginal cracks\" (e.g., sanctions-driven de-dollarization) were dismissed as temporary, but Trump’s policies—like tariffs and fiscal recklessness—have now shattered the core trust foundation. This explains why past predictions of dollar decline failed, while this time may be different.\n\n**Approach:** The authors use a three-dimensional framework: trade payments (56% of global trade is dollar-invoiced), reserve currency (58% of foreign exchange reserves are held in dollars), and investment (US markets account for 40% of global bond/equity markets). They analyze data from 2009–2024, focusing on how Trump’s policies eroded \"trust\" as the invisible pillar of dollar dominance. Key metrics include central bank gold reserves (China’s gold holdings doubled from 1,054t to 2,298t), dollar-denominated lending declines (10% drop in emerging market dollar loans from 2022–2024), and CDS risk metrics (US credit risk rose to the highest among G7 nations).\n\n**Results:** Critical findings include a 11% dollar depreciation in 2025 (the largest since the 1970s), China cutting US Treasury holdings by half ($1.32T to $756B), and the ECB and Swiss National Bank shifting large portions of dollar reserves to euros. The dollar’s \"exorbitant privilege\" is crumbling—not due to competition, but because trust in US institutions has collapsed. This \"financial interregnum\" sees states avoiding dollar-linked systems (e.g., mBridge CBDC platform, rupee oil payments), but no single alternative can fill the void. The result is a fragmented financial landscape where geopolitical interests increasingly override market logic."
+    },
+    "keyArticle": {
+      "title": "Dollar Diminished: The Unmaking of US Financial Hegemony Under Trump",
+      "authors": [
+        "Tobias Pforr",
+        "Fabian Pape",
+        "Johannes Petry"
+      ],
+      "doi": "10.1017/s0020818325101033",
+      "pages": "S117-S133"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101033",
+      "doi": "https://doi.org/10.1017/s0020818325101033",
+      "preprint": "https://hdl.handle.net/1814/94066"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T03:18:13.810594+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "political-geography-2026-02-18",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從家門到峰頂：庫德斯坦山區旅遊者如何悄然重塑邊界",
+      "en": "Sovereign Bodies on the Trail: How Mountain Tourism Reshapes Borders in Iraqi Kurdistan"
+    },
+    "summary": {
+      "zh": "在伊拉克庫德斯坦的扎格羅斯山脈中，每一次登山都是一場隱形的地緣政治實驗。本研究透過2021至2025年的田野調查，揭開旅遊活動如何在複雜的邊界系統中運作——從申請許可證、穿越檢查站到實際登山，每一步都反映並重塑著主權邊界。研究發現，這些看似平凡的旅遊實踐並非被動接受地理政治現實，而是以微觀行動主動參與邊界管理，形成獨特的權力博弈。當遊客穿過多重邊界時，他們的日常選擇（如組團方式、檢查站協商）實則在重新定義權力結構。",
+      "en": "In the Zagros Mountains of Iraqi Kurdistan, where overlapping sovereignties and contested borders define daily life, mountain tourism reveals a hidden layer of geopolitical agency. This article, based on fieldwork conducted between 2021 and 2025, examines how tourist mobility—spanning logistical preparations, permit acquisition, and checkpoint crossings—both reflects and actively reshapes the region’s complex power dynamics. The study introduces the concept of \"differentiated borderities,\" which describes uneven access to territory structured by privilege yet negotiated through everyday micro-agency.\n\nTourism, the authors argue, does not merely respond to geopolitical conditions but actively transforms them. By introducing \"sovereign bodies\"—actors with significant social and symbolic capital—into contested zones, tourism disrupts traditional notions of sovereignty. These tourists, through mundane practices like group formation and checkpoint negotiations, subtly alter the balance of power in areas where sovereignties are in competition. The article demonstrates that even leisure activities can become tools of geopolitical reconfiguration, challenging the conventional view of borders as fixed and unyielding."
+    },
+    "keyArticle": {
+      "title": "From home to summit: Sovereign bodies and the everyday geopolitics of mountain tourism in Iraqi Kurdistan",
+      "authors": [
+        "Marie Poulain",
+        "Jean Miczka"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103508",
+      "pages": "103508"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103508",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103508",
+      "preprint": "https://iris.unil.ch/handle/iris/279745"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T03:17:40.100123+00:00",
+    "source": "openalex"
+  }
+}
