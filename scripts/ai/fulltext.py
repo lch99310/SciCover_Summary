@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 # context window, but we stay well under that to leave room for the prompt.
 MAX_FULLTEXT_CHARS = 60_000
 
-# Shared HTTP session headers.
+# Shared HTTP session headers — mimic a real browser to avoid anti-scraping.
 _HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -35,6 +35,8 @@ _HEADERS = {
         "Chrome/125.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://scholar.google.com/",
 }
 
 
@@ -106,7 +108,14 @@ def _try_preprint(url: str) -> Optional[str]:
         return _fetch_biorxiv(url)
     if "ssrn.com" in url:
         return _fetch_ssrn(url)
-    # Other preprint servers can be added here.
+    if "osf.io" in url:
+        return _fetch_osf(url)
+    if "socarxiv" in url.lower():
+        return _fetch_osf(url)  # SocArXiv is hosted on OSF
+    if "repec" in url.lower() or "econpapers" in url.lower():
+        return _fetch_repec(url)
+    if "nber.org" in url:
+        return _fetch_nber(url)
     return None
 
 
@@ -194,6 +203,105 @@ def _fetch_ssrn(url: str) -> Optional[str]:
         text = _extract_text(abstract_div)
         if text:
             logger.info("Got SSRN abstract (%d chars)", len(text))
+            return text
+
+    return None
+
+
+def _fetch_osf(url: str) -> Optional[str]:
+    """Fetch from OSF Preprints / SocArXiv.
+
+    OSF preprints often have a landing page with a download link.
+    We try to extract text from the linked PDF as a fallback.
+    """
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    # OSF sometimes renders the abstract in a specific container.
+    body = soup.select_one(
+        ".preprint-content, .article-body, .preprint-abstract, "
+        "[class*='abstract'], .manuscript-body"
+    )
+    if body:
+        text = _extract_text(body)
+        if len(text) > 500:
+            logger.info("Got OSF/SocArXiv text (%d chars)", len(text))
+            return text
+
+    # Try to find a PDF download link and extract text from it.
+    pdf_link = soup.select_one(
+        "a[href$='.pdf'], a[href*='/download'], "
+        "a[data-analytics-name='Download']"
+    )
+    if pdf_link:
+        pdf_href = pdf_link.get("href", "")
+        if pdf_href and not pdf_href.startswith("http"):
+            from urllib.parse import urljoin
+            pdf_href = urljoin(url, pdf_href)
+        if pdf_href:
+            text = _extract_text_from_pdf(pdf_href)
+            if text:
+                logger.info("Got OSF/SocArXiv PDF text (%d chars)", len(text))
+                return text
+
+    return None
+
+
+def _fetch_repec(url: str) -> Optional[str]:
+    """Fetch from RePEc / EconPapers / IDEAS.
+
+    RePEc aggregates economics working papers.  Landing pages usually
+    link to a downloadable PDF hosted by the institution.
+    """
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    # Look for abstract text on the page.
+    abstract = soup.select_one(
+        "#abstract-body, .abstract, [class*='abstract'], "
+        "#abstract, .paper-abstract"
+    )
+    if abstract:
+        text = _extract_text(abstract)
+        if len(text) > 200:
+            logger.info("Got RePEc abstract (%d chars)", len(text))
+            return text
+
+    # Try to find a PDF download link.
+    pdf_link = soup.select_one("a[href$='.pdf']")
+    if pdf_link:
+        pdf_href = pdf_link.get("href", "")
+        if pdf_href and not pdf_href.startswith("http"):
+            from urllib.parse import urljoin
+            pdf_href = urljoin(url, pdf_href)
+        if pdf_href:
+            text = _extract_text_from_pdf(pdf_href)
+            if text:
+                logger.info("Got RePEc PDF text (%d chars)", len(text))
+                return text
+
+    return None
+
+
+def _fetch_nber(url: str) -> Optional[str]:
+    """Fetch from NBER working papers."""
+    html = _http_get(url)
+    if not html:
+        return None
+
+    soup = BeautifulSoup(html, "lxml")
+    body = soup.select_one(
+        ".page-header + .container, .paper-content, "
+        "#paper-body, .abstract"
+    )
+    if body:
+        text = _extract_text(body)
+        if len(text) > 300:
+            logger.info("Got NBER text (%d chars)", len(text))
             return text
 
     return None

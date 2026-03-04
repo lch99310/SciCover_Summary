@@ -123,6 +123,11 @@ class OpenAlexFetcher:
     def fetch_latest(self, journal_key: str) -> Optional[CoverArticleRaw]:
         """Fetch the most recent research article for *journal_key*.
 
+        Prefers articles that have full text available (``has_fulltext``
+        flag in OpenAlex, or a preprint URL on a known server).  If no
+        full-text candidate is found, falls back to the best available
+        article.
+
         Parameters
         ----------
         journal_key:
@@ -174,9 +179,8 @@ class OpenAlexFetcher:
             logger.warning("No articles found for %s", journal_name)
             return None
 
-        # Pick the best candidate from results: prefer articles that have
-        # an OA PDF URL (for thumbnail extraction) and an abstract (genuine
-        # research article, not news/comment).
+        # Pick the best candidate: prefer articles that have full text
+        # available (has_fulltext flag, preprint URL, or OA PDF + abstract).
         work = self._pick_best_candidate(results, journal_name)
         return self._work_to_raw(work, journal_name)
 
@@ -210,7 +214,11 @@ class OpenAlexFetcher:
 
     def get_preprint_url(self, work: Dict[str, Any]) -> str:
         """Extract a preprint URL from the work's locations, if available."""
-        _PREPRINT_SERVERS = ("arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv")
+        _PREPRINT_SERVERS = (
+            "arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv",
+            "osf.io/preprints", "osf.io", "repec", "ideas.repec",
+            "econpapers", "nber.org/papers",
+        )
 
         for loc in work.get("locations", []):
             version = (loc.get("version") or "").lower()
@@ -249,14 +257,19 @@ class OpenAlexFetcher:
     ) -> Dict[str, Any]:
         """Select the best article from a list of OpenAlex results.
 
-        Prefers articles that:
-          1. Have an OA PDF URL (needed for thumbnail extraction).
-          2. Have an abstract (genuine research, not news/commentary).
-          3. Are the most recent.
-
-        Falls back to the first result if no ideal candidate is found.
+        Priority tiers (first match wins):
+          1. Has full text available (``has_fulltext`` flag from OpenAlex)
+             AND has an abstract AND has a PDF.
+          2. Has a preprint URL on a known server AND has an abstract.
+          3. Has an OA PDF URL AND has an abstract.
+          4. Has an abstract (fallback).
+          5. First result (last resort).
         """
-        best = None
+        tier1 = None   # has_fulltext + abstract + PDF
+        tier2 = None   # preprint + abstract
+        tier3 = None   # PDF + abstract
+        tier4 = None   # abstract only
+
         for work in results:
             best_oa = work.get("best_oa_location", {}) or {}
             primary_loc = work.get("primary_location", {}) or {}
@@ -264,6 +277,8 @@ class OpenAlexFetcher:
                 best_oa.get("pdf_url") or primary_loc.get("pdf_url")
             )
             has_abstract = bool(work.get("abstract_inverted_index"))
+            has_fulltext = bool(work.get("has_fulltext"))
+            has_preprint = bool(self.get_preprint_url(work))
 
             # Skip news/commentary articles (Nature d41586-* DOIs, etc.).
             doi = work.get("doi") or ""
@@ -274,23 +289,37 @@ class OpenAlexFetcher:
                 )
                 continue
 
-            if has_pdf and has_abstract:
-                logger.info(
-                    "%s: selected '%s' (has PDF + abstract)",
-                    journal_name, work.get("display_name", "")[:60],
-                )
-                return work
+            if not has_abstract:
+                continue
 
-            # Remember the first valid candidate as fallback.
-            if best is None and has_abstract:
-                best = work
+            # Tier 1: full text confirmed by OpenAlex.
+            if has_fulltext and has_pdf and tier1 is None:
+                tier1 = work
+            # Tier 2: preprint available (reliable full-text source).
+            if has_preprint and tier2 is None:
+                tier2 = work
+            # Tier 3: PDF + abstract (can extract text from PDF).
+            if has_pdf and tier3 is None:
+                tier3 = work
+            # Tier 4: abstract only.
+            if tier4 is None:
+                tier4 = work
 
-        if best is not None:
-            logger.info(
-                "%s: using fallback candidate '%s' (no PDF but has abstract)",
-                journal_name, best.get("display_name", "")[:60],
+        chosen = tier1 or tier2 or tier3 or tier4
+        if chosen is not None:
+            has_ft = bool(chosen.get("has_fulltext"))
+            has_pp = bool(self.get_preprint_url(chosen))
+            tag = (
+                "has_fulltext + PDF + abstract" if chosen is tier1
+                else "has preprint + abstract" if chosen is tier2
+                else "has PDF + abstract" if chosen is tier3
+                else "abstract only"
             )
-            return best
+            logger.info(
+                "%s: selected '%s' (%s)",
+                journal_name, chosen.get("display_name", "")[:60], tag,
+            )
+            return chosen
 
         # Last resort: return the first result.
         logger.warning(

@@ -1,9 +1,9 @@
 """
-utils.pdf_thumbnail — Extract a thumbnail image from the first page of a PDF.
+utils.pdf_thumbnail — Extract a thumbnail image from a PDF page with a figure.
 
-Uses PyMuPDF (``fitz``) to render the first page of an open-access PDF at a
-resolution suitable for web thumbnails (~800px wide).  The output is saved as
-a JPEG file.
+Uses PyMuPDF (``fitz``) to find the first page that contains a meaningful
+image (embedded figure, photo, etc.) and renders it as a JPEG.  If no page
+has an image, falls back to the first page.
 
 If the PDF cannot be downloaded or parsed, the function returns ``None``
 gracefully so the pipeline can continue without a thumbnail.
@@ -23,6 +23,25 @@ logger = logging.getLogger(__name__)
 # Target width for the rendered thumbnail (pixels).
 TARGET_WIDTH = 800
 JPEG_QUALITY = 85
+
+# Minimum image area (pixels) to count as a "meaningful" figure.
+# Tiny images (icons, logos, decorations) are ignored.
+_MIN_IMAGE_AREA = 40_000  # ~200×200
+
+# How many pages to scan for a figure before giving up.
+_MAX_PAGES_TO_SCAN = 8
+
+# Shared headers that mimic a real browser.
+_PDF_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/pdf,application/octet-stream,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://scholar.google.com/",
+}
 
 
 def extract_thumbnail_from_urls(
@@ -50,15 +69,18 @@ def extract_thumbnail_from_pdf(
     *,
     timeout: int = 60,
 ) -> Optional[Path]:
-    """Download a PDF from *pdf_url* and save the first page as a JPEG thumbnail.
+    """Download a PDF from *pdf_url* and save a page with a figure as JPEG.
+
+    Scans the first few pages looking for one that contains a meaningful
+    embedded image (figure, chart, photo).  If none is found, falls back
+    to the first page.
 
     Parameters
     ----------
     pdf_url:
         Direct URL to the PDF file.
     output_path:
-        Where to save the resulting JPEG image.  Parent directories are
-        created automatically.
+        Where to save the resulting JPEG image.
     timeout:
         HTTP download timeout in seconds.
 
@@ -87,13 +109,8 @@ def extract_thumbnail_from_pdf(
             pdf_url,
             timeout=timeout,
             stream=True,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/125.0.0.0 Safari/537.36"
-                ),
-            },
+            headers=_PDF_HEADERS,
+            allow_redirects=True,
         )
         resp.raise_for_status()
 
@@ -110,34 +127,36 @@ def extract_thumbnail_from_pdf(
         return None
 
     # Write to a temp file, then render with PyMuPDF.
+    tmp_path: str | None = None
     try:
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
             tmp_path = tmp.name
             for chunk in resp.iter_content(chunk_size=8192):
                 tmp.write(chunk)
 
-        # Step 2 — Open the PDF and render the first page.
+        # Step 2 — Open the PDF and find the best page.
         doc = fitz.open(tmp_path)
         if doc.page_count == 0:
             logger.warning("PDF has zero pages: %s", pdf_url)
             doc.close()
             return None
 
-        page = doc[0]
-        # Calculate zoom factor to hit TARGET_WIDTH.
+        best_page = _find_page_with_image(doc)
+
+        # Step 3 — Render and save as JPEG.
+        page = doc[best_page]
         rect = page.rect
         zoom = TARGET_WIDTH / rect.width
         mat = fitz.Matrix(zoom, zoom)
         pix = page.get_pixmap(matrix=mat, alpha=False)
 
-        # Step 3 — Save as JPEG.
         pix.save(str(out), output="jpeg", jpg_quality=JPEG_QUALITY)
         doc.close()
 
         size_kb = out.stat().st_size / 1024
         logger.info(
-            "PDF thumbnail saved (%0.1f KB, %dx%d) to %s",
-            size_kb, pix.width, pix.height, out,
+            "PDF thumbnail saved (%0.1f KB, %dx%d, page %d) to %s",
+            size_kb, pix.width, pix.height, best_page + 1, out,
         )
         return out
 
@@ -145,8 +164,38 @@ def extract_thumbnail_from_pdf(
         logger.warning("PDF thumbnail extraction failed: %s", exc)
         return None
     finally:
-        # Clean up temp file.
+        if tmp_path:
+            try:
+                Path(tmp_path).unlink(missing_ok=True)
+            except Exception:
+                pass
+
+
+def _find_page_with_image(doc) -> int:
+    """Return the index of the first page that contains a meaningful image.
+
+    Scans up to ``_MAX_PAGES_TO_SCAN`` pages.  A "meaningful" image is one
+    whose area exceeds ``_MIN_IMAGE_AREA`` pixels — this filters out tiny
+    logos, decorations, and line-art borders.
+
+    Falls back to page 0 if no page has a qualifying image.
+    """
+    pages_to_check = min(doc.page_count, _MAX_PAGES_TO_SCAN)
+
+    for i in range(pages_to_check):
         try:
-            Path(tmp_path).unlink(missing_ok=True)
+            page = doc[i]
+            images = page.get_images(full=True)
+            for img in images:
+                # img tuple: (xref, smask, width, height, bpc, colorspace, ...)
+                w, h = img[2], img[3]
+                if w * h >= _MIN_IMAGE_AREA:
+                    logger.debug(
+                        "Found figure on page %d (%dx%d px)", i + 1, w, h,
+                    )
+                    return i
         except Exception:
-            pass
+            continue
+
+    # No page with a large image found — default to first page.
+    return 0
