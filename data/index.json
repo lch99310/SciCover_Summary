@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T08:29:55.236225+00:00",
+  "lastUpdated": "2026-03-04T10:04:23.794685+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -9,6 +9,15 @@
       "title_zh": "邊界之戰：德國選舉中的隱形壁壘",
       "title_en": "Which Border Matters Most? The Hidden Divides in German Elections",
       "cover_url": ""
+    },
+    {
+      "id": "nature-2026-02-25",
+      "journal": "Nature",
+      "date": "2026-02-25",
+      "path": "articles/2026/02/nature-2026-02-25.json",
+      "title_zh": "超導體的隱形手：光子腔讓電子「失重」，超導性大降50%",
+      "title_en": "Cavity Control: How an Invisible Photon Trap Can Weaken Superconductivity by Half",
+      "cover_url": "data/images/nature/nature-2026-02-25-cover.jpg"
     },
     {
       "id": "science-2026-02-12",

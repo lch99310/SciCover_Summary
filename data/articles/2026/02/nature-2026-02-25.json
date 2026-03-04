@@ -1,0 +1,79 @@
+{
+  "id": "nature-2026-02-25",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超導體的隱形手：光子腔讓電子「失重」，超導性大降50%",
+      "en": "Cavity Control: How an Invisible Photon Trap Can Weaken Superconductivity by Half"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開了光子腔操控超導體的神秘面紗——當鈹氮化合物（hBN）構成的超材料腔體與有機超導體κ-ET共振時，超導體的「超流體密度」竟下降50%以上。這不僅是首次證實「電磁環境」能直接影響物質的量子基態，更為未來設計「按需調製」的量子材料開闢了新路徑，讓科學家們終於能用光子「捏造」出全新物質狀態。\n\n【研究問題】過去研究試圖用光子腔控制超導性，但多聚焦於晶格聲子的間接作用，卻忽略了純電子相變的本質。本研究直指關鍵盲點：能否不經由晶格變化，單純透過光子腔調控電子行為？這個問題的解答關係到能否實現「純電磁環境操控物質」的終極願景，對量子技術發展至關重要。\n\n【研究方法】團隊以「原子力顯微鏡」精準測量超導體的「邁斯納效應」（超導體排斥磁場的現象），並用「近場光學顯微鏡」觀測鈹氮材料與有機超導體界面的光子振盪。最關鍵的創意在於：他們選用hBN的「超材料特性」，讓其振盪頻率精準對準有機超導體的C=C鍵振動頻率，形成共振腔體。透過對照實驗（使用非共振的RuCl₃材料）排除干擾，證明效果源自共振耦合。\n\n【結果】實驗顯示，在hBN/κ-ET界面，超流體密度下降幅度達50%以上，且不受hBN厚度（25-110nm）影響。這意味著光子腔能深入影響超導體核心性質。研究人員推測，若將這種共振機制反向運用，或許能「增強」傳統超導體的超導性。這項發現不僅為量子材料工程提供新工具，更可能引發「用光子重塑物質」的科技革命。",
+      "en": "**Summary:** This groundbreaking study unveils a new frontier in quantum material engineering: when a hyperbolic phonon polariton cavity (hBN) resonates with the electronic structure of an organic superconductor (κ-ET), superconductivity weakens by over 50%. This is the first demonstration that an electromagnetic environment can directly alter a material's quantum ground state without modifying its chemical composition—a paradigm shift for designing 'on-demand' quantum materials. The discovery opens doors to controlling superconductivity through photon engineering alone.\n\n**Problem:** Previous attempts to control superconductivity with cavities focused on indirect phonon-mediated effects, ignoring the pure electronic nature of the superconducting transition. This research targets a critical gap: can we manipulate superconductivity without lattice distortions? Answering this question is vital for realizing the ultimate goal of quantum control—using light to sculpt matter itself.\n\n**Approach:** Researchers combined atomic force microscopy (MFM) to measure the Meissner effect with scattering-type near-field optical microscopy (s-SNOM) to visualize photon polariton dynamics. The key innovation was using hBN's hyperbolic phonon polaritons to create a resonant cavity tuned to κ-ET's C=C vibrational mode. Control experiments with RuCl₃ (non-resonant) ruled out alternative explanations like charge transfer or strain effects.\n\n**Results:** A 50% suppression of superfluid density was observed across hBN thicknesses (25-110 nm), proving the effect is not geometry-dependent. This demonstrates that photon cavities can profoundly alter a material's fundamental quantum properties. The authors speculate that reversing the coupling mechanism could enhance conventional superconductivity—a tantalizing prospect for quantum computing and energy applications. This work establishes a universal framework for cavity engineering across diverse quantum materials."
+    },
+    "keyArticle": {
+      "title": "Cavity-altered superconductivity",
+      "authors": [
+        "Itai Keren",
+        "Tatiana A. Webb",
+        "Shuai Zhang",
+        "Jikai Xu",
+        "Dihao Sun",
+        "Brian S. Y. Kim",
+        "Dongbin Shin",
+        "Songtian S. Zhang",
+        "Junhe Zhang",
+        "Giancarlo Pereira",
+        "Juntao Yao",
+        "Takuya Okugawa",
+        "Marios H. Michael",
+        "Martin Claassen",
+        "James H. Edgar",
+        "Stuart Wolf",
+        "Matthew Julian",
+        "Rohit P. Prasankumar",
+        "Kazuya Miyagawa",
+        "Kazushi Kanoda",
+        "Genda Gu",
+        "Matthew Cothrine",
+        "David Mandrus",
+        "M. Buzzi",
+        "Andrea Cavalleri",
+        "Cory R. Dean",
+        "Dante M. Kennes",
+        "Andrew J. Millis",
+        "Qiang Li",
+        "Michael A. Sentef",
+        "Angel Rubio",
+        "Abhay N. Pasupathy",
+        "D. N. Basov"
+      ],
+      "doi": "10.1038/s41586-025-10062-6",
+      "pages": "864-868"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10062-6",
+      "doi": "https://doi.org/10.1038/s41586-025-10062-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T10:04:20.483608+00:00",
+    "source": "openalex"
+  }
+}
