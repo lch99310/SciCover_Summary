@@ -193,8 +193,8 @@ class OpenAlexFetcher:
     def fetch_fulltext(self, openalex_id: str) -> Optional[str]:
         """Download the full text of a work via OpenAlex's content API.
 
-        Tries TEI XML (Grobid parsed text) first, then falls back to
-        checking ``best_oa_location.pdf_url`` for a direct PDF link.
+        Tries TEI XML (Grobid parsed text) first, then the content API PDF,
+        then falls back to returning ``None``.
 
         Returns plain text or ``None``.
         """
@@ -203,18 +203,30 @@ class OpenAlexFetcher:
         if "/" in short_id:
             short_id = short_id.rsplit("/", 1)[-1]
 
+        if not self._api_key:
+            return None
+
         # Strategy 1: TEI XML from OpenAlex content API (parsed full text).
-        if self._api_key:
-            xml_url = f"{CONTENT_BASE}/works/{short_id}.grobid-xml"
-            xml_text = self._download_content(xml_url)
-            if xml_text:
-                plain = self._tei_to_text(xml_text)
-                if plain and len(plain) > 500:
-                    logger.info(
-                        "Got full text from OpenAlex TEI XML (%d chars)",
-                        len(plain),
-                    )
-                    return self._truncate(plain)
+        xml_url = f"{CONTENT_BASE}/works/{short_id}.tei.xml"
+        xml_text = self._download_content(xml_url)
+        if xml_text:
+            plain = self._tei_to_text(xml_text)
+            if plain and len(plain) > 500:
+                logger.info(
+                    "Got full text from OpenAlex TEI XML (%d chars)",
+                    len(plain),
+                )
+                return self._truncate(plain)
+
+        # Strategy 2: Download PDF from content API and extract text.
+        pdf_url = f"{CONTENT_BASE}/works/{short_id}.pdf"
+        text = self._extract_text_from_content_pdf(pdf_url)
+        if text:
+            logger.info(
+                "Got full text from OpenAlex content PDF (%d chars)",
+                len(text),
+            )
+            return self._truncate(text)
 
         return None
 
@@ -424,9 +436,21 @@ class OpenAlexFetcher:
         raw._openalex_id = openalex_id  # type: ignore[attr-defined]
         raw._oa_pdf_url = oa_pdf  # type: ignore[attr-defined]
 
-        # Collect ALL PDF URLs from all locations.  Prioritise repository
-        # copies (PMC, Europe PMC, etc.) which are more reliably downloadable
-        # than publisher PDFs that often block automated requests.
+        # Collect ALL PDF URLs from all locations.  Order:
+        #   1. OpenAlex content API (most reliable, bypasses publisher blocks)
+        #   2. Repository copies (PMC, Europe PMC, etc.)
+        #   3. Primary OA PDF from publisher
+        #   4. Other publisher PDFs
+        all_pdfs: List[str] = []
+
+        # OpenAlex content API PDF — requires API key, $0.01/file, $1/day free.
+        # This bypasses ALL publisher anti-scraping since OpenAlex has already
+        # crawled and cached the PDFs.
+        if self._api_key and openalex_id:
+            short_id = openalex_id.rsplit("/", 1)[-1] if "/" in openalex_id else openalex_id
+            content_pdf = f"{CONTENT_BASE}/works/{short_id}.pdf?api_key={self._api_key}"
+            all_pdfs.append(content_pdf)
+
         repo_pdfs: List[str] = []
         publisher_pdfs: List[str] = []
         for loc in work.get("locations", []):
@@ -439,8 +463,7 @@ class OpenAlexFetcher:
                 repo_pdfs.append(loc_pdf)
             elif loc_pdf != oa_pdf:
                 publisher_pdfs.append(loc_pdf)
-        # repos first, then the primary OA PDF, then other publisher PDFs
-        all_pdfs = repo_pdfs
+        all_pdfs.extend(repo_pdfs)
         if oa_pdf:
             all_pdfs.append(oa_pdf)
         all_pdfs.extend(publisher_pdfs)
@@ -486,6 +509,63 @@ class OpenAlexFetcher:
         except requests.RequestException as exc:
             logger.debug("Content download failed: %s", exc)
             return None
+
+    def _extract_text_from_content_pdf(self, pdf_url: str) -> Optional[str]:
+        """Download a PDF from the content API and extract text via PyMuPDF."""
+        import tempfile
+        from pathlib import Path
+
+        try:
+            import fitz  # PyMuPDF
+        except ImportError:
+            logger.debug("PyMuPDF not installed — cannot extract content PDF")
+            return None
+
+        params = {}
+        if self._api_key:
+            params["api_key"] = self._api_key
+
+        try:
+            resp = self._session.get(
+                pdf_url, params=params, timeout=60, stream=True,
+            )
+            if resp.status_code == 404:
+                logger.debug("Content PDF not available: %s", pdf_url)
+                return None
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            logger.debug("Content PDF download failed: %s", exc)
+            return None
+
+        tmp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+                tmp_path = tmp.name
+                for chunk in resp.iter_content(chunk_size=8192):
+                    tmp.write(chunk)
+
+            doc = fitz.open(tmp_path)
+            text_parts = []
+            for page in doc:
+                text_parts.append(page.get_text())
+            doc.close()
+
+            text = "\n\n".join(text_parts)
+            text = re.sub(r"\n{3,}", "\n\n", text).strip()
+
+            if len(text) > 500:
+                return text
+            return None
+
+        except Exception as exc:
+            logger.debug("Content PDF text extraction failed: %s", exc)
+            return None
+        finally:
+            if tmp_path:
+                try:
+                    Path(tmp_path).unlink(missing_ok=True)
+                except Exception:
+                    pass
 
     @staticmethod
     def _tei_to_text(xml_text: str) -> str:

@@ -195,6 +195,7 @@ class PipelineRunner:
             image_path = extract_thumbnail_from_urls(
                 pdf_urls_to_try, thumb_file,
                 article_url=html_url_for_image,
+                doi=raw.article_doi or "",
             )
             if image_path:
                 logger.info("Thumbnail extracted for %s", article_id)

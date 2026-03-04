@@ -66,14 +66,17 @@ def extract_thumbnail_from_urls(
     output_path: str | Path,
     *,
     article_url: str = "",
+    doi: str = "",
     timeout: int = 60,
 ) -> Optional[Path]:
     """Try multiple PDF URLs, then HTML, returning the first successful thumbnail.
 
     Strategy:
       1. Try each PDF URL in order (cookie-based session for anti-scraping).
-      2. If all PDFs fail and *article_url* is provided, extract an image
-         from the article HTML page (graphical abstract, cover figure, etc.).
+      2. If all PDFs fail, extract an image from the article HTML page
+         (og:image, graphical abstract, figures).
+      3. If article_url fails, try the DOI URL (``https://doi.org/...``)
+         which may redirect to a different endpoint that allows access.
     """
     for url in pdf_urls:
         result = extract_thumbnail_from_pdf(
@@ -83,8 +86,17 @@ def extract_thumbnail_from_urls(
             return result
 
     # Fallback: extract an image from the article HTML page.
+    # Try article_url first, then DOI URL (DOI redirects may bypass blocks).
+    html_urls_to_try = []
     if article_url:
-        result = extract_image_from_html(article_url, output_path, timeout=timeout)
+        html_urls_to_try.append(article_url)
+    if doi:
+        doi_url = f"https://doi.org/{doi}" if not doi.startswith("http") else doi
+        if doi_url not in html_urls_to_try:
+            html_urls_to_try.append(doi_url)
+
+    for html_url in html_urls_to_try:
+        result = extract_image_from_html(html_url, output_path, timeout=timeout)
         if result is not None:
             return result
 
