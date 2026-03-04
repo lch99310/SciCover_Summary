@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T20:22:16.758340+00:00",
+  "lastUpdated": "2026-03-04T21:29:50.567434+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -35,6 +35,15 @@
       "path": "articles/2026/02/political-geography-2026-02-24.json",
       "title_zh": "雨林的雙面刃：馬達加斯加拉諾馬法納的國家邊界爭奪戰",
       "title_en": "The Forest’s Double Edge: How Conservation and Mining Erase Madagascar’s Last Refuge",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-02-23",
+      "journal": "Political Geography",
+      "date": "2026-02-23",
+      "path": "articles/2026/02/political-geography-2026-02-23.json",
+      "title_zh": "太陽能變戰爭武器？以色列與巴勒斯坦的能源安全角力",
+      "title_en": "Solar Power as a Shield: How Energy Became a Weapon in Israel-Palestine Conflict",
       "cover_url": ""
     },
     {
