@@ -129,37 +129,32 @@ class OpenAlexFetcher:
     def fetch_latest(self, journal_key: str) -> Optional[CoverArticleRaw]:
         """Fetch the most recent research article for *journal_key*.
 
-        Prefers articles that have full text available (``has_fulltext``
-        flag in OpenAlex, or a preprint URL on a known server).  If no
-        full-text candidate is found, falls back to the best available
-        article.
+        Convenience wrapper around :meth:`fetch_candidates` that returns
+        only the top-ranked candidate.
+        """
+        candidates = self.fetch_candidates(journal_key)
+        return candidates[0] if candidates else None
 
-        Parameters
-        ----------
-        journal_key:
-            A key from ``JOURNAL_REGISTRY`` (e.g. ``"science"``) or an
-            alias from ``JOURNAL_ALIASES`` (e.g. ``"political geography"``).
+    def fetch_candidates(self, journal_key: str) -> List[CoverArticleRaw]:
+        """Return a ranked list of recent OA article candidates.
 
-        Returns ``None`` if the API call fails or no article is found.
+        The list is ordered by content-quality tier (best first), then by
+        publication date (newest first within each tier).  Only articles
+        from the last ``_RECENT_DAYS`` days are included, unless none exist
+        (in which case the single newest article is returned as a fallback).
+
+        The caller should iterate through the list, skipping articles that
+        have already been processed, until a new article is found.
         """
         key = JOURNAL_ALIASES.get(journal_key.lower(), journal_key.lower())
         info = JOURNAL_REGISTRY.get(key)
         if info is None:
             logger.error("Unknown journal key: %s", journal_key)
-            return None
+            return []
 
         source_id = info["source_id"]
         journal_name = info["display_name"]
 
-        # Query: latest open-access research articles from this source.
-        # Filters:
-        #   - type:article — research articles only (not reviews/editorials)
-        #   - open_access.is_oa:true — only open-access articles (ensures
-        #     we can download the PDF for thumbnails and full-text extraction)
-        #   - is_paratext:false — no supplementary/front matter
-        #   - is_retracted:false — no retracted papers
-        #   - biblio.volume:!null — assigned to a published volume/issue
-        #     (excludes news, blog posts published without volume data)
         params: Dict[str, str] = {
             "filter": (
                 f"primary_location.source.id:{source_id},"
@@ -178,17 +173,15 @@ class OpenAlexFetcher:
         url = f"{API_BASE}/works"
         data = self._api_get(url, params=params)
         if data is None:
-            return None
+            return []
 
         results = data.get("results", [])
         if not results:
             logger.warning("No articles found for %s", journal_name)
-            return None
+            return []
 
-        # Pick the best candidate: prefer articles that have full text
-        # available (has_fulltext flag, preprint URL, or OA PDF + abstract).
-        work = self._pick_best_candidate(results, journal_name)
-        return self._work_to_raw(work, journal_name)
+        ranked = self._rank_candidates(results, journal_name)
+        return [self._work_to_raw(w, journal_name) for w in ranked]
 
     def fetch_fulltext(self, openalex_id: str) -> Optional[str]:
         """Download the full text of a work via OpenAlex's content API.
@@ -260,54 +253,42 @@ class OpenAlexFetcher:
     # Internal helpers
     # ------------------------------------------------------------------
 
-    def _pick_best_candidate(
+    def _rank_candidates(
         self, results: List[Dict[str, Any]], journal_name: str,
-    ) -> Dict[str, Any]:
-        """Select the best *recent* article from a list of OpenAlex results.
+    ) -> List[Dict[str, Any]]:
+        """Rank articles by content-quality tier, returning all recent ones.
 
         Results arrive sorted by ``publication_date:desc`` (newest first).
 
-        Strategy:
-          1. Only consider articles from the last ``_RECENT_DAYS`` days.
-          2. Among recent articles, prefer articles with the most content:
-               tier1 = has_fulltext + PDF + abstract
-               tier2 = preprint + abstract
-               tier3 = PDF + abstract
-               tier4 = abstract only
-          3. If NO recent article has tier1/2/3, still prefer the newest
-             article (tier4) over an old tier1 from 2 years ago.
+        Tier order (best first):
+          1. has_fulltext + PDF + abstract
+          2. preprint + abstract
+          3. PDF + abstract
+          4. abstract only
+
+        Only articles from the last ``_RECENT_DAYS`` days are included.
+        If none exist, the single newest article with an abstract is returned.
         """
-        # Date cutoff: only consider articles from the last N days.
         cutoff = (
             datetime.now(timezone.utc) - timedelta(days=_RECENT_DAYS)
         ).strftime("%Y-%m-%d")
 
-        tier1 = None   # has_fulltext + abstract + PDF
-        tier2 = None   # preprint + abstract
-        tier3 = None   # PDF + abstract
-        tier4 = None   # abstract only
+        tier1: List[Dict[str, Any]] = []
+        tier2: List[Dict[str, Any]] = []
+        tier3: List[Dict[str, Any]] = []
+        tier4: List[Dict[str, Any]] = []
 
         for work in results:
-            # Skip news/commentary articles (Nature d41586-* DOIs, etc.).
             doi = work.get("doi") or ""
             if "d41586" in doi or "d41591" in doi:
-                logger.debug(
-                    "Skipping non-research article: %s (%s)",
-                    work.get("display_name", "")[:60], doi,
-                )
                 continue
 
             has_abstract = bool(work.get("abstract_inverted_index"))
             if not has_abstract:
                 continue
 
-            # Enforce recency: skip articles older than the cutoff.
             pub_date = work.get("publication_date", "") or ""
             if pub_date < cutoff:
-                logger.debug(
-                    "Skipping old article: %s (%s)",
-                    work.get("display_name", "")[:60], pub_date,
-                )
                 continue
 
             best_oa = work.get("best_oa_location", {}) or {}
@@ -318,55 +299,46 @@ class OpenAlexFetcher:
             has_fulltext = bool(work.get("has_fulltext"))
             has_preprint = bool(self.get_preprint_url(work))
 
-            # Tier 1: full text confirmed by OpenAlex.
-            if has_fulltext and has_pdf and tier1 is None:
-                tier1 = work
-            # Tier 2: preprint available (reliable full-text source).
-            if has_preprint and tier2 is None:
-                tier2 = work
-            # Tier 3: PDF + abstract (can extract text from PDF).
-            if has_pdf and tier3 is None:
-                tier3 = work
-            # Tier 4: abstract only.
-            if tier4 is None:
-                tier4 = work
+            if has_fulltext and has_pdf:
+                tier1.append(work)
+            elif has_preprint:
+                tier2.append(work)
+            elif has_pdf:
+                tier3.append(work)
+            else:
+                tier4.append(work)
 
-        chosen = tier1 or tier2 or tier3 or tier4
+        ranked = tier1 + tier2 + tier3 + tier4
 
-        # If no recent candidate found, fall back to the newest result
-        # that has an abstract (regardless of age).
-        if chosen is None:
+        if not ranked:
+            # No recent candidates — fall back to newest with abstract.
             for work in results:
                 if bool(work.get("abstract_inverted_index")):
-                    chosen = work
                     logger.warning(
                         "%s: no recent article found (cutoff=%s), "
-                        "falling back to newest with abstract: '%s' (%s)",
+                        "falling back to newest: '%s' (%s)",
                         journal_name, cutoff,
                         work.get("display_name", "")[:60],
                         work.get("publication_date", ""),
                     )
-                    break
+                    return [work]
+            # Absolute last resort.
+            return [results[0]]
 
-        if chosen is not None:
-            tag = (
-                "has_fulltext + PDF + abstract" if chosen is tier1
-                else "has preprint + abstract" if chosen is tier2
-                else "has PDF + abstract" if chosen is tier3
-                else "abstract only"
-            )
-            logger.info(
-                "%s: selected '%s' (%s, %s)",
-                journal_name, chosen.get("display_name", "")[:60],
-                tag, chosen.get("publication_date", ""),
-            )
-            return chosen
-
-        # Last resort: return the first result.
-        logger.warning(
-            "%s: no ideal candidate found, using first result", journal_name,
+        # Log the top pick.
+        top = ranked[0]
+        tag = (
+            "has_fulltext + PDF + abstract" if top in tier1
+            else "has preprint + abstract" if top in tier2
+            else "has PDF + abstract" if top in tier3
+            else "abstract only"
         )
-        return results[0]
+        logger.info(
+            "%s: top candidate '%s' (%s, %s) — %d total candidates",
+            journal_name, top.get("display_name", "")[:60],
+            tag, top.get("publication_date", ""), len(ranked),
+        )
+        return ranked
 
     def _work_to_raw(
         self, work: Dict[str, Any], journal_name: str,

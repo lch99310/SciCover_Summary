@@ -129,51 +129,73 @@ class PipelineRunner:
         journal_name: str,
         report: Dict[str, list],
     ) -> None:
-        """Fetch, summarise, and persist one journal."""
+        """Fetch, summarise, and persist one journal.
 
-        # Step 1 — Fetch latest article from OpenAlex.
-        logger.info("Fetching latest article for %s via OpenAlex...", journal_name)
-        raw = self.fetcher.fetch_latest(journal_key)
-        if raw is None:
+        Iterates through ranked candidates from OpenAlex.  If the top
+        candidate has already been processed, moves on to the next one
+        instead of skipping the journal entirely.
+        """
+
+        # Step 1 — Fetch ranked candidates from OpenAlex.
+        logger.info("Fetching candidates for %s via OpenAlex...", journal_name)
+        candidates = self.fetcher.fetch_candidates(journal_key)
+        if not candidates:
             logger.warning("OpenAlex returned nothing for %s", journal_name)
             report["errors"].append(
                 {"journal": journal_name, "error": "OpenAlex returned no results"}
             )
             return
 
+        # Step 2 — Find the first candidate we haven't processed yet.
+        raw = None
+        article_id = ""
+        entry_file = None
+
+        for candidate in candidates:
+            # Validate date.
+            if not candidate.date or not candidate.date.strip():
+                today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                candidate.date = today
+
+            cand_id = generate_article_id(candidate.journal, candidate.date)
+            try:
+                dt = datetime.strptime(candidate.date, "%Y-%m-%d")
+                cand_file = (
+                    DATA_DIR / "articles" / f"{dt.year:04d}" / f"{dt.month:02d}"
+                    / f"{cand_id}.json"
+                )
+            except (ValueError, TypeError):
+                cand_file = DATA_DIR / "articles" / f"{cand_id}.json"
+
+            if cand_file.exists():
+                logger.info(
+                    "Already have %s ('%s') — trying next candidate",
+                    cand_id, candidate.article_title[:50],
+                )
+                report["skipped"].append(cand_id)
+                continue
+
+            # Found a new article to process.
+            raw = candidate
+            article_id = cand_id
+            entry_file = cand_file
+            break
+
+        if raw is None:
+            logger.info(
+                "All %d candidates for %s already processed",
+                len(candidates), journal_name,
+            )
+            return
+
         logger.info(
-            "%s: found '%s' (vol.%s #%s, %s)",
+            "%s: processing '%s' (vol.%s #%s, %s)",
             journal_name,
             raw.article_title[:60],
             raw.volume,
             raw.issue,
             raw.date,
         )
-
-        # Validate date.
-        if not raw.date or not raw.date.strip():
-            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            logger.warning(
-                "Article for %s has no date — falling back to today (%s)",
-                journal_name, today,
-            )
-            raw.date = today
-
-        # Step 2 — Deduplicate.
-        article_id = generate_article_id(raw.journal, raw.date)
-        try:
-            dt = datetime.strptime(raw.date, "%Y-%m-%d")
-            entry_file = (
-                DATA_DIR / "articles" / f"{dt.year:04d}" / f"{dt.month:02d}"
-                / f"{article_id}.json"
-            )
-        except (ValueError, TypeError):
-            entry_file = DATA_DIR / "articles" / f"{article_id}.json"
-
-        if entry_file.exists():
-            logger.info("Already have %s — skipping", article_id)
-            report["skipped"].append(article_id)
-            return
 
         # Step 3 — Extract thumbnail.
         # Strategy: PDF pages → article HTML (og:image, figures) → preprint HTML.
