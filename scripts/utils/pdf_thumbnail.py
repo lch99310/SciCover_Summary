@@ -1,22 +1,28 @@
 """
-utils.pdf_thumbnail — Extract a thumbnail image from a PDF page with a figure.
+utils.pdf_thumbnail — Extract a thumbnail image from a PDF or article HTML.
 
-Uses PyMuPDF (``fitz``) to find the first page that contains a meaningful
-image (embedded figure, photo, etc.) and renders it as a JPEG.  If no page
-has an image, falls back to the first page.
+Strategy (tried in order):
+  1. Download the PDF (using a cookie-based session) and render the first
+     page that contains a meaningful figure as a JPEG thumbnail.
+  2. If all PDF URLs fail, fetch the article HTML page and download the
+     first large ``<img>`` (typically a cover figure / graphical abstract).
 
-If the PDF cannot be downloaded or parsed, the function returns ``None``
-gracefully so the pipeline can continue without a thumbnail.
+If neither approach works, the function returns ``None`` gracefully so the
+pipeline can continue without a thumbnail.
 """
 
 from __future__ import annotations
 
+import io
 import logging
+import re
 import tempfile
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urljoin
 
 import requests
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
@@ -31,13 +37,24 @@ _MIN_IMAGE_AREA = 40_000  # ~200×200
 # How many pages to scan for a figure before giving up.
 _MAX_PAGES_TO_SCAN = 8
 
+# Minimum pixel dimensions for an HTML image to be considered a figure.
+_MIN_HTML_IMG_WIDTH = 300
+_MIN_HTML_IMG_HEIGHT = 200
+
 # Shared headers that mimic a real browser.
-_PDF_HEADERS = {
+_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/125.0.0.0 Safari/537.36"
     ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://scholar.google.com/",
+}
+
+_PDF_HEADERS = {
+    "User-Agent": _HEADERS["User-Agent"],
     "Accept": "application/pdf,application/octet-stream,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Referer": "https://scholar.google.com/",
@@ -48,18 +65,29 @@ def extract_thumbnail_from_urls(
     pdf_urls: list[str],
     output_path: str | Path,
     *,
+    article_url: str = "",
     timeout: int = 60,
 ) -> Optional[Path]:
-    """Try multiple PDF URLs in order, returning the first successful thumbnail.
+    """Try multiple PDF URLs, then HTML, returning the first successful thumbnail.
 
-    Repository copies (PubMed Central, Europe PMC, etc.) are typically more
-    accessible than publisher PDFs, so callers should order *pdf_urls* with
-    the most reliable sources first.
+    Strategy:
+      1. Try each PDF URL in order (cookie-based session for anti-scraping).
+      2. If all PDFs fail and *article_url* is provided, extract an image
+         from the article HTML page (graphical abstract, cover figure, etc.).
     """
     for url in pdf_urls:
-        result = extract_thumbnail_from_pdf(url, output_path, timeout=timeout)
+        result = extract_thumbnail_from_pdf(
+            url, output_path, article_url=article_url, timeout=timeout,
+        )
         if result is not None:
             return result
+
+    # Fallback: extract an image from the article HTML page.
+    if article_url:
+        result = extract_image_from_html(article_url, output_path, timeout=timeout)
+        if result is not None:
+            return result
+
     return None
 
 
@@ -67,28 +95,18 @@ def extract_thumbnail_from_pdf(
     pdf_url: str,
     output_path: str | Path,
     *,
+    article_url: str = "",
     timeout: int = 60,
 ) -> Optional[Path]:
     """Download a PDF from *pdf_url* and save a page with a figure as JPEG.
 
+    Uses a cookie-based session: visits the article landing page first to
+    acquire cookies, then downloads the PDF.  This bypasses publisher
+    anti-scraping that blocks direct PDF requests.
+
     Scans the first few pages looking for one that contains a meaningful
     embedded image (figure, chart, photo).  If none is found, falls back
     to the first page.
-
-    Parameters
-    ----------
-    pdf_url:
-        Direct URL to the PDF file.
-    output_path:
-        Where to save the resulting JPEG image.
-    timeout:
-        HTTP download timeout in seconds.
-
-    Returns
-    -------
-    pathlib.Path | None
-        The output path on success, or ``None`` if the PDF could not be
-        downloaded, parsed, or rendered.
     """
     try:
         import fitz  # PyMuPDF
@@ -102,14 +120,19 @@ def extract_thumbnail_from_pdf(
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
 
+    # Build a session, pre-warmed with cookies from the article page.
+    session = _build_session(article_url)
+
     # Step 1 — Download the PDF to a temporary file.
     try:
         logger.info("Downloading PDF for thumbnail: %s", pdf_url)
-        resp = requests.get(
+        resp = session.get(
             pdf_url,
             timeout=timeout,
             stream=True,
-            headers=_PDF_HEADERS,
+            headers={
+                "Accept": "application/pdf,application/octet-stream,*/*;q=0.8",
+            },
             allow_redirects=True,
         )
         resp.raise_for_status()
@@ -199,3 +222,231 @@ def _find_page_with_image(doc) -> int:
 
     # No page with a large image found — default to first page.
     return 0
+
+
+# ---------------------------------------------------------------------------
+# HTML image extraction (fallback when PDF fails)
+# ---------------------------------------------------------------------------
+
+def extract_image_from_html(
+    article_url: str,
+    output_path: str | Path,
+    *,
+    timeout: int = 30,
+) -> Optional[Path]:
+    """Extract a figure image from the article HTML page.
+
+    Looks for graphical abstracts, cover figures, or large inline images
+    on the OA article page.  Downloads the first qualifying image and
+    saves it as JPEG.
+
+    Returns the output path on success, or ``None`` if no suitable image
+    was found.
+    """
+    if not article_url:
+        return None
+
+    out = Path(output_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    try:
+        session = _build_session()  # fresh session (no pre-warm needed)
+        resp = session.get(article_url, timeout=timeout, allow_redirects=True)
+        resp.raise_for_status()
+
+        ct = resp.headers.get("Content-Type", "")
+        if "html" not in ct.lower():
+            logger.debug("Article URL did not return HTML (Content-Type: %s)", ct)
+            return None
+    except requests.RequestException as exc:
+        logger.debug("Failed to fetch article HTML for image: %s", exc)
+        return None
+
+    soup = BeautifulSoup(resp.text, "lxml")
+
+    # Strategy 1: Look for graphical abstract / TOC image.
+    img_url = _find_graphical_abstract(soup, article_url)
+
+    # Strategy 2: Look for first large image in a <figure> tag.
+    if not img_url:
+        img_url = _find_figure_image(soup, article_url)
+
+    # Strategy 3: Look for any large <img> in the article body.
+    if not img_url:
+        img_url = _find_large_img(soup, article_url)
+
+    if not img_url:
+        logger.debug("No suitable image found in HTML of %s", article_url)
+        return None
+
+    # Download the image.
+    return _download_image(img_url, out, session, timeout=timeout)
+
+
+def _find_graphical_abstract(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    """Find a graphical abstract / TOC image on the page."""
+    selectors = [
+        "img.graphical-abstract",
+        ".graphical-abstract img",
+        "img.toc-image",
+        ".toc-image img",
+        ".cover-image img",
+        "[class*='graphical'] img",
+        "[class*='toc-art'] img",
+        "[id*='graphical'] img",
+        "figure.graphical-abstract img",
+    ]
+    for selector in selectors:
+        el = soup.select_one(selector)
+        if el:
+            src = el.get("src") or el.get("data-src") or ""
+            if src:
+                return urljoin(base_url, src)
+    return None
+
+
+def _find_figure_image(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    """Find the first large image inside a <figure> tag."""
+    for figure in soup.select("figure"):
+        img = figure.select_one("img")
+        if not img:
+            continue
+        src = img.get("src") or img.get("data-src") or ""
+        if not src:
+            continue
+        # Check explicit dimensions if available.
+        w = _parse_dim(img.get("width", ""))
+        h = _parse_dim(img.get("height", ""))
+        if w and h:
+            if w < _MIN_HTML_IMG_WIDTH or h < _MIN_HTML_IMG_HEIGHT:
+                continue
+        # Skip tiny icons / decorations by filename.
+        src_lower = src.lower()
+        if any(skip in src_lower for skip in (
+            "icon", "logo", "avatar", "badge", "pixel", "tracking",
+            "1x1", "spacer", "blank",
+        )):
+            continue
+        return urljoin(base_url, src)
+    return None
+
+
+def _find_large_img(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    """Find any large <img> in the article body area."""
+    # Look inside article body first, then whole page.
+    body = soup.select_one(
+        "article, main, [role='main'], .article-body, "
+        ".c-article-body, .article__body, #body, #content"
+    )
+    container = body or soup
+
+    for img in container.select("img"):
+        src = img.get("src") or img.get("data-src") or ""
+        if not src:
+            continue
+        src_lower = src.lower()
+        # Skip non-content images.
+        if any(skip in src_lower for skip in (
+            "icon", "logo", "avatar", "badge", "pixel", "tracking",
+            "1x1", "spacer", "blank", "spinner", ".svg",
+        )):
+            continue
+        # Check explicit dimensions.
+        w = _parse_dim(img.get("width", ""))
+        h = _parse_dim(img.get("height", ""))
+        if w and h and (w < _MIN_HTML_IMG_WIDTH or h < _MIN_HTML_IMG_HEIGHT):
+            continue
+        # If no dimensions, accept it (likely a real figure).
+        return urljoin(base_url, src)
+    return None
+
+
+def _parse_dim(val: str) -> int:
+    """Parse a dimension attribute (width/height) to int, or 0."""
+    if not val:
+        return 0
+    m = re.match(r"(\d+)", str(val))
+    return int(m.group(1)) if m else 0
+
+
+def _download_image(
+    img_url: str,
+    output_path: Path,
+    session: requests.Session,
+    *,
+    timeout: int = 30,
+) -> Optional[Path]:
+    """Download an image URL and save as JPEG."""
+    try:
+        resp = session.get(img_url, timeout=timeout, stream=True)
+        resp.raise_for_status()
+
+        ct = resp.headers.get("Content-Type", "")
+        if "image" not in ct.lower():
+            logger.debug("Image URL did not return an image (Content-Type: %s)", ct)
+            return None
+
+        # Read image data.
+        data = resp.content
+        if len(data) < 5000:
+            logger.debug("Image too small (%d bytes), skipping", len(data))
+            return None
+
+        # If it's already JPEG, save directly; otherwise convert via PIL.
+        if "jpeg" in ct.lower() or "jpg" in ct.lower():
+            output_path.write_bytes(data)
+        else:
+            try:
+                from PIL import Image
+                img = Image.open(io.BytesIO(data))
+                img = img.convert("RGB")
+                img.save(str(output_path), "JPEG", quality=JPEG_QUALITY)
+            except ImportError:
+                # No PIL — save raw (might not be JPEG).
+                output_path.write_bytes(data)
+            except Exception as exc:
+                logger.debug("Image conversion failed: %s", exc)
+                return None
+
+        size_kb = output_path.stat().st_size / 1024
+        logger.info(
+            "HTML image saved (%0.1f KB) from %s to %s",
+            size_kb, img_url, output_path,
+        )
+        return output_path
+
+    except requests.RequestException as exc:
+        logger.debug("Image download failed: %s", exc)
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Cookie-based session builder
+# ---------------------------------------------------------------------------
+
+def _build_session(article_url: str = "") -> requests.Session:
+    """Create a requests.Session pre-warmed with cookies from the article page.
+
+    Visiting the landing page first mimics browser behaviour: the publisher
+    sets session cookies, which then allow the PDF download to succeed.
+    """
+    session = requests.Session()
+    session.headers.update(_HEADERS)
+
+    if article_url:
+        try:
+            logger.debug("Warming session by visiting %s", article_url)
+            resp = session.get(
+                article_url,
+                timeout=30,
+                allow_redirects=True,
+            )
+            logger.debug(
+                "Session warm-up: status=%d, cookies=%d",
+                resp.status_code,
+                len(session.cookies),
+            )
+        except requests.RequestException as exc:
+            logger.debug("Session warm-up failed (continuing anyway): %s", exc)
+
+    return session

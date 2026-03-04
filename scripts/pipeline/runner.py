@@ -184,7 +184,7 @@ class PipelineRunner:
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
         all_pdf_urls: list = getattr(raw, "_all_pdf_urls", [])
-        if not self.dry_run and (oa_pdf_url or all_pdf_urls):
+        if not self.dry_run and (oa_pdf_url or all_pdf_urls or raw.article_url):
             img_slug = JOURNAL_IMAGE_SLUG.get(journal_name, journal_name.lower())
             img_dir = IMAGES_DIR / img_slug
             ensure_dir(img_dir)
@@ -193,11 +193,14 @@ class PipelineRunner:
             pdf_urls_to_try = list(all_pdf_urls)
             if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
                 pdf_urls_to_try.append(oa_pdf_url)
-            image_path = extract_thumbnail_from_urls(pdf_urls_to_try, thumb_file)
+            image_path = extract_thumbnail_from_urls(
+                pdf_urls_to_try, thumb_file,
+                article_url=raw.article_url or "",
+            )
             if image_path:
                 logger.info("Thumbnail extracted for %s", article_id)
             else:
-                logger.info("No thumbnail for %s (PDF unavailable or failed)", article_id)
+                logger.info("No thumbnail for %s (PDF and HTML both failed)", article_id)
 
         # Step 4 — Attempt full-text retrieval via OpenAlex content API.
         fulltext: Optional[str] = None
