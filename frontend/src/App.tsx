@@ -49,11 +49,11 @@ function HomePage() {
       .catch(() => setHeroLoading(false));
   }, [index]);
 
-  // Show only articles from the last 30 days on the homepage
+  // Show only articles from the last 3 months on the homepage
   const { recentArticles, hasOlderArticles } = useMemo(() => {
     if (!index) return { recentArticles: [], hasOlderArticles: false };
     const now = new Date();
-    const cutoff = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 3, now.getDate());
 
     const all = activeJournal === 'all'
       ? index.articles
