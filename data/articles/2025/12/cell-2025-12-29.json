@@ -1,0 +1,45 @@
+{
+  "id": "cell-2025-12-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "果蠅大腦里的「方向翻轉器」：鈣離子火花讓向量180度大逆轉",
+      "en": "How Calcium Sparks in Fruit Flies Flip Your Sense of Direction"
+    },
+    "summary": {
+      "zh": "當果蠅在空中轉圈時，它的大腦其實正進行一場精妙的向量計算。最新研究揭開了飛行導航的關鍵秘密：某些神經元在hyperpolarized（超極化）狀態下會觸發鈣離子火花，進而實現向量逆轉。這就像給方向感裝了一個「180度翻轉開關」——當果蠅需要改變飛行方向時，鈣離子通道「Ca-α1T」會讓神經元從傳統的鈉離子尖峰轉為鈣離子尖峰，瞬間將內部指南針訊號與外部向量訊號對調，讓飛行路線瞬間反轉。\n\n這項發現挑戰了傳統神經科學觀點：以往認為神經元只能透過去極化（depolarization）發出訊號，但果蠅大腦的神經元卻能「反著發電」。研究團隊透過電生理記錄和基因編輯技術，發現這些鈣離子尖峰不僅是單一細胞現象，更是一種精密的「分子-細胞-迴路」協同作用。就像用樂高積木拼出數學公式，鈣離子通道的特殊性質讓果蠅能在某些角度範圍內完成原本無法達成的向量運算。\n\n這項研究不僅解釋了果蠅如何在複雜環境中飛行，更為人工智慧的導航系統提供了靈感。未來，我們或許能借鑑這種生物計算機制，開發出更高效能的機器人導航技術，讓機器人像昆蟲一樣靈活應對各種挑戰。",
+      "en": "When a fruit fly circles in midair, its brain is secretly performing a precise mathematical computation. A groundbreaking study reveals how certain neurons trigger calcium spikes during hyperpolarization to invert two-dimensional vectors—a biological \"180-degree flip switch\" that reorients the fly's internal compass. By switching from sodium to calcium spikes, these neurons instantly realign the vector encoded in the neuronal population with the fly's internal directional signal, reversing its flight path.\n\nThis discovery challenges conventional neuroscience: neurons were long thought to only transmit signals during depolarization, but the fly's brain demonstrates a \"reverse charging\" mechanism. Using electrophysiology and genetic editing, researchers show that calcium spikes are not just cellular quirks but a sophisticated interplay of molecular, cellular, and circuit-level properties. It’s like building a mathematical equation from Legos—the unique properties of T-type calcium channels enable the fly to compute vectors in angular spaces previously deemed inaccessible.\n\nBeyond explaining insect navigation, this work offers a blueprint for artificial intelligence. Future robotic systems might borrow this biological strategy to navigate complex environments with insect-like agility, bridging the gap between biological intelligence and machine learning."
+    },
+    "keyArticle": {
+      "title": "Neuronal calcium spikes enable vector inversion in the Drosophila brain",
+      "authors": [
+        "Itzel G. Ishida",
+        "Sachin Sethi",
+        "Thomas L. Mohren",
+        "Mia Haraguchi",
+        "L.F. Abbott",
+        "Gaby Maimon"
+      ],
+      "doi": "10.1016/j.cell.2025.11.040",
+      "pages": "748-764.e25"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "preprint": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12758628/"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T02:26:20.921057+00:00",
+    "source": "openalex"
+  }
+}

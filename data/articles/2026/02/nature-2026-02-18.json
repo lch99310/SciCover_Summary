@@ -1,0 +1,85 @@
+{
+  "id": "nature-2026-02-18",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8102",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "激光刻寫玻璃：1萬年數位檔案的永恆密室",
+      "en": "Laser-Engraved Glass: The Eternal Vault for 10,000-Year Digital Archives"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究開發出「Silica」——一個革命性的玻璃數位儲存系統，用飛秒雷射在玻璃中刻寫資料，可保存資料超過10,000年！研究團隊創新性地採用兩種微米級「體素」寫入技術：利用偏振光的「雙折射體素」和利用折射率變化「相位體素」，讓每個體素儲存超過1位元資料，大幅提高密度。結合機器學習解碼與動態能量控制，他們實現了高效、穩定的資料儲存，突破了傳統儲存技術的限制，為數位時代的長期資料保存開創了新紀元。\n\n【研究問題】\n數位資料量正以指數級增長，每3年翻倍，但現有儲存媒體（如硬碟、雲端）僅能保存數年，必須頻繁遷移，成本高昂。長期數位存檔需求迫切，但現有技術無法同時滿足耐久性、高效能與大容量。這項研究聚焦解決「如何打造能存取數千年、高密度且低耗能的儲存系統」的核心挑戰。\n\n【研究方法】\n研究團隊設計兩種獨特的雷射寫入技術：「偽單脈衝寫入」可高效生成雙折射體素，用兩個脈衝完成一個體素；「單脈衝寫入」則直接調整雷射能量來改變折射率。他們還開發「發光回饋控制」，即時調節雷射功率，確保每個體素寫入穩定。解碼時，用卷積神經網路(CNN)分析影像，再結合LDPC錯誤校正碼，即使有雜訊也能精準還原資料。多光束平行寫入技術更讓寫入速度飆升至65.9 Mbit/s。\n\n【結果】\n實驗顯示，相位體素技術達成0.678 Gbit/mm³密度（每片120mm玻璃可存2.02 TB），寫入效率僅8.85 nJ/位元，多光束系統寫入速度達65.9 Mbit/s。加速老化測試證實，資料在室溫下可保存超過10,000年。這項技術不僅解決數位時代的存檔危機，更為未來雲端儲存、文物數位化等應用奠定基礎。",
+      "en": "**Summary:**\nA groundbreaking solution to the digital age's archival dilemma: the Silica system uses femtosecond laser writing in glass to create a storage medium that could preserve data for over 10,000 years. By developing two innovative voxel writing regimes—birefringent and phase-based—they achieved unprecedented density, efficiency, and longevity. Their machine-learning-powered decoding and emission-based control ensure reliability at scale, making this the first glass-based system that meets all production-level requirements for archival storage.\n\n**Problem:**\nDigital data is doubling every three years, but current storage media degrade within years, requiring costly migrations. Existing archival solutions like magnetic tapes or optical discs lack both longevity and efficiency for the modern data deluge. The critical gap is a storage medium that can withstand time without frequent human intervention, yet handle the massive data volumes of our era.\n\n**Approach:**\nThe team engineered a dual-voxel approach: \"pseudo-single-pulse\" writing for birefringent voxels (using two pulses to create elongated nanovoids) and single-pulse phase modulation for isotropic refractive index changes. They implemented a closed-loop emission control system to stabilize laser power during writing, and a CNN-based decoder to handle noise and cross-talk. Parallelizing with four beams achieved 65.9 Mbit/s throughput without damaging the glass.\n\n**Results:**\nSilica achieves 0.678 Gbit/mm³ density (2.02 TB per 120mm glass platter), with write efficiency at 8.85 nJ/bit and throughput up to 65.9 Mbit/s. Accelerated aging experiments suggest data retention exceeds 10,000 years at room temperature. This transforms the landscape of archival storage, offering a practical, long-term solution for preserving our digital heritage."
+    },
+    "keyArticle": {
+      "title": "Laser writing in glass for dense, fast and efficient archival data storage",
+      "authors": [
+        "James P. Allison",
+        "Patrick Anderson",
+        "Erika Aranas",
+        "Youssef Assaf",
+        "Richard Black",
+        "Marco Caballero",
+        "Burcu Canakci",
+        "John Antony Chattaway",
+        "Andromachi Chatzieleftheriou",
+        "James Clegg",
+        "Daniel Cletheroe",
+        "Bridgette Cooper",
+        "Tim Deegan",
+        "Austin Donnelly",
+        "Rokas Drevinskas",
+        "Zhonghe Feng",
+        "Christos Gkantsidis",
+        "Ariel Gomez Diaz",
+        "Istvan Haller",
+        "Freddie Hong",
+        "Teodora Ilieva",
+        "Russell Joyce",
+        "Valentin Kapitány",
+        "Mint Kunkel",
+        "David Lara",
+        "Takashi Lawson",
+        "Sergey Legtchenko",
+        "Fanglin Liu",
+        "Xiaoqi Liu",
+        "Bruno Magalhaes",
+        "Sebastian Nowozin",
+        "Hiske Overweg",
+        "Antony Rowstron",
+        "Masaaki Sakakura",
+        "Nina Schreiner",
+        "Adam Smith",
+        "Oliver Snowdon",
+        "Ioan Stefanovici",
+        "David Sweeney",
+        "Govert Verkes",
+        "Phil Wainman",
+        "Charles Whittaker",
+        "Pablo Wilke Berenguer",
+        "Hugh Williams",
+        "Thomas Winkler",
+        "Stefan Winzeck"
+      ],
+      "doi": "10.1038/s41586-025-10042-w",
+      "pages": "606-612"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10042-w",
+      "doi": "https://doi.org/10.1038/s41586-025-10042-w",
+      "preprint": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12916313/"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T02:26:05.605761+00:00",
+    "source": "openalex"
+  }
+}
