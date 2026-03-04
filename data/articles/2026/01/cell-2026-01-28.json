@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-01-28",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "驚人發現！DNA複製的'隱形搭檔'——RFC竟在完成任務後仍緊緊相隨",
+      "en": "The Unexpected Lifeguard: How RFC's Non-Catalytic Role Keeps DNA Replication on Track"
+    },
+    "summary": {
+      "zh": "在DNA複製的精密機制中，一個名為PCNA的「滑動夾」扮演著關鍵角色，它讓DNA聚合酶能持續、高效地合成DNA。然而，當PCNA與聚合酶Polδ結合時，這個複合體卻異常不穩定。傳統觀點認為，負責將PCNA「裝載」到DNA上的蛋白質RFC（復制因子C）在完成任務後就會離開，但這項新研究卻揭開了驚人的真相：RFC並非一走了之，而是持續與PCNA緊密相連，形成一個特殊的「夾載複合體」（CLC），如同DNA複製過程中的隱形守護者。\n\n研究團隊利用單分子技術，直接觀測到PCNA與RFC在DNA上的動態互動，發現RFC在裝載完成後依然緊緊「貼附」在PCNA上。這種獨特的結構安排，恰恰解決了PCNA-Polδ複合體不穩定的問題，確保聚合酶能持續進行DNA合成。更有趣的是，RFC中一個名為BRCT的結構域（類似於BRCA1基因的保守區域）是這個功能不可或缺的關鍵，若其DNA結合部位發生突變，細胞便會對DNA損傷更加敏感。\n\n此外，另一種名為FEN1的酶也能幫助穩定PCNA與Polδ的結合，進一步強化DNA合成的效率。這項研究不僅挑戰了學界對RFC功能的傳統認知，更揭示了PCNA-binding蛋白的「非催化性角色」——它們不僅僅是 enzymatic functions，更在維護基因組穩定性上扮演著關鍵角色。這如同DNA複製過程中的一場精密舞步，每個蛋白質都必須各司其職，方能確保生命密碼的精準傳遞。",
+      "en": "In the intricate machinery of DNA replication, a ring-shaped protein called PCNA acts as a molecular \"sliding clamp,\" enabling DNA polymerases to synthesize DNA processively. However, the complex formed between PCNA and polymerase δ (Polδ) is inherently unstable. The conventional view held that the clamp loader RFC—responsible for loading PCNA onto DNA—would dissociate after the task was complete. This study, however, reveals a surprising twist: RFC remains bound to PCNA long after loading, forming a \"clamp-loader/clamp complex\" (CLC) that acts as a molecular stabilizer.\n\nUsing single-molecule imaging techniques, researchers observed that RFC continues to associate with PCNA on DNA, a behavior not predicted by previous models. This CLC complex is essential for Polδ’s processive DNA synthesis because the PCNA-Polδ interaction alone is too fragile to sustain replication. Crucially, the BRCT domain of Rfc1—the largest subunit of RFC—mediates this stabilization, and mutations in its DNA-binding residues render cells vulnerable to genotoxic stress.\n\nMoreover, the flap endonuclease FEN1 can also reinforce the PCNA-Polδ interaction, further enhancing replication efficiency. These findings challenge the long-held assumption that clamp loaders function solely as catalytic enzymes, highlighting instead the importance of non-catalytic roles in maintaining genomic integrity. In essence, PCNA-binding proteins act as both tools and conductors, ensuring that DNA replication proceeds with precision and resilience."
+    },
+    "keyArticle": {
+      "title": "A non-catalytic role for RFC in PCNA-mediated processive DNA synthesis",
+      "authors": [
+        "Gabriella N. L. Chua",
+        "Emily C. Beckwitt",
+        "Victoria Miller-Browne",
+        "Olga Yurieva",
+        "D. Zhang",
+        "Bryce J. Katch",
+        "Nina Y. Yao",
+        "John W. Watters",
+        "Kaitlin Abrantes",
+        "Ryogo Funabiki",
+        "Xiaolan Zhao",
+        "Michael E O'Donnell",
+        "Shixin Liu"
+      ],
+      "doi": "10.1016/j.cell.2025.12.029",
+      "pages": "1124-1134.e14"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.029",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.029"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T22:02:57.103641+00:00",
+    "source": "openalex"
+  }
+}

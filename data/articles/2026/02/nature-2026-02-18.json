@@ -1,0 +1,92 @@
+{
+  "id": "nature-2026-02-18",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8102",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "玻璃中的時間膠囊：激光寫入技術讓數字資料存儲超過一萬年",
+      "en": "Glass as the Ultimate Time Capsule: Laser Writing Could Store Our Digital Legacy for 10,000 Years"
+    },
+    "summary": {
+      "zh": "【總結】Silica首次實現了生產級玻璃存儲技術，讓數字資料在玻璃中「永生」——數據可存10,000年以上，寫入速度達65.9 Mbit/s，密度高達0.678 Gbit/mm³。研究突破在於同步解決了「寫入效率、資料密度、系統可靠性」三大瓶頸：透過雙軸體（birefringent/phase）寫入技術，結合機器學習解碼，將散射和干擾問題降到最低。這不僅是材料科學的進步，更為人類數位文明的長期保存提供終極方案。\n\n【研究問題】當前數位存儲介質（如硬碟、雲端）壽命僅數年，每年需耗費大量資源進行數據遷移。過去的玻璃存儲技術雖理論可行，卻因寫入速度慢、能量效率低、穩定性差，始終無法投入實用。本研究直指數位時代的存儲危機：我們在生成數據的同時，卻沒有足夠耐用的「數位膠囊」保存這些珍貴記憶。\n\n【研究方法】研究團隊設計兩種光學「微像素」寫入技術：1. 極化軸體（birefringent）採用「類單脈衝」法，用兩束脈衝快速形成納米孔；2. 相位軸體（phase）以單脈衝調節折射率，實現多比特存儲。結合多光束並行寫入（4束光同步操作）與機器學習解碼（CNN神經網路），成功解決散射干擾問題。寫入過程透過實時光譜監測，自動調整雷射能量，確保每一個微像素的精準度。\n\n【結果】相位軸體實現0.678 Gbit/mm³密度，寫入效率達8.85 nJ/位元，多光束系統寫入速度突破65.9 Mbit/s。加速老化實驗證實，數據在室溫下可穩定保存超過10,000年。這項技術不僅讓玻璃存儲從實驗室邁向產業化，更可能徹底改變雲端存儲的未來——讓數位時代的珍貴記憶真正「永恆流傳」。",
+      "en": "**Summary:** The Silica system marks a quantum leap in archival storage, transforming glass into a durable, high-capacity medium for millennia-long data preservation. By pioneering two novel laser-writing regimes—birefringent and phase voxels—alongside machine learning decoding, the team overcomes the critical limitations of existing storage solutions. This isn't just an improvement; it's a paradigm shift that could safeguard humanity's digital legacy for generations.\n\n**Problem:** With data generation doubling every three years, current archival systems—relying on media that degrade within years—demand costly, energy-intensive migrations. Previous glass-based storage efforts failed to balance throughput, energy efficiency, and reliability. The urgency is clear: without a robust, scalable solution, our digital heritage risks becoming a fleeting echo of the past.\n\n**Approach:** Researchers engineered a dual-path voxel-writing system: birefringent voxels using \"pseudo-single-pulse\" techniques for rapid nanovoid formation, and phase voxels with single-pulse energy modulation to minimize scattering. Multibeam writing (four parallel beams) boosted throughput to 65.9 Mbit/s, while convolutional neural networks decoded noisy signals, overcoming cross-voxel interference. Real-time emission monitoring ensured precise, stable writing.\n\n**Results:** Silica achieved 0.678 Gbit/mm³ density (2.02 TB per 120mm glass platter) with 10,000+ year stability at room temperature. Its write efficiency of 8.85 nJ per bit and scalable throughput position it as a viable cloud-scale archival solution. This work bridges material science and AI, offering a practical answer to humanity's urgent need for digital immortality."
+    },
+    "keyArticle": {
+      "title": "Laser writing in glass for dense, fast and efficient archival data storage",
+      "authors": [
+        "James P. Allison",
+        "Patrick Anderson",
+        "Erika Aranas",
+        "Youssef Assaf",
+        "Richard Black",
+        "Marco Caballero",
+        "Burcu Canakci",
+        "John Antony Chattaway",
+        "Andromachi Chatzieleftheriou",
+        "James Clegg",
+        "Daniel Cletheroe",
+        "Bridgette Cooper",
+        "Tim Deegan",
+        "Austin Donnelly",
+        "Rokas Drevinskas",
+        "Zhonghe Feng",
+        "Christos Gkantsidis",
+        "Ariel Gomez Diaz",
+        "Istvan Haller",
+        "Freddie Hong",
+        "Teodora Ilieva",
+        "Russell Joyce",
+        "Valentin Kapitány",
+        "Mint Kunkel",
+        "David Lara",
+        "Takashi Lawson",
+        "Sergey Legtchenko",
+        "Fanglin Liu",
+        "Xiaoqi Liu",
+        "Bruno Magalhaes",
+        "Sebastian Nowozin",
+        "Hiske Overweg",
+        "Antony Rowstron",
+        "Masaaki Sakakura",
+        "Nina Schreiner",
+        "Adam Smith",
+        "Oliver Snowdon",
+        "Ioan Stefanovici",
+        "David Sweeney",
+        "Govert Verkes",
+        "Phil Wainman",
+        "Charles Whittaker",
+        "Pablo Wilke Berenguer",
+        "Hugh Williams",
+        "Thomas Winkler",
+        "Stefan Winzeck"
+      ],
+      "doi": "10.1038/s41586-025-10042-w",
+      "pages": "606-612"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10042-w",
+      "doi": "https://doi.org/10.1038/s41586-025-10042-w"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T22:02:04.477352+00:00",
+    "source": "openalex"
+  }
+}

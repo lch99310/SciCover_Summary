@@ -1,0 +1,85 @@
+{
+  "id": "science-2026-01-15",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6782",
+  "date": "2026-01-15",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "磁場驚魂14日：重複快射電暴突然被磁化雲團吞噬，瞬間恢復原狀",
+      "en": "14 Days of Magnetic Drama: How a Fast Radio Burst's Environment Suddenly Shifted and Recovered"
+    },
+    "summary": {
+      "zh": "【總結】文章揭開宇宙奇觀：重複快射電暴FRB 20220529在2023年12月遭遇「磁場風暴」——Faraday旋轉量（RM）57天內從-139±19 rad/m²暴增至1977±84 rad/m²，隨後14天內迅速恢復至正常值。這不僅是宇宙中首次被觀測到的瞬間磁環境劇變，更證實了FRB可能處於雙星系統中，伴星的日冕大量噴發（CME）形成磁化雲團穿越視線。此發現破解FRB磁場變化的關鍵機制，為理解宇宙最強電波爆發的起源提供直接線索。\n\n【研究問題】過去研究顯示，部分FRB存在磁場緩慢變化（如FRB 20121102A的RM長期衰減），但從未見如此劇烈的瞬時變化。傳統觀點認為FRB磁場變化可能源於等離子體湍流或雙星軌道運動，卻缺乏直接證據。此研究聚焦「磁場突變事件」的成因，因為若能揭示FRB的磁環境變化機制，將直接關係到其源頭是否為磁星，以及是否處於雙星系統中，這對理解宇宙極端現象至關重要。\n\n【研究方法】研究團隊以中國500米口徑電波望遠鏡（FAST）為主，結合澳洲帕克斯望遠鏡，持續觀測FRB 20220529長達2.2年。他們分析了1156次爆發的偏振特性，精確測量RM值的變化，並利用結構函數分析湍流特性。當發現RM突變後，緊急調動甚大陣（VLA）進行定位，確認其宿主星系為盤狀星系，紅移值z=0.1839。通過對比CME（日冕大量噴發）模型與其他假設，模擬不同物理過程的RM變化曲線。\n\n【結果】關鍵數據顯示，RM突變的信噪比高達20.4（超過20倍標準差），是其他重複FRB的數十倍。在RM峰值期，線性偏振度從正常值81%驟降至27%，伴隨DM的同步變化。模型模擬表明，這種變化最符合「伴星日冕大量噴發」的解釋——磁化雲團以100km/s速度穿越視線，規模約0.1個太陽半徑。這不僅證實FRB可能處於雙星系統，也解釋了磁星周邊磁場變化的動態機制，為未來探測更多FRB的伴星提供了新方向。",
+      "en": "**Summary:** A groundbreaking study reveals that the repeating fast radio burst (FRB) 20220529 experienced a dramatic magnetic environment shift: its Faraday rotation measure (RM) surged from -139 ±19 rad/m² to 1977 ±84 rad/m² in just 57 days, then recovered within 14 days. This \"magnetic storm\" is the first observed rapid and extreme RM variation in FRBs, suggesting a dense magnetized plasma cloud—likely ejected by a companion star—crossing the line of sight. The discovery provides compelling evidence for FRBs residing in binary systems, offering a key clue to their elusive origins.\n\n**Problem:** While FRBs are known to exhibit slow RM variations, none had shown such a sudden, large-scale shift before. Prior theories suggested RM changes could stem from turbulence or binary orbits, but lacked direct evidence. Understanding these variations is critical because they could reveal whether FRBs originate from magnetars in binary systems, which would reshape our understanding of these cosmic explosions.\n\n**Approach:** Researchers monitored FRB 20220529 for 2.2 years using China's FAST telescope and Australia's Parkes telescope, analyzing over 1,100 bursts. They measured RM changes, polarization, and dispersion measures (DM), and used structure functions to study turbulence. When the RM spike occurred, they swiftly employed the VLA to pinpoint the source's host galaxy—a disk galaxy at redshift z=0.1839. By comparing models of coronal mass ejections (CMEs) from stars to other scenarios, they identified the best fit for the observed RM behavior.\n\n**Results:** The RM spike had a significance of 20.4σ, far exceeding variations in other FRBs. During the flare, linear polarization dropped from 81% to 27%, indicating a disruption in the magnetic environment. Modeling showed that a CME from a companion star, moving at 100 km/s, best explains the data. This supports the hypothesis that FRBs may exist in binary systems, where stellar activity drives dynamic magnetic changes. The findings open new avenues for testing FRB origins through future observations of similar events."
+    },
+    "keyArticle": {
+      "title": "A sudden change and recovery in the magnetic environment around a repeating fast radio burst",
+      "authors": [
+        "Y. Li",
+        "Songbo Zhang",
+        "Y. P. Yang",
+        "C. W. Tsai",
+        "Xuan Yang",
+        "C. J. Law",
+        "R. Anna-Thomas",
+        "X. L. Chen",
+        "K. J. Lee",
+        "Zhifeng Tang",
+        "D. Xiao",
+        "H. Xu",
+        "Xiaoli Yang",
+        "George Chen",
+        "Yibin Feng",
+        "Dongzi Li",
+        "Ryan Mckinven",
+        "J. R. Niu",
+        "Kaitlyn Shin",
+        "B. J. Wang",
+        "C. F. Zhang",
+        "Y. K. Zhang",
+        "D. J. Zhou",
+        "Yan Zhu",
+        "Zi-Gao Dai",
+        "Chen‐Ming Chang",
+        "Jin-Jun Geng",
+        "J. L. Han",
+        "L. Hu",
+        "Di Li",
+        "Rui Luo",
+        "Chong Niu",
+        "Dong Shi",
+        "T. R. Sun",
+        "Xue-Feng Wu",
+        "W. W. Zhu",
+        "Peng Jiang",
+        "B. Zhang"
+      ],
+      "doi": "10.1126/science.adq3225",
+      "pages": "280-284"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adq3225",
+      "doi": "https://doi.org/10.1126/science.adq3225",
+      "preprint": "http://arxiv.org/abs/2503.04727"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T22:00:25.594537+00:00",
+    "source": "openalex"
+  }
+}
