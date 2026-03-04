@@ -82,7 +82,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update cover-story data [skip ci]"
+            git commit -m "chore: update cover-story data"
             # Stash any remaining untracked/unstaged files before rebase
             git stash --include-untracked || true
             git pull --rebase origin main

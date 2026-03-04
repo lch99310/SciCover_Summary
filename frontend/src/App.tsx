@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Layout } from './components/layout/Layout';
 import { useTheme } from './hooks/useTheme';
@@ -49,12 +49,27 @@ function HomePage() {
       .catch(() => setHeroLoading(false));
   }, [index]);
 
-  const filteredArticles = useMemo(() => {
-    if (!index) return [];
-    const articles = activeJournal === 'all'
+  // Show only articles from the last 30 days on the homepage
+  const { recentArticles, hasOlderArticles } = useMemo(() => {
+    if (!index) return { recentArticles: [], hasOlderArticles: false };
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
+
+    const all = activeJournal === 'all'
       ? index.articles
       : index.articles.filter((a) => a.journal === activeJournal);
-    return articles;
+
+    const recent = all.filter((a) => {
+      const d = new Date(a.date);
+      return !isNaN(d.getTime()) && d >= cutoff;
+    });
+
+    const older = all.some((a) => {
+      const d = new Date(a.date);
+      return !isNaN(d.getTime()) && d < cutoff;
+    });
+
+    return { recentArticles: recent, hasOlderArticles: older };
   }, [index, activeJournal]);
 
   if (isLoading || heroLoading) return <LoadingSpinner />;
@@ -75,7 +90,29 @@ function HomePage() {
         <HeroSection article={heroArticle} />
       )}
       <JournalTabs active={activeJournal} onChange={setActiveJournal} />
-      <ArticleGrid articles={filteredArticles} />
+      <ArticleGrid articles={recentArticles} />
+      {hasOlderArticles && (
+        <div className="container" style={{ textAlign: 'center', padding: '2rem 1.5rem 3rem' }}>
+          <Link
+            to="/archive"
+            style={{
+              display: 'inline-block',
+              padding: '0.75rem 2rem',
+              borderRadius: '8px',
+              backgroundColor: 'var(--color-primary)',
+              color: '#fff',
+              textDecoration: 'none',
+              fontWeight: 600,
+              fontSize: 'var(--text-base)',
+              transition: 'opacity 0.2s',
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.85')}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
+          >
+            瀏覽歷史文章 / View Archive →
+          </Link>
+        </div>
+      )}
     </>
   );
 }
