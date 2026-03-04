@@ -1,22 +1,13 @@
 {
-  "lastUpdated": "2026-03-04T03:18:41.605235+00:00",
+  "lastUpdated": "2026-03-04T08:29:55.236225+00:00",
   "articles": [
     {
-      "id": "nature-2026-02-18",
-      "journal": "Nature",
-      "date": "2026-02-18",
-      "path": "articles/2026/02/nature-2026-02-18.json",
-      "title_zh": "激光刻字玻璃：1萬年不壞的數位存儲革命",
-      "title_en": "Glass as the Digital Time Capsule: How Laser Writing Could Store Data for 10,000 Years",
-      "cover_url": "data/images/nature/nature-2026-02-18-cover.jpg"
-    },
-    {
-      "id": "political-geography-2026-02-18",
+      "id": "political-geography-2026-02-28",
       "journal": "Political Geography",
-      "date": "2026-02-18",
-      "path": "articles/2026/02/political-geography-2026-02-18.json",
-      "title_zh": "從家門到峰頂：庫德斯坦山區旅遊者如何悄然重塑邊界",
-      "title_en": "Sovereign Bodies on the Trail: How Mountain Tourism Reshapes Borders in Iraqi Kurdistan",
+      "date": "2026-02-28",
+      "path": "articles/2026/02/political-geography-2026-02-28.json",
+      "title_zh": "邊界之戰：德國選舉中的隱形壁壘",
+      "title_en": "Which Border Matters Most? The Hidden Divides in German Elections",
       "cover_url": ""
     },
     {
@@ -24,8 +15,35 @@
       "journal": "Science",
       "date": "2026-02-12",
       "path": "articles/2026/02/science-2026-02-12.json",
-      "title_zh": "蛋白質「找對象」的隱藏規則：從無到有構建全新界面",
-      "title_en": "How Proteins Find Their Partners: Decoding the Molecular Rules of Evolution",
+      "title_zh": "大象鬍子藏玄機！功能梯度設計讓觸覺感知提升2000%",
+      "title_en": "2000% More Sensitivity: How Elephant Whiskers’ Gradient Design Revolutionizes Touch",
+      "cover_url": "data/images/science/science-2026-02-12-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-04",
+      "journal": "Nature",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/nature-2026-02-04.json",
+      "title_zh": "夸克自旋的隱形舞步：RHIC實驗首次捕捉強相互作用的神秘面紗",
+      "title_en": "The Quantum Spin Waltz: How RHIC Experiments Are Decoding the Secrets of Quark Confinement",
+      "cover_url": "data/images/nature/nature-2026-02-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-01-29",
+      "journal": "Cell",
+      "date": "2026-01-29",
+      "path": "articles/2026/01/cell-2026-01-29.json",
+      "title_zh": "大腦暗網解密：強迫症患者神經活動的「瞬間暴動」",
+      "title_en": "The Brain's Hidden Code: How Gamma Waves Unlock OCD's Moment-to-Moment Fluctuations",
+      "cover_url": ""
+    },
+    {
+      "id": "american-sociological-review-2026-01-17",
+      "journal": "American Sociological Review",
+      "date": "2026-01-17",
+      "path": "articles/2026/01/american-sociological-review-2026-01-17.json",
+      "title_zh": "媽咪學歷飆升，兒女升學關鍵悄然轉向：母職變奏中的教育新局",
+      "title_en": "Mothers’ Rising Status: The Hidden Engine of College Completion",
       "cover_url": ""
     },
     {

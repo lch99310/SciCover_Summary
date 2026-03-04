@@ -1,0 +1,56 @@
+{
+  "id": "science-2026-02-12",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6786",
+  "date": "2026-02-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大象鬍子藏玄機！功能梯度設計讓觸覺感知提升2000%",
+      "en": "2000% More Sensitivity: How Elephant Whiskers’ Gradient Design Revolutionizes Touch"
+    },
+    "summary": {
+      "zh": "【總結】文章揭開大象鬍子的精妙設計：從根部到尖端的幾何、孔隙率與硬度梯度，讓大象能透過振動信號精準判斷觸碰位置。這不僅解釋了大象如何用無肌肉控制的鬍子完成精密操作（如搬運數百公斤食物），更為機器人觸覺傳感器開創「材料梯度」新思路——過去設計的感測器非太軟易損就是太硬無法感知細微變化，而大象鬍子卻完美平衡了靈敏度與耐用性。\n\n【研究問題】過去研究假設動物鬍子結構均質，忽略微觀變化。但大象鬍子特殊之處在於「非主動伸縮」（無肌肉控制），卻仍能精準感知環境。關鍵問題是：如何用材料特性彌補運動能力的不足？若能破解，將推動機器人觸覺技術突破。\n\n【研究方法】研究團隊結合顯微鏡、微CT掃描分析鬍子結構，並以微觀壓痕測試硬度變化。他們量化根部孔隙率達82%（ distal trunk）、硬度從2.99 GPa降至0.7 GPa的梯度，再透過有限元素模擬驗證振動訊號傳遞機制。就像拆解一顆精密齒輪，逐層剖析鬍子每個部位的獨特設計。\n\n【結果】數據顯示：當觸碰點位於鬍子60%長度處時，訊號功率激增2000%；根部孔隙率70%可讓振動頻率提高10%，減輕振動衝擊。這讓大象能「讀懂」觸碰位置，類似用不同長度的琴弦彈奏不同音符。未來機器人若採用類似梯度設計，將實現更精準的觸覺感知，例如機械臂能像大象般靈巧操作易碎物品。",
+      "en": "**Summary:** This study reveals how elephant whiskers—nature's masterclass in tactile engineering—use functionally graded material properties to transform touch into precise sensory information. Unlike other mammals, these non-muscular whiskers rely on a unique gradient of geometry, porosity, and stiffness to encode contact location through vibration patterns. This discovery challenges long-held assumptions about whisker uniformity and offers a blueprint for designing next-generation robotic sensors that balance sensitivity and durability.\n\n**Problem:** Previous research assumed whiskers were uniform in structure, focusing on morphology and sensory rings while ignoring material gradients. But elephants' non-actuated whiskers—lacking muscle control—pose a critical puzzle: how do they achieve such precise tactile perception? Solving this could unlock new principles for bio-inspired robotics, where current designs struggle to match biological efficiency.\n\n**Approach:** Researchers combined microscopy, micro-CT imaging, and nano-indentation to map structural and mechanical changes along the whisker. They quantified porosity (70% to 0%), stiffness (2.99 GPa to 0.7 GPa), and shape transitions, then used finite element analysis to simulate vibration patterns. This multi-scale approach revealed how gradients amplify signal clarity and reduce mechanical stress.\n\n**Results:** Key findings include a 2000% increase in signal power when contact occurs at 60% of the whisker's length, and stress reductions of 33% in gradient-designed structures. The elephant's whisker acts like a natural sensor array—stiff roots detect force, soft tips absorb impact—proving functional gradients optimize touch perception. This could revolutionize haptic technology, enabling robots to 'feel' with unprecedented precision."
+    },
+    "keyArticle": {
+      "title": "Functional gradients facilitate tactile sensing in elephant whiskers",
+      "authors": [
+        "Andrew Schulz",
+        "Lena V. Kaufmann",
+        "Lynne T. Smith",
+        "Deepti S. Philip",
+        "Hilda David",
+        "Jelena Lazović",
+        "Michael Brecht",
+        "Gunther Richter",
+        "Katherine J. Kuchenbecker"
+      ],
+      "doi": "10.1126/science.adx8981",
+      "pages": "712-718"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx8981",
+      "doi": "https://doi.org/10.1126/science.adx8981",
+      "preprint": "http://arxiv.org/abs/2504.07143"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-04T08:26:35.268341+00:00",
+    "source": "openalex"
+  }
+}

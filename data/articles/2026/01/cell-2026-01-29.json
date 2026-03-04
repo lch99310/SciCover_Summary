@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-01-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦暗網解密：強迫症患者神經活動的「瞬間暴動」",
+      "en": "The Brain's Hidden Code: How Gamma Waves Unlock OCD's Moment-to-Moment Fluctuations"
+    },
+    "summary": {
+      "zh": "當患者經歷強迫症症狀爆發時，大腦的前額葉眶額皮層（OFC）正發生一場神經快閃——低頻伽馬波的強度在數秒間暴漲，如同情緒的導火線。這項由多國學者合作的研究，透過植入式腦部監測技術精確捕捉人腦神經活動，首次揭示：當患者處於高症狀狀態時，OFC的前 medial 區域伽馬波功率會持續性上升。更令人驚訝的是，當研究團隊以電刺激基底核深部區域時，不僅症狀減輕，OFC的伽馬波活動也隨之下降，彷彿調節症狀的「神經溫控器」。\n\n這項突破性發現不僅為強迫症提供了可量化的生物標記，更揭開了症狀波動的神經機制。未來治療可望從「治標」轉向「治本」，例如針對OFC伽馬波的深腦刺激技術，能像調頻收音機一樣精準調節神經活動。研究者強調，這種即時動態的神經監測，或許能讓心理治療從「事後補救」轉為「事前預防」，為數百萬患者帶來新希望。",
+      "en": "Obsessive-compulsive disorder (OCD) presents a clinical puzzle: symptoms fluctuate unpredictably, making it difficult to predict or treat. A groundbreaking study published in Cell reveals that gamma wave activity in the human orbitofrontal cortex (OFC) acts as a real-time biomarker for symptom intensity. Using intracranial monitoring in patients undergoing symptom provocation, researchers found that low-gamma power in the anteromedial OFC consistently surged during high symptom states—like a neural alarm ringing as compulsions escalate.\n\nThe study’s most striking insight came when electrical stimulation of the ventral basal ganglia reduced both OCD symptoms and gamma activity in the OFC. This suggests a direct causal link between neural oscillations and symptom expression, rather than mere correlation. For clinicians, this could mean a new way to fine-tune deep brain stimulation (DBS) therapies: instead of relying on broad anatomical targets, they might adjust stimulation parameters based on real-time gamma wave readings. The findings transform OCD from a condition defined by erratic behavior into one governed by measurable brain dynamics—a shift that could pave the way for personalized, precision medicine for mental health."
+    },
+    "keyArticle": {
+      "title": "Human orbitofrontal neural activity is linked to obsessive-compulsive behavioral dynamics",
+      "authors": [
+        "Young-Hoon Nho",
+        "Liming Qiu",
+        "Robert Seilheimer",
+        "Gustavo Campos",
+        "Andrew Chang",
+        "Z Wang",
+        "John F. Magnotti",
+        "Zhengjia Wang",
+        "Daniel A.N. Barbosa",
+        "Andreas Horn",
+        "Nolan Williams",
+        "Lily A. Brown",
+        "Taneeta M. Ganguly",
+        "Mario A. Cristancho",
+        "Bijan Pesaran",
+        "Desmond J. Oathes",
+        "Kai Miller",
+        "Katherine W. Scangos",
+        "Casey H. Halpern"
+      ],
+      "doi": "10.1016/j.cell.2025.12.037",
+      "pages": "739-747.e8"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.037",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.037"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T08:28:10.638886+00:00",
+    "source": "openalex"
+  }
+}
