@@ -264,14 +264,20 @@ def extract_image_from_html(
 
     soup = BeautifulSoup(resp.text, "lxml")
 
-    # Strategy 1: Look for graphical abstract / TOC image.
-    img_url = _find_graphical_abstract(soup, article_url)
+    # Strategy 1: OpenGraph / Twitter meta tags (most reliable — works on
+    # virtually every publisher page, even JS-rendered ones, because meta
+    # tags are always in the initial HTML).
+    img_url = _find_meta_image(soup, article_url)
 
-    # Strategy 2: Look for first large image in a <figure> tag.
+    # Strategy 2: Look for graphical abstract / TOC image.
+    if not img_url:
+        img_url = _find_graphical_abstract(soup, article_url)
+
+    # Strategy 3: Look for first large image in a <figure> tag.
     if not img_url:
         img_url = _find_figure_image(soup, article_url)
 
-    # Strategy 3: Look for any large <img> in the article body.
+    # Strategy 4: Look for any large <img> in the article body.
     if not img_url:
         img_url = _find_large_img(soup, article_url)
 
@@ -281,6 +287,31 @@ def extract_image_from_html(
 
     # Download the image.
     return _download_image(img_url, out, session, timeout=timeout)
+
+
+def _find_meta_image(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    """Extract image URL from OpenGraph or Twitter Card meta tags.
+
+    These are the most reliable source: every major publisher includes
+    ``og:image`` in their HTML <head>, and it's always present in the
+    initial HTML (no JavaScript rendering needed).
+    """
+    # Try og:image first, then twitter:image.
+    for attr, key in [
+        ("property", "og:image"),
+        ("name", "twitter:image"),
+        ("name", "twitter:image:src"),
+    ]:
+        tag = soup.find("meta", attrs={attr: key})
+        if tag:
+            content = tag.get("content", "")
+            if content and not any(
+                skip in content.lower()
+                for skip in ("logo", "icon", "favicon", "placeholder", "default")
+            ):
+                logger.debug("Found meta image (%s): %s", key, content)
+                return urljoin(base_url, content)
+    return None
 
 
 def _find_graphical_abstract(soup: BeautifulSoup, base_url: str) -> Optional[str]:

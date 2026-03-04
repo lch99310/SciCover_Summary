@@ -175,16 +175,15 @@ class PipelineRunner:
             report["skipped"].append(article_id)
             return
 
-        # Step 3 — Extract thumbnail from OA PDF (if available).
-        # OpenAlex doesn't provide journal cover images, but many articles
-        # have open-access PDFs.  We render the first page as a JPEG thumbnail
-        # using PyMuPDF.  We try ALL available PDF URLs — repository copies
-        # (PMC, etc.) are tried first as they are more reliably downloadable
-        # than publisher PDFs which often block automated requests.
+        # Step 3 — Extract thumbnail.
+        # Strategy: PDF pages → article HTML (og:image, figures) → preprint HTML.
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
         all_pdf_urls: list = getattr(raw, "_all_pdf_urls", [])
-        if not self.dry_run and (oa_pdf_url or all_pdf_urls or raw.article_url):
+        # Determine the best URL for HTML image extraction: prefer article_url,
+        # fall back to preprint_url (bioRxiv/arXiv pages have og:image tags).
+        html_url_for_image = raw.article_url or raw.preprint_url or ""
+        if not self.dry_run and (oa_pdf_url or all_pdf_urls or html_url_for_image):
             img_slug = JOURNAL_IMAGE_SLUG.get(journal_name, journal_name.lower())
             img_dir = IMAGES_DIR / img_slug
             ensure_dir(img_dir)
@@ -195,7 +194,7 @@ class PipelineRunner:
                 pdf_urls_to_try.append(oa_pdf_url)
             image_path = extract_thumbnail_from_urls(
                 pdf_urls_to_try, thumb_file,
-                article_url=raw.article_url or "",
+                article_url=html_url_for_image,
             )
             if image_path:
                 logger.info("Thumbnail extracted for %s", article_id)
