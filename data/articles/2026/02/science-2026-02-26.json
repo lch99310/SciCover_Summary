@@ -1,0 +1,41 @@
+{
+  "id": "science-2026-02-26",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6788",
+  "date": "2026-02-26",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "農業強度越高，鳥類衰退越快？北美鳥類加速衰退熱點大揭密",
+      "en": "Agriculture's Hidden Hand in the Accelerating Decline of North America's Birds"
+    },
+    "summary": {
+      "zh": "過去30年，北美鳥類數量急遽減少，而最新研究揭開一個更令人憂慮的真相——這種衰退不只持續，甚至正在加速！科學家分析了1033條鳥類調查路線，涵蓋261種鳥類、54個科屬，從1987到2021年的數據顯示，全北美鳥類數量平均下降，但最嚴重的加速衰退卻集中在農業強度高的地區。就像沙漏中的沙子，鳥類數量不僅在漏，而且漏的速度越來越快。\n\n研究發現，47%的鳥類種群正在減少，其中63種的衰退速度更在加快。更令人警醒的是，67種鳥類的每 capita 增長率已明顯下滑，這意味著鳥類種群的自我修復能力正被一步步蠶食。農業強度最高的中大西洋、中西部和加州，正是這些熱點地區。這不僅是鳥類的危機，更是生態系統的隱形警報——當鳥類加速消失，整個食物鏈將陷入不可逆的崩壞。",
+      "en": "A new study published in Science reveals a startling pattern: North America's bird populations aren't just declining—they're collapsing at an accelerating pace, with the most intense declines mirroring the agricultural intensity of specific regions. Analyzing data from 1,033 bird survey routes over 34 years, researchers tracked the abundance and growth rates of 261 bird species across 54 families and 10 habitats. The results show a continent-wide average decline in bird populations, but the acceleration hotspots—centered in the Mid-Atlantic, Midwest, and California—align precisely with areas of intensive farming.\n\nOf the 261 species studied, 122 (47%) show significant declines, and of those, 63 exhibit accelerating declines. Moreover, 67 species are experiencing declining per-capita growth rates, signaling a critical loss of reproductive resilience. This isn't merely a slow fade; it's a snowball effect where the rate of loss intensifies over time. The findings underscore that agricultural practices, rather than just habitat loss alone, may be a key driver of this accelerating crisis.\n\nThe implications are profound. As bird populations vanish faster than previously thought, the ecological ripple effects—pollination, pest control, and ecosystem balance—could spiral out of control. This study serves as a wake-up call: without reimagining agricultural policies to prioritize biodiversity, North America's avian crisis may soon become irreversible."
+    },
+    "keyArticle": {
+      "title": "Acceleration hotspots of North American birds’ decline are associated with agriculture",
+      "authors": [
+        "François Leroy",
+        "Marta A. Jarzyna",
+        "Petr Keil"
+      ],
+      "doi": "10.1126/science.ads0871",
+      "pages": "917-921"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ads0871",
+      "doi": "https://doi.org/10.1126/science.ads0871"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T23:04:57.350610+00:00",
+    "source": "openalex"
+  }
+}

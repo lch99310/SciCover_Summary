@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T22:04:00.595645+00:00",
+  "lastUpdated": "2026-03-04T23:06:35.416314+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -17,6 +17,15 @@
       "path": "articles/2026/02/political-geography-2026-02-27.json",
       "title_zh": "綠色霸權的陰影：匈牙利電池巨廠背後的政治博弈",
       "title_en": "The Green Mirage: Hungary's Battery Boom and the Far-Right Political Ecology",
+      "cover_url": ""
+    },
+    {
+      "id": "science-2026-02-26",
+      "journal": "Science",
+      "date": "2026-02-26",
+      "path": "articles/2026/02/science-2026-02-26.json",
+      "title_zh": "農業強度越高，鳥類衰退越快？北美鳥類加速衰退熱點大揭密",
+      "title_en": "Agriculture's Hidden Hand in the Accelerating Decline of North America's Birds",
       "cover_url": ""
     },
     {
@@ -63,6 +72,15 @@
       "title_zh": "玻璃中的時間膠囊：激光寫入技術讓數字資料存儲超過一萬年",
       "title_en": "Glass as the Ultimate Time Capsule: Laser Writing Could Store Our Digital Legacy for 10,000 Years",
       "cover_url": "data/images/nature/nature-2026-02-18-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-02-18",
+      "journal": "Political Geography",
+      "date": "2026-02-18",
+      "path": "articles/2026/02/political-geography-2026-02-18.json",
+      "title_zh": "邊境烽火燒掉軍心？加納北部民眾信任崩解的關鍵證據",
+      "title_en": "When Borders Burn: How Ghana's Military Lost the Trust of Its Citizens",
+      "cover_url": ""
     },
     {
       "id": "science-2026-02-12",
@@ -116,6 +134,15 @@
       "path": "articles/2026/01/cell-2026-01-28.json",
       "title_zh": "驚人發現！DNA複製的'隱形搭檔'——RFC竟在完成任務後仍緊緊相隨",
       "title_en": "The Unexpected Lifeguard: How RFC's Non-Catalytic Role Keeps DNA Replication on Track",
+      "cover_url": ""
+    },
+    {
+      "id": "cell-2026-01-27",
+      "journal": "Cell",
+      "date": "2026-01-27",
+      "path": "articles/2026/01/cell-2026-01-27.json",
+      "title_zh": "細胞內的'蛋白質儲備站'：代謝調控下，酵母細胞如何保命",
+      "title_en": "Metabolically Controlled Protein Storage: The Hidden Life of Proteasome Granules",
       "cover_url": ""
     },
     {
