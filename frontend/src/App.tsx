@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Layout } from './components/layout/Layout';
 import { useTheme } from './hooks/useTheme';
@@ -117,11 +117,20 @@ function HomePage() {
   );
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 function AppContent() {
   const { theme, toggleTheme } = useTheme();
 
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route
           element={

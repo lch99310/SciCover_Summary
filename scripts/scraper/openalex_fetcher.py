@@ -92,30 +92,44 @@ def _doi_pdf_patterns(doi: str) -> List[str]:
     """
     urls: List[str] = []
     doi_lower = doi.lower()
+    suffix = doi.split("/", 1)[1] if "/" in doi else doi
 
     # Nature / Springer (10.1038/...)
     if doi_lower.startswith("10.1038/"):
-        urls.append(f"https://www.nature.com/articles/{doi.split('/', 1)[1]}.pdf")
+        urls.append(f"https://www.nature.com/articles/{suffix}.pdf")
 
     # Science / AAAS (10.1126/...)
     elif doi_lower.startswith("10.1126/"):
         urls.append(f"https://www.science.org/doi/pdf/{doi}")
 
-    # Cell Press / Elsevier (10.1016/...)
+    # Elsevier (10.1016/...) — covers Cell Press, ScienceDirect,
+    # Political Geography, and all other Elsevier journals.
+    # ScienceDirect PDF endpoint works for all Elsevier DOIs.
     elif doi_lower.startswith("10.1016/"):
-        urls.append(f"https://www.cell.com/action/showPdf?pii={doi.split('/', 1)[1]}")
+        # ScienceDirect PDF (works for all Elsevier journals)
+        urls.append(f"https://www.sciencedirect.com/science/article/pii/{suffix}/pdfft")
+        # Cell Press has its own PDF endpoint for cell.* sub-journals
+        if "j.cell." in doi_lower or ".cell." in doi_lower:
+            urls.append(f"https://www.cell.com/action/showPdf?pii={suffix}")
 
     # Cambridge University Press (10.1017/...)
     elif doi_lower.startswith("10.1017/"):
-        urls.append(f"https://www.cambridge.org/core/services/aop-cambridge-core/content/view/{doi}")
-
-    # Elsevier / ScienceDirect (10.1016/...)
-    elif doi_lower.startswith("10.1016/"):
-        urls.append(f"https://www.sciencedirect.com/science/article/pii/{doi.split('/', 1)[1]}/pdfft")
+        urls.append(
+            f"https://www.cambridge.org/core/services/aop-cambridge-core"
+            f"/content/view/{doi}"
+        )
 
     # SAGE Publications (10.1177/...)
     elif doi_lower.startswith("10.1177/"):
         urls.append(f"https://journals.sagepub.com/doi/pdf/{doi}")
+
+    # Taylor & Francis (10.1080/...)
+    elif doi_lower.startswith("10.1080/"):
+        urls.append(f"https://www.tandfonline.com/doi/pdf/{doi}")
+
+    # Wiley (10.1002/...)
+    elif doi_lower.startswith("10.1002/"):
+        urls.append(f"https://onlinelibrary.wiley.com/doi/pdfdirect/{doi}")
 
     return urls
 
