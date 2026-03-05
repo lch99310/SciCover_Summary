@@ -1,0 +1,49 @@
+{
+  "id": "science-2026-02-19",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6787",
+  "date": "2026-02-19",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "電流密碼：人造胰島細胞的「成熟」覺醒",
+      "en": "Decoding the Electrical Symphony of Pancreatic Cells: How Lab-Grown Islets Learn to Respond to Sugar"
+    },
+    "summary": {
+      "zh": "當實驗室培養的胰島細胞在電流中逐漸「醒來」，我們終於聽懂了它們的語言！科學家們將柔性電子設備植入人類胰臟類器官的發育過程，就像給細胞戴上了一個能追蹤神經訊號的「智能手環」。透過長達數月的單細胞電生理追蹤，研究團隊發現：α細胞與β細胞的電活動隨著成熟度提升，會從「隨機雜訊」轉變為「精準節奏」——這背後其實是能量代謝與荷爾蒙調控基因的集體啟動。更震撼的是，這些細胞竟與人體生物鐘同步運作：每日的荷爾蒙分泌波動，竟與細胞電活動的週期性振盪完美契合，彷彿細胞間在玩一場精準的「電流接龍」。\n\n這項突破不僅揭開了人工胰島細胞成熟的核心機制，還為糖尿病治療帶來新希望。研究人員發現，只要用植入式電刺激器「輕推」細胞，就能大幅提升其對血糖的敏感度——這就像用音樂節奏喚醒沉睡的細胞。未來，這種「電生物學」框架或許能幫助科學家們精準調控組織發育，讓人工胰島真正成為糖尿病患者的救星。",
+      "en": "What if pancreatic cells could 'speak' through electrical signals? Scientists have now cracked the code of how lab-grown human islet cells mature—by implanting flexible electronics that act as a wireless 'neural monitor' for single cells over months. This groundbreaking approach revealed that alpha and beta cells transition from chaotic electrical noise to coordinated firing patterns as they mature, driven by the activation of metabolic and hormone-regulation genes. Most astonishingly, these cells follow a circadian rhythm: their electrical activity oscillates daily in sync with hormone secretion, like a perfectly timed orchestra where every cell plays its part in response to sugar. \n\nThe implications for diabetes research are profound. By applying gentle electrical stimulation to the cells, researchers boosted their glucose responsiveness—a discovery that could revolutionize stem cell therapies. This isn't just about understanding cell behavior; it's about building a bioelectronic framework to guide organoid development with precision. For patients awaiting regenerative treatments, this study hints at a future where engineered pancreas tissues don't just mimic nature—they exceed it."
+    },
+    "keyArticle": {
+      "title": "Implanted flexible electronics reveal principles of human islet cell electrical maturation",
+      "authors": [
+        "Qiang Li",
+        "Ren Liu",
+        "Zuwan Lin",
+        "Xinhe Zhang",
+        "Wenbo Wang",
+        "Israeli M. Galicia-Silva",
+        "Mai Liu",
+        "Zihan Gao",
+        "Samuel D. Pollock",
+        "Juan R. Alvarez-Dominguez",
+        "Jia Liu"
+      ],
+      "doi": "10.1126/science.aeb3295",
+      "pages": "eaeb3295"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb3295",
+      "doi": "https://doi.org/10.1126/science.aeb3295"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T01:31:10.085868+00:00",
+    "source": "openalex"
+  }
+}

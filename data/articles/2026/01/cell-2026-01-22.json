@@ -1,0 +1,58 @@
+{
+  "id": "cell-2026-01-22",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經退化疾病的「隱形地圖」：溶酶體細胞地圖揭開SLC45A1新秘密",
+      "en": "The Brain’s Lysosome Map: How SLC45A1 Rewrites Neurodegenerative Disease"
+    },
+    "summary": {
+      "zh": "你知道大腦神經細胞裡的溶酶體不只是細胞的廢物處理站嗎？最新研究揭開一張前所未有的細胞類型分辨溶酶體蛋白圖譜，讓我們看清不同腦細胞中溶酶體的獨特構成。這張圖譜就像為大腦細胞打開了「細胞類型地圖」，揭示了神經元、星形膠質細胞、少突膠質細胞和小膠質細胞中溶酶體的差異，為理解神經退化疾病提供了關鍵線索。研究團隊更發現數十種從未被標註為溶酶體的蛋白質，讓我們重新認識這些細胞的「回收系統」。\n\n最令人驚訝的是，與單基因神經疾病相關的SLC45A1基因，竟然是神經元專屬的溶酶體糖運輸蛋白！當SLC45A1功能缺失時，不僅造成溶酶體功能障礙，還會影響V-ATPase的V1亞基穩定性，導致溶酶體pH值上升、鐵離子失衡，最終引發線粒體 dysfunction。這項發現將SLC45A1相關疾病重新定義為溶酶體疾病，為治療神經退化疾病打開了新視野。",
+      "en": "What if the key to understanding neurodegenerative diseases lies not in the brain’s neurons alone, but in the tiny organelles that power them? A groundbreaking study in Cell reveals a cell-type-resolved protein atlas of brain lysosomes, uncovering how these cellular recycling centers differ across neuron, astrocyte, oligodendrocyte, and microglial cells. This map, the first of its kind, transforms our understanding of lysosome biology in the brain—and hints at new pathways for treating neurodegenerative disorders.\n\nThe study’s most striking finding? A gene linked to a rare neurological disease, SLC45A1, is revealed as a neuron-specific lysosomal sugar transporter. When SLC45A1 is lost, lysosomes fail to maintain proper acidity, disrupt iron balance, and trigger mitochondrial dysfunction—a cascade that mirrors the hallmarks of lysosomal storage disorders. This redefines SLC45A1-associated disease as a lysosomal disorder, offering a new framework for diagnosis and therapy."
+    },
+    "keyArticle": {
+      "title": "Cell-type resolved protein atlas of brain lysosomes identifies SLC45A1-associated disease as a lysosomal disorder",
+      "authors": [
+        "Ali Ghoochani",
+        "Julia C. Heiby",
+        "Eshaan S. Rawat",
+        "Uche N. Medoh",
+        "Domenico Di Fraia",
+        "Wentao Dong",
+        "Marc Gastou",
+        "Mohit Rastogi",
+        "Vincent Hernandez",
+        "Kwamina Nyame",
+        "Nouf N. Laqtom",
+        "William Durso",
+        "Christina Valkova",
+        "Alina Isakova",
+        "Christoph Kaether",
+        "Marius Wernig",
+        "Kathryn J. Gray",
+        "Christian Franke",
+        "Alessandro Ori",
+        "Abu-Remaileh Monther"
+      ],
+      "doi": "10.1016/j.cell.2025.12.012",
+      "pages": "765-782.e31"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.012",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.012"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T01:31:49.234085+00:00",
+    "source": "openalex"
+  }
+}
