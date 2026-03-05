@@ -1,0 +1,79 @@
+{
+  "id": "nature-2026-01-28",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8100",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-01-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "X光竄出雷射光！132公尺長腔體同步電子束，突破二十年技術瓶頸",
+      "en": "X-Ray Lasing Achieved: A 132-Meter Cavity That Syncs Electron Beams to Create Coherent X-Ray Pulses"
+    },
+    "summary": {
+      "zh": "【總結】本研究成功實現全球首例X射線腔體激射，以132.8公尺長 cavity 與2.23MHz電子束同步，創造出具有100倍窄 bandwidth的高 coherence X射線脈衝。這項突破性成果證明了 cavity-based X-ray free-electron laser (CBXFEL) 的可行性，為量子X光學、超高解析光譜學等領域打開新視野。實驗中使用100微米厚鑽石晶體作為布拉格反射器，克服了過去X射線無法建立穩定腔體的技術瓶頸，其光譜純度可達0.24eV，遠優於傳統SASE源的21eV。這不僅是理論預測的實驗驗證，更代表X射線光源進入「雷射時代」。\n\n【研究問題】過去20年來，硬X射線自由電子雷射（XFEL）受限於缺乏高反射率鏡面，只能依賴單次放大（SASE），導致脈衝不穩定且頻譜寬度達0.1%以上。雖有自種子技術改善光譜純度，但無法解決穩定性問題。本研究直指核心：如何在X射線波段建立穩定腔體？關鍵在於實現奈米級對準精度與微米級腔體長度控制，這正是長期困擾X射線雷射的技術瓶頸。\n\n【研究方法】研究團隊設計132.8公尺長 cavity，由兩組100微米厚鑽石晶體（400布拉格反射）與Kirkpatrick-Baez鏡組成回反射器。透過微米級移動下游鏡組，精準同步 cavity 週期與2.23MHz電子束重複率。實驗中使用透射光柵檢測腔內脈衝，並結合光譜儀監測頻譜收窄現象。關鍵在於優化電子束參數（峰值電流6kA、能量啁啾4MeV/μm），以及以冷腔體衰減信號最大化對準精度。\n\n【結果】實驗證實：每圈增益達0.4，光譜帶寬從21eV縮窄至0.24eV，脈衝能量最高達13μJ。 cavity 反射率測得67.3%（理論值96.8%），差異主要來自晶體缺陷與對準誤差。熱負載效應導致脈衝能量振盪，但模擬顯示冷卻晶體可消除此問題。未來若整合低溫冷卻與先進出射設計，預期脈衝能量可達毫焦級，光譜通量提升百倍，為X射線科學開創全新應用可能。",
+      "en": "**Summary:** Researchers have achieved the first experimental demonstration of lasing in a cavity-based X-ray free-electron laser (CBXFEL), synchronizing a 132.8-meter optical cavity with 2.23-MHz electron bunches to produce fully coherent X-ray pulses with 100 times narrower bandwidth than conventional SASE sources. This breakthrough validates the theoretical concept proposed two decades ago, enabling unprecedented spectral purity (0.24 eV) and paving the way for quantum X-ray optics, millielectronvolt-resolved spectroscopy, and nonlinear X-ray phenomena. The study overcomes the fundamental limitation of X-ray lasers: the lack of high-reflectivity optical cavities.\n\n**Problem:** For 20 years, hard X-ray free-electron lasers (XFELs) have relied on single-pass self-amplified spontaneous emission (SASE), which suffers from shot-to-shot fluctuations and limited coherence. While self-seeding techniques improved spectral purity, they failed to address stability issues. This research tackles the core challenge: building a stable X-ray cavity that maintains nanoradian alignment precision and micrometer-scale length control—a critical prerequisite for coherent X-ray lasing, essential for quantum physics and advanced materials science applications.\n\n**Approach:** The team engineered a 132.8-meter cavity using 100-micron-thick diamond crystals (400 Bragg reflection) paired with Kirkpatrick-Baez mirrors to create retro-reflectors. By translating the downstream mirror assembly in micrometer increments, they precisely matched the cavity's round-trip time to the electron bunch repetition rate. Intra-cavity diagnostics—such as a transmission grating and spectrometer—monitored pulse evolution, while optimized electron beam parameters (peak current ~6 kA, energy chirp ~4 MeV/μm) maximized gain. The experiment leveraged the European XFEL's high-repetition-rate beams to achieve stable synchronization.\n\n**Results:** Lasing was confirmed by a tenfold increase in spectral signal at resonance, with a per-round-trip gain of 0.4 and spectral bandwidth narrowing from 21 eV to 0.24 eV. Pulse energies reached 13 μJ, though thermal effects caused oscillations. The observed 67.3% cavity reflectivity (vs. theoretical 96.8%) highlights challenges from crystal imperfections. Simulations indicate that cryogenic cooling could boost performance tenfold, enabling millijoule-level pulses and three-order-of-magnitude spectral flux gains. This milestone unlocks transformative applications in quantum X-ray optics and resonant scattering with unprecedented precision."
+    },
+    "keyArticle": {
+      "title": "Lasing of a cavity-based X-ray source",
+      "authors": [
+        "Patrick Rauer",
+        "Immo Bahns",
+        "Bertram Friedrich",
+        "S. Gerstl",
+        "Massimiliano Di Felice",
+        "M. Dommach",
+        "Idoia Freijo Martìn",
+        "Wolfgang Freund",
+        "Jan Grünert",
+        "Marc Guetg",
+        "I. Karpics",
+        "S. Karabekyan",
+        "Andreas Koch",
+        "Naresh Kujala",
+        "M. Stefanutti",
+        "Jia Liu",
+        "Theophilos Maltezopoulos",
+        "Mikako Makita",
+        "L. Genovese",
+        "Lukas Müller",
+        "Benoit Rio",
+        "Liubov Samoylova",
+        "Silja Schmidtchen",
+        "Matthias Scholz",
+        "Alessandro Silenzi",
+        "Vivienne Strauch",
+        "Daniel Thoden",
+        "Torsten Wohlenberg",
+        "Maurizio Vannoni",
+        "F. Yang",
+        "J. Pflüger",
+        "Joerg Rossbach",
+        "Harald Sinn"
+      ],
+      "doi": "10.1038/s41586-025-10025-x",
+      "pages": "93-96"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-01-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10025-x",
+      "doi": "https://doi.org/10.1038/s41586-025-10025-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T22:19:57.899214+00:00",
+    "source": "openalex"
+  }
+}

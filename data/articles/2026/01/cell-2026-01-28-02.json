@@ -1,0 +1,44 @@
+{
+  "id": "cell-2026-01-28-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "RNA摺疊失誤救星！Ro60與La蛋白如何協作拆解錯誤結構",
+      "en": "The RNA Unfolding Duo: How Ro60 and La Proteins Team Up to Rescue Misfolded RNA"
+    },
+    "summary": {
+      "zh": "在細胞內，非編碼RNA（ncRNA）的正確摺疊對生命運作至關重要，但錯誤摺疊的RNA卻如同「折紙失誤」般阻礙功能。這篇《Cell》研究揭開了兩種關鍵蛋白質——Ro60和La——如何像精密機械般協作解開RNA的錯誤結構。Ro60如同環形「捕手」，將摺疊錯誤的RNA端點鎖在腔體內；而La則是「穩定器」，先固定新生RNA，再用C端破壞錯誤結構，N端則像「鎖定器」確保RNA順利通過Ro60的腔體。透過高解析度電鏡技術，研究團隊首次捕捉到兩者結合的動態畫面，發現La的兩端如同雙手般包覆Ro60，巧妙協同展開錯誤摺疊的RNA。\n\n這項發現不僅解釋了細胞如何修復RNA「摺疊失誤」，更揭示了Ro60與La組成的「分子解鎖機制」，能廣泛作用於ncRNA前體和帶有寡尿嘧啶尾的RNA。實驗中，研究人員利用SHAPE-MaP技術證實，兩者合作能大幅降低RNA的錯誤結構。這項研究為RNA調控機制打開新視野，也為相關疾病治療提供新線索，例如自身免疫疾病的免疫複合物異常可能與此機制有關。",
+      "en": "In the intricate world of cellular biology, noncoding RNAs (ncRNAs) must fold precisely to function properly—yet misfolded RNAs can derail essential processes like gene regulation. A groundbreaking study published in *Cell* reveals how two proteins, Ro60 and La, act as a molecular team to rescue these faulty RNA structures without needing ATP. Ro60, a ring-shaped protein, traps misfolded RNA ends within its central cavity, while La stabilizes nascent RNA strands and destabilizes incorrect structures. Using cryo-electron microscopy, researchers captured the dynamic interaction between these proteins, showing La’s N-terminal domain binding the RNA’s 3' end after it exits Ro60’s cavity, while its C-terminal domain actively disrupts misfolded regions. Combined with SHAPE-MaP analysis, this work demonstrates their synergistic role in unfolding non-native RNA structures.\n\nThe findings suggest this chaperone mechanism may broadly target ncRNAs that are either precursors or carry oligouridine tails, offering a universal solution for identifying and correcting misfolded RNA. This discovery not only deepens our understanding of RNA quality control but also hints at implications for autoimmune diseases, where these proteins are known autoantigens. By illuminating how cells maintain RNA integrity, the study opens new avenues for therapeutic strategies targeting RNA-related disorders."
+    },
+    "keyArticle": {
+      "title": "Mechanistic insights into RNA chaperoning by Ro60 and La autoantigens",
+      "authors": [
+        "Hyeyeon Nam",
+        "Justin C. Deme",
+        "Soyeong Sim",
+        "Marco Boccitto",
+        "Susan M. Lea",
+        "Sandra L. Wolin"
+      ],
+      "doi": "10.1016/j.cell.2025.12.030",
+      "pages": "1135-1152.e23"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.030",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.030"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T22:20:37.965446+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-01-23",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2026-01-23",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "權力的隱形網：泰國人權委員會與社區的正義爭奪戰",
+      "en": "The Invisible Net: Thailand’s Human Rights Commission and the Community Struggle for Justice Under Military Rule"
+    },
+    "summary": {
+      "zh": "近年東南亞 authoritarian主義的崛起，正如一張隱形的網，將公民社會的聲音與權利逐漸收緊。2014年泰國軍事政變後，國家人權委員會（NHRCT）原本作為人權保障的防線，卻在軍政府的壓制下逐漸失去行動力。這張網不僅封鎖了政治參與，更將保護公民權利的組織本身也束縛於權力的牢籠中。在北部尤安河水資源調配案中，居民們發現環境影響評估（EIA）缺乏社區參與，而NHRCT的調查卻成為他們最後的希望。儘管軍政府通過立法和政策限制公民社會參與，但居民們仍透過NHRCT的調查，爭取到延緩開發的時間，並迫使政府面對正義的追問。這場看似微小的鬥爭，實則是對權力結構的挑戰——當制度本身被壓制，人民仍以多種策略，如對抗性知識生產，試圖打破權力的籠子。這不僅是對抗威權的戰役，更是對『誰的聲音值得被聽』的深刻質疑。",
+      "en": "Rising authoritarianism across Southeast Asia has transformed the landscape of civil society, weaving an invisible net that stifles accountability and silences dissent. In Thailand, the 2014 military coup not only suspended democratic processes but also systematically weakened the National Human Rights Commission (NHRCT), a key institution designed to uphold human rights and hold power to account. This study examines how the NHRCT, despite severe constraints, became a critical arena for community struggles over the Yuam River water diversion project. As residents challenged the flawed Environmental Impact Assessment (EIA) process, the NHRCT’s investigation—though limited by restrictive laws and policies—strategically delayed development and empowered locals to demand accountability from state actors. The analysis reveals how authoritarianism operates not just by eroding rights but by dismantling the very structures meant to protect them. Yet, as this case illustrates, civil society continues to mobilize alternative strategies, from grassroots knowledge production to leveraging institutional channels, to contest power. These struggles underscore a broader truth: the fight against authoritarianism is inseparable from the quest for accountability, transparency, and inclusive decision-making."
+    },
+    "keyArticle": {
+      "title": "Pursuing accountability under authoritarian rule: Thailand's National Human Rights Commission and community struggles for justice",
+      "authors": [
+        "Zali Fung"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103478",
+      "pages": "103478"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103478",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103478"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T22:21:19.657339+00:00",
+    "source": "openalex"
+  }
+}

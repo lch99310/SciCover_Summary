@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T21:30:57.434988+00:00",
+  "lastUpdated": "2026-03-05T22:22:36.087005+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -218,6 +218,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-01-28-02",
+      "journal": "Cell",
+      "date": "2026-01-28",
+      "path": "articles/2026/01/cell-2026-01-28-02.json",
+      "title_zh": "RNA摺疊失誤救星！Ro60與La蛋白如何協作拆解錯誤結構",
+      "title_en": "The RNA Unfolding Duo: How Ro60 and La Proteins Team Up to Rescue Misfolded RNA",
+      "cover_url": ""
+    },
+    {
       "id": "cell-2026-01-28",
       "journal": "Cell",
       "date": "2026-01-28",
@@ -227,12 +236,30 @@
       "cover_url": ""
     },
     {
+      "id": "nature-2026-01-28",
+      "journal": "Nature",
+      "date": "2026-01-28",
+      "path": "articles/2026/01/nature-2026-01-28.json",
+      "title_zh": "X光竄出雷射光！132公尺長腔體同步電子束，突破二十年技術瓶頸",
+      "title_en": "X-Ray Lasing Achieved: A 132-Meter Cavity That Syncs Electron Beams to Create Coherent X-Ray Pulses",
+      "cover_url": "data/images/nature/nature-2026-01-28-cover.jpg"
+    },
+    {
       "id": "cell-2026-01-27",
       "journal": "Cell",
       "date": "2026-01-27",
       "path": "articles/2026/01/cell-2026-01-27.json",
       "title_zh": "細胞內的'蛋白質儲備站'：代謝調控下，酵母細胞如何保命",
       "title_en": "Metabolically Controlled Protein Storage: The Hidden Life of Proteasome Granules",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-01-23",
+      "journal": "Political Geography",
+      "date": "2026-01-23",
+      "path": "articles/2026/01/political-geography-2026-01-23.json",
+      "title_zh": "權力的隱形網：泰國人權委員會與社區的正義爭奪戰",
+      "title_en": "The Invisible Net: Thailand’s Human Rights Commission and the Community Struggle for Justice Under Military Rule",
       "cover_url": ""
     },
     {
@@ -299,12 +326,30 @@
       "cover_url": "data/images/science/science-2026-01-08-cover.jpg"
     },
     {
+      "id": "science-2026-01-01",
+      "journal": "Science",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/science-2026-01-01.json",
+      "title_zh": "流浪行星大發現！土星大小的宇宙漂泊者，揭開『愛因斯坦沙漠』的千年謎題",
+      "title_en": "Saturn-Sized Rogue Planet Caught in the Act: How Gaia and Telescopes Cracked the Einstein Desert",
+      "cover_url": "data/images/science/science-2026-01-01-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2025-12-29",
       "journal": "American Sociological Review",
       "date": "2025-12-29",
       "path": "articles/2025/12/american-sociological-review-2025-12-29.json",
       "title_zh": "政黨仇恨的陰影：為什麼政治對立讓氣候政策失效？",
       "title_en": "The Long Shadow of Partisan Hostility: How Political Animosity Undermines Climate Action",
+      "cover_url": ""
+    },
+    {
+      "id": "american-sociological-review-2025-12-25",
+      "journal": "American Sociological Review",
+      "date": "2025-12-25",
+      "path": "articles/2025/12/american-sociological-review-2025-12-25.json",
+      "title_zh": "價錢背後的隱形階級：為什麼富人更認同「風險定價」？",
+      "title_en": "Whose Side Are You On? How Wealth Shapes Our Views on Fair Pricing",
       "cover_url": ""
     },
     {
@@ -351,6 +396,15 @@
       "title_zh": "風暴中的韌性：川普貿易政策後，世界貿易體系為何依然屹立？",
       "title_en": "Weathering the Storm: Why the Global Trade System Survived Trump's Tariffs",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-04-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-05",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-05.json",
+      "title_zh": "數位戰國時代：AI霸權下的科技聯盟與主權之爭",
+      "title_en": "The New Digital Cold War: How AI Is Reshaping Global Power Through Techno-Blocs",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-05-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",
