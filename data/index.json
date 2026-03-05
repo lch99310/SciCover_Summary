@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T10:55:52.514710+00:00",
+  "lastUpdated": "2026-03-05T12:43:15.000872+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -8,7 +8,7 @@
       "path": "articles/2026/02/political-geography-2026-02-28.json",
       "title_zh": "選票的裂痕：德國東西邊界如何決定政治選擇？",
       "title_en": "The Invisible Divide: How Germany’s Historical Borders Still Split Votes Today",
-      "cover_url": ""
+      "cover_url": "data/images/science/pg-2026-02-28-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-27",
@@ -83,6 +83,15 @@
       "cover_url": "data/images/nature/nature-2026-02-18-cover.jpg"
     },
     {
+      "id": "political-geography-2026-02-18-02",
+      "journal": "Political Geography",
+      "date": "2026-02-18",
+      "path": "articles/2026/02/political-geography-2026-02-18-02.json",
+      "title_zh": "當登山者穿越邊界：庫德斯坦山區旅遊的主權身體與日常地緣政治",
+      "title_en": "When Hikers Cross Borders: How Mountain Tourism Reshapes Kurdistan's Geopolitics",
+      "cover_url": ""
+    },
+    {
       "id": "political-geography-2026-02-18",
       "journal": "Political Geography",
       "date": "2026-02-18",
@@ -128,6 +137,15 @@
       "cover_url": "data/images/science/science-2026-02-05-cover.jpg"
     },
     {
+      "id": "nature-2026-02-04-02",
+      "journal": "Nature",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/nature-2026-02-04-02.json",
+      "title_zh": "碳的紅氧化學：為什麼所有火山岩都源自同一個熔融源？",
+      "title_en": "The Carbon Catalyst: How Mantle Melting Unifies Earth's Volcanic Rocks",
+      "cover_url": "data/images/nature/nature-2026-02-04-02-cover.jpg"
+    },
+    {
       "id": "nature-2026-02-04",
       "journal": "Nature",
       "date": "2026-02-04",
@@ -143,6 +161,15 @@
       "path": "articles/2026/02/political-geography-2026-02-02.json",
       "title_zh": "這裡沒有任何服務！西班牙鄉村服務不平等如何催生農村怨恨",
       "title_en": "There’s Nothing Here: How Service Inequality Fuels Rural Resentment in Spain",
+      "cover_url": ""
+    },
+    {
+      "id": "cell-2026-02-01-02",
+      "journal": "Cell",
+      "date": "2026-02-01",
+      "path": "articles/2026/02/cell-2026-02-01-02.json",
+      "title_zh": "神經元化身「護城河」：三陰性乳癌如何用 collagen 阻絕抗癌細胞？",
+      "title_en": "Sensory Neurons Build a Collagen Fortress to Block Immune Response in Breast Cancer",
       "cover_url": ""
     },
     {
@@ -200,6 +227,15 @@
       "cover_url": ""
     },
     {
+      "id": "american-sociological-review-2026-01-17-02",
+      "journal": "American Sociological Review",
+      "date": "2026-01-17",
+      "path": "articles/2026/01/american-sociological-review-2026-01-17-02.json",
+      "title_zh": "氣候危機的時間悖論：媒體為何總在最後一刻喊緊急？",
+      "title_en": "The Urgency Gap: How Media Framing of Climate Time Hinders Action",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2026-01-17",
       "journal": "American Sociological Review",
       "date": "2026-01-17",
@@ -227,6 +263,15 @@
       "cover_url": "data/images/science/science-2026-01-15-cover.jpg"
     },
     {
+      "id": "science-2026-01-08",
+      "journal": "Science",
+      "date": "2026-01-08",
+      "path": "articles/2026/01/science-2026-01-08.json",
+      "title_zh": "黑洞噴流轉圈圈！82萬年一轉的宇宙陀螺，竟讓星系氣體被「甩」出",
+      "title_en": "The Wobbling Jet That Took 820,000 Years to Spin: How a Black Hole's Gyro Effect Ejects Gas from Its Galaxy",
+      "cover_url": "data/images/science/science-2026-01-08-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2025-11-27",
       "journal": "American Sociological Review",
       "date": "2025-11-27",
@@ -243,6 +288,15 @@
       "title_zh": "三代追夢：法國移民後裔的教育階梯與種族隱形壁壘",
       "title_en": "Beyond the Second Generation: How France’s Third-Generation Immigrants Are Still Confronting the Legacy of Ethnic Hierarchy",
       "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20-02",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-02.json",
+      "title_zh": "民主約束崩解：美國外交政策失控，世界秩序的終結倒數",
+      "title_en": "The Unconstrained Presidency: How America's Democratic Erosion Is Shattering Global Order",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-02-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",

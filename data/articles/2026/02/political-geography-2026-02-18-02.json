@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-02-18-02",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當登山者穿越邊界：庫德斯坦山區旅遊的主權身體與日常地緣政治",
+      "en": "When Hikers Cross Borders: How Mountain Tourism Reshapes Kurdistan's Geopolitics"
+    },
+    "summary": {
+      "zh": "伊拉克庫德斯坦的山區旅遊看似只是單純的登山活動，實則隱藏著複雜的地緣政治。研究者透過2021至2025年的田野調查，揭開旅遊者從家門出發到抵達山頂的每一步：申請許可證、組團、通過檢查站，這些日常流程背後，是庫德地方當局、伊拉克聯邦政府等多重勢力的角力。就像在迷宮中尋找出口，旅行者必須應對錯綜複雜的邊界體系，這些邊界既由多個主權勢力共同治理，又充滿爭議。\n\n文章提出「主權身體」的概念，指那些擁有強大社會資本與象徵資本的旅遊者，他們在邊界爭奪中扮演關鍵角色。例如，某些遊客憑藉特殊關係繞過行政程序，或是透過小團體突破權力壁壘。這些微小的日常行動雖看似平凡，卻在邊界爭奪中悄然重塑權力結構。研究強調，旅遊不僅反映地緣政治，更能主動重塑它——就像水滴穿透岩石，平凡的登山活動最終改變了庫德斯坦的地理政治版圖。",
+      "en": "The Kurdistan Region of Iraq (KRI) is a landscape of overlapping sovereignties, where internal borders are ubiquitous and contested. This article explores how mountain tourism in the Zagros Mountains becomes a site of everyday geopolitics, revealing how tourist mobility both responds to and reshapes these dynamics. Through detailed case studies of a mountain ascent—encompassing permit acquisition, group formation, and checkpoint crossings—the authors demonstrate that tourism is structured by \"differentiated borderities,\" where access to space is unevenly distributed and negotiated through micro-agency. The study shows that even mundane activities like obtaining permits or navigating checkpoints are deeply political, reflecting the complex power structures that define the region.\n\nCentral to the analysis is the concept of \"sovereign bodies\"—tourists who, through social and symbolic capital, enter contested spaces where sovereignty is in flux. These individuals and groups, often with privileged access or connections, bypass bureaucratic and security constraints, subtly altering the balance of power. By emphasizing the ordinariness of tourism, the article argues that leisure practices can reshape geopolitical spaces, challenging the notion that sovereignty is fixed or confined to formal political processes. The findings underscore how everyday actions can have profound implications for the negotiation of borders and authority in contested regions."
+    },
+    "keyArticle": {
+      "title": "From home to summit: Sovereign bodies and the everyday geopolitics of mountain tourism in Iraqi Kurdistan",
+      "authors": [
+        "Marie Poulain",
+        "Jean Miczka"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103508",
+      "pages": "103508"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103508",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103508"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T12:41:26.099386+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-02-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-02-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經元化身「護城河」：三陰性乳癌如何用 collagen 阻絕抗癌細胞？",
+      "en": "Sensory Neurons Build a Collagen Fortress to Block Immune Response in Breast Cancer"
+    },
+    "summary": {
+      "zh": "在三陰性乳癌（TNBC）的腫瘤微環境中，隱藏著一場神經與免疫的「攻防戰」—— sensory 神經元竟成為免疫細胞的「護城河」守護者！科學家發現，這些神經元會分泌神經肽 CGRP，就像發出「建築指令」，讓周圍的纖維母細胞化身為「 collagen 工匠」，在腫瘤周圍堆疊起緻密的細胞外基質。這層堅固的屏障不僅阻隔了免疫細胞前進，更讓腫瘤逃過免疫系統的追殺。有趣的是，當神經元接收到高濃度神經生長因子（NGF）的訊號時，CGRP 就會被釋放，激活細胞內的 cAMP/PKA/CREB1 信號鏈，讓 collagen 產量暴增。這就像神經元與纖維母細胞之間的「秘密協議」，讓腫瘤的防禦系統越來越堅固。",
+      "en": "In the tumor microenvironment of triple-negative breast cancer (TNBC), a hidden battle unfolds between nerves and the immune system—sensory neurons turn out to be the unexpected defenders of an 'immune moat.' Researchers discovered that these neurons secrete a neuropeptide called CGRP, which acts like a construction blueprint, prompting cancer-associated fibroblasts (CAFs) to become collagen artisans. The dense extracellular matrix they build forms an impenetrable barrier that blocks immune cells from reaching the tumor. When sensory neurons detect high levels of nerve growth factor (NGF), CGRP is released, activating a cAMP/PKA/CREB1 signaling cascade that ramps up collagen production. This intricate 'neuro-fibroblast handshake' fortifies the tumor’s defense, effectively shielding it from immune attack. Targeting this pathway with the CGRP antagonist rimegepant could disrupt the fortress, making tumors more vulnerable to immunotherapy."
+    },
+    "keyArticle": {
+      "title": "Sensory neurons drive immune exclusion by stimulating a dense extracellular matrix in the breast cancer tumor microenvironment",
+      "authors": [
+        "Si‐Wei Zhang",
+        "Han Wang",
+        "Yi Xiao",
+        "Luo-Tian Liu",
+        "Minhong Shen",
+        "Zhuang Wang",
+        "Shen Zhao",
+        "Xiao-Hong Ding",
+        "Ying Wang",
+        "Qing-Yuan Zhuang",
+        "Jinfei Ni",
+        "Zhi-Ming Shao",
+        "Yi-Zhou Jiang"
+      ],
+      "doi": "10.1016/j.cell.2026.01.001",
+      "pages": "1039-1055.e20"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.001",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.001"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T12:40:12.853192+00:00",
+    "source": "openalex"
+  }
+}
