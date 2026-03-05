@@ -35,7 +35,15 @@
       "doi": "10.1126/science.aeb3295",
       "pages": "eaeb3295"
     },
-    "images": [],
+    "images": [
+       {
+        "url": "data/images/science/science-2026-02-19-cover.png",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
     "links": {
       "official": "https://doi.org/10.1126/science.aeb3295",
       "doi": "https://doi.org/10.1126/science.aeb3295"
