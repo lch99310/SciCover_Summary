@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2025-11-20-03",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "虛假訊息狂潮：民主危機與國際合作破局的深層危機",
+      "en": "The Information Tsunami: How Digital Deception is Reshaping Global Politics"
+    },
+    "summary": {
+      "zh": "【總結】文章指出，當前全球資訊環境正經歷劇烈轉變，社交媒體演算法加速假訊息傳播，形成「資訊混亂」現象。這種現象不僅破壞民主制衡機制，更威脅國際合作與全球治理。作者以美國前總統特朗普的關稅謊言、俄羅斯對烏克蘭的虛假宣傳為例，說明資訊混亂如何扭曲公眾認知，並削弱民主國家在國際談判中的優勢。研究揭示：民主制度面臨前所未有的挑戰，而威權國家則能利用資訊混亂進行跨境干預，這對全球政治結構產生深遠影響。\n\n【研究問題】國際關係學界長期將資訊視為影響國際互動的關鍵變數，但對當前資訊環境的劇變缺乏深入探討。過去研究聚焦於資訊不對稱如何影響國家行為，卻未關注社交媒體時代下「假訊息海嘯」對國際政治的衝擊。尤其在民主制度中，資訊混亂可能破壞公民對政府的監督機制，而這正是國際關係理論中「民主優勢」的核心假設。解決此問題對理解當代全球政治危機至關重要。\n\n【研究方法】作者採用理論分析與案例研究相結合的方法，梳理資訊混亂的三大特徵：內容創作門檻降低、虛假資訊快速擴散、演算法放大情緒化內容。通過比較民主國家與威權國家的應對機制，例如中國政府利用社交媒體進行訊息管控，美國政府放棄事實查核，揭示資訊混亂如何影響不同政體的國際行為。研究還結合氣候變遷、聯合國維和行動等具體案例，驗證理論假設。\n\n【結果】研究發現，資訊混亂使民主國家公民難以辨別真相，導致民主制衡機制失效。例如，2016年氣候騙局帖文在社群媒體被分享超過50萬次，導致共和黨選民對氣候變遷的認同率大幅下降。同時，國際合作因共同基準消失而受阻，如氣候協議因虛假資訊而難以推動。更嚴重的是，資訊混亂讓威權國家能輕易進行跨境干預，如俄羅斯對東歐的資訊戰術，使國際政治陷入更深的不穩定。",
+      "en": "**Summary:** The article reveals how the digital age's \"information disorder\"—a media landscape where false content spreads rapidly through algorithms and emotional triggers—is fundamentally reshaping global politics. Drawing on cases like Trump's tariff misinformation and Russian disinformation campaigns, the authors show how this crisis undermines democratic accountability, weakens international cooperation, and fuels conflict. Unlike previous IR research that treated information as a static variable, this study exposes how today's fragmented news ecosystem erodes the very foundations of state behavior and global governance.\n\n**Problem:** While international relations scholars have long recognized information as crucial to state behavior, they've largely ignored the profound impact of the current information environment. Traditional theories assumed states could overcome uncertainty through institutions or signaling—but now, social media algorithms amplify lies, creating a world where truth is malleable. This gap matters because democratic nations, built on citizen oversight, are uniquely vulnerable to misinformation, while authoritarian regimes weaponize it to undermine rivals. Without understanding this shift, IR theory risks becoming obsolete.\n\n**Approach:** The authors combine theoretical analysis with empirical evidence, tracking how three structural shifts—decentralized content production, passive news consumption, and algorithmic amplification—create information disorder. They examine case studies from climate change negotiations to UN peacekeeping missions, showing how fake news undermines shared facts. Crucially, they compare democratic and authoritarian responses, revealing why democracies struggle to combat misinformation while autocracies control narratives through state-backed platforms.\n\n**Results:** Key findings include: 1) 2016 climate hoax posts were shared over 500,000 times on social media, reducing Republican support for climate action; 2) UN peacekeeping missions in Central Africa faced disinformation campaigns alleging war crimes by peacekeepers; 3) Democratic leaders lose credibility as citizens can't verify facts, eroding the \"democratic advantage\" in foreign policy. These trends signal a new era where misinformation is not just a nuisance but a strategic weapon in international politics."
+    },
+    "keyArticle": {
+      "title": "Information Disorder and Global Politics",
+      "authors": [
+        "Julia C. Morse",
+        "Tyler Pratt"
+      ],
+      "doi": "10.1017/s0020818325101069",
+      "pages": "S26-S43"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101069",
+      "doi": "https://doi.org/10.1017/s0020818325101069"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T20:28:00.945341+00:00",
+    "source": "openalex"
+  }
+}

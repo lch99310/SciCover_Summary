@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T12:43:15.000872+00:00",
+  "lastUpdated": "2026-03-05T20:28:40.582967+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -89,6 +89,15 @@
       "path": "articles/2026/02/political-geography-2026-02-18-02.json",
       "title_zh": "當登山者穿越邊界：庫德斯坦山區旅遊的主權身體與日常地緣政治",
       "title_en": "When Hikers Cross Borders: How Mountain Tourism Reshapes Kurdistan's Geopolitics",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-02-18-03",
+      "journal": "Political Geography",
+      "date": "2026-02-18",
+      "path": "articles/2026/02/political-geography-2026-02-18-03.json",
+      "title_zh": "食物公民權的革命：倫敦東區社區實踐的民主啟示",
+      "title_en": "The Democratic Power of Food: How East London Communities Are Building Inclusive Citizenship",
       "cover_url": ""
     },
     {
@@ -263,6 +272,15 @@
       "cover_url": "data/images/science/science-2026-01-15-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-01-13",
+      "journal": "American Sociological Review",
+      "date": "2026-01-13",
+      "path": "articles/2026/01/american-sociological-review-2026-01-13.json",
+      "title_zh": "努力的代價：為什麼獎勵制度能縮小貧富差距？",
+      "title_en": "The Hidden Cost of Effort: How Incentives Can Level the Playing Field for Children from Different Backgrounds",
+      "cover_url": ""
+    },
+    {
       "id": "science-2026-01-08",
       "journal": "Science",
       "date": "2026-01-08",
@@ -297,6 +315,15 @@
       "title_zh": "民主約束崩解：美國外交政策失控，世界秩序的終結倒數",
       "title_en": "The Unconstrained Presidency: How America's Democratic Erosion Is Shattering Global Order",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-02-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-03",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-03.json",
+      "title_zh": "虛假訊息狂潮：民主危機與國際合作破局的深層危機",
+      "title_en": "The Information Tsunami: How Digital Deception is Reshaping Global Politics",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-03-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",
