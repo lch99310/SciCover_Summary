@@ -1,0 +1,56 @@
+{
+  "id": "cell-2026-01-16",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-16",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "7個分子機械臂的三步躍動：細胞分泌的精準時序解密",
+      "en": "How 7 Molecules Pull Vesicles Toward the Cell Membrane in Three Steps"
+    },
+    "summary": {
+      "zh": "細胞分泌過程中的最後一公里，竟藏著一場精準的分子舞蹈！科學家發現，細胞內負責將囊泡 tethering（連結）到細胞膜的外泌體複合物（exocyst complex），竟由7個分子機械臂組成環形結構。過去這套結構的運作機制一直未被解開，但這次研究結合超解析度顯微鏡與冷凍電鏡斷層掃描技術，終於捕捉到它們從45奈米外開始逐步收縮的動態過程——就像分子級的彈簧，以27、18、5奈米三階段精準拉近囊泡與細胞膜。這不僅是細胞運作的微觀奇觀，更揭示了分泌速率受控於結構解體的關鍵機制。",
+      "en": "In the final steps of cellular secretion, a precise molecular dance unfolds. Researchers discovered that the exocyst complex, which tethers secretory vesicles to the plasma membrane, forms a ring-shaped structure composed of seven molecular arms. For decades, the higher-order structure coordinating these multiple exocysts remained a mystery—until this study used particle tracking, super-resolution microscopy, and cryo-electron tomography to capture its dynamic behavior. The ring starts at 45 nanometers from the membrane and contracts stepwise in three metastable states (27, 18, and 5 nm), pulling vesicles toward fusion like a molecular spring. After fusion, the protein Sec18 disassembles the stationary structure, directly regulating exocytosis speed. This reveals a biophysical mechanism where timing and distance control secretion—a discovery with implications for understanding cellular communication and diseases linked to exocytosis."
+    },
+    "keyArticle": {
+      "title": "Continuum architecture dynamics of vesicle tethering in exocytosis",
+      "authors": [
+        "Marta Puig-Tintó",
+        "Sebastian Ortiz",
+        "Sasha Meek",
+        "Raffaele Coray",
+        "Laura Betancur",
+        "Altair C. Hernández",
+        "Anna Castellet",
+        "Eric M. Kramer",
+        "Philipp Hoess",
+        "Markus Mund",
+        "Andrés Molina-Ribagorda",
+        "Mercè Izquierdo-Serra",
+        "Baldo Oliva",
+        "Alex de Marco",
+        "Jonas Ries",
+        "Daniel Castaño‐Díez",
+        "Carlo Manzo",
+        "Oriol Gallego"
+      ],
+      "doi": "10.1016/j.cell.2025.11.038",
+      "pages": "1170-1184.e22"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.038",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.038"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T10:55:13.848880+00:00",
+    "source": "openalex"
+  }
+}

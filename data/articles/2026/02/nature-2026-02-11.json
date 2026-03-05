@@ -1,0 +1,71 @@
+{
+  "id": "nature-2026-02-11",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8104",
+  "date": "2026-02-11",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "古菌系譜大修正：3個重複基因，反而讓真核生物起源的結論更堅實",
+      "en": "A Tiny Correction, A Big Confirmation: Eukaryotes' Ancient Archaeal Roots Hold Firm"
+    },
+    "summary": {
+      "zh": "【總結】這項研究修正了原始論文中的細節誤差，卻意外強化了「真核生物起源自古菌」的核心結論。研究團隊發現原始數據中3個 phylogenetic markers 屬於重複的旁系同源基因（paralogous families），經去除後重新分析，結果仍顯示真核生物與海德蘭古菌（Heimdallarchaeia）的 Hodarchaeales 有序列同源性，且為單系群（monophyletic group）。這不僅彰顯科學研究的嚴謹性，更為「真核生物起源於古菌」的演化模型提供了更堅實的證據鏈。\n\n【研究問題】過去研究試圖釐清真核生物起源，但常因數據冗餘導致演化樹誤判。原始論文雖提出「真核生物源自 Heimdallarchaeia」的假說，卻未察覺部分標記基因的重複現象。這種技術盲點可能讓演化關係扭曲，影響對生命演化關鍵節點的解讀。解決此問題至關重要，因為真核生物起源是生物學最根本的謎題之一，直接關係到理解複雜生命如何誕生。\n\n【研究方法】研究團隊首先比對原始數據，發現3個標記基因（M127、M028、MA54）與其他標記存在重複序列，屬於同源基因家族。他們將數據集從57個標記縮減至54個非冗餘標記（NM54），並沿用原始分析方法：以SR4-重編碼（Susko-Roger-4）處理序列變異，再用快速位點移除（FSR）技術過濾干擾。這如同清理「基因迷宮」，確保每條線索都獨一無二，避免因重複造成誤導。\n\n【結果】即使去除3個重複標記，重新分析後的統計支持度雖有小幅波動，但核心趨勢未變：真核生物與 Hodarchaeales 的演化關係仍為單系群。具體而言，NM54數據集顯示真核生物與 Hodarchaeales 的分支支持率達95%以上。這不僅驗證了原始假說的可靠性，更指出古菌演化中「細胞複雜性爆發」的關鍵階段，為後續研究指明方向。",
+      "en": "**Summary:** This correction reaffirms the landmark conclusion that eukaryotes likely evolved from a Heimdallarchaeia ancestor, specifically as sister-group to the Hodarchaeales order within this archaeal lineage. After identifying and removing three redundant phylogenetic markers from the original dataset, researchers reconfirmed that eukaryotes form a monophyletic group with Heimdallarchaeia. This minor adjustment demonstrates how scientific rigor strengthens foundational evolutionary models, ensuring that even subtle methodological refinements do not undermine core biological insights.\n\n**Problem:** Phylogenomic studies often rely on large marker datasets, but redundant paralogous genes can artificially inflate evolutionary relationships. Previous research on eukaryotic origins overlooked this pitfall, potentially distorting the evolutionary tree of life. Resolving this issue is critical because the origin of eukaryotes remains one of biology’s most profound questions—understanding this transition is essential to explaining the emergence of complex life.\n\n**Approach:** The team first identified three markers (M127, M028, MA54) as paralogous sequences using sequence alignment tools. They then recalibrated the dataset to 54 non-redundant markers (NM54) and re-ran phylogenomic analyses with the same methods: Susko-Roger-4 recoding (SR4) to handle sequence saturation and Fast-site removal (FSR) to minimize homoplasy. This process ensured that evolutionary signals were not confounded by duplicated genes.\n\n**Results:** While statistical support for key nodes showed minor fluctuations (e.g., bootstrap values dropping from 98% to 92%), the overall topology remained consistent: eukaryotes nested within Heimdallarchaeia as sister to Hodarchaeales. Notably, NM54 analyses confirmed a 95% bootstrap support for this relationship. These findings validate the robustness of the Heimdallarchaeia hypothesis and underscore the importance of meticulous data curation in evolutionary biology."
+    },
+    "keyArticle": {
+      "title": "Author Correction: Inference and reconstruction of the heimdallarchaeial ancestry of eukaryotes",
+      "authors": [
+        "Laura Eme",
+        "Daniel Tamarit",
+        "Eva Cáceres",
+        "Courtney W. Stairs",
+        "Valerie De Anda",
+        "Max Emil Schön",
+        "Kiley W. Seitz",
+        "Nina Dombrowski",
+        "William H. Lewis",
+        "Félix Homa",
+        "Jimmy H Saw",
+        "Jonathan Lombard",
+        "Takuro Nunoura",
+        "Wen-Jun Li",
+        "Zheng‐Shuang Hua",
+        "Lin-Xing Chen",
+        "Jillian F. Banfield",
+        "Emily St. John",
+        "Anna-Louise Reysenbach",
+        "Matthew Stott",
+        "Andreas Schramm",
+        "Kasper Urup Kjeldsen",
+        "Andreas P. Teske",
+        "Brett J. Baker",
+        "Thijs J. G. Ettema"
+      ],
+      "doi": "10.1038/s41586-026-10115-4",
+      "pages": "E1"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10115-4",
+      "doi": "https://doi.org/10.1038/s41586-026-10115-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T10:54:43.478059+00:00",
+    "source": "openalex"
+  }
+}

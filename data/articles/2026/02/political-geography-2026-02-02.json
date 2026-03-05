@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-02",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-02-02",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "這裡沒有任何服務！西班牙鄉村服務不平等如何催生農村怨恨",
+      "en": "There’s Nothing Here: How Service Inequality Fuels Rural Resentment in Spain"
+    },
+    "summary": {
+      "zh": "西班牙農村與城市之間的對立現象近年來引發廣泛關注。當城市居民享受便捷的醫療、教育與網路服務時，許多鄉村地區卻面臨「服務荒漠」的困境——醫療設施稀少、學校關閉、道路破損、網路信號微弱。這種服務不平等不僅是物質條件的差距，更成為農村居民心中積怨的導火索。研究顯示，當鄉村居民發現自己無法像城市居民一樣獲得基本服務時，他們的怨恨感會顯著上升。\n\n本研究透過比對西班牙全國鄉村地區的官方統計數據與一項創新性調查，探討服務獲取不平等如何影響農村居民的「地方認同怨恨」。研究發現，服務不平等會直接引發更高水平的怨恨，而這種效應部分由對現有服務的不滿所中介——就像一個長期被忽略的「被遺忘的角落」，農村居民的不滿逐漸轉化為對地方治理的批判。這種「服務鴻溝」不僅影響居民的生活品質，更深刻重塑了他們對國家治理的信任。\n\n這項研究提醒我們，理解當前農村與城市的政治鴻溝，不能只關注宏觀政策，還需關注日常生活的細微處。服務不平等並非抽象問題，而是農村居民每天面對的現實。當鄉村地區的醫療、教育等基礎設施無法跟上城市腳步，這種「服務落差」便成為滋生怨恨的溫床，最終影響整體政治生態。從這個角度看，解決農村怨恨問題，需要從具體的服務改善開始。",
+      "en": "The rural-urban divide in Spain has become a focal point for understanding political polarization, with rural communities increasingly expressing resentment toward urban centers. This study addresses a critical question: what contextual factors drive higher levels of place-based resentment in rural areas? By analyzing official statistics on service access—healthcare, education, roads, and internet—alongside survey data from rural Spanish residents, the authors reveal that service disparities significantly correlate with resentment. Crucially, the study finds that dissatisfaction with these services partially mediates the relationship between unequal access and resentment.\n\nThe research highlights how daily realities shape political attitudes. In rural Spain, the absence of reliable healthcare, crumbling infrastructure, and spotty internet connectivity are not just logistical challenges but sources of profound discontent. When residents feel consistently underserved, their sense of belonging and trust in governance erodes. The study underscores that rural resentment is not merely a product of economic inequality but stems from the tangible lack of essential services that define quality of life.\n\nThis work challenges scholars to look beyond abstract policy debates and consider the lived experiences of rural populations. By focusing on the everyday realities of service access, the study offers a nuanced explanation for the rural-urban divide—one that resonates with the experiences of communities worldwide facing similar challenges. Ultimately, it suggests that addressing resentment requires more than economic redistribution; it demands tangible improvements in infrastructure and service delivery."
+    },
+    "keyArticle": {
+      "title": "There is nothing here! Unequal access to services and rural resentment in Spain",
+      "authors": [
+        "Rubén García del Horno"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103504",
+      "pages": "103504"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103504",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103504"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T10:55:51.622375+00:00",
+    "source": "openalex"
+  }
+}
