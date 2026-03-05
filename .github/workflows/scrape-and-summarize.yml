@@ -2,10 +2,8 @@ name: Fetch & Summarise Cover Stories
 
 on:
   schedule:
-    # Weekly: every Saturday 06:00 UTC (natural-science journals)
-    - cron: "0 20 * * *"
-    # Bimonthly: 1st and 15th of each month 06:00 UTC (social-science journals)
-    - cron: "0 21 * * *"
+    # Every 3 days at 06:00 Sydney time (AEDT=UTC+11 → 19:00 UTC previous day)
+    - cron: "0 19 */3 * *"
   workflow_dispatch:
     inputs:
       journals:
@@ -43,14 +41,9 @@ jobs:
         id: journals
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Manual trigger: use user-provided list
             echo "args=${{ github.event.inputs.journals }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 6 * * 6" ]; then
-            # Saturday cron: natural-science journals only
-            echo "args=natural" >> "$GITHUB_OUTPUT"
           else
-            # 1st/15th cron: social-science journals only
-            echo "args=social" >> "$GITHUB_OUTPUT"
+            echo "args=all" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Fetch articles via OpenAlex
@@ -58,10 +51,6 @@ jobs:
           JOURNALS="${{ steps.journals.outputs.args }}"
           if [ "$JOURNALS" = "all" ] || [ -z "$JOURNALS" ]; then
             python -m scripts.main --journal all
-          elif [ "$JOURNALS" = "natural" ]; then
-            python -m scripts.main --journal science --journal nature --journal cell
-          elif [ "$JOURNALS" = "social" ]; then
-            python -m scripts.main --journal polgeog --journal intorg --journal asr
           else
             # Comma-separated list from workflow_dispatch
             IFS=',' read -ra NAMES <<< "$JOURNALS"
