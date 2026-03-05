@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T20:28:40.582967+00:00",
+  "lastUpdated": "2026-03-05T21:30:57.434988+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -191,6 +191,15 @@
       "cover_url": ""
     },
     {
+      "id": "political-geography-2026-01-31",
+      "journal": "Political Geography",
+      "date": "2026-01-31",
+      "path": "articles/2026/01/political-geography-2026-01-31.json",
+      "title_zh": "鄰居效應的真相：印度選舉數據揭開地方候選人拉票密碼",
+      "title_en": "The Hidden Network: How Local Candidates Win Votes in India",
+      "cover_url": ""
+    },
+    {
       "id": "cell-2026-01-29",
       "journal": "Cell",
       "date": "2026-01-29",
@@ -290,6 +299,15 @@
       "cover_url": "data/images/science/science-2026-01-08-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2025-12-29",
+      "journal": "American Sociological Review",
+      "date": "2025-12-29",
+      "path": "articles/2025/12/american-sociological-review-2025-12-29.json",
+      "title_zh": "政黨仇恨的陰影：為什麼政治對立讓氣候政策失效？",
+      "title_en": "The Long Shadow of Partisan Hostility: How Political Animosity Undermines Climate Action",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2025-11-27",
       "journal": "American Sociological Review",
       "date": "2025-11-27",
@@ -324,6 +342,15 @@
       "title_zh": "虛假訊息狂潮：民主危機與國際合作破局的深層危機",
       "title_en": "The Information Tsunami: How Digital Deception is Reshaping Global Politics",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-03-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-04",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-04.json",
+      "title_zh": "風暴中的韌性：川普貿易政策後，世界貿易體系為何依然屹立？",
+      "title_en": "Weathering the Storm: Why the Global Trade System Survived Trump's Tariffs",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-04-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",
