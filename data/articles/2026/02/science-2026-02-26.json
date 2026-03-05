@@ -27,7 +27,15 @@
       "doi": "10.1126/science.ads0871",
       "pages": "917-921"
     },
-    "images": [],
+    "images": [
+        {
+        "url": "data/images/science/science-2026-02-26-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
     "links": {
       "official": "https://doi.org/10.1126/science.ads0871",
       "doi": "https://doi.org/10.1126/science.ads0871"
