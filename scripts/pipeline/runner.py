@@ -160,20 +160,36 @@ class PipelineRunner:
             cand_id = generate_article_id(candidate.journal, candidate.date)
             try:
                 dt = datetime.strptime(candidate.date, "%Y-%m-%d")
-                cand_file = (
+                cand_dir = (
                     DATA_DIR / "articles" / f"{dt.year:04d}" / f"{dt.month:02d}"
-                    / f"{cand_id}.json"
                 )
             except (ValueError, TypeError):
-                cand_file = DATA_DIR / "articles" / f"{cand_id}.json"
+                cand_dir = DATA_DIR / "articles"
+
+            cand_file = cand_dir / f"{cand_id}.json"
 
             if cand_file.exists():
-                logger.info(
-                    "Already have %s ('%s') — trying next candidate",
-                    cand_id, candidate.article_title[:50],
+                # Check if the existing file is a DIFFERENT article (same
+                # journal + date but different DOI).  This happens when a
+                # journal publishes multiple articles on the same date
+                # (e.g. International Organization special issues).
+                if self._is_same_article(cand_file, candidate):
+                    logger.info(
+                        "Already have %s ('%s') — trying next candidate",
+                        cand_id, candidate.article_title[:50],
+                    )
+                    report["skipped"].append(cand_id)
+                    continue
+                # Different article with same date — find a unique ID.
+                cand_id, cand_file = self._find_unique_id(
+                    cand_id, cand_dir, candidate,
                 )
-                report["skipped"].append(cand_id)
-                continue
+                if cand_id is None:
+                    # All suffixed IDs also exist for this article.
+                    report["skipped"].append(
+                        generate_article_id(candidate.journal, candidate.date)
+                    )
+                    continue
 
             # Found a new article to process.
             raw = candidate
@@ -202,6 +218,13 @@ class PipelineRunner:
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
         all_pdf_urls: list = getattr(raw, "_all_pdf_urls", [])
+
+        # Also try Unpaywall to discover additional PDF URLs for thumbnails.
+        if raw.article_doi and not self.dry_run:
+            unpaywall_pdf = self._fetch_unpaywall_pdf(raw.article_doi)
+            if unpaywall_pdf and unpaywall_pdf not in all_pdf_urls:
+                all_pdf_urls.append(unpaywall_pdf)
+
         # Determine the best URL for HTML image extraction: prefer article_url,
         # fall back to preprint_url (bioRxiv/arXiv pages have og:image tags).
         html_url_for_image = raw.article_url or raw.preprint_url or ""
@@ -299,6 +322,70 @@ class PipelineRunner:
 
         report["processed"].append(article_id)
         logger.info("Wrote %s", entry_file)
+
+    @staticmethod
+    def _is_same_article(existing_file: Path, candidate: CoverArticleRaw) -> bool:
+        """Check if an existing JSON file contains the same article as *candidate*.
+
+        Compares by DOI (primary) or article title (fallback).  Returns
+        ``True`` if the existing file is the same article (true duplicate).
+        """
+        try:
+            data = json.loads(existing_file.read_text(encoding="utf-8"))
+            existing_doi = (
+                data.get("coverStory", {})
+                .get("keyArticle", {})
+                .get("doi", "")
+            )
+            cand_doi = candidate.article_doi or ""
+
+            # If both have DOIs, compare those.
+            if existing_doi and cand_doi:
+                return existing_doi.lower() == cand_doi.lower()
+
+            # Fallback: compare article titles.
+            existing_title = (
+                data.get("coverStory", {})
+                .get("keyArticle", {})
+                .get("title", "")
+            ).lower().strip()
+            cand_title = (candidate.article_title or "").lower().strip()
+
+            if existing_title and cand_title:
+                return existing_title == cand_title
+
+            # Can't determine — assume same to be safe.
+            return True
+        except (json.JSONDecodeError, OSError):
+            return True
+
+    def _find_unique_id(
+        self,
+        base_id: str,
+        parent_dir: Path,
+        candidate: CoverArticleRaw,
+    ) -> tuple:
+        """Find a unique article ID by appending a numeric suffix.
+
+        Tries ``{base_id}-02``, ``{base_id}-03``, etc.  For each suffixed
+        file that already exists, checks whether it's the same article.
+
+        Returns ``(unique_id, file_path)`` or ``(None, None)`` if the
+        article already exists under a suffixed ID.
+        """
+        for seq in range(2, 50):
+            suffixed_id = f"{base_id}-{seq:02d}"
+            suffixed_file = parent_dir / f"{suffixed_id}.json"
+            if not suffixed_file.exists():
+                return suffixed_id, suffixed_file
+            # File exists — check if it's the same article.
+            if self._is_same_article(suffixed_file, candidate):
+                logger.info(
+                    "Already have %s ('%s') — trying next candidate",
+                    suffixed_id, candidate.article_title[:50],
+                )
+                return None, None
+        return None, None
 
     # ------------------------------------------------------------------
     # Entry assembly
@@ -441,6 +528,29 @@ class PipelineRunner:
 
         self._write_json(LATEST_FILE, latest)
         logger.info("Rebuilt %s with journals: %s", LATEST_FILE, list(latest.keys()))
+
+    @staticmethod
+    def _fetch_unpaywall_pdf(doi: str) -> Optional[str]:
+        """Query the Unpaywall API for a direct OA PDF URL."""
+        import requests as _req
+        api_url = f"https://api.unpaywall.org/v2/{doi}?email=scicover@example.com"
+        try:
+            resp = _req.get(api_url, timeout=15)
+            if resp.status_code != 200:
+                return None
+            data = resp.json()
+            best_oa = data.get("best_oa_location") or {}
+            pdf_url = best_oa.get("url_for_pdf") or ""
+            if pdf_url:
+                logger.info("Unpaywall found PDF for thumbnail (DOI %s)", doi)
+                return pdf_url
+            for loc in data.get("oa_locations", []):
+                pdf_url = loc.get("url_for_pdf") or ""
+                if pdf_url:
+                    return pdf_url
+        except Exception:
+            pass
+        return None
 
     # ------------------------------------------------------------------
     # Helpers

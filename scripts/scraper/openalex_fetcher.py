@@ -34,31 +34,41 @@ JOURNAL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "source_id": "S3880285",
         "display_name": "Science",
         "slug": "science",
+        "require_oa": True,
     },
     "nature": {
         "source_id": "S137773608",
         "display_name": "Nature",
         "slug": "nature",
+        "require_oa": True,
     },
     "cell": {
         "source_id": "S110447773",
         "display_name": "Cell",
         "slug": "cell",
+        "require_oa": True,
     },
     "polgeog": {
         "source_id": "S202534398",
         "display_name": "Political Geography",
         "slug": "polgeog",
+        "require_oa": True,
     },
     "intorg": {
         "source_id": "S160686149",
         "display_name": "International Organization",
         "slug": "intorg",
+        # IO is a quarterly journal with few OA articles.  Disabling the
+        # OA filter gives access to regular-issue articles (abstract-only
+        # summaries are still useful).
+        "require_oa": False,
     },
     "asr": {
         "source_id": "S157620343",
         "display_name": "American Sociological Review",
         "slug": "asr",
+        # ASR publishes infrequently with few OA articles.
+        "require_oa": False,
     },
 }
 
@@ -71,6 +81,43 @@ JOURNAL_ALIASES: Dict[str, str] = {
 
 API_BASE = "https://api.openalex.org"
 CONTENT_BASE = "https://content.openalex.org"
+
+
+def _doi_pdf_patterns(doi: str) -> List[str]:
+    """Construct direct publisher PDF URLs from a DOI.
+
+    Many publishers serve PDFs at predictable URLs derived from the DOI.
+    These are more reliable than the OpenAlex content API which often
+    returns 404.
+    """
+    urls: List[str] = []
+    doi_lower = doi.lower()
+
+    # Nature / Springer (10.1038/...)
+    if doi_lower.startswith("10.1038/"):
+        urls.append(f"https://www.nature.com/articles/{doi.split('/', 1)[1]}.pdf")
+
+    # Science / AAAS (10.1126/...)
+    elif doi_lower.startswith("10.1126/"):
+        urls.append(f"https://www.science.org/doi/pdf/{doi}")
+
+    # Cell Press / Elsevier (10.1016/...)
+    elif doi_lower.startswith("10.1016/"):
+        urls.append(f"https://www.cell.com/action/showPdf?pii={doi.split('/', 1)[1]}")
+
+    # Cambridge University Press (10.1017/...)
+    elif doi_lower.startswith("10.1017/"):
+        urls.append(f"https://www.cambridge.org/core/services/aop-cambridge-core/content/view/{doi}")
+
+    # Elsevier / ScienceDirect (10.1016/...)
+    elif doi_lower.startswith("10.1016/"):
+        urls.append(f"https://www.sciencedirect.com/science/article/pii/{doi.split('/', 1)[1]}/pdfft")
+
+    # SAGE Publications (10.1177/...)
+    elif doi_lower.startswith("10.1177/"):
+        urls.append(f"https://journals.sagepub.com/doi/pdf/{doi}")
+
+    return urls
 
 # Only consider articles published within this many days as "recent".
 # This prevents the tier system from selecting old articles with better
@@ -154,18 +201,22 @@ class OpenAlexFetcher:
 
         source_id = info["source_id"]
         journal_name = info["display_name"]
+        require_oa = info.get("require_oa", True)
+
+        filter_parts = [
+            f"primary_location.source.id:{source_id}",
+            "type:article",
+            "is_paratext:false",
+            "is_retracted:false",
+            "biblio.volume:!null",
+        ]
+        if require_oa:
+            filter_parts.append("open_access.is_oa:true")
 
         params: Dict[str, str] = {
-            "filter": (
-                f"primary_location.source.id:{source_id},"
-                "type:article,"
-                "open_access.is_oa:true,"
-                "is_paratext:false,"
-                "is_retracted:false,"
-                "biblio.volume:!null"
-            ),
+            "filter": ",".join(filter_parts),
             "sort": "publication_date:desc",
-            "per_page": "25",
+            "per_page": "50",
         }
         if self._api_key:
             params["api_key"] = self._api_key
@@ -413,6 +464,7 @@ class OpenAlexFetcher:
         #   2. Repository copies (PMC, Europe PMC, etc.)
         #   3. Primary OA PDF from publisher
         #   4. Other publisher PDFs
+        #   5. DOI-based direct publisher PDF URLs (constructed from DOI)
         all_pdfs: List[str] = []
 
         # OpenAlex content API PDF — requires API key, $0.01/file, $1/day free.
@@ -439,6 +491,14 @@ class OpenAlexFetcher:
         if oa_pdf:
             all_pdfs.append(oa_pdf)
         all_pdfs.extend(publisher_pdfs)
+
+        # Construct direct publisher PDF URLs from DOI.  These bypass
+        # the OpenAlex content API (which often returns 404) and go
+        # straight to the publisher's PDF endpoint.
+        if doi:
+            for pattern in _doi_pdf_patterns(doi):
+                all_pdfs.append(pattern)
+
         # deduplicate while preserving order
         seen: set = set()
         deduped: List[str] = []
