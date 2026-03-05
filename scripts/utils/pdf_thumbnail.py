@@ -403,7 +403,8 @@ def _find_meta_image(soup: BeautifulSoup, base_url: str) -> Optional[str]:
             content = tag.get("content", "")
             if content and not any(
                 skip in content.lower()
-                for skip in ("logo", "icon", "favicon", "placeholder", "default")
+                for skip in ("logo", "icon", "favicon", "placeholder",
+                              "1x1", "spacer", "blank", "spinner")
             ):
                 logger.debug("Found meta image (%s): %s", key, content)
                 return urljoin(base_url, content)
