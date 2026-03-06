@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-01-22-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "埃博拉病毒「變身」：75號氨基酸換個位置，病毒威力大增",
+      "en": "The Mutation That Made Ebola Worse: How a Single Change in the Virus's Key Protein Boosted Its Deadly Power"
+    },
+    "summary": {
+      "zh": "2018至2020年埃博拉疫情爆發期間，一個名為GP-V75A的糖蛋白突變如同病毒界的「變種超人」，迅速主宰了疫情走向。研究團隊發現，這項位於病毒與人體細胞結合關鍵區域的突變，一出現就以驚人速度取代其他病毒株，成為流行主體。實驗證明，帶有V75A突變的病毒在細胞培養和小鼠模型中，感染能力大幅提升——就像把鎖孔的形狀改得更適合自己的鑰匙，讓病毒能更輕鬆地突破人體防線。\n\n更令人擔憂的是，這項突變不僅讓病毒對人體受體NPC1的黏附力增強，還大幅減少對細胞內蛋白酶的依賴，使得病毒入侵變得更高效。同時，它還讓針對NPC1的治療藥物和中和抗體的效力大打折扣，等於給病毒披上了「防彈衣」。流行病學數據顯示，V75A突變頻率上升的時段，與確診病例數量暴增的階段高度吻合，揭示了病毒進化與疫情擴散的緊密關聯。這項研究提醒我們：在病毒進化的賽跑中，實時基因組監測就是最關鍵的戰略武器。",
+      "en": "During the 2018–2020 Ebola virus disease epidemic, a single mutation in the virus’s glycoprotein emerged as a critical driver of transmission—a molecular adaptation that transformed Ebola’s behavior in human populations. Researchers identified the GP-V75A substitution as a dominant variant that spread rapidly through the outbreak. Located in the receptor-binding domain of the virus’s surface protein, this mutation enhanced viral infectivity across multiple cell lines and murine models, effectively making the virus more efficient at hijacking human cells.\n\nThe mechanistic insights behind GP-V75A are particularly striking. The mutation increased the virus’s binding affinity to the host receptor Niemann-Pick C1 (NPC1) while reducing its dependence on endosomal cysteine proteases—a key step in viral entry. This dual advantage not only made infection more efficient but also undermined existing treatment strategies, as NPC1-targeting compounds and neutralizing antibodies became less effective. Epidemiological analysis revealed a clear correlation: as GP-V75A prevalence rose, so did case numbers. These findings underscore the urgent need for real-time genomic surveillance to detect adaptive mutations early, ensuring that public health responses can keep pace with viral evolution."
+    },
+    "keyArticle": {
+      "title": "Molecular characterization of Ebola virus glycoprotein V75A substitution in the 2018–2020 epidemic",
+      "authors": [
+        "Linjin Fan",
+        "Yulong Wang",
+        "Yinghao Wang",
+        "Zequn Wang",
+        "xiaofeng yang",
+        "Chudan Liang",
+        "Chongguang Yang",
+        "Nan Liu",
+        "Jun Zheng",
+        "Weifang Kang",
+        "Pengfei Ye",
+        "Pei Sun",
+        "Wendi Shi",
+        "Xinyi Guo",
+        "Weijian Wu",
+        "Jian-Rong Yang",
+        "Quan Liu",
+        "Linna Liu",
+        "Jun Qian"
+      ],
+      "doi": "10.1016/j.cell.2025.12.022",
+      "pages": "818-831.e19"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.022",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.022"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T07:32:36.512840+00:00",
+    "source": "openalex"
+  }
+}

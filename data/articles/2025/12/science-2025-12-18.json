@@ -1,0 +1,53 @@
+{
+  "id": "science-2025-12-18",
+  "journal": "Science",
+  "volume": "390",
+  "issue": "6779",
+  "date": "2025-12-18",
+  "coverImage": {
+    "url": "data/images/science/science-2025-12-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "LLM加持，論文生產爆炸？學術界面臨新考驗",
+      "en": "The LLM Effect: How AI is Rewriting the Rules of Scientific Production"
+    },
+    "summary": {
+      "zh": "【總結】本研究揭開大型語言模型(LLM)對學術生產的深遠影響。發現使用LLM的學者論文產量暴增23.7%至89.3%，但文字華麗卻實質空洞的論文激增，且引用來源更趨多元。這不僅改變科學寫作生態，更挑戰現有評審體系——過去「文字精煉」是品質指標，如今卻成空洞詞藻的掩護。學術界面臨關鍵轉折：如何在產量爆炸中維持科學嚴謹性？\n\n【研究問題】過去學者對LLM影響僅有零散觀察，缺乏大規模數據驗證。尤其「文字複雜度=品質」的傳統認知，可能因LLM而崩解，但學術評審機制卻未跟進。此研究填補關鍵缺口：在AI重塑寫作的時代，科學界必須弄清「量」與「質」的真實關係，否則評審體系可能淪為「華麗詞藻」的檢測器。\n\n【研究方法】研究團隊挖出210萬份預印本、2.8萬份審稿報告與2.46億次文件瀏覽記錄，建立「LLM使用指數」。透過對比使用與未使用LLM的學者，分析寫作模式變化。例如：用LLM的學者會自動調用更多「非傳統文獻」，如同在圖書館用AI搜尋冷門書籍。這種數據挖掘法，讓研究者能精確捕捉AI對科學生產的實質影響。\n\n【結果】關鍵數據令人驚訝：生物學家使用LLM後論文量暴增89.3%，但審稿人批評「文字華麗卻實驗單薄」。跨領域分析顯示，LLM使用者引用年輕文獻比例高達35%，而傳統作者僅18%。這意味著：科學界正從「追隨權威」轉向「追尋新鮮」，但缺乏嚴謹驗證，恐成「偽創新」溫床。未來評審機制需警惕：不能讓AI成為「文字欺騙」的幫兇。",
+      "en": "**Summary:** This study reveals how LLMs are fundamentally reshaping scientific publishing. Researchers found that scientists using LLMs produced 23.7-89.3% more papers across fields, but paradoxically, linguistic complexity now correlates with weaker substance. Their analysis of 2.1 million preprints and 246 million document accesses shows LLM users increasingly cite non-traditional sources like books and young, uncited papers. These findings demand urgent rethinking of how journals and tenure committees evaluate scientific work.\n\n**Problem:** While LLMs have rapidly infiltrated academia, there was no empirical evidence on their impact on scientific output. Previous studies relied on anecdotal claims, leaving critical gaps: Does increased production mean better science? How does AI affect citation practices? This study addresses these urgent questions, showing that the scientific ecosystem is evolving faster than its evaluation systems can keep up.\n\n**Approach:** The team analyzed a massive dataset comprising 2.1 million preprints, 28,000 peer review reports, and 246 million document accesses. They created an \"LLM usage index\" by comparing papers written with and without AI assistance. Using natural language processing, they measured linguistic complexity and citation diversity. This multi-layered approach revealed patterns invisible to traditional observational studies.\n\n**Results:** The findings are striking: Biologists using LLMs produced 89.3% more papers but faced criticism for \"elaborate language masking weak experiments.\" LLM users cited 35% more young, uncited papers versus 18% for traditional authors. This shift toward novel sources risks spreading unverified claims, while the complexity-quality disconnect undermines peer review. Journals must now develop new metrics to evaluate substance over style."
+    },
+    "keyArticle": {
+      "title": "Scientific production in the era of large language models",
+      "authors": [
+        "Keigo Kusumegi",
+        "Xinyu Yang",
+        "Paul Ginsparg",
+        "Mathijs de Vaan",
+        "Toby E. Stuart",
+        "Yian Yin"
+      ],
+      "doi": "10.1126/science.adw3000",
+      "pages": "1240-1243"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2025-12-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw3000",
+      "doi": "https://doi.org/10.1126/science.adw3000",
+      "preprint": "http://arxiv.org/abs/2601.13187"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T07:30:54.007869+00:00",
+    "source": "openalex"
+  }
+}

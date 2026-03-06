@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-05T22:22:36.087005+00:00",
+  "lastUpdated": "2026-03-06T07:36:10.445962+00:00",
   "articles": [
+    {
+      "id": "nature-2026-03-04",
+      "journal": "Nature",
+      "date": "2026-03-04",
+      "path": "articles/2026/03/nature-2026-03-04.json",
+      "title_zh": "旱地遇強風：土壤與風的共舞，讓雷雨「瞬間爆發」",
+      "title_en": "When Dry Soil Meets Shear Wind: How Soil and Wind Team Up to Trigger Explosive Thunderstorms",
+      "cover_url": "data/images/nature/nature-2026-03-04-cover.jpg"
+    },
     {
       "id": "political-geography-2026-02-28",
       "journal": "Political Geography",
@@ -8,7 +17,7 @@
       "path": "articles/2026/02/political-geography-2026-02-28.json",
       "title_zh": "選票的裂痕：德國東西邊界如何決定政治選擇？",
       "title_en": "The Invisible Divide: How Germany’s Historical Borders Still Split Votes Today",
-      "cover_url": "data/images/science/pg-2026-02-28-cover.jpg"
+      "cover_url": "data/images/political-geography/pg-2026-02-28-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-27",
@@ -263,12 +272,30 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-01-22-02",
+      "journal": "Cell",
+      "date": "2026-01-22",
+      "path": "articles/2026/01/cell-2026-01-22-02.json",
+      "title_zh": "埃博拉病毒「變身」：75號氨基酸換個位置，病毒威力大增",
+      "title_en": "The Mutation That Made Ebola Worse: How a Single Change in the Virus's Key Protein Boosted Its Deadly Power",
+      "cover_url": ""
+    },
+    {
       "id": "cell-2026-01-22",
       "journal": "Cell",
       "date": "2026-01-22",
       "path": "articles/2026/01/cell-2026-01-22.json",
       "title_zh": "神經退化疾病的「隱形地圖」：溶酶體細胞地圖揭開SLC45A1新秘密",
       "title_en": "The Brain’s Lysosome Map: How SLC45A1 Rewrites Neurodegenerative Disease",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-01-22",
+      "journal": "Political Geography",
+      "date": "2026-01-22",
+      "path": "articles/2026/01/political-geography-2026-01-22.json",
+      "title_zh": "尼日利亞民兵的生死密碼：社區凝聚力如何決定自衛成效？",
+      "title_en": "The Double-Edged Sword of Civilian Militias: Community Capacity Determines Survival in Nigeria's Boko Haram Conflict",
       "cover_url": ""
     },
     {
@@ -353,6 +380,24 @@
       "cover_url": ""
     },
     {
+      "id": "science-2025-12-18",
+      "journal": "Science",
+      "date": "2025-12-18",
+      "path": "articles/2025/12/science-2025-12-18.json",
+      "title_zh": "LLM加持，論文生產爆炸？學術界面臨新考驗",
+      "title_en": "The LLM Effect: How AI is Rewriting the Rules of Scientific Production",
+      "cover_url": "data/images/science/science-2025-12-18-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2025-12-17",
+      "journal": "American Sociological Review",
+      "date": "2025-12-17",
+      "path": "articles/2025/12/american-sociological-review-2025-12-17.json",
+      "title_zh": "DEI退潮後：職場種族平等的「新遊戲規則」是什麼？",
+      "title_en": "Beyond DEI: Rethinking Race and Work in a Post-DEI Era",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2025-11-27",
       "journal": "American Sociological Review",
       "date": "2025-11-27",
@@ -405,6 +450,15 @@
       "title_zh": "數位戰國時代：AI霸權下的科技聯盟與主權之爭",
       "title_en": "The New Digital Cold War: How AI Is Reshaping Global Power Through Techno-Blocs",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-05-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-06",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-06.json",
+      "title_zh": "盟友的「權力通道」：美國若失去這項能力，全球霸權將終結",
+      "title_en": "The Power Channel of Alliances: How America’s Access to Foreign Bases Could End Global Dominance",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-06-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",
