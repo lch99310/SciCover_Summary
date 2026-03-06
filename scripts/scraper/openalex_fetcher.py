@@ -89,6 +89,10 @@ def _doi_pdf_patterns(doi: str) -> List[str]:
     Many publishers serve PDFs at predictable URLs derived from the DOI.
     These are more reliable than the OpenAlex content API which often
     returns 404.
+
+    NOTE: Elsevier (10.1016/) is NOT included here because ScienceDirect
+    uses PII identifiers that cannot be derived from the DOI.  Elsevier
+    PDFs are handled in _landing_page_pdf_urls() instead.
     """
     urls: List[str] = []
     doi_lower = doi.lower()
@@ -101,16 +105,6 @@ def _doi_pdf_patterns(doi: str) -> List[str]:
     # Science / AAAS (10.1126/...)
     elif doi_lower.startswith("10.1126/"):
         urls.append(f"https://www.science.org/doi/pdf/{doi}")
-
-    # Elsevier (10.1016/...) — covers Cell Press, ScienceDirect,
-    # Political Geography, and all other Elsevier journals.
-    # ScienceDirect PDF endpoint works for all Elsevier DOIs.
-    elif doi_lower.startswith("10.1016/"):
-        # ScienceDirect PDF (works for all Elsevier journals)
-        urls.append(f"https://www.sciencedirect.com/science/article/pii/{suffix}/pdfft")
-        # Cell Press has its own PDF endpoint for cell.* sub-journals
-        if "j.cell." in doi_lower or ".cell." in doi_lower:
-            urls.append(f"https://www.cell.com/action/showPdf?pii={suffix}")
 
     # Cambridge University Press (10.1017/...)
     elif doi_lower.startswith("10.1017/"):
@@ -130,6 +124,35 @@ def _doi_pdf_patterns(doi: str) -> List[str]:
     # Wiley (10.1002/...)
     elif doi_lower.startswith("10.1002/"):
         urls.append(f"https://onlinelibrary.wiley.com/doi/pdfdirect/{doi}")
+
+    return urls
+
+
+def _landing_page_pdf_urls(article_url: str) -> List[str]:
+    """Construct PDF URLs from a publisher landing page URL.
+
+    Some publishers (notably Elsevier/ScienceDirect and Cell Press) use
+    PII identifiers in their URLs that cannot be derived from the DOI.
+    This function extracts the PII from the landing URL and constructs
+    the corresponding PDF endpoints.
+    """
+    if not article_url:
+        return []
+
+    urls: List[str] = []
+    url_lower = article_url.lower()
+
+    # ScienceDirect: .../science/article/pii/S0962629825001313
+    #             →  .../science/article/pii/S0962629825001313/pdfft
+    if "sciencedirect.com/science/article/pii/" in url_lower:
+        pdf_url = article_url.rstrip("/") + "/pdfft"
+        urls.append(pdf_url)
+
+    # Cell Press: .../cell/fulltext/S0092-8674(25)01303-0
+    #          →  .../cell/pdf/S0092-8674(25)01303-0.pdf
+    elif "cell.com/" in url_lower and "/fulltext/" in url_lower:
+        pdf_url = article_url.replace("/fulltext/", "/pdf/") + ".pdf"
+        urls.append(pdf_url)
 
     return urls
 
@@ -506,11 +529,16 @@ class OpenAlexFetcher:
             all_pdfs.append(oa_pdf)
         all_pdfs.extend(publisher_pdfs)
 
-        # Construct direct publisher PDF URLs from DOI.  These bypass
-        # the OpenAlex content API (which often returns 404) and go
-        # straight to the publisher's PDF endpoint.
+        # Construct direct publisher PDF URLs from DOI and landing page.
+        # These bypass the OpenAlex content API (which often returns 404)
+        # and go straight to the publisher's PDF endpoint.
         if doi:
             for pattern in _doi_pdf_patterns(doi):
+                all_pdfs.append(pattern)
+        # Landing-page-based PDF URLs (Elsevier/ScienceDirect, Cell Press).
+        # These require the PII from the URL, which can't be derived from DOI.
+        if article_url:
+            for pattern in _landing_page_pdf_urls(article_url):
                 all_pdfs.append(pattern)
 
         # deduplicate while preserving order
