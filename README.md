@@ -36,8 +36,6 @@ Designed with a magazine-style aesthetic inspired by *Quanta Magazine*, featurin
 ### 📅 Historical Archive
 Browse past cover stories by year and month to build your personal scientific reading timeline.
 
-### 💰 Zero-Cost Operation
-The entire site is deployed on **GitHub Pages** and utilizes the **GitHub Models API** free tier for summary generation, requiring no server costs or paid services.
 
 
 ---
