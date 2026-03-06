@@ -32,6 +32,11 @@ from ..scraper.openalex_fetcher import (
     JOURNAL_ALIASES,
 )
 from ..scraper.base import CoverArticleRaw
+from ..scraper.elsevier_api import (
+    fetch_fulltext as elsevier_fetch_fulltext,
+    fetch_first_figure as elsevier_fetch_first_figure,
+    get_api_key as elsevier_get_api_key,
+)
 from ..ai.summarizer import BilingualSummarizer
 from ..utils.helpers import generate_article_id, download_image, ensure_dir
 from ..utils.pdf_thumbnail import extract_thumbnail_from_urls
@@ -214,7 +219,7 @@ class PipelineRunner:
         )
 
         # Step 3 — Extract thumbnail.
-        # Strategy: PDF pages → article HTML (og:image, figures) → preprint HTML.
+        # Strategy: Elsevier API figures → PDF pages → article HTML → preprint HTML.
         image_path: Optional[Path] = None
         oa_pdf_url = getattr(raw, "_oa_pdf_url", "")
         all_pdf_urls: list = getattr(raw, "_all_pdf_urls", [])
@@ -225,27 +230,50 @@ class PipelineRunner:
             if unpaywall_pdf and unpaywall_pdf not in all_pdf_urls:
                 all_pdf_urls.append(unpaywall_pdf)
 
-        # Determine the best URL for HTML image extraction: prefer article_url,
-        # fall back to preprint_url (bioRxiv/arXiv pages have og:image tags).
-        html_url_for_image = raw.article_url or raw.preprint_url or ""
-        if not self.dry_run and (oa_pdf_url or all_pdf_urls or html_url_for_image):
+        # For bioRxiv preprints: add the preprint PDF to the URL list.
+        if raw.preprint_url and "biorxiv.org" in raw.preprint_url:
+            from ..scraper.biorxiv_api import get_preprint_pdf_url
+            biorxiv_pdf = get_preprint_pdf_url(raw.preprint_url)
+            if biorxiv_pdf not in all_pdf_urls:
+                all_pdf_urls.insert(0, biorxiv_pdf)  # prioritise preprint PDF
+
+        # Determine the best URL for HTML image extraction: prefer preprint_url
+        # for bioRxiv (reliable og:image), then article_url.
+        if raw.preprint_url and "biorxiv.org" in raw.preprint_url:
+            html_url_for_image = raw.preprint_url
+        else:
+            html_url_for_image = raw.article_url or raw.preprint_url or ""
+
+        if not self.dry_run:
             img_slug = JOURNAL_IMAGE_SLUG.get(journal_name, journal_name.lower())
             img_dir = IMAGES_DIR / img_slug
             ensure_dir(img_dir)
             thumb_file = img_dir / f"{article_id}-cover.jpg"
-            # Build ordered list: repository copies first, then publisher.
-            pdf_urls_to_try = list(all_pdf_urls)
-            if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
-                pdf_urls_to_try.append(oa_pdf_url)
-            image_path = extract_thumbnail_from_urls(
-                pdf_urls_to_try, thumb_file,
-                article_url=html_url_for_image,
-                doi=raw.article_doi or "",
-            )
+
+            # Strategy 1: Elsevier API figures (Cell, Political Geography).
+            doi = raw.article_doi or ""
+            if doi.lower().startswith("10.1016/") and elsevier_get_api_key():
+                image_path = elsevier_fetch_first_figure(doi, thumb_file)
+                if image_path:
+                    logger.info(
+                        "Thumbnail from Elsevier API for %s", article_id,
+                    )
+
+            # Strategy 2: PDF pages → article HTML → preprint HTML.
+            if not image_path and (oa_pdf_url or all_pdf_urls or html_url_for_image):
+                pdf_urls_to_try = list(all_pdf_urls)
+                if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
+                    pdf_urls_to_try.append(oa_pdf_url)
+                image_path = extract_thumbnail_from_urls(
+                    pdf_urls_to_try, thumb_file,
+                    article_url=html_url_for_image,
+                    doi=doi,
+                )
+
             if image_path:
                 logger.info("Thumbnail extracted for %s", article_id)
             else:
-                logger.info("No thumbnail for %s (PDF and HTML both failed)", article_id)
+                logger.info("No thumbnail for %s (all strategies failed)", article_id)
 
         # Step 4 — Attempt full-text retrieval via OpenAlex content API.
         fulltext: Optional[str] = None
@@ -270,7 +298,22 @@ class PipelineRunner:
                         "Full-text fetch failed for %s: %s", article_id, exc
                     )
 
-            # Fallback: try preprint URL, article URL, or OA PDF.
+            # Fallback 1: Elsevier API (Cell, Political Geography).
+            if not fulltext and doi.lower().startswith("10.1016/"):
+                try:
+                    fulltext = elsevier_fetch_fulltext(doi)
+                    if fulltext:
+                        logger.info(
+                            "Full text from Elsevier API for %s (%d chars)",
+                            article_id, len(fulltext),
+                        )
+                except Exception as exc:
+                    logger.debug(
+                        "Elsevier API fulltext failed for %s: %s",
+                        article_id, exc,
+                    )
+
+            # Fallback 2: try preprint URL, article URL, or OA PDF.
             if not fulltext:
                 try:
                     from ..ai.fulltext import fetch_fulltext as fetch_ft_legacy
