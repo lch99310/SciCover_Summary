@@ -128,6 +128,29 @@ def _doi_pdf_patterns(doi: str) -> List[str]:
     return urls
 
 
+def _resolve_elsevier_url(url: str) -> str:
+    """Resolve Elsevier redirect URLs to actual ScienceDirect pages.
+
+    OpenAlex frequently returns ``linkinghub.elsevier.com/retrieve/pii/S...``
+    as the landing page for Elsevier journals.  These pages use HTML
+    meta-refresh redirects (not HTTP 301/302), so ``requests.get()`` with
+    ``allow_redirects=True`` will NOT follow them.  The downstream pipeline
+    then fails to:
+      - construct PDF URLs (needs ``sciencedirect.com`` in the URL)
+      - extract og:image (linkinghub page has no meta tags)
+      - fetch full text (publisher-specific scraper doesn't match)
+
+    This function extracts the PII from the linkinghub URL and constructs
+    the canonical ScienceDirect URL directly.
+    """
+    if "linkinghub.elsevier.com/retrieve/pii/" in url.lower():
+        m = re.search(r"/pii/(\S+)", url)
+        if m:
+            pii = m.group(1).rstrip("/")
+            return f"https://www.sciencedirect.com/science/article/pii/{pii}"
+    return url
+
+
 def _landing_page_pdf_urls(article_url: str) -> List[str]:
     """Construct PDF URLs from a publisher landing page URL.
 
@@ -450,6 +473,13 @@ class OpenAlexFetcher:
 
         # Article URL — prefer the landing page from the primary location.
         article_url = primary_loc.get("landing_page_url") or raw_doi or ""
+
+        # Resolve Elsevier redirect URLs to actual ScienceDirect pages.
+        # OpenAlex often returns linkinghub.elsevier.com URLs which use
+        # HTML meta-refresh redirects that requests can't follow.  This
+        # blocks PDF construction, og:image extraction, AND fulltext
+        # fetching for all Elsevier journals (Cell, Political Geography).
+        article_url = _resolve_elsevier_url(article_url)
 
         # Pages.
         first_page = biblio.get("first_page", "")

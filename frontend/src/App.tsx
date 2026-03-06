@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, useLocation, useNavigationType } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Layout } from './components/layout/Layout';
 import { useTheme } from './hooks/useTheme';
@@ -119,9 +119,15 @@ function HomePage() {
 
 function ScrollToTop() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType();
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    // Only scroll to top on PUSH navigation (clicking a link).
+    // On POP (browser back/forward), preserve the previous scroll position
+    // so the user returns to where they were on the homepage.
+    if (navigationType !== 'POP') {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, navigationType]);
   return null;
 }
 
