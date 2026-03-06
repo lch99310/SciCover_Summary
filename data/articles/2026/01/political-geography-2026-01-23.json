@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-01-23",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2026-01-23",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-01-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "權力的暗流：泰國人權委員會在威權下的困境與抗爭",
+      "en": "When the Shield Fails: Thailand's Human Rights Commission Battles Authoritarian Rule in the Shadow of Dams"
+    },
+    "summary": {
+      "zh": "【總結】文章揭示泰國軍事政變後，國家人權委員會（NHRCT）如何在威權統治下逐漸失去調查能力，卻仍成為邊境社區爭取正義的最後通道。研究以「Yuam河引水工程」為案例，展示當政府透過立法與政策限制公民社會參與時，NHRCT的調查如何延緩開發進程，並讓居民在EIA（環境影響評估）中被掩蓋的聲音重新發聲。這不僅是對威權主義的抗爭，更是對「人權機制是否能在暴政中存活」的深刻探討。\n\n【研究問題】泰國2014年政變後，軍政府透過修憲與立法削弱NHRCT職權，但學界對「威權如何系統性摧毀人權機構」的機制研究不足。過去研究多聚焦於民主國家的人權進步，卻忽略威權統治下人權機制如何被「合法化」地剝奪。本研究揭露這種「制度性窒息」的過程，為全球威權擴張下的抗爭提供關鍵洞察。\n\n【研究方法】作者以實地田野調查為核心，2021年起訪談80餘位社群成員、NGO工作者與政府官員，特別聚焦Ban Uun與Ban Lao兩村。透過分析EIA文件、NHRCT調查紀錄，並對比2012年Hatgyi水壩案的對比，揭示軍政府如何透過「EIA laab」（餐廳聚餐假造公聽會）等手段，破壞公民參與。研究結合政治地理學與行動主義分析，用「資訊封鎖」與「發聲禁錮」兩大維度解構威權實踐。\n\n【結果】研究顯示：1. Ban Uun村70-80%居民無泰國國籍，無法主張土地權與補償；2. NHRCT調查使Yuam工程延遲1年，居民成功要求政府公開EIA資料；3. 2021年「EIA laab」事件中，官方將餐廳聚餐偽裝成公聽會，引發網路上#EIAlaab標籤運動。這些結果證明，即使在威權下，人權機制仍能發揮「緩衝器」作用，為抗爭者爭取時間與空間。",
+      "en": "**Summary:** This study exposes how Thailand’s National Human Rights Commission (NHRCT) has been systematically undermined by authoritarian rule since the 2014 military coup, yet remains a critical lifeline for marginalized communities battling infrastructure projects like the Yuam River water diversion. By analyzing the commission’s investigation into the flawed Environmental Impact Assessment (EIA) process, the research reveals how authoritarianism not only erodes civil rights but also dismantles the institutions meant to protect them—a process the author terms \"institutional suffocation.\" Crucially, the NHRCT’s delayed investigation became a strategic tool for residents to demand accountability, exposing how even weakened human rights mechanisms can act as \"resistance scaffolds\" in authoritarian contexts.\n\n**Problem:** Despite growing global authoritarianism, few studies examine how authoritarian regimes strategically neutralize human rights institutions. Prior research often treated NHRIs as passive victims of authoritarianism rather than active targets of institutional dismantling. This gap leaves scholars without tools to understand how authoritarianism operates through legal and procedural mechanisms to disable accountability. The study addresses this by focusing on Thailand’s NHRCT—a once-promising institution now transformed into a \"de facto government mouthpiece\"—and its role in the contested Yuam River project.\n\n**Approach:** The author employed mixed methods: 80+ semi-structured interviews with community members, NGOs, and NHRCT officials (conducted in Thai, Karen, or English with interpreters), detailed analysis of EIA documents, and archival research on legislative changes to the NHRCT’s mandate. A key innovation was comparing the 2012 Hatgyi Dam investigation (when the NHRCT had active civil society participation) with the 2021 Yuam project (where such participation was blocked). This \"historical comparison\" revealed how authoritarian practices evolved from overt suppression to \"sophisticated\" procedural sabotage.\n\n**Results:** Critical findings include: 1) 70–80% of residents in Ban Uun village lack Thai citizenship, rendering them unable to claim land rights or compensation; 2) NHRCT’s investigation delayed the Yuam project for one year, forcing authorities to release redacted EIA documents; 3) the \"EIA laab\" scandal—where a restaurant meal was falsely documented as a public consultation—sparked viral #EIAlaab protests. These results demonstrate that even in authoritarian contexts, human rights institutions can function as \"time-delay mechanisms,\" buying space for communities to mobilize and demand accountability."
+    },
+    "keyArticle": {
+      "title": "Pursuing accountability under authoritarian rule: Thailand's National Human Rights Commission and community struggles for justice",
+      "authors": [
+        "Zali Fung"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103478",
+      "pages": "103478"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-01-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103478",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103478"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:47:48.712934+00:00",
+    "source": "openalex"
+  }
+}

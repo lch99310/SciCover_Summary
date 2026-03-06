@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T13:36:35.832649+00:00",
+  "lastUpdated": "2026-03-06T13:47:48.722673+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -236,6 +236,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-01-28-02",
+      "journal": "Cell",
+      "date": "2026-01-28",
+      "path": "articles/2026/01/cell-2026-01-28-02.json",
+      "title_zh": "RNA折疊救星現身！Ro60與La蛋白協同解開錯誤結構的關鍵機制",
+      "title_en": "The RNA Unfolding Duo: How Ro60 and La Proteins Rescue Misfolded RNA",
+      "cover_url": "data/images/cell/cell-2026-01-28-02-cover.jpg"
+    },
+    {
       "id": "cell-2026-01-28",
       "journal": "Cell",
       "date": "2026-01-28",
@@ -261,6 +270,15 @@
       "title_zh": "細胞內的'蛋白質儲備站'：代謝調控下，酵母細胞如何保命",
       "title_en": "Metabolically Controlled Protein Storage: The Hidden Life of Proteasome Granules",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-01-23",
+      "journal": "Political Geography",
+      "date": "2026-01-23",
+      "path": "articles/2026/01/political-geography-2026-01-23.json",
+      "title_zh": "權力的暗流：泰國人權委員會在威權下的困境與抗爭",
+      "title_en": "When the Shield Fails: Thailand's Human Rights Commission Battles Authoritarian Rule in the Shadow of Dams",
+      "cover_url": "data/images/political-geography/political-geography-2026-01-23-cover.jpg"
     },
     {
       "id": "cell-2026-01-22",

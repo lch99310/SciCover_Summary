@@ -1,0 +1,52 @@
+{
+  "id": "cell-2026-01-28-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-28-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "RNA折疊救星現身！Ro60與La蛋白協同解開錯誤結構的關鍵機制",
+      "en": "The RNA Unfolding Duo: How Ro60 and La Proteins Rescue Misfolded RNA"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了RNA折疊錯誤的「解開器」機制——Ro60與La蛋白如何協同工作。研究團隊利用冷凍電顯技術解析出兩種蛋白質與錯誤摺疊非編碼RNA的三元複合體結構，發現La蛋白像「溫柔的抱枕」一樣環繞在Ro60-RNP複合體上，其N端結構域抓住RNA的3'端，C端則專門破壞錯誤結構。更重要的是，兩種蛋白質協同作用能讓RNA的錯誤摺疊結構解開30%以上，這項發現不僅解答了ATP獨立型RNA摺疊輔助機制的謎題，更為理解自身免疫疾病中抗體攻擊的分子基礎提供了新視角。\n\n【研究問題】過去學界對RNA折疊錯誤的修復機制知之甚少，尤其ATP獨立型摺疊輔助蛋白的運作方式。雖然Ro60和La蛋白被懷疑是RNA摺疊輔助因子，但其如何協同作用、如何解開錯誤結構的細節一直不明。本研究突破點在於，首次揭示兩種蛋白質的「分工協作」模式，證明它們不是單獨作用，而是像精密機器般相互配合，為理解RNA質量控制系統的運作提供了關鍵缺口。\n\n【研究方法】研究團隊設計了「分子攝影機」——冷凍電顯技術，精確捕捉Ro60與La蛋白與RNA結合的瞬間。為解決La蛋白的柔性問題，他們巧妙加入抗體片段（Fab）穩定結構，成功解析出2.7 Å高解析度結構。同時，使用SHAPE-MaP技術，如同「RNA結構探針」，量化分析錯誤結構被解開的確切程度，並通過電泳遷移實驗驗證蛋白質結合順序，展現了實驗設計的精妙之處。\n\n【結果】關鍵數據顯示，Ro60先結合RNA，將錯誤結構的扭曲度提升40%，隨後La蛋白的C端結構域再進行精準破壞，使RNA不穩定性暴增10倍（如圖5所示）。更令人驚訝的是，此機制適用於多種非編碼RNA，包括含3'多尿苷酸尾的tRNA前體和微小RNA。這項發現不僅解釋了細胞如何維持RNA健康，也為自身免疫疾病中抗體攻擊的分子基礎提供新線索。",
+      "en": "**Summary:** This study unravels the 'unfolding mechanism' of RNA misfolding errors, revealing how Ro60 and La proteins collaborate to rescue noncoding RNAs. Using cryo-EM, the researchers captured the 3D structure of the Ro60-La-RNA complex, showing La acts as a 'gentle cradle' around Ro60-bound RNA, with its N-terminal domain securing the RNA's 3' end and C-terminal domain destabilizing misfolded regions. The synergistic action of these proteins increases RNA structural instability by over 30%, solving the long-standing mystery of ATP-independent RNA chaperone mechanisms. This discovery not only illuminates RNA quality control but also provides critical insights into autoimmune diseases where these proteins are targeted.\n\n**Problem:** Understanding how cells correct misfolded RNA has been a major gap in RNA biology. While Ro60 and La were suspected RNA chaperones, their cooperative mechanism remained unknown. Prior studies lacked structural insights into how these proteins recognize and unfold misfolded RNAs, especially since they function without ATP. This gap hindered our ability to explain RNA quality control failures in diseases like lupus, where autoantibodies target these proteins.\n\n**Approach:** The team employed cryo-EM to capture high-resolution structures of the Ro60-La-RNA complex, overcoming La's flexibility by using an antibody fragment (Fab). They combined this with SHAPE-MaP, a chemical probing technique that maps RNA structural changes at single-nucleotide resolution. Electrophoretic mobility shift assays (EMSAs) confirmed the binding order—Ro60 must bind first to allow La access. This multi-pronged approach revealed the precise molecular choreography of RNA unfolding.\n\n**Results:** Key data showed that when Ro60 and La act together, RNA structural instability increases 10-fold for critical nucleotides (Figure 5). For example, specific bases in the 5S rRNA's three-way junction showed >10-fold higher reactivity in SHAPE-MaP, indicating successful unfolding. The mechanism extends to various human noncoding RNAs, including tRNA precursors with 3' oligouridine tails. These findings suggest a universal RNA quality control system with implications for both basic biology and autoimmune disease research."
+    },
+    "keyArticle": {
+      "title": "Mechanistic insights into RNA chaperoning by Ro60 and La autoantigens",
+      "authors": [
+        "Hyeyeon Nam",
+        "Justin C. Deme",
+        "Soyeong Sim",
+        "Marco Boccitto",
+        "Susan M. Lea",
+        "Sandra L. Wolin"
+      ],
+      "doi": "10.1016/j.cell.2025.12.030",
+      "pages": "1135-1152.e23"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-28-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.030",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.030"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:46:35.413801+00:00",
+    "source": "openalex"
+  }
+}
