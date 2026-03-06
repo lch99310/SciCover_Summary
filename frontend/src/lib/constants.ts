@@ -50,6 +50,7 @@ export function getDataUrl(relativePath: string): string {
 }
 
 export const SITE_NAME = 'SciCover Summary';
+export const SITE_URL = 'https://lch99310.github.io/SciCover_Summary';
 export const SITE_TAGLINE_ZH = '頂級學術期刊封面故事 · 雙語解讀';
 export const SITE_TAGLINE_EN = 'Top Academic Journal Cover Stories · Bilingual Summaries';
 

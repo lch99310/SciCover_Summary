@@ -1,6 +1,7 @@
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useArticle } from '../../hooks/useArticles';
-import { JOURNAL_RAW_COLORS } from '../../lib/constants';
+import { JOURNAL_RAW_COLORS, SITE_NAME, SITE_URL } from '../../lib/constants';
 import { BilingualSummary } from './BilingualSummary';
 import { FigureGallery } from './FigureGallery';
 import { ArticleLinksSection } from './ArticleLinks';
@@ -12,6 +13,33 @@ export function ArticleDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { data: article, isLoading, isNotFound, error } = useArticle(id);
+  const [copied, setCopied] = useState(false);
+
+  // Update document title for browser tab / native share sheet.
+  useEffect(() => {
+    if (article) {
+      const title = article.coverStory.title;
+      document.title = `${title.zh || title.en} — ${SITE_NAME}`;
+      return () => { document.title = SITE_NAME; };
+    }
+  }, [article]);
+
+  // Copy the clean (non-hash) share URL so link previews work.
+  const handleShare = useCallback(async () => {
+    const shareUrl = `${SITE_URL}/article/${id}`;
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+    } catch {
+      const input = document.createElement('input');
+      input.value = shareUrl;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }, [id]);
 
   const handleGoBack = () => {
     if (window.history.length > 1) {
@@ -41,7 +69,12 @@ export function ArticleDetail() {
     <article className="article-detail article-detail--enter">
 
       <div className="article-detail__header container reading-column">
-        <button onClick={handleGoBack} className="article-detail__back-link">&larr; 回到上一頁 / Go Back</button>
+        <div className="article-detail__nav">
+          <button onClick={handleGoBack} className="article-detail__back-link">&larr; 回到上一頁 / Go Back</button>
+          <button onClick={handleShare} className="article-detail__share-btn" title="複製分享連結 / Copy share link">
+            {copied ? '已複製 / Copied!' : '分享 / Share'}
+          </button>
+        </div>
 
         <div className="article-detail__meta">
           <span
