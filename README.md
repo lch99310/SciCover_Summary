@@ -39,10 +39,6 @@ Browse past cover stories by year and month to build your personal scientific re
 ### 💰 Zero-Cost Operation
 The entire site is deployed on **GitHub Pages** and utilizes the **GitHub Models API** free tier for summary generation, requiring no server costs or paid services.
 
----
-
-## Online Preview
-Deployed URL format: [SciCover Summary](https://lch99310.github.io/SciCover_Summary/)
 
 ---
 
