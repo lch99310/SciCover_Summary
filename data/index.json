@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T14:06:14.086940+00:00",
+  "lastUpdated": "2026-03-06T14:22:12.494247+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -362,6 +362,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-01-08",
+      "journal": "Cell",
+      "date": "2026-01-08",
+      "path": "articles/2026/01/cell-2026-01-08.json",
+      "title_zh": "細胞營養偵測器的60奈米彎月形密碼：KICSTOR-GATOR1-SAMTOR複合體揭開mTORC1調控之謎",
+      "title_en": "The Lysosome's 60-Nanometer Crescent: How KICSTOR-GATOR1-SAMTOR Decodes Nutrient Signals",
+      "cover_url": "data/images/cell/cell-2026-01-08-cover.jpg"
+    },
+    {
       "id": "science-2026-01-08",
       "journal": "Science",
       "date": "2026-01-08",
@@ -459,6 +468,15 @@
       "title_zh": "DEI退潮後：職場種族平等的「新遊戲規則」是什麼？",
       "title_en": "Beyond DEI: Rethinking Race and Work in a Post-DEI Era",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-12-12",
+      "journal": "Political Geography",
+      "date": "2025-12-12",
+      "path": "articles/2025/12/political-geography-2025-12-12.json",
+      "title_zh": "解殖動物權：巴勒斯坦原住民 activist 如何重新定義聯盟的真正意義",
+      "title_en": "Beyond Veganism: How Palestinian Activists Are Rewriting the Rules of Animal Rights",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-12-cover.jpg"
     },
     {
       "id": "cell-2025-12-01",

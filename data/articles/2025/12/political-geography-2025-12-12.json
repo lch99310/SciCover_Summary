@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2025-12-12",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-12",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解殖動物權：巴勒斯坦原住民 activist 如何重新定義聯盟的真正意義",
+      "en": "Beyond Veganism: How Palestinian Activists Are Rewriting the Rules of Animal Rights"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了動物權運動中被忽略的關鍵一環——殖民歷史與原住民視角。作者透過對巴勒斯坦動物保護聯盟（PAL）的田野調查，證明動物權與人權的連結必須超越西方「純素主義」框架，轉而聚焦社區發展、青年賦能與自我決定權。這不僅挑戰了國際動物權運動的霸權，更為去殖民化的社會運動提供了實踐路徑。當以色列政府將純素主義包裝成「最友善國度」的幌子（即「純素洗白」），PAL卻用行動證明：真正的動物權益必須與人權共鳴，並根植於被殖民者的生活實踐。\n\n【研究問題】過去動物權運動長期忽略殖民背景與人權問題，將「純素主義」視為唯一政治行動。這種框架導致國際動物權組織與原住民社群之間的斷裂：例如以色列政府利用純素運動美化佔領，而巴勒斯坦人則因生存危機與文化差異，將動物權視為「西方強加」的議題。研究缺口在於，如何在殖民語境下建立真正平等的跨群體聯盟，而非將原住民議題簡化為「動物福利」的附屬品。\n\n【研究方法】研究者透過2017-2018年間對巴勒斯坦西岸的多點 ethnography（田野調查），深度追蹤PAL的行動。研究團隊不僅進行68場訪談，更與活動家共同生活、參與會議，甚至在Jalazone難民營中體驗日常生活。特別是對PAL創始人Safi的長期追蹤，揭開了原住民如何將動物權與民族自決結合：例如將動物保護視為「建立未來國家」的基石，而非純粹的道德選擇。研究方法強調「慢對話」，以理解殖民壓迫下複雜的權力結構。\n\n【結果】調查發現，PAL的青年培訓計畫讓學生擔任動物福利大使，卻不強制要求素食——這與國際動物權組織期待的「純素戰士」形成鮮明對比。在Jalazone難民營，PAL將動物保護與社區發展結合：例如透過農業教育改善食物安全，而非單純推動素食。數據顯示，70%的年輕志願者因PAL培訓而養成更少動物性食物的習慣，但組織本身卻拒絕將純素化作為唯一標準。這揭示了關鍵轉變：在被殖民環境中，動物權益必須與人權、文化實踐深度綁定，否則將淪為西方霸權的延伸。",
+      "en": "**Summary:** This study reveals a critical blind spot in animal rights activism: the failure to center Indigenous perspectives within settler-colonial contexts. Through ethnographic research with the Palestinian Animal League (PAL), the authors demonstrate that animal and human rights must be understood as interconnected struggles rooted in community development, self-determination, and decolonial politics—not just veganism. By exposing how Israel weaponizes veganism as \"veganwashing\" to mask occupation, the research challenges the global animal rights movement to rethink its frameworks and prioritize Indigenous-led solutions. The findings offer a roadmap for building meaningful alliances beyond Western moralism.\n\n**Problem:** International animal rights movements have historically overlooked the colonial context of their work, framing veganism as the sole moral imperative while ignoring human rights abuses. This approach alienates Indigenous communities like Palestinians, whose struggles for survival and self-determination are deeply tied to animal welfare. Previous research failed to address how colonial power dynamics—such as Israel’s appropriation of veganism to legitimize occupation—undermine solidarity efforts. Without centering Indigenous voices, animal rights activism risks perpetuating colonial hierarchies.\n\n**Approach:** The researchers conducted multi-sited ethnography in the occupied West Bank from 2017-2018, focusing on PAL’s work in refugee camps and urban centers like Ramallah. They interviewed 68 activists, participated in PAL’s international conferences, and lived alongside members in Jalazone refugee camp. The study emphasizes \"slow listening\" as a method: spending time with activists to understand their lived experiences of occupation and the intersections of human and animal rights. This approach revealed how Palestinian activists redefined animal protection as part of a broader national decolonial project, integrating it with community development and youth empowerment.\n\n**Results:** PAL’s youth programs, such as the Youth for Change initiative, trained students to advocate for animal welfare without requiring veganism. Field notes show that while 70% of participants adopted plant-based habits, the organization rejected veganism as a mandatory condition. In Jalazone, PAL’s agricultural education programs addressed food insecurity—rooted in Israeli land seizures—rather than pushing pure veganism. This strategic focus on community needs, rather than moral purity, redefined animal rights as part of Palestinian self-determination. The study highlights how Western frameworks like veganism become tools of colonial control when divorced from local contexts, urging activists to prioritize Indigenous priorities over universalist ideals."
+    },
+    "keyArticle": {
+      "title": "Decolonising animal activism: Engaging with Indigenous activist perspectives",
+      "authors": [
+        "Esther Tordjmann",
+        "Nicole T Cook"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103472",
+      "pages": "103472"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103472",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103472"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T14:22:12.483988+00:00",
+    "source": "openalex"
+  }
+}

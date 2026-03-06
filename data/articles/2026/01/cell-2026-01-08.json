@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-01-08",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-08",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞營養偵測器的60奈米彎月形密碼：KICSTOR-GATOR1-SAMTOR複合體揭開mTORC1調控之謎",
+      "en": "The Lysosome's 60-Nanometer Crescent: How KICSTOR-GATOR1-SAMTOR Decodes Nutrient Signals"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開細胞營養感知機制的核心密碼：科學家首次解析出位於溶酶體表面的KICSTOR-GATOR1-SAMTOR營養感應超複合體結構，呈現出60奈米長的彎月形態。這個「分子月牙」如同精密的營養開關站，當氨基酸匱乏時，能精準調控mTORC1——細胞生長的master regulator。研究發現SAMTOR（甲硫氨酸感應器）以獨特方式結合KICSTOR，卻無法同時結合甲硫氨酸，揭開細胞如何將甲硫氨酸濃度與生長調控連結的機制。更驚人的是，KICSTOR與GATOR1形成二聚體超複合體，強制GATOR1保持特定方位，只允許低親和力的 Rag GTPase 結合，確保細胞在營養短缺時不會錯誤激活生長。",
+      "en": "**Summary:** Scientists have cracked the molecular code of nutrient sensing at the lysosome, revealing how a 60-nanometer crescent-shaped supercomplex controls the master growth regulator mTORC1. Using cryo-EM, researchers uncovered the precise 3D structure of the KICSTOR-GATOR1-SAMTOR complex—the cell's nutrient detection system. This molecular crescent acts as a precision docking station: when amino acids are scarce, it ensures GATOR1 (the \"off switch\") properly positions itself to deactivate mTORC1. The breakthrough also explains how SAMTOR, the methionine sensor, binds KICSTOR in a way that blocks S-adenosylmethionine binding—a clever evolutionary trick linking methionine levels to growth control. Most importantly, the dimeric supercomplex forces GATOR1 into a specific orientation that only permits \"low-affinity\" Rag GTPase binding, ensuring cells don't accidentally activate growth during starvation."
+    },
+    "keyArticle": {
+      "title": "Structure of the lysosomal KICSTOR-GATOR1-SAMTOR nutrient-sensing supercomplex",
+      "authors": [
+        "Christopher J. Lupton",
+        "Charles Bayly-Jones",
+        "Shuqi Dong",
+        "Terrance Lam",
+        "Wentong Luo",
+        "Gareth D. Jones",
+        "Chantel Mastos",
+        "Nicholas J. Frescher",
+        "San S. Lim",
+        "Alastair C. Keen",
+        "Luke E. Formosa",
+        "Hari Venugopal",
+        "Yong-Gang Chang",
+        "Michelle L. Halls",
+        "Andrew M. Ellisdon"
+      ],
+      "doi": "10.1016/j.cell.2025.12.005",
+      "pages": "1185-1200.e28"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.005",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.005"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T14:21:21.732676+00:00",
+    "source": "openalex"
+  }
+}
