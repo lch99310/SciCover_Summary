@@ -6,7 +6,6 @@ import { FigureGallery } from './FigureGallery';
 import { ArticleLinksSection } from './ArticleLinks';
 import { LoadingSpinner } from '../ui/LoadingSpinner';
 import { safeFormatDate } from '../../lib/dateUtils';
-import { motion } from 'framer-motion';
 import './ArticleDetail.css';
 
 export function ArticleDetail() {
@@ -39,12 +38,8 @@ export function ArticleDetail() {
   const formattedDate = safeFormatDate(date, 'MMMM d, yyyy');
 
   return (
-    <motion.article
-      className="article-detail"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.4 }}
-    >
+    <article className="article-detail article-detail--enter">
+
       <div className="article-detail__header container reading-column">
         <button onClick={handleGoBack} className="article-detail__back-link">&larr; 回到上一頁 / Go Back</button>
 
@@ -82,6 +77,6 @@ export function ArticleDetail() {
           links={coverStory.links}
         />
       </div>
-    </motion.article>
+    </article>
   );
 }

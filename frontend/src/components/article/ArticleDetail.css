@@ -3,6 +3,24 @@
   padding-bottom: var(--space-16);
 }
 
+/* Gentle CSS entry animation — starts at 0.6 opacity instead of 0
+   to avoid the harsh "flash" that framer-motion's opacity:0→1 caused
+   on mobile back navigation. */
+.article-detail--enter {
+  animation: article-fade-in 0.25s ease-out;
+}
+
+@keyframes article-fade-in {
+  from { opacity: 0.6; transform: translateY(4px); }
+  to   { opacity: 1;   transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-detail--enter {
+    animation: none;
+  }
+}
+
 .article-detail__header {
   margin-bottom: var(--space-8);
 }
