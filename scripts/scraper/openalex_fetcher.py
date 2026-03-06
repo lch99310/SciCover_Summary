@@ -58,17 +58,13 @@ JOURNAL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "source_id": "S160686149",
         "display_name": "International Organization",
         "slug": "intorg",
-        # IO is a quarterly journal with few OA articles.  Disabling the
-        # OA filter gives access to regular-issue articles (abstract-only
-        # summaries are still useful).
-        "require_oa": False,
+        "require_oa": True,
     },
     "asr": {
         "source_id": "S157620343",
         "display_name": "American Sociological Review",
         "slug": "asr",
-        # ASR publishes infrequently with few OA articles.
-        "require_oa": False,
+        "require_oa": True,
     },
 }
 
@@ -340,6 +336,10 @@ class OpenAlexFetcher:
         Only returns URLs on servers that our fulltext fetcher can actually
         handle.  Institutional repositories (DSpace, university repos, etc.)
         are excluded because they rarely provide scrapable full text.
+
+        For Elsevier journals (DOI prefix 10.1016/), also queries the
+        bioRxiv pubs API to discover preprints not listed in OpenAlex
+        locations — Cell articles almost always have a bioRxiv version.
         """
         _PREPRINT_SERVERS = (
             "arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv",
@@ -357,6 +357,19 @@ class OpenAlexFetcher:
             for server in _PREPRINT_SERVERS:
                 if server in landing_lower:
                     return landing
+
+        # Fallback: query bioRxiv pubs API for Elsevier articles (Cell, etc.).
+        # Cell articles almost always have a bioRxiv preprint, but OpenAlex
+        # doesn't always list it in locations.
+        doi = (work.get("doi") or "").replace("https://doi.org/", "")
+        if doi and doi.lower().startswith("10.1016/"):
+            try:
+                from .biorxiv_api import find_preprint
+                biorxiv_url = find_preprint(doi)
+                if biorxiv_url:
+                    return biorxiv_url
+            except Exception as exc:
+                logger.debug("bioRxiv API lookup failed for %s: %s", doi, exc)
 
         return ""
 

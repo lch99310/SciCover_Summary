@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T22:04:00.595645+00:00",
+  "lastUpdated": "2026-03-06T12:10:14.720873+00:00",
   "articles": [
     {
       "id": "political-geography-2026-02-28",
@@ -119,15 +119,6 @@
       "cover_url": ""
     },
     {
-      "id": "american-sociological-review-2026-01-17",
-      "journal": "American Sociological Review",
-      "date": "2026-01-17",
-      "path": "articles/2026/01/american-sociological-review-2026-01-17.json",
-      "title_zh": "媽咪學歷飆升，為子女大學路開道？新研究揭開母職關鍵轉變",
-      "title_en": "Mothers' Rising Status: Why Today's College Graduation Rates Owe More to Mom Than Dad",
-      "cover_url": ""
-    },
-    {
       "id": "science-2026-01-15",
       "journal": "Science",
       "date": "2026-01-15",
@@ -135,33 +126,6 @@
       "title_zh": "磁場驚魂14日：重複快射電暴突然被磁化雲團吞噬，瞬間恢復原狀",
       "title_en": "14 Days of Magnetic Drama: How a Fast Radio Burst's Environment Suddenly Shifted and Recovered",
       "cover_url": "data/images/science/science-2026-01-15-cover.jpg"
-    },
-    {
-      "id": "american-sociological-review-2025-11-27",
-      "journal": "American Sociological Review",
-      "date": "2025-11-27",
-      "path": "articles/2025/11/american-sociological-review-2025-11-27.json",
-      "title_zh": "誰有生育權？巴西研究揭開種族與階級的隱形審判",
-      "title_en": "Who Deserves to Have a Baby? How Race and Class Shape the Social Rules of Reproduction",
-      "cover_url": ""
-    },
-    {
-      "id": "american-sociological-review-2025-11-22",
-      "journal": "American Sociological Review",
-      "date": "2025-11-22",
-      "path": "articles/2025/11/american-sociological-review-2025-11-22.json",
-      "title_zh": "三代追夢：法國移民後裔的教育階梯與種族隱形壁壘",
-      "title_en": "Beyond the Second Generation: How France’s Third-Generation Immigrants Are Still Confronting the Legacy of Ethnic Hierarchy",
-      "cover_url": ""
-    },
-    {
-      "id": "international-organization-2025-11-20",
-      "journal": "International Organization",
-      "date": "2025-11-20",
-      "path": "articles/2025/11/international-organization-2025-11-20.json",
-      "title_zh": "邊境外移、法律模糊、制度委託：難民庇護如何被轉化為「 containment」？",
-      "title_en": "The Architecture of Containment: How Refugee Protection Became a Game of Borders and Bureaucracy",
-      "cover_url": "data/images/international-organization/international-organization-2025-11-20-cover.jpg"
     }
   ]
 }

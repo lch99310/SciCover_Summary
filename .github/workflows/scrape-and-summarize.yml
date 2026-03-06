@@ -62,6 +62,7 @@ jobs:
           fi
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
           MODELS_PAT_QWEN3_VL_30B: ${{ secrets.MODELS_PAT_QWEN3_VL_30B }}
         continue-on-error: true
 
