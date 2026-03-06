@@ -1,0 +1,65 @@
+{
+  "id": "cell-2026-01-22-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-22",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-22-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": " Ebola病毒「原子級」突變：V75A變種如何讓疫情爆發力大增？",
+      "en": "The Atomic Switch That Made Ebola Spread Faster: How a Single Mutation Powered the 2018-2020 Epidemic"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開 Ebola 病毒在 2018–2020 年疫情爆發的關鍵分子密碼：一個名為 GP-V75A 的單一氨基酸突變，竟讓病毒傳播力暴增。研究發現，當病毒表面的「鑰匙」（糖蛋白）在第 75 位由缬氨酸（V）變為丙氨酸（A）時，不僅能更緊密鎖定人體細胞的「門把」（NPC1 受體），還減少了對細胞內蛋白酶的依賴，讓病毒更輕鬆入侵細胞。這項突變在疫情初期就快速擴散，並與病例數量激增同步上升，顯示它可能是疫情爆發的隱形推手。這項發現不僅解釋了 Ebola 病毒為何能快速適應人類，更為即時基因監測提供了科學依據，讓未來防疫能更早預警。\n\n【研究問題】過去的研究多聚焦於 Ebola 病毒的「基因突變現象」，卻忽略了特定突變如何具體影響傳播力。2018–2020 年的疫情為何爆發力驚人？即使有基因監測系統，科學家仍無法解釋病毒如何在短時間內實現傳播力躍升。這項研究要解決的核心問題是：一個單一的氨基酸突變，如何改變病毒的「傳染力」？為何它會在疫情中快速取代原有病毒株？\n\n【研究方法】研究團隊分析了 480 組 2018–2020 年的 Ebola 病毒基因組，繪製出病毒演化樹。接著，他們用「分子模型」模擬突變後的糖蛋白結構，並透過「假病毒」實驗（類似用 VSV 病毒包裝 Ebola 糖蛋白）測試感染能力。研究人員讓細胞暴露在突變病毒下，並用發光劑追蹤感染程度；同時用表面等離子體共振技術（SPR）精確測量病毒與細胞受體的結合強度。這些方法如同「分子顯微鏡」，讓科學家能直觀觀察突變如何改變病毒與細胞的互動。\n\n【結果】研究顯示，GP-V75A 突變在 2019 年已佔疫情樣本的 83%（264/317），遠高於 2018 年的 5%。在實驗中，帶有突變的病毒在 HEK293T 細胞中的感染率提高 30%，在小鼠模型中也表現出更強的傳染力。更驚人的是，突變讓病毒對細胞內蛋白酶的依賴度降低 50%，甚至讓治療藥物和抗體的效力下降 20%。這項突變就像給 Ebola 病毒裝上「加速器」，解釋了為何疫情在 2019 年爆發性增長。未來防疫策略應強化即時基因監測，及早發現類似突變。",
+      "en": "**Summary:** This study uncovers the molecular key to Ebola's explosive spread during the 2018–2020 epidemic: a single amino acid mutation in the virus's glycoprotein, GP-V75A. When the virus's surface \"key\" (glycoprotein) changes from valine (V) to alanine (A) at position 75, it not only locks onto the human cell's \"doorknob\" (NPC1 receptor) more tightly but also reduces its reliance on cellular proteases for entry. This mutation emerged early in the outbreak, rapidly spread through the population, and coincided with the surge in cases—suggesting it was a hidden driver of the epidemic. The findings reveal how Ebola evolved to exploit human cells more efficiently, while also highlighting the urgent need for real-time genomic surveillance to detect such adaptive changes before they escalate.\n\n**Problem:** While scientists have long known that Ebola mutates rapidly, previous research failed to connect specific mutations to transmission dynamics. Why did the 2018–2020 outbreak spread so explosively despite surveillance systems? The critical gap was understanding how single amino acid changes could directly impact viral fitness in human populations. This study addresses the question: How does a single mutation transform Ebola from a localized threat to a super-spreader?\n\n**Approach:** Researchers analyzed 480 Ebola genomes from the 2018–2020 epidemic, building phylogenetic trees to track viral evolution. They then used pseudoviruses (VSV viruses engineered to carry Ebola glycoprotein) to test infectivity in human cell lines and mice. To measure molecular interactions, they employed surface plasmon resonance (SPR), a technique that quantifies how tightly virus and host proteins bind. These methods, like molecular microscopes, allowed the team to observe the mutation's effects at the atomic level. For example, they found that the V75A mutation altered the glycoprotein's structure in ways that enhanced its grip on the NPC1 receptor.\n\n**Results:** GP-V75A became dominant in 2019, making up 83% of samples (264/317), up from just 5% in 2018. In cell experiments, the mutant virus showed 30% higher infectivity in HEK293T cells and stronger replication in mouse models. Most strikingly, it reduced reliance on cathepsin proteases by 50% and decreased the effectiveness of NPC1-targeting drugs and antibodies by 20%. This mutation acted like a molecular accelerator, explaining the epidemic's rapid growth. The study underscores the importance of genomic surveillance to detect such adaptive changes early, allowing for faster response to future outbreaks."
+    },
+    "keyArticle": {
+      "title": "Molecular characterization of Ebola virus glycoprotein V75A substitution in the 2018–2020 epidemic",
+      "authors": [
+        "Linjin Fan",
+        "Yulong Wang",
+        "Yinghao Wang",
+        "Zequn Wang",
+        "xiaofeng yang",
+        "Chudan Liang",
+        "Chongguang Yang",
+        "Nan Liu",
+        "Jun Zheng",
+        "Weifang Kang",
+        "Pengfei Ye",
+        "Pei Sun",
+        "Wendi Shi",
+        "Xinyi Guo",
+        "Weijian Wu",
+        "Jian-Rong Yang",
+        "Quan Liu",
+        "Linna Liu",
+        "Jun Qian"
+      ],
+      "doi": "10.1016/j.cell.2025.12.022",
+      "pages": "818-831.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-22-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.022",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.022"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T14:04:04.402651+00:00",
+    "source": "openalex"
+  }
+}

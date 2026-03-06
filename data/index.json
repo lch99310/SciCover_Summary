@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T13:47:48.722673+00:00",
+  "lastUpdated": "2026-03-06T14:06:14.086940+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -281,6 +281,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-01-23-cover.jpg"
     },
     {
+      "id": "cell-2026-01-22-02",
+      "journal": "Cell",
+      "date": "2026-01-22",
+      "path": "articles/2026/01/cell-2026-01-22-02.json",
+      "title_zh": " Ebola病毒「原子級」突變：V75A變種如何讓疫情爆發力大增？",
+      "title_en": "The Atomic Switch That Made Ebola Spread Faster: How a Single Mutation Powered the 2018-2020 Epidemic",
+      "cover_url": "data/images/cell/cell-2026-01-22-02-cover.jpg"
+    },
+    {
       "id": "cell-2026-01-22",
       "journal": "Cell",
       "date": "2026-01-22",
@@ -405,6 +414,15 @@
       "title_zh": "價錢背後的隱形階級：為什麼富人更認同「風險定價」？",
       "title_en": "Whose Side Are You On? How Wealth Shapes Our Views on Fair Pricing",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-12-23",
+      "journal": "Political Geography",
+      "date": "2025-12-23",
+      "path": "articles/2025/12/political-geography-2025-12-23.json",
+      "title_zh": "水的權力遊戲：墨西哥城水利基建中的官僚鬥爭與國家建構",
+      "title_en": "The Water Frontier: How Bureaucrats Forged Mexico City's State Through Hydraulic Infrastructure",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-23-cover.jpg"
     },
     {
       "id": "cell-2025-12-22",

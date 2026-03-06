@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2025-12-23",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2025-12-23",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "水的權力遊戲：墨西哥城水利基建中的官僚鬥爭與國家建構",
+      "en": "The Water Frontier: How Bureaucrats Forged Mexico City's State Through Hydraulic Infrastructure"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了墨西哥城水利基建背後的權力遊戲：1940年代的勒馬系統工程並非單純的國家中央集權，而是官僚體系內部激烈角力的產物。作者透過檔案分析，發現當局在「水資源分配」與「電力發電」的爭議中，如何以法律與行政手段重新定義國家邊界。這不僅挑戰了「強權中央化」的傳統敘事，更揭示現代國家建構實為一個充滿張力的「過程」——官僚們在技術與政治的交界處，不斷調整國家尺度與權力結構，最終塑造了當今墨西哥城的水資源治理困境。這項發現為理解第三世界國家的現代化進程提供了關鍵視角，顯示權力如何在細微的行政爭議中悄然轉化。\n\n【研究問題】過去學界普遍將墨西哥革命後的現代化視為「中央集權」的單向度過程，卻忽略了國家機器內部的權力鬥爭。本研究聚焦「勒馬系統」（1942-1951年）——這項為墨西哥城供水的跨流域工程——探討：當官僚機構為何在「水資源分配」與「電力發電」的邊界問題上陷入僵局？為何國家權力的再現現並非由上而下，而是透過行政程序的細微角力？這問題的關鍵在於，若不理解官僚體系內部的權力博弈，就無法解釋為何現代化工程往往伴隨環境與社會衝突。\n\n【研究方法】作者獨家挖掘墨西哥城歷史水資源檔案館（AHA）與國家檔案館（AGN）的珍貴文獻，包括310頁的「公文」（oficios）與208頁的技術文件。這些檔案記錄了1941年墨西哥城政府向農業部提出的「水權申請」，以及後續官僚間的法律辯論。研究者並非簡單轉述文件內容，而是將公文視為「權力技術的實踐場域」：例如，農業部官員手寫註記「電力發電」的細微調整，實則是官僚們重新劃定國家權力邊界的關鍵行動。這種「檔案解碼」方法，讓研究者得以窺見國家建構的「隱形手」。\n\n【結果】1941年申請的10,000公升/秒水資源，引發行政系統的爆炸性爭議：農業部官員發現申請書中「民生用水」與「電力發電」的矛盾，並以手寫註記修正。最終，法律意見書（15頁）裁定墨西哥城政府（DDF）為「地方行政單位」，而非聯邦政府，導致水資源與電力分屬不同監管體系。這項「行政定義」的結果，直接影響了後續工程設計：勒馬水系被分割為「民生用水」與「發電用途」兩條管道，並埋下當今墨西哥城水資源分配不公的伏筆。更關鍵的是，這些官僚博弈揭示了現代國家的本質——權力邊界從未固定，而是在行政程序中持續調整。",
+      "en": "**Summary:** This study uncovers the hidden power struggles behind Mexico City's hydraulic infrastructure: the Lerma System project (1942-1951) was not a top-down exercise of state centralization, but a product of bureaucratic battles within the government. Through archival analysis, the author reveals how officials' disputes over water allocation and electricity generation reshaped national boundaries. This challenges the traditional narrative of authoritarian centralization and exposes state-building as a dynamic process—bureaucrats, at the intersection of technology and politics, continuously redefined national scale and power structures. The findings offer a crucial lens for understanding modernization in the Global South, showing how power transforms through mundane administrative negotiations.\n\n**Problem:** Prior scholarship framed Mexico's post-revolutionary modernization as a unidirectional process of state centralization. This study asks: Why did bureaucratic institutions get stuck in disputes over water allocation and electricity generation? How did state power emerge not from the top down but through intricate administrative negotiations? The gap lies in ignoring intra-state power dynamics—without understanding these conflicts, we cannot explain why modernization projects often trigger environmental and social tensions.\n\n**Approach:** The author excavated rare archival materials from Mexico City's Historical Water Archive (AHA) and National General Archive (AGN), including 310 pages of official communications (*oficios*) and 208 pages of technical documents. These records capture the 1941 water rights application by the Federal District Department (DDF) to the Ministry of Agriculture and Development (SAF), and subsequent bureaucratic debates. Rather than merely summarizing documents, the study interprets *oficios* as sites of techno-political contention—for example, a handwritten note correcting \"public services\" to \"electricity generation\" in the application was not a minor error but a pivotal act in redefining state authority. This \"document decoding\" approach reveals the \"invisible hand\" of state-building.\n\n**Results:** The 1941 request for 10,000 liters per second of water triggered a bureaucratic explosion: SAF officials noticed contradictions between \"municipal services\" and \"electricity generation\" in the application, prompting a handwritten correction. Ultimately, a 15-page legal opinion classified the DDF as a municipal entity, not the federal government—creating two separate regulatory regimes for water and electricity. This \"administrative definition\" directly shaped engineering design: the Lerma system was split into two pipelines for domestic use and power generation, laying the groundwork for modern water inequality in Mexico City. More profoundly, these bureaucratic disputes expose the fluid nature of state power—the boundaries of authority were not fixed but constantly negotiated in daily administrative practices."
+    },
+    "keyArticle": {
+      "title": "State making at the infrastructural frontier: bureaucratic practices and the techno-politics of hydraulic infrastructure in post-revolutionary Mexico City",
+      "authors": [
+        "Alejandro De Coss-Corzo"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103482",
+      "pages": "103482"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103482",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103482"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T14:06:14.075917+00:00",
+    "source": "openalex"
+  }
+}
