@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-02-27",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-27",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-02-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "匈牙利CATL工廠爭議：極右派政治生態學如何操弄綠色能源轉型",
+      "en": "The Green Mirage: How Hungary's Far Right Weaponized Battery Politics"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了匈牙利政府與反對勢力在電動車電池廠爭議中，竟同時採用極右派政治生態學的真相。雙方都用「綠色」包裝非環保議題，透過「敵我對立」 rhetoric 誘發恐懼——政府將反對者指為「外國代理人」，反對者則將東亞企業視為「殖民者」。研究證明：環境議題已被工具化，成為鞏固權力與塑造國族認同的戰場。這種「條件性環保主義」（conditional environmentalism）不僅扭曲了能源轉型的本質，更暴露了民主衰退下，政治操弄如何將氣候危機轉化為意識形態鬥爭。\n\n【研究問題】過去學界關注極右派的氣候否認，卻忽略其「偽綠色化」策略。本研究填補了關鍵缺口：為何曾否認氣候變遷的匈牙利政府，轉而主張「綠色工業」？為何反對者也效仿極右言論？問題在於，當環保成為政治工具，我們如何區分真實的氣候行動與意識形態騙局？此研究對理解全球綠色轉型中的政治操弄具有警示意義。\n\n【研究方法】作者在德布勒森展開田野調查，採訪17位關鍵人物（包括政府官員、企業代表、環保團體成員），並分析媒體報導與抗議標語。獨特之處在於：不聚焦單一立場，而是比較「支持方」與「反對方」的言論架構。透過細緻的言語分析，揭露雙方如何將「環境問題」轉化為「國族存亡」的論述，例如反對者質疑「為何電動車在歐洲，卻讓匈牙利承擔污染」，支持方則將反對者稱為「外國代理人」。此方法論突破了傳統「支持/反對」二分法。\n\n【結果】研究發現兩個震撼結論：1）反對者主張「電池廠不該靠近城市」，但實際上是將「環境」工具化為國族身份的象徵（如標語「我們不交出土地」）；2）政府將電池廠稱為「綠色工業」，卻默認中國企業使用落後技術。數據顯示，2016年後匈牙利已批准59項電池相關專案，創造3000個就業機會，但78%的民眾認為「電池廠將破壞環境」。更關鍵的是，雙方都將「外國人」視為敵人：支持方指責「只有中國被攻擊」，反對者則將東亞工人視為「殖民者」。這證明：環境議題已完全政治化，成為極右派操弄的溫床。",
+      "en": "**Summary:** This study exposes how Hungary's far-right political ecology has hijacked the green energy transition, revealing that both pro- and anti-battery factions weaponize environmental rhetoric for nationalist ends. The ruling Fidesz-KDNP government, once a climate denier, now frames battery manufacturing as \"green\" while opponents mirror its xenophobic tactics, blaming foreign entities for ecological harm. Crucially, the research demonstrates that \"conditional environmentalism\"—using ecological issues to advance non-environmental agendas—has become the norm. This reveals a dangerous trend: climate action is being co-opted by authoritarianism, turning ecological crises into ideological battlegrounds where fear and exclusion dominate discourse. The findings challenge conventional wisdom about green politics and underscore the urgent need to scrutinize how power structures exploit environmentalism.\n\n**Problem:** While scholars have documented far-right climate denialism, this article addresses a critical gap: why and how far-right actors adopt \"green\" rhetoric to pursue non-ecological goals. Traditional research focused on overt denialism, but Hungary’s case shows a more insidious shift: climate skepticism morphs into strategic greenwashing. This matters because the global energy transition hinges on public trust in environmental policies. If democratic societies cannot distinguish genuine climate action from ideological manipulation, the climate crisis will be further obstructed by political opportunism.\n\n**Approach:** The researcher conducted fieldwork in Debrecen, Hungary, interviewing 17 key stakeholders (e.g., government officials, industry representatives, and NGO members) and analyzing media coverage and protest materials. A novel aspect was the comparative lens: rather than treating pro- and anti-battery groups as opposites, the study examined how both adopted similar rhetorical strategies. Through discourse analysis of interviews and public statements, the author uncovered how both sides used \"us vs. them\" narratives—government officials labeled opponents as \"foreign agents,\" while protesters accused Chinese companies of \"colonizing\" Hungarian land. This approach moved beyond simplistic binaries to reveal the shared ideological DNA of far-right political ecology.\n\n**Results:** The study found two stark patterns: 1) Opponents framed proximity to battery plants as an environmental injustice, yet their arguments were deeply entangled with national identity (e.g., stickers reading \"We won't give our land\" linked to Hungary’s Reformed Church). 2) Proponents claimed battery manufacturing was \"green,\" but admitted Chinese firms used outdated technologies. Data revealed 59 battery projects approved since 2016 (creating 3,000 jobs), yet 78% of locals viewed them as environmental threats. Most disturbingly, both sides relied on enemy-creation: the government claimed \"only Chinese factories are attacked,\" while protesters blamed \"Western elites\" for forcing EVs on Hungary. This proves environmentalism has become a Trojan horse for authoritarian politics."
+    },
+    "keyArticle": {
+      "title": "Far right political ecologies and the battery sector: The case of the CATL gigafactory in Debrecen, Hungary",
+      "authors": [
+        "Bálint Kronstein"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103522",
+      "pages": "103522"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-02-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103522",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103522"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:10:05.936279+00:00",
+    "source": "openalex"
+  }
+}

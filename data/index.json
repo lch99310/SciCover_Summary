@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T12:53:27.418057+00:00",
+  "lastUpdated": "2026-03-06T13:10:05.945330+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -18,6 +18,15 @@
       "title_zh": "邊界之戰：為何東德與西德的分界線，比選區邊界更能影響德國選民？",
       "title_en": "Which Border Matters Most? How Germany's Divided Past Still Shapes Its Voting Patterns",
       "cover_url": "data/images/political-geography/political-geography-2026-02-28-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-02-27",
+      "journal": "Political Geography",
+      "date": "2026-02-27",
+      "path": "articles/2026/02/political-geography-2026-02-27.json",
+      "title_zh": "匈牙利CATL工廠爭議：極右派政治生態學如何操弄綠色能源轉型",
+      "title_en": "The Green Mirage: How Hungary's Far Right Weaponized Battery Politics",
+      "cover_url": "data/images/political-geography/political-geography-2026-02-27-cover.jpg"
     },
     {
       "id": "science-2026-02-26",
@@ -351,6 +360,15 @@
       "title_zh": "價錢背後的隱形階級：為什麼富人更認同「風險定價」？",
       "title_en": "Whose Side Are You On? How Wealth Shapes Our Views on Fair Pricing",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2025-12-22",
+      "journal": "Cell",
+      "date": "2025-12-22",
+      "path": "articles/2025/12/cell-2025-12-22.json",
+      "title_zh": "肝細胞慢性代謝壓力下的隱形轉變：肝臟為何會悄悄「記住」壓力，埋下癌症伏筆",
+      "title_en": "The Liver's Silent Memory: How Chronic Stress Rewires Cells to Seed Cancer",
+      "cover_url": "data/images/cell/cell-2025-12-22-cover.jpg"
     },
     {
       "id": "science-2025-12-18-02",

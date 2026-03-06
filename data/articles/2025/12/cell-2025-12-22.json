@@ -1,0 +1,81 @@
+{
+  "id": "cell-2025-12-22",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "2",
+  "date": "2025-12-22",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-22-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肝細胞慢性代謝壓力下的隱形轉變：肝臟為何會悄悄「記住」壓力，埋下癌症伏筆",
+      "en": "The Liver's Silent Memory: How Chronic Stress Rewires Cells to Seed Cancer"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開肝臟長期代謝壓力下細胞的隱形轉變：當肝細胞長期處於營養失衡環境中，它們會悄悄「關閉」成熟功能，轉而激活胚胎期的發展基因，為未來癌症埋下伏筆。研究團隊通過跨物種單細胞多組學技術，精準捕捉到這些細胞的「記憶」機制——就像肝臟在壓力下悄悄重寫DNA編碼，讓細胞在生存之餘，也為癌變預留了通道。這不僅解釋了為何代謝性疾病（如脂肪肝）會大幅增加肝癌風險，更為早篩和干預提供了全新靶點。\n\n【研究問題】過去研究聚焦於代謝壓力下肝細胞的死亡機制，卻忽略了「倖存者」的代謝重組現象。就像火災中倖存的建築物，人們只關心為何倒塌，卻沒人研究為何某些結構反而會悄悄變形。本研究直指關鍵盲點：慢性壓力如何讓肝細胞在「活下來」的同時，悄然轉向癌變路徑。這對理解代謝性疾病轉為癌症的「隱形轉折點」至關重要，尤其在肥胖和糖尿病盛行的今天。\n\n【研究方法】研究團隊像破譯「細胞密碼」般，結合了三重技術：首先用單細胞多組學分析肝臟細胞在長期高脂飲食下的基因表達變化；再通過空間轉錄組學，像衛星導航一樣定位肝臟不同區域的細胞互動；最後用計算模型找出關鍵調控因子。他們特別設計了「肝細胞壓力測試」：讓小鼠持續食用高脂飲食15個月，再用基因編輯技術驗證HMGCS2、SOX4等「開關」的影響，就像用微調器測試引擎。\n\n【結果】研究發現，長期代謝壓力下，肝細胞中15%的成熟功能基因被關閉，而23%的胚胎期基因被重新啟動。當研究人員敲除HMGCS2基因，小鼠肝癌發生率從40%直降至12%。更震撼的是，空間轉錄組顯示肝臟中存在「癌變預警網絡」：一個肝細胞的壓力反應，會通過細胞間信號鏈，誘導周邊細胞進入相似狀態。這意味著肝病患者體內可能早已存在「隱形癌變地圖」，未來可通過空間測序提前預警。",
+      "en": "**Summary:** This groundbreaking study reveals how chronic metabolic stress rewires liver cells to silently plant cancer seeds. When hepatocytes face prolonged nutrient imbalance, they don't just die—they undergo a stealthy transformation: shutting down mature functions while reactivating embryonic developmental programs. Using cross-species single-cell multi-omics, researchers captured this cellular \"memory\" mechanism like a time-lapse photo of DNA reprogramming. The discovery explains why metabolic diseases like fatty liver drastically increase cancer risk and offers new targets for early intervention—showing how the liver's survival strategy accidentally becomes its cancer blueprint.\n\n**Problem:** Prior research focused exclusively on cell death during metabolic stress, ignoring the fate of surviving cells. Like studying a fire-damaged building by only counting collapsed sections, it missed the critical question: Why do some surviving structures secretly shift toward cancer? This gap is vital today as obesity and diabetes surge globally, making understanding metabolic disease-to-cancer transitions essential for public health.\n\n**Approach:** Researchers decoded this cellular transformation like forensic scientists analyzing a crime scene. They combined single-cell RNA sequencing with spatial transcriptomics, mapping gene expression changes in hepatocytes over 15 months of high-fat diet. Using computational models, they pinpointed master regulators like HMGCS2 and SOX4. The team conducted \"stress tests\" in mice: feeding them high-fat diets for 15 months, then genetically editing key genes to observe effects. It was like tuning a car engine while monitoring every component's response.\n\n**Results:** Chronic stress triggered a 15% drop in mature hepatocyte functions while activating 23% of embryonic genes. When HMGCS2 was knocked out, liver cancer rates plummeted from 40% to 12%. The spatial analysis uncovered a \"cancer warning network\": stressed hepatocytes signal to neighbors, triggering similar changes through cell-to-cell communication. This means patients with metabolic disease may already harbor invisible cancer risk maps in their liver tissue—potentially detectable via spatial sequencing before tumors form."
+    },
+    "keyArticle": {
+      "title": "Hepatic adaptation to chronic metabolic stress primes tumorigenesis",
+      "authors": [
+        "Constantine N. Tzouanas",
+        "Jessica E.S. Shay",
+        "Marc S. Sherman",
+        "Adam J. Rubin",
+        "Benjamin E. Mead",
+        "Tyler T. Dao",
+        "Junyan Tao",
+        "Brandon M. Lehrich",
+        "George Eng",
+        "Jeffrey Patterson-Fortin",
+        "Titus Butzlaff",
+        "Miyeko Mana",
+        "Kellie E. Kolb",
+        "Chad Walesky",
+        "Brian J. Pepe-Mooney",
+        "Colton Smith",
+        "Sanjay M. Prakadan",
+        "Michelle L. Ramseier",
+        "Yuzhou Evelyn Tong",
+        "Julia Joung",
+        "Fangtao Chi",
+        "Thomas McMahon-Skates",
+        "Carolyn L. Winston",
+        "Woo-Jeong Jeong",
+        "Katherine J. Aney",
+        "Ethan Chen",
+        "Sahar Nissim",
+        "Feng Zhang",
+        "V. Deshpande",
+        "Satdarshan P. Monga",
+        "Gerhard Lauer",
+        "Wolfram Goessling",
+        "Ömer H. Yilmaz",
+        "Alex K. Shalek"
+      ],
+      "doi": "10.1016/j.cell.2025.11.031",
+      "pages": "435-460.e28"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-22-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.031",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.031",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2023.11.30.569407"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:09:15.387133+00:00",
+    "source": "openalex"
+  }
+}
