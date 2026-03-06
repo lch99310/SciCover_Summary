@@ -7,7 +7,12 @@ on:
   workflow_dispatch:
     inputs:
       journals:
-        description: "Journals to fetch (comma-separated, or 'all')"
+        description: >-
+          Comma-separated journal names, or 'all'.
+          Available: science, nature, cell, polgeog,
+          intorg, asr, political geography,
+          international organization,
+          american sociological review
         required: false
         default: "all"
 
