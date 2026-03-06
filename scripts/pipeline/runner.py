@@ -275,31 +275,13 @@ class PipelineRunner:
             else:
                 logger.info("No thumbnail for %s (all strategies failed)", article_id)
 
-        # Step 4 — Attempt full-text retrieval via OpenAlex content API.
+        # Step 4 — Full-text retrieval.
+        # For Elsevier journals (Cell, Political Geography), the Elsevier
+        # Text Mining API is the most reliable source — try it first.
         fulltext: Optional[str] = None
         if not self.dry_run:
-            openalex_id = getattr(raw, "_openalex_id", "")
-            if openalex_id:
-                try:
-                    fulltext = self.fetcher.fetch_fulltext(openalex_id)
-                    if fulltext:
-                        logger.info(
-                            "Full text available for %s (%d chars)",
-                            article_id, len(fulltext),
-                        )
-                    else:
-                        logger.info(
-                            "No full text from OpenAlex for %s — "
-                            "using abstract-only summary",
-                            article_id,
-                        )
-                except Exception as exc:
-                    logger.warning(
-                        "Full-text fetch failed for %s: %s", article_id, exc
-                    )
-
-            # Fallback 1: Elsevier API (Cell, Political Geography).
-            if not fulltext and doi.lower().startswith("10.1016/"):
+            # Priority 1: Elsevier API (Cell, Political Geography).
+            if doi.lower().startswith("10.1016/"):
                 try:
                     fulltext = elsevier_fetch_fulltext(doi)
                     if fulltext:
@@ -313,7 +295,24 @@ class PipelineRunner:
                         article_id, exc,
                     )
 
-            # Fallback 2: try preprint URL, article URL, or OA PDF.
+            # Priority 2: OpenAlex content API.
+            if not fulltext:
+                openalex_id = getattr(raw, "_openalex_id", "")
+                if openalex_id:
+                    try:
+                        fulltext = self.fetcher.fetch_fulltext(openalex_id)
+                        if fulltext:
+                            logger.info(
+                                "Full text from OpenAlex for %s (%d chars)",
+                                article_id, len(fulltext),
+                            )
+                    except Exception as exc:
+                        logger.warning(
+                            "OpenAlex full-text fetch failed for %s: %s",
+                            article_id, exc,
+                        )
+
+            # Priority 3: preprint URL, article HTML, Europe PMC, PDFs.
             if not fulltext:
                 try:
                     from ..ai.fulltext import fetch_fulltext as fetch_ft_legacy
