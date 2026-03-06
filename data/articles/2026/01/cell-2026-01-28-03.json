@@ -1,0 +1,75 @@
+{
+  "id": "cell-2026-01-28-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "5",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-28-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "基因剪刀揭開 tau 蛋白的神經元守護密碼：阿茲海默症新希望",
+      "en": "CRISPR Screens Unveil the Neural Guardians of Tau: A Breakthrough for Alzheimer's Therapy"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究利用 CRISPR 技術，在人類神經元中首次系統性揭示 tau 蛋白代謝的關鍵規律。研究發現 E3 羧化酶 CRL5SOCS4 不僅直接標記 tau 蛋白，還精準調控其濃度，而 CUL5 基因高表達與阿茲海默症患者神經元的抗病能力呈強關聯。更驚人的是，線粒體功能受損會導致 tau 蛋白生成 25-kDa 的毒性片段，不僅加速聚集過程，還改變纖維結構。這些發現為開發針對 tau 病變的精準治療提供了全新方向，可能顛覆現有阿茲海默症治療思路。\n\n【研究問題】為何阿茲海默症等 tau 病變中，特定神經元會選擇性死亡？過去研究受限於非神經細胞模型或動物實驗，難以精確模擬人類神經元的脆弱性。尤其當 tau 蛋白在所有神經元中都會聚集，卻只有特定類型細胞會死亡時，背後的分子機制始終是個謎。傳統方法無法系統性識別控制 tau 聚集的關鍵因素，導致治療進展緩慢。\n\n【研究方法】研究團隊首先在帶有 MAPT V337M 突變的 iPS 神經元中進行全基因組 CRISPRi 篩選，透過流式細胞儀追蹤 tau 淘汰體的變化，如同「基因漁網」般捕獲關鍵調控基因。接著進行二次驗證，結合蛋白質分離、質譜分析、基因過表達等技術，逐步確認 CRL5SOCS4 與 tau 的互動機制，並驗證 mitochondrial 破壞後的代謝異常。\n\n【結果】研究發現 V337M 突變神經元中 tau 淘汰體濃度明顯升高，而 CUL5 基因高表達的神經元在阿茲海默症大腦中存活率更高。更關鍵的是，線粒體受 rotenone 損傷時，會生成 25-kDa 的 tau 片段，實驗顯示該片段加速 tau 聚集並改變纖維形態。這些結果揭示了 tau 病變的全新機制，為開發靶向 CRL5SOCS4 或阻斷毒性片段生成的藥物提供了明確路徑。",
+      "en": "**Summary:** This groundbreaking study uses CRISPR technology to reveal, for the first time, the fundamental rules governing tau protein regulation in human neurons. Researchers identified the E3 ubiquitin ligase CRL5SOCS4 as a critical regulator that directly tags tau and precisely controls its levels, with higher CUL5 expression strongly correlating with neuronal resilience in Alzheimer's disease. Most remarkably, mitochondrial dysfunction generates a toxic 25-kDa tau fragment that accelerates aggregation and alters fibril structure. These findings open new therapeutic avenues for tauopathies, potentially revolutionizing how we approach Alzheimer's treatment.\n\n**Problem:** Why do specific neurons die in tauopathies like Alzheimer's disease despite widespread tau aggregation? Traditional research relied on non-neuronal cell models or animal studies, which fail to capture the unique vulnerability of human neurons. When tau aggregates in all neurons yet only certain types die, the molecular mechanisms behind this selective vulnerability remain a profound mystery. Current methods lack the scale to systematically identify key regulators of tau accumulation.\n\n**Approach:** The team conducted a genome-wide CRISPRi screen in iPSC-derived neurons carrying the MAPT V337M mutation, using flow cytometry to track tau oligomer levels like a genetic fishing expedition. Secondary screens refined the hits, followed by validation through protein purification, mass spectrometry, and analysis of human brain tissue. Advanced techniques confirmed CRL5SOCS4's role in tau ubiquitination and the mechanisms of mitochondrial dysfunction-induced tau fragmentation.\n\n**Results:** Neurons with the MAPT V337M mutation showed significantly elevated tau oligomer levels, while high CUL5 expression correlated with greater neuronal survival in Alzheimer's brains. Crucially, rotenone-induced mitochondrial damage generated a 25-kDa tau fragment that accelerated in vitro aggregation and changed fibril morphology. These results provide a mechanistic explanation for tau pathology and identify clear therapeutic targets for modulating tau proteostasis."
+    },
+    "keyArticle": {
+      "title": "CRISPR screens in iPSC-derived neurons reveal principles of tau proteostasis",
+      "authors": [
+        "Avi J. Samelson",
+        "Nabeela Ariqat",
+        "Justin McKetney",
+        "Gita Rohanitazangi",
+        "C Bravo",
+        "Rudra Shekhar Bose",
+        "Yan Xia",
+        "Victor L. Lam",
+        "Darrin Goodness",
+        "Thomas Ta",
+        "Gary Dixon",
+        "Emily Marzette",
+        "Julianne Jin",
+        "Ruilin Tian",
+        "Eric Tse",
+        "Martin Kampmann",
+        "Henry S. Pan",
+        "Emma C. Carroll",
+        "Rosalie Lawrence",
+        "Jason E. Gestwicki",
+        "Jessica E. Rexach",
+        "David Eisenberg",
+        "Nicholas M. Kanaan",
+        "Daniel R. Southworth",
+        "Qiongyu Li",
+        "Li Gan",
+        "Danielle L. Swaney",
+        "Martin Kampmann"
+      ],
+      "doi": "10.1016/j.cell.2025.12.038",
+      "pages": "1517-1534.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-28-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.038",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.038",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2023.06.16.545386"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T21:22:09.469440+00:00",
+    "source": "openalex"
+  }
+}

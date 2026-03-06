@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2025-11-20-08",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊界之繩：為何世界邊界正處於崩潰邊緣？",
+      "en": "The Fragile Tapestry: Why the World's Borders Are More Stable Than They Seem"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究揭開國際秩序的隱藏韌性：儘管俄烏戰爭、中國擴張與美國退縮引發恐慌，但全球邊界秩序並非如預期般脆弱。作者以「邊界如同織物」的隱喻，揭示80%的世界邊界已穩定超過20年，且新衝突在和平超過20年後幾乎消失。這項突破性發現顛覆「歷史重演」的危言聳聽，為全球治理提供關鍵基準。【研究問題】過去學界聚焦單一衝突事件（如俄烏戰爭），卻忽略邊界穩定的系統性機制。當前研究缺口在於：為何戰後國際秩序維持近80年？當權力重構、美國退縮與norm崩壞同時出現，邊界為何未全面崩潰？【研究方法】作者結合歷史數據（圖1顯示戰後邊界變動急劇下降）、案例分析（俄烏戰爭、中國南海主張）與制度機制研究。獨特之處在於將「邊界穩定」解構為「個別國對」與「區域均衡」雙層機制，並用「邊界年齡」作為預測衝突的關鍵指標。【結果】數據顯示：80%的國對邊界從未發生爭端或20年以上未有衝突；和平超過20年後，新衝突機率僅0.5%。俄烏戰爭雖震撼，但僅占全球邊界爭端的2%。拉丁美洲的「邊界協調規範」與非洲的「殖民邊界遺產」證明，區域均衡比單一國家強權更關鍵。",
+      "en": "**Summary:** This research unveils a hidden resilience in the global territorial order: despite alarms over Russia's invasion of Ukraine, China's assertiveness, and U.S. retreat, international borders are far more stable than feared. Using the metaphor of borders as a woven tapestry, the study reveals that 80% of world borders have remained peaceful for over 20 years, with new disputes becoming vanishingly rare after two decades of peace. This breakthrough challenges the narrative of a \"return of conquest\" and provides critical benchmarks for global governance. **Problem:** Previous scholarship focused on isolated conflicts (like Ukraine), ignoring systemic mechanisms that sustain border stability. The critical gap is: Why has the post-WWII order endured for 80 years? When power shifts, U.S. credibility wanes, and norms erode simultaneously, why haven't borders collapsed? **Approach:** The author combines historical data (Figure 1 shows a sharp decline in territorial changes post-WWII), case studies (Russia's Ukraine invasion, China's South China Sea claims), and institutional mechanisms research. A unique strength is decomposing border stability into two layers: dyadic (state-to-state) relationships and regional equilibria, with \"border age\" as a key predictive metric. **Results:** Data shows 80% of contiguous state pairs have never disputed borders or resolved disputes over 20 years ago; after 20 years of peace, new disputes occur in just 0.5% of cases. The Ukraine war, while dramatic, represents only 2% of global territorial disputes. Latin America's \"border coordination norms\" and Africa's colonial border legacy demonstrate that regional equilibrium matters more than individual great powers."
+    },
+    "keyArticle": {
+      "title": "Holding the World Together? The Future of Territorial Order",
+      "authors": [
+        "Kenneth Schultz"
+      ],
+      "doi": "10.1017/s0020818325101173",
+      "pages": "S209-S223"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101173",
+      "doi": "https://doi.org/10.1017/s0020818325101173"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T21:23:47.204049+00:00",
+    "source": "openalex"
+  }
+}

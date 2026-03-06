@@ -1,0 +1,42 @@
+{
+  "id": "american-sociological-review-2025-11-27",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "6",
+  "date": "2025-11-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "生育權的隱形門檻：種族與階級如何定義「誰能生小孩」？",
+      "en": "Who Gets to Have a Baby? The Invisible Barriers of Race and Class"
+    },
+    "summary": {
+      "zh": "生育權看似個人自由，實則深植於社會規範的隱形壁壘中。最新研究揭示，「誰能生小孩」的議題背後，隱藏著種族與階級的交織性不平等。作者提出「社會認可的生育理論」(TSSR)，指出生育規範不僅由個人價值觀決定，更受評估者與被評估者多重身份的交織影響。研究以巴西伯南布哥州18-34歲女性為對象，透過配對式問卷調查，讓受訪者評估虛構已婚婦女的生育適切性。結果驚人：黑人女性若處於低收入階層，獲得的生育認可度明顯低於高收入群體；而白人女性則無論SES高低，評價幾乎一致。這揭示種族與階級的複合效應，正成為生育權的「隱形過濾器」。更關鍵的是，評估者的社會屬性也會影響判斷。當評估者與被評估者同屬種族群體時，對其他族群的生育資格常持更嚴苛態度。這揭示「他者化」與「群體歸屬」的社會機制，如何將生育權轉化為維護既得利益的工具。此研究不僅解開巴西生育不平等的密碼，更為全球生殖權爭議提供新視角。",
+      "en": "This study reveals how social norms surrounding childbearing function as hidden mechanisms of inequality in Brazil’s deeply stratified society. Drawing on the Theory of Socially Sanctioned Reproduction (TSSR), the authors demonstrate that reproductive rights are not merely individual choices but are shaped by intersecting identities and power dynamics. Using paired conjoint surveys with women aged 18–34 in Pernambuco—a region marked by extreme racial and economic inequality—the researchers tested how attributes like race and socioeconomic status influence perceptions of childbearing suitability. The findings show stark disparities: Black women in low-SES roles receive significantly less approval than their high-SES counterparts, while White women’s approval remains consistent across SES levels. This racialized class bias underscores how systemic inequality is embedded in seemingly neutral reproductive judgments. The study also highlights the role of evaluators’ own social identities in shaping discriminatory norms. When respondents shared the same racial background as the hypothetical mothers, they imposed stricter standards on other racial groups. This suggests that in-group favoritism and out-group exclusion are central to how reproductive norms reproduce inequality. These insights challenge the notion of reproductive freedom as a universal right, revealing how social norms actively exclude marginalized groups."
+    },
+    "keyArticle": {
+      "title": "Who Can Have a Baby? Social Norms and the Right to Reproduce",
+      "authors": [
+        "Letícia J. Marteleto",
+        "Sneha Kumar",
+        "Luiz Gustavo Fernandes Sereno",
+        "Alexandre Gori Maia"
+      ],
+      "doi": "10.1177/00031224251387273",
+      "pages": "1060-1091"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251387273",
+      "doi": "https://doi.org/10.1177/00031224251387273"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T21:24:30.222388+00:00",
+    "source": "openalex"
+  }
+}

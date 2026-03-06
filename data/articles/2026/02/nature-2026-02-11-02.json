@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-02-11-02",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-11",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-11-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "原子氫2S-6P躍遷測量破解質子半徑謎題，標準模型驗證精確度達0.7兆分之一",
+      "en": "How a Single Atomic Transition Solved the Proton Radius Puzzle at 0.7 Parts Per Trillion"
+    },
+    "summary": {
+      "zh": "【總結】這項研究以原子氫的2S-6P躍遷頻率測量，達到了「十兆分之一」的精度（0.7 ppt），成功破解長達十餘年的質子半徑謎題。研究團隊確認標準模型在極端精確度下的有效性，不僅驗證了量子電動力學（QED）的修正項，更為基礎物理學設立了新標竿。這項突破不僅是技術的勝利，更象徵著人類對宇宙基本法則理解的深化。\n\n【研究問題】質子半徑謎題源自於實驗數據的矛盾：μ子氫實驗顯示質子比原子氫測量值小4%（5.6σ差異）。過去原子氫的測量精度不足，無法解決這場爭論，導致標準模型的可信度受到質疑。這不僅是實驗上的盲點，更是基礎物理學的關鍵缺口——若無法驗證質子結構，我們對標準模型的信心將動搖。\n\n【研究方法】研究團隊打造了接近宇宙極寒的氫原子束，並使用精準到足以捕捉原子能量微小變化（類似測量頭髮直徑的精度）的雷射探測。關鍵創新在於「光學反射器」技術，有效抑制多普勒效應干擾，並精細校正光力效應與量子干擾。透過對原子速度分布的細緻分析，將複雜的量子現象轉化為清晰信號。\n\n【結果】測得的2S-6P躍遷頻率為730,690,248,610.79 ± 48 kHz，推算出質子均方根電荷半徑為0.8406(15) fm。此結果不僅與μ子氫數據完美契合，更以5.5σ差異證實2014年CODATA值錯誤。這項0.7 ppt的標準模型測試，是對束態量子電動力學最嚴格的驗證，並將為未來新物理探索鋪路。",
+      "en": "**Summary:** Imagine measuring the width of a single human hair with the precision of a cosmic distance—the 2026 Nature study on atomic hydrogen achieved exactly that. By measuring the 2S-6P transition frequency with sub-part-per-trillion accuracy (0.7 ppt), researchers resolved the decade-long proton radius puzzle, confirming the Standard Model's validity at an unprecedented level. This isn't just a technical win—it's a quantum leap in our understanding of the universe's fundamental building blocks.\n\n**Problem:** For years, physicists were baffled by a glaring discrepancy: muonic hydrogen experiments suggested the proton was 4% smaller than atomic hydrogen measurements. This \"proton radius puzzle\" (5.6σ difference) threatened the Standard Model's credibility. Prior atomic hydrogen experiments lacked the precision to resolve the conflict, leaving a critical gap in our understanding of quantum electrodynamics (QED). Solving this wasn't just academic—it was essential for validating the bedrock of modern physics.\n\n**Approach:** The team engineered a cryogenic hydrogen beam as cold as space itself, then probed it with laser light so precise it could detect the tiniest shifts in atomic energy levels. Using a fiber-based retroreflector (like a quantum mirror), they suppressed Doppler shifts that would normally distort the measurement. The real breakthrough? Modeling light-force shifts and quantum interference with unprecedented accuracy—turning a complex quantum soup into a clear signal.\n\n**Results:** The measured transition frequency was 730,690,248,610.79 ± 48 kHz—the most precise measurement ever. This revealed a proton radius of 0.8406(15) fm, matching muonic hydrogen data and contradicting the 2014 CODATA value by 5.5σ. The 0.7 ppt precision test of the Standard Model is the most stringent validation of bound-state QED to date, with implications for new physics searches and future quantum technologies."
+    },
+    "keyArticle": {
+      "title": "Sub-part-per-trillion test of the Standard Model with atomic hydrogen",
+      "authors": [
+        "Lothar Maisenbacher",
+        "Vitaly Wirthl",
+        "Arthur Matveev",
+        "Alexey Grinin",
+        "Randolf Pohl",
+        "Theodor W. Hänsch",
+        "Thomas Udem"
+      ],
+      "doi": "10.1038/s41586-026-10124-3",
+      "pages": "845-851"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-11-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10124-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10124-3",
+      "preprint": "http://arxiv.org/abs/2602.14980"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T21:20:41.153297+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "science-2026-03-05",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6789",
+  "date": "2026-03-05",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "6兆種減碳組合！普通人也能當氣候行動的主角",
+      "en": "6 Trillion Paths to 1.5°C: How Everyday Choices Can Shape Climate Action"
+    },
+    "summary": {
+      "zh": "氣候變遷的緩解不該是學術圈的專利。過去二十年，學者用「穩定楔形框架」說明減碳路徑，但複雜的模型總讓普通人望而卻步。這次研究把老框架現代化：36種策略各能減掉4%全球排放，到2050年總共可達1.5°C目標。最驚人的是——這些策略能組出超過6兆種組合！就像拼圖遊戲，你可選節能家電、綠色交通，也能支持森林保護，每種組合都像獨一無二的減碳DNA，讓每個人都能設計屬於自己的氣候行動路徑。",
+      "en": "Climate action shouldn't be the exclusive domain of experts. Two decades ago, the stabilization wedge framework simplified discussions about decarbonization, but today's complex integrated assessment models (IAMs) often leave the public sidelined. This study modernizes the concept by identifying 36 strategies, each capable of reducing 4% of global emissions by 2050. With over 6 trillion possible combinations, individuals can now design personalized pathways to limit warming to 1.5°C—like a climate puzzle where you choose which pieces to play. Whether prioritizing renewable energy, sustainable transport, or forest conservation, this framework transforms abstract policy into tangible choices anyone can engage with."
+    },
+    "keyArticle": {
+      "title": "Democratizing climate change mitigation pathways using modernized stabilization wedges",
+      "authors": [
+        "Nathan Johnson",
+        "Iain Staffell"
+      ],
+      "doi": "10.1126/science.adr2118",
+      "pages": ""
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adr2118",
+      "doi": "https://doi.org/10.1126/science.adr2118"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T21:19:38.167511+00:00",
+    "source": "openalex"
+  }
+}

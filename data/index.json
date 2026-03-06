@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-06T14:22:12.494247+00:00",
+  "lastUpdated": "2026-03-06T21:24:30.234568+00:00",
   "articles": [
+    {
+      "id": "science-2026-03-05",
+      "journal": "Science",
+      "date": "2026-03-05",
+      "path": "articles/2026/03/science-2026-03-05.json",
+      "title_zh": "6兆種減碳組合！普通人也能當氣候行動的主角",
+      "title_en": "6 Trillion Paths to 1.5°C: How Everyday Choices Can Shape Climate Action",
+      "cover_url": ""
+    },
     {
       "id": "nature-2026-03-04",
       "journal": "Nature",
@@ -146,6 +155,15 @@
       "cover_url": "data/images/science/science-2026-02-12-cover.png"
     },
     {
+      "id": "nature-2026-02-11-02",
+      "journal": "Nature",
+      "date": "2026-02-11",
+      "path": "articles/2026/02/nature-2026-02-11-02.json",
+      "title_zh": "原子氫2S-6P躍遷測量破解質子半徑謎題，標準模型驗證精確度達0.7兆分之一",
+      "title_en": "How a Single Atomic Transition Solved the Proton Radius Puzzle at 0.7 Parts Per Trillion",
+      "cover_url": "data/images/nature/nature-2026-02-11-02-cover.jpg"
+    },
+    {
       "id": "nature-2026-02-11",
       "journal": "Nature",
       "date": "2026-02-11",
@@ -243,6 +261,15 @@
       "title_zh": "RNA折疊救星現身！Ro60與La蛋白協同解開錯誤結構的關鍵機制",
       "title_en": "The RNA Unfolding Duo: How Ro60 and La Proteins Rescue Misfolded RNA",
       "cover_url": "data/images/cell/cell-2026-01-28-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-01-28-03",
+      "journal": "Cell",
+      "date": "2026-01-28",
+      "path": "articles/2026/01/cell-2026-01-28-03.json",
+      "title_zh": "基因剪刀揭開 tau 蛋白的神經元守護密碼：阿茲海默症新希望",
+      "title_en": "CRISPR Screens Unveil the Neural Guardians of Tau: A Breakthrough for Alzheimer's Therapy",
+      "cover_url": "data/images/cell/cell-2026-01-28-03-cover.jpg"
     },
     {
       "id": "cell-2026-01-28",
@@ -416,6 +443,15 @@
       "cover_url": "data/images/cell/cell-2025-12-29-cover.jpg"
     },
     {
+      "id": "political-geography-2025-12-29",
+      "journal": "Political Geography",
+      "date": "2025-12-29",
+      "path": "articles/2025/12/political-geography-2025-12-29.json",
+      "title_zh": "大象走廊強制介入：泰米爾納德邦生態旅遊與 Conservation 的生死之戰",
+      "title_en": "The Elephant Corridor Conundrum: When Conservation Overwhelms Ecotourism in South India's Sigur Plateau",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-29-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2025-12-25",
       "journal": "American Sociological Review",
       "date": "2025-12-25",
@@ -497,6 +533,15 @@
       "cover_url": ""
     },
     {
+      "id": "american-sociological-review-2025-11-27",
+      "journal": "American Sociological Review",
+      "date": "2025-11-27",
+      "path": "articles/2025/11/american-sociological-review-2025-11-27.json",
+      "title_zh": "生育權的隱形門檻：種族與階級如何定義「誰能生小孩」？",
+      "title_en": "Who Gets to Have a Baby? The Invisible Barriers of Race and Class",
+      "cover_url": ""
+    },
+    {
       "id": "international-organization-2025-11-20-02",
       "journal": "International Organization",
       "date": "2025-11-20",
@@ -549,6 +594,15 @@
       "title_zh": "獨裁者的四重攻勢：全球人權體系如何被改寫的危機",
       "title_en": "The Authoritarian Four: How Dictatorships Are Reshaping Global Human Rights",
       "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20-08",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-08.json",
+      "title_zh": "邊界之繩：為何世界邊界正處於崩潰邊緣？",
+      "title_en": "The Fragile Tapestry: Why the World's Borders Are More Stable Than They Seem",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-08-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",
