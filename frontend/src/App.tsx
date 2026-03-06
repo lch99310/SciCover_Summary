@@ -25,7 +25,15 @@ const queryClient = new QueryClient({
 });
 
 function HomePage() {
-  const [activeJournal, setActiveJournal] = useState<JournalName | 'all'>('all');
+  const [activeJournal, setActiveJournal] = useState<JournalName | 'all'>(() => {
+    const saved = sessionStorage.getItem('activeJournal');
+    return (saved as JournalName | 'all') || 'all';
+  });
+
+  // Persist selected tab so it survives back-navigation remount.
+  useEffect(() => {
+    sessionStorage.setItem('activeJournal', activeJournal);
+  }, [activeJournal]);
   const { data: index, isLoading, isError } = useArticleIndex();
   const [heroArticle, setHeroArticle] = useState<ArticleDetailType | null>(null);
   const [heroLoading, setHeroLoading] = useState(true);
