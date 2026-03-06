@@ -35,7 +35,8 @@ JPEG_QUALITY = 85
 _MIN_IMAGE_AREA = 40_000  # ~200×200
 
 # How many pages to scan for a figure before giving up.
-_MAX_PAGES_TO_SCAN = 8
+# Scan all pages so we don't miss figures that appear later in the PDF.
+_MAX_PAGES_TO_SCAN = 999
 
 # Minimum pixel dimensions for an HTML image to be considered a figure.
 _MIN_HTML_IMG_WIDTH = 300
@@ -188,6 +189,17 @@ def extract_thumbnail_from_pdf(
 
         # Fallback: render the best page as a whole-page JPEG.
         best_page = _find_page_with_image(doc)
+        if best_page is None:
+            # No page in the entire PDF has a meaningful figure.
+            # Return None so the pipeline falls through to HTML image
+            # extraction or the default thumbnail.
+            logger.info(
+                "PDF has no page with a meaningful figure, skipping: %s",
+                pdf_url,
+            )
+            doc.close()
+            return None
+
         page = doc[best_page]
         rect = page.rect
         zoom = TARGET_WIDTH / rect.width
@@ -215,14 +227,15 @@ def extract_thumbnail_from_pdf(
                 pass
 
 
-def _find_page_with_image(doc) -> int:
+def _find_page_with_image(doc) -> Optional[int]:
     """Return the index of the first page that contains a meaningful image.
 
-    Scans up to ``_MAX_PAGES_TO_SCAN`` pages.  A "meaningful" image is one
-    whose area exceeds ``_MIN_IMAGE_AREA`` pixels — this filters out tiny
-    logos, decorations, and line-art borders.
+    Scans all pages in the PDF.  A "meaningful" image is one whose area
+    exceeds ``_MIN_IMAGE_AREA`` pixels — this filters out tiny logos,
+    decorations, and line-art borders.
 
-    Falls back to page 0 if no page has a qualifying image.
+    Returns ``None`` if no page has a qualifying image, so the caller can
+    fall through to HTML extraction or the default thumbnail.
     """
     pages_to_check = min(doc.page_count, _MAX_PAGES_TO_SCAN)
 
@@ -241,8 +254,9 @@ def _find_page_with_image(doc) -> int:
         except Exception:
             continue
 
-    # No page with a large image found — default to first page.
-    return 0
+    # No page with a meaningful image found in the entire PDF.
+    logger.debug("No page with a meaningful image found (%d pages scanned)", pages_to_check)
+    return None
 
 
 def _extract_best_figure(doc, output_path: Path) -> bool:
