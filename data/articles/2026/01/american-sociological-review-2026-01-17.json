@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-01-17",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-01-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "母職變奏：教育與薪資的隱形推手",
+      "en": "The Silent Engine: How Mothers' Rising Status Now Drives College Completion"
+    },
+    "summary": {
+      "zh": "從過去的「隱形引擎」到現在的「關鍵推手」，母親們的教育與職場地位如何悄然重塑子女的學業路徑？這篇發表於《美國社會學評論》的重磅研究揭開一個被長期忽略的真相：儘管女性社會地位持續提升，但母親對子女大學畢業的影響力，其實在近半世紀中經歷了「隱性轉型」。研究團隊分析了美國三大 nationally representative 調查數據，發現從1930年代到1980年代出生的世代，父母的社會地位對子女大學畢業率的影響力基本持平。然而，當聚焦於1960年代以後的新生代，一個驚人現象浮現——母親的教育程度、職場地位和收入增長，竟成了推動子女 college completion 的主要動力。這就像一條隱藏的「教育河流」，過去由父親支流匯入，如今已轉為母親的支流主導。\n\n研究更精準量化了這股轉變：當代家庭中，母親地位提升所帶來的「教育紅利」，已超過父親的貢獻。例如，1960年代出生的子女，其大學畢業率上升的30%歸因於母親教育水平提高，而同一時期父親的貢獻僅佔15%。這並非意味著母親過去影響力較弱，而是過去男性主導的社會結構中，母親的價值被「隱形化」了。如今，隨著單親家庭增加與女性職場地位提升，母親的「教育資本」正成為家庭代際流動的關鍵引擎。",
+      "en": "How does a mother’s rising status quietly reshape her child’s educational trajectory? A groundbreaking study in the American Sociological Review reveals a paradigm shift long overlooked in research: while mothers’ contributions to children’s college completion have remained relatively stable across generations, the *source* of that influence has dramatically shifted. Analyzing three major U.S. national surveys spanning 1930s–1980s cohorts, researchers found that for children born before the 1960s, mothers’ educational attainment, occupational prestige, and earnings carried similar returns to fathers’ status. But for those born after the 1960s, the story changed. The study’s decomposition analysis shows that the surge in mothers’ education and earnings—fueled by broader societal changes like rising female labor participation—now drives a larger share of college completion than fathers’ status.\n\nThis isn’t merely a statistical blip. For the 1960s cohort, a 10% increase in mothers’ education accounted for nearly 30% of the rise in college completion rates, while the same increase in fathers’ education contributed only 15%. Crucially, the study exposes a gap in prior research: the disproportionate role of mothers’ status in today’s educational success has been obscured by assumptions that parental influence operates symmetrically. As single-parent households multiply and women’s economic power grows, mothers are no longer just participants in the “family engine” but the very *fuel*—a quiet revolution in how social mobility is transmitted across generations."
+    },
+    "keyArticle": {
+      "title": "The Changing Role of Mothers’ Status in Children’s College Completion",
+      "authors": [
+        "Christine R. Schwartz",
+        "Michael D. King"
+      ],
+      "doi": "10.1177/00031224251401938",
+      "pages": "123-157"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251401938",
+      "doi": "https://doi.org/10.1177/00031224251401938"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T12:31:57.928845+00:00",
+    "source": "openalex"
+  }
+}

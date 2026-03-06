@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T08:30:42.854632+00:00",
+  "lastUpdated": "2026-03-06T12:31:57.938299+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -81,6 +81,15 @@
       "title_zh": "電流密碼：人造胰島細胞的「成熟」覺醒",
       "title_en": "Decoding the Electrical Symphony of Pancreatic Cells: How Lab-Grown Islets Learn to Respond to Sugar",
       "cover_url": "data/images/science/science-2026-02-19-cover.png"
+    },
+    {
+      "id": "nature-2026-02-18-02",
+      "journal": "Nature",
+      "date": "2026-02-18",
+      "path": "articles/2026/02/nature-2026-02-18-02.json",
+      "title_zh": "二氧化碳飆升，北歐森林氮素『失守』：科學家揭開氣候變遷的隱形密碼",
+      "title_en": "CO2 Overload: How Rising Carbon Levels Are Starving Boreal Forests of Nitrogen",
+      "cover_url": "data/images/nature/nature-2026-02-18-02-cover.jpg"
     },
     {
       "id": "nature-2026-02-18",
@@ -312,8 +321,8 @@
       "journal": "American Sociological Review",
       "date": "2026-01-17",
       "path": "articles/2026/01/american-sociological-review-2026-01-17.json",
-      "title_zh": "媽咪學歷飆升，為子女大學路開道？新研究揭開母職關鍵轉變",
-      "title_en": "Mothers' Rising Status: Why Today's College Graduation Rates Owe More to Mom Than Dad",
+      "title_zh": "母職變奏：教育與薪資的隱形推手",
+      "title_en": "The Silent Engine: How Mothers' Rising Status Now Drives College Completion",
       "cover_url": ""
     },
     {
@@ -335,6 +344,15 @@
       "cover_url": "data/images/science/science-2026-01-15-cover.jpg"
     },
     {
+      "id": "political-geography-2026-01-14",
+      "journal": "Political Geography",
+      "date": "2026-01-14",
+      "path": "articles/2026/01/political-geography-2026-01-14.json",
+      "title_zh": "疫情關閉難民營背後的邊境戰爭：義法邊境小鎮維蒂米利亞的危機治理",
+      "title_en": "The Pandemic as Pretext: How Crisis Became a Tool of Border Control in Ventimiglia",
+      "cover_url": "data/images/political-geography/political-geography-2026-01-14-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2026-01-13",
       "journal": "American Sociological Review",
       "date": "2026-01-13",
@@ -351,6 +369,15 @@
       "title_zh": "黑洞噴流轉圈圈！82萬年一轉的宇宙陀螺，竟讓星系氣體被「甩」出",
       "title_en": "The Wobbling Jet That Took 820,000 Years to Spin: How a Black Hole's Gyro Effect Ejects Gas from Its Galaxy",
       "cover_url": "data/images/science/science-2026-01-08-cover.jpg"
+    },
+    {
+      "id": "cell-2026-01-01",
+      "journal": "Cell",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/cell-2026-01-01.json",
+      "title_zh": "EBV病毒暗藏殺手鐧！科學家揭開「分子模仿」致多發性硬化症的驚人機制",
+      "title_en": "EBV's Hidden Hand in Multiple Sclerosis: How a Viral Mimicry Unleashes Autoimmune Attacks",
+      "cover_url": "data/images/cell/cell-2026-01-01-cover.jpg"
     },
     {
       "id": "science-2026-01-01",
@@ -380,6 +407,15 @@
       "cover_url": ""
     },
     {
+      "id": "science-2025-12-18-02",
+      "journal": "Science",
+      "date": "2025-12-18",
+      "path": "articles/2025/12/science-2025-12-18-02.json",
+      "title_zh": "福爾摩沙星系再現撞擊奇觀：兩顆小行星撞出「宇宙煙火」",
+      "title_en": "Cosmic Fireworks in the Fomalhaut System: A Second Planetesimal Collision Revealed",
+      "cover_url": "data/images/science/science-2025-12-18-02-cover.jpg"
+    },
+    {
       "id": "science-2025-12-18",
       "journal": "Science",
       "date": "2025-12-18",
@@ -404,24 +440,6 @@
       "path": "articles/2025/11/american-sociological-review-2025-11-27-02.json",
       "title_zh": "全球性別權威的迷宮：國際NGO如何突破文化藩籬？",
       "title_en": "The Global Gender Maze: How International NGOs Navigate Cultural Diversity",
-      "cover_url": ""
-    },
-    {
-      "id": "american-sociological-review-2025-11-27",
-      "journal": "American Sociological Review",
-      "date": "2025-11-27",
-      "path": "articles/2025/11/american-sociological-review-2025-11-27.json",
-      "title_zh": "誰有生育權？巴西研究揭開種族與階級的隱形審判",
-      "title_en": "Who Deserves to Have a Baby? How Race and Class Shape the Social Rules of Reproduction",
-      "cover_url": ""
-    },
-    {
-      "id": "american-sociological-review-2025-11-22",
-      "journal": "American Sociological Review",
-      "date": "2025-11-22",
-      "path": "articles/2025/11/american-sociological-review-2025-11-22.json",
-      "title_zh": "三代追夢：法國移民後裔的教育階梯與種族隱形壁壘",
-      "title_en": "Beyond the Second Generation: How France’s Third-Generation Immigrants Are Still Confronting the Legacy of Ethnic Hierarchy",
       "cover_url": ""
     },
     {
@@ -483,9 +501,9 @@
       "journal": "International Organization",
       "date": "2025-11-20",
       "path": "articles/2025/11/international-organization-2025-11-20.json",
-      "title_zh": "邊境外移、法律模糊、制度委託：難民庇護如何被轉化為「 containment」？",
-      "title_en": "The Architecture of Containment: How Refugee Protection Became a Game of Borders and Bureaucracy",
-      "cover_url": "data/images/international-organization/international-organization-2025-11-20-cover.jpg"
+      "title_zh": "邊境之外的封鎖：難民庇護在後自由主義時代的重構",
+      "title_en": "Beyond Borders: The Rise of Flexible Containment in Refugee Governance",
+      "cover_url": ""
     }
   ]
 }

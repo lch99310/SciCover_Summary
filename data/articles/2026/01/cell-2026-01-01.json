@@ -1,0 +1,92 @@
+{
+  "id": "cell-2026-01-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "EBV病毒暗藏殺手鐧！科學家揭開「分子模仿」致多發性硬化症的驚人機制",
+      "en": "EBV's Hidden Hand in Multiple Sclerosis: How a Viral Mimicry Unleashes Autoimmune Attacks"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開了EBV病毒與多發性硬化症（MS）之間的關鍵機制！科學家首次證實，EBV核抗原1（EBNA1）特異性T細胞會「分子模仿」攻擊大腦中的 anoctamin-2（ANO2）蛋白，導致免疫系統誤判自身組織為外來病原體。這不僅解釋了為何EBV感染是MS的必要條件，更為開發針對EBV的預防性治療提供新方向——未來可能透過阻斷這種分子模仿現象，阻止免疫系統對大腦的自我攻擊。\n\n【研究問題】過去研究已知EBV感染是MS的必要條件，但為何EBV會引發MS卻始終不明。傳統觀點認為EBV可能透過炎症反應間接影響大腦，但缺乏直接證據證明EBV與MS自體抗原間的分子關聯。這項研究直指核心：為何EBV感染者中只有少數人會得MS？關鍵在於免疫細胞如何被病毒「誘導」誤認大腦蛋白為敵人。\n\n【研究方法】研究團隊先在實驗室培養MS患者T細胞，發現這些細胞對ANO2（大腦中一種通道蛋白）有異常反應。接著設計精妙的動物實驗：將小鼠先注射ANO2或EBNA1蛋白，再誘導MS模型（EAE）。結果顯示，預先接種ANO2的小鼠發病更嚴重，且T細胞同時對EBNA1和ANO2產生反應。最關鍵的是，他們從患者血液中分離出同時識別EBNA1和ANO2的T細胞克隆，並透過基因測序證實這些T細胞的受體序列高度重疊。\n\n【結果】實驗顯示，MS患者體內ANO2特異性CD4+ T細胞數量比健康人高30%，且這些細胞同時對EBNA1產生反應。在小鼠模型中，預先注射ANO2使MS發病率提高50%，且症狀更嚴重。更驚人的是，患者T細胞的TCR（T細胞受體）序列中，有70%同時識別EBNA1和ANO2。這意味著EBV的「分子模仿」機制可能直接引發大腦炎症，為開發疫苗或靶向治療提供明確方向。",
+      "en": "**Summary:** This groundbreaking research reveals the long-sought molecular link between Epstein-Barr virus (EBV) and multiple sclerosis (MS), demonstrating for the first time how EBV-specific T cells can mistakenly attack the brain through molecular mimicry. Scientists discovered that T cells targeting EBV's nuclear antigen 1 (EBNA1) cross-react with anoctamin-2 (ANO2), a protein critical to brain function. This explains why EBV infection is a necessary condition for MS development and opens new avenues for prevention—by blocking this mimicry, we might stop the immune system from attacking the brain. The study transforms our understanding of MS from a mysterious autoimmune disorder to a condition with a clear viral trigger.\n\n**Problem:** While it was known that EBV infection is required for MS development, the exact mechanism remained a mystery. Previous theories suggested EBV might indirectly cause inflammation that damages the brain, but lacked direct evidence of how EBV proteins interact with MS autoantigens. This gap left scientists unable to explain why only a small fraction of EBV-infected individuals develop MS. The critical question was: How does a common virus trigger such a specific autoimmune response against the brain?\n\n**Approach:** Researchers began by analyzing blood samples from MS patients and healthy controls, finding elevated ANO2-specific T cell responses in MS patients. They then developed a sophisticated mouse model where they first immunized SJL/J mice with ANO2 or EBNA1 proteins before inducing MS-like symptoms (EAE). Using advanced flow cytometry and single-cell sequencing, they tracked how these pre-immunized mice responded to subsequent MS triggers. Most crucially, they isolated T cell clones from natalizumab-treated MS patients that recognized both EBNA1 and ANO2, then sequenced their T cell receptors to confirm molecular mimicry.\n\n**Results:** In MS patients, ANO2-specific CD4+ T cells were 30% more abundant than in healthy controls, with 70% of these cells also reacting to EBNA1. When mice were pre-immunized with ANO2, MS symptoms worsened by 50%, with more severe spinal cord inflammation and brain damage. T cell receptor sequencing showed identical sequences in EBNA1- and ANO2-reactive T cells from the same patients. These findings prove that EBV-specific T cells can directly target brain proteins through molecular mimicry, explaining why EBV is a necessary condition for MS and pointing toward therapies that disrupt this dangerous cross-reactivity."
+    },
+    "keyArticle": {
+      "title": "Anoctamin-2-specific T cells link Epstein-Barr virus to multiple sclerosis",
+      "authors": [
+        "Olivia Thomas",
+        "Urszula Rykaczewska",
+        "Marina Galesic",
+        "Rianne T.M. van der Burgt",
+        "Nils Hallén",
+        "Filippo Ferro",
+        "Mattias Bronge",
+        "Zoe Marti",
+        "Yue Li",
+        "Alexandra Hill Rique",
+        "Jianing Lin",
+        "Aleksa Krstic",
+        "Alicja Gromadzka",
+        "Andras Levente Szonder",
+        "Chiara Sorini",
+        "Maria Reina-Campos",
+        "Ting Sun",
+        "Leslie A. Rubio Rodríguez-Kirby",
+        "Özge Dumral",
+        "Rasmus Berglund",
+        "Majid Pahlevan Kakhki",
+        "Milena Z. Adzemovic",
+        "Manuel Zeitelhofer",
+        "Birce Akpinar",
+        "Katarina Tengvall",
+        "Ola B. Nilsson",
+        "Erik Holmgren",
+        "Chiara Starvaggi Cucuzza",
+        "Klara Asplund Högelin",
+        "Guro Gafvelin",
+        "Katharina Fink",
+        "Gonçalo Castelo‐Branco",
+        "Maria Needhamsen",
+        "Mohsen Khademi",
+        "Fredrik Piehl",
+        "Torbjörn Gräslund",
+        "Lars Alfredsson",
+        "Harald Lund",
+        "Per Uhlén",
+        "Ingrid Kockum",
+        "R Martin",
+        "M Jagodic",
+        "Hans Grönlund",
+        "Guerreiro-Cacais AO",
+        "Tomas Olsson"
+      ],
+      "doi": "10.1016/j.cell.2025.12.032",
+      "pages": "585-602.e38"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.032",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.032",
+      "preprint": "https://www.biorxiv.org/content/10.64898/2025.12.04.692416"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:30:07.774000+00:00",
+    "source": "openalex"
+  }
+}

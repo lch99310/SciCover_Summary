@@ -1,0 +1,53 @@
+{
+  "id": "nature-2026-02-18-02",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8102",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-18-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "二氧化碳飆升，北歐森林氮素『失守』：科學家揭開氣候變遷的隱形密碼",
+      "en": "CO2 Overload: How Rising Carbon Levels Are Starving Boreal Forests of Nitrogen"
+    },
+    "summary": {
+      "zh": "【總結】\n這項突破性研究揭示，大氣二氧化碳濃度上升竟使北歐針葉林的氮素供應逐漸枯竭。透過分析瑞典1,609個樹木年輪樣本，科學家首次證實二氧化碳升高才是「森林氮素失衡」的主因，而非先前認為的氮沉降減少。此發現顛覆了過往對生態系統碳循環的預測，顯示北極圈森林的碳儲存能力可能因氮限制而提前趨緩，為氣候模型提供關鍵修正依據。\n\n【研究問題】\n過去數十年，植物氮同位素δ15N值持續下降，但學界對成因爭論不休：有人認為是氮沉降減少導致富營養化減弱，也有人主張是二氧化碳升高引發「生態系統寡營養化」。關鍵瓶頸在於兩者空間重疊嚴重，難以區分主因。若無法釐清，將嚴重誤導氣候模型對森林碳吸存能力的預測，甚至影響國際氣候政策制定。\n\n【研究方法】\n研究團隊巧妙利用瑞典森林的地理特點：南部氮沉降高且變化大，北部氮沉降低且穩定，而二氧化碳全球均勻分布。從國家森林調查庫中挑選1,609個針葉樹年輪樣本，排除年齡和氮轉運干擾，並透過多層次混合效應模型，精確分離二氧化碳與氮沉降的影響。這種「自然實驗」設計，讓研究者能直接鎖定二氧化碳的關鍵作用。\n\n【結果】\n數據顯示，每增加1ppm二氧化碳，木材氮同位素值下降0.04‰（松樹）至0.028‰（雲杉），而氮沉降變量的解釋力僅0.005。更關鍵的是，即使在氮沉降最低的北部森林，δ15N仍持續下降，證明二氧化碳才是主導因素。這解釋了為何北歐森林近年生長趨緩——氮限制已開始削弱植物對二氧化碳的反應，預示未來碳吸存能力可能提前達到上限。",
+      "en": "**Summary:**\nThis groundbreaking study reveals a hidden crisis in boreal forests: rising CO2 is causing nitrogen scarcity, fundamentally altering carbon storage predictions. By analyzing tree-ring isotopes across Sweden's nitrogen gradient, researchers prove CO2—not reduced nitrogen deposition—is the primary driver of declining nitrogen availability. This breakthrough resolves decades of debate and shows boreal forests' carbon sink capacity may plateau sooner than expected, forcing urgent revisions to climate models.\n\n**Problem:**\nFor decades, scientists debated the cause of declining δ15N values in plants—whether from CO2-driven nitrogen limitation or reduced nitrogen deposition. Previous studies couldn't separate these effects because nitrogen deposition patterns overlapped with CO2 increases across regions. This ambiguity critically undermines climate models predicting forest carbon uptake, risking flawed climate policy decisions.\n\n**Approach:**\nLeveraging Sweden's unique environmental gradient—high nitrogen deposition in the south declining since the 1990s versus stable low deposition in the north—the team analyzed 1,609 tree-ring samples from the Swedish National Forest Inventory. Advanced statistical modeling isolated CO2's effect from nitrogen deposition variables, eliminating confounding factors like tree age and nitrogen translocation.\n\n**Results:**\nCO2 explained 17.6% of δ15N variation (R²m=0.176), while nitrogen deposition variables explained less than 0.5%. Each 1 ppm CO2 increase caused a 0.04‰ δ15N decline in Scots pine and 0.028‰ in Norway spruce. Even in nitrogen-poor northern forests, δ15N continued falling, confirming CO2 as the dominant driver. This suggests nitrogen limitation is now constraining boreal forest growth, with major implications for carbon storage projections."
+    },
+    "keyArticle": {
+      "title": "Rising atmospheric CO2 reduces nitrogen availability in boreal forests",
+      "authors": [
+        "Kelley R. Bassett",
+        "Stefan F. Hupperts",
+        "Sandra Jämtgård",
+        "Lars Östlund",
+        "Jonas Fridman",
+        "Steven S. Perakis",
+        "Michael J. Gundale"
+      ],
+      "doi": "10.1038/s41586-025-10039-5",
+      "pages": "629-635"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-18-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10039-5",
+      "doi": "https://doi.org/10.1038/s41586-025-10039-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:29:19.707838+00:00",
+    "source": "openalex"
+  }
+}

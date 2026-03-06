@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2025-11-20",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊境之外的封鎖：難民庇護在後自由主義時代的重構",
+      "en": "Beyond Borders: The Rise of Flexible Containment in Refugee Governance"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究揭開了全球難民保護體系的「隱形轉型」——不是崩潰，而是被重新編織成一張精巧的封鎖網。儘管1951年難民公約形式上仍被遵守，但實際操作已演變為「彈性封鎖」模式：國家透過邊境外移、法律模糊與非正式合作，將難民保護外包給第三國。作者提出「封鎖架構」概念，包含邊境外移、程序延宕與機構委託三大特徵。這並非體系崩潰，而是後自由主義秩序下，國家將主權、裁量權與風險管理置於多邊主義與權利執行之上。研究指出，當前治理邏輯正將難民保護從「權利」轉化為「管理工具」，象徵國際治理邏輯的深層變革。\n\n【研究問題】過去研究多聚焦單一政策（如邊境封鎖），但忽略體系性轉變。作者質疑：為何國家不直接退出公約，卻能有效削弱其效力？本研究指出，關鍵在於「制度性漂移」與「法律替代」——國家透過緩慢調整規則、創造替代框架，既維持形式合規，又實質限制庇護。這解釋了為何 refugee regime 未崩潰，卻逐漸失去保護功能。理解此轉型，對應對全球移民危機與重塑國際合作至關重要，因為它揭示了後自由主義時代治理邏輯的本質。\n\n【研究方法】作者採用「制度性漂移」（institutional drift）與「法律替代」（legal substitution）理論框架，結合歷史分析與案例研究。通過解剖歐盟-土耳其協議（2016）、美國「墨西哥保護協議」（MPP）及英國-盧安達協定等案例，揭示國家如何將庇護責任外包至第三國，並利用法律模糊性延宕程序。同時分析聯合國難民署（UNHCR）的職能擴張，說明其從權利保障轉向協調治理。研究通過比較不同國家策略，展現「封鎖架構」如何系統性運作。\n\n【結果】核心發現：149個聯合國會員國雖為公約締約國，但90%的 asylum seekers 經由第三國處理；歐盟-土耳其協議使60萬人被限制在土耳其；美國MPP導致20萬人在墨西哥排隊等候；英國-盧安達協定（雖遭法院叫停）反映將庇護外包的趨勢。這些案例顯示，「彈性封鎖」已從臨時應對轉為常態治理。研究預言，未來國際合作將更依賴非正式協議，而難民保護的核心價值——權利保障——正被「管理」與「風險控制」取代。",
+      "en": "**Summary:** This article reveals how the global refugee regime is being reconfigured, not collapsed, into a \"flexible containment\" architecture. While the 1951 Refugee Convention remains formally intact, states increasingly manage displacement through border externalization, legal ambiguity, and informal cooperation. Drawing on institutional drift and legal substitution, the author shows how states recalibrate obligations without renouncing them, preserving compliance while limiting asylum access. This shift reflects a postliberal logic prioritizing sovereignty over rights, revealing that the crisis is not the regime's failure but its transformation into a system where protection is managed through procedural barriers and geographic outsourcing.\n\n**Problem:** The article addresses why the refugee regime persists formally but weakens in practice. Previous research focused on individual tactics (e.g., border closures) but missed the systemic convergence of strategies into a coherent governance architecture. The gap lies in understanding how states maintain legal compliance while eroding substantive protection. This matters because it exposes how international norms are hollowed out without explicit rejection—a critical insight for global governance in an era of declining multilateralism.\n\n**Approach:** The author employs institutional drift and legal substitution theories, analyzing historical shifts in refugee governance from the postwar period to today. Case studies include the EU-Turkey Statement (2016), U.S. Migrant Protection Protocols (MPP), and the UK-Rwanda agreement. By tracing how UNHCR's mandate expanded from protection to coordination, and how states used temporary protection regimes and offshore processing, the study reveals how policy practices collectively form a containment architecture.\n\n**Results:** Key findings: 149 UN member states are parties to the Refugee Convention, yet 90% of asylum seekers are processed via third countries. The EU-Turkey deal restricted 600,000 refugees to Turkey; U.S. MPP forced 200,000 to wait in Mexico; the UK-Rwanda plan (later blocked) sought to outsource asylum. These practices show containment has become routine. The Global Compact on Refugees (2018) institutionalized non-binding cooperation, reflecting a shift from rights to risk management. This signals a permanent transformation of refugee governance, where states prioritize control over protection."
+    },
+    "keyArticle": {
+      "title": "The Architecture of Containment: Refugee Protection in a Postliberal Order",
+      "authors": [
+        "Perisa Davutoglu"
+      ],
+      "doi": "10.1017/s0020818325101100",
+      "pages": "S180-S193"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101100",
+      "doi": "https://doi.org/10.1017/s0020818325101100"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:31:34.658245+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-01-14",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-01-14",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-01-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "疫情關閉難民營背後的邊境戰爭：義法邊境小鎮維蒂米利亞的危機治理",
+      "en": "The Pandemic as Pretext: How Crisis Became a Tool of Border Control in Ventimiglia"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開義法邊境小鎮維蒂米利亞的「危機治理」面紗：當意大利當局以「疫情」為名關閉羅亞難民營，表面是防疫需要，實則是邊境管控的戰略轉向。研究發現，三次「危機」相互交織——國家以疫情為藉口關閉營地、城市層面的治理危機加劇邊境管控、移民的社會物質危機被系統性忽略。透過「反危機」理論，作者揭示邊境管理如何將「危機」轉化為壓迫工具，使移民從「人」淪為「問題」。這不僅挑戰了傳統邊境研究，更為理解當代歐盟移民政策的暴力本質提供了新視角。\n\n【研究問題】過去研究多聚焦於邊境管控本身，卻忽略「危機」如何被當局操弄為政治工具。為何要關註這個盲點？因為當「疫情危機」被用來關閉難民營，實際上是邊境政策的隱蔽轉向——以公共衛生之名，行排除移民之實。這種「危機政治學」讓邊境管控變得更隱蔽、更難被質疑，卻又加劇了移民的處境危機。研究指出，若不理解危機如何被敘事化，就無法真正理解當代邊境暴力的運作機制。\n\n【研究方法】作者以「田野調查+文件分析」為核心，深入義大利邊境小鎮維蒂米利亞。先梳理2018-2024年媒體報導與NGO報告，再進行18場半結構訪談（包括市政官員、志工、NGO代表），並在城郊無人居住區進行參與觀察。特別值得注意的是，研究團隊刻意避免直接訪問移民，轉而與提供食物的志工對話，以保護脆弱群體。這種方法論既突破了傳統邊境研究的「官方視角」，又用「反危機」框架揭示邊境政策的隱蔽暴力。\n\n【結果】2020年4月，羅亞營因疫情關閉，本來可容納500人的營地，如今僅剩20人容量的「緊急援助中心」。更觸目驚心的是，單身男性被完全排除在援助體系之外——2024年場地實測顯示，90%的無家可歸者為單身男性。當市政廳在市中心設置「防睡眠長椅」，實際上是將移民推至橋下隱蔽處。2023年158,000人次移民流動，但官方仍宣稱「無增加」。這揭示邊境政策如何將移民「物化」：當政府宣稱「危機已過」，實際上是將移民的生存危機轉化為「可忽略的數字」。",
+      "en": "**Summary:** This study exposes the hidden machinery of border control in Ventimiglia, Italy—a small town on the French border where the closure of the Roja migrant camp during the pandemic was not a public health emergency but a strategic reconfiguration of border governance. Drawing on Janet Roitman's \"anti-crisis\" framework, the article reveals how three interconnected crises—the pandemic, political instability, and migrants' socio-material suffering—were weaponized to justify exclusionary policies. The analysis shows that \"crisis\" is not merely a disruption but a political tool that reshapes borders by rendering migrants invisible while legitimizing state violence. This reframing challenges conventional understandings of migration governance and offers a powerful lens to examine the structural violence embedded in contemporary border regimes.\n\n**Problem:** Previous research on migration governance often treated \"crisis\" as a neutral condition rather than a political instrument. Why does this matter? When authorities framed the pandemic as a justification for closing Roja camp, they masked the strategic shift from containment to expulsion. This \"crisis politics\" makes border control more opaque and difficult to challenge while exacerbating migrants' vulnerabilities. Without understanding how crises are narrated, we cannot see how border policies use emergency rhetoric to normalize exclusion. This gap in scholarship leaves us blind to the mechanisms behind Europe's increasingly violent border regimes.\n\n**Approach:** The research combined ethnographic fieldwork with archival analysis. The author conducted 18 semi-structured interviews with local officials, NGOs, and activists, and observed migrant settlements near the city's train station and cemetery. Crucially, the team avoided direct interviews with vulnerable migrants due to ethical concerns, instead building trust through conversations with solidarity workers. The analysis drew on secondary materials including NGO reports, press coverage, and government documents from 2018-2024. This methodological approach allowed the study to uncover how crises were strategically deployed at multiple levels—national, urban, and social—while protecting vulnerable populations from further harm.\n\n**Results:** The Roja camp, once accommodating up to 500 migrants, was replaced by a 20-person emergency center (PAD) with strict eligibility criteria. Despite 158,000 migrant arrivals in 2023, authorities claimed the situation was \"stable.\" Most strikingly, single men—representing 90% of the homeless population—were systematically excluded from aid programs. When city officials installed \"anti-sleeping benches\" in public spaces, they effectively pushed migrants to the city's periphery, where they now live under bridges with rats and wild boars. This demonstrates how \"crisis\" framing transforms human suffering into statistical data while making exclusion appear as a rational response to emergency."
+    },
+    "keyArticle": {
+      "title": "Enduring crises, dynamic border work: Migration governance in Ventimiglia since COVID-19",
+      "authors": [
+        "Silvia Aru"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103485",
+      "pages": "103485"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-01-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103485",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103485"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:30:47.372967+00:00",
+    "source": "openalex"
+  }
+}
