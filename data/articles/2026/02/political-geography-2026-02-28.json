@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-02-28",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-28",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-02-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊界之戰：為何東德與西德的分界線，比選區邊界更能影響德國選民？",
+      "en": "Which Border Matters Most? How Germany's Divided Past Still Shapes Its Voting Patterns"
+    },
+    "summary": {
+      "zh": "【總結】\n這項突破性研究揭開了德國選舉政治的隱藏密碼：1990年統一前東西德的內部分界線，造成的選舉差異竟比行政區、選區等傳統邊界大達1.33倍！作者創新性地將分析單位從「選區內」轉為「鄰近選區間」，發現歷史邊界不僅是地理標記，更是政治認同的「隱形裂痕」。這不僅解釋了東德地區為何持續支持極右翼政黨，更顛覆了「選區是民主基石」的傳統觀念。\n\n【研究問題】\n過去研究總將選舉結果「封裝」在行政區或選區內分析，卻忽略「邊界本身」如何塑造投票行為。這種「可調整面積單位問題」（MAUP）導致研究結果依賴單位劃分方式，無法看清邊界真正影響力。本研究直接切入核心：哪類邊界導致最大選舉分歧？這問題對理解民主制度設計至關重要，因為邊界可能不只是現象，更是因果的關鍵。\n\n【研究方法】\n作者改用「改良版 Gallagher 指數」測量鄰近行政區的選舉差異（原本用於分析票數與席次差異）。他將選票差異從「區內」轉為「區間」，並建立「邊界對齊指標」：若市鎮邊界與州界重合，則標記為1。再透過統計模型，比較不同邊界類型的影響力。此方法避免MAUP困擾，直接鎖定邊界現象。\n\n【結果】\n東西德邊界對「政黨投票」影響最強（係數1.331，p<0.001），意味此處選舉差異比其他地方大133%。對「候選人投票」，選區邊界最關鍵（係數0.201）；但對「政黨投票」，州界影響最大（係數0.210）。政府區和縣界也扮演角色，但不如州界重要。這證明歷史邊界（如東西德分界）仍深刻影響政治行為，且選舉制度決定哪些邊界真正重要。",
+      "en": "**Summary:**\nThis groundbreaking study reveals how Germany's Cold War-era divide continues to shape voting behavior decades after reunification. By shifting focus from election results within territorial units to differences between neighboring units, researchers discovered that the former East-West German border causes electoral differences 1.33 times greater than other boundaries. This challenges the conventional wisdom that electoral districts (constituencies) are the most politically significant boundaries, showing instead that historical divisions can overshadow contemporary administrative structures in shaping voter preferences.\n\n**Problem:**\nTraditional electoral research often treats territorial units as fixed entities, ignoring how the boundaries themselves influence voting behavior. The \"Modifiable Areal Unit Problem\" (MAUP) means results vary depending on how units are defined, obscuring the true role of borders. This study addresses this gap by asking: Which internal borders show the most electoral differences? Understanding this is crucial because borders can be causal factors, not just correlations, affecting how elections are designed and interpreted.\n\n**Approach:**\nResearchers developed a novel method using a modified Gallagher index (typically used to measure vote-seat disparities) to quantify electoral differences between neighboring municipalities. They created dummy variables indicating whether municipal boundaries align with higher-level administrative boundaries (e.g., state or county borders). Regression analysis then compared the effects of different boundary types, avoiding MAUP issues by focusing on border intersections rather than unit-level aggregation.\n\n**Results:**\nFor party votes, the former East-West border had the strongest effect (coefficient 1.331, p<0.001), meaning electoral differences there are 133% larger than average. For candidate votes, constituency boundaries dominate (coefficient 0.201). State boundaries matter most for party votes (coefficient 0.210), followed by government districts and counties. This shows historical borders still profoundly influence political behavior decades after reunification, and electoral systems determine which boundaries matter most."
+    },
+    "keyArticle": {
+      "title": "Which border matters most? An analysis of how different types of internal boundaries affect voting behavior",
+      "authors": [
+        "Jona-Frederik Baumert"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103521",
+      "pages": "103521"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-02-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:53:27.409556+00:00",
+    "source": "openalex"
+  }
+}

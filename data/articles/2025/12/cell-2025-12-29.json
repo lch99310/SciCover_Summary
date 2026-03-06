@@ -1,0 +1,62 @@
+{
+  "id": "cell-2025-12-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "2",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "病毒DNA複製引擎被鎖死！HPI抗病毒劑如何精準卡住HSV-1的複製叉",
+      "en": "How Herpesviruses' DNA Replication Stalls: The Molecular Mechanism Behind New Antivirals"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭開了皰疹病毒DNA複製的分子機制，並發現新抗病毒藥物的精準作用方式。透過高解析冷凍電子顯微鏡技術，研究團隊發現棘手的helicase-primase inhibitors（HPIs）並非簡單阻斷酶活性，而是將複製機器「鎖死」在無法工作的狀態——就像拉鍊拉到一半時突然被卡住。更令人振奮的是，他們首次發現DNA解旋酶與聚合酶之間的「分子握手」結構，這正是病毒複製叉組裝的關鍵。這不僅解釋了pritelivir等藥物為何有效，更為設計多靶點抗病毒藥物提供了藍圖，為抗藥性皰疹病毒帶來新希望。\n\n【研究問題】\n數十年來，皰疹病毒抗病毒藥物僅針對DNA聚合酶，但抗藥性問題日益嚴重。雖然helicase-primase inhibitors（HPIs）展現巨大潛力，但其作用機制一直未明。沒有理解這些藥物如何工作，我們就無法改良它們或開發其他皰疹病毒的類似藥物。這就像試圖修車卻不知道火花塞的作用——我們知道引擎停止了，但不知道為什麼。這種知識缺口讓免疫受損患者面臨更大風險。\n\n【研究方法】\n研究人員創造了病毒複製機器的分子電影。他們純化了helicase-primase複合體（UL5、UL52、UL8蛋白質），並利用冷凍電顯捕捉其原子級3D結構。接著加入不同抑制劑（pritelivir、amenamevir），觀察它們如何像鑰匙一樣嵌入鎖孔。為測試效果，他們使用光學鉗測量DNA解旋的實時數據，精確顯示抑制劑使機器停止的位置。團隊還結合helicase-primase複合體與DNA聚合酶，建立了完整的複製叉模型。\n\n【結果】\n結構圖像顯示，HPIs將helicase-primase複合體「凍結」在無法活動的狀態，阻止50-90%的DNA解旋活性。在實驗中，當藥物濃度達到人體血中常見水平時，解旋速率下降超過90%。最關鍵的是，他們發現了「FYNPYL motif」——一種皰疹病毒特有的分子握手結構，連接helicase與polymerase。當這個結構被突變時，複製機器完全崩潰。這解釋了為何HPIs對皰疹病毒有效卻不影響其他病毒，並為設計多靶點抗病毒藥物提供了新方向。",
+      "en": "**Summary:** \nThis groundbreaking study reveals how herpesviruses replicate their DNA and how new antivirals disrupt this process. Using cutting-edge cryo-electron microscopy, researchers captured the first atomic-level view of herpes simplex virus 1's helicase-primase complex in action—and how inhibitors like pritelivir lock it in an inactive state. The discovery not only explains why these drugs work but also uncovers a previously unknown molecular handshake between the unwinding enzyme and DNA polymerase, offering new targets for antiviral development against drug-resistant herpes viruses.\n\n**Problem:** \nCurrent antivirals for herpesviruses target only the DNA polymerase, but resistance is growing alarmingly. While helicase-primase inhibitors (HPIs) show great promise, their mechanism of action remained a mystery. Without understanding how these inhibitors work, we couldn't improve them or develop similar drugs for other herpesviruses. It's like trying to fix a car without knowing how the spark plugs work—we can see the engine stops, but not why.\n\n**Approach:** \nThe researchers created a molecular movie of viral replication using cryo-EM to capture the helicase-primase complex at different stages. They purified the complex (UL5, UL52, and UL8 proteins) and used optical tweezers to measure DNA unwinding in real-time. By adding different inhibitors (pritelivir, amenamevir), they observed how these drugs jam the molecular machinery. They also built a complete replication fork model by combining the helicase-primase complex with the DNA polymerase holoenzyme.\n\n**Results:** \nThe study shows HPIs lock the helicase-primase complex in an inactive state, reducing DNA unwinding by 90% at clinically relevant concentrations. Most significantly, they discovered the \"FYNPYL motif\"—a herpesvirus-specific molecular handshake between the helicase and polymerase that's critical for replication fork assembly. When this motif was mutated, replication collapsed. This finding explains why HPIs are effective against herpesviruses but not other viruses, and provides a blueprint for designing next-generation antivirals that could block viral replication at multiple points."
+    },
+    "keyArticle": {
+      "title": "Mechanisms of HSV-1 helicase-primase inhibition and replication fork complex assembly",
+      "authors": [
+        "Zishuo Yu",
+        "Pradeep Sathyanarayana",
+        "Cong Liu",
+        "Joel M. J. Tan",
+        "Pan pan Yang",
+        "Biswajit Das",
+        "Side Hu",
+        "Xiaoyi Fan",
+        "Chenggong Ji",
+        "Sandra K. Weller",
+        "Mrinal Shekhar",
+        "Donald M. Coen",
+        "Philip J. Kranzusch",
+        "Joseph J. Loparo",
+        "Jonathan Abraham"
+      ],
+      "doi": "10.1016/j.cell.2025.11.041",
+      "pages": "478-494.e18"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.041",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.041",
+      "preprint": "https://www.biorxiv.org/content/10.64898/2025.12.23.696259"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T12:52:35.363548+00:00",
+    "source": "openalex"
+  }
+}
