@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T13:10:05.945330+00:00",
+  "lastUpdated": "2026-03-06T13:23:10.846893+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -62,6 +62,15 @@
       "path": "articles/2026/02/political-geography-2026-02-23.json",
       "title_zh": "太陽能變戰爭武器？以色列與巴勒斯坦的能源安全角力",
       "title_en": "Solar Power as a Shield: How Energy Became a Weapon in Israel-Palestine Conflict",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-02-21",
+      "journal": "Political Geography",
+      "date": "2026-02-21",
+      "path": "articles/2026/02/political-geography-2026-02-21.json",
+      "title_zh": "邊界碎片化下的權責真空：北愛爾蘭EUSS計劃的三重迷思",
+      "title_en": "The Accountability Vacuum: How Brexit's Border Fragmentation Created Three Ways to Avoid Responsibility",
       "cover_url": ""
     },
     {
@@ -396,6 +405,15 @@
       "title_zh": "DEI退潮後：職場種族平等的「新遊戲規則」是什麼？",
       "title_en": "Beyond DEI: Rethinking Race and Work in a Post-DEI Era",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2025-12-01",
+      "journal": "Cell",
+      "date": "2025-12-01",
+      "path": "articles/2025/12/cell-2025-12-01.json",
+      "title_zh": "注意力網絡不動？興奮劑藥物其實調整的是『清醒度』與『獎勵』系統",
+      "title_en": "Stimulants Don’t Boost Attention—They Rewire Your Brain’s Arousal and Reward Systems",
+      "cover_url": "data/images/cell/cell-2025-12-01-cover.jpg"
     },
     {
       "id": "american-sociological-review-2025-11-27-02",

@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-21",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-21",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊界碎片化下的權責真空：北愛爾蘭EUSS計劃的三重迷思",
+      "en": "The Accountability Vacuum: How Brexit's Border Fragmentation Created Three Ways to Avoid Responsibility"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示，英國脫歐後邊界制度的碎片化，透過分權、委託、數位化三重機制，讓政府成功避開邊界政策的責任，卻使移民群體陷入權責真空。研究以北愛爾蘭EUSS計畫為案例，證明當邊界被拆解為分散式管理、全民邊境偵察與數位化系統，政府既能維持控制力，又讓受影響者無法追責。這不僅是技術問題，更是國家主權邏輯的本質轉變——用「分權」之名，行「脫責」之實。\n\n【研究問題】過去學界聚焦邊界控制，卻忽略碎片化如何製造責任真空。當邊界透過外部化、日常化邊境檢查變得分散，誰該為邊界政策的後果負責？研究突破在於指出：國家如何透過制度設計，讓邊界執行者與政策制定者之間產生「距離」，使公民無法追究責任。這對理解當代國家主權與移民治理至關重要，尤其在脫歐後邊界重組的時代。\n\n【研究方法】作者採用「對抗檔案」（counter-archive）方法，整合北愛爾蘭移民團體、權利工作者、政策文件等多元資料。透過田野調查與深度訪談，揭露EUSS在分權（北愛爾蘭與英國政策差異）、委託（公務員與民眾成為邊境守衛）、數位化（eVisa系統漏洞）三層面的設計邏輯。這種研究方式跳脫傳統政策分析，從受影響者視角重建邊境暴力的實踐。\n\n【結果】2025年6月，124,445份EUSS申請待審，47,000人等待超6個月，34,000人超過1年。Home Office客服中心接通率僅44%，82萬通電話被掛斷。北愛爾蘭醫療系統要求移民檢查，而蘇格蘭則明確禁止；住房政策形成「兩層邊界」，社會住宅仍受移民檢查，私人租賃卻豁免。更關鍵的是，當移民證明身份時，eVisa系統每次驗證都可能不同，卻無可追溯記錄。這些數據顯示：制度設計本質上是為避免責任，而非保障權利。",
+      "en": "**Summary:** This study reveals how fragmented border regimes—driven by devolution, delegation, and digitization—create accountability gaps, allowing states to evade responsibility for border policies while exacerbating rights violations. Using the EU Settlement Scheme (EUSS) in Northern Ireland as a case study, the research demonstrates how these mechanisms insulate governments from accountability while maintaining control. The findings expose a fundamental shift in sovereignty logic: states use 'devolution' as a shield to avoid accountability, turning borders into a maze where migrants cannot hold anyone responsible for their rights violations.\n\n**Problem:** Previous scholarship focused on border control but overlooked how fragmentation creates accountability gaps. When borders become dispersed through externalization and everyday checks, who is responsible for policy consequences? This gap is critical because it enables states to maintain authority while avoiding accountability—a core tension in contemporary border governance. The research addresses this by examining how states deliberately distance themselves from responsibility through policy design.\n\n**Approach:** The author employs a 'counter-archive' methodology, combining interviews with EU nationals and rights workers, legal documents, and policy analysis. By examining Northern Ireland's unique devolved governance context, the study uncovers how EUSS implementation embeds accountability gaps through three dimensions: devolution (policy differences between Northern Ireland and UK), delegation (citizens as border guards), and digitization (eVisa system flaws). This approach shifts focus from state-centric analysis to the lived experiences of those affected by border policies.\n\n**Results:** Data shows 124,445 pending EUSS applications as of June 2025, with 47,000 waiting over six months and 34,000 over a year. Home Office Resolution Centre call connection rates were only 44%, with 820,000 calls abandoned. Northern Ireland's healthcare system mandates immigration checks unlike Scotland's NHS, while housing policies create a 'two-tier system' where social housing checks target immigration status but private rentals are exempt. Crucially, eVisa verification produces inconsistent results without traceable records, making it impossible to challenge decisions. These gaps reveal that the system is designed to avoid responsibility—not protect rights."
+    },
+    "keyArticle": {
+      "title": "Devolution, delegation, and digitisation: Accountability gaps in fragmented border regimes",
+      "authors": [
+        "Ben Rosher"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103516",
+      "pages": "103516"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103516",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103516"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:23:10.837442+00:00",
+    "source": "openalex"
+  }
+}

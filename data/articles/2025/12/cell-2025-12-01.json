@@ -1,0 +1,84 @@
+{
+  "id": "cell-2025-12-01",
+  "journal": "Cell",
+  "volume": "188",
+  "issue": "26",
+  "date": "2025-12-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "注意力網絡不動？興奮劑藥物其實調整的是『清醒度』與『獎勵』系統",
+      "en": "Stimulants Don’t Boost Attention—They Rewire Your Brain’s Arousal and Reward Systems"
+    },
+    "summary": {
+      "zh": "【總結】這項研究顛覆了長久以來對興奮劑藥物的認知——它們並非直接提升注意力網絡，而是調整大腦的「清醒度」與「獎勵」系統。研究者透過分析11,875名兒童的神經影像數據，結合5名健康成年人的精準藥物實驗，發現興奮劑（如專思達）會改變感覺運動區、salience網絡等與清醒度和獎勵相關的腦區連線模式，卻對注意力網絡毫無影響。這就像調節引擎的油門和油箱，而非調整方向盤：藥物並非直接「開關」注意力，而是讓大腦更清醒、更有動機，讓孩子們更願意持續努力。\n\n【研究問題】過去研究對興奮劑是否改善注意力網絡爭論不休，部分報告顯示有效，部分則否。關鍵瓶頸在於：缺乏大規模、多層次的神經影像證據來釐清藥物作用的真實路徑。更關鍵的是，未將睡眠狀態、藥物代謝等混雜因素納入考量，導致結果矛盾。這項研究直指核心——如果藥物不影響注意力網絡，那麼它們到底是如何改善 ADHD 症狀的？\n\n【研究方法】研究者以美國「青少年大腦認知發展計畫」（ABCD）為基礎，蒐集11,875名8-11歲兒童的靜態腦磁共振數據，並結合5名健康成年人的精準藥物實驗（服用40mg專思達）。他們透過「功能連線分析」追蹤不同腦區間的信號同步性，並將興奮劑效果與睡眠時間、神經遞質表達進行對照。特別的是，研究團隊採用「網路層級分析」，避免傳統的單一區域分析偏差，並以睡眠數據作為自然對照組，揭示興奮劑與睡眠的共通機制。\n\n【結果】數據顯示，服用興奮劑的兒童感覺運動區連線強度明顯提升，與白天清醒狀態、睡眠時間延長及去甲腎上腺素運輸蛋白表達模式高度一致。在睡眠不足的兒童中，興奮劑使大腦連線恢復正常，學業成績提升0.10分（SE 0.045, p=0.025）；在 ADHD 患兒中，這種效應更為顯著——學業表現提升0.34分（SE 0.12, p=0.0057）。特別是，興奮劑能完全抵消睡眠不足對大腦的損害，讓孩子們在缺覺時也能保持高效學習。這項發現解釋了為何 ADHD 患兒在服用興奮劑後，能更專注完成任務，並非因為注意力網絡被激活，而是因為大腦更清醒、更有動機。",
+      "en": "**Summary:** What if the ADHD medication you've been taking doesn't actually improve your focus, but instead tweaks your brain's wakefulness and motivation circuits? A groundbreaking study reveals that stimulant medications like methylphenidate don't enhance attention networks—they rewire arousal and reward systems. By analyzing data from 11,875 children and a precision drug trial with 5 adults, researchers discovered stimulants reverse sleep deprivation effects on brain connectivity and academic performance. This discovery not only clarifies how these drugs work but also reshapes our understanding of cognitive enhancement.\n\n**Problem:** For decades, scientists have debated whether stimulants improve attention networks. Early fMRI studies produced conflicting results—some showed benefits, others found none. The critical gap was that prior research failed to distinguish between the brain's attention systems and its arousal/reward circuits. Without accounting for sleep patterns or medication metabolism, the true mechanism remained elusive—a problem that hindered both clinical practice and public understanding.\n\n**Approach:** Researchers combined two complementary datasets: the large-scale ABCD study (11,875 children, 8–11 years old) and a precision drug trial with 5 healthy adults who took 40 mg methylphenidate. Using resting-state fMRI, they measured functional connectivity across brain networks. Crucially, they compared stimulant effects to sleep duration and validated norepinephrine-related mechanisms with PET data. By applying network-level analysis, they isolated the specific brain systems affected by stimulants.\n\n**Results:** Stimulants significantly altered connectivity in sensorimotor regions (linked to daytime arousal) and salience networks (key for reward-driven learning), but not in attention networks like the dorsal attention network. Children with sleep deprivation showed normalized brain connectivity and a 0.10-point improvement in school grades after stimulant use (SE 0.045, p = 0.025). In ADHD patients, this effect was amplified: stimulants boosted academic performance by 0.34 points (SE 0.12, p = 0.0057). The findings explain why ADHD children persist in tasks—they become more wakeful and motivated, not more focused."
+    },
+    "keyArticle": {
+      "title": "Stimulant medications affect arousal and reward, not attention networks",
+      "authors": [
+        "Benjamin P. Kay",
+        "Muriah D. Wheelock",
+        "Joshua S. Siegel",
+        "Ryan V. Raut",
+        "Roselyne J. Chauvin",
+        "Athanasia Metoki",
+        "Aishwarya Rajesh",
+        "Andrew Eck",
+        "Jim Pollaro",
+        "Anxu Wang",
+        "Vahdeta Suljic",
+        "Babatunde Adeyemo",
+        "Noah J. Baden",
+        "Kristen M. Scheidter",
+        "Julia Monk",
+        "Forrest I. Whiting",
+        "Nadeshka Ramirez-Perez",
+        "Samuel R. Krimmel",
+        "Russell T. Shinohara",
+        "Brenden Tervo‐Clemmens",
+        "Robert Hermosillo",
+        "Scott M. Nelson",
+        "Timothy Hendrickson",
+        "Thomas Madison",
+        "Lucille A. Moore",
+        "Óscar Miranda-Domínguez",
+        "Anita Randolph",
+        "Eric Feczko",
+        "Jarod L. Roland",
+        "Ginger E. Nicol",
+        "Timothy O. Laumann",
+        "Scott Marek",
+        "Evan M. Gordon",
+        "Marcus E. Raichle",
+        "Deanna M. Barch",
+        "Damien A. Fair",
+        "Nico U.F. Dosenbach"
+      ],
+      "doi": "10.1016/j.cell.2025.11.039",
+      "pages": "7529-7546.e20"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.039",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.039",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.05.19.654915"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:22:09.893815+00:00",
+    "source": "openalex"
+  }
+}
