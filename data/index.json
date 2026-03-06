@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T13:23:10.846893+00:00",
+  "lastUpdated": "2026-03-06T13:36:35.832649+00:00",
   "articles": [
     {
       "id": "nature-2026-03-04",
@@ -198,6 +198,24 @@
       "title_zh": "神經元化身「護城河」：三陰性乳癌如何用 collagen 阻絕抗癌細胞？",
       "title_en": "Sensory Neurons Build a Collagen Fortress to Block Immune Response in Breast Cancer",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-02-01",
+      "journal": "Cell",
+      "date": "2026-02-01",
+      "path": "articles/2026/02/cell-2026-02-01.json",
+      "title_zh": "腸道的永動核：為何腸道細胞能無限再生？",
+      "title_en": "The Intestine’s Secret: How Gut Cells Rewrite the Rules of Stem Cell Biology",
+      "cover_url": "data/images/cell/cell-2026-02-01-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-01-31",
+      "journal": "Political Geography",
+      "date": "2026-01-31",
+      "path": "articles/2026/01/political-geography-2026-01-31.json",
+      "title_zh": "家鄉情結如何變成選票優勢？印度選舉中的社交網絡動員術",
+      "title_en": "The Hidden Power of Local Networks: How Indian Candidates Turn Neighborhood Ties into Votes",
+      "cover_url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg"
     },
     {
       "id": "cell-2026-01-29",

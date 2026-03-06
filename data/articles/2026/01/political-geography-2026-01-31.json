@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-01-31",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-01-31",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "家鄉情結如何變成選票優勢？印度選舉中的社交網絡動員術",
+      "en": "The Hidden Power of Local Networks: How Indian Candidates Turn Neighborhood Ties into Votes"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了印度選舉中「家鄉候選人優勢」的神秘面紗：選民支持本地候選人不僅因偏好「家鄉情結」，更因為候選人能透過既有社交網絡動員選民。研究證實，這些「二級動員網絡」可將投票人數擴大，讓候選人從近距離家鄉到20公里外都能獲得選票，而這正是傳統理論忽視的關鍵機制。研究突破在於用微觀數據證明，地方政治網絡才是選舉勝負的隱形推手。\n\n【研究問題】自1949年Key提出「朋友與鄰居效應」以來，全球多國證實選民傾向支持本地候選人，但為何如此卻始終無解。過往研究聚焦於選民「身份認同」或「代表性」需求，忽略候選人自身資源。這項研究指出，關鍵缺口在於：地方候選人是否透過社交網絡主動動員選民？為何在印度這種媒體覆蓋有限的民主體制中，地方網絡特別關鍵？解答此問題對理解選舉機制、制定選舉策略至關重要。\n\n【研究方法】研究者精準收集534,552個投票站數據，將候選人住址與投票站位置進行地理配對。使用對數轉換距離變數捕捉非線性關係，並以候選人固定效應排除其他干擾因素。研究先驗假設：候選人本地網絡會擴大動員範圍，因此採用「候選人距離」作為核心變量。為驗證動員機制，更整合2014年國家選舉調查數據，直接觀察選民是否被政黨接觸或參與動員。\n\n【結果】研究顯示，候選人居住地點每遠離投票站10公里，得票率下降4個百分點；20公里外的投票率比家鄉低2個百分點。政治家族候選人效果最強：其得票率每10公里下降1.97點，遠高於非家族候選人的1.03點。例如，某政治家族候選人在家鄉得票60%，但10公里外僅50%。這證明地方網絡並非僅靠「選民偏好」，而是實質動員力——就像蜘蛛網般擴展的社交網絡，將投票行動從家鄉延伸至周邊區域。",
+      "en": "**Summary:** This research uncovers the hidden machinery behind India's \"local candidate advantage,\" revealing that it's not about voter preference for hometown heroes but about the candidate's ability to mobilize voters through existing social networks. The study demonstrates that candidates leverage their community ties to turn neighborhood connections into votes—providing the first robust evidence of how local networks translate into electoral success. By focusing on the \"secondary mobilization\" effect, this work shifts the conversation from voter psychology to campaign strategy.\n\n**Problem:** Since V.O. Key's 1949 study documented the \"friends and neighbors\" effect globally, scholars have long known voters favor local candidates—but the mechanism remained elusive. Traditional explanations focused on voter identity or representation, ignoring the candidate's active role in mobilizing support. This gap is critical because understanding the \"how\" of localism could transform election strategies worldwide, especially in developing democracies where media reach is limited.\n\n**Approach:** The authors used unprecedented micro-level data from India's 2014 elections, mapping 534,552 polling booth-voter pairs across Gujarat and Uttar Pradesh. By geo-locating candidate homes and measuring distance to polling stations, they isolated proximity effects while controlling for other factors. They then cross-referenced this with individual survey data to directly observe mobilization patterns, using candidate fixed effects to eliminate confounding variables.\n\n**Results:** Candidates within 10km of polling stations received 4 percentage points more votes than those 20km away—equivalent to a 10% increase in support. Turnout was 2 percentage points higher in their immediate vicinity. The effect intensified for dynastic candidates: their vote share dropped 1.97 points per 10km versus 1.03 points for others. This shows that local networks aren't just a voter preference—it's a tangible mobilization tool that can swing elections."
+    },
+    "keyArticle": {
+      "title": "How local candidates mobilize voters: Evidence from India",
+      "authors": [
+        "Dishil Shrimankar",
+        "Oliver Heath"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103502",
+      "pages": "103502"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103502",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103502"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:36:35.823107+00:00",
+    "source": "openalex"
+  }
+}

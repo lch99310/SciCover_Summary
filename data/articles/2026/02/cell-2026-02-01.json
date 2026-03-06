@@ -1,0 +1,47 @@
+{
+  "id": "cell-2026-02-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-02-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腸道的永動核：為何腸道細胞能無限再生？",
+      "en": "The Intestine’s Secret: How Gut Cells Rewrite the Rules of Stem Cell Biology"
+    },
+    "summary": {
+      "zh": "【總結】這項研究徹底顛覆了人類對組織幹細胞的傳統認知——腸道幹細胞並非靜止的「儲備庫」，而是永不停歇的「工廠」。它們以對稱分裂的方式持續增殖，能在實驗室中無限擴增，甚至在受損時讓分化細胞「返老還童」重獲幹細胞功能。這不僅解釋了腸道為何能每1-2週完成一次自我更新，更為再生醫學和癌症治療打開了全新視野。\n\n【研究問題】過去學界認為幹細胞應處於靜止狀態（quiescent），通過非對稱分裂維持數量穩定。但腸道作為哺乳動物中更新最快速的組織，其每1-2週的細胞替換週期與傳統理論嚴重矛盾。這項研究直指核心：傳統幹細胞模型無法解釋腸道的高效更新機制，必須重新審視幹細胞的本質。\n\n【研究方法】作者運用「細胞標記」技術追蹤腸道幹細胞的命運，通過將Lgr5基因與螢光標記結合，在活體小鼠中觀察細胞分裂路徑；建立「腸道類器官」系統，從單個幹細胞培養出完整腸道組織；更以CRISPR技術模擬結腸癌突變，驗證幹細胞與腫瘤的關聯。實驗中還刻意殺死Lgr5+幹細胞，觀察其他細胞如何逆轉身份。\n\n【結果】研究發現每條腸道隱窩（crypt）含12-15個Lgr5+幹細胞，它們以約24小時的週期持續對稱分裂。更令人驚訝的是，當幹細胞被破壞時，分化細胞（如吸收細胞、杯狀細胞）能轉換為幹細胞，甚至完全分化為腸道的 tuft 細胞也能重現幹細胞功能。類器官培養中，單個幹細胞可無限增殖數年，且染色體端粒長度保持不變，完全突破傳統「細胞壽命極限」的認知。",
+      "en": "**Summary:** This groundbreaking study shatters the long-held dogma of tissue stem cell biology by revealing the intestine as a living laboratory of cellular plasticity and regenerative potential. Contrary to the classical view of quiescent stem cells dividing asymmetrically, intestinal stem cells engage in continuous symmetric division, can be expanded indefinitely in culture, and possess remarkable reprogramming capabilities. This paradigm shift not only explains the intestine's extraordinary self-renewal rate of 1-2 weeks but also offers revolutionary insights for regenerative medicine and cancer research.\n\n**Problem:** For decades, the scientific community assumed that adult stem cells were rare, quiescent cells that maintained tissue homeostasis through asymmetric division. This model failed to account for the intestine's rapid cellular turnover, where the entire epithelium regenerates every 1-2 weeks. The critical gap was understanding how such high-fidelity renewal could occur without stem cell exhaustion—a fundamental contradiction in stem cell biology theory.\n\n**Approach:** Researchers employed a multi-faceted strategy combining lineage tracing with Lgr5-CreERT2 mice, organoid culture systems derived from single stem cells, and CRISPR-Cas9 engineering to mimic colorectal cancer mutations. They specifically targeted Lgr5+ cells using diphtheria toxin receptor expression and observed the cellular reprogramming process in real-time. Advanced single-cell RNA sequencing and chromatin analysis revealed the molecular mechanisms underlying cellular plasticity.\n\n**Results:** Key findings include 12-15 Lgr5+ stem cells per crypt dividing symmetrically with a 24-hour cycle, organoids derived from single cells that can be expanded for years without senescence, and the remarkable ability of differentiated cells (including enterocytes and tuft cells) to revert to stem cells after injury. When Lgr5+ cells were eliminated, absorptive and secretory progenitors underwent chromatin remodeling to regain stem cell identity within hours. This plasticity, coupled with the Wnt/R-spondin signaling pathway, explains how the intestine maintains its extraordinary regenerative capacity."
+    },
+    "keyArticle": {
+      "title": "Shifting paradigms in tissue stem cell biology: Insights from the intestine",
+      "authors": [
+        "Hans Clevers"
+      ],
+      "doi": "10.1016/j.cell.2025.12.025",
+      "pages": "706-724"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.025",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.025"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T13:35:31.379875+00:00",
+    "source": "openalex"
+  }
+}
