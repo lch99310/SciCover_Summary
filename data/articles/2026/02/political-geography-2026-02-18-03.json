@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-18-03",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "食物公民權的革命：倫敦東區社區實踐的民主啟示",
+      "en": "The Democratic Power of Food: How East London Communities Are Building Inclusive Citizenship"
+    },
+    "summary": {
+      "zh": "傳統公民身份依賴國籍與地域邊界，但食物實踐正成為新時代公民參與的關鍵載體。這項研究探討倫敦東區的社區食物行動如何透過集體勞動與民主協商，重新定義「包容性食物公民權」——讓公民身份不再受限於法律文件，而是以共同的食慾與社會責任為基礎。研究透過深度訪談、參與觀察與焦點小組，揭示這些社區如何在資金短缺與政府支持有限的困境中，以食物為橋樑凝聚多元族群，同時回應糧食不安全與社會不公。他們不僅提供食物，更創造民主參與的場域，讓邊緣群體獲得話語權與行動力。\n\n倫敦東區的實踐證明，食物是重塑公民身份的關鍵媒介。這些社區計劃將「吃飯」轉化為公民行動，打破傳統公民論的精英主義框架，並在日常實踐中建立互惠的社會紐帶。研究呼籲持續對話與反思，以發展更公平的糧食治理模式。當全球社會日益分裂，這些以餐桌為基礎的公民實踐，不僅關乎食物，更指向我們如何在公共生活中建構共存共榮的未來。",
+      "en": "Beyond the confines of nation-states, food is emerging as a powerful vehicle for civic engagement and identity formation. This study explores how community food initiatives in East-Central London are redefining citizenship through inclusive food practices, challenging the traditional association of citizenship with legal status and territory. Grounded in contemporary citizenship theories, the concept of \"inclusive food citizenship\" emphasizes collective action, democratic processes, and social equity, offering a counter to the elitism often found in current food citizenship discourse. Through a multi-method approach—including interviews, participant observation, and focus groups—the research reveals how these initiatives foster social cohesion and resilience amid systemic challenges like funding shortages and limited governmental support. By centering food as a democratic platform, these communities not only address food insecurity but also empower marginalized groups to claim rights and participate in public life.\n\nThe findings highlight how food initiatives transcend mere access to sustenance, becoming spaces where citizens collectively shape their communities. In East-Central London, these projects demonstrate that citizenship is not confined to legal documents but is actively constructed through daily practices that prioritize justice and inclusion. The study calls for ongoing critical reflection to refine theoretical frameworks and develop practical models that uphold principles of equity and sustainability. As global inequalities deepen, the lessons from London's community-led food movements offer a vital blueprint for building inclusive societies where civic participation is rooted in shared responsibility and mutual care."
+    },
+    "keyArticle": {
+      "title": "Unravelling inclusive food citizenship: insights from East-Central London",
+      "authors": [
+        "Marta López Cifuentes"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103518",
+      "pages": "103518"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103518",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103518"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T20:27:03.787636+00:00",
+    "source": "openalex"
+  }
+}

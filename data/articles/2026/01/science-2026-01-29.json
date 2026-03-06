@@ -1,0 +1,65 @@
+{
+  "id": "science-2026-01-29",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6784",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "小腦進化解碼：哺乳類基因調控的共同與獨特之謎",
+      "en": "The Cerebellum’s Evolutionary Leap: How Gene Regulation Shaped Human Brain Uniqueness"
+    },
+    "summary": {
+      "zh": "想象小腦如同一場精密交響樂，每個細胞都是樂器，而基因調控網路則是指揮。人類小腦的擴張，正是這場樂章在演化中逐漸加碼的結果——但為何只有人類的樂章如此獨特？Science期刊最新研究揭開答案：透過分析六種哺乳類（人類、黑猩猩、獼猴、狨猴、小鼠、負鼠）的單細胞基因表現與染色質可及性，科學家首次繪製出小腦發育的「演化地圖」。\n\n研究發現，哺乳類共有的基因調控網路如同交響樂的基調，而人類特有的部分則是即興演奏的華彩段落。特別是「THRB」基因在人類小腦祖細胞中的新出現，可能正是大腦獨特功能的關鍵。透過預測240種哺乳類的染色質變化，研究團隊還追溯了人類cis-調控元件的演化歷史，揭示了哪些基因片段在自然選擇中被「選中」，最終讓人類小腦成為進化奇蹟。",
+      "en": "The cerebellum, long recognized for its role in motor control and cognitive functions, has undergone a dramatic expansion during human evolution. Yet, the genetic mechanisms underlying this expansion have remained largely unexplored. In a landmark study published in Science, researchers combined single-nucleus RNA and chromatin accessibility data from six mammals—including humans, bonobos, macaques, marmosets, mice, and opossums—to uncover the regulatory networks driving cerebellum development. By identifying both conserved and divergent pathways, the team revealed the evolutionary 'blueprint' of this brain region.\n\nUsing sequence-based models, the researchers predicted chromatin accessibility across 240 mammalian species, tracing the evolutionary history of human cis-regulatory elements. They discovered sets of regulatory regions associated with positive selection and gene expression changes, including the recent gain of THRB expression in human cerebellar progenitor cells. This finding suggests that subtle genetic tweaks in regulatory elements may have played a pivotal role in shaping the uniquely human cerebellum, offering insights into the molecular basis of human brain evolution."
+    },
+    "keyArticle": {
+      "title": "The evolution of gene regulation in mammalian cerebellum development",
+      "authors": [
+        "Ioannis Sarropoulos",
+        "Mari Sepp",
+        "Yutaro Mori",
+        "Philipp S. L. Schäfer",
+        "Nils Trost",
+        "Julia Schmidt",
+        "C. Schneider",
+        "Charis Drummer",
+        "Sophie Mißbach",
+        "Ibrahim Ihsan Taskiran",
+        "Nikolai Hecker",
+        "Luca Pinello",
+        "Robert Frömel",
+        "Piyush Joshi",
+        "Evgeny Leushkin",
+        "Frederik Arnskötter",
+        "Kevin Leiss",
+        "Konstantin Okonechnikov",
+        "Jinyue Liu",
+        "Miklós Palkovits",
+        "G. F. Zhu",
+        "Margarida Cardoso-Moreira",
+        "Lena M Kutscher",
+        "Rüdiger Behr",
+        "An‐Chi Tien",
+        "A.J. Stein",
+        "Henrik Kaessmann"
+      ],
+      "doi": "10.1126/science.adw9154",
+      "pages": "eadw9154"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw9154",
+      "doi": "https://doi.org/10.1126/science.adw9154"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T10:54:06.829610+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "american-sociological-review-2025-12-29",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "政黨仇恨的陰影：為什麼政治對立讓氣候政策失效？",
+      "en": "The Long Shadow of Partisan Hostility: How Political Animosity Undermines Climate Action"
+    },
+    "summary": {
+      "zh": "在民主國家中，政治對立不僅是黨派之間的爭執，更成為氣候政策失效的隱形推手。近年來，學界關注民主制度在氣候議題上的分裂現象，但鮮少探討「情緒性極化」——即選民對政黨成員的敵意——如何影響碳排放。這項由美國社會學學者主導的研究，透過分析92個民主國家超過2萬座電廠的數據，揭開了政治仇恨如何成為碳排放的「免死金牌」。研究發現，政治對立越嚴重的國家，電廠的二氧化碳排放量越高，尤其國有電廠的排放更為嚴重。當黨派間的敵意加劇，氣候政策對電廠的約束力大幅下降，加上政治僵局導致政策難以落實，使得這些民主國家難以有效減碳。\n\n這項研究揭示，政治仇恨不僅撕裂社會，更讓氣候危機的解決變得更加困難。當民主制度陷入黨派對立的泥潭，電廠反而獲得「政治豁免權」，得以在缺乏監管的情況下持續排放。這不僅是環境問題，更是民主治理的失敗——當選民將對立視作政治正確，氣候行動便成了政治犧牲品。這種「政治免疫」現象，警示我們：若不正視情緒性極化，民主制度將難以應對氣候危機。",
+      "en": "In democracies, partisan hostility isn't just a political nuisance—it's a critical obstacle to climate action. While scholars have long examined ideological polarization over climate change, few have explored how 'affective polarization'—citizens' hostility toward opposing party members—shapes carbon emissions. A recent study analyzing over 20,000 power plants across 92 democracies reveals that affective polarization enables higher CO2 emissions, particularly in government-owned facilities. When political animosity escalates, climate policies become less effective, and gridlock further stifles regulatory efforts, leaving democracies ill-equipped to curb emissions from their largest polluters.\n\nThe findings suggest that partisan hostility creates institutional conditions that shield power plants from stakeholder and regulatory pressure. This 'political immunity' undermines democratic systems' ability to address climate change, highlighting a hidden cost of polarization that extends far beyond the political arena. In polarized democracies, climate policy becomes a casualty of political warfare, where carbon emissions rise not because of technical limitations, but because voters prioritize party loyalty over collective survival. This research underscores a paradox: democracies, designed to balance competing interests, may be structurally ill-suited to tackle climate change when politics devolves into zero-sum games."
+    },
+    "keyArticle": {
+      "title": "The Long Shadow of Partisan Hostility: How Affective Polarization Hinders Democracies’ Ability to Mitigate Climate Change",
+      "authors": [
+        "Don Grant",
+        "Andrew K. Jorgenson",
+        "Wesley Longhofer",
+        "Ion Bodgan (“Bodi”) Vasi"
+      ],
+      "doi": "10.1177/00031224251396518",
+      "pages": "19-54"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251396518",
+      "doi": "https://doi.org/10.1177/00031224251396518"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T21:30:57.427936+00:00",
+    "source": "openalex"
+  }
+}

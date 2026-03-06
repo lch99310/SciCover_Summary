@@ -1,0 +1,49 @@
+{
+  "id": "nature-2026-02-04-02",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-04",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-04-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "碳的紅氧化學：為什麼所有火山岩都源自同一個熔融源？",
+      "en": "The Carbon Catalyst: How Mantle Melting Unifies Earth's Volcanic Rocks"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開地球深部熔融的通用機制：所有地幔岩漿——無論是金伯利岩、洋島玄武岩（OIB）還是洋中脊玄武岩（MORB）——都源自同一起源的碳化矽酸鹽熔體。當地幔中的碳被氧化為CO₂，會將熔點降低400–450°C，讓深部岩漿在230公里深度開始熔融。這解釋了為何火山岩種類繁多卻共享深部來源，並為地球動力學提供全新視角。\n\n【研究問題】過去學界認為不同火山岩有不同形成機制：洋中脊靠水誘發熔融，熱點火山則源於深部熱柱。但這解釋不了為何OIB與MORB擁有相似的深部地幔來源。研究缺口在於：熔融初始階段的共通機制為何？為何不同地表火山岩實質是同一個熔融過程的「變身」？\n\n【研究方法】研究團隊在7GPa（相當於230公里深度）進行「強制多重飽和」高壓實驗，將三種熔體（OIB、MORB、金伯利岩）與地幔四種礦物（橄欖石、斜方輝石、單斜輝石、石榴石）反覆平衡。通過精確調整熔體與地幔比例，模擬深部上涌過程，成功再現「初生熔體」的組成。實驗關鍵在於突破熔體無法快速冷卻成玻璃的限制，用大量熔體池確保數據準確。\n\n【結果】所有熔體在7GPa下均轉化為金伯利岩組成：1,400°C時含23–27% SiO₂、21–23% MgO、14–24% CO₂+H₂O；1,630°C時SiO₂增至35–39%，但CO₂+H₂O降至3–9%。這解釋夏威夷盾狀火山（高溫熔體）演化為拉斑玄武岩，而佛得角火山（低溫熔體）仍保留強烈硅不飽和特徵。研究證實：地幔熔融的「起點」統一，後續變化取決於上升過程中與周邊地幔的交互作用。",
+      "en": "**Summary:** This groundbreaking study unveils a universal mechanism for mantle melting: all magmas—whether kimberlites, ocean island basalts (OIBs), or mid-ocean ridge basalts (MORBs)—originate from the same carbonated silicate melt. When carbon in the mantle oxidizes to CO₂, it lowers the melting temperature by 400–450°C, triggering melt formation at depths where dry mantle would remain solid. This explains why diverse volcanic rocks share a deep origin and reshapes our understanding of Earth's dynamics.\n\n**Problem:** For decades, scientists assumed different melting mechanisms for different magmas: water-driven melting at ridges for MORBs and deep mantle plumes for OIBs. But this couldn't explain why OIBs and MORBs share similar mantle sources. The critical gap was identifying the common initial process that unifies these seemingly distinct volcanic rocks.\n\n**Approach:** Using \"forced multiple saturation\" high-pressure experiments at 7 GPa (230 km depth), the team equilibrated three melt compositions (OIB, MORB, kimberlite) with the four key mantle minerals. By iteratively adjusting melt-to-peridotite ratios, they simulated mantle upwellings and created equilibrium melts. The breakthrough was overcoming the challenge of unquenchable melts by using large melt pools for accurate measurements.\n\n**Results:** All melts transformed into kimberlitic compositions: 23–27% SiO₂ and 14–24% CO₂+H₂O at 1,400°C; 35–39% SiO₂ with 3–9% CO₂+H₂O at 1,630°C. This explains why Hawaii's shield-stage basalts (high-temperature melts) evolved into tholeiitic magmas, while Cape Verde's melts retained strong Si-undersaturation. The findings reveal that mantle melting starts identically across all settings, with diversity emerging from subsequent interactions during ascent."
+    },
+    "keyArticle": {
+      "title": "A universal concept for melting in mantle upwellings",
+      "authors": [
+        "Max W. Schmidt",
+        "Nadia Paneva",
+        "Andrea Giuliani"
+      ],
+      "doi": "10.1038/s41586-025-10065-3",
+      "pages": "903-908"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-04-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10065-3",
+      "doi": "https://doi.org/10.1038/s41586-025-10065-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T12:39:42.747614+00:00",
+    "source": "openalex"
+  }
+}

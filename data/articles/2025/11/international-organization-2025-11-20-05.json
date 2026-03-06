@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2025-11-20-05",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "數位戰國時代：AI霸權下的科技聯盟與主權之爭",
+      "en": "The New Digital Cold War: How AI Is Reshaping Global Power Through Techno-Blocs"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇研究揭開了AI時代下全球數位經濟的「數位割裂」現象：各國不再依賴多邊機構，轉而建立「科技聯盟」（techno-blocs）來掌控AI核心基礎設施。作者指出，Nvidia、TSMC等科技巨頭已成「數位戰國」，其掌控的半導體、雲端運算等關鍵技術遠超國家監管能力，導致傳統國際秩序失靈。 nations must choose between單邊控制或加入聯盟，這種轉變不僅影響科技發展，更威脅自由國際秩序。這篇研究的重要性在於揭示：數位主權的爭奪，已經成為當今世界權力遊戲的核心。\n\n【研究問題】\n過去研究聚焦於貿易規則或企業權力，卻忽略國家如何應對科技巨頭的「基礎設施權力」（infrastructural power）所導致的數位割裂。作者指出，現有體系無法解釋為何美中歐等國轉而建立對立科技聯盟，而非合作。這問題至關重要，因為數位治理已成為全球權力競爭的主戰場，理解此現象對應對AI帶來的社會衝擊至關重要。\n\n【研究方法】\n作者透過比較分析美國、中國、歐盟的數位政策，探討國家如何應對科技巨頭的「基礎設施權力」。透過追蹤出口管制、雲端合作、法規框架（如歐盟AI法案），揭示國家如何透過「戰略數位主權」（strategic digital sovereignty）——單邊措施與聯盟建構並行——來重掌控制權。關鍵數據如Nvidia佔92%資料中心GPU市場、TSMC佔全球晶圓代工65%，直觀展現科技巨頭的壟斷地位。\n\n【結果】\n核心發現包括：1) Nvidia掌控92%的AI資料中心GPU，TSMC生產全球65%晶圓，形成系統性脆弱；2) 美國透過AI Diffusion規則限制沙烏地、阿聯酋等盟友的晶片獲取；3) 中國數位絲綢之路在37國設立97個雲端基地。這些聯盟形成新權力階層，科技巨頭成為國家戰略夥伴，取代多邊規則。此現象可能引發「數位殖民主義」，巨頭抽取數據卻無貢獻，加劇國際不平等。",
+      "en": "**Summary:** \nThis article reveals how artificial intelligence is fracturing the global digital order into competing \"techno-blocs,\" where states prioritize strategic sovereignty over multilateral cooperation. The author identifies a fundamental shift: private tech giants—dubbed \"digital warlords\"—now control critical AI infrastructure beyond state oversight, forcing nations to choose between unilateral measures or alliance-building. This fragmentation undermines the liberal international order, replacing rules-based governance with illiberal, transactional blocs where firms become de facto geopolitical actors. The implications extend beyond economics, reshaping how power is exercised in the digital age.\n\n**Problem:** \nThe article addresses a critical gap in understanding why nations are abandoning global digital cooperation despite decades of integration. Prior research focused on trade rules or firm power but overlooked how states' attempts to counter private tech giants are creating new geopolitical divisions. As AI becomes central to national security and economic competitiveness, this fragmentation matters profoundly—digital governance is now the primary arena for global power struggles, with stakes that extend to societal stability. The postwar liberal order was designed to discipline states, not firms; this oversight has left the world unprepared for today's challenges.\n\n**Approach:** \nThe author employs a comparative analysis of US, Chinese, and EU digital policies, examining how states respond to the \"infrastructural power\" of tech firms. Using concrete data on market dominance (e.g., Nvidia's 92% GPU share), export controls, and regulatory frameworks (like the EU's AI Act), they demonstrate how states pursue \"strategic digital sovereignty\"—unilateral actions plus bloc-building. This approach reveals how firms like Nvidia operate as \"digital warlords,\" with control over critical inputs shaping state behavior. The analysis combines historical context with current policy examples to show the evolution of digital governance.\n\n**Results:** \nKey findings show: 1) Nvidia dominates 92% of AI data center GPUs, while TSMC produces 65% of global chip output, creating systemic vulnerabilities; 2) The US now restricts chip access to allies like UAE under the AI Diffusion Rules; 3) China's Digital Silk Road has established 97 cloud zones in 37 countries. These techno-blocs create a hierarchy where tech giants become strategic partners, replacing multilateral rules with transactional alliances. This risks a \"digital colonialism\" where dominant firms extract value without contributing to local economies. Such outcomes could deepen inequality across states as digital warlords consolidate economic dominance."
+    },
+    "keyArticle": {
+      "title": "Digital Disintegration: Techno-Blocs and Strategic Sovereignty in the AI Era",
+      "authors": [
+        "Stephen Weymouth"
+      ],
+      "doi": "10.1017/s0020818325101070",
+      "pages": "S57-S70"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101070",
+      "doi": "https://doi.org/10.1017/s0020818325101070"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T22:22:17.948570+00:00",
+    "source": "openalex"
+  }
+}

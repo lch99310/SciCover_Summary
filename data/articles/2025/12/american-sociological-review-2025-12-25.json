@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2025-12-25",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2025-12-25",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "價錢背後的隱形階級：為什麼富人更認同「風險定價」？",
+      "en": "Whose Side Are You On? How Wealth Shapes Our Views on Fair Pricing"
+    },
+    "summary": {
+      "zh": "你有過被保險公司拒絕保單的經驗嗎？或貸款申請時被標註為『高風險客戶』？這些看似『理所當然』的市場規則，背後竟隱藏著階級的暗流。美國社會學家近期研究發現：當我們評判『風險定價』是否公平時，富人比窮人更傾向支持這種『誰 risky 誰付錢』的邏輯——即使這可能損及自身利益。三項大規模調查顯示，高收入者對『預測性定價』的道德認同度，明顯高於低收入群體，連政治立場都無法解釋這現象。研究者提出『選擇性共情』概念：富裕者更願意站在企業立場思考，把高風險消費者當成『自己人』的對立面。這就像給公司穿上了心理防護盾，讓市場規則成為階級優勢的隱形工具。原來，我們對公平的判斷從未客觀，而是被收入階層悄悄綁定了價值觀。",
+      "en": "Have you ever been denied insurance or labeled a 'high-risk' loan applicant? These seemingly routine market practices reveal a hidden class divide. A recent study in the American Sociological Review uncovers how Americans judge risk-based pricing—where companies charge more for those predicted to be costly—not as neutral economics but through a moral lens shaped by wealth. Contrary to expectations, higher-income individuals are significantly more likely than lower-income groups to endorse the fairness of such pricing, even when it contradicts their self-interest. The researchers introduce 'selective empathy' as the key mechanism: wealthier people disproportionately align with corporate perspectives, viewing high-risk consumers as outsiders rather than fellow citizens. This isn’t about ideology—it’s about emotional orientation. The findings expose how risk-based pricing becomes a classed form of economic rationality, where empathy for the customer is sidelined by privilege. In a system where fairness is decided by whose side you stand on, the rich aren’t just paying more—they’re defining what 'fair' means."
+    },
+    "keyArticle": {
+      "title": "Seeing Like a Company or a Customer: Selective Empathy in Pricing",
+      "authors": [
+        "Barbara Kiviat",
+        "Carly Knight"
+      ],
+      "doi": "10.1177/00031224251394724",
+      "pages": "55-88"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251394724",
+      "doi": "https://doi.org/10.1177/00031224251394724"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T22:22:36.079827+00:00",
+    "source": "openalex"
+  }
+}

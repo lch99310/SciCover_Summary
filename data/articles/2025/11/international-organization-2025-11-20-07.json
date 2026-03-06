@@ -1,0 +1,40 @@
+{
+  "id": "international-organization-2025-11-20-07",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "獨裁者的四重攻勢：全球人權體系如何被改寫的危機",
+      "en": "The Authoritarian Four: How Dictatorships Are Reshaping Global Human Rights"
+    },
+    "summary": {
+      "zh": "【總結】文章揭示，當前全球人權體系正經歷前所未有的危機， authoritarianism 不再只是被動抵抗人權規範，而是通過「壓制、反駁、再工程化、替代」四大策略主動改寫遊戲規則。美國的退縮更加速了這一進程，使自由民主國家從過去的攻勢轉為防禦。這不僅威脅到人權運動的存續，更可能讓 authoritarianism 逐步成為全球治理的主流模式。\n\n【研究問題】過去學界認為人權規範透過國際壓力逐漸擴散，但忽略了 authoritarian states 的協同行動與美國的政策轉向。關鍵缺口在於，當前研究未充分解釋為何 authoritarian states 能夠從「被動防守」轉為「主動進攻」，以及美國退場如何加劇了這場危機。\n\n【研究方法】作者結合歷史分析、案例研究與數據統計，深入探討四種策略。例如，分析2010-2024年V-Dem指數（自由民主指數下降10%），追蹤中國在聯合國人權理事會的投票coalition，並檢視美國國務院人權報告的刪改內容。這些方法讓研究能精確呈現 authoritarian states 如何系統性重塑國際規則。\n\n【結果】研究發現， authoritarian states 透過「壓制」打擊國際人權組織（如限制NGO活動），「反駁」散播假訊息（如中國的「新疆報導」），「再工程化」操縱聯合國機制（如UNHRC的UPR程序），以及「替代」推廣「發展權」等新敘事。2024年V-Dem指數顯示全球自由民主指數較1999年下降約10%，創25年新低。美國2025年國務院報告刪減人權議題，直接削弱了國際人權監督。",
+      "en": "**Summary:** This article reveals a critical turning point in global human rights governance: authoritarian states are no longer merely resisting liberal norms but actively reshaping the international human rights system through four strategic pillars—repression, refutation, re-engineering, and replacement. Crucially, the United States’ retreat from human rights leadership has accelerated these threats, leaving liberal democracies on the defensive. The study’s breakthrough lies in showing how authoritarian powers are systematically dismantling the global human rights architecture, not through brute force but through sophisticated normative and institutional maneuvering.\n\n**Problem:** While earlier scholarship emphasized the spread of human rights norms through international pressure, this research identifies a critical gap: the lack of attention to authoritarian states’ coordinated shift from defensive resistance to offensive reshaping of norms. Previous studies underestimated how the U.S. policy retreat and the emergence of an authoritarian bloc (China, Russia, etc.) have created a perfect storm for human rights erosion.\n\n**Approach:** The authors employed a multi-method approach, analyzing historical trends in human rights governance, examining UN voting patterns (e.g., China-Russia coalitions in the UN Human Rights Council), and documenting case studies of transnational repression (e.g., China’s targeting of Uyghur activists abroad). They also quantified the impact of U.S. policy shifts, such as the 2025 State Department report’s removal of human rights sections, providing concrete evidence of declining international oversight.\n\n**Results:** Key findings include the 10% decline in global liberal democracy scores since 1999 (V-Dem data), the rise of authoritarian \"coalitions\" blocking UN human rights resolutions (e.g., 2019 China-Russia alliance protecting China’s Uyghur policies), and the U.S. cutting foreign aid to NGOs like Freedom House by 70%. These trends indicate a systemic crisis: authoritarian states are now setting the agenda for human rights discourse, with the U.S. withdrawal creating a power vacuum that enables the spread of illiberal norms."
+    },
+    "keyArticle": {
+      "title": "Authoritarianism, Global Politics, and the Future of Human Rights",
+      "authors": [
+        "Rebecca Cordell",
+        "Alexander Dukalskis"
+      ],
+      "doi": "10.1017/s002081832510101x",
+      "pages": "S162-S179"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s002081832510101x",
+      "doi": "https://doi.org/10.1017/s002081832510101x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-06T08:28:11.009430+00:00",
+    "source": "openalex"
+  }
+}

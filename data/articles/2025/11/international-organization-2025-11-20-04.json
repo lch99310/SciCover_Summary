@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2025-11-20-04",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "風暴中的韌性：川普貿易政策後，世界貿易體系為何依然屹立？",
+      "en": "Weathering the Storm: Why the Global Trade System Survived Trump's Tariffs"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究挑戰了「川普貿易政策即將摧毀全球貿易體系」的論點，指出美國貿易政策從來不是單一方向。文章以歷史為鏡，揭示美國貿易政策本質上是「混雜」的——保護主義與自由主義並存。從1930年代的《斯穆特-霍利關稅法》到冷戰後的「自由貿易黃金年代」，再到川普第一任期的關稅戰，美國始終在「保衛本土產業」與「開放全球市場」間搖擺。研究證實，全球貿易體系的韌性正來自這種混雜性：當美國試圖關閉大門時，體系總能透過其他國家的協調與調整，繼續運作。這就像一棵老樹，枝幹會隨風彎曲，但根系穩固，不會輕易折斷。\n\n【研究問題】研究探討的核心問題是：為何川普第二任期的大規模關稅戰，並未導致世界貿易組織（WTO）崩潰？傳統觀點認為，美國長期支持自由貿易，一旦其退出，體系將瓦解。但這忽略了美國貿易政策的歷史本質——它從未真正「全心全意」支持自由貿易。過去研究聚焦於美國的「領導角色」，卻未察覺其政策的混雜性，導致誤判體系的韌性。此問題至關重要，因為若不理解這種混雜性，我們將無法預測未來國際貿易的演變。\n\n【研究方法】研究採用「兩維度分析框架」：一是「保護主義與自由主義壓力的強弱」，二是「貿易與安全連結的顯著性」。研究者整合Global Trade Alert的數據，統計2009至2025年美國的進口限制與出口限制。例如，2025年1至8月的進口限制數量暴增，而安全理由的關稅比例也上升。通過圖表對比，他們證明當前美國政策雖偏向保護主義，但並未達到「孤立主義」的極端，因此體系仍有彈性。\n\n【結果】關鍵數據顯示，2025年美國平均關稅率從2.3%飆升至16%，但美國民眾態度急轉直下：2025年3月，58%的人認為關稅傷害經濟，遠高於2019年的45%。研究指出，此現象源於三大機制：民眾觀感逆轉、部分產業支持者退潮（如鋁業反對全面關稅）、以及受損企業的游說行動。這表明，美國貿易政策將從「全面打擊」回歸到「精準打擊」，全球貿易體系仍能維繫。",
+      "en": "**Summary:** This article challenges the narrative that Trump's trade policies are dooming the global trading system, arguing instead that U.S. trade policy has always operated with an eclectic mix of protectionist and liberal impulses. Drawing on historical patterns, the authors show that the system's resilience stems from its ability to adapt to the U.S.'s inconsistent trade behavior—a pattern that has persisted since the Smoot-Hawley era. Rather than collapsing, the system will likely weather this storm and return to its traditional equilibrium, where trade policy oscillates between protectionism and liberalization.\n\n**Problem:** The study addresses the crisis in U.S. trade policy under Trump's second term, where tariffs on allies and China sparked fears of WTO collapse. Previous research assumed the U.S. had been a consistent champion of free trade, but this overlooked the historical reality of America's policy oscillations. This gap is critical because misjudging the system's resilience could lead to unnecessary panic and flawed policy responses.\n\n**Approach:** The authors developed a two-dimensional framework: one axis measuring the strength of protectionist vs. liberal pressures, and the other tracking the salience of trade-security linkages. Using data from Global Trade Alert (2009–2025), they analyzed import/export restrictions, showing how U.S. policy has shifted between quadrants over time. This framework reveals that current policies, while protectionist, fall short of isolationism.\n\n**Results:** In 2025, U.S. tariffs surged from 2.3% to 16%, yet public opinion shifted: 58% of Americans said tariffs hurt the economy (up from 45% in 2019). Key findings include the decline of protectionist business support (e.g., aluminum industry opposition), the rise of trade losers' lobbying, and the persistence of security-linked measures. This suggests a return to targeted trade policies rather than full-scale protectionism."
+    },
+    "keyArticle": {
+      "title": "Weathering the Storm: US Trade Policy Beyond Trump",
+      "authors": [
+        "Andreas Dür",
+        "Alessia Invernizzi"
+      ],
+      "doi": "10.1017/s0020818325101112",
+      "pages": "S194-S208"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101112",
+      "doi": "https://doi.org/10.1017/s0020818325101112"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T21:29:56.550666+00:00",
+    "source": "openalex"
+  }
+}

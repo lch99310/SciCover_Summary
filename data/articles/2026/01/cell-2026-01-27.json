@@ -1,0 +1,46 @@
+{
+  "id": "cell-2026-01-27",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞內的'蛋白質儲備站'：代謝調控下，酵母細胞如何保命",
+      "en": "Metabolically Controlled Protein Storage: The Hidden Life of Proteasome Granules"
+    },
+    "summary": {
+      "zh": "在細胞內，許多蛋白質會聚集形成無膜細胞器，但由於現有技術解析度的限制，科學家一直難以釐清這些細胞器形成過程中的結構變化。近期發表於《Cell》期刊的研究，透過「原位冷凍電子斷層掃描」技術，成功捕捉到酵母細胞在從生長轉向休眠狀態時，蛋白酶體（proteasome）如何組織成特殊的儲存顆粒。研究發現，當細胞進入休眠期，原本活躍的26S蛋白酶體會轉換為inactive狀態，並以約750萬道爾頓的三聚體形式存在。這些三聚體散佈在細胞核內，並在核膜附近聚集，形成類似「分子倉庫」的結構。\n\n進一步分析顯示，當細胞處於能量受限環境時，這些蛋白酶體會堆疊成規則的晶格結構（paracrystalline arrays），如同將工具整齊收納在工作台。這種結構能維持完整的蛋白酶體，並在能量充足時迅速釋放，恢復細胞功能。研究不僅揭開了無膜細胞器形成的結構步驟，更揭示了代謝調節如何影響細胞內大型調控機器的組織方式，為理解細胞應對壓力的機制提供了新視角。",
+      "en": "In the dynamic world of the cell, proteins must be precisely regulated to maintain life. A recent study published in Cell reveals how cells store and release a key regulatory machine—the proteasome—through a process governed by metabolism. Using cryo-electron tomography (cryo-ET), researchers observed yeast cells transitioning from active growth to quiescence, uncovering a previously unseen structural organization of 26S proteasomes.\n\nDuring this transition, inactive proteasomes assemble into 7.5-megadalton trimeric units, scattered throughout the nucleus and concentrated near nuclear pores. Under energy-limiting conditions, these trimers stack into paracrystalline arrays resembling bundled fibers, forming a reserve of fully assembled proteasomes. When energy becomes abundant again, the granules dissolve, releasing functional proteasomes to resume protein degradation. This reversible assembly, captured at 9-angstrom resolution, demonstrates how cells can dynamically organize their molecular machinery without membranes.\n\nThe findings provide the first high-resolution view of membraneless organelle formation in situ, revealing how metabolic cues drive the quinary structure of a major eukaryotic regulator. By understanding this process, scientists may uncover new ways to manipulate proteasome activity in diseases like cancer or neurodegeneration, where proteasome dysfunction plays a critical role."
+    },
+    "keyArticle": {
+      "title": "Metabolically regulated proteasome supramolecular organization in situ",
+      "authors": [
+        "Xiaomeng Tang",
+        "Lu Qu",
+        "Florian Wilfling",
+        "Florian Beck",
+        "Oliver P. Ernst",
+        "Brenda A. Schulman",
+        "Wolfgang Baumeister",
+        "Cordula Enenkel"
+      ],
+      "doi": "10.1016/j.cell.2025.12.035",
+      "pages": "1153-1169.e16"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.035",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.035"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T23:05:59.815052+00:00",
+    "source": "openalex"
+  }
+}

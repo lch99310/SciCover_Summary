@@ -1,0 +1,89 @@
+{
+  "id": "science-2026-01-01",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6780",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "流浪行星大發現！土星大小的宇宙漂泊者，揭開『愛因斯坦沙漠』的千年謎題",
+      "en": "Saturn-Sized Rogue Planet Caught in the Act: How Gaia and Telescopes Cracked the Einstein Desert"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究報告了人類首次直接測量自由漂浮行星質量的重大發現——一顆質量約0.22倍木星的天體，略小於土星。通過結合地面望遠鏡和蓋亞太空任務的觀測數據，研究團隊破解了長期困擾學界的「質距混淆」難題，成功解決了「愛因斯坦沙漠」（Einstein Desert）的百年謎題。這項發現不僅確認了行星系統中存在大量被拋棄的巨型行星，更揭示了行星形成與演化的關鍵機制，為宇宙中行星的誕生、遷移與逃逸提供了前所未有的視角。\n\n【研究問題】數十年來，微引力透鏡巡天已發現數百顆自由漂浮行星候選體，但由於「質距混淆」現象——同一亮度變化可能由遠距離的重質量天體或近距離的輕質量天體造成，導致這些天體的質量始終無法精確測量。這種混淆導致了「愛因斯坦沙漠」現象：在微引力透鏡事件統計中，質量介於1-10倍木星的天體幾乎無法被觀測到。沒有直接質量數據，研究人員無法區分這些天體是被行星系統拋棄的行星，還是未能形成恆星的褐矮星，嚴重阻礙了對行星系統動力學的深入理解。\n\n【研究方法】研究團隊結合了韓國微引力透鏡望遠鏡網絡（KMTNet）、歐洲視線重力透鏡實驗（OGLE）和位於太陽-地球拉格朗日L2點的蓋亞太空任務的觀測數據。當2024年5月發生微引力透鏡事件時，蓋亞因獨特軌道設計巧合性地在16小時內對該事件進行了6次觀測。通過比較地球與蓋亞觀測到的亮度峰值時序差，研究人員測量了「微引力透鏡視差」——這是由於蓋亞相對於地球的空間位置變化所產生的微妙偏移。這種視差測量使他們能夠直接計算出行星質量，繞過了長期困擾研究的質距混淆問題。研究人員還使用先進的有限源點透鏡模型（FSPL）來精確修正背景恆星的有限大小效應，進一步提升了測量精度。\n\n【結果】分析顯示，這顆行星質量為0.219 ± 0.075木星質量，正好落在愛因斯坦沙漠範圍內（θ_E = 18.6微角秒）。統計模型表明，該天體很可能是行星形成過程中形成的高質量尾端成員，後來因引力相互作用被從原生行星系統中拋棄。這項發現證明自由漂浮行星普遍存在，並確立了行星彈射是塑造行星系統的重要機制。未來的巡天將專注於愛因斯坦沙漠區域，有望揭示銀河系中行星誕生與消亡的完整圖景。",
+      "en": "**Summary:** This landmark study solves the century-old mystery of the \"Einstein Desert\" by directly measuring the mass of a Saturn-sized free-floating planet using a rare microlensing event observed simultaneously by ground-based telescopes and the Gaia space observatory. For the first time, scientists have confirmed that these rogue planets are genuine planetary bodies formed in protoplanetary disks—ejected from their birth systems by gravitational chaos—rather than failed stars (brown dwarfs). This breakthrough validates theories of planetary system dynamics and provides a new window into how planets form, migrate, and escape their solar systems.\n\n**Problem:** For decades, microlensing surveys detected hundreds of free-floating planet candidates, but their masses remained obscured by a fundamental limitation: the same brightness change could result from a massive object at great distance or a lighter object nearby. This \"mass-distance degeneracy\" left researchers unable to distinguish between ejected planets and brown dwarfs, particularly in the \"Einstein Desert\"—a gap in microlensing statistics where objects with masses between 1-10 Jupiter masses were rarely observed. Without direct mass measurements, the true nature of these objects—and the processes that create them—remained a cosmic mystery.\n\n**Approach:** Researchers combined data from KMTNet (Korea Microlensing Telescope Network), OGLE (Optical Gravitational Lensing Experiment), and Gaia, the space observatory orbiting the Sun-Earth L2 point. When a microlensing event occurred in May 2024, Gaia serendipitously observed it six times over 16 hours due to its unique orbital geometry. By comparing the timing of brightness peaks between Earth and Gaia, they measured the \"microlens parallax\"—a subtle shift caused by Gaia's position relative to Earth. This allowed them to break the mass-distance degeneracy and calculate the planet's mass directly. Advanced models accounted for the finite size of the source star (FSPL), refining the results.\n\n**Results:** The analysis revealed a planet with mass 0.219 ± 0.075 Jupiter masses, placing it squarely within the Einstein Desert (θ_E = 18.6 micro-arcseconds). Statistical modeling confirms it is part of the high-mass tail of planetary objects, formed in protoplanetary disks before being ejected by gravitational interactions—like the giant planets in our own solar system. This discovery proves that free-floating planets are common and that planetary ejection is a key process in shaping planetary systems. Future surveys will now target the Einstein Desert to map the full spectrum of rogue planets, potentially revealing how many planets are born and lost in the galaxy."
+    },
+    "keyArticle": {
+      "title": "A free-floating-planet microlensing event caused by a Saturn-mass object",
+      "authors": [
+        "Subo Dong",
+        "Zexuan Wu",
+        "Yoon-Hyun Ryu",
+        "A. Udalski",
+        "P Mróz",
+        "Krzysztof A. Rybicki",
+        "Simon T. Hodgkin",
+        "Ł. Wyrzykowski",
+        "L. Eyer",
+        "T. Bensby",
+        "Ping Chen",
+        "Sharon X. Wang",
+        "Andrew Gould",
+        "Hongjing Yang",
+        "Michael D. Albrow",
+        "Sun-Ju Chung",
+        "Cheongho Han",
+        "Kyu-Ha Hwang",
+        "Youn Kil Jung",
+        "In-Gu Shin",
+        "Yossi Shvartzvald",
+        "Jennifer C. Yee",
+        "Weicheng Zang",
+        "Dong-Jin Kim",
+        "Chung‐Uk Lee",
+        "Byeong-Gon Park",
+        "R. Poleski",
+        "J. Skowron",
+        "M. K. Szymański",
+        "I. Soszyński",
+        "P Pietrukowicz",
+        "S Kozłowski",
+        "D. M. Skowron",
+        "K. Ulaczyk",
+        "Mariusz Gromadzki",
+        "M. Ratajczak",
+        "Patryk Iwanek",
+        "Marcin Wrona",
+        "Mateusz J. Mróz",
+        "Guy Rixon",
+        "D. L. Harrison",
+        "E. Breedt"
+      ],
+      "doi": "10.1126/science.adv9266",
+      "pages": "96-99"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adv9266",
+      "doi": "https://doi.org/10.1126/science.adv9266",
+      "preprint": "http://arxiv.org/abs/2601.00057"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T22:19:16.258444+00:00",
+    "source": "openalex"
+  }
+}

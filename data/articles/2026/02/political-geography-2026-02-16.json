@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-16",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-16",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "山脊上的凝視：阿爾卑斯邊境的視覺霸權與移動追捕",
+      "en": "The Mountain's Gaze: Visual Domination and the Geography of Pursuit in the Alps"
+    },
+    "summary": {
+      "zh": "自2015年法義邊境 militarized以來，邊境警察透過山區移動巡邏控制非法移民，而本文透過田野調查、GIS視線分析，揭示邊境控制力量如何將「視覺霸權」作為戰略工具。這種霸權建立在視覺能力的不對稱性上：執法人員掌握「控制看見什麼、如何被看待、以及如何觀看他人」的三重能力，使邊境成為權力的地形學。他們利用山脈的垂直與水平地形，以非對稱戰爭邏輯，將環境暴力投射至移動中的人群。然而，邊境控制系統的流動性與山區地形，使視覺霸權不斷遭遇移民的逃脫挑戰，形成「移動追捕地理學」——雙方皆試圖在不被察覺的情況下行動。同時，邊境的互助實踐將空間知識轉化為抵抗場域，挑戰權力的視覺霸權。",
+      "en": "Since 2015, border control forces along the French-Italian Alpine border have weaponized visibility to pursue migrants through mobile patrols across the mountain range. Drawing on fieldwork and GIS-based visibility analyses, this article reveals how 'visual domination'—a form of power rooted in asymmetric sight—enables authorities to control what is seen, how they are perceived, and how others are viewed. Police exploit the mountain’s vertical and horizontal terrain to replicate asymmetric warfare logic, exposing migrants to environmental violence. Yet the system’s mobility and rugged geography destabilize visual domination: migrants constantly evade detection, creating a 'mobile geography of pursuit' where both sides compete to see without being seen. Solidarity practices at the border further disrupt this dynamic, transforming spatial knowledge into a tool of resistance."
+    },
+    "keyArticle": {
+      "title": "Topography of power. Visual domination and the geography of pursuit on Alpine borders",
+      "authors": [
+        "Sarah Bachellerie"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103517",
+      "pages": "103517"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103517",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103517"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T01:32:23.748572+00:00",
+    "source": "openalex"
+  }
+}

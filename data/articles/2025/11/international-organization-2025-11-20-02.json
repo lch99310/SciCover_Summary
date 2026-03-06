@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2025-11-20-02",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "民主約束崩解：美國外交政策失控，世界秩序的終結倒數",
+      "en": "The Unconstrained Presidency: How America's Democratic Erosion Is Shattering Global Order"
+    },
+    "summary": {
+      "zh": "【總結】\n\n這篇論文揭開美國民主約束機制崩解的危機：透過資訊碎片化、極端政黨極化與後冷戰威脅環境三大趨勢，總統權力已完全脫離國內制衡。作者指出，民主約束曾是戰後國際秩序的關鍵支柱——它讓美國能透過可信賴的政策與制度，凝聚國際共識。如今美國政府失去國內制衡，將無法有效協調全球問題，導致國際秩序走向無序。這不僅是美國的危機，更是全球治理的終結倒數。\n\n【研究問題】\n\n過去學界 assumptions認為美國民主制度會持續維持國際秩序，卻忽略國內制衡機制如何被逐步削弱。本文揭示：當民主約束消失，美國將難以扮演全球秩序的「維護者」。這不僅是理論缺口，更是現實危機——2025年後的美國總統已能完全脫離國內制衡，導致國際體系的基礎動搖。\n\n【研究方法】\n\n作者以「民主約束」為核心框架，分析三大趨勢如何瓦解制衡機制：1）資訊碎片化（如社交媒體）讓領導人能精準 targeting 對立群體，避免大眾反彈；2）極端政黨極化使支持者無條件護持領導人（如川普支持者在國會暴動事件後仍堅定支持）；3）後冷戰威脅環境強化總統權力，削弱國會與司法制衡（如2024年最高法院總統豁免權判決）。研究結合歷史案例（9/11事件、川普總統任期）與制度分析，揭示制度性漏洞如何被利用。\n\n【結果】\n\n關鍵發現包括：資訊碎片化使領導人能避開大眾監督，例如川普透過社交媒體直接動員支持者，繞過傳統媒體審查；政黨極化導致支持者無條件護持領導人（國會未能對川普 impeach）；後冷戰威脅環境使總統權力集中，如2024年最高法院 rulings 讓總統免於法律責任。這些趨勢導致美國軍事準備下降、國際公信力削弱，並引發伊核協議等多邊協議的崩解，最終使美國難以維持全球治理領導地位。",
+      "en": "**Summary:** \n\nThis article reveals the crisis of democratic constraints in the United States: through three converging trends—information fragmentation, extreme polarization, and the post-Cold War threat environment—presidential power has become fully unconstrained. The authors argue that democratic constraints were the cornerstone of the post-1945 international order, enabling the U.S. to build trust and coordinate global governance. Now, with domestic checks eroded, America can no longer effectively address international challenges, threatening the stability of the global system. This is not merely America's crisis—it is the countdown to the end of global order.\n\n**Problem:** \n\nScholars long assumed that U.S. democratic institutions would sustain international order, but overlooked how domestic constraints—such as congressional oversight and public accountability—were systematically dismantled. This gap is critical: without checks on presidential power, the U.S. can no longer function as a reliable leader in global governance. The article addresses why the post-1945 international order is now at risk—because the U.S. has become an unconstrained presidency.\n\n**Approach:** \n\nThe authors analyze how three trends eroded democratic constraints: 1) Information fragmentation (e.g., social media) allows leaders to target propaganda at loyal audiences, avoiding broad public backlash; 2) Extreme polarization shields leaders from criticism (e.g., Trump’s base remained loyal despite the Capitol riot); 3) The post-Cold War threat environment concentrated power in the presidency, weakening horizontal checks (e.g., the Supreme Court’s 2024 ruling on presidential immunity). Using historical cases (9/11, Trump’s presidency), the study shows how these trends enabled leaders to bypass accountability.\n\n**Results:** \n\nKey findings include information fragmentation allowing leaders to avoid public scrutiny (e.g., Trump’s direct engagement with supporters via social media), polarization enabling partisans to shield leaders (e.g., Congress’s failure to impeach Trump after January 6), and the threat environment strengthening presidential power (e.g., the 2024 Supreme Court ruling on immunity). These trends have led to reduced military readiness, diminished trust in U.S. capabilities, and the collapse of multilateral agreements like the Iran nuclear deal. Without democratic constraints, the U.S. will struggle to lead global governance, accelerating a shift toward instability."
+    },
+    "keyArticle": {
+      "title": "The Unconstrained Future of World Order: The Assault on Democratic Constraint and Implications for US Global Leadership",
+      "authors": [
+        "Susan Hyde",
+        "Elizabeth N. Saunders"
+      ],
+      "doi": "10.1017/s0020818325101161",
+      "pages": "S71-S87"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101161",
+      "doi": "https://doi.org/10.1017/s0020818325101161"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T12:42:24.890049+00:00",
+    "source": "openalex"
+  }
+}

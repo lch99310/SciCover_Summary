@@ -1,0 +1,46 @@
+{
+  "id": "american-sociological-review-2026-01-13",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-01-13",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "努力的代價：為什麼獎勵制度能縮小貧富差距？",
+      "en": "The Hidden Cost of Effort: How Incentives Can Level the Playing Field for Children from Different Backgrounds"
+    },
+    "summary": {
+      "zh": "你是否想過，為什麼有些孩子輕鬆就能投入學習，而有些卻要費盡心思？最新社會學研究揭開了「努力」背後的社會密碼。這項針對1360名五年級學生的實驗發現，貧富差距不僅影響物質條件，更直接塑造了孩子們「動不動力」的差異：高社經背景的孩子因家境寬裕，面對任務時主觀成本較低，加上父母常鼓勵自主選擇，自然更願意主動投入；而低社經背景的孩子，則需要具體獎勵才能激發動力。最令人驚訝的是，當研究人員提供小禮物或獎金時，原本顯著的貧富差距竟大幅縮小。這就像給不同體質的人吃同樣的補品——貧困家庭的孩子對獎勵更敏感，而富裕家庭的孩子反而「不稀罕」。這項研究挑戰了「努力全靠個人意志」的傳統觀念，提醒我們：真正的公平，或許需要先從調整獎勵機制開始。",
+      "en": "Why do some children effortlessly focus on learning while others struggle to muster effort? A groundbreaking sociological study reveals the hidden social roots of cognitive effort. Analyzing 1,360 fifth-grade students through laboratory experiments with varying incentive conditions, researchers discovered that socioeconomic disparities shape children’s willingness to exert mental effort—not just through material resources but via deeply ingrained psychological mechanisms. Higher-SES children, raised in environments of material abundance and autonomy-focused parenting, experience lower subjective costs for effort and greater intrinsic motivation. In contrast, lower-SES children’s effort is more responsive to tangible rewards. Crucially, when material incentives were introduced, the gap in effort between groups shrank significantly. This finding challenges the myth of pure individual agency, showing that effort is not a self-contained trait but a malleable response to social context. The study underscores that equitable opportunity requires more than just access to resources—it demands thoughtful incentive structures that recognize how poverty and privilege shape motivation."
+    },
+    "keyArticle": {
+      "title": "The Social Origins of Effort: How Incentives Reduce Socioeconomic Disparities among Children",
+      "authors": [
+        "Jonas Radl",
+        "William Foley",
+        "Lea Kröger",
+        "Patricia Lorente",
+        "Alberto Palacios-Abad",
+        "Heike Solga",
+        "Jan Stuhler",
+        "Madeline Swarr"
+      ],
+      "doi": "10.1177/00031224251401933",
+      "pages": "89-122"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251401933",
+      "doi": "https://doi.org/10.1177/00031224251401933"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T20:28:40.576285+00:00",
+    "source": "openalex"
+  }
+}

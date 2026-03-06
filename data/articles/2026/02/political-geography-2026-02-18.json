@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-02-18",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊境烽火燒掉軍心？加納北部民眾信任崩解的關鍵證據",
+      "en": "When Borders Burn: How Ghana's Military Lost the Trust of Its Citizens"
+    },
+    "summary": {
+      "zh": "加納北部邊境的烽火不僅燒毀了莊稼，更燒掉了民眾對軍隊的信任。這項研究揭開一個被忽略的關鍵現象：邊境暴力的長期暴露，正在瓦解邊陲民眾對國家武裝力量的信賴。隨著布基納法索叛亂蔓延與邊境管控鬆散，加納北部治安急劇惡化，犯罪與族群衝突頻發。研究團隊運用地理定位數據與田野訪談結合的混合方法，精準捕捉邊境居民對安全機構的信任變化。\n\n研究發現，靠近邊境的社區對軍隊的信任度明顯下降，但對傳統權威的信賴卻大幅提升。這種「信任轉移」並非隨意發生——經多重穩健性檢驗確認，效果僅限於邊境地區且與衝突爆發時間緊密相關。透過訪談，學者發現民眾正處於「安全困境」：當軍隊被視為「遠水解不了近渴」，村民只能轉向部落長老尋求庇護。這不僅是信任的改變，更反映國家權力在邊緣地帶的合法性危機。研究揭示的「中心-邊緣」治理裂痕，為衝突預防提供了全新視角。",
+      "en": "In regions where state authority is weakest, border violence often fuels conflict—but what happens when citizens’ trust in security institutions erodes? This study from *Political Geography* reveals how exposure to border insecurity in northern Ghana has fractured trust in the military while strengthening reliance on traditional authorities. As the insurgency in Burkina Faso spilled across the porous border, local communities faced escalating crime and ethnic tensions. Using a mixed-methods approach—combining geolocated perception data with ethnographic fieldwork—the researchers uncovered a clear pattern: proximity to the border significantly reduced trust in the military while increasing confidence in traditional leaders. This effect was geographically specific to border communities and tied to the timing of the conflict’s onset.\n\nQualitative interviews shed light on the lived experience behind these numbers: residents described military forces as slow to respond, often absent during crises, and disconnected from local realities. In response, communities turned to traditional leaders who were seen as more accessible and culturally attuned to their needs. The study’s findings highlight a critical center-periphery divide in state legitimacy, with border regions increasingly viewing the military as a distant, ineffective actor. These insights challenge conventional conflict research and offer concrete guidance for policymakers seeking to preempt regional instability by addressing the legitimacy gaps that fuel insecurity."
+    },
+    "keyArticle": {
+      "title": "Exposure to border violence erodes military trust: Mixed-methods evidence from Ghana",
+      "authors": [
+        "Ore Koren",
+        "Kaderi Noagah Bukari"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103511",
+      "pages": "103511"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103511",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103511"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-04T23:06:34.497785+00:00",
+    "source": "openalex"
+  }
+}

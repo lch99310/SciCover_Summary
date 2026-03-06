@@ -1,0 +1,81 @@
+{
+  "id": "science-2026-01-08",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6788",
+  "date": "2026-01-08",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "黑洞噴流轉圈圈！82萬年一轉的宇宙陀螺，竟讓星系氣體被「甩」出",
+      "en": "The Wobbling Jet That Took 820,000 Years to Spin: How a Black Hole's Gyro Effect Ejects Gas from Its Galaxy"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開星系演化關鍵機制：活躍星系核（AGN）的噴流以「陀螺」方式預進動（precession），每82萬年轉一圈，將氣體以每秒19.4個太陽質量的速度「甩」出銀河系。此現象不僅證實宇宙模型中預期的黑洞反饋機制，更首次精確測量其時間尺度與能量效率，為解釋星系如何自我調節恆星形成提供實證。\n\n【研究問題】過去宇宙模擬顯示，巨型星系的恆星形成需靠黑洞噴流反饋抑制，但理論長期缺乏實測數據支撐。關鍵盲點在於：噴流如何長時間影響氣體？預進動現象是否普遍存在？這問題直接關係到宇宙演化模型的準確性，卻因觀測技術限制被遺漏。\n\n【研究方法】研究團隊化身「宇宙偵探」，整合光學、紅外、次毫米波與無線電數據，追蹤VV 340a星系中心的低功率噴流。透過對比不同波長的影像，他們像解開拼圖般還原噴流的螺旋運動——當噴流每82萬年轉一圈，會像鞭子抽打般將氣體推離星系中心，並以高離子化等離子體形式延伸數千秒差距。\n\n【結果】數據顯示，噴流每秒驅動19.4±7.9個太陽質量的氣體逃逸，足夠改變星系恆星形成速率。更關鍵的是，這種預進動現象解釋了為何AGN反饋能長達數百萬年持續作用，為宇宙模型提供「時間膠水」。未來天文學家可借此驗證星系演化模型，甚至預測銀河系未來的演化路徑。",
+      "en": "**Summary:** This groundbreaking study reveals how a precessing jet from an active galactic nucleus (AGN) in the galaxy VV 340a drives gas outflow at a rate of 19.4 solar masses per year, with a precession period of 820,000 years. By combining multi-wavelength observations, the researchers provide the first direct evidence of how black hole jets regulate star formation over cosmic timescales. This discovery resolves a decades-long puzzle in galaxy evolution models, demonstrating how AGN feedback operates as a sustained cosmic mechanism.\n\n**Problem:** Cosmological simulations require active galactic nuclei to suppress star formation in massive galaxies, but the mechanisms and timescales of this feedback have remained theoretical. Previous studies lacked observational data on jet precession and its impact on gas dynamics, creating a critical gap in understanding how galaxies self-regulate. Without evidence of sustained feedback, models of galaxy evolution were incomplete and potentially inaccurate.\n\n**Approach:** The team employed a multi-wavelength detective strategy, analyzing optical, infrared, sub-millimeter, and radio data from VV 340a. By tracking the jet's wobble across different wavelengths, they reconstructed its precession motion like a high-speed film of a spinning top. This approach allowed them to measure both the jet's rotational period and its effect on surrounding gas, revealing how the wobbling jet acts as a cosmic battering ram against the galaxy's gas disk.\n\n**Results:** With a precession period of (8.2 ± 5.5) × 10⁵ years and an outflow rate of 19.4 ± 7.9 solar masses per year, the jet ejects enough gas to significantly alter star formation rates. The high-energy plasma extending thousands of parsecs from the nucleus confirms the jet's ability to shock and energize gas. This discovery provides the first observational evidence of how AGN feedback can operate over millions of years, offering a crucial benchmark for refining galaxy evolution models and predicting future cosmic structures."
+    },
+    "keyArticle": {
+      "title": "A precessing jet from an active galactic nucleus drives gas outflow from a disk galaxy",
+      "authors": [
+        "Justin A. Kader",
+        "V. U",
+        "Loreto Barcos-Muñoz",
+        "Marina Bianchin",
+        "Sean T. Linden",
+        "Yiqing Song",
+        "Gabriela Canalizo",
+        "Archana Aravindan",
+        "G. C. Privon",
+        "T. Diaz-Santos",
+        "Christopher C. Hayward",
+        "Matthew A. Malkan",
+        "Lee A",
+        "Rosalie C. McGurk",
+        "Jeffrey A. Rich",
+        "Anne M. Medling",
+        "Sabrina Stierwalt",
+        "C. Max",
+        "A. Evans",
+        "Christopher J. Agostino",
+        "V. Charmandaris",
+        "Tianmu Gao",
+        "Justin H. Howell",
+        "Hanae Inami",
+        "Thomas S.-Y. Lai",
+        "Kirsten L. Larson",
+        "Christopher D. Martin",
+        "Mateusz Matuszewski",
+        "J. M. Mazzarella",
+        "James D. Neill",
+        "Nikolaus Z. Prusinski",
+        "Raymond P. Remigio",
+        "David B. Sanders",
+        "J. A. Surace"
+      ],
+      "doi": "10.1126/science.adp8989",
+      "pages": "911-916"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adp8989",
+      "doi": "https://doi.org/10.1126/science.adp8989",
+      "preprint": "http://arxiv.org/abs/2601.08791"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-05T12:39:01.868823+00:00",
+    "source": "openalex"
+  }
+}

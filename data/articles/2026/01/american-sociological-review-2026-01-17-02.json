@@ -1,0 +1,41 @@
+{
+  "id": "american-sociological-review-2026-01-17-02",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2026-01-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "氣候危機的時間悖論：媒體為何總在最後一刻喊緊急？",
+      "en": "The Urgency Gap: How Media Framing of Climate Time Hinders Action"
+    },
+    "summary": {
+      "zh": "氣候危機的「時間悖論」：媒體報導顯示，雖然公眾對氣候危機的時間感知越來越近（平均聚焦於2060年），但實際採取行動的時間框架卻始終維持在「16年後」，形成一種時間認知的斷裂。這項發表於《美國社會學期刊》的研究，透過分析2000至2021年美國媒體報導，揭示了氣候辯論中一個關鍵矛盾：我們總認為氣候危機即將到來，卻從未真正為行動設定清晰的時間點。\n\n研究人員開發了新興計算框架，用於檢測文本中的時間表達。結果顯示，當加州野火、極端天氣等事件爆發時，媒體會突然出現大量「立即行動」的呼籲，形成「緊急爆發」的現象。然而，這種突發的緊急聲浪，反而凸顯了長期行動框架的缺失。研究指出，這種「時間斷裂」解釋了為何氣候行動遲遲無法落實——我們總在災難發生時才意識到緊迫性，卻從未建立持續性的行動計劃。",
+      "en": "The study examines how U.S. media discourse frames climate change in terms of time, asking whether it is perceived as an imminent threat or a distant future concern. Using a novel computational framework to analyze media coverage from 2000 to 2021, the authors reveal three key findings: first, temporal horizons for climate impacts have steadily contracted to an average of 2060; second, the timeframe for coordinated action remains fixed at approximately 16 years into the future; and third, while stated timelines are stable, urgent discourse surges during crises like the 2020 California wildfires. This disjuncture between perceived urgency and actionable timelines, the authors argue, undermines effective climate action by focusing attention on crisis moments rather than long-term solutions. The research highlights how media framing shapes public understanding of climate risk, suggesting that the lack of a consistent temporal framework for action contributes to persistent inaction."
+    },
+    "keyArticle": {
+      "title": "Time and Climate Change: U.S. Media Representations of Climate Actions, Horizons, and Events (2000 to 2021)",
+      "authors": [
+        "Oscar Stuhler",
+        "Iddo Tavory",
+        "Robin Wagner‐Pacifici"
+      ],
+      "doi": "10.1177/00031224251403596",
+      "pages": "158-189"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251403596",
+      "doi": "https://doi.org/10.1177/00031224251403596"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-05T12:43:14.994637+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "american-sociological-review-2025-11-27-02",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "6",
+  "date": "2025-11-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "全球性別權威的迷宮：國際NGO如何突破文化藩籬？",
+      "en": "The Global Gender Maze: How International NGOs Navigate Cultural Diversity"
+    },
+    "summary": {
+      "zh": "國際NGO在推動全球跨性別權利時，面臨一個核心困境：如何在文化差異巨大的世界中建立統一的權利框架？這篇研究揭示，早期國際組織試圖將多元性別認同「收編」進單一的全球性別框架，但隨著東南亞、非洲等地跨性別社群的崛起，以及反LGBT勢力的反撲，這種做法開始顯現局限。研究指出，當不同文化中的性別實踐與西方術語產生衝突時，國際組織並未選擇回避或強行統一，而是開始調整策略。\n\n作者分析1990至2019年的資料發現，隨著批判者指出「全球性別框架」隱含殖民色彩，NGO轉而採取「質化」策略——例如在東南亞採用「第三性」概念，而非強制使用「跨性別」術語。這種轉變不是簡單的妥協，而是對文化差異的深度回應，使權利框架更具彈性。這不僅解決了「全球性」與「在地性」的矛盾，更為國際組織如何處理殖民遺緒提供了實踐路徑。\n\n研究指出，這種「反身性回應」深化了對人權框架本質的理解：真正的國際合作需超越文化霸權，轉向對多元價值的對話。這對全球治理、性別研究乃至科學技術研究都具有啟示意義，證明權威機構必須在維持核心價值的同時，保持對文化差異的敏感度。",
+      "en": "International NGOs face a fundamental challenge: creating a universal transgender rights framework amid diverse cultural understandings of gender. This study traces how gender experts within these organizations navigated shifting political landscapes from 1990 to 2019, revealing a critical evolution in their approach. Initially, they imposed a single global category, but as diverse gender communities and anti-LGBT forces challenged this universality, INGOs shifted strategy. Rather than ignoring differences or creating separate categories, they actively engaged with cultural nuances, refining their framework through dialogue and adaptation.\n\nBy qualifying and transforming the original category, these organizations addressed critiques of colonialism while remaining committed to human rights principles. The study demonstrates that effective global advocacy requires recognizing—and responding to—cultural specificity, not just enforcing uniformity. This approach has profound implications for how international bodies balance universal ideals with local realities.\n\nThe research contributes to broader academic debates on transnational governance, coloniality, and the politics of recognition. It shows that human rights frameworks must evolve to incorporate diverse perspectives, offering a model for future global initiatives. As the world becomes more interconnected yet culturally fragmented, this study provides essential insights for navigating complex identity politics."
+    },
+    "keyArticle": {
+      "title": "(Trans)National Gender Expertise and the Politics of Recognition",
+      "authors": [
+        "Tara Gonsalves"
+      ],
+      "doi": "10.1177/00031224251388654",
+      "pages": "1021-1059"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251388654",
+      "doi": "https://doi.org/10.1177/00031224251388654"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T08:30:42.845565+00:00",
+    "source": "openalex"
+  }
+}

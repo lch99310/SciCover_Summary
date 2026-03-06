@@ -5,7 +5,7 @@
   "issue": "6786",
   "date": "2026-02-12",
   "coverImage": {
-    "url": "data/images/science/science-2026-02-12-cover.jpg",
+    "url": "data/images/science/science-2026-02-12-cover.png",
     "credit": ""
   },
   "coverStory": {
@@ -35,7 +35,7 @@
     },
     "images": [
       {
-        "url": "data/images/science/science-2026-02-12-cover.jpg",
+        "url": "data/images/science/science-2026-02-12-cover.png",
         "caption": {
           "zh": "",
           "en": ""

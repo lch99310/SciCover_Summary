@@ -5,7 +5,7 @@
   "issue": "",
   "date": "2026-02-28",
   "coverImage": {
-    "url": "",
+    "url": "data/images/political-geography/pg-2026-02-28-cover.jpg",
     "credit": ""
   },
   "coverStory": {
@@ -25,7 +25,15 @@
       "doi": "10.1016/j.polgeo.2026.103521",
       "pages": "103521"
     },
-    "images": [],
+    "images": [
+       {
+        "url": "data/images/political-geography/pg-2026-02-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
     "links": {
       "official": "https://doi.org/10.1016/j.polgeo.2026.103521",
       "doi": "https://doi.org/10.1016/j.polgeo.2026.103521"

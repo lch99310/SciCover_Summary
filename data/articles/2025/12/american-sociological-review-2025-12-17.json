@@ -1,0 +1,39 @@
+{
+  "id": "american-sociological-review-2025-12-17",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "1",
+  "date": "2025-12-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "DEI退潮後：職場種族平等的「新遊戲規則」是什麼？",
+      "en": "Beyond DEI: Rethinking Race and Work in a Post-DEI Era"
+    },
+    "summary": {
+      "zh": "近年來，隨著反對聲浪的席捲，許多組織紛紛縮減或拆解既有DEI（多元、公平與包容）計畫。就像暴風雨過後，船艦開始撤離甲板，企業們在政治壓力與法律挑戰下，選擇將DEI從戰略清單中剔除。然而，這場退潮背後的深層問題並非DEI是否有效，而是——當DEI退潮後，職場種族平等的「下一章」該如何書寫？作者指出，在日益多元的社會中，關鍵不再是DEI有無價值，而是「DEI之後」的制度安排將如何重塑職場。當自動化與高度人際關係型工作成為主流，新的權力結構可能既維持舊有種族階級，也可能挑戰它們。這正是當下最緊迫的課題：企業如何在反DEI氛圍中，設計出既能應對多元勞動力，又能縮小種族差距的政策框架。\n\n面對職場自動化趨勢，作者強調，傳統DEI策略已難以應對新挑戰。例如，AI決策系統可能隱藏偏見，而「人性化」的工作需求又可能加劇種族歧視。因此，當務之急是重新思考政策導向，從「消除歧視」轉向「結構性整合」。這不僅能幫助企業適應多元環境，更能激發員工潛能，推動經濟生產力提升。正如作者所言：「種族平等不是一場運動，而是持續的制度演進。」",
+      "en": "Amid mounting political opposition and federal pushback, organizations across the U.S. are scaling back or dismantling Diversity, Equity, and Inclusion (DEI) initiatives—a trend that has sparked heated debates about DEI’s efficacy and ethics. But in a new article, sociologist Adia Harvey Wingfield argues that these debates miss the point. The real question, she contends, is not whether DEI works but what comes next. As workplaces become increasingly automated and reliant on human connection, the structures that emerge post-DEI will profoundly shape racial hierarchies. Wingfield urges organizations to rethink policy frameworks that address systemic racial disparities in rapidly changing work environments.\n\nBy designing policies that close racial gaps while adapting to automation and relational labor, companies can better manage diverse teams, boost productivity, and maximize worker potential. The article warns that without such strategic shifts, new forms of racial inequality may emerge even as DEI recedes. Wingfield’s analysis underscores that racial equity is not a temporary fix but a continuous process—one that demands innovation in policy and practice to thrive in an evolving economy."
+    },
+    "keyArticle": {
+      "title": "After DEI: A Different Future for Race, Work, and Policy",
+      "authors": [
+        "Adia Harvey Wingfield"
+      ],
+      "doi": "10.1177/00031224251395991",
+      "pages": "1-18"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251395991",
+      "doi": "https://doi.org/10.1177/00031224251395991"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-06T07:36:10.438809+00:00",
+    "source": "openalex"
+  }
+}

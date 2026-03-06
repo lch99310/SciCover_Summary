@@ -10,12 +10,12 @@
   },
   "coverStory": {
     "title": {
-      "zh": "綠色霸權的陰影：匈牙利電池巨廠背後的政治博弈",
-      "en": "The Green Mirage: Hungary's Battery Boom and the Far-Right Political Ecology"
+      "zh": "電池工廠與綠色騙局：匈牙利極右政治的雙面棋局",
+      "en": "The Battery Boom and the Far Right: Hungary's Green Deception at the CATL Gigafactory"
     },
     "summary": {
-      "zh": "匈牙利政府近年高調推動電動車產業鏈建設，試圖借電動車轉型浪潮躍升為全球第二大電池製造國。這項政策背後隱藏著深層的政治算計——右翼政府將氣候變遷否定論轉化為「偽環保主義」，用綠色名義掩蓋經濟擴張與民族主義動員。然而，這場被稱為「CATL德布勒森 Gigafactory」的巨型電池工廠爭議，卻引發了社會激烈分裂：支持者與反對者皆以民族主義、排外言辭爭奪民意，甚至將生態議題扭曲為政治攻訐的工具。文章指出，這種「極右政治生態學」並非真為環境，而是將生態議題工具化，透過製造「敵人」強化自身立場，重現了執政聯盟Fidesz-KDNP慣用的「我們vs他們」恐懼營銷策略。",
-      "en": "Hungary’s far-right government has aggressively positioned itself at the heart of the electric vehicle transition, aiming to become the world’s second-largest battery manufacturer. This ambition, however, is less about genuine climate action and more about leveraging pseudo-environmentalism to advance economic expansion and nationalist mobilization. The proposed CATL gigafactory in Debrecen—a centerpiece of Hungary’s industrial strategy—has ignited fierce societal polarization. Supporters and opponents alike deploy exclusionary rhetoric, framing the debate through nationalist and xenophobic lenses. The article reveals how both sides exploit environmentalism as a tactical facade, weaponizing ecological concerns to serve non-environmental agendas. This phenomenon, termed ‘far-right political ecology,’ hinges on strategic enemy-creation: by invoking fear of external threats, authorities and critics alike reinforce an ‘us versus them’ narrative, echoing the rhetorical playbook of the ruling Fidesz-KDNP coalition."
+      "zh": "匈牙利極右政府正將電動車轉型視為經濟機會，試圖透過德布勒森的CATL巨型電池工廠成為全球第二大電池生產國。這項計畫看似契合「綠色轉型」，實則是氣候否定論者轉身的政權，將經濟利益與偽綠色論述結合的策略。政府透過此項投資鞏固其經濟民族主義，同時掩蓋對氣候變遷的否定立場。\n\n然而，工廠建設引發社會激烈對立。支持者與反對者皆動用國族主義、排外與恐懼言論來爭取民意，雙方都試圖「偽裝」成環保派。這場辯論被歸類為「極右政治生態學」，揭示環境議題如何被用來服務非生態目的：支持者將工廠描述為綠色解決方案，反對者則以環境危機為由反對，但兩者都透過「我們 vs 他們」的二元對立，強化對立情緒。\n\n文章指出，環境主義在此是「條件式」的—— ecological issues are used to support other-than-ecological agendas。這種「敵人創造」策略，正是Fidesz-KDNP長期使用的論述工具，將電池爭議轉化為政治攻防。儘管科學批評與公眾反對聲浪不斷，工廠仍持續建設，電動車發展仍是匈牙利政府的核心政策。",
+      "en": "Hungary's far-right government, led by the Fidesz-KDNP coalition, has aggressively pursued the CATL gigafactory in Debrecen as part of its ambition to become the world's second-largest battery manufacturing hub. This strategy, however, is not driven by environmental concerns but by a calculated blend of economic nationalism and pseudo-environmentalism, as the government's climate denialist roots have been rebranded to align with the global e-mobility transition. The article examines how this initiative has sparked intense socio-political conflict, with both supporters and opponents leveraging nationalist, exclusionary, and xenophobic narratives to sway public opinion.\n\nConceptualized as a 'far-right political ecology,' the debate reveals how environmentalism becomes a conditional tool: ecological rhetoric is weaponized to advance non-environmental agendas. Proponents frame the factory as a green solution, while opponents use environmental concerns to oppose it, yet both sides engage in fear-based 'us vs them' rhetoric reminiscent of the government's traditional tactics. This strategic use of enemy creation undermines genuine ecological discourse, turning the battery debate into a proxy for deeper political divisions.\n\nDespite significant scientific criticism and public opposition, the gigafactory's construction has proceeded, underscoring the government's unwavering commitment to e-mobility as a cornerstone of its political strategy. The study suggests that while environmental issues are central to the discourse, they serve primarily as a vehicle for broader ideological battles, highlighting the perils of instrumentalizing ecological concerns in polarized political landscapes."
     },
     "keyArticle": {
       "title": "Far right political ecologies and the battery sector: The case of the CATL gigafactory in Debrecen, Hungary",
@@ -33,7 +33,7 @@
   },
   "_meta": {
     "summary_mode": "abstract-only",
-    "created_at": "2026-03-04T13:06:05.643621+00:00",
+    "created_at": "2026-03-06T08:26:27.937703+00:00",
     "source": "openalex"
   }
 }

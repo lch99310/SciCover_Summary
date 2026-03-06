@@ -5,17 +5,17 @@
   "issue": "6785",
   "date": "2026-02-05",
   "coverImage": {
-    "url": "data/images/science/science-2026-02-05-cover.jpg",
+    "url": "",
     "credit": ""
   },
   "coverStory": {
     "title": {
-      "zh": "100公里量子密鑰分發突破！單原子站點實現「無設備認證」安全通訊",
-      "en": "Quantum Keys Across 100 Kilometers: How Single Atoms Became the Secret to Unbreakable Encryption"
+      "zh": "100公里量子密鑰傳輸新突破：單原子「量子接力」讓加密更安全",
+      "en": "Quantum Leap Across 100 Kilometers: How Single Atoms Are Revolutionizing Unhackable Encryption"
     },
     "summary": {
-      "zh": "【總結】這項突破性研究成功實現「無設備認證」量子密鑰分發（DI-QKD）跨越100公里，首次將量子網絡從實驗室推向城市級應用。傳統量子加密需信任設備，而DI-QKD透過量子力學原理（貝爾不等式 violation）自證安全，即使設備被竊聽也能防護。研究團隊解決三大難題：用「里德堡原子發光」抑制光子反衝破壞量子糾纏；透過量子頻率轉換將780nm光轉為1315nm低損耗通訊波長；以「單光子干擾」取代傳統雙光子干預，效率提升兩倍。這不僅讓量子加密首次適用於城市光纖網路，更為未來量子互聯網奠定基礎。\n\n【研究問題】過去DI-QKD僅能實現3.5米（離子）或數百米（原子）距離，因光纖衰減、原子反衝效應及雜訊破壞量子糾纏品質。實驗室成果與現實應用間存在巨大鴻溝：城市網路需10-100公里傳輸，但傳統方案在長距離下關鍵率歸零，無法滿足實際通訊需求。如何維持高品質量子關聯？如何抵禦光纖衰減？如何避免設備被竊聽？這些問題困擾量子加密領域二十年。\n\n【研究方法】團隊設計三重突破：首先，開發「里德堡原子發光」技術，將原子激發至高能態後精準控制光子發射，使原子反衝效應降至最低，如同為原子配備「量子減震器」；其次，用量子頻率轉換將780nm光轉為1315nm，將光纖衰減從3dB/km降至0.32dB/km，如同為光子裝上「高速公路專用引擎」；最後，採用單光子干擾技術，單次偵測即可完成量子糾纏，使生成速率比傳統方案高一倍。所有操作均在單原子級完成，如同為量子網路量身打造「精準外科手術」。\n\n【結果】實驗連續624小時運作，11公里距離下產生120萬次量子糾纏事件，安全密鑰產出率達0.112比特/事件（0.06比特/秒）。即使在100公里處，量子糾纏保真度仍維持在0.9以上，遠超DI-QKD最低要求。CHSH參數測得2.612，證實量子非定域性持續存在。這標誌著首個具備實際應用價值的都市級DI-QKD系統，未來10公里網路可達10千赫茲速率，為城市量子通信網鋪路。",
-      "en": "**Summary:** This study achieves a milestone in quantum communication: device-independent quantum key distribution (DI-QKD) over 100 kilometers using single atoms as quantum nodes. Unlike conventional quantum cryptography, DI-QKD’s security is rooted in quantum mechanics itself, requiring no trust in the hardware. By overcoming three fundamental challenges—fiber loss, atomic recoil effects, and signal noise—the team has transformed DI-QKD from a laboratory curiosity into a practical technology for securing communications across metropolitan areas. This breakthrough bridges the gap between proof-of-concept experiments and real-world applications, offering a pathway to unbreakable encryption against future quantum computing threats.\n\n**Problem:** For decades, DI-QKD remained confined to short-distance laboratory demonstrations. Previous efforts could only achieve positive key rates over 3.5 meters with trapped ions or a few hundred meters with atoms, as fiber loss and measurement noise degraded entanglement quality. The critical gap was the inability to maintain high-fidelity quantum correlations over distances relevant to city-wide networks. Without solving these issues, DI-QKD remained a theoretical concept rather than a practical tool for securing communications against quantum attacks.\n\n**Approach:** The researchers implemented three innovative solutions. First, they developed a Rydberg-based single-photon emission scheme to suppress atomic recoil effects that normally compromise entanglement quality. Second, they used quantum frequency conversion to shift 780nm photons to 1315nm telecom wavelengths, reducing fiber loss from 3dB/km to 0.32dB/km. Third, they employed single-photon interference (SPI) instead of two-photon interference, which doubles the entanglement rate. To maintain atomic coherence during the 100km journey, they applied dynamical decoupling techniques as quantum \"stabilizers\".\n\n**Results:** Over 624 hours of operation, the system generated 1.2 million heralded Bell pairs at 11km, yielding a secure key rate of 0.112 bits per event—enough for a 135.3kbit key. Most notably, entanglement fidelity remained above 0.9 even at 100km, exceeding DI-QKD requirements. The CHSH violation of 2.612 demonstrated robust nonlocal correlations. This marks the first practical demonstration of DI-QKD for metropolitan areas, with potential to scale to 10kHz rates at 10km. The work sets the stage for city-wide quantum networks that could withstand even the most advanced hacking attempts."
+      "zh": "【總結】這項研究首次實現了100公里距離的設備無關量子密鑰分發（DI-QKD），突破了傳統量子通信的距離極限。研究團隊通過單原子量子記憶節點與量子頻率轉換技術，成功讓「量子接力」跨越城市距離，為實用化量子互聯網鋪路。實驗中，他們不僅維持了超過90%的量子態 fidelity，還在11公里距離實現了每秒0.06比特的安全密鑰生成，標誌著量子加密從實驗室邁向現實應用的關鍵一步。\n\n【研究問題】過去的DI-QKD實驗僅能在實驗室短距離（如3.5米）實現，關鍵瓶頸在於長距離傳輸時，光子損耗、原子反衝效應和背景雜訊會嚴重破壞量子態 fidelity。傳統方案無法同時滿足「高保真度」和「低損耗」需求，導致量子密鑰分發無法在真實城市環境中運作。解決這個問題，是實現未來安全通信網路的關鍵。\n\n【研究方法】研究團隊設計了三重創新：首先，用「里德堡原子」技術將光子生成與激發脈衝時序分離，大幅抑制原子反衝效應；其次，將780nm的原子發射光轉換為1315nm的低損耗通訊波段，使纖維衰減從3dB/km降至0.32dB/km；最後，採用「單光子干涉」技術替代傳統雙光子干預，將遠程糾纏生成速率提升數十倍。這些技術如同為量子通信搭建了一套「超級接力賽」系統。\n\n【結果】實驗顯示，在11公里距離下，624小時內生成120萬個量子糾纏事件，每事件可提取0.112比特安全密鑰；100公里距離下，量子態 fidelity仍維持在0.91以上。更令人驚訝的是，即使考慮實際環境雜訊，系統仍能實現正向安全密鑰率。這意味著未來城市間的量子通信將無需依賴可信中間節點，直接實現『從原子到原子』的端到端加密。",
+      "en": "**Summary:** This groundbreaking research achieves device-independent quantum key distribution (DI-QKD) over 100 kilometers—a milestone that bridges the gap between theoretical quantum communication and real-world applications. By linking single-atom quantum memory nodes with telecom-band quantum frequency conversion, the team has created a 'quantum relay' system that maintains high-fidelity entanglement across metropolitan distances. At 11 km, they generated 1.2 million heralded entanglement events, yielding a finite-size secure key rate of 0.112 bits per event—enough for practical encryption at 0.06 bits per second. This work marks a pivotal step toward a global quantum internet where security is guaranteed by the laws of physics alone.\n\n**Problem:** For decades, DI-QKD experiments were confined to laboratory settings with distances under 10 meters. The core challenge was maintaining quantum state fidelity over fiber networks: photon loss, atomic recoil effects, and background noise collectively destroyed entanglement at longer ranges. Previous approaches either failed to reach metropolitan scales or required trusted devices, undermining the 'device-independent' promise of quantum cryptography. Solving this problem was essential for creating truly secure communication networks in the real world.\n\n**Approach:** The team engineered a three-pronged solution. First, they developed a Rydberg-based photon emission scheme that suppresses atomic recoil without adding noise—a critical innovation that preserves photon coherence. Second, quantum frequency conversion shifted 780-nm atomic emissions to the low-loss 1315-nm telecom band, reducing fiber attenuation by 90%. Third, single-photon interference (SPI) replaced traditional two-photon interference, boosting entanglement generation rates by orders of magnitude. Together, these techniques function like a quantum relay race, where atoms 'pass' entanglement through optical fibers with unprecedented efficiency.\n\n**Results:** The system maintained entanglement fidelity above 0.9 across all tested distances up to 100 km. At 11 km, the quantum bit error rate (QBER) was just 2.85%, with a CHSH violation of 2.612—clear evidence of quantum nonlocality. Crucially, the finite-size key rate reached 0.112 bits per event, translating to 135.3 kilobits of secure keys over 624 hours. These results prove that DI-QKD can operate at metropolitan scales without relying on trusted nodes, paving the way for city-to-city quantum-secured communication networks."
     },
     "keyArticle": {
       "title": "Device-independent quantum key distribution over 100 km with single atoms",
@@ -42,15 +42,7 @@
       "doi": "10.1126/science.aec6243",
       "pages": "592-597"
     },
-    "images": [
-      {
-        "url": "data/images/science/science-2026-02-05-cover.jpg",
-        "caption": {
-          "zh": "",
-          "en": ""
-        }
-      }
-    ],
+    "images": [],
     "links": {
       "official": "https://doi.org/10.1126/science.aec6243",
       "doi": "https://doi.org/10.1126/science.aec6243",
@@ -59,7 +51,7 @@
   },
   "_meta": {
     "summary_mode": "full-text",
-    "created_at": "2026-03-04T13:04:35.091328+00:00",
+    "created_at": "2026-03-06T08:23:40.355971+00:00",
     "source": "openalex"
   }
 }
