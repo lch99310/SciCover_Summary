@@ -1,0 +1,60 @@
+{
+  "id": "cell-2026-01-28",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "4",
+  "date": "2026-01-28",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "RFC不放手！DNA複製的隱形支架如何讓聚合酶持續工作",
+      "en": "The Unseen Scaffold: How RFC Stays Put to Keep DNA Replication Running"
+    },
+    "summary": {
+      "zh": "【總結】這項研究顛覆了傳統觀點：複製因子C（RFC）在將增殖細胞核抗原（PCNA）載入DNA後，並非如學界長期認知般立即釋放，而是與PCNA形成長壽命的CLC複合體，成為DNA聚合酶δ（Polδ）進行持續性合成的隱形支架。實驗證明，PCNA-Polδ組合本質上不穩定，而RFC的持續存在可穩定此複合體，大幅提升DNA合成效率。這項發現不僅揭示PCNA結合蛋白的非催化功能，更為理解基因組維護機制提供了新視角。\n\n【研究問題】過去研究認為RFC僅作為暫時性夾鉗裝載器，完成PCNA載入後即脫離DNA。然而，實驗中發現PCNA-Polδ在複製過程中頻繁脫離，這暴露了傳統模型的盲點：未解釋為何持續性DNA合成能高效進行。此問題直接關聯基因組穩定性，若無法理解PCNA-Polδ的穩定機制，將阻礙癌症治療與DNA修復研究。\n\n【研究方法】研究團隊設計單分子實驗平台，將含3-kb單鏈缺口的DNA鏈固定於光學夾持的微珠間，並以雙色掃描共聚焦顯微鏡追蹤PCNA和RFC的動態。通過對比完整RFC與缺失BRCT結構域的突變體（RFCΔBRCT），結合單分子力學測量與螢光標記技術，精確捕捉CLC複合體的形成與運作機制。實驗還引入FEN1蛋白，驗證其是否能替代RFC的結構功能。\n\n【結果】數據顯示，使用完整RFC時，90%的實驗中CLC複合體持續存在（9/10 tethers），而RFCΔBRCT組僅20%（2/10 tethers）。當RFC缺失BRCT結構域時，DNA合成停滯時間從20%暴增至50%，且350秒內完成3-kb單鏈缺口填補的實驗比例從100%降至50%。更關鍵的是，FEN1可完全恢復RFCΔBRCT的缺陷，證明非催化功能的冗餘性。體外實驗與酵母基因體分析均證實，BRCT結構域的DNA結合殘基突變會導致細胞對基因毒性物質敏感，印證了其生物學重要性。",
+      "en": "**Summary:** This study overturns a decades-old assumption: replication factor C (RFC) does not dissociate from DNA after loading proliferating cell nuclear antigen (PCNA), as previously thought. Instead, it remains bound as a long-lived CLC complex (clamp-loader/clamp), acting as a structural scaffold that stabilizes the inherently unstable PCNA-Polδ interaction during DNA synthesis. This non-catalytic role enables processive DNA replication—explaining how the cell maintains genome integrity despite the fragility of these molecular partnerships.\n\n**Problem:** For years, the textbook model held that RFC functions only as a transient clamp loader, releasing PCNA after deposition. Yet experiments revealed that PCNA-Polδ complexes frequently dissociate during replication, raising a critical question: how does the cell maintain processive synthesis? This gap in understanding hindered efforts to decode replication fidelity, a key factor in cancer and aging research.\n\n**Approach:** Researchers developed a single-molecule platform using optical tweezers and dual-color fluorescence microscopy to track PCNA and RFC dynamics on DNA. They engineered a gapped DNA substrate with a 3-kb single-stranded region and measured protein behavior in real time. By comparing wild-type RFC with a BRCT domain mutant (RFCΔBRCT), they isolated the structural role of RFC. They also tested whether FEN1, another PCNA-binding protein, could compensate for RFC's absence.\n\n**Results:** In 9 out of 10 tethers with full-length RFC, CLC complexes persisted during synthesis, while 0 out of 10 with RFCΔBRCT showed co-association. Synthesis stalled 50% of the time with the mutant (vs. 20% with wild-type), and only half of trajectories completed the 3-kb gap fill-in within 350 seconds. Remarkably, adding FEN1 restored processivity to RFCΔBRCT levels. Genetic studies confirmed that yeast with BRCT mutations became sensitive to genotoxic stress, proving this mechanism’s biological relevance."
+    },
+    "keyArticle": {
+      "title": "A non-catalytic role for RFC in PCNA-mediated processive DNA synthesis",
+      "authors": [
+        "Gabriella N. L. Chua",
+        "Emily C. Beckwitt",
+        "Victoria Miller-Browne",
+        "Olga Yurieva",
+        "D. Zhang",
+        "Bryce J. Katch",
+        "Nina Y. Yao",
+        "John W. Watters",
+        "Kaitlin Abrantes",
+        "Ryogo Funabiki",
+        "Xiaolan Zhao",
+        "Michael E O'Donnell",
+        "Shixin Liu"
+      ],
+      "doi": "10.1016/j.cell.2025.12.029",
+      "pages": "1124-1134.e14"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.029",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.029",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.08.08.669392"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:34:51.020143+00:00",
+    "source": "openalex"
+  }
+}

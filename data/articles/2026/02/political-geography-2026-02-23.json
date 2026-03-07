@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-02-23",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-23",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-02-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "太陽能戰爭：以色列與巴勒斯坦的能源國安角力",
+      "en": "Sunlight as a Shield: How Solar Power Became a Weapon in Israel-Palestine Conflict"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開太陽能如何從綠色能源變身為戰略武器——以色列、巴勒斯坦權力機構與哈瑪斯三方在衝突中，將太陽能視為「國安」工具，用以鞏固領土控制與政治主權。研究突破點在於揭示：當傳統能源網路被用作政治壓制工具時，太陽能的「去中心化」特性反而成為戰略優勢。這不僅改變了能源政策的思維，更讓我們看見，能源基建與國家主權的辯證關係正重塑戰爭邏輯。研究價值在於，它為全球衝突地區提供了一個全新視角：能源不僅是民生問題，更是地緣政治的關鍵戰場。\n\n【研究問題】過去學界普遍認為，領土衝突會阻礙再生能源推廣（如烏克蘭、索馬里案例），但本研究發現以色列-巴勒斯坦衝突反而加速了太陽能應用。這與「能源安全」與「領土主權」的緊密聯繫有關。過去研究忽略了衝突地區的特殊動態，例如：以色列如何將太陽能視為「戰時韌性」，巴勒斯坦如何用太陽能作為「國族建構」工具，以及哈瑪斯如何將太陽能轉化為「抵抗象徵」。為何這問題至關重要？因為能源戰略正成為新一輪地緣政治博弈的關鍵場域。\n\n【研究方法】作者採用混合研究方法：首先分析2020-2025年的政策文件、技術報告與國際組織報告，鎖定能源基建與領土控制的交集；其次對16位政策制定者、政府官員與國際組織代表進行深度訪談，包括以色列能源部官員、巴勒斯坦能源機構成員及聯合國代表。研究特別關注「太陽能如何被賦予安全意涵」：例如以色列將太陽能視為「戰時韌性」，巴勒斯坦視之為「國家建構」，哈瑪斯則強調「抵抗工具」。這種「框架分析」揭示了各國如何將能源技術轉化為政治工具。\n\n【結果】數據顯示，以色列2024年太陽能發電占比達13%（2019年僅5%），並加速推進「太陽能圍牆」等戰略項目；巴勒斯坦西岸地區太陽能容量從2018年的30MW飆升至2023年的120MW，其中「諾爾傑里科太陽能園」（7.5MW）被用於鞏固邊緣領土控制；加薩地帶的屋頂太陽能從2012年的12處擴展到2019年的8700處，2019年白天供電量達25%。這些數字背後，是各方將太陽能「安全化」的戰略選擇——以色列用太陽能抵禦火箭攻擊，巴勒斯坦用太陽能維繫國家形象，哈瑪斯則用太陽能強化抵抗合法性。此現象將深刻影響全球衝突地區的能源政策走向。",
+      "en": "**Summary:** This study reveals how solar energy has transformed from a green solution into a strategic weapon in the Israeli-Palestinian conflict, with Israel, the Palestinian Authority, and Hamas using it to advance national security goals. The breakthrough lies in showing that when traditional energy networks become political tools of control, solar's decentralized nature becomes a strategic advantage. This reframes energy policy as a geopolitical battleground where infrastructure and sovereignty are deeply intertwined. The significance is profound: energy is no longer just about electricity—it's about territorial control, national identity, and survival in conflict zones.\n\n**Problem:** While scholars typically view territorial conflicts as inhibitors of renewable energy adoption (e.g., Ukraine, Somalia), this research uncovers how the Israeli-Palestinian conflict uniquely accelerated solar deployment for security purposes. Prior studies overlooked how conflict creates new opportunities for energy technology to serve strategic goals. The gap was understanding why solar became a security tool here but not in other conflicts, particularly how energy infrastructure became central to sovereignty claims and territorial control. This matters because energy security is increasingly shaping modern conflicts, yet few studies have analyzed its strategic dimensions.\n\n**Approach:** The research combines policy analysis with elite interviews to trace how solar projects are designed around security imperatives. Document analysis examined 2020-2025 policy papers, technical reports, and international organization documents to identify energy-security linkages. The team conducted 16 semi-structured interviews with Israeli and Palestinian policymakers, international donors, and energy sector officials, focusing on how solar was framed as security asset or vulnerability. This mixed-method approach revealed how each actor's security concerns dictated project design, location, and financing—showing solar as a tool of statecraft rather than just environmental policy.\n\n**Results:** Israel's solar share jumped from 5% to 13% between 2019-2024, with strategic projects like the Ashalim Solar Park and proposed "
+    },
+    "keyArticle": {
+      "title": "Solar energy as national security in the Israeli-Palestinian conflict",
+      "authors": [
+        "Elai Rettig"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103523",
+      "pages": "103523"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-02-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103523",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103523"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:35:47.502592+00:00",
+    "source": "openalex"
+  }
+}

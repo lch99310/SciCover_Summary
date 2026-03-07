@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T02:06:57.073145+00:00",
+  "lastUpdated": "2026-03-07T03:37:05.616189+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -9,6 +9,15 @@
       "title_zh": "6兆種減碳組合！普通人也能當氣候行動的主角",
       "title_en": "6 Trillion Paths to 1.5°C: How Everyday Choices Can Shape Climate Action",
       "cover_url": ""
+    },
+    {
+      "id": "nature-2026-03-04-02",
+      "journal": "Nature",
+      "date": "2026-03-04",
+      "path": "articles/2026/03/nature-2026-03-04-02.json",
+      "title_zh": "4.36億年「魚中元祖」現身！這條小魚改寫脊椎動物演化史",
+      "title_en": "The Fish That Rewrote Evolution: How a Tiny Silurian Fossil Changes Our Understanding of Vertebrate Origins",
+      "cover_url": "data/images/nature/nature-2026-03-04-02-cover.jpg"
     },
     {
       "id": "nature-2026-03-04",
@@ -36,15 +45,6 @@
       "title_zh": "匈牙利CATL工廠爭議：極右派政治生態學如何操弄綠色能源轉型",
       "title_en": "The Green Mirage: How Hungary's Far Right Weaponized Battery Politics",
       "cover_url": "data/images/political-geography/political-geography-2026-02-27-cover.jpg"
-    },
-    {
-      "id": "science-2026-02-26-02",
-      "journal": "Science",
-      "date": "2026-02-26",
-      "path": "articles/2026/02/science-2026-02-26-02.json",
-      "title_zh": "細胞內的溫度密碼：哺乳類從夜行到日行的演化關鍵",
-      "title_en": "How Mammals Switched from Night to Day: A Cellular Thermodynamic Key",
-      "cover_url": ""
     },
     {
       "id": "science-2026-02-26",
@@ -78,9 +78,9 @@
       "journal": "Political Geography",
       "date": "2026-02-23",
       "path": "articles/2026/02/political-geography-2026-02-23.json",
-      "title_zh": "太陽能變戰爭武器？以色列與巴勒斯坦的能源安全角力",
-      "title_en": "Solar Power as a Shield: How Energy Became a Weapon in Israel-Palestine Conflict",
-      "cover_url": ""
+      "title_zh": "太陽能戰爭：以色列與巴勒斯坦的能源國安角力",
+      "title_en": "Sunlight as a Shield: How Solar Power Became a Weapon in Israel-Palestine Conflict",
+      "cover_url": "data/images/political-geography/political-geography-2026-02-23-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-21",
@@ -153,6 +153,15 @@
       "title_zh": "山脊上的凝視：阿爾卑斯邊境的視覺霸權與移動追捕",
       "title_en": "The Mountain's Gaze: Visual Domination and the Geography of Pursuit in the Alps",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-02-12-02",
+      "journal": "Science",
+      "date": "2026-02-12",
+      "path": "articles/2026/02/science-2026-02-12-02.json",
+      "title_zh": "真菌「壓力盾牌」新解：兩種酵素合成特殊聚合物，讓病菌突破植物防線",
+      "title_en": "How Fungi Build Pressure-Proof Shields: A New Mechanism for Plant Invasion",
+      "cover_url": "data/images/science/science-2026-02-12-02-cover.jpg"
     },
     {
       "id": "science-2026-02-12",
@@ -254,15 +263,6 @@
       "cover_url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg"
     },
     {
-      "id": "cell-2026-01-29",
-      "journal": "Cell",
-      "date": "2026-01-29",
-      "path": "articles/2026/01/cell-2026-01-29.json",
-      "title_zh": "大腦「過度警戒」的密碼：眶額葉伽馬波動與強迫症的瞬間對話",
-      "title_en": "The Brain's Hidden Rhythm: How Gamma Waves in the Orbitofrontal Cortex Drive Obsessive-Compulsive Behaviors",
-      "cover_url": ""
-    },
-    {
       "id": "science-2026-01-29",
       "journal": "Science",
       "date": "2026-01-29",
@@ -294,9 +294,9 @@
       "journal": "Cell",
       "date": "2026-01-28",
       "path": "articles/2026/01/cell-2026-01-28.json",
-      "title_zh": "驚人發現！DNA複製的'隱形搭檔'——RFC竟在完成任務後仍緊緊相隨",
-      "title_en": "The Unexpected Lifeguard: How RFC's Non-Catalytic Role Keeps DNA Replication on Track",
-      "cover_url": ""
+      "title_zh": "RFC不放手！DNA複製的隱形支架如何讓聚合酶持續工作",
+      "title_en": "The Unseen Scaffold: How RFC Stays Put to Keep DNA Replication Running",
+      "cover_url": "data/images/cell/cell-2026-01-28-cover.jpg"
     },
     {
       "id": "nature-2026-01-28",
@@ -341,15 +341,6 @@
       "path": "articles/2026/01/cell-2026-01-22.json",
       "title_zh": "神經退化疾病的「隱形地圖」：溶酶體細胞地圖揭開SLC45A1新秘密",
       "title_en": "The Brain’s Lysosome Map: How SLC45A1 Rewrites Neurodegenerative Disease",
-      "cover_url": ""
-    },
-    {
-      "id": "political-geography-2026-01-22",
-      "journal": "Political Geography",
-      "date": "2026-01-22",
-      "path": "articles/2026/01/political-geography-2026-01-22.json",
-      "title_zh": "尼日利亞民兵的生死密碼：社區凝聚力如何決定自衛成效？",
-      "title_en": "The Double-Edged Sword of Civilian Militias: Community Capacity Determines Survival in Nigeria's Boko Haram Conflict",
       "cover_url": ""
     },
     {
@@ -657,6 +648,15 @@
       "title_zh": "川普2.0回歸掀氣候政治巨浪：'氣候現實主義'能否破解全球暖化困境？",
       "title_en": "The Trump Era's Climate Shift: Why 'Climate Realism' Fails to Solve the Global Crisis",
       "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20-10",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-10.json",
+      "title_zh": "從『王室外交』看未來世界秩序：特朗普如何重寫國際遊戲規則？",
+      "title_en": "The New Royal Order: How Trump's Personal Rule Is Reshaping Global Power",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-10-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",

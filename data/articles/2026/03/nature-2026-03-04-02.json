@@ -1,0 +1,58 @@
+{
+  "id": "nature-2026-03-04-02",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8104",
+  "date": "2026-03-04",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-04-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "4.36億年「魚中元祖」現身！這條小魚改寫脊椎動物演化史",
+      "en": "The Fish That Rewrote Evolution: How a Tiny Silurian Fossil Changes Our Understanding of Vertebrate Origins"
+    },
+    "summary": {
+      "zh": "【總結】：這項Nature研究揭開4.36億年前的驚人發現——全球最古老的完整骨魚化石！這條名為Eosteus chongqingensis的小魚，不僅刷新骨魚演化時間線，更像一把鑰匙打開演化謎題。重慶化石寶庫中發現的這具拇指大小魚化石，承載著「原始+進化」雙重特徵：既保留原始骨魚的背鰭骨板，又出現輻鰭魚特有的單一背鰭與尾部支撐結構。這發現填補了史前魚類演化關鍵缺口，證明骨魚早期分化遠比想像複雜，直接動搖了傳統演化時間線。【研究問題】：過去學界困擾於「骨魚起源之謎」——雖然骨魚如今主宰水域生態，但志留紀早期化石記錄幾乎空白。最古老骨魚化石僅能追溯到志留紀晚期，輻鰭魚完整化石則要等到泥盆紀中期，這段「演化真空期」讓科學家難以解釋骨魚如何快速分化。【研究方法】：研究團隊從重慶特異埋藏層精細採集化石，運用CT掃描、顯微鏡和3D重建解析微觀結構。整合50多種形態特徵，通過最大 parsimony 和貝葉斯分析繪製演化樹。這就像用「演化地圖」將小魚精準定位在骨魚演化支上。【結果】：關鍵發現包括：1）無輻鰭魚特徵鱗棘，卻保留原始骨魚背鰭骨板；2）尾部支撐結構與單一背鰭符合輻鰭魚特徵。數據顯示骨魚志留紀多樣性遠超預期，至少5種演化路徑同時存在。意味著骨魚早期輻射可能在數百萬年內完成，遠比以往認為的快速，未來需重新評估脊椎動物演化時間線。",
+      "en": "**Summary:** A 436-million-year-old fossil fish discovered in China has shattered the long-held belief that bony fish (osteichthyans) began their evolutionary journey only in the late Silurian period. This tiny, nearly complete specimen—named *Eosteus chongqingensis*—represents the oldest articulated osteichthyan fossil ever found, rewriting the timeline of vertebrate evolution. Unlike earlier discoveries, which were limited to fragmented remains or later geological periods, this fossil preserves a full body plan, including delicate features like fin spines and a unique skull structure. Its mosaic of primitive and derived traits suggests that the evolutionary split between ray-finned and lobe-finned fish may have occurred much earlier than previously thought, fundamentally altering our understanding of how vertebrates diversified during the Paleozoic Era. **Problem:** For decades, paleontologists have struggled to explain the origins of bony fish, which now dominate nearly all aquatic ecosystems. The fossil record prior to the Devonian period was so sparse that the earliest known articulated osteichthyan fossils dated to the late Silurian, while actinopterygians (ray-finned fish) only appeared fully in the Middle Devonian. This gap left a critical question: how did bony fish evolve and diversify so rapidly? Without evidence of early forms, scientists could only speculate about the timing and mechanisms of this evolutionary radiation. **Approach:** The team meticulously analyzed a fossil from the Chongqing Lagerstätte, a site renowned for exceptional preservation. Using high-resolution CT scans, scanning electron microscopy, and 3D reconstructions, they documented minute anatomical details, including the absence of lepidotrichia (bony fin rays) and the presence of serial dorsal plates. They then integrated these observations into a phylogenetic framework using both maximum-parsimony and Bayesian methods, comparing over 50 morphological traits with other ancient vertebrates. This multi-pronged approach allowed them to place the fossil within the broader context of vertebrate evolution. **Results:** The fossil’s unique combination of features—such as a fusiform body, a single dorsal fin, and caudal fulcra—suggests it represents an early stage in the osteichthyan lineage, potentially on the stem leading to both ray-finned and lobe-finned fish. Bayesian analysis placed it firmly within the osteichthyan stem group, while parsimony analyses left its position unresolved. Most strikingly, the data indicate that morphological disparity among early osteichthyans was far greater than previously assumed, implying a rapid and extensive diversification during the Silurian period. This discovery challenges the traditional view of a slow, gradual radiation and suggests that bony fish may have evolved complex body plans much earlier than we thought."
+    },
+    "keyArticle": {
+      "title": "The oldest articulated bony fish from the early Silurian period",
+      "authors": [
+        "You-an Zhu",
+        "Yang Chen",
+        "Qiang Li",
+        "Wen-Jin Zhao",
+        "Zheng-Da Zhou",
+        "Liantao Jia",
+        "Yi-Lun Yu",
+        "Han-Xin Yu",
+        "Guang-biao Wei",
+        "Per E. Ahlberg",
+        "Jing Lu",
+        "Min Zhu"
+      ],
+      "doi": "10.1038/s41586-026-10125-2",
+      "pages": "128-134"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-04-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10125-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10125-2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:33:49.058595+00:00",
+    "source": "openalex"
+  }
+}

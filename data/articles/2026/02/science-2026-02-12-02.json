@@ -1,0 +1,65 @@
+{
+  "id": "science-2026-02-12-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6786",
+  "date": "2026-02-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-12-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "真菌「壓力盾牌」新解：兩種酵素合成特殊聚合物，讓病菌突破植物防線",
+      "en": "How Fungi Build Pressure-Proof Shields: A New Mechanism for Plant Invasion"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開植物病原真菌入侵植物的關鍵機制：兩種酵素「PKS2」和「PBG13」合成3,5-二羥基己酸（DHHA）聚合物，形成細胞壁的半透膜屏障。當病原真菌形成吸器（appressoria）時，這些聚合物使細胞壁具有選擇性通透性，允許水分進入卻阻擋溶質滲漏，從而建立高滲透壓（約3.7 MPa），像微型水壓機一樣頂破植物表皮。這不僅挑戰了過去認為「黑色素是唯一關鍵因素」的觀點，更為農業病害防治提供了全新靶點，可能幫助應對全球糧食安全威脅。",
+      "en": "**Summary:** This study uncovers a groundbreaking mechanism by which plant-pathogenic fungi generate turgor pressure to breach host surfaces: the enzymes PKS2 and PBG13 synthesize 3,5-dihydroxyhexanoic acid (DHHA) polymers that form a semipermeable barrier in appressoria cell walls. These polymers allow water influx while blocking osmolyte leakage, creating a pressure of ~3.7 MPa—enough to rupture plant epidermis like a microscopic hydraulic jack. Challenging the long-held view that melanin alone enables turgor generation, this discovery opens new avenues for controlling devastating crop diseases that threaten global food security."
+    },
+    "keyArticle": {
+      "title": "Dihydroxyhexanoic acid biosynthesis controls turgor in pathogenic fungi",
+      "authors": [
+        "Naoyoshi Kumakura",
+        "Takayuki Motoyama",
+        "Keisuke Miyazawa",
+        "Toshihiko Nogawa",
+        "Julien Pernier",
+        "Katsuma Yonehara",
+        "Mayuko Sato",
+        "Yumi Goto",
+        "Kaori Sakai",
+        "Nobuaki Ishihama",
+        "K. MATSUMORI",
+        "Pamela Gan",
+        "Kiminori Toyooka",
+        "Sandrine Lévêque‐Fort",
+        "Hiroyuki Koshino",
+        "Takeshi Fukuma",
+        "Richard J. O’Connell",
+        "Ken Shirasu"
+      ],
+      "doi": "10.1126/science.aec9443",
+      "pages": "700-706"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-12-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aec9443",
+      "doi": "https://doi.org/10.1126/science.aec9443",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.08.07.606736"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:32:44.863182+00:00",
+    "source": "openalex"
+  }
+}
