@@ -230,16 +230,16 @@ class PipelineRunner:
             if unpaywall_pdf and unpaywall_pdf not in all_pdf_urls:
                 all_pdf_urls.append(unpaywall_pdf)
 
-        # For bioRxiv preprints: add the preprint PDF to the URL list.
-        if raw.preprint_url and "biorxiv.org" in raw.preprint_url:
+        # For bioRxiv/medRxiv preprints: add the preprint PDF to the URL list.
+        if raw.preprint_url and ("biorxiv.org" in raw.preprint_url or "medrxiv.org" in raw.preprint_url):
             from ..scraper.biorxiv_api import get_preprint_pdf_url
-            biorxiv_pdf = get_preprint_pdf_url(raw.preprint_url)
-            if biorxiv_pdf not in all_pdf_urls:
-                all_pdf_urls.insert(0, biorxiv_pdf)  # prioritise preprint PDF
+            preprint_pdf = get_preprint_pdf_url(raw.preprint_url)
+            if preprint_pdf not in all_pdf_urls:
+                all_pdf_urls.insert(0, preprint_pdf)  # prioritise preprint PDF
 
         # Determine the best URL for HTML image extraction: prefer preprint_url
-        # for bioRxiv (reliable og:image), then article_url.
-        if raw.preprint_url and "biorxiv.org" in raw.preprint_url:
+        # for bioRxiv/medRxiv (reliable og:image), then article_url.
+        if raw.preprint_url and ("biorxiv.org" in raw.preprint_url or "medrxiv.org" in raw.preprint_url):
             html_url_for_image = raw.preprint_url
         else:
             html_url_for_image = raw.article_url or raw.preprint_url or ""
