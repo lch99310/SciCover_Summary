@@ -1,0 +1,43 @@
+{
+  "id": "american-sociological-review-2025-11-22",
+  "journal": "American Sociological Review",
+  "volume": "90",
+  "issue": "6",
+  "date": "2025-11-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "平等的陰影：法國三代移民後裔的教育流動性與族裔階級差異",
+      "en": "Shades of Égalité: How France’s Third-Generation Immigrants Reveal a Racial Hierarchy in Education"
+    },
+    "summary": {
+      "zh": "法國向來以『平等』為國本，但移民後裔的代際教育流動性，卻揭開了國家敘事背後的陰影。這項研究聚焦第三代移民——即移民的孫輩，試圖回答一個關鍵問題：移民社會是否真正實現了『機會均等』？在法國，這個歐洲主要移民國長期宣揚『跨族裔平等』，但學界對第三世代的關注卻相對有限。研究者透過分析三代人（移民祖輩、父母輩、孫輩）的教育流動軌跡，揭示了更深刻的社會結構真相。\n\n研究發現，南歐移民後裔的孫輩在教育成就上逐漸追上本土家庭，甚至呈現出與 natives 相似的社會流動模式；然而北非移民後裔的孫輩卻始終面臨著教育劣勢，其流動路徑與本土家庭顯著不同。這並非短期障礙，而是深植於社會結構中的『族裔階級』——南歐移民因歷史、文化相近性逐漸融入，而北非移民則持續被系統性壁壘所困。法國的『平等』神話，在三代人的教育軌跡中，顯露出層層疊疊的陰影。\n\n這項研究挑戰了法國『機會均等』的國族敘事。當南歐移民後裔追上本土家庭時，北非移民卻仍在教育階梯上被拖累，這揭示出一個殘酷現實：族裔背景不僅影響起點，更可能決定終點。法國的教育體系並非真正的『無差別梯子』，而是被族裔的陰影所籠罩——部分族群能攀爬，而另一部分卻被牢牢固定在底層。",
+      "en": "France has long prided itself on the ideal of equality, yet the educational mobility of immigrant descendants reveals the shadows behind its national narrative. This study focuses on the third generation—the grandchildren of immigrants—to examine whether migration societies truly deliver equal opportunity. In France, a major European destination for immigrants, the state has long promoted the myth of ethnic equality, but research on the third generation has remained sparse. By analyzing three generations of families—immigrant grandparents, their children, and their grandchildren—the study uncovers deeper structural inequalities.\n\nThe findings show that grandchildren of Southern European immigrants achieve educational parity with native French families, mirroring their social mobility patterns. In contrast, the grandchildren of North African immigrants face persistent educational disadvantages, with distinct mobility trajectories that set them apart from natives. This disparity is not temporary but rooted in a durable ethnoracial hierarchy: Southern European descendants, due to historical and cultural proximity, gradually integrate into the mainstream, while North African descendants remain trapped by systemic barriers. France’s \"equality\" narrative cracks under the weight of intergenerational data.\n\nThis research challenges France’s foundational belief in equal opportunity. When Southern European descendants catch up to natives, North African descendants remain stuck in an educational underclass, revealing a harsh reality: ethnic background shapes not just starting points but life trajectories. France’s education system is not the \"equal ladder\" it claims to be, but a structure where some climb and others are left behind—its rungs marked by the enduring shadows of race and origin."
+    },
+    "keyArticle": {
+      "title": "Shades of <i>Égalité</i> : Educational Mobility and Ethnoracial Hierarchy Over Three Generations in France",
+      "authors": [
+        "Mathieu Ferry",
+        "Milan Bouchet-Valat",
+        "Lucas G. Drouhot",
+        "Mathieu Ichou",
+        "Ognjen Obućina"
+      ],
+      "doi": "10.1177/00031224251391760",
+      "pages": "985-1020"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251391760",
+      "doi": "https://doi.org/10.1177/00031224251391760"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-07T02:06:57.061058+00:00",
+    "source": "openalex"
+  }
+}

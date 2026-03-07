@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T21:24:30.234568+00:00",
+  "lastUpdated": "2026-03-07T02:06:57.073145+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -36,6 +36,15 @@
       "title_zh": "匈牙利CATL工廠爭議：極右派政治生態學如何操弄綠色能源轉型",
       "title_en": "The Green Mirage: How Hungary's Far Right Weaponized Battery Politics",
       "cover_url": "data/images/political-geography/political-geography-2026-02-27-cover.jpg"
+    },
+    {
+      "id": "science-2026-02-26-02",
+      "journal": "Science",
+      "date": "2026-02-26",
+      "path": "articles/2026/02/science-2026-02-26-02.json",
+      "title_zh": "細胞內的溫度密碼：哺乳類從夜行到日行的演化關鍵",
+      "title_en": "How Mammals Switched from Night to Day: A Cellular Thermodynamic Key",
+      "cover_url": ""
     },
     {
       "id": "science-2026-02-26",
@@ -198,6 +207,15 @@
       "title_zh": "宇宙的隱形繩結：從夸克到質子的自旋密碼",
       "title_en": "The Spin of the Vacuum: Unraveling Quark Confinement Through Hyperon Pairs",
       "cover_url": "data/images/nature/nature-2026-02-04-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-03",
+      "journal": "Nature",
+      "date": "2026-02-03",
+      "path": "articles/2026/02/nature-2026-02-03.json",
+      "title_zh": "氣候變遷的隱形腳印：熱帶水文與二氧化碳增長速率的負相關性強化",
+      "title_en": "The Invisible Hand of Climate Change: How Tropical Water and CO2 Growth Rates Are Growing More Negative",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-02-02",
@@ -434,6 +452,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2025-12-29-02",
+      "journal": "Cell",
+      "date": "2025-12-29",
+      "path": "articles/2025/12/cell-2025-12-29-02.json",
+      "title_zh": "果蠅腦中的'數學翻轉器'：鈣離子火花讓導航向量瞬間逆轉",
+      "title_en": "The Fly's Brain Has a Vector Inversion Switch: How Calcium Spikes Flip Navigation Directions",
+      "cover_url": "data/images/cell/cell-2025-12-29-02-cover.jpg"
+    },
+    {
       "id": "cell-2025-12-29",
       "journal": "Cell",
       "date": "2025-12-29",
@@ -515,6 +542,15 @@
       "cover_url": "data/images/political-geography/political-geography-2025-12-12-cover.jpg"
     },
     {
+      "id": "political-geography-2025-12-08",
+      "journal": "Political Geography",
+      "date": "2025-12-08",
+      "path": "articles/2025/12/political-geography-2025-12-08.json",
+      "title_zh": "土地共治，復興鄉野：蘇格蘭村莊用社區買地打造生態與社會的雙贏未來",
+      "title_en": "How a Scottish Community Bought Its Land to Restore Nature—and Build a New Social Contract",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-08-cover.jpg"
+    },
+    {
       "id": "cell-2025-12-01",
       "journal": "Cell",
       "date": "2025-12-01",
@@ -539,6 +575,15 @@
       "path": "articles/2025/11/american-sociological-review-2025-11-27.json",
       "title_zh": "生育權的隱形門檻：種族與階級如何定義「誰能生小孩」？",
       "title_en": "Who Gets to Have a Baby? The Invisible Barriers of Race and Class",
+      "cover_url": ""
+    },
+    {
+      "id": "american-sociological-review-2025-11-22",
+      "journal": "American Sociological Review",
+      "date": "2025-11-22",
+      "path": "articles/2025/11/american-sociological-review-2025-11-22.json",
+      "title_zh": "平等的陰影：法國三代移民後裔的教育流動性與族裔階級差異",
+      "title_en": "Shades of Égalité: How France’s Third-Generation Immigrants Reveal a Racial Hierarchy in Education",
       "cover_url": ""
     },
     {
@@ -603,6 +648,15 @@
       "title_zh": "邊界之繩：為何世界邊界正處於崩潰邊緣？",
       "title_en": "The Fragile Tapestry: Why the World's Borders Are More Stable Than They Seem",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-08-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-09",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-09.json",
+      "title_zh": "川普2.0回歸掀氣候政治巨浪：'氣候現實主義'能否破解全球暖化困境？",
+      "title_en": "The Trump Era's Climate Shift: Why 'Climate Realism' Fails to Solve the Global Crisis",
+      "cover_url": ""
     },
     {
       "id": "international-organization-2025-11-20",

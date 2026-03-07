@@ -1,0 +1,53 @@
+{
+  "id": "cell-2025-12-29-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "果蠅腦中的'數學翻轉器'：鈣離子火花讓導航向量瞬間逆轉",
+      "en": "The Fly's Brain Has a Vector Inversion Switch: How Calcium Spikes Flip Navigation Directions"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開果蠅大腦中一個驚人的神經機制：特定神經元利用鈣離子火花實現二維向量的翻轉，讓導航訊號瞬間逆轉180度。研究團隊發現，當神經元從去極化狀態切換到超極化狀態時，會從鈉離子脈衝轉為鈣離子脈衝，從而將編碼的向量實質性翻轉。這項突破不僅解答了神經訊號雙向傳遞的長期謎題，更揭示了大腦如何將分子、細胞和迴路層級的計算無縫整合，為空間導航提供數學基礎。這項發現可能啟發新一代機器人導航演算法，甚至為人工智慧的數學運算提供生物啟發。\n\n【研究問題】數十年來，神經科學家普遍認為神經元僅透過去極化時的鈉離子脈衝傳遞訊號，而超極化時產生的鈣離子脈衝功能始終不明。過去研究未能解釋神經迴路如何處理雙向訊號——尤其是導航所需的精確向量計算。缺乏對「向量翻轉」機制的理解，導致科學家無法完整解釋昆蟲如何在複雜環境中保持方位感。這項研究缺口的關鍵在於，向量運算對空間認知至關重要，若無法處理前後方向的訊號，動物將陷入方向迷失。\n\n【研究方法】研究團隊結合多種尖端技術：首先使用雙光子鈣離子成像追蹤果蠅在跑步機上行走時的神經活動，同時施加方向性氣流刺激；接著透過電生理學記錄膜電位變化，精確區分鈉離子與鈣離子脈衝；最後利用基因編輯技術干預T型鈣離子通道Ca-α1T，驗證其必要性。他們還建構定量模型，模擬向量翻轉的神經機制。這種實驗與理論相結合的方法，讓研究者能逐步解開向量計算的奧秘。\n\n【結果】研究顯示，PFNa神經元在鈉離子脈衝時編碼前向向量，在鈣離子脈衝時則編碼後向向量，實現180度的相位翻轉。當Ca-α1T通道被抑制時，後向訊號完全消失（p = 1.62 × 10⁻⁴），證實此通道對向量翻轉至關重要。此外，研究發現神經元能透過鈣離子脈衝，在空間中覆蓋原本無法處理的角度範圍，使果蠅能同時利用前後方向的環境線索導航。這項發現不僅解釋了昆蟲導航的生物學基礎，也為機器人技術提供了新思路。",
+      "en": "**Summary:** This groundbreaking study unveils a hidden computational mechanism in the fruit fly brain: neurons that use calcium spikes to invert two-dimensional vectors—a critical mathematical operation for spatial navigation. The researchers discovered that specific neurons in the fly's central complex switch from sodium to calcium signaling when hyperpolarized, flipping encoded vectors by 180°. This elegant solution resolves a long-standing mystery about how bidirectional neural signaling supports complex calculations. By demonstrating how molecular, cellular, and circuit properties interact seamlessly, the work not only advances our understanding of insect navigation but also provides a blueprint for how biological systems might solve mathematical problems.\n\n**Problem:** For years, neuroscientists assumed neurons communicated exclusively through sodium spikes triggered by depolarization. The existence of neurons firing calcium spikes during hyperpolarization remained enigmatic—particularly for circuits requiring precise vector computations like navigation. Prior research could not explain how animals might handle directional signals from both the front and rear of their bodies, a fundamental requirement for spatial orientation. This gap left a crucial hole in our understanding of how neural circuits perform mathematical operations essential for navigation.\n\n**Approach:** The team combined cutting-edge techniques to unravel this mystery. They used calcium imaging to track neuronal activity in real time as flies navigated a virtual environment with directional air puffs. Electrophysiology allowed them to distinguish between sodium and calcium spikes. Genetic tools enabled precise manipulation of the T-type calcium channel Ca-α1T, which they found was essential for calcium spike generation. To connect these observations to the computational problem, they built a quantitative model simulating how vector inversion works at the neural level.\n\n**Results:** The study revealed that PFNa neurons exhibit a perfect 180° phase shift in vector encoding when switching from sodium to calcium spikes. Calcium spikes enabled these neurons to signal vectors from the fly's rear (180° direction), while sodium spikes handled front-facing vectors. When Ca-α1T was knocked down, rear-direction signaling vanished (p = 1.62 × 10⁻⁴), confirming the channel's necessity. This discovery explains how flies navigate using both front and rear cues, offering insights into how biological systems solve mathematical problems and potentially inspiring new navigation algorithms for robotics."
+    },
+    "keyArticle": {
+      "title": "Neuronal calcium spikes enable vector inversion in the Drosophila brain",
+      "authors": [
+        "Itzel G. Ishida",
+        "Sachin Sethi",
+        "Thomas L. Mohren",
+        "Mia Haraguchi",
+        "L.F. Abbott",
+        "Gaby Maimon"
+      ],
+      "doi": "10.1016/j.cell.2025.11.040",
+      "pages": "748-764.e25"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.040",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2023.11.24.568537"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T02:03:29.367152+00:00",
+    "source": "openalex"
+  }
+}

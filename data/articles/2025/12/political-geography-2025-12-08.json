@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2025-12-08",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-08",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "土地共治，復興鄉野：蘇格蘭村莊用社區買地打造生態與社會的雙贏未來",
+      "en": "How a Scottish Community Bought Its Land to Restore Nature—and Build a New Social Contract"
+    },
+    "summary": {
+      "zh": "【總結】本文提出「復育共治」概念，揭示蘇格蘭朗霍爾姆社區透過集體土地所有制，將景觀復育轉化為社會、政治與情感的集體行動。透過社區買地行動，不僅實現濕地與古林修復，更重塑居民對土地的連結、社區凝聚力與民主治理，展現「從被動抵抗到主動想像」的轉變。研究證明，土地所有權再分配是催化社區復興的關鍵，為全球生態復育提供兼具社會永續與環境健康的全新路徑。\n\n【研究問題】當前生態復育常被視為技術性工程，忽略社區動員的社會政治過程。過去研究多聚焦於生態結果，卻未探討「人」如何主導復育行動。此研究缺口導致復育政策難以落實於地方實踐，尤其在人口稀疏的鄉村地區，缺乏對社區主導模式的深入理解，使復育成效受限。\n\n【研究方法】研究者以民族誌方法，對朗霍爾姆社區進行為期六週的田野調查：訪談17位社區成員（年齡20-70歲），參與3場生態修復活動，並進行5次穿行考察。透過半結構化訪談與深度觀察，採用扎根理論分析，從社區成員的動機、共同治理的益處及未來願景等角度，挖掘復育行動背後的社會脈絡。\n\n【結果】2019年，朗霍爾姆社區購入4,250公頃土地（原布克盧奇集團出售的10,000公頃中的一部分），並於2022年完成第二階段買斷。研究發現，社區凝聚力與歷史連結是行動基礎，例如老居民回憶童年在保護區河流嬉戲、新移民被當地社區精神吸引。政策支持（《蘇格蘭土地改革法》）使集體所有制成為可能，讓居民從「被動接受」轉為「主動設計」景觀未來。例如，社區成員透過校園環境課程、生態修復活動，將環境保護與社會參與結合，創造出「生態與社會共榮」的實踐模式。",
+      "en": "**Summary:** This article introduces \"restorative commoning\" as a community-driven approach to landscape restoration, using Langholm, Scotland, as a case study. It reveals how collective land ownership transforms ecological restoration into a social, political, and emotional act, fostering community resilience and reimagining rural landscapes. The study demonstrates that when communities reclaim control over land, they not only restore ecosystems but also rebuild social bonds and democratic governance, challenging top-down, expert-led models.\n\n**Problem:** Current restoration efforts often prioritize technical ecological outcomes while neglecting the social and political processes that enable community mobilization. Previous research has failed to address how collective ownership can catalyze both environmental and civic renewal. This gap is critical because without community agency, restoration efforts risk becoming disconnected from local needs and values, limiting their long-term sustainability.\n\n**Approach:** The authors conducted an ethnographic study in Langholm, involving 17 semi-structured interviews with community members and staff, participant observations at three restoration sessions, and five transect walks. Using grounded theory, they analyzed how community members' motivations, historical solidarity, and supportive policy frameworks enabled the transition from reactive resistance to proactive landscape reimagining.\n\n**Results:** The Langholm Initiative purchased 4,250 hectares of land from Buccleuch Estates, with community members actively engaged in fundraising and planning. Participants cited strong motivations rooted in place attachment (e.g., retired residents recalling childhood baths in the TVNR river) and climate justice. Policy frameworks like Scotland's Land Reform Act enabled collective ownership, transforming land management from privatized control to democratic stewardship. For instance, the community created environmental education programs for local schools, linking ecological restoration to civic engagement and intergenerational responsibility."
+    },
+    "keyArticle": {
+      "title": "Restoring landscapes to build common futures: Land redistribution and environmental action in rural Scotland",
+      "authors": [
+        "Adrien Chanteloup",
+        "Jayne Glass",
+        "Harry W. Fischer"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103471",
+      "pages": "103471"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103471",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103471"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T02:05:08.930671+00:00",
+    "source": "openalex"
+  }
+}

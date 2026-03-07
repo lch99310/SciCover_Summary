@@ -1,0 +1,59 @@
+{
+  "id": "science-2026-02-26-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6788",
+  "date": "2026-02-26",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞內的溫度密碼：哺乳類從夜行到日行的演化關鍵",
+      "en": "How Mammals Switched from Night to Day: A Cellular Thermodynamic Key"
+    },
+    "summary": {
+      "zh": "早在恐龍稱霸的白堊紀，哺乳類只能在夜色中覓食。直到6600萬年前的白堊紀-古近紀滅絕事件，哺乳類才逐漸晝夜活動，但這項演化轉折背後的機制一直成謎。科學家最新發現，細胞內的熱力學機制竟隱藏著答案！研究團隊分析了不同哺乳類細胞，發現日行性哺乳類的細胞在溫度變化下，蛋白質合成、磷酸化與生物鐘調控的敏感度較低，這讓它們的生理時鐘更穩定。這項特性可能正是哺乳類成功適應白天生活的關鍵。\n\n進一步比較基因組數據，研究揭示控制細胞時鐘的mTOR信號路徑在日行性物種中加速演化，強化了細胞對溫度和滲透壓的耐受力。實驗中，當研究人員以藥物抑制夜行性小鼠的mTOR活性，它們的細胞、組織甚至行為都逐漸轉向日行模式。這項研究不僅揭開了哺乳類從夜行到日行的演化之謎，更顯示細胞信號網絡如何塑造複雜的行為特徵——就像生物體內隱藏的溫度調控開關，讓我們理解生命如何精妙地適應環境變遷。",
+      "en": "For millions of years, dinosaurs ruled the day while early mammals hid in the shadows. But after the cataclysmic asteroid impact 66 million years ago, mammals seized the opportunity to reclaim the daylight. How did this evolutionary shift happen? A groundbreaking study published in Science reveals that the answer lies not in the brain, but in the very cells of the body.\n\nThe researchers discovered a conserved thermodynamic mechanism that underlies the transition from nocturnal to diurnal activity. In diurnal mammals, cellular processes like protein synthesis and circadian timing are less sensitive to temperature fluctuations compared to their nocturnal counterparts. Genomic analysis showed accelerated evolution in key signaling pathways, particularly the mTOR pathway, which enhances the robustness of cellular clocks against thermal and osmotic stress. When scientists inhibited mTOR in nocturnal mice, the animals' cells, tissues, and behavior shifted toward diurnal patterns. This finding illuminates how cellular signaling networks can encode complex traits like temporal niche selection, offering profound insights into the evolutionary adaptation of life."
+    },
+    "keyArticle": {
+      "title": "A cellular basis for the mammalian nocturnal-diurnal switch",
+      "authors": [
+        "Andrew D. Beale",
+        "Matthew J. Christmas",
+        "Nina M. Rzechorzek",
+        "Andrei Mihut",
+        "Aiwei Zeng",
+        "Christopher Ellis",
+        "Nathan R. James",
+        "Nicola J. Smyllie",
+        "Violetta Pilorz",
+        "Rose Richardson",
+        "Mads F. Bertelsen",
+        "Shaline V. Fazal",
+        "Zanna J. Voysey",
+        "Kevin Moreau",
+        "Jerry Pelletier",
+        "Priya Crosby",
+        "Sew Y. Peak-Chew",
+        "Rachel S. Edgar",
+        "Madeline A. Lancaster",
+        "Roelof A. Hut",
+        "John S. O’Neill"
+      ],
+      "doi": "10.1126/science.ady2822",
+      "pages": "eady2822"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady2822",
+      "doi": "https://doi.org/10.1126/science.ady2822"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-07T02:01:27.471171+00:00",
+    "source": "openalex"
+  }
+}

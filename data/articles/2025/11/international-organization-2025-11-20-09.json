@@ -1,0 +1,40 @@
+{
+  "id": "international-organization-2025-11-20-09",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "川普2.0回歸掀氣候政治巨浪：'氣候現實主義'能否破解全球暖化困境？",
+      "en": "The Trump Era's Climate Shift: Why 'Climate Realism' Fails to Solve the Global Crisis"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究揭開氣候政治的深層結構：當川普2.0時代來臨，美國 Climate Realism（氣候現實主義）看似理性務實，實則犯下致命錯誤。文章指出，氣候政策從來不是單純技術問題，而是涉及國內政治、資源分配、意識形態與不確定性的複雜戰場。研究揭示四項氣候政治的永恆特徵——國內政治的關鍵角色、利益分配的緊張衝突、意識形態框架的影響力，以及氣候危機的高嚴重性與高不確定性——這些特徵讓 Climate Realism 的「放棄減排」主張難以成立。更關鍵的是，這股潮流反而突顯了三個被忽視的研究盲點：反綠 coalition 的政治策略、各國經濟策略的多樣性，以及強國退縮對國際關係的深遠影響。這不僅是學術突破，更為全球氣候治理提供了新思考方向。\n\n【研究問題】文章探討的核心問題是：當美國在川普2.0時代大幅倒退氣候政策，全球氣候政治將如何演變？過去研究聚焦於「綠色陣營」的策略與影響，卻忽略了反綠勢力的運作機制、各國經濟路線的差異，以及強國政策轉向對國際體系的衝擊。這項研究的價值在於，它揭示了氣候政治本質上是政治博弈，而非純粹科學問題，為理解當前危機提供了關鍵框架。\n\n【研究方法】作者運用政治科學文獻，系統性梳理氣候政治的四大永恆特徵，並以此檢視 Climate Realism 的論點。他們分析美國政策實例（如川普政府100天內廢除140多項環保規則、通過「一項偉大美麗法案」削弱氣候行動），以及國際反應（如中國 Belt and Road 延續、歐盟內部分裂）。研究同時結合案例比較，例如中國電動車產業外資投資首次超過國內製造投資，揭示不同國家如何在氣候危機下發展獨特戰略。\n\n【結果】關鍵數據顯示：川普政府100天內廢除140+環境規則，導致美國碳排放預期大幅上升；20%的美國縣市已有太陽能/風力設施禁令；中國 Belt and Road 延續在2025年上半年達1240億美元，綠能投資佔97億美元。這些證據顯示，Climate Realism「美國減排無意義」的主張 flawed，因為國際影響鏈條複雜，且國內反綠勢力已具備強大實力。研究提出三大新研究方向：反綠 coalition 的政治策略、各國經濟路線的多樣性、以及強國退縮對國際秩序的影響，為未來氣候政策提供重要參照。",
+      "en": "**Summary:** This study exposes the deep structure of climate politics: as the Trump 2.0 era reshapes global climate governance, Climate Realism (CR) emerges as a seemingly pragmatic framework but ultimately fails to address the core challenges. The article identifies four enduring features of climate politics—domestic political constraints, distributional conflicts, ideational frames, and the high severity/uncertainty of climate impacts—that render CR's \"abandon mitigation\" approach fundamentally flawed. Crucially, CR's rise actually highlights three neglected research areas: the political strategies of anti-green coalitions, the heterogeneity of national economic strategies, and the implications of powerful nations' retreat from climate action. This isn't just academic insight—it offers a new lens for understanding global climate governance in a fractured political landscape.\n\n**Problem:** The article addresses how the Trump administration's climate policy reversal is reshaping global climate politics. Previous research focused primarily on green coalitions' strategies while neglecting the political mechanics of anti-green forces, the diversity of national economic approaches, and the systemic impact of powerful nations' retreat from climate action. Understanding these dynamics is critical because climate policy is fundamentally a political battle, not a purely scientific issue.\n\n**Approach:** The authors leverage political science literature to systematically identify four enduring features of climate politics, using them as a framework to evaluate Climate Realism. They analyze concrete policy examples (Trump's 140+ environmental rules rolled back in 100 days, the \"One Big Beautiful Bill\" that gutted the Inflation Reduction Act), international ripple effects (China's Belt and Road Initiative continuing growth, EU political fragmentation), and comparative cases (China's EV industry foreign investment exceeding domestic manufacturing for the first time).\n\n**Results:** Key data reveals: Trump's administration rolled back 140+ environmental regulations in 100 days, leading to significant emissions increases; 20% of US counties now have bans on solar/wind projects; China's Belt and Road Initiative reached $124 billion in H1 2025, with $9.7 billion in green energy projects. These findings directly contradict CR's claim that US emissions reductions are meaningless globally. The research identifies three new research priorities: understanding anti-green coalition strategies, analyzing national economic variations, and assessing IR implications of climate policy shifts. This evidence shows that CR's approach ignores the interconnectedness of domestic and international politics, and fails to account for the growing political power of anti-green forces."
+    },
+    "keyArticle": {
+      "title": "Global Climate Politics after the Return of President Trump",
+      "authors": [
+        "Jeff D. Colgan",
+        "Federica Genovese"
+      ],
+      "doi": "10.1017/s002081832510115x",
+      "pages": "S88-S102"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s002081832510115x",
+      "doi": "https://doi.org/10.1017/s002081832510115x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T02:06:04.520129+00:00",
+    "source": "openalex"
+  }
+}
