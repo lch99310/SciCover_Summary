@@ -1,0 +1,65 @@
+{
+  "id": "cell-2026-01-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦的「低伽馬波」警報：OCD患者強迫行為的神經機制揭密",
+      "en": "The Brain's Alarm Signal: How Low-Gamma Waves Drive Obsessive Behaviors in OCD"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭示了強迫性障礙（OCD）患者大腦中「低伽馬波」與強迫行為的瞬間關聯。研究團隊透過植入式電極追蹤大腦神經活動，發現當患者經歷強迫症狀加劇時，前額葉腹內側區域（amOFC）的低伽馬波活動會顯著上升。更令人驚訝的是，刺激大腦深層的腹側基底核（NAc-VeP）不僅能立即減輕症狀，還會同步降低amOFC的伽馬波活動，為開發即時調節的「智慧深腦刺激」療法提供了關鍵線索。這項成果堪稱 psychiatric 神經科學領域的重大進展，讓精準治療邁向新紀元。\n\n【研究問題】傳統強迫症治療面臨「治療效果不穩定」的困境：抗抑鬱藥可能需數月才見效，暴露療法則需長期堅持。過去研究雖發現前額葉異常活動與OCD相關，但因技術限制無法追蹤「症狀爆發的瞬間」。本研究直指核心：為何某些刺激能即時緩解症狀？症狀波動的神經機制為何？若能即時追蹤大腦信號，就能突破現有治療的時間與空間限制，實現「症狀來了就治」的精準療法。\n\n【研究方法】研究團隊招募3位重度OCD患者，在其大腦植入「立體腦電圖」（sEEG）電極，如同在大腦中部署高精度監測站。他們設計了「恐懼觸發實驗」：讓患者暴露在個人化的強迫症誘發情境（如怕汙染者看廁所），同時記錄大腦活動。最關鍵的是，研究者透過「深腦刺激」技術，對腹側基底核進行精準電刺激，並觀察神經活動變化。就像用「神經探測器」捕捉症狀爆發的瞬間，再用「神經鍵盤」調整大腦波動，實驗過程宛如一場神經科學版的「即時反應」。\n\n【結果】實驗顯示，當患者症狀嚴重時，amOFC的低伽馬波功率平均上升33.3%（p=1.22e-14）。而對腹側基底核進行電刺激後，症狀急劇減輕：從8分降至4分（視覺類比量表），同時amOFC的伽馬波活動同步下降。更驚人的是，這種效果在3位患者身上均一貫出現，且「假刺激」（無電流）完全無效。這意味著伽馬波的變化並非偶然，而是症狀的「神經指標」。未來若能將此機制應用於「智慧深腦刺激」，就能在症狀爆發時即時干預，大幅提高治療效果。",
+      "en": "**Summary:** This groundbreaking study uncovers the neural mechanism linking obsessive-compulsive disorder (OCD) symptoms to specific brain activity patterns. By monitoring intracranial electrical activity in patients, researchers discovered that low-gamma frequency waves (30-55 Hz) in the anterior medial orbitofrontal cortex (amOFC) dramatically increase during symptom exacerbation. Most remarkably, electrical stimulation of the ventral basal ganglia (NAc-VeP) not only immediately reduced OCD symptoms but also suppressed this gamma activity, revealing a direct causal relationship between neural signals and behavioral states. This discovery opens the door to real-time, adaptive deep brain stimulation therapies that could transform treatment for neuropsychiatric disorders.\n\n**Problem:** Current OCD treatments face significant limitations: medications take months to work, exposure therapy requires prolonged commitment, and conventional deep brain stimulation delivers continuous, unresponsive stimulation. Previous research identified orbitofrontal cortex abnormalities in OCD but lacked the precision to track symptom fluctuations in real time. This study addresses a critical gap: how to detect and modulate the neural signatures of symptom states as they emerge. Without understanding these dynamic signals, treatments remain reactive rather than responsive, leaving patients to wait for symptoms to resolve on their own.\n\n**Approach:** The research team implanted stereo-electroencephalography (sEEG) electrodes in three patients with severe, treatment-resistant OCD, creating a high-resolution neural monitoring system. They designed personalized symptom provocation tasks—exposing patients to individualized triggers like contamination fears or ritualistic behaviors—while measuring brain activity. Crucially, they tested electrical stimulation at various brain targets, including the nucleus accumbens (NAc) and ventral pallidum (VeP), using a blinded protocol to isolate therapeutic effects. This approach was like building a neural 'weather station' to detect symptom storms and a 'control knob' to adjust brain activity in real time.\n\n**Results:** During symptom provocation, amOFC low-gamma power increased significantly across all subjects (p=1.22e-14 for subject 1). When the NAc-VeP complex was stimulated, patients experienced a 33.3% reduction in distress (d=0.83) with corresponding decreases in amOFC gamma activity. Sham stimulation produced no effect. These findings establish low-gamma oscillations in the amOFC as a reliable biomarker of symptom severity. This discovery could enable closed-loop DBS systems that detect symptom onset and deliver targeted stimulation, potentially revolutionizing treatment for OCD and other neuropsychiatric conditions."
+    },
+    "keyArticle": {
+      "title": "Human orbitofrontal neural activity is linked to obsessive-compulsive behavioral dynamics",
+      "authors": [
+        "Young-Hoon Nho",
+        "Liming Qiu",
+        "Robert Seilheimer",
+        "Gustavo Campos",
+        "Andrew Chang",
+        "Z Wang",
+        "John F. Magnotti",
+        "Zhengjia Wang",
+        "Daniel A.N. Barbosa",
+        "Andreas Horn",
+        "Nolan Williams",
+        "Lily A. Brown",
+        "Taneeta M. Ganguly",
+        "Mario A. Cristancho",
+        "Bijan Pesaran",
+        "Desmond J. Oathes",
+        "Kai Miller",
+        "Katherine W. Scangos",
+        "Casey H. Halpern"
+      ],
+      "doi": "10.1016/j.cell.2025.12.037",
+      "pages": "739-747.e8"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.037",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.037"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T04:56:48.860266+00:00",
+    "source": "openalex"
+  }
+}

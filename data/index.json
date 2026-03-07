@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T03:46:47.305438+00:00",
+  "lastUpdated": "2026-03-07T04:59:42.719523+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -54,6 +54,15 @@
       "title_zh": "農業強度越高，鳥類衰退越快？北美鳥類加速衰退熱點大揭密",
       "title_en": "Agriculture's Hidden Hand in the Accelerating Decline of North America's Birds",
       "cover_url": "data/images/science/science-2026-02-26-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-25-02",
+      "journal": "Nature",
+      "date": "2026-02-25",
+      "path": "articles/2026/02/nature-2026-02-25-02.json",
+      "title_zh": "超導體'隱形裂痕'揭開！高壓下鎳氧化物的神秘變異之謎",
+      "title_en": "The Hidden Cracks in Superconductors: How Shear Stress and Chemical Inhomogeneities Control Nickelate Superconductivity",
+      "cover_url": "data/images/nature/nature-2026-02-25-02-cover.jpg"
     },
     {
       "id": "nature-2026-02-25",
@@ -263,6 +272,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg"
     },
     {
+      "id": "cell-2026-01-29",
+      "journal": "Cell",
+      "date": "2026-01-29",
+      "path": "articles/2026/01/cell-2026-01-29.json",
+      "title_zh": "大腦的「低伽馬波」警報：OCD患者強迫行為的神經機制揭密",
+      "title_en": "The Brain's Alarm Signal: How Low-Gamma Waves Drive Obsessive Behaviors in OCD",
+      "cover_url": "data/images/cell/cell-2026-01-29-cover.jpg"
+    },
+    {
       "id": "science-2026-01-29",
       "journal": "Science",
       "date": "2026-01-29",
@@ -416,6 +434,15 @@
       "cover_url": "data/images/cell/cell-2026-01-08-cover.jpg"
     },
     {
+      "id": "science-2026-01-08-02",
+      "journal": "Science",
+      "date": "2026-01-08",
+      "path": "articles/2026/01/science-2026-01-08-02.json",
+      "title_zh": "脊髓背角的成長密碼：時間與空間如何精準編織感知網路",
+      "title_en": "How the Spinal Cord's Sensory Map Forms: Time and Space Shape the Brain's Body Sensors",
+      "cover_url": "data/images/science/science-2026-01-08-02-cover.jpg"
+    },
+    {
       "id": "science-2026-01-08",
       "journal": "Science",
       "date": "2026-01-08",
@@ -560,6 +587,15 @@
       "cover_url": "data/images/cell/cell-2025-12-05-cover.jpg"
     },
     {
+      "id": "political-geography-2025-12-05",
+      "journal": "Political Geography",
+      "date": "2025-12-05",
+      "path": "articles/2025/12/political-geography-2025-12-05.json",
+      "title_zh": "黨的根脈如何在地圖上生長？義大利與瑞典的百年政治地理學",
+      "title_en": "The Party’s Roots on the Map: How Italy and Sweden’s Political Geography Shaped Grassroots Branches",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-05-cover.jpg"
+    },
+    {
       "id": "cell-2025-12-01",
       "journal": "Cell",
       "date": "2025-12-01",
@@ -675,6 +711,15 @@
       "title_zh": "從『王室外交』看未來世界秩序：特朗普如何重寫國際遊戲規則？",
       "title_en": "The New Royal Order: How Trump's Personal Rule Is Reshaping Global Power",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-10-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-11",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-11.json",
+      "title_zh": "世界秩序崩解倒計時？15位學者揭開全球治理的未來危機",
+      "title_en": "The Unraveling World Order: How Technology, Populism, and Climate Change Are Reshaping Global Governance",
+      "cover_url": ""
     },
     {
       "id": "international-organization-2025-11-20",

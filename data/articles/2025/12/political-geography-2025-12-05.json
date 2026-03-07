@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2025-12-05",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-05",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "黨的根脈如何在地圖上生長？義大利與瑞典的百年政治地理學",
+      "en": "The Party’s Roots on the Map: How Italy and Sweden’s Political Geography Shaped Grassroots Branches"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了政治黨派在地圖上的生長秘密！透過歷史電話簿資料，學者發現義大利（政治較不全國化）的黨支部集中於都市與北中部，而瑞典（政治較全國化）的支部則均勻分布。過去學界假設「黨的根基」在西歐各地同步衰落，但研究證實：政治地理才是關鍵。義大利南部和偏遠鄉村的支部稀少，而瑞典連北部邊陲都有穩固存在，這種差異源於國家政治整合程度——越全國化，黨組織越均勻；越地方化，越依附地理分野。此發現不僅顛覆傳統黨派理論，更提供理解「地方政治」的全新視角。\n\n【研究問題】過去研究聚焦黨員數量，卻忽略支部地理分布，導致兩大盲點：一是黨派資料不完整（例如義大利基督民主黨1968-1986年缺漏資料），二是誤判「黨的根基」衰落是否全球同步。若不釐清地理因素，就像只看大西洋潮汐卻忽略海岸線崎嶇——無法理解為何義大利南部和瑞典北部的政黨發展截然不同。此問題的關鍵在於：政治組織的存續，與地方特性密不可分。\n\n【研究方法】作者以「不干預法」創新突破：翻閱義大利都靈與瑞典斯德哥爾摩的歷史電話簿，搜尋標註「黨部」的地址。他們用「電話」作為功能性支部的指標（1980年代義大利20%支部無實體辦公室，但電話可驗證是否活躍），共整理出23,030個支部資料。接著以空間自相關迴歸分析，將每個城鎮的支部數量與「距離區域首府距離」「城鄉分類」等地理變數連結，排除人口變動干擾，精準捕捉政治地理的影響。\n\n【結果】義大利支部數量從1963年1,220個暴增至1987年2,797個，但空間自相關係數僅0.004（幾乎無地理聚集）；瑞典雖總數較少（1960年167個），但空間自相關係數達-0.321，顯示「越沒支部的地方越要補設」。具體數據：義大利城市支部密度是鄉村的7.2倍，而瑞典南北支部數量差距僅4%。這意味著，義大利南部因長期被政治中心忽視，支部數量不足；而瑞典北部雖經濟稍弱，卻因國家整合度高，獲得均等資源。",
+      "en": "**Summary:** This study reveals how the geography of political parties' grassroots branches was shaped by nationalization in Italy and Sweden during the late 20th century. By analyzing historical phonebooks, researchers found that Italy—where politics was less nationalized—concentrated party branches in urban areas and the political center, while Sweden—where politics was more nationalized—spread branches uniformly across the country. Contrary to the assumption that party decline was uniform nationwide, the findings show that geography played a decisive role: Italian branches clustered in the north and cities, while Swedish branches reached even remote regions. This challenges long-standing theories of party decline and demonstrates how political geography influences grassroots organization.\n\n**Problem:** Previous research on party decline focused almost exclusively on membership data, which was often incomplete or inflated. Scholars ignored the geographic distribution of local branches, assuming the decline was uniform across countries. This gap is critical because it fails to explain why parties maintained or abandoned grassroots presence in different regions—like why Italy’s southern regions had fewer branches than its northern counterparts, or why Sweden’s northern periphery retained strong party infrastructure. Without a geographic lens, theories of party decline remain incomplete.\n\n**Approach:** The authors used an innovative \"unobtrusive method\"—consulting historical phonebooks—to locate party branches. They searched for addresses listed as local party offices in Italian and Swedish directories from 1960 to 2002, using phone numbers as a proxy for functional branches (e.g., 20% of Italian branches in 1984 had no physical office, but phone listings confirmed activity). They compiled 23,030 branch locations and applied spatial lag regression to analyze how branch presence correlated with geographic variables like urbanity and proximity to regional capitals, controlling for population changes.\n\n**Results:** Italy had 1,220 to 2,797 branches annually, with a spatial coefficient (ρ) of 0.004—indicating minimal geographic clustering. Sweden’s ρ was -0.321, showing branches spread to areas lacking them. Key data: Italian urban branches were 7.2 times more common than rural ones, while Sweden’s north-south branch distribution differed by only 4%. These findings prove that party decline was not uniform—Italy’s periphery lacked branches due to historical neglect, while Sweden’s nationalized politics ensured even coverage. This highlights how nationalization shapes grassroots politics."
+    },
+    "keyArticle": {
+      "title": "The geography of the party on the ground: Local branches in Italy and Sweden in the late twentieth century",
+      "authors": [
+        "Duncan McDonnell",
+        "Sofia Ammassari"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103467",
+      "pages": "103467"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103467",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103467"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T04:58:14.432121+00:00",
+    "source": "openalex"
+  }
+}

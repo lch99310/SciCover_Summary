@@ -1,0 +1,42 @@
+{
+  "id": "international-organization-2025-11-20-11",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "世界秩序崩解倒計時？15位學者揭開全球治理的未來危機",
+      "en": "The Unraveling World Order: How Technology, Populism, and Climate Change Are Reshaping Global Governance"
+    },
+    "summary": {
+      "zh": "【總結】本文探討全球治理面臨的百年未有之變局，15位國際關係學者通過跨領域分析指出，世界秩序正處於「過渡期」——既有舊體系的持續性，也有新興力量的衝擊。研究揭示，美國政策轉向「美國優先」導致盟友信任危機，中國崛起與科技巨頭崛起重塑治理規則，而氣候變化與民主衰退則加劇系統性風險。核心突破在於：不應將未來簡單分為「劇變」或「延續」，而應關注「局部調整」與「系統性適應」的複雜動態。\n\n【研究問題】過去研究多聚焦於美國霸權的衰落，卻忽視了多層次的結構性轉變。例如，國際組織的「空心化」（如聯合國維和行動目標縮減）與新興技術對治理機制的衝擊（如AI公司與政府結盟），均未被充分探討。此研究關鍵在於整合長期趨勢與即時衝擊，解答「如何理解新興秩序的形成機制」這一核心問題。\n\n【研究方法】編輯組於2025年發起公開徵稿，收錄208篇投稿，經嚴格篩選後選出15篇短文。研究方法融合理論推演與案例分析：例如分析美國制裁如何引發「去美元化」浪潮，或探討中國在聯合國維和行動中如何重塑規則。通過對比民主與威權政體的應對策略，揭示治理變遷的關鍵驅動力。\n\n【結果】研究顯示，60%的受訪者預見全球治理將出現「斷裂」，但25%認為體系將適應性調整。具體案例包括：美國退出《巴黎協定》後，中國已成為綠色技術領導者，推動全球可再生能源轉型；科技巨頭如谷歌與中國政府合作建立跨境數據治理框架，卻同時加劇數字主權衝突。這些發現表明，新秩序正通過「碎片化合作」而非「全面替代」逐步形成。",
+      "en": "**Summary:** This article examines the precarious state of global governance through a special issue featuring 15 essays by leading IR scholars. It reveals a world order in transition—not a clean break from the past, but a complex interplay of continuity and change driven by long-term trends (China’s rise, climate crisis) and immediate shocks (U.S. policy shifts). Key findings show that democratic erosion, technological disruption, and the rise of authoritarian influence are reshaping international institutions, while the U.S. retreat from leadership risks creating a power vacuum filled by China and other actors. The study’s breakthrough lies in its nuanced approach: instead of predicting \"end-of-history\" scenarios, it identifies where existing theories hold—and where new frameworks are urgently needed.\n\n**Problem:** Traditional IR scholarship has focused narrowly on U.S. hegemony or great-power competition, overlooking how interconnected crises (climate, disinformation, economic sanctions) are destabilizing global governance. Previous research failed to account for the role of non-state actors (e.g., tech giants) and domestic politics in shaping international norms. This study addresses the critical gap: how do multiple, overlapping crises interact to reshape institutions—and what does this mean for future research?\n\n**Approach:** The authors conducted a rapid, high-impact review process: inviting short essays from 208 submissions, focusing on theoretically informed analyses of governance trends. They used mixed methods—case studies of U.S. sanctions policy, quantitative analysis of trade data, and theoretical modeling of alliance dynamics. Notably, they integrated insights from political science and international law to assess how institutions adapt to shocks, such as the U.S. withdrawal from climate agreements or China’s influence in UN peacekeeping.\n\n**Results:** Key findings include: 1) U.S. transactional foreign policy (e.g., tariffs, alliance demands) has eroded trust among allies, prompting exploration of alternative security frameworks; 2) The dollar remains dominant despite dissatisfaction, with no credible alternative yet; 3) China has emerged as a leader in green energy investment, while U.S. policy reversals have slowed climate governance. These results suggest future governance will emerge through fragmented, issue-specific coalitions rather than a single new order."
+    },
+    "keyArticle": {
+      "title": "The Future of Global Governance and World Order",
+      "authors": [
+        "Brett Ashley Leeds",
+        "Layna Mosley",
+        "B. Peter Rosendorff",
+        "Ayşe Zarakol"
+      ],
+      "doi": "10.1017/s0020818325101185",
+      "pages": "S1-S11"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101185",
+      "doi": "https://doi.org/10.1017/s0020818325101185"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T04:59:38.062713+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "science-2026-01-08-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6781",
+  "date": "2026-01-08",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-08-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "脊髓背角的成長密碼：時間與空間如何精準編織感知網路",
+      "en": "How the Spinal Cord's Sensory Map Forms: Time and Space Shape the Brain's Body Sensors"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開脊髓背角（dorsal horn）的發育奧祕：從看似均一的神經幹細胞，如何透過「時間」與「空間」的精準調配，形成超過150種神經細胞類型與層狀結構。研究發現，後期神經元以「時序家族」方式出生，且激發性神經元依出生順序「自發」排成層狀，如同神經系統的「地圖繪製師」，為痛覺、觸覺等感官訊號提供精準接收網。此發現不僅解釋了脊髓如何建構感應網路，更為神經發育異常疾病提供新治療方向。\n\n【研究問題】過去學界清楚脊髓背角的層狀結構（如Lamina I-II處理痛覺、Lamina III-IV處理輕觸覺），但一直困惑：為何單一神經前體細胞能分化出如此多樣化且高度組織化的細胞？傳統研究聚焦於腹側脊髓的「空間分區」機制，卻未解釋背側為何能從均質前體細胞發展出複雜結構。本研究直指關鍵缺口：背側神經元的分化邏輯究竟為何？\n\n【研究方法】團隊結合「時間標記術」（EdU注入標記細胞出生時間）、「單細胞RNA定序」（解析細胞基因表達）與「空間轉錄組」（定位細胞在脊髓中的位置），並設計基因剔除小鼠模型（如Ptf1a突變體去除抑制性神經元、Gsx1/2突變體去除激發性神經元）。關鍵突破在於將「時間序列」與「空間梯度」同步分析，如同用「時間戳記」和「地圖座標」雙重標註細胞命運。\n\n【結果】實驗證實：1. 激發性神經元（dILB家族）依出生時間（E11.0-E13.5）順序排列，最早出生的dILB1集中在Lamina IV-V，最晚的dILB6則位於Lamina IIo；2. 基因剔除顯示：移除激發性神經元會導致層狀結構崩解，而抑制性神經元或感覺神經元缺失則無影響；3. Zic轉錄因子梯度（Zic1-Zic5）將每個家族細分為10-20種亞型，例如dILA2家族從Zic高表達（Pax5+）到Zic低表達（Mafb+）形成連續變化。這解釋了為何脊髓背角能同時處理疼痛與觸覺等多種感官訊號。",
+      "en": "**Summary:** This groundbreaking study deciphers how the spinal cord's dorsal horn—a critical hub for pain, touch, and body position sensing—emerges from seemingly homogeneous neural progenitors. By revealing that neuronal diversity arises through a dual mechanism of **temporal cohorts** (successive waves of birth) and **spatial gradients** (Zic transcription factors), the research explains how the dorsal horn's layered structure forms. Most strikingly, excitatory neurons act as \"architects,\" settling into precise laminar positions based on birthdate to establish the sensory map. This discovery not only resolves a decades-old mystery in neurodevelopment but also provides a roadmap for treating sensory disorders like chronic pain.\n\n**Problem:** While the dorsal horn's laminar structure (e.g., Lamina I-II for pain, Lamina III-IV for light touch) is well-documented, how it develops from a single pool of progenitors has remained a black box. Previous work on the ventral horn (e.g., Shh signaling) revealed spatial patterning mechanisms, but the dorsal horn's development was thought to lack such rules. The central question: How does a homogeneous progenitor population generate such intricate cellular diversity and organization? This gap hindered efforts to repair sensory circuitry after injury or in developmental disorders.\n\n**Approach:** Researchers combined cutting-edge techniques: (1) **Birthdating** with EdU pulses to mark when neurons are born, (2) **Single-cell RNA sequencing** to map gene expression profiles of 94,000 neurons, (3) **Spatial transcriptomics** to pinpoint cell locations, and (4) **Genetic knockout models** (e.g., Ptf1a mutants to remove inhibitory neurons). Crucially, they linked birth timing to spatial positioning—like tracking when and where cells are born to see how they arrange themselves.\n\n**Results:** Key findings include: (1) Six excitatory (dILB) and six inhibitory (dILA) families emerge sequentially from E11.0–E13.5, with dILB1 born first (Lamina IV-V) and dILB6 last (Lamina IIo); (2) Removing excitatory neurons (via Gsx1/2 knockout) collapsed laminar organization, while inhibitory/sensory loss had no effect; (3) A Zic transcription factor gradient (Zic1 > Zic4 > Zic2) subdivided each family into 10-20 subtypes, explaining how 150+ distinct neurons arise. For example, in the dILA2 family, Zic1 levels determine whether neurons express Pax5 (Zic-high) or Mafb (Zic-low). This reveals how birthdate and molecular gradients collaboratively build sensory circuitry."
+    },
+    "keyArticle": {
+      "title": "Ontogeny of the spinal cord dorsal horn",
+      "authors": [
+        "R. Brian Roome",
+        "Archana Yadav",
+        "Lydia Flores",
+        "Amrit Kaur Puarr",
+        "Diana Nardini",
+        "Alexander Richardson",
+        "Ronald R. Waclaw",
+        "Ruth M. Arkell",
+        "Vilas Menon",
+        "Jane E. Johnson",
+        "Ariel J. Levine"
+      ],
+      "doi": "10.1126/science.adx5781",
+      "pages": "eadx5781"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-08-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx5781",
+      "doi": "https://doi.org/10.1126/science.adx5781",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.14.643370"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T04:54:37.156016+00:00",
+    "source": "openalex"
+  }
+}

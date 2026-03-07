@@ -1,0 +1,56 @@
+{
+  "id": "nature-2026-02-25-02",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8104",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-25-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超導體'隱形裂痕'揭開！高壓下鎳氧化物的神秘變異之謎",
+      "en": "The Hidden Cracks in Superconductors: How Shear Stress and Chemical Inhomogeneities Control Nickelate Superconductivity"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開鎳氧化物超導體「隱形裂痕」的謎底！團隊首創以氮空位（NV）中心技術，直接映射高壓下La₃Ni₂O₇的磁學特性與局部應力分佈，發現超導性竟由「正向應力」與「剪切應力」共同調控。關鍵突破在於證實：當正向應力超過17 GPa時，局部區域才會展現超導；而剪切應力一旦超過2 GPa，就會「掐斷」超導狀態。這不僅解釋了為何不同樣品的超導性質參差不齊（被稱為「纖維狀超導」），更為開發更穩定的高溫超導材料提供全新思路——原來「局部壓力」比整體壓力更重要！\n\n【研究問題】過去十年，鎳氧化物（如La₃Ni₂O₇）被視為理解高溫超導的「新突破口」，但實驗中卻頻繁出現「超導性質參差不齊」的怪象：有的樣品在液氮沸點以上就超導，有的卻完全無效。傳統觀點認為這是化學成分不均勻所致，但過去研究無法精確測量局部應力與化學分佈的關聯，導致超導機制始終是「黑箱」。這不僅困擾科學界，更讓高溫超導材料的工業應用陷入停滯——如果連基本機制都未搞清，如何設計更實用的超導體？\n\n【研究方法】研究團隊採用「氮空位鑽石壓砧」（NV-DAC）技術，將氮空位（NV）中心植入鑽石頂砧500奈米處，形成「磁場與應力的超級感測器」。通過「光學 Detected 磁共振」（ODMR）技術，他們在高壓環境下同步獲取：（1）超導體的磁懸浮效應（Meissner effect）；（2）局部應力分佈；（3）化學成分圖譜。特別是針對三種化學均勻性不同的樣品（S1/S2/S3），團隊首次實現了「微米級」的超導性與應力/化學的直接對應，如同給超導體「拍MRI」！\n\n【結果】實驗數據揭示三大驚人發現：首先，當局部正向應力（σ_ZZ）超過17 GPa時，超導才會出現（如S1樣品在21 GPa時的磁懸浮區域）；其次，剪切應力（τ）一旦超過2 GPa，超導性立即「熄滅」（如S1樣品中心區域的磁懸浮消失）；最後，化學成分需嚴格接近La:Ni=3:2比例才會展現強超導（S3樣品中，符合此比例的區域超導性最強）。這些數據不僅解開了「纖維狀超導」之謎，更讓科學家能透過調整局部應力與成分，精準設計超導材料！",
+      "en": "**Summary:** This breakthrough study deciphers the elusive \"hidden cracks\" in nickelate superconductors by revealing how shear stress and chemical inhomogeneities dictate superconductivity in La₃Ni₂O₇. Using nitrogen-vacancy (NV) centers in diamond anvil cells, researchers mapped local magnetic responses and stress fields at sub-micron resolution, uncovering a 3D phase diagram where superconductivity emerges only when normal stress exceeds 17 GPa and shear stress remains below 2 GPa. This explains the long-standing \"filamentary superconductivity\" mystery—where some samples superconduct while others don't—and provides a roadmap for designing stable high-temperature superconductors by controlling local mechanical and chemical conditions.\n\n**Problem:** For decades, nickelate materials like La₃Ni₂O₇ have been promising candidates for understanding high-temperature superconductivity, yet experiments showed erratic behavior: some samples superconduct above liquid nitrogen temperature, while others remain normal. Previous studies couldn't explain these variations, which were termed \"filamentary superconductivity,\" because they lacked tools to measure local stress and chemical heterogeneity simultaneously. Without understanding these root causes, the field has struggled to replicate results or translate discoveries into practical applications.\n\n**Approach:** The team developed a multimodal technique using diamond anvil cells (DACs) embedded with NV centers—a quantum sensor that detects magnetic fields and stress. By performing wide-field optical detected magnetic resonance (ODMR) spectroscopy, they simultaneously measured: (1) the diamagnetic response (Meissner effect), (2) the local stress tensor (normal and shear components), and (3) chemical composition via energy-dispersive X-ray spectroscopy. This allowed them to correlate superconductivity with mechanical and chemical variations at the micron scale for the first time.\n\n**Results:** Key findings include: (1) Superconductivity only occurs where normal stress exceeds 17 GPa (e.g., S1 sample at 21 GPa); (2) Shear stress above 2 GPa completely suppresses superconductivity (evident in the central annular region of S1's magnetic response); and (3) The optimal La:Ni ratio for superconductivity is 3:2 (S3 sample's superconducting pockets align with this ratio). These insights resolve the \"filamentary superconductivity\" paradox and establish that local stress—not bulk pressure—governs superconductivity, opening new paths for engineering robust superconductors."
+    },
+    "keyArticle": {
+      "title": "Uncovering origins of heterogeneous superconductivity in La3Ni2O7",
+      "authors": [
+        "S. V. Mandyam",
+        "E. Wang",
+        "Z. Wang",
+        "B. Chen",
+        "N. C. Jayarama",
+        "A. Gupta",
+        "E. A. Riesel",
+        "V. I. Levitas",
+        "C. R. Laumann",
+        "N. Y. Yao"
+      ],
+      "doi": "10.1038/s41586-025-10095-x",
+      "pages": "54-60"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-25-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10095-x",
+      "doi": "https://doi.org/10.1038/s41586-025-10095-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T04:55:46.464233+00:00",
+    "source": "openalex"
+  }
+}
