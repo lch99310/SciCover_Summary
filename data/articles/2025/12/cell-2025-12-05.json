@@ -1,0 +1,60 @@
+{
+  "id": "cell-2025-12-05",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "2",
+  "date": "2025-12-05",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "迷幻藥的神經重塑：一劑裸蓋菇素如何重新編織大腦網絡？",
+      "en": "How One Dose of Magic Mushrooms Rewires the Brain's Network"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開了裸蓋菇素（psilocybin）改變大腦網絡的神祕面紗：單劑量藥物會觸發大規模皮層網絡的活動依賴性重組。研究發現，藥物會精準強化「感知區域」（如視覺皮層）與「中樞區域」（類似人類 Default Mode Network）向腦幹等子皮層結構的訊號傳遞，同時削弱皮層間反饋循環回路。更關鍵的是，這種神經重塑完全取決於藥物引發的神經活動——若在服藥時抑制特定腦區，重組就會被徹底中斷。這不僅解釋了迷幻劑治療抑鬱症的機制，更為精準調控神經可塑性提供了新思路。\n\n【研究問題】過去研究發現裸蓋菇素能重塑樹突棘結構，但這些突觸的來源神經元卻始終是個謎。科學界對「藥物如何精準調控大腦網絡連接」的機制知之甚少，尤其缺乏對全腦範圍內突觸輸入源的系統性 Mapping。這導致了治療機制的模糊性：我們知道它有效，卻不清楚它「如何有效」。\n\n【研究方法】研究團隊像「神經地圖師」一樣，用「單突觸 rabies 病毒追蹤」技術，精確標記了前額葉皮層神經元的輸入源。他們在小鼠的「Fezf2-2A-CreER」品系中，注入特定病毒，讓藥物作用後的突觸連接發出綠色螢光。再通過全腦光片顯微鏡掃描，像拼圖般重構了65個腦區的連接圖譜。最關鍵的是，他們用化學遺傳學技術「關閉」特定腦區，測試藥物效果是否依賴神經活動。\n\n【結果】數據顯示，裸蓋菇素讓「視覺皮層→前額葉」的輸入強度飆升10%，而「前額葉→前額葉」的反饋回路卻下降15%。更驚人的是，這種變化與藥物誘導的 c-Fos 蛋白表達模式高度一致——藥物激活了哪些腦區，就強化了哪些輸入。當研究者用 DREADDs 技術抑制「後頂葉皮層（RSP）」神經元時，藥物的重組效果完全消失。這揭示了神經活動是迷幻劑重塑大腦的「開關」。",
+      "en": "**Summary:** This groundbreaking study unveils how a single dose of psilocybin triggers activity-dependent rewiring of large-scale brain networks. The research reveals that the psychedelic precisely strengthens signals from perceptual regions (like visual cortex) and medial zones (homologous to the human default mode network) toward subcortical targets while weakening cortico-cortical feedback loops. Crucially, this rewiring depends entirely on drug-induced neural activity—silencing key input regions during administration completely blocks the structural changes. Beyond explaining psilocybin's antidepressant effects, this work pioneers a new approach to sculpting neural plasticity through controlled activity modulation.\n\n**Problem:** While previous studies showed psilocybin remodels dendritic spines in the medial frontal cortex, the origins of these newly formed connections remained unknown. Without mapping the brain-wide input sources to cortical neurons, the therapeutic mechanism remained a black box—effective but mysterious. This gap hindered efforts to optimize psychedelic treatments or develop more targeted therapies.\n\n**Approach:** The researchers employed a 'neural cartography' strategy using monosynaptic rabies tracing. They injected specialized viruses into Fezf2-2A-CreER mice, allowing them to track which brain regions sent inputs to frontal cortical neurons after psilocybin administration. Whole-brain light-sheet microscopy created a detailed connectome map across 65 brain regions. To test the activity-dependence hypothesis, they used chemogenetic silencing to shut down specific input regions during drug administration, observing if rewiring occurred.\n\n**Results:** The data revealed a 10% increase in visual cortex inputs to medial frontal cortex neurons, while cortico-cortical feedback loops decreased by 15%. Most strikingly, this rewiring pattern precisely matched drug-induced c-Fos expression—neural activity was the guiding force. When researchers inhibited retrosplenial cortex (RSP) neurons with DREADDs, psilocybin's rewiring effect vanished. This confirms that drug-induced neural firing acts as the switch for structural plasticity, explaining why psychedelic therapy requires active brain states for therapeutic effects."
+    },
+    "keyArticle": {
+      "title": "Psilocybin triggers an activity-dependent rewiring of large-scale cortical networks",
+      "authors": [
+        "Quan Jiang",
+        "Ling-Xiao Shao",
+        "Shenqin Yao",
+        "Neil K. Savalia",
+        "Annie-Kim Gilbert",
+        "Pasha A. Davoudian",
+        "Jack D. Nothnagel",
+        "Guilian Tian",
+        "Tin Shing Hung",
+        "H. M. Lai",
+        "Kevin T. Beier",
+        "Hongkui Zeng",
+        "Alex C. Kwan"
+      ],
+      "doi": "10.1016/j.cell.2025.11.009",
+      "pages": "659-675.e22"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.009",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.009",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.08.06.668927"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:45:26.183074+00:00",
+    "source": "openalex"
+  }
+}

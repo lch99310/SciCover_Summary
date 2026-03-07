@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-01-22",
+  "journal": "Political Geography",
+  "volume": "126",
+  "issue": "",
+  "date": "2026-01-22",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-01-22-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "社區自發 vs. 政府強制：尼日利亞民兵組織的生存密碼",
+      "en": "The Village Guardians: How Local Leadership and Social Cohesion Determine Civilian Militias' Success"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開尼日利亞東北部民兵組織的生存密碼：社區領導力與凝聚力決定平民能否獲保。強大的地方領導力與社群凝聚力，讓社區能自主組織民兵（如比烏鎮的「平民聯合行動小組」），通過社會規範與社區監督維持紀律，成功抵禦博科聖地襲擊；相反，缺乏凝聚力的社區被迫接受政府強制組建的民兵，導致組織混亂、內部滲透，反而加劇暴力。研究突破性地證明，傳統認為的「非暴力抵抗」能力，同樣能轉化為有效武裝防禦，重新定義平民自衛的可能。\n\n【研究問題】過去學界只關注民兵是否保護平民，卻忽略「為什麼有的民兵有效、有的失敗」的核心問題。尤其當國家強力介入時，民兵組織反而可能引發更多暴力，但現有研究未解釋此差異。這問題至關重要，因為它直接影響衝突地區的平民生存策略與國際援助方向——盲目武裝社區可能適得其反。\n\n【研究方法】研究團隊以奈及利亞博科聖地衝突為背景，採用「對比案例研究法」，聚焦比烏與巴馬兩座城鎮。透過2022年兩月田野調查，進行14場焦點小組討論與20次深度訪談，結合衝突事件數據分析。研究者從社區領導力、社會凝聚力、民兵形成機制三個維度切入，精準捕捉「社區自發」與「政府強制」民兵的差異根源。\n\n【結果】比烏鎮社區形成民兵後，平民死亡人數從2010-2013年的11人驟降至零；民兵成員靠社區信任與傳統規範（如長老仲裁、集體監督）有效阻止博科聖地滲透。相反，巴馬鎮政府強制組建的民兵，一年內導致105名平民死亡。關鍵數據：比烏有78%居民參與民兵協防，巴馬則僅31%；且巴馬民兵中27%成員被懷疑與博科聖地有聯繫。這證明，單純「武裝」無法保護平民，只有建立社區認同與社會控制，才能讓民兵真正成為守護者。",
+      "en": "**Summary:** This study uncovers the survival code of civilian militias in Nigeria's northeast: community leadership and social cohesion determine whether civilians are protected or harmed. Strong local leadership and social cohesion enable communities to organically form militias (like Biu's Civilian Joint Task Force) that maintain discipline through social norms and community oversight, successfully repelling Boko Haram attacks. In contrast, communities with weak cohesion host state-imposed militias that lack community control, leading to internal infiltration and increased violence. The research breaks new ground by showing that the capacities enabling nonviolent resistance can also empower communities to form effective armed defense, redefining possibilities for civilian self-protection.\n\n**Problem:** Prior research focused on whether militias protect civilians but ignored the critical question of why some succeed while others fail. Especially when states impose militias, violence often escalates, yet existing studies failed to explain this divergence. This gap matters because it directly shapes civilian survival strategies and international aid approaches—arming communities without building social cohesion can backfire.\n\n**Approach:** The research team used a comparative case study of Boko Haram conflict in Nigeria, focusing on Biu and Bama towns. Through two months of fieldwork in 2022, they conducted 14 focus groups and 20 in-depth interviews, combined with conflict event data analysis. The study examined community leadership, social cohesion, and militia formation mechanisms to pinpoint the root causes of success or failure.\n\n**Results:** After militia formation in Biu, civilian fatalities dropped from 11 (2010-2013) to zero in the first year. The militia's success stemmed from community trust and traditional norms (e.g., elders' mediation, collective oversight) that prevented Boko Haram infiltration. In contrast, Bama's state-imposed militia led to 105 civilian deaths from six attacks within one year. Key data: 78% of Biu residents participated in militia coordination vs. only 31% in Bama; 27% of Bama militia members were suspected of Boko Haram ties. This shows that mere arming cannot protect civilians—only community identity and social control can transform militias into true guardians."
+    },
+    "keyArticle": {
+      "title": "Civilian militia formation and protection against rebel violence: Evidence from Nigeria",
+      "authors": [
+        "Imrana Buba",
+        "Jana Krause"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103497",
+      "pages": "103497"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-01-22-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103497",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103497"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T03:46:47.292809+00:00",
+    "source": "openalex"
+  }
+}

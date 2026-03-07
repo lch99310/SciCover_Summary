@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T03:37:05.616189+00:00",
+  "lastUpdated": "2026-03-07T03:46:47.305438+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -344,6 +344,15 @@
       "cover_url": ""
     },
     {
+      "id": "political-geography-2026-01-22",
+      "journal": "Political Geography",
+      "date": "2026-01-22",
+      "path": "articles/2026/01/political-geography-2026-01-22.json",
+      "title_zh": "社區自發 vs. 政府強制：尼日利亞民兵組織的生存密碼",
+      "title_en": "The Village Guardians: How Local Leadership and Social Cohesion Determine Civilian Militias' Success",
+      "cover_url": "data/images/political-geography/political-geography-2026-01-22-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2026-01-17-02",
       "journal": "American Sociological Review",
       "date": "2026-01-17",
@@ -540,6 +549,15 @@
       "title_zh": "土地共治，復興鄉野：蘇格蘭村莊用社區買地打造生態與社會的雙贏未來",
       "title_en": "How a Scottish Community Bought Its Land to Restore Nature—and Build a New Social Contract",
       "cover_url": "data/images/political-geography/political-geography-2025-12-08-cover.jpg"
+    },
+    {
+      "id": "cell-2025-12-05",
+      "journal": "Cell",
+      "date": "2025-12-05",
+      "path": "articles/2025/12/cell-2025-12-05.json",
+      "title_zh": "迷幻藥的神經重塑：一劑裸蓋菇素如何重新編織大腦網絡？",
+      "title_en": "How One Dose of Magic Mushrooms Rewires the Brain's Network",
+      "cover_url": "data/images/cell/cell-2025-12-05-cover.jpg"
     },
     {
       "id": "cell-2025-12-01",
