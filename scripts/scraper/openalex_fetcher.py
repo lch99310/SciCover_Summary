@@ -342,7 +342,8 @@ class OpenAlexFetcher:
         locations — Cell articles almost always have a bioRxiv version.
         """
         _PREPRINT_SERVERS = (
-            "arxiv", "biorxiv", "medrxiv", "ssrn", "socarxiv",
+            "arxiv", "biorxiv", "medrxiv", "chemrxiv",
+            "ssrn", "socarxiv",
             "osf.io/preprints", "osf.io", "repec", "ideas.repec",
             "econpapers", "nber.org/papers",
         )
@@ -358,18 +359,18 @@ class OpenAlexFetcher:
                 if server in landing_lower:
                     return landing
 
-        # Fallback: query bioRxiv pubs API for Elsevier articles (Cell, etc.).
-        # Cell articles almost always have a bioRxiv preprint, but OpenAlex
-        # doesn't always list it in locations.
+        # Fallback: query bioRxiv / medRxiv pubs API for ALL DOIs.
+        # Many Science, Nature, Cell articles have preprints that OpenAlex
+        # doesn't always list in locations.
         doi = (work.get("doi") or "").replace("https://doi.org/", "")
-        if doi and doi.lower().startswith("10.1016/"):
+        if doi:
             try:
                 from .biorxiv_api import find_preprint
-                biorxiv_url = find_preprint(doi)
-                if biorxiv_url:
-                    return biorxiv_url
+                preprint_url = find_preprint(doi)
+                if preprint_url:
+                    return preprint_url
             except Exception as exc:
-                logger.debug("bioRxiv API lookup failed for %s: %s", doi, exc)
+                logger.debug("bioRxiv/medRxiv API lookup failed for %s: %s", doi, exc)
 
         return ""
 
