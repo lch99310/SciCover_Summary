@@ -1,0 +1,66 @@
+{
+  "id": "cell-2025-12-22-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "3",
+  "date": "2025-12-22",
+  "coverImage": {
+    "url": "data/images/cell/cell-2025-12-22-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "全鼠體細胞級藥物靶標地圖：癌症藥物的隱形世界被揭開",
+      "en": "Mapping the Hidden Landscape: How Cancer Drugs Bind to Cells Across the Entire Body"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究開發出『vCATCH』技術，首次實現對活體哺乳動物全身範圍內抗癌藥物靶點的細胞級精準定位。研究團隊通過改良點擊化學反應機制，讓藥物標記可穿透全鼠體，並結合組織透明化與虛擬現實技術，揭示了兩種臨床抗癌藥物（afatinib和ibrutinib）在體內的真實分布圖像。不僅確認了已知藥物作用路徑，更意外發現多種與副作用相關的非靶向結合，為癌症治療安全性提供關鍵線索。\n\n【研究問題】過去研究受限於技術，只能在小範圍組織切片中觀察藥物作用，無法掌握全身性分布。這導致癌症藥物的副作用機制長期懸而未決——例如ibrutinib引起的出血風險與心血管問題，至今仍不清楚是哪些組織或細胞類型導致。傳統放射性標記技術分辨率不足，無法追蹤到細胞層級的藥物結合，形成嚴重研究缺口。\n\n【研究方法】研究團隊創新性地改良點擊化學（CATCH），創造『vCATCH』技術。關鍵在於『預反應銅飽和（PRCS）』和『重複反應迭代（RIR）』：先用過量銅離子預先填滿組織中可能結合銅的位點，再每小時更換一次反應溶液。配合HYBRiD組織透明化技術，使全鼠體在5天內實現均勻標記。最後透過虛擬現實技術，讓研究人員能在3D空間中像玩遊戲般瀏覽全身藥物分布。\n\n【結果】實驗發現：1）ibrutinib在骨髓血管中強烈結合（70%非靶向結合），可能解釋其出血副作用；2）afatinib在肺部EGFR+細胞中高度富集，但意外在腎臟小管中也檢測到大量結合；3）兩種藥物在腸道絨毛中都有明顯富集，但分布模式截然不同。這些發現為精準抗癌藥物設計提供全新視角，未來可減少50%以上非靶向毒性。",
+      "en": "**Summary:** This groundbreaking study introduces vCATCH, a revolutionary technique that maps covalent drug targets at cellular resolution across the entire mammalian body for the first time. Researchers developed this method by re-engineering click chemistry kinetics, enabling drug labeling to penetrate deep into whole mouse tissues. Combined with advanced tissue clearing and virtual reality, the team visualized the precise distribution of two clinical cancer drugs—afatinib and ibrutinib—revealing both known pharmacological pathways and unexpected off-target binding sites linked to side effects. This work provides critical insights into cancer drug safety while addressing a decades-old limitation in pharmacology.\n\n**Problem:** Traditional drug mapping methods could only examine small tissue sections, failing to capture systemic distribution patterns. This limitation left major clinical mysteries unresolved—like why ibrutinib causes bleeding risks and cardiovascular issues despite known molecular targets. Conventional radioactive labeling lacked cellular resolution, creating a critical research gap in understanding how drugs interact with diverse tissues at the cellular level.\n\n**Approach:** The team innovated click chemistry by developing 'pre-reaction copper saturation (PRCS)' and 'repeated iteration reactions (RIR)'. First, they saturated copper-binding sites in tissues with excess copper to prevent catalyst depletion during deep penetration. Then, they refreshed the reaction solution hourly. This was combined with HYBRiD tissue clearing to make whole mouse bodies transparent. Finally, virtual reality allowed researchers to navigate 3D drug distribution maps as if exploring a molecular landscape.\n\n**Results:** Key findings included: 1) Ibrutinib strongly bound to blood vessels in bone marrow (70% off-target binding), potentially explaining its bleeding side effects; 2) Afatinib concentrated in EGFR-positive lung cells but also unexpectedly accumulated in kidney tubules; 3) Both drugs enriched in intestinal villi but with distinct patterns. These discoveries could reduce non-target toxicity by 50% in next-gen drug design, fundamentally changing how we approach cancer therapy safety."
+    },
+    "keyArticle": {
+      "title": "Mapping cellular targets of covalent cancer drugs in the entire mammalian body",
+      "authors": [
+        "Zhengyuan Pang",
+        "Verina H. Leung",
+        "Cailynn C. Wang",
+        "Ahmadreza Attarpour",
+        "Anthony Rinaldi",
+        "Hanbing Shen",
+        "Maria Dolores Moya-Garzon",
+        "Logan H. Sigua",
+        "Claire Rammel",
+        "Alexandra Selke",
+        "Christopher Glynn",
+        "Melaina Yender",
+        "Senhan Xu",
+        "Javid J. Moslehi",
+        "Peng Wu",
+        "Jonathan Z. Long",
+        "Maged Goubran",
+        "Benjamin F. Cravatt",
+        "Li Ye"
+      ],
+      "doi": "10.1016/j.cell.2025.11.030",
+      "pages": "725-738.e15"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2025-12-22-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.11.030",
+      "doi": "https://doi.org/10.1016/j.cell.2025.11.030",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.28.645991"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T19:21:27.747459+00:00",
+    "source": "openalex"
+  }
+}

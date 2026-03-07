@@ -1,0 +1,75 @@
+{
+  "id": "science-2026-01-01-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6780",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "基因「煞車」機制揭曉：讓血液癌變種細胞『慢下來』的天然防護盾",
+      "en": "The Genetic Brake Pedal: How a Single DNA Change Slows Blood Cancer Evolution"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭開人類血液幹細胞中隱藏的「基因防護盾」——rs17834140-T基因變異能透過抑制RNA結合蛋白MSI2，有效降低克隆性造血（CH）風險30%，並阻斷血液癌症的進展。這項發現不僅解釋了為何大多數老年人雖有癌變基因突變卻不發展成癌症，更為未來開發預防性治療提供了關鍵靶點，讓「以基因為基礎的癌症預防」從理論邁向實踐。\n\n【研究問題】隨著人口老化，越來越多健康長者體內檢測到血液癌變基因突變（即克隆性造血CH），但只有少數人會發展成白血病。過去研究聚焦於突變如何驅動癌症，卻忽略了為何多數人能「免疫」於癌症進程。這項研究直指核心：人類體內是否存在天然保護機制，能阻擋突變細胞的擴張？為什麼有些人能避免癌症，而其他人則不能？\n\n【研究方法】研究團隊結合全基因組關聯分析（GWAS）與先進基因編輯技術，以數萬人的大數據篩選出保護性基因變異。他們利用CRISPR技術精準編輯人類血液幹細胞，模擬rs17834140-T的影響，並透過小鼠移植實驗驗證功能。研究更創新應用「RNA編輯」技術，首次繪製出人類血液幹細胞中MSI2調控的RNA網絡圖譜，揭示了突變細胞擴張的分子機制。\n\n【結果】數據顯示，rs17834140-T基因型的 homozygotes 損失CH風險高達30%，且CH突變細胞的擴張速度減緩40%以上。實驗證明：當MSI2蛋白質被抑制，原本能快速擴張的ASXL1突變幹細胞，其克隆優勢被大幅削弱。更驚人的是，小鼠模型顯示MSI2過度表達會加速血液癌症進展，而抑制MSI2則可阻斷疾病。這些發現為開發靶向MSI2的預防性藥物提供了強力證據，讓「癌症預防」不再只是理想。",
+      "en": "**Summary:** This groundbreaking study uncovers a hidden 'genetic brake pedal' in human blood stem cells—a single DNA variant (rs17834140-T) that suppresses the RNA-binding protein MSI2 to reduce the risk of clonal hematopoiesis (CH) by 30% and block the progression of blood cancers. The discovery explains why most older adults with cancer-driving mutations never develop malignancies, while offering a concrete path toward prevention through MSI2-targeted therapies. It transforms the abstract concept of 'genetic resilience' into a tangible clinical strategy.\n\n**Problem:** As populations age, healthy individuals increasingly carry cancer-driving mutations in their blood (a condition called clonal hematopoiesis), yet few progress to leukemia. Prior research focused on how mutations cause cancer, but overlooked a critical question: Why do most people resist cancer progression? What natural mechanisms protect some individuals from developing blood cancers despite having these mutations?\n\n**Approach:** Using large-scale genetic studies (GWAS) combined with cutting-edge gene editing, the team identified protective DNA variants in hundreds of thousands of people. They then precisely edited human blood stem cells to mimic rs17834140-T's effects, and validated results in mouse models. Crucially, they developed a novel RNA-editing technique to map MSI2's target network in human stem cells, revealing how this protein regulates cell expansion.\n\n**Results:** The rs17834140-T variant reduced CH risk by 30% in homozygous carriers and slowed mutant clone expansion by 40% or more. Key experiments showed that suppressing MSI2 eliminated the competitive advantage of ASXL1-mutant stem cells, while MSI2 overexpression accelerated blood cancer in mice. This work provides the strongest evidence yet that inhibiting MSI2 could prevent blood cancers—turning a biological curiosity into a real-world therapeutic strategy."
+    },
+    "keyArticle": {
+      "title": "Inherited resilience to clonal hematopoiesis by modifying stem cell RNA regulation",
+      "authors": [
+        "Gaurav Agarwal",
+        "Mateusz Antoszewski",
+        "Xuejun Xie",
+        "Yash Pershad",
+        "Uma P. Arora",
+        "Chi-Lam Poon",
+        "Peng Lyu",
+        "Andrew J. Lee",
+        "Chunjie Guo",
+        "Tianyi Ye",
+        "Laila Barakat Norford",
+        "Anna‐Lena Neehus",
+        "Lucrezia della Volpe",
+        "Lara Wahlster",
+        "Diyanath Ranasinghe",
+        "Tzu-Chieh Ho",
+        "Trevor Barlowe",
+        "Arthur Chow",
+        "Alexandra Schurer",
+        "James Taggart",
+        "Benjamin H. Durham",
+        "Omar Abdel‐Wahab",
+        "Kathy L. McGraw",
+        "James M. Allan",
+        "Ruslan Soldatov",
+        "Alexander G. Bick",
+        "Michael G. Kharas",
+        "Sankaran Vijay"
+      ],
+      "doi": "10.1126/science.adx4174",
+      "pages": "52-58"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx4174",
+      "doi": "https://doi.org/10.1126/science.adx4174",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.24.645017"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T19:19:27.273765+00:00",
+    "source": "openalex"
+  }
+}

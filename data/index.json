@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T04:59:42.719523+00:00",
+  "lastUpdated": "2026-03-07T19:24:59.683337+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -216,6 +216,15 @@
       "title_zh": "碳的紅氧化學：為什麼所有火山岩都源自同一個熔融源？",
       "title_en": "The Carbon Catalyst: How Mantle Melting Unifies Earth's Volcanic Rocks",
       "cover_url": "data/images/nature/nature-2026-02-04-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-04-03",
+      "journal": "Nature",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/nature-2026-02-04-03.json",
+      "title_zh": "AI不再亂編論文！科學文獻合成新神器OpenScholar破除'幻覺'迷思",
+      "title_en": "When AI Writes Science: How OpenScholar Tames Hallucinations in Literature Synthesis",
+      "cover_url": "data/images/nature/nature-2026-02-04-03-cover.jpg"
     },
     {
       "id": "nature-2026-02-04",
@@ -461,6 +470,15 @@
       "cover_url": "data/images/cell/cell-2026-01-01-cover.jpg"
     },
     {
+      "id": "science-2026-01-01-02",
+      "journal": "Science",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/science-2026-01-01-02.json",
+      "title_zh": "基因「煞車」機制揭曉：讓血液癌變種細胞『慢下來』的天然防護盾",
+      "title_en": "The Genetic Brake Pedal: How a Single DNA Change Slows Blood Cancer Evolution",
+      "cover_url": "data/images/science/science-2026-01-01-02-cover.jpg"
+    },
+    {
       "id": "science-2026-01-01",
       "journal": "Science",
       "date": "2026-01-01",
@@ -522,6 +540,15 @@
       "title_zh": "水的權力遊戲：墨西哥城水利基建中的官僚鬥爭與國家建構",
       "title_en": "The Water Frontier: How Bureaucrats Forged Mexico City's State Through Hydraulic Infrastructure",
       "cover_url": "data/images/political-geography/political-geography-2025-12-23-cover.jpg"
+    },
+    {
+      "id": "cell-2025-12-22-02",
+      "journal": "Cell",
+      "date": "2025-12-22",
+      "path": "articles/2025/12/cell-2025-12-22-02.json",
+      "title_zh": "全鼠體細胞級藥物靶標地圖：癌症藥物的隱形世界被揭開",
+      "title_en": "Mapping the Hidden Landscape: How Cancer Drugs Bind to Cells Across the Entire Body",
+      "cover_url": "data/images/cell/cell-2025-12-22-02-cover.jpg"
     },
     {
       "id": "cell-2025-12-22",
@@ -594,6 +621,15 @@
       "title_zh": "黨的根脈如何在地圖上生長？義大利與瑞典的百年政治地理學",
       "title_en": "The Party’s Roots on the Map: How Italy and Sweden’s Political Geography Shaped Grassroots Branches",
       "cover_url": "data/images/political-geography/political-geography-2025-12-05-cover.jpg"
+    },
+    {
+      "id": "political-geography-2025-12-03",
+      "journal": "Political Geography",
+      "date": "2025-12-03",
+      "path": "articles/2025/12/political-geography-2025-12-03.json",
+      "title_zh": "石油王國的血淚史：加拿大「邊疆開拓」國家工程的興衰",
+      "title_en": "The Oil Frontier State: Canada's Failed Bet on Arctic Oil and the Return of Big Government",
+      "cover_url": ""
     },
     {
       "id": "cell-2025-12-01",
@@ -719,6 +755,15 @@
       "path": "articles/2025/11/international-organization-2025-11-20-11.json",
       "title_zh": "世界秩序崩解倒計時？15位學者揭開全球治理的未來危機",
       "title_en": "The Unraveling World Order: How Technology, Populism, and Climate Change Are Reshaping Global Governance",
+      "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20-12",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-12.json",
+      "title_zh": "從民主護航到主權為王：聯合國維和行動的百年轉折",
+      "title_en": "The UN Peacekeeping Dilemma: How a Liberal Project Is Being Reimagined in a Fractured World",
       "cover_url": ""
     },
     {

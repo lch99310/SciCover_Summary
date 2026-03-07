@@ -1,0 +1,74 @@
+{
+  "id": "nature-2026-02-04-03",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8103",
+  "date": "2026-02-04",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-04-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI不再亂編論文！科學文獻合成新神器OpenScholar破除'幻覺'迷思",
+      "en": "When AI Writes Science: How OpenScholar Tames Hallucinations in Literature Synthesis"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開科學文獻合成的革命性突破——OpenScholar以開源架構整合領域專用數據庫與自我反饋機制，徹底解決AI模型「胡編 citations」的致命弱點。實驗證明，這套系統在長篇文獻綜合任務中，不僅 citation 準確率飆升至68.9%，更在人類專家評估中以70%勝率超越學術界頂尖研究者，讓AI從「論文造假機器」蛻變為科學界的可靠協作者。其低成本高效能設計，更為全球科研人員打造了一把解鎖海量文獻的金鑰匙。\n\n【研究問題】過去AI模型面對科學文獻時，如同盲人摸象：GPT-4o在多領域測試中竟有78-90%的引用是編造的，而現有評估工具只關注單一學科或簡化題型，完全無法反映真實文獻綜合挑戰。這導致科學家無法信任AI生成的文獻綜述，研究進程受阻。研究缺口在於：如何建立能模擬真實科研流程、兼具跨學科性與嚴謹評價機制的開源解決方案？\n\n【研究方法】研究團隊設計了三重引擎：首先打造4500萬篇論文的OSDS領域數據庫，如同科學界的「活體百科全書」；其次開發自我反饋循環，讓AI像學徒般「先寫再改」，每輪修正都依賴實時檢索的可靠資料；最後創建 ScholarQABench 評估基準，模擬真實學術問題。關鍵創新在於將「檢索-生成-修正」三步驟交織成閉環，讓模型像科學家一樣邊查邊寫，而非單純依賴內存知識。\n\n【結果】最驚人數據出現在人機對決：OpenScholar-GPT-4o在108組專家對照測試中，以70%勝率擊敗人類專家，且答案篇幅長達專家2.4倍卻仍獲高評分。在生物醫學領域，傳統模型的 citation 虛構率高達97.6%，而OpenScholar則達到0%。成本效益更突破天際——OpenScholar-8B每問僅需0.003美元，比競爭對手便宜10倍，且已累計服務3萬用戶。這不僅為科研加速，更預示著「AI協作式研究」的黃金時代來臨。",
+      "en": "**Summary:** This groundbreaking research reveals how OpenScholar—a fully open, retrieval-augmented language model—has transformed scientific literature synthesis by eliminating AI hallucinations and citation errors. By integrating domain-specific knowledge with iterative self-refinement, the system achieves unprecedented accuracy: OpenScholar-GPT-4o outperforms human experts in 70% of evaluations while generating answers twice as comprehensive as scholarly peers. More than a tool, it represents a paradigm shift where AI doesn't just summarize papers but becomes a reliable co-author in scientific discovery.\n\n**Problem:** Current AI models like GPT-4o fabricate citations 78-90% of the time when synthesizing scientific literature, making them dangerously unreliable for research. Existing benchmarks were limited to single disciplines or simplified tasks, failing to capture the complexity of real-world literature reviews. This created a critical gap: without rigorous, multidisciplinary evaluation tools, scientists couldn't trust AI-generated syntheses—and research progress stalled.\n\n**Approach:** The team built a three-part system: First, OSDS—a 45-million-paper database with 236 million passage embeddings that acts as a scientific memory. Second, a self-feedback loop where the AI generates an initial draft, then iteratively refines it using retrieved evidence (like a researcher cross-checking sources). Third, ScholarQABench, a benchmark with 3,000 expert-written questions spanning computer science, biomedicine, and physics. The key innovation was designing the pipeline to mimic how scientists actually work: retrieve → draft → verify → revise.\n\n**Results:** OpenScholar-8B achieved 68.9% citation accuracy, a 25% jump over standard retrieval systems. In human evaluations, OpenScholar-GPT-4o scored 70% win rate against experts—meaning it produced better literature reviews than PhD researchers in 7 out of 10 cases. Crucially, it cut costs by 10x compared to proprietary tools like PaperQA2 while processing 90,000 queries from 30,000 users. These results prove that open-source AI can match (and exceed) human expertise in scientific synthesis, accelerating discovery across fields from neuroscience to physics."
+    },
+    "keyArticle": {
+      "title": "Synthesizing scientific literature with retrieval-augmented language models",
+      "authors": [
+        "Akari Asai",
+        "Jacqueline He",
+        "Rulin Shao",
+        "Weijia Shi",
+        "Amanpreet Singh",
+        "Joseph Chee Chang",
+        "Kyle Shih-Huang Lo",
+        "Luca Soldaini",
+        "Sergey Feldman",
+        "Kurt Dauth",
+        "David Wadden",
+        "Yixin Liu",
+        "Jenna Sparks",
+        "Jena D. Hwang",
+        "Varsha Kishore",
+        "Minyang Tian",
+        "Pan Ji",
+        "Shengyan Liu",
+        "Hao Tong",
+        "Bohao Wu",
+        "Yanyu Xiong",
+        "Sonal Gupta",
+        "Graham Neubig",
+        "Daniel S. Weld",
+        "Doug Downey",
+        "Wen-tau Yih",
+        "Pang Wei Koh",
+        "Hannaneh Hajishirzi"
+      ],
+      "doi": "10.1038/s41586-025-10072-4",
+      "pages": "857-863"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-04-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10072-4",
+      "doi": "https://doi.org/10.1038/s41586-025-10072-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T19:20:15.736508+00:00",
+    "source": "openalex"
+  }
+}

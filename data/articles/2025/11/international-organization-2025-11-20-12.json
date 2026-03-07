@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2025-11-20-12",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從民主護航到主權為王：聯合國維和行動的百年轉折",
+      "en": "The UN Peacekeeping Dilemma: How a Liberal Project Is Being Reimagined in a Fractured World"
+    },
+    "summary": {
+      "zh": "【總結】文章揭示聯合國維和行動正從冷戰後的自由主義模型，悄然轉向主權導向的實務路徑。這並非正式制度變革，而是「機構性漂移」——規範的解釋權與實踐重心已逐漸偏移，卻仍保留著自由民主的語彙框架。作者指出，美國戰略收縮、中國俄羅斯的影響力擴張、東道國的強勢 bargaining，以及聯合國官僚體系的適應性調整，共同推動這場轉變。這不僅是維和任務的調整，更象徵著國際秩序從「自由主義主導」進入「主權為王」的後自由主義時代。這項研究的突破性在於，它解開了「為什麼自由主義規範未被明確廢除，卻在實踐中日益邊緣化」的謎題。\n\n【研究問題】過去學界多聚焦於維和機制的正式改革（如大會決議、行動綱領），卻忽略規範實踐中的「暗流」。Reeder指出，現有研究將轉變視作突發性「劇變」，卻未理解其背後的機構性緩慢演變。更重要的是，東道國如何利用「同意要求」作為 bargaining 工具、強國如何透過替代性合作削弱自由主義條件，這些關鍵機制長期被忽視。解決此問題至關重要，因為它關係到國際社會是否能適應「多極化」世界，避免維和行動淪為地緣政治博弈的附屬品。\n\n【研究方法】作者以「規範動態學」與「官僚文化」理論為框架，結合實證分析與案例研究。他追蹤了1990年代至今的維和任務演變，特別聚焦於馬里、剛果（金）、南蘇丹、中非共和國四個案例，揭示東道國如何以「同意」為籌碼限制任務範圍。同時，他透過解剖「機構性漂移」機制（如官僚體系在壓力下調整實踐），證明規範的實踐性轉變如何在不改變文字規範的情況下悄然發生。例如，聯合國工作人員在遭遇東道國抵制時，會選擇淡化人權報告、縮減民主改革目標，以維持任務存續。\n\n【結果】關鍵數據顯示：中國現為第二大資金貢獻國，2024年已派遣超過2,200名維和人員；2023年馬里當局強制要求撤出MINUSMA；剛果（金）2022年抗議活動導致4名維和人員喪生。這些案例表明，維和任務在形式上仍保留民主與人權要素，但實質上已轉向衝突管控與主權支持。研究預測，未來將出現四種路徑：緩慢轉向穩定化、規範性分裂與區域化、liberalism 重新確立、正式規範重定義。目前最可能的走向是「緩慢轉向穩定化」，即在保留自由民主語彙的同時，實質上聚焦主權與穩定。這不僅是維和的轉型，更代表國際秩序正經歷「非衝突性」的深刻調整。",
+      "en": "**Summary:** This article reveals that UN peacekeeping is quietly drifting from its post-Cold War liberal model toward a sovereignty-focused approach—not through formal doctrine changes, but via institutional drift. Key drivers include U.S. strategic withdrawal, China and Russia’s rising influence, host states’ bargaining power, and UN bureaucratic adaptation. The analysis shows how liberal norms like democratization are increasingly sidelined in favor of conflict containment and state support. This shift signals not the collapse of peacekeeping, but a contested adaptation within a fragmented world order, marking the dawn of a post-liberal era.\n\n**Problem:** Prior research focused on formal institutional changes (e.g., resolutions, mandates), overlooking the subtle, ongoing shift in practice. Scholars treated this transition as a sudden rupture rather than a gradual drift, missing how host states leverage consent requirements and how geopolitical competition reshapes norms. This gap matters because understanding institutional drift is crucial for anticipating how international norms evolve in a multipolar world.\n\n**Approach:** Reeder combines norm dynamics theory with empirical case studies of Mali, the DRC, South Sudan, and CAR. He analyzes how UN staff adapt under pressure—e.g., reducing human rights reporting when host states resist. Using the concept of \"institutional drift\" (gradual reconfiguration without formal rupture), he demonstrates how norms are reinterpreted in practice. His method tracks how mission leaders recalibrate priorities to preserve access, even at the cost of liberal objectives.\n\n**Results:** Key findings include China’s role as the second-largest financial contributor (2,200 troops deployed as of 2024), Mali’s 2023 expulsion of MINUSMA, and South Sudan’s 700+ operational restrictions on UNMISS. While mandates still mention democracy and human rights, these are increasingly deferred. Four plausible futures emerge: gradual drift toward stabilization, normative fragmentation into regional models, niche liberal reaffirmation, or formal sovereignty-first codification. The most likely path is gradual drift, where UN missions prioritize state stability over democratic reform—a shift with profound implications for global governance."
+    },
+    "keyArticle": {
+      "title": "The Future of United Nations Peacekeeping in a Fragmenting World",
+      "authors": [
+        "Bryce W. Reeder"
+      ],
+      "doi": "10.1017/s0020818325101045",
+      "pages": "S148-S161"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101045",
+      "doi": "https://doi.org/10.1017/s0020818325101045"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T19:24:56.476216+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2025-12-03",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-03",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "石油王國的血淚史：加拿大「邊疆開拓」國家工程的興衰",
+      "en": "The Oil Frontier State: Canada's Failed Bet on Arctic Oil and the Return of Big Government"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開加拿大1973-84年間「邊疆開拓」國家工程的驚人真相：當年自由黨政府為打造能源霸權，動用國家力量在北極與大西洋外海瘋狂探勘石油，卻因市場風暴與政策失誤淪為歷史笑話。研究指出，這場被稱為「石油王國」的豪賭，實際上是三種國家行動的混合體——直接控股、財政誘因與油污研究，它們共同構建了一個「邊疆開拓」的國家機器。有趣的是，當前特魯多政府推動的「能源超級大國」政策，正重複這段歷史，卻在氣候危機下更顯危險。這不僅是個歷史故事，更是當下政治決策的預警信號。\n\n【研究問題】文章聚焦「為何加拿大政府在1973-84年間，不惜巨資投入北極與大西洋外海油氣開發？」過去研究多集中於阿爾伯塔油砂，忽視了「邊疆」地區的特殊性。研究缺口在於：為何政府會放棄傳統經濟邏輯，動用國家力量打造一個「能源國家」？為何這類政策會在2025年重新復甦？此問題至關重要，因為當前能源政策的失誤，正重演歷史悲劇。\n\n【研究方法】作者以政治學家賈斯珀（Bob Jessop）的「國家項目」理論為框架，結合大量政府檔案、財政數據與行業記錄，進行歷史分析。獨特之處在於：將「直接控股」、「財政誘因」與「油污研究」三大要素拆解為「國家行動三重奏」，並以「海神號」（Hibernia）項目為例，證明 neoliberal 化的政策仍無法逃脫國家干預的本質。作者用「石油探勘」與「油污研究」的對比，展現國家機器如何在理想與現實間搖擺。\n\n【結果】研究發現，1976-85年間，國營公司「油加公司」（Petro-Canada）承擔了40%的邊疆探勘開支，但最終因1986年油價暴跌而崩潰。政府在1981-87年間，通過「石油激勵計劃」（PIP）投入68億加元，卻導致企業負債高達10億加元。最戲劇性的是，油污研究項目從「政府主導」轉為「業界自願」，但2010年深水地平線油污事件仍顯示，這些研究未能真正防範災難。當前政府重啟「能源超級大國」計劃時，已放棄了1970年代的「經濟民族主義」，卻未解決油價波動與環境風險的核心問題。",
+      "en": "**Summary:** This article reveals the dramatic history of Canada's \"frontier-making state project\" from 1973-84—a bold but ultimately failed national gamble to dominate Arctic and Atlantic offshore oil. Under Prime Minister Trudeau, the Liberal government launched a massive state-led effort to transform Canada into an energy superpower, combining direct ownership, financial incentives, and oil spill research. The project's collapse in 1984 due to market forces and political backlash offers crucial insights for today's energy policy debates. Most strikingly, Prime Minister Carney's current \"energy superpower\" vision directly echoes this historical experiment, but with renewed urgency in the face of climate crisis. This isn't just history—it's a warning about the dangers of repeating state-driven energy projects without addressing fundamental economic and environmental risks.\n\n**Problem:** Why did Canada's government pour billions into risky Arctic and offshore oil development during the 1970s and 1980s? Previous research has largely overlooked frontier regions, focusing instead on Alberta's oil sands. The gap is critical: understanding how and why governments create \"state projects\" that bypass market logic is essential for analyzing today's energy policies. This question matters because we're currently witnessing a revival of state-led energy development, yet we lack historical context to assess its potential pitfalls.\n\n**Approach:** Drawing on Bob Jessop's theory of \"state projects,\" the author conducted a detailed historical analysis of government documents, budget records, and industry reports. The study uniquely dissects the project into three components: direct state ownership (via Petro-Canada), financial incentives (like the \"super-depletion\" tax policy), and oil spill research. By examining the Hibernia project—a neoliberal-era exception to the state project—the author demonstrates how even privatized policies still rely on state intervention. This approach reveals the complex interplay between economic nationalism and market forces in shaping energy policy.\n\n**Results:** Petro-Canada accounted for 40% of frontier exploration spending between 1976-85, but by 1985, low oil prices forced the company to abandon high-risk projects. The Petroleum Incentives Program (PIP) distributed $6.8 billion CAD from 1981-87, yet this led to massive corporate debt, including Dome Petroleum's $10 billion CAD in liabilities. Oil spill research, initially government-led, shifted to industry control after budget cuts—yet even today's major spills (like Deepwater Horizon) show the limitations of these efforts. Most tellingly, the Hibernia project's 1993 commercial success came just as global oil prices hit their lowest point since 1973, highlighting the project's fundamental vulnerability to market forces."
+    },
+    "keyArticle": {
+      "title": "Own, fund, and spill: Canada's ‘frontier-making state project,’ 1973–84",
+      "authors": [
+        "James Wilt"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103470",
+      "pages": "103470"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103470",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103470"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-07T19:22:25.792711+00:00",
+    "source": "openalex"
+  }
+}
