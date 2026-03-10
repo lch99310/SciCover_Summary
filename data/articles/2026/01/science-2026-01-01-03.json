@@ -1,0 +1,105 @@
+{
+  "id": "science-2026-01-01-03",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6780",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/science/science-2026-01-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "豬的遠征：4000年前太平洋航海家如何用豬改變島嶼生態",
+      "en": "Pigs Across the Pacific: How Ancient Mariners Shaped Island Ecosystems Through a Genetic Trail"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開4000年前南島語族大規模跨太平洋移民的關鍵證據——豬的基因與牙齒形態證實，牠們是隨著人類遷徙而被帶入太平洋島嶼的。研究發現，這些豬的基因與中國大陸家豬有直接關聯，且擁有獨特的牙齒形態，證明是人類主動攜帶而非自然擴散。這不僅重塑了我們對太平洋島嶼生態變遷的理解，也為人類遷徙史提供了「活化石」般的證據，顯示早期航海者如何透過畜牧活動塑造新環境。\n\n【研究問題】過去學界爭論：太平洋島嶼的豬群是自然擴散還是人類攜帶？由於島嶼生物地理學中，豬的自然分布極限在華萊士線以西，但東側卻有大量豬群，這形成巨大謎題。傳統考古證據薄弱，無法區分「自然擴散」與「人類攜帶」的差異。解決此問題，對理解人類遷徙路徑、島嶼生態演化至關重要，尤其南島語族的擴散是人類史上最偉大的海洋遷徙之一。\n\n【研究方法】研究團隊像「考古DNA偵探」般工作：分析576頭豬的核基因組，並測量714顆牙齒的形態。他們用「基因拼圖」技術（ADMIXTURE分析）解構豬的血統，如同拆解混血家庭的族譜；再以「牙齒輪廓測量」（幾何形態測量學）比對牙齒形狀，像用指紋辨識身份。連1500年前菲律賓的古豬牙、672年前帛琉的牙齒都納入分析，透過「基因去混雜化」（ancestry deconvolution）技術，精確剔除歐洲豬基因的干擾，還原原始遷徙圖像。\n\n【結果】關鍵數據揭示：華萊士線東側77%的豬擁有「太平洋支系」（Pacific Clade）mtDNA，與中國大陸家豬高度相似。例如，瓦努阿圖的拉皮塔文化遺址中，2900年前的豬牙齒顯示，這些豬的牙齒形態與中國大陸家豬完全一致。最驚人的是，菲律賓和台灣的豬牙齒中，竟發現15-80%的蘇拉威西豬（S. celebensis）基因，證明豬群在遷徙過程中發生基因交換。這不僅證實南島語族將家豬帶入太平洋，更顯示早期航海者可能同時攜帶多種豬種，並在新島嶼上形成「基因混合體」。",
+      "en": "**Summary:** This study uncovers a genetic and morphological trail linking Pacific pigs to the Austronesian expansion 4,000 years ago—a pivotal moment in human history. By analyzing 576 pig genomes and 714 dental remains, researchers revealed that pigs in Wallacea and Oceania share a distinct mitochondrial haplogroup and tooth shape with domestic pigs from mainland Asia, proving they were deliberately transported by Austronesian-speaking groups. This challenges previous assumptions about natural dispersal and offers a rare glimpse into how ancient maritime societies reshaped island ecosystems through livestock introduction.\n\n**Problem:** For decades, scientists debated whether pigs crossed the Wallace Line (the biogeographic boundary between Asia and Australia) through natural means or human agency. Given that wild pigs (*Sus scrofa*) naturally inhabit only the west of this line, the widespread presence of pigs in Melanesia and Polynesia raised urgent questions. Previous studies relied on fragmented archaeological or mitochondrial data, unable to distinguish between natural dispersal and human-mediated transport—a critical gap for understanding the Austronesian expansion, one of humanity’s greatest maritime migrations.\n\n**Approach:** The team combined cutting-edge genomics with geometric morphometrics, treating pig teeth as 'genetic fingerprints.' They sequenced nuclear genomes from 576 pigs spanning ancient and modern samples, including 2,900-year-old Lapita culture remains from Vanuatu. Using 'ancestry deconvolution'—a method akin to removing noise from a signal—they isolated Asian pig ancestry from European or endemic species contamination. To visualize tooth shape variations, they employed 12 landmarks and 87 semilandmarks, mapping subtle differences in molar morphology with precision.\n\n**Results:** East of the Wallace Line, 77% of pigs carried the 'Pacific Clade' mitochondrial haplogroup, a genetic signature linked to mainland Asian pigs. For instance, Lapita-era pigs in Vanuatu (2,900 BP) showed identical tooth morphology to Chinese domestic pigs, confirming their Austronesian origin. Intriguingly, pigs in Western Indonesia retained 13-37% ancestry from endemic *Sus* species like *S. verrucosus*, while Melanesian pigs had none—suggesting the first introduced pigs arrived without local wild species to interbreed with. This mirrors human migration patterns, where Austronesians initially avoided intermingling with Papuan groups. The findings prove that pigs were not just accidental stowaways but strategic cargo of Austronesian voyagers."
+    },
+    "keyArticle": {
+      "title": "Genomic and morphometric evidence for Austronesian-mediated pig translocation in the Pacific",
+      "authors": [
+        "David W. G. Stanton",
+        "Aurélie Manin",
+        "Allowen Evin",
+        "Kristina Tabbada",
+        "Anna Linderholm",
+        "Rosie Drinkwater",
+        "Olaf Thalmann",
+        "Said I. Ng'ang'a",
+        "Noel Amano",
+        "Atholl Anderson",
+        "Ross Barnett",
+        "Patrick Barrière",
+        "Stuart Bedford",
+        "Peter Bellwood",
+        "Adam Brumm",
+        "Trung Cao Tien",
+        "Geoffrey Clark",
+        "R. Crooijmans",
+        "Thomas Cucchi",
+        "Michelle S. Eusebio",
+        "Linus Girdland-Flink",
+        "Peter Galbusera",
+        "Martien A.M Groenen",
+        "Budianto Hakim Hakim",
+        "Stuart Hawkins",
+        "Holly Heiniger",
+        "Kristofer Michael Helgen",
+        "Michael J. Herrera",
+        "Mary Jane Louise A. Bolunia",
+        "Eusebio Dizon",
+        "Hsiao-chun Hung",
+        "Karen Greig",
+        "Terry L. Hunt",
+        "Andrew C. Kitchener",
+        "Carol Lee",
+        "Alastair A. Macdonald",
+        "Megens Hendrik-Jan",
+        "Erik Meijaard",
+        "Kieren J. Mitchell",
+        "C.J. Moran",
+        "Karen Mudar",
+        "Karma Nidup",
+        "Marc Oxenham",
+        "Rinzin Pem",
+        "Philip J. Piper",
+        "Lachie Scarsbrook",
+        "Kyle M. Schachtschneider",
+        "Lawrence B. Schook",
+        "Pradeepa Silva",
+        "Matthew Spriggs",
+        "Samuel T. Turvey",
+        "Una Strand Viðarsdóttir",
+        "Murray P. Cox",
+        "Tim Denham",
+        "Jaime Gongora",
+        "Keith Dobney",
+        "Greger Larson",
+        "Laurent Frantz"
+      ],
+      "doi": "10.1126/science.adv4963",
+      "pages": "eadv4963"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-01-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adv4963",
+      "doi": "https://doi.org/10.1126/science.adv4963",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.07.07.663491"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-10T19:36:48.139994+00:00",
+    "source": "openalex"
+  }
+}

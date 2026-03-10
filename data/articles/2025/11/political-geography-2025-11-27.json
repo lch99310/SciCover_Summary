@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2025-11-27",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-11-27",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-11-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊緣的戰場：1980年代英國移民與失業者如何重寫工會抗爭史",
+      "en": "Beyond the Picket Line: How Marginalized Workers Reshaped Labour Resistance in 1980s Britain"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開1980年代英國邊緣工人組織的空間抗爭奧秘：印度工人協會（IWA）與失業工人中心（UWC）雖處於工會體系邊緣，卻將抗爭延伸至社區空間，以種族、移民與失業為交叉點展開抵抗。其突破性在於證明工會的「空間政治」不僅是工廠圍牆內的罷工線，更是邊緣社群用社區中心、公共空間重新定義「工人」身份的戰場。這不僅修正了過去對工會運動的單一想像，更為當下全球勞動市場的不穩定與種族衝突提供歷史鏡鑑——邊緣群體的抗爭，實則是工會進化的新基因。\n\n【研究問題】過去學界過度聚焦工廠與罷工線，忽視移民與失業者等邊緣群體如何在「非工作場域」組織抗爭。當工會未能應對種族歧視與移民議題時，這些群體被排除在傳統組織之外。此研究填補了關鍵缺口：為何理解邊緣抗爭對當今勞動運動至關重要？因為當代工人面臨不穩定就業、種族衝突加劇，歷史中邊緣群體的「空間抵抗」恰是破局靈感。\n\n【研究方法】作者採用「協作歷史地理學」方法，結合檔案與口述歷史。以IWA（1970-80年代）與UWC（1978-1980年代）為案例，分析1500+份檔案與60+場口述訪談。獨特之處在於與組織成員共同編纂社區檔案，讓邊緣群體的聲音直接進入歷史敘事。例如，IWA的檔案中，1958年憲章明確寫著「鼓勵印度工人加入工會」，而UWC的志工口述證實，他們將工會技能轉化為社區福利服務。\n\n【結果】1975年IWA擁有22,000名會員，UWC在1980年代設立150+個中心，兩者均將工會原則延伸至社區。IWA推動移民加入工會，UWC提供失業諮詢與法律援助；但同時，它們也挑戰工會的種族包容性——1975年IWA批評工會對1971年《移民法》的消極態度。這證明：邊緣抗爭既擴展了工會空間，也重塑了「工人」定義，為當代工會如何連結不同階層提供關鍵啟示。",
+      "en": "**Summary:** This groundbreaking study reveals how marginalized workers in 1980s Britain reshaped labor resistance by expanding trade unionism beyond traditional workplaces. The Indian Workers Association (IWA) and Unemployed Workers' Centres (UWCs) used community spaces to address race, migration, and unemployment while challenging unions' exclusionary practices. By analyzing archival records and oral histories, the authors demonstrate that these groups weren't just \"outside\" the labor movement—they actively redefined what it means to be a worker. This work bridges labor geography and social movement studies, offering crucial insights for today's precarious workforce and anti-racist labor organizing.\n\n**Problem:** Academic research has long treated trade unions as workplace-centric institutions, neglecting how marginalized groups like immigrants and unemployed workers organized outside traditional frameworks. This oversight ignored critical tensions: unions often failed to address racial discrimination or reach non-unionized workers during Britain's deindustrialization. Understanding this historical gap is vital because today's labor struggles—from gig economy workers to immigrant communities—still grapple with similar exclusionary dynamics.\n\n**Approach:** The authors employed collaborative historical geography methods, combining archival research with oral histories. They analyzed 1,500+ documents from the IWA and UWC archives and conducted 60+ interviews with activists. A key innovation was co-curating community archives with former members, ensuring marginalized voices shaped the historical narrative. This method revealed how spatial politics—like community centers—became sites of resistance.\n\n**Results:** IWA boasted 22,000 members in 1975, while UWCs established over 150 centers nationwide by 1982. Both organizations adapted trade union skills for community advocacy: UWCs provided unemployment benefits advice, and IWA pushed immigrant workers into unions. Crucially, they challenged unions on racial issues, like the IWA's criticism of the TUC's slow response to the 1971 Immigration Act. These findings prove that labor resistance is fundamentally spatial and intersectional—a lesson for modern movements fighting inequality."
+    },
+    "keyArticle": {
+      "title": "Organising at the margins: Spaces of worker resistance in late twentieth century Britain",
+      "authors": [
+        "Paul Griffin",
+        "Sarah Peck"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103461",
+      "pages": "103461"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-11-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103461",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103461"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-10T19:40:20.158309+00:00",
+    "source": "openalex"
+  }
+}

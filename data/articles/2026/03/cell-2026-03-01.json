@@ -1,0 +1,54 @@
+{
+  "id": "cell-2026-03-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "5",
+  "date": "2026-03-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "體細胞基因組學：從「老化標記」到「救命藥物」的轉變",
+      "en": "The Hidden Library Inside Your Cells: How Somatic Mutations Are Rewriting Medicine"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開體細胞突變的驚人潛力：這些出生後才出現的基因變化，不僅是老化或癌症前兆，更可能是疾病「解藥」的關鍵。研究發現，肝臟中的GPAM突變能抵禦酒精性肝病，食道的NOTCH1突變可阻止癌症發生，甚至腸道中的IL-17抗性突變雖加重腸炎，卻能抑制癌變。這種「雙面刃」特性讓體細胞基因組學成為醫學界的新藥物發掘引擎，為50%的常見疾病提供全新治療思路。【研究問題】過去醫學視體細胞突變為「老化標記」或「癌症預兆」，忽略其在非癌性疾病中的保護作用。例如，肝病患者中60%的細胞已帶有驅動突變，但傳統研究只關注癌症相關突變。這導致了關鍵缺口：我們無法利用這些突變設計新藥，甚至誤解了疾病機制。【研究方法】研究團隊設計四步驟框架：首先選取特定組織細胞（如肝臟、腸道），接着通過基因測序捕捉突變，再分析「正向選擇」的突變（如肝病中的GPAM、CIDEB），最後建構機制模型。他們用小鼠實驗驗證了「脂肪肝飲食下，CIDEB缺失細胞優先存活」等現象，並結合人類臨床數據確認機制。【結果】研究揭示關鍵數據：70歲時，60%的子宮內膜細胞帶有驅動突變；酒精性脂肪肝患者中，GPAM突變細胞占比達23%；而脂肪攝入過多的患者則以CIDEB突變為主。更驚人的是，CIDEB抑制劑（NCT06836609）已進入臨床試驗。這些發現證明，體細胞突變可精準預測疾病亞型，並為精準治療提供靶點。",
+      "en": "**Summary:** This groundbreaking study reveals how somatic mutations—genetic changes occurring after conception—are not just aging markers or precursors to cancer, but can also act as disease \"cures.\" Key examples include GPAM mutations protecting against alcohol-related liver disease, NOTCH1 mutations preventing esophageal cancer, and IL-17 resistance mutations that worsen colitis but block cancer development. This dual nature transforms somatic genomics into a powerful drug discovery engine, offering new therapeutic avenues for 50% of common diseases. **Problem:** Historically, somatic mutations were dismissed as aging artifacts or cancer precursors, ignoring their protective roles in non-cancerous diseases. For instance, 60% of endometrial cells carry driver mutations by age 70, yet studies focused solely on cancer-related mutations. This gap has left us unable to leverage these mutations for drug development and has obscured disease mechanisms. **Approach:** Researchers developed a four-step framework: (1) Select specific tissue cells (e.g., liver, gut), (2) Sequence somatic mutations, (3) Identify mutations under positive selection (e.g., GPAM in liver disease), and (4) Build mechanistic models. They validated findings using mouse experiments—like showing CIDEB-deficient cells thrive in fatty liver environments—and confirmed mechanisms with human clinical data. **Results:** Critical data emerged: 60% of endometrial cells harbor driver mutations by age 70; GPAM mutations dominate in alcohol-related fatty liver patients (23% of cells); CIDEB mutations prevail in fat-driven cases. Most strikingly, CIDEB inhibitors (NCT06836609) are now in clinical trials. These findings demonstrate that somatic mutations can predict disease subtypes and identify precise therapeutic targets, revolutionizing precision medicine."
+    },
+    "keyArticle": {
+      "title": "Somatic genomics as a discovery engine for biomedicine",
+      "authors": [
+        "Simon F. Brunner",
+        "Iñigo Martincorena",
+        "Gregory Mannino",
+        "Peter Stein",
+        "Michael R. Stratton",
+        "Jacob R. Rubens",
+        "Peter J. Campbell",
+        "Hao Zhu"
+      ],
+      "doi": "10.1016/j.cell.2026.01.032",
+      "pages": "1269-1286"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.032"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-10T19:38:57.714182+00:00",
+    "source": "openalex"
+  }
+}

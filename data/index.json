@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T19:24:59.683337+00:00",
+  "lastUpdated": "2026-03-10T19:41:29.540984+00:00",
   "articles": [
     {
       "id": "science-2026-03-05",
@@ -27,6 +27,15 @@
       "title_zh": "風切變與乾燥土壤的共舞：解開極端雷暴爆發的關鍵密碼",
       "title_en": "The Wind Shear and Soil Moisture Duo: How They Ignite Explosive Thunderstorms",
       "cover_url": "data/images/nature/nature-2026-03-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-03-01",
+      "journal": "Cell",
+      "date": "2026-03-01",
+      "path": "articles/2026/03/cell-2026-03-01.json",
+      "title_zh": "體細胞基因組學：從「老化標記」到「救命藥物」的轉變",
+      "title_en": "The Hidden Library Inside Your Cells: How Somatic Mutations Are Rewriting Medicine",
+      "cover_url": "data/images/cell/cell-2026-03-01-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-28",
@@ -225,6 +234,15 @@
       "title_zh": "AI不再亂編論文！科學文獻合成新神器OpenScholar破除'幻覺'迷思",
       "title_en": "When AI Writes Science: How OpenScholar Tames Hallucinations in Literature Synthesis",
       "cover_url": "data/images/nature/nature-2026-02-04-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-04-04",
+      "journal": "Nature",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/nature-2026-02-04-04.json",
+      "title_zh": "一顆磁鐵搞定6G訊號過濾！Spin-wave電路突破性設計讓通訊速度翻倍",
+      "title_en": "One Magnetic Field to Rule Them All: How Spin-Wave Filters Could Revolutionize 6G Communication",
+      "cover_url": "data/images/nature/nature-2026-02-04-04-cover.jpg"
     },
     {
       "id": "nature-2026-02-04",
@@ -479,6 +497,15 @@
       "cover_url": "data/images/science/science-2026-01-01-02-cover.jpg"
     },
     {
+      "id": "science-2026-01-01-03",
+      "journal": "Science",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/science-2026-01-01-03.json",
+      "title_zh": "豬的遠征：4000年前太平洋航海家如何用豬改變島嶼生態",
+      "title_en": "Pigs Across the Pacific: How Ancient Mariners Shaped Island Ecosystems Through a Genetic Trail",
+      "cover_url": "data/images/science/science-2026-01-01-03-cover.jpg"
+    },
+    {
       "id": "science-2026-01-01",
       "journal": "Science",
       "date": "2026-01-01",
@@ -659,6 +686,15 @@
       "cover_url": ""
     },
     {
+      "id": "political-geography-2025-11-27",
+      "journal": "Political Geography",
+      "date": "2025-11-27",
+      "path": "articles/2025/11/political-geography-2025-11-27.json",
+      "title_zh": "邊緣的戰場：1980年代英國移民與失業者如何重寫工會抗爭史",
+      "title_en": "Beyond the Picket Line: How Marginalized Workers Reshaped Labour Resistance in 1980s Britain",
+      "cover_url": "data/images/political-geography/political-geography-2025-11-27-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2025-11-22",
       "journal": "American Sociological Review",
       "date": "2025-11-22",
@@ -765,6 +801,15 @@
       "title_zh": "從民主護航到主權為王：聯合國維和行動的百年轉折",
       "title_en": "The UN Peacekeeping Dilemma: How a Liberal Project Is Being Reimagined in a Fractured World",
       "cover_url": ""
+    },
+    {
+      "id": "international-organization-2025-11-20-13",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-13.json",
+      "title_zh": "制裁的反噬：美元霸權如何自我瓦解",
+      "title_en": "The Unintended Consequences of US Sanctions: How Financial Weapons Are Fracturing the Global Economic Order",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-13-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20",

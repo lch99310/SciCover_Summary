@@ -1,0 +1,51 @@
+{
+  "id": "nature-2026-02-04-04",
+  "journal": "Nature",
+  "volume": "650",
+  "issue": "8102",
+  "date": "2026-02-04",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-04-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "一顆磁鐵搞定6G訊號過濾！Spin-wave電路突破性設計讓通訊速度翻倍",
+      "en": "One Magnetic Field to Rule Them All: How Spin-Wave Filters Could Revolutionize 6G Communication"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破性地開發出單磁場調節的自旋波濾波器，讓6G通訊系統能實現超寬頻帶（最高663MHz）與多頻段切換。傳統自旋波濾波器需要多組磁場控制，體積龐大且易產生干擾雜訊，而新設計透過精準切割晶體結構，讓單一磁場就能同時調整多個頻段，大幅縮小設備體積並提升抗干擾能力，為未來6G手機與基地台提供關鍵技術支援。\n\n【研究問題】當前5G和6G通訊系統需要100-400MHz的寬頻帶，但現有自旋波濾波器帶寬不足、體積過大，且會產生額外的雜訊頻段造成信號干擾。過去研究試圖用多種材料調整頻率，卻難以在小型化與高帶寬間取得平衡，導致通訊系統需大量固定頻段濾波器，嚴重增加成本與體積。\n\n【研究方法】團隊設計出「梯形結構」的自旋波濾波器，將串聯與並聯電路的YIG晶體切割成不同寬度（50μm與12μm），利用微機械加工技術精準控制結構差異。透過深度Ar離子蝕刻技術，讓兩個電路在單一磁場下產生足夠的頻率差異，同時保持低損耗。實驗中使用3D建模與電磁模擬驗證設計，並在15×15mm晶片上完成量產化試製。\n\n【結果】實測顯示濾波器損耗低至2.54dB，帶寬達663MHz，中心頻率可調至7.08-21.6GHz（跨多個八度）。在實際無線電系統測試中，即使面對300MHz外的強干擾信號，仍能保持清晰信號傳輸。這項技術不僅能縮小6G設備體積，更可望讓手機與衛星通訊系統的頻率切換速度提升數倍，為未來智慧社會提供更強勁的通訊基礎建設。",
+      "en": "**Summary:** This breakthrough study introduces a revolutionary spin-wave filter architecture that enables 6G communication systems to achieve unprecedented bandwidth (up to 663 MHz) and multi-band tuning using just a single magnetic field. Traditional spin-wave filters required multiple magnetic biases, resulting in bulky designs and signal interference, but this new approach leverages precisely engineered crystal structures to create frequency separation with a single external field. By dramatically reducing device size while maintaining high performance, this technology paves the way for next-generation mobile and satellite communications.\n\n**Problem:** Current 5G and 6G systems demand bandwidths of 100-400 MHz, but existing spin-wave filters suffer from insufficient bandwidth, large size, and spurious passbands that cause signal interference. Previous attempts to address these limitations with alternative materials struggled to balance miniaturization and performance, forcing communication systems to use dozens of fixed-frequency filters that increase both cost and physical footprint.\n\n**Approach:** Researchers developed a ladder-filter structure with series and shunt resonators made from yttrium iron garnet (YIG) crystals of different widths (50μm and 12μm). Using advanced micro-machining techniques, they precisely controlled the structural contrast between these resonators to create sufficient frequency separation under a single magnetic bias. The team validated the design through 3D modeling and electromagnetic simulations, then successfully fabricated the filters on 15×15mm chips using wafer-scale production methods.\n\n**Results:** Measurements show insertion loss as low as 2.54 dB, bandwidth exceeding 663 MHz, and center frequency tuning across a 7.08-21.6 GHz range (multiple octaves). In real-world radio tests, the filter maintained signal integrity even with strong interference 300 MHz away from the channel. This technology could significantly reduce the size of 6G devices while enabling faster frequency hopping for improved signal-to-noise ratios, making it a critical advancement for the next generation of wireless communication infrastructure."
+    },
+    "keyArticle": {
+      "title": "Spin-wave band-pass filters for 6G communication",
+      "authors": [
+        "Connor Devitt",
+        "Sudhanshu Tiwari",
+        "Bill Zivasatienraj",
+        "Sunil A. Bhave"
+      ],
+      "doi": "10.1038/s41586-025-10057-3",
+      "pages": "599-605"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-04-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-10057-3",
+      "doi": "https://doi.org/10.1038/s41586-025-10057-3",
+      "preprint": "http://arxiv.org/abs/2507.18931"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-10T19:37:34.380168+00:00",
+    "source": "openalex"
+  }
+}

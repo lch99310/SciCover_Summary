@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2025-11-20-13",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-13-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "制裁的反噬：美元霸權如何自我瓦解",
+      "en": "The Unintended Consequences of US Sanctions: How Financial Weapons Are Fracturing the Global Economic Order"
+    },
+    "summary": {
+      "zh": "【總結】美國金融制裁本意是維護美元霸權，卻意外加速全球經濟治理的崩解。作者揭示，當制裁迫使目標國突破美元支付閘門（如SWIFT、美元清算），這些國家開始建設替代體系——中國CIPS支付系統、金磚國家金融機制、央行數位貨幣等，形成「治理脫鉤」。這不僅是短期避險，更是制度性脫鉤：當制裁重複發生，成本轉化為創新動力，最終讓美元中心地位在「碎片化」中逐漸萎縮。這項研究的突破點在於，它將制裁從「單次打擊」提升至「制度性重塑」，警示我們：以制裁維持霸權，可能反而加速霸權衰落。\n\n【研究問題】過去學界聚焦制裁的短期經濟成本，卻忽略其長期制度影響。文章指出，制裁如何從「點式打擊」演變成「體系性衝擊」？為何制裁會催生平行經濟生態？這問題至關重要，因為當前政策制定者仍視制裁為「有效工具」，卻未意識到它可能讓美元霸權「自我瓦解」。若不理解這項機制，未來制裁可能重蹈覆轍，加速全球經濟治理碎片化。\n\n【研究方法】作者以「結構權力」理論為核心，結合網路分析與案例研究。他利用全球制裁資料庫（Global Sanctions Database），追蹤2010年後制裁趨勢；分析中國CIPS、俄羅斯MIR卡等案例，證明制裁如何推動「治理脫鉤」；更提出「三層應對策略」（隱蔽、適應、制度性替代），解釋不同階段的反應模式。這種方法將抽象理論轉化為可觀測的制度變遷，讓研究更具實證基礎。\n\n【結果】數據顯示，2010年後美國制裁數量暴增，金融制裁已超越貿易限制。中國CIPS現有4,900家機構，覆蓋187國；美元外匯交易份額雖仍達88.5%，但人民幣從4%升至7%。俄羅斯、伊朗等國通過黃金儲備、易貨貿易、數位貨幣等手段，建立「制裁防護網」。更關鍵的是，這些改變在制裁結束後仍持續，顯示「治理脫鉤」已非臨時應對，而是制度性轉向。這意味美元霸權的根基正在被逐步瓦解。",
+      "en": "**Summary:** This study reveals a paradox: U.S. financial sanctions, designed to enforce global order, are inadvertently fracturing it. By targeting dollar-based chokepoints like SWIFT and U.S. banking networks, sanctions have driven nations to build parallel systems—China’s CIPS payment network, BRICS financial mechanisms, and central bank digital currencies—accelerating governance decoupling from U.S.-led systems. This undermines the very hegemony sanctions aim to protect.\n\n**Problem:** Scholars have long focused on sanctions' short-term economic costs, missing their long-term institutional consequences. Prior research assumed sanctions effectively deter behavior, but this study shows they often catalyze systemic fragmentation. This gap matters because policymakers continue using sanctions without understanding how they reshape the global economic order.\n\n**Approach:** Tan combines structural power theory with institutional analysis, using data from the Global Sanctions Database and case studies of China’s CIPS, Russia’s MIR card, and Iran’s barter networks. He distinguishes three response tiers: evasion (temporary workarounds), adaptation (routine adjustments), and governance decoupling (institutional alternatives). This framework reveals how sanctions create incentives for building parallel systems.\n\n**Results:** Post-2010, U.S. financial sanctions surged, now dominating over trade restrictions. China’s CIPS has 4,900 institutions across 187 jurisdictions, while the dollar’s foreign exchange share fell from 88.3% to 88.5%. More strikingly, the RMB’s share rose from 4% to 7% in foreign exchange turnover. Countries like Russia and Iran have institutionalized alternatives: Russia’s MIR card and Iran’s barter networks persist even after sanctions lift. These changes signal a slow but irreversible erosion of dollar centrality."
+    },
+    "keyArticle": {
+      "title": "The Decoupling Dilemma: How US Sanctions Erode Global Economic Governance",
+      "authors": [
+        "Deyan Tan"
+      ],
+      "doi": "10.1017/s0020818325100994",
+      "pages": "S134-S147"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-13-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325100994",
+      "doi": "https://doi.org/10.1017/s0020818325100994"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-10T19:41:24.809538+00:00",
+    "source": "openalex"
+  }
+}
