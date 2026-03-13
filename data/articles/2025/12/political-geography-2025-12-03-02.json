@@ -1,0 +1,41 @@
+{
+  "id": "political-geography-2025-12-03-02",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-03",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "數據邊界上的'雜亂'：歐洲移民管控的秩序、控制與批判",
+      "en": "The Messy Borderlands: How Datafication Shapes Control and Resistance in European Migration Governance"
+    },
+    "summary": {
+      "zh": "【總結】這項研究挑戰了傳統邊境研究中將「混亂」與「秩序」簡單對立的二元思維，提出「控制」作為關鍵第三維度，揭示數據化邊境治理如何產生不同類型的「混亂」。研究發現，混亂不僅是邊境管控的失序表現，更是控制機制的組成部分——既有維持邊境管控的「混亂」，也有被移民利用的抵抗性混亂。這項突破性框架讓我們重新理解邊境治理中權力與反抗的複雜關係，為批判性研究開拓了新視野。\n\n【研究問題】過去學界將混亂視為秩序的對立面，忽略了數據化邊境治理中混亂與控制的共生關係。本研究揭示了關鍵缺口：當邊境數據系統出現失誤（如 fingerprints 傳輸錯誤、數據庫碎片化）時，這些混亂既可能被邊境機構用於強化控制，也可能被移民轉化為反抗工具。此問題的關鍵在於，若不理解混亂與控制的交織，就無法真正評估邊境治理的批判潛力。\n\n【研究方法】作者在法、意、德、西四國邊境地區進行2021-2024年的 ethnographic fieldwork，結合150+場對邊境官員、NGO工作者及移民的深度訪談，分析法律文件與政策指南。他們採用「敏感概念」框架，從空間、時間與物質維度解構混亂，避免陷入簡單的秩序/混亂二元論。例如，通過追蹤穆罕默德（化名）的案例，揭示歐洲數據庫系統如何因紙質與數位數據交換的斷裂而導致身份認證失誤。\n\n【結果】關鍵發現包括：2023年歐洲數據庫（Eurodac）因品質問題拒絕39,507組資料（佔總傳輸量2.9%）；義大利邊境系統存在11種以上相互重疊的資料庫（如SIA、AFIS等）；穆罕默德案例中，西班牙錄入的指紋未及時同步至德國系統，導致他被錯誤遣返。這些「混亂」並非單純失序，而是存在「維持控制的混亂」（如數據碎片化使移民難以辨識）與「抵抗混亂」（如移民利用系統漏洞申請庇護）兩種類型。這意味著，邊境治理的批判潛力取決於我們如何辨別混亂的類型。",
+      "en": "**Summary:** This article challenges the traditional binary of 'mess' and 'order' in border studies by introducing 'control' as a critical third dimension, revealing how datafication creates different 'kinds of mess' in European migration governance. The research shows that mess is not simply disorder but is embedded in control mechanisms—some messes sustain border control while others enable resistance. This framework transforms how we understand power and agency in border regimes, demonstrating that critical analysis must account for how 'mess' functions within complex control architectures.\n\n**Problem:** Previous scholarship treated mess as a straightforward disruption of state order, failing to recognize its entanglement with control mechanisms. The article identifies a critical gap: when border data systems fail (e.g., fingerprint mismatches, database fragmentation), these messes serve both to reinforce control (via opaque systems) and to enable resistance (by creating navigable gaps). Without understanding this duality, scholars cannot assess the true critical potential of border governance studies.\n\n**Approach:** Researchers conducted ethnographic fieldwork across border zones in France, Italy, Germany, and Spain from 2021-2024, combining 150+ interviews with border officials, NGOs, and migrants with analysis of legal documents and policy guidelines. They applied a 'sensitizing concept' framework, examining mess through spatial, temporal, and material dimensions to avoid reductive binary thinking. For instance, tracking Mohamed's case revealed how paper-based fingerprinting in the Canary Islands created mismatches in Eurodac, exposing systemic fragility.\n\n**Results:** Key findings include 39,507 rejected Eurodac datasets in 2023 (2.9% of total transmissions) due to poor quality; Italy's use of 11+ overlapping databases (e.g., SIA, AFIS); and Mohamed's case where Spanish fingerprints were not matched in German systems, delaying his asylum process. These 'messes' are not merely chaotic but exist in two forms: 'control-sustaining mess' (e.g., fragmented databases creating vulnerability) and 'resistance mess' (e.g., migrants exploiting data gaps). This shows that border control operates through varied messes, with critical potential depending on their specific type."
+    },
+    "keyArticle": {
+      "title": "(Un)Making mess at Europe's data borders: Order, control, critique",
+      "authors": [
+        "Claudia Aradau",
+        "Lucrezia Canzutti",
+        "Sarah Perret"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103444",
+      "pages": "103444"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103444",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103444"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-13T19:32:32.550123+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "science-2026-03-05-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6789",
+  "date": "2026-03-05",
+  "coverImage": {
+    "url": "data/images/science/science-2026-03-05-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經冗餘度變高？科學家揭開大腦學習新秘密：越練越「重複」的視覺神經訊號",
+      "en": "Redundancy is Strength: How the Brain's 'Wasted' Neural Signals Actually Boost Learning"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究顛覆了神經科學界長期信念：當猴子學習視覺辨識任務時，視覺皮層V4區域的神經訊號反而變得更「冗餘」——也就是神經元之間開始互相分享資訊。這不僅是個反直覺的發現，更證明大腦採用的是「生成式推斷」策略，透過頂層反饋連線將資訊分散到各個神經元，讓每顆神經元都能承載更多決策所需資訊。這項發現重新定義了學習過程中神經訊號的本質，對未來人工智慧與大腦科學的融合發展具有深遠影響。\n\n【研究問題】過去學界普遍認為學習會優化神經表徵，透過減少冗餘來提高效率。但這忽略了另一種理論——貝葉斯推斷框架預測學習應增加冗餘，讓資訊在神經元間共享。以往研究無法釐清此爭議，因為沒能追蹤學習過程中冗餘度的變化。本研究透過精確量化神經訊號冗餘度的動態變化，首次為「生成式推斷」理論提供了強力證據，解決了這項長期困擾神經科學的核心問題。\n\n【研究方法】研究者訓練兩隻恆河猴完成兩種方向辨識任務：辨識0°/90°（ Cardinal）或45°/135°（Oblique）。使用96通道Utah電極陣列記錄V4視覺皮層的神經活動。關鍵創新在於設計「資訊冗餘度」指標：比較真實神經反應與隨機打亂後的反應，計算兩者的差異。他們特別追蹤從早期到晚期學習階段的變化，並對比任務執行與被動觀看的情況，以排除一般神經變化影響。\n\n【結果】實驗數據顯示，資訊冗餘度從接近零開始，隨著學習進展顯著增加：猴子R完成Cardinal任務時，冗餘度從早期的接近零增長到晚期的約50%（t=4.04，p=5.90×10⁻⁴）。冗餘度與學習指標強烈正相關（r=0.74，p=9.3×10⁻⁵）。更驚人的是，任務執行過程中，冗餘度隨時間逐步上升——當猴子累積視覺證據時，神經訊號的共享程度持續增加。這說明大腦並非簡單「精簡」訊號，而是透過頂層反饋連線主動重分配資訊，讓每顆神經元都能承載更多決策所需資訊。",
+      "en": "**Summary:** In a groundbreaking study, researchers discovered that as monkeys learn visual discrimination tasks, the brain's visual cortex becomes more redundant—not less. Contrary to decades of neuroscience dogma, this \"redundancy\" is not wasted effort but a sophisticated strategy where neurons share information through feedback connections. This supports a Bayesian framework of \"generative inference,\" showing the brain doesn't just optimize for efficiency but actively redistributes information to enhance learning. The findings challenge fundamental assumptions about neural representation and could revolutionize how we design artificial intelligence.\n\n**Problem:** For years, the dominant view held that learning improves neural efficiency by reducing redundancy. But this overlooked an alternative Bayesian perspective where learning increases redundancy to distribute information across neurons. Previous studies couldn't distinguish these frameworks because they didn't track redundancy changes during learning. This gap left a critical question unanswered: does the brain become more or less redundant as it learns?\n\n**Approach:** Researchers trained two macaques on orientation discrimination tasks (cardinal and oblique), recording neural activity in V4 using 96-channel Utah arrays. They measured \"information redundancy\" by comparing real neural responses to shuffled responses that destroyed correlations. By tracking changes from early to late learning stages and comparing task-performing to passive viewing conditions, they isolated learning-specific effects.\n\n**Results:** Redundancy increased significantly with learning: from near zero to about 50% in late stages (e.g., monkey R cardinal task: t=4.04, p=5.90×10⁻⁴). Crucially, redundancy strongly correlated with learning index (ρ=0.74, p=9.3×10⁻⁵). Within trials, redundancy increased over time as monkeys accumulated evidence. This shows the brain actively redistributes information through feedback connections during learning, challenging the efficiency-centric view of neural processing."
+    },
+    "keyArticle": {
+      "title": "Task learning increases information redundancy of neural responses in macaque visual cortex",
+      "authors": [
+        "S. Liu",
+        "Anton Pletenev",
+        "Ralf M. Haefner",
+        "A. C. Snyder"
+      ],
+      "doi": "10.1126/science.adw7707",
+      "pages": "1029-1035"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-03-05-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw7707",
+      "doi": "https://doi.org/10.1126/science.adw7707",
+      "preprint": "http://arxiv.org/abs/2603.07369"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-13T19:28:55.698082+00:00",
+    "source": "openalex"
+  }
+}

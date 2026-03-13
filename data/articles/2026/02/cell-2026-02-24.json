@@ -1,0 +1,62 @@
+{
+  "id": "cell-2026-02-24",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "5",
+  "date": "2026-02-24",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "植物的警報系統：遠端免疫啟動的化學密碼",
+      "en": "Plant's Secret Language: How Alkalinization Alerts Distant Tissues to Invaders"
+    },
+    "summary": {
+      "zh": "【總結】當細菌入侵植物局部組織時，它們會引發一場跨組織的「化學警報」：植物不僅在感染部位，更在遠處健康組織中引發細胞外液鹼化（稱為免疫觸發鹼化，ITA），為全身免疫做好準備。研究揭示，這種遠距免疫啟動背後藏著一套精妙的互補機制——鈣依賴蛋白激酶（CPKs）會磷酸化質膜質子泵（AHA1/2）的絲氨酸899位點，抑制其活性導致鹼化；而鹼化環境又會敏化植物誘導肽（Peps）和絲氨酸富集肽（SCOOPs）的感知，進一步誘導這些信號分子的表達。這套機制如同植物的「雙重警報系統」，既快速傳遞威脅訊息，又確保遠處組織做好充分準備，為植物提供了超強的抗病保障。\n\n【研究問題】過去研究聚焦於植物局部免疫反應，但植物如何提前通知遠處組織應對潛在威脅始終是個謎。傳統觀點認為免疫信號僅在感染部位產生，但實際上，植物需要在病原體到達前就啟動遠處組織的防禦。這項研究要解答的關鍵問題是：植物如何將局部感染訊號轉化為遠距離防禦啟動的「化學密碼」？為何單一信號（如ROS或Ca2+）無法解釋這種跨組織協同防禦？\n\n【研究方法】研究團隊設計了精妙的實驗架構：首先用熒光染料HPTS測量組織pH變化，發現感染後4小時內遠處組織出現明顯鹼化；接著通過基因編輯技術製造CPK突變體（如cpk3/9/29/33四重突變體），發現這些激酶磷酸化AHA1/2的絲氨酸899位點是鹼化的關鍵；再結合Phytocytokines（如Peps和SCOOPs）的突變體分析，證明鹼化環境與這些肽類信號存在相互增強關係。研究者還創建了「局部感染-遠端測試」模型，模擬病原體入侵時的遠距信號傳導。\n\n【結果】實驗揭示了多項突破性發現：1. CPK3/9/29/33四重突變體中，遠端鹼化程度下降70%以上，導致疾病抗性損失達50%；2. 當AHA1/2的絲氨酸899位點被磷酸化後，質子泵活性降低，使細胞外環境pH上升0.8-1.2個單位；3. 在pepr1/pepr2和mik2突變體中，遠端鹼化受阻，疾病抗性降低40%；4. 人工鹼化（pH 7.5）能恢復cpkq突變體的免疫能力，證明鹼化是核心信號。這套機制不僅解釋了植物如何實現「局部感染、遠端防禦」，還為農業抗病育種提供了新思路。",
+      "en": "**Summary:** When bacteria invade plant tissues, they trigger a sophisticated early-warning system: plants not only alkalinize the apoplast (cellular space) at the infection site but also in distant, uninfected tissues, priming defenses for systemic immunity. This study uncovers a dual-signal mechanism where calcium-dependent protein kinases (CPKs) phosphorylate the Ser899 site of plasma membrane proton pumps (AHA1/2), dampening their activity to raise pH. Crucially, this alkaline environment sensitizes cells to phytocytokines—plant signaling peptides like Peps and SCOOPs—that further amplify the response. The mutual reinforcement of alkalinization and phytocytokine signaling creates a robust, long-range defense network, akin to a plant's 'chemical alarm system' that prepares distant tissues for future threats.\n\n**Problem:** Traditional plant immunology focused on local responses, leaving a major gap in understanding how plants coordinate immunity across tissues. While we knew pathogens trigger defense signals, the precise mechanism for remote tissue activation remained unknown. Previous work suggested calcium or ROS as long-distance signals, but these alone couldn't explain the sustained, coordinated protection seen in distal tissues. This study addresses a fundamental question: how do plants convert localized infection into a systemic defense response?\n\n**Approach:** Researchers developed a multi-layered experimental strategy. They used the fluorescent dye HPTS to measure apoplastic pH in real-time, showing alkalinization spreads from infected to healthy tissues within 4 hours. By creating CRISPR-Cas9 knockout lines of CPK genes (e.g., cpk3/9/29/33 quadruple mutants), they identified kinase-specific roles in Ser899 phosphorylation. They then combined phytocytokine mutants (e.g., pepr1/pepr2, mik2) with pH-modulation experiments to test mutual signaling. A key innovation was the 'local infection → distal test' model, where only local tissues were exposed to pathogens, while distal tissues were analyzed for immune priming.\n\n**Results:** The study revealed several groundbreaking findings: 1. CPK3/9/29/33 quadruple mutants showed a 70% reduction in distal alkalinization, leading to a 50% drop in disease resistance against P. syringae; 2. Ser899 phosphorylation reduced AHA1/2 proton-pump activity by 35-40%, raising apoplastic pH by 0.8-1.2 units; 3. In pepr1/pepr2 and mik2 mutants, distal alkalinization was impaired, reducing disease resistance by 40%; 4. Artificially raising pH to 7.5 restored MAPK activation and immune gene expression in cpkq mutants. These results demonstrate that alkalinization and phytocytokine signaling form a self-reinforcing loop essential for systemic immunity, with direct implications for developing crop varieties with enhanced disease resistance."
+    },
+    "keyArticle": {
+      "title": "A regulatory network promotes apoplastic alkalinization to prime plant immunity in tissues distal to site of infection",
+      "authors": [
+        "Hongze Wang",
+        "Xiuming Li",
+        "Keran Zhai",
+        "Jack Rhodes",
+        "Tian Sang",
+        "Jiwen Zhao",
+        "Yong Gao",
+        "Shengwei Ma",
+        "Beibei Song",
+        "Qing Pan",
+        "Meijuan Hu",
+        "Peiyong Xin",
+        "JinFang CHU",
+        "Pengcheng Wang",
+        "Cyril Zipfel",
+        "Jian-Min Zhou"
+      ],
+      "doi": "10.1016/j.cell.2026.01.027",
+      "pages": "1389-1406.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.027",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.027"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-13T19:31:27.498599+00:00",
+    "source": "openalex"
+  }
+}

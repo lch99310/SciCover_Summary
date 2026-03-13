@@ -1,0 +1,62 @@
+{
+  "id": "nature-2026-02-25-03",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8105",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-02-25-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子網路突破1.55公里！長基線光學干涉測量開創天文觀測新紀元",
+      "en": "Quantum Network Breakthrough: 1.55-Kilometer Optical Interferometry Shatters Astronomical Limits"
+    },
+    "summary": {
+      "zh": "【總結】這項研究成功實現量子網路輔助的非局域光學干涉測量，將測量基線延伸至1.55公里，突破傳統光學干涉儀的距離限制。研究團隊利用鑽石奈米腔中的矽空位中心（SiV）作為量子記憶體，結合量子糾纏技術，解決了長距離光學測量中因光子損耗導致的訊號衰減問題。這項突破不僅為天文觀測帶來更高解析度，更開啟了量子增強型成像的新時代，未來有望應用於系外行星探測、深空通訊等領域。\n\n【研究問題】傳統光學干涉儀的解析度取決於接收器之間的基線長度，但光纖傳輸中的光子損耗會導致訊號呈指數級衰減，使得長基線測量難以實現。過去的研究雖嘗試利用量子糾纏來改善，但缺乏實驗證據。本研究填補了這一空白，證明量子網路能有效克服光子損耗，實現非局域干涉測量，這對於提升天文觀測能力至關重要。\n\n【研究方法】研究團隊設計了兩站式量子網路，每個站點使用鑽石奈米腔中的SiV中心作為量子記憶體。他們首先通過平行式糾纏生成技術建立遠端量子記憶體間的糾纏，效率比傳統序列式方案高7.5倍；再結合光子模式擦除技術隱藏「路徑資訊」；最後利用非局域光子標示系統偵測信號光子，有效過濾真空雜訊。特別是「平行式」糾纏方案，大幅提升了實驗可行性。\n\n【結果】實驗成功將基線延伸至1.55公里（為現有光學望遠鏡基線的5倍），測得相位振盪可見度達0.11(4)，為傳統方法的五倍。通過非局域光子標示，信號噪比（SNR）的 Scaling 由 μ_sig² 轉變為 μ_sig，使得微弱光信號的檢測成為可能。系統運行數據收集速率達12 mHz，並達到1.9 Hz的糾纏率與0.79的保真度，為量子增強型成像技術奠定實用基礎。",
+      "en": "**Summary:** Scientists have achieved a quantum leap in optical interferometry, extending non-local phase measurements to a 1.55-kilometer baseline—the longest ever demonstrated. By harnessing entangled quantum memories in diamond nanocavities, the team overcame the fundamental limitation of photon loss that plagues traditional long-baseline interferometry. This breakthrough enables high-resolution imaging across vast distances, opening new frontiers in astronomy, microscopy, and quantum-enhanced sensing. The study demonstrates how quantum networks can transform classical optical techniques into tools capable of detecting faint signals with unprecedented precision.\n\n**Problem:** Optical interferometry's resolution scales with the distance between detectors, but practical implementations are limited by exponential signal attenuation through optical fibers. Previous attempts to use quantum entanglement for non-local interference lacked experimental validation. Without a solution to photon loss, astronomers cannot build telescopes with baselines longer than 330 meters, severely constraining our ability to observe distant celestial objects.\n\n**Approach:** The researchers deployed silicon-vacancy centers in diamond nanocavities as quantum memories at two distant stations. They used a parallel entanglement scheme to generate electron-spin qubit pairs with 7.5x higher efficiency than prior methods. Key innovations included photon mode erasure to preserve phase information and non-local heralding via nuclear spin entanglement. The system detected signal photons without revealing their location, effectively filtering out vacuum noise.\n\n**Results:** The team achieved a 1.55-kilometer baseline—the longest ever demonstrated—by combining quantum memory-assisted techniques with non-local photon heralding. This resulted in a visibility of 0.11 ± 0.004 for phase measurements, a fivefold improvement over traditional methods. Critically, the signal-to-noise ratio (SNR) scaling shifted from μ_sig² (where μ_sig is the average photon number) to μ_sig, enabling detection of extremely weak light signals. With an entanglement rate of 1.9 Hz and a fidelity of 0.79, the system demonstrated practical feasibility for quantum-enhanced imaging applications."
+    },
+    "keyArticle": {
+      "title": "Entanglement-assisted non-local optical interferometry in a quantum network",
+      "authors": [
+        "P.-J. Stas",
+        "Y.-C. Wei",
+        "M. Sirotin",
+        "Y. Q. Huan",
+        "U. Yazlar",
+        "F. Abdo Arias",
+        "E. Knyazev",
+        "G. Baranes",
+        "B. Machielse",
+        "S. Grandi",
+        "D. Riedel",
+        "J. Borregaard",
+        "H. Y. Park",
+        "M. Lončar",
+        "A. Suleymanzade",
+        "M. D. Lukin"
+      ],
+      "doi": "10.1038/s41586-026-10171-w",
+      "pages": "326-332"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-02-25-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10171-w",
+      "doi": "https://doi.org/10.1038/s41586-026-10171-w"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-13T19:30:30.716779+00:00",
+    "source": "openalex"
+  }
+}
