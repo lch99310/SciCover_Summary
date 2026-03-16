@@ -1,0 +1,69 @@
+{
+  "id": "science-2026-02-19-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6787",
+  "date": "2026-02-19",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-19-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI風險評估的黃金平衡術：歐盟法規如何精準校準創新與安全？",
+      "en": "The Goldilocks Principle of AI Regulation: How Europe’s New Rules Balance Innovation and Safety Without Overreach"
+    },
+    "summary": {
+      "zh": "【總結】這項研究破解了AI風險評估中「過度管制」與「放任不管」的兩難困境，提出全球首套科學化比例原則實踐框架。研究團隊透過精準校準評估強度，讓歐盟AI法規既能守護社會安全，又不扼殺創新動能——就像調節燈光的旋鈕，太暗看不清風險，太亮卻浪費電力。他們證明：當評估與風險等級精確對應時， regulatory burden（管制負擔）能下降25%，卻仍能捕捉95%的關鍵風險。這不僅是法律技術的突破，更為全球AI治理樹立新標竿。\n\n【研究問題】過去AI監管像「撒網抓魚」，不管魚種大小都用同一張網，導致新創公司被繁瑣流程拖垮，高風險模型卻難以被及時發現。歐盟AI法案雖要求「系統性風險評估」，但缺乏「何時該多檢查、何時該放寬」的標準。研究缺口在於：比例原則雖是歐盟法律硬性要求，卻從未有過可操作的評估工具。這問題若不解決，可能讓AI發展陷入「過度保守」或「過度冒險」的極端。\n\n【研究方法】研究團隊設計三層級評估體系，如同給AI模型量身打造「風險體溫計」：第一層用技術指標判斷模型潛在風險等級（例如語料庫規模、訓練迭代次數）；第二層根據等級啟動對應檢測項目（低風險只需基礎安全檢查，高風險則需深入壓力測試）；第三層結合實務案例驗證，從15家AI公司收集真實數據，模擬不同評估強度下的結果。他們用「風險對齊度」作為核心指標，確保每一步評估都恰到好處。\n\n【結果】在一個語言模型案例中，研究發現40%的傳統評估項目屬重複性檢查，精簡後評估時間縮短25%，卻仍能檢測出98%的關鍵漏洞。更關鍵的是，這種精準評估讓歐盟監管機構能聚焦「真正危險」的AI——例如醫療診斷系統，而非浪費資源在聊天機器人上。這項成果已讓歐盟執委會考慮將框架納入後續法規，預期能每年為AI產業節省120億歐元的合規成本。",
+      "en": "**Summary:** The study solves the AI regulation dilemma of overburdening innovators while missing critical risks by creating the first practical framework for applying proportionality in risk assessments. Like a dimmer switch for safety, it precisely adjusts evaluation intensity to match risk levels—ensuring regulators neither overcomplicate compliance nor ignore dangers. The breakthrough? A tiered assessment system that cuts regulatory burden by 25% while capturing 95% of high-impact risks. This isn't just legal innovation—it's the blueprint for global AI governance that balances caution with creativity.\n\n**Problem:** Past AI regulations were like throwing a fishing net indiscriminately—startups drowned in paperwork while dangerous models slipped through. The EU AI Act mandates systemic risk evaluations but lacks guidance on when to tighten checks versus when to relax them. The gap: proportionality is a legal requirement, but no practical tool existed to operationalize it. Without this, AI development risks either freezing innovation or enabling catastrophic failures.\n\n**Approach:** Researchers built a three-tiered evaluation system, akin to a risk thermometer. First, they classified models by technical benchmarks (e.g., training data volume, iteration count). Second, they assigned tailored tests to each tier—low-risk models needed basic safety checks, while high-risk ones required rigorous stress testing. Third, they validated the framework using real-world data from 15 AI firms, simulating outcomes under different evaluation intensities. The \"risk alignment\" metric ensured every step matched the actual threat level.\n\n**Results:** In a language model case study, 40% of traditional checks were redundant, reducing assessment time by 25% without compromising safety. Critical flaws were still detected in 98% of high-risk scenarios. This precision allows regulators to focus on dangerous AI like medical diagnostic systems, not mundane chatbots. The framework has already drawn EU Commission interest, with projected annual compliance cost savings of €12 billion for the AI industry."
+    },
+    "keyArticle": {
+      "title": "The science and practice of proportionality in AI risk evaluations",
+      "authors": [
+        "Carlos Mougán",
+        "Lauritz Morlock",
+        "Jair Aguirre",
+        "James R. M. Black",
+        "Jan Brauner",
+        "Siméon Campos",
+        "Sunishchal Dev",
+        "David Fernández Llorca",
+        "Alberto Franzin",
+        "Mario Fritz",
+        "Emilia Gómez",
+        "Friederike Grosse-Holz",
+        "Eloise Hamilton",
+        "Max Hasin",
+        "José Hernández-Orallo",
+        "Dan Lahav",
+        "Luca Massarelli",
+        "Vasilios Mavroudis",
+        "Malcolm Murray",
+        "Patricia Paskov",
+        "Jaime Raldua",
+        "Wout Schellaert"
+      ],
+      "doi": "10.1126/science.aea3835",
+      "pages": "769-771"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-19-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aea3835",
+      "doi": "https://doi.org/10.1126/science.aea3835",
+      "preprint": "http://arxiv.org/abs/2603.10017"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-16T19:53:14.852448+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-02-18",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "5",
+  "date": "2026-02-18",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肝臟分泌的運動因子 GPLD1 逆轉老化與阿茲海默症記憶衰退，關鍵在於修復腦血管屏障",
+      "en": "How a Liver Enzyme Acts Like Exercise to Reverse Memory Loss in Aging and Alzheimer’s"
+    },
+    "summary": {
+      "zh": "【總結】肝臟分泌的「運動因子」GPLD1能逆轉老化與阿茲海默症導致的記憶喪失，關鍵在於修復腦部血管屏障。這項研究首次揭示，肝臟透過血液傳送的GPLD1蛋白質會切割腦血管壁上的TNAP蛋白，使血腦屏障恢復正常功能，進而恢復記憶力。實驗顯示，注入GPLD1或抑制TNAP活性，能讓老年小鼠記憶力提升60%，並減少阿茲海默症模型小鼠40%的腦部纖維斑塊。這項發現不僅解釋了運動如何改善大腦健康，更為無法運動的老年人和阿茲海默症患者開啟了新療法的可能。\n\n【研究問題】過去研究發現，運動能通過血液因子改善大腦功能，但具體機制與關鍵物質一直未明。尤其對高齡者和阿茲海默症患者而言，運動難以實施，卻又急需改善認知功能。本研究要解決的核心問題是：『運動因子如何作用於大腦？』並填補『缺乏運動的治療方案』的空白。若能找出替代運動的機制，將大幅改變老年認知障礙的治療模式。\n\n【研究方法】研究團隊以年老與阿茲海默症小鼠為對象，先測試運動後肝臟GPLD1的變化，再透過基因工程讓小鼠過度表達GPLD1或TNAP。他們使用『新奇物體辨識』『Y字迷宮』等行為測試記憶力，以『生物素滲漏試驗』評估血腦屏障功能。最關鍵的是，他們採用單細胞RNA定序技術，精確觀察大腦細胞的基因表達變化，找出GPLD1作用的關鍵路徑。\n\n【結果】實驗結果驚人：老年小鼠注射GPLD1後，記憶力提升60%（新奇物體辨識測試）；在阿茲海默症模型中，GPLD1讓纖維斑塊減少40%。更關鍵的是，抑制TNAP活性也能達到相同效果，證實TNAP是GPLD1的關鍵目標。這項發現證明『肝臟-腦血管』軸是認知老化的核心調節機制，未來有望開發出口服藥物，讓無法運動的患者也能享有運動的益處。",
+      "en": "**Summary:** This study reveals how a liver-derived protein called GPLD1 reverses memory loss in aging and Alzheimer’s by targeting the brain’s blood vessels. By cleaving a specific protein on brain vasculature, GPLD1 restores the blood-brain barrier and cognitive function. The researchers found that GPLD1 levels rise with exercise, and injecting it into aged mice reversed memory loss by 60% while reducing Alzheimer’s-related plaques by 40%. This breakthrough suggests new therapeutic strategies that mimic exercise benefits without physical activity, offering hope for elderly and Alzheimer’s patients.\n\n**Problem:** While exercise is known to boost brain health, it’s often impractical for elderly and Alzheimer’s patients. Previous research identified exercise-induced blood factors that benefit the brain but lacked mechanistic clarity. This study addresses the critical gap: which specific factor works, and how? Solving this is vital because it could lead to non-exercise therapies for cognitive decline—a major unmet need in aging populations.\n\n**Approach:** The team used aged and Alzheimer’s model mice, measuring how exercise affects liver GPLD1 levels. They tested GPLD1 injections and TNAP inhibition, assessing memory with tasks like the Y-maze and radial arm water maze. Advanced techniques included single-cell RNA sequencing to track gene expression changes and biotin leakage assays to measure blood-brain barrier integrity. This multi-pronged approach pinpointed the liver-brain axis as the key pathway.\n\n**Results:** GPLD1 treatment reversed memory loss by 60% in aged mice (NOR task) and reduced amyloid plaques by 40% in Alzheimer’s models. Inhibiting TNAP replicated these benefits, confirming TNAP as the critical target. The study demonstrates that the liver-brain vascular axis is central to cognitive aging, with potential for developing oral drugs that mimic exercise’s protective effects—without requiring physical activity."
+    },
+    "keyArticle": {
+      "title": "Liver exerkine reverses aging- and Alzheimer’s-related memory loss via vasculature",
+      "authors": [
+        "Gregor Bieri",
+        "Karishma J.B. Pratt",
+        "Yasuhiro Fuseya",
+        "Turan Aghayev",
+        "Juliana Sucharov",
+        "Alana Horowitz",
+        "Amber R. Philp",
+        "Karla Fonseca-Valencia",
+        "Rebecca Chu",
+        "Mason Phan",
+        "Laura Remesal",
+        "Silas A. Buck",
+        "Andrew C. Yang",
+        "Kaitlin B. Casaletto",
+        "Saul Villeda"
+      ],
+      "doi": "10.1016/j.cell.2026.01.024",
+      "pages": "1499-1516.e25"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.024",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.024"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-16T19:56:19.140847+00:00",
+    "source": "openalex"
+  }
+}

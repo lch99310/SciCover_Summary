@@ -1,0 +1,59 @@
+{
+  "id": "nature-2026-03-11",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8105",
+  "date": "2026-03-11",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "4D成像革命！單晶片感測器實現65公尺精準測距，每點僅耗46納焦",
+      "en": "The 4D Imaging Revolution: A Single-Chip Sensor That Sees 65 Meters in 4D"
+    },
+    "summary": {
+      "zh": "【總結】科學家開發出史上最大規模的共相干攝影感測器，整合352×176像素於單一晶片，實現真正的4D成像（3D空間+速度）。這項技術突破讓LiDAR系統不再依賴機械結構，僅用46納焦每點就能精準測距65公尺，精度達0.06度，比現有技術更省電、更可靠。如同CMOS相機般靈活，透過替換鏡頭即可調整視野與解析度，為自駕車、機器人等領域開啟「廉價高精度」感知新時代。\n\n【研究問題】傳統LiDAR系統因機械掃描或複雜光學元件，面臨體積大、耗電高、易損壞等困境。長距離測距時常犧牲解析度，集成式方案又難以平衡性能與成本。研究直指核心：如何打造單一晶片，同時滿足長距離、高解析度、低能耗的4D成像需求？這關乎自駕車安全普及與工業自動化進程。\n\n【研究方法】團隊結合FMCW偵測技術與熱光學開關，設計「單晶體像素」架構。每個像素內建發射/接收光路，透過開關切換光束方向，完全取代機械部件。更關鍵的是，晶片上加裝微透鏡大幅提升光訊號耦合效率，並利用頻率調變技術同時測量距離與速度。實驗僅需標準鏡頭，即可靈活調整視野。\n\n【結果】實驗驗證：65公尺外的目標仍能清晰成像，每點耗能僅46nJ，距離精度達3.9mm、速度精度3.0mm/s。成功捕捉辦公室與遠距離建築點雲，視野可透過鏡頭調整。未來升級後範圍可達200公尺，有望讓自駕車成本驟降，成為AI時代的「眼睛」。",
+      "en": "**Summary:** Scientists have created a breakthrough 4D imaging sensor that integrates 352×176 pixels on a single chip, enabling real-time 3D spatial mapping and velocity detection. This solid-state LiDAR replaces bulky mechanical components with on-chip optical switches, achieving a 65-meter range at just 46 nanojoules per point—five times more compact and energy-efficient than prior systems. By mimicking CMOS camera flexibility, it promises to make autonomous vehicle sensing affordable and reliable, transforming a once-costly technology into a ubiquitous sensor.\n\n**Problem:** Current LiDAR systems face a trade-off between range, resolution, and energy efficiency. Mechanical scanners are bulky and fragile, while solid-state alternatives often compromise performance. For self-driving cars, reliable long-range sensing remains a critical barrier to adoption. Without a scalable solution, the industry risks slow progress due to high costs and reliability issues.\n\n**Approach:** The team engineered a monostatic FMCW LiDAR using silicon photonics and CMOS electronics. Each pixel combines laser emission, detection, and signal processing, while thermo-optic switches steer light without moving parts. On-chip microlenses boost light coupling efficiency, and frequency-modulated chirps enable simultaneous distance and velocity measurements. Testing with standard lenses demonstrated adaptability across applications.\n\n**Results:** The sensor achieved 65m range with 0.06° angular resolution at 46nJ per point, exceeding industry benchmarks. It captured detailed point clouds of office spaces and buildings 65m away, with 3.9mm distance and 3.0mm/s velocity precision. The modular design allows customizing field of view via lenses, making it ideal for automotive and industrial applications. Future iterations could extend range to 200m."
+    },
+    "keyArticle": {
+      "title": "A large-scale coherent 4D imaging sensor",
+      "authors": [
+        "Francesca Fabiana Settembrini",
+        "Arif Can Gungor",
+        "Andres Forrer",
+        "Steven A. Fortune",
+        "Alessandro Dell’Aquila",
+        "Preethi Padmanabhan",
+        "Ion E. Opris",
+        "Moise Sotto",
+        "Nikola Dordevic",
+        "Yevgeny Perelman",
+        "Thomas Christen",
+        "Mi Wang",
+        "Remus Nicolaescu"
+      ],
+      "doi": "10.1038/s41586-026-10183-6",
+      "pages": "364-370"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10183-6",
+      "doi": "https://doi.org/10.1038/s41586-026-10183-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-16T19:54:34.977247+00:00",
+    "source": "openalex"
+  }
+}
