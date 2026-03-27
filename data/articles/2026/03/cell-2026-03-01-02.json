@@ -1,0 +1,54 @@
+{
+  "id": "cell-2026-03-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "6",
+  "date": "2026-03-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "光導演化：動態、多狀態與計算蛋白功能的突破",
+      "en": "Light-Directed Evolution of Dynamic, Multi-State, and Computational Protein Functions"
+    },
+    "summary": {
+      "zh": "【總結】光導演化（optovolution）是一種利用光控開關在約十分鐘尺度內持續驅動蛋白功能迭代的新型 directed evolution 方法。研究證明可在活體酵母中同時選擇多狀態的開關行為，並成功進化出19種新的 LOV 轉錄因子 El222 變體，當中包括能在活體中對綠光與紅光分光的敏感型，顯示出多色光控的可行性。更重要的是，作者利用此平台突破了光控合成器 PhyB‑Pif3 的輔助色素依賴性，甚至演示了光與抗生素雙重輸入的 AND 門的演化，展示了對複雜計算功能的可持續優化。此技術為未來合成生物學、光控醫藥及生物計算提供了強大工具。\n\n【研究問題】傳統的 directed evolution 需要在固定的選擇壓力下進行，對於需要在多個狀態之間切換的蛋白功能（例如開關、邏輯門）往往無法同時優化所有行為。過去的研究多聚焦於單一輸入或輸出，缺乏在細胞週期內快速循環切換的機制，導致演化速度慢且難以維持多狀態選擇壓力。這篇文章想解決的核心問題是：如何在不中斷的演化過程中，對蛋白在不同狀態及其轉換的全部功能施加持續選擇壓力，從而實現多狀態、計算功能的持續改進。\n\n【研究方法】作者在酵母中設計了一套光控細胞週期調控系統：將目標蛋白（POI）與一個必須在特定細胞週期階段表達才能讓細胞分裂，卻在另一階段產生毒性的細胞週期蛋白（如 Clb5）連結。透過光控模組（如 LOV 轉錄因子 El222）開關 POI，研究者能在每隔約百分鐘的光脈衝週期內快速切換 POI 的「開」與「關」狀態，使細胞只在特定的光‑脈衝模式下才能順利增殖。此設計產生了每十分鐘左右的動態選擇壓力，形成連續的 directed evolution 流程，稱為「optovolution」。實驗包括在平板培養基上循環光脈衝、在液體培養中長期分批稀釋、以及使用 UV 突然提升突變率，最終透過基因測序與功能驗證辨識出改良的變異體。\n\n【結果】在實驗中，研究者成功演化出 19 種新的 El222 變體，其中包括能在活體中對綠光作出反應的多色光控版本，讓 LOV 項目能同時回應不同波長的光。針對 PhyB‑Pif3 系統，他們發現刪除 YOR1 基因後，細胞不再需要添加外源的 phycocyanobilin（PCB）作為色素，大幅簡化光控合成器的使用門檻。此外，他們將此方法擴展到一個非光控的 rtTA AND 門（PEST‑rtTA），通過光控演化使其在光照條件下產生期望的雙重輸入輸出，證明了 optovolution 能夠把本來難以設計的計算功能持續優化。這些結果展示了在活體細胞內對多狀態、時間依賴的蛋白功能進行持續演化的強大潛力，為合成生物學、光控醫學和生物計算打開新窗口。",
+      "en": "**Summary:** The paper introduces optovolution, a continuous directed‑evolution platform that uses light‑controlled switching of a protein’s activity to impose a rapid, cyclical selection pressure on all its functional states. By coupling the protein to a cell‑cycle regulator that is essential for one phase and toxic in another, cells only proliferate when the protein toggles on‑off in a precise light‑pulse pattern. This creates a self‑reinforcing evolutionary loop that can be run for tens of minutes, enabling the simultaneous optimization of multiple states and transitions that were previously hard to evolve.\n\n**Problem:** Traditional directed‑evolution methods apply a static selection pressure, making it difficult to evolve proteins that must cycle between several distinct conformations or execute logical operations. Earlier approaches either focused on a single output or required external, non‑continuous cues, leaving a gap for evolving dynamic, multi‑state functionalities such as light‑responsive switches or synthetic logic gates. Solving this problem is crucial because many emerging applications—from synthetic biology circuits to light‑gated therapeutics—demand proteins that can reliably switch and compute under constantly changing conditions.\n\n**Approach:** The authors engineered budding yeast to express a target protein (POI) that controls a cyclin essential for a specific cell‑cycle stage but lethal if expressed continuously. Light‑responsive modules—most notably the LOV‑based transcription factor El222—serve as the on/off switch, while brief light pulses (≈20 s on, 30 s off every 100 min) generate a rapid oscillation of POI activity. An error‑prone polymerase (pol3‑L523D) periodically introduces mutations, and UV bursts boost the mutation rate. This setup yields optovolution: a self‑sustaining evolution cycle where only cells with the desired on/off dynamics survive, allowing continuous selection across all states and transitions.\n\n**Results:** Using optovolution, the team evolved 19 new El222 variants, including ones that respond to green light in vivo and can be multiplexed across wavelengths, demonstrating practical color‑multiplexing of LOV domains. They also discovered that deleting YOR1 eliminates the need for supplemental phycocyanobilin (PCB), simplifying the PhyB‑Pif3 system. Finally, they applied the method to evolve a light‑independent PEST‑rtTA AND gate, achieving reliable double‑input activation. These findings prove that optovolution can continuously sculpt complex, multi‑state protein functions, opening new avenues for synthetic circuits, biosensors, and programmable therapeutics."
+    },
+    "keyArticle": {
+      "title": "Light-directed evolution of dynamic, multi-state, and computational protein functionalities",
+      "authors": [
+        "Vojislav Gligorovski",
+        "Marco Labagnara",
+        "Lorenzo Scutteri",
+        "Marius Blackholm",
+        "Andreas Möglich",
+        "Nahal Mansouri",
+        "Sahand Jamal Rahi"
+      ],
+      "doi": "10.1016/j.cell.2026.02.002",
+      "pages": "1636-1655.e12"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.002",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.002",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.02.28.582517"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-27T13:49:38.987814+00:00",
+    "source": "openalex"
+  }
+}

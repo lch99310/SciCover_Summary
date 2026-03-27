@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "跨國空氣污染與模糊問責：韓國的中國責任指責實證",
+      "en": "Transboundary Air Pollution and Hazy Accountability: Blame Shifting in South Korea"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究顯示，南韓的嚴重空氣污染不僅源自本國，還大量來自中國，而當天氣惡化時，民眾對中國政府的不滿明顯增加，但對本國政府的環保評價幾乎沒有影響。利用2015‑2022年的民意調查與每日空氣品質指數結合，作者以工具變量法證實，暴露在差劣空氣中的南韓人對中國領導人的負面評價提升約67%，而對本國政府的滿意度基本持平。這一發現突顯「模糊問責」機制——跨國污染讓政府能將責任推給外部，進而加劇中韓關係緊張，也解釋了為何韓國在空污與氣候政策上的行動遲緩。這項工具變量的實證設計與跨國比較提供了新視角，對政策制定與國際合作具有重要啟示。\n\n【研究問題】研究問題是探討跨國空氣污染如何影響公民對政府的責任歸屬，特別是當污染源在國外時，民眾是否會把責任推給外國政府而非本國政府，以及這是否會加劇國際緊張。過去的研究多聚焦於本國污染的內部問責，缺乏對跨境污染下「模糊問責」的實證，也未說明為何韓國在空污政策上仍顯遲緩。解決這個問題關鍵在於了解污染如何塑造公共輿論與外交關係，對環境治理與國際合作有直接影響。\n\n【研究方法】作者結合2015‑2022年的Gallup世界民調與韓國各城市每日空氣品質指數（AQI），將AQI作為工具變項，分兩階段估計：第一階段預測民眾對空氣品質的主觀不滿，第二階段檢視這一變數對對中國政府與韓國政府的滿意度的影響。同時加入經濟信心、健康與生活滿意度作為中介變數，並使用工具變量二階最小平方、減形模型與因果中介分析，控制季節、天氣與媒體敘事等因素，以確保因果推斷的可靠性。\n\n【結果】研究發現，空氣品質每提升一個標準差，對中國領導人的不滿提升約67%，而在對本國政府的環保評價、總統支持或對 national government 的信心上則無顯著影響。減形回歸顯示，每標準差的 AQI 增加會讓對中國的負面評價上升約2個百分點。進一步的中介分析顯示，這效應幾乎全部透過惡化當地經濟信心而非健康或生活滿意度傳導。額外檢驗使用江華島的中國來源污染作為工具變項，結果仍保持穩健，證明即使在中國污染佔比明顯的區域，仍是透過民眾對外國的負面情緒而非本國政策失靈而產生的責任歸屬機制。",
+      "en": "**Summary:** This research provides compelling evidence that severe trans‑boundary air pollution in South Korea fuels public hostility toward China while leaving assessments of the domestic government untouched. By merging daily AQI measurements with Gallup World Poll responses from 2015‑2022, the authors employ an instrumental‑variables strategy that treats perceived air quality as the treatment. They find that exposure to poorer air raises dissatisfaction with Chinese leadership by roughly two percentage points and, in a full‑information sample, increases hostility toward China by about 67 % of “compliers”. Crucially, the same exposure does not significantly alter satisfaction with South Korea’s own environmental policies or presidential approval. The effect operates mainly through deteriorating local economic confidence, underscoring a novel pathway from pollution to diplomatic tension.\n\n**Problem:** The article asks how cross‑border pollution reshapes accountability politics when the polluting source lies abroad, a gap in a literature that has largely examined domestic pollution‑feedback loops. Prior work overlooks the possibility that citizens may blame foreign governments, thereby weakening internal pressure for environmental reform and potentially igniting interstate friction. Understanding this mechanism is vital because it explains why countries like South Korea—despite severe air‑quality crises—remain sluggish in enacting ambitious mitigation policies, and it predicts how environmental grievances may spill over into broader geopolitical conflict.\n\n**Approach:** Lee and Voeten combine high‑resolution air‑quality data from Korean monitoring stations with individual‑level survey responses on government approval, economic confidence, health and life‑satisfaction. They first instrument respondents’ subjective air‑quality judgments with actual AQI values, exploiting daily variations as a quasi‑random shock. The instrumental‑variables framework isolates the causal impact of pollution on political evaluations, while reduced‑form regressions validate the magnitude of the effect. Mediation analyses then trace the pathway through local economic confidence, and robustness checks—including alternative instruments based on wind direction and island‑specific Chinese‑origin pollution—confirm the stability of the findings.\n\n**Results:** The key outcomes are stark: a one‑standard‑deviation rise in AQI leads to a 2‑percentage‑point increase in dissatisfaction with China and a 67 % surge in hostility among those whose views shift, whereas domestic government satisfaction remains statistically unchanged. The effect is mediated almost entirely by declining confidence in the local economy, not by health or life‑satisfaction metrics. Placebo tests with unrelated countries (U.S., Germany, Japan, Russia) show no impact, and analyses of “clean” islands demonstrate that the results persist even when Chinese‑origin pollution is isolated. These findings illuminate a previously hidden channel whereby trans‑boundary pollution amplifies anti‑foreign sentiment and complicates environmental governance."
+    },
+    "keyArticle": {
+      "title": "Transboundary Air Pollution and Hazy Accountability: Evidence from South Korea",
+      "authors": [
+        "Haillie Lee",
+        "Erik Voeten"
+      ],
+      "doi": "10.1017/s0020818325101264",
+      "pages": "152-178"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101264",
+      "doi": "https://doi.org/10.1017/s0020818325101264"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-27T13:51:14.064363+00:00",
+    "source": "openalex"
+  }
+}

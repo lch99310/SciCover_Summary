@@ -1,0 +1,51 @@
+{
+  "id": "science-2026-02-05-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6791",
+  "date": "2026-02-05",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-05-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "活細胞單分子動態解鎖真核RNA聚合酶的動態行為",
+      "en": "Live‑Cell Single‑Molecule Dynamics Reveal the Kinetic Landscape of Eukaryotic RNA Polymerases"
+    },
+    "summary": {
+      "zh": "【總結】\n詳細概述文章的核心發現、突破點及其重要性。讓讀者一眼看出這項研究的價值所在。\n\nRNA聚合酶I與III的預起始複合體在活細胞中可持續結合數十秒至數分鐘，顯示出其對核糖體與tRNA合成的持續、高產出特性；而聚合酶II僅短暫結合，平均滯留時間僅數秒，便快速解離。研究發現，許多 elongation 相關因子以及剪接因子的結合亦是短暫的，且在CTD被截斷的情況下，U1 snRNP的滯留時間減半，導致核糖體蛋白質基因的內含子保留率顯著下降。這些動態圖譜為理解真核轉錄的時間尺度提供了全新的定量框架，凸顯了長壽命聚合酶複合體在維持基礎代謝基因表達中的關鍵角色，以及短暫互動如何促進可調控的基因表達與RNA加工。\n\n【研究問題】\n這篇文章探討的具體問題是什麼？過去的研究有什麼盲點或不足（研究缺口）？為什麼解決這個問題至關重要？\n過去的研究多依賴於體外生化或固定細胞成像，缺乏在活細胞內對三種RNA聚合酶及其調節因子實時動態的量化數據。這種資訊缺口阻礙了我們對轉錄時間如何調控基因表達、以及如何將時間依賴的機制應用於醫學與合成生物學的理解。解決此問題能夠揭示基因活性的精確時間控制，對疾病機制與治療策略具有根本意義。\n\n【研究方法】\n具體且清晰地解釋作者的研究步驟。他們使用了什麼獨特的數據、實驗設計、技術或理論框架？請用通俗易懂的方式拆解複雜的方法論。\n作者在酵母中將RNA聚合酶I、II、III的 largest  subunit分別與HaloTag融合，並使用Janelia Fluor染料進行標記。利用10毫秒快照影像捕捉數千條單分子 trajectories，根據擴散係數將其分類為結合或自由。為補償光漬、光漬衰減等實驗 artefacts，他們創新性地以組蛋白H2B的切伸展指數衰減作為參考，對滯留時間進行校正。此外，他們還產生了CTD被截斷的變異體（CTD9），重複上述追蹤，並進行RNA‑seq測定內含子保留情況。此組合方法使研究者得以在活細胞內量化每個聚合酶及其相關因子的結合壽命，並探索CTD長度對剪接因子動態的影響。\n\n【結果】\n列出具體的關鍵發現（必須包含重要的數據、比例或具體案例）。這些結果代表了什麼意義？對未來的領域發展或實際應用有什麼深遠影響？\n研究測得到了平均滯留時間：RNA聚合酶I約60秒、RNA聚合酶III僅約4秒、RNA聚合酶II約40秒。在RNA聚合酶II路徑中，TBP與TFIIA的滯留時間較長（約20–30秒），而大多數 elongation、剪接與修飾因子的結合時間均在5秒以下，顯示高度動態。CTD截斷後，U1 snRNP的滯留時間減半，內含子保留率在核糖體蛋白質基因中顯著下降，RNA‑seq驗證了此變化。這些結果揭示了長壽命聚合酶複合體維持核糖體與tRNA基因持續表達的機制，以及短暫互動如何促進快速、可逆的蛋白質編碼基因表達與剪接調控，為未來的轉錄工程與藥物設計提供了新的時間視角。",
+      "en": "**Summary:** \nA comprehensive overview of the article's core discovery, its breakthrough nature, and its overall significance. \n\nThe study provides a kinetic atlas of eukaryotic RNA polymerases in living yeast, showing that RNAP‑I and RNAP‑III stay bound for tens of seconds to minutes, while RNAP‑II engages DNA only briefly. It also reveals that many elongation and splicing factors attach only transiently, and that shortening the RNAP‑II CTD reduces U1 snRNP dwell time and cuts intron retention in ribosomal protein genes. These findings overturn the view that longer CTDs always boost splicing, and demonstrate that the duration of polymerase binding directly links to gene‑specific functional outcomes. By quantifying binding lifetimes, the work offers a new framework for understanding how timing shapes gene regulation and suggests new avenues for manipulating transcription in health and disease.\n\n**Problem:** \nWhat specific question does the article address? What is the historical context or the gap in previous research? Why is this a crucial problem to solve?\nPrevious studies relied on bulk biochemistry or fixed‑cell snapshots, leaving the temporal dynamics of transcription largely speculative. This gap hampers our understanding of how the timing of polymerase activity controls gene expression programs and limits the ability to engineer or correct transcription defects. Solving the problem is essential because deciphering the kinetic code of transcription is fundamental to both basic biology and therapeutic strategies.\n\n**Approach:** \nExplain the methodology clearly and step‑by‑step. What unique data, experimental designs, technologies, or theoretical frameworks were utilized? Break down complex methods into understandable concepts.\nThe authors tagged the largest subunits of RNAP‑I, RNAP‑II, and RNAP‑III with HaloTag in yeast and labeled them with a bright Janelia Fluor dye. Using fast live‑cell single‑molecule tracking (10 ms frames) they recorded thousands of trajectories, distinguishing chromatin‑bound from freely diffusing molecules by diffusion properties. To isolate true residence times, they introduced a novel correction based on the stretched‑exponential decay of histone H2B as an internal reference. They also engineered a CTD‑truncated RNAP‑II mutant (CTD9) and repeated the tracking, complemented by RNA‑seq to assess splicing changes. This combination of high‑speed SMT, kinetic modeling, and transcriptomics allowed a quantitative map of binding durations across the transcription cycle.\n\n**Results:** \nDetail the key findings, including specific and striking data points, percentages, or examples. What do these results mean, and what are their broader implications for the field or society?\nMeasurements gave average residence times of ~60 seconds for RNAP‑I, ~40 seconds for RNAP‑II, and only ~4 seconds for RNAP‑III on chromatin. Within the RNAP‑II pathway, TBP and TFIIA paused longer (~20–30 seconds), whereas most elongation, splicing, and modification factors bound for under 5 seconds, indicating highly transient interactions. Truncation of the RNAP‑II CTD from 26 to 9 heptads left most residence times unchanged but cut U1 snRNP dwell time by roughly half, leading to a significant reduction in intron retention for ribosomal protein genes, a change confirmed by RNA‑seq. These results reveal a kinetic hierarchy: long‑lived polymerase complexes keep ribosomal and tRNA genes constantly active, while brief, dynamic contacts enable rapid, regulated expression of protein‑coding genes and tight coupling to RNA processing, providing a new temporal framework for transcription engineering."
+    },
+    "keyArticle": {
+      "title": "Live-cell single-molecule dynamics of eukaryotic RNA polymerase machineries",
+      "authors": [
+        "Yick Hin Ling",
+        "Chloe Liang",
+        "Sixiang Wang",
+        "Carl Wu"
+      ],
+      "doi": "10.1126/science.ads0960",
+      "pages": "eads0960"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-05-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ads0960",
+      "doi": "https://doi.org/10.1126/science.ads0960",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.07.08.602478"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-27T13:48:05.737816+00:00",
+    "source": "openalex"
+  }
+}

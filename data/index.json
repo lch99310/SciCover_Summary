@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-25T19:47:12.335618+00:00",
+  "lastUpdated": "2026-03-27T13:51:17.084435+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-03-24",
+      "journal": "Political Geography",
+      "date": "2026-03-24",
+      "path": "articles/2026/03/political-geography-2026-03-24.json",
+      "title_zh": "鋰之之路：玻利維亞高原的能源轉型與政治實踐",
+      "title_en": "The Lithium Road: Political Practices Fueling Extractive Infrastructures in Bolivia's Altiplano",
+      "cover_url": ""
+    },
     {
       "id": "nature-2026-03-11",
       "journal": "Nature",
@@ -45,6 +54,15 @@
       "title_zh": "風切變與乾燥土壤的共舞：解開極端雷暴爆發的關鍵密碼",
       "title_en": "The Wind Shear and Soil Moisture Duo: How They Ignite Explosive Thunderstorms",
       "cover_url": "data/images/nature/nature-2026-03-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-03-01-02",
+      "journal": "Cell",
+      "date": "2026-03-01",
+      "path": "articles/2026/03/cell-2026-03-01-02.json",
+      "title_zh": "光導演化：動態、多狀態與計算蛋白功能的突破",
+      "title_en": "Light-Directed Evolution of Dynamic, Multi-State, and Computational Protein Functions",
+      "cover_url": "data/images/cell/cell-2026-03-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-03-01",
@@ -117,6 +135,15 @@
       "title_zh": "植物的警報系統：遠端免疫啟動的化學密碼",
       "title_en": "Plant's Secret Language: How Alkalinization Alerts Distant Tissues to Invaders",
       "cover_url": "data/images/cell/cell-2026-02-24-cover.jpg"
+    },
+    {
+      "id": "nature-2026-02-24",
+      "journal": "Nature",
+      "date": "2026-02-24",
+      "path": "articles/2026/02/nature-2026-02-24.json",
+      "title_zh": "河口沉降的全球性監測：新修正版Nature研究揭示海平面上升的隱形威脅",
+      "title_en": "Global River Delta Subsidence Revisited: A Corrected Perspective on Hidden Sinking Risks",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-02-24",
@@ -261,6 +288,15 @@
       "title_zh": "古菌系譜大修正：3個重複基因，反而讓真核生物起源的結論更堅實",
       "title_en": "A Tiny Correction, A Big Confirmation: Eukaryotes' Ancient Archaeal Roots Hold Firm",
       "cover_url": "data/images/nature/nature-2026-02-11-cover.jpg"
+    },
+    {
+      "id": "science-2026-02-05-02",
+      "journal": "Science",
+      "date": "2026-02-05",
+      "path": "articles/2026/02/science-2026-02-05-02.json",
+      "title_zh": "活細胞單分子動態解鎖真核RNA聚合酶的動態行為",
+      "title_en": "Live‑Cell Single‑Molecule Dynamics Reveal the Kinetic Landscape of Eukaryotic RNA Polymerases",
+      "cover_url": "data/images/science/science-2026-02-05-02-cover.jpg"
     },
     {
       "id": "science-2026-02-05",
@@ -540,6 +576,15 @@
       "title_zh": "EBV病毒暗藏殺手鐧！科學家揭開「分子模仿」致多發性硬化症的驚人機制",
       "title_en": "EBV's Hidden Hand in Multiple Sclerosis: How a Viral Mimicry Unleashes Autoimmune Attacks",
       "cover_url": "data/images/cell/cell-2026-01-01-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01.json",
+      "title_zh": "跨國空氣污染與模糊問責：韓國的中國責任指責實證",
+      "title_en": "Transboundary Air Pollution and Hazy Accountability: Blame Shifting in South Korea",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-cover.jpg"
     },
     {
       "id": "science-2026-01-01-02",

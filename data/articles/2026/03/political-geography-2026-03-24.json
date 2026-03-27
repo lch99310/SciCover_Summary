@@ -1,0 +1,41 @@
+{
+  "id": "political-geography-2026-03-24",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-03-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "鋰之之路：玻利維亞高原的能源轉型與政治實踐",
+      "en": "The Lithium Road: Political Practices Fueling Extractive Infrastructures in Bolivia's Altiplano"
+    },
+    "summary": {
+      "zh": "在全球能源轉型的浪潮中，玻利維亞的薩爾瓦爾德烏尤尼鹽沼（Salar de Uyuni）因擁有世界最大的鋰礦而備受矚目。這座鹽沼不僅是自然資源的寶庫，更成为了國際資本與國家政策交織的焦點。文章指出，鋰的開採被視為實現國家擴張與資源重新分配的關鍵路徑，特別是在當時政府推動資源國家化與再分配的政策背景下。\n\n然而，文章的核心並不在於單純的資源開採，而是聚焦於地方民間組織如何在這場全球性的能源爭奪中，主動爭取公共基礎設施的建設與連結。例如，位於波托西的民間團體 FRUTCAS（Fuerza de Unidad de los Trabajadores de la Comunidad Andina del Salar）便利用全球鋰需求的話語，向中央政府提出高速公路、供水與能源供應等基礎建設的需求，並將其描繪為鋰開採順利進行的必要條件。這種「以敵人的武器向敵人學習」的策略，使得地方利益與國家、國際資本的目標產生了微妙的共鳴。\n\n作者透過政治地理與人類學的交叉視角，說明這些基礎設施不僅是資源開採的外在支撐，更是當地政治主體主動塑造與協商的場域。從這個角度看，鋰的開採與基礎設施的擴張互為因果，形成一條「鋰之路」 —  — 這條道路既是能源轉型的物流脈絡，也是地方政治力量在全球資本面前爭取話語權的舞台。",
+      "en": "The article examines how Bolivia’s Salar de Uyuni, the world’s largest lithium deposit, has become a focal point in the global race for the energy transition. Lithium is framed not merely as a mineral but as a strategic asset that can fuel national development and redistribution, especially under the MAS government’s agenda of resource nationalization. This context positions lithium extraction as a cornerstone of Bolivia’s economic strategy, intertwining local aspirations with transnational capital flows.\n\nWhat sets the study apart is its focus on civil society actors who, rather than outright opposing extraction, seek to harness the emerging lithium economy to secure public infrastructure. The regional organization FRUTCAS, for instance, leverages the geopolitical significance of lithium to press the central state for highways, water pipelines, and energy links, presenting these projects as essential for both mining operations and local livelihoods. By aligning their demands with perceived state and global interests, these actors transform infrastructure from a contested arena into a negotiated platform for mutual benefit.\n\nDrawing on political geography and anthropology, the authors illustrate how extractive infrastructures are co‑produced by local political subjects and global capital. The resulting “Lithium Road” exemplifies a feedback loop: lithium mining drives infrastructure development, while the promise of such infrastructure fuels further extraction. This dynamic reveals how local political practices actively shape — and are shaped by — the broader geopolitical currents of the energy transition."
+    },
+    "keyArticle": {
+      "title": "The Lithium Road. Political practices in favor of extractive infrastructures in the Bolivian Altiplano.",
+      "authors": [
+        "David Schröter",
+        "Felipe Fernández",
+        "Alke Jenss"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103541",
+      "pages": "103541"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103541",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103541"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-27T13:50:29.513093+00:00",
+    "source": "openalex"
+  }
+}

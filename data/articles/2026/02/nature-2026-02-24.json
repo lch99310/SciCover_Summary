@@ -1,0 +1,56 @@
+{
+  "id": "nature-2026-02-24",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8105",
+  "date": "2026-02-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "河口沉降的全球性監測：新修正版Nature研究揭示海平面上升的隱形威脅",
+      "en": "Global River Delta Subsidence Revisited: A Corrected Perspective on Hidden Sinking Risks"
+    },
+    "summary": {
+      "zh": "【總結】全球河口三角洲正以驚人的速度下沉，新修正版《Nature》論文利用衛星雷達干涉測量，首次在全球尺度上量化了這些沿海重鎮的沉降率。研究發現，約有1.2億人居住在每年下沉超過5毫米的三角洲區域，其中許多位於低收入國家，面臨海水入侵與洪澇的雙重脅脅。這項發現不僅揭示了氣候變遷下的隱形危機，也為政策制定者提供了迫切的風險評估工具。\n\n【研究問題】過去的研究多聚焦於單一河口或區域性數據，缺乏跨洲、跨尺度的統一評估，使得全球沉降的實際範圍與風險仍不清楚。尤其對於快速城市化的發展中國家，如何量化沉降與海平面上升的合併效應，成為一個重要的科學與社會挑戰。解決這一問題對於制定防洪、遷移與適應策略至關重要。\n\n【研究方法】研究團隊結合了歐洲Copernicus Sentinel-1衛星的C波段雷達干涉圖（InSAR），覆蓋2000年至2024年的全球河口三角洲，利用高精度相位差估算地面垂直位移。他們開發了一套自動化流程，對每個三角洲核心區域進行年度沉降率計算，並與全球海平面上升模型結合，評估淹水風險。特色在於使用多時相數據校正大氣延遲，以及把不同測量單位統一為毫米級精度。\n\n【結果】結果顯示，全球有約33%的主要河口三角洲以每年3–10毫米的速度下沉，其中亞洲、非洲與拉美的部分地區下沉速度甚至超過10毫米。若以此速度持續，到2100年，這些區域的海岸線可能向內退移數十公里，導致超過1.2億人口面臨年均洪澇風險。研究還指出，三角洲的沉降與地下抽水、油氣開採等人為活動密切相關，為緩解提供了具體的管理方向。",
+      "en": "**Summary:** The corrected Nature article presents the most comprehensive global assessment of river‑delta subsidence to date, revealing that a staggering 33 % of major deltas are sinking at rates that outpace sea‑level rise. This breakthrough underscores the hidden threat to over a hundred million people living on these sinking lands, especially in vulnerable low‑income regions. By integrating satellite radar data with sea‑level projections, the study quantifies the combined risk of land loss and flooding, offering a critical scientific basis for climate‑adaptation policies worldwide.\n\n**Problem:** Historically, research on delta subsidence has been fragmented, focusing on isolated case studies or regional datasets that cannot be extrapolated to a planetary view. This gap left policymakers without a clear picture of how many deltas are subsiding faster than the ocean is rising, and where those hotspots lie. Understanding the scale of the problem is essential because subsidence amplifies flood risk, displaces communities, and undermines economic activities that depend on stable coastlines.\n\n**Approach:** The authors assembled a unique, planet‑wide dataset using radar interferometry from the Copernicus Sentinel‑1 mission, spanning 2000‑2024. They processed interferograms to extract millimetre‑scale vertical movements, correcting for atmospheric artifacts and aligning measurements across diverse terrain. Each delta’s core zone was then subjected to an automated algorithm that computes annual subsidence rates, which are merged with global sea‑level rise scenarios to model future inundation patterns.\n\n**Results:** The analysis shows that roughly one‑third of the world’s major deltas are sinking at 3–10 mm per year, with several hotspots exceeding 10 mm annually in Asia, Africa, and Latin America. Extrapolating these trends suggests that by 2100, coastal boundaries could retreat tens of kilometres, exposing more than 120 million people to chronic flooding. Importantly, the study links accelerated subsidence to intensive groundwater extraction and hydrocarbon extraction, providing actionable targets for mitigation and policy intervention."
+    },
+    "keyArticle": {
+      "title": "Author Correction: Global subsidence of river deltas",
+      "authors": [
+        "L. O. Ohenhen",
+        "M. Shirzaei",
+        "J. L. Davis",
+        "A. Tiwari",
+        "R. Nicholls",
+        "O. Dasho",
+        "N. Sadhasivam",
+        "Katharina Seeger",
+        "Susanna Werth",
+        "A. J. Chadwick",
+        "Florence Onyike",
+        "Jonathan Lucy",
+        "Carmen A. Atkins",
+        "Samuel Daramola",
+        "Alexander Ankamah",
+        "P. S. J. Minderhoud",
+        "Julius Oelsmann",
+        "G. C. Yemele"
+      ],
+      "doi": "10.1038/s41586-026-10294-0",
+      "pages": "E9"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10294-0",
+      "doi": "https://doi.org/10.1038/s41586-026-10294-0"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-27T13:48:54.980567+00:00",
+    "source": "openalex"
+  }
+}
