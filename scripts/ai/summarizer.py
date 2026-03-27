@@ -18,12 +18,11 @@ automatically.  Configure backends via environment variables — any backend
 whose key env-var is empty or missing is silently skipped.
 
 Priority order:
-  1. qwen/qwen3-vl-30b-a3b-thinking   (MODELS_PAT_QWEN3_VL_30B  — OpenRouter)
-  2. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
-  3. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
-  4. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
-  5. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
-  6. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
+  1. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
+  2. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
+  3. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
+  4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
+  5. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
 """
 
 from __future__ import annotations
@@ -57,21 +56,12 @@ _MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000
 # ---------------------------------------------------------------------------
 
 # Each tuple: (env_var_name, model_id, base_url)
+# Tried in this priority order; 402 causes fallover to the next entry.
 _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     (
-        "MODELS_PAT_QWEN3_VL_30B",
-        "qwen/qwen3-vl-30b-a3b-thinking",
-        "https://openrouter.ai/api/v1",
-    ),
-    (
-        "OPENROUTER_KEY_MINIMAX",
-        "minimax/minimax-m2.5:free",
-        "https://openrouter.ai/api/v1",
-    ),
-    (
-        "OPENROUTER_KEY_NVIDIA",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "https://openrouter.ai/api/v1",
+        "GEMINI_API_KEY",
+        "gemini-2.0-flash",
+        "https://generativelanguage.googleapis.com/v1beta/openai/",
     ),
     (
         "OPENROUTER_KEY_QWEN3",
@@ -84,9 +74,14 @@ _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
         "https://openrouter.ai/api/v1",
     ),
     (
-        "GEMINI_API_KEY",
-        "gemini-2.0-flash",
-        "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "OPENROUTER_KEY_NVIDIA",
+        "nvidia/nemotron-3-nano-30b-a3b:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_MINIMAX",
+        "minimax/minimax-m2.5:free",
+        "https://openrouter.ai/api/v1",
     ),
 ]
 
@@ -157,16 +152,6 @@ class BilingualSummarizer:
 
     def __init__(self, api_key: Optional[str] = None) -> None:
         self._backends = _build_backends()
-
-        # Legacy single-key support: if an explicit key is provided and no
-        # backends were built, register it with the default primary model.
-        if not self._backends and api_key:
-            client = OpenAI(
-                api_key=api_key,
-                base_url="https://openrouter.ai/api/v1",
-                default_headers=_OPENROUTER_HEADERS,
-            )
-            self._backends.append((client, "qwen/qwen3-vl-30b-a3b-thinking"))
 
         if not self._backends:
             logger.warning(
