@@ -286,6 +286,16 @@ class BilingualSummarizer:
                     )
                     return None
 
+                # 404 — endpoint not available (e.g. guardrail/data-policy
+                # restrictions on OpenRouter).  This is a permanent config
+                # issue, not a transient error — skip immediately.
+                if "404" in exc_str:
+                    logger.warning(
+                        "[%s] Endpoint not available (404) — switching to next backend",
+                        model,
+                    )
+                    return None
+
                 # 413 — request too large: no point retrying the same prompt.
                 if "413" in exc_str or "too large" in exc_str.lower():
                     logger.warning(
