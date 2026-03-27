@@ -68,7 +68,15 @@ jobs:
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
+          # Primary summariser model (paid OpenRouter)
           MODELS_PAT_QWEN3_VL_30B: ${{ secrets.MODELS_PAT_QWEN3_VL_30B }}
+          # Fallback summariser models (free OpenRouter + Google Gemini)
+          # Tried in order when the previous backend returns 402.
+          OPENROUTER_KEY_MINIMAX: ${{ secrets.OPENROUTER_KEY_MINIMAX }}
+          OPENROUTER_KEY_NVIDIA: ${{ secrets.OPENROUTER_KEY_NVIDIA }}
+          OPENROUTER_KEY_QWEN3: ${{ secrets.OPENROUTER_KEY_QWEN3 }}
+          OPENROUTER_KEY_GLAI: ${{ secrets.OPENROUTER_KEY_GLAI }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         continue-on-error: true
 
       - name: Commit and push updated data

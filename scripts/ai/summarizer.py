@@ -1,13 +1,29 @@
 """
-ai.summarizer — Bilingual cover-story summariser powered by Qwen3 VL via OpenRouter.
+ai.summarizer — Bilingual cover-story summariser with multi-backend fallback.
 
-Uses the OpenAI-compatible endpoint on OpenRouter to produce a structured
-JSON object containing Chinese and English titles and summaries.
+Uses the OpenAI-compatible endpoint on OpenRouter (and Google Gemini) to
+produce a structured JSON object containing Chinese and English titles and
+summaries.
 
 Supports two modes:
   - **Abstract-only**: 2–4 paragraph free-form summary (original mode).
   - **Full-text**: Structured 4-part summary (總結/問題/方法/結果) when the
     full article text is available via preprints or open-access pages.
+
+Backend fallback
+----------------
+Multiple API backends are tried in priority order.  When one backend returns
+a 402 (insufficient credits / quota exhausted), the next backend is tried
+automatically.  Configure backends via environment variables — any backend
+whose key env-var is empty or missing is silently skipped.
+
+Priority order:
+  1. qwen/qwen3-vl-30b-a3b-thinking   (MODELS_PAT_QWEN3_VL_30B  — OpenRouter)
+  2. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
+  3. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
+  4. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
+  5. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
+  6. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
 """
 
 from __future__ import annotations
@@ -17,7 +33,7 @@ import logging
 import os
 import re
 import time
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 from openai import OpenAI
 
@@ -34,11 +50,77 @@ _REQUIRED_KEYS = {"title", "summary"}
 _REQUIRED_LANG_KEYS = {"zh", "en"}
 
 # Maximum characters of full text to include in the summariser prompt.
-# Qwen3 VL 30B A3B Thinking has a 131 072-token context window, so we can
-# comfortably accommodate the full article text fetched by fulltext.py
-# (capped at 60 000 chars there).  Override via environment variable.
 _MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000"))
 
+# ---------------------------------------------------------------------------
+# Backend registry
+# ---------------------------------------------------------------------------
+
+# Each tuple: (env_var_name, model_id, base_url)
+_BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
+    (
+        "MODELS_PAT_QWEN3_VL_30B",
+        "qwen/qwen3-vl-30b-a3b-thinking",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_MINIMAX",
+        "minimax/minimax-m2.5:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_NVIDIA",
+        "nvidia/nemotron-3-nano-30b-a3b:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_QWEN3",
+        "qwen/qwen3-next-80b-a3b-instruct:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_GLAI",
+        "z-ai/glm-4.5-air:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "GEMINI_API_KEY",
+        "gemini-2.0-flash",
+        "https://generativelanguage.googleapis.com/v1beta/openai/",
+    ),
+]
+
+_OPENROUTER_HEADERS = {
+    "HTTP-Referer": "https://github.com/lch99310/SciCover_Summary",
+    "X-Title": "SciCover Summary",
+}
+
+
+def _build_backends() -> List[Tuple[OpenAI, str]]:
+    """Build the list of (client, model) pairs from available env vars.
+
+    Backends whose key env-var is empty or absent are skipped silently.
+    """
+    backends: List[Tuple[OpenAI, str]] = []
+    for env_var, model, base_url in _BACKEND_CONFIGS:
+        key = os.environ.get(env_var, "").strip()
+        if not key:
+            continue
+        # Google's Gemini endpoint doesn't need the OpenRouter custom headers.
+        headers = _OPENROUTER_HEADERS if "openrouter" in base_url else {}
+        client = OpenAI(
+            api_key=key,
+            base_url=base_url,
+            default_headers=headers,
+        )
+        backends.append((client, model))
+        logger.debug("Registered backend: %s (env: %s)", model, env_var)
+    return backends
+
+
+# ---------------------------------------------------------------------------
+# Output validation
+# ---------------------------------------------------------------------------
 
 def _validate_output(data: Any) -> bool:
     """Return ``True`` if *data* conforms to the expected schema."""
@@ -52,7 +134,6 @@ def _validate_output(data: Any) -> bool:
             return False
         if not _REQUIRED_LANG_KEYS.issubset(inner.keys()):
             return False
-        # Each value should be a non-empty string.
         for lang in _REQUIRED_LANG_KEYS:
             if not isinstance(inner[lang], str) or not inner[lang].strip():
                 return False
@@ -64,53 +145,37 @@ def _validate_output(data: Any) -> bool:
 # ---------------------------------------------------------------------------
 
 class BilingualSummarizer:
-    """Generates bilingual (zh + en) summaries using Qwen3 VL via OpenRouter.
+    """Generates bilingual (zh + en) summaries with multi-backend fallback.
 
-    Configuration
-    -------------
-    - **API key**: read from ``MODELS_PAT_QWEN3_VL_30B`` environment variable,
-      falling back to ``GITHUB_TOKEN``.
-    - **Base URL**: ``https://openrouter.ai/api/v1``
-    - **Model**: ``qwen/qwen3-vl-30b-a3b-thinking`` (131K context window)
+    Backends are tried in the order defined in ``_BACKEND_CONFIGS``.  A 402
+    (insufficient credits) response causes immediate fallover to the next
+    backend.  Other errors trigger per-backend retries before falling over.
     """
 
-    MODEL = os.environ.get(
-        "SUMMARIZER_MODEL", "qwen/qwen3-vl-30b-a3b-thinking"
-    )
-    BASE_URL = os.environ.get(
-        "SUMMARIZER_BASE_URL", "https://openrouter.ai/api/v1"
-    )
     TEMPERATURE = 0.7
-    MAX_RETRIES = 2  # Number of *additional* attempts after the first failure.
+    MAX_RETRIES = 2  # Additional attempts per backend before giving up on it.
 
     def __init__(self, api_key: Optional[str] = None) -> None:
-        """Initialise the OpenAI client.
+        self._backends = _build_backends()
 
-        Parameters
-        ----------
-        api_key:
-            An explicit API key.  Falls back to ``MODELS_PAT_QWEN3_VL_30B``
-            or ``GITHUB_TOKEN`` env vars.
-        """
-        resolved_key = (
-            api_key
-            or os.environ.get("MODELS_PAT_QWEN3_VL_30B", "")
-            or os.environ.get("GITHUB_TOKEN", "")
-        )
-        if not resolved_key:
-            logger.warning(
-                "No API key provided (checked MODELS_PAT_QWEN3_VL_30B and "
-                "GITHUB_TOKEN). Summarisation calls will fail."
+        # Legacy single-key support: if an explicit key is provided and no
+        # backends were built, register it with the default primary model.
+        if not self._backends and api_key:
+            client = OpenAI(
+                api_key=api_key,
+                base_url="https://openrouter.ai/api/v1",
+                default_headers=_OPENROUTER_HEADERS,
             )
+            self._backends.append((client, "qwen/qwen3-vl-30b-a3b-thinking"))
 
-        self._client = OpenAI(
-            api_key=resolved_key,
-            base_url=self.BASE_URL,
-            default_headers={
-                "HTTP-Referer": "https://github.com/lch99310/SciCover_Summary",
-                "X-Title": "SciCover Summary",
-            },
-        )
+        if not self._backends:
+            logger.warning(
+                "No API keys found for any backend. Summarisation calls will fail."
+            )
+        else:
+            models = [m for _, m in self._backends]
+            logger.info("Summariser backends (in priority order): %s", models)
+
         self._last_mode = "abstract-only"
 
     # ------------------------------------------------------------------
@@ -124,26 +189,12 @@ class BilingualSummarizer:
     ) -> Optional[Dict[str, Any]]:
         """Generate a bilingual summary for *article*.
 
-        Parameters
-        ----------
-        article:
-            The scraped article metadata (title, abstract, etc.).
-        fulltext:
-            Optional full-text content.  When provided, the summariser
-            uses the structured 4-part prompt (總結/問題/方法/結果).
-            When ``None``, falls back to the abstract-only prompt.
-
-        Returns a ``dict`` with ``title`` and ``summary`` keys (each
-        containing ``zh`` and ``en`` sub-keys), or ``None`` if generation
-        or parsing fails after retries.
-
-        If full-text mode fails (e.g. due to token limits), the method
-        automatically falls back to abstract-only mode.  The actual mode
-        used is stored in ``self._last_mode``.
+        Tries full-text mode first (if text is available), then falls back
+        to abstract-only.  Within each mode, all registered backends are
+        tried in priority order before giving up.
         """
         self._last_mode = "abstract-only"
 
-        # --- Try full-text mode first (if text available) ---
         if fulltext:
             truncated = self._truncate_fulltext(fulltext)
             if len(truncated) < len(fulltext):
@@ -156,12 +207,10 @@ class BilingualSummarizer:
                 self._last_mode = "full-text"
                 return result
             logger.warning(
-                "Full-text summary failed for %s — falling back to "
-                "abstract-only mode",
+                "Full-text summary failed for %s — falling back to abstract-only mode",
                 article.journal,
             )
 
-        # --- Abstract-only mode (primary or fallback) ---
         result = self._try_mode("abstract-only", article, fulltext=None)
         if result is not None:
             self._last_mode = "abstract-only"
@@ -185,7 +234,7 @@ class BilingualSummarizer:
         article: CoverArticleRaw,
         fulltext: Optional[str],
     ) -> Optional[Dict[str, Any]]:
-        """Attempt summarisation in the given *mode* with retries."""
+        """Attempt summarisation in the given *mode*, cycling through backends."""
         if mode == "full-text" and fulltext:
             user_prompt = COVER_STORY_FULLTEXT_PROMPT.format(
                 journal=article.journal,
@@ -209,39 +258,64 @@ class BilingualSummarizer:
                 abstract=article.article_abstract or "(not available)",
             )
 
+        for client, model in self._backends:
+            result = self._try_backend(mode, client, model, user_prompt)
+            if result is not None:
+                return result
+
+        return None
+
+    def _try_backend(
+        self,
+        mode: str,
+        client: OpenAI,
+        model: str,
+        user_prompt: str,
+    ) -> Optional[Dict[str, Any]]:
+        """Try one backend with retries.  Returns result or None on failure."""
         for attempt in range(1, self.MAX_RETRIES + 2):
             logger.info(
                 "Requesting %s summary from %s (attempt %d/%d) ...",
                 mode,
-                self.MODEL,
+                model,
                 attempt,
                 self.MAX_RETRIES + 1,
             )
             try:
-                result = self._call_model(user_prompt)
+                result = self._call_model(client, model, user_prompt)
                 if result is not None:
                     return result
-                logger.warning("Invalid JSON structure on attempt %d", attempt)
+                logger.warning(
+                    "[%s] Invalid JSON structure on attempt %d", model, attempt
+                )
             except Exception as exc:
                 exc_str = str(exc)
-                logger.error("Model call failed on attempt %d: %s", attempt, exc)
-                # If the request body is too large, no point retrying the
-                # same prompt — break immediately so the caller can fall
-                # back to a shorter prompt (abstract-only mode).
+                logger.error(
+                    "[%s] Model call failed on attempt %d: %s", model, attempt, exc
+                )
+
+                # 402 — insufficient credits: skip this backend immediately.
+                if "402" in exc_str or "credits" in exc_str.lower() or "afford" in exc_str.lower():
+                    logger.warning(
+                        "[%s] Insufficient credits — switching to next backend", model
+                    )
+                    return None
+
+                # 413 — request too large: no point retrying the same prompt.
                 if "413" in exc_str or "too large" in exc_str.lower():
                     logger.warning(
-                        "Request too large — aborting retries for %s mode",
-                        mode,
+                        "[%s] Request too large — aborting retries for %s mode",
+                        model, mode,
                     )
-                    break
-                # Rate limit: extract wait time from the error message and
-                # sleep before retrying.
+                    return None
+
+                # 429 — rate limited: wait then retry on the same backend.
                 if "429" in exc_str or "rate" in exc_str.lower():
                     wait = self._extract_retry_wait(exc_str)
                     if attempt < self.MAX_RETRIES + 1:
                         logger.info(
-                            "Rate limited — waiting %d seconds before retry",
-                            wait,
+                            "[%s] Rate limited — waiting %d s before retry",
+                            model, wait,
                         )
                         time.sleep(wait)
                     continue
@@ -263,16 +337,18 @@ class BilingualSummarizer:
         """Parse the number of seconds to wait from a rate-limit error message."""
         match = re.search(r"(?:wait|retry.*?)\s+(\d+)\s*seconds?", error_msg, re.I)
         if match:
-            return min(int(match.group(1)) + 2, 120)  # cap at 2 min, add buffer
-        return 65  # default: slightly over 1 minute
+            return min(int(match.group(1)) + 2, 120)
+        return 65
 
-    def _call_model(self, user_prompt: str) -> Optional[Dict[str, Any]]:
-        """Send a single request to the model and parse the response.
-
-        Returns the validated ``dict`` or ``None`` on failure.
-        """
-        response = self._client.chat.completions.create(
-            model=self.MODEL,
+    def _call_model(
+        self,
+        client: OpenAI,
+        model: str,
+        user_prompt: str,
+    ) -> Optional[Dict[str, Any]]:
+        """Send a single request to *model* via *client* and parse the response."""
+        response = client.chat.completions.create(
+            model=model,
             temperature=self.TEMPERATURE,
             response_format={"type": "json_object"},
             messages=[
@@ -283,10 +359,10 @@ class BilingualSummarizer:
 
         raw_text = response.choices[0].message.content
         if not raw_text:
-            logger.warning("Model returned empty content")
+            logger.warning("[%s] Model returned empty content", model)
             return None
 
-        logger.debug("Raw model response: %s", raw_text[:500])
+        logger.debug("[%s] Raw response: %s", model, raw_text[:500])
 
         # Strip <think>...</think> blocks from reasoning/thinking models.
         cleaned = re.sub(
@@ -295,8 +371,7 @@ class BilingualSummarizer:
 
         # Strip markdown code fences if the model ignores our instructions.
         if cleaned.startswith("```"):
-            # Remove ```json ... ``` wrapper.
-            cleaned = cleaned.split("\n", 1)[-1]  # drop first line
+            cleaned = cleaned.split("\n", 1)[-1]
             if cleaned.endswith("```"):
                 cleaned = cleaned[:-3]
             cleaned = cleaned.strip()
@@ -304,12 +379,13 @@ class BilingualSummarizer:
         try:
             data = json.loads(cleaned)
         except json.JSONDecodeError as exc:
-            logger.warning("JSON parse error: %s", exc)
+            logger.warning("[%s] JSON parse error: %s", model, exc)
             return None
 
         if not _validate_output(data):
             logger.warning(
-                "Output does not match expected schema. Keys: %s",
+                "[%s] Output does not match expected schema. Keys: %s",
+                model,
                 list(data.keys()) if isinstance(data, dict) else type(data).__name__,
             )
             return None
