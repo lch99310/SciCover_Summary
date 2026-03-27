@@ -294,8 +294,16 @@ class BilingualSummarizer:
                     )
                     return None
 
-                # 429 — rate limited: wait then retry on the same backend.
-                if "429" in exc_str or "rate" in exc_str.lower():
+                # 429 — rate limited.
+                # If it's a *daily* quota exhaustion, retrying later is
+                # pointless — switch to the next backend immediately.
+                if "429" in exc_str or "rate" in exc_str.lower() or "RESOURCE_EXHAUSTED" in exc_str:
+                    if "PerDay" in exc_str or "per_day" in exc_str or "daily" in exc_str.lower():
+                        logger.warning(
+                            "[%s] Daily quota exhausted — switching to next backend",
+                            model,
+                        )
+                        return None
                     wait = self._extract_retry_wait(exc_str)
                     if attempt < self.MAX_RETRIES + 1:
                         logger.info(
@@ -319,11 +327,26 @@ class BilingualSummarizer:
 
     @staticmethod
     def _extract_retry_wait(error_msg: str) -> int:
-        """Parse the number of seconds to wait from a rate-limit error message."""
+        """Parse the number of seconds to wait from a rate-limit error message.
+
+        Handles multiple formats:
+          - Gemini: "Please retry in 43.967456436s."
+          - Gemini JSON: "'retryDelay': '43s'"
+          - Generic: "wait/retry ... N seconds"
+        """
+        # Gemini: "retry in 43.967s" or "retry in 43s"
+        match = re.search(r"retry\s+in\s+(\d+)(?:\.\d+)?s", error_msg, re.I)
+        if match:
+            return min(int(match.group(1)) + 2, 120)
+        # Gemini JSON field: retryDelay: '43s'
+        match = re.search(r"retryDelay['\": ]+(\d+)s", error_msg, re.I)
+        if match:
+            return min(int(match.group(1)) + 2, 120)
+        # Generic: "wait N seconds" / "retry after N seconds"
         match = re.search(r"(?:wait|retry.*?)\s+(\d+)\s*seconds?", error_msg, re.I)
         if match:
             return min(int(match.group(1)) + 2, 120)
-        return 65
+        return 45  # conservative default
 
     def _call_model(
         self,
