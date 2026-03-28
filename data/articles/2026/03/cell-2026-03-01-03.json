@@ -1,0 +1,94 @@
+{
+  "id": "cell-2026-03-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "6",
+  "date": "2026-03-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人類小腦的獨特秘密：生殖蛋白ZP2如何重塑我們的腦部連接",
+      "en": "The Hidden Evolution of Human Cerebellum: How a Reproductive Protein Rewires Brain Connections"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了人類小腦中一個驚人的發現：一種原本被認為只存在於生殖系統的蛋白質ZP2（透明帶糖蛋白2），在人類小腦顆粒細胞中高度表達。研究團隊透過比較人類、黑猩猩、獼猴和絨猴的小腦單細胞核轉錄組和染色質可及性分析，發現這種蛋白質在人類小腦中扮演著調節突角發育的神經功能角色，而非僅僅是生殖功能。這種「基因功能重複利用」現象為人類小腦的進化特徵提供了關鍵線索，揭示了人類大腦獨特的適應性機制。\n\n【研究問題】儘管科學家長期以來一直致力於理解人類大腦與非人類靈長類動物的差異，但對於小腦在人類進化中獨特特徵的分子基礎仍所知甚少。過去的研究多集中在皮質和其他腦區，忽略了小腦在人類認知和運動協調進化中的重要作用。這項研究旨在填補這一知識空白，探究小腦在人類進化中獲得的獨特特徵，以及這些特徵如何影響人類的高級認知功能。\n\n【研究方法】研究團隊採用了創新的單細胞多組學分析方法，對比分析了四種靈長類動物（人類、黑猩猩、獼猴和絨猴）的小腦皮質。他們結合了單細胞核轉錄組測序和染色質可及性分析技術，建立了高解析度的小腦細胞類型圖譜。此外，研究團隊還進行了體外細胞培養、小鼠模型實驗和電生理記錄，驗證了ZP2蛋白在小腦突角發育中的調節作用。這種跨物種、多層次的整合分析方法為揭示人類小腦的進化特徵提供了強有力的證據。\n\n【結果】研究發現，人類小腦顆粒細胞中存在大量人類特異性的表達特徵，其中包括ZP2蛋白的高度表達。實驗證據顯示，ZP2在人類小腦中是由橋腦苔狀纖維誘導表達的，它能減少小腦神經元的突角蛋白，降低小腦神經元的電生理活動。研究團隊還發現，約15%的人類小腦顆粒細胞表達ZP2，這種表達模式在其他靈長類動物中不存在。此外，研究還揭示了ZP2與多種腦部疾病風險基因的關聯，包括自閉症、神經發育障礙、帕金森病和精神分裂症等。這些發現為理解人類腦部疾病提供了新的視角。",
+      "en": "**Summary:** This groundbreaking research reveals a surprising discovery in the human cerebellum: the zona pellucida glycoprotein 2 (ZP2), previously thought to exist only in the reproductive system, is highly expressed in human granule cells. By comparing single-nucleus transcriptomic and chromatin accessibility profiles of the cerebellar cortex across humans, chimpanzees, macaques, and marmosets, researchers found this protein plays a crucial role in regulating synapse development in the human brain rather than just reproductive functions. This unexpected 'co-option' of ZP2 provides key insights into the evolutionary specialization of the human cerebellum, revealing unique mechanisms underlying human adaptability and cognitive abilities.\n\n**Problem:** Despite decades of research, the molecular basis for human-specific cerebellar features remained poorly understood. Previous studies primarily focused on the cerebral cortex while overlooking the cerebellum's critical role in human cognitive evolution. The cerebellum, traditionally associated with motor coordination, actually contributes significantly to higher cognitive functions and human adaptability. This knowledge gap prevented scientists from fully understanding how the human brain evolved its unique capabilities, particularly regarding the coordination of complex movements and advanced cognition that distinguish humans from other primates.\n\n**Approach:** The research team employed an innovative multi-species, multi-omics approach, analyzing single-nucleus transcriptomes and chromatin accessibility profiles from the cerebellar cortex of four primate species. They used advanced single-nucleus microfluidic capture and library preparation techniques, followed by sophisticated computational methods for clustering, cell type annotation, and cross-species integration. To validate their findings, researchers conducted in vitro experiments with human and macaque primary cerebellar cultures, organotypic cerebellar tissue slice cultures, and generated humanized ZP2 knock-in mice. Electrophysiological recordings further characterized the functional consequences of ZP2 expression on neuronal activity.\n\n**Results:** The study identified striking human-specific transcriptomic features in cerebellar granule cells, with ZP2 expression being particularly notable. Approximately 15% of human granule cells express ZP2, a pattern absent in other primates. Experimental data demonstrated that ZP2 expression in human granule cells is induced by pontine mossy fibers, which reduces synaptic proteins at pontocerebellar glomerular synapses and decreases neuronal electrophysiological activity. Furthermore, researchers found that ZP2 and its potential interactors are implicated in various brain disorders, including autism spectrum disorders, neurodevelopmental disorders, ataxia, Parkinson's disease, and schizophrenia. These findings establish a direct link between human cerebellar evolution and susceptibility to neurological and psychiatric conditions."
+    },
+    "keyArticle": {
+      "title": "Human-specific features of the cerebellum and ZP2-regulated synapse development",
+      "authors": [
+        "Suel-Kee Kim",
+        "Adriana Cherskov",
+        "Aastha Sindhwani",
+        "Sang-Hun Choi",
+        "Hyojin Kim",
+        "Mingli Li",
+        "Menglei Zhang",
+        "Xoel Mato-Blanco",
+        "Ying Liu",
+        "Nicola Micali",
+        "David M. Young",
+        "Mark Estación",
+        "Yueqi Zhang",
+        "Jose Manuel Ruiz-Jiménez",
+        "Anagha Nadkarni",
+        "Victor Luria",
+        "Suvimal Kumar Sindhu",
+        "Ipsita Chatterjee",
+        "Akemi Shibata",
+        "S. Li",
+        "Hyesun Cho",
+        "Saejeong Park",
+        "Ana Spajic",
+        "Rothem Kovner",
+        "Martina Glavan",
+        "Rachel J Chen",
+        "Ryan D. Risgaard",
+        "Xinyun Li",
+        "Sirisha Pochareddy",
+        "Amir Karger",
+        "Anita Huttner",
+        "Yury M. Morozov",
+        "Etienne W. Daadi",
+        "Carlo Colantuoni",
+        "Kevin T. Gobeske",
+        "John J. Ely",
+        "Patrick R. Hof",
+        "Marcel M. Daadi",
+        "Chet C. Sherwood",
+        "Alvaro Duque",
+        "Shaojie Ma",
+        "Andre M.M. Sousa",
+        "S. G. Waxman",
+        "Pasko Rakic",
+        "Gabriel Santpere",
+        "S. Sanders",
+        "Nenad Šestan"
+      ],
+      "doi": "10.1016/j.cell.2026.02.014",
+      "pages": "1802-1819.e28"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.014",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.014",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.09.08.674970"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-28T00:45:59.949868+00:00",
+    "source": "openalex"
+  }
+}

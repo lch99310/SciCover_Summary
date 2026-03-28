@@ -1,0 +1,51 @@
+{
+  "id": "science-2026-03-19",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6791",
+  "date": "2026-03-19",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腸道細菌「雙面刃」：大腸桿菌如何利用宿主硝酸鹽製造吲哚，加劇慢性腎病惡化",
+      "en": "The Gut's Double-Edged Sword: How E. coli Leverages Host Nitrate to Produce Indole and Worsen Chronic Kidney Disease"
+    },
+    "summary": {
+      "zh": "慢性腎病(CKD)患者腸道內常見大腸桿菌等腸桿菌科細菌過度增生，但這種生態變遷的驅動因素及其對疾病進展的影響長期以來一直是個謎。研究發現，在腺嘌呤誘導的CKD小鼠模型中，無法有效清除尿毒素吲哚硫酸鹽會導致黏膜內誘導型一氧化氮合酶(iNOS)基因表達增加，進而提升腸腔內硝酸鹽濃度。這些硝酸鹽成為大腸桿菌的「免費餐點」，通硝酸鹽呼吸促進其生長，形成一個惡性循環。\n\n更令人驚訝的是，研究團隊發現CKD患者的糞便微生物群在厭氧培養條件下，比健康對照組產生更多吲哚，但這種增加僅在硝酸鹽存在時才會發生。這意味著硝酸鹽不僅促進大腸桿菌繁殖，還能「激發」其產生更多吲哚，進而在肝臟轉化為有害的吲哚硫酸鹽，形成一個加速腎臟損傷的惡性循環。研究進一步證實，抑制iNOS能有效緩解這一病理過程，為慢性腎病的治療提供了新的潛在靶點。",
+      "en": "Chronic kidney disease (CKD) is consistently associated with an elevated abundance of Enterobacteriaceae in the gut, yet the ecological drivers of this dysbiosis and its impact on disease progression have remained elusive. New research reveals a fascinating mechanistic link: in mice with adenine-induced CKD, impaired clearance of the uremic toxin indoxyl sulfate triggers increased mucosal expression of inducible nitric oxide synthase (iNOS), resulting in elevated luminal nitrate levels. These nitrates then serve as a respiratory substrate for Escherichia coli, promoting its proliferation and creating a dangerous feedback loop.\n\nThe study further demonstrates that fecal microbiota from CKD patients produces significantly more indole than that of healthy controls during anaerobic culture, but crucially, only in the presence of nitrate. This finding uncovers a remarkable symbiotic relationship where nitrate not only fuels E. coli growth but also enhances its indole production capacity. The resulting indole is then converted to indoxyl sulfate in the liver, exacerbating renal pathology. Importantly, this pathological cascade can be effectively interrupted by iNOS inhibition, suggesting a promising therapeutic strategy for mitigating kidney damage in CKD patients."
+    },
+    "keyArticle": {
+      "title": "Host-derived nitrate fuels indole production by <i>Escherichia coli</i> to drive chronic kidney disease progression",
+      "authors": [
+        "Jee-Yon Lee",
+        "Scott P. Mahan",
+        "Thaynara de Carvalho",
+        "H.K. Nguyen",
+        "Chonikarn Singai",
+        "Lizbeth Camacho",
+        "Mert Tekeli",
+        "Yu‐Jin Kwon",
+        "Jiwon Lee",
+        "R. Brito Santos",
+        "Renée M. Tsolis",
+        "Sebastian Winter",
+        "Andreas J. Bäumler"
+      ],
+      "doi": "10.1126/science.ady5217",
+      "pages": "1250-1255"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady5217",
+      "doi": "https://doi.org/10.1126/science.ady5217"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-28T00:39:32.979141+00:00",
+    "source": "openalex"
+  }
+}

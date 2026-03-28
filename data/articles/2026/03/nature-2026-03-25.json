@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-03-25",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8107",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI 科學家橫空出世：第一份透過同行評審、完全由 AI 生成的論文是怎麼寫成的？",
+      "en": "The First AI-Generated Paper to Pass Peer Review: How an Autonomous Scientist Wrote, Tested, and Submitted Itself"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究，首次實現了 AI 自主完成科學研究的全流程——從構想題目、撰寫代碼、執行實驗、分析數據、繪製圖表，到撰寫整篇論文並進行同行評審。作者開發的「AI 科學家」系統，在機器學習領域的 ICLR 工作坊中成功讓一篇論文通過同行評審（平均分 6.33，高於接受門檻），這標誌著 AI 不再只是實驗工具，而能成為真正的研究主體。其核心在於整合多個先進大模型，並設計出「代理樹搜索」與自動化評審機制，使 AI 能像人類研究者一樣迭代試錯、自我修正。這不僅是技術里程碑，更預示著科學研究方式的范式轉向：未來可能在 AI 協助下，實現研究週期的指數級加速。\n\n【研究問題】長久以來，科學界渴望讓 AI 自動化整個科研流程，但過往工作僅能完成單一環節（如 AlphaFold 解蛋白結構、AI 發現新材料等），缺乏能貫穿「構想→執行→寫作→評審」全生命週期的系統。這項缺口的關鍵難度在於：科學研究本質是開放性探索，而非封閉任務；它要求系統具備長期規劃、錯誤診斷、跨模態整合（代碼、圖表、文字）與學術判斷力。解決此問題，不僅能大幅縮短科研週期，更能應對當前科學文獻爆炸式增長下的「認知過載」，讓人類科學家聚焦於更高階的創意與倫理決策。\n\n【研究方法】作者設計了兩種模式：1）模板式（template-based）：以現有代碼為起點，AI 像博士生般迭代提出新構想，透過 Semantic Scholar API 查重後，用 Aider 工具修改代碼、自動除錯、執行實驗，並用生成的實驗筆記撰寫論文；2）無模板式（template-free）：更進階，AI 從零構思，並引入「代理樹搜索」——將實驗拆為四階段（可行性測試→超參調優→核心研究→消融實驗），每階段並行探索多條實驗路徑，由大模型動態評估節點優劣，優化路徑被選入下一階段。系統還整合視覺語言模型（VLM）審視圖表品質，並建立「自動評審員」（Automated Reviewer）：以五個獨立評審的共識模擬 NeurIPS 規格，準確率與人類評審員相当。\n\n【結果】在 ICLR 2025 一篇聚焦「負面結果」的工作坊中，一篇 AI 生成論文以平均分 6.33（6/7/6）通過評審，被工作坊 organizers 確認「若非 AI 生成，必然錄取」。該論文探討深度學習的局限性，報告了令人意外的負面發現，符合工作坊定位。研究還發現：AI 論文品質與模型能力、計算資源呈強正相關（圖 1b、3c），顯示其具備高速自我迭代潛力。然而系統仍有缺陷：三次提交僅一通過，常見失敗包括構想膚淺、代碼錯誤、圖表重複、引用失實等「幻覺」問題。作者強調，此系統目前僅適用於計算實驗（如 ML），且已透過 IRB 審查並承諾「評審後自動撤稿」，避免對學術生態造成衝擊，為未來建立 AI 研究倫理規範提供關鍵起點。",
+      "en": "**Summary:** This Nature paper marks a watershed moment: for the first time, an AI system—dubbed *The AI Scientist*—has autonomously completed an entire scientific research cycle, from idea generation to peer-reviewed publication. Leveraging state-of-the-art foundation models within an agentic framework, it creates hypotheses, writes and debugs code, runs experiments, generates figures, drafts a full manuscript, and undergoes automated peer review. Crucially, one of its ICLR 2025 workshop submissions received an average score of 6.33 (6, 7, 6), exceeding the workshop’s acceptance threshold—making it the first fully AI-authored paper to pass human-led blind peer review. This achievement signals AI’s transition from tool to co-researcher, with profound implications: while current limitations persist (e.g., inconsistency, hallucinations), the system’s strong scaling with compute and model quality suggests rapid future gains, potentially accelerating discovery across fields where experiments can be automated.\n\n**Problem:** Despite decades of progress in automating *parts* of science—such as protein folding (AlphaFold) or materials discovery—the dream of an end-to-end AI that independently navigates the *entire* research life cycle (hypothesize → experiment → write → review) remained unrealized. The gap lies in the *open-endedness* of science: unlike narrow tasks, full research demands long-horizon planning, iterative refinement, error correction, multimodal reasoning (code ↔ figures ↔ text), and contextual judgment. Solving this isn’t merely about efficiency; as scientific output swells, AI could help manage complexity, freeing human researchers to focus on high-level strategy, ethics, and interpretation—assuming such systems are deployed responsibly.\n\n**Approach:** The authors deploy two modes of *The AI Scientist*. In *template-based* mode, the system starts from a human-provided codebase (e.g., a transformer training script), then iteratively proposes hypotheses, checks novelty via Semantic Scholar, executes planned experiments using the Aider coding assistant, handles runtime errors with automated debugging, and writes a paper using its experimental journal. In the more ambitious *template-free* mode, it begins from scratch, orchestrating a *parallelized agentic tree search* across four experimental phases: baseline validation, hyperparameter tuning, main experiments, and ablation studies. Nodes (experiments) are evaluated and pruned by LLMs, with promising branches expanded in parallel—akin to a research lab organizing multiple junior scientists simultaneously. Critically, a *Vision-Language Model* (GPT-4o) reviews figures for clarity and accuracy, while *The Automated Reviewer* (an ensemble of five reviews + meta-review) simulates NeurIPS-style peer review, achieving human-parity performance.\n\n**Results:** In a controlled experiment at the ICLR 2025 ICBINB workshop (70% acceptance rate), one AI-generated paper on deep learning limitations—reporting a surprising *negative result*—received reviewer scores of 6, 7, and 6, placing it above the acceptance average. Workshop organizers confirmed it would have been accepted had it not been withdrawn due to its AI authorship. Scaling experiments (Fig. 1b, 3c) show paper quality rises significantly with both model capability and inference-time compute, underscoring strong growth potential. Yet challenges remain: only 1 of 3 submissions was accepted, and common failures include naive ideas, implementation bugs, figure duplication, and citation hallucinations. The authors responsibly withdrew all submissions post-review and obtained IRB approval, advocating for community-wide norms before broader deployment—ensuring this breakthrough advances, rather than undermines, scientific integrity."
+    },
+    "keyArticle": {
+      "title": "Towards end-to-end automation of AI research",
+      "authors": [
+        "Chris Lu",
+        "Cong Lu",
+        "R. T. Lange",
+        "Yutaro Yamada",
+        "Shengran Hu",
+        "Jakob Foerster",
+        "David Ha",
+        "Jeff Clune"
+      ],
+      "doi": "10.1038/s41586-026-10265-5",
+      "pages": "914-919"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10265-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10265-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-28T00:40:37.423019+00:00",
+    "source": "openalex"
+  }
+}

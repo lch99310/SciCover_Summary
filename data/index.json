@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-27T13:51:17.084435+00:00",
+  "lastUpdated": "2026-03-28T00:53:39.049887+00:00",
   "articles": [
+    {
+      "id": "nature-2026-03-25",
+      "journal": "Nature",
+      "date": "2026-03-25",
+      "path": "articles/2026/03/nature-2026-03-25.json",
+      "title_zh": "AI 科學家橫空出世：第一份透過同行評審、完全由 AI 生成的論文是怎麼寫成的？",
+      "title_en": "The First AI-Generated Paper to Pass Peer Review: How an Autonomous Scientist Wrote, Tested, and Submitted Itself",
+      "cover_url": "data/images/nature/nature-2026-03-25-cover.jpg"
+    },
     {
       "id": "political-geography-2026-03-24",
       "journal": "Political Geography",
@@ -9,6 +18,24 @@
       "title_zh": "鋰之之路：玻利維亞高原的能源轉型與政治實踐",
       "title_en": "The Lithium Road: Political Practices Fueling Extractive Infrastructures in Bolivia's Altiplano",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-03-19",
+      "journal": "Science",
+      "date": "2026-03-19",
+      "path": "articles/2026/03/science-2026-03-19.json",
+      "title_zh": "腸道細菌「雙面刃」：大腸桿菌如何利用宿主硝酸鹽製造吲哚，加劇慢性腎病惡化",
+      "title_en": "The Gut's Double-Edged Sword: How E. coli Leverages Host Nitrate to Produce Indole and Worsen Chronic Kidney Disease",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-03-18",
+      "journal": "Political Geography",
+      "date": "2026-03-18",
+      "path": "articles/2026/03/political-geography-2026-03-18.json",
+      "title_zh": "火災是災難，還是國家的工具？印度喜馬拉雅山區的森林火災如何重塑國家權力",
+      "title_en": "Are Forest Fires a Disaster—or a Tool of the State? How Himalayan Wildfires Rewire Power in India",
+      "cover_url": "data/images/political-geography/political-geography-2026-03-18-cover.jpg"
     },
     {
       "id": "nature-2026-03-11",
@@ -63,6 +90,15 @@
       "title_zh": "光導演化：動態、多狀態與計算蛋白功能的突破",
       "title_en": "Light-Directed Evolution of Dynamic, Multi-State, and Computational Protein Functions",
       "cover_url": "data/images/cell/cell-2026-03-01-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-03-01-03",
+      "journal": "Cell",
+      "date": "2026-03-01",
+      "path": "articles/2026/03/cell-2026-03-01-03.json",
+      "title_zh": "人類小腦的獨特秘密：生殖蛋白ZP2如何重塑我們的腦部連接",
+      "title_en": "The Hidden Evolution of Human Cerebellum: How a Reproductive Protein Rewires Brain Connections",
+      "cover_url": "data/images/cell/cell-2026-03-01-03-cover.jpg"
     },
     {
       "id": "cell-2026-03-01",
@@ -576,6 +612,15 @@
       "title_zh": "EBV病毒暗藏殺手鐧！科學家揭開「分子模仿」致多發性硬化症的驚人機制",
       "title_en": "EBV's Hidden Hand in Multiple Sclerosis: How a Viral Mimicry Unleashes Autoimmune Attacks",
       "cover_url": "data/images/cell/cell-2026-01-01-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-02",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-02.json",
+      "title_zh": "轉交毀滅權力：自動化核系統如何威脅國際安全",
+      "title_en": "Delegating Destruction: How Automated Nuclear Systems Could Change Coercive Threats",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01-02",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "轉交毀滅權力：自動化核系統如何威脅國際安全",
+      "en": "Delegating Destruction: How Automated Nuclear Systems Could Change Coercive Threats"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇研究突破性地探討了自動化核武器系統如何影響核威脅的可信度。研究發現，相比傳統由人類控制的核威脅，自動化核武器系統能顯著提升威脅的可信度與有效性，讓國領導人能更有效地「束縛自己的雙手」，在國際危機中增強談判籌碼。這項發現不僅挑戰了傳統核威懾理論，更揭示了AI軍事應用中一個令人擔憂的趨勢：國家可能為提升威脅可信度而採用自動化核系統，儘管這將極大增加核戰風險。\n\n【研究問題】\n文章探討的核心問題是：自動化核武器系統是否能增強核威脅的可信度與有效性？過去學術界對核武器在威懾之外的強迫性用途存在爭議，部分學者認為核威脅難以令人信服，特別是用於進攻性目標時。同時，關於AI自動化系統如何影響核戰略穩定性的辯論主要聚焦於防禮性情境，對其在進攻性強迫行動中的作用研究不足。這個問題至關重要，因為它關係到未來國際安全架構的穩定性，以及AI軍事應用的倫理與戰略後果。\n\n【研究方法】\n研究團隊設計了三項預先註冊的實驗來檢驗假設：前兩項針對800名及1060名英國公民，第三項則針對117名英國國會議員。實驗情境設定在2030年，描繪俄羅斯入侵愛沙尼亞並發動核威脅的場景。受試者被隨機分組，分別接觸「非自動化核威脅」或「自動化核威脅」兩種情境描述。研究測量了威脅可信度（受訪者認為俄羅斯使用核武的可能性）、威脅有效性（受訪者是否願意違反俄羅斯紅線）以及相關政策偏好。這種實驗設計能有效控制變量，精確比較自動化與非自動化核威脅的差異。\n\n【結果】\n研究結果顯示，自動化核威脅顯著提升了威脅可信度：在公民樣本中，自動化威脅情境下受訪者認為俄羅斯使用核武的可能性比非自動化情境高出12.3個百分點（p < .001）。同時，自動化威脅也更為有效：在自動化情境下，有20%的受訪者「強烈反對」違反俄羅斯紅線，而在非自動化情境下只有10.9%的受訪者持此立場。然而，研究也發現，自動化威脅增加了人們對核事故的擔憂，認為意外使用核武的可能性增加了13個百分點。這些結果意味著，儘管自動化核系統可能被用於提升威脅效力，但也可能導致意外風險增加，對國際安全構成新的挑戰。",
+      "en": "**Summary:**\nThis research makes a groundbreaking contribution by examining how automated nuclear weapons systems could enhance the credibility of nuclear threats. The study finds that nuclear threats implemented through automated launch systems are perceived as significantly more credible and effective than those controlled by humans. By delegating authority to machines, leaders can more effectively \"tie their hands\" in crisis situations, enhancing their coercive leverage. This discovery challenges traditional nuclear deterrence theory and reveals a concerning trend in AI military applications: states may adopt automated nuclear systems to increase threat credibility, despite the substantial increase in nuclear war risks.\n\n**Problem:**\nThe article addresses the specific question of whether automated nuclear systems can enhance the credibility and effectiveness of nuclear threats. Previous scholarship has debated whether nuclear weapons are useful for coercion beyond defensive deterrence, with skeptics arguing that nuclear threats lack credibility, especially for offensive objectives. Meanwhile, debates about automation's impact on strategic stability have primarily focused on defensive scenarios, with insufficient research on how automation could enable aggressive revisionist policies. This is a crucial problem because it relates to the future of international security architecture and the ethical implications of AI in military applications.\n\n**Approach:**\nThe researchers designed three preregistered experiments targeting different populations: two with 800 and 1,060 UK citizens respectively, and a third with 117 UK Members of Parliament. The experimental scenario set in 2030 depicted a Russian invasion of Estonia, with Russia making nuclear threats either through non-automated or automated systems. Participants were randomly assigned to one of the two conditions. The study measured threat credibility (perceived likelihood of nuclear use), effectiveness (willingness to violate the red line), and related policy preferences. This experimental design effectively controlled variables, allowing for precise comparison between automated and non-automated nuclear threats.\n\n**Results:**\nKey findings reveal that automated nuclear threats significantly increased perceived credibility: in the citizen samples, the probability of nuclear use was estimated to be 12.3 percentage points higher under automated threats than non-automated ones (p < .001). Automated threats also proved more effective: 20% of respondents \"strongly opposed\" violating Russia's red line in the automated condition, compared to only 10.9% in the non-automated condition. However, the study also found that automated threats increased concerns about accidents, with perceived likelihood of accidental nuclear use rising by 13 percentage points. These results suggest that while automated nuclear systems may enhance threat effectiveness, they also introduce new risks of unintended escalation, presenting significant challenges for international security."
+    },
+    "keyArticle": {
+      "title": "Delegating Destruction: Coercive Threats and Automated Nuclear Systems",
+      "authors": [
+        "Joshua A. Schwartz",
+        "Michael C. Horowitz"
+      ],
+      "doi": "10.1017/s0020818325101215",
+      "pages": "179-204"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101215",
+      "doi": "https://doi.org/10.1017/s0020818325101215"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-28T00:53:34.173879+00:00",
+    "source": "openalex"
+  }
+}
