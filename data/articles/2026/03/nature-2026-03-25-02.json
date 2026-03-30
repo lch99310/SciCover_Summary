@@ -1,0 +1,50 @@
+{
+  "id": "nature-2026-03-25-02",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8107",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-25-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "碳排放的代價：研究量化氣候損失與損害的突破性框架",
+      "en": "The Price of Carbon: A Breakthrough Framework for Quantifying Climate Loss and Damage"
+    },
+    "summary": {
+      "zh": "【總結】這項研究開創性地提出了一個量化氣候損失與損害（L&D）的框架，將溫室氣體排放與其經濟損害直接連結。研究發現，歷史排放造成的未來損害遠超過已經發生的損害，每噸二氧化碳的社會成本高達1,013美元。這個框架不僅科學上嚴謹，更為氣候責任歸屬和補償機制提供了依據，為全球氣候正義提供了新視角。【研究問題】儘管科學界早已確認人類活動導致的氣候變化正在造成損害，但如何將具體排放與其全球和局部損害量化連結，一直是一個重大挑戰。過去研究無法精確計算排放者應承擔的損害責任，也缺乏統一的損害計算標準。這一問題的解決對於氣候變遷賠償機制和氣候訴訟至關重要。【研究方法】研究團隊創新性地結合四個關鍵要素：全球排放清單、FaIR氣候模型、CMIP6全球氣候模型，以及溫度變化與經濟增長關聯的統計模型。他們將損害分解為歷史損害（HD-CO2）、未來損害（FD-CO2）和社會碳成本（SC-CO2）三個部分，並考慮了折現率和時間跨度的影響。框架還納入了溫度對經濟增長的滯後效應，使計算更符合現實情況。【結果】研究揭示了令人震驚的數據：在2%折現率下，1990年排放的每十億噸二氧化碳到2020年已造成每噸184美元的損害，而預計在2021-2100年間將造成每噸1,840美元的損害，相差十倍。美國1990-2020年的排放導致全球損失10.2萬億美元，其中30%發生在美國本身。研究還計算了個人行為的氣候成本，例如十年內每年多搭乘一次長途航班將導致未來損失高達2.5萬美元。這些具體數據首次將抽象的氣候損害轉化為可量化的經濟責任。",
+      "en": "**Summary:** This study introduces a groundbreaking framework for quantifying climate loss and damage (L&D), directly linking greenhouse gas emissions to their economic consequences. The research reveals that future damages from historical emissions vastly exceed those already incurred, with a social cost of carbon reaching $1,013 per ton under conservative assumptions. This scientifically rigorous framework not only advances our understanding but also provides crucial basis for climate liability and compensation mechanisms, offering new perspectives on global climate justice. **Problem:** While science has long established that human-caused climate change is causing damage, precisely quantifying how specific emissions translate to global and local impacts has remained a significant challenge. Previous research couldn't determine the liability emitters should bear, nor provide a standardized method for calculating damages. Solving this problem is essential for climate compensation mechanisms and litigation. **Approach:** The research team innovatively combines four key components: global emission inventories, the FaIR climate model, CMIP6 global climate models, and statistical models relating temperature changes to economic growth. They decompose damages into historical damages (HD-CO2), future damages (FD-CO2), and social cost of carbon (SC-CO2), accounting for discount rates and time horizons. The framework incorporates lagged effects of temperature on economic growth, making calculations more realistic. **Results:** The study reveals stunning data: at a 2% discount rate, each billion tons of CO2 emitted in 1990 caused $184 per ton in damages by 2020, with projected damages of $1,840 per ton from 2021-2100—a tenfold difference. US emissions from 1990-2020 resulted in $10.2 trillion in global damages, with 30% occurring in the US itself. The research also calculated climate costs of individual behaviors, such as one additional long-haul flight annually over a decade leading to $25,000 in future damages. These concrete figures translate abstract climate harms into quantifiable economic responsibility."
+    },
+    "keyArticle": {
+      "title": "Quantifying climate loss and damage consistent with a social cost of carbon",
+      "authors": [
+        "Marshall Burke",
+        "Mustafa Zahid",
+        "Noah S. Diffenbaugh",
+        "Solomon Hsiang"
+      ],
+      "doi": "10.1038/s41586-026-10272-6",
+      "pages": "959-966"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-25-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10272-6",
+      "doi": "https://doi.org/10.1038/s41586-026-10272-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-30T12:24:35.517299+00:00",
+    "source": "openalex"
+  }
+}

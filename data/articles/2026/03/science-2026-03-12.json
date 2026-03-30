@@ -1,0 +1,55 @@
+{
+  "id": "science-2026-03-12",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6790",
+  "date": "2026-03-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-03-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "渡鴉的預知能力：黃石公園的智慧掠食者",
+      "en": "Raven's Foreknowledge: The Intelligent Foragers of Yellowstone"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭示了渡鴉尋找食物的智慧策略，挑戰了傳統認知。研究發現，渡鴉並非簡單地跟隨狼群，而是憑藉卓越的空間記憶能力，主動預測並返回狼群的狩獵地點，即使從高達155公里的距離外。這發現不僅改寫了我們對食腐動物行為的理解，還揭示了動物認知能力的複雜性，為生態學和動物行為學研究開闢了新視角。\n\n【研究問題】\n傳上學界長期認為，食腐動物（如渡鴉）主要是透過直接跟隨大型掠食者來尋找食物。然而，這個假說缺乏大規模的實證支持。本研究旨在解答：渡鴉究竟如何找到狼群的獵物？是靠即時跟隨，還是憑藉記憶預測？解決這個問題至關重要，因為它關係到我們如何理解動物在動態環境中的適應策略，特別是對於資源分布不均且不可預測的情況。\n\n【研究方法】\n研究團隊在黃石國家公園進行了為期2.5年的大規模追蹤研究，為69隻渡鴉、20匹狼和11隻美洲獅裝上GPS追蹤器，收集了超過68萬個位置數據。同時，記錄了355處狼獵殺地和137處美洲獅獵殺地的位置和時間。研究人員將渡鴉分為領土型與漂泊型，分析它們與掠食者的共現頻率、跟隨行為，以及返回先前成功獵物地點的模式。這種多物種追蹤方法為研究食腐動物的覓食策略提供了前所未有的數據基礎。\n\n【結果】\n研究發現，渡鴉極少長距離跟隨狼群（2.5年僅記錄到1例），但它們會主動返回狼群經常獵殺的地點，從高達327公里外返回。48.5%的狼獵殺地被GPS標記的渡鴉利用，遠高於美洲獅獵殺地的24.8%。研究證實，渡鴉會記憶並學習狼群獵殺的高密度區域，並以與前往人類垃圾場同樣精確的方向性飛行前往這些區域。這些發現表明，渡鴉擁有類似人類認知地圖的空間記憶系統，能夠預測資源豐富區域的位置，挑戰了傳統認為食腐動物僅依賴即時線索的觀點。",
+      "en": "**Summary:**\nThis research reveals the sophisticated foraging strategy of ravens, challenging long-held assumptions. Scientists discovered that ravens don't simply follow wolves but instead use spatial memory to anticipate and return to frequent wolf kill sites from distances up to 155 km away. This finding fundamentally changes our understanding of scavenger behavior and highlights the remarkable cognitive abilities of these birds. The study demonstrates that ravens maintain a mental map of resource landscapes, navigating with precision comparable to their movements toward predictable anthropogenic food sources, suggesting an advanced level of spatial cognition previously undocumented in scavengers.\n\n**Problem:**\nThe scientific community has long assumed that scavengers like ravens locate food primarily by directly following large carnivores. However, this hypothesis lacked robust empirical validation. This research addresses a critical gap: How exactly do ravens find wolf kills? Do they rely on real-time following or memory-based prediction? Solving this question is essential for understanding animal adaptation strategies in dynamic environments with unpredictable resource distribution, with implications for broader ecological theories about foraging efficiency and spatial memory.\n\n**Approach:**\nOver 2.5 years, researchers conducted an extensive tracking study in Yellowstone National Park, attaching GPS devices to 69 ravens, 20 wolves, and 11 cougars, collecting over 680,000 location data points. They systematically recorded 355 wolf kill sites and 137 cougar kill locations. The team categorized ravens as territorial or vagrant and analyzed their co-occurrence frequencies with predators, following behaviors, and patterns of returning to previously successful foraging sites. This multispecies tracking approach provided unprecedented data to evaluate competing hypotheses about scavenger foraging strategies.\n\n**Results:**\nThe study found that ravens rarely followed wolves over long distances (only one such instance recorded in 2.5 years), but they systematically returned to areas with high wolf kill density from up to 327 km away. Notably, 48.5% of wolf kills were exploited by tagged ravens within the first week, significantly higher than the 24.8% utilization rate for cougar kills. Crucially, ravens showed directional movements toward wolf kill sites comparable to their precise navigation toward predictable anthropogenic food sources, with territorial ravens navigating more directly than vagrant individuals. These findings indicate that ravens possess a sophisticated cognitive map system allowing them to predict resource-rich areas, fundamentally challenging the traditional view that scavengers rely solely on real-time cues."
+    },
+    "keyArticle": {
+      "title": "Ravens anticipate wolf kill sites across broad scales",
+      "authors": [
+        "Matthias-Claudio Loretto",
+        "Kristina B. Beck",
+        "Douglas W. Smith",
+        "Daniel R. Stahler",
+        "Lauren E. Walker",
+        "M. Wikelski",
+        "Thomas Mueller",
+        "Kamran Safi",
+        "John M. Marzluff"
+      ],
+      "doi": "10.1126/science.adz9467",
+      "pages": "1151-1154"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-03-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz9467",
+      "doi": "https://doi.org/10.1126/science.adz9467"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-30T12:21:32.657182+00:00",
+    "source": "openalex"
+  }
+}

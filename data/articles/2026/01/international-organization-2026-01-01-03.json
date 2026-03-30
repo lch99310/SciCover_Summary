@@ -1,0 +1,40 @@
+{
+  "id": "international-organization-2026-01-01-03",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "威權金融機構：維持專制政權穩定的隱形助手",
+      "en": "Authoritarian Financial Institutions: The Hidden Hands Supporting Autocratic Regimes"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究揭示了威權國家主導的國際金融機構（IFI）並非中立經濟行為者，而是會在威權政權面臨生存威脅時提供財政支持。研究創新性地建立了一個涵蓋18個威權IFI在143個受援國1967年至2021年的數據集，發現當威權政權面臨內部衝突或外部民主推廣壓力時，來自威權IFI的援助流量會顯著增加。這項發現挑戰了國際組織必然推廣自由主義價值觀的傳統觀點，揭示了全球發展援助中的政治算計。\n\n【研究問題】過去的研究多關注民主國家主導的IFI，對威權國家主導的IFI缺乏系統性了解。本文探討的核心問題是：威權IFI的援助分配有何政治目的？為什麼威權政權面臨威脅時會特別獲得威權IFI的支持？這個問題至關重要，因為隨著威權國際組織數量增加，它們正重塑全球發展援助格局，影響著威權政權的穩定與全球權力平衡。\n\n【研究方法】作者創新性地收集並分析了18個威權IFI的貸款數據，涵蓋1967至2021年期間143個受援國。研究運用時間序列橫截面模型，採用IFI和地區-年度固定效應，檢測威權政權面臨的內部（反政府衝突）和外部（民主推廣援助）威脅如何影響威權IFI的援助決策。研究還進行了多種穩健性檢驗，包括使用替代變量樣本選擇、依賴變量操作化和估計方法，確保結果的可靠性。\n\n【結果】研究發現：威權政權面臨的反政府衝突每增加一個標準差，來自威權IFI的援助增加42.3%；威權政權接收的民主推廣援助每增加一個標準差，威權IFI的承諾援助增加一倍。例如，埃及在2022-2023年面臨經濟危機和抗議活動時，阿拉伯貨幣基金提供了6.158億美元援助，而沒有附加政治條件。相較之下，民主IFI在威權政權面臨衝突時並未顯著增加援助，表明兩者戰略邏輯根本不同。這些結果顯示，威權IFI已成為維護威權政權穩定的重要工具，重塑了全球發展援助的政治動力。",
+      "en": "**Summary:** This research reveals that international financial institutions (IFIs) dominated by authoritarian regimes are not neutral economic actors but provide financial support specifically to authoritarian governments facing acute threats to their survival. The authors innovatively created a comprehensive dataset tracking lending by 18 autocratic IFIs across 143 recipient countries from 1967-2021. Their findings demonstrate that aid flows from autocratic IFIs increase significantly when authoritarian regimes face domestic conflicts or external democracy promotion pressures. This discovery challenges the traditional view that international organizations inherently promote liberal values, exposing the political calculus behind global development aid.\n\n**Problem:** Previous research focused primarily on IFIs dominated by democratic states, with limited systematic understanding of autocratically-led IFIs. The core question this study addresses is: What are the political objectives of autocratic IFIs' aid allocation? Why do authoritarian regimes facing threats receive particular support from autocratic IFIs? This question is crucial because as autocratic international organizations proliferate, they are reshaping the landscape of global development assistance, impacting authoritarian regime stability and the global balance of power.\n\n**Approach:** The authors innovatively collected and analyzed lending data from 18 autocratic IFIs across 143 recipient countries from 1967 to 2021. They employed time-series cross-sectional models with IFI and region-year fixed effects to examine how domestic (anti-government conflict) and external (democracy promotion aid) threats to authoritarian regimes influence autocratic IFIs' aid decisions. The research also conducted multiple robustness checks, including alternative variables, sample selections, dependent variable operationalizations, and estimation methods to ensure the reliability of their findings.\n\n**Results:** The study found that for every one standard deviation increase in anti-government conflict, aid from autocratic IFIs increases by 42.3%; for every one standard deviation increase in democracy promotion aid received by authoritarian regimes, autocratic IFI commitments double. For example, when Egypt faced economic crises and protests in 2022-2023, the Arab Monetary Fund provided $615.8 million in aid without political conditions. In contrast, democratic IFIs did not significantly increase aid to authoritarian regimes facing conflict, indicating fundamentally different strategic logics. These results demonstrate that autocratic IFIs have become crucial tools for maintaining authoritarian regime stability, reshaping the political dynamics of global development assistance."
+    },
+    "keyArticle": {
+      "title": "International Financial Institutions and the Promotion of Autocratic Resilience",
+      "authors": [
+        "Christina Cottiero",
+        "Christina J. Schneider"
+      ],
+      "doi": "10.1017/s0020818325101276",
+      "pages": "38-75"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101276",
+      "doi": "https://doi.org/10.1017/s0020818325101276"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-30T12:38:10.858532+00:00",
+    "source": "openalex"
+  }
+}

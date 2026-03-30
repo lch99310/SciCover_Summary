@@ -1,0 +1,76 @@
+{
+  "id": "cell-2026-02-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "6",
+  "date": "2026-02-04",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解神經疼痛之謎：人體皮膚「沉睡」痛覺感受器的分子密碼",
+      "en": "Decoding Neuropathic Pain: Molecular Architecture of Human Sleeping Nociceptors"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊成功識別出人體皮膚中「沉睡」痛覺感受器（機械不敏感C纖維，CMis）的分子標記，為神經病理性疼痛的治療開闢新途徑。這些感受器影響全球10%的人口，但過去因缺乏特定分子標記而難以靶向治療。研究確定白介素M受體（OSMR）和生長抑素（SST）是CMis的關鍵標記基因，並證明白介素M能選擇性調節這些神經元。\n\n【研究問題】神經病理性疼痛影響全球10%人口，與皮膚中「沉睡」痛覺感受器的活動增加有關。儘管在鼠類模型中取得進展，但人類皮膚中這些機械不敏感C纖維的分子標記一直未被識別，阻礙了靶向治療的發展。鼠類皮膚缺乏與人類同源的這類神經元，現有模型難以推導出與人類相關的分子標記或新藥物靶點。\n\n【研究方法】研究採用Patch-seq方法，將單細胞轉錄組學與電生理特徵分析相結合，結合豬的單細胞核和空間轉錄組學數據，並與跨物種和人類轉錄組數據整合。研究人員使用從人類微神經圖法改進的協議，通過膜片鉗記在豬感覺神經元中功能性識別了CMis。在健康人類志愿者中進行皮內注射，驗證了白介素M對CMis的選擇性調節作用。\n\n【結果】研究確定了白介素M受體（OSMR）和生長抑素（SST）作為CMis的標記基因。在健康人類志愿者中，作為OSMR配體的白介素M僅調節CMis纖維。這些發現特徵描述了人體皮膚沉睡痛覺感受器的分子結構，為神經病理性疼痛的機制洞察和潛在治療策略提供了框架。研究表明，跨物種轉錄組保守但功能存在差異，為靶向治療提供了分子基礎。",
+      "en": "**Summary:** Researchers have successfully identified molecular markers for \"sleeping\" nociceptors (mechano-insensitive C-fibers, CMis) in human skin, opening new avenues for treating neuropathic pain that affects 10% of the global population. These receptors, previously difficult to target due to lack of specific markers, have oncostatin M receptor (OSMR) and somatostatin (SST) as key identifiers. The team demonstrated that oncostatin M selectively modulates these neurons in human skin, providing the first clear molecular signature for these elusive cells.\n\n**Problem:** Neuropathic pain affects 10% of the population and correlates with increased activity of \"sleeping\" nociceptors in the skin. Despite advances in rodent models, molecular markers for these mechano-insensitive C-fibers in human skin have remained elusive, preventing targeted therapy development. Crucially, mice lack homologous neurons in their skin, and existing rodent models differ significantly from human physiology, limiting their translational relevance for this specific research question.\n\n**Approach:** The researchers employed a Patch-seq approach, combining single-cell transcriptomics with electrophysiological characterization, integrated with single-nucleus and spatial transcriptomics from pigs. They adapted protocols from human microneurography to functionally identify CMis in pig sensory neurons using patch clamp recordings. The team then cross-referenced these findings with human transcriptomic data and conducted in vivo experiments in human volunteers to validate the selective modulation of CMis by oncostatin M.\n\n**Results:** The study identified oncostatin M receptor (OSMR) and somatostatin (SST) as marker genes for CMis. In experiments with healthy human volunteers, oncostatin M—the ligand for OSMR—exclusively modulated CMis fibers. These findings characterize the molecular architecture of human dermal sleeping nociceptors, providing a framework for mechanistic insight into neuropathic pain and potential therapeutic strategies. The research demonstrates a conserved transcriptome with divergent functions across species, offering a precise molecular target for future treatments."
+    },
+    "keyArticle": {
+      "title": "Molecular architecture of human dermal sleeping nociceptors",
+      "authors": [
+        "Jannis Körner",
+        "Derek Howard",
+        "Hans Jürgen Solinski",
+        "Marisol Mancilla Moreno",
+        "Natja Haag",
+        "Andrea Fiebig",
+        "Anna Maxion",
+        "Shamsuddin A. Bhuiyan",
+        "Idil Toklucu",
+        "Raya Bott",
+        "Ishwarya Sankaranarayanan",
+        "Diana Tavares-Ferreira",
+        "Stephanie Shiers",
+        "Nikhil N. Inturi",
+        "Esther Eberhardt",
+        "Lisa Ernst",
+        "Lorenzo Bonaguro",
+        "Jonas Schulte-Schrepping",
+        "Marc D. Beyer",
+        "Thomas Stiehl",
+        "William Renthal",
+        "Ingo Kurth",
+        "Jenny Tigerholm",
+        "Serra Jordi",
+        "Theodore J. Price",
+        "Martin Schmelz",
+        "Barbara Namer",
+        "Shreejoy J. Tripathy",
+        "Angelika Lampert"
+      ],
+      "doi": "10.1016/j.cell.2025.12.048",
+      "pages": "1820-1835.e22"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.048",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.048",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.20.629638"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-30T12:29:08.657093+00:00",
+    "source": "openalex"
+  }
+}

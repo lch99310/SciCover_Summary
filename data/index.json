@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-28T00:53:39.049887+00:00",
+  "lastUpdated": "2026-03-30T12:38:40.909698+00:00",
   "articles": [
+    {
+      "id": "nature-2026-03-25-02",
+      "journal": "Nature",
+      "date": "2026-03-25",
+      "path": "articles/2026/03/nature-2026-03-25-02.json",
+      "title_zh": "碳排放的代價：研究量化氣候損失與損害的突破性框架",
+      "title_en": "The Price of Carbon: A Breakthrough Framework for Quantifying Climate Loss and Damage",
+      "cover_url": "data/images/nature/nature-2026-03-25-02-cover.jpg"
+    },
     {
       "id": "nature-2026-03-25",
       "journal": "Nature",
@@ -36,6 +45,24 @@
       "title_zh": "火災是災難，還是國家的工具？印度喜馬拉雅山區的森林火災如何重塑國家權力",
       "title_en": "Are Forest Fires a Disaster—or a Tool of the State? How Himalayan Wildfires Rewire Power in India",
       "cover_url": "data/images/political-geography/political-geography-2026-03-18-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-03-13",
+      "journal": "Political Geography",
+      "date": "2026-03-13",
+      "path": "articles/2026/03/political-geography-2026-03-13.json",
+      "title_zh": "從地方到全球：基礎設施、資本主義與暴力的後殖民聯結",
+      "title_en": "From Local to Global: The Postcolonial Nexus of Infrastructure, Capitalism, and Violence",
+      "cover_url": ""
+    },
+    {
+      "id": "science-2026-03-12",
+      "journal": "Science",
+      "date": "2026-03-12",
+      "path": "articles/2026/03/science-2026-03-12.json",
+      "title_zh": "渡鴉的預知能力：黃石公園的智慧掠食者",
+      "title_en": "Raven's Foreknowledge: The Intelligent Foragers of Yellowstone",
+      "cover_url": "data/images/science/science-2026-03-12-cover.jpg"
     },
     {
       "id": "nature-2026-03-11",
@@ -344,6 +371,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-02-04",
+      "journal": "Cell",
+      "date": "2026-02-04",
+      "path": "articles/2026/02/cell-2026-02-04.json",
+      "title_zh": "破解神經疼痛之謎：人體皮膚「沉睡」痛覺感受器的分子密碼",
+      "title_en": "Decoding Neuropathic Pain: Molecular Architecture of Human Sleeping Nociceptors",
+      "cover_url": "data/images/cell/cell-2026-02-04-cover.jpg"
+    },
+    {
       "id": "nature-2026-02-04-02",
       "journal": "Nature",
       "date": "2026-02-04",
@@ -621,6 +657,15 @@
       "title_zh": "轉交毀滅權力：自動化核系統如何威脅國際安全",
       "title_en": "Delegating Destruction: How Automated Nuclear Systems Could Change Coercive Threats",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-03",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-03.json",
+      "title_zh": "威權金融機構：維持專制政權穩定的隱形助手",
+      "title_en": "Authoritarian Financial Institutions: The Hidden Hands Supporting Autocratic Regimes",
+      "cover_url": ""
     },
     {
       "id": "international-organization-2026-01-01",

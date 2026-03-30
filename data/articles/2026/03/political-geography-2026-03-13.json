@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-03-13",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-03-13",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從地方到全球：基礎設施、資本主義與暴力的後殖民聯結",
+      "en": "From Local to Global: The Postcolonial Nexus of Infrastructure, Capitalism, and Violence"
+    },
+    "summary": {
+      "zh": "【總結】本文揭示了基礎設施、資本主義與暴力之間的緊密聯繫，透過對墨西哥馬雅列車和斯里蘭卡可倫坡港城兩個重大基礎設施項目的分析，展示了後殖民時期資本累積如何通過暴力手段「落地生根」。研究發現，這些項目不僅創造了資本擴張的新區域和走廊，還系統性地將種族化暴力、驅離和商品化作為其運作核心，揭示了暴力如何成為資本累積的經濟潛力。\n\n【研究問題】文章探討的核心問題是：在21世紀全球資本再生的背景下，主權權力行使的不平等和不透明形式如何使全球暴力邏輯難以理解？過去的研究往往孤立地看待基礎設施、暴力或資本，未能揭示它們之間的緊密聯繫。本文填補了這一研究缺口，創造性地提出了「暴力-經濟-基礎設施-聯結」框架，以理解後殖民條件下資本累積的具體機制。\n\n【研究方法】作者採用結構性田野工作和延伸案例方法，在2023年2月、7月和8月進行了38次深度訪談，對象包括政府官員、記者、學者、非政府組織工作人員、工會成員、環保主義者和政治及原住民活動家。在斯里蘭卡，研究範圍包括可倫坡、尼甘布、漢班托塔、亭可馬里和戰後地區；在墨西哥，則沿著鐵路線和未來車站進行研究，包括一些高度軍事化地帶和旅遊熱點。研究結合了八年的前期田野工作經驗，並採用了嚴格的倫理和安全協議。\n\n【結果】研究發現，這兩個項目都體現了基礎設施暴力：在斯里蘭卡，戰爭罪行（約10萬-14萬泰米爾人死亡）為可倫坡港城等基礎設施發展鋪平了道路，政府通過軍事佔領、人口遷移和官僚重劃邊界等方式改變族裔人口結構；在墨西哥，馬雅列車項目導致原住民土地被剝奪，文化被商品化和民俗化，旅遊業成為一種「掠奪性邏輯」，幾乎 everything——從生態系統到歷史、建築、原住民文化實踐、調味品、植物、鳥類和勞動力——都適合旅遊掠奪。這些項目創造了新的區域和走廊，為資本擴張服務，同時通過破壞、開採和建築實現了資本主義的佔有。",
+      "en": "**Summary:** This article reveals the intricate connections between infrastructure, capitalism, and violence by analyzing two major infrastructure projects—Tren Maya in Mexico and Colombo Port City in Sri Lanka. It demonstrates how capital accumulation \"hits the ground\" in postcolonial conditions through violent means. The research shows these projects create new zones and corridors for capital expansion while systematically employing racialized violence, displacement, and commodification as core operational mechanisms. The authors establish a \"violence-economy-infrastructure-nexus\" framework that reveals the economic potential of violence in reproducing capital under postcolonial capitalism.\n\n**Problem:** The article addresses the challenge of understanding global violence logics in capital reproduction within the unequal and opaque forms of sovereign power in the 21st century. Previous research has often examined infrastructure, violence, and capital in isolation, failing to recognize their interconnected nature. This study fills this gap by creating an innovative framework to analyze how capital accumulation mechanisms operate concretely under postcolonial conditions, particularly through infrastructure development that enables and requires violence.\n\n**Approach:** The authors employed structural fieldwork and extended case methods, conducting 38 in-depth interviews across Mexico and Sri Lanka between February and August 2023. Interviewees included government officials, journalists, academics, NGO workers, unionists, environmentalists, and indigenous activists. In Sri Lanka, research spanned Colombo, Negombo, Hambantota, Trincomalee, and post-war areas. In Mexico, research followed the railway route through militarized zones, tourist hotspots, and sites of indigenous resistance. The methodology incorporated eight years of prior fieldwork experience and implemented rigorous ethical protocols including anonymization and encryption due to the violent contexts.\n\n**Results:** The research identified both projects as manifestations of \"infrastructural violence\" that serve capital accumulation. In Sri Lanka, war crimes (approximately 100,000-140,000 Tamil deaths) enabled infrastructure development, with the government employing military occupation, population resettlement, and bureaucratic border reorganization to alter ethnic demographics. In Mexico, the Tren Maya project has led to indigenous dispossession and cultural commodification, with tourism operating as a \"predatory logic\" that appropriates ecosystems, history, cultural practices, and labor. The projects create new zones and corridors for capital expansion while implementing capitalist appropriation through destruction, extraction, and construction, revealing how violence functions as an economic mechanism in postcolonial contexts."
+    },
+    "keyArticle": {
+      "title": "From local site to global logics. Infrastructure, capitalism and violence",
+      "authors": [
+        "Timo Dorsch",
+        "Sowmya Maheswaran"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103535",
+      "pages": "103535"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103535",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103535"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-30T12:33:11.879454+00:00",
+    "source": "openalex"
+  }
+}
