@@ -19,9 +19,9 @@ whose key env-var is empty or missing is silently skipped.
 
 Priority order:
   1. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
-  2. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
-  3. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
-  4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
+  2. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
+  3. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
+  4. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
   5. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
 """
 
@@ -56,17 +56,14 @@ _MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000
 # ---------------------------------------------------------------------------
 
 # Each tuple: (env_var_name, model_id, base_url)
-# Tried in this priority order; 402 causes fallover to the next entry.
+# Tried in this priority order; 402/404/PerDay causes fallover to the next entry.
+# Order is based on observed reliability: glm-4.5-air and nvidia tend to be
+# available; qwen3 is often upstream-rate-limited from Venice provider.
 _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     (
         "GEMINI_API_KEY",
         "gemini-2.0-flash",
         "https://generativelanguage.googleapis.com/v1beta/openai/",
-    ),
-    (
-        "OPENROUTER_KEY_QWEN3",
-        "qwen/qwen3-next-80b-a3b-instruct:free",
-        "https://openrouter.ai/api/v1",
     ),
     (
         "OPENROUTER_KEY_GLAI",
@@ -76,6 +73,11 @@ _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     (
         "OPENROUTER_KEY_NVIDIA",
         "nvidia/nemotron-3-nano-30b-a3b:free",
+        "https://openrouter.ai/api/v1",
+    ),
+    (
+        "OPENROUTER_KEY_QWEN3",
+        "qwen/qwen3-next-80b-a3b-instruct:free",
         "https://openrouter.ai/api/v1",
     ),
     (
@@ -162,6 +164,9 @@ class BilingualSummarizer:
             logger.info("Summariser backends (in priority order): %s", models)
 
         self._last_mode = "abstract-only"
+        # Models that exhausted all retries due to 429 rate limits in this
+        # session are blacklisted so subsequent articles skip them immediately.
+        self._rate_limit_blacklist: set = set()
 
     # ------------------------------------------------------------------
     # Public API
@@ -244,6 +249,12 @@ class BilingualSummarizer:
             )
 
         for client, model in self._backends:
+            if model in self._rate_limit_blacklist:
+                logger.info(
+                    "[%s] Skipping — persistently rate-limited earlier in this session",
+                    model,
+                )
+                continue
             result = self._try_backend(mode, client, model, user_prompt)
             if result is not None:
                 return result
@@ -257,7 +268,12 @@ class BilingualSummarizer:
         model: str,
         user_prompt: str,
     ) -> Optional[Dict[str, Any]]:
-        """Try one backend with retries.  Returns result or None on failure."""
+        """Try one backend with retries.  Returns result or None on failure.
+
+        If ALL attempts fail due to 429 rate limits, the model is added to
+        ``self._rate_limit_blacklist`` so subsequent articles skip it.
+        """
+        rate_limit_failures = 0
         for attempt in range(1, self.MAX_RETRIES + 2):
             logger.info(
                 "Requesting %s summary from %s (attempt %d/%d) ...",
@@ -304,16 +320,17 @@ class BilingualSummarizer:
                     )
                     return None
 
-                # 429 — rate limited.
-                # If it's a *daily* quota exhaustion, retrying later is
-                # pointless — switch to the next backend immediately.
+                # 429 / RESOURCE_EXHAUSTED — rate limited.
                 if "429" in exc_str or "rate" in exc_str.lower() or "RESOURCE_EXHAUSTED" in exc_str:
+                    # Daily quota exhaustion: retrying later is pointless.
                     if "PerDay" in exc_str or "per_day" in exc_str or "daily" in exc_str.lower():
                         logger.warning(
                             "[%s] Daily quota exhausted — switching to next backend",
                             model,
                         )
                         return None
+                    # Per-minute / upstream rate limit: count and retry.
+                    rate_limit_failures += 1
                     wait = self._extract_retry_wait(exc_str)
                     if attempt < self.MAX_RETRIES + 1:
                         logger.info(
@@ -322,6 +339,14 @@ class BilingualSummarizer:
                         )
                         time.sleep(wait)
                     continue
+
+        # If every attempt was a rate-limit failure, blacklist for this session.
+        if rate_limit_failures >= self.MAX_RETRIES + 1:
+            self._rate_limit_blacklist.add(model)
+            logger.warning(
+                "[%s] All %d attempts rate-limited — blacklisting for this session",
+                model, rate_limit_failures,
+            )
 
         return None
 
