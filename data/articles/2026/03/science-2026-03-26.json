@@ -1,0 +1,45 @@
+{
+  "id": "science-2026-03-26",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6792",
+  "date": "2026-03-26",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解密細胞永生之鑰：釀酒酵母端粒酶的3D結構驚人發現",
+      "en": "The Immortality Enigma: Unveiling the 3D Architecture of Yeast Telomerase"
+    },
+    "summary": {
+      "zh": "研究團隊發現，釀酒酵母端粒酶的核心結構由端粒RNA（TLC1）和三種Est蛋白（Est1、Est2和Est3）以及Pop1/Pop6/Pop7蛋白複合物共同構成，形成一個穩定的分子機器。其中，TLC1、Est3和Pop1/6/7複合物在端粒酶組裝過程中扮演關鍵角色。最令人驚訝的是，研究人員在Est2蛋白中發現了一種稱為「鋅指」的結構域，這一發現不僅揭示了端粒酶功能的分子機制，還為理解不同物種中端粒酶的演化提供了新視角。",
+      "en": "The research identifies a stable core architecture formed by telomerase RNA (TLC1), three Est proteins (Est1, Est2, and Est3), and the Pop1/Pop6/Pop7 complex. TLC1, Est3, and Pop1/6/7 play critical roles in the assembly of this molecular machine. Most significantly, the study discovered a zinc finger motif in the telomerase reverse transcriptase subunit Est2, which proves crucial for telomerase function. Structural predictions suggest the presence of similar zinc fingers in TERT proteins across diverse species, offering valuable insights into the functional organization of yeast telomerase and underscoring the evolutionary conservation and diversity of telomerase holoenzymes across different life forms."
+    },
+    "keyArticle": {
+      "title": "Cryo–electron microscopy structure of the budding yeast telomerase holoenzyme",
+      "authors": [
+        "Hongmiao Hu",
+        "Hannah Neumann",
+        "Gabriela M. Teplitz",
+        "Elsa Franco-Echevarría",
+        "Pascal Chartrand",
+        "Raymund J. Wellinger",
+        "Thi Hoang Duong Nguyen"
+      ],
+      "doi": "10.1126/science.adz5344",
+      "pages": "eadz5344"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz5344",
+      "doi": "https://doi.org/10.1126/science.adz5344"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-03-31T19:56:05.426328+00:00",
+    "source": "openalex"
+  }
+}

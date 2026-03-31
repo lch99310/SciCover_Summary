@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-03-13-02",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-03-13",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "挑戰「後新自由主義」：芝加哥的聯合治理與矛盾實踐",
+      "en": "Troubling 'Post-Neoliberalism': Coalition Governance and Contradiction in Chicago"
+    },
+    "summary": {
+      "zh": "【總結】本文深入探討芝加哥左翼聯盟如何在新自由主義框架下創造替代性治理模式，聚焦「治療而非創傷」(Treatment Not Trauma)與「讓芝加哥回家」(Bring Chicago Home)兩個運動。作者突破性地提出，新自由主義的矛盾本身構成了後新自由主義實踐的場域，而非單純的障礙。研究揭示種族關係結構了後新自由主義項目的可能性與限制，展現了市政治理中不均衡、充滿矛盾的實踐過程，為理解左翼行動者在新自由主義國家內運作的戰略視野提供了全新框架。【研究問題】文章探討的核心問題是：左翼後新自由主義項目如何在市政層面作為受限條件下的爭議性實踐展開？過往研究往往忽略了種族關係和制度限制對後新自由主義實踐的決定性影響，也將矛盾視為失敗證據而非構成性特徵。解決此問題至關重要，因為它關乎我們如何解讀左翼行動者在當代新自由主義國家中實際可用的戰略選擇。【研究方法】作者採取質性內容分析法，深入研究了芝加哥兩個當代運動的公開材料，包括政策文件、市報告、運動平台、新聞稿和通訊。研究追蹤聯盟需求如何轉化為政策提案和制度過程，以及替代性邏輯如何在現有國家結構中被協商。作者補充了本地新聞報導以追蹤公眾敘事和政治動態的變化，同時運用公開採訪和長篇對話來理解組織者和民選官員的視角。結果】關鍵發現包括：「治療而非創傷」運動成功將危機響應從警察部門轉移至公共衛生部門，重開兩個公共心理健康診所，並獲得4310萬美元預算支持；「讓芝加哥回家」倡議在市議會通過但公投失敗，僅獲46%支持率，顯示房地產業界強烈反對。這些結果揭示了後新自由主義實踐的矛盾性質：雖然擴展照護基礎設施相對容易，但削弱懲罰機構則極具挑戰。研究強調，實現替代方案不僅依賴政策通過，還需要持續的、充滿爭議的行政重構和重新規模化的市政基礎設施工作。",
+      "en": "**Summary:** This article examines how left-wing coalitions in Chicago are creating alternative governance models within neoliberal urban frameworks, focusing on the 'Treatment Not Trauma' and 'Bring Chicago Home' movements. The author makes the breakthrough argument that neoliberalism's contradictions themselves constitute the terrain upon which post-neoliberal articulations are practiced, rather than mere obstacles. The research reveals how race structures the possibilities and limits of post-neoliberal projects, showing the uneven, contradictory practice of municipal governance, providing a new framework for understanding strategic horizons available to left actors within neoliberalized states. **Problem:** The central question addressed is: how do left post-neoliberal projects unfold at the municipal scale as contested practices of governing under constraint? Previous research has often overlooked the decisive influence of race and institutional limitations on post-neoliberal practices, treating contradictions as evidence of failure rather than constitutive features. Solving this problem is crucial as it determines how we interpret the strategic choices actually available to left actors in contemporary neoliberal states. **Approach:** The author employs qualitative content analysis of publicly available materials from the two Chicago movements, including policy documents, city reports, campaign platforms, press releases, and newsletters. The research traces how coalition demands are translated into policy proposals and institutional processes, and how alternative logics are negotiated within existing state structures. The author supplements this with local news coverage to track shifting public narratives and political dynamics, while drawing on public interviews with organizers and elected officials to understand their perspectives. **Results:** Key findings include: the 'Treatment Not Trauma' campaign successfully moved crisis response out of the police department and into public health, reopened two mental health clinics, and secured $43.1 million in budget support; the 'Bring Chicago Home' initiative passed the City Council but failed in a referendum, receiving only 46% support, showing strong opposition from real estate interests. These results reveal the contradictory nature of post-neoliberal practice: while expanding care infrastructure is relatively achievable, diminishing punitive institutions proves extremely challenging. The research emphasizes that realizing alternatives depends not only on policy passage but on ongoing, contested administrative rewiring and rescaling of municipal infrastructure."
+    },
+    "keyArticle": {
+      "title": "Troubling ‘Post-Neoliberalism’: Coalitional governance and contradiction in Chicago",
+      "authors": [
+        "Keavy McFadden"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103537",
+      "pages": "103537"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103537",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103537"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-31T20:08:34.669049+00:00",
+    "source": "openalex"
+  }
+}

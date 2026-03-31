@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2026-01-01-04",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "威權改革與國際合法性：實證研究揭示政權生存的隱形策略",
+      "en": "Authoritarian Reforms and External Legitimacy: Unveiling the Invisible Strategies of Regime Survival"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究透過三項調查實驗證實，威權政權透過實施各種改革（包括婦女權利、教育、氣候變遷和社會自由）可以顯著提升其在國際觀眾中的外部合法性。研究發現，改革不僅能產生積極效益（增加好感度、支持貿易關係），還能產生保護效益（減少支持懲罰性行動），且積極效益強於保護效益。特別值得注意的是，婦女權利改革具有獨特的強大影響力，而面向國內的改革比面向全球的改革更有效。這些發現為威權政權的生存策略提供了重要洞見。\n\n【研究問題】\n本研究旨在解答威權政權的改革是否能提升其外部合法性，以及何種改革、在何種條件下最為有效。過去的研究存在分歧：一些發現性別平等改革能提升國際聲譽，另一些則發現人權公約批准沒有顯著效果。研究方法上的差異和缺乏系統性測試導致知識累積困難。解答這一問題至關重要，因為它關係到我們對威權政權如何適應和生存的理解，以及國際社會如何回應威權政權的策略性行為。\n\n【研究方法】\n研究者進行了三項連續的調查實驗，使用美國全國代表性樣本。第一項實驗採用簡單的獨立組設計，測試各種改革對好感度的影響。第二和第三項實驗採用聯合設計(conjoint design)，測試改革在不同背景因素下的影響，同時評估積極效益和保護效益。實驗描述了中東虛構威權國家，並操控改革類型、政權特質和對改革的反應等變量。研究操作化了「外部合法性」的概念，測量對政權的好感度、支持貿易關係的意願，以及支持切斷外交關係和抵制產品的意願。\n\n【結果】\n三項實驗結果高度一致：威權改革顯著提升了外部合法性。好感度平均增加近10個百分點（p = 0.000）。所有類型的改革都有效，但婦女權利改革影響最強烈。積極效益（好感度和貿易支持）比保護效益（抵制懲罰）更強大。對改革的懷疑減少了合法性收益，但未能完全消除。美國專家的參與增加了積極效益，而非美國專家則產生負面效果。非盟友國家比盟友國家從改革中獲益更多，證明了「天花板效應」的存在。這些發現表明，威權政權有多種選擇來提升國際合法性，特別是通過面向國內的民主改革。",
+      "en": "**Summary:**\nThis research demonstrates through three survey experiments that authoritarian regimes can significantly enhance their external legitimacy by implementing various reforms (including women's rights, education, climate change, and social freedom). Reforms generate both positive benefits (increased favorability, support for trade relations) and shielding benefits (reduced support for punitive actions), with positive benefits being stronger than shielding benefits. Notably, women's rights reforms have a uniquely powerful impact, while inward-facing reforms (domestic democratic changes) are more effective than outward-facing reforms (global efforts). These findings provide crucial insights into how authoritarian regimes adapt and survive in a democracy-dominated international system.\n\n**Problem:**\nThe study addresses whether authoritarian reforms can enhance external legitimacy and under what conditions. Previous research yielded conflicting results: some studies found gender equality reforms boost international reputation, while others found little evidence that human rights treaty ratification produces such benefits. Methodological differences and lack of systematic testing have hindered knowledge accumulation. Solving this problem is crucial for understanding how authoritarian regimes adapt and survive, and how the international community should respond to their strategic behavior.\n\n**Approach:**\nThe researchers conducted three sequential survey experiments using nationally representative U.S. samples. The first experiment used a simple independent groups design to test the effects of various reforms on favorability. The second and third experiments employed conjoint designs to test reform effects under diverse conditions while simultaneously measuring positive and shielding benefits. Participants evaluated hypothetical authoritarian regimes in the Middle East, with manipulated reform types, regime characteristics, and responses to reforms. The research operationalized \"external legitimacy\" by measuring favorability toward the regime, support for increased trade, and reluctance to cut ties or boycott products.\n\n**Results:**\nResults across all three experiments were remarkably consistent: authoritarian reforms significantly enhanced external legitimacy. Favorability increased by nearly 10 percentage points on average (p = 0.000). All reform types proved effective, with women's rights reforms showing the strongest impact. Positive benefits (favorability and trade support) proved stronger than shielding benefits (resistance to punitive actions). Skepticism about reforms reduced legitimacy gains but didn't eliminate them. Involvement of U.S. experts increased positive benefits, while non-U.S. experts had negative effects. Non-allied countries benefited more from reforms than allied countries, demonstrating \"ceiling effects.\" These findings suggest authoritarian regimes have multiple options to enhance international legitimacy, particularly through inward-facing democratic reforms."
+    },
+    "keyArticle": {
+      "title": "Authoritarian Reforms and External Legitimacy",
+      "authors": [
+        "Calvert W. Jones"
+      ],
+      "doi": "10.1017/s0020818325101197",
+      "pages": "205-234"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101197",
+      "doi": "https://doi.org/10.1017/s0020818325101197"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-31T20:11:03.706758+00:00",
+    "source": "openalex"
+  }
+}

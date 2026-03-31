@@ -1,0 +1,123 @@
+{
+  "id": "cell-2026-03-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "6",
+  "date": "2026-03-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "幹細胞篩選大發現：威而鋼成為線粒體疾病治療新希望",
+      "en": "Stem Cell Screening Discovers Sildenafil as Promising Therapy for Mitochondrial Disease"
+    },
+    "summary": {
+      "zh": "【總結】這項研究透過利用來自雷氏症（LS）患者的誘導性多能幹細胞（iPSCs），篩選了5,632種可重複利用的化合物，發現第五型磷酸二酯酶（PDE5）抑制劑具有治療潛力，其中威而鋼（sildenafil）因其臨床安全性而被優先選擇。研究證實威而鋼能夠修復線粒體膜電位缺陷，恢復神經發育途徑，並在LS腦器官oid中正常化鈣反應。在小型和大型哺乳動物模型中，威而鋼延長了壽命並改善了疾病表型。此外，對六名LS患者的個案治療顯示威而鋼改善了運動功能和代謝危機抵抗力。這項研究突顯了iPSC驅動藥物發現的潛力，並確立了威而鋼作為線粒體疾病有前景的藥物候選。\n\n【研究問題】雷氏症（LS）是一種嚴重且目前無法治療的線粒體疾病，會導致精神運動退化和代謝危機。過去的研究在尋找有效的治療方法時面臨挑戰，因為傳統的藥物篩選方法往往無法準確模擬人類神經疾病的複雜性。線粒體疾病特別難以治療，因為它們涉及細胞能量產生核心機制的缺陷，而傳統藥物開發方法難以捕捉這些細胞層面的變化。\n\n【研究方法】研究人員創新性地使用了來自LS患者的iPSCs，並將其分化為神經前體細胞（NPCs）和腦器官oid來模擬疾病。他們採用高內容分析（HCA）技術評估線粒體膜電位（MMP），並對5,632種化合物進行系統性篩選。為了驗證發現，研究團隊使用了多組學方法（包括轉錄組學、蛋白質組學和代謝組學）來分析威而鋼的作用機制。此外，他們還在兩種不同的動物模型（Ndufs4基因敲除小鼠和SURF1基因敲除豬）中測試了威而鋼的效果，最終還對六名LS患者進行了個案治療研究。\n\n【結果】關鍵發現包括：威而鋼能夠矯正LS神經元中的線粒體膜電位缺陷；在腦器官oid中恢復神經發育途徑；改善鈣穩態和神經突起生長；在Ndufs4基因敲除小鼠中延長壽命（從平均42天延長至約80天）；在SURF1基因敲除豬模型中改善神經功能；並成功穿過血腦屏障。在六名LS患者的個案治療中，威而鋼治療顯著改善了運動功能和對代謝危機的抵抗力。這些結果不僅證明了威而鋼作為線粒體疾病治療的潛力，還展示了iPSC篩選方法在藥物發現中的強大應用價值。",
+      "en": "**Summary:** This study utilized induced pluripotent stem cells (iPSCs) derived from Leigh syndrome (LS) patients to screen 5,632 repurposable compounds, identifying phosphodiesterase type 5 (PDE5) inhibitors as potential therapeutic leads, with sildenafil selected for its established clinical safety profile. The research demonstrated that sildenafil corrects mitochondrial membrane potential defects, restores neurodevelopmental pathways, and normalizes calcium responses in LS brain organoids. In both small and large mammalian models, sildenafil extended lifespan and ameliorated disease phenotypes. Furthermore, off-label treatment of six LS patients showed improved motor function and resistance to metabolic crises. This work highlights the potential of iPSC-driven drug discovery and establishes sildenafil as a promising candidate for mitochondrial disease therapy.\n\n**Problem:** Leigh syndrome (LS) represents a severe and currently untreatable mitochondrial disease characterized by psychomotor regression and metabolic crises. Previous research efforts have faced challenges in finding effective treatments, as traditional drug screening methods often fail to accurately model the complexity of human neurological diseases. Mitochondrial diseases are particularly difficult to target therapeutically because they involve defects in the core machinery of cellular energy production, and conventional drug development approaches struggle to capture these cellular-level changes.\n\n**Approach:** Researchers innovatively used iPSCs from LS patients, differentiating them into neural precursor cells (NPCs) and brain organoids to model the disease. They employed high-content analysis (HCA) to assess mitochondrial membrane potential (MMP) and systematically screened 5,632 compounds. To validate their findings, the team utilized multi-omics approaches (including transcriptomics, proteomics, and metabolomics) to analyze sildenafil's mechanisms of action. Additionally, they tested sildenafil's effects in two distinct animal models (Ndufs4 knockout mice and SURF1 knockout pigs) and ultimately conducted a case study treatment of six LS patients.\n\n**Results:** Key findings included sildenafil's ability to correct mitochondrial membrane potential defects in LS neurons; restoration of neurodevelopmental pathways in brain organoids; improved calcium homeostasis and neurite outgrowth; extended lifespan in Ndufs4 knockout mice (from average 42 days to approximately 80 days); improved neurological function in SURF1 knockout pig models; and successful blood-brain barrier penetration. In the case treatment of six LS patients, sildenafil therapy significantly improved motor function and resistance to metabolic crises. These results not only demonstrate sildenafil's potential as a mitochondrial disease therapy but also showcase the powerful application value of iPSC screening methods in drug discovery."
+    },
+    "keyArticle": {
+      "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy",
+      "authors": [
+        "Annika Zink",
+        "Dao‐Fu Dai",
+        "Annika Wittich",
+        "Marie‐Thérèse Henke",
+        "Giulia Pedrotti",
+        "Sonja Heiduschka",
+        "Guillem Santamaria",
+        "Tancredi Massimo Pentimalli",
+        "Christian Brueser",
+        "Sofia Notopoulou",
+        "Abdul Rahim Umar",
+        "Aleksandra Zhaivoron",
+        "Laura Petersilie",
+        "Caleb Jerred",
+        "Jesper Bergmans",
+        "Louis Anton Neu",
+        "Fabian Schumacher",
+        "Jan Keller-Findeisen",
+        "Agnieszka Rybak-Wolf",
+        "Daniel Stach",
+        "Jeanette Reinshagen",
+        "Undine Haferkamp",
+        "Kim Krieg",
+        "Andrea Zaliani",
+        "Liliya Euro",
+        "Alessia Di Donfrancesco",
+        "Chiara Santanatoglia",
+        "Enrica Cappellozza",
+        "Marta Suarez Cubero",
+        "Mario Pávez",
+        "Oleh Bakumenko",
+        "David Meierhofer",
+        "A. Reghan Foley",
+        "Susanne Morales-Gonzalez",
+        "Isabella Tolle",
+        "D Herebian",
+        "Daniele Bonesso",
+        "Giulia Cecchetto",
+        "Sakurako Nagumo Wong",
+        "Monica Moresco",
+        "Alessandra Maresca",
+        "Ilaria Decimo",
+        "Francesco De Sanctis",
+        "Annalisa Adamo",
+        "Merel J.W. Adjobo-Hermans",
+        "Roberto Duchi",
+        "María Barandalla",
+        "Marco Scaglia",
+        "Andrea Perota",
+        "C. Galli",
+        "Burkhard Kleuser",
+        "Lukas Cyganek",
+        "Chris Mühlhausen",
+        "Lars Schlotawa",
+        "Valeria Tiranti",
+        "Ertan Mayatepek",
+        "Ildiko Szabo",
+        "C. La Morgia",
+        "Thomas Klopstock",
+        "Valerio Carelli",
+        "Felix Distelmaier",
+        "Andrea Rossi",
+        "Nikolaus Rajewsky",
+        "Ghanim Ullah",
+        "Stefan Jakobs",
+        "Christine R. Rose",
+        "Spyros Petrakis",
+        "Frank Edenhofer",
+        "Werner J.H. Koopman",
+        "Paweł Lisowski",
+        "Anu Suomalainen",
+        "Dario Brunetti",
+        "Antonio del Sol",
+        "Emanuela Bottani",
+        "Ole Pless",
+        "Markus Schuelke",
+        "Alessandro Prigione"
+      ],
+      "doi": "10.1016/j.cell.2026.02.008",
+      "pages": "1656-1679.e42"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.008",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.008"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-31T20:05:22.208433+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nature-2026-03-25-03",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8107",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-25-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "革命性碳封存技術：水循環系統實現玄武岩中CO2快速礦物化",
+      "en": "Revolutionary Carbon Storage: Water Recirculation System Achieves Rapid CO2 Mineralization in Basalt"
+    },
+    "summary": {
+      "zh": "【總結】這項研究在沙烏地阿拉伯吉贊地區成功展示了將二氧化碳注入玄武岩地層進行礦物封存的新技術。研究團隊開創性地使用了水循環系統，將溶解了CO2的水在兩口井之間循環注入，結果顯示在短短十個月內，高達70%的注入CO2轉化為穩定的碳酸鹽礦物。這項技術不僅為碳捕集與封存(CCS)提供了新思路，尤其適用於像中東這樣水資源稀缺的地區，有助於實現大規模碳封存同時生產無碳燃料如氫氣或氨氣。\n\n【研究問題】傳統碳封存技術面臨著資源密集和地質條件限制等挑戰。特別是在水資源稀缺的地區，如中東，傳統CCS方法難以大規模應用。過去的研究主要聚焦於較年輕或風化程度較低的玄武岩，而這項研究針對的是2100-3000萬年齡、已高度風化的玄武岩地層，探討了如何克服這些挑戰。研究旨在證明在這種古老且高度風化的玄武岩中進行CO2礦物封存的可行性，並開發一種節水的循環系統，解決水資源限制問題。\n\n【研究方法】研究團隊在吉贊經濟群西北24公里處鑽了五口井，選用兩口相距130米的井（DW-1生產井和DW-3注入井）構成水循環系統。他們創新性地將純CO2在150米深處注入循環水中形成碳酸水，然後將這種密度較高的碳酸水注入玄武岩地層。為追蹤CO2的轉化過程，研究團隊使用了兩種獨立的示蹤劑：鈉螢光素(NaF)和六氟化硫(SF6)。同時，他們定期採集生產井的流體樣本，分析其pH值、溶解無機碳(DIC)濃度以及各種元素濃度，並檢測從損壞的潛水泵中收集的固體樣品的礦物學和同位素組成，從而定量評估CO2的礦物化程度。\n\n【結果】研究取得了突破性成果：在2023年5月至7月期間注入的131噸CO2中，截至2024年4月，約70±5%已轉化為碳酸鹽礦物，主要是方解石、鐵白云石和菱鐵礦。這一轉化速度遠超預期，僅用十個月時間就完成了大部分礦物化過程。從損壞的潛水泵中回收的固體樣品證實了碳酸鹽礦物的沉積，其碳和氧同位素組成與注入的CO2特徵吻合。此外，研究揭示了地層中存在雙重流體通道系統：10%的高滲透區域（主要是斷層）和90%的低滲透性基質，這一發現對於優化未來大型項目的設計至關重要。這項技術預計可在吉贊地區封存高達42億噸碳，為全球碳封存提供了一個高效節水的新方案。",
+      "en": "**Summary:** This research presents a groundbreaking demonstration of carbon dioxide mineral storage in basalt formations in Saudi Arabia's Jizan region. The team successfully developed a water recirculation system that dissolves CO2 in water and injects it between two wells, achieving approximately 70±5% mineralization of the injected CO2 within just ten months. This innovative approach not only offers a new pathway for carbon capture and storage (CCS) but is particularly suited for water-scarce regions like the Middle East, potentially enabling large-scale carbon storage while simultaneously producing carbon-free fuels such as hydrogen or ammonia.\n\n**Problem:** Traditional CCS technologies face challenges including resource intensity and geological limitations. In water-scarce regions like the Middle East, conventional CCS methods struggle to scale effectively. Previous research primarily focused on younger or less altered basalts, while this study targeted 21-30 million-year-old, highly altered basalt formations. The research aimed to prove the feasibility of CO2 mineral storage in these ancient, weathered basalts and to develop a water-recycling system that overcomes the limitations of water availability, addressing a critical gap in CCS technology for arid regions.\n\n**Approach:** The research team drilled five wells 24 km north-northeast of the Jizan Economic Complex, selecting two wells (DW-1 production well and DW-3 injection well) positioned 130 meters apart to create a water recirculation system. They innovatively injected pure CO2 at 150m depth into the circulating water stream to form carbonic acid water, which was then injected into the basalt formation. To track CO2 transformation, the team used two independent tracers: sodium fluorescein (NaF) and sulfur hexafluoride (SF6). They regularly collected fluid samples from the production well, analyzing pH, dissolved inorganic carbon (DIC) concentrations, and elemental compositions, while also examining solid samples from a damaged submersible pump for mineralogical and isotopic composition to quantitatively assess CO2 mineralization.\n\n**Results:** The study achieved remarkable results: of the 131 tons of CO2 injected between May and July 2023, approximately 70±5% had mineralized into carbonate minerals (primarily calcite, ankerite, and siderite) by April 2024—a much faster conversion rate than anticipated. Solid samples recovered from the damaged pump confirmed carbonate precipitation with isotopic signatures matching the injected CO2. Additionally, the research revealed a dual-flow system within the formation: 10% high-permeability regions (mainly faults) and 90% low-permeability matrix, crucial for optimizing future large-scale projects. This technology has the potential to sequester up to 4.2 Gt of carbon in the Jizan region, offering a highly water-efficient solution for global carbon storage challenges."
+    },
+    "keyArticle": {
+      "title": "CO2 subsurface mineral storage by its co-injection with recirculating water",
+      "authors": [
+        "Éric H. Oelkers",
+        "Serguey Arkadakskiy",
+        "Zeyad Ahmed",
+        "Noushad Kunnummal",
+        "Jakub Fedorik",
+        "Massimo Marchesi",
+        "Mouadh Addassi",
+        "Abdirizak Mohamed Omar",
+        "Niccolò Menegoni",
+        "Sigurdur R. Gislason",
+        "Grímur Björnsson",
+        "Davide Berno",
+        "Thomas Finkbeiner",
+        "Abdulkader Afifi",
+        "Hussein Hoteit"
+      ],
+      "doi": "10.1038/s41586-026-10130-5",
+      "pages": "954-958"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-25-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10130-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10130-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-03-31T20:02:11.668648+00:00",
+    "source": "openalex"
+  }
+}
