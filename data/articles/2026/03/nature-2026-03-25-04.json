@@ -1,0 +1,114 @@
+{
+  "id": "nature-2026-03-25-04",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8107",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-25-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "揭開歐洲早期犬隻的基因歷史：14,200年前的凱斯勒洛赫犬證明人類與犬隻的深厚淵源",
+      "en": "Unveiling the Genomic History of Europe's Early Dogs: The 14,200-Year-Old Kesslerloch Dog Reveals Deep Human-Canine Connections"
+    },
+    "summary": {
+      "zh": "【總結】這項研究透過分析來自歐洲舊石器時代和中石器時代216隻犬科動物的DNA樣本，揭示了最早犬隻的基因歷史。研究確認了距今14,200年的凱斯勒洛赫犬（Kesslerloch dog）是迄今為止最古老經基因證實的犬隻，推翻了以往基於形態學的爭議。這項發現證明歐洲犬隻與東亞和西伯利亞犬隻共享同一東方狼祖先，並駁斥了歐洲犬隻獨立馴化的假說。研究還發現，新石器時代農民的到來並未完全取代當地的中石器時代犬隻，而是與其混合，這與人類遷徙模式不同。\n\n【研究問題】過去的研究基於形態學證據認為歐洲擁有最早犬隻的考古記錄，但缺乏基因證據支持。此外，歐洲犬隻與當時的歐洲狼沒有顯著基因關聯，反而與東歐亞狼有親緣關係，這引發了關於犬隻馴化地點和過程的爭議。研究主要探討：1) 最早歐洲犬隻的基因來源；2) 這些犬隻與現代犬隻的關係；3) 新石器時代過渡如何影響歐洲犬隻群體。\n\n【研究方法】研究團隊採用混合捕捉技術（hybridization capture）分析極為古老的DNA，克服了舊石器時代和中石器時代遺骸中DNA保存不良的挑戰。他們從216隻犬科動物骨骼遺骸中提取DNA，設計了包含486,547個單核苷酸變異的捕捉陣列。研究使用了f3和f4統計、qpAdm模型分析、ADMIXTURE聚類和主成分分析（PCA）等多種統計方法，確保結果的可靠性。此外，團隊對七個個體進行了深度全基因組測序，以提高分析的精確度。\n\n【結果】研究確認了距今14,200年的凱斯勒洛赫犬是迄今為止最古老經基因證實的犬隻，將歐洲犬隻的基因記錄推回至舊石器時代。基因分析顯示，凱斯勒洛赫犬與現代歐洲犬隻有更強的基因關聯，而非亞洲犬隻，表明歐洲犬隻至少在14,200年前就已經形成了獨特的基因結構。研究發現，舊石器時代和中石器時代歐洲犬隻的基因多樣性比晚更新世狼低約三分之一，這表明基因多樣性損失發生在馴化過程本身。在新石器時代過渡期間，只有約20-66%的歐洲犬隻基因來自西南亞，遠低於人類（70-80%），表明當地中石器時代犬隻對現代歐洲犬隻有重大貢獻。",
+      "en": "**Summary:** This research analyzed DNA from 216 prehistoric canid remains across Europe to reveal the genomic history of early dogs. The study confirmed the 14,200-year-old Kesslerloch dog as the oldest genetically verified dog to date, overturning previous morphological controversies. This finding demonstrates that European dogs share the same eastern wolf ancestry with dogs from East Asia and Siberia, rejecting the hypothesis of independent European dog domestication. The research also revealed that the Neolithic transition brought some Southwest Asian ancestry to European dogs but didn't completely replace local populations, differing from human migration patterns.\n\n**Problem:** Previous research based on morphological evidence suggested Europe had the earliest archaeological records of dogs, but lacked genetic confirmation. However, European dogs showed no significant genetic connection to contemporary European wolves but instead had affinities to East Eurasian wolves, raising questions about where and how dogs were domesticated. The main questions addressed were: 1) What was the genetic origin of early European dogs? 2) How are these ancient dogs related to modern dogs? 3) How did the Neolithic transition affect European dog populations?\n\n**Approach:** The research team employed hybridization capture technology to analyze extremely ancient DNA, overcoming the challenge of poor DNA preservation in Paleolithic and Mesolithic remains. They extracted DNA from 216 canid skeletal remains and designed a capture array targeting 486,547 single-nucleotide variants. Multiple statistical methods were utilized including f3 and f4 statistics, qpAdm modeling, ADMIXTURE clustering, and Principal Component Analysis (PCA) to ensure robust results. Additionally, the team conducted deep whole-genome sequencing on seven individuals to enhance analysis precision.\n\n**Results:** The study confirmed the 14,200-year-old Kesslerloch dog as the oldest genetically verified dog to date, pushing back the genomic record of European dogs to the Paleolithic period. Genetic analysis revealed the Kesslerloch dog shares stronger genetic affinity with modern European dogs than Asian dogs, indicating distinct European dog population structure existed at least 14,200 years ago. The research found Upper Paleolithic and Mesolithic European dogs had approximately one-third lower genetic diversity than Late Glacial wolves, suggesting this diversity loss occurred during domestication itself. During the Neolithic transition, only 20-66% of European dog ancestry came from Southwest Asia, significantly lower than in humans (70-80%), indicating substantial contribution from local Mesolithic dogs to modern European populations."
+    },
+    "keyArticle": {
+      "title": "Genomic history of early dogs in Europe",
+      "authors": [
+        "Anders Bergström",
+        "Anja Furtwängler",
+        "Sarah Johnston",
+        "Erika Rosengren",
+        "Abagail Breidenstein",
+        "Thomas Booth",
+        "Jesse B. McCabe",
+        "Jessica Peto",
+        "Mia Williams",
+        "Monica Kelly",
+        "Frankie Tait",
+        "Chris Baumann",
+        "Rita Radzevičiūtė",
+        "Christopher Barrington",
+        "Kyriaki Anastasiadou",
+        "Alexandre Gilardet",
+        "Isabelle Glocke",
+        "Mattias Sherman",
+        "Anastasia Brativnyk",
+        "Alexander Herbig",
+        "Kay Prüfer",
+        "Saskia Pfrengle",
+        "Joscha Gretzinger",
+        "Tatiana R. Feuerborn",
+        "Ella Reiter",
+        "Anna Linderholm",
+        "Sophy Charlton",
+        "Fernando Racimo",
+        "Lea Mikkola",
+        "Hugo Anderson-Whymark",
+        "Douglas Baird",
+        "Anne Birgitte Gotfredsen",
+        "Hervé Bocherens",
+        "Anne Bridault",
+        "Rainer Brocke",
+        "Dorothée G. Drucker",
+        "Andrew Fairbairn",
+        "Laurent Frantz",
+        "Boris Gasparyan",
+        "Liane Giemsch",
+        "Mietje Germonpré",
+        "Luc Janssens",
+        "Andrew W. Kandel",
+        "Kurt Kjær",
+        "Martina Lázničková-Galetová",
+        "Daniel Loponte",
+        "Ola Magnell",
+        "Louise Martin",
+        "Susanne C. Münzel",
+        "Gökhan Mustafaoğlu",
+        "Bjørnar Måge",
+        "Angela Perri",
+        "Franziska Pfenninger",
+        "Martina Roblíčková",
+        "Annelise Roman-Binois",
+        "Özlem Sarıtaş",
+        "Katharina Schäppi",
+        "J. Alison Sheridan",
+        "Karl-Göran Sjögren",
+        "Jan Storå",
+        "Lasse Sørensen",
+        "Yvonne Tafelmaier",
+        "Florian Ter-Nedden",
+        "Olaf Thalmann",
+        "Greger Larson",
+        "Verena J. Schuenemann",
+        "Johannes Krause",
+        "Pontus Skoglund"
+      ],
+      "doi": "10.1038/s41586-026-10112-7",
+      "pages": "986-994"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-25-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10112-7",
+      "doi": "https://doi.org/10.1038/s41586-026-10112-7"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-01T20:05:10.971816+00:00",
+    "source": "openalex"
+  }
+}

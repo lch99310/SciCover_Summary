@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-03-31T20:11:09.604009+00:00",
+  "lastUpdated": "2026-04-01T20:12:47.328340+00:00",
   "articles": [
+    {
+      "id": "science-2026-03-26-02",
+      "journal": "Science",
+      "date": "2026-03-26",
+      "path": "articles/2026/03/science-2026-03-26-02.json",
+      "title_zh": "基因密碼中的時間膠囊：解密皮膚炎症記憶的永恆之力",
+      "title_en": "The Epigenetic Time Capsule: How CpG Sequences Preserve Inflammatory Memory",
+      "cover_url": ""
+    },
     {
       "id": "science-2026-03-26",
       "journal": "Science",
@@ -27,6 +36,15 @@
       "title_zh": "革命性碳封存技術：水循環系統實現玄武岩中CO2快速礦物化",
       "title_en": "Revolutionary Carbon Storage: Water Recirculation System Achieves Rapid CO2 Mineralization in Basalt",
       "cover_url": "data/images/nature/nature-2026-03-25-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-03-25-04",
+      "journal": "Nature",
+      "date": "2026-03-25",
+      "path": "articles/2026/03/nature-2026-03-25-04.json",
+      "title_zh": "揭開歐洲早期犬隻的基因歷史：14,200年前的凱斯勒洛赫犬證明人類與犬隻的深厚淵源",
+      "title_en": "Unveiling the Genomic History of Europe's Early Dogs: The 14,200-Year-Old Kesslerloch Dog Reveals Deep Human-Canine Connections",
+      "cover_url": "data/images/nature/nature-2026-03-25-04-cover.jpg"
     },
     {
       "id": "nature-2026-03-25",
@@ -80,6 +98,15 @@
       "path": "articles/2026/03/political-geography-2026-03-13.json",
       "title_zh": "從地方到全球：基礎設施、資本主義與暴力的後殖民聯結",
       "title_en": "From Local to Global: The Postcolonial Nexus of Infrastructure, Capitalism, and Violence",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2026-03-12",
+      "journal": "Political Geography",
+      "date": "2026-03-12",
+      "path": "articles/2026/03/political-geography-2026-03-12.json",
+      "title_zh": "南森的北極思想：冰海探險家如何重塑國際關係",
+      "title_en": "Nansen's Arctic Vision: How an Ice Explorer Redefined International Relations",
       "cover_url": ""
     },
     {
@@ -711,6 +738,15 @@
       "title_zh": "威權改革與國際合法性：實證研究揭示政權生存的隱形策略",
       "title_en": "Authoritarian Reforms and External Legitimacy: Unveiling the Invisible Strategies of Regime Survival",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-04-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-05",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-05.json",
+      "title_zh": "國際關係中的制度性種族歧視：揭示看似中立國際秩序下的種族不平等",
+      "title_en": "Institutional Racism in International Relations: Revealing Racial Inequality in the Seemingly Neutral International Order",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-05-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01-05",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "國際關係中的制度性種族歧視：揭示看似中立國際秩序下的種族不平等",
+      "en": "Institutional Racism in International Relations: Revealing Racial Inequality in the Seemingly Neutral International Order"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇研究突破性地揭示了國際關係中存在的制度性種族歧視，挑戰了傳上國際機構促進合作的主流觀點。作者透過分析1816年至2014年間534個政府間組織的數據，發現儘管國際組織的創立文件從明確的種族歧視轉向反種族歧視語言，但白人主導國家在會員國名單中仍持續過度代表。這種制度性種族歧視使白人主導國家在國際合作中享有不成比例的優勢，形成了一種「種族歧視俱樂部」的國際秩序。\n\n【研究問題】\n研究探討的核心問題是：種族主義如何影響國際關係中的合作與衝突模式？過去的國際關係研究忽略了種族因素，主要從理性主義或理想主義角度分析國際機構的正面作用。本文填補了這一研究缺口，證明國際機構不僅基於地緣政治和經濟利益產生偏見，還基於種族。這一發現至關重要，因為它揭示了看似中立和普世的國際秩序實則隱含著系統性的種族不平等。\n\n【研究方法】\n作者採用了獨特的量化分析方法，收集了415個國際組織的創立文件，編碼其中的種族歧視與反種族歧視語言。他們將國家二分為「白人」與「非白人」，定義白人國家為歐洲國家及具有白人人口多數和白人政治控制力的國家。研究檢視了創立會員與後續會員變化的模式，並控制了多種潛在混淆因素，包括聯盟關係、民主化程度、貿易依賴度、地區接近性等。作者還比較了正式與非正式國際組織的差異，以檢驗制度性路徑依賴與持續種族偏見兩種可能機制。\n\n【結果】\n關鍵發現顯示：1) 白人國家在國際組織創立會員中的比例持續超過其在國際體系中的比例，2000年代創立的組織中白人國家占比44%，而國際體系中僅占29%；2) 白人過度代表的國際組織傾向於不成比例地吸收新的白人會員；3) 即使控制多種潛在混淆因素後，這種種族偏見模式依然存在；4) 即使是非正式國際組織也表現出類似的偏見，表明這不僅是正式規則的結果。這些結果意味著國際秩序的結構性種族偏見比以往認識的更加根深蒂固，挑戰了國際機構作為中立、普世實體的觀點。",
+      "en": "**Summary:** \nThis research breakthrough reveals institutional racism in international relations, challenging the mainstream view that international institutions primarily facilitate cooperation. By analyzing data from 534 intergovernmental organizations (IGOs) from 1816-2014, the authors find that while founding documents have shifted from overt racism to antiracist language, white-majority countries remain overrepresented in membership. This institutional racism creates disproportionate advantages for white-majority countries in international cooperation, forming a \"discriminatory racial club\" within the international order.\n\n**Problem:** \nThe core question addressed is: how does racism shape patterns of cooperation and contestation in international relations? Previous international relations research has largely ignored race, analyzing international institutions primarily from rationalist or idealist perspectives. This study fills this gap by demonstrating that international institutions generate bias not only based on geopolitical alignment and economic interests but also based on race. This discovery is crucial as it reveals that seemingly neutral and universal international orders actually contain systemic racial inequalities.\n\n**Approach:** \nThe authors employed a unique quantitative analysis method, collecting founding documents from 415 IGOs and coding for racist and antiracist language. They dichotomized countries as \"white\" or \"nonwhite,\" defining white countries as European nations plus those with white-majority demographics and white-dominant political control. The study examined patterns of founding and subsequent membership changes while controlling for potential confounders including alliance relationships, democratization, trade dependence, and regional proximity. The authors also compared formal and informal IGOs to test two potential mechanisms: path dependence from formal rules versus persistent racial bias.\n\n**Results:** \nKey findings reveal: 1) White-majority countries constituted 44% of founding members in IGOs established in the 2000s, compared to only 29% of countries in the international system; 2) IGOs that overrepresent white countries at founding tend to disproportionately admit new white members; 3) This racial bias pattern persists even after controlling for multiple potential confounders; 4) Even informal IGOs exhibit similar bias, suggesting this is not merely a result of formal rules. These findings imply that structural racial bias in the international order is more deeply entrenched than previously recognized, challenging the view of international institutions as neutral, universal entities."
+    },
+    "keyArticle": {
+      "title": "Institutional Racism in International Relations",
+      "authors": [
+        "Phillip Lipscy",
+        "Jiajia Zhou"
+      ],
+      "doi": "10.1017/s0020818325101252",
+      "pages": "111-151"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101252",
+      "doi": "https://doi.org/10.1017/s0020818325101252"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-01T20:12:40.865181+00:00",
+    "source": "openalex"
+  }
+}

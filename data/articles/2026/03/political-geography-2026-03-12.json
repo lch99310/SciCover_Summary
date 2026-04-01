@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-03-12",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-03-12",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "南森的北極思想：冰海探險家如何重塑國際關係",
+      "en": "Nansen's Arctic Vision: How an Ice Explorer Redefined International Relations"
+    },
+    "summary": {
+      "zh": "在全球地緣政治格局轉變與北極競爭加劇之際，重新審視極地對國際政治的視角變得至關重要。本文深入探討了從北極探險家轉任難民高專的弗里德約夫·南森（1861-1930）的思想世界。透過對南森著作的情境化與連結性解讀，本文論證指出，這位挪威博學家與「前進號」船長的北極海洋學研究，塑造了他將北極視為相互連結的海洋空間的環極世界觀。\n\n南森將環境決定論與文化相對論巧妙融合，形成一套倫理與認知框架，並藉此為因紐特人（Inuit）的傳統價值辯護，對抗地方議會（forstanderskaber）的民主壓迫。他將為格陵蘭發聲的倡議延伸至其他民族與政治體，特別是從地中海到黑海的移民與少數群體，主張國際間的遷徙與重新安置，反對強制性的國家實踐。在這一系列論證中，南森從生態學中汲取知識，在公共人道危機中為國際項目提供合法性。南森的海洋國際思想提醒我們，不僅要審視過去的承諾與隱患，更要反思當今爭先恐後地開發解凍北極的趨勢，因為曾被遺忘的「開放北極海」預言正逐漸成真，未來的航行與海軍競爭將因此啟動。在氣候與戰爭導致的全球人口流離失所背景下，南森對認知正義與集體行動的處理方式，為我們提供了寶貴的啟示。",
+      "en": "With the global oceano-political shift amid intensifying Arctic rivalries, this article offers a timely reappraisal of polar perspectives on international politics through an intellectual-historical lens. The study examines the thought-world of Fridtjof Nansen—the Arctic explorer who became High Commissioner for Refugees—arguing that his oceanographic research in the Arctic shaped a circumpolar worldview conceptualizing the region as an interconnected oceanic space. Nansen's maritime experiences informed his approach to international relations long before his humanitarian work, establishing a foundation for understanding contemporary Arctic geopolitics.\n\nBy blending environmental determinism with cultural relativism, Nansen developed an ethical and epistemic framework through which he defended Inuit norms against democratic domination by local councils. Extending this advocacy beyond Greenland to displaced peoples across the Mediterranean and Black Seas, he championed international movement and resettlement as alternatives to coercive state practices. In doing so, Nansen legitimized international humanitarian projects by grounding them in ecological understanding. His maritime international thought serves as both a cautionary tale and an inspiration for our current moment, as the once-mythical \"Open Polar Sea\" becomes navigable reality, enabling future shipping lanes and naval competition. In an era of climate and war-induced displacements, Nansen's approach to epistemic justice and collective action offers crucial insights for addressing global challenges."
+    },
+    "keyArticle": {
+      "title": "The Arctic world in Fridtjof Nansen's international thought",
+      "authors": [
+        "Hansong Li"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103526",
+      "pages": "103526"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103526",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103526"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-01T20:09:26.623284+00:00",
+    "source": "openalex"
+  }
+}

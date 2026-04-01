@@ -1,0 +1,53 @@
+{
+  "id": "science-2026-03-26-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6792",
+  "date": "2026-03-26",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "基因密碼中的時間膠囊：解密皮膚炎症記憶的永恆之力",
+      "en": "The Epigenetic Time Capsule: How CpG Sequences Preserve Inflammatory Memory"
+    },
+    "summary": {
+      "zh": "想像一下，你的皮膚不僅僅記住了過去的傷害，還將這些記憶編寫進了基因密碼，影響你一生對壓力的反應。科學家們最近在《科學》期刊上發表的研究揭示了這令人震驚的現實：小鼠的皮膚幹細胞中，儲存著終身有效的表觀遺傳記錄，記錄著類似牛皮癣的皮膚炎症。這些記憶不僅僅是過去的回憶，它們會改變組織對未來壓力的敏感度，就像在基因裡設置了一個永久的警報系統。\n\n透過深度學習分析染色質動態，研究團隊發現CpG二核苷酸密度是記憶持久性的主要驅動因素。有趣的是，這些富含CpG的序列在炎症誘導的轉錄因子打開並建立初始記憶時並非必需，但之後卻變得至關重要。它們整合了DNA去甲基化、對甲基化敏感的轉錄因子、序列固有的核小體不親和力以及破壞核小體穩定的組蛋白變體H2A.Z，從而確保記憶能夠跨越細胞世代傳遞。這就像一個精密的基因時鐘，一旦被炎症啟動，就會持續影響應激敏感基因的表達，深刻影響組織在面臨挑戰時的健康狀態。",
+      "en": "Our tissues carry molecular memories of past inflammatory assaults, sensitizing them to future challenges. In a groundbreaking study published in Science, researchers have discovered that mouse epidermal stem cells maintain lifelong, functional epigenetic records of psoriasis-like skin inflammation. These memories are not merely transient responses but become embedded in the cellular architecture, creating a lasting legacy that influences tissue behavior across an organism's lifespan.\n\nEmploying deep learning to analyze chromatin dynamics, the research team identified CpG dinucleotide density as a crucial factor in memory persistence. Intriguingly, while CpG-enriched sequences are unnecessary for initial memory establishment by inflammation-induced transcription factors, they become essential afterward. These regions integrate multiple mechanisms—DNA demethylation, methylation-sensitive transcription factors, sequence-intrinsic nucleosome disaffinity, and the nucleosome-destabilizing histone variant H2A.Z—to reinforce chromatin accessibility across cellular generations. This creates what the researchers term 'persistent poise,' a primed state that enables stress-sensitive genes to respond more robustly to future inflammatory challenges, fundamentally shaping tissue fitness throughout an organism's life."
+    },
+    "keyArticle": {
+      "title": "Distinctive DNA sequence features define epigenetic longevity of inflammatory memory",
+      "authors": [
+        "Christopher Cowley",
+        "Sairaj M. Sajjath",
+        "Luis F. Soto-Ugaldi",
+        "Mara Steiger",
+        "Samantha B. Larsen",
+        "Thomas Carroll",
+        "Douglas Barrows",
+        "Alexandra L. Mattei",
+        "Kevin AU Gonzales",
+        "Wei Wang",
+        "Kevin Li",
+        "Alexander Meissner",
+        "Helene Kretzmer",
+        "D. Pe’er",
+        "Elaine Fuchs"
+      ],
+      "doi": "10.1126/science.adz6830",
+      "pages": "eadz6830"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz6830",
+      "doi": "https://doi.org/10.1126/science.adz6830"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-01T19:59:46.648415+00:00",
+    "source": "openalex"
+  }
+}
