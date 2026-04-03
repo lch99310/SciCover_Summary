@@ -337,9 +337,38 @@ class OpenAlexFetcher:
         handle.  Institutional repositories (DSpace, university repos, etc.)
         are excluded because they rarely provide scrapable full text.
 
-        For Elsevier journals (DOI prefix 10.1016/), also queries the
-        bioRxiv pubs API to discover preprints not listed in OpenAlex
-        locations — Cell articles almost always have a bioRxiv version.
+        This method performs external API calls (bioRxiv, Crossref, Semantic
+        Scholar) as a fallback — use :meth:`_has_preprint_fast` for ranking
+        where speed matters.
+        """
+        # Fast check: OpenAlex locations (no API calls).
+        fast = self._has_preprint_fast(work)
+        if fast:
+            return fast
+
+        # Slow fallback: external API lookups (bioRxiv, Crossref, Semantic
+        # Scholar).  Only called for the ~1 candidate we actually process.
+        doi = (work.get("doi") or "").replace("https://doi.org/", "")
+        if doi:
+            try:
+                from .biorxiv_api import find_preprint
+                preprint_url = find_preprint(doi)
+                if preprint_url:
+                    return preprint_url
+            except Exception as exc:
+                logger.debug("Preprint API lookup failed for %s: %s", doi, exc)
+
+        return ""
+
+    @staticmethod
+    def _has_preprint_fast(work: Dict[str, Any]) -> str:
+        """Check OpenAlex locations for a preprint URL (no API calls).
+
+        This is the fast path used during candidate ranking to avoid
+        making hundreds of external API calls for all 50 candidates.
+        Only checks data already present in the OpenAlex response.
+
+        Returns the preprint URL if found, or empty string.
         """
         _PREPRINT_SERVERS = (
             "arxiv", "biorxiv", "medrxiv", "chemrxiv",
@@ -353,24 +382,10 @@ class OpenAlexFetcher:
             if not landing:
                 continue
 
-            # Only match known preprint server domains.
             landing_lower = landing.lower()
             for server in _PREPRINT_SERVERS:
                 if server in landing_lower:
                     return landing
-
-        # Fallback: query bioRxiv / medRxiv pubs API for ALL DOIs.
-        # Many Science, Nature, Cell articles have preprints that OpenAlex
-        # doesn't always list in locations.
-        doi = (work.get("doi") or "").replace("https://doi.org/", "")
-        if doi:
-            try:
-                from .biorxiv_api import find_preprint
-                preprint_url = find_preprint(doi)
-                if preprint_url:
-                    return preprint_url
-            except Exception as exc:
-                logger.debug("bioRxiv/medRxiv API lookup failed for %s: %s", doi, exc)
 
         return ""
 
@@ -424,7 +439,10 @@ class OpenAlexFetcher:
                 best_oa.get("pdf_url") or primary_loc.get("pdf_url")
             )
             has_fulltext = bool(work.get("has_fulltext"))
-            has_preprint = bool(self.get_preprint_url(work))
+            # Fast path: only check OpenAlex locations, no external API
+            # calls.  Full preprint discovery happens later for the
+            # selected candidate in _work_to_raw() / get_preprint_url().
+            has_preprint = bool(self._has_preprint_fast(work))
 
             if has_fulltext and has_pdf:
                 tier1.append(work)

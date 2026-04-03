@@ -381,7 +381,7 @@ def extract_image_from_html(
             logger.debug("Article URL did not return HTML (Content-Type: %s)", ct)
             return None
     except requests.RequestException as exc:
-        logger.debug("Failed to fetch article HTML for image: %s", exc)
+        logger.info("HTML image fetch failed for %s: %s", article_url, exc)
         return None
 
     soup = BeautifulSoup(resp.text, "lxml")
