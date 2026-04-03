@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2025-12-02",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-02",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "「別無選擇」：歐洲研究的軍事化與人工智能的崛起",
+      "en": "'The Choice is None': AI and the Militarization of European Research"
+    },
+    "summary": {
+      "zh": "【總結】\n本文揭示了歐洲研究正經歷一場深刻的軍事化轉型，特別是在人工智能領域。作者瓦倫蒂娜·卡拉羅指出，歐盟委員會正在將大量研究資金重新分配給軍事和國防相關項目，形成了一種「歐洲軍事-產業-學術複合體」。這一轉型標誌著歐盟從傳統上強調和平合作與國際協調的政策，轉向強調地緣政治競爭和軍事實力的新方向，對學術自主性和研究自由構成嚴重威脅。\n\n【研究問題】\n文章探討的核心問題是：為什麼歐洲研究正在軍事化，特別是人工智能領域？過去的研究往往關注個別國家的軍事工業複合體（如英國和法國），卻忽略了歐盟層面正在形成的跨國軍事-產業-學術複合體。這一問題至關重要，因為它不僅影響學術研究的方向和性質，還可能改變歐洲科學研究的整體氛圍，使科學家被迫參與可能導致傷亡的技術開發。\n\n【研究方法】\n作者採用了政策分析和實地考察相結合的研究方法。自2025年3月以來，作者透過分析歐盟政策文件，並參加專業會議和貿易展覽，研究軍事化與人工智能技術之間的相互作用。作者還運用了歷史比較分析法，將當前歐洲的發展與美國冷戰時期的軍事-產業-學術複合體進行比較，並與歐洲核子研究組織（CERN）的建立原則進行對比，以說明當前政策轉型的歷史意義和潛在風險。\n\n【結果】\n研究發現，在短短五年內，歐盟軍事研究資金大幅增加：歐洲防務基金（EDF）預算近80億歐元，2025年又增加15億歐元；地平線歐洲研究計畫預算從937億歐元（2021-2027）增加到1750億歐元（2028-2034）。歐洲創新理事會（EIC）將於2026年啟動一個模仿美國國防高等研究計畫署（DARPA）的資助機制。這些資金轉向不僅反映了政策的變化，還意味著研究資源從純粹科學探索轉向可能用於武器開發的技術，威脅到學術自主性和研究自由。作者警告，這種軍事化趨勢可能導致歐洲科學研究的「玻璃屋」原則被打破，使科學研究失去透明度和中立性。",
+      "en": "**Summary:**\nThis article reveals a profound militarization of European research, particularly in the field of artificial intelligence. Author Valentina Carraro demonstrates how the European Commission is redirecting substantial research funding toward military and defense projects, forming an \"EU military-industrial-academic complex.\" This shift represents a dramatic departure from the EU's traditional emphasis on peaceful cooperation and international coordination toward a new paradigm prioritizing geopolitical competition and military capability, posing serious threats to academic autonomy and research freedom.\n\n**Problem:**\nThe central question addressed is: Why is European research becoming militarized, especially in AI? Previous research has examined national military-industrial complexes (such as in the UK and France) but overlooked the emerging transnational military-industrial-academic complex forming at the EU level. This is critically important because it affects not only the direction and nature of academic research but potentially transforms the broader environment for European science, compelling scientists to participate in technologies that could be used to kill people.\n\n**Approach:**\nThe author employs a combination of policy analysis and field research. Since March 2025, Carraro has analyzed EU policy documents while attending professional conferences and trade fairs to study the interplay between militarization and AI technologies. The research also utilizes historical comparative analysis, drawing parallels between current developments in Europe and the US Cold War military-industrial-academic complex, while contrasting these with the founding principles of CERN to illuminate the historical significance and potential risks of the current policy shift.\n\n**Results:**\nThe study finds that in just five years, EU military research funding has significantly increased: the European Defence Fund (EDF) has a budget of nearly €8 billion, supplemented by an additional €1.5 billion in 2025, while the Horizon Europe research program budget has grown from €93.7 billion (2021-2027) to €175 billion (2028-2034). The European Innovation Council (EIC) will pilot a funding mechanism in 2026 modeled after the US Defense Advanced Research Projects Agency (DARPA). This funding reallocation signifies not just policy changes but a redirection of resources from pure scientific inquiry to potentially weaponizable technologies, threatening academic autonomy. The author warns that this militarization trend could dismantle the \"glass house\" principle that has protected European scientific research from political and military influences."
+    },
+    "keyArticle": {
+      "title": "“The choice is none”: AI and the militarization of European research",
+      "authors": [
+        "Valentina Carraro"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103466",
+      "pages": "103466"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103466",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103466"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-03T11:50:40.069768+00:00",
+    "source": "openalex"
+  }
+}

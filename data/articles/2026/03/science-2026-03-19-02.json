@@ -1,0 +1,62 @@
+{
+  "id": "science-2026-03-19-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6791",
+  "date": "2026-03-19",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "突破免疫耐受：科學家開發「抓住鍵」工程技術，賦能T細胞高效攻擊腫瘤",
+      "en": "Breaking Immune Tolerance: Scientists Develop 'Catch Bond' Engineering to Supercharge T Cells Against Tumors"
+    },
+    "summary": {
+      "zh": "【總結】這項研究開創了一種名為「catch bond engineering」的創新技術，成功克服了T細胞對腫瘤自我抗原的耐受性。研究團隊開發了一套三步驟工作流程，能夠增強T細胞受體（TCR）對腫瘤抗原的敏感性，同時保持生理性低親和力，避免傳統親和力成熟技術可能導致的脱靶效應。這項突破為癌症免疫治療開闢了新途徑，特別是針對那些表達腫瘤相關抗原（TAA）的癌症類型，如前列腺癌。\n\n【研究問題】傳統的T細胞治療面臨一個根本性挑戰：腫瘤相關抗原（TAA）實際上是「自我抗原」，身體的免疫系統會自然地刪除對這些抗原具有高細胞毒性的T細胞，這種稱為「中央耐受性」的機制限制了T細胞對腫瘤的攻擊能力。雖然親和力成熟技術可以增強T細胞的腫瘤殺傷能力，但會改變TCR對pMHC的識別方式，增加了脱靶反應和臨床毒性的風險。如何在不增加親和力的情況下，突破這種耐受性屏障，是癌症免疫治療領域亟待解決的難題。\n\n【研究方法】研究團隊開發了一套不依賴結構資訊的三步驟catch bond工程化工作流程：首先，系統性掃描TCR CDR環上的每個氨基酸，用極性氨基酸天冬酰胺（N）、組氨酸（H）或谷氨酸（E）進行取代；其次，對鑑定出的「熱點」位置進行基因洗牌，產生TCR變體庫；最後，對關鍵位置進行位点飽和突變。研究團隊使用SKW-3報細胞系進行功能篩選，選擇那些能增強CD69表達但不增加親和力的變體。通過生物膜力探針（BFP）測量二維鍵壽命，並使用表面等離子體共振（SPR）測量三維親和力，結合分子動力學模擬和結晶學分析，揭示了catch bond形成的機制。\n\n【結果】研究團隊成功鑑定出TCRα鏈CDR1上的兩個關鍵突變位點（Ser30和Ser32），其中Ser32突變顯著增強了T細胞功能。最有效的變體S32Mα和S30E32Qα在10pN力下的鍵壽命從野生型的0.2秒延長至約5秒，同時保持生理性親和力範圍（Kd~5-50μM）。在體外實驗中，這些「超強化」TCR變體在效應物與靶細胞比例低至1:16的情況下仍能有效殺死前列腺癌細胞，並在NSG小鼠模型中顯著延緩或完全抑制腫瘤生長。單細胞RNA测序分析顯示，這些變體賦予了T細胞增強的效應功能和增殖能力，同時減少了向功能耗竭狀態的轉化。結構分析和分子動力學模擬顯示，這些突變通過重組水分子網絡，增強了與PAP肽段的間接相互作用，從而促進了catch bond的形成。",
+      "en": "**Summary:** This research introduces a groundbreaking approach called \"catch bond engineering\" that successfully overcomes T cell tolerance to tumor self-antigens. The research team developed a three-step workflow that enhances T cell receptor (TCR) sensitivity to tumor antigens while maintaining physiological low affinity, avoiding the off-target effects associated with traditional affinity maturation techniques. This breakthrough opens new avenues for cancer immunotherapy, particularly for cancers expressing tumor-associated antigens (TAAs) such as prostate cancer.\n\n**Problem:** Conventional T cell therapies face a fundamental challenge: tumor-associated antigens (TAAs) are essentially \"self-antigens,\" and the body's immune system naturally eliminates T cells highly cytotoxic to these antigens through a mechanism called \"central tolerance.\" While affinity maturation can enhance tumor-killing capabilities, it alters how TCRs recognize pMHC complexes, increasing the risk of off-target reactivity and clinical toxicity. How to break through this tolerance barrier without increasing affinity has been a critical unsolved problem in cancer immunotherapy.\n\n**Approach:** The research team developed a three-step catch bond engineering workflow that doesn't require structural information: first, systematically scanning each amino acid on TCR CDR loops by substituting them with polar amino acids (Asparagine, Histidine, or Glutamic acid); second, performing gene shuffling of identified hotspot positions to create TCR variant libraries; third, conducting site saturation mutagenesis at key positions. The team used SKW-3 reporter cell lines for functional selection, choosing variants that enhanced CD69 expression without increasing affinity. By combining Biomembrane Force Probe (BFP) measurements of 2D bond lifetime with surface plasmon resonance (SPR) for 3D affinity, alongside molecular dynamics simulations and crystallographic analysis, they revealed the mechanism of catch bond formation.\n\n**Results:** The research team successfully identified two key mutation sites on the TCRα chain CDR1 (Ser30 and Ser32), with Ser32 mutations significantly enhancing T cell function. The most effective variants, S32Mα and S30E32Qα, extended bond lifetime under force from 0.2 seconds in wild-type to approximately 5 seconds at 10 pN, while maintaining physiological affinity ranges (Kd~5-50μM). In vitro experiments showed these \"turbocharged\" TCR variants effectively killed prostate cancer cells even at low effector-to-target ratios (1:16), and significantly delayed or completely inhibited tumor growth in NSG mouse models. Single-cell RNA sequencing analysis revealed these variants endowed T cells with enhanced effector functions and proliferation capacity while reducing progression toward dysfunctional states. Structural analysis and molecular dynamics simulations demonstrated these mutations enhance indirect interactions with the PAP peptide through water network reorganization, facilitating catch bond formation."
+    },
+    "keyArticle": {
+      "title": "Overcoming T cell tolerance to tumor self-antigens through catch-bond engineering",
+      "authors": [
+        "Xiaojing Chen",
+        "Zhiyuan Mao",
+        "E. Motunrayo Kolawole",
+        "Margherita Persechino",
+        "Kevin M. Jude",
+        "Masato Ogishi",
+        "Kelvin C. Mo",
+        "Jami McLaughlin",
+        "Donghui Cheng",
+        "Xinyu Xiang",
+        "Xinbo Yang",
+        "Caitlin Gee",
+        "Shiqin Liu",
+        "Aerin Yang",
+        "Matthias Obenaus",
+        "Nan Wang",
+        "Miyako Noguchi",
+        "Tanya Stoyanova",
+        "John K. Lee",
+        "Zinaida Good",
+        "Naomi R. Latorraca",
+        "Brian D. Evavold",
+        "OwenN Witte",
+        "K. Christopher Garcia"
+      ],
+      "doi": "10.1126/science.adx3162",
+      "pages": "eadx3162"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx3162",
+      "doi": "https://doi.org/10.1126/science.adx3162"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-03T11:32:06.953077+00:00",
+    "source": "openalex"
+  }
+}

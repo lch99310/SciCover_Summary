@@ -1,0 +1,40 @@
+{
+  "id": "international-organization-2026-01-01-06",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "怨憊的地理學：工業中心如何放大政治不滿",
+      "en": "The Geography of Grievance: How Industrial Hubs Amplify Political Discontent"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破性地揭示了地理集中產業（工業中心）如何放大政治不滿情緒，挑戰了傳統上將工業中心視為創新與生產力源泉的主流敘事。研究發現，當這些產業面臨結構性衝擊時，它們可能轉化為政治不滿的溫床，解釋了為何某些經濟衝擊會引發劇烈政治變革，而另一些則被輕易忽視。這項研究為理解近年來發達國家民粹主義興起提供了新的理論基礎，對政治經濟學領域具有重要貢獻。\n\n【研究問題】文章探討的核心問題是：為什麼某些經濟衝擊會產生重大政治後果，如顛覆選舉並催生極端候選人，而其他衝擊則僅被視為結構性變化？過去的研究往往關注個體經濟因素或文化議題，卻忽略了地理集中產業如何塑造區域認同這一關鍵中介變量。解決這個問題至關重要，因為它有助於解釋全球化和技術變革背後的政治不穩定性，以及民粹主義興起的根本原因。\n\n【研究方法】作者結合了多種實證方法：首先，分析2000-2016年美國通勤區的數據，確認工業中心確實承受了不成比例的就業損失；其次，通過三項原創性調查（樣本超過7,300名美國人），詢問受訪者高中同學在相同產業工作的人數，以衡量社交網絡密度；第三，探討經濟衝擊對區域地位感知的影響；最後，將這些態度與選舉行為數據連結。研究使用貿易調整援助（TAA）請求數據精確測量經濟衝擊，並採用區位商數（LQ）確定工業中心。\n\n【結果】研究發現：1）過去二十年，美國工業中心經歷的就業損失超過了收益，33.8%的通勤區的工業中心遭受了TAA相關衝擊；2）工業中心地區的工人擁有更稠密的社交網絡，並更認為政治家應對防止裁員負責；3）同等規模的經濟衝擊在工業中心被感知為對區域地位的更大威脅；4）工業中心就業損失與對共和黨候選人的支持顯著相關，而同等損失在非中心產業則無此效應。這些發現表明，經濟衝擊的政治後果並非均質，取決於損失是否影響與區域身份緊密相連的產業。",
+      "en": "**Summary:** This study breakthroughly reveals how geographically concentrated industries (industrial hubs) amplify political discontent, challenging the dominant narrative of industrial hubs as mere fountains of innovation and productivity. The research demonstrates that when these industries face structural shocks, they can transform into breeding grounds for political resentment, explaining why certain economic shocks trigger dramatic political transformations while others are dismissed as mere structural change. This work provides a new theoretical foundation for understanding the rise of populism in developed countries, offering significant contributions to the field of political economy.\n\n**Problem:** The article addresses the central puzzle: why do some economic shocks have profound political consequences—upturning elections and ushering in radical candidates—while others are brushed off as structural change? Previous research has typically focused on either individual economic factors or cultural issues, overlooking how geographically concentrated industries shape regional identity as a crucial mediating variable. Solving this problem is essential because it helps explain the political instability underlying globalization and technological change, as well as the fundamental drivers of populist resurgence.\n\n**Approach:** The authors employed a multi-method approach: first, they analyzed data from US commuting zones from 2000-2016, confirming that industrial hubs indeed bore disproportionate employment losses; second, they conducted three original surveys with over 7,300 Americans, asking respondents about high-school peers working in their industry to measure network density; third, they examined how economic shocks affect perceptions of regional standing; finally, they linked these attitudes to electoral behavior data. The research used Trade Adjustment Assistance (TAA) petition data to precisely measure economic shocks and employed location quotients (LQs) to identify industrial hubs.\n\n**Results:** Key findings include: 1) Over the past two decades, US industrial hubs experienced more job losses than gains, with 33.8% of commuting zones suffering TAA-related shocks to their industrial hubs; 2) Workers in hub regions have denser social networks and are more likely to believe politicians should prevent layoffs; 3) Economic shocks of equivalent magnitude are perceived as more damaging to regional standing when they occur in industrial hubs; 4) Employment losses in industrial hubs correlate strongly with support for Republican candidates, while equivalent losses in non-hub industries show no such effect. These findings demonstrate that the political consequences of economic shocks are not uniform—they depend critically on whether losses affect industries closely tied to regional identity."
+    },
+    "keyArticle": {
+      "title": "Geography of Grievance: Industrial Hubs Magnify Political Discontent",
+      "authors": [
+        "Sung Eun Kim",
+        "Krzysztof Pelc"
+      ],
+      "doi": "10.1017/s0020818325101203",
+      "pages": "1-37"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101203",
+      "doi": "https://doi.org/10.1017/s0020818325101203"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-03T11:57:19.696269+00:00",
+    "source": "openalex"
+  }
+}

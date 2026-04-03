@@ -1,0 +1,92 @@
+{
+  "id": "nature-2026-03-25-05",
+  "journal": "Nature",
+  "volume": "651",
+  "issue": "8107",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-25-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "舊石器時代晚期：狗已遍布西歐亞大陸",
+      "en": "Dogs Were Widespread Across Western Eurasia During the Palaeolithic"
+    },
+    "summary": {
+      "zh": "【總結】這項研究通過分析來自土耳其、英國和塞爾維亞多個史前遺址的犬類遺骸的基因組數據，首次提供了確鑿的證據證明狗在西歐亞大陸的舊石器時代晚期（距今約15,800至14,300年前）就已經廣泛分布。研究發現，當時存在一個基因上均質的狗群體，並且在不同基因和文化特徵的人類群體之間進行了交換。這項突破性發現將狗被馴養的確切時間推前了數千年，並揭示了人類與狗之間早期關係的複雜性。\n\n【研究問題】過去的研究一直存在一個關鍵問題：狗究竟何時、何地被馴養？儘管考古證據顯示狗可能早在15,000多年前就已從狼群中分化出來，但最早確鑿的基因證據僅能追溯到距今約10,900年前的新石器時代。這一研究缺口使得科學家難以確定狗的馴養過程以及早期人類與狗的關係如何發展。解決這一問題不僅有助於理解動物馴養的歷史，還能揭示早期人類社會的文化交流網絡。\n\n【研究方法】研究團隊採用了多種先進技術對來自多個考古遺址的犬類遺骸進行了分析。他們對來自土耳其Pınarbaşı（15,800年前）、英國Gough's Cave（14,300年前）以及塞爾維亞Mesolithic遺址（11,500-7,900年前）的犬類遺骸進行了放射性碳定年和基因組測序。研究團隊還採用穩定同位素分析技術重建了這些古代犬類的飲食模式，並通過系統發育分析和人群結構分析比較了不同地區和時間的狗群體遺傳關係。這些多學科方法的結合為研究提供了全面而可靠的證據鏈。\n\n【結果】研究發現，來自土耳其和英國的古代狗在基因上高度相似，儘管它們來自不同地理區域和不同文化背景的人類群體。這表明狗在舊石器時代晚期已經在一個相對均質的群體中繁殖，並且在不同人類群體之間進行了交換。同位素分析顯示，這些狗的飲食模式與當地人類有相似之處，表明它們已經與人類建立了密切的關係。此外，研究發現東歐亞狗的血統在新石器時代進入歐洲，導致現代歐洲狗群體的主要祖先特徵得以確立。這些發現不僅證實了狗在舊石器時代已經被馴養，還揭示了狗的馴養是一個複雜的、涉及多個人類群體的文化過程。",
+      "en": "**Summary:** This groundbreaking study provides definitive genomic evidence that dogs were widely distributed across western Eurasia during the Late Upper Paleolithic period (approximately 15,800-14,300 years ago). By analyzing ancient canid remains from multiple sites—including Pınarbaşı in Türkiye (15,800 years ago), Gough's Cave in the UK (14,300 years ago), and Mesolithic sites in Serbia—researchers demonstrated that a genetically homogeneous dog population already existed across Europe and Anatolia by at least 14,300 years ago. This finding suggests that dogs were exchanged among genetically and culturally distinct human populations, representing a significant breakthrough in understanding the timeline and process of dog domestication.\n\n**Problem:** The study addresses a long-standing controversy in archaeology and genetics regarding when and where dogs were first domesticated. While archaeological evidence suggested dogs diverged from wolves during the Paleolithic more than 15,000 years ago, the earliest definitive genetic evidence was only dated to approximately 10,900 years ago in the Mesolithic period. This gap created uncertainty about the domestication process and early human-dog relationships. Resolving this question is crucial not only for understanding animal domestication but also for reconstructing ancient human cultural networks and social interactions.\n\n**Approach:** The researchers employed an interdisciplinary approach combining ancient DNA analysis, radiocarbon dating, stable isotope analysis, and population genetics. They extracted and sequenced nuclear and mitochondrial genomes from canid remains across multiple archaeological sites. Using specialized techniques like principal component analysis, ADMIXTURE analysis, and phylogenetic reconstruction, they compared ancient canid DNA with modern and ancient dog and wolf genomes. Additionally, they conducted stable isotope analysis of bone collagen to reconstruct dietary patterns and assess human-dog relationships. This comprehensive methodology allowed them to confidently identify ancient dogs and trace their population history across time and space.\n\n**Results:** The study revealed that dogs from Pınarbaşı (Türkiye) and Gough's Cave (UK)—despite being from opposite ends of the known distribution and associated with different human populations—were genetically more similar to each other than to any other ancient dogs. This indicates a widespread, homogeneous dog population that expanded across western Eurasia between 18,500 and 14,000 years ago. The researchers also identified a major influx of eastern Eurasian dog ancestry during the Mesolithic, coinciding with the movement of eastern hunter-gatherer populations into Europe. Notably, they found that dogs had already become reproductively isolated from wolves by the Late Upper Paleolithic, with minimal wolf ancestry in ancient and modern dog genomes. These findings fundamentally reshape our understanding of dog domestication as a complex cultural process involving multiple human populations."
+    },
+    "keyArticle": {
+      "title": "Dogs were widely distributed across western Eurasia during the Palaeolithic",
+      "authors": [
+        "William A Marsh",
+        "Lachie Scarsbrook",
+        "Eren Yüncü",
+        "Lizzie Hodgson",
+        "Audrey T. Lin",
+        "Maria De Iorio",
+        "Olaf Thalmann",
+        "Mark G. Thomas",
+        "Mahaut Goor",
+        "Anders Bergström",
+        "Angela Noseda",
+        "Sarieh Amiri",
+        "Fereidoun Biglari",
+        "Dušan BORIĆ",
+        "Katia Bougiouri",
+        "Alberto Carmagnini",
+        "Maddalena Giannì",
+        "Tom Higham",
+        "Ophélie Lebrasseur",
+        "Anna Linderholm",
+        "Marcello A. Mannino",
+        "Caroline Middleton",
+        "Gökhan Mustafaoğlu",
+        "Angela Perri",
+        "Joris Peters",
+        "Mike Richards",
+        "Özlem Sarıtaş",
+        "Pontus Skoglund",
+        "Rhiannon E. Stevens",
+        "Chris Stringer",
+        "Kristina Tabbada",
+        "Helen M. Talbot",
+        "Laura G. Van der Sluis",
+        "Silvia M. Bello",
+        "Vesna Dimitrijevic",
+        "Louise Martin",
+        "Marjan Mashkour",
+        "Simon A. Parfitt",
+        "Sonja Vuković",
+        "Selina Brace",
+        "Oliver E. Craig",
+        "Douglas Baird",
+        "Sophy Charlton",
+        "Greger Larson",
+        "Ian Barnes",
+        "Laurent Frantz"
+      ],
+      "doi": "10.1038/s41586-026-10170-x",
+      "pages": "995-1003"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-25-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10170-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10170-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-03T11:41:08.850481+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cell-2026-01-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "開花植物基因表達演化的驚人速度：演化轉錄組學揭示新視角",
+      "en": "Surprising Speed of Gene Expression Evolution in Flowering Plants: Evolutionary Transcriptomics Reveals New Perspectives"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究透過分析七種開花植物發展過程中的轉錄組數據，橫跨一億六千萬年的演化歷史，首次揭示了開花植物基因表達模式演化的驚人速度。研究發現，與哺乳動物相比，開花植物的基因表達演化速率更快，特別是那些參與對內在和環境刺激反應的基因，這些基因的快速變異促進了生態適應性和物種形成。這項研究不僅填補了開花植物快速演化分子機制的研究空白，還為跨物種比較提供了寶貴的數據資源。\n\n【研究問題】\n為什麼開花植物能在相對短時間內演化出如此多的物種（超過30萬種）？傳統觀點認為這主要是由於基因編碼序列的改變，但這無法完全解釋開花植物的快速演化。過去的研究主要集中於哺乳動物的基因表達演化，而忽略了植物王國。這項研究旨在探討開花植物基因表達模式的演化速率是否與哺乳動物不同，以及哪些基因類型在演化過程中表達變化最為顯著。\n\n【研究方法】\n研究團隊對七種開花植物（包括擬南芥、離瓣芥、鹽芥、塔雷納亞哈斯勒利亞、苜蓿和二穗短柄草）的八種器官進行了轉錄組測序，獲得了303個樣本的基因表達數據。他們建立了包含7,003個單拷貝直系同源基因的數據集，通過比較不同物種間基因表達模式的差異，計算表達距離，並使用Ornstein-Uhlenbeck模型和負指數增長模型來量化基因表達的演化速率。此外，他們還分析了非編碼RNA的表達模式演化。\n\n【結果】\n研究發現開花植物的基因表達演化速率顯著高於哺乳動物（p = 7 × 10^-4）。在植物器官中，花藥和花粉的表達演化速率最快，而分生組織器官（頂端分生組織和花序頂端）和葉片的演化速率較慢。參與對內在和環境刺激反應的基因表達變化速率最高，這些基因的快速變異促進了寬泛的生態耐受性、適應性演化和物種形成。有趣的是，表達水平最高和最低的基因表達模式最為保守，而中等表達水平的基因表達變化最大。此外，非編碼RNA的表達演化速率比編碼RNA快約兩倍。",
+      "en": "**Summary:**\nThis groundbreaking research reveals the surprisingly rapid evolution of gene expression patterns in flowering plants by analyzing developmental transcriptomes across seven species spanning 160 million years of evolution. The study demonstrates that angiosperm protein-coding gene expression diverges at a significantly faster rate than previously observed in mammals, particularly for genes involved in responding to internal and environmental stimuli. These rapid changes in expression patterns contribute to broad ecological tolerances, adaptive evolution, and speciation. This work not only addresses a major gap in understanding the molecular mechanisms behind angiosperm diversification but also provides a comprehensive resource for cross-kingdom comparative studies of transcriptome evolution.\n\n**Problem:**\nFlowering plants have diversified extraordinarily quickly, producing over 300,000 species compared to only about 6,649 mammalian species. While previous hypotheses suggested this rapid diversification might be due to changes in gene coding sequences, this couldn't fully explain the phenomenon. Past research on gene expression evolution has primarily focused on mammals, largely ignoring plant systems. This study sought to determine whether gene expression patterns evolve at different rates in plants versus animals and to identify which functional categories of genes show the most rapid expression divergence, potentially explaining angiosperm ecological success.\n\n**Approach:**\nThe researchers conducted RNA sequencing on eight different organs from seven angiosperm species, creating a comprehensive dataset with 303 transcriptome samples. They identified 7,003 one-to-one orthologous protein-coding genes present across all species for comparative analysis. Using Pearson correlation distances and an Ornstein-Uhlenbeck model, they quantified the rate of expression evolution across species and organs. They also analyzed the evolution of non-coding RNA expression patterns. The experimental design carefully selected species to provide comparable evolutionary distances to mammalian studies in previous research, enabling direct cross-kingdom comparisons.\n\n**Results:**\nThe study found that angiosperm gene expression evolves significantly faster than in mammals (p = 7 × 10^-4). Among plant organs, stamens and pollen showed the highest rates of expression evolution, while meristematic tissues and leaves evolved more slowly. Genes involved in responding to endogenous and environmental stimuli exhibited particularly rapid changes in expression, promoting ecological flexibility and speciation. Intriguingly, genes with either very high or very low expression levels showed the most conserved expression patterns, while moderately expressed genes diverged most rapidly. Additionally, non-coding RNA expression evolved approximately twice as fast as protein-coding RNA, suggesting these regulatory elements play a crucial role in adaptive evolution."
+    },
+    "keyArticle": {
+      "title": "Evolutionary transcriptomics unveils rapid changes of gene expression patterns in flowering plants",
+      "authors": [
+        "Christoph Schuster",
+        "Alexander Gabel",
+        "Drost Hajk-Georg",
+        "Ivo Große",
+        "Ottoline Leyser",
+        "Elliot M. Meyerowitz"
+      ],
+      "doi": "10.1016/j.cell.2025.12.015",
+      "pages": "375-385.e14"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.015",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.015"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-03T11:46:37.373697+00:00",
+    "source": "openalex"
+  }
+}
