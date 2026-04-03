@@ -386,10 +386,11 @@ class OpenAlexFetcher:
         Results arrive sorted by ``publication_date:desc`` (newest first).
 
         Tier order (best first):
-          1. has_fulltext + PDF + abstract
-          2. preprint + abstract
-          3. PDF + abstract
-          4. abstract only
+          1. has_fulltext + PDF + abstract — best: OpenAlex has cached text
+          2. preprint + abstract — reliable: full text from preprint server
+          3. has_fulltext (no PDF) + abstract — OpenAlex TEI may work
+          4. PDF + abstract — can extract text from PDF
+          5. abstract only — last resort, only abstract available
 
         Only articles from the last ``_RECENT_DAYS`` days are included.
         If none exist, the single newest article with an abstract is returned.
@@ -402,6 +403,7 @@ class OpenAlexFetcher:
         tier2: List[Dict[str, Any]] = []
         tier3: List[Dict[str, Any]] = []
         tier4: List[Dict[str, Any]] = []
+        tier5: List[Dict[str, Any]] = []
 
         for work in results:
             doi = work.get("doi") or ""
@@ -428,12 +430,14 @@ class OpenAlexFetcher:
                 tier1.append(work)
             elif has_preprint:
                 tier2.append(work)
-            elif has_pdf:
+            elif has_fulltext:
                 tier3.append(work)
-            else:
+            elif has_pdf:
                 tier4.append(work)
+            else:
+                tier5.append(work)
 
-        ranked = tier1 + tier2 + tier3 + tier4
+        ranked = tier1 + tier2 + tier3 + tier4 + tier5
 
         if not ranked:
             # No recent candidates — fall back to newest with abstract.
@@ -452,16 +456,24 @@ class OpenAlexFetcher:
 
         # Log the top pick.
         top = ranked[0]
-        tag = (
-            "has_fulltext + PDF + abstract" if top in tier1
-            else "has preprint + abstract" if top in tier2
-            else "has PDF + abstract" if top in tier3
-            else "abstract only"
-        )
+        _TIER_LABELS = {
+            id(tier1): "has_fulltext + PDF + abstract",
+            id(tier2): "has preprint + abstract",
+            id(tier3): "has_fulltext (no PDF) + abstract",
+            id(tier4): "has PDF + abstract",
+            id(tier5): "abstract only",
+        }
+        tag = "unknown"
+        for tier in (tier1, tier2, tier3, tier4, tier5):
+            if top in tier:
+                tag = _TIER_LABELS[id(tier)]
+                break
         logger.info(
-            "%s: top candidate '%s' (%s, %s) — %d total candidates",
+            "%s: top candidate '%s' (%s, %s) — %d total candidates "
+            "[T1=%d T2=%d T3=%d T4=%d T5=%d]",
             journal_name, top.get("display_name", "")[:60],
             tag, top.get("publication_date", ""), len(ranked),
+            len(tier1), len(tier2), len(tier3), len(tier4), len(tier5),
         )
         return ranked
 

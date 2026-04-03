@@ -78,6 +78,8 @@ def extract_thumbnail_from_urls(
          (og:image, graphical abstract, figures).
       3. If article_url fails, try the DOI URL (``https://doi.org/...``)
          which may redirect to a different endpoint that allows access.
+      4. If HTML extraction also fails, try the Crossref thumbnail API
+         (public metadata, no scraping required).
     """
     for url in pdf_urls:
         result = extract_thumbnail_from_pdf(
@@ -98,6 +100,12 @@ def extract_thumbnail_from_urls(
 
     for html_url in html_urls_to_try:
         result = extract_image_from_html(html_url, output_path, timeout=timeout)
+        if result is not None:
+            return result
+
+    # Last resort: Crossref thumbnail (public API, no scraping).
+    if doi:
+        result = _fetch_crossref_thumbnail(doi, output_path, timeout=timeout)
         if result is not None:
             return result
 
@@ -359,8 +367,12 @@ def extract_image_from_html(
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
 
+    # Pre-warm the session with the article URL to acquire cookies first,
+    # then fetch.  This helps with publishers that set session cookies
+    # before serving the full HTML (e.g. science.org, nature.com).
+    session = _build_session(article_url)
+
     try:
-        session = _build_session()  # fresh session (no pre-warm needed)
         resp = session.get(article_url, timeout=timeout, allow_redirects=True)
         resp.raise_for_status()
 
@@ -373,23 +385,24 @@ def extract_image_from_html(
         return None
 
     soup = BeautifulSoup(resp.text, "lxml")
+    final_url = resp.url  # Use the final redirected URL as base for relative URLs.
 
     # Strategy 1: OpenGraph / Twitter meta tags (most reliable — works on
     # virtually every publisher page, even JS-rendered ones, because meta
     # tags are always in the initial HTML).
-    img_url = _find_meta_image(soup, article_url)
+    img_url = _find_meta_image(soup, final_url)
 
     # Strategy 2: Look for graphical abstract / TOC image.
     if not img_url:
-        img_url = _find_graphical_abstract(soup, article_url)
+        img_url = _find_graphical_abstract(soup, final_url)
 
     # Strategy 3: Look for first large image in a <figure> tag.
     if not img_url:
-        img_url = _find_figure_image(soup, article_url)
+        img_url = _find_figure_image(soup, final_url)
 
     # Strategy 4: Look for any large <img> in the article body.
     if not img_url:
-        img_url = _find_large_img(soup, article_url)
+        img_url = _find_large_img(soup, final_url)
 
     if not img_url:
         logger.debug("No suitable image found in HTML of %s", article_url)
@@ -568,6 +581,60 @@ def _download_image(
     except requests.RequestException as exc:
         logger.debug("Image download failed: %s", exc)
         return None
+
+
+# ---------------------------------------------------------------------------
+# Crossref thumbnail (public API — no scraping)
+# ---------------------------------------------------------------------------
+
+def _fetch_crossref_thumbnail(
+    doi: str,
+    output_path: str | Path,
+    *,
+    timeout: int = 15,
+) -> Optional[Path]:
+    """Fetch a thumbnail image via the Crossref API.
+
+    Crossref metadata for many articles includes ``link`` entries with
+    ``content-type: image/*`` that point to publisher-hosted thumbnail
+    images.  This is public metadata — no scraping or ToS issues.
+
+    Also checks for ``resource.primary.URL`` which may lead to an image.
+    """
+    if not doi:
+        return None
+
+    out = Path(output_path)
+    url = f"https://api.crossref.org/works/{doi}"
+    headers = {
+        "User-Agent": "SciCover/1.0 (https://github.com/lch99310/SciCover_Summary; mailto:scicover@example.com)",
+    }
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        if resp.status_code != 200:
+            return None
+
+        data = resp.json()
+        message = data.get("message", {})
+
+        # Look for image links in the Crossref metadata.
+        for link in message.get("link", []):
+            ct = (link.get("content-type") or "").lower()
+            link_url = link.get("URL", "")
+            if link_url and ("image" in ct or "thumbnail" in ct):
+                logger.info(
+                    "Crossref thumbnail found for DOI %s: %s", doi, link_url,
+                )
+                session = _build_session()
+                return _download_image(link_url, out, session, timeout=timeout)
+
+    except requests.RequestException as exc:
+        logger.debug("Crossref API failed for thumbnail DOI %s: %s", doi, exc)
+    except (ValueError, KeyError) as exc:
+        logger.debug("Crossref API parse error for DOI %s: %s", doi, exc)
+
+    return None
 
 
 # ---------------------------------------------------------------------------
