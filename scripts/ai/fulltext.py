@@ -47,6 +47,117 @@ _HEADERS = {
 # Public API
 # ---------------------------------------------------------------------------
 
+def fetch_crossref_fulltext(doi: str) -> Optional[str]:
+    """Fetch full text via Crossref ``link`` entries (public API).
+
+    Crossref metadata often includes direct links to publisher XML/HTML
+    full-text endpoints.  These links are part of the public Crossref
+    metadata and are generally accessible for OA articles without
+    subscription.
+
+    This is particularly useful for AAAS (Science), Springer (Nature),
+    and other publishers whose main article pages block scrapers but
+    whose API endpoints may serve the content directly.
+    """
+    if not doi:
+        return None
+
+    url = f"https://api.crossref.org/works/{doi}"
+    headers = {
+        "User-Agent": "SciCover/1.0 (https://github.com/lch99310/SciCover_Summary; mailto:scicover@example.com)",
+    }
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=15)
+        if resp.status_code != 200:
+            return None
+
+        data = resp.json()
+        message = data.get("message", {})
+        links = message.get("link", [])
+
+        # Sort links: prefer XML (structured) over HTML, prefer text over PDF.
+        xml_links = []
+        html_links = []
+        for link in links:
+            ct = (link.get("content-type") or "").lower()
+            link_url = link.get("URL", "")
+            if not link_url:
+                continue
+            if "xml" in ct:
+                xml_links.append(link_url)
+            elif "html" in ct or "text" in ct:
+                html_links.append(link_url)
+
+        # Try XML links first (more structured, easier to extract text).
+        for link_url in xml_links:
+            text = _fetch_xml_fulltext(link_url)
+            if text:
+                logger.info(
+                    "Got full text from Crossref XML link (%d chars): %s",
+                    len(text), link_url,
+                )
+                return _truncate(text)
+
+        # Try HTML links.
+        for link_url in html_links:
+            text = _fetch_generic_html(link_url)
+            if text:
+                logger.info(
+                    "Got full text from Crossref HTML link (%d chars): %s",
+                    len(text), link_url,
+                )
+                return _truncate(text)
+
+    except requests.RequestException as exc:
+        logger.debug("Crossref fulltext API failed for DOI %s: %s", doi, exc)
+    except (ValueError, KeyError) as exc:
+        logger.debug("Crossref fulltext parse error for DOI %s: %s", doi, exc)
+
+    return None
+
+
+def _fetch_xml_fulltext(url: str) -> Optional[str]:
+    """Fetch and extract text from an XML full-text endpoint.
+
+    Handles JATS XML (used by most STM publishers) and generic XML.
+    """
+    try:
+        resp = requests.get(
+            url, headers=_HEADERS, timeout=30, allow_redirects=True,
+        )
+        if resp.status_code != 200:
+            return None
+
+        ct = resp.headers.get("Content-Type", "")
+        if "xml" not in ct.lower() and "text" not in ct.lower():
+            return None
+
+        soup = BeautifulSoup(resp.text, "lxml-xml")
+
+        # JATS XML: body element contains the article text.
+        body = soup.find("body")
+        if body:
+            # Remove references/back matter.
+            for ref in body.select("ref-list, back, fn-group"):
+                ref.decompose()
+            text = body.get_text(separator="\n", strip=True)
+            text = re.sub(r"\n{3,}", "\n\n", text)
+            if len(text) > 500:
+                return text
+
+        # Generic XML fallback.
+        text = soup.get_text(separator="\n", strip=True)
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        if len(text) > 1000:
+            return text
+
+    except Exception as exc:
+        logger.debug("XML fulltext fetch failed for %s: %s", url, exc)
+
+    return None
+
+
 def fetch_fulltext(
     preprint_url: str = "",
     article_url: str = "",

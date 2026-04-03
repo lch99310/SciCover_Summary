@@ -260,7 +260,8 @@ class PipelineRunner:
                     )
 
             # Strategy 2: PDF pages → article HTML → preprint HTML.
-            if not image_path and (oa_pdf_url or all_pdf_urls or html_url_for_image):
+            # Always attempt if we have any URL source (PDF, HTML, or DOI).
+            if not image_path and (oa_pdf_url or all_pdf_urls or html_url_for_image or doi):
                 pdf_urls_to_try = list(all_pdf_urls)
                 if oa_pdf_url and oa_pdf_url not in pdf_urls_to_try:
                     pdf_urls_to_try.append(oa_pdf_url)
@@ -312,7 +313,25 @@ class PipelineRunner:
                             article_id, exc,
                         )
 
-            # Priority 3: preprint URL, article HTML, Europe PMC, PDFs.
+            # Priority 3: Crossref full-text links (public API).
+            # Crossref metadata often includes XML/HTML full-text URLs
+            # that are accessible without subscription for OA articles.
+            if not fulltext and doi:
+                try:
+                    from ..ai.fulltext import fetch_crossref_fulltext
+                    fulltext = fetch_crossref_fulltext(doi)
+                    if fulltext:
+                        logger.info(
+                            "Full text from Crossref links for %s (%d chars)",
+                            article_id, len(fulltext),
+                        )
+                except Exception as exc:
+                    logger.debug(
+                        "Crossref full-text fetch failed for %s: %s",
+                        article_id, exc,
+                    )
+
+            # Priority 4: preprint URL, article HTML, Europe PMC, PDFs.
             if not fulltext:
                 try:
                     from ..ai.fulltext import fetch_fulltext as fetch_ft_legacy
