@@ -1,0 +1,76 @@
+{
+  "id": "nature-2026-04-01",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8108",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "新式引擎大幅減少碳煙排放卻未能減少凝結冰晶——航空雲層暖化效應的突破性發現",
+      "en": "Lean-Burn Engines Cut Soot Emissions by 1000x but Fail to Reduce Contrail Ice Crystals—Breakthrough in Aviation Climate Impact"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊首次實測了配備先進燃燒技術的飛機引擎，發現雖然新式稀薄燃燒引擎的碳煙排放量比傳統引擎減少了1000倍，但凝結冰晶數量卻依然維持在高水平（每公斤燃燒燃料超過10^15顆冰晶）。這項突破性發現挑戰了航空業的普遍認知，即僅僅減少碳煙排放就能降低飛機凝結雲對氣候的暖化影響。研究顯示，在低碳煙排放情況下，揮發性粒子（包括來自燃油含硫量和潤滑油蒸氣的粒子）成為凝結冰晶的主要核心，這使得僅靠引擎技術革新難以有效降低航空雲層的氣候影響。【研究問題】航空業氣候影響的重要來源之一是飛機凝結雲（contrail cirrus），其氣候效應與航空業歷史累積的二氧化碳排放幾乎相當。然而，對於現代稀薄燃燒引擎（lean-burn engines）產生的凝結冰晶數量，理論預測範圍橫跨四個數量級，極不確定。過去研究集中在傳統的富-淬-貧（RQL）引擎，缺乏對新型稀薄燃燒引擎的實際測數據，這使得準評估航空業非二氧化碳氣候效應變得困難，也影響了未來減排策略的制定。【研究方法】研究團隊採用獨特的雙飛機實驗設計，在NEOFUELS/VOLCAN計畫中，讓德國航空中心（DLR）的Falcon 20E研究飛機在北大西洋和地中海地區，以40-250公尺的距離追蹤搭載CFM LEAP-1A稀薄燃燒引擎的空客A321neo飛機。研究人員使用了先進儀器測量引擎排放的粒子數量、痕跡氣體和凝結雲特性，並在遠場（6-29公里）測量完全形成的凝結雲。實驗測試了傳 Jet A-1燃油和不同成分的生物合成燃油（HEFA-SPK），並採用特殊引擎控制系統，使同一引擎能在稀薄燃燒和強制富燃燒模式下運行，以進行直接比較。【結果】關鍵發現包括：稀薄燃燒模式下的非揮發性碳煙粒子排放指數（EI_nv）為1.0×10^12 kg^-1燃料，比強制富燃燒模式低1000倍；然而，凝結冰晶排放指數（EI_ice）在稀薄燃燒模式下仍達到1.6×10^15 kg^-1燃料，與高碳煙排放區域相近；低硫燃油（75ppmm）可將凝結冰晶數量減少約3倍，而超低硫燃油（3ppmm）可減少一個數量級；總粒子排放（包括揮發性和非揮發性粒子）與凝結冰晶數量呈線性相關；潤滑油蒸氣和有機化合物在低碳煙排放區域對粒子形成起重要作用。這些結果意味著，未來減少航空凝結雲暖化效應的策略需要同時考慮燃油成分（特別是含硫量）和潤滑油排放系統的設計，而不僅僅是減少碳煙排放。",
+      "en": "**Summary:** For the first time, researchers conducted in-flight measurements of modern aircraft engines and discovered that while new lean-burn engines reduce soot particle emissions by a factor of 1000 compared to conventional engines, contrail ice crystal numbers remain substantial (exceeding 10^15 particles per kg of burned fuel). This breakthrough finding challenges the aviation industry's assumption that reducing soot emissions alone would decrease the climate impact of contrail cirrus clouds. The research demonstrates that in low-soot regimes, volatile particles (including those from fuel sulfur content and lubrication oil vapors) become the primary nuclei for contrail ice formation, making it difficult to reduce aviation cloud climate effects through engine technology improvements alone.\n\n**Problem:** Contrail cirrus clouds represent a major component of aviation's climate impact, with their radiative forcing nearly equal to the cumulative CO2 emissions from aviation's entire history. However, theoretical predictions for contrail ice crystal numbers from modern lean-burn engines spanned four orders of magnitude, creating significant uncertainty. Previous research focused primarily on conventional rich-quench-lean (RQL) engines, leaving a critical knowledge gap regarding real-world contrail formation from the increasingly prevalent lean-burn technology. This gap hindered accurate assessment of aviation's non-CO2 climate effects and the development of effective mitigation strategies.\n\n**Approach:** The research team employed a unique dual-aircraft experimental design during the NEOFUELS/VOLCAN campaign. A DLR Falcon 20E research aircraft trailed an Airbus A321neo equipped with CFM LEAP-1A lean-burn engines at distances of 40-250 meters over the Atlantic and Mediterranean. Specialized instruments measured engine particle emissions, trace gases, and contrail properties. Contrails were also probed in the far field (6-29 km downstream) when fully developed. The experiment tested conventional Jet A-1 fuel and various bio-derived synthetic fuels (HEFA-SPK) with different compositions. Crucially, the engine control system was modified to allow the same engine to operate in both lean-burn and forced rich-burn modes at comparable conditions, enabling direct comparison.\n\n**Results:** Key findings revealed that non-volatile soot particle emission indices (EI_nv) in lean-burn mode were 1.0×10^12 kg^-1 fuel—three orders of magnitude lower than in forced rich-burn mode (1.0×10^15 kg^-1 fuel). However, contrail ice crystal emission indices (EI_ice) remained at 1.6×10^15 kg^-1 fuel in lean-burn conditions—similar to high-soot regimes. Low-sulfur fuel (75ppmm) reduced contrail ice crystal numbers by approximately a factor of 3, while ultra-low-sulfur fuel (3ppmm) reduced them by an order of magnitude. Total aerosol emissions (including volatile and non-volatile particles) showed a linear correlation with contrail ice crystal numbers. Lubrication oil vapors and organic compounds played significant roles in particle formation in the low-soot regime. These results indicate that future strategies to reduce contrail climate effects must address fuel composition (particularly sulfur content) and lubrication oil venting system design, not just soot emissions."
+    },
+    "keyArticle": {
+      "title": "Substantial aircraft contrail formation at low soot emission levels",
+      "authors": [
+        "Christiane Voigt",
+        "Raphael Märkl",
+        "Daniel Sauer",
+        "Rebecca Dischl",
+        "Charles Renard",
+        "Katharina Seeliger",
+        "Fangqun Yu",
+        "Stefan Kaufmann",
+        "Tiziana Bräuer",
+        "Tina Jurkat-Witschas",
+        "Gauthier Le Chenadec",
+        "Julien Moreau",
+        "Emiliano Requena-Esteban",
+        "Nicolas Bonne",
+        "Margaux Vals",
+        "Amandine Roche",
+        "Joseph Zelina",
+        "Andreas Dörnbrack",
+        "Lisa Eirenschmalz",
+        "Christopher Heckl",
+        "Elisabeth Horst",
+        "Michael Lichtenstern",
+        "Andreas Marsing",
+        "Gregor Neumann",
+        "Anke Roiger",
+        "Monika Scheibe",
+        "P. Stock",
+        "Andreas Giez",
+        "Georg Eckel",
+        "Patrick Le Clercq"
+      ],
+      "doi": "10.1038/s41586-026-10286-0",
+      "pages": "112-118"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10286-0",
+      "doi": "https://doi.org/10.1038/s41586-026-10286-0"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-04T19:34:20.097775+00:00",
+    "source": "openalex"
+  }
+}

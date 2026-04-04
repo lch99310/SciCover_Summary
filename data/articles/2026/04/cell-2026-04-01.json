@@ -1,0 +1,43 @@
+{
+  "id": "cell-2026-04-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "7",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "突破傳統侷限：人為中心的藥物發現新方法徹底重塑醫藥研發未來",
+      "en": "Beyond Animal Models: Human-Centric Approaches Revolutionizing Drug Discovery"
+    },
+    "summary": {
+      "zh": "傳統以動物為基礎的藥物發現方法長期以來面臨高失敗率的挑戰，促使科學界轉向以人為中心的新方法學（NAMs）。幹細胞、類器官與電腦模擬為基礎的NAMs技術突飛猛進，在美國國家衛生研究院（NIH）與食品藥物管理局（FDA） evolving frameworks的支援下，已涵蓋從疾病模型建立、藥物設計到功效測試的完整藥物發展連結。我們的評述強調了這些領域的最新進展，包括治療候選物的鑑定、尖端模型與技術的開發，以及NAMs本身在臨床前與臨床背景中作為治療潛力的應用。\n\n儘管前景光明，NAMs的轉化應用仍面臨關鍵的生物學、技術與法規瓶頸。本文探討了如何克服這些挑戰，並反思NAMs負責任採用的轉化與社會考量。展望未來，以人為中心的藥物發展管道將重新定義藥物發現的格局，為醫療領域帶來革命性變革。這不僅僅是技術的進步，更是從「試錯」到「精準」的思維轉變。",
+      "en": "Traditional animal-based drug discovery has long been plagued by high failure rates, driving the scientific community toward human-centered New Approach Methodologies (NAMs). Supported by evolving frameworks from the National Institutes of Health (NIH) and the Food and Drug Administration (FDA), stem cell-, organoid-, and in silico-based NAMs now span the entire drug discovery continuum—from disease modeling and drug design to efficacy testing. Our review highlights recent progress across these domains, including the identification of therapeutic candidates, the development of cutting-edge models and technologies, and the potential of NAMs themselves as treatments in preclinical and clinical contexts.\n\nDespite this promising trajectory, the translational adoption of NAMs faces significant biological, technical, and regulatory bottlenecks that must be addressed. The article examines these challenges while discussing the translational and societal considerations essential to the responsible implementation of NAMs. Looking ahead, future human-centric pipelines are poised to redefine the landscape of drug discovery, representing not merely technological advancement but a fundamental shift from a \"trial-and-error\" to a precision-based approach in therapeutic development."
+    },
+    "keyArticle": {
+      "title": "New approach methodologies for drug discovery",
+      "authors": [
+        "Wenqiang Liu",
+        "Paul Pang",
+        "Catherine A. Wu",
+        "Danilo A. Tagle",
+        "Joseph C. Wu"
+      ],
+      "doi": "10.1016/j.cell.2026.02.012",
+      "pages": "1877-1903"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.012",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.012"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-04T19:37:33.278958+00:00",
+    "source": "openalex"
+  }
+}

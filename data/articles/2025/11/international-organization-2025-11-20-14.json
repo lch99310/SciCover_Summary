@@ -1,0 +1,50 @@
+{
+  "id": "international-organization-2025-11-20-14",
+  "journal": "International Organization",
+  "volume": "79",
+  "issue": "S1",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2025-11-20-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "威權主義的自由化適應：美國撤退後的全球政治變局",
+      "en": "The Persistence of Liberal Practices in Authoritarian Regimes: Implications of US Retrenchment"
+    },
+    "summary": {
+      "zh": "【總結】本文提出一個反直覺的觀點：儘管美國減少對全球民主與人權的支持，威權政體內部的自由化實踐卻具有顯著韌性，不會完全回歸冷戰時期的壓迫模式。研究發現，威權統治者維持某些自由實踐（如選舉、性別改革、媒體開放）已成為其國內統治策略的一部分，這些實踐既能增強合法性、收買反對派，又能有效管理社會抗爭。同時，國際條約、組織和國內官僚機構已產生公民期望和社會動員平台，使全面倒退的政治成本高昂且易引發反彈。這一發現挑戰了悲觀預測，揭示了威權適應的複雜性和制度韌性。【研究問題】文章探討的核心問題是：隨著美國減少對全球民主和自由價值的推廣，威權政體會否出現全面自由化倒退？過去研究多關注國際壓力如何促使威權政體採納自由實踐，卻忽視了這些實踐一旦建立後，如何轉變為國內政治的持久機制。這個問題至關重要，因為它關係到全球政治格局的未來走向，以及自由國際秩序的命運。【研究方法】作者採用理論分析與實證研究相結合的方法。首先，基於國際關係理論和比較威權主義文獻，建立分析框架，識別維持自由實踐的兩大動力：國內控制策略的動機和國際承諾所產生的制度約束。其次，參考「民主多樣性」(V-Dem)項目的數據，分析閉鎖型和選舉型威權政體的物理暴力指標變化。最後，透過案例比較研究，如尚比亞、亞美尼亞、宏都拉斯、瓜地馬拉和菲律賓等國的經驗，驗理論預測。這種多方法結合的研究設計，確保了結論的可靠性和解釋力。【結果】關鍵發現顯示，儘管美國民主推廣資金削減，威權政體的暴力指數並未回到冷戰時期水平。2022-2023年間，尚比亞、亞美尼亞、宏都拉斯和瓜地馬拉等國通過選舉更換了濫權的領導人，展現了公民抗爭的力量。菲律賓甚至將前總統杜特地移交國際刑事法院審判，這在美國削弱對國際刑事法院支持的背景下尤為突出。研究發現，威權政體的選舉、性別配額和有限媒體自由等實踐已內化為統治工具，而非僅是應對外部壓力的裝飾。這些發現表明，自由實踐已產生持久的制度慣性和公民期望，即使外部支持減少，也不易完全消除，這對理解全球威權主義的未來發展具有重要意義。",
+      "en": "**Summary:** This article presents a counterintuitive argument: despite reduced US support for global democracy and human rights, liberal practices within authoritarian regimes demonstrate significant resilience and are unlikely to fully revert to Cold War-style repression. The research reveals that autocrats' retention of certain liberal practices (such as elections, gender reforms, and media openness) has become integral to their domestic control strategies, simultaneously enhancing legitimacy, co-opting opposition, and managing societal dissent. Additionally, reforms anchored in treaties, international organizations, and domestic bureaucracies have created public expectations and mobilizational platforms, making wholesale reversals politically costly and prone to backlash. This finding challenges pessimistic predictions and reveals the complexity and institutional resilience of authoritarian adaptation. **Problem:** The core question addressed is: Will reduced US promotion of democracy and liberal values lead to a comprehensive rollback of liberal reforms in authoritarian regimes? Previous research focused on how international pressure prompted autocracies to adopt liberal practices but overlooked how these practices transformed into durable domestic mechanisms once established. This question is crucial as it concerns the future trajectory of global politics and the fate of the liberal international order. **Approach:** The authors employ a mixed-methods approach combining theoretical analysis with empirical research. First, they develop an analytical framework based on international relations theory and comparative authoritarianism literature, identifying two key forces sustaining liberal practices: domestic control incentives and institutional constraints from international commitments. Second, they analyze physical violence indicators for both closed and electoral autocracies using data from the Varieties of Democracy (V-Dem) project. Finally, they conduct comparative case studies of countries including Zambia, Armenia, Honduras, Guatemala, and the Philippines to test theoretical predictions. This multi-method approach ensures the reliability and explanatory power of their conclusions. **Results:** Key findings indicate that despite cuts to US democracy promotion funding, physical violence indices in authoritarian regimes have not returned to Cold War levels. Between 2022-2023, Zambia, Armenia, Honduras, and Guatemala replaced law-flouting and repressive incumbents through elections fueled by citizen opposition. Notably, the Philippines even transferred former president Duterte to the International Criminal Court for trial—a striking development amid US weakening of support for the ICC. The research reveals that practices like elections, gender quotas, and limited media freedom have been internalized as governance tools rather than mere responses to external pressure. These findings demonstrate that liberal practices have generated institutional inertia and public expectations that persist even when external support diminishes, with significant implications for understanding the future development of global authoritarianism."
+    },
+    "keyArticle": {
+      "title": "The End of Autocratic Norm Adaptation? US Retrenchment and Liberal Norms in Illiberal Regimes",
+      "authors": [
+        "Sarah Sunn Bush",
+        "Daniela Donno",
+        "Jon Pevehouse",
+        "Christina J. Schneider"
+      ],
+      "doi": "10.1017/s0020818325101148",
+      "pages": "S224-S241"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2025-11-20-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101148",
+      "doi": "https://doi.org/10.1017/s0020818325101148"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-04T19:41:46.158530+00:00",
+    "source": "openalex"
+  }
+}

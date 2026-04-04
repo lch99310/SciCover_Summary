@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-03T11:57:23.330118+00:00",
+  "lastUpdated": "2026-04-04T19:41:48.554291+00:00",
   "articles": [
+    {
+      "id": "cell-2026-04-01",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01.json",
+      "title_zh": "突破傳統侷限：人為中心的藥物發現新方法徹底重塑醫藥研發未來",
+      "title_en": "Beyond Animal Models: Human-Centric Approaches Revolutionizing Drug Discovery",
+      "cover_url": ""
+    },
+    {
+      "id": "nature-2026-04-01",
+      "journal": "Nature",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/nature-2026-04-01.json",
+      "title_zh": "新式引擎大幅減少碳煙排放卻未能減少凝結冰晶——航空雲層暖化效應的突破性發現",
+      "title_en": "Lean-Burn Engines Cut Soot Emissions by 1000x but Fail to Reduce Contrail Ice Crystals—Breakthrough in Aviation Climate Impact",
+      "cover_url": "data/images/nature/nature-2026-04-01-cover.jpg"
+    },
     {
       "id": "science-2026-03-26-02",
       "journal": "Science",
@@ -125,6 +143,15 @@
       "path": "articles/2026/03/political-geography-2026-03-12.json",
       "title_zh": "南森的北極思想：冰海探險家如何重塑國際關係",
       "title_en": "Nansen's Arctic Vision: How an Ice Explorer Redefined International Relations",
+      "cover_url": ""
+    },
+    {
+      "id": "science-2026-03-12-02",
+      "journal": "Science",
+      "date": "2026-03-12",
+      "path": "articles/2026/03/science-2026-03-12-02.json",
+      "title_zh": "RNA陷阱：揭開H5高病原性禽流感病毒形成的分子密碼",
+      "title_en": "Trapped in Translation: How RNA Structures Fuel the Evolution of Deadly Bird Flu",
       "cover_url": ""
     },
     {
@@ -1136,6 +1163,15 @@
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-13-cover.jpg"
     },
     {
+      "id": "international-organization-2025-11-20-14",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-14.json",
+      "title_zh": "威權主義的自由化適應：美國撤退後的全球政治變局",
+      "title_en": "The Persistence of Liberal Practices in Authoritarian Regimes: Implications of US Retrenchment",
+      "cover_url": "data/images/international-organization/international-organization-2025-11-20-14-cover.jpg"
+    },
+    {
       "id": "international-organization-2025-11-20",
       "journal": "International Organization",
       "date": "2025-11-20",
@@ -1143,6 +1179,15 @@
       "title_zh": "邊境之外的封鎖：難民庇護在後自由主義時代的重構",
       "title_en": "Beyond Borders: The Rise of Flexible Containment in Refugee Governance",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-11-19",
+      "journal": "Political Geography",
+      "date": "2025-11-19",
+      "path": "articles/2025/11/political-geography-2025-11-19.json",
+      "title_zh": "城鄉差異的政治社會化：青少年多元文化態度形成的關鍵時刻",
+      "title_en": "Political Socialization Across Divides: How Urban and Rural Youth Form Multicultural Attitudes",
+      "cover_url": "data/images/political-geography/political-geography-2025-11-19-cover.jpg"
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "science-2026-03-12-02",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6790",
+  "date": "2026-03-12",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "RNA陷阱：揭開H5高病原性禽流感病毒形成的分子密碼",
+      "en": "Trapped in Translation: How RNA Structures Fuel the Evolution of Deadly Bird Flu"
+    },
+    "summary": {
+      "zh": "科學家們長期以來一直困惑於H5高病原性禽流感病毒（HPAIVs）如何從低病原性禽流感病毒（LPAIVs）演變而來。儘管早在數十年前就發現，血球凝集素基因中插入一個可被furin蛋白酶切割的多鹼基切割位點（MBCS）是這一轉變的遺傳基礎，但人們對於這種插入發生的機制卻一直瞭解有限。現在，一項突破性研究終於揭開了這個謎團——H5病毒RNA的臨時結構能夠誘捕流感病毒聚合酶，進而導致核苷酸的插入。\n\n研究團隊發現，H5病毒中預測能誘捕流感病毒聚合酶的富嘌呤序列臨時結構，直接驅動了核苷酸的插入，這為RNA結構參與MBCS獲取提供了實證證據。更具突破性的是，當他們將H5樣的序列和結構引入H6血球凝集素中時，同樣觀察到了能產生MBCS的插入。這項研究不僅揭示了H5 HPAIV出現背後的核苷酸插入機制，還表明這種由RNA結構驅動的產生多樣性的機制同樣可能發生在其他RNA病毒中，為我們預防和控制未來可能的病毒突變提供了重要線索。",
+      "en": "In the complex world of viral evolution, the transformation of low pathogenic avian influenza viruses (LPAIVs) into highly pathogenic strains (HPAIVs) has long puzzled scientists. While researchers identified decades ago that the insertion of a furin-cleavable multibasic cleavage site (MBCS) in the hemagglutinin gene marks this critical transition, the underlying mechanisms driving this insertion remained elusive. Now, a groundbreaking study reveals that transient RNA structures in H5 viruses can trap the influenza virus polymerase on purine-rich sequences, providing the first empirical evidence that RNA structures directly facilitate the acquisition of MBCS.\n\nThe research team demonstrated that these H5-like RNA structures not only explain how nucleotide insertions occur in natural H5 HPAIV emergence but can also be artificially induced. When they introduced H5-like sequences and structures into an H6 hemagglutinin, they observed MBCS-yielding insertions, confirming the causal relationship between these RNA structures and pathogenicity-enhancing mutations. This discovery represents a paradigm shift in our understanding of viral evolution, revealing a structure-driven diversity-generating mechanism that likely operates across other RNA viruses as well. These findings not only illuminate the molecular pathways of avian influenza pathogenesis but also provide crucial insights for developing early warning systems against emerging viral threats."
+    },
+    "keyArticle": {
+      "title": "Polymerase trapping as the mechanism of H5 highly pathogenic avian influenza virus genesis",
+      "authors": [
+        "Mathis Funk",
+        "Monique I. Spronken",
+        "Roy Hutchinson",
+        "Benoît Arragain",
+        "Pauline Juyoux",
+        "Theo M. Bestebroer",
+        "Anja C. M. de Bruin",
+        "Alexander P. Gultyaev",
+        "Ron A. M. Fouchier",
+        "S. Cusack",
+        "Aartjan J. W. te Velthuis",
+        "Mathilde Richard"
+      ],
+      "doi": "10.1126/science.adr6632",
+      "pages": "eadr6632"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adr6632",
+      "doi": "https://doi.org/10.1126/science.adr6632"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-04T19:29:47.437450+00:00",
+    "source": "openalex"
+  }
+}

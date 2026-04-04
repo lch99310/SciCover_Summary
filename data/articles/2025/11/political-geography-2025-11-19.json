@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2025-11-19",
+  "journal": "Political Geography",
+  "volume": "124",
+  "issue": "",
+  "date": "2025-11-19",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-11-19-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "城鄉差異的政治社會化：青少年多元文化態度形成的關鍵時刻",
+      "en": "Political Socialization Across Divides: How Urban and Rural Youth Form Multicultural Attitudes"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了青少年政治社會化過程中城鄉差異的關鍵機制，突破了以往對城鄉政治態度分化原因的認知局限。研究發現，與父母和同儕討論政治對多元文化態度的影響在城鄉之間存在顯著差異：城市地區的政治討論促進更多元文化的態度，而鄉村地區則無此效果。更具突破性的是，研究者證明這種關聯主要來自「選擇效應」而非直接影響——城市中多元文化觀念更強的青少年更傾向於與他人討論政治，而鄉村中多元文化觀念較弱的青少年更傾向於討論政治。這些發現為理解當代民主社會中日益加劇的地理政治兩極化提供了新視角。【研究問題】研究聚焦於「為何城市地區的青少年比鄉村地區的青少年更傾向於持有多元文化態度」這一長期存在的問題。以往研究多將此歸因於人口組成差異或環境因素，卻忽视了政治社會化機制在不同地理環境中的差異性影響。特別是，缺乏對「青少年時期這一態度形成關鍵階段」的研究，以及政治討論作為社會化中介機制在城鄉環境中的不同作用。解決這一問題至關重要，因為城鄉政治分化正日益成為威脅民主社會凝聚力的關鍵因素。【研究方法】研究巧妙地利用了荷蘭青少年民主價值觀縱向追蹤調查數據(DAPDV)，這是一項涵蓋11-16歲青少年的代表性縱向研究樣本。研究團隊採用了獨特的雙重分析方法：首先使用多層次迴歸模型檢驗政治社會化與多元文化態度之間在城鄉環境中的差異關聯；其次採用交叉滯後面板模型，有效分離「社會影響效應」與「選擇進入討論效應」。這種方法論創新使研究能夠精確辨識態度形成的因果機制，而非僅僅觀察相關性。研究控制了教育軌道和移民背景等重要變量，確保發現的可靠性。【結果】關鍵發現揭示了城鄉青少年政治態度形成的根本差異：(1)與父母和同儕討論政治在城鄉地區對多元文化態度的影響存在顯著差異，僅在城市地區呈現正向關聯；(2)這些關聯完全來自「選擇效應」而非直接影響——城市中多元文化觀念更強的青少年更傾向於討論政治，而鄉村中多元文化觀念較弱的青少年更傾向於討論政治；(3)與老師討論政治對多元文化態度無論在城鄉都沒有顯著影響。這些結果意味著，青少年在地理環境中「主動選擇」與誰討論政治的過程，可能比被動接受政治社會化的過程更重要。這對理解當代民主社會中的城鄉政治分化提供了全新視角，也提示政策制定者需關注青少年在態度形成關鍵時期的主動選擇機制。",
+      "en": "**Summary:** This research reveals a crucial mechanism behind urban-rural differences in political socialization, breaking new ground in understanding why urban youth tend to develop more multicultural attitudes than their rural counterparts. The study demonstrates that political discussions with parents and peers affect multicultural attitudes differently across urban and rural contexts—such discussions are associated with increased multiculturalism in urban areas but not in rural areas. Most significantly, the researchers prove these associations stem entirely from 'selection effects' rather than direct influence: urban youth with stronger multicultural attitudes are more likely to discuss politics, while rural youth with weaker multicultural attitudes are more inclined toward such discussions. These findings offer fresh perspectives on the growing geographic political polarization in democratic societies.\n\n**Problem:** The study addresses the persistent question of why urban adolescents develop more multicultural attitudes than rural adolescents. Previous research attributed these differences to compositional factors (who lives where) or contextual influences (what people experience), but largely overlooked how political socialization mechanisms function differently across geographic environments. Particularly, there was a gap in understanding how these processes operate during adolescence—the formative years when attitudes crystallize. Solving this problem is crucial as urban-rural political polarization increasingly threatens social cohesion in democratic nations worldwide.\n\n**Approach:** The researchers ingeniously leveraged the Dutch Adolescent Panel on Democratic Values (DAPDV), a representative panel study tracking Dutch youth aged 11-16. Their dual-method approach was methodologically innovative: first, multilevel regression models examined differential associations between political socialization and multicultural attitudes across urban, semi-urban, and rural contexts; second, cross-lagged panel models effectively disentangled 'social influence effects' from 'selection into discussion effects.' This methodology allowed precise identification of attitude formation mechanisms rather than mere correlations. By controlling for educational tracks and migration backgrounds, the researchers ensured their findings reflected genuine contextual differences rather than compositional factors.\n\n**Results:** Key findings reveal fundamental differences in how urban and rural adolescents form political attitudes: (1) Political discussions with parents and peers show significantly different effects on multicultural attitudes across urban-rural divides, with positive associations only in urban areas; (2) These associations stem entirely from selection effects rather than direct influence—urban youth with stronger multicultural attitudes are more likely to engage in political discussions, while rural youth with weaker multicultural attitudes show similar tendencies; (3) Discussions with teachers show no significant impact on multicultural attitudes regardless of location. These results suggest that adolescents' active choices about with whom to discuss politics may be more important than passive reception of socialization messages. This provides a fresh lens for understanding contemporary urban-rural political divides and highlights the need for policies addressing youth's active role in attitude formation during critical developmental periods."
+    },
+    "keyArticle": {
+      "title": "Political socialization across places: Differential effects on multiculturalist attitudes in urban and rural areas?",
+      "authors": [
+        "Twan Huijsmans",
+        "Jaap van Slageren"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103442",
+      "pages": "103442"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-11-19-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103442",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103442"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-04T19:39:41.825864+00:00",
+    "source": "openalex"
+  }
+}
