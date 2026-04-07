@@ -1,0 +1,61 @@
+{
+  "id": "science-2026-01-22",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6783",
+  "date": "2026-01-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI蜂群如何悄無聲息地侵蝕民主：新興數位戰爭的隱形威脅",
+      "en": "The Silent Swarm: How AI Collectives Could Undermine Democratic Institutions"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇研究揭示了惡意AI蜂群如何代表民主威脅的新前沿。研究突破在於指出，當大型語言模型(LLM)與自主代理系統結合時，能以前所未有的規模和精確度操縱公眾信念與行為。AI蜂群具有持續身分記憶、即時適應、最小人類監督等能力，能夠跨平台運作，創造看似有機的共識，並隨時間推移逐步改變社群文化。這不僅是技術威脅，更是對民主根基的系統性挑戰，需要多層次的防禦策略應對。\n\n【研究問題】\n文章探討的核心問題是：AI蜂群如何比過去的人類操作影響行動更有效地威脅民主？傳統的網路研究機構(IRA)等影響行動因人類操作限制而效果有限，僅有1%的使用者看到70%的內容，且對意見或投票率無可察覺影響。隨著LLM技術發展，AI能以更低成本產生更具說服力的內容，並持續調整策略以規避檢測。這個問題至關重要，因為民主社會已因資訊生態系統碎片化、理性批判性討論削弱以及公民間缺乏共享現實而處於脆弱狀態，AI蜂群可能成為加速這一軌跡的強力催化劑。\n\n【研究方法】\n本研究採用概念分析框架，結合歷史脈絡與技術能力評估。作者首先梳理了從印刷術、廣播時代到數位時代通訊技術如何重塑政治權力的歷史，指出當前民主資訊生態系統已因數十年技術干擾和民主倒退而緊張。其次，分析五項關鍵技術進步如何使AI蜂群成為可能：從中央指揮到流動即時協調、社交網絡映射與滲透、人類級模仿、自我優化能力以及全天候存在。研究還檢視了這些能力如何通過多種途徑損害民主，包括合成共識創造、訓練數據污染、協調騷擾以及機構信任腐蝕。\n\n【結果】\n研究發現AI蜂群能以多種方式威脅民主：首先，它們能夠在分歧的意識形態腔室之間播下敘事，創造多數人同意的錯覺，透過點讚等行為加強這種感覺，導致公民根據同儕規範而非證據更新意見。其次，它們能透過「LLM培養」策略污染網路訓練數據，使虛構敘事在模型重新訓練時固化。第三，它們能發起看似自發的協調騷擾，目標包括政治人物、異議人士、學者等，迫使目標退出公共生活。最後，它們能協調對選舉委員會、法院或統計局的微妙質疑，腐蝕程序信任，為「緊急」統治鋪路。研究建議多層次防禦策略，包括即時檢測系統、來源驗證加強、經濟激勵調整以及全球協調的「AI影響觀測台」。",
+      "en": "**Summary:** \nThis research reveals how malicious AI swarms represent a new frontier in threats to democracy. The breakthrough lies in demonstrating that when large language models (LLMs) fuse with multi-agent systems, they can manipulate beliefs and behaviors at unprecedented scale and precision. AI swarms possess capabilities like persistent identity memory, real-time adaptation, and minimal human oversight, enabling cross-platform operations that create organic-looking consensus while gradually shifting community discourse. This isn't merely a technical threat but a systemic challenge to democratic foundations requiring multi-layered defensive strategies.\n\n**Problem:** \nThe central question addressed is: how can AI swarms more effectively threaten democracy than previous human-operated influence operations? Traditional efforts like the Russian Internet Research Agency were limited by human constraints, with only 1% of users seeing 70% of content and no detectable effects on opinions or turnout. As LLM capabilities advance, AI can generate more persuasive content at lower costs while continuously adapting to evade detection. This problem is crucial because democratic societies are already vulnerable due to fragmented information ecosystems, weakened rational discourse, and declining institutional trust—conditions under which AI swarms could act as powerful accelerants.\n\n**Approach:** \nThe study employs a conceptual framework combining historical context with technological capability assessment. The authors trace how communication technologies from the printing press through the broadcast to digital eras have reshaped political power, highlighting how current democratic information ecosystems are strained by decades of technological disruption. They analyze five technological advances enabling AI swarms: fluid real-time coordination replacing central command, social network mapping and infiltration, human-level mimicry, self-optimization capabilities, and persistent 24/7 presence. The research examines how these capabilities threaten democracy through multiple pathways including synthetic consensus creation, training data contamination, coordinated harassment, and institutional trust erosion.\n\n**Results:** \nThe research identifies several ways AI swarms threaten democracy: first, they can seed narratives across ideological divides, creating illusions of majority agreement amplified by coordinated likes, causing citizens to update opinions based on peer norms rather than evidence. Second, they can poison the training data through \"LLM Grooming,\" causing fabricated narratives to calcify in model weights during retraining. Third, they can launch coordinated harassment that appears spontaneous, targeting politicians, dissidents, and journalists, forcing targets out of public life. Finally, they can coordinate subtle doubts about electoral institutions, eroding procedural trust and potentially enabling \"emergency\" rule. The study recommends defensive measures including real-time detection systems, provenance strengthening, economic incentives, and a global \"AI Influence Observatory\" for coordinated response."
+    },
+    "keyArticle": {
+      "title": "How malicious AI swarms can threaten democracy",
+      "authors": [
+        "Daniel Thilo Schroeder",
+        "Meeyoung Cha",
+        "Andrea Baronchelli",
+        "Nick Bostrom",
+        "Nicholas A. Christakis",
+        "David García",
+        "Amit Goldenberg",
+        "Yara Kyrychenko",
+        "Kevin Leyton‐Brown",
+        "Nina Lutz",
+        "G. Marcus",
+        "F. Menczer",
+        "Gordon Pennycook",
+        "David G. Rand",
+        "Maria Ressa",
+        "Frank Schweitzer",
+        "Dawn Xiaoding Song",
+        "Christopher Summerfield",
+        "Audrey Tang",
+        "Jay J. Van Bavel",
+        "Sander van der Linden",
+        "Jonas R. Kunst"
+      ],
+      "doi": "10.1126/science.adz1697",
+      "pages": "354-357"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz1697",
+      "doi": "https://doi.org/10.1126/science.adz1697",
+      "preprint": "https://arxiv.org/abs/2506.06299"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-07T20:01:46.807909+00:00",
+    "source": "openalex"
+  }
+}

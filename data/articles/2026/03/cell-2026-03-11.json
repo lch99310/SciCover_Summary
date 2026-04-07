@@ -1,0 +1,80 @@
+{
+  "id": "cell-2026-03-11",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "7",
+  "date": "2026-03-11",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦老化中的細胞類型特異性轉座子去甲基化與染色質結構重塑",
+      "en": "Cell-Type-Specific Transposon Demethylation and Chromatin Remodeling in Brain Aging"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究建立了一個全面的單細胞甲基化圖譜，揭示了老化過程中腦部細胞類型特異性的轉座子去甲基化和染色質結構重組現象。研究團隊分析了超過13萬個單細胞甲基化數據和7萬多個染色質構象數據，整合了轉錄組和染色質可及性數據，識別出36種主要細胞類型。他們發現轉座子甲基化單獨就能區分不同年齡組，並觀察到細胞類型特異性的全基因組去甲基化現象。這項突破性研究為理解大腦老化機制提供了全新的表觀遺傳學視角，並為神經退化性疾病的預防和治療提供了新的潛在靶點。\n\n【研究問題】\n長期以來，老化是神經退化性疾病的主要風險因素，但其背後的表觀遺傳機制一直不清楚。過去的研究通常將大腦視為一個整體，忽略了不同細胞類型在老化過程中的差異化反應。此外，對於轉座子在老化過程中如何影響基因調控的研究也相對有限。這項研究旨在解決這些關鍵問題：不同腦區和細胞類型如何以不同方式對老化作出反應？轉座子的去甲基化如何影響染色質結構和基因表達？這些變化與神經退化性疾病有何關聯？\n\n【研究方法】\n研究團隊採用了創新的單細胞多組學技術，結合了單細胞甲基化測序（snmC-seq3）、單細胞染色質構象測序（snm3C-seq）和空間轉錄組學（MERFISH）。他們分析了2個月、9個月和18個月齡的老鼠大腦樣本，涵蓋多個腦區。通過整合這些數據，建立了包含132,551個單細胞甲基化和72,666個聯合染色質構象-甲基化細胞核的詳細圖譜。研究團隊還開發了深度學習模型，利用多模式表觀遺傳特徵來預測年齡相關的基因表達變化。這種綜合方法使他們能夠以前所未有的解析度探索大腦老化的細胞類型特異性機制。\n\n【結果】\n研究發現，轉座子甲基化水平能夠單獨區分不同年齡組，顯示細胞類型特異性的全基因組去甲基化現象。在染色質構象分析中，他們觀察到年齡相關的頂點關聯域（TAD）邊界強度增加，CTCF結位點的可及性增強。空間轉錄組學分析揭示了相同細胞類型在不同腦區的老化異質性。研究團隊開發的深度學習模型能夠可靠地利用多模式表觀遺傳特徵預測年齡相關的基因表達變化。例如，在海馬體顆粒細胞中，LTR轉座子的去甲基化與染色質可及性和基因表達的變化相關聯。這些發現為理解大腦老化的分子機制提供了重要線索，並為開發針對神經退化性疾病的干預策略提供了潛在靶點。",
+      "en": "**Summary:**\nThis study establishes a comprehensive single-cell methylome atlas, revealing cell-type-specific transposon demethylation and chromatin structure remodeling in the aging mouse brain. The research team analyzed over 132,551 single-cell methylomes and 72,666 joint chromatin conformation-methylome nuclei, integrating transcriptomic and chromatin accessibility data to identify 36 major cell types. They discovered that transposon methylation alone could distinguish age groups, observing cell-type-specific genome-wide demethylation. This breakthrough research provides a novel epigenetic perspective on understanding brain aging mechanisms and offers new potential targets for preventing and treating neurodegenerative diseases.\n\n**Problem:**\nFor decades, aging has been recognized as a major risk factor for neurodegenerative diseases, yet the underlying epigenetic mechanisms have remained unclear. Previous studies typically treated the brain as a homogeneous entity, overlooking the differential cellular responses to aging across different cell types. Additionally, research on how transposons influence gene regulation during aging has been limited. This study aimed to address these critical questions: How do different brain regions and cell types respond differently to aging? How does transposon demethylation affect chromatin structure and gene expression? What is the connection between these changes and neurodegenerative diseases?\n\n**Approach:**\nThe research team employed innovative single-cell multi-omics technologies, combining single-cell methylome sequencing (snmC-seq3), single-cell chromatin conformation sequencing (snm3C-seq), and spatial transcriptomics (MERFISH). They analyzed mouse brain samples from 2, 9, and 18 months old, covering multiple brain regions. By integrating these datasets, they constructed a detailed atlas comprising 132,551 single-cell methylomes and 72,666 joint chromatin conformation-methylome nuclei. The team also developed deep learning models to predict age-related gene expression changes using multi-modal epigenetic features. This comprehensive approach enabled them to explore the cell-type-specific mechanisms of brain aging with unprecedented resolution.\n\n**Results:**\nThe study found that transposon methylation levels alone could distinguish between different age groups, revealing cell-type-specific genome-wide demethylation. Chromatin conformation analysis showed age-related increases in topologically associated domain (TAD) boundary strength and enhanced accessibility at CTCF binding sites. Spatial transcriptomics analysis revealed regional heterogeneity in aging effects even within identical cell types. The deep learning models developed by the team could reliably predict age-related gene expression changes using multi-modal epigenetic features. For example, in hippocampal granule cells, LTR transposon demethylation correlated with changes in chromatin accessibility and gene expression. These findings provide crucial insights into the molecular mechanisms of brain aging and offer potential targets for developing interventions against neurodegenerative diseases."
+    },
+    "keyArticle": {
+      "title": "Cell-type-specific transposon demethylation and TAD remodeling in aging mouse brain",
+      "authors": [
+        "Qiurui Zeng",
+        "Wenliang Wang",
+        "Wei Tian",
+        "A. Klein",
+        "Anna Bartlett",
+        "Hanqing Liu",
+        "Joseph R. Nery",
+        "Rosa G. Castanon",
+        "Julia Osteen",
+        "Nicholas D. Johnson",
+        "Wubin Ding",
+        "Huaming Chen",
+        "Jordan Altshul",
+        "Mia Kenworthy",
+        "Cynthia Valadon",
+        "William S. Owens",
+        "Zhanghao Wu",
+        "Maria Luisa Amaral",
+        "Nathan R. Zemke",
+        "Yuru Song",
+        "Cindy Tatiana Báez-Becerra",
+        "Silvia Cho",
+        "Chumo Chen",
+        "Jackson Willier",
+        "Stella Maris Cao",
+        "Jonathan Rink",
+        "Jasper Lee",
+        "Ariana Barcoma",
+        "Jessica Arzavala",
+        "Nora Emerson",
+        "Yuancheng Ryan Lu",
+        "Bing Ren",
+        "M. Margarita Behrens",
+        "Joseph R. Ecker"
+      ],
+      "doi": "10.1016/j.cell.2026.02.015",
+      "pages": "2148-2166.e27"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.015",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.015"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-07T20:15:33.406741+00:00",
+    "source": "openalex"
+  }
+}

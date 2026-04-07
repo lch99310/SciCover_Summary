@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-04T19:41:48.554291+00:00",
+  "lastUpdated": "2026-04-07T20:24:12.697466+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-04-03",
+      "journal": "Political Geography",
+      "date": "2026-04-03",
+      "path": "articles/2026/04/political-geography-2026-04-03.json",
+      "title_zh": "水權地緣政治：國家為何加入或拒絕全球水條約",
+      "title_en": "Hydro-legal Geopolitics: Why States Join or Reject Global Water Treaties",
+      "cover_url": "data/images/political-geography/political-geography-2026-04-03-cover.jpg"
+    },
     {
       "id": "cell-2026-04-01",
       "journal": "Cell",
@@ -110,6 +119,15 @@
       "cover_url": ""
     },
     {
+      "id": "nature-2026-03-18",
+      "journal": "Nature",
+      "date": "2026-03-18",
+      "path": "articles/2026/03/nature-2026-03-18.json",
+      "title_zh": "溫室氣體輻射強化的精確約束：突破氣候預測不確定性的關鍵",
+      "title_en": "Strong Constraint on Greenhouse Gas Radiative Forcing: Key to Reducing Climate Prediction Uncertainties",
+      "cover_url": "data/images/nature/nature-2026-03-18-cover.jpg"
+    },
+    {
       "id": "political-geography-2026-03-18",
       "journal": "Political Geography",
       "date": "2026-03-18",
@@ -162,6 +180,15 @@
       "title_zh": "渡鴉的預知能力：黃石公園的智慧掠食者",
       "title_en": "Raven's Foreknowledge: The Intelligent Foragers of Yellowstone",
       "cover_url": "data/images/science/science-2026-03-12-cover.jpg"
+    },
+    {
+      "id": "cell-2026-03-11",
+      "journal": "Cell",
+      "date": "2026-03-11",
+      "path": "articles/2026/03/cell-2026-03-11.json",
+      "title_zh": "大腦老化中的細胞類型特異性轉座子去甲基化與染色質結構重塑",
+      "title_en": "Cell-Type-Specific Transposon Demethylation and Chromatin Remodeling in Brain Aging",
+      "cover_url": "data/images/cell/cell-2026-03-11-cover.jpg"
     },
     {
       "id": "nature-2026-03-11",
@@ -668,6 +695,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-01-22-cover.jpg"
     },
     {
+      "id": "science-2026-01-22",
+      "journal": "Science",
+      "date": "2026-01-22",
+      "path": "articles/2026/01/science-2026-01-22.json",
+      "title_zh": "AI蜂群如何悄無聲息地侵蝕民主：新興數位戰爭的隱形威脅",
+      "title_en": "The Silent Swarm: How AI Collectives Could Undermine Democratic Institutions",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2026-01-17-02",
       "journal": "American Sociological Review",
       "date": "2026-01-17",
@@ -1170,6 +1206,15 @@
       "title_zh": "威權主義的自由化適應：美國撤退後的全球政治變局",
       "title_en": "The Persistence of Liberal Practices in Authoritarian Regimes: Implications of US Retrenchment",
       "cover_url": "data/images/international-organization/international-organization-2025-11-20-14-cover.jpg"
+    },
+    {
+      "id": "international-organization-2025-11-20-15",
+      "journal": "International Organization",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/international-organization-2025-11-20-15.json",
+      "title_zh": "美元黯然失色：川普時代美國金融霸權的瓦解",
+      "title_en": "Dollar Diminished: The Unmaking of US Financial Hegemony Under Trump",
+      "cover_url": ""
     },
     {
       "id": "international-organization-2025-11-20",

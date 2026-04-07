@@ -1,0 +1,50 @@
+{
+  "id": "nature-2026-03-18",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8108",
+  "date": "2026-03-18",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-03-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "溫室氣體輻射強化的精確約束：突破氣候預測不確定性的關鍵",
+      "en": "Strong Constraint on Greenhouse Gas Radiative Forcing: Key to Reducing Climate Prediction Uncertainties"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究突破性地建立了溫室氣體輻射強化的精確量化方法，解決了長波即時輻射強化(LW IRF)長期以來難以約束的科學難題。研究團隊發現WMGHG濃度增加自1850年以來增強了LW IRF達3.69±0.07 W m⁻²，並建立了輻射強化與向外長波輻射(OLR)之間的穩定線性關係，使科學家能直接從衛星觀測的OLR推斷出狀態依賴的輻射強化。這一框架不僅能將CO₂有效輻射強化(ERF)的不確定性降低50%，更為未來氣候評估提供了一個觀測約束的途徑，顯著提升了我們對氣候系統變化的預測能力。\n\n【研究問題】\n過去科學家在量化溫室氣體輻射強化時面臨兩大難題：一是長波即時輻射強化(LW IRF)依賴於大氣狀態且受輻射參數化誤差影響；二是不同氣候模型之間的輻射強化估計存在顯著差異。這些不確定性直接影響了對CO₂引發變暖的預測準確性。儘管分子光譜學和輻射傳輸建模有所進步，但LW IRF的狀態依賴性仍然是溫室氣體輻射強化不確定性的主要來源，亟需新的方法來約束這些不確定性。\n\n【研究方法】\n研究團隊採用了創新的三步驟方法：首先，使用GPU優化的逐線輻射傳輸代碼(GRTcode)進行全球尺度模擬，提供真實全天候條件下主要WMGHG的LW IRF基準；其次，他們發現了LW IRF與向外長波輻射(OLR)之間的穩定線性關係，使狀態依賴的LW IRF可直接從衛星觀測的OLR回歸推斷；最後，將此框架應用於地球系統模型，診斷並修正輻射參數化的偏差。這種方法巧妙地避開了計算密集型的逐線計算，同時保持了高精度，為大規模模型評估提供了實用工具。\n\n【結果】\n研究取得了一系列關鍵發現：自1850年以來，WMGHG濃度增加導致的LW IRF增強了3.69±0.07 W m⁻²；LW IRF解釋了地球系統模型中CO₂有效輻射強化(ERF)91%的模型間差異；通過修正輻射強化偏差，可將CO₂ ERF的不確定性降低50%。更具體地，研究顯示CO₂濃度從370.8增至423.0 ppmv貢獻了0.863 W m⁻²的輻射強化增加，而CH₄、N₂O、HFCs和CFCs分別貢獻了0.067、0.067、0.048和-0.012 W m⁻²。這些結果不僅提供了精確的輻射強化量化方法，更為改進氣候模型和提升氣候預測準確性奠定了基礎。",
+      "en": "**Summary:**\nThis research breakthrough establishes a precise framework for quantifying greenhouse gas radiative forcing, solving a long-standing scientific challenge with the longwave instantaneous radiative forcing (LW IRF) component. The team discovered that WMGHG concentration increases have enhanced LW IRF by 3.69 ± 0.07 W m⁻² since 1850 and identified a robust linear relationship between LW IRF and outgoing longwave radiation (OLR). This enables direct inference of state-dependent LW IRF from satellite-observed OLR, providing a pathway to reduce uncertainty in CO₂-induced warming projections by 50% through model benchmarking. The framework offers observationally constrained pathways for future climate assessments, significantly enhancing our predictive capability for climate system changes.\n\n**Problem:**\nScientists have faced two major challenges in quantifying greenhouse gas radiative forcing: the LW IRF component depends on atmospheric state and is subject to radiative parameterization errors, and significant discrepancies exist between different climate models' estimates. These uncertainties directly impact the accuracy of CO₂-induced warming predictions. Despite advances in molecular spectroscopy and radiative modeling, the state dependence of LW IRF remains a leading source of uncertainty in greenhouse gas forcing estimates, requiring innovative approaches to constrain these uncertainties.\n\n**Approach:**\nThe researchers employed a novel three-step methodology: first, they used a GPU-optimized line-by-line radiative transfer code (GRTcode) to perform global-scale simulations, providing benchmarks for LW IRF of major WMGHGs under realistic all-sky conditions; second, they identified a robust linear relationship between LW IRF and OLR, enabling direct inference of state-dependent LW IRF from satellite-observed OLR through regression analysis; finally, they applied this framework to Earth system models to diagnose and correct radiation parameterization biases. This approach cleverly avoids computationally intensive line-by-line calculations while maintaining high precision, providing a practical tool for large-scale model evaluation.\n\n**Results:**\nThe study yielded several key findings: WMGHG concentration increases have enhanced LW IRF by 3.69 ± 0.07 W m⁻² since 1850; LW IRF explains 91% of the inter-model spread in CO₂ effective radiative forcing (ERF) across Earth system models; correcting LW IRF biases reduces CO₂ ERF uncertainty by 50%. Specifically, CO₂ concentration increase from 370.8 to 423.0 ppmv contributed 0.863 W m⁻² to the forcing enhancement, while CH₄, N₂O, HFCs, and CFCs contributed 0.067, 0.067, 0.048, and -0.012 W m⁻², respectively. These results not only provide a precise method for quantifying radiative forcing but also lay the foundation for improving climate models and enhancing the accuracy of climate predictions."
+    },
+    "keyArticle": {
+      "title": "A strong constraint on radiative forcing of well-mixed greenhouse gases",
+      "authors": [
+        "Jing Feng",
+        "David Paynter",
+        "Raymond Menzel",
+        "Ryan J. Kramer"
+      ],
+      "doi": "10.1038/s41586-026-10289-x",
+      "pages": "105-111"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-03-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10289-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10289-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-07T20:11:16.854983+00:00",
+    "source": "openalex"
+  }
+}
