@@ -67,6 +67,16 @@ JOURNAL_IMAGE_SLUG: Dict[str, str] = {
 # All journal keys from the registry.
 ALL_JOURNAL_KEYS = list(JOURNAL_REGISTRY.keys())
 
+# Retry policy for upgrading abstract-only entries to full-text.
+# When no new candidates are available for a journal, the runner will try to
+# re-process at most one incomplete entry whose ``_meta.summary_mode`` is
+# ``abstract-only``.  Each attempt bumps ``retry_count`` and ``last_retry_at``.
+# A retry is only eligible if the last attempt was at least
+# ``_MIN_RETRY_INTERVAL_DAYS`` ago and ``retry_count`` has not exceeded
+# ``_MAX_RETRIES`` — this prevents wasting API quota on permanently gated DOIs.
+_MAX_RETRIES = 5
+_MIN_RETRY_INTERVAL_DAYS = 30
+
 
 # ---------------------------------------------------------------------------
 # Pipeline runner
@@ -155,6 +165,8 @@ class PipelineRunner:
         raw = None
         article_id = ""
         entry_file = None
+        is_retry = False
+        existing_data: Optional[Dict[str, Any]] = None
 
         for candidate in candidates:
             # Validate date.
@@ -202,6 +214,38 @@ class PipelineRunner:
             entry_file = cand_file
             break
 
+        # Step 2b — If no new article found, try to upgrade an incomplete
+        # (abstract-only) entry to full-text.  At most one retry per journal
+        # per run, subject to cooldown and max-attempts limits.
+        if raw is None and not self.dry_run and self.summarizer is not None:
+            for candidate in candidates:
+                if not candidate.date or not candidate.date.strip():
+                    continue
+                existing_id, existing_file, existing = self._find_existing_match(candidate)
+                if existing is None:
+                    continue
+                if not self._needs_fulltext_retry(existing):
+                    continue
+                if not self._is_retry_eligible(existing):
+                    logger.info(
+                        "Retry skipped for %s: cooldown or max attempts reached",
+                        existing_id,
+                    )
+                    continue
+                logger.info(
+                    "Retrying full-text for %s ('%s')",
+                    existing_id, candidate.article_title[:50],
+                )
+                raw = candidate
+                article_id = existing_id
+                entry_file = existing_file
+                is_retry = True
+                existing_data = existing
+                # Remove from pass-1 skipped list to avoid double-reporting.
+                if existing_id in report["skipped"]:
+                    report["skipped"].remove(existing_id)
+                break
+
         if raw is None:
             logger.info(
                 "All %d candidates for %s already processed",
@@ -210,8 +254,9 @@ class PipelineRunner:
             return
 
         logger.info(
-            "%s: processing '%s' (vol.%s #%s, %s)",
+            "%s: %s '%s' (vol.%s #%s, %s)",
             journal_name,
+            "retrying" if is_retry else "processing",
             raw.article_title[:60],
             raw.volume,
             raw.issue,
@@ -275,6 +320,23 @@ class PipelineRunner:
                 logger.info("Thumbnail extracted for %s", article_id)
             else:
                 logger.info("No thumbnail for %s (all strategies failed)", article_id)
+
+            # On retry: if no new image was fetched but the existing entry had
+            # one, preserve it so we don't downgrade a previously-complete
+            # cover image just because this retry round failed to re-fetch it.
+            if is_retry and image_path is None and existing_data is not None:
+                old_url = existing_data.get("coverImage", {}).get("url", "")
+                if old_url:
+                    if old_url.startswith("data/"):
+                        old_fs_path = DATA_DIR / old_url[len("data/"):]
+                    else:
+                        old_fs_path = Path(old_url)
+                    if old_fs_path.exists():
+                        image_path = old_fs_path
+                        logger.info(
+                            "Retry reused existing thumbnail for %s",
+                            article_id,
+                        )
 
         # Step 4 — Full-text retrieval.
         # For Elsevier journals (Cell, Political Geography), the Elsevier
@@ -375,14 +437,32 @@ class PipelineRunner:
             actual_mode = getattr(self.summarizer, "_last_mode", "abstract-only")
         else:
             actual_mode = "full-text" if fulltext else "abstract-only"
+
+        # Retry path: only overwrite the existing entry if we successfully
+        # upgraded from abstract-only to full-text.  Otherwise, just bump
+        # the retry metadata so the cooldown kicks in for the next run.
+        if is_retry and actual_mode != "full-text":
+            self._bump_retry_metadata(entry_file, existing_data or {})
+            logger.info(
+                "Retry for %s did not yield full-text — keeping existing entry",
+                article_id,
+            )
+            report["skipped"].append(f"{article_id} [retry-no-improvement]")
+            return
+
         entry = self._build_entry(
             raw, article_id, image_path, ai_output,
             summary_mode=actual_mode,
+            previous_meta=(existing_data or {}).get("_meta") if is_retry else None,
         )
         self._write_json(entry_file, entry)
 
-        report["processed"].append(article_id)
-        logger.info("Wrote %s", entry_file)
+        if is_retry:
+            report["processed"].append(f"{article_id} [upgraded]")
+            logger.info("Upgraded %s to full-text", entry_file)
+        else:
+            report["processed"].append(article_id)
+            logger.info("Wrote %s", entry_file)
 
     @staticmethod
     def _is_same_article(existing_file: Path, candidate: CoverArticleRaw) -> bool:
@@ -449,6 +529,100 @@ class PipelineRunner:
         return None, None
 
     # ------------------------------------------------------------------
+    # Retry helpers (abstract-only → full-text upgrade path)
+    # ------------------------------------------------------------------
+
+    def _find_existing_match(
+        self,
+        candidate: CoverArticleRaw,
+    ) -> tuple:
+        """Locate the existing JSON entry that corresponds to *candidate*.
+
+        Scans the base ID and all numeric suffix variants (``-02`` .. ``-49``)
+        in the candidate's year/month directory and returns the first file
+        whose DOI / title matches the candidate.
+
+        Returns ``(article_id, file_path, data)`` or ``(None, None, None)``.
+        """
+        try:
+            dt = datetime.strptime(candidate.date, "%Y-%m-%d")
+        except (ValueError, TypeError):
+            return None, None, None
+        cand_dir = DATA_DIR / "articles" / f"{dt.year:04d}" / f"{dt.month:02d}"
+        if not cand_dir.exists():
+            return None, None, None
+
+        base_id = generate_article_id(candidate.journal, candidate.date)
+        ids_to_check = [base_id] + [f"{base_id}-{i:02d}" for i in range(2, 50)]
+        for cid in ids_to_check:
+            cfile = cand_dir / f"{cid}.json"
+            if not cfile.exists():
+                continue
+            if not self._is_same_article(cfile, candidate):
+                continue
+            try:
+                data = json.loads(cfile.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError) as exc:
+                logger.warning("Failed to read %s: %s", cfile, exc)
+                continue
+            return cid, cfile, data
+        return None, None, None
+
+    @staticmethod
+    def _needs_fulltext_retry(existing: Dict[str, Any]) -> bool:
+        """True iff the existing entry is in abstract-only mode.
+
+        We intentionally do NOT retry based on missing cover image because
+        some articles legitimately have no image available — retrying them
+        would waste API quota on a dead end.
+        """
+        mode = existing.get("_meta", {}).get("summary_mode", "")
+        return mode == "abstract-only"
+
+    @staticmethod
+    def _is_retry_eligible(existing: Dict[str, Any]) -> bool:
+        """True iff the entry is within retry budget and cooldown window."""
+        meta = existing.get("_meta", {}) or {}
+        retry_count = int(meta.get("retry_count", 0) or 0)
+        if retry_count >= _MAX_RETRIES:
+            return False
+        last = (
+            meta.get("last_retry_at")
+            or meta.get("updated_at")
+            or meta.get("created_at")
+            or ""
+        )
+        if not last:
+            return True
+        try:
+            last_dt = datetime.fromisoformat(last.replace("Z", "+00:00"))
+        except ValueError:
+            return True
+        if last_dt.tzinfo is None:
+            last_dt = last_dt.replace(tzinfo=timezone.utc)
+        days_since = (datetime.now(timezone.utc) - last_dt).days
+        return days_since >= _MIN_RETRY_INTERVAL_DAYS
+
+    @classmethod
+    def _bump_retry_metadata(
+        cls,
+        entry_file: Path,
+        existing_data: Dict[str, Any],
+    ) -> None:
+        """Increment retry bookkeeping on an entry without changing content.
+
+        Called after a retry attempt that failed to upgrade the entry to
+        full-text mode.  Persists ``retry_count`` and ``last_retry_at`` so
+        the cooldown window kicks in before the next attempt.
+        """
+        if not existing_data:
+            return
+        meta = existing_data.setdefault("_meta", {})
+        meta["retry_count"] = int(meta.get("retry_count", 0) or 0) + 1
+        meta["last_retry_at"] = datetime.now(timezone.utc).isoformat()
+        cls._write_json(entry_file, existing_data)
+
+    # ------------------------------------------------------------------
     # Entry assembly
     # ------------------------------------------------------------------
 
@@ -459,8 +633,14 @@ class PipelineRunner:
         image_path: Optional[Path],
         ai_output: Optional[Dict[str, Any]],
         summary_mode: str = "abstract-only",
+        previous_meta: Optional[Dict[str, Any]] = None,
     ) -> Dict[str, Any]:
-        """Build the final JSON entry in the frontend-compatible format."""
+        """Build the final JSON entry in the frontend-compatible format.
+
+        When *previous_meta* is provided (retry-upgrade case), preserves the
+        original ``created_at`` and bumps ``retry_count`` / ``last_retry_at``
+        so the retry history is visible in the persisted entry.
+        """
         if image_path:
             try:
                 local_img = "data/" + str(image_path.relative_to(DATA_DIR))
@@ -514,13 +694,31 @@ class PipelineRunner:
                     **({"preprint": raw.preprint_url} if raw.preprint_url else {}),
                 },
             },
-            "_meta": {
-                "summary_mode": summary_mode,
-                "created_at": datetime.now(timezone.utc).isoformat(),
-                "source": "openalex",
-            },
+            "_meta": PipelineRunner._build_meta(summary_mode, previous_meta),
         }
         return entry
+
+    @staticmethod
+    def _build_meta(
+        summary_mode: str,
+        previous_meta: Optional[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+        """Assemble the ``_meta`` sub-object for a new or upgraded entry."""
+        now_iso = datetime.now(timezone.utc).isoformat()
+        if previous_meta:
+            return {
+                "summary_mode": summary_mode,
+                "created_at": previous_meta.get("created_at", now_iso),
+                "updated_at": now_iso,
+                "source": previous_meta.get("source", "openalex"),
+                "retry_count": int(previous_meta.get("retry_count", 0) or 0) + 1,
+                "last_retry_at": now_iso,
+            }
+        return {
+            "summary_mode": summary_mode,
+            "created_at": now_iso,
+            "source": "openalex",
+        }
 
     # ------------------------------------------------------------------
     # Index / latest manifests
