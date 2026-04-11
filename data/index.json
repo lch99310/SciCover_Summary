@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-10T19:46:21.185010+00:00",
+  "lastUpdated": "2026-04-11T03:20:06.928724+00:00",
   "articles": [
+    {
+      "id": "nature-2026-04-08",
+      "journal": "Nature",
+      "date": "2026-04-08",
+      "path": "articles/2026/04/nature-2026-04-08.json",
+      "title_zh": "精準測量W玻色子質量：粒子物理學的關鍵一步",
+      "title_en": "Precision Measurement of W Boson Mass: A Critical Step in Particle Physics",
+      "cover_url": "data/images/nature/nature-2026-04-08-cover.jpg"
+    },
     {
       "id": "political-geography-2026-04-03",
       "journal": "Political Geography",
@@ -36,6 +45,15 @@
       "title_zh": "基因密碼中的時間膠囊：解密皮膚炎症記憶的永恆之力",
       "title_en": "The Epigenetic Time Capsule: How CpG Sequences Preserve Inflammatory Memory",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-03-26-03",
+      "journal": "Science",
+      "date": "2026-03-26",
+      "path": "articles/2026/03/science-2026-03-26-03.json",
+      "title_zh": "AI的「諂媚症候群」：研究揭開大型語言模型的社交奉承行為",
+      "title_en": "The Sycophantic AI: How Language Models Over-Preserve User Face",
+      "cover_url": "data/images/science/science-2026-03-26-03-cover.jpg"
     },
     {
       "id": "science-2026-03-26",
@@ -999,6 +1017,15 @@
       "title_zh": "土地共治，復興鄉野：蘇格蘭村莊用社區買地打造生態與社會的雙贏未來",
       "title_en": "How a Scottish Community Bought Its Land to Restore Nature—and Build a New Social Contract",
       "cover_url": "data/images/political-geography/political-geography-2025-12-08-cover.jpg"
+    },
+    {
+      "id": "political-geography-2025-12-07",
+      "journal": "Political Geography",
+      "date": "2025-12-07",
+      "path": "articles/2025/12/political-geography-2025-12-07.json",
+      "title_zh": "氣候適應援助是否真正到達最需要的地方？菲律賓省級證據",
+      "title_en": "Does Climate Adaptation Aid Reach Those Most in Need? Evidence from Philippine Provinces",
+      "cover_url": "data/images/political-geography/political-geography-2025-12-07-cover.jpg"
     },
     {
       "id": "cell-2025-12-05",

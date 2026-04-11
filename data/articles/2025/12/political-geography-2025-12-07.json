@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2025-12-07",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-12-07",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-12-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "氣候適應援助是否真正到達最需要的地方？菲律賓省級證據",
+      "en": "Does Climate Adaptation Aid Reach Those Most in Need? Evidence from Philippine Provinces"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究首次以國內省級層級，深入探討氣候適應援助是否真正到達最需要幫助的地區。研究發現，菲律賓的氣候適應援助分配並非基於預防性風險評估，而是主要回應近期災害衝擊，尤其是颱風相關的死亡人數。更關鍵的是，研究揭露了政治聯盟對援助分配的顯著影響，顯示援助分配存在政治偏見。這些發現挑戰了當前國際氣候資金分配模式，呼籲建立更透明、戰略性導向且去政治化的援助機制。\n\n【研究問題】氣候變化對全球南方國家構成不成比例的威脅，然而發達國家承諾的氣候適應資金是否真正到達最脆弱社群，長期以來缺乏實證證據。過去研究主要關注國家間援助分配，忽略了國內不平等問題，且對「需求」的定義與衡量存在不一致性。本文致力於解決這一研究缺口，探討氣候適應援助如何在不同省級地區間分配，以及這種分配是否反映實際的氣候風險需求。\n\n【研究方法】研究團隊創新性地整合地理編碼的適應項目與多維度氣候風險指標，建立了獨特的數據集。研究框架明確區分四個氣候風險維度：自然災害暴露（以颱風風速和降雨量衡量）、適應能力（以貧困率為指標）、敏感性（以椰子生產作為農業敏感性指標）以及已實現的災害影響（以颱風相關死亡人數衡量）。研究分析了2009-2019年期間世界銀行和亞洲開發銀行在菲律賓81個省級地區的152個項目，其中58個被分類為適應項目。\n\n【結果】研究結果顯示，颱風暴露程度、有限的適應能力或敏感性並不能預測援助分配。相反，近期災害影響，特別是颱風相關死亡人數，成為主要決定因素。此外，研究發現省級政治動態與政治聯盟模式對適應項目分配具有顯著影響。在控制其他變量後，與中央政府政治立場一致的省級地區獲得更多適應資金。這些結果揭示了一種以反應而非預防為主的適應資金分配模式，突顯了去政治化援助分配機制的迫切需求。",
+      "en": "**Summary:** This groundbreaking study provides the first sub-national-level evidence on whether climate adaptation aid reaches those most vulnerable to climate change. The research reveals that in the Philippines, climate adaptation aid distribution responds primarily to recent disaster impacts rather than preventive risk assessment. Most significantly, the study uncovers substantial political biases in aid allocation, where provincial alignment with the central government strongly influences funding. These findings challenge current international climate finance allocation paradigms and call for more transparent, strategically targeted, and depoliticized aid mechanisms.\n\n**Problem:** Despite commitments from developed nations to support the most at-risk populations in the Global South, there is little evidence on whether climate adaptation aid effectively reaches those most in need. Existing research overwhelmingly focuses on international rather than sub-national aid allocation, and there's inconsistency in how \"need\" is defined and measured across studies. This article addresses this gap by examining how adaptation projects are distributed within countries and whether they correspond to actual climate risk dimensions.\n\n**Approach:** The researchers developed a novel panel dataset integrating geo-coded adaptation projects with multiple climate risk indicators. Their framework distinguishes four dimensions of climate risk: hazard exposure (cyclone wind speed and rainfall), adaptive capacity (measured by poverty rates), sensitivity (measured by coconut production as an agricultural sensitivity proxy), and realized disaster impacts (cyclone-related fatalities). The study analyzed 152 projects from the World Bank and Asian Development Bank across 81 Philippine provinces from 2009-2019, with 58 classified as adaptation projects.\n\n**Results:** The findings indicate that neither hazard exposure nor limited adaptive capacity or sensitivity consistently predict aid distribution. Instead, recent hazard impacts—specifically cyclone-related fatalities—emerge as the primary determinant. Moreover, provincial political alignment with the central government significantly influences project allocation. After controlling for other variables, provinces with higher political alignment receive more adaptation funding. These results reveal a predominantly reactive rather than preventive approach to adaptation funding, highlighting the urgent need for depoliticized aid allocation mechanisms."
+    },
+    "keyArticle": {
+      "title": "Does climate adaptation aid reach those most in need? Sub-national evidence from Philippine provinces",
+      "authors": [
+        "Niklas Hänze",
+        "Viktoria Jansesberger"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103450",
+      "pages": "103450"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-12-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103450",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103450"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-11T03:17:57.440156+00:00",
+    "source": "openalex"
+  }
+}
