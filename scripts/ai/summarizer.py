@@ -23,6 +23,8 @@ Priority order:
   3. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
   4. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
   5. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
+  6. openrouter/auto                   (OPENROUTER_FREE_API_KEY   — OpenRouter auto free routing)
+  7. deepseek-chat                     (DEEPSEEK_API_KEY          — DeepSeek, PAID, last resort)
 """
 
 from __future__ import annotations
@@ -84,6 +86,18 @@ _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
         "OPENROUTER_KEY_MINIMAX",
         "minimax/minimax-m2.5:free",
         "https://openrouter.ai/api/v1",
+    ),
+    # Free auto-routing key — OpenRouter picks the best available free model.
+    (
+        "OPENROUTER_FREE_API_KEY",
+        "openrouter/auto",
+        "https://openrouter.ai/api/v1",
+    ),
+    # PAID fallback — only reached when every free backend above has failed.
+    (
+        "DEEPSEEK_API_KEY",
+        "deepseek-chat",
+        "https://api.deepseek.com",
     ),
 ]
 
