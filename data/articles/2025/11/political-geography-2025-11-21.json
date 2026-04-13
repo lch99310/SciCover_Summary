@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2025-11-21",
+  "journal": "Political Geography",
+  "volume": "125",
+  "issue": "",
+  "date": "2025-11-21",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2025-11-21-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "建構區域：北極的本體論政治中的多重性與單一化",
+      "en": "Doing Regions: Multiplicity and Singularization in the Ontological Politics of the Arctic"
+    },
+    "summary": {
+      "zh": "【總結】本研究提出「本體論轉向」和「本體論政治」的理論框架，重新思考區域的本質。作者以北極地區為案例，展示區域如何透過實踐被建構和體現。研究發現北極地區存在多重版本，如環境區域、經濟區域、文化區域和政治區域，這些版本透過排除、分配和協調的機制共存。當俄羅斯入侵烏克蘭後，北極可能面临軍事化的挑戙，這代表了單一化的本體論政治過程。這項研究為理解區域政治提供了新的視角，強調了區域作為被體現的地理實體的政治地理學。\n\n【研究問題】傳統區域研究存在兩種主要視角：建構主義視角將區域視為社會建構的產物，關聯主義視角將區域視為關係構成的空間。然而，這些視角未能充分解釋區域如何在具體實踐中被體現。本研究旨在探討如何透過本體論轉向來重新思考區域概念，特別是分析北極地區如何透過不同實踐被多重體現，以及這些多重版本如何通過排除、分配和協調機制共存，最終被軍事安全等單一化力量挑戙。解決這個問題對理解國際政治和區域治理至關重要。\n\n【研究方法】作者採用本體論政治的理論框架，結合科學與技術研究（STS）的實踐分析方法。研究透過民族誌方法分析北極理事會會議和北極圈大會的實際操作，觀察區域邊界如何透過物質設置、座位安排和發言順序等具體實踐被體現。同時，作者分析芬蘭的北極戰略文件，探討不同部門如何協調對北極的多重理解。研究方法特點在於關注具體的物質-關聯實踐，而非僅僅分析表述和代表，從而揭示區域如何透過實際操作被建構和體現。\n\n【結果】研究發現北極地區透過多種實踐被多重體現：北極理事會會議將北極體現為有邊界的領土空間，而北極圈大會則將其體現為開放的關聯空間。芬蘭的北極戰略文件展示了如何透過將環境、經濟等多重版本進行協調，創造出「環境-經濟北極」的整合版本。然而，俄羅斯入侵烏克蘭後，軍事安全的考量可能導致北極的單一化，挑戙了其多重性。這些發現揭示了區域政治的本質不僅僅是意義的爭奪，更是不同版本區域之間關係的政治，以及多重性如何被維持或被削弱。",
+      "en": "**Summary:** This article introduces the \"turn to ontology\" and \"ontological politics\" as theoretical frameworks to rethink the nature of regions. Using the Arctic region as a case study, the author demonstrates how regions are enacted through practices. The research reveals that the Arctic exists in multiple versions—as an environmental, economic, cultural, and political region—coexisting through mechanisms of exclusion, distribution, and coordination. Following Russia's invasion of Ukraine, the Arctic faces potential militarization, representing an ontological politics of singularization that challenges this multiplicity. This study offers a new perspective on regional politics, emphasizing the political geographies of enacted geographical entities.\n\n**Problem:** Traditional regional geography has primarily operated with two conceptual frameworks: constructionist approaches that view regions as socially constructed entities, and relational approaches that see regions as spaces constituted by relations. However, these frameworks inadequately explain how regions are actually enacted through concrete practices. This research addresses how the \"turn to ontology\" can reframe our understanding of regions, particularly analyzing how the Arctic region is multiply enacted through different practices, and how these multiple versions coexist through mechanisms of exclusion, distribution, and coordination, ultimately being challenged by singularizing forces like military security. Solving this problem is crucial for understanding international politics and regional governance.\n\n**Approach:** The author employs the theoretical framework of ontological politics, combined with practice-based methodologies from Science and Technology Studies (STS). Through ethnographic analysis of Arctic Council meetings and Arctic Assembly conferences, the study observes how regional boundaries are enacted through material arrangements, seating configurations, and speaking orders. Additionally, the author analyzes Finland's Arctic strategy documents to examine how different governmental departments coordinate multiple understandings of the Arctic. The methodological innovation lies in focusing on material-relational practices rather than merely analyzing representations and discourses, thereby revealing how regions are constructed and enacted through actual operations.\n\n**Results:** The research reveals that the Arctic region is multiply enacted through various practices: Arctic Council meetings enact the Arctic as a bounded territorial space, while the Arctic Assembly enacts it as an open relational space. Finland's Arctic strategy documents demonstrate how multiple versions are coordinated to create an integrated \"environment-economic Arctic\" through hierarchical relationships that subordinate economic considerations to environmental imperatives. However, Russia's invasion of Ukraine has introduced military security considerations that potentially drive the Arctic toward singularization, challenging its multiplicity. These findings reveal that the essence of regional politics is not merely contests over meaning, but the politics of relations between different versions of regions, and how multiplicity is maintained or undermined."
+    },
+    "keyArticle": {
+      "title": "Doing regions: Multiplicity and singularization in the ontological politics of the Arctic",
+      "authors": [
+        "Vesa Väätänen"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103460",
+      "pages": "103460"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2025-11-21-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103460",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103460"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-13T20:12:48.610711+00:00",
+    "source": "openalex"
+  }
+}

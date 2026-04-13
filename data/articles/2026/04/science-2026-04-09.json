@@ -1,0 +1,60 @@
+{
+  "id": "science-2026-04-09",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6794",
+  "date": "2026-04-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-09-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "二維KPZ普適標度的實驗觀察：激子-極化子凝聚態中的突破性發現",
+      "en": "Experimental Observation of 2D KPZ Universal Scaling: Breakthrough Discovery in Exciton-Polariton Condensates"
+    },
+    "summary": {
+      "zh": "【總結】研究人員首次在實驗中觀察到二維Kardar-Parisi-Zhang (KPZ)普適標度行為，這項發表在《科學》期刊上的研究證實了在激子-極化子凝聚態（一種光量子流體）中存在與KPZ普適類別一致的標度行為。這項突破性發現為研究遠離平衡狀態的量子系統提供了新的實驗平台，建立了激子-極化子凝聚態作為探索二維非平衡普適性的強大工具。\n\n【研究問題】過去的研究中，KPZ普適標度主要在一維系統中被觀察到，如細菌菌落生長或火前進展。在二維系統中，KPZ標度行為理論上存在但缺乏直接的實驗證據，僅限於界面增長的研究。此外，二維KPZ標度沒有對應的平衡態對應物，使其成為研究非平衡現象的理想模型。解決這個問題至關重要，因為它有助於我們理解遠離平衡狀態的量子系統中的普適行為。\n\n【研究方法】研究人員使用激子-極化子凝聚態作為實驗平台，這是一種光與物質的混合準粒子。他們製備了二維方形和三角形晶格結構，通過引入局部厚度變化來創造光子限制區域。使用空間和動量分辨的光致發光光譜學以及干涉測量術，研究人員探測了不同驅動條件下系統的相位關聯。特別是，他們測量了一階相干函數g^(1)(Δr, Δt)，並將數據與理論KPZ標度函數進行比較，以驗證普適標度行為。\n\n【結果】研究結果顯示，在方形晶格中，測得的KPZ標度指數為χ = 0.417±0.034和β = 0.246±0.028，而在三角形晶格中為χ = 0.392±0.032和β = 0.239±0.029。這些值與理論預測值（χ ≈ 0.39，β ≈ 0.24）高度一致。實驗數據成功收縮到理論KPZ標度函數上，證實了二維KPZ普適行為的存在。這項研究建立了激子-極化子凝聚態作為探索二維非平衡普適性的強大實驗平台，為研究遠離平衡狀態的量子系統中的相干性開闢了新途徑。",
+      "en": "**Summary:** Researchers have experimentally observed 2D Kardar-Parisi-Zhang (KPZ) universal scaling for the first time, published in Science. The team observed scaling behavior consistent with the KPZ universality class in exciton-polariton condensates—quantum fluids of light. This breakthrough confirms the existence of 2D KPZ universal scaling in nonequilibrium quantum systems, establishing exciton-polariton condensates as a robust experimental platform for studying nonequilibrium universality.\n\n**Problem:** Previous research had primarily observed KPZ scaling in 1D systems like bacterial colony growth or fire fronts. In 2D systems, KPZ scaling theoretically existed but lacked direct experimental evidence, limited only to interface growth studies. Moreover, 2D KPZ scaling has no equilibrium counterpart, making it an ideal model for studying nonequilibrium phenomena. Solving this problem is crucial as it helps us understand universal behaviors in quantum systems far from equilibrium.\n\n**Approach:** Researchers used exciton-polariton condensates as their experimental platform—hybrid quasiparticles formed by photons and excitons. They fabricated 2D square and triangular lattice structures by introducing local thickness variations to create photonic confinement regions. Using space- and momentum-resolved photoluminescence spectroscopy as well as interferometry, the team probed phase correlations across different driving conditions. Specifically, they measured the first-order coherence function g^(1)(Δr, Δt) and compared the data with theoretical KPZ scaling functions to verify universal scaling behavior.\n\n**Results:** Results showed that in the square lattice, the measured KPZ scaling exponents were χ = 0.417±0.034 and β = 0.246±0.028, while in the triangular lattice they were χ = 0.392±0.032 and β = 0.239±0.029. These values are in excellent agreement with theoretical predictions (χ ≈ 0.39, β ≈ 0.24). The experimental data successfully collapsed onto the theoretical KPZ scaling function, confirming the existence of 2D KPZ universal behavior. This research establishes exciton-polariton condensates as a powerful experimental platform for exploring 2D nonequilibrium universality, opening new avenues for investigating coherence in quantum systems far from equilibrium."
+    },
+    "keyArticle": {
+      "title": "Observation of Kardar-Parisi-Zhang universal scaling in two dimensions",
+      "authors": [
+        "Simon Widmann",
+        "Siddhartha Dam",
+        "Johannes Düreth",
+        "Christian G. Mayer",
+        "Romain Daviet",
+        "Carl Philipp Zelle",
+        "David Laibacher",
+        "Monika Emmerling",
+        "Martin Kamp",
+        "Sebastian Diehl",
+        "Simon Betzold",
+        "Sebastian Klembt",
+        "Sven Höfling"
+      ],
+      "doi": "10.1126/science.aeb4154",
+      "pages": "221-224"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-09-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb4154",
+      "doi": "https://doi.org/10.1126/science.aeb4154",
+      "preprint": "http://arxiv.org/abs/2506.15521"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-13T20:05:45.873751+00:00",
+    "source": "openalex"
+  }
+}

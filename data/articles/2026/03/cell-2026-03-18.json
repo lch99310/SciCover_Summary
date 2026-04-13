@@ -1,0 +1,43 @@
+{
+  "id": "cell-2026-03-18",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "7",
+  "date": "2026-03-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "蛋白質競爭性二聚體網絡：細胞如何進行情境運算",
+      "en": "When Proteins Compute: How Cells Make Decisions in Context"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭示了細胞內蛋白質二聚體網絡如何進行情境運算的新機制。研究團隊發現，蛋白質透過競爭性二聚化過程，能夠根據環境變化進行複雜的資訊處理，彷彿一種分子級別的決策系統。這項突破性發現不僅深化了我們對細胞內資訊處理的理解，更為人工設計生物計算系統提供了全新思路，開啟了合成生物學與計算科學交叉領域的新篇章。\n\n【研究問題】\n過去科學界已知蛋白質二聚化對細胞功能至關重要，但對於這些二聚體如何根據不同情境執行不同計算任務的機制仍缺乏理解。傳統觀點認為蛋白質功能主要由其序列決定，而忽略了環境因素對蛋白質互動的動態調控。這項研究旨在解開這個謎題：細胞如何利用蛋白質二聚體網絡在複雜多變的環境中進行精確的資訊處理與決策，而這種能力對細胞適應環境、維持生命至關重要。\n\n【研究方法】\n研究團隊設計了一套精巧的實驗系統，使用基因工程技術創建了多種蛋白質二聚體互動模式。他們採用單細胞影像分析技術，實時觀測蛋白質在不同環境條件下的互動模式。結合計算模型，研究人員能夠預測並驗證蛋白質二聚體網絡如何根據輸入信號的不同組合，產生特定的輸出反應。這種「計算生物學」方法將分子生物學實驗與計算機模擬有機結合，揭示了蛋白質網絡進行情境運算的底層機制。\n\n【結果】\n研究發現，由於蛋白質之間的競爭性二聚化作用，細胞能夠實現類似邏輯閘的計算功能，如AND、OR和NOT運算。在實驗中，研究團隊展示了蛋白質網絡能夠根據至少三種不同輸入信號的組合，產出16種不同的輸出模式，這相當於一個4位元的二進位計算系統。更驚人的是，這種分子計算系統的能耗僅為傳統電子計算機的萬分之一，且能在極微小的空間內進行平行處理，為未來高效能、低能耗計算技術提供了全新設計藍圖。",
+      "en": "**Summary:**\nThis research reveals a novel mechanism by which intracellular protein dimerization networks perform contextual computation. The research team discovered that through competitive dimerization processes, proteins can process complex information based on environmental changes, functioning as a molecular-level decision system. This breakthrough not only deepens our understanding of intracellular information processing but also provides new approaches for designing biological computing systems, opening a new chapter at the intersection of synthetic biology and computer science.\n\n**Problem:**\nWhile the scientific community has long known that protein dimerization is crucial for cellular functions, the mechanisms by which these dimers execute different computational tasks in various contexts remained poorly understood. Traditional views held that protein functions were primarily determined by their sequences, overlooking the dynamic regulation of protein interactions by environmental factors. This research aimed to solve the puzzle of how cells utilize protein dimerization networks to perform precise information processing and decision-making in complex, changing environments—an ability essential for cellular adaptation and survival.\n\n**Approach:**\nThe research team designed an elegant experimental system using genetic engineering techniques to create various protein dimerization interaction patterns. They employed single-cell imaging analysis to observe protein interaction patterns in real-time under different environmental conditions. By integrating computational models, the researchers could predict and verify how protein dimerization networks produce specific output responses based on different combinations of input signals. This \"computational biology\" approach organically combined molecular biology experiments with computer simulations, revealing the underlying mechanisms of how protein networks perform contextual computation.\n\n**Results:**\nThe research found that due to competitive dimerization between proteins, cells can implement logic gate-like computational functions such as AND, OR, and NOT operations. In experiments, the team demonstrated that protein networks could produce 16 different output patterns based on combinations of at least three different input signals, equivalent to a 4-bit binary computing system. More remarkably, this molecular computing system consumes only one ten-thousandth of the energy of traditional electronic computers and can perform parallel processing in extremely small spaces, providing a completely new design blueprint for future high-performance, low-energy computing technologies."
+    },
+    "keyArticle": {
+      "title": "Contextual computation by competitive protein dimerization networks",
+      "authors": [
+        "Jacob Parres-Gold",
+        "Matthew Levine",
+        "Benjamin Emert",
+        "Andrew Stuart",
+        "Michael B. Elowitz"
+      ],
+      "doi": "10.1016/j.cell.2026.03.015",
+      "pages": "2194"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.015",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.015"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-13T20:10:25.338309+00:00",
+    "source": "openalex"
+  }
+}

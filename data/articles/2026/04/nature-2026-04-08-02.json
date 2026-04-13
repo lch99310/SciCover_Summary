@@ -1,0 +1,53 @@
+{
+  "id": "nature-2026-04-08-02",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8109",
+  "date": "2026-04-08",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-08-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "精確計算夸克-膠子耦合：粒子物理學的重大突破",
+      "en": "Precision Calculation of Quark-Gluon Coupling: A Major Breakthrough in Particle Physics"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次以無模型假設的方式，以前所未有的精度確定了夸克-膠子耦合常數αs。研究團隊使用格點量子色動力學(lattice QCD)的大規模數值模擬，將不確定性降至0.5%，這是所有其他結果不確定性的總和的一半。這項突破性成果不僅解決了粒子物理學中長期存在的強相互作用理論誤差問題，還為大型強子對撞機(LHC)等高能實驗分析提供了更精確的基礎，有助於發掘可能存在的新物理現象。\n\n【研究問題】強核力是自然界四種基本力之一，由量子色動力學(QCD)描述。然而，由於夸克禁閲(confinement)現象的存在，我們無法直接觀測到自由的夸克和膠子，只能在複合的「顏色中性」強子(如質子、中子等)實驗中間接研究。這使得精確確定夸克-膠子耦合常數αs長期以來成為粒子物理學的重大挑戰，傳統方法存在1.5-3%的系統理論誤差，限制了對標準模型的精確檢驗和新物理的探索。\n\n【研究方法】研究團隊採用兩種獨立且互補的方法：一是Nf=3 QCD的直接步進縮放(step-scaling)方法，二是重夸克解耦(decoupling)方法。兩種方法都基於格點QCD，通過在歐幾里得時空格點上對夸克和膠子場進行數值採樣，避開了傳統方法中對禁閲現象的建模假設。研究團隊進行了400萬核心小時的大規模計算，通過格點間距趨近於零的連續極限和重夸克質量趨近於無窮大的解耦極限，實現了前所未有的精度。他們還使用梯度流(gradient flow)和薛定諔函數(Schrödinger functional)等重整化方案，確保結果的穩健性。\n\n【結果】研究確定了QCD的標度參數ΛQCD = 344.4(8.7) MeV，並計算出在Z玻色子質量尺度(mZ)下的強耦合常數αs(mZ) = 0.11876(58)。不確定性主要來自統計蒙特卡洛評估，而非理論限制，這使得結果具有清晰的機率解釋。與其他方法相比，這項結果的精度提高了約兩倍。這些結果不僅驗證了QCD在從低能強子物理到高能散射的全部能量尺度上的有效性，還為探索希格斯玻色子產生與衰變、標準模型真空穩定性等前沿問題提供了更精確的理論基礎。隨著格點QCD計算社區進一步改善尺度確定，不確定性還有顯著降低的空間。",
+      "en": "**Summary:** This research presents the first model-free determination of the quark-gluon coupling constant αs with unprecedented precision (0.5% uncertainty) using large-scale numerical simulations of lattice Quantum Chromodynamics (QCD). By avoiding the modeling assumptions that plagued previous determinations, this breakthrough eliminates a major source of theoretical uncertainty in particle physics. The result not only validates QCD across all energy scales but also provides a foundation for dramatically improved analyses of high-energy experiments at facilities like the Large Hadron Collider, potentially uncovering subtle effects of new physics and enabling more stringent tests of the Standard Model.\n\n**Problem:** The strong nuclear force, described by Quantum Chromodynamics (QCD), has long been a significant source of inaccuracy in particle physics experiments due to our limited understanding of confinement—the phenomenon where quarks are bound within composite hadronic states and cannot be observed directly. Previous determinations of αs suffered from large systematic errors (1.5-3%) originating from the lack of analytic understanding of confinement at low energies. This uncertainty propagated to predictions of fundamental processes like Higgs boson production and decay rates, limiting our ability to probe for new physics and test the Standard Model with precision.\n\n**Approach:** The researchers employed two independent and complementary approaches: a direct step-scaling method in Nf=3 QCD and a decoupling method for heavy quarks. Both methods bypass modeling assumptions by using lattice QCD, where quark and gluon fields are numerically sampled on a discrete space-time lattice. The team performed massive computations (400 million core hours) and carefully took the continuum limit (lattice spacing approaching zero) and decoupling limit (heavy quark masses approaching infinity). They utilized sophisticated renormalization schemes including gradient flow and Schrödinger functionals to ensure robust results and controlled systematics, with the precision limited primarily by computational resources rather than theoretical understanding.\n\n**Results:** The determination yielded ΛQCD = 344.4(8.7) MeV and αs(mZ) = 0.11876(58), with uncertainties dominated by statistical Monte Carlo evaluation rather than theoretical limitations. This represents approximately twice the precision of previous experimental determinations combined. The results demonstrate remarkable agreement between the two independent methods, validating the approach. This unprecedented precision will significantly improve predictions for Higgs boson production and decay rates (reducing uncertainties by 2-4%), enable more sensitive searches for new physics at the LHC, and clarify questions about the stability of the Standard Model vacuum. As lattice QCD scale determinations improve in the broader community, the uncertainty in this result could be further reduced."
+    },
+    "keyArticle": {
+      "title": "High-precision calculation of the quark–gluon coupling from lattice QCD",
+      "authors": [
+        "Mattia Dalla Brida",
+        "Roman Höllwieser",
+        "Francesco Knechtli",
+        "Tomasz Korzec",
+        "A. Asensio Ramos",
+        "Stefan Sint",
+        "Rainer Sommer"
+      ],
+      "doi": "10.1038/s41586-026-10339-4",
+      "pages": "328-334"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-08-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10339-4",
+      "doi": "https://doi.org/10.1038/s41586-026-10339-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-13T20:08:27.888057+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-11T03:20:06.928724+00:00",
+  "lastUpdated": "2026-04-13T20:14:28.225391+00:00",
   "articles": [
+    {
+      "id": "science-2026-04-09",
+      "journal": "Science",
+      "date": "2026-04-09",
+      "path": "articles/2026/04/science-2026-04-09.json",
+      "title_zh": "二維KPZ普適標度的實驗觀察：激子-極化子凝聚態中的突破性發現",
+      "title_en": "Experimental Observation of 2D KPZ Universal Scaling: Breakthrough Discovery in Exciton-Polariton Condensates",
+      "cover_url": "data/images/science/science-2026-04-09-cover.jpg"
+    },
+    {
+      "id": "nature-2026-04-08-02",
+      "journal": "Nature",
+      "date": "2026-04-08",
+      "path": "articles/2026/04/nature-2026-04-08-02.json",
+      "title_zh": "精確計算夸克-膠子耦合：粒子物理學的重大突破",
+      "title_en": "Precision Calculation of Quark-Gluon Coupling: A Major Breakthrough in Particle Physics",
+      "cover_url": "data/images/nature/nature-2026-04-08-02-cover.jpg"
+    },
     {
       "id": "nature-2026-04-08",
       "journal": "Nature",
@@ -134,6 +152,15 @@
       "path": "articles/2026/03/science-2026-03-19.json",
       "title_zh": "腸道細菌「雙面刃」：大腸桿菌如何利用宿主硝酸鹽製造吲哚，加劇慢性腎病惡化",
       "title_en": "The Gut's Double-Edged Sword: How E. coli Leverages Host Nitrate to Produce Indole and Worsen Chronic Kidney Disease",
+      "cover_url": ""
+    },
+    {
+      "id": "cell-2026-03-18",
+      "journal": "Cell",
+      "date": "2026-03-18",
+      "path": "articles/2026/03/cell-2026-03-18.json",
+      "title_zh": "蛋白質競爭性二聚體網絡：細胞如何進行情境運算",
+      "title_en": "When Proteins Compute: How Cells Make Decisions in Context",
       "cover_url": ""
     },
     {
@@ -1116,6 +1143,15 @@
       "title_zh": "平等的陰影：法國三代移民後裔的教育流動性與族裔階級差異",
       "title_en": "Shades of Égalité: How France’s Third-Generation Immigrants Reveal a Racial Hierarchy in Education",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-11-21",
+      "journal": "Political Geography",
+      "date": "2025-11-21",
+      "path": "articles/2025/11/political-geography-2025-11-21.json",
+      "title_zh": "建構區域：北極的本體論政治中的多重性與單一化",
+      "title_en": "Doing Regions: Multiplicity and Singularization in the Ontological Politics of the Arctic",
+      "cover_url": "data/images/political-geography/political-geography-2025-11-21-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20-02",
