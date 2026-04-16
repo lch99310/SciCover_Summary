@@ -1,0 +1,59 @@
+{
+  "id": "science-2026-04-09-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6794",
+  "date": "2026-04-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-09-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "半導體自旋多體干涉測量：觀察量子混沌的突破性進展",
+      "en": "Semiconductor Spin Many-Body Interferometry: Breakthrough in Observing Quantum Chaos"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破了量子模擬的關鍵障礙，成功實現了半導體量子點中最多八個自旋的多體干涉測量，完整重建了量子多體系統的能量譜。這項突破使研究人員能夠直接觀察到從局域化到量子混沌的相變過程，為理解複雜量子現象提供了全新工具。\n\n【研究問題】傳統電腦難以模擬多體量子系統，因其計算複雜度隨系統大小呈指數增長。儘管已有各種量子模擬平台，但半導體量子點雖具備可擴展性和電控優勢，過去因製造難度和多重交互同步控制困難，一直難以探索多體現象。解決這一問題對於開發下一代量子計算和量子模擬器至關重要。\n\n【研究方法】研究團隊採用2×4的鍺/鍺錫異質結構量子點陣列，利用自軌道誘導的能級交叉現象來初始化自旋疊加態，並通過絕熱控制交換相互作用。他們開創了「多體拉姆齊干涉測量」協議，通過絕熱變換將單自旋態與多體態連接，在多體區域累積相位，再投影回讀出基礎，從而精確測量多體能級間隔。\n\n【結果】研究成功重建了2、4和8自旋鏈的完整能量譜，當相互作用強度超過磁無序時，觀察到從局域化到混沌相的標誌性轉變。通過分析能級均勻性和譜形式因子，證實了量子混沌特徵：能級排斥現象（P(r→0)→0）和譜形式因子早期時間更深的最小值。這些結果證明了量子點自旋系統作為高性能量子模擬平台的巨大潛力。",
+      "en": "**Summary:** This research突破 the critical barrier in quantum simulation by successfully implementing many-body interferometry with up to eight spins in semiconductor quantum dots, enabling complete reconstruction of quantum many-body system energy spectra. This breakthrough allows researchers to directly observe the crossover from localized to chaotic quantum behavior, providing an entirely new tool for understanding complex quantum phenomena.\n\n**Problem:** Classical computers struggle to simulate quantum many-body systems due to exponential complexity growth. While various quantum simulator platforms exist, semiconductor quantum dots offer advantages in scalability and electrical control but have previously been limited in accessing many-body phenomena due to fabrication challenges and difficulties in synchronously controlling multiple interactions. Solving this problem is crucial for developing next-generation quantum computers and simulators.\n\n**Approach:** The research team used a 2×4 array of germanium/silicon germanium heterostructure quantum dots, leveraging spin-orbit induced avoided crossings to initialize spin superposition states and adiabatically control exchange interactions. They pioneered a \"many-body Ramsey interferometry\" protocol that adiabatically connects single-spin states to many-body states, allowing phase accumulation in the many-body regime before projecting back to a readout basis, enabling precise measurement of many-body energy level spacings.\n\n**Results:** The research successfully reconstructed complete energy spectra for spin chains of 2, 4, and up to 8 spins. As interaction strength exceeded magnetic disorder, they observed signatures of crossover from localization to chaotic behavior through analysis of energy level uniformity and spectral form factor, confirming quantum chaos characteristics: energy level repulsion (P(r→0)→0) and deeper early-time minima in the spectral form factor. These results demonstrate the enormous potential of quantum dot spin systems as high-performance quantum simulation platforms."
+    },
+    "keyArticle": {
+      "title": "Many-body interferometry with semiconductor spins",
+      "authors": [
+        "Daniel Jirovec",
+        "Stefano Reale",
+        "Pablo Cova-Fariña",
+        "Christian Ventura-Meinersen",
+        "Minh T. P. Nguyen",
+        "Xin Zhang",
+        "Stefan D. Oosterhout",
+        "Giordano Scappucci",
+        "Menno Veldhorst",
+        "Maximilian Russ",
+        "Stefano Bosco",
+        "Lieven M. K. Vandersypen"
+      ],
+      "doi": "10.1126/science.aed4177",
+      "pages": "183-187"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-09-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aed4177",
+      "doi": "https://doi.org/10.1126/science.aed4177",
+      "preprint": "http://arxiv.org/abs/2511.04310"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-16T20:01:03.647828+00:00",
+    "source": "openalex"
+  }
+}

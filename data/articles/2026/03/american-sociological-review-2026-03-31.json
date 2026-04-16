@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-03-31",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "2",
+  "date": "2026-03-31",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "恐襲陰影下的職場歧視：伊斯蘭恐怖主義浪潮如何影響中東裔男性的就業機會",
+      "en": "Terrorism's Shadow: How Islamist Attack Waves Shape Employment for Middle Eastern Men"
+    },
+    "summary": {
+      "zh": "伊斯蘭恐怖攻擊不僅是血腥的政治事件，更會在社會中擴散成無形的歧視網絡。德國社會學家Malte Reichelt與Christoph Müller的研究揭示了這種連鎖效應：當恐怖攻擊形成集群並經由媒體放大時，會強化對中東裔男性的負面刻板印象，使他們的族裔背景在僱傭決策中變得「突出」。這種「突出性轉移」並非來自個別事件，而是來自媒體對攻擊浪潮的持續報導，如同在社會意識中點燃一場持續的火災。\n\n研究團隊分析了德國1999年至2019年的僱傭數據，發現當伊斯蘭恐怖攻擊集發生且媒體報導增多時，被認為具有中東背景的男性就業率顯著下降。這種效應在非技術性工作崗位比例高、缺乏正式招聘程序或工人代表機制的企業中尤為顯著。然而，當企業中有中東裔經理時，這種負面效應會被明顯削弱。研究顯示，政治化事件轉化為就業不平等並非必然，而是取決於組織內部的權力結構和決策機制。",
+      "en": "Islamist terrorist attacks generate far-reaching consequences that extend far beyond their immediate violence, creating invisible networks of discrimination in workplaces. A groundbreaking study by sociologists Malte Reichelt and Christoph Müller reveals how clusters of such attacks, amplified by media coverage, trigger 'salience shifts' that make ethnoracial characteristics more consequential in hiring decisions. This shift doesn't result from isolated events but from the continuous media narrative that transforms individual attacks into a perceived threat, much like how a series of seemingly disconnected brush fires can reshape entire landscapes in the public consciousness.\n\nAnalyzing German employment data from 1999 to 2019, the researchers found that periods marked by multiple Islamist attacks and heightened media coverage significantly reduced employment opportunities for men perceived to be of Middle Eastern origin. These effects were particularly pronounced in workplaces with a high proportion of non-complex jobs and in settings lacking formal hiring procedures or worker representation. Critically, the negative impact was substantially muted when Middle Eastern managers were present, suggesting that organizational power structures can either amplify or mitigate the translation of political events into employment disparities."
+    },
+    "keyArticle": {
+      "title": "Salience Shifts and Managerial Discretion: How Periods of Islamist Terrorism Affect the Employment of Middle Eastern Men",
+      "authors": [
+        "Malte Reichelt",
+        "Christoph Müller"
+      ],
+      "doi": "10.1177/00031224261424488",
+      "pages": "313-348"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261424488",
+      "doi": "https://doi.org/10.1177/00031224261424488"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-16T20:11:41.697094+00:00",
+    "source": "openalex"
+  }
+}

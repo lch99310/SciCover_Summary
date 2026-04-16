@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-03-24-02",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-03-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "減少欲望：拉岡精神分析如何解構成長主義的心理障礙",
+      "en": "Degrowing Desire: How Lacanian Psychoanalysis Deconstructs Psychological Barriers to Post-Growth Futures"
+    },
+    "summary": {
+      "zh": "【總結】本文突破性地將拉岡精神分析理論引入「去成長」討論，揭示人類主體內在的「缺乏」如何驅動無窮欲望，而資本主義巧妙地將此欲望轉化為永續的生產與消費循環。作者指出，實現去成長不僅需要經濟轉型，更需轉變我們與「享受」的關係，培養「後幻想式」的欲望，以可持續的享樂主義取代物質消費的虛幻滿足。這為去成長政治提供了全新的心理層面理解。【研究問題】現有去成長研究多聚焦政治、經濟、文化等宏觀因素，卻忽略了心理層面的內在動力。拉岡精神分析指出，對無限增長的需求不僅體現在資本主義體制中，更深植於人類主體結構。這種心理動力如何阻礙人們實際採取去成長行動？為何儘管認知到危機，人們仍難以擺脫對當前秩序的依附？【研究方法】作者採用拉岡的想像-象徵-現實三元框架，分析主體如何透過幻想來隱藏現實中的不可能性，並以此維持對資本主義的依附。文章結合精神分析學者如齊澤克的理論，探討「欲望」如何轉化為「驅力」，以及哀悼與憂鬱的過程如何阻礙社會轉型。這種理論框架提供了理解無意識心理機制如何影響環境政治的新視角。【結果】研究指出，資本主義透過提供虛幻的享樂(jouissance)創造強烈依附，使人們即使認識到問題仍難以變革。突破此困境需要「穿越幻想」，接受資本主義的現實為自毀系統，並承認哀悼過程的痛苦性。作者提出需培養集體的「後幻想式享受」，發展「共同主義」(common-ism)的社會關係，以及建立可觸及的「實烏托邦」愿景，而非僅是理想化的未來想像。",
+      "en": "**Summary:** This article innovatively introduces Lacanian psychoanalysis to degrowth discourse, revealing how human subjects' inherent 'lack' drives insatiable desire that capitalism effectively channels into endless production and consumption cycles. The author argues that achieving degrowth requires transforming our relationship with 'enjoyment' by cultivating 'post-fantasmatic' desire—replacing illusory satisfaction from material consumption with sustainable forms of hedonism. This provides a novel psychological dimension to degrowth politics, highlighting the unconscious barriers to social transformation that other approaches have failed to adequately address. **Problem:** Existing degrowth research primarily focuses on political, economic, cultural, and environmental factors while neglecting the intimate psychological dynamics. Lacanian analysis shows that the demand for infinite growth is embedded not only in capitalist political economy but in the very structure of human subjectivity. How does this psychological dynamic hinder people from actually implementing degrowth despite recognizing its necessity? Why do people remain attached to the status quo even when they explicitly desire change? **Approach:** The author employs Lacan's Imaginary-Symbolic-Real triad to analyze how subjects maintain attachment to capitalism through fantasy, which conceals the fundamental impossibility at the heart of social reality. Building on theorists like Žižek, the article examines how 'desire' transforms into 'drive,' and how processes of mourning and melancholia impede social transformation. This theoretical framework offers a new lens for understanding unconscious psychological mechanisms that influence environmental politics and behavior. **Results:** The research demonstrates that capitalism creates powerful attachment through the promise of 'jouissance' (pleasure/enjoyment), making people resistant to change even when cognitively aware of problems. Breaking this cycle requires 'traversing the fantasy'—accepting capitalism as a self-destructive system and confronting the painful mourning process necessary to detach from the status quo. The author proposes cultivating collective 'post-fantasmatic enjoyment,' developing 'common-ism' social relations, and creating tangible 'real utopias' rather than idealized future visions to motivate transformative change toward degrowth."
+    },
+    "keyArticle": {
+      "title": "Degrowing desire",
+      "authors": [
+        "Robert Fletcher"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103540",
+      "pages": "103540"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103540",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103540"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-16T20:09:03.936037+00:00",
+    "source": "openalex"
+  }
+}

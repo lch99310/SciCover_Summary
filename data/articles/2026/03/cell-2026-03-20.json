@@ -1,0 +1,93 @@
+{
+  "id": "cell-2026-03-20",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "7",
+  "date": "2026-03-20",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-20-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人體E3泛素連接酶地圖：科學家繪製細胞「蛋白質標記系統」完整譜系",
+      "en": "Mapping the Human E3 Ubiquitin Ligase Landscape: Scientists Complete the Cellular 'Protein Tagging System' Atlas"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究首次繪製了人體E3泛素連接酶的完整地圖，創建了包含672個高置信度E3酶的「E3-ome」資料庫。科學家們不僅標準化了E3分類系統，還發現了多個先前未被識別的結構域和基序，並揭示了E3酶在人體各組織和細胞類型中的空間與生理組織模式。這項突破性研究為理解細胞內蛋白質降解機制提供了全新的視角，並將E3酶與多種人類疾病相關聯，為未來的機制研究和治療發展奠定了基礎。\n\n【研究問題】\n過去的研究雖然識別了一些E3泛素連接酶，但缺乏全面系統的普查，導致對人體E3酶的完整譜系認知不完整。科學家們不清楚究竟有多少種E3酶存在，它們如何分類，以及它們在不同組織和疾病狀態下的表達模式。這一知識缺口嚴局限制了對泛素化系統的深入理解，以及基於此的疾病治療策略開發。E3酶作為細胞內蛋白質降解的關鍵調節因子，其完整譜系的繪製對於理解細胞生命活動和疾病發生機制至關重要。\n\n【研究方法】\n研究團隊採用了多維度的分析方法，首先整合了實驗數據、生物信息學和已發表研究，建立了一個系統性的E3酶資料庫。他們創建了統一的E3分類框架，並使用結構比較和序列同源性分析來識別新的E3候選分子。此外，研究還結合了單細胞RNA-seq分析和基因表達數據，繪製了E3酶在不同組織和細胞類型中的分佈圖。通過與遺傳變異和疾病數據庫的交叉分析，研究團隊還確定了與人類疾病相關的E3酶變異體。\n\n【結果】\n研究成功識別了672個高置信度的人體E3泛素連接酶，比先前已知的E3酶數量顯著增加。研究人員發現了多個新的E3酶結構域和基序，包括RNF227和RNF228中新的RING結構域，並通過結構預測和實驗驗證了它們的功能活性。通過分析31種GTEx人體組織和38種廣泛細胞類型的數據，研究揭示了E3酶在不同組織和細胞類型中的特異性表達模式。更重要的是，研究確定了多個與人類疾病相關的E3酶變異體，將E3酶與癌症、遺傳性疾病等多種病理狀態聯繫起來，為靶向E3酶的治療策略提供了重要依據。",
+      "en": "**Summary:**\nThis research presents the first comprehensive map of the human E3 ubiquitin ligase landscape, creating the \"E3-ome\" database containing 672 high-confidence E3 enzymes. The researchers not only standardized the E3 classification system but also identified multiple previously unrecognized domains and motifs. They revealed the spatial and physiological organization of E3 enzymes across human tissues and cell types. This breakthrough study offers new perspectives on understanding cellular protein degradation mechanisms and associates E3 enzymes with various human pathologies, laying the foundation for future mechanistic research and therapeutic development.\n\n**Problem:**\nPrevious studies had identified some E3 ubiquitin ligases but lacked a comprehensive systematic census, resulting in an incomplete understanding of the human E3 enzyme repertoire. Scientists were unclear about the exact number of E3 enzymes, their classification, and their expression patterns across different tissues and disease states. This knowledge gap severely limited deeper understanding of the ubiquitination system and the development of disease treatment strategies based on this knowledge. As key regulators of intracellular protein degradation, the complete mapping of E3 enzymes is crucial for understanding cellular life processes and disease mechanisms.\n\n**Approach:**\nThe research team employed a multi-dimensional analysis approach, first integrating experimental data, bioinformatics, and published research to establish a systematic E3 enzyme database. They created a unified E3 classification framework and used structural comparisons and sequence homology analysis to identify novel E3 candidates. Additionally, the study combined single-cell RNA-seq analysis and gene expression data to map the distribution of E3 enzymes across different tissues and cell types. Through cross-analysis with genetic variant and disease databases, the research team also identified E3 enzyme variants associated with human diseases.\n\n**Results:**\nThe research successfully identified 672 high-confidence human E3 ubiquitin ligases, significantly more than previously known E3 enzymes. The researchers discovered multiple novel E3 enzyme domains and motifs, including new RING domains in RNF227 and RNF228, and validated their functional activities through structural prediction and experimental verification. By analyzing data from 31 GTEx human tissues and 38 broad cell classes, the study revealed specific expression patterns of E3 enzymes across different tissues and cell types. More importantly, the research identified multiple E3 enzyme variants associated with human diseases, linking E3 enzymes to various pathological conditions including cancer and genetic disorders, providing important basis for E3-targeted therapeutic strategies."
+    },
+    "keyArticle": {
+      "title": "The E3-ome gene-centric compendium reveals the human E3 ligase landscape",
+      "authors": [
+        "Ngee Kiat Chua",
+        "Tania J. González-Robles",
+        "Cameron J. Reddington",
+        "Jane Dudley-Fraser",
+        "Richard W. Birkinshaw",
+        "Jiru Han",
+        "Ashleigh Solano",
+        "Soon Wei Wong",
+        "Tomasz Kochańczyk",
+        "Joshua Peter",
+        "Mark A. Nakasone",
+        "Florian Aust",
+        "Jacob E. Munro",
+        "Yeh Huei Tong",
+        "Julie Iskander",
+        "Waruni Abeysekera",
+        "Alex Garnham",
+        "Hannah Huckstep",
+        "Matthew E. Ritchie",
+        "Ingrid E. Wertz",
+        "Sarah Hymowitz",
+        "Sharad Kumar",
+        "R CONAWAY",
+        "Gilbert G. Privé",
+        "Alex N. Bullock",
+        "Jeffrey J. Babon",
+        "Rachel E. Klevit",
+        "Sonja Lorenz",
+        "Alessio Ciulli",
+        "Eric S. Fischer",
+        "Nicolas H. Thomä",
+        "Radosław P. Nowak",
+        "Brenda A. Schulman",
+        "Michael Rapé",
+        "Katrin Rittinger",
+        "Julia K. Pagan",
+        "Melanie Bahlo",
+        "Joel P Mackay",
+        "Peter D. Mace",
+        "Christopher D. Lima",
+        "Ronald T. Hay",
+        "David Komander",
+        "Bernhard C. Lechtenberg",
+        "Claudio A.P. Joazeiro",
+        "Michele Pagano",
+        "Kay Hofmann",
+        "Rebecca Feltham"
+      ],
+      "doi": "10.1016/j.cell.2026.01.029",
+      "pages": "2167-2188.e27"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-20-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.029",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.029"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-16T20:07:30.819275+00:00",
+    "source": "openalex"
+  }
+}

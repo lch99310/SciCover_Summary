@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-13T20:14:28.225391+00:00",
+  "lastUpdated": "2026-04-16T20:11:41.717947+00:00",
   "articles": [
+    {
+      "id": "science-2026-04-09-02",
+      "journal": "Science",
+      "date": "2026-04-09",
+      "path": "articles/2026/04/science-2026-04-09-02.json",
+      "title_zh": "半導體自旋多體干涉測量：觀察量子混沌的突破性進展",
+      "title_en": "Semiconductor Spin Many-Body Interferometry: Breakthrough in Observing Quantum Chaos",
+      "cover_url": "data/images/science/science-2026-04-09-02-cover.jpg"
+    },
     {
       "id": "science-2026-04-09",
       "journal": "Science",
@@ -54,6 +63,15 @@
       "title_zh": "新式引擎大幅減少碳煙排放卻未能減少凝結冰晶——航空雲層暖化效應的突破性發現",
       "title_en": "Lean-Burn Engines Cut Soot Emissions by 1000x but Fail to Reduce Contrail Ice Crystals—Breakthrough in Aviation Climate Impact",
       "cover_url": "data/images/nature/nature-2026-04-01-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-03-31",
+      "journal": "American Sociological Review",
+      "date": "2026-03-31",
+      "path": "articles/2026/03/american-sociological-review-2026-03-31.json",
+      "title_zh": "恐襲陰影下的職場歧視：伊斯蘭恐怖主義浪潮如何影響中東裔男性的就業機會",
+      "title_en": "Terrorism's Shadow: How Islamist Attack Waves Shape Employment for Middle Eastern Men",
+      "cover_url": ""
     },
     {
       "id": "science-2026-03-26-02",
@@ -119,6 +137,15 @@
       "cover_url": "data/images/nature/nature-2026-03-25-05-cover.jpg"
     },
     {
+      "id": "nature-2026-03-25-06",
+      "journal": "Nature",
+      "date": "2026-03-25",
+      "path": "articles/2026/03/nature-2026-03-25-06.json",
+      "title_zh": "鑽探岩漿揭示儲存條件：冰島克拉夫拉火山研究突破",
+      "title_en": "Drilling into Magma Reveals Storage Conditions: Breakthrough Study at Krafla Volcano, Iceland",
+      "cover_url": "data/images/nature/nature-2026-03-25-06-cover.jpg"
+    },
+    {
       "id": "nature-2026-03-25",
       "journal": "Nature",
       "date": "2026-03-25",
@@ -128,6 +155,15 @@
       "cover_url": "data/images/nature/nature-2026-03-25-cover.jpg"
     },
     {
+      "id": "political-geography-2026-03-24-02",
+      "journal": "Political Geography",
+      "date": "2026-03-24",
+      "path": "articles/2026/03/political-geography-2026-03-24-02.json",
+      "title_zh": "減少欲望：拉岡精神分析如何解構成長主義的心理障礙",
+      "title_en": "Degrowing Desire: How Lacanian Psychoanalysis Deconstructs Psychological Barriers to Post-Growth Futures",
+      "cover_url": ""
+    },
+    {
       "id": "political-geography-2026-03-24",
       "journal": "Political Geography",
       "date": "2026-03-24",
@@ -135,6 +171,15 @@
       "title_zh": "鋰之之路：玻利維亞高原的能源轉型與政治實踐",
       "title_en": "The Lithium Road: Political Practices Fueling Extractive Infrastructures in Bolivia's Altiplano",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-03-20",
+      "journal": "Cell",
+      "date": "2026-03-20",
+      "path": "articles/2026/03/cell-2026-03-20.json",
+      "title_zh": "人體E3泛素連接酶地圖：科學家繪製細胞「蛋白質標記系統」完整譜系",
+      "title_en": "Mapping the Human E3 Ubiquitin Ligase Landscape: Scientists Complete the Cellular 'Protein Tagging System' Atlas",
+      "cover_url": "data/images/cell/cell-2026-03-20-cover.jpg"
     },
     {
       "id": "science-2026-03-19-02",
