@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-16T20:11:41.717947+00:00",
+  "lastUpdated": "2026-04-19T19:51:40.196630+00:00",
   "articles": [
+    {
+      "id": "nature-2026-04-15",
+      "journal": "Nature",
+      "date": "2026-04-15",
+      "path": "articles/2026/04/nature-2026-04-15.json",
+      "title_zh": "神經網路模擬器革命：熱電發電機設計的千倍加速",
+      "title_en": "Neural Network Emulator Revolutionizes Thermoelectric Generator Design with 100x Speed",
+      "cover_url": "data/images/nature/nature-2026-04-15-cover.jpg"
+    },
     {
       "id": "science-2026-04-09-02",
       "journal": "Science",
@@ -45,6 +54,15 @@
       "title_zh": "水權地緣政治：國家為何加入或拒絕全球水條約",
       "title_en": "Hydro-legal Geopolitics: Why States Join or Reject Global Water Treaties",
       "cover_url": "data/images/political-geography/political-geography-2026-04-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-02",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-02.json",
+      "title_zh": "血管正常化：25年腫瘤血管生成靶向治療的演進與突破",
+      "title_en": "Vascular Normalization: The Evolution and Breakthroughs in 25 Years of Tumor Angiogenesis-Targeted Therapy",
+      "cover_url": "data/images/cell/cell-2026-04-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",
@@ -191,6 +209,15 @@
       "cover_url": ""
     },
     {
+      "id": "science-2026-03-19-03",
+      "journal": "Science",
+      "date": "2026-03-19",
+      "path": "articles/2026/03/science-2026-03-19-03.json",
+      "title_zh": "扭轉六方氮化硼創造高效深紫外光源：突破半導體發光極限",
+      "title_en": "Twisted Boron Nitride Creates Efficient Deep-UV Light: Breaking Through Semiconductor Emission Limits",
+      "cover_url": "data/images/science/science-2026-03-19-03-cover.jpg"
+    },
+    {
       "id": "science-2026-03-19",
       "journal": "Science",
       "date": "2026-03-19",
@@ -225,6 +252,15 @@
       "title_zh": "火災是災難，還是國家的工具？印度喜馬拉雅山區的森林火災如何重塑國家權力",
       "title_en": "Are Forest Fires a Disaster—or a Tool of the State? How Himalayan Wildfires Rewire Power in India",
       "cover_url": "data/images/political-geography/political-geography-2026-03-18-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-03-13",
+      "journal": "American Sociological Review",
+      "date": "2026-03-13",
+      "path": "articles/2026/03/american-sociological-review-2026-03-13.json",
+      "title_zh": "與鬼共居：過去的物理痕跡如何塑造唐人街的文化創傷",
+      "title_en": "Living with Ghosts: How Physical Remnants of the Past Continue to Shape Chinatown's Cultural Trauma",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-03-13-02",
@@ -1332,6 +1368,15 @@
       "title_zh": "邊境之外的封鎖：難民庇護在後自由主義時代的重構",
       "title_en": "Beyond Borders: The Rise of Flexible Containment in Refugee Governance",
       "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-11-20",
+      "journal": "Political Geography",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/political-geography-2025-11-20.json",
+      "title_zh": "武裝團體的土地博弈：麥德林城市邊緣的地權政治演變",
+      "title_en": "Armed Groups' Land Chess Game: The Evolution of Land Politics in Medellín's Urban Margins",
+      "cover_url": "data/images/political-geography/political-geography-2025-11-20-cover.jpg"
     },
     {
       "id": "political-geography-2025-11-19",

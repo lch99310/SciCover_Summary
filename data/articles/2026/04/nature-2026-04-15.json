@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-04-15",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8110",
+  "date": "2026-04-15",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經網路模擬器革命：熱電發電機設計的千倍加速",
+      "en": "Neural Network Emulator Revolutionizes Thermoelectric Generator Design with 100x Speed"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊開發了名為TEGNet的神經網路模擬器，能以超過99%的準確度預測熱電發電機的性能，同時僅需商業有限元素求解器0.01%的計算時間。這項突破性技術允許靈活組合材料特定的模擬器，實現對各種設計架構的快速探索，成功將熱電發電機的轉換效率提升至9.3%和8.7%，在競爭激烈的熱電技術領域中脫穎而出。\n\n【研究問題】設計高性能熱電裝置一直是一項巨大挑戰，因為它不僅需要先進材料，還需要最佳配置，這兩者對最大化裝置性能至關重要，但傳統方法耗時且資源密集。過去的有限元素模擬雖可靠，但在材料選擇、幾何形狀、邊界條件和設計架構頻繁變化時，變得極其耗時，嚴重限制了熱電發電機的創新速度。\n\n【研究方法】研究團隊開發了TEGNet，一個簡化的神經網路架構，以裝置尺寸和邊界條件為輸入特徵，輸出電壓和熱流。他們使用COMSOL模擬生成訓練數據，並確定1200個樣本為最佳平衡點。TEGNet的關鍵創新在於其「可組合性」—能通過精確預測各種條件下的內在電壓和熱流，將單元級模型直接組合為系統級模擬，實現分段發電機和n-p對發電機的快速設計。\n\n【結果】實驗證明，TEGNet在11種不同熱電材料上展現出卓越的架構通用性，預測的Pmax和ηmax與COMSOL結果高度一致（R²=0.9999和0.9996）。使用TEGNet指導，研究團隊成功優化了MgAgSb/Bi0.4Sb1.6Te3分段發電機（轉換效率9.3%）和Mg3Bi1.4Sb0.6–MgAgSb n-p對發電機（轉換效率8.7%），這些數據在已報導的熱電發電機中名列前茅。TEGNet的計算速度比傳統方法快100倍，為熱電裝置設計開闢了全新途徑。",
+      "en": "**Summary:** Researchers developed TEGNet, a neural network emulator that predicts thermoelectric generator performance with over 99% accuracy while using only 0.01% of the computational time required by commercial finite-element solvers. This breakthrough technology enables flexible combinations of material-specific emulators, allowing rapid exploration of diverse device architectures. By using TEGNet, the team achieved conversion efficiencies of 9.3% and 8.7% respectively for segmented and n-p paired thermoelectric generators, ranking competitively high among previously reported devices.\n\n**Problem:** Designing high-performance thermoelectric devices has long been challenging because it requires not only advanced materials but also optimal configurations that maximize device performance. Traditional finite-element simulations, while reliable, become time-consuming and resource-intensive when material choices, geometries, boundary conditions, and device architectures change frequently. This computational bottleneck has severely limited innovation in thermoelectric generator design despite the significant potential for waste heat recovery applications.\n\n**Approach:** The team developed TEGNet, a streamlined neural network with device dimensions and boundary conditions as input features and voltage and heat flow as outputs. Training data was generated using COMSOL simulations, with 1,200 samples determined as optimal for balancing accuracy and computational cost. TEGNet's key innovation lies in its \"composability\" - it can predict intrinsic voltage and heat flow under varied conditions, allowing direct combination of unit-level models to construct system-level simulations. This enables rapid design of segmented generators and n-p paired generators without retraining or solving PDEs.\n\n**Results:** Experiments demonstrated TEGNet's excellent architectural generality across 11 different thermoelectric materials, with predicted Pmax and ηmax showing strong agreement with COMSOL results (R²=0.9999 and 0.9996). Guided by TEGNet, the team successfully optimized MgAgSb/Bi0.4Sb1.6Te3 segmented generators (achieving 9.3% conversion efficiency) and Mg3Bi1.4Sb0.6–MgAgSb n-p paired generators (8.7% efficiency), ranking competitively high among reported thermoelectric generators. TEGNet operates 100 times faster than traditional methods, opening entirely new pathways for thermoelectric device design and accelerating the translation from materials discovery to device implementation."
+    },
+    "keyArticle": {
+      "title": "Composable neural emulators accelerate thermoelectric generator design",
+      "authors": [
+        "Airan Li",
+        "Xinzhi Wu",
+        "Longquan Wang",
+        "Gang Wu",
+        "Jiankang Li",
+        "Zhao Hu",
+        "Xinyuan Wang",
+        "Takao Mori"
+      ],
+      "doi": "10.1038/s41586-026-10223-1",
+      "pages": "643-649"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10223-1",
+      "doi": "https://doi.org/10.1038/s41586-026-10223-1"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-19T19:43:45.674000+00:00",
+    "source": "openalex"
+  }
+}

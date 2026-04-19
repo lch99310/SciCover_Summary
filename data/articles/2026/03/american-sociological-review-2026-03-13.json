@@ -1,0 +1,43 @@
+{
+  "id": "american-sociological-review-2026-03-13",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "2",
+  "date": "2026-03-13",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "與鬼共居：過去的物理痕跡如何塑造唐人街的文化創傷",
+      "en": "Living with Ghosts: How Physical Remnants of the Past Continue to Shape Chinatown's Cultural Trauma"
+    },
+    "summary": {
+      "zh": "文化創傷，這個看似抽象的概念，實則深植於唐人街的每一條巷弄與每一棟建築之中。本研究揭示了過去的反華種族主義如何在物理空間中留下痕跡，並持續塑造當代唐人街居民的文化認同與集體記憶。作者們提出「文化儲存庫」的概念，將唐人街視為累積過去傷害物理證據的容器，這些痕跡如同幽靈般提醒著唐人街在北美城市中不穩定的地位。當活動家們為保存唐人街而奮鬥時，他們不僅是在對抗士紳化，更是在延續一個跨越世紀的鬥爭。\n\n研究精確地辨識出三種由不同物質過程產生的創傷象徵：固執型、熵增型與修復型。這些具體的物理痕跡並非被動地存在，而是主動地塑造著人們如何理解與記憶過去。唐人街的建築、街道與空間不僅是歷史的見證者，更是創傷敘事的活教材。它們創造了一種獨特的情境，使過去的苦難與當代的鬥爭之間產生深刻的連結，讓社區成員直觀地感受到歷史的重負與當代的責任。",
+      "en": "In the urban landscapes of North America, Chinatowns stand as more than mere ethnic enclaves—they are living archives of cultural trauma. This article illuminates how physical remnants of past harm continue to shape contemporary efforts to preserve these historic neighborhoods against the pressures of gentrification. The authors compellingly argue that activists fighting to protect Chinatowns understand themselves as continuing a struggle against anti-Chinese racism that extends back to the nineteenth century. By conceptualizing Chinatowns as \"cultural reservoirs,\" the researchers demonstrate how these spaces accumulate physical traces of past harms, serving as haunting reminders of the precarious position of Chinese communities in North American cities.\n\nThe study's most significant contribution lies in its identification of three distinct types of trauma icons—stubborn, entropic, and remedial—each produced by different material processes. This nuanced framework allows the authors to reconcile a realist understanding of historical events with a constructivist account of how these events are incorporated into collective memory. While cultural reservoirs do not determine how communities remember their past, the physical traces they preserve create unique experiential contexts in which trauma narratives become intuitively meaningful and salient to contemporary communities. In this way, the past continues to animate the present, shaping not only how Chinatowns are remembered but how they are fought for in the present day."
+    },
+    "keyArticle": {
+      "title": "Living with Ghosts: How Physical Traces of the Past Shape Cultural Trauma in Chinatowns",
+      "authors": [
+        "Matt Patterson",
+        "Henry Tsang",
+        "Bryan Kuk",
+        "Weiqi Li",
+        "Mojtaba Rostami"
+      ],
+      "doi": "10.1177/00031224261422414",
+      "pages": "286-312"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261422414",
+      "doi": "https://doi.org/10.1177/00031224261422414"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-19T19:51:40.172461+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cell-2026-04-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "血管正常化：25年腫瘤血管生成靶向治療的演進與突破",
+      "en": "Vascular Normalization: The Evolution and Breakthroughs in 25 Years of Tumor Angiogenesis-Targeted Therapy"
+    },
+    "summary": {
+      "zh": "【總結】這篇Cell期刊文章回顧了過去25年來腫瘤血管生成靶向治療的演變，從最初的「餓死腫瘤」策略到現在的「血管正常化」治療原則。研究團隊詳細分析了腫瘤血管形成的多種機制，包括萌芽式血管生成、血管共擬、血管生成模擬和內皮細胞轉分化等，闡述了異常血管結構和功能如何導致腫瘤微環境失調，以及血管正常化如何增進各種療法的傳送效果和治療成效。特別重要的是，文章強調了空間組學新發現以及神經、微生物、激素和時間因素在腫瘤血管生成中的新角色，為未來癌症治療提供了新方向。\n\n【研究問題】本文探討的核心問題是腫瘤如何獲取血液供給以及如何針對這些異常血管開發有效治療策略。過去的研究主要集中在抑制血管生成來「餓死」腫瘤，但這種單一策略面臨腫瘤逃逸和療法抵抗等挑戰。研究缺口在於缺乏對腫瘤血管多樣形成機制的全面理解，以及如何將血管正常化轉化為臨床治療策略的重要性。解決這個問題至關重要，因為異常血管不僅促進腫瘤生長，還阻礙化療、免疫療法等有效療法的傳送和效果。\n\n【研究方法】研究團隊採用了多綜合分析方法，整合了過去25年的研究數據和最新科學發現。他們系統梳理了腫瘤血管生成的六種主要機制：萌芽式血管生成、插入式血管生成、血管共擬、血管生成模擬、腫瘤細胞向內皮細胞轉分化以及骨髓衍生內皮祖細胞的血管生成。研究團隊還運用空間組學技術分析不同器官腫瘤中的血管異質性，並探討了內皮細胞與腫瘤微環境的相互作用。通過整合分子生物學、影像學和臨床數據，他們建立了血管正常化的理論框架，並提出與免疫療法等聯合應用的策略。\n\n【結果】研究發現腫瘤通過六種主要機制獲取血液供給，其中萌芽式血管生成和血管共擬是最主要的途徑。異常血管導致的腫瘤微環境特徵包括缺氧、低pH值、 elevated流體壓力和免疫抑制，這些因素共同阻礙了療法的有效傳送。關鍵突破是發現血管正常化可以改善這些問題，通過增加周皮細胞覆蓋、改善血流灌注和增強免疫細胞滲透來提高療法效果。研究顯示，抗血管生成治療可創造一個暫時的「正常化窗口」，在此期間聯合免疫療法可顯著提高治療效果。此外，研究揭示了不同器官腫瘤中血管的空間異質性及其對治療反應的影響，為個體化治療提供了理論基礎。",
+      "en": "**Summary:** This Cell journal article reviews the evolution of angiogenesis-targeting therapies over the past 25 years, shifting from the initial \"starving tumors\" approach to the current \"vascular normalization\" therapeutic principle. The research team comprehensively analyzes multiple mechanisms of tumor vascularization, including sprouting angiogenesis, vessel co-option, vascular mimicry, and endothelial transdifferentiation. They elaborate on how abnormal vessel structure and function lead to a dysregulated tumor microenvironment and how vascular normalization enhances the delivery and efficacy of various therapies. Crucially, the article highlights spatial-omics revelations and emerging roles of neural, microbial, hormonal, and chronological factors in tumor angiogenesis, providing new directions for future cancer treatments.\n\n**Problem:** The core question addressed is how tumors acquire blood supply and how to develop effective therapeutic strategies targeting these abnormal vessels. Past research primarily focused on inhibiting angiogenesis to \"starve\" tumors, but this single strategy faced challenges like tumor escape and therapeutic resistance. The research gap lies in the lack of comprehensive understanding of diverse tumor vascularization mechanisms and the critical importance of translating vascular normalization into clinical treatment strategies. Solving this problem is vital because abnormal vessels not only promote tumor growth but also impede the delivery and effectiveness of therapies like chemotherapy and immunotherapy.\n\n**Approach:** The research team employed a comprehensive analysis approach, integrating data from 25 years of research and latest scientific findings. They systematically examined six primary mechanisms of tumor vascularization: sprouting angiogenesis, intussusceptive angiogenesis, vessel co-option, vascular mimicry, tumor-to-endothelial transdifferentiation, and vasculogenesis from bone-marrow-derived progenitors. The team also utilized spatial-omics technologies to analyze vascular heterogeneity across different organ tumors and explored interactions between endothelial cells and the tumor microenvironment. By integrating molecular biology, imaging, and clinical data, they established a theoretical framework for vascular normalization and proposed strategies for combination with therapies like immunotherapy.\n\n**Results:** The research reveals that tumors acquire blood supply through six primary mechanisms, with sprouting angiogenesis and vessel co-option being the predominant pathways. Abnormal vessels create a tumor microenvironment characterized by hypoxia, low pH, elevated fluid pressure, and immunosuppression, collectively hindering effective therapy delivery. A key breakthrough is the discovery that vascular normalization can improve these issues by enhancing pericyte coverage, improving blood perfusion, and increasing immune cell infiltration to boost therapeutic efficacy. The study shows that anti-angiogenic therapy creates a temporary \"normalization window\" during which combination with immunotherapy significantly improves treatment outcomes. Additionally, the research reveals spatial heterogeneity of vessels across different organ tumors and its impact on treatment response, providing a theoretical foundation for personalized treatment approaches."
+    },
+    "keyArticle": {
+      "title": "Targeting angiogenesis: Lessons from 25 years of normalizing tumor vasculature",
+      "authors": [
+        "Sonu Subudhi",
+        "Somin Lee",
+        "Rakesh K. Jain"
+      ],
+      "doi": "10.1016/j.cell.2026.03.016",
+      "pages": "2379-2415"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.016",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.016"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-19T19:46:51.844322+00:00",
+    "source": "openalex"
+  }
+}

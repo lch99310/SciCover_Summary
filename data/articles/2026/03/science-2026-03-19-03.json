@@ -1,0 +1,72 @@
+{
+  "id": "science-2026-03-19-03",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6791",
+  "date": "2026-03-19",
+  "coverImage": {
+    "url": "data/images/science/science-2026-03-19-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "扭轉六方氮化硼創造高效深紫外光源：突破半導體發光極限",
+      "en": "Twisted Boron Nitride Creates Efficient Deep-UV Light: Breaking Through Semiconductor Emission Limits"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破了深紫外(DUV)光源的效率極限，首次在扭轉六方氮化硼(hBN)莫爾量子阱中實現了高效深紫外發光。研究團隊達到了約0.4%的外量子效率(EQE)，在10K溫度下對應約50%的量子產率，即使在室溫下仍保持15%的發光強度。這項突破為殺菌、水處理、光學存儲等應用提供了一種全新的高效深紫外光源方案，傳統的AlGaN基深紫外LED存在效率低和缺陷密度高的問題，而這項研究展示了hBN莫爾結構在光電領域的巨大潛力。\n\n【研究問題】過去的研究中，深紫外光源一直面臨效率瓶頸，傳統的AlGaN基深紫外LED存在嚴重的效率限制和高缺陷密度問題。雖然理論上預測扭轉hBN可能產生有趣的量子現象，但實際實現高效深紫外發光一直是科學家們的挑戰。解決這個問題至關重要，因為深紫外光在醫療治療、水淨化、消毒和光學存儲等領域具有廣泛應用，但現有技術的效率限制了其實用化。\n\n【研究方法】研究團隊採用了一系列精密的技術手段：首先通過乾法轉移技術製備扭轉hBN同質結構，利用原子力顯微鏡精確測量厚度，通過偏振分辨二次諧波生成確定晶體取向。他們建立了深紫外激光光譜與開爾文探針力顯微鏡之間的關聯，確定了H型和R型莫爾超晶格。光學測量在10K低溫和高真空條件下進行，使用自建的共焦顯微鏡系統，通過和頻產生技術生成5.0-6.4 eV的可調諧激發激光。理論計算採用GW加貝特-薩爾佩爾方程框架，精確預測了電子結構和激子行為。\n\n【結果】研究關鍵發現包括：在10K溫度下達到0.4%的外量子效率，對應約50%的量子產率；即使在室溫下仍保持15%的發光強度；觀察到TE和TM發光分量比例約為1:0.6；通過有限差分時域模擬確定光收集效率為0.83%；溫度依賴性研究顯示非輻射復合在高溫下起重要作用。這些結果證實了扭轉hBN莫爾量子阱作為高效深紫外光源的可行性，為下一代深紫外光電器件的開發奠定了基礎，有助於解決現有AlGaN基深紫外LED的效率瓶頸問題。",
+      "en": "**Summary:** This breakthrough research pushes the efficiency limits of deep-ultraviolet (DUV) light sources by achieving highly efficient DUV luminescence in twisted hexagonal boron nitride (hBN) moiré quantum wells. The team achieved an external quantum efficiency (EQE) of approximately 0.4% at 10K temperature, corresponding to about 50% quantum yield, while maintaining strong luminescence even at room temperature (15% of the intensity at 10K). This breakthrough provides a novel approach for efficient DUV light sources crucial for sterilization, water purification, and optical storage applications. Traditional AlGaN-based DUV LEDs suffer from efficiency limitations and high defect densities, but this research demonstrates the tremendous potential of hBN moiré structures in optoelectronics.\n\n**Problem:** Previous research on DUV light sources has been hampered by efficiency bottlenecks. Traditional AlGaN-based DUV LEDs face significant limitations in efficiency and suffer from high defect densities. Although theoretical predictions suggested that twisted hBN might produce interesting quantum phenomena, achieving efficient DUV luminescence has remained a scientific challenge. Solving this problem is crucial because DUV light has widespread applications in medical treatments, water purification, disinfection, and optical storage, but the efficiency limitations of existing technologies have restricted their practical implementation.\n\n**Approach:** The research team employed a sophisticated set of techniques: they prepared twisted hBN homojunctions using a dry transfer technique, precisely measured thickness with atomic force microscopy, and determined crystal orientation through polarization-resolved second harmonic generation. They established correlations between deep-ultraviolet laser spectroscopy and Kelvin Probe Force Microscopy to identify H-type and R-type moiré superlattices. Optical measurements were conducted at cryogenic temperatures (10K) under high vacuum using a custom-built confocal microscope with tunable excitation energies (5.0-6.4 eV) generated through sum frequency generation. Theoretical calculations employed the GW plus Bethe-Salpeter equation framework to accurately predict electronic structures and exciton behavior.\n\n**Results:** Key findings include achieving an EQE of 0.4% at 10K (corresponding to ~50% quantum yield), maintaining 15% luminescence intensity at room temperature, observing TE and TM emission components with a ratio of approximately 1:0.6, and determining light collection efficiency of 0.83% through finite-difference time-domain simulations. Temperature-dependent studies revealed that non-radiative recombination plays a significant role at higher temperatures. These results confirm the feasibility of twisted hBN moiré quantum wells as efficient DUV light sources, laying the foundation for the development of next-generation DUV optoelectronic devices and potentially solving the efficiency bottleneck of existing AlGaN-based DUV LEDs."
+    },
+    "keyArticle": {
+      "title": "Highly efficient, deep-ultraviolet luminescence in hBN moiré quantum wells",
+      "authors": [
+        "Chengyun Hong",
+        "Fangzhou Zhao",
+        "Su-Beom Song",
+        "Sangho Yoon",
+        "Seong-Joon Jeon",
+        "M. Ajmal Khan",
+        "Ye Tao",
+        "Dong‐Hwan Yang",
+        "W. K. Lee",
+        "Junho Kim",
+        "Junho Kim",
+        "Sera Yang",
+        "Hyungseob Cho",
+        "Sumin Lee",
+        "Seok Young Min",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Seunghyup Yoo",
+        "Changsoon Cho",
+        "Si-Young Choi",
+        "H. Hirayama",
+        "Lede Xian",
+        "Moon-Ho Jo",
+        "Angel Rubio",
+        "Jonghwan Kim",
+        "Jonghwan Kim"
+      ],
+      "doi": "10.1126/science.aeb2095",
+      "pages": "eaeb2095"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-03-19-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb2095",
+      "doi": "https://doi.org/10.1126/science.aeb2095"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-19T19:40:03.267077+00:00",
+    "source": "openalex"
+  }
+}
