@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-19T19:51:40.196630+00:00",
+  "lastUpdated": "2026-04-22T20:12:48.411096+00:00",
   "articles": [
+    {
+      "id": "nature-2026-04-15-02",
+      "journal": "Nature",
+      "date": "2026-04-15",
+      "path": "articles/2026/04/nature-2026-04-15-02.json",
+      "title_zh": "AI的秘密傳遞：語言模型如何透過隱藏信號傳遞行為特徵",
+      "title_en": "The Silent Transmission: How Language Models Pass Behavioral Traits Through Hidden Signals",
+      "cover_url": "data/images/nature/nature-2026-04-15-02-cover.jpg"
+    },
     {
       "id": "nature-2026-04-15",
       "journal": "Nature",
@@ -54,6 +63,15 @@
       "title_zh": "水權地緣政治：國家為何加入或拒絕全球水條約",
       "title_en": "Hydro-legal Geopolitics: Why States Join or Reject Global Water Treaties",
       "cover_url": "data/images/political-geography/political-geography-2026-04-03-cover.jpg"
+    },
+    {
+      "id": "science-2026-04-02",
+      "journal": "Science",
+      "date": "2026-04-02",
+      "path": "articles/2026/04/science-2026-04-02.json",
+      "title_zh": "液體世界中原子級的舞蹈：金原子在有機界面上的神秘互動揭開催化反應之謎",
+      "title_en": "Atomic Dances in Liquid Worlds: Unraveling Gold Species' Behavior at Organic Interfaces Revolutionizes Catalyst Design",
+      "cover_url": "data/images/science/science-2026-04-02-cover.jpg"
     },
     {
       "id": "cell-2026-04-01-02",
@@ -486,6 +504,15 @@
       "title_zh": "太陽能戰爭：以色列與巴勒斯坦的能源國安角力",
       "title_en": "Sunlight as a Shield: How Solar Power Became a Weapon in Israel-Palestine Conflict",
       "cover_url": "data/images/political-geography/political-geography-2026-02-23-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-02-22",
+      "journal": "American Sociological Review",
+      "date": "2026-02-22",
+      "path": "articles/2026/02/american-sociological-review-2026-02-22.json",
+      "title_zh": "民間故事的恐懼課程：威瑩德德國極右翼的心理根源",
+      "title_en": "The Pedagogy of Fear: How Folklore Shaped Far-Right Politics in Weimar Germany",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-02-21",
@@ -1367,6 +1394,15 @@
       "path": "articles/2025/11/international-organization-2025-11-20.json",
       "title_zh": "邊境之外的封鎖：難民庇護在後自由主義時代的重構",
       "title_en": "Beyond Borders: The Rise of Flexible Containment in Refugee Governance",
+      "cover_url": ""
+    },
+    {
+      "id": "political-geography-2025-11-20-02",
+      "journal": "Political Geography",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/political-geography-2025-11-20-02.json",
+      "title_zh": "體育外交與主權展演：直布羅陀如何透過2019年國際島嶼運動會展現國家身份",
+      "title_en": "Sports Diplomacy and Sovereignty Performance: How Gibraltar Displayed National Identity Through the 2019 Island Games",
       "cover_url": ""
     },
     {

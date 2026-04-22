@@ -1,0 +1,76 @@
+{
+  "id": "science-2026-04-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6793",
+  "date": "2026-04-02",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "液體世界中原子級的舞蹈：金原子在有機界面上的神秘互動揭開催化反應之謎",
+      "en": "Atomic Dances in Liquid Worlds: Unraveling Gold Species' Behavior at Organic Interfaces Revolutionizes Catalyst Design"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究首次以原子級分辨率觀察到有機液體-固體界面上金原子的動態行為，創造了使用有機溶劑的石墨烯液體細胞，並追蹤超過一百萬個金原子和簇的運動。研究揭示了金原子單體、二聚體、三聚體和簇之間的動態相關行為，這些行為受溶劑性質和基質原子晶格的影響。這一突破性發現為理解催化作用提供了全新的視角，未來可能導致更高效催化劑、電極和膜材料的設計。\n\n【研究問題】\n過去對固-液界面的研究缺乏原子級的實時觀測能力，特別是在有機溶劑環境中。傳統觀測方法難以捕捉到原子尺度的動態過程，導致對催化反應機理的理解不夠深入。了解固-液界面在原子尺度的行為對改進異質催化劑、電極和膜的性能至關重要，因為這些界面的化學反應決定了整個系統的效率。\n\n【研究方法】\n研究人員創新性地開發了首個使用有機溶劑的石墨烯液體細胞，結合了獨特的樣品設計、紀錄級別的原位電子顯微技術和人工智能輔助分析。他們使用丙酮和環己酮作為溶劑，在石墨烯表面追蹤了超過10^6個金原子和簇的運動。通過高分辨率電子顯微技術捕捉原子級的動態行為，並利用AI分析處理大量數據，揭示了金物種之間的複雜互動模式。\n\n【結果】\n研究發現金原子單體、二聚體、三聚體和簇表現出動態相關行為，這些行為相互影響，同時受到溶劑性質和基質原子晶格的影響。理論計算結果與實驗觀察高度吻合。研究團隊利用這些結果解釋了在工業上重要的乙炔氫氯化反應中催化活性的差異。這項研究為原子尺度化學探索提供了新能力，未來可能實現對未來催化劑、膜和電極的理性設計，從而提高其功能性。",
+      "en": "**Summary:**\nThis study achieves an unprecedented atomic-level visualization of gold species behavior at organic liquid-solid interfaces by developing the first graphene liquid cells with organic solvents. Researchers tracked over 10^6 gold adatoms and clusters on graphene surfaces immersed in acetone and cyclohexanone, revealing dynamic correlated behaviors among gold monomers, dimers, trimers, and clusters. These findings represent a significant breakthrough in understanding interfacial chemistry at the atomic scale, providing a foundation for designing more efficient catalysts, electrodes, and membranes by revealing how solvent properties and substrate lattice structure influence atomic behavior.\n\n**Problem:**\nPrevious research on solid-liquid interfaces has been limited by the inability to observe atomic-scale processes in real-time, particularly within organic solvent environments. Conventional techniques couldn't capture the dynamic behavior of atoms during catalytic reactions, leaving critical gaps in understanding reaction mechanisms. Understanding atomic-scale behavior at solid-liquid interfaces is crucial for improving heterogeneous catalysts, electrodes, and membranes, as these interfaces determine the efficiency of chemical reactions in industrial applications.\n\n**Approach:**\nThe researchers pioneered a unique experimental approach combining three key innovations: specialized graphene liquid cells containing organic solvents, record-breaking atomic-resolution in situ electron microscopy, and AI-enabled data analysis. They created these liquid cells with acetone and cyclohexane solvents and tracked the movement of more than 10^6 individual gold atoms and clusters on graphene surfaces. The high-resolution electron microscopy captured atomic-level dynamics while AI algorithms processed the massive dataset to identify complex interaction patterns among gold species, substrate atoms, and solvent molecules.\n\n**Results:**\nThe study revealed that gold monomers, dimers, trimers, and clusters exhibit dynamic correlated behaviors that mutually influence each other while being affected by solvent properties and the atomic lattice structure of the substrate. These experimental observations showed excellent agreement with theoretical calculations. The research team used these findings to interpret differences in catalytic activity toward the industrially significant acetylene hydrochlorination reaction. This new capability for exploring atomic-scale chemistry enables the rational design of future catalysts, membranes, and electrodes with improved functionality, potentially leading to more efficient industrial processes."
+    },
+    "keyArticle": {
+      "title": "Atomic-resolution imaging of gold species at organic liquid-solid interfaces",
+      "authors": [
+        "Sam Sullivan-Allsop",
+        "Nick Clark",
+        "Wendong Wang",
+        "Rongsheng Cai",
+        "William Thornley",
+        "David G. Hopkinson",
+        "James G. McHugh",
+        "Ben Davies",
+        "Samuel Pattisson",
+        "Nicholas F. Dummer",
+        "Rui Zhang",
+        "Matthew Lindley",
+        "Gareth Tainton",
+        "Jack Harrison",
+        "Hugo De Latour",
+        "Joseph Parker",
+        "Joshua Swindell",
+        "Eli G. Castanon",
+        "Amy Carl",
+        "David J. Lewis",
+        "Natalia Martsinovich",
+        "Christopher S. Allen",
+        "Mohsen Danaie",
+        "Andrew J. Logsdail",
+        "Vladimir Fal’ko",
+        "Graham J. Hutchings",
+        "Alex Summerfield",
+        "Roman Gorbachev",
+        "Sarah J. Haigh"
+      ],
+      "doi": "10.1126/science.adw2469",
+      "pages": "77-82"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw2469",
+      "doi": "https://doi.org/10.1126/science.adw2469",
+      "preprint": "https://arxiv.org/abs/2603.08299"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-22T20:03:28.627405+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2025-11-20-02",
+  "journal": "Political Geography",
+  "volume": "124",
+  "issue": "",
+  "date": "2025-11-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "體育外交與主權展演：直布羅陀如何透過2019年國際島嶼運動會展現國家身份",
+      "en": "Sports Diplomacy and Sovereignty Performance: How Gibraltar Displayed National Identity Through the 2019 Island Games"
+    },
+    "summary": {
+      "zh": "【總結】\n本文透過直布羅陀舉辦2019年國際島嶼運動會(IG)的案例，探討主權如何在日常中被展演、體驗、挑戰與協商。研究運用組裝理論分析以往被忽視的尺度、行動者、物質性與實踐，揭示直布羅陀如何在長期與西班牙的領土爭議背景下透過體育活動展演主權。研究突破點在於揭示人類與非人類行動者(如「岩石」的地質特性)如何共同作用產生張力，挑戰了傳統主權理論的邊界，為理解領土爭議中的主權實踐提供新視角。\n\n【研究問題】\n本文探討的核心問題是：在直布羅陀這樣一個處於主權爭議中的領土，主權如何透過日常實踐被展演、挑戰與協商？過去研究多聚焦於精英視角與國家尺度，忽視了日常生活中的主權實踐以及非人類行動者的角色。直布羅陀的特殊性在於其地理位置與西班牙的緊張關係、英國海外領土的特殊地位，以及2019年英國脫歐帶來的挑戰。理解這一問題對於重新思考主權的動態性、關聯性及多元展演至關重要。\n\n【研究方法】\n研究者採用「組裝民族誌」方法，透過兩位研究者在2019年島嶼運動會期間的實地觀察與參與式體驗收集資料。研究方法包括：觀察運動會組織過程與場地建設、與組織者、志工、運動員、政治代表等進行非正式訪談、記錄現場氣氛與物質環境，並對運動會主任進行結構式訪談。研究特別關注人類與非人類行動者(如「岩石」的地質特性)之間的互動，以及日常生活中的主權實踐如何受到地緣政治事件(如Grace 1油輪扣押事件)的影響。\n\n【結果】\n研究發現直布羅陀透過島嶼運動會成功展演了主權能力，如建設符合國際標準的體育設施、展現獨立舉辦複雜多項運動賽事的能力。然而，這些展演受到多重挑戰：地質因素(如堅硬的石灰岩)導致場地建設延誤；與西班牙的地緣政治關係影響運動員參賽；脫歐後的邊境管控增加複雜性；以及運動會期間發生的Grace 1油輪扣押事件。研究顯示主權展演是動態、 contested的過程，受多元行動者(包括非人類因素)共同塑造。這些發現挑戰了傳統主權理論，強調主權是在日常實踐中被多尺度、多行動者共同展演的過程。",
+      "en": "**Summary:**\nThis article examines how Gibraltar performed sovereignty through hosting the 2019 International Island Games (IG), using assemblage theory to analyze how sovereignty was exercised, experienced, challenged, and negotiated in daily life. The study combines feminist geopolitics and assemblage approaches to explore previously overlooked elements of geopolitics, revealing how Gibraltar showcased national identity amid a long-standing territorial dispute with Spain. The breakthrough lies in demonstrating how various human and non-human agencies (such as the geological properties of \"the Rock\") collided to generate tensions that complicated sovereignty performances.\n\n**Problem:**\nThe core question addressed is: In a territory like Gibraltar, embroiled in sovereignty disputes, how is sovereignty performed, challenged, and negotiated through everyday practices? Previous research has predominantly focused on elite perspectives and national scales, neglecting everyday sovereignty practices and the role of non-human actors. Gibraltar's significance stems from its geographical tensions with Spain, its status as a British Overseas Territory, and the challenges following Brexit.\n\n**Approach:**\nThe researchers employed \"assemblage ethnography,\" gathering data through field observation and participatory experience during the 2019 Island Games. Methodological steps included: observing the organization process and venue construction; conducting informal interviews with organizers, volunteers, athletes, and political representatives; documenting the atmospheric and material environment; and conducting a structured interview with the Games Director. The study particularly focused on interactions between human and non-human actors.\n\n**Results:**\nThe research found that Gibraltar successfully demonstrated sovereign capacity through the Island Games by constructing internationally-standard sports facilities. However, these performances faced multiple challenges: geological factors (hard limestone) caused venue construction delays; geopolitical tensions with Spain affected athlete participation; post-Brexit border controls added complexity; and the unexpected Grace 1 oil tanker detention during the games. The study reveals that sovereignty performances are dynamic and contested processes shaped by multiple actors, including non-human factors, challenging traditional sovereignty theories."
+    },
+    "keyArticle": {
+      "title": "An assemblage approach to performances of sovereignty through Gibraltar's hosting of the 2019 International Island Games",
+      "authors": [
+        "Matthew C. Benwell",
+        "Alasdair Pinkerton"
+      ],
+      "doi": "10.1016/j.polgeo.2025.103441",
+      "pages": "103441"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2025.103441",
+      "doi": "https://doi.org/10.1016/j.polgeo.2025.103441"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-22T20:11:19.161101+00:00",
+    "source": "openalex"
+  }
+}

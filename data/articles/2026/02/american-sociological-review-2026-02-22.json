@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-02-22",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "2",
+  "date": "2026-02-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "民間故事的恐懼課程：威瑩德德國極右翼的心理根源",
+      "en": "The Pedagogy of Fear: How Folklore Shaped Far-Right Politics in Weimar Germany"
+    },
+    "summary": {
+      "zh": "這篇研究揭示了民間故事如何作為一種隱形的恐懼教育， subtly塑造政治偏好，使其趨向於本土主義和威權思想。研究團隊透過重新發現的十九和二十世紀民間學者檔案，結合威瑩德時期所有帝國議會選舉中極右翼的地方支持數據，以及當地民間故事中民族性妖怪的存在資訊，建立了一個令人驚豔的關聯。\n\n透過精密的空間分析，研究證實這些恐懼性的敘述並非存在於文化真空中，而是在面臨政治和經濟不確定性的社區中找到滋生的沃土。當公民感到威脅時，這些古老故事提供了一個熟悉的框架來理解複雜的焦慮，與極右翼意識形態產生情感共鳴，後者提供簡化的解釋和替罪羊。\n\n最引人注目的是，研究人員透過使用1860年代民間故事的工具變量分析，追溯了這些模式的長期根源，同時將民間故事的影響與當代政治因素分離。這表明傳統敘事如同文化時間膠囊，保存和傳遞特定的世界觀，可在危機時期被激活，有效地使極右翼政治解决方案與焦慮群體的需求對齊。",
+      "en": "This article demonstrates how folklore functions as a pedagogy of fear, shaping far-right voting by inculcating feeling rules that resonate with nativist and autocratic ideologies. By drawing on recently rediscovered archives of 19th and 20th-century folklorists and pairing this with data on local far-right support across all Reichstag elections in Weimar Germany, researchers establish a robust connection between the prevalence of ethnic bogeymen in local folktales and radical right voting patterns.\n\nThe study employs spatial autoregressive models to demonstrate that these effects are particularly pronounced in localities where citizens face heightened political and economic threats. In such contexts, fearful folktales provide emotional frameworks that make far-right ideologies more appealing, effectively simplifying complex anxieties into familiar narratives that offer both explanations and scapegoats.\n\nThrough instrumental variable analysis using folklore data from the 1860s, the researchers establish the long-term roots of this phenomenon while disentangling the effects of folktales from contemporary political influences. These findings suggest that folklore plays a crucial role in aligning supply and demand for far-right movements by shaping how citizens perceive and feel about their world. Moreover, the study illustrates how folklore archives offer unique opportunities to examine affective-discursive canons across space and time, providing valuable insights into the cultural underpinnings of political extremism."
+    },
+    "keyArticle": {
+      "title": "Pedagogy of Fear: Folklore and the Far-Right in Weimar Germany",
+      "authors": [
+        "Elena Tarragó Amaya",
+        "Robert Braun"
+      ],
+      "doi": "10.1177/00031224251409746",
+      "pages": "227-255"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251409746",
+      "doi": "https://doi.org/10.1177/00031224251409746"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-22T20:12:48.385660+00:00",
+    "source": "openalex"
+  }
+}
