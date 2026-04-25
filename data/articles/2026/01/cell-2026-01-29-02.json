@@ -1,0 +1,47 @@
+{
+  "id": "cell-2026-01-29-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-01-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-01-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "癌症標記的進化：從過去到現在，再超越未來",
+      "en": "The Evolution of Cancer Hallmarks: From Past to Future"
+    },
+    "summary": {
+      "zh": "【總結】\n道格拉斯·哈納漢（Douglas Hanahan）在這篇綜述中重新梳理了過去25年癌症標記概念的演進，將其擴展為包含四個維度的框架：癌症標記（獲得性功能能力）、促進性表型特徵、腫瘤微環境中的標記傳遞細胞，以及系統性相互作用。這篇研究整合了從2000年最初提出的6個癌症標記，到2011年增加2個，再到2022年新增第9個標記（表型可塑性）的發展歷程，提出了「機制導向的標記共靶向治療」策略，為癌症治療提供新思路。\n\n【研究問題】\n本文旨在解決癌症研究中的核心問題：如何將癌症極其複雜的遺傳和表型特徵系統化組織，以理解其發生發展的機制。過去的癌症標記概念雖然簡潔有用，但隨著研究深入顯得過於簡化，無法涵蓋癌症的生物學全貌。特別是缺乏對腫瘤微環境、系統相互作用以及表型可塑性的整合理解。這些知識缺口阻礙了開發更有效的癌症治療策略，特別是解決治療抗性和轉移問題。\n\n【研究方法】\n作者採用了概念性綜合分析的方法，系統梳理了過去25年來癌症研究的豐富數據和知識。文章將癌症的複雜性組織為四個概念維度：癌症標記（獲得性功能能力）、促進性表型特徵、腫瘤微環境中的標記傳遞細胞，以及系統性相互作用。這種框架整合了基因組學、表觀遺傳學、免疫學和腫瘤微環境研究等多領域的發現，通過分析人類腫瘤和模式生物的實驗數據，構建了癌症生物學的邏輯框架。\n\n【結果】\n研究確立了癌症的九大標記：持續增殖信號、失活生長抑制因子、抵抗程序性細胞死亡、建立複製永生性、誘導或獲取血管生成、解細胞代謝調節、解鎖表型可塑性、逃避免疫破壞，以及激活侵襲和轉移。文章發現，癌症不僅是癌細胞的疾病，還是一種「系統性疾病」，涉及腫瘤微環境中的多種細胞類型（內皮細胞、成纖維細胞、巨噬細胞等）和系統性相互作用（衰老、肥胖等因素）。特別重要的是，表型可塑性允許癌細胞在不同狀態間轉換，這解釋了腫瘤異質性和治療抗性的形成。這些發現為開發「機制導向的標記共靶向治療」策略提供了理論基礎，可能克服單一療法的抗藥性問題。",
+      "en": "**Summary:**\nDouglas Hanahan's comprehensive review synthesizes 25 years of evolution in cancer hallmark concepts, expanding them into a four-dimensional framework: cancer hallmarks (acquired functional capabilities), enabling phenotypic characteristics, hallmark-conveying cells in the tumor microenvironment, and systemic interactions. This work traces the development from the original six hallmarks (2000), through the addition of two more (2011), to the recent inclusion of phenotypic plasticity as the ninth hallmark (2022). The article proposes a \"mechanism-guided hallmark co-targeting\" strategy, offering new perspectives for cancer therapy by addressing the complexity of tumor biology beyond just cancer cells.\n\n**Problem:**\nThe core question addressed is how to systematically organize cancer's extraordinarily complex genetic and phenotypic characteristics to understand its mechanistic foundations. While the original cancer hallmarks framework was valuable for its simplicity, it has become increasingly inadequate as research has progressed, failing to capture the full biological reality of cancer. Notably, the framework lacked integration of tumor microenvironment components, systemic interactions, and phenotypic plasticity. These knowledge gaps have hindered the development of more effective cancer treatments, particularly for addressing therapeutic resistance and metastasis.\n\n**Approach:**\nThe author employs conceptual synthesis methodology, systematically organizing decades of cancer research data into a logical framework. The approach integrates findings from multiple disciplines including genomics, epigenetics, immunology, and tumor microenvironment research. By analyzing experimental data from human tumors and model organisms, the framework categorizes cancer's complexity into four conceptual dimensions: hallmarks (acquired functional capabilities), enabling characteristics, hallmark-conveying cells in the TME, and systemic interactions. This multidimensional approach bridges reductionist cancer cell biology with systems-level understanding of cancer as a disease.\n\n**Results:**\nThe research establishes nine hallmarks of cancer: sustaining proliferative signaling, inactivating growth suppressors, resisting programmed cell death, establishing replicative immortality, inducing or accessing vasculature, deregulating cellular metabolism, unlocking phenotypic plasticity, evading immune destruction, and activating invasion and metastasis. A key finding is that cancer is not merely a disease of cancer cells but a \"systemic disease\" involving multiple cell types in the tumor microenvironment (endothelial cells, fibroblasts, macrophages, etc.) and systemic interactions (aging, obesity, and other factors). Particularly significant is the discovery that phenotypic plasticity allows cancer cells to transition between different states, explaining tumor heterogeneity and therapeutic resistance. These findings provide the theoretical foundation for \"mechanism-guided hallmark co-targeting\" strategies that may overcome resistance to monotherapies."
+    },
+    "keyArticle": {
+      "title": "Hallmarks of cancer—Then and now, and beyond",
+      "authors": [
+        "Douglas Hanahan"
+      ],
+      "doi": "10.1016/j.cell.2025.12.049",
+      "pages": "2254-2277"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-01-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.049",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.049"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-25T19:47:13.472361+00:00",
+    "source": "openalex"
+  }
+}

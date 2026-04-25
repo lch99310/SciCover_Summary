@@ -1,0 +1,61 @@
+{
+  "id": "nature-2026-04-22",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8111",
+  "date": "2026-04-22",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-22-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解密固態電池的「軟質穿透硬質」之謎：鋰枝晶如何突破陶瓷電解質",
+      "en": "Decoding the 'Soft-Penetrates-Hard' Mystery in Solid-State Batteries: How Lithium Dendrites Break Through Ceramic Electrolytes"
+    },
+    "summary": {
+      "zh": "【總結】本研究揭示了全固態電池中「軟質穿透硬質」現象的真實機制：機械驅動的斷裂，而非電子洩漏或孤立的鋰核形成。研究團隊利用多尺度低溫電子顯微鏡和微機械斷裂模型，首次直接觀察到鋰枝晶完全填滿奈米級裂縫尖端，並在鋰枝晶內部產生約600 MPa的靜水壓力，這壓力轉化為電解質中的張應力，驅動晶界斷裂和穿晶斷裂。這項突破性發現為設計抗枝晶固態電解質提供了科學基礎。\n\n【研究問題】長期以來，固態電池中「軟質鋰枝晶如何穿透硬質陶瓷電解質」的現象存在兩種理論爭議：一種認為是機械斷裂機制，另一種則主張是電子洩漏導致孤立的鋰核形成。然而，過去研究缺乏在枝晶尖端奈米級分辨率下觀察鋰分佈的能力，難以確定實際機制。解決這個問題對於開發安全可靠的全固態鋰金屬電池至關重要，這類電池有望提高能量密度並消除易燃液態電解質的安全隱患。\n\n【研究方法】研究團隊採用了創新的實驗設計：使用平面電池幾何結構，將LLZTO電解質薄片至約150微米，促形成直線型枝晶。他們運用多尺度低溫電子顯微技術（包括低溫掃描電子顯微鏡、低溫掃射透射電子顯微鏡和低溫傳柯希衍射電子顯微鏡）在奈米級分辨率下觀察枝晶尖端的鋰分佈。此外，研究團隊還引入工程化空隙（維氏壓痕）來重定向枝晶生長路徑，並使用相場斷裂模型來模擬鋰枝晶生長過程中的應力分佈。\n\n【結果】關鍵發現包括：1) 鋰枝晶完全填滿奈米級裂縫尖端，但在枝晶尖端前方未測量到鋰富集，這與孤立核形成理論不符；2) 鋰枝晶內部晶格旋轉有限，表明塑性變形極小，確認了靜水壓力狀態；3) 晶界斷裂阻力比體材質低3-5倍，解釋了頻繁的裂縫偏轉現象（約75%的晶界裂縫偏轉角度大於40°）；4) 引入垂直於枝晶生長方向的工程化空隙可成功重定向枝晶，防止短路。這些結果為固態電池設計提供了三種策略：增強晶界斷裂阻力、提高斷裂韌性，以及通過機械引導重定向枝晶生長。",
+      "en": "**Summary:** This research reveals the true mechanism behind the \"soft-penetrates-hard\" phenomenon in all-solid-state batteries: mechanically driven fracture rather than electronic leakage or isolated lithium nucleation. The research team used multiscale cryogenic electron microscopy and micromechanical fracture models to directly visualize lithium dendrites fully filling nanoscale crack tips and generating substantial hydrostatic stress (~600 MPa) that induces tensile stress in the solid electrolyte, driving both intergranular and transgranular fracture. This breakthrough discovery provides a scientific foundation for designing dendrite-resistant solid electrolytes.\n\n**Problem:** For years, the phenomenon of \"soft lithium dendrites penetrating hard ceramic electrolytes\" in solid-state batteries has been debated between two competing theories: mechanical fracture versus electronic leakage leading to isolated lithium nuclei. However, previous research lacked nanoscale resolution to observe lithium distribution at dendrite tips, making it difficult to determine the actual mechanism. Solving this problem is crucial for developing reliable all-solid-state lithium metal batteries, which promise improved safety and higher energy density by replacing flammable liquid electrolytes.\n\n**Approach:** The researchers employed an innovative experimental design using an in-plane cell geometry with mechanically thinned LLZTO (Li₆.₆La₃Zr₁.₆Ta₀.₄O₁₂) pellets to promote straight dendrite formation. They utilized multiscale cryogenic electron microscopy techniques (cryo-SEM, cryo-STEM, cryo-TKD-SEM) to observe lithium distribution at dendrite tips with nanoscale resolution. Additionally, they introduced engineered voids (Vickers indents) to redirect dendrite growth paths and employed phase-field fracture modeling to simulate stress distribution during lithium dendrite propagation.\n\n**Results:** Key findings include: 1) Lithium dendrites fully fill nanoscale crack tips but show no measurable lithium enrichment ahead of the dendrite tip, contradicting isolated nucleation theories; 2) Limited crystal lattice rotation in lithium dendrites indicates minimal plasticity, confirming the hydrostatic stress state; 3) Grain boundaries exhibit 3-5 times lower fracture resistance than bulk material, explaining frequent crack deflection (approximately 75% of intergranular cracks deflect at angles greater than 40°); 4) Engineered voids perpendicular to dendrite growth direction successfully redirect dendrites, preventing short-circuiting. These results provide three design strategies for solid-state batteries: enhancing grain boundary fracture resistance, improving fracture toughness, and mechanically guided redirection of dendrite propagation."
+    },
+    "keyArticle": {
+      "title": "Mechanically driven Li dendrite penetration in garnet solid electrolyte",
+      "authors": [
+        "Yuwei Zhang",
+        "Soroush Motahari",
+        "Eric Woods",
+        "Stefan Zaefferer",
+        "P. Schweizer",
+        "Zhiyuan Zhang",
+        "Yuqi Liu",
+        "Baptiste Gault",
+        "Franz Roters",
+        "Dierk Raabe",
+        "Christina Scheu",
+        "Yug Joshi",
+        "Siyuan Zhang",
+        "Chuanlai Liu",
+        "Gerhard Dehm"
+      ],
+      "doi": "10.1038/s41586-026-10415-9",
+      "pages": "912-918"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-22-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10415-9",
+      "doi": "https://doi.org/10.1038/s41586-026-10415-9"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-25T19:45:04.460740+00:00",
+    "source": "openalex"
+  }
+}

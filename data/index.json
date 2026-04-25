@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-22T20:12:48.411096+00:00",
+  "lastUpdated": "2026-04-25T19:52:36.056197+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-04-23",
+      "journal": "Political Geography",
+      "date": "2026-04-23",
+      "path": "articles/2026/04/political-geography-2026-04-23.json",
+      "title_zh": "拼貼外交：重新思考多極世界中的國家-城市關係",
+      "title_en": "Patchwork Diplomacy: Rethinking State-City Relations in a Multipolar World",
+      "cover_url": ""
+    },
+    {
+      "id": "nature-2026-04-22",
+      "journal": "Nature",
+      "date": "2026-04-22",
+      "path": "articles/2026/04/nature-2026-04-22.json",
+      "title_zh": "解密固態電池的「軟質穿透硬質」之謎：鋰枝晶如何突破陶瓷電解質",
+      "title_en": "Decoding the 'Soft-Penetrates-Hard' Mystery in Solid-State Batteries: How Lithium Dendrites Break Through Ceramic Electrolytes",
+      "cover_url": "data/images/nature/nature-2026-04-22-cover.jpg"
+    },
     {
       "id": "nature-2026-04-15-02",
       "journal": "Nature",
@@ -614,6 +632,15 @@
       "cover_url": "data/images/science/science-2026-02-12-02-cover.jpg"
     },
     {
+      "id": "science-2026-02-12-03",
+      "journal": "Science",
+      "date": "2026-02-12",
+      "path": "articles/2026/02/science-2026-02-12-03.json",
+      "title_zh": "紅矮星LHS 1903系統：跨越「半徑谷」的氣體耗盤行星形成證據",
+      "title_en": "Red Dwarf LHS 1903 System: Evidence of Gas-Depleted Planet Formation Across the Radius Valley",
+      "cover_url": "data/images/science/science-2026-02-12-03-cover.jpg"
+    },
+    {
       "id": "science-2026-02-12",
       "journal": "Science",
       "date": "2026-02-12",
@@ -747,6 +774,15 @@
       "title_zh": "家鄉情結如何變成選票優勢？印度選舉中的社交網絡動員術",
       "title_en": "The Hidden Power of Local Networks: How Indian Candidates Turn Neighborhood Ties into Votes",
       "cover_url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg"
+    },
+    {
+      "id": "cell-2026-01-29-02",
+      "journal": "Cell",
+      "date": "2026-01-29",
+      "path": "articles/2026/01/cell-2026-01-29-02.json",
+      "title_zh": "癌症標記的進化：從過去到現在，再超越未來",
+      "title_en": "The Evolution of Cancer Hallmarks: From Past to Future",
+      "cover_url": "data/images/cell/cell-2026-01-29-02-cover.jpg"
     },
     {
       "id": "cell-2026-01-29",
