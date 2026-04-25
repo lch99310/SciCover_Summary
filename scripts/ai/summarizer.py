@@ -96,7 +96,7 @@ _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     # PAID fallback — only reached when every free backend above has failed.
     (
         "DEEPSEEK_API_KEY",
-        "deepseek-chat",
+        "deepseek-v4-flash",
         "https://api.deepseek.com",
     ),
 ]
