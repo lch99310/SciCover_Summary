@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-04-09-03",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6794",
+  "date": "2026-04-09",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "透明質酸與組織力學：解密哺乳動物指尖再生的秘密",
+      "en": "Beyond Scars: How Hyaluronic Acid and Tissue Mechanics Unlock Mammalian Regeneration"
+    },
+    "summary": {
+      "zh": "在哺乳動物世界中，組織再生能力堪比超能力——極其稀有。然而，有一個奇特的例外：當指尖被截斷時，只要傷口在指甲範圍內，就能夠完美再生。這個生物學謎團一直困惑著科學家，直到最近一項發現揭開了這個再生過程的微環境秘密。\n\n研究團隊發現，這個再生奇蹟的關鍵在於細胞外基質（ECM）的組成與組織力學。在無法再生的區域，組織較硬，含有密集且有序的膠原蛋白；而在可以再生的指尖區域，組織則較為柔軟，並富含透明質酸（HA）。當研究人員去除HA後，再生能力受到抑制，纖維化反而增強，這證明了HA與膠原蛋白的平衡共同塑造了組織力學與修復信號。\n\n最令人興奮的是，研究團隊透過在非再生區域使用透明質酸與蛋白聚醣連接蛋白1（HAPLN1）來穩定HA，成功改變了ECM的力學特性，減少了瘢痕形成，並增強了骨骼修復。這項發現不僅解開了指尖再生的謎題，更為開發哺乳動物的再生能力提供了全新的策略——透過靶向ECM組成，我們或許能喚醒人體內沉睡的再生潛能。",
+      "en": "In the mammalian world, tissue regeneration is a rare phenomenon, akin to a biological superpower. Yet one striking exception exists: when fingertips are amputated, the digit can regrow perfectly as long as the injury occurs within the nail bed. This biological puzzle has long fascinated scientists, and recent research has finally unveiled the secret behind this remarkable regenerative process.\n\nThe study reveals that the key to this regeneration miracle lies in the composition and mechanics of the extracellular matrix (ECM). In non-regenerative regions, tissues are stiffer and contain dense, organized collagen, while regenerative fingertip areas are soft and enriched with hyaluronic acid (HA). When researchers depleted HA, regeneration was inhibited and fibrosis increased, demonstrating that the HA-collagen balance shapes both tissue mechanics and repair signaling pathways.\n\nMost excitingly, the team successfully enhanced healing in non-regenerative areas by stabilizing HA with hyaluronan and proteoglycan link protein 1 (HAPLN1). This approach modified ECM mechanics, reduced scarring, and improved bone repair. These findings not only explain fingertip regeneration but also suggest a revolutionary path toward unlocking broader regenerative capabilities in mammals—by targeting ECM composition, we may awaken the latent regenerative potential within human tissues."
+    },
+    "keyArticle": {
+      "title": "Hyaluronic acid and tissue mechanics orchestrate mammalian digit tip regeneration",
+      "authors": [
+        "Byron W. H. Mui",
+        "Jgws Wong",
+        "Camille E. Dumas",
+        "Jia Hua Wang",
+        "Toni Bray",
+        "Kentaro Hirose",
+        "Lauren Connolly",
+        "Alexander Winkel",
+        "Sebastian Timmler",
+        "Nicholas A. Bright",
+        "Evelina Sliauteryte",
+        "Ragnhildur Thóra Káradóttir",
+        "Pamela Gehro. Robey",
+        "Kristian Franze",
+        "Kevin J. Chalut",
+        "Mekayla A. Storer"
+      ],
+      "doi": "10.1126/science.ady3136",
+      "pages": "eady3136"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady3136",
+      "doi": "https://doi.org/10.1126/science.ady3136"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-04-28T20:17:02.311189+00:00",
+    "source": "openalex"
+  }
+}

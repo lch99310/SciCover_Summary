@@ -1,0 +1,52 @@
+{
+  "id": "nature-2026-04-22-02",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8111",
+  "date": "2026-04-22",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-22-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "非平衡凝聚：解密太陽系最早固體的形成之謎",
+      "en": "Non-equilibrium Condensation: Solving the Mystery of the First Solids in the Solar System"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究挑戰了傳統的平衡凝聚模型，首次提出太陽系最早固體的形成可能經歷了動力學非平衡過程。研究團隊開發了名為KineCond的新模型，成功解釋了為何原始隕石分為三大類型——頑火輝石球粒隕石、普通球粒隕石和碳質球粒隕石。這項突破性發現表明，隕石的礦物學多樣性部分反映了太陽盤中局部凝聚動力學，而非需要大規模氧化條件變化，為理解太陽系早期演化提供了全新視角。\n\n【研究問題】\n長期以來，科學家們難以解釋為何原始隕石會形成三種明顯不同的礦物學類型。傳統的平衡凝聚模型雖能解釋部分高溫耐火礦物的形成，卻無法解釋這三種類型的出現。更麻煩的是，在形成原行星盤的低壓、陡峭溫度梯度和短動力學傳輸時間尺度下，平衡狀態很難實現。過去的研究假設每種隕石類型在不同氧化條件下形成，但要在太陽星雲中產生如此極端的局部氧化條件變化被認為是不可能的。\n\n【研究方法】\n研究團隊開發了名為KineCond的動力學凝聚模型，該模型模擬了太陽成分氣體在恆定壓力下從2000K冷卻至130K的過程。模型考慮了39個凝聚或蒸發反應和38個氣體-礦物反應，使用算子分裂方案和自適應時間步長來保持質量守恆。研究人員探索了從10^-9到10^-2巴的壓力和0.01到1000年的冷卻時間尺度，並根據實驗約束設定了蒸發效率。通過系統性地改變壓力和冷卻速率，他們創建了一個參數X=log10(Tc年)+log10(P巴)來描述不同凝聚條件。\n\n【結果】\n研究發現，不同壓力和冷卻速率下，模型只產生三種明確的礦物學類型：類型A（高壓、慢冷卻，類似頑火輝石球粒隕石）、類型B（過渡型）和類型C（低壓、快冷卻，類似碳質球粒隕石）。當投影到Urey-Craig圖上時，預測的礦物學類型落在了頑火輝石、普通和碳質球粒隕石的氧化狀態附近。類型C礦物學特別氧化，含有約1-2%的水質量分數，無需添加超太陽氧或水。這些結果表明，隕石的礦物學多樣性可能部分反映了太陽盤中的局部凝聚動力學，而非需要大規模氧化條件變化。",
+      "en": "**Summary:**\nThis research challenges traditional equilibrium condensation models by proposing that the first solids in our Solar System formed through a kinetic non-equilibrium process. The research team developed a new time-dependent condensation model called KineCond that successfully explains why primitive meteorites fall into three distinct categories—enstatite, ordinary, and carbonaceous chondrites. This breakthrough discovery suggests that the mineralogical diversity of chondrites may reflect local condensation kinetics within the solar nebula, rather than requiring large-scale variations in oxidation conditions, offering a fresh perspective on the early evolution of our Solar System.\n\n**Problem:**\nFor decades, scientists have struggled to explain why primitive meteorites form three distinct mineralogical classes. While traditional equilibrium condensation models can explain the formation of some high-temperature refractory components, they fail to account for the emergence of these three types. More critically, in the low-pressure, steep temperature gradients, and short dynamical transport timescales of forming protoplanetary disks, equilibrium conditions were unlikely to be achieved. Previous hypotheses suggested each chondrite class formed under different redox conditions, but generating such extreme local variations in oxygen fugacity within the solar nebula remained a major unsolved problem.\n\n**Approach:**\nThe research team developed a kinetic condensation code called KineCond that models the time-dependent condensation and evaporation of a solar composition gas during cooling from 2000K to 130K at constant pressure and cooling timescale. The model couples 39 congruent condensation/evaporation reactions and 38 gas-mineral reactions using an operator-splitting scheme with adaptive time stepping that conserves mass. The researchers explored pressures from 10^-9 to 10^-2 bar and cooling timescales from 0.01 to 1000 years, defining an empirical parameter X = log10(Tc years) + log10(P bar) to compare different condensation conditions. The model distinguishes between fast (FNR), moderate (MNR), and slow nebular reaction (SNR) rates based on activation energies.\n\n**Results:**\nThe study revealed that despite wide variations in pressure and cooling times, the model produces only three distinct mineralogical types: Type A (high-pressure, slow-cooling conditions, similar to enstatite chondrites), Type B (transitional), and Type C (low-pressure, fast-cooling, characterized by oxidized phases similar to carbonaceous chondrites). When projected onto a Urey-Craig diagram, the predicted mineralogical types cluster near the redox states of the three chondrite classes. Notably, Type C mineralogies are particularly oxidized, containing about 1-2 wt% water without requiring the addition of super-solar oxygen or water to the system. These findings suggest that the mineralogical diversity of chondrites may reflect, in part, local condensation kinetics within the solar nebula, providing an alternative explanation to large-scale variations in oxidation conditions."
+    },
+    "keyArticle": {
+      "title": "Non-equilibrium condensation of the first Solar System solids",
+      "authors": [
+        "Sébastien Charnoz",
+        "Jérôme Aléon",
+        "Marc Chaussidon",
+        "Paolo A. Sossi",
+        "Yves Marrocchi",
+        "Patrick Franco"
+      ],
+      "doi": "10.1038/s41586-026-10257-5",
+      "pages": "925-930"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-22-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10257-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10257-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-28T20:19:04.997494+00:00",
+    "source": "openalex"
+  }
+}

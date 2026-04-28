@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T19:52:36.056197+00:00",
+  "lastUpdated": "2026-04-28T20:24:34.788623+00:00",
   "articles": [
     {
       "id": "political-geography-2026-04-23",
@@ -11,6 +11,15 @@
       "cover_url": ""
     },
     {
+      "id": "nature-2026-04-22-02",
+      "journal": "Nature",
+      "date": "2026-04-22",
+      "path": "articles/2026/04/nature-2026-04-22-02.json",
+      "title_zh": "非平衡凝聚：解密太陽系最早固體的形成之謎",
+      "title_en": "Non-equilibrium Condensation: Solving the Mystery of the First Solids in the Solar System",
+      "cover_url": "data/images/nature/nature-2026-04-22-02-cover.jpg"
+    },
+    {
       "id": "nature-2026-04-22",
       "journal": "Nature",
       "date": "2026-04-22",
@@ -18,6 +27,15 @@
       "title_zh": "解密固態電池的「軟質穿透硬質」之謎：鋰枝晶如何突破陶瓷電解質",
       "title_en": "Decoding the 'Soft-Penetrates-Hard' Mystery in Solid-State Batteries: How Lithium Dendrites Break Through Ceramic Electrolytes",
       "cover_url": "data/images/nature/nature-2026-04-22-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-04-22",
+      "journal": "Political Geography",
+      "date": "2026-04-22",
+      "path": "articles/2026/04/political-geography-2026-04-22.json",
+      "title_zh": "邊界城鎮的移民治理：特里雅斯特與梅西納的本地邊界治理軌跡",
+      "title_en": "Migration Governance in Border Towns: Trajectories of Local Border Governance in Trieste and Messina",
+      "cover_url": ""
     },
     {
       "id": "nature-2026-04-15-02",
@@ -45,6 +63,15 @@
       "title_zh": "半導體自旋多體干涉測量：觀察量子混沌的突破性進展",
       "title_en": "Semiconductor Spin Many-Body Interferometry: Breakthrough in Observing Quantum Chaos",
       "cover_url": "data/images/science/science-2026-04-09-02-cover.jpg"
+    },
+    {
+      "id": "science-2026-04-09-03",
+      "journal": "Science",
+      "date": "2026-04-09",
+      "path": "articles/2026/04/science-2026-04-09-03.json",
+      "title_zh": "透明質酸與組織力學：解密哺乳動物指尖再生的秘密",
+      "title_en": "Beyond Scars: How Hyaluronic Acid and Tissue Mechanics Unlock Mammalian Regeneration",
+      "cover_url": ""
     },
     {
       "id": "science-2026-04-09",
@@ -99,6 +126,15 @@
       "title_zh": "血管正常化：25年腫瘤血管生成靶向治療的演進與突破",
       "title_en": "Vascular Normalization: The Evolution and Breakthroughs in 25 Years of Tumor Angiogenesis-Targeted Therapy",
       "cover_url": "data/images/cell/cell-2026-04-01-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-03",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-03.json",
+      "title_zh": "肝癌特徵標記與治療新突破：從分子機制到臨床應用",
+      "title_en": "Liver Cancer Hallmarks and Therapeutic Breakthroughs: From Molecular Mechanisms to Clinical Applications",
+      "cover_url": "data/images/cell/cell-2026-04-01-03-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",

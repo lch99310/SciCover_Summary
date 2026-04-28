@@ -1,0 +1,55 @@
+{
+  "id": "cell-2026-04-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肝癌特徵標記與治療新突破：從分子機制到臨床應用",
+      "en": "Liver Cancer Hallmarks and Therapeutic Breakthroughs: From Molecular Mechanisms to Clinical Applications"
+    },
+    "summary": {
+      "zh": "【總結】本篇發表於《細胞》期刊的綜述文章，系統性探討了肝癌的特徵標記（hallmarks）及其治療應用。研究團隊整合了肝細胞癌（HCC，約佔85%）與肝內膽管癌（iCCA，約佔10%）的分子生物學特性，揭示這兩種肝癌類型雖共享某些致癌特徵，但具有截然不同的治療靶點。HCC主要表現為持續增殖信號、誘導血管生成和逃避免疫檢測；而iCCA則特徵為持續增殖信號、細胞代謝失調和逃避免疫檢測。約45%的iCCA病例存在可精準醫學治療的基因改變，包括FGFR2融合、IDH1突變、ERBB2異常和BRAF突變，這些發現為肝癌治療提供了新的理論框架和臨床應用方向。\n\n【研究問題】本文探討的核心問題是：如何利用致癌特徵標記理論框架來理解肝癌的分子機制，並開發有效的治療策略？過去的研究雖然識別了肝癌的分子異質性，但缺乏系統性整合不同致癌特徵與治療應用的連結。特別是，HCC雖然約25%病例具有可作用的突變，卻尚未批准針對性治療；而iCCA在精準醫學治療方面則取得了顯著進展。解決這一問題至關重要，因為肝癌是全球第三大癌症死因，發病率持續上升，預計到2050年將達到每年150萬例新病例。\n\n【研究方法】研究團隊採用了系統性文獻綜合分析方法，整合了過去二十年肝癌領域的關鍵研究成果。他們基於Hanahan和Weinberg提出的癌症特徵標記理論框架，分析了HCC和iCCA的分子特徵、致癌途徑和治療應用。研究團隊深入探討了基因組學、表觀遺傳學、免疫微環境等多維度數據，並結合臨床試驗結果，建立了致癌特徵與治療策略之間的對應關係。特別是，他們利用深度測序數據揭示了HCC的基因突變頻譜（如TERT啟動子突變佔56%，TP53突變佔31%）和iCCA的精準醫學靶點（如FGFR2融合佔15%），為臨床治療提供了分子基礎。\n\n【結果】研究發現，HCC的主要致癌特徵包括：持續增殖信號（通過TERT啟動子突變、TP53失活、ARID1A/ARID2染色質重塑異常等實現）、誘導血管生成（通過VEGF-A基因擴增等實現）和逃避免疫檢測。約50%的HCC屬於增殖類型，具有高AFP水平、細胞分化差、TP53突變等特徵，預後較差；而另一半則為非增殖類型，常伴有CTNNB1突變和Wnt/β-catenin信號激活。對於iCCA，約45%的病例存在可精準治療的基因改變，包括FGFR2融合（15%）、IDH1突變（11%）、ERBB2異常和BRAF突變。這些發現已轉化為臨床治療突破，如FGFR2抑制劑、IDH1抑制劑等已獲FDA批准或加速批准，顯著改善了iCCA患者的預後，為肝癌治療開闢了新途徑。",
+      "en": "**Summary:** This comprehensive review published in Cell systematically explores the hallmarks of liver cancer and their therapeutic implications, focusing on hepatocellular carcinoma (HCC, ~85%) and intrahepatic cholangiocarcinoma (iCCA, ~10%). The research team reveals that while these liver cancer types share certain cancer hallmarks, they exhibit distinct therapeutic vulnerabilities. HCC primarily demonstrates sustained proliferative signaling, induction or access to vasculature, and immune evasion. In contrast, iCCA is characterized by sustained proliferative signaling, deregulated cellular metabolism, and immune evasion. Notably, approximately 45% of iCCA cases harbor alterations amenable to precision oncology approaches, including FGFR2 fusions, IDH1 mutations, ERBB2 alterations, and BRAF mutations. These findings provide a new theoretical framework and clinical application directions for liver cancer treatment.\n\n**Problem:** The central question addressed in this article is: how can the framework of cancer hallmarks be utilized to understand the molecular mechanisms of liver cancer and develop effective therapeutic strategies? Previous research, while identifying the molecular heterogeneity of liver cancers, lacked systematic integration of different cancer hallmarks with therapeutic applications. Particularly, despite ~25% of HCC cases having potentially actionable mutations, no targeted therapy has been approved, whereas iCCA has made significant progress in precision medicine treatments. Solving this problem is critically important as liver cancer is the third leading cause of cancer death worldwide, with incidence rates continuously rising, projected to reach 1.5 million new cases annually by 2050.\n\n**Approach:** The research team employed a systematic literature synthesis methodology, integrating key research findings from the liver cancer field over the past two decades. Based on the cancer hallmarks framework proposed by Hanahan and Weinberg, they analyzed the molecular characteristics, carcinogenic pathways, and therapeutic applications of HCC and iCCA. The team delved into multidimensional data including genomics, epigenetics, and tumor microenvironment, establishing correlations between cancer hallmarks and therapeutic strategies. Particularly, they utilized deep sequencing data to reveal the mutation spectrum of HCC (e.g., TERT promoter mutations in 56%, TP53 mutations in 31%) and precision medicine targets in iCCA (e.g., FGFR2 fusions in 15%), providing a molecular basis for clinical treatment.\n\n**Results:** The research identified that key cancer hallmarks of HCC include: sustained proliferative signaling (achieved through TERT promoter mutations, TP53 inactivation, ARID1A/ARID2 chromatin remodeling abnormalities), induction of vasculature (through VEGFA amplifications), and immune evasion. Approximately 50% of HCCs belong to the proliferation class, characterized by high AFP levels, poor differentiation, and TP53 mutations, indicating poorer prognosis; the remaining half constitute the non-proliferation class, often with CTNNB1 mutations and Wnt/β-catenin pathway activation. For iCCA, about 45% of cases harbor precision-treatable genetic alterations, including FGFR2 fusions (15%), IDH1 mutations (11%), ERBB2 alterations, and BRAF mutations. These findings have been translated into clinical treatment breakthroughs, with FGFR2 inhibitors, IDH1 inhibitors, and others receiving FDA approval or accelerated approval, significantly improving patient outcomes for iCCA and opening new avenues for liver cancer treatment."
+    },
+    "keyArticle": {
+      "title": "Hallmarks of liver cancer: Therapeutic implications",
+      "authors": [
+        "Josep M. Llovet",
+        "Roser Pinyol",
+        "Silvia Affo",
+        "Mark Yarchoan",
+        "Gregory J. Gores",
+        "Robin Kate Kelley",
+        "Scott W. Lowe",
+        "Daniela Sia",
+        "Augusto Villanueva"
+      ],
+      "doi": "10.1016/j.cell.2026.03.001",
+      "pages": "2490-2514"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.001",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.001"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-04-28T20:21:36.711354+00:00",
+    "source": "openalex"
+  }
+}
