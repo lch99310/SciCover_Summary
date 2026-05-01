@@ -1,0 +1,56 @@
+{
+  "id": "cell-2026-04-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "應對早發癌症浪潮：加速癌症病因發現的革新框架",
+      "en": "Accelerating Cancer Cause Discovery in the Era of Rising Early-Onset Cancers"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Cell》的研究提出了一個應對全球早發癌症激增的革新性框架。研究顯示，早發癌症（50歲前診斷）正全球性上升，尤其在X世代和千禧世代中表現出明顯的出生隊列效應。目前僅有30-45%的癌症可歸因於已知的可修正因素，而理論上75-80%的癌症或可預防。為解決這一差距，作者提出了三個相互連結的框架：以組織生態系為基礎的癌症病因發現框架、基於生物狀態的精準癌症風險評估框架，以及用於特徵癌症可預防性的動態框架。這些框架整合了流行病學和機制性研究，旨在加速癌症病因學研究和預防策略的發展。\n\n【研究問題】本研究探討的核心問題是為什麼早發癌症正在全球範圍內增加，以及如何加速發現新的癌症病因以開發有效的預防策略。過去的研究存在幾個關鍵盲點：年齡診斷是基礎生物學的有限代理指標；研究僅關注暴露的快照而非模式和軌跡；暴露組框架缺乏實用解決方案；遺傳學難以解釋快速增加但影響易感性；機制研究向臨床應用的轉化有限。解決這些問題至關重要，因為早發癌症已在全球造成近100萬人死亡和5000萬殘疾調整生命年，並成為美國50歲以下人群的主要癌症死因。\n\n【研究方法】作者採用了多學科整合的方法，結合了流行病學和機制性研究。首先，他們回顧了癌症病因發展的歷史里程碑，包括煙草、酒精和肥胖等主要可修正因素的發現過程。其次，他們分析了當代發現癌症病因的挑戰，並提出了三個新的框架：1）組織生態系錨定框架，通過跨生命週期和跨代際的暴露、宿主遺傳因素與分子印跡的關聯來發現癌症病因；2）生物狀態基礎框架，利用臨床和組學數據量化終身過程中風險的演變；3）動態框架，通過模擬模型整合暴露趨勢、共同暴露和癌症自然史來估算可預防的負擔。研究還倡導建立全球連接的流行病學資源生態系，聯合和協調現有的隊列、電子健康記錄和生物庫。\n\n【結果】研究提供了關鍵發現：在2003-2017年期間，42個國家中75%報告了6種早發癌症（乳癌、結腸直腸癌、甲狀腺癌、腎癌、子宮內膜癌和白血病）的發病率上升，年增長率為0.8%至3.6%。早發癌症在全球造成近100萬人死亡和5000萬殘疾調整生命年。美國50歲以下人群中，結腸直腸癌死亡率已成為男性癌症死因之首，女性第二位。研究確認僅有30-45%的癌症可歸因於已知的可修正因素，而75-80%理論上可預防。煙草、酒精和肥胖被確定為主要可修正因素，分別與13種、7種和13種癌症有因果關係。作者提出的框架將癌症風險視為從正常發育和內穩態到侵腫瘤整個過程中組織生態系統的突現屬性，為精準預防提供了新途徑。",
+      "en": "**Summary:** This Cell article presents an innovative framework to address the global rise of early-onset cancers. The research reveals that early-onset cancers (diagnosed before age 50) are increasing globally, particularly in Generation X and Millennials with notable birth-cohort effects. Currently, only 30-45% of cancers are attributable to established modifiable factors, while theoretically 75-80% may be preventable. To bridge this gap, the authors propose three interconnected frameworks: a tissue ecosystem-anchored framework for cancer cause discovery, a biological state-based framework for precision cancer risk assessment, and a dynamic framework to characterize cancer preventability. These frameworks integrate epidemiological and mechanistic studies to accelerate cancer etiology research and prevention strategies.\n\n**Problem:** The core question addressed is why early-onset cancers are increasing globally and how to accelerate the discovery of novel cancer causes for effective prevention. Previous research has several key limitations: age at diagnosis is a limited proxy for underlying biology; studies focus on snapshots rather than patterns and trajectories of exposure; the exposome framework lacks practical solutions; genetics cannot explain the rapid increase but shapes susceptibility; and translation from mechanistic studies to clinical applications remains limited. Solving these issues is critical as early-onset cancers cause nearly 1 million deaths and 50 million disability-adjusted life years globally annually and have become the leading cause of cancer death in men under 50 in the US.\n\n**Approach:** The authors employed a multidisciplinary approach combining epidemiology and mechanistic research. First, they reviewed historical milestones in cancer cause discovery, including the identification of major modifiable factors like tobacco, alcohol, and obesity. Second, they analyzed contemporary challenges in discovering cancer causes and proposed three new frameworks: 1) a tissue ecosystem-anchored framework linking exposures across life course and generations with molecular imprints to identify cancer causes; 2) a biological state-based framework quantifying risk evolution through longitudinal clinical and multi-omic data; and 3) a dynamic framework using simulation models incorporating exposure trends, co-exposures, and cancer natural history to estimate preventable burden. The study also advocates for building a globally connected ecosystem of epidemiological resources, harmonizing existing cohorts, EHRs, and biobanks.\n\n**Results:** Key findings reveal that between 2003-2017, 75% of 42 countries reported increasing incidence in six early-onset cancer types (breast, colorectal, thyroid, kidney, endometrial, and leukemia), with annual increases of 0.8% to 3.6%. Early-onset cancers cause nearly 1 million deaths and 50 million disability-adjusted life years globally. In the US under-50 population, colorectal cancer mortality has become the leading cause of cancer death in men and the second in women. Only 30-45% of cancers are attributable to established modifiable factors, while 75-80% are theoretically preventable. Tobacco, alcohol, and obesity are confirmed as major modifiable causes, associated with 13, 7, and 13 cancer types respectively. The proposed frameworks conceptualize cancer risk as an emergent property of tissue ecosystems across the continuum from normal development to invasive tumors, offering new pathways for precision prevention."
+    },
+    "keyArticle": {
+      "title": "Accelerating discovery of cancer causes for prevention in the era of rising early-onset cancers",
+      "authors": [
+        "Mengyao Shi",
+        "Gary J. Patti",
+        "Marc J. Gunter",
+        "Ramaswamy Govindan",
+        "Iris Lansdorp-Vogelaar",
+        "Ting Wang",
+        "Jeffrey P. Townsend",
+        "Graham A. Colditz",
+        "Yasmine Belkaid",
+        "Yin Cao"
+      ],
+      "doi": "10.1016/j.cell.2026.03.019",
+      "pages": "2232-2253"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.019",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.019"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-01T20:07:33.845075+00:00",
+    "source": "openalex"
+  }
+}

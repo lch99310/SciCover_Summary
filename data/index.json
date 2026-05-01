@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-04-28T20:24:34.788623+00:00",
+  "lastUpdated": "2026-05-01T20:10:46.058330+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-04-28",
+      "journal": "Political Geography",
+      "date": "2026-04-28",
+      "path": "articles/2026/04/political-geography-2026-04-28.json",
+      "title_zh": "約束欲望：理解鳥類獵人欲望如何塑造可持續狩獵的前景",
+      "title_en": "Disciplining Desires: How Bird Hunters' Desires Shape Sustainable Hunting Prospects",
+      "cover_url": ""
+    },
     {
       "id": "political-geography-2026-04-23",
       "journal": "Political Geography",
@@ -11,6 +20,15 @@
       "cover_url": ""
     },
     {
+      "id": "science-2026-04-23",
+      "journal": "Science",
+      "date": "2026-04-23",
+      "path": "articles/2026/04/science-2026-04-23.json",
+      "title_zh": "能源與氣候韌性的新需求目標：效率、電氣化與公平稅收的雙重革命",
+      "title_en": "New Demand Goals for Energy and Climate Resilience: The Dual Revolution of Efficiency, Electrification, and Fair Taxation",
+      "cover_url": "data/images/science/science-2026-04-23-cover.jpg"
+    },
+    {
       "id": "nature-2026-04-22-02",
       "journal": "Nature",
       "date": "2026-04-22",
@@ -18,6 +36,15 @@
       "title_zh": "非平衡凝聚：解密太陽系最早固體的形成之謎",
       "title_en": "Non-equilibrium Condensation: Solving the Mystery of the First Solids in the Solar System",
       "cover_url": "data/images/nature/nature-2026-04-22-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-04-22-03",
+      "journal": "Nature",
+      "date": "2026-04-22",
+      "path": "articles/2026/04/nature-2026-04-22-03.json",
+      "title_zh": "突破極限：相對論性等離子體諧波的效率優化",
+      "title_en": "Breaking Limits: Efficiency-Optimized Relativistic Plasma Harmonics for Extreme Fields",
+      "cover_url": "data/images/nature/nature-2026-04-22-03-cover.jpg"
     },
     {
       "id": "nature-2026-04-22",
@@ -135,6 +162,15 @@
       "title_zh": "肝癌特徵標記與治療新突破：從分子機制到臨床應用",
       "title_en": "Liver Cancer Hallmarks and Therapeutic Breakthroughs: From Molecular Mechanisms to Clinical Applications",
       "cover_url": "data/images/cell/cell-2026-04-01-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-04",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-04.json",
+      "title_zh": "應對早發癌症浪潮：加速癌症病因發現的革新框架",
+      "title_en": "Accelerating Cancer Cause Discovery in the Era of Rising Early-Onset Cancers",
+      "cover_url": "data/images/cell/cell-2026-04-01-04-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",

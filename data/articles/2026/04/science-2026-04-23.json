@@ -1,0 +1,49 @@
+{
+  "id": "science-2026-04-23",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6796",
+  "date": "2026-04-23",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "能源與氣候韌性的新需求目標：效率、電氣化與公平稅收的雙重革命",
+      "en": "New Demand Goals for Energy and Climate Resilience: The Dual Revolution of Efficiency, Electrification, and Fair Taxation"
+    },
+    "summary": {
+      "zh": "【總結】本研究提出三大革命性目標，旨在重塑全球能源系統以應對氣候變化：將能源強度改善速率提高三倍至每年4%，加速電氣化使電力佔終端能源消費比例年增長4%，以及對過度能源消費徵收三倍稅收以減少三分之一。這些目標不僅技術上可行，更關乎能源公平與氣候正義。研究揭示了全球能源使用嚴重不平等——頂端0.1%人口消耗10%的全球能源，而底層50%人口僅消耗不到10%。透過創新的稅收機制，我們既能減少過度消費，又能為能源貧困人口提供基本能源需求，實現雙贏局面。\n\n【研究問題】過去能源政策過度側供給端改革，忽視了需求端的巨大潛力與不平等問題。現有數據低估了高收入人群的能源消耗，特別是頂端1%和0.1%的極高收入人群。傳統能源強度分析也未能充分結構變化的影響。這些盲點導致政策無法有效解決能源不平等和氣候變化。研究關鍵問題在於：如何制定既能減少碳排放又能促進能源公平的需求目標？\n\n【研究方法】研究團隊創新性地結合三種方法：首先，擴展了Oswald等人的能源不平等數據集，納入高收入國家和頂端收入群體的數據；其次，開發了ASI(F)分解框架，將能源消費分解為活動(A)、強度(I)、結構(S)和組成(F)四個因素；最後，設計了兩種過度消費稅收模型：線性稅收(每超額GJ徵收40美元)和累進稅收(隨消費增加而遞增)。研究團隊還開發了結構效應計算方法，揭示了跨部門轉型的重要性。\n\n【結果】研究發現全球能源使用嚴重不平等：頂端1%人口(約7700萬人)消耗20%的終端能源，平均每人500GJ以上；頂端0.1%人口(約77萬人)消耗10%的能源，平均每人超過3000GJ。研究確定300GJ/人/年為過度消費門檻，僅2%人口超此標準。線性稅收方案可減少21-53EJ/年的過度消費，累進稅收可創收0.2-2萬億美元。將能源強度改善速率提高至每年4%，電氣化年增長4%，可實現2050年淨零排放目標，同時為全球能源貧困人口提供基本能源需求。",
+      "en": "**Summary:** This research proposes three revolutionary goals to reshape the global energy system in response to climate change: tripling the rate of energy intensity improvement to 4% annually, accelerating electrification to grow electricity's share of final energy consumption by 4% per year, and tripling taxation of excessive energy consumption to reduce it by a third. These goals are not only technically feasible but also crucial for energy equity and climate justice. The study reveals severe global energy inequality—the top 0.1% of the population consumes 10% of global energy, while the bottom 50% consumes less than 10%. Through innovative taxation mechanisms, we can simultaneously reduce overconsumption and provide basic energy needs for energy-poor populations, achieving a win-win outcome.\n\n**Problem:** Past energy policies have excessively focused on supply-side reforms while neglecting the enormous potential and inequities on the demand side. Existing data significantly underestimate energy consumption by high-income populations, particularly the top 1% and 0.1% of extremely high earners. Traditional energy intensity analysis also failed to adequately account for structural change effects. These blind spots prevent policies from effectively addressing energy inequality and climate change. The central question is: how can we develop demand-side goals that both reduce carbon emissions and promote energy equity?\n\n**Approach:** The research team innovatively combined three approaches: first, they extended Oswald et al.'s energy inequality dataset to include high-income countries and top income groups; second, they developed the ASI(F) decomposition framework, breaking down energy consumption into four factors—Activity (A), Intensity (I), Structure (S), and Composition (F); finally, they designed two overconsumption tax models: a linear tax ($40 per additional GJ above threshold) and a progressive tax (increasing with consumption). The team also developed a method for calculating structural effects, revealing the importance of cross-sectoral transformation.\n\n**Results:** The study found severe global energy inequality: the top 1% of the population (about 77 million people) consumes 20% of final energy, averaging over 500 GJ per capita; the top 0.1% (about 770,000 people) consumes 10% of energy, averaging over 3,000 GJ per capita. The research established 300 GJ/capita/year as the threshold for excessive consumption, exceeded by only 2% of the population. The linear tax scheme could reduce overconsumption by 21-53 EJ annually, while the progressive tax could generate $0.2-2 trillion in revenue. Increasing energy intensity improvement to 4% annually and electrification growth to 4% annually can achieve net-zero emissions by 2050 while providing basic energy needs for globally energy-poor populations."
+    },
+    "keyArticle": {
+      "title": "New demand goals for energy and climate resilience",
+      "authors": [
+        "N. Bento",
+        "A. Grubler",
+        "N. Nakicenovic"
+      ],
+      "doi": "10.1126/science.adz3492",
+      "pages": "368-370"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz3492",
+      "doi": "https://doi.org/10.1126/science.adz3492"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-01T20:04:23.833260+00:00",
+    "source": "openalex"
+  }
+}

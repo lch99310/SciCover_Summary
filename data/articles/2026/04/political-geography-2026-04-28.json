@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-04-28",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-04-28",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "約束欲望：理解鳥類獵人欲望如何塑造可持續狩獵的前景",
+      "en": "Disciplining Desires: How Bird Hunters' Desires Shape Sustainable Hunting Prospects"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過精神分析政治生態學的視角，探討馬爾他鳥類獵人的欲望如何影響可持續狩獵的前景。研究突破性地提出了「namra」這個馬爾他獵人特有的概念，代表一種難以言喻的熱情驅使他們不計代價追尋鳥類。研究發現，區分「有節制的欲望」與「無節制的貪婪」是實現可持續狩獵的關鍵，當獵人能為自己的欲望負責、接受無法完全滿足的事實，並學習與這種缺乏共存時，可持續狩獵便成為可能。這項研究挑戰了狩獵-保護辯論中的二元對立，為理解人類與自然關係提供了全新視角。\n\n【研究問題】本文探討的核心問題是：如何理解鳥類獵人深層欲望與可持續狩獵之間的緊張關係？過往研究往往將獵人簡化為兩極化形象：either 作為保育主義者和自然熱愛者，或是將殺戮動物視為娛樂的道德失範者。這種二元對立忽視了驅動狩獵行為的深層心理動機。解決這一問題至關重要，因為只有理解欲望的本質，才能在政策制定中超越表面對立，找到真正可持續的解決方案。\n\n【研究方法】作者採用為期八個月的民族誌研究，對馬爾他33位男性獵人進行半結構化訪談，其中包括參與鳥類攝影、前往國外狩獵旅遊及退休的獵人。研究使用拉岡精神分析作為理論框架，特別聚焦於馬爾他獵人特有的「namra」概念。作者透過便利抽樣、目的抽樣和滾雪球抽樣相结合的方式收集數據，並使用Atlas.ti軟件進行分析。由於研究環境高度兩極分化，作者在獵人與保護主義者之間尋求微妙的平衡位置，同時保持對鳥類非法獵殺問題的關切。\n\n【結果】研究揭示了namra的九個相互關聯的元素：難以言喻性、矛盾性、缺乏根源、對象導向、預期性、不可預測性、永不滿足性、快樂與痛苦的並置以及有意義的追求。關鍵發現是，雖然namra本身是無法滿足的欲望，但某些獵人能夠「自我約束」，設定狩獵的界限，甚至將欲望對象從狩獵轉向鳥類攝影。這些有節制的獵人具備四個特質：不被競爭所支配、能說「夠了」、承認欲望的不可完全滿足性、為與欲望對象的關係負責。這一發現對於制定可持續狩獵政策具有深遠意義，提示我們需要超越簡單的禁令，而是幫助獵人學會調整與管理他們的欲望。",
+      "en": "**Summary:** This study employs a psychoanalytic political ecology approach to explore how bird hunters' desires impact sustainable hunting prospects. The research introduces the Maltese concept of \"namra\" - an ineffable passion that propels hunters to great lengths in pursuing birds. The key breakthrough is distinguishing between \"disciplined desires\" and \"unrestrained desires,\" arguing that when hunters take responsibility for their desires, accept impossibility of complete fulfillment, and learn to live with this lack, sustainable hunting becomes possible. This research challenges the binary opposition in hunting-conservation debates, offering a new perspective for understanding human-nature relationships.\n\n**Problem:** The article addresses the specific question of how to understand the tension between bird hunters' deep-seated desires and sustainable hunting practices. Previous research has often polarized hunters into two simplistic categories: either as conservationists and passionate stewards of nature, or as morally compromised individuals who kill animals for leisure. This binary opposition overlooks the underlying psychological motivations driving hunting behavior. Solving this problem is crucial because only by understanding the nature of desire can policy move beyond superficial oppositions to find truly sustainable solutions.\n\n**Approach:** The author conducted an eight-month ethnographic study, performing semi-structured interviews with 33 male Maltese hunters, including those who engage in bird photography, hunt abroad as tourists, and former hunters. Using Lacanian psychoanalysis as a theoretical framework, the research specifically focuses on the Maltese concept of \"namra.\" Data collection employed a combination of convenience, purposeful, and snowball sampling strategies, with analysis conducted using Atlas.ti software. Due to the highly polarized research environment, the author navigated a precarious middle ground between hunters and conservationists while maintaining concern about illegal bird killing.\n\n**Results:** The research reveals nine interconnected elements of namra: ineffability, paradoxical nature, lack-based roots, object-direction, anticipation, unpredictability, insatiability, juxtaposition of pleasure and pain, and meaningful pursuit. The key finding is that while namra itself represents an unsatisfiable desire, some hunters can achieve \"self-discipline,\" setting limits on their hunting or even shifting the object of desire from hunting to bird photography. These disciplined hunters share four traits: not being dominated by competition, being able to say \"enough,\" acknowledging the impossibility of complete satisfaction, and taking responsibility for their relationship with the object of desire. This discovery has profound implications for sustainable hunting policy, suggesting that simple prohibitions are insufficient, and we need to help hunters learn to regulate and manage their desires."
+    },
+    "keyArticle": {
+      "title": "Disciplining desires: Understanding how bird hunters' desires shape prospects for sustainable hunting",
+      "authors": [
+        "Stella Portelli"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103569",
+      "pages": "103569"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103569",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103569"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-01T20:10:17.468921+00:00",
+    "source": "openalex"
+  }
+}

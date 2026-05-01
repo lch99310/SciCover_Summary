@@ -1,0 +1,74 @@
+{
+  "id": "nature-2026-04-22-03",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8112",
+  "date": "2026-04-22",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-22-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "突破極限：相對論性等離子體諧波的效率優化",
+      "en": "Breaking Limits: Efficiency-Optimized Relativistic Plasma Harmonics for Extreme Fields"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊成功實現了相對論性等離子體諧波中激光能量的高效耦合，在12至47次諧波之間產生超過9毫焦耳的能量，這是實現量子電動力學臨界場（Schwinger極限）的關鍵突破。通過微調驅動激光的時間特性和改進雙等離子體鏡系統，實驗結果與理論預測高度一致，為全光學研究量子真空和強阿秒科學開闢了新途徑。【研究問題】過去的研究已展示空間壓縮（衍射極限性能）和時間壓縮（阿秒鎖相），但始終無法實現激光能量與發射諧波錐的高效耦合。這使得實驗中無法達到理論預測的強度提升，阻礙了量子電動力學臨界場的實現。【研究方法】研究團隊使用Gemini激光系統和雙等離子體鏡（DPM）系統，通過控制第一個等離子體鏡的 anti-reflective coating 改裝，將高動態範圍上升時間從711±25飛秒優化至351±25飛秒。他們還引入獨立的50飛秒預脈衝來精確控制等離子體密度梯度，並使用2D粒子模擬（PIC）與實驗結果進行比較。【結果】在最佳條件下，研究團隊達到了0.17±0.08%的能量轉換效率，產生的極端紫外線（XUV）光束包含9.5±4.9毫焦耳的能量。隨著激光強度增加，光束發散角從5±1毫弧度增加到>35±5毫弧度，並出現強烈的譜-空間調製，這些現象證實了實驗已進入效率飽和區域。這些結果預示著在未來多拍瓦（PW）激光設施中，有實現10²9 W cm⁻²量級強度的可能性。",
+      "en": "**Summary:** Researchers successfully achieved efficient coupling of laser energy into emitted harmonic cones in relativistic plasma harmonics, generating over 9 mJ of energy between the 12th and 47th harmonics—a critical breakthrough toward reaching the quantum electrodynamics critical field (Schwinger limit). By fine-tuning temporal profiles of driving lasers and improving double plasma mirror systems, experimental results closely matched theoretical predictions, opening new pathways for all-optical quantum vacuum studies and intense attosecond science. **Problem:** Previous studies had demonstrated spatial compression (diffraction-limited performance) and temporal compression (attosecond phase locking), but could not achieve efficient coupling between laser pulse energy and emitted harmonic cones. This prevented achieving the theoretically predicted intensity boosts, hindering realization of the quantum electrodynamics critical field in experiments. **Approach:** The team utilized the Gemini laser system with a double plasma mirror (DPM) system, modifying the anti-reflective coating of the first plasma mirror to improve high dynamic range rise time from 711±25 fs to 351±25 fs. They also introduced independent 50 fs prepulses to precisely control plasma density gradients and compared results with 2D particle-in-cell (PIC) simulations to validate their approach. **Results:** Under optimal conditions, the team achieved 0.17±0.08% energy conversion efficiency, producing an XUV beam containing 9.5±4.9 mJ of energy. As laser intensity increased, beam divergence grew from 5±1 mrad to >35±5 mrad with strong spectrospatial modulations emerging, confirming entry into the efficiency saturation regime. These results suggest the potential to reach intensities on the order of 10²⁹ W cm⁻² with future multi-petawatt laser facilities."
+    },
+    "keyArticle": {
+      "title": "Efficiency-optimized relativistic plasma harmonics for extreme fields",
+      "authors": [
+        "Robin Timmis",
+        "C. R. J. Fitzpatrick",
+        "J. P. Kennedy",
+        "H. M. Huddleston",
+        "Elliott Denis",
+        "Abigail James",
+        "C. D. Baird",
+        "Dan Symes",
+        "D. McGonegle",
+        "Eduard Atonga",
+        "H. Martin",
+        "Jeremy Rebenstock",
+        "John Neely",
+        "J. J. Lee",
+        "Joshua Redfern",
+        "Nicolas Bourgeois",
+        "Oliver Finlay",
+        "Rusko Ruskov",
+        "S. Astbury",
+        "Steve Hawkes",
+        "Zixin Zhang",
+        "Matt Zepf",
+        "Karl Krushelnick",
+        "Edward Gumbrell",
+        "Paramel Pattathil Rajeev",
+        "M. Yeung",
+        "B. Dromey",
+        "P. A. Norreys"
+      ],
+      "doi": "10.1038/s41586-026-10400-2",
+      "pages": "1153-1158"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-22-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10400-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10400-2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-01T20:05:42.042771+00:00",
+    "source": "openalex"
+  }
+}
