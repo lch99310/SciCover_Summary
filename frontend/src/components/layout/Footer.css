@@ -77,10 +77,17 @@
   font-family: 'Inter', sans-serif;
 }
 
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
 .footer__link {
   color: var(--color-text-secondary);
   text-decoration: underline;
   text-underline-offset: 2px;
+  font-size: var(--text-sm);
 }
 
 .footer__link:hover {
