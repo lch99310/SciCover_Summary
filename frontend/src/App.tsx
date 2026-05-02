@@ -9,6 +9,7 @@ import { JournalTabs } from './components/home/JournalTabs';
 import { ArticleGrid } from './components/home/ArticleGrid';
 import { ArticleDetail } from './components/article/ArticleDetail';
 import { ArchivePage } from './components/archive/ArchivePage';
+import { PrivacyPage } from './components/legal/PrivacyPage';
 import { LoadingSpinner } from './components/ui/LoadingSpinner';
 import { ErrorBoundary } from './components/ui/ErrorBoundary';
 import type { JournalName, ArticleDetail as ArticleDetailType } from './lib/types';
@@ -157,6 +158,7 @@ function AppContent() {
           <Route path="/" element={<HomePage />} />
           <Route path="/article/:id" element={<ArticleDetail />} />
           <Route path="/archive" element={<ArchivePage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
         </Route>
       </Routes>
     </HashRouter>

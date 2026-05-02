@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { SITE_NAME } from '../../lib/constants';
 import './Footer.css';
 
@@ -50,6 +51,11 @@ export function Footer() {
                 Chung-Hao Lee
               </a>
             </p>
+          </div>
+          <div className="footer__links">
+            <Link to="/privacy" className="footer__link">
+              隱私權政策 / Privacy Policy
+            </Link>
           </div>
           <span className="footer__copyright">
             &copy; {new Date().getFullYear()} {SITE_NAME}
