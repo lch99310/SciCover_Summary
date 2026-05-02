@@ -50,6 +50,12 @@ jobs:
       - name: Generate OG meta tag pages for link previews
         run: python3 scripts/generate_og_pages.py frontend/dist
 
+      - name: Generate sitemap.xml and robots.txt
+        run: python3 scripts/generate_sitemap.py frontend/dist
+
+      - name: Generate Atom RSS feed
+        run: python3 scripts/generate_rss.py frontend/dist
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
