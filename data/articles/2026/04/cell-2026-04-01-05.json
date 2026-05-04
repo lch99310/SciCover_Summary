@@ -1,0 +1,53 @@
+{
+  "id": "cell-2026-04-01-05",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞死亡程序：癌症治療的新視角",
+      "en": "Cell Death Programs: A New Perspective in Cancer Therapy"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇發表於《細胞》期刊的綜述文章全面探討了細胞死亡在癌症發展與治療中的核心作用。研究突破點在於提出了一個統一框架，闡釋了凋亡、壞死性凋亡、焦亡和鐵死亡等多種細胞死亡程序在癌症生物學中的複雜交互作用。文章強調，傳統的放射和化療主要誘導凋亡，而非凋亡性死亡程序能驅動炎症反應，並調節腫瘤、基質和免疫成分之間的相互作用，從而影響免疫治療效果。特別是鐵死亡這種依賴鐵離子和脂質過氧化的細胞死亡方式，缺乏經典的誘導信號，為癌症治療提供了新思路。\n\n【研究問題】\n文章探討的核心問題是：為什麼癌症細胞能逃避細胞死亡，以及不同細胞死亡程序如何影響癌症發展、進展和治療反應。過去的研究局限於僅關注凋亡途徑，忽略了非凋亡性死亡程序的重要性。此外，對於不同細胞死亡程序如何與腫瘤微環境相互作用，特別是它們如何影響免疫治療效果，缺乏系統性理解。這一問題至關重要，因為理解細胞死亡的複雜網絡對於開發新型癌症治療策略、克服治療抵抗和提高免疫治療效果具有決定性意義。\n\n【研究方法】\n作者採用了系統性文獻綜合分析的方法，整合了近二十年來細胞死亡領域的突破性研究。文章精心設計了多個概念性圖表，包括細胞死亡途徑的互聯網絡、癌症免疫週期的相互作用以及細胞死亡程序的臨床應用視角。研究框架基於對凋亡、壞死性凋亡、焦亡和鐵死亡四大主要細胞死亡程序的深入分析，並引入了「瑞士軍刀」模型來說明細胞死亡程序的模塊化和上下文依賴性激活。此外，還討論了新興的細胞死亡形式，如銅死亡、網狀死亡等，及其在癌症治療中的潛在應用。\n\n【結果】\n研究揭示了幾個關鍵發現：首先，不同細胞死亡程序對腫瘤微環境的影響各異，凋亡細胞被巨噬細胞和樹突狀細胞有效吞噬，誘導免疫抑制性細胞因子譜；而焦亡則與高水平的IL-1β產生相關，釋放化學趨化因子、細胞因子和干擾素。其次，壞死性凋亡和焦亡具有最高的免疫原性潛力，而凋亡效果較差，這可能與溶酶體膜損傷有關。第三，放射治療和化療在腫瘤微環境中誘導異質性細胞反應，包括細胞死亡、應激細胞和衰老細胞，形成動態的相互作用網絡。最後，研究指出鐵死亡細胞無法有效呈遞抗原，甚至損害樹突狀細胞的交叉呈遞能力，這與其促進傷口癒合的作用相一致。",
+      "en": "**Summary:**\nThis comprehensive review in Cell journal explores the fundamental role of cell death in cancer development and treatment. The breakthrough lies in presenting a unified framework elucidating the complex interplay between various cell death programs—apoptosis, necroptosis, pyroptosis, and ferroptosis—in cancer biology. The article emphasizes that while traditional radiotherapy and chemotherapy primarily induce apoptosis, non-apoptotic death programs can drive inflammatory responses and orchestrate interactions among tumor, stromal, and immune components, thereby influencing immunotherapy outcomes. Particularly, ferroptosis—an iron-dependent, lipid peroxidation-driven cell death modality lacking canonical induction signals—offers new therapeutic avenues for cancer treatment.\n\n**Problem:**\nThe central question addressed is: How do cancer cells evade cell death, and how do different cell death programs influence cancer development, progression, and treatment response? Previous research was limited to focusing solely on apoptotic pathways, neglecting the importance of non-apoptotic death programs. Additionally, there was a lack of systematic understanding of how different cell death programs interact with the tumor micro environment, particularly their impact on immunotherapy efficacy. This problem is crucial because understanding the complex network of cell death is decisive for developing novel cancer treatment strategies, overcoming treatment resistance, and improving immunotherapy outcomes.\n\n**Approach:**\nThe authors employed systematic literature synthesis, integrating breakthrough research from the past two decades in cell death biology. The article features meticulously designed conceptual diagrams illustrating interconnected cell death pathways, interactions within the cancer-immunity cycle, and clinical perspectives on cell death induction. The analytical framework is built upon in-depth analysis of four major cell death programs—apoptosis, necroptosis, pyroptosis, and ferroptosis—and introduces a \"Swiss Army knife\" model to explain the modular, context-dependent activation of these programs. Furthermore, the discussion extends to emerging cell death forms such as cuproptosis, NETosis, and their potential applications in cancer therapy.\n\n**Results:**\nThe research reveals several key findings: First, different cell death programs have distinct effects on the tumor microenvironment—apoptotic cells are efficiently phagocytosed by macrophages and dendritic cells, inducing an immunosuppressive cytokine profile, while pyroptosis is associated with high levels of IL-1β production and release of chemokines, cytokines, and interferons. Second, necroptosis and pyroptosis exhibit the highest immunogenic potential, while apoptosis is less effective, potentially due to lysosomal membrane permeabilization. Third, radiotherapy and chemotherapy induce heterogeneous cellular responses in the tumor microenvironment, including cell death, stressed cells, and senescent cells, forming dynamic interaction networks. Finally, ferroptotic cells fail to effectively present antigens and may even impair cross-presentation by dendritic cells, consistent with their proposed role in promoting wound healing."
+    },
+    "keyArticle": {
+      "title": "Cell death in cancer",
+      "authors": [
+        "Marcus Conrad",
+        "Andreas Strasser",
+        "Philipp J. Jost",
+        "Junying Yuan",
+        "Feng Shao",
+        "Peter Vandenabeele",
+        "Adam Wahida"
+      ],
+      "doi": "10.1016/j.cell.2026.03.024",
+      "pages": "2322-2356"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.024",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.024"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-04T20:18:52.618311+00:00",
+    "source": "openalex"
+  }
+}

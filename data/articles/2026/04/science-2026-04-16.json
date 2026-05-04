@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-04-16",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6795",
+  "date": "2026-04-16",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "揭開太陽系X射線面紗：首次精確測量太陽風電荷交換效應",
+      "en": "Unveiling the Solar System's X-ray Signature: First Precise Measurement of Solar Wind Charge Exchange Effects"
+    },
+    "summary": {
+      "zh": "【總結】研究人員利用eROSITA望遠鏡收集的數據，成功量化了太陽系內軟X射線背景的貢獻，這是天文觀測中長期以來的挑戰。SWCX是由太陽風帶電粒子與太陽系內中性氣體相互作用產生的，形成了複雜且變化的背景輻射，干擾了對宇宙深處X射線源的觀測。這項研究創新性地使用「暗空圖」技術，通過比較四次全天空調查數據，分離出SWCX信號，並首次精確繪製出太陽系內X射線發射區域的分佈。研究不僅揭示了太陽活動週期對SWCX的影響，還證實X射線可用於繪製星際物質流經太陽系的圖像，為理解太陽系與星際介質的相互作用提供了全新視角。\n\n【研究問題】軟X射線觀測（光子能量≲1 keV）一直受到來自太陽系內SWCX背景發射的嚴重干擾。這種背景輻射來源複雜、時間空間變化大，使得科學家難以區分真實的宇宙X射線信號和太陽系內產生的「噪聲」。過去的定量估計只能提供部分校正，且不確定性很大。特別是，地球的地球日冕（geocorona）也產生類似信號，進一步增加了觀測的複雜性。精確確定SWCX貢獻對於理解宇宙X射線背景、研究星際介質與太陽系相互作用至關重要。\n\n【研究方法】研究團隊使用了位於地球外約150萬公里的eROSITA望遠鏡數據，該望遠鏡位於地球日冕之外，避免了地球大氣層的干擾。他們分析了四次全天空調查（eRASS 1-4）中西方銀河半球的數據，特別是在太陽活動週期最低點（2019年12月）的觀測。創新方法包括：1）創建「暗空圖」—選擇每個天空區域在四次調查中流量最低的數據組合；2）通過比較暗空圖與各次調查數據，分離出SWCX成分；3）利用SRG衛星軌道移動產生的視差效應，精確定位發射區域；4）結合太陽風測量和星際介質分布模擬，重建SWCX發射圖景。\n\n【結果】研究確定了SWCX在暗空圖中的殘留量約為1個線單位（LU），佔最暗區域觀測流量的6%以下，即超過94%的流量來自太陽系外。發現SWCX發射主要來自內太陽系，並隨太陽活動週期變化：從eRASS 2到4，低緯度區域發射逐漸增強，這與緩速太陽風從低緯度向高緯度擴展的現象一致。研究精確定位了兩個主要發射區—一個靠近氦聚焦錐（helium focusing cone），另一個對稱位置處於氫最大發射區（MER）附近。通過模擬，研究證實短時間內螺旋結構密度增強主導SWCX變化，而長時間平均後氦聚焦錐成為主導結構。這些發現為利用X射線研究星際物質流動提供了全新工具。",
+      "en": "**Summary:** This research successfully quantified the Solar System's contribution to the soft X-ray background, a long-standing challenge in astronomical observations. Solar wind charge exchange (SWCX) occurs when charged solar wind particles interact with neutral gas within our Solar System, creating complex and variable background radiation that interferes with observations of distant cosmic X-ray sources. Using innovative \"dark sky map\" techniques, researchers separated SWCX signals from four all-sky surveys and precisely mapped the distribution of X-ray emission regions within the Solar System. The study not only revealed how solar activity cycles affect SWCX but also demonstrated that X-rays can be used to map the flow of interstellar matter through our Solar System, providing a completely new perspective on the interaction between the Solar System and the interstellar medium.\n\n**Problem:** Soft X-ray observations (photon energy ≲ 1 keV) have been severely contaminated by foreground emission from SWCX within the Solar System. This background radiation has complex, spatiotemporally variable origins that make it difficult for scientists to distinguish true cosmic X-ray signals from \"noise\" generated within our Solar System. Previous quantitative estimates provided only partial corrections with large uncertainties. Additionally, Earth's geocorona produces similar signals, further complicating observations. Precisely determining the SWCX contribution is crucial for understanding the cosmic X-ray background and studying the interaction between the interstellar medium and the Solar System.\n\n**Approach:** The research team utilized data from the eROSITA telescope located about 1.5 million kilometers from Earth, beyond Earth's geocorona, avoiding atmospheric interference. They analyzed data from four all-sky surveys (eRASS 1-4) of the western Galactic hemisphere, particularly during the solar minimum in December 2019. Their innovative approach included: 1) Creating a \"dark sky map\" by selecting the lowest flux measurements for each sky region across all four surveys; 2) Separating the SWCX component by comparing the dark sky map with individual survey data; 3) Using the parallax effect from the SRG spacecraft's orbital motion to precisely locate emission regions; 4) Combining solar wind measurements with interstellar medium distribution simulations to reconstruct the SWCX emission patterns.\n\n**Results:** The study determined that residual SWCX in the dark sky map amounts to approximately 1 line unit (LU), representing less than 6% of the observed flux from the darkest regions, meaning over 94% originates beyond the Solar System. The emission primarily comes from the inner Solar System and varies with the solar activity cycle: from eRASS 2 to 4, emission gradually strengthens at low latitudes, consistent with the expansion of slow solar wind from low to high latitudes. Researchers precisely identified two main emission regions—one near the helium focusing cone and a symmetric counterpart near the hydrogen maximum emissivity region (MER). Their simulations confirmed that spiral density enhancements dominate SWCX variability on short timescales, while the helium focusing cone becomes the dominant structure only when averaged over longer periods. These findings provide a novel tool for studying interstellar matter flows using X-ray observations."
+    },
+    "keyArticle": {
+      "title": "Determination of the Solar System contribution to the soft x-ray sky",
+      "authors": [
+        "K. Dennerl",
+        "G. Ponti",
+        "Xueying Zheng",
+        "MJ Freyberg",
+        "S. Friedrich",
+        "Thomas Müller",
+        "Michael C. H. Yeung"
+      ],
+      "doi": "10.1126/science.adt9147",
+      "pages": "285-288"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adt9147",
+      "doi": "https://doi.org/10.1126/science.adt9147",
+      "preprint": "https://arxiv.org/abs/2604.26003"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-04T20:14:58.291901+00:00",
+    "source": "openalex"
+  }
+}

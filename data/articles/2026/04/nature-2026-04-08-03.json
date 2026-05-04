@@ -1,0 +1,61 @@
+{
+  "id": "nature-2026-04-08-03",
+  "journal": "Nature",
+  "volume": "652",
+  "issue": "8111",
+  "date": "2026-04-08",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經科學基礎模型研究更正：精確描述架構細節確保研究可重複性",
+      "en": "Neural Science Foundation Model Correction: Architectural Precision Ensures Research Reproducibility"
+    },
+    "summary": {
+      "zh": "【總結】這是一則關於神經科學基礎模型研究的更正聲明，針對先前發表於《自然》期刊論文中的模型架構細節進行澄清。研究團隊修正了關於Conv-LSTM和CvT-LSTM架構的描述，包括視角模組、四頭集成、調製模組、核心模組等多個技術細節。這些修正僅限於方法論部分的文字描述，並不影響研究結果與結論，確保了研究文獔的準確性。\n\n【研究問題】這個更正旨在解決科學文獔中的準確性問題。原論文發表後，研究團隊發現方法論描述與實際實施的模型之間存在不一致性，可能導讀者誤解研究方法。在科學研究中，方法描述的精確性至關重要，它決定了研究的可重複性和可信度。這次更正是為了確保後續研究者能準確複現該模型，推動神經科學研究的透明度和可重複性。\n\n【研究方法】研究團隊系統性地審查了原論文中的模型實現與方法描述，發現六個主要不一致之處：視角模組中隱藏維度的誤述、未說明的四頭集成架構、調製模組輸入參數的差異、核心模組前饋網路激活函數的錯誤、部分Conv-LSTM變體接收空間資訊的細節遺漏，以及數學方程式中的排版錯誤。團隊提供了標示修訂內容的方法檔案作為補充資訊，並修正了HTML和PDF版本中的文字與方程式。\n\n【結果】這次更正確保了科學文獔的準確性，使研究方法與實際實現保持一致。雖然這些修正不影響研究結果和結論，但它們對神經科學領域至關重要。精確的方法描述使得其他研究人員能夠準確複現這個基礎模型，進一步推動對大腦活動預測的研究。這個模型能預測神經網路對新類型刺激的反應，對理解大腦信息處理機制和開發新型神經接口技術具有深遠意義，將加速腦機接口和人工智慧在神經科學領域的應用。",
+      "en": "**Summary:** This is a correction notice for a neuroscience foundation model study that clarifies architectural details in the Methods section of a previously published Nature paper. The research team corrected descriptions of Conv-LSTM and CvT-LSTM architectures, including details about the perspective module, four-head ensemble, modulation module, and core module. These corrections are limited to the Methods description and do not affect the research results or conclusions, ensuring the accuracy of the scientific documentation.\n\n**Problem:** This correction addresses the issue of accuracy in scientific documentation. After the original paper's publication, the research team discovered inconsistencies between the described methodology and the actual implemented model, which could mislead readers about the research methods. In scientific research, methodological precision is crucial as it determines reproducibility and credibility. This correction aims to ensure subsequent researchers can accurately reproduce the model, promoting transparency and reproducibility in neuroscience research.\n\n**Approach:** The research team systematically reviewed the original paper's model implementation against its methodological descriptions and identified six major discrepancies: incorrect specification of hidden dimensions in the perspective module, unspecified four-head ensemble architecture, differences in modulation module input parameters, errors in activation functions for the core module's feedforward network, omitted details about some Conv-LSTM variants receiving spatial information, and typographical errors in mathematical equations. The team provided a Methods file with edits highlighted as supplementary information and corrected the text and equations in the HTML and PDF versions.\n\n**Results:** This correction ensures the accuracy of scientific documentation by aligning the described methods with the actual implementation. While these corrections don't affect the research outcomes and conclusions, they are vital for the neuroscience field. Precise methodological descriptions enable other researchers to accurately reproduce this foundation model, further advancing research on neural network responses to new stimuli. This model's ability to predict neural responses to novel stimulus types has profound implications for understanding brain information processing mechanisms and developing novel neural interface technologies, accelerating the application of brain-computer interfaces and artificial intelligence in neuroscience."
+    },
+    "keyArticle": {
+      "title": "Author Correction: Foundation model of neural activity predicts response to new stimulus types",
+      "authors": [
+        "Eric Wang",
+        "Paul G. Fahey",
+        "Zhuokun Ding",
+        "Stelios Papadopoulos",
+        "Kayla Ponder",
+        "Marissa A. Weis",
+        "Andersen Chang",
+        "Taliah Muhammad",
+        "Saumil Patel",
+        "Zhiwei Ding",
+        "Dat Tran",
+        "Jiakun Fu",
+        "Casey M Schneider-Mizell",
+        "Nuno Maçarico da Costa",
+        "R. Clay Reid",
+        "Forrest Collman",
+        "Nuno Maçarico da Costa",
+        "Katrin Franke",
+        "Alexander S. Ecker",
+        "Jacob Reimer",
+        "Xaq Pitkow",
+        "Fabian H. Sinz",
+        "Andreas S. Tolias"
+      ],
+      "doi": "10.1038/s41586-026-10457-z",
+      "pages": "E10"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10457-z",
+      "doi": "https://doi.org/10.1038/s41586-026-10457-z"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-04T20:16:27.447952+00:00",
+    "source": "openalex"
+  }
+}

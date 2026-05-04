@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T20:10:46.058330+00:00",
+  "lastUpdated": "2026-05-04T20:21:27.719247+00:00",
   "articles": [
     {
       "id": "political-geography-2026-04-28",
@@ -65,6 +65,15 @@
       "cover_url": ""
     },
     {
+      "id": "science-2026-04-16",
+      "journal": "Science",
+      "date": "2026-04-16",
+      "path": "articles/2026/04/science-2026-04-16.json",
+      "title_zh": "揭開太陽系X射線面紗：首次精確測量太陽風電荷交換效應",
+      "title_en": "Unveiling the Solar System's X-ray Signature: First Precise Measurement of Solar Wind Charge Exchange Effects",
+      "cover_url": "data/images/science/science-2026-04-16-cover.jpg"
+    },
+    {
       "id": "nature-2026-04-15-02",
       "journal": "Nature",
       "date": "2026-04-15",
@@ -119,6 +128,15 @@
       "cover_url": "data/images/nature/nature-2026-04-08-02-cover.jpg"
     },
     {
+      "id": "nature-2026-04-08-03",
+      "journal": "Nature",
+      "date": "2026-04-08",
+      "path": "articles/2026/04/nature-2026-04-08-03.json",
+      "title_zh": "神經科學基礎模型研究更正：精確描述架構細節確保研究可重複性",
+      "title_en": "Neural Science Foundation Model Correction: Architectural Precision Ensures Research Reproducibility",
+      "cover_url": ""
+    },
+    {
       "id": "nature-2026-04-08",
       "journal": "Nature",
       "date": "2026-04-08",
@@ -171,6 +189,15 @@
       "title_zh": "應對早發癌症浪潮：加速癌症病因發現的革新框架",
       "title_en": "Accelerating Cancer Cause Discovery in the Era of Rising Early-Onset Cancers",
       "cover_url": "data/images/cell/cell-2026-04-01-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-05",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-05.json",
+      "title_zh": "細胞死亡程序：癌症治療的新視角",
+      "title_en": "Cell Death Programs: A New Perspective in Cancer Therapy",
+      "cover_url": "data/images/cell/cell-2026-04-01-05-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",
