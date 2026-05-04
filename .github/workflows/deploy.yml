@@ -6,6 +6,10 @@ on:
     paths:
       - "frontend/**"
       - "data/**"
+      - "scripts/generate_og_pages.py"
+      - "scripts/generate_sitemap.py"
+      - "scripts/generate_rss.py"
+      - ".github/workflows/deploy.yml"
   workflow_call:
   workflow_dispatch:
 

@@ -34,9 +34,40 @@ from typing import Any
 
 SITE_URL = "https://lch99310.github.io/SciCover_Summary"
 SITE_NAME = "SciCover Summary"
-DEFAULT_IMAGE = f"{SITE_URL}/og-default.jpg"
+DEFAULT_IMAGE = f"{SITE_URL}/apple-touch-icon.png"
 PUBLISHER_AUTHOR = "Chung-Hao Lee"
 AUTHOR_URL = "https://lch99310.github.io/chunghao_lee/"
+
+# Mirrors frontend/src/lib/constants.ts DEFAULT_COVER_MAP — fallback when
+# an article has no cover_url, so og:image still resolves to a real file.
+JOURNAL_DEFAULT_COVERS: dict[str, str] = {
+    "Science": "data/images/science/default-cover.jpg",
+    "Nature": "data/images/nature/default-cover.jpg",
+    "Cell": "data/images/cell/default-cover.jpg",
+    "Political Geography": "data/images/political-geography/default-cover.jpg",
+    "International Organization": "data/images/international-organization/default-cover.jpg",
+    "American Sociological Review": "data/images/american-sociological-review/default-cover.jpg",
+}
+
+
+def _resolve_image(cover_url: str, journal: str, dist: Path) -> str:
+    """Pick the best available og:image URL for an article.
+
+    Priority: explicit cover_url → journal default-cover.jpg → site favicon.
+    Returns an absolute URL.
+    """
+    if cover_url:
+        candidate = dist / cover_url
+        if candidate.exists():
+            return f"{SITE_URL}/{cover_url}"
+
+    journal_default = JOURNAL_DEFAULT_COVERS.get(journal)
+    if journal_default:
+        candidate = dist / journal_default
+        if candidate.exists():
+            return f"{SITE_URL}/{journal_default}"
+
+    return DEFAULT_IMAGE
 
 
 def generate(dist_dir: str) -> None:
@@ -96,7 +127,7 @@ def generate(dist_dir: str) -> None:
             if title_zh and title_en
             else (title_zh or title_en or article_id)
         )
-        og_image = f"{SITE_URL}/{cover_url}" if cover_url else DEFAULT_IMAGE
+        og_image = _resolve_image(cover_url, journal, dist)
         og_description = description or f"{journal} — {date}"
         og_url = f"{SITE_URL}/article/{article_id}/"
         spa_url = f"{SITE_URL}/#/article/{article_id}"
