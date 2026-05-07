@@ -1,0 +1,58 @@
+{
+  "id": "nature-2026-04-22-04",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8113",
+  "date": "2026-04-22",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-22-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "電極電子結構如何重寫界面電子轉移規則",
+      "en": "How Electrode Electronic Structure Rewrites the Rules of Interfacial Electron Transfer"
+    },
+    "summary": {
+      "zh": "【總結】\n本研究的核心突破在於揭示了電極密度態（DOS）在界面電子轉移（ET）過程中扮演的關鍵角色，傳統理論認為電極DOS僅影響熱可及通道數量，而重組能量（λ）主要由電解質相決定。研究團隊通過原子級層狀異質結構的設計，精準調控石墨烯的DOS並測量外球體ET動力學，發現ET速率的變化源於與電極中像電位局域化相關的重組能量的強烈調控。這項研究重新定義了異質ET動力學的傳統範式，揭示了電極電子結構在界面反應中的更深層作用。\n\n【研究問題】\n傳統的Marcus-Hush-Chidsey（MHC）和Marcus-Gerischer框架無法精確預測電極-電解質界面的ET速率常數，即使對於相對簡單的電極反應也會高估ET速率達一個數量級或更多。特別是在扭轉雙層石墨烯和扭轉三層石墨烯等莫爆電極系統中，傳統模型無法解釋ET速率隨扭轉角產生的巨大變化。研究缺口在於忽略了電極對重組能量λ的貢獻，而分子動力學模擬早已預測λ會隨紅ox分子離子與金屬電極的距離變化，但這一觀點在實驗中未得到充分驗證。\n\n【研究方法】\n研究團隊採用范德瓦爾斯組裝原子級薄晶體的創新方法，利用固態摻雜層和六方氮化硼（hBN）間隔層來靜電調控單層石墨烯（MLG）的摻雜水平，並測量[Ru(NH3)6]3+/2+偶極的異質外球體電化學ET速率變化。他們使用掃描電化學細胞顯微鏡（SECCM）進行納米尺度電化學測量，通過拉曼光譜和霍爾測量量化hBN厚度對摻雜的影響，並開發了包含Thomas-Fermi（TF）篩長的理論模型來理解電極DOS對界面ET速率的依賴關係。特別值得注意的是，他們發現hBN晶體中的缺陷介導了石墨烯電荷密度隨hBN間隔層厚度的變化。\n\n【結果】\n研究結果顯示，ET速率常數與hBN間隔層厚度存在強相關性，即使使用10nm厚的hBN間隔層，MLG的ET動力學也接近石墨的水平。通過結合實驗測量和理論模擬，研究團隊發現重組能量λ隨電極DOS發生顯著變化，其包含λ(μ)的模型能與實驗速率達到定量一致。在低載流子密度情況下，由於電極DOS低導致的重組能量代價可以與金屬電極溶劑中產生的代價相當。這些結果證實電極電子結構支配著λ，並通過影響活化自由能景觀來控制ET速率，挑戰了傳統的電解質中心主義重組動力學觀點。",
+      "en": "**Summary:**\nThis research represents a fundamental breakthrough in understanding electron transfer (ET) at electrode-electrolyte interfaces. Contrary to conventional wisdom, the study demonstrates that the electrode's density of states (DOS) plays a central role in governing reorganization energy (λ), far exceeding its traditionally assumed function of merely determining thermally accessible ET channels. By using atomically layered heterostructures to precisely tune graphene's DOS and measuring outer-sphere ET kinetics, the researchers discovered that variations in ET rates arise from strong modulation of reorganization energy associated with image potential localization in the electrode. This work redefines the traditional paradigm of heterogeneous ET kinetics, revealing a deeper role for electrode electronic structure in interfacial reactivity.\n\n**Problem:**\nTraditional frameworks like Marcus-Hush-Chidsey (MHC) and Marcus-Gerischer have consistently failed to quantitatively predict interfacial ET rate constants, often overestimating rates by an order of magnitude or more. This limitation has been particularly evident in moiré electrode systems like twisted-bilayer and twisted-trilayer graphene, where models derived from the MHC framework cannot account for the large variations in ET rates with twist angle. The historical gap in understanding lies in the presumption that reorganization energy (λ) arises primarily from nuclear reconfigurations in the electrolyte phase, with the electrode's role being limited to providing ET channels. This oversight has prevented a complete understanding of how electrode defects produce such strong local enhancements in interfacial ET.\n\n**Approach:**\nThe researchers employed a novel approach using van der Waals assembly of atomically thin crystals to systematically probe the DOS dependence of interfacial ET. They used solid-state dopant layers (α-RuCl₃ and WSe₂) and hexagonal boron nitride (hBN) spacers of varying thicknesses to electrostatically tune doping levels in monolayer graphene (MLG). Scanning electrochemical cell microscopy (SECCM) enabled nanoscale electrochemical measurements of the [Ru(NH₃)₆]³⁺/²⁺ redox couple kinetics. Raman spectroscopy and Hall measurements quantified doping as a function of hBN thickness, revealing defect-mediated charge transfer in ultrathin hBN. Crucially, the researchers developed a theoretical framework incorporating Thomas-Fermi screening length to model how electrode DOS influences reorganization energy, going beyond traditional approaches that only considered changes in thermally accessible ET channels.\n\n**Results:**\nThe study revealed a striking correlation between ET rate constants and hBN spacer thickness, with measurable increases in ET rates persisting even with 50nm-thick hBN spacers. Experimental data showed that ET rates varied by orders of magnitude with doping levels, far exceeding predictions from traditional MHC models that only considered changes in the number of thermally accessible states. By incorporating a DOS-dependent reorganization energy λ(μ) that decreases with rising metallicity (increasing DOS), the researchers achieved quantitative agreement with experimental rates. Theoretical calculations demonstrated that reduced metallicity monotonically increases activation free energy, with the Thomas-Fermi screening length rapidly declining as doping increases. At low charge carrier densities—characteristic of many low-dimensional electrode materials and semiconductors—the reorganization energy penalty due to low electrode DOS can be comparable to that arising from the solvent at a metallic electrode."
+    },
+    "keyArticle": {
+      "title": "Electronic origin of reorganization energy in interfacial electron transfer",
+      "authors": [
+        "Sonal Maroo",
+        "Leonardo Coello Escalante",
+        "Yihong Wang",
+        "Matthew P. Erodici",
+        "Jonathon Nessralla",
+        "Ayana Tabo",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Ke Xu",
+        "David T. Limmer",
+        "D. Kwabena Bediako"
+      ],
+      "doi": "10.1038/s41586-026-10311-2",
+      "pages": "98-103"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-22-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10311-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10311-2",
+      "preprint": "http://arxiv.org/abs/2505.11619"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-07T20:18:04.882192+00:00",
+    "source": "openalex"
+  }
+}

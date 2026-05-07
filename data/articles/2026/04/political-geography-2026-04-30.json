@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-04-30",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-04-30",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人工雪與乾涸河渠：西班牙迪拉與莫納奇爾河的「河川奪取」地理學之爭",
+      "en": "Artificial Snow and Dry River-Acequias: The Contested Geography of River-Grabbing in Spain's Sierra Nevada"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過政治生態學與法律地理學的視角，揭示了西班牙內華達山脈地區人工滑雪場產業如何透過法律框架與實踐，系統性地「奪取」河川資源，不僅實質性地減少水資源，更重新定義河川的法律、存在與社會情感實體。研究突破性地提出「河川奪取地理學」概念，超越傳統水資源爭議的物質層面，探討河川如何被重新概念化為法律、本體論與社會情感實體，揭示了水治理背後深刻的權力關係與正義問題。\n\n【研究問題】文章探討法律如何中介爭議性的水社會關係，塑造迪拉與莫納奇爾河流域的「河川奪取地理學」。過去研究多關注水資源的掠奪或私有化，但忽略了河川作為複雜實體的轉型過程。在氣候變遷背景下，這一問題尤為關鍵，因為不同水使用之間的衝突日益加劇，而法律框架往往優先考慮經濟價值而非生態或文化價值。\n\n【研究方法】研究採用參與式行動研究法，與當地社區組織「La Nieve no es de Naide」和「Que Corra el Agua」密切合作。研究者組織兩次社區地圖製作工作坊（每場約20人）和一次河川徒步活動（70人參與），並進行24次半結構式深度訪談，訪談對象包括環保人士、灌溉社區成員和草根運動者。同時分析法律文件、政策工具和行政記錄，以理解法律框架如何促進河川奪取地理學的形成。\n\n【結果】研究發現，塞圖爾薩（CETURSA）滑雪度假村透過法律框架獲取了超出授權的水資源提取權：在莫納奇爾河，公司被授權每年提取35萬立方米水，但實際提取超過72.5萬立方米；在迪拉河，公司被指控在沒有有效授權的情況下，通過地下隧道非法提取水源。研究顯示，這些法律實踐不僅物質性地轉變了河川，還重塑了人們對河川的文化與情感認同，導致社區的失落與抗爭。這些發現揭示了在氣候變遷背景下，法律框架如何優先考慮經濟價值，而犧牲生態與文化價值。",
+      "en": "**Summary:** This study employs political ecology and legal geography to reveal how the Sierra Nevada ski industry systematically 'grabs' river resources through legal frameworks and practices, not only materially reducing water availability but also redefining rivers as legal, ontological, and socio-emotional entities. The research introduces the breakthrough concept of 'river-grabbing geography,' moving beyond traditional water resource disputes to examine how rivers are being reconceptualized, revealing the profound power relations and justice issues underlying water governance.\n\n**Problem:** The article examines how law mediates contested hydrosocial relations and shapes the 'river-grabbing geography' of the Dílar and Monachil Rivers. Previous research has focused primarily on water appropriation or privatization, overlooking the transformational processes affecting rivers as complex entities. This issue is particularly crucial in the context of climate change, where conflicts between different water uses intensify, and legal frameworks often prioritize economic value over ecological or cultural considerations.\n\n**Approach:** The research employs Participatory Action Research methods, working closely with local community organizations 'La Nieve no es de Naide' and 'Que Corra el Agua.' Researchers organized two community mapping workshops (approximately 20 participants each) and one collective river walk (70 participants), along with conducting 24 semi-structured in-depth interviews with environmentalists, irrigators, and grassroots activists. They also analyzed legal documents, policy tools, and administrative records to understand how legal frameworks facilitate the formation of river-grabbing geographies.\n\n**Results:** The study reveals that CETURSA, the ski resort operator, obtained water rights exceeding authorized extraction: in the Monachil River, the company was permitted to extract 350,000 m³ annually but sought to increase this to 725,749 m³; in the Dílar River, the company was accused of illegally extracting water through an underground tunnel without valid authorization. These legal practices not only physically transform rivers but also reshape cultural and emotional relationships with them, leading to community grief and resistance. The findings reveal how legal frameworks in the context of climate change prioritize economic interests over ecological and cultural values."
+    },
+    "keyArticle": {
+      "title": "Artificial snow and dry river-acequias: Contesting the River-grabbing geography in the Dílar and Monachil Rivers, Spain",
+      "authors": [
+        "Ana María Arbeláez-Trujillo",
+        "Carolina Cuevas Parra",
+        "María Aguilar-Soto"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103544",
+      "pages": "103544"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103544",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103544"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-07T20:23:04.601296+00:00",
+    "source": "openalex"
+  }
+}

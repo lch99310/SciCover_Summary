@@ -1,0 +1,43 @@
+{
+  "id": "science-2026-04-30",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6797",
+  "date": "2026-04-30",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "CDC的溝通方式如何悄悄瓦解大眾對疫苗的信任？",
+      "en": "When Uncertainty Becomes a Weapon: How CDC Communication Undermines Public Trust in Vaccines"
+    },
+    "summary": {
+      "zh": "想像一下，當你站在健康與疾病的十字路口，手中握著疫苗這把保護傘，卻突然聽到來自權威機構的聲音充滿了不確定性。這正是美國疾病管制與預防中心（CDC）的溝通策略可能帶來的後果。最新研究顯示，當權威機構採用「不確定性框架」來傳達疫苗資訊時，不僅無法有效傳達科學證據，反而會在公眾心中播下懷疑的種子，降低接種疫苗的意願，甚至助長科學否定的風氣。\n\n這種溝通方式就像一位醫生在開立救命藥方時，卻反覆強調「這個藥可能有用，但也可能沒用，副作用因人而異」，讓病人在生死關頭猶豫不決。研究團隊透過實驗發現，當資訊中過度強調不確定性時，人們的風險感知會被扭曲，原本應該是保護措施的疫苗，反而被視為潛在的威脅。這種心理效應在面對複雜的公共衛生決策時尤其顯著，因為人們往往會依賴權威機構的指引來形成自己的判斷。\n\n更令人擔憂的是，這種溝通策略不僅影響個人的疫苗決策，還會在社會層面產生連鎖反應。當越來越多人開始質疑疫苗的有效性和安全性，群體免疫的屏障就會出現裂縫，使整個社會面臨傳染病爆發的風險。研究指出，科學傳播不僅僅是資訊的傳遞，更是一種心理建構的過程。權威機構如何表達不確定性，直接決定了公眾如何理解風險、評估證據，並最終採取行動。",
+      "en": "Imagine standing at the crossroads of health and disease, holding the protective umbrella of vaccination, only to hear the voices of authority speaking in a language saturated with uncertainty. This precisely captures the unintended consequences of communication strategies employed by the Centers for Disease Control and Prevention (CDC), as revealed in recent research. When authoritative bodies frame vaccine information with excessive uncertainty, they inadvertently sow seeds of doubt in the public consciousness, diminish vaccination intentions, and amplify the tide of science denial.\n\nSuch communication approaches resemble a physician presenting a life-saving prescription while repeatedly emphasizing, \"This medication might help, but it might not, and side effects vary from person to person,\" leaving patients paralyzed with hesitation at critical junctures. Through carefully designed experiments, researchers discovered that when information overemphasizes uncertainty, people's risk perceptions become distorted. What should be perceived as protective measures—vaccines—are instead viewed as potential threats. This psychological effect proves particularly pronounced when making complex public health decisions, as individuals naturally rely on authoritative guidance to form their judgments.\n\nWhat proves even more concerning is how this communication strategy creates ripples beyond individual vaccination decisions, triggering chain reactions at the societal level. As increasing numbers of people begin questioning vaccine efficacy and safety, the protective shield of herd immunity develops cracks, exposing entire communities to the risks of disease outbreaks. The research underscores that scientific communication transcends mere information transmission; it constitutes a psychological construction process. How authorities articulate uncertainty directly determines how the public perceives risk, evaluates evidence, and ultimately takes action."
+    },
+    "keyArticle": {
+      "title": "CDC communication undermines trust in vaccines",
+      "authors": [
+        "Robert Böhm",
+        "Alina Schneider",
+        "Cornelia Betsch",
+        "Lau Lilleholt"
+      ],
+      "doi": "10.1126/science.aef5320",
+      "pages": "475-477"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aef5320",
+      "doi": "https://doi.org/10.1126/science.aef5320",
+      "preprint": "https://osf.io/m9hp2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-05-07T20:12:28.214649+00:00",
+    "source": "openalex"
+  }
+}

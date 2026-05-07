@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-02-27",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "9",
+  "date": "2026-02-27",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解析漢坦病毒糖蛋白四聚體高解析度結構：疫苗設計的突破性進展",
+      "en": "Decoding Hantavirus Glycoprotein Tetramers: Breakthrough in Structural Basis for Vaccine Design"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次成功解析了漢坦病毒糖蛋白四聚體的高解析度結構，達到了2.35埃的原子級精度。研究團隊開創性地使用病毒樣顆粒（VLP）系結合冷凍電子顯微鏡技術，揭示了安地斯病毒（ANDV）糖蛋白在天然膜環境中的組織結構、穩定性及pH感應機制。這些突破性發現為漢坦病毒的疫苗設計提供了關鍵結構基礎，對於應對這種高致死率病毒具有重要意義。\n\n【研究問題】漢坦病毒，尤其是新型世界漢坦病毒如安地斯病毒，可導致嚴重的人類感染，死亡率高達40%。過去的研究雖然增進了我們對漢坦病毒糖蛋白結構的理解，但缺乏糖蛋白四聚體及其晶格組織的高解析度結構，限制了對病毒組裝和進入機制的深入理解。由於漢坦病毒需要在生物安全三級實驗室中操作，研究真實病毒顆粒存在極大困難，這使得高解析度結構分析成為一項長期存在的挑戰。\n\n【研究方法】研究團隊採用了創新的方法來克服技術挑戰。首先，他們在安地斯病毒糖蛋白前體（GPC）上添加了eVLP標籤，顯著提高了病毒樣顆粒的產量，比野生型提高了約30倍。接著，他們使用冷凍電子顯微鏡（cryo-EM）技術，通過系統優化粒子挑選策略、提取框大小調整和粒子重新定位，成功解析了糖蛋白四聚體結構。研究團隊還進行了小鼠免疫實驗，評估了自我複製RNA（repRNA）編碼的ANDV-VLP疫苗候選物的免疫原性。\n\n【結果】研究團隊成功解析了2.35埃解析度的安地斯病毒糖蛋白四聚體結構，以及三種不同構象的四聚體二聚體結構（分別為3.2、3.4和3.4埃）。他們還揭示了抗體ADI-65534與四聚體複合物的結構，發現完整長度的免疫球蛋白G（IgG）無法交聯相鄰的四聚體。令人驚訝的是，儘管使用自我複製RNA編碼的ANDV-VLP進行免疫能誘導高水平的糖蛋白結合抗體，但中和抗體滴度與編碼天然ANDV糖蛋白複合物相當。這些發現為漢坦病毒的疫苗設計提供了重要結構基礎，同時也指出了需要進一步研究自我複製RNA編碼糖蛋白免疫原性的決定因素。",
+      "en": "**Summary:** This research presents the first high-resolution structures of hantavirus glycoprotein tetramers, achieving atomic-level resolution at 2.35 Å for the Andes virus (ANDV) glycoprotein tetramer. The research team pioneered a virus-like particle (VLP) system combined with cryo-electron microscopy technology to reveal the organization, stability, and pH-sensing mechanisms of ANDV glycoproteins in their native membrane environment. These breakthrough findings provide a crucial structural foundation for hantavirus vaccine design, offering significant potential for addressing these highly lethal viruses.\n\n**Problem:** New World hantaviruses like Andes virus cause severe human infections with mortality rates reaching 40%. While previous studies advanced our understanding of hantavirus glycoprotein architecture, the lack of high-resolution structures of glycoprotein tetramers and their lattice organization has limited mechanistic insights into viral assembly and entry. The requirement for Biosafety Level 3 laboratories to study authentic viral particles presents substantial challenges, making high-resolution structural analysis a long-standing hurdle in the field.\n\n**Approach:** The research team developed innovative methods to overcome technical challenges. First, they added an eVLP tag to the Andes virus glycoprotein precursor (GPC), which significantly enhanced VLP production—approximately 30-fold improvement over wild-type. They then employed cryo-electron microscopy (cryo-EM) technology, systematically optimizing particle-picking strategies, extraction box sizes, and particle recentering to successfully determine the glycoprotein tetramer structure. The team also conducted mouse immunization experiments to evaluate the immunogenicity of self-amplifying replicon RNA (repRNA)-encoded ANDV-VLP vaccine candidates.\n\n**Results:** The researchers successfully determined the 2.35 Å resolution structure of the ANDV glycoprotein tetramer, as well as three distinct conformational states of tetramer dimers (at 3.2, 3.4, and 3.4 Å). They also elucidated the structure of the antibody ADI-65534 in complex with tetramers, discovering that full-length immunoglobulin G (IgG) cannot cross-link neighboring tetramers. Surprisingly, while immunization with repRNA-encoded ANDV-VLPs elicited high levels of glycoprotein-binding antibodies, the neutralizing antibody titers were equivalent to those from repRNA-encoded native ANDV glycoprotein complexes. These findings provide an important structural foundation for hantavirus vaccine design while also identifying determinants of repRNA-encoded glycoprotein immunogenicity that require further investigation."
+    },
+    "keyArticle": {
+      "title": "High-resolution in situ structures of hantavirus glycoprotein tetramers",
+      "authors": [
+        "Luqiang Guo",
+        "Elizabeth McFadden",
+        "Megan M. Slough",
+        "E. Taylor Stone",
+        "Jacob Berrigan",
+        "Eva Mittler",
+        "Kiara Hatzakis",
+        "Troy Hinkley",
+        "Heather S. Kain",
+        "Zunlong Ke",
+        "Nikole L. Warner",
+        "Jesse H. Erasmus",
+        "Kartik Chandran",
+        "Jason S. McLellan"
+      ],
+      "doi": "10.1016/j.cell.2026.01.030",
+      "pages": "2731-2747.e15"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.030",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.030",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.06.17.660152"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-07T20:21:05.955971+00:00",
+    "source": "openalex"
+  }
+}
