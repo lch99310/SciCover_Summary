@@ -1,0 +1,72 @@
+{
+  "id": "cell-2026-02-25",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "9",
+  "date": "2026-02-25",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-02-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "維生素B3療法：NAXD疾病的突破性治療方案",
+      "en": "Vitamin B3 Therapy: Breakthrough Treatment for NAXD Disease"
+    },
+    "summary": {
+      "zh": "【總結】這項研究開創了一個營養基因學框架，系統性地鑑定出對微量營養素調節有反應的單基因疾病。研究團隊透過全基因體CRISPR篩選，發現維生素B3可作為NAXD疾病的治療方法。NAXD疾病是一種罕見但嚴重的神經發育障礙，通常導致患者在出生後幾個月內死亡。研究顯示，維生素B3補充劑可將NAXD基因敲除小鼠的壽命延長40倍以上，為這種致命疾病提供了潛在的即時療法。這項工作不僅為NAXD患者帶來希望，還重振了經典維生素生物學領域，並建立了可擴展至其他維生素和營養干預措施的框架。\n\n【研究問題】過去缺乏系統性的方法來鑑定哪些遺傳疾病能從特定維生素治療中受益。雖然已知某些維生素缺乏相關疾病（如核黃素治療的Brown-Vialetto-Van-Laere综合征）對高劑量維生素補充有反應，但沒有全面的方法來發現這樣的治療方法。NAXD疾病是一種罕見但致命的神經發育障礙，目前沒有有效治療方法，患者通常在出生後幾個月內死亡。解決這個問題對於發現新的治療策略和拓展維生素生物學的應用至關重要。\n\n【研究方法】研究團隊開創性地應用了營養基因學框架，首先在全基因體範圍內進行CRISPR篩選，在不同維生素B2和B3水平下識別出幾十個可被單一維生素拯救的潛在疾病基因。對於維生素B3篩選中的主要目標NAXD，研究團隊創建了Naxd基因敲除小鼠模型，並使用空間代謝組學、單核RNA测序（snRNA-seq）和組學分析來精確定位受損的大腦區域和細胞類型。他們還設計了飲食實驗，測試維生素B3缺乏和補充對疾病進展的影響，並通過半靶向代謝組學分析Naxd缺乏大腦中絲氨酸生物合成的損害情況。\n\n【結果】關鍵發現包括：Naxd基因敲除小鼠精準模擬了人類NAXD疾病，在出生後5天內死亡；這些小鼠的大腦和皮膚中積累了異常的NADHX代謝物，同時NAD+水平顯著耗竭；維生素B3缺乏飲食加速了病理進程，而高劑量維生素B3補充（每天750mg/kg）將壽命延長了40倍以上；研究發現大腦內皮細胞特別容易受到損害，且絲氨酸生物合成受到NAD+耗竭的影響。最令人驚許的是，臨床案例報告顯示NAXD患者皮膚損害類似於糙皮病（維生素B3缺乏症），這為維生素B3療法提供了早期臨床證據。這些結果不僅為NAXD疾病提供了潛在治療方法，還鑑定出數十種可能對維生素B2或B3治療有反應的其他疾病。",
+      "en": "**Summary:** This research introduces a groundbreaking nutritional genomics framework to systematically identify monogenic diseases responsive to micronutrient modulation. Through genome-wide CRISPR screens, the team discovered that Vitamin B3 supplementation could serve as a therapy for NAXD disease, a severe neurodevelopmental disorder typically fatal within the first few months of life. The study demonstrates that Vitamin B3 supplementation extends lifespan by over 40-fold in Naxd knockout mice, offering a potential immediate therapy for this devastating condition. This work not only provides hope for NAXD patients but also revitalizes the field of classical vitamin biology and establishes an extensible framework for identifying nutrient-based interventions for other diseases.\n\n**Problem:** Previous research lacked systematic methods to identify which genetic diseases might benefit from specific vitamin therapies. While certain vitamin deficiency-related disorders (like Brown-Vialetto-Van Laere syndrome treated with riboflavin) were known to respond to high-dose vitamin supplementation, there was no comprehensive approach to discover such treatments. NAXD disease is a rare but fatal neurodevelopmental disorder with no effective treatments available, typically causing death within the first few months of life. Solving this problem is crucial for developing new therapeutic strategies and expanding the applications of vitamin biology.\n\n**Approach:** The researchers innovatively applied a nutritional genomics framework, first conducting genome-wide CRISPR screens under varying Vitamin B2 and B3 conditions to identify dozens of disease genes potentially rescueable by individual vitamins. For the top hit from the Vitamin B3 screen—NAXD—they created Naxd knockout mouse models and employed spatial metabolomics, single-nuclei RNA sequencing (snRNA-seq), and histology to precisely identify vulnerable brain regions and cell types. They designed dietary experiments to test the effects of Vitamin B3 deficiency and supplementation on disease progression and used semi-targeted metabolomics to analyze impaired serine biosynthesis in Naxd-deficient brains.\n\n**Results:** Key findings include: Naxd knockout mice accurately recapitulated human NAXD disease, dying within 5 days of birth; these mice showed accumulation of aberrant NADHX metabolites and significant NAD+ depletion specifically in brain and skin tissues; Vitamin B3-deficient diets accelerated pathology, while high-dose Vitamin B3 supplementation (750mg/kg daily) extended lifespan by over 40-fold; the study identified brain endothelial cells as particularly vulnerable, with serine biosynthesis impaired due to NAD+ depletion. Most strikingly, clinical case reports have described NAXD patients with skin lesions resembling pellagra (Vitamin B3 deficiency), providing early clinical evidence for Vitamin B3 therapy. These results not only offer a potential treatment for NAXD disease but also identify dozens of other conditions potentially responsive to Vitamin B2 or B3 therapies."
+    },
+    "keyArticle": {
+      "title": "Vitamin B2 and B3 nutrigenomics reveals a therapy for NAXD disease",
+      "authors": [
+        "Ankur Garg",
+        "Skyler Y. Blume",
+        "Helen Huynh",
+        "Alec M. Barrios",
+        "Onurkan O. Karabulut",
+        "Qian Zhao",
+        "Ayush D. Midha",
+        "Adam W. Turner",
+        "B. Vittorio Resnick",
+        "Xuewen Chen",
+        "Ayushi Agrawal",
+        "JaeYeon Kim",
+        "Liuji Chen",
+        "Qitao Ran",
+        "Alison M. Ryan",
+        "Reece C. Larson",
+        "Mina Negahban",
+        "Sophia C.K. Nelson",
+        "Andrew C. Yang",
+        "Michela Traglia",
+        "Reuben Thomas",
+        "Ramon C. Sun",
+        "Mercedes Paredes",
+        "M. Ryan Corces",
+        "Hening Lin",
+        "Isha H. Jain"
+      ],
+      "doi": "10.1016/j.cell.2026.01.022",
+      "pages": "2648-2662.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-02-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.022",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.022"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-10T20:02:24.720994+00:00",
+    "source": "openalex"
+  }
+}

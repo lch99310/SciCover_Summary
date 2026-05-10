@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-07T20:23:22.561486+00:00",
+  "lastUpdated": "2026-05-10T20:05:17.174238+00:00",
   "articles": [
+    {
+      "id": "nature-2026-05-06",
+      "journal": "Nature",
+      "date": "2026-05-06",
+      "path": "articles/2026/05/nature-2026-05-06.json",
+      "title_zh": "量子渦旋：超導體中的量子比特新希望",
+      "title_en": "Quantum Vortices: A New Frontier in Quantum Bits",
+      "cover_url": "data/images/nature/nature-2026-05-06-cover.jpg"
+    },
     {
       "id": "political-geography-2026-04-30",
       "journal": "Political Geography",
@@ -135,6 +144,15 @@
       "title_zh": "透明質酸與組織力學：解密哺乳動物指尖再生的秘密",
       "title_en": "Beyond Scars: How Hyaluronic Acid and Tissue Mechanics Unlock Mammalian Regeneration",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-04-09-04",
+      "journal": "Science",
+      "date": "2026-04-09",
+      "path": "articles/2026/04/science-2026-04-09-04.json",
+      "title_zh": "形狀各向異性如何主導桿狀粒子的集體舞蹈：從群聚到堵塞的物理之旅",
+      "title_en": "Shape Anisotropy: The Conductor of Rod-Like Particle Collective Dance from Swarming to Jamming",
+      "cover_url": "data/images/science/science-2026-04-09-04-cover.jpg"
     },
     {
       "id": "science-2026-04-09",
@@ -596,6 +614,15 @@
       "cover_url": "data/images/science/science-2026-02-26-cover.jpg"
     },
     {
+      "id": "cell-2026-02-25",
+      "journal": "Cell",
+      "date": "2026-02-25",
+      "path": "articles/2026/02/cell-2026-02-25.json",
+      "title_zh": "維生素B3療法：NAXD疾病的突破性治療方案",
+      "title_en": "Vitamin B3 Therapy: Breakthrough Treatment for NAXD Disease",
+      "cover_url": "data/images/cell/cell-2026-02-25-cover.jpg"
+    },
+    {
       "id": "nature-2026-02-25-02",
       "journal": "Nature",
       "date": "2026-02-25",
@@ -879,9 +906,9 @@
       "journal": "Political Geography",
       "date": "2026-02-02",
       "path": "articles/2026/02/political-geography-2026-02-02.json",
-      "title_zh": "這裡沒有任何服務！西班牙鄉村服務不平等如何催生農村怨恨",
-      "title_en": "There’s Nothing Here: How Service Inequality Fuels Rural Resentment in Spain",
-      "cover_url": ""
+      "title_zh": "「這裡什麼都沒有！」：西班牙農村地區服務不平等與地方怨恨研究",
+      "title_en": "Nothing Here! Unequal Access to Services and Rural Resentment in Spain",
+      "cover_url": "data/images/political-geography/political-geography-2026-02-02-cover.jpg"
     },
     {
       "id": "cell-2026-02-01-02",

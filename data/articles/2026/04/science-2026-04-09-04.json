@@ -1,0 +1,50 @@
+{
+  "id": "science-2026-04-09-04",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6794",
+  "date": "2026-04-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-09-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "形狀各向異性如何主導桿狀粒子的集體舞蹈：從群聚到堵塞的物理之旅",
+      "en": "Shape Anisotropy: The Conductor of Rod-Like Particle Collective Dance from Swarming to Jamming"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了形狀各向異性如何主導活動桿狀粒子的自組織行為，創造了從布朗運動到群聚、湍流、群集和堵塞的完整相圖。研究團隊結合實驗和模擬，發現中長徑比的桿狀粒子（α=7.5）會產生活躍的湍流現象，而高長徑比（α=11.6和15.1）則促進群集行為並抑制湍流。這項突破性發現為理解生物微游動者的自組織提供了物理基礎，並為設計可程式化合成活性材料提供了設計規則。\n\n【研究問題】過去的研究大多集中在球形活性粒子上，而對於桿狀活性粒子的集體動力學了解有限。儘管理論預測桿狀粒子可能展現豐富的集體行為，但缺乏能模擬生物系統特徵的實驗模型。本研究旨在解決這一缺口，探究形狀誘導的排列、立體和流體動力學相互作用如何控制桿狀活性粒子的自組織，以及為何細菌群聚（如大腸桿菌）會在特定長徑比下表現出湍流行為。\n\n【研究方法】研究團隊合成了四種不同長徑比（α=4.5、7.5、11.6和15.1）的光驅動二氧化鈦-二氧化矽複合桿狀粒子，並通過控制面積分數（ϕ）系統研究了其集體行為。他們使用粒子圖像測速儀（PIV）觀測流體流場，並分析速度自相關函數、數量波動和集群大小分佈等指標。為區分電滯流與滲透流的作用，他們還合成了經pNIPAM塗層的示蹤粒子。此外，他們進行了布朗動力學模擬，排除流體動力學相互作用，以理解不同機制的相對重要性。\n\n【結果】研究發現，當面積分數增加時，系統會經歷多個相變：從各向同性運動（ϕ=0.01）到小集群形成（ϕ=0.11）、群聚（ϕ=0.23）、湍流（ϕ=0.39）、大集群（ϕ=0.72）和最終堵塞（ϕ≈0.9）。中長徑比（α=7.5）的粒子在ϕ=0.39時表現出最強的湍流特徵，能量譜呈現0.8和-3.2兩種尺度規律，數量波動指數β達到0.17。高長徑比粒子（α=11.6和15.1）則在較低濃度下開始群集，湍流被抑制，並形成類似群集的結構。這些結果為理解生物系統（如大腸桿菌和枯草桿菌）的集體行為提供了物理基礎，並揭示了為何自然游動者可能進化出優化集體輸送和混合的長徑比。",
+      "en": "**Summary:** This groundbreaking research reveals how shape anisotropy governs the self-organization of active rod-like particles, mapping a complete phase diagram from Brownian motion to swarming, turbulence, flocking, and jamming. Through combined experiments and simulations, the team discovered that intermediate aspect ratio rods (α=7.5) exhibit active turbulence, while higher aspect ratios (α=11.6 and 15.1) promote flocking and suppress turbulence. This work provides fundamental insights into the physical mechanisms underlying collective behavior in biological microswimmers and offers design principles for programmable synthetic active materials.\n\n**Problem:** Previous research largely focused on spherical active particles, leaving gaps in understanding collective dynamics of rod-like swimmers. Although theoretical studies predicted rich collective behaviors in rod-like particles, experimental models that fully capture key features of biological systems were lacking. This research addresses these gaps by investigating how shape-induced alignment, steric, and hydrodynamic interactions control self-organization of active rods, and provides a physical explanation for why bacterial swarms like E. coli exhibit turbulence at specific aspect ratios.\n\n**Approach:** The researchers synthesized four types of light-driven TiO2-SiO2 composite rods with different aspect ratios (α=4.5, 7.5, 11.6, and 15.1) and systematically studied their collective behavior by varying area fraction (ϕ). They used particle image velocimetry (PIV) to visualize fluid flow fields and analyzed velocity autocorrelation functions, number fluctuations, and cluster size distributions. To distinguish between phoretic and osmotic contributions, they synthesized pNIPAM-coated tracer particles. Additionally, they conducted Brownian dynamics simulations without hydrodynamic interactions to understand the relative importance of different mechanisms.\n\n**Results:** As area fraction increased, the system underwent multiple phase transitions: from isotropic motion (ϕ=0.01) to small clusters (ϕ=0.11), swarming (ϕ=0.23), turbulence (ϕ=0.39), large clusters (ϕ=0.72), and finally jamming (ϕ≈0.9). Intermediate aspect ratio rods (α=7.5) showed the strongest turbulence characteristics at ϕ=0.39, with energy spectra exhibiting two scaling regimes (0.8 and -3.2) and number fluctuation exponent β reaching 0.17. Higher aspect ratio particles (α=11.6 and 15.1) exhibited collective behavior at lower concentrations with suppressed turbulence and flocking-like structures. These findings provide a physical basis for understanding collective behavior in biological systems and explain why natural swimmers may have evolved aspect ratios optimizing collective transport and mixing."
+    },
+    "keyArticle": {
+      "title": "Shape anisotropy governs organization of active rods: Swarming, turbulence, flocking, and jamming",
+      "authors": [
+        "Yogesh G. Shelke",
+        "Anpuj Nair S",
+        "Hanumantha Rao Vutukuri"
+      ],
+      "doi": "10.1126/science.ady7618",
+      "pages": "202-206"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-09-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady7618",
+      "doi": "https://doi.org/10.1126/science.ady7618",
+      "preprint": "https://arxiv.org/abs/2605.02590"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-10T19:58:25.431205+00:00",
+    "source": "openalex"
+  }
+}

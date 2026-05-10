@@ -1,0 +1,62 @@
+{
+  "id": "nature-2026-05-06",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8113",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子渦旋：超導體中的量子比特新希望",
+      "en": "Quantum Vortices: A New Frontier in Quantum Bits"
+    },
+    "summary": {
+      "zh": "【總結】\n本研究突破性地發現，在顆粒狀鋁（grAl）超導體中的渦旋可以表現為量子比特（VQ），具有微秒級的量子相干性和百微秒級的能量弛豫時間。這一發現挑戰了傳統阿布里科渦旋（Abrikosov vortices）作為耗散實體的理解，證實了它們可以保持核心能隙並展示量子行為。研究團隊成功實現了這些渦旋態的相干操控和量子非破壞性讀取，為量子信息處理、材料表征和感測技術開闢了全新途徑。\n\n【研究問題】\n傳統上，渦旋被認為是耗散的半經典實體，因為在渦旋核心處超導能隙被完全抑制。儘管理論預測顆粒超導體中的渦旋可能保持核心能隙，但過去的研究未能直接觀察到渦旋態的相干量子行為。這一問題的解決至關重要，因為它可能揭示量子效應在強無序超導體中的新物理，並為量子信息處理提供新平台。\n\n【研究方法】\n研究團隊使用顆粒狀鋁微波共振器，採用電路量子電動力學技術。他們在磁場冷卻過程中引入渦旋，然後測量共振器在不同磁場下的響應。通過雙音頻譜分析、拉比振盪測量和哈恩回聲實驗，研究人員表征了渦旋量子態的相干性和弛豫時間。他們還開發了非對稱量子拉比模型來解釋觀察到的現象，該模型基於渦旋在雙阱勢中的隧穿行為。\n\n【結果】\n關鍵發現包括：渦旋量子態的能量弛豫時間T1高達300微秒，量子相干時間T2*達440納秒，系統耦合強度g/2π = 95兆赫。渦旋態在最佳磁場點（甜點）保持穩定數週，並能通過20納秒的π脈衝進行狀態翻轉。這些結果與非對稱量子拉比模型預測高度吻合，表明渦旋在釘扎位點之間的隧穿形成了雙阱勢能結構。這些發現不僅挑戰了對渦旋的傳統理解，還為開發基於渦旋的量子信息平台和新型量子感測器奠定了基礎。",
+      "en": "**Summary:**\nThis research demonstrates a groundbreaking discovery that superconducting vortices in granular aluminum films can behave as quantum bits (VQs) with microsecond-range quantum coherence and energy relaxation times reaching fractions of a millisecond. This finding challenges the traditional understanding of vortices as purely dissipative entities, proving they can maintain an energy gap at the core and exhibit quantum behavior. The research team successfully achieved coherent manipulation and quantum non-demolition readout of these vortex states, opening entirely new avenues for quantum information processing, materials characterization, and sensing technologies.\n\n**Problem:**\nTraditionally, vortices are considered dissipative semiclassical entities because the superconducting gap is completely suppressed at the vortex core. Although theoretical work suggested that vortices in granular superconductors might preserve an energy gap, direct evidence of coherent quantum behavior and manipulation of vortex states had remained elusive. Solving this problem is crucial as it could reveal new physics of quantum effects in highly disordered superconductors and potentially provide a novel platform for quantum information processing.\n\n**Approach:**\nThe researchers utilized granular aluminum (grAl) microwave resonators and applied circuit quantum electrodynamics techniques. They introduced vortices through field-cooling processes and measured the resonator response under varying magnetic fields. Through two-tone spectroscopy, Rabi oscillation measurements, and Hahn echo experiments, the team characterized the coherence and relaxation times of the vortex quantum states. They also developed an asymmetric quantum Rabi model to explain their observations, based on vortex tunneling between pinning sites in a double-well potential.\n\n**Results:**\nKey findings include: VQ energy relaxation times (T1) up to 300 μs and quantum coherence times (T2*) of 440 ns, with system coupling strength g/2π = 95 MHz. The vortex states remained stable for weeks at the optimal magnetic field \"sweet spot\" and could be inverted using 20-ns π-pulses. These results showed excellent agreement with predictions from the asymmetric quantum Rabi model, indicating that vortex tunneling between pinning sites creates a double-well potential structure. These findings not only challenge the conventional understanding of vortices but also lay the foundation for developing vortex-based quantum information platforms and novel quantum sensors."
+    },
+    "keyArticle": {
+      "title": "Quantum coherent manipulation and readout of superconducting vortex states",
+      "authors": [
+        "Ameya Nambisan",
+        "Simon Günzler",
+        "D. Rieger",
+        "Nicolas Gosling",
+        "Simon Geisert",
+        "Victor Carpentier",
+        "Nicolas Zapata",
+        "M. E. Field",
+        "Milorad V. Milosevic",
+        "C Camacho López",
+        "Ciprian Padurariu",
+        "Björn Kubala",
+        "Joachim Ankerhold",
+        "Wolfgang Wernsdorfer",
+        "Martin Spiecker",
+        "Ioan M. Pop"
+      ],
+      "doi": "10.1038/s41586-026-10441-7",
+      "pages": "63-67"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10441-7",
+      "doi": "https://doi.org/10.1038/s41586-026-10441-7"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-10T20:00:08.750483+00:00",
+    "source": "openalex"
+  }
+}
