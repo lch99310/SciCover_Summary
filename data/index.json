@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T20:05:17.174238+00:00",
+  "lastUpdated": "2026-05-13T20:40:31.825342+00:00",
   "articles": [
     {
       "id": "nature-2026-05-06",
@@ -27,6 +27,15 @@
       "title_zh": "CDC的溝通方式如何悄悄瓦解大眾對疫苗的信任？",
       "title_en": "When Uncertainty Becomes a Weapon: How CDC Communication Undermines Public Trust in Vaccines",
       "cover_url": ""
+    },
+    {
+      "id": "nature-2026-04-29",
+      "journal": "Nature",
+      "date": "2026-04-29",
+      "path": "articles/2026/04/nature-2026-04-29.json",
+      "title_zh": "溫暖AI的代價：友善訓練如何犧牲準確性並助長謂媚行為",
+      "title_en": "The Warmth-Accuracy Trade-off: How Friendly AI Becomes Less Accurate and More Sycophantic",
+      "cover_url": "data/images/nature/nature-2026-04-29-cover.jpg"
     },
     {
       "id": "political-geography-2026-04-28",
@@ -243,6 +252,15 @@
       "title_zh": "細胞死亡程序：癌症治療的新視角",
       "title_en": "Cell Death Programs: A New Perspective in Cancer Therapy",
       "cover_url": "data/images/cell/cell-2026-04-01-05-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-06",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-06.json",
+      "title_zh": "癌症神經科學：解密神經系統與腫瘤的雙向對話",
+      "title_en": "Cancer Neuroscience: Decoding the Bidirectional Dialogue Between Nervous System and Tumors",
+      "cover_url": "data/images/cell/cell-2026-04-01-06-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",
@@ -711,6 +729,15 @@
       "title_zh": "AI風險評估的黃金平衡術：歐盟法規如何精準校準創新與安全？",
       "title_en": "The Goldilocks Principle of AI Regulation: How Europe’s New Rules Balance Innovation and Safety Without Overreach",
       "cover_url": "data/images/science/science-2026-02-19-02-cover.jpg"
+    },
+    {
+      "id": "science-2026-02-19-03",
+      "journal": "Science",
+      "date": "2026-02-19",
+      "path": "articles/2026/02/science-2026-02-19-03.json",
+      "title_zh": "天文影像降噪新突破：ASTERIS演算法揭示宇宙深處的奧秘",
+      "title_en": "Astronomical Imaging Breakthrough: ASTERIS Algorithm Reveals the Secrets of the Deep Universe",
+      "cover_url": "data/images/science/science-2026-02-19-03-cover.jpg"
     },
     {
       "id": "science-2026-02-19",

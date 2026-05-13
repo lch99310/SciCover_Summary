@@ -1,0 +1,66 @@
+{
+  "id": "cell-2026-04-01-06",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "癌症神經科學：解密神經系統與腫瘤的雙向對話",
+      "en": "Cancer Neuroscience: Decoding the Bidirectional Dialogue Between Nervous System and Tumors"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇Cell期刊的文章全面探討了癌症神經科學這一快速發展的領域，揭示了神經系統與癌症之間複雜的相互作用。研究指出，神經系統和癌症內在的神經特性可以影響癌症的起始、生長、進展、轉移和治療抵抗，同時癌症也能影響神經系統，導致神經重編程和神經精神症狀，惡化患者預後。文章總結了至今為止神經-癌症交叉作用的主要發現，包括神經元到癌症的突觸、旁分泌和神經免疫腫瘤學相互作用，並探討了下游效應、晝夜節律影響、腦-身體-癌症通訊等新興主題。\n\n【研究問題】\n文章探討的核心問題是：神經系統如何調節癌症發展，以及癌症又如何影響神經系統？過去的研究存在幾個重要盲點：1）對腦外神經-癌症相互作用機制了解不足；2）對神經元-癌症突觸在腦外是否存在缺乏證據；3）對晝夜節律和腦-身體-癌症通訊在癌症發展中的作用認識有限；4）缺乏整合神經科學和腫瘤學技術的精準映射方法。解決這些問題至關重要，因為神經系統正被視為癌症的一個關鍵組成部分，可能成為癌症的特徵之一，理解這些相互作用有助於開發新的治療策略。\n\n【研究方法】\n作者採用了多學科綜合分析方法，整合了神經科學和腫瘤學的最新研究成果。文章系統性地回顧了神經元-癌症突觸、旁分泌相互作用、神經免疫腫瘤學相互作用等已確立機制，以及腦-身體通訊、晝夜節律、神經對轉移的影響等新興主題。研究方法包括：1）分析神經元-癌症突觸的形成和功能；2）研究神經遞質和神經營養因子對癌症細胞的影響；3）探討癌症對神經系統的反向作用；4）研究神經系統對腫瘤微環境和免疫系統的調節。作者還提出了癌症神經科學未來發展的藍圖，包括技術創新、理論框架建立和臨床應用轉化。\n\n【結果】\n文章揭示了多個重要發現：1）神經元和腫瘤細胞之間可以形成功能性突觸，這些突觸在腫瘤生長和進展中起關鍵作用；2）腫瘤細胞能夠顯示神經樣形態，包括神經樣腫瘤微管，促進腫瘤細胞遷移並形成間隙連接耦合網絡；3）交感神經系統通常刺激腫瘤發展，而副交感神經系統則抑制腫瘤起始和侵略性；4）腫瘤會誘導神經支配增加，促進進展和轉移；5）晝夜節律通過核心時鐘基因調節腫瘤進展，影響細胞週期、免疫逃逸和上皮-間質轉化。這些發現表明，神經-癌症相互作用是癌症發展的核心機制，為開發「神經科學指導的癌症治療」提供了新的思路。未來研究需要更多腦外神經-癌症相互作用的證據，並開發精確映射神經-癌症連接組的新技術。",
+      "en": "**Summary:**\nThis Cell journal article provides a comprehensive overview of the rapidly emerging field of cancer neuroscience, revealing the complex bidirectional interactions between the nervous system and cancer. The research demonstrates that both the nervous system and cancer-intrinsic neural features can govern cancer initiation, growth, progression, metastasis, and treatment resistance, while cancer can influence the nervous system, promoting neural reprogramming and neuropsychiatric symptoms that worsen patient outcomes. The article synthesizes key discoveries to date, including neuron-to-cancer synapses, paracrine and neuro-immuno-oncological interactions, and explores emerging topics such as downstream effects on cancer pathophysiology, circadian influences, brain-body-cancer communication, and neural regulation of the metastatic cascade and tumor microenvironment.\n\n**Problem:**\nThe central question addressed is: how does the nervous system regulate cancer development, and how does cancer influence the nervous system? Previous research has several critical gaps: 1) limited understanding of neuro-cancer interaction mechanisms outside the brain; 2) lack of evidence on whether bona fide neuron-to-cancer synapses exist extracranially; 3) insufficient knowledge on the role of circadian rhythms and brain-body-cancer communication in cancer progression; 4) absence of integrated neuroscience and oncology technologies for precise mapping. These issues are crucial to address as the nervous system is increasingly recognized as a key component of cancer, potentially becoming a cancer hallmark itself. Understanding these interactions is essential for developing novel therapeutic strategies.\n\n**Approach:**\nThe authors employed a multidisciplinary analytical approach, integrating the latest research findings from neuroscience and oncology. The article systematically reviews established mechanisms such as neuron-to-cancer synapses, paracrine interactions, and neuro-immuno-oncological interactions, as well as emerging topics including brain-body communication, circadian influences, and neural effects on metastasis. Methodologically, the research examines: 1) formation and function of neuron-to-cancer synapses; 2) effects of neurotransmitters and neurotrophic factors on cancer cells; 3) reverse effects of cancer on the nervous system; 4) neural regulation of tumor microenvironment and immune system. The authors also propose a roadmap for the future development of cancer neuroscience, including technological innovations, theoretical framework development, and clinical application translation.\n\n**Results:**\nThe article reveals several key findings: 1) functional synapses can form between neurons and cancer cells, playing crucial roles in tumor growth and progression; 2) cancer cells can display neural-like morphology, including neurite-like tumor microtubes that facilitate migration and form gap junction-coupled networks supporting survival and therapy resistance; 3) the sympathetic nervous system generally stimulates tumor development while the parasympathetic nervous system inhibits tumor initiation and aggressiveness; 4) tumors induce increased innervation that promotes progression and spread; 5) circadian rhythms regulate tumor progression through core clock genes, affecting cell cycle, immune evasion, and epithelial-mesenchymal transition. These findings indicate that neuro-cancer interactions are fundamental mechanisms in cancer development, providing new avenues for developing \"neuroscience-instructed cancer therapies\" (NiCT). Future research requires more evidence of extracranial neuro-cancer interactions and development of new technologies for precisely mapping the neuro-cancer connectome."
+    },
+    "keyArticle": {
+      "title": "Cancer neuroscience: The past, the present, and the road ahead",
+      "authors": [
+        "Frank Winkler",
+        "Sophie Heuer",
+        "Ferdinand Althammer",
+        "Hellmut Augustin",
+        "Filippo Beleggia",
+        "İhsan Ekin Demir",
+        "Julian Koenig",
+        "Rohini Kuner",
+        "Thomas Kuner",
+        "Sonja Loges",
+        "Michael Platten",
+        "Hans Christian Reinhardt",
+        "Judith M. Rich",
+        "Felix Sahm",
+        "Ruth M. Stassart",
+        "Vera Thiel",
+        "Andreas Trumpp",
+        "Varun Venkataramani",
+        "Wolfgang Wick",
+        "Matthia A. Karreman"
+      ],
+      "doi": "10.1016/j.cell.2026.03.018",
+      "pages": "2464-2489"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.018",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.018"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-13T20:34:15.227069+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "science-2026-02-19-03",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6797",
+  "date": "2026-02-19",
+  "coverImage": {
+    "url": "data/images/science/science-2026-02-19-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "天文影像降噪新突破：ASTERIS演算法揭示宇宙深處的奧秘",
+      "en": "Astronomical Imaging Breakthrough: ASTERIS Algorithm Reveals the Secrets of the Deep Universe"
+    },
+    "summary": {
+      "zh": "【總結】天文影像觀測的檢測極限受到多種噪聲源的限制，其中部分噪聲在相鄰像素和曝光之間具有相關性，理論上可以透過學習來校正。研究團隊開發了一名為ASTERIS的天文自監督Transformer降噪演算法，整合了多個曝光的空間時間資訊。基於模擬數據的基準測試表明，ASTERIS在90%完整性和純度下將檢測極限提升了1.0星等，同時保持點擴散函數和光度測量精度。通過詹姆斯·韋伯太空望遠鏡(JWST)和昴星望遠鏡的觀測驗證，ASTERIS識別出先前無法檢測到的特徵，包括低表面亮度星系結構和引力透鏡弧。應用於深度JWST影像時，ASTERIS識別出的紅移>9星系候選體數量是先前方法的3倍，其静止框架紫外光度比先前方法暗1.0星等。\n\n【研究問題】天文影像觀測的檢測極限長期以來受到各種噪聲的困擾，儘管部分噪聲在相鄰像素和曝光之間存在相關性，但傳統方法難以有效利用這些相關性來改善影像質量。過去的研究通常依賴基於物理模型的噪聲減少技術，這些方法往往無法完全捕捉複雜的噪聲模式，或者在降噪過程中可能損失重要的天文訊號。如何從多個觀測數據中有效提取和利用空間時間相關性來提升天文影像的檢測極限，是當前天文影像處理領域亟待解決的關鍵問題。解決這一問題對於發現更暗弱的星系、更早期的宇宙結構以及稀有的天文現象至關重要。\n\n【研究方法】研究團隊開發了一名為ASTERIS（Astronomical Self-supervised Transformer-based denoISing）的自監督深度學習演算法，基於Transformer架構設計。該演算法的核心在於能夠從多個曝光的圖像序列中自動學習空間時間相關性，而不需要人工標記的「乾淨」圖像作為參考。ASTERIS利用天文圖像中的特定特性，如恆星點擴散函數的一致性和背景噪聲的統計特性，構建自監督學習目標。演算法首先通過遮罩部分圖像區域，然後嘗試從其他區域預測被遮罩的內容，從中學習圖像的統計特性和噪聲模式。這種方法使演算法能夠自動識別並消除在各個曝光之間相關的噪聲，同時保留獨特的天文訊號。研究團隊在模擬數據上對演算法進行了全面評估，並使用JWST和昴星望遠鏡的真實觀測數據進行了驗證。\n\n【結果】ASTERIS在多項評指標上表現出色：基於模擬數據的基準測試表明，在90%完整性和純度下，該演算法將天文影像的檢測極限提升了1.0星等，這意味著能夠識別比傳統方法暗弱2.5倍的天體。更重要的是，ASTERIS在降噪過程中完美保持了點擴散函數的形狀和光度測量的準確性，避免了許多傳統降噪方法中訊號失真的問題。在真實觀測數據中，ASTERIS成功識別出先前被噪聲掩蓋的低表面亮度星系結構和引力透鏡弧等關鍵天文特徵。最引人注目的是，當應用於深度JWST影像時，ASTERIS發現的紅移>9星系候選體數量達到傳統方法的3倍，這些星系的静止框架紫外光度比先前方法能檢測到的星系暗1.0星等。這一突破性發現對於研究早期宇宙的星系形成和演化具有革命性的意義。",
+      "en": "**Summary:** The detection limits of astronomical imaging observations are constrained by multiple noise sources, some of which exhibit correlation between neighboring pixels and exposures. Researchers have developed ASTERIS, an astronomical self-supervised transformer-based denoising algorithm that integrates spatiotemporal information across multiple exposures. Benchmarking on simulated data shows that ASTERIS improves detection limits by 1.0 magnitude at 90% completeness and purity while preserving the point spread function and photometric accuracy. Validation using data from the James Webb Space Telescope (JWST) and Subaru telescope has revealed previously undetectable features, including low-surface-brightness galaxy structures and gravitationally-lensed arcs. When applied to deep JWST images, ASTERIS identifies three times more redshift > 9 galaxy candidates with rest-frame ultraviolet luminosity 1.0 magnitude fainter than previous methods.\n\n**Problem:** Astronomical imaging observations have long been limited by various noise sources, despite the fact that some noise exhibits correlation between adjacent pixels and exposures. Traditional denoising techniques based on physical models often fail to fully capture complex noise patterns or risk losing critical astronomical signals during the denoising process. The key challenge has been how to effectively extract and utilize spatiotemporal correlations from multiple observations to enhance detection limits in astronomical imaging. Solving this problem is crucial for discovering fainter galaxies, earlier cosmic structures, and rare astronomical phenomena that could fundamentally transform our understanding of the universe's evolution.\n\n**Approach:** The research team developed ASTERIS (Astronomical Self-supervised Transformer-based denoISing), a deep learning algorithm based on the Transformer architecture. The core innovation lies in its ability to automatically learn spatiotemporal correlations from multiple exposure sequences without requiring manually labeled \"clean\" images as references. ASTERIS leverages specific characteristics of astronomical images, such as the consistency of stellar point spread functions and statistical properties of background noise, to construct self-supervised learning objectives. The algorithm works by masking certain regions of the image and attempting to predict these regions from other areas, thereby learning the statistical properties and noise patterns of the images. This approach enables the algorithm to identify and eliminate noise correlated across exposures while preserving unique astronomical signals. The team conducted comprehensive evaluations using simulated data and validated the algorithm with real observational data from JWST and Subaru telescope.\n\n**Results:** ASTERIS demonstrated exceptional performance across multiple metrics: benchmarking on simulated data revealed that the algorithm improves detection limits by 1.0 magnitude at 90% completeness and purity, meaning it can identify objects 2.5 times fainter than traditional methods. Importantly, ASTERIS perfectly maintains the shape of the point spread function and the accuracy of photometric measurements during denoising, avoiding signal distortion common in many traditional denoising methods. With real observational data, ASTERIS successfully identified previously noise-obscured features critical to astronomy, including low-surface-brightness galaxy structures and gravitationally-lensed arcs. Most remarkably, when applied to deep JWST images, ASTERIS discovered three times more redshift > 9 galaxy candidates compared to previous methods, with rest-frame ultraviolet luminosity 1.0 magnitude fainter than what earlier techniques could detect. This breakthrough discovery holds revolutionary significance for studying galaxy formation and evolution in the early universe."
+    },
+    "keyArticle": {
+      "title": "Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising",
+      "authors": [
+        "Yuduo Guo",
+        "Hao Zhang",
+        "Mingyu Li",
+        "F. Yu",
+        "Yunjing Wu",
+        "Yuhan Hao",
+        "S. L. Huang",
+        "Yongming Liang",
+        "Xiaojing Lin",
+        "Xinyang Li",
+        "Jiamin Wu",
+        "Zheng Cai",
+        "Qionghai Dai"
+      ],
+      "doi": "10.1126/science.ady9404",
+      "pages": "eady9404"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-02-19-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady9404",
+      "doi": "https://doi.org/10.1126/science.ady9404",
+      "preprint": "https://arxiv.org/abs/2602.17205"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-13T20:30:30.320001+00:00",
+    "source": "openalex"
+  }
+}
