@@ -1,0 +1,59 @@
+{
+  "id": "nature-2026-05-06-02",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8114",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-06-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "突破室溫障礙：電熱效應冷卻技術的革命性進展",
+      "en": "Breaking the Room Temperature Barrier: Revolutionary Advances in Electrocaloric Cooling Technology"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊成功開發出一種新型PST-PMW多層電容器，能在室溫上下產生顯著電熱效應，解決了長期以來電熱冷卻技術無法跨越室溫的挑戰。這項突破性發現不僅將電熱效應的應用範圍擴展至-43°C至+27°C，還避免了傳統材料所需的42天高價退火過程，大幅降低了製造成本。新材料的循環效率高達70-90%，且能承受超過千萬次的循環而不失效，為食品保鮮、醫療設備和建築空調等領域帶來革命性的可能性。【研究問題】傳統電熱冷卻材料如PST僅能在室溫以上工作，且需耗能巨大的長時間退火過程以維持B位有序性。此外，現有材料在室溫以下的電熱效應微乎其微（≤1.6K），無法實現從室溫以上到以下的連續冷卻。這一技術缺口限制了電熱冷卻在食品、飲料、醫療等需要跨越室溫的關鍵應用領域的發展。【研究方法】研究人員創新性地通過在PST中稀釋PMW來誇大價態不匹配，維持高B位有序性的同時降低居里溫度。採用低溫燒結（1250°C）替代傳統高溫燒結（1400°C）和長時間退火，成功製備了19層MLCs。研究團隊結合X射線衍射、高角環暗場掃描透射電子顯微鏡和自製量熱計等多種先進表征技術，對電熱效應進行了直接和間接測量，建立了精確的熵地圖和溫度變化模型。【結果】新型PST-PMW多層電容器在17.1V·μm⁻¹電場下實現了約3K的有效電熱溫度變化，工作溫度範圍擴展至230K以上（低達-43°C）。材料在超過千萬次循環後仍保持穩定性能，預測循環效率達70-90%。研究顯示，若將此材料應用於理想流體再生器中，可將冷卻溫度從295K降至230K，並略微提高效率。這項突破有望取代傳統PST材料，推動電熱冷卻技術的工業化和學術研發爆發性增長，為能源高效利用和環境友好型冷卻技術開闊全新道路。",
+      "en": "**Summary:** Researchers have successfully developed a novel PST-PMW multilayer capacitor that produces significant electrocaloric effects both above and below room temperature, overcoming a long-standing limitation in electrocaloric cooling technology. This breakthrough not only extends the application range of electrocaloric effects from -43°C to +27°C but also eliminates the expensive 42-day annealing process required for traditional materials, dramatically reducing manufacturing costs. The new material achieves cycle efficiencies of 70-90% and can withstand over 10 million cycles without performance degradation, potentially revolutionizing fields such as food preservation, medical equipment, and building climate control.\n\n**Problem:** Traditional electrocaloric materials like PST only operate above room temperature and require energy-intensive, lengthy annealing processes to maintain B-site order. Furthermore, existing materials exhibit minimal electrocaloric effects below room temperature (≤1.6K), making it impossible to achieve continuous cooling across the room temperature threshold. This technological gap has limited the application of electrocaloric cooling in critical areas like food and beverage preservation, medical applications, and climate control where cooling through room temperature is essential.\n\n**Approach:** The researchers innovatively exaggerated valence mismatch through dilution with PMW while maintaining high B-site order and reducing the Curie temperature. They employed low-temperature sintering (1250°C) instead of traditional high-temperature sintering (1400°C) combined with lengthy annealing to successfully fabricate 19-layer MLCs. The team utilized advanced characterization techniques including X-ray diffraction, high-angle annular dark-field scanning transmission electron microscopy, and custom-built calorimeters to perform both direct and indirect measurements of electrocaloric effects, establishing precise entropy maps and temperature change models.\n\n**Results:** The novel PST-PMW multilayer capacitors achieved an effective electrocaloric temperature change of approximately 3K under an electric field of 17.1V·μm⁻¹, extending the operating temperature range down to 230K (as low as -43°C). The material maintained stable performance after over 10 million cycles, with predicted cycle efficiencies reaching 70-90%. Research indicates that when applied to an ideal fluid regenerator, this material could reduce cooling temperatures from 295K to 230K while slightly improving efficiency. This breakthrough has the potential to replace traditional PST materials and trigger explosive growth in both industrial and academic R&D for electrocaloric cooling technologies, opening new pathways for energy-efficient and environmentally friendly cooling solutions."
+    },
+    "keyArticle": {
+      "title": "Electrocaloric effects across room temperature in multilayer capacitors",
+      "authors": [
+        "M. Guo",
+        "V. Farenkov",
+        "X. Chen",
+        "A. Mohanathan",
+        "A. Z. K. Goh",
+        "Y. Tang",
+        "J Zhang",
+        "M. Vickers",
+        "S.M. Fairclough",
+        "C. Ducati",
+        "X. Moya",
+        "S. Hirose",
+        "N. D. Mathur"
+      ],
+      "doi": "10.1038/s41586-026-10492-w",
+      "pages": "398-403"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-06-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10492-w",
+      "doi": "https://doi.org/10.1038/s41586-026-10492-w"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-16T20:03:43.893254+00:00",
+    "source": "openalex"
+  }
+}

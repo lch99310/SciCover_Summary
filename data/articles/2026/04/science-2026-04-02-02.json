@@ -1,0 +1,71 @@
+{
+  "id": "science-2026-04-02-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6793",
+  "date": "2026-04-02",
+  "coverImage": {
+    "url": "data/images/science/science-2026-04-02-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腸道內分泌細胞的「免疫先鋒」：揭露早期腸道蠕動的微生物-細胞通話網路",
+      "en": "The Gut's Immune Vanguard: How Enteroendocrine Cells Orchestrate Early-Life Motility Through Microbial Conversations"
+    },
+    "summary": {
+      "zh": "【總結】這項突破性研究揭示了腸道內分泌細胞（EECs）在發育早期扮演的「免疫先鋒」角色。研究發現，在免疫細胞尚未成熟進入腸道前，斑馬魚的EECs已能產生細胞介素-22（IL-22），並透過塑造腸道微生物群組（特別是增加乳桿菌科細菌）和促進飢餓素（ghrelin）表達，來調控早期腸道蠕動。這一機制在哺乳動物中同樣保守，代表著發育生物學的重要進展。想像腸道就像一座正在建設的城市，而IL-22就像是市政規劃師，在專業的免疫部隊到位前，就已經協調各種細胞與微生物居民，確保城市基礎設施（腸道功能）正常運轉。【研究問題】過去研究一直關注成熟腸道中免疫細胞（如淋巴球）如何產生IL-22來維持腸道健康，卻忽略了發育早期的「空白期」：當斑馬魚受精後4-5天，腸道就已接觸環境微生物，但淋巴球卻要2-3週才會大量出現。這個「免疫缺口」期間，腸道功能如何維持？這個問題至關重要，因為發育期的腸道功能異常可能導致終身的消化系統問題。【研究方法】研究團隊巧妙運用斑馬魚模型優勢：透明體便於活體成像、快速發育、易於微生物操作。他們創造了IL-22缺陷突變體（il22−/−）和IL-22螢光報告系統（il22:mCherry），結合單細胞RNA定序技術精準定位IL-22來源。通過無菌（GF）與常規飼養（CV）斑馬魚對比，以及向腸道微量灌注色胺酸代謝物（吲哚），揭示了微生物代謝物如何激活EECs上的Trpa1受體，觸發IL-22產生。研究還巧妙利用共養實驗（微生物轉移）和單一菌株定植（L. plantarum）等方法，逐步拆解微生物-IL-22-腸道蠕動的因果鏈。【結果】關鍵發現令人驚嘆：EECs是斑馬魚幼魚腸道中IL-22的主要來源（佔90.5% ± 6.2）。IL-22缺陷斑馬魚出現顯著腸道蠕動障礙（運動速度降低50%以上），同時腸道微生物組失衡——乳桿菌科細菌減少，而致病性腸桿菌科增加。更關鍵的是，將野生型斑馬魚的微生物轉移給il22−/−魚，或僅引入L. plantarum菌株，就能完全恢復腸道蠕動功能，這種恢復依賴於飢餓素表達的上調。研究還發現，在IL-22缺陷小鼠早期生活中也觀察到類現象，證明此機制在脊椎動物中高度保守。這些結果不僅解開了發育期腸道功能的調控謎團，更為治療兒童腸道功能紊亂提供了全新靶點——透過調節特定微生物或補充IL-22可能成為未來治療策略。",
+      "en": "**Summary:** This groundbreaking research reveals enteroendocrine cells (EECs) as 'immune vanguards' during early development. The study demonstrates that before mature immune cells populate the gut, zebrafish EECs produce interleukin-22 (IL-22) which shapes the gut microbiota (particularly increasing Lactobacillaceae abundance) and promotes ghrelin expression to regulate early-life gut motility. This mechanism is conserved in mammals, representing a significant advance in developmental biology. Think of the gut as a construction site where IL-22 acts as a master planner, coordinating cellular and microbial residents to ensure essential infrastructure (gut function) operates properly before specialized immune forces arrive. **Problem:** Previous research focused on immune cells (like lymphocytes) producing IL-22 in mature guts, but ignored the 'immune gap' during development: while zebrafish guts encounter environmental microbes just 4-5 days post-fertilization, lymphocytes don't appear in significant numbers until 2-3 weeks later. How is gut function maintained during this critical period? This question is vital because developmental gut dysfunction can lead to lifelong digestive issues. **Approach:** The team ingeniously exploited zebrafish advantages—transparent bodies for live imaging, rapid development, and ease of microbiota manipulation. They created IL-22 deficient mutants (il22−/−) and fluorescent reporters (il22:mCherry), combined with single-cell RNA sequencing to precisely identify IL-22 sources. By comparing germ-free (GF) and conventionally reared (CV) zebrafish and microgavaging tryptophan metabolites (indole), they revealed how microbial metabolites activate EEC Trpa1 receptors to trigger IL-22 production. The researchers also used cohousing experiments (microbiota transfer) and monoassociation with specific strains to dissect the microbe-IL-22-gut motility pathway. **Results:** Key findings are striking: EECs are the primary source of IL-22 in zebrafish larvae (90.5% ± 6.2). IL-22 deficient zebrafish show significant gut motility impairment (reduced by over 50%) and dysbiosis—decreased Lactobacillaceae with increased pathogenic Enterobacteriaceae. Critically, transferring WT microbiota to il22−/− fish, or introducing only L. plantarum, completely restores gut motility through ghrelin upregulation. Similar phenomena were observed in early-life IL-22 deficient mice, demonstrating evolutionary conservation. These findings not only solve the puzzle of developmental gut regulation but suggest novel therapeutic approaches for pediatric motility disorders—targeting specific microbes or supplementing IL-22 could become future treatment strategies."
+    },
+    "keyArticle": {
+      "title": "IL-22 from enteroendocrine cells promotes early-life gut motility in zebrafish through the microbiota",
+      "authors": [
+        "Soraya Rabahi",
+        "Lucie Maurin",
+        "Emiliano Marachlian",
+        "Fabian Guendel",
+        "Aya Mikdache",
+        "Keinis Quintero-Castillo",
+        "Vincenzo Di Donato",
+        "Jessica Riou-Ramon",
+        "Akshai Janardhana Kurup",
+        "Yazan Salloum",
+        "Gwendoline Gros",
+        "Patricia Diabangouaya",
+        "Camila Garcia-Baudino",
+        "Ignacio Medina-Yáñez",
+        "Pascal Hersen",
+        "Alvaro Banderas",
+        "Jean-Pierre Levraud",
+        "Georges Lutfalla",
+        "Filippo Del Bene",
+        "Carmen G. Feijóo",
+        "Gerard Eberl",
+        "Germán Sumbre",
+        "Jos Boekhorst",
+        "Sylvia Brugman",
+        "Pedro P. Hernández"
+      ],
+      "doi": "10.1126/science.adr1707",
+      "pages": "69-76"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-04-02-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adr1707",
+      "doi": "https://doi.org/10.1126/science.adr1707"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-16T20:02:41.394543+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cell-2026-05-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "10",
+  "date": "2026-05-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-05-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "分子膠複合物受損導致RAS抑制劑抗藥性：癌症治療的新突破與挑戰",
+      "en": "Disrupted Molecular Glue Complex Drives RAS Inhibitor Resistance: New Breakthroughs and Challenges in Cancer Therapy"
+    },
+    "summary": {
+      "zh": "【總結】本研究揭開了RAS抑制劑daraxonrasib臨床抗藥性的分子機制，發現45%的治療患者出現反覆性基因改變。研究團隊確定兩條主要的抗藥途徑：一是RAS Y64突變直接干擾抑制劑結合，二是RAS Y71突變和激酶失活BRAF突變增強RAS-RAF交互作用。更為重要的是，研究人員開發了能靶向Y64突變RAS的新型分子膠，以及針對激酶失活BRAF的聯合治療策略，為克服RAS驅動惡性腫瘤的治療抗藥性提供了藍圖。【研究問題】儘管RAS抑制劑在臨床試驗中顯示出活性，但其抗藥機制仍不明確。過去研究缺乏對臨床樣本中獲得性抗藥性系統分析，也未能揭示不同抗藥機制如何匯集干擾分子膠功能。解決這一問題對於提高RAS驅動惡性腫瘤的治療效果至關重要。【研究方法】研究團隊分析40名接受daraxonrasib治療患者的配對基線和治療結束樣本，並利用CRISPR鹼基編輯篩選技術識別抗藥相關突變。通過結構分析、生化重組實驗和細胞報告系統，研究人員解釋了抗藥機制的分子基礎，並開發了新型分子膠和聯合治療策略。【結果】在40名患者中，18名（45%）出現RAS信號通路中間體的獲得性抗藥性改變，包括RAS Y64突變（2名）、激酶失活BRAF突變（5名）和Class III BRAF突變。結構分析顯示Y64突變通過破壞daraxonrasib與RAS的π-π堆積相互作用降低抑制劑結合親和力，而Y71H突變則通過形成新形接觸增強RAS與RAF的親和力。研究人員成功開發了靶向Y64突變RAS的新型分子膲RMC-4791，以及使用RAF致斷器抑制劑PLX8394與daraxonrasib聯合治療的策略，有效克服了激酶失活BRAF驅動的抗藥性。",
+      "en": "**Summary:** This study reveals the molecular mechanisms of clinical resistance to the RAS inhibitor daraxonrasib, identifying recurrent alterations in 45% of treated patients. The research team determined two primary resistance pathways: RAS Y64 mutations that directly disrupt inhibitor binding, and RAS Y71 mutations with kinase-dead BRAF mutations that enhance RAS-RAF interactions. More importantly, researchers developed a novel molecular glue targeting Y64 mutant RAS and combination therapies for kinase-dead BRAF-driven resistance, providing a blueprint for overcoming therapeutic resistance in RAS-driven malignancies. **Problem:** Despite showing clinical activity, the resistance mechanisms to RAS inhibitors remained poorly understood. Previous research lacked systematic analysis of acquired resistance in clinical samples and未能揭示 how different resistance mechanisms converge to disrupt molecular glue function. Solving this problem is crucial for improving therapeutic efficacy in RAS-driven malignancies. **Approach:** The research team analyzed paired baseline and end-of-treatment samples from 40 patients treated with daraxonrasib and utilized CRISPR base editing screens to identify resistance-related mutations. Through structural analysis, biochemical reconstitution assays, and cellular reporter systems, researchers elucidated the molecular basis of resistance mechanisms and developed novel molecular glues and combination strategies. **Results:** Among 40 patients, 18 (45%) exhibited acquired resistance alterations in RAS signaling pathway intermediates, including RAS Y64 mutations (2 patients), kinase-dead BRAF mutations (5 patients), and Class III BRAF mutations. Structural analysis revealed that Y64 mutations reduce inhibitor binding affinity by disrupting π-π stacking interactions with daraxonrasib, while Y71H enhances RAS-RAF affinity through neomorphic contacts. Researchers successfully developed RMC-4791, a novel molecular glue targeting Y64 mutant RAS, and a combination strategy using the RAF paradox-breaker inhibitor PLX8394 with daraxonrasib, effectively overcoming kinase-dead BRAF-driven resistance."
+    },
+    "keyArticle": {
+      "title": "Disrupted molecular glue complex drives RAS inhibitor resistance",
+      "authors": [
+        "Ben Sang",
+        "Ling Feng Ye",
+        "Zheng Fu",
+        "Yasin Pourfarjam",
+        "Antonio Cuevas-Navarro",
+        "Shijie Fan",
+        "Feng Hu",
+        "Aaliyah Washington",
+        "Diego J. Rodriguez",
+        "Alberto Vides",
+        "Sumit Kar",
+        "Ethan Ahler",
+        "Kevin K. Lin",
+        "Aparna Hegde",
+        "Jacqueline A.M. Smith",
+        "Brian M. Wolpin",
+        "Salman R. Punekar",
+        "A Spira",
+        "Ignacio Garrido-Laguna",
+        "David S. Hong",
+        "Arvin C. Dar",
+        "Rona Yaeger",
+        "Kathryn C. Arbour",
+        "Piro Lito"
+      ],
+      "doi": "10.1016/j.cell.2026.03.031",
+      "pages": "2918-2933.e17"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-05-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.031",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.031"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-16T20:05:02.883304+00:00",
+    "source": "openalex"
+  }
+}

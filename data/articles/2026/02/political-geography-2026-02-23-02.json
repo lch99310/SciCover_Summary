@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-02-23-02",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-23",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI與動物的都市共居：重新想像城市中的多元物種關係",
+      "en": "AI and Animals in the City: Rethinking Multispecies Relations in Urban Spaces"
+    },
+    "summary": {
+      "zh": "【總結】\n本文探討城市人工智慧(AI)與動物在城市空間中的「共居」關係，挑戰了傳統以人類為中心的都市技術發展觀。作者提出，從空中無人機到送貨機器人，再到自動駕駛車輛，AI技術正在重塑城市生活與空間的權力結構。這些技術不僅與人類共存，更與城市中的其他物種（特別是動物）形成複雜的互動網絡，共同影響城市空間的政治地理學。這項研究突破在於將AI視為「超人類行動者」，並提出「多元物種地緣政治學」框架，為理解技術與非人類物種的關係提供了新的理論視角。\n\n【研究問題】\n文章提出的具體問題是：當AI技術日益滲透城市公共空間時，它們如何與動物共處？過往研究多聚焦於AI對人類社會的影響，卻忽略了動物作為城市物種的權利與需求。研究缺口在於缺乏對「AI-動物關係」系統性考察，以及對此關係如何塑造城市政治地理的深入分析。解決這一問題至關重要，因為隨著AI技術普及，動物被迫調適行為模式，甚至面臨生存威脅，這涉及城市物種正義與技術倫理的根本問題。\n\n【研究方法】\n作者採用理論分析與案例研究相結合的方法，整合了關係性地理學、超人類思維和數位生態學等多重理論框架。研究步驟包括：1)解讀城市AI的「機器邏輯」如何建構可預測的運作環境；2)分析動物對AI技術的不可預測性反應，如狗對送貨機器人的吠叫；3)考察家空間中AI與動物的互動案例，如無人機與鄰居狗的法律糾紛；4)提出「共居」概念作為理解多元物種共存的關鍵詞彙。這種跨學科方法揭示了技術與非人類物種關係的複雜性。\n\n【結果】\n研究發現，城市AI與動物的共居關係充滿緊張與矛盾：1)送貨機器人因無法感知寵物而導致事故；2)狗難以習慣與機器人共存，持續表現出敵意；3)無人機的噪音干擾鳥類通訊，威脅物種生存；4)動物（如貓、鴉）經常阻礙AI技術的運作，迫使城市空間重新配置。這些結果凸顯了當前AI治理的「人類中心主義」盲點，呼籲發展「跨物種理事會」等新治理模式，將非人類物種的需求納入決策過程，實現城市技術發展的物種正義。",
+      "en": "**Summary:** \nThis article examines the \"cohabitation\" of urban artificial intelligences (AIs) and animals, challenging the anthropocentric view of technological development in cities. The author argues that from aerial drones to delivery robots to autonomous vehicles, AI technologies are reshaping the power dynamics of urban life and spaces. These technologies don't merely coexist with humans but form complex interaction networks with other urban species, particularly animals, collectively influencing the political geography of urban spaces. The breakthrough of this research lies in conceptualizing AIs as \"more-than-human actors\" and proposing a framework for \"critical multispecies geopolitics\" that offers new theoretical perspectives on understanding the relationships between technology and non-human species.\n\n**Problem:** \nThe specific question addressed is: How do AI technologies coexist with animals as they increasingly permeate urban public spaces? Previous research has predominantly focused on AI's impact on human society while neglecting the rights and needs of animals as urban inhabitants. The research gap lies in the lack of systematic investigation into \"AI-animal relationships\" and how these relationships shape urban political geography. Solving this problem is crucial because as AI technologies proliferate, animals are forced to adapt their behaviors or face existential threats, raising fundamental questions about urban species justice and technological ethics.\n\n**Approach:** \nThe author employs a combination of theoretical analysis and case studies, integrating multiple theoretical frameworks including relational geography, more-than-human thinking, and digital ecologies. The research steps include: 1) interpreting how urban AIs' \"robotic logics\" construct predictable operational environments; 2) analyzing animals' unpredictable reactions to AI technologies, such as dogs barking at delivery robots; 3) examining interactions between AIs and animals in domestic spaces through cases like legal disputes over drones and neighbor's dogs; 4) proposing \"cohabitation\" as a key concept for understanding multispecies coexistence. This interdisciplinary approach reveals the complexity of relationships between technology and non-human species.\n\n**Results:** \nThe research reveals that cohabitation between urban AIs and animals is fraught with tension and contradiction: 1) Delivery robots fail to detect pets, resulting in accidents; 2) Dogs struggle to habituate to robots, continuing to exhibit hostility; 3) Drone noise disrupts bird communication, threatening species survival; 4) Animals (such as cats and ravens) frequently obstruct AI operations, forcing urban spaces to be reconfigured. These findings highlight the anthropocentric blind spots in current AI governance, calling for new governance models like \"interspecies councils\" that incorporate non-human species' needs into decision-making processes, thereby achieving species justice in urban technological development."
+    },
+    "keyArticle": {
+      "title": "Cohabitations: Urban artificial intelligences (AIs) and animals",
+      "authors": [
+        "Anna Jackman"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103519",
+      "pages": "103519"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103519",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103519"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-16T20:07:17.881566+00:00",
+    "source": "openalex"
+  }
+}
