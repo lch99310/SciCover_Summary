@@ -1,0 +1,117 @@
+{
+  "id": "nature-2026-04-29-02",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8114",
+  "date": "2026-04-29",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-04-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "高階互動：解開樹木多樣性緯度梯度的密碼",
+      "en": "Higher-Order Interactions: Unlocking the Code to Tree Diversity's Latitudinal Gradient"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭開了樹木多樣性緯度梯度的神秘面紗，發現「高階互動」是維持生物多樣性的關鍵機制。研究團隊透過分析全球32個森林樣地數據，首次證實了樹木間的互動不僅限於兩兩關係，還存在更複雜的「三體問題」—當第三棵樹的存在會改變前兩棵樹之間的互動方式。這些高階互動不僅普遍存在（影響生長率達40%，存活率23%），而且具有明顯的緯度梯度—在熱帶森林中更強，隨著緯度升高而減弱。特別值得注意的是，這些互動對稀有物種有利，對常見物種不利，形成一種「生態保護傘」，從而促進了物種共存，並強化了從赤道到極地的多樣性梯度現象。\n\n【研究問題】\n長期以來，生態學家一直困惑於為什麼從赤道到極地，物種多樣性會逐漸降低（即「緯度梯度」）。傳統理論認為「同種負密度依賴」（CNDD）是解釋這一現象的主要機制—即同種個體之間的競爭關係。然而，過去對CNDD在緯度梯度中作用的實證研究結果矛盾且不一致。本文提出了一個關鍵問題：如果我們考慮更複雜的「高階互動」（HOIs）—即多個物種間的非線性互動—是否能更好地解釋這一生物地理學模式？這個問題至關重要，因為它關乎我們如何理解生物多樣性的維持機制，以及如何應對氣候變化下的生物多樣性變化。\n\n【研究方法】\n研究團隊創新性地結合了全球32個永久森林動態監測樣地（涵蓋熱帶到寒帶森林）的普查數據，運用先進的統計模型分離出「兩兩互動」和「高階互動」。他們建立了三種模型：無互動模型、僅含兩兩互動模型，以及包含兩兩互動和高階互動的完整模型。通過比較這些模型的表現（使用AIC指標），他們成功識別出高階互動的存在與強度。研究團隊還開發了一套獨特的數學框架，量化了不同物種間的互動如何隨緯度變化，以及這些互動如何影響物種的生長與存活。這項研究的創新之處在於，首次將複雜的生態互動機制與宏觀的生物多樣性梯度聯繫起來，架起了微觀生態互動與宏觀生物地理模式之間的橋樑。\n\n【結果】\n研究取得了突破性發現：首先，高階互動在森林中普遍存在，約40%的樹木生長率和23%的存活率受到高階互動的顯著影響。其次，高階互動的強度與緯度呈負相關—在熱帶森林中較強，隨著緯度升高而減弱。最關鍵的是，高階互動對稀有物種有利，對常見物種不利，形成了一種「穩定化效應」，促進了物種共存。這種效應隨緯度升高而減弱，完美解釋了從熱帶到寒帶物種多樣性逐漸降低的現象。研究團隊還發現，高階互動通過削弱同種個體之間的競爭關係，調節了傳統CNDD的表現，從而解釋了過去研究中關於CNDD緯度模式的矛盾結果。這些發現不僅深化了我們對生物多樣性維持機制的理解，也為生態學理論從「兩兩互動」向「多階互動」框架轉變提供了關鍵證據。",
+      "en": "**Summary:** \nThis groundbreaking research reveals that \"higher-order interactions\" (HOIs) - complex ecological relationships involving three or more species - are the key mechanism maintaining Earth's biodiversity gradient. By analyzing data from 32 permanent forest plots across global latitudes, scientists discovered that tree interactions aren't merely pairwise relationships but follow intricate \"three-body problems\" where the presence of a third tree alters the interaction between the first two. These HOIs are remarkably common (affecting 40% of tree growth and 23% of survival rates) and exhibit a clear latitudinal pattern - stronger in tropical forests and weakening toward higher latitudes. Crucially, these interactions benefit rare species while disadvantaging common ones, creating an \"ecological safety net\" that promotes species coexistence and amplifies the biodiversity gradient from equator to poles.\n\n**Problem:** \nFor decades, ecologists have puzzled over the latitudinal diversity gradient - the consistent decline in species richness from tropical to polar regions. Traditional theory attributed this pattern to \"conspecific negative density dependence\" (CNDD), where individuals of the same species compete more intensely than with different species. However, empirical evidence for CNDD's role in this gradient has been inconsistent and contradictory. This research addresses a fundamental question: if we consider more complex \"higher-order interactions\" (HOIs) - nonlinear interactions among multiple species - can we better explain this biogeographic pattern? This question is critically important because it reshapes our understanding of biodiversity maintenance mechanisms and has profound implications for conservation strategies in a changing climate.\n\n**Approach:** \nThe research team innovatively combined census data from 32 permanent forest dynamic plots spanning tropical to boreal forests with advanced statistical modeling to disentangle pairwise interactions from HOIs. They constructed three types of models: null models without biotic interactions, pair-only models including only pairwise interactions, and HOI-inclusive models incorporating both types of interactions. By comparing model performance using AIC criteria, they successfully identified the presence and strength of HOIs. The team also developed a unique mathematical framework to quantify how species interactions vary with latitude and affect tree growth and survival. This study's innovation lies in bridging micro-scale ecological interactions with macro-scale biodiversity patterns, providing the first empirical evidence that HOIs contribute significantly to one of ecology's most fundamental patterns.\n\n**Results:** \nThe findings are transformative: First, HOIs are widespread in forests, significantly affecting approximately 40% of tree growth rates and 23% of survival rates across species-plot combinations. Second, HOI strength decreases with increasing latitude - stronger in tropical forests and weakening toward higher latitudes. Most crucially, HOIs create stabilizing effects that benefit rare species while disadvantaging common species, promoting species coexistence. This stabilizing effect weakens toward higher latitudes, perfectly explaining the decline in species diversity from equator to poles. The researchers also discovered that HOIs modulate traditional CNDD by weakening intraspecific competition, reconciling contradictory findings about CNDD's latitudinal patterns. These results not only deepen our understanding of biodiversity maintenance mechanisms but also provide critical evidence for shifting ecological theory from pairwise interaction frameworks to more complex higher-order interaction paradigms."
+    },
+    "keyArticle": {
+      "title": "Higher-order interactions enhance the latitudinal tree diversity gradient",
+      "authors": [
+        "Yuanzhi Li",
+        "Junli Xiao",
+        "Y Jiang",
+        "S. J. Wright",
+        "Margaret M. Mayfield",
+        "Oscar Godoy",
+        "Alfonso Alonso",
+        "Kristina J Anderson-Teixeira",
+        "Jennifer L. Baltzer",
+        "Joseph D. Birch",
+        "Pulchérie Bissiengou",
+        "Norman A. Bourg",
+        "Warren Brockelman",
+        "D Burslem",
+        "Min Cao",
+        "Keith Clay",
+        "Stuart J Davies",
+        "Qingqing Du",
+        "Sisira Ediriweera",
+        "Anna Feistner",
+        "Edwino S. Fernando",
+        "Gregory S. Gilbert",
+        "Zhanqing Hao",
+        "Jan Holík",
+        "Mingxi Jiang",
+        "Guangze Jin",
+        "Daniel J. Johnson",
+        "Alexander S. Jones",
+        "Kamil Král",
+        "Andrew J Larson",
+        "B Li",
+        "练琚蕍",
+        "Luxiang Lin",
+        "Feng Liu",
+        "Y P Liu",
+        "Zhili Liu",
+        "James A Lutz",
+        "Keping Ma",
+        "Sean M. McMahon",
+        "William McShea",
+        "Hervé Memiaghe",
+        "Xiangcheng Mi",
+        "Jonathan A. Myers",
+        "Musalmah Nasardin",
+        "Anuttara Nathalang",
+        "Michael J O'Brien",
+        "Nestor Laurier Engone Obiang",
+        "Geoffrey Parker",
+        "Richard P Phillips",
+        "Xiujuan Qiao",
+        "Haibao Ren",
+        "Glen Reynolds",
+        "Lillian Jennifer V Rodriguez",
+        "Pavel Šamonil",
+        "Guochun Shen",
+        "Zufei Shu",
+        "Jessica Shue",
+        "Mark E. Swanson",
+        "Jill Thompson",
+        "María Uriarte",
+        "Xihua Wang",
+        "Xugao Wang",
+        "Youshi Wang",
+        "Tze Leong Yao",
+        "W H Ye",
+        "Mingjian Yu",
+        "Minhua Zhang",
+        "Y C Zhu",
+        "Jess Zimmerman",
+        "Fangliang He",
+        "Chengjin Chu"
+      ],
+      "doi": "10.1038/s41586-026-10434-6",
+      "pages": "433-438"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-04-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10434-6",
+      "doi": "https://doi.org/10.1038/s41586-026-10434-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-19T20:30:47.104487+00:00",
+    "source": "openalex"
+  }
+}

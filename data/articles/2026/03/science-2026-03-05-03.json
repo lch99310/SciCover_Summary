@@ -1,0 +1,60 @@
+{
+  "id": "science-2026-03-05-03",
+  "journal": "Science",
+  "volume": "391",
+  "issue": "6789",
+  "date": "2026-03-05",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "一針見效：自我複製RNA技術為心臟病帶來革命性治療",
+      "en": "One-Shot Revolution: Self-Amplifying RNA Therapy Transforms Heart Attack Treatment"
+    },
+    "summary": {
+      "zh": "心臟病發，一場與時間賽跑的生死較量。傳統治療方式往往需要長期用藥或多次手術，給患者帶來沉重負擔。如今，一項突破性研究為心臟病患者帶來了新希望——科學家開發出一種只需單次肌肉注射的自我複製RNA（saRNA）治療技術，能持續釋放心臟保護蛋白質長達四週。\n\n這項革命性的saRNA脂質奈米粒子（saNppa-LNP）療法，編碼心房利鈉肽A型（Nppa）基因，注入後可持續分泌心房利鈉肽前體（pro-ANP），再由心臟蛋白酶corin剪切為活性ANP。在小鼠和豬的心肌梗塞模型中，該療法顯著促進了心肌細胞再生，抑制了纖維化過程。單細胞轉錄組學分析確定了內皮和心外膜細胞作為主要效應細胞，而saNppa-LNP則重塑了它們的旁分泌譜，從而實現強大的心臟保護效果。\n\n更令人驚喜的是，在同等劑量下，saNppa的療效優於傳統mRNA。長期生物安全性評估顯示該療法無全身毒性，為心臟病治療開闢了全新道路。這項研究不僅證明了單次saNppa-LNP療法的持續心臟保護效果，也展現了saRNA-LNP基礎治療方法在心血管領域的廣泛潛力，為未來心臟病治療帶來了革命性的曙光。",
+      "en": "In the high-stakes race against time following a heart attack, traditional treatments often require long-term medication or invasive procedures, placing significant burdens on patients. Now, a groundbreaking study offers new hope—researchers have developed a self-amplifying RNA (saRNA) therapy that delivers sustained cardioprotection for up to four weeks after just a single intramuscular injection.\n\nThis revolutionary saRNA-lipid nanoparticle (saNppa-LNP) therapy encodes the natriuretic peptide type A (Nppa) gene, enabling sustained secretion of pro-atrial natriuretic peptide (pro-ANP) that is subsequently cleaved into active ANP by the cardiac protease corin. In both mouse and porcine models of myocardial infarction, the therapy demonstrated remarkable cardioprotection by promoting cardiomyocyte regeneration and suppressing fibrosis. Single-nucleus transcriptomics identified natriuretic peptide receptor 1-positive endothelial and epicardial cells as primary effectors, with saNppa-LNPs reshaping their paracrine profile to achieve these beneficial effects.\n\nNotably, saNppa achieved greater efficacy than conventional mRNA at equivalent doses. Longitudinal biosafety assessments revealed no systemic toxicity, paving the way for a new era in cardiac therapy. This study not only validates the durable cardioprotective effects of one-shot saNppa-LNP therapy but also demonstrates the broader potential of saRNA-LNP-based approaches, potentially revolutionizing how we treat heart attacks and other cardiovascular conditions in the future."
+    },
+    "keyArticle": {
+      "title": "Single intramuscular injection of self-amplifying RNA of <i>Nppa</i> to treat myocardial infarction",
+      "authors": [
+        "Kaiyue Zhang",
+        "Hongyan Tao",
+        "Dashuai Zhu",
+        "Zhang Yue",
+        "Shiqi Hu",
+        "Yiping Wu",
+        "Na Yan",
+        "Yilan Hu",
+        "Shuo Liu",
+        "Mengrui Liu",
+        "Torsten Vahl",
+        "Lauren S. Ranard",
+        "Xiao Cheng",
+        "А. Романов",
+        "Jiaming Liu",
+        "Shuai Zhang",
+        "Yuan Li",
+        "Chao Lu",
+        "Ming Shen",
+        "Andrew Lewis",
+        "Ke Huang",
+        "Ke Cheng"
+      ],
+      "doi": "10.1126/science.adu9394",
+      "pages": "edau9394"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adu9394",
+      "doi": "https://doi.org/10.1126/science.adu9394"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-05-19T20:28:39.039210+00:00",
+    "source": "openalex"
+  }
+}

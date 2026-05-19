@@ -1,0 +1,110 @@
+{
+  "id": "cell-2026-05-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "10",
+  "date": "2026-05-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-05-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "跨越種族、地理與年齡的深度多組學分析：人類分子特征的差異與意義",
+      "en": "Deep Multiomics Across Ethnicity, Geography, and Age: Unraveling Human Molecular Diversity"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究首次對來自不同種族與地理區域的健康個體進行全面的多組學分析，揭示了人類分子特征的複雜性與差異性。研究團隊對322名歐洲、東亞和南亞血統的健康個體進行了基因組、轉錄組、蛋白組、代謝組、脂質組、金屬組、糖組和微生物組的分析，發現種族與地理因素對人體分子組成的深刻影響，並揭示了這些差異如何影響代謝、免疫功能和生物老化過程。\n\n【研究問題】\n過去的研究雖然已經開始探索人群間的分子差異，但對種族、地理環境和年齡如何共同影響人體分子組成的理解仍然有限。特別是，不同種族在藥物代謝、自身免疫疾病風險和神經退化途徑方面的分子基礎尚未被系統性研究。這項研究旨在填補這一知識空白，為精準醫學提供更全面的科學依據，特別是在考慮患者背景因素的情況下。\n\n【研究方法】\n研究團隊採用了創新的多組學整合分析方法，收集來自多個大陸的322名健康個體的血液、尿液和糞便樣本。研究涵蓋了八種不同的分子層次：基因組、轉錄組、蛋白組、代謝組、脂質組、金屬組、糖組和微生物組。研究人員應用了統計模型來分析種族、地理因素和年齡對分子特征的影響，並使用介導分析來揭示微生物群、代謝物和基因之間的相互作用網絡。這項研究的方法論創新之處在於其全面性和跨層次的整合分析。\n\n【結果】\n研究發現了多種與種族相關的分子特征，這些特征與宿主代謝、自身免疫疾病風險、藥物代謝和神經退化途徑相關。地理因素被證實會影響生物年齡：東亞人在其祖籍地區表現出較低的生物年齡，而歐洲裔個體在美國/加拿大的生物年齡低於在歐洲時。研究還揭示了膽汁酸在微生物群與脂質之間的介導作用，以及飲食-微生物群-代謝相互作用的種族特异性模式。這些發現為理解種族-環境相互作用提供了重要資源，並為發展更精準的醫療策略奠定了基礎。",
+      "en": "**Summary:** \nThis groundbreaking study presents the first comprehensive multiomics analysis across diverse ethnic and geographical populations, revealing the complex interplay of human molecular diversity. Researchers analyzed samples from 322 healthy individuals of European, East Asian, and South Asian ancestry using eight molecular layers—genomics, transcriptomics, proteomics, metabolomics, lipidomics, metallomics, glycomics, and microbiomics. The study uncovered how ethnicity and geography profoundly affect molecular profiles, particularly in relation to metabolism, immune function, and biological aging, providing critical insights for precision medicine approaches that account for diverse backgrounds.\n\n**Problem:** \nPrevious research had only scratched the surface of how ethnicity, geography, and age collectively shape human molecular composition. Specifically, the molecular foundations underlying ethnic differences in drug metabolism, autoimmune disease risk, and neurodegenerative pathways remained poorly understood. This knowledge gap has significant implications for healthcare disparities and the effectiveness of precision medicine approaches, which have historically been developed primarily from European-ancestry populations, potentially limiting their applicability across diverse global populations.\n\n**Approach:** \nThe researchers employed an innovative integrated multiomics approach, collecting blood, urine, and stool samples from 322 healthy individuals across multiple continents. The study methodology uniquely combined eight molecular profiling techniques to create a comprehensive molecular portrait of each participant. Statistical models were used to analyze the effects of ethnicity, geography, and age on molecular features, while mediation analysis revealed complex interaction networks between gut microbiota, metabolites, and gene expression. The study's methodological strength lies in its unprecedented breadth and integration across multiple molecular layers.\n\n**Results:** \nThe study identified numerous ethnicity-associated molecular features linked to host metabolism, autoimmune disease risk, drug metabolism, and neurodegenerative pathways. Notably, geography significantly influenced biological aging patterns, with East Asians showing lower biological age in their ancestral regions compared to other locations, while individuals of European ancestry exhibited lower biological age in the US/Canada than in Europe. Researchers also discovered mediating effects of bile acids connecting gut microbiota with lipid profiles and identified ethnicity-specific patterns in diet-microbiome-metabolism interactions, many with direct health implications. These findings provide valuable resources for understanding ethnicity-environment interactions and advancing more personalized healthcare strategies."
+    },
+    "keyArticle": {
+      "title": "A comparison of deep multiomics profiles across ethnicity, geography, and age",
+      "authors": [
+        "Nasim Barapour",
+        "John Z. Cao",
+        "Yue Wu",
+        "Shubham Gupta",
+        "Michael R. Hoopmann",
+        "Rui Qin",
+        "Mukul K. Midha",
+        "Myriam Mireault",
+        "Pablo Juanes‐Velasco",
+        "Casey Hanson",
+        "Sara Ahadi",
+        "Emily Higgs",
+        "David Baxter",
+        "Christian Diener",
+        "Orit Dagan‐Rosenfeld",
+        "Daniel Hornburg",
+        "Songjie Che",
+        "Fredrik Edfors",
+        "Stephanie J. Church",
+        "Mohan Babu",
+        "Durga Thota",
+        "Christopher Jin",
+        "Tristan Chou",
+        "Shannon Rego",
+        "Monika Avina",
+        "Lettie McGuire",
+        "Jessi W. Li",
+        "Thomas Karathanos",
+        "Daniel J. Panyard",
+        "Martín A. Acosta Parra",
+        "Aubrey Roberts",
+        "Amarnath K. Ranjit",
+        "Ekanath Rangan",
+        "Jose Juan Almagro Armenteros",
+        "Melanie Ashland",
+        "Kevin Erazo Castillo",
+        "Gavin Traber",
+        "MATTHEW ELLENBERGER",
+        "Ryan Kellogg",
+        "Wenyu Zhou",
+        "Hannes Rost",
+        "Martin Kjellberg",
+        "Tejaswini Mishra",
+        "Charu Kapil",
+        "Ulrike Kusebauch",
+        "Sushmita Patwardhan",
+        "Alicia Landeira‐Viñuela",
+        "Ángela‐Patricia Hernández",
+        "Mikkel Eggert Thomsen",
+        "Maliha Mashkoor",
+        "Thanadol Sutantiwanichkul",
+        "Tea Dodig‐Crnković",
+        "Annika Bendes",
+        "Leo Dahl",
+        "Sean M. Gibbons",
+        "P. Venkat Rangan",
+        "Allan Stensballe",
+        "Jochen M. Schwenk",
+        "Richard D. Unwin",
+        "Manuel Fuentes",
+        "Lekha Sleno",
+        "Robert L. Moritz",
+        "Lara K. Mahal",
+        "Michael P. Snyder"
+      ],
+      "doi": "10.1016/j.cell.2026.04.032",
+      "pages": "3004-3024.e35"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-05-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.04.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.04.032"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-19T20:32:57.070697+00:00",
+    "source": "openalex"
+  }
+}
