@@ -1,0 +1,85 @@
+{
+  "id": "nature-2026-05-06-03",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8115",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-06-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "科學更正：幕上腦室膜瘤異質性研究中的圖表錯誤修正",
+      "en": "Scientific Correction: Fixing Errors in Figures for Supratentorial Ependymoma Heterogeneity Study"
+    },
+    "summary": {
+      "zh": "【總結】\n本研究是一則針對《自然》期刊發表的幕上腦室膜瘤異質性多維分析論文的更正聲明。原研究中的圖1a存在多處錯誤，包括融合基因顏色不匹配、三個樣本錯誤納入、BT165細胞系和PDX性別信息錯誤，以及樣本STEPN-14的scRNA-seq註釋遺漏。研究團隊已修正這些錯誤，強調這些更正並不改變研究的結果與結論，確保了科學數據的準確性。圖1已更新為修正版本，補充表1也相應調整，以反映這些變更。\n\n【研究問題】\n幕上腦室膜瘤是一種罕見的兒童腦腫瘤，其異質性研究對臨床診斷和治療至關重要。科學研究的準確性是確保研究結果可靠性和可重複性的基礎。當研究數據出現錯誤時，即使這些錯誤不影響最終結論，及時更正對維護科學誠信和數據完整性仍至關重要。此更正旨在確保公開的科學資訊精確無誤，讓後續研究人員能基於正確數據進行科學探索。\n\n【研究方法】\n原研究採用多維分析方法研究幕上腦室膜瘤的異質性，包括DNA甲基化分類、單細胞/單細胞核RNA測序和空間轉錄組學。研究使用了患者樣本、細胞系和PDX模型等多種樣本類型。圖1a的oncoplot可視化展示了不同分子亞型的分佈與特徵，包括ZFTA-RELA(n=17)、ZFTA四個不同亞群(n=4,5,8,4)和ST-YAP1(n=4)等分類，以及患者的性別、年齡、取樣方式等臨床資訊。研究團隊使用熱圖呈現了各樣本的分子特徵，包括融合基因類型和甲基化分數(範圍0.4-1.0)。\n\n【結果】\n經過修正後，圖1a準確展示了不同分子亞型的分佈，包括典型和非典型ST-ZFTA亞型，以及ST-YAP1和ST-SE亞型。研究確認了不同亞型之間的甲基化分數差異。研究發現了多種基因融合事件，如ZFTA-MAML2、ZFTA-NCOA2、ZFTA-SS18等，這些融合事件與特定亞型相關。研究完成了61個患者樣本(STEPN-01至STEPN-61)的分析，以及EP1NS、BT165和VBT242等細胞系和PDX模型的分子特徵鑑定。經過更正後的圖表確保了數據的準確性，為未來研究提供可靠基礎。",
+      "en": "**Summary:**\nThis article is a correction notice for a paper published in Nature on multidimensional profiling of heterogeneity in supratentorial ependymomas. The original study's Figure 1a contained several errors, including mismatched colors for fusion genes, three incorrectly included samples, incorrect sex information for the BT165 cell line and PDX, and missing scRNA-seq annotation for sample STEPN-14. The research team has corrected these errors, emphasizing that these corrections do not affect the study's results or conclusions, ensuring the scientific accuracy of the data. Figure 1 has been updated to the corrected version, and Supplementary Table 1 has also been adjusted to reflect these changes.\n\n**Problem:**\nSupratentorial ependymomas are rare pediatric brain tumors, and understanding their heterogeneity is crucial for clinical diagnosis and treatment. The accuracy of scientific research is fundamental to ensuring the reliability and reproducibility of results. When errors appear in research data, even if they don't affect the final conclusions, timely corrections are essential for maintaining scientific integrity and data completeness. This correction aims to ensure that publicly available scientific information is accurate, allowing subsequent researchers to conduct scientific exploration based on correct data.\n\n**Approach:**\nThe original study employed multidimensional analysis methods to study the heterogeneity of supratentorial ependymomas, including DNA methylation classification, single-cell/single-nucleus RNA sequencing, and spatial transcriptomics. The study utilized multiple sample types including patient samples, cell lines, and PDX models. Figure 1a's oncoplot visualization illustrated the distribution and characteristics of different molecular subtypes, including ZFTA-RELA (n=17), four distinct ZFTA clusters (n=4,5,8,4), and ST-YAP1 (n=4), along with clinical information such as patient sex, age, and sampling methods. The research team used heat maps to present the molecular characteristics of each sample, including fusion gene types and methylation scores (ranging from 0.4-1.0).\n\n**Results:**\nAfter correction, Figure 1a accurately displays the distribution of different molecular subtypes, including canonical and non-canonical ST-ZFTA subtypes, as well as ST-YAP1 and ST-SE subtypes. The study confirmed differences in methylation scores between subtypes. The research identified various gene fusion events such as ZFTA-MAML2, ZFTA-NCOA2, and ZFTA-SS18, which are associated with specific subtypes. The study completed analysis of 61 patient samples (STEPN-01 to STEPN-61) and molecular characterization of cell lines and PDX models including EP1NS, BT165, and VBT242. The corrected figures ensure data accuracy, providing a reliable foundation for future research."
+    },
+    "keyArticle": {
+      "title": "Author Correction: Multidimensional profiling of heterogeneity in supratentorial ependymomas",
+      "authors": [
+        "Daeun Jeong",
+        "Sara G. Danielli",
+        "Kendra K. Maaß",
+        "David R. Ghasemi",
+        "Svenja K. Tetzlaff",
+        "Ekin Reyhan",
+        "Li Jiang",
+        "Shashank Katiyar",
+        "Julia Sundheimer",
+        "Costanza Lo Cascio",
+        "Sina Neyazi",
+        "Carlos Alberto Oliveira de Biagi-Junior",
+        "Elsa Couvillon",
+        "Sophia Castellani",
+        "Maria Pazyra-Murphy",
+        "Matthew Mullally",
+        "Marc Philipp Dehler",
+        "Bernhard Englinger",
+        "Andrezza Nascimento",
+        "Gustavo Alencastro Veiga Cruzeiro",
+        "Joana G. Marques",
+        "Rebecca D. Haase",
+        "Cuong M. Nguyen",
+        "Alicia-Christina Baumgartner",
+        "Jacob S Rozowsky",
+        "Olivia A. Hack",
+        "McKenzie L. Shaw",
+        "Daniela Lötsch-Gojo",
+        "Katharina Bruckner",
+        "Andrey Korshunov",
+        "Stefan M. Pfister",
+        "Marcel Kool",
+        "Tomasz J. Nowakowski",
+        "Johannes Gojo",
+        "Lissa Baird",
+        "Sanda Alexandrescu",
+        "Kristian W. Pajtler",
+        "Varun Venkataramani",
+        "Mariella G. Filbin"
+      ],
+      "doi": "10.1038/s41586-026-10602-8",
+      "pages": "E9"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-06-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10602-8",
+      "doi": "https://doi.org/10.1038/s41586-026-10602-8"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-22T20:46:21.319505+00:00",
+    "source": "openalex"
+  }
+}

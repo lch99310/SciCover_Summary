@@ -1,0 +1,71 @@
+{
+  "id": "cell-2026-04-15",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "10",
+  "date": "2026-04-15",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "癌基因與腫瘤抑制力在良性至惡性轉變的幹細胞微環境中交匯：胰腺癌早期發生的關鍵窗口",
+      "en": "Cancer's Crossroads: Where Oncogenes and Tumor Suppressors Converge at the Precancerous Stage"
+    },
+    "summary": {
+      "zh": "【總結】研究人員發現，在胰腺癌從良性到惡性轉變的過程中，存在一個特殊的「前驅細胞微環境」，在此處致癌基因（如KRAS）與腫瘤抑制基因（如p53）程序同時激活。這個發現揭示了癌症發生的一個關鍵窗口，為早期干預提供了新靶點。通過單細胞與空間轉錄組學分析，研究團隊證實了暫時性抑制KRAS可消除這些前驅細胞並延緩惡性轉變，而p53抑制則促進前驅細胞擴張和免疫特權微環境形成。這項研究徹底改變了我們對癌症早期發生機制的理解，為預防和治療策略開闢了新途徑。\n\n【研究問題】過去研究一直未能精確確定癌症從良性前驅病變轉變為惡性腫瘤的具體機制和時間點。傳統觀點認為致癌基因和抑制基因的作用是相互排斥的，但本研究挑戰了這一觀點，提出它們可能在特定細胞群體中協同作用。研究團隊致力於解開這個「良性到惡性轉變」的謎團，找出這一轉變過程中的關鍵驅動因素和可能的干預時機。\n\n【研究方法】研究團隊結合了單細胞RNA測序和空間轉錄組學技術，分析了一種能自發發生p53突變的小鼠胰腺癌模型。他們開發了獨特的空間分析框架，能夠精確追蹤組織重塑過程。通過誘導胰腺炎、使用KRAS抑制劑、p53基因敲降等實驗手段，他們觀察了不同條件下細胞狀態和微環境的變化。研究還採用了多重熒光免疫組織化學、單分子熒光原位雜交等技術，在人類慢性胰腺炎樣本中驗證了發現。\n\n【結果】研究人員發現，在KRAS突變細胞中，存在一個稀有的前驅細胞群體，其同時激活致癌和腫瘤抑制程序，並表現出類衰老反應。這些細胞形成的微環境在腫瘤進展中經歷逐步重塑，最終類似侵入性胰腺癌。當抑制KRAS時，前驅細胞被消耗，微環境瓦解，惡性轉變延遲。相反，p53抑制促使前驅細胞擴張、上皮-間質轉化和免疫特權微環境形成。人類胰腺炎樣本中存在類似的前驅微環境，證實了發現的臨床相關性。這表明前驅狀態位於致癌突變、細胞可塑性和組織重塑的交匯點，是干預惡性轉變的關鍵窗口。",
+      "en": "**Summary:** Researchers discovered a unique 'progenitor niche' in the transition from benign to malignant pancreatic cancer where oncogenes (like KRAS) and tumor suppressors (like p53) are co-activated. This finding reveals a critical window for early intervention, challenging the traditional view that these forces act exclusively. By combining single-cell and spatial transcriptomics, the team showed that transient KRAS inhibition depletes these progenitor cells and delays malignancy, while p53 suppression promotes progenitor expansion and immune-privileged niche formation. This research fundamentally transforms our understanding of early cancer development, opening new avenues for prevention and therapeutic strategies.\n\n**Problem:** Previous research failed to precisely identify the mechanisms and timing of cancer's transition from benign precancerous lesions to malignant tumors. The conventional wisdom held that oncogenic and suppressive forces act mutually exclusively, but this study challenges that notion, suggesting they may collaborate in specific cell populations. The research team sought to unravel this 'benign-to-malignant transition' puzzle, identifying key drivers and potential intervention points in this critical process.\n\n**Approach:** The team combined single-cell RNA sequencing and spatial transcriptomics to analyze a mouse model of pancreatic cancer with spontaneous p53 loss. They developed a unique spatial analysis framework to precisely track tissue reorganization. Through pancreatitis induction, KRAS inhibition, p53 knockdown, and other experimental manipulations, they observed cellular state and microenvironment changes under different conditions. The research also utilized multiplex immunofluorescence and single-molecule FISH to validate findings in human chronic pancreatitis samples.\n\n**Results:** Researchers identified a rare progenitor cell population among KRAS-mutant cells that simultaneously activates oncogenic and tumor-suppressive programs while exhibiting senescence-like responses. The niche formed by these cells undergoes stepwise remodeling during tumor progression, eventually resembling invasive pancreatic cancer. When KRAS was inhibited, progenitor cells were depleted, the niche dismantled, and malignancy delayed. Conversely, p53 suppression drove progenitor cell expansion, epithelial-mesenchymal reprogramming, and immune-privileged niche formation. Similar progenitor niches found in human pancreatitis samples confirmed clinical relevance, demonstrating that the progenitor state represents a convergence point of oncogenic mutations, cellular plasticity, and tissue remodeling—a critical window for intercepting malignancy."
+    },
+    "keyArticle": {
+      "title": "Oncogenic and tumor-suppressive forces converge on a progenitor niche at the benign-to-malignant transition",
+      "authors": [
+        "Jose Reyes",
+        "Isabella Del Priore",
+        "Andrea C. Chaikovsky",
+        "Nikhita Pasnuri",
+        "Ahmed M. Elhossiny",
+        "Jin Park",
+        "Philipp Weiler",
+        "Tobias Krause",
+        "Andrew Moorman",
+        "Catherine Snopkowski",
+        "Meril Takizawa",
+        "Cassandra Burdziak",
+        "Nalin Ratnayeke",
+        "Ignas Masilionis",
+        "Yu-Jui Ho",
+        "Ronan Chaligné",
+        "Paul B. Romesser",
+        "Aveline Filliol",
+        "Tal Nawy",
+        "John P. Morris",
+        "Zhen Zhao",
+        "Marina Pasca Di Magliano",
+        "Direna Alonso‐Curbelo",
+        "Dan Peer",
+        "S Lowe"
+      ],
+      "doi": "10.1016/j.cell.2026.03.032",
+      "pages": "2875-2897.e53"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.032"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-22T20:47:41.049149+00:00",
+    "source": "openalex"
+  }
+}
