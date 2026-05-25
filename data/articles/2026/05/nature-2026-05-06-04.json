@@ -1,0 +1,50 @@
+{
+  "id": "nature-2026-05-06-04",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8115",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-06-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "前震如何決定主震的誕生：地震啟動的關鍵瞬間",
+      "en": "Foreshocks: The Hidden Architects of Earthquake Nucleation"
+    },
+    "summary": {
+      "zh": "【總結】本研究首次揭示前震如何主導地震核化過程，改變了傳統地震理論對地震啟動的認知。研究團隊透過精密實驗與理論框架證實，前震誘導的滑動瞬態（Vmin）不僅決定了主震的核化時間，還預測了核化持續時間與空間尺度。這項發現突破了傳統模型對地震啟動的靜態理解，揭示了地震核化是一個動態、速率依賴的過程，為預測地震啟動提供了全新視角。【研究問題】傳統地震理論常假設核化源於緩慢的準靜態滑動，忽略了衝擊性前驅事件的作用。過去研究無法解釋為何有些地震前有明顯前震與核化階段，而有些則幾乎沒有可偵測的前驅活動。關鍵問題包括：所有地震是否都經歷準靜態核化？前震如何影響核化？核化滑動距離是否與動態破裂相同？【研究方法】研究團隊開創性地設計了雙軸加載實驗裝置，使用PMMA材料進行摩擦黏滑實驗。實驗中精確記錄了震前微小滑動事件如何引發地震核化過程。他們結合速率與狀態摩擦理論，建立了一類Griffith破裂框架的運動方程（EoM），將實驗觀測與理論模型相連結。最後，將此框架擴展至自然地震分析，檢驗理論預測。【結果】實驗發現，前震大小與臨時滑動速度（Vmin）呈正相關，較大前震產生較高Vmin值。Vmin值準確預測了核化持續時間（Δtc）和核化長度（ℓc）。前震滑動量從0.72到1.86微米變化時，核化持續時間可從12.7毫秒縮短至0.6毫秒。理論模型預測了三種核化情景：小前震導致破裂停止、中等前震導致延遲動態破裂、大前震直接轉為動態破裂。研究估算出真實地震核化階段的特徵滑動距離為0.3-3.0毫米，比動態破裂推斷的值小數個數量級。",
+      "en": "**Summary:** This groundbreaking research reveals how foreshocks fundamentally control earthquake nucleation, revolutionizing our understanding of earthquake initiation. The research team demonstrates through sophisticated experiments and theoretical framework that slip transients induced by foreshocks not only determine mainshock nucleation timing but also predict both nucleation duration and spatial length. This discovery challenges traditional static models of earthquake nucleation, revealing it as a dynamic, rate-dependent process with profound implications for earthquake predictability. The findings provide a new paradigm for understanding how earthquakes begin and evolve, potentially opening new avenues for early detection systems. **Problem:** Traditional earthquake models typically assume nucleation arises from slow, quasi-static slip governed primarily by fault weakening, often neglecting impulsive precursory events like foreshocks. This created a fundamental gap in explaining why some earthquakes exhibit prolonged nucleation phases with detectable foreshocks while others show virtually no precursory activity. Key unanswered questions included: Do all earthquakes undergo quasi-static nucleation? How do foreshocks affect nucleation? Does the characteristic slip distance for dynamic rupture apply to nucleation? **Approach:** The researchers conducted innovative biaxial loading experiments using PMMA materials to capture the nucleation process with unprecedented precision. Their experimental setup included sophisticated strain gauges, displacement sensors, accelerometers, and high-speed cameras to track the evolution from foreshock to dynamic rupture. They developed a theoretical framework based on rate-and-state friction, formulating a Griffith-like equation of motion that links frictional parameters to nucleation dynamics. This framework was then extended to analyze natural earthquakes, creating a bridge between laboratory observations and real-world seismic events. **Results:** The experiments revealed a clear correlation between foreshock size and the minimum transient sliding velocity (Vmin), with larger foreshocks producing higher Vmin values. This Vmin accurately predicted both nucleation duration (Δtc) and nucleation length (ℓc). When foreshock slip varied from 0.72 to 1.86 micrometers, nucleation duration ranged from 12.7 to 0.6 milliseconds. The theoretical model predicted three distinct nucleation scenarios: rupture arrest with small foreshocks, delayed dynamic rupture with moderate foreshocks, and immediate transition to dynamic rupture with large foreshocks. Most significantly, the research constrained realistic characteristic nucleation slip distances for natural earthquakes to 0.3-3.0 mm—orders of magnitude smaller than values previously inferred for dynamic rupture."
+    },
+    "keyArticle": {
+      "title": "Foreshock-induced slip transients set mainshock nucleation timing",
+      "authors": [
+        "Barnaby Fryer",
+        "Dmitry Garagash",
+        "Mathias Lebihain",
+        "François Passelègue"
+      ],
+      "doi": "10.1038/s41586-026-10497-5",
+      "pages": "752-757"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-06-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10497-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10497-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-25T20:23:58.294876+00:00",
+    "source": "openalex"
+  }
+}

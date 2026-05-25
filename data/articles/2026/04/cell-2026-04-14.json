@@ -1,0 +1,66 @@
+{
+  "id": "cell-2026-04-14",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "10",
+  "date": "2026-04-14",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腦血管的三重變奏：解鎖新生鼠大腦血管發育的時空密碼",
+      "en": "The Triple Rhapsody of Brain Vasculature: Unlocking the Spatiotemporal Code of Postnatal Mouse Brain Development"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭開了新生鼠大腦血管發育的三重變奏，創建了LAMBADA發育圖譜，首次精確描繪了出生後腦血管系統的演進過程。研究人員發現血管發育經歷三個明確階段：等比例擴展期、區域特化期和穩定期，這些階段與神經元成熟和突觸形成密切協調。這項突破性研究不僅填補了腦血管發育研究的空白，更為理解神經血管互動提供了全新視角，對於腦部疾病研究和神經發育異常的預防具有重要意義。\n\n【研究問題】\n過去科學家對胚胎期腦血管發育已有一定了解，但對於出生後腦血管如何與神經迴路成熟協同發育的認識仍然不足。傳統研究方法難以捕捉腦血管在發育過程中的時空動態特徵，且缺乏高解析度的整合分析工具。解開這個謎題至關重要，因為腦血管系統的不成熟與多種神經發育疾病相關，包括腦血管畸形、認知障礙和神經退行性疾病。\n\n【研究方法】\n研究團隊開創性地建立了LAMBADA圖譜結合光學透明化技術與空間轉錄組學，以高時間解析度註冊和標註發育中的小鼠腦組織。他們優化了iDISCO+免疫標記技術，使用結合抗體最小化擴散梯度，並開發了AI驗證算法來識別血管終端。通過整合CD31/podocalyxin和SM22免疫標記的血管數據，以及多個時間點的空間轉錄組學數據，研究人員創建了從P3到P60的腦血管發育全景圖。此外，他們還應用MRI掃描校正體積和距離測量，確保數據的準確性。\n\n【結果】\n研究明確確定了三個血管發育階段：出生後3-7天的等比例擴展期，血管密度在各腦區均勻增加；7-21天的區域特化期，腦區分為兩個不同增長速度的群組，其中感覺皮層和聽覺皮層血管出現方向性特化；以及21天後的穩定期，血管網絡與突觸共同穩定。數據顯示，在P12時期血管分支點密度達到高峰，同時ERG+內皮細胞密度與血管密度開始呈現高相關性。研究還發現促血管生成因子Vegfa在早期階段表達最為活躍，而與神經元成熟相關的轉錄程序則在後期階段與血管重塑密切相關。",
+      "en": "**Summary:**\nThis study reveals the triple rhapsody of brain vasculature development, creating the LAMBADA atlas that precisely maps the evolution of the cerebral vascular system postnatally. Researchers identified three distinct phases of postnatal vascular development: an isometric expansion phase with uniform growth across brain regions, a regional specialization phase coinciding with neuronal maturation, and a refinement phase marked by stabilization of both vascular networks and synapses. This groundbreaking research not only fills a critical gap in understanding brain vascular development but provides a new lens for examining neurovascular interactions, with significant implications for brain disease research and the prevention of neurodevelopmental abnormalities.\n\n**Problem:**\nWhile scientists had gained some understanding of embryonic brain vascular development, knowledge of how postnatal cerebral vasculature coordinates with neural circuit maturation remained limited. Traditional methods struggled to capture the spatiotemporal dynamics of vascular development, and integrated analysis tools with high resolution were lacking. Solving this puzzle is crucial because immature cerebral vasculature is associated with numerous neurodevelopmental disorders, including cerebrovascular malformations, cognitive impairments, and neurodegenerative diseases.\n\n**Approach:**\nThe research team pioneered the development of the LAMBADA atlas, integrating tissue clearing techniques with spatial transcriptomics to register and annotate developing mouse brains with high temporal resolution. They optimized the iDISCO+ immunolabeling technique using conjugated antibodies to minimize diffusion gradients and developed AI validation algorithms to identify vessel endpoints. By integrating CD31/podocalyxin and SM22 immunolabeled vasculature data with spatial transcriptomics across multiple time points, the researchers created a comprehensive map of brain vascular development from P3 to P60. Additionally, they applied MRI scans to correct volume and distance measurements, ensuring data accuracy.\n\n**Results:**\nThe study clearly delineated three phases of vascular development: the isometric expansion phase from postnatal days 3-7 with uniform vascular density increases across brain regions; the regional specialization phase from 7-21 days where brain regions separated into two groups with different growth rates, and sensory/auditory cortices developed directional vascular specialization; and the refinement phase after 21 days where both vascular networks and synapses stabilized. Data showed that vascular branch point density peaked at P12 while ERG+ endothelial cell density began showing high correlation with vessel density. The research also found that pro-angiogenic factors like Vegfa were most active in early phases, while neuron-maturity-related transcription programs closely correlated with vascular remodeling in later stages."
+    },
+    "keyArticle": {
+      "title": "The spatiotemporal dynamics of postnatal vascularization in the mouse brain",
+      "authors": [
+        "Elisa de Launoit",
+        "Sophie Skriabine",
+        "Etienne Doumazane",
+        "Mathilde Bizou",
+        "Rémi Pommé",
+        "Gabrièle Lienhard",
+        "Domitille Rajot",
+        "Alina Mikhailenko",
+        "Alba Vieites-Prado",
+        "Mathilde Lannes",
+        "Natalia Fabiano",
+        "Louise Mathé",
+        "Gaël Cagnone",
+        "Laura Mouton",
+        "Mathieu D. Santin",
+        "Séverine Candelier",
+        "Patrícia Gaspar",
+        "Charly V. Rousseau",
+        "Alexandre Dubrac",
+        "Nicolas Renier"
+      ],
+      "doi": "10.1016/j.cell.2026.03.013",
+      "pages": "3107-3123.e18"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.013",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.013"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-25T20:26:04.600232+00:00",
+    "source": "openalex"
+  }
+}

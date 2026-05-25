@@ -1,0 +1,65 @@
+{
+  "id": "science-2026-05-21",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6800",
+  "date": "2026-05-21",
+  "coverImage": {
+    "url": "data/images/science/science-2026-05-21-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "科學前沿：跨越多學科的突破性研究",
+      "en": "Science Frontiers: Breakthrough Research Across Multiple Disciplines"
+    },
+    "summary": {
+      "zh": "【總結】研究人員開發了一種新型催化劑系統，能夠同時優化光吸收性和選擇性，為有機合成提供了全新的可能性。這項突破性技術通過引入第二個「橋接催化劑」，成功解決了長期以來光催化反應中的兩難困境。同時，科學家首次成功觀測到系外行星大氣層的晨昏差異，發現其晨側大氣層多云而昏側大氣層清澈且有水吸收特徵。生物地理學研究揭示了全球植物多樣性的起源，證實原地物種形成是自白堩紀以來生物多樣性的主要驅動力。此外，研究還揭示了永久凍土融化如何導致溪流酸化和嚴重的生態破壞，以及較大獎勵能顯著加速小鼠學習過程的神經機制。\n\n【研究問題】傳統光催化劑面臨一個根本性挑戰：難以同時優化其光吸收能力和選擇性。系外行星研究方面，過去只能獲得晨昏兩側平均的光譜數據，但行星兩側的大氣狀態可能存在顯著差異。生物地理學上，全球不同地區植物多樣性差異的成因長期以來缺乏全面分析。氣候變暖導致永久凍土融化，但其對生態系統的影響機制尚不清楚。神經科學領域，傳統學習理論認為最小化獎勵能最大化試驗次數，但獎勵大小對學習的影響缺乏系統研究。\n\n【研究方法】有機化學研究團隊設計了一種雙催化劑系統，其中第一個催化劑負責吸收光能，第二個「橋接催化劑」傳遞能量並誘導立體選擇性。天文學家觀測了圍繞明亮恒星運行的氣態巨行星凌日現象，分離出晨昏兩側的光譜數據。生物地理學者採用生物地理隨機映射技術分析七大生物地理區域的植物多樣性模式。地質學家在加拿大育空-馬更些河流域記錄溪流化學和生態變化，分析硫化礦物氧化過程。神經科學家測試不同獎勵大小對小鼠學習的影響，並使用光遺傳學技術延長紋狀體多巴胺活動。\n\n【結果】有機化學研究成功實現了對映選擇性環加成反應，證明雙催化劑系統可行。天文學家發現系外行星晨側多云、昏側清澈有水吸收特徵，挑戰了平均光譜測量方法。生物地理研究確認原地物種形成是生物多樣性主要來源，特別是新熱帶地區。地質研究發現融化凍土中硫化礦物氧化導致溪水酸化和金屬濃度升高，對生物產生毒性。神經科學證實較大獎勵加速學習，紋狀體多巴胺反應與獎勵大小成正比。這些發展分別為化學合成、天文觀測、生物保護、氣候適應和教育訓練提供了新方向。",
+      "en": "**Summary:** Researchers have developed a novel catalytic system that simultaneously optimizes light-absorbing properties and selectivity, opening new possibilities for organic synthesis. This breakthrough technology introduces a \"bridging catalyst\" that channels energy from the light absorber to the substrate while inducing stereoselectivity. Scientists have also successfully observed the morning-evening difference in an exoplanet's atmosphere for the first time, finding that its morning side is cloudy while the evening side is clear with water absorption features. Biogeographical research reveals that in situ speciation has been the primary driver of biodiversity since the end of the Cretaceous, particularly in tropical regions. Additionally, the study shows how melting permafrost leads to stream acidification and severe ecological damage, and how larger rewards significantly accelerate learning in mice through increased striatal dopamine release.\n\n**Problem:** Traditional photocatalysts face a fundamental challenge: the difficulty of simultaneously optimizing their light-absorbing capabilities and selectivity. In exoplanet research, scientists could only obtain averaged spectral data from both morning and evening sides, but significant differences may exist between the two sides. Biogeographically, the causes of striking variations in plant diversity across different regions have lacked comprehensive analysis. As permafrost melts due to climate warming, its impacts on ecosystems remain unclear. Neuroscience has questioned whether minimizing rewards to maximize trials is truly optimal for learning.\n\n**Approach:** The chemistry team designed a dual-catalyst system where the first catalyst absorbs light energy while the second \"bridging catalyst\" transfers energy to the substrate and induces stereoselectivity. Astronomers observed a transit of a gas giant exoplanet orbiting a bright star, extracting separate spectra for morning and evening sides. Biogeographers employed biogeographical stochastic mapping to analyze plant diversity patterns across seven major biogeographic realms. Geoscientists documented changes in stream chemistry and ecology in the Yukon-Mackenzie watershed, analyzing how sulfide mineral oxidation affects water chemistry. Neuroscientists tested how different reward sizes affect learning in mice and used optogenetics to extend striatal dopamine activity.\n\n**Results:** The chemistry study successfully achieved enantioselective cycloaddition reactions, proving the feasibility of the dual-catalyst system. Astronomers found that the morning atmosphere of an exoplanet is cloudy while the evening atmosphere is clear with water absorption features, challenging methods using averaged spectra. Biogeographical research confirmed that in situ speciation is the largest contributor to biodiversity, especially in the Neotropics. Geological studies revealed that oxidation of sulfide minerals in melting permafrost leads to stream acidification and elevated metal concentrations that are toxic to organisms. Neuroscience demonstrated that larger rewards accelerate learning, with striatal dopamine responses scaling with reward size. These findings respectively offer new directions for chemical synthesis, astronomical observation, biodiversity conservation, climate adaptation, and education."
+    },
+    "keyArticle": {
+      "title": "In Science Journals",
+      "authors": [
+        "Jesse Smith",
+        "Corinne Simonti",
+        "Keith T. Smith",
+        "Jake S. Yeston",
+        "Bianca Lopez",
+        "Jelena Stajic",
+        "Leoma Bere",
+        "Michelle L. Oyen",
+        "Stella M. Hurtley",
+        "Mattia Maroso",
+        "Peter Stern",
+        "Angela Hessler",
+        "Phil Szuromi",
+        "Sarah H. Ross",
+        "Unnati Sonawala",
+        "Madeleine Seale",
+        "John Foley",
+        "Shang‐Ping Xie",
+        "Dorothy Hallberg"
+      ],
+      "doi": "10.1126/science.aei9231",
+      "pages": "828-830"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-05-21-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aei9231",
+      "doi": "https://doi.org/10.1126/science.aei9231"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-25T20:23:06.097707+00:00",
+    "source": "openalex"
+  }
+}

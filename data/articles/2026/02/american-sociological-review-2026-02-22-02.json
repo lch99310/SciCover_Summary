@@ -1,0 +1,44 @@
+{
+  "id": "american-sociological-review-2026-02-22-02",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "2",
+  "date": "2026-02-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "社會安全網如何重塑美國低收入家庭的信貸命運：各州政策的隱形力量",
+      "en": "The State's Safety Net: How Social Programs Shape Credit Choices for America's Poor"
+    },
+    "summary": {
+      "zh": "美國低收入家庭在經濟風險中穿梭，依賴著公共福利與私人信貸構成的複雜安全網。這項突破性研究揭示了州級安全網強度如何深刻影響脆弱人口的借貸模式。研究團隊分析全國性信用記錄數據，將其與各州福利計劃連結後發現，社會安全網較為完善的州，其居民更少依賴掠奪性的發薪日貸款，而更有機會獲得主流信貸產品。\n\n在美國整體社會安全網相對不足的背景下，各州間的差異構成了自然實驗場，展示了社會支持計劃如何緩解金融脆弱性。研究關鍵發現是：州級安全網強度不僅影響人們是否借款，更決定了他們選擇何種信貸工具—這一區別對金融公平性具有深遠影響。研究結果清晰地警示：限制社會安全網的舉措可能將低收入家庭推向更昂貴的借貸形式，進一步加劇利息與費用對經濟弱勢群體的不平等負擔。",
+      "en": "Low-income households in the United States navigate economic uncertainty through a complex interplay of public assistance and private credit. This groundbreaking study reveals how the strength of state-level safety nets significantly influences borrowing patterns among vulnerable populations. By analyzing comprehensive credit record data linked to state benefit programs, researchers found that residents in states with more robust safety nets are less likely to rely on predatory payday loans and more likely to access mainstream credit products.\n\nThe study's findings challenge conventional wisdom about the relationship between welfare and credit markets. While the overall American safety net remains relatively inadequate, the variation across states creates a natural experiment that demonstrates how social support programs can mitigate financial vulnerability. Importantly, the research shows that state-level safety net strength affects not merely whether people borrow, but what types of credit instruments they use—a critical distinction with profound implications for financial equity.\n\nThe implications are clear: efforts to restrict social safety nets are likely to push low-income households toward more expensive forms of credit, exacerbating the unequal burden of interest and fees that already plague economically disadvantaged communities. This research underscores the essential role of state-level policy in shaping financial outcomes and highlights the need for comprehensive approaches to economic security."
+    },
+    "keyArticle": {
+      "title": "Unsecured Credit and the Social Safety Net in U.S. States",
+      "authors": [
+        "Alec P. Rhodes",
+        "Davon Norris",
+        "Jason N. Houle",
+        "Rachel E. Dwyer",
+        "Sarah K. Bruch",
+        "Lawrence M. Berger"
+      ],
+      "doi": "10.1177/00031224251411563",
+      "pages": "349-377"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224251411563",
+      "doi": "https://doi.org/10.1177/00031224251411563"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-05-25T20:29:44.095117+00:00",
+    "source": "openalex"
+  }
+}

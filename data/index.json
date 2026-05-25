@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-22T20:50:00.064420+00:00",
+  "lastUpdated": "2026-05-25T20:29:44.123160+00:00",
   "articles": [
+    {
+      "id": "science-2026-05-21",
+      "journal": "Science",
+      "date": "2026-05-21",
+      "path": "articles/2026/05/science-2026-05-21.json",
+      "title_zh": "科學前沿：跨越多學科的突破性研究",
+      "title_en": "Science Frontiers: Breakthrough Research Across Multiple Disciplines",
+      "cover_url": "data/images/science/science-2026-05-21-cover.jpg"
+    },
     {
       "id": "science-2026-05-14",
       "journal": "Science",
@@ -27,6 +36,15 @@
       "title_zh": "科學更正：幕上腦室膜瘤異質性研究中的圖表錯誤修正",
       "title_en": "Scientific Correction: Fixing Errors in Figures for Supratentorial Ependymoma Heterogeneity Study",
       "cover_url": "data/images/nature/nature-2026-05-06-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-05-06-04",
+      "journal": "Nature",
+      "date": "2026-05-06",
+      "path": "articles/2026/05/nature-2026-05-06-04.json",
+      "title_zh": "前震如何決定主震的誕生：地震啟動的關鍵瞬間",
+      "title_en": "Foreshocks: The Hidden Architects of Earthquake Nucleation",
+      "cover_url": "data/images/nature/nature-2026-05-06-04-cover.jpg"
     },
     {
       "id": "nature-2026-05-06",
@@ -198,6 +216,15 @@
       "title_zh": "神經網路模擬器革命：熱電發電機設計的千倍加速",
       "title_en": "Neural Network Emulator Revolutionizes Thermoelectric Generator Design with 100x Speed",
       "cover_url": "data/images/nature/nature-2026-04-15-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-14",
+      "journal": "Cell",
+      "date": "2026-04-14",
+      "path": "articles/2026/04/cell-2026-04-14.json",
+      "title_zh": "腦血管的三重變奏：解鎖新生鼠大腦血管發育的時空密碼",
+      "title_en": "The Triple Rhapsody of Brain Vasculature: Unlocking the Spatiotemporal Code of Postnatal Mouse Brain Development",
+      "cover_url": "data/images/cell/cell-2026-04-14-cover.jpg"
     },
     {
       "id": "science-2026-04-09-02",
@@ -794,6 +821,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-02-23-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-02-22-02",
+      "journal": "American Sociological Review",
+      "date": "2026-02-22",
+      "path": "articles/2026/02/american-sociological-review-2026-02-22-02.json",
+      "title_zh": "社會安全網如何重塑美國低收入家庭的信貸命運：各州政策的隱形力量",
+      "title_en": "The State's Safety Net: How Social Programs Shape Credit Choices for America's Poor",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2026-02-22",
       "journal": "American Sociological Review",
       "date": "2026-02-22",
@@ -870,9 +906,9 @@
       "journal": "Political Geography",
       "date": "2026-02-18",
       "path": "articles/2026/02/political-geography-2026-02-18-02.json",
-      "title_zh": "當登山者穿越邊界：庫德斯坦山區旅遊的主權身體與日常地緣政治",
-      "title_en": "When Hikers Cross Borders: How Mountain Tourism Reshapes Kurdistan's Geopolitics",
-      "cover_url": ""
+      "title_zh": "從家到山巔：伊拉克庫爾德斯坦山岳旅遊中的日常地緣政治與主權身體",
+      "title_en": "From Home to Summit: Sovereign Bodies and the Everyday Geopolitics of Mountain Tourism in Iraqi Kurdistan",
+      "cover_url": "data/images/political-geography/political-geography-2026-02-18-02-cover.jpg"
     },
     {
       "id": "political-geography-2026-02-18-03",
