@@ -1,0 +1,50 @@
+{
+  "id": "nature-2026-05-20",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8116",
+  "date": "2026-05-20",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-20-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "城市風暴的多元響應：解開城市化如何影響不同類型暴雨之謎",
+      "en": "Divergent Urban Storm Responses: How City Development Affects Different Types of Rainfall"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究突破性地解開了長期以來關於城市化如何影響降雨的爭議。研究團隊透過分析德州四大城市23年間超過4萬場暴雨的雷達數據，首次依據風暴類型將其分為五類，發現城市對不同風暴類型的影響截然不同。此研究不僅補足了氣候模型中的關鍵空白，更為快速成長城市的氣候適應與防災規劃提供了科學依據，標誌著城市氣候研究從「城市濕島/乾島」傳統模型躍升至更精準的風暴類型特定分析。\n\n【研究問題】\n過去研究對城市化如何影響降雨產生矛盾結果：有些城市觀測到降雨增強，有些則呈現減弱。這些不一致性主要源於先前研究未能區分不同類型風暴的獨特響應機制。雖然城市熱島效應對溫度的影響已被充分理解，但其對降雨的複雜動態影響仍難以準確模擬，導致氣候模型對城市降水的預測不準確。這對於人口稠密且易受極端事件影響的城市構成嚴重挑戰。\n\n【研究方法】\n研究團隊採用了創新的基於事件的分析方法，使用GridRad三維雷達反射率數據集（1995-2017年），精確識別並分類了超過4萬場暖季風暴。他們將風暴分為五類：單細胞風暴、孤立風暴、冷鋒風暴、暖鋒風暴和熱帶系統。研究團隊定義了城市及其周邊四個鄉村對比區域，並使用統計方法量化城市與鄉村風暴發生的差異。此外，他們還進行了週末與平日對比，以探討人為活動對風暴發展的影響。\n\n【結果】\n研究發現局部尺度單細胞風暴和孤立風暴在城市地區頻率增加7-31%，尤其在夜間更為顯著。這與週末-平日對比結果一致，顯示人為活動影響風暴發展。與此相反，冷鋒風暴在城市上空強度減弱16-28%，而暖鋒風暴則呈現反射率增強。熱帶系統雖然頻率和強度無一致性變化，但高反射率網格單元向較低高度偏移。這些發現揭示了城市熱島效應和地表粗糙度如何以不同方式影響不同類型風暴，為精準預測城市極端降水和提升城市韌性規劃提供了科學基礎。",
+      "en": "**Summary:**\nThis research breakthrough resolves long-standing debates about how urbanization affects rainfall. By analyzing over 40,000 warm-season storms across four Texas cities using 23 years of radar data, the researchers classified storms into five distinct types and discovered that urban impacts vary dramatically across these categories. This study fills a critical gap in climate models and provides scientific foundations for climate adaptation and resilience planning in rapidly growing cities, marking a significant advancement from traditional \"urban wet or dry island\" models to more precise, storm-specific analyses.\n\n**Problem:**\nPrevious studies reported contradictory findings about urban effects on precipitation, with some cities showing rainfall enhancement and others suppression. These inconsistencies stemmed from researchers' failure to distinguish how different storm types respond uniquely to urbanization. While urban heat island effects on temperature are well understood, the complex dynamics of urban influences on rainfall remain poorly captured in climate models, leading to inaccurate precipitation predictions for cities—especially concerning given their dense populations and vulnerability to extreme events.\n\n**Approach:**\nThe researchers employed an innovative event-based analysis using GridRad three-dimensional radar reflectivity data (1995-2017) to identify and classify over 40,000 warm-season storms into five types: single-cell storms, isolated storms, cold-frontal storms, warm-frontal storms, and tropical systems. They defined urban areas and four surrounding rural comparison regions for each of the four Texas cities, using statistical methods to quantify urban-rural differences in storm occurrence. Additionally, weekend-weekday comparisons were conducted to examine anthropogenic influences on storm development.\n\n**Results:**\nThe study found that local-scale single-cell and isolated storms increase in frequency by 7-31% over urban areas, particularly at night, consistent with weekend-weekday differences indicating human influences. In contrast, cold-frontal storms weaken by 16-28% over cities, while warm-frontal storms exhibit enhanced reflectivity. Tropical systems showed no consistent changes in frequency or intensity but demonstrated a shift of high-reflectivity grid cells toward lower altitudes over urban areas. These findings reveal how urban heat islands and surface roughness differentially affect various storm types, providing scientific foundations for accurately predicting urban extreme precipitation and enhancing urban resilience planning."
+    },
+    "keyArticle": {
+      "title": "Divergent urban storm response to convective, frontal and tropical systems",
+      "authors": [
+        "Xinxin Sui",
+        "John Nielsen-Gammon",
+        "Zong-Liang Yang",
+        "Dev Niyogi"
+      ],
+      "doi": "10.1038/s41586-026-10479-7",
+      "pages": "1078-1084"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-20-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10479-7",
+      "doi": "https://doi.org/10.1038/s41586-026-10479-7"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-28T21:07:27.417697+00:00",
+    "source": "openalex"
+  }
+}

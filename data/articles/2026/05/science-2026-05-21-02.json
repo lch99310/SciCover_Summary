@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-05-21-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6800",
+  "date": "2026-05-21",
+  "coverImage": {
+    "url": "data/images/science/science-2026-05-21-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人類活動監測：野生動物保育的新視角",
+      "en": "Tracking Human Mobility: A New Frontier in Wildlife Conservation"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究揭示了人類活動與景觀變化對野生動物複雜的交互影響，突破了傳統研究中僅關注景觀變化的局限。研究發現，人類存在本身對30%的哺乳動物和鳥類物種的影響取決於景觀變化的程度，這意味著人類活動與土地利用對野生動物的影響無法被單一因素解釋。這項突破性研究為野生動物保育提供了全新的分析框架，將人類活動數據納入生態學分析，為制定更有效的保育策略科學依據。\n\n【研究問題】\n傳統生態學研究通常將景觀變化作為人類活動的代理指標，但忽略了人類存在本身對野生動物的直接影響。過去的研究難以區分人類存在與景觀變化各自的獨立效應，導致對人類活動如何影響野生動物的理解存在盲點。這個問題至關重要，因為只有準確理解這兩種因素如何交互作用，才能制定出有效的野生動物保育策略，特別是在人類活動日益增長的背景下。\n\n【研究方法】\n研究團隊獨創性地結合了多種數據源：使用移動設備和車輛計數作為人類存在的測量指標，利用GPS數據追蹤超過4,500隻來自37種哺乳動物和鳥類的動物移動模式。研究巧妙利用了COVID-19疫情前後的對比，區分了人類存在與景觀變化的獨立效應。研究以美國人口普查區塊為最小地理單元，整合了定居點、農業和基礎設施数據，計算每個動物使用區域的景觀變化程度。這種方法創新性地將人類活動數據擴展到生態學分析中。\n\n【結果】\n研究發現，大多數哺乳動物和許多鳥類在更多人類活動的地區使用較小的活動範圍。對於22%的物種，人類活動的負面影響在變化較少的景觀中更為顯著。這與過去研究中發現的物種敏感度與景觀變化程度相關的結論一致，表明在人類活動更少的區域，野生動物對人類存在的反應更加敏感。這些發現突顯了保育策略需要考慮物種在不同景觀背景下的不同反應，並利用人類活動數據來精準識別干擾因素，從而制定更有效的保育措施。",
+      "en": "**Summary:**\nThis research reveals the complex interplay between human presence and landscape modification on wildlife, overcoming the limitation of traditional studies that focused solely on landscape changes. The study found that the effects of human presence on 30% of mammal and bird species depended on the degree of landscape alteration, indicating that human activity and land use impacts on wildlife cannot be fully explained by a single factor. This breakthrough research provides a novel analytical framework for wildlife conservation by incorporating human activity data into ecological analyses, offering scientific basis for more effective conservation strategies.\n\n**Problem:**\nTraditional ecological studies typically used landscape modification as a proxy for human disturbance but overlooked the direct impacts of human presence itself. Previous research struggled to disentangle the independent effects of human presence from landscape modification, creating blind spots in understanding how human activities affect wildlife. This problem is crucial because only by accurately understanding how these two factors interact can effective wildlife conservation strategies be developed, especially in the context of increasing human activity.\n\n**Approach:**\nThe research team uniquely combined multiple data sources: using mobile device and vehicle counts as measures of human presence, and leveraging GPS data to track the movements of over 4,500 animals from 37 species of mammals and birds. The study cleverly utilized the contrast between pre- and COVID-19 pandemic periods to separate the independent effects of human presence from landscape modification. Using US census blocks as the smallest geographic unit, the researchers integrated settlement, agriculture, and infrastructure data to calculate the degree of landscape modification in each area used by animals weekly. This method innovatively extended human mobility data to ecological analysis.\n\n**Results:**\nThe research found that most mammals and many birds used smaller areas where human activity was higher. For 22% of species, the negative effects of human activity were more pronounced in less modified landscapes. This aligns with previous findings about species sensitivity and landscape modification, indicating that wildlife in areas with less human activity are more responsive to human presence. These findings highlight that conservation strategies need to consider different species' responses across landscape contexts and utilize human mobility data to precisely identify disturbance factors, thereby developing more effective conservation measures."
+    },
+    "keyArticle": {
+      "title": "Tracking human mobility for wildlife conservation",
+      "authors": [
+        "Lydia Beaudrot"
+      ],
+      "doi": "10.1126/science.aeh7800",
+      "pages": "805-806"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-05-21-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh7800",
+      "doi": "https://doi.org/10.1126/science.aeh7800"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-28T21:06:06.125822+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-05-26",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-05-26",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-05-26-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "農地爭議背後的權力遊戲：解析里奇蒙的農業規劃與社會抗爭",
+      "en": "The Politics of Protection: Agricultural Planning, Legitimacy, and Dissent in Richmond"
+    },
+    "summary": {
+      "zh": "【總結】\n本研究探討加拿大不列顛哥倫比亞省里奇蒙市的農業土地規劃政治，揭示農地不僅是生產場所，更是持續的政治談判場域。研究發現，里奇蒙的農業規劃體透過共識導向框架和技術性工具重新組織土地使用衝突，將政治爭議轉化為程序性諮詢和法規穩定。這種「後政治治理」模式並未真正解決衝突，而是重新構建了抗議的場域，產生一種新的共識，使某些行動者、知識和農業未來獲得制度性合法性，而其他則被邊緣化。\n\n【研究問題】\n文章探討的核心問題是：在快速城市化的農業區域，農業土地使用規劃如何處理關於住宅開發和農業實踐變革的衝突？過去研究往往將農業視為已解決的、非歷史性的農村理想，忽略了農業規劃中潛在的權力不平等和抗爭。本研究填補了這個缺口，聚焦於制度性規劃過程如何管理、穩定甚至轉化抗議行動，揭示規劃過程如何重新定義「農業」的含義，從而影響哪些農業未來被視為合法。\n\n【研究方法】\n研究者採用質性案例研究方法，聚焦於制度規劃動態而非被邊緣化的體驗。研究資料來源包括：對里奇蒙農場觀察組（RFW）成員（6人）、市政規劃人員（2人）和民選官員（5人）的半結構式訪談；農業土地使用規劃文件、媒體報導和公共記錄。研究使用後政治和對抗性規劃理論框架，透過NVivo 12.0軟體進行逐行編碼，分析演變出四個主題：政治特權化的農業類別；不同行動者框定問題和解決方案的能力；不同行動者對規劃過程的權力；以及規劃過程中抗議的移除或管理。\n\n【結果】\n研究發現，里奇蒙農業規劃過程中存在明顯的「政治特權化農業類別」現象：小型、土壤基礎、面向本地市場的農業被視為「合法」農業，而出口導向的大規模農業被質疑。例如，89%的ALR農地分割面積小於4公頃，71%的ALR總面積由較大土地所有權持有。市政官員批評藍莓和蔓越莓種植者「不必做任何工作」，僅為獲得農業稅收減免。相較之下，里奇蒙農場觀察組（RFW）成功將其「農地保護」框定與現有市政政策優先事項對齊，而農地所有者協會（RFOA）的財產權框架在日益管制住宅擴張的規劃環境下面臨更大阻力。研究顯示，規劃過程並未解決衝突，而是將其轉化為行政上可管理的形式，使某些農業愿景獲得制度性合法性。",
+      "en": "**Summary:** \nThis research examines the politics of agricultural land use planning in Richmond, British Columbia, revealing that farmland is not merely a site of production but an arena of ongoing political negotiation over property, identity, and rural-urban futures. The study demonstrates how planning regimes reorganize land-use conflict through consensus-oriented frameworks and technical instruments, translating political contestation into procedural consultation and regulatory stabilization. Rather than resolving conflict, municipal planning in Richmond reconstitutes the terrain of dissent by producing a revised consensus that privileges certain actors, knowledges, and agricultural futures over others. The analysis shows how dissent disrupts dominant narratives but is subsequently stabilized through institutional arrangements that redefine what counts as 'agriculture.'\n\n**Problem:** \nThe article addresses how agricultural land use planning processes manage conflicts over residential development on farmland and changing agricultural practices in rapidly urbanizing areas. Previous research often treated farming as a settled, ahistorical ideal for rural areas, overlooking the power imbalances and dissent embedded in planning processes. This study fills this gap by examining how institutional planning processes structure which agricultural futures become institutionally legitimate, focusing on the mechanisms through which conflict is managed, reformulated, or stabilized within consensus-oriented governance arrangements. Understanding these dynamics is crucial as pressures around food security and livability intensify in urbanizing agricultural landscapes.\n\n**Approach:** \nThe researchers employed a qualitative case study approach focused on institutional planning dynamics rather than lived experiences of exclusion. They conducted semi-structured interviews with members of Richmond Farm Watch (n=6), municipal planning staff (n=2), and elected officials (n=5), supplemented by analysis of planning documents, media coverage, and public records. Using post-political and agonistic planning theories, they developed a deductive coding framework to analyze how actors framed agricultural legitimacy, articulated conflict, and positioned planning institutions. Four analytical themes emerged: politically privileged categories of farming; the power of distinct actors to frame issues and solutions; the power of political actors over planning processes; and planning processes and the removal of dissent. The qualitative approach was designed to illuminate how agricultural land use conflict is mediated through municipal planning processes.\n\n**Results:** \nThe study revealed distinct \"politically privileged categories of farming\" in Richmond's planning context, where small-scale, soil-based, locally oriented farming is increasingly positioned as legitimate while export-oriented agriculture is criticized. For example, 89% of ALR parcels are under 4 hectares, and 71% of total ALR land is held in larger parcels. Elected officials criticized berry producers, stating \"you don't have to do any work\" to obtain farm tax benefits. Richmond Farm Watch successfully aligned its \"farmland protection\" framing with existing municipal policy priorities, while the Richmond Farmland Owners' Association faced greater resistance within an increasingly regulatory environment. The research demonstrated that municipal planning processes reconfigure political disagreement into administratively manageable forms, with significant implications for which agricultural visions gain institutional legitimacy and support."
+    },
+    "keyArticle": {
+      "title": "The politics of protection: Agricultural planning, legitimacy, and dissent in Richmond, Canada",
+      "authors": [
+        "Colin Dring",
+        "Lenore Newman",
+        "Hannah Wittman"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103587",
+      "pages": "103587"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-05-26-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103587",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103587"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-28T21:11:52.801731+00:00",
+    "source": "openalex"
+  }
+}

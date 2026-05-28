@@ -1,0 +1,63 @@
+{
+  "id": "cell-2026-04-01-07",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "9",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解菸鹼生物合成密碼：完整路徑揭示與應用突破",
+      "en": "Cracking the Nicotine Code: Complete Biosynthesis Pathway Revealed with Breakthrough Applications"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次完整闡明了菸鹼生物合成的完整路徑，解決了長期以來科學界對於菸鹼最終耦合反應機制的未知之謙。研究團隊發現菸鹼的生物合成涉及糖基化、還原、選擇性曼尼希型反應、氧化和去糖基化五個關鍵步驟，並在液泡膜上形成五種蛋白質組成的代謝物（metabolon），協調菸鹼的生物合成與運輸。這項突破不僅填補了植物生物化學領域的重要空白，還為植物化學防禦機制的理解提供關鍵洞見，並展現了在異源植物中賦予害蟲抗性的應用潛力。\n\n【研究問題】過去的研究已確定菸鹼的五元環和六元環分別來自獨立途徑，但對於這兩個環如何最終耦合形成完整菸鹼分子長期存在知識缺口。特別是對於菸鹼生物合成路徑中的最終耦合反應機制、中間產物的身份以及蛋白質複合物如何協調菸鹼的生物合成與運輸，科學界一直缺乏明確答案。解決這個問題不僅對於理解植物化學防禦機制至關重要，還對於菸草育種和農業害蟲防治具有重要應用價值。\n\n【研究方法】研究團隊採用了多維組學分析結合基因操作技術來解析菸鹼生物合成路徑。他們首先利用單細胞RNA測序和轉錄組分析，在煙草根部細胞中鑑定出菸鹼生物合成相關基因的共表達模式。通過建立菸鹼缺陷型突變體（ao2）和利用信息論框架分析代謝組數據，研究團隊發現了糖基化中間產物的關鍵作用。他們還使用體外酶活性測定、異源表達系統（包括菸草和酵母）以及蛋白質互作分析技術，確定了五種關鍵酶的功能及其相互作用。最終通過CRISPR-Cas9基因編輯和異源植物表達，驗證了整個生物合成路徑的可行性。\n\n【結果】研究團隊確定了菸鹼生物合成的完整路徑：首先通過UDP-糖基轉移酶（NaUGT1）進行糖基化穩定反應，然後由A622酶（NaA622）進行還原和激活，接著通過立體選擇性分子間曼尼希型反應進行縮合，再由小檗鹼橋酶樣蛋白（NaBBL1和NaBBL2）進行順序氧化，最後由β-葡萄糖苷酶（NaBGL1和NaBGL2）進行去糖基化產生菸鹼。他們發現五種蛋白質在液泡膜上形成代謝物，協調菸鹼的生物合成與運輸。當敲除其中任何一種成分時，菸鹼累積都會減少。研究團隊成功在異源植物中重組了這一代謝物，並證實多藥和有毒物質外排運輸蛋白（MATE）對於在異源植物中高效生產菸鹼並賦予害蟲抗性至關重要。",
+      "en": "**Summary:** This study reveals the complete biosynthesis pathway of nicotine, resolving a long-standing mystery in plant biochemistry. The researchers discovered that nicotine biosynthesis involves five key steps: glycosylation via a UDP-glycosyltransferase, reduction and activation by an A622 enzyme, condensation through a stereoselective intermolecular Mannich-like reaction, sequential oxidation by berberine bridge enzyme-like proteins, and final deglycosylation by β-glucosidases. A five-component metabolon assembles at vacuolar membranes to channel both nicotine biosynthesis and its transport. This breakthrough not only completes our understanding of nicotine biosynthesis but also provides critical insights into the intermolecular Mannich-like reaction, a fundamental mechanism for scaffold formation in many plant alkaloids.\n\n**Problem:** For decades, scientists have known that nicotine's five-membered and six-membered nitrogen-containing heterocyclic rings are derived from two independent pathways, but the exact mechanism of their final coupling remained elusive. Previous research had stalled at the condensation steps, with little progress since Friesen and Leete proposed in 1990 that the condensation of N-methylpyrrolinium cation (MP) and nicotinic acid (NA) would form nicotine. The identities of the intermediates, the enzymes involved in the final coupling reaction, and how the biosynthesis is coordinated with transport to avoid autotoxicity were all unknown. Solving this problem is crucial not for understanding plant chemical defense mechanisms but also for potential applications in agriculture and pest resistance.\n\n**Approach:** The researchers employed a multidimensional omics approach combined with advanced genetic engineering techniques. They used transcriptomics, metabolomics, and single-cell RNA sequencing to capture spatiotemporal variances in nicotine biosynthesis. By analyzing a nicotine-free mutant (ao2) and applying information theory-based metabolomics, they identified glycosylated intermediates in the pathway. The team conducted in vitro enzymatic assays, heterologous expression in tobacco (Nicotiana benthamiana) and yeast, and protein interaction studies using bimolecular fluorescence complementation (BiFC), split luciferase complementation (SLC), and Förster resonance energy transfer (FRET) to characterize the enzyme functions and their interactions. CRISPR-Cas9 gene editing was used to validate the essential roles of identified genes.\n\n**Results:** The researchers identified the complete nicotine biosynthesis pathway: UDP-glycosyltransferase (NaUGT1) stabilizes the reaction through glycosylation, A622 (NaA622) reduces and activates intermediates, berberine bridge enzyme-like proteins (NaBBL1 and NaBBL2) catalyze sequential oxidation after a stereoselective intermolecular Mannich-like condensation, and β-glucosidases (NaBGL1 and NaBGL2) perform final deglycosylation to yield nicotine. They discovered that a five-component metabolon assembles at vacuolar membranes to channel both biosynthesis and transport. Disrupting any of these components depleted nicotine accumulation. The researchers successfully reconstituted this metabolon in vitro and in heterologous plant species, demonstrating that a multidrug and toxic compound extrusion (MATE) transporter is essential for efficient nicotine production and confers pest resistance in non-tobacco plants."
+    },
+    "keyArticle": {
+      "title": "Complete biosynthesis of nicotine",
+      "authors": [
+        "Lijing Chang",
+        "Zhen Xu",
+        "Purong Deng",
+        "Ning Zhang",
+        "Tingrui He",
+        "Xinying Liu",
+        "Wenqi He",
+        "Anqi Zheng",
+        "Weiwei Hu",
+        "Ming Pan",
+        "Wenjuan Li",
+        "Rayko Halitschke",
+        "Ran Li",
+        "Minrui Fan",
+        "Ian T. Baldwin",
+        "Yu Zhang",
+        "Dapeng Li"
+      ],
+      "doi": "10.1016/j.cell.2026.03.034",
+      "pages": "2700-2713.e20"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.034",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.034"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-28T21:09:33.044147+00:00",
+    "source": "openalex"
+  }
+}

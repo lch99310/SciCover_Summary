@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-25T20:29:44.123160+00:00",
+  "lastUpdated": "2026-05-28T21:12:57.499322+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-05-26",
+      "journal": "Political Geography",
+      "date": "2026-05-26",
+      "path": "articles/2026/05/political-geography-2026-05-26.json",
+      "title_zh": "農地爭議背後的權力遊戲：解析里奇蒙的農業規劃與社會抗爭",
+      "title_en": "The Politics of Protection: Agricultural Planning, Legitimacy, and Dissent in Richmond",
+      "cover_url": "data/images/political-geography/political-geography-2026-05-26-cover.jpg"
+    },
+    {
+      "id": "science-2026-05-21-02",
+      "journal": "Science",
+      "date": "2026-05-21",
+      "path": "articles/2026/05/science-2026-05-21-02.json",
+      "title_zh": "人類活動監測：野生動物保育的新視角",
+      "title_en": "Tracking Human Mobility: A New Frontier in Wildlife Conservation",
+      "cover_url": "data/images/science/science-2026-05-21-02-cover.jpg"
+    },
     {
       "id": "science-2026-05-21",
       "journal": "Science",
@@ -9,6 +27,15 @@
       "title_zh": "科學前沿：跨越多學科的突破性研究",
       "title_en": "Science Frontiers: Breakthrough Research Across Multiple Disciplines",
       "cover_url": "data/images/science/science-2026-05-21-cover.jpg"
+    },
+    {
+      "id": "nature-2026-05-20",
+      "journal": "Nature",
+      "date": "2026-05-20",
+      "path": "articles/2026/05/nature-2026-05-20.json",
+      "title_zh": "城市風暴的多元響應：解開城市化如何影響不同類型暴雨之謎",
+      "title_en": "Divergent Urban Storm Responses: How City Development Affects Different Types of Rainfall",
+      "cover_url": "data/images/nature/nature-2026-05-20-cover.jpg"
     },
     {
       "id": "science-2026-05-14",
@@ -360,6 +387,15 @@
       "title_zh": "癌症神經科學：解密神經系統與腫瘤的雙向對話",
       "title_en": "Cancer Neuroscience: Decoding the Bidirectional Dialogue Between Nervous System and Tumors",
       "cover_url": "data/images/cell/cell-2026-04-01-06-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-07",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-07.json",
+      "title_zh": "破解菸鹼生物合成密碼：完整路徑揭示與應用突破",
+      "title_en": "Cracking the Nicotine Code: Complete Biosynthesis Pathway Revealed with Breakthrough Applications",
+      "cover_url": "data/images/cell/cell-2026-04-01-07-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",
