@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2026-01-01-07",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "推文到街頭？領袖社群媒體訊息對民族主義動員的影響",
+      "en": "Tweets to the Streets? The Impact of Leaders' Social Media on Nationalist Mobilization"
+    },
+    "summary": {
+      "zh": "【總結】本研究發現領袖在國際危機中使用社群媒體傳遞訊息，比正式官方聲明更能激發民族主義情緒和動員。巴基斯坦總理伊姆蘭·汗的實例分析顯示，其推文中的情感性用詞比例（7.36%）高於官方新聞稿（6.2%）。實驗進一步證實，結合升級意圖與社群媒體情感性用詞會降低公眾對危機細節的敏感度，增加對報復的支持，並略微提高參與反外國街頭抗議的意願。這些發現對理解領袖在數位時代的危機溝通策略具有重要意義，尤其對核武國家間的對峙關係而言，可能影響國際穩定。【研究問題】本研究探討的核心問題是：領袖的社群媒體訊息是否比傳統官方溝通更能有效激發國內民族主義動員？過往研究雖然探討了國內驅動因素，卻鮮少研究溝通媒介對動員可能性的影響。在印巴這兩個擁有核武、歷史衝突頻繁的鄰國之間，此問題至關重要，因為任何衝突升級都可能影響全球五分之一人口的福祉。【研究方法】作者採用三階段研究設計：首先，分析巴基斯坦總理伊姆蘭·汗的125則推文與新聞稿，使用語言探究與詞彙計算（LIWC）進行文本分析；其次，邀請26名巴基斯坦國家安全專家進行寫作模擬，產生真實的社群媒體與官方聲明內容；最後，對1,687名巴基斯坦社群媒體用戶進行調查實驗，採用2×2設計（升級/降級訊息 × 推文/新聞稿媒介），測量公眾對危機的反應。【結果】關鍵發現包括：1）領袖的社群媒體訊息包含更多情感性內容（推文7.36% vs 新聞稿6.2%）；2）升級性推文降低公眾對危機細節的準確記憶（效應值-0.096）；3）升級性推文降低對非黨派精英訊息的接受度（效應值-0.093）；4）透過推文傳達升級意圖顯著增加對報復的支持（效應值0.22，遠高於新聞稿的0.08）；5）升級性推文略微提高參與民族主義街頭抗議的意願（效應值0.104）；6）有趣的是，社群媒體訊息略微降低公眾對戰爭升級可能性的預期（效應值-0.039）。這些結果暗示，雖然社群媒體能更有效地動員民眾，但也可能模糊了危機升級的風險，為領袖在實際採取軍事行動時帶來策略性挑戰。",
+      "en": "**Summary:** This research reveals that leaders' use of social media during international crises is more effective than official government communications in generating nationalist mobilization and sentiment. Analysis of Pakistani Prime Minister Imran Khan's tweets showed they contained 7.36% affective language, significantly higher than the 6.2% in official press releases. Experimental evidence further demonstrates that combining escalatory intent with platform-specific affective vocabulary reduces public attentiveness to crisis details, increases support for retaliation, and slightly elevates willingness to participate in anti-foreign street protests. These findings have profound implications for understanding crisis communication in the digital age, particularly for nuclear-armed rivals where miscommunication could trigger catastrophic outcomes.\n\n**Problem:** The central question this research addresses is whether a leader's social media messaging is more effective than traditional government communication in generating domestic nationalist mobilization during international crises. While previous research has examined domestic drivers of nationalist sentiment, it has largely overlooked how the communication medium itself affects mobilization potential. In the context of India-Pakistan relations—a nuclear-armed rivalry with a history of repeated crises—this question is critically important. The potential for escalation carries consequences for over 1.3 billion people, roughly one-fifth of the world's population, making this a matter of global security concern.\n\n**Approach:** The author employs a three-stage research design: first, text analysis of 125 tweets and press releases from Pakistani Prime Minister Imran Khan using Linguistic Inquiry and Word Count (LIWC) to quantify affective language differences; second, a writing simulation with 26 Pakistani national security elites to produce realistic social media and official communication content; and finally, a survey experiment with 1,687 Pakistani social media users using a 2×2 design (escalatory/de-escalatory messages × social media/press release medium) to measure public responses to crisis communications. This methodological approach allows for both ecological validity and causal inference regarding the effects of communication medium on nationalist mobilization.\n\n**Results:** Key findings include: 1) Leaders' social media messages contain significantly more affective content (7.36% in tweets vs. 6.2% in press releases); 2) Escalatory tweets reduced public accuracy in recalling crisis details (effect: -0.096); 3) Escalatory tweets decreased receptivity to nonpartisan elite cues (effect: -0.093); 4) Escalatory messaging via social media dramatically increased support for retaliation (effect: 0.22, compared to 0.08 for press releases); 5) Escalatory tweets slightly increased willingness to participate in nationalist street protests (effect: 0.104); and 6) Counterintuitively, social media messages slightly dampened perceived likelihood of war escalation (effect: -0.039). These results suggest that while social media effectively mobilizes domestic audiences, it may obscure the risks of crisis escalation, creating strategic dilemmas for leaders contemplating military action."
+    },
+    "keyArticle": {
+      "title": "Tweets to the Streets? Effects of a Leader’s Social Media Messaging on Nationalist Mobilization",
+      "authors": [
+        "Fahd Humayun"
+      ],
+      "doi": "10.1017/s0020818326101362",
+      "pages": "407-430"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101362",
+      "doi": "https://doi.org/10.1017/s0020818326101362"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-31T20:11:38.803509+00:00",
+    "source": "openalex"
+  }
+}

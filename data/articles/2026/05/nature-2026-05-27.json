@@ -1,0 +1,106 @@
+{
+  "id": "nature-2026-05-27",
+  "journal": "Nature",
+  "volume": "653",
+  "issue": "8116",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "反氫原子精確測量：突破性發現粒子物理基本對稱性",
+      "en": "Precision Antihydrogen Measurement Breakthrough: Testing Fundamental Symmetries in Physics"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次將反氫原子基態超精細分裂的測量精度提升至百萬分之四(4 ppm)，比之前的測量精度提高了100倍。研究團隊對約24,000個反氫原子進行微波光譜分析，測量值為1,420,404.8±1.1(統計誤差)±5.6(系統誤差) kHz，與氫原子預期值一致。這一突破性成果為檢驗CPT對稱性提供了前所未有的精度，並使研究反質子內部結構成為可能。【研究問題】過去對反氫原子基態超精細分裂的測量精度僅為百萬分之四百(400 ppm)，遠低於對普通氫原子的測量精度。這一精度限制使我們難以檢驗自然的基本對稱性特別是CPT對稱性，也無法有效研究反質子的內部結構。CPT對稱性是現代物理學的基本假設之一，若被違將徹底改變我們對宇宙的理解。【研究方法】研究團隊在CERN的反質子減速器設施中使用ALPHA-2設備進行實驗。他們首先製造並囚禁反氫原子，然後使用微波光譜技術測量其基態超精細分裂。關鍵技術突破包括：1) 改進磁阱場控制，使其平坦度提高20倍；2) 使用鍍離子協同冷卻技術將正電子等離子體溫度大幅降低；3) 開發四階段微波驅動技術，精確操縱反原子自旋態轉換。研究團隊積累了約24,000個反氫原子，並通過精確的電子迴旋共振技術監測磁場漂移。【結果】研究測量反氫原子基態超精細分裂頻率為1,420,404.8±1.1(統計誤差)±5.6(系統誤差) kHz，與氫原子理論預期值一致，驗證了CPT對稱性。這一精度使得研究反質子內部結構成為可能，通過Zemach修正和核極化效應，可探測約40 ppm的結構效應。研究還提高了2S態超精細分裂的測量精度26倍，確立了反氫中Sternheim間隔的實驗界限。這些成果為未來進一步提高精度兩個數量級的實驗奠定了基礎，將使我們能更精確地檢驗量子電動力學高階效應。",
+      "en": "**Summary:** This research achieved the first measurement of antihydrogen ground-state hyperfine splitting at four parts per million (ppm) precision, a hundred-fold improvement over previous measurements (400 ppm). The team analyzed approximately 24,000 antihydrogen atoms using microwave spectroscopy, obtaining a value of 1,420,404.8±1.1(stat.)±5.6(sys.) kHz, consistent with hydrogen expectations. This breakthrough provides unprecedented precision for testing CPT symmetry and probing the internal structure of the antiproton. **Problem:** Previous measurements of antihydrogen's ground-state hyperfine splitting were limited to 400 ppm precision—far below that achievable with ordinary hydrogen atoms. This precision gap made it difficult to test fundamental symmetries of nature, particularly CPT symmetry, which is foundational to modern physics. CPT symmetry assumes that the laws of physics remain unchanged under the combined operations of charge conjugation, parity inversion, and time reversal. A violation would revolutionize our understanding of the universe. **Approach:** The team conducted experiments at CERN's Antiproton Decelerator facility using the ALPHA-2 apparatus. They first produced and trapped antihydrogen atoms, then employed microwave spectroscopy to measure their ground-state hyperfine splitting. Key technical advances included: 1) Improved magnetic trap field control with 20x better flatness; 2) Sympathetic cooling of positron plasma using laser-cooled beryllium ions to drastically reduce temperatures; 3) A four-phase microwave driving technique to precisely manipulate antihydrogen spin-state transitions. The researchers accumulated ~24,000 antihydrogen atoms and monitored magnetic field drifts using precise electron cyclotron resonance techniques. **Results:** The measured antihydrogen ground-state hyperfine splitting frequency is 1,420,404.8±1.1(stat.)±5.6(sys.) kHz, consistent with theoretical expectations for hydrogen and confirming CPT invariance. This precision enables probing the internal structure of the antiproton through Zemach corrections and nuclear polarizability effects at the 40 ppm level. The research also improved the precision of the 2S hyperfine splitting measurement by a factor of 26, establishing an experimental bound for the Sternheim interval in antihydrogen. These results pave the way for future experiments that could improve precision by another two orders of magnitude, allowing more precise tests of higher-order quantum electrodynamics effects."
+    },
+    "keyArticle": {
+      "title": "Four ppm measurement of the antihydrogen ground-state hyperfine splitting",
+      "authors": [
+        "R. Akbari",
+        "L. O. de Araujo Azevedo",
+        "C. J. Baker",
+        "W. Bertsche",
+        "N. M. Bhatt",
+        "G. Bonomi",
+        "A. Capra",
+        "I. Carli",
+        "C. L. Cesar",
+        "M. Charlton",
+        "A. Cridland Mathad",
+        "A. Del Vincio",
+        "D. Duque Quiceno",
+        "S Eriksson",
+        "A. Evans",
+        "J. FAJANS",
+        "T. Friesen",
+        "M. C. Fujiwara",
+        "L. M. Golino",
+        "M. B. Gomes Gonçalves",
+        "J. S. Hangst",
+        "M. E. Hayden",
+        "P. Heidari",
+        "D. Hodgkinson",
+        "C. A. Isaac",
+        "S. A. Jones",
+        "S. Jonsell",
+        "N. Madsen",
+        "V. R. Marshall",
+        "J. T. K. McKenna",
+        "T. Momose",
+        "J. Nauta",
+        "A. N. Oliveira",
+        "A. Powell",
+        "C. Ø. Rasmussen",
+        "T. Robertson-Brown",
+        "F. Robicheaux",
+        "R. L. Sacramento",
+        "E. Sarid",
+        "J. Schoonwater",
+        "D. M. Silveira",
+        "J. Singh",
+        "G. Smith",
+        "C. So",
+        "S. Stracka",
+        "J. Suh",
+        "A. G. Swadling",
+        "T. D. Tharp",
+        "K. A. Thompson",
+        "R. I. Thompson",
+        "E. Thorpe-Woods",
+        "A. J. Uribe Jimenez",
+        "M. Urioni",
+        "D P van der Werf",
+        "S. G. Wilson",
+        "P. Woosaree",
+        "J. S. Wurtele",
+        "C. L. Cesar",
+        "A. Del Vincio",
+        "D P van der Werf"
+      ],
+      "doi": "10.1038/s41586-026-10556-x",
+      "pages": "1022-1026"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10556-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10556-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-31T20:07:05.684801+00:00",
+    "source": "openalex"
+  }
+}

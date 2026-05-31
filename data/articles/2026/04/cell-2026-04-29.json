@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-04-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "11",
+  "date": "2026-04-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "嗅覺地圖解密：小鼠如何識別社會氣味",
+      "en": "Mapping the Olfactory Landscape: How Mice Detect Social Cues"
+    },
+    "summary": {
+      "zh": "【總結】這項研究利用先進的MERFISH技術，成功繪製了小鼠嗅覺系統中近乎完整的嗅覺受體(OR)表達地圖。研究人員發現嗅覺神經元在嗅覺上皮(MOE)中沿著「中央-周邊」和「頂端-基部」兩個軸呈現典型的梯度分布，而這些神經元的投射則在嗅球(OB)中沿著背腹和前後軸形成鏡像對稱。這項突破性發現揭示了嗅覺系統精確的空間組織架構，並首次將嗅覺受體的空間分布與其對社會氣味的功能性響應聯繫起來，為理解動物如何辨識社會氣味提供了新的視角。\n\n【研究問題】過去的研究僅部分描述了嗅覺神經元在嗅覺上皮和嗅球中的空間組織，且缺乏對完整嗅覺受體體系的全局性理解。更重要的是，科學家們一直難以將嗅覺神經元的空間組織與其對自然相關氣味的實際功能響應聯繫起來。這項研究旨在填補這一關鍵缺口，探究生理相關氣味如何系統性地映射到小鼠初級嗅覺系統中，特別是社會氣味的檢測機制。\n\n【研究方法】研究團隊採用了多路錯誤穩健熒光原位雜交(MERFISH)技術，這是一種能夠在組織中精確量化數千個基因表達的單細胞轉錄組成像方法。為克服嗅覺受體編碼序列高度相似的挑戰，研究人員針對高度多樣的非翻譯區(UTR)設計探針，並結合分離探針和多路分支DNA放大技術，大幅提高了檢測靈敏度。研究共檢測了約1,100個嗅覺受體和10個TAARs，並結合單分子熒光原位雜交(FISH)技術標記神經元活性，以分析嗅覺受體對社會氣味的反應。\n\n【結果】研究發現嗅覺神經元數量在整個嗅覺受體體系中變異高達三個數量級，最豐富的受體(如Olfr536、Olfr15和Olfr1507)每個切片表達超過350個嗅覺神經元，而5.2%的受體每個切片少於1個嗅覺神經元。在功能分析中，研究人員識別出對社會氣味有選擇性反應的嗅覺受體，包括對貓氣味、雄性氣味、雌性氣味和幼崽氣味有專一性反應的受體。有趣的是，母鼠與處女雌鼠對幼崽氣味的反應模式存在顯著差異，這揭示了母性行為背後的分子機制。這些發現首次建立了嗅覺系統空間組織與社會氣味檢測之間的直接聯繫，為理解動物社會行為的嗅覺基礎提供了重要線索。",
+      "en": "**Summary:** This groundbreaking study utilizes advanced MERFISH technology to construct a comprehensive molecular atlas of olfactory receptor (OR) expression in the mouse olfactory system. Researchers discovered that olfactory sensory neurons in the main olfactory epithelium (MOE) exhibit stereotypical gradients along two axes: central-to-peripheral and apical-to-basal. Remarkably, the projections of these neurons mirror these gradients along the dorsal-ventral and anterior-posterior axes of the olfactory bulb (OB). By integrating spatial mapping with functional analysis, the study establishes a direct link between the spatial organization of olfactory receptors and their responses to ethologically relevant odors, fundamentally advancing our understanding of how animals detect and process social smells.\n\n**Problem:** Previous research had only partially characterized the spatial organization of olfactory sensory neurons in the MOE and OB, with incomplete mapping of the OR repertoire. A critical gap existed in connecting the spatial organization of OSNs with their functional responses to physiologically relevant odors, particularly social cues. The precise mechanisms by which the olfactory system systematically maps environmental cues to neural responses remained poorly understood, hindering progress in understanding how animals detect and process complex social information through olfaction.\n\n**Approach:** The researchers employed MERFISH (multiplexed error-robust fluorescent in situ hybridization), a single-cell transcriptome imaging technique that quantifies gene expression in individual cells within tissues. To overcome the high sequence similarity among receptor genes, they designed probes against refined maps of divergent untranslated regions (UTRs) and implemented a split-probe strategy combined with multiplexed branched DNA amplification. The study mapped ~1,100 ORs and ~10 TAARs across 13 mice, then integrated this with single-molecule FISH for Egr1 (a neuronal activity marker) to catalog OR responses to various ethologically relevant odors including predator scents, gender-specific cues, and pup odors in different maternal states.\n\n**Results:** The study revealed a three-order-of-magnitude variation in OSN population sizes across the OR repertoire, with the most abundant receptors (like Olfr536, Olfr15, and Olfr1507) expressed in >350 OSNs per section, while 5.2% of receptors were detected in <1 OSN per section. Functionally, they identified distinct sets of ORs selectively responding to different social cues: cat odor-selective ORs, male-selective ORs, female-selective ORs, and pup-selective ORs. Notably, mothers and virgin females exhibited different response patterns to pup odors, revealing molecular mechanisms underlying maternal behavior. The spatial mapping demonstrated that specific odors activate distinct topographical domains within the MOE and OB, establishing the first direct connection between the spatial organization of the olfactory system and the detection of social information."
+    },
+    "keyArticle": {
+      "title": "Spatial organization and detection of social odors in mouse primary olfactory system",
+      "authors": [
+        "Bogdan Bintu",
+        "Yoh Isogai",
+        "Ignatius Jenie",
+        "Xiaowei Zhuang",
+        "Catherine Dulac"
+      ],
+      "doi": "10.1016/j.cell.2026.03.053",
+      "pages": "3380-3397.e18"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.053",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.053"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-05-31T20:08:52.318047+00:00",
+    "source": "openalex"
+  }
+}
