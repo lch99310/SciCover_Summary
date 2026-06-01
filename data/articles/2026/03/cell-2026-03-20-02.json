@@ -1,0 +1,56 @@
+{
+  "id": "cell-2026-03-20-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "11",
+  "date": "2026-03-20",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-20-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "神經過度生長：解開哺乳類皮膚再生的密碼",
+      "en": "Unlocking Mammalian Regeneration: How Nerve Overgrowth Blocks Organ-Level Healing"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究突破性地發現，哺乳類皮膚在胚胎發育晚期（E16.5）擁有驚人的器官級再生成能，能夠同時再生上皮、間質、神經和血管等多種組織，並恢復其正常功能連接。然而，這種能力在出生後迅速喪失，導致傷口無法恢復大多數細胞類型，並出現神經過度生長（hyperinnervation）。研究團隊首次識別出出生後傷口特有的纖維母細胞（PWF）群體，並發現三個PWF富集基因（Timp1、Cxcl12和Ccl7）會抑制器官級再生。令人驚訝的是，通過減少傷口處的神經過度生長，研究人員成功地在出生後傷口中恢復了多種組織的再生能力。這項研究不僅揭示了器官從再生到非再生狀態轉化的機制，更為治療性再生醫學開闢了新的可能性。\n\n【研究問題】\n傳統上，人們認為哺乳類的器官級再生能力極其有限，僅見於少數特殊案例（如指尖再生）。過去的研究多關注單一組織的修復，而忽略了器官級再生的可能性。本研究旨在解答三個關鍵問題：皮膚是否存在發育窗口期，能在受傷後跨多個譜系再生？這種能力是什麼時候喪失的？什麼因素阻礙了這種再生能力？解決這些問題至關重要，因為它不僅能深化我們對再生生物學的理解，還可能為創傷治療和再生醫學提供突破性策略。\n\n【研究方法】\n研究團隊採用了多層次的研究策略：首先，他們在胚胎（E16.5）和出生後不同時期（P0、P2、P5、P24）創造全層皮膚傷口，觀察各種細胞類型的再生情況。接著，利用單細胞RNA測序技術，分析胚胎與出生後傷口的細胞和分子差異，識別出出生後傷口特有的纖維母細胞（PWF）群體。最關鍵的是，他們開發了一種體內篩選方法，將多個候選基因導入胚胎傷口，評估其對再生的影響。此外，還應用了基因敲除、神經切除和肉毒桿菌素治療等方法，驗證神經過度生長在再生障礙中的作用。這些方法的結合使得研究團隊能夠系統性地探索再生障礙的分子機制。\n\n【結果】\n研究取得了突破性發現：1）在胚胎晚期（E16.5）受傷的皮膚能夠再生毛髮囊泡、立毛肌、淋巴管、黑色素細胞、感覺和交感神經以及脂肪細胞等多種組織，並恢復其功能連接；2）這種再生能力在出生後迅速喪失，到出生後第5天（P5）時，傷口無法恢復大多數細胞類型，並出現神經過度生長；3）單細胞測序揭示了一種出生後傷口特有的纖維母細胞（PWF）群體，在胚胎傷口中不存在；4）體內篩選發現三個PWF富集基因（Timp1、Cxcl12和Ccl7）會抑制器官級再生並導致神經過度生長；5）通過減少Cxcl12或神經切除，可以促進出生後傷口的多譜系再生。這些結果表明，神經過度生長是阻礙再生的關鍵屏障，移除此屏障可以釋放潛在的再生能力。",
+      "en": "**Summary:**\nThis groundbreaking research reveals that mammalian skin possesses remarkable organ-level regenerative capacity during late embryonic development (E16.5), capable of simultaneously regenerating epithelial, mesenchymal, neuronal, and vascular tissues with proper functional connectivity. However, this ability is rapidly lost after birth, resulting in failure to restore most cell types and causing hyperinnervation within wound beds. The research team identified a postnatal wound-specific fibroblast (PWF) population absent in embryonic wounds and discovered that three PWF-enriched genes (Timp1, Cxcl12, and Ccl7) inhibit regeneration and cause hyperinnervation when overexpressed. Most remarkably, by reducing hyperinnervation in postnatal wounds—either through depleting Cxcl12 in fibroblasts or ablating nerves—the researchers successfully enabled regeneration of diverse lineages after injury. This study not only elucidates mechanisms that transition organs from regenerative to non-regenerative states but also demonstrates that removing this barrier can unlock latent organ-level regeneration.\n\n**Problem:**\nTraditionally, mammalian organ-level regeneration was considered extremely limited, occurring only in special cases like digit tips. Previous research primarily focused on single-lineage tissue repair while neglecting the possibility of organ-level regeneration. This study aimed to answer three critical questions: Does skin have a developmental window where it can regenerate across multiple lineages after injury? When is this capacity lost? What factors inhibit this regenerative ability? Solving these questions is crucial because they could deepen our understanding of regenerative biology and potentially breakthrough strategies for trauma treatment and regenerative medicine.\n\n**Approach:**\nThe research team employed a multi-layered strategy: First, they created full-thickness skin wounds at embryonic (E16.5) and postnatal (P0, P2, P5, P24) stages to observe regeneration of various cell types. Next, using single-cell RNA sequencing, they analyzed cellular and molecular differences between embryonic and postnatal wounds, identifying a postnatal wound-specific fibroblast (PWF) population. Crucially, they developed an in vivo screening method to deliver candidate genes into embryonic wounds and evaluate their effects on regeneration. Additionally, they applied genetic knockout, nerve ablation, and botulinum toxin treatments to validate the role of hyperinnervation in regeneration barriers. This combination of methods allowed the team to systematically explore the molecular mechanisms underlying regeneration barriers.\n\n**Results:**\nThe research yielded breakthrough findings: 1) Skin wounded at late embryonic stages (E16.5) regenerated diverse tissues including hair follicles, arrector pili muscles, lymphatic vessels, melanocytes, sensory and sympathetic nerves, and adipocytes, restoring functional connectivity; 2) This regenerative capacity rapidly diminished after birth, with P5 wounds failing to restore most cell types and exhibiting hyperinnervation; 3) Single-cell sequencing revealed a postnatal wound-specific fibroblast (PWF) population absent in embryonic wounds; 4) In vivo screening identified three PWF-enriched genes (Timp1, Cxcl12, and Ccl7) that inhibit organ-level regeneration and cause hyperinnervation when overexpressed; 5) Reducing hyperinnervation—either through Cxcl12 depletion or nerve ablation—promoted multi-lineage regeneration in postnatal wounds. These results demonstrate that hyperinnervation is a key barrier to regeneration, and removing this barrier can unlock latent regenerative potential."
+    },
+    "keyArticle": {
+      "title": "Hyperinnervation inhibits organ-level regeneration in mammalian skin",
+      "authors": [
+        "Hannah T. Tam",
+        "Jingyu Peng",
+        "Rebecca Freeman",
+        "Yulia Shwartz",
+        "Shlomi Brielle",
+        "Sakshi Garg",
+        "Siti Rahmayanti",
+        "Stephen J. Crocker",
+        "Devin Coon",
+        "Ya‐Chieh Hsu"
+      ],
+      "doi": "10.1016/j.cell.2026.02.027",
+      "pages": "3270-3286.e17"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-20-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.02.027",
+      "doi": "https://doi.org/10.1016/j.cell.2026.02.027"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-01T22:03:57.540732+00:00",
+    "source": "openalex"
+  }
+}

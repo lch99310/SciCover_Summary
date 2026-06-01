@@ -1,0 +1,52 @@
+{
+  "id": "science-2026-05-21-04",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6800",
+  "date": "2026-05-21",
+  "coverImage": {
+    "url": "data/images/science/science-2026-05-21-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "張量網絡挑戰量子優勢：經典計算模擬無序量子系統的新突破",
+      "en": "Tensor Networks Challenge Quantum Advantage: New Breakthrough in Classical Simulation of Disordered Quantum Systems"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究突破了量子模擬的傳統界限，成功使用張量網絡（tensor networks）搭配信念傳播（belief propagation）方法，準確高效地模擬了二維和三維無序量子系統的動態演化。研究團隊證實，即使在數百量子位的系統中，他們的經典計算方法也能達到比D-Wave量子退火器更高的精度，且計算資源僅隨系統大小線性增長。這項發現挑戰了量子計算機在特定問題上具有「量子優勢」的傳統觀念，為複雜量子系統的模擬開闢了新的經典計算途徑。\n\n【研究問題】\n過去，模擬二維和三維無序量子系統（如自旋玻璃）一直是計算物理學的巨大挑戰。傳統的經典方法如神經量子態（NQS）和矩陣產態（MPS）在處理高度關聯的高維系統時面臨嚴重的瓶頸，需要指數級的計算資源。近期D-Wave量子退火器在這些問題上展示了「量子優勢」，但這些實驗結果的準確性和可擴展性一直存在爭議。解決這個問題至關重要，因為它關係到我們能否在無實際量子電腦的情況下準確理解和預測複雜量子材料的行為。\n\n【研究方法】\n研究團隊開創性地使用與晶格結構匹配的張量網絡來編碼多體波函數。他們採用基於信念傳播的「簡單更新」方案進行時間演化，有效壓縮張量間共享的索引以應對演化過程中生成的纏結。為提取觀測值，他們開發了更精密的BP變體：對於圓柱晶格，使用圓柱矩陣產態（MPS）訊息傳遞；對於三維晶格，採用環路修正BP算法。這些方法能夠高效處理小環路晶格中的相關性，並且通過GPU加速顯著降低了環路收縮的計算時間。研究團隊還利用系統的ℤ₂對稱性來簡化計算，進一步提高了效率。\n\n【結果】\n研究團隊成功模擬了8×8圓柱晶格、鑽石立方和二聚化立方晶格中的自旋玻璃系統，在多種退火時間下達到了前所未有的精度。對於圓柱和鑽石晶格，他們的模擬誤差明顯低於D-Wave量子退火器；對於二聚化立方晶格，誤差則與量子退火器相當。最引人注目的是，他們在包含數百量子位的系統中驗證了基布爾-祖雷克（Kibble-Zurek）臨界現象，得到的臨界指數μ≈2.75與近期蒙特卡羅模擬結果一致（μ=2.67±0.29）。這些結果證實，張量網絡方法在模擬二維和三維量子動態方面遠比預期的更強大，為理解非平衡相變臨界現象提供了強有力的工具。",
+      "en": "**Summary:**\nThis research breaks through traditional boundaries in quantum simulation by successfully using tensor networks combined with belief propagation methods to accurately and efficiently simulate the dynamics of disordered quantum systems in both 2D and 3D. The research team demonstrated that their classical computational approach achieves higher accuracy than D-Wave's quantum annealer for systems with hundreds of qubits, with computational resources scaling only linearly with system size. This finding challenges the conventional notion that quantum computers hold \"quantum advantage\" for these specific problems, opening new avenues for classical computation of complex quantum systems.\n\n**Problem:**\nSimulating disordered quantum systems like spin glasses in 2D and 3D has long been a formidable challenge in computational physics. Traditional classical methods such as neural quantum states (NQS) and matrix product states (MPS) face severe bottlenecks when scaling to larger, highly correlated higher-dimensional systems, requiring exponentially computational resources. Recent experiments on D-Wave quantum annealers had shown \"quantum advantage\" for these problems, but the accuracy and scalability of these results remained questionable. Solving this problem is crucial as it determines whether we can accurately understand and predict the behavior of complex quantum materials without relying on actual quantum computers.\n\n**Approach:**\nThe researchers pioneered the use of lattice-specific tensor networks to encode many-body wavefunctions. They employed a belief propagation-based \"simple update\" scheme for time evolution, efficiently compressing shared indices between tensors to handle entanglement generated during the process. To extract expectation values, they developed more sophisticated BP variants: for cylindrical lattices, they used cylindrical matrix product state (MPS) message passing; for 3D lattices, they employed loop-corrected BP algorithms. These methods efficiently handle correlations in small-loop lattices and significantly reduced contraction times through GPU acceleration. The team also leveraged the ℤ₂ symmetry of the systems to simplify calculations, further enhancing computational efficiency.\n\n**Results:**\nThe research team successfully simulated spin glass systems on 8×8 cylindrical, diamond cubic, and dimerized cubic lattices, achieving unprecedented accuracy across various annealing times. For cylindrical and diamond lattices, their simulation errors were noticeably lower than those of the D-Wave quantum annealer; for dimerized cubic lattices, errors were comparable to the quantum system. Most remarkably, they verified universal Kibble-Zurek critical phenomena in systems with hundreds of qubits, obtaining a critical exponent μ≈2.75 consistent with recent Monte Carlo simulations (μ=2.67±0.29). These results demonstrate that tensor network methods are far more capable of simulating quantum dynamics in higher dimensions than previously anticipated, providing a powerful tool for understanding non-equilibrium phase transition critical phenomena."
+    },
+    "keyArticle": {
+      "title": "Dynamics of disordered quantum systems with two- and three-dimensional tensor networks",
+      "authors": [
+        "Joseph Tindall",
+        "Antonio Francesco Mello",
+        "Matthew Fishman",
+        "E. Miles Stoudenmire",
+        "Dries Sels"
+      ],
+      "doi": "10.1126/science.adx2728",
+      "pages": "868-872"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-05-21-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx2728",
+      "doi": "https://doi.org/10.1126/science.adx2728",
+      "preprint": "https://arxiv.org/abs/2503.05693"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-01T22:00:09.322064+00:00",
+    "source": "openalex"
+  }
+}

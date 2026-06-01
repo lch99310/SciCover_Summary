@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-05-25",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-05-25",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "全球城市：極端主義的溫床？倫敦的空間政治學研究",
+      "en": "The Global City as Crucible for Extremism: Spatial Politics in London"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破性地揭示了全球城市（以倫敦為例）如何作為積極的引擎，而非被動的舞台，透過其空間動力學製造極端主義思想。研究發現，種族化士紳化、嚴重的空間不平等和不穩定的勞動市場匯聚，結構性地挫敗了年輕、受教育的城市中產階層的期望，從而產生相對剝奪感，這成為政治暴力合理化的主要預測因素。這項研究挑戰了將極端主義簡化為「被遺落地區」現象的傳統觀點，建立了「全球城市動態」作為極端主義研究的新典範。\n\n【研究問題】文章探討的核心問題是：為何全球城市這類充滿機遇的地方反而成為極端主義滋生的溫床？過往研究往往將極端主義歸因於後工業時代的經濟衰退或「被遺落地區」現象，忽略了城市空間本身的積極建構作用。這個盲點至關重要，因為它阻礙了我們理解當代極端主義的真實動力，特別是在高度多樣化和不平等的都市場景中。\n\n【研究方法】研究團隊採用了獨特的空間敏感理論模型，結合尺度連結、情感地理學和經典城市社會學，並對英國大型樣本（n=2377）進行了調查分析。他們使用調節中介模型，檢驗種族怨恨如何透過相對剝奪感導致極端暴力思想。研究特別控制了就業狀況和非基督教宗教信仰等因素，以確保觀察到的空間動力學不僅僅是首都不同人口組成的反映。這種方法允許他們正式觀察高不平等環境如何形塑極端主義路徑。\n\n【結果】關鍵發現顯示，種族怨恨直接加劇了相對剝奪感的體驗，且在倫敦這種關聯顯著加強（p<0.01）。即使在控制就業和宗教信仰後，倫敦的因果關聯仍然明顯放大。研究發現，相對剝奪感是政治暴力合理化的主要預測因素，這種關係在倫敦更為強烈，並且跨越多數派-少數派人口分歧。倫敦作為「全球城市動態」的原型，證明了當代極端主義研究必須採用地基模型，以理解高不平等都市場景如何主動製造領土和情感經濟的激進化。",
+      "en": "**Summary:** This research breakthrough reveals how global cities like London function as active engines rather than passive stages in manufacturing extremist violent ideation through their spatial dynamics. The study demonstrates how severe spatial inequalities, racialized gentrification, and precarious labor markets converge to structurally frustrate the expectations of younger, educated urban bourgeoisie, generating relative deprivation that becomes the primary predictor for justifying political violence. This work challenges traditional views of extremism as merely a \"left-behind\" phenomenon, establishing the \"global city dynamic\" as a new paradigm for understanding contemporary radicalization.\n\n**Problem:** The central question addressed is: Why do global cities, typically seen as hubs of opportunity,反而 become fertile ground for extremism? Previous research often attributed extremism to post-industrial decline or \"left-behind\" regions, overlooking the active constructive role of urban space itself. This gap is crucial as it impedes our understanding of the true drivers of contemporary extremism, especially in highly diverse and unequal urban environments where the mechanisms might differ significantly from traditional narratives.\n\n**Approach:** The researchers developed a unique spatially-sensitive theoretical model integrating scalar articulation, affective geographies, and classical urban sociology. They analyzed a large UK sample (n=2377) using a moderated mediation model to test how nativist grievance leads to extremist violent ideation through relative deprivation. Crucially, they controlled for employment status and non-Christian religious affiliation to ensure observed spatial dynamics weren't merely reflections of London's different demographic composition. This approach allowed them to formally observe how high-inequality environments shape pathways to extremist ideation.\n\n**Results:** Key findings reveal that nativist grievance directly heightens perceptions of relative deprivation, with this causal link significantly amplified in London (p<0.01) even when accounting for employment and religious affiliation. Relative deprivation emerges as the primary predictor for justifying political violence, with this relationship markedly stronger in London and operating across majority-minority demographic divides. The findings establish London as an archetype for a broader \"global city dynamic,\" demonstrating that contemporary extremism studies must adopt place-based models to understand how high-inequality metropolitan environments actively manufacture territorial and affective-economic radicalization."
+    },
+    "keyArticle": {
+      "title": "A place for extremism: Nativist grievance, frustrated expectations, and the spatial dynamics of the global city",
+      "authors": [
+        "Tahir Abbas"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103585",
+      "pages": "103585"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103585",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103585"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-01T22:05:24.827585+00:00",
+    "source": "openalex"
+  }
+}

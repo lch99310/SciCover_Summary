@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-05-31T20:11:42.180951+00:00",
+  "lastUpdated": "2026-06-01T22:08:45.830078+00:00",
   "articles": [
+    {
+      "id": "nature-2026-05-27-02",
+      "journal": "Nature",
+      "date": "2026-05-27",
+      "path": "articles/2026/05/nature-2026-05-27-02.json",
+      "title_zh": "宇宙黎明時期的「裸露」黑洞：小紅點中的質量直接測量",
+      "title_en": "A 'Naked' Black Hole at Cosmic Dawn: Direct Mass Measurement in a Little Red Dot",
+      "cover_url": "data/images/nature/nature-2026-05-27-02-cover.jpg"
+    },
     {
       "id": "nature-2026-05-27",
       "journal": "Nature",
@@ -20,6 +29,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-05-26-cover.jpg"
     },
     {
+      "id": "political-geography-2026-05-25",
+      "journal": "Political Geography",
+      "date": "2026-05-25",
+      "path": "articles/2026/05/political-geography-2026-05-25.json",
+      "title_zh": "全球城市：極端主義的溫床？倫敦的空間政治學研究",
+      "title_en": "The Global City as Crucible for Extremism: Spatial Politics in London",
+      "cover_url": ""
+    },
+    {
       "id": "science-2026-05-21-02",
       "journal": "Science",
       "date": "2026-05-21",
@@ -36,6 +54,15 @@
       "title_zh": "人類存在與景觀改造的交互效應：重塑鳥類與哺乳動物的生存空間",
       "title_en": "The Invisible Hand: How Human Presence and Landscape Modification Reshape Wildlife Space",
       "cover_url": "data/images/science/science-2026-05-21-03-cover.jpg"
+    },
+    {
+      "id": "science-2026-05-21-04",
+      "journal": "Science",
+      "date": "2026-05-21",
+      "path": "articles/2026/05/science-2026-05-21-04.json",
+      "title_zh": "張量網絡挑戰量子優勢：經典計算模擬無序量子系統的新突破",
+      "title_en": "Tensor Networks Challenge Quantum Advantage: New Breakthrough in Classical Simulation of Disordered Quantum Systems",
+      "cover_url": "data/images/science/science-2026-05-21-04-cover.jpg"
     },
     {
       "id": "science-2026-05-21",
@@ -558,6 +585,15 @@
       "title_zh": "鋰之之路：玻利維亞高原的能源轉型與政治實踐",
       "title_en": "The Lithium Road: Political Practices Fueling Extractive Infrastructures in Bolivia's Altiplano",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-03-20-02",
+      "journal": "Cell",
+      "date": "2026-03-20",
+      "path": "articles/2026/03/cell-2026-03-20-02.json",
+      "title_zh": "神經過度生長：解開哺乳類皮膚再生的密碼",
+      "title_en": "Unlocking Mammalian Regeneration: How Nerve Overgrowth Blocks Organ-Level Healing",
+      "cover_url": "data/images/cell/cell-2026-03-20-02-cover.jpg"
     },
     {
       "id": "cell-2026-03-20",
@@ -1431,6 +1467,15 @@
       "title_zh": "推文到街頭？領袖社群媒體訊息對民族主義動員的影響",
       "title_en": "Tweets to the Streets? The Impact of Leaders' Social Media on Nationalist Mobilization",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-07-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-08",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-08.json",
+      "title_zh": "從障礙到虐待：邊境強化與酷刑的隱藏連結",
+      "title_en": "From Barriers to Abuse: The Hidden Link Between Border Hardening and Torture",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-08-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

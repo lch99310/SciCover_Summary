@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01-08",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從障礙到虐待：邊境強化與酷刑的隱藏連結",
+      "en": "From Barriers to Abuse: The Hidden Link Between Border Hardening and Torture"
+    },
+    "summary": {
+      "zh": "【總結】這篇突破性研究揭示了一個令人不安的關聯：當國家建造邊界屏障（牆壁和圍欄）時，邊境與移民官員（BIOs）的酷刑指控顯著增加。儘管全球酷刑總體呈下降趨勢，但邊境官員的酷刑行為卻呈上升態勢。研究發現，邊境屏障建設向兩個受眾發送信號——國內民眾感受到安全感，而邊境官員則解讀為國家提升安全優先級和授權採取更嚴厲執法手段的信號。這項研究首次系統性地探討了邊界屏障與國家代理人侵犯人權之間的關聯，對理解當代邊境政治和人權保障具有重要意義。\n\n【研究問題】研究探討的核心問題是：為什麼在全球酷刑普遍下降的背景下，邊境官員的酷刑指控卻持續上升？過去的研究存在明顯盲點——邊境控制與人權文獻幾乎完全分離，缺乏對邊境官員行為特殊邏輯的理解。解決這個問題至關重要，因為邊境成為人權侵犯的重要場域，但傳統人權理論難以解釋為何邊境官員的侵犯行為與國內其他安全部門的行為模式不同。\n\n【研究方法】研究者建立了一個涵蓋26年、152個有陸地邊界國家的邊境官員酷刑指控數據庫，並結合邊境屏障建設數據（1990-2020年）。研究採用獨特的信號理論框架，分析國家如何透過邊境建設向不同受眾發送安全信號。此外，研究還分析了歐洲邊境安全機構Frontex近二十年來的新聞稿文本，探討其對人權與安全的關注變化。研究方法包括迴歸分析、固定效應模型和文本分析，確保結果的統計顯著性和理論解釋力。\n\n【結果】研究發現，當國家開始建造邊境屏障時，邊境官員的酷刑指控在次年增加13-14%。更具體地說，研究發現：（1）邊境官員的酷刑行為與國內其他安全部門的酷刑行為無關；（2）當邊境屏障與領導人焦慮或憤怒的邊境言論結合時，酷刑指控進一步增加；（3）Frontex新聞稿顯示，在有邊境牆的國家，其對人權的關注減少，對安全的關注增加。這些結果意味著邊境硬化與人權之間存在緊張關係，呼籲政策制定者重新評估邊境安全政策的人權維度。",
+      "en": "**Summary:** This groundbreaking research reveals a disturbing correlation: when states construct border barriers (walls and fences), torture allegations by Border and Immigration Officials (BIOs) significantly increase. Despite a global decline in torture overall, torture by border personnel has shown an upward trend. The study demonstrates that border infrastructure sends signals to two distinct audiences—domestic citizens perceive enhanced security, while border officers interpret these as elevated national security priorities and authorization to employ harsher enforcement tactics. This research is the first systematic exploration of the relationship between border barriers and human rights abuses by state agents, offering crucial insights into contemporary border politics and human rights protection.\n\n**Problem:** The central question addressed is: why have torture allegations by border personnel continued to rise despite the global decline in torture practices? Previous research suffers from a critical blind spot—border control and human rights literature have remained largely disconnected, lacking understanding of the distinct logic governing border officials' behavior. This problem is particularly urgent because borders have become significant sites of human rights violations, yet traditional human rights theories fail to explain why border officials' abusive patterns differ from other state security actors.\n\n**Approach:** The researchers constructed a unique 26-year database of torture allegations by BIOs across 152 countries with land borders, combined with data on border barrier construction from 1990-2020. They employed a signaling theory framework to analyze how states communicate security priorities to different audiences. Additionally, the study analyzed nearly two decades of press releases from Europe's border agency Frontex to examine shifts in human rights versus security focus. The methodology included regression analysis, fixed-effects models, and textual analysis, ensuring statistical rigor and theoretical coherence.\n\n**Results:** Key findings reveal that when states initiate border barrier construction, torture allegations by BIOs increase by 13-14% in the following year. Specifically: (1) torture by border officials shows no correlation with torture by other state security apparatuses within the same country; (2) when barrier construction combines with anxious or angry border rhetoric from leaders, torture allegations further increase; (3) Frontex press releases demonstrate decreased attention to human rights and increased focus on security when reporting on countries with border walls. These results indicate a fundamental tension between border hardening and human rights, urging policymakers to critically examine border security policies through a human rights lens."
+    },
+    "keyArticle": {
+      "title": "From Barriers to Abuse: Border Hardening and Torture",
+      "authors": [
+        "Gino Pauselli",
+        "Beth A. Simmons"
+      ],
+      "doi": "10.1017/s0020818326101350",
+      "pages": "324-358"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101350",
+      "doi": "https://doi.org/10.1017/s0020818326101350"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-01T22:08:41.070124+00:00",
+    "source": "openalex"
+  }
+}
