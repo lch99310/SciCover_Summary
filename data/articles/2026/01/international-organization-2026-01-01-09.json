@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01-09",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-09-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "聯合國安理會如何「名譽羞辱」武裝團體？大國博弈與全球規範的雙重動力",
+      "en": "How the UN Security Council 'Names and Shames' Armed Groups: The Dual Dynamics of Great Power Politics and Global Norms"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次系統性地考察聯合國安理會對非國家武裝團體（NSAGs）的「名譽羞辱」行為，發現這類指責佔安理會所有譴責行為的近一半。研究突破性地揭示了安理會常任理事國（P5）與非常任理事國（E10）的動機差異：P5國家主要基於地緣政治聯盟考量，支持其盟友政府；而E10國家則更多出於對保護平民全球規範的承諾。這項發現挑戰了傳統國際關係理論，揭示了國際組織內部複雜的權力動態與規範競爭。【研究問題】過去研究多聚焦於國家間的「名譽羞辱」，卻忽略了對非國家行為體的系統性研究。隨著內戰頻率與嚴重性的歷史性上升，武裝團體已成為國際政治的核心行為體，理解國際社會如何應對這些團體對人權的侵犯與武裝衝突至關重要。本研究填補了這一研究缺口，揭示了國際外交中鮮為人知的動力機制。【研究方法】研究團隊創新性地建構了1995-2016年安理會所有公開會議發言的數據集，系統搜尋其中包含「譴責」（condemn）、「譴責」（deplore）和「譴責」（denounce）等詞彙的段落，並手動編碼確認目標行為體。研究採用二元分析方法，以NSAG-安理會成員國-年為分析單位，並使用邏輯迴歸檢驗兩種理論解釋：地緣政治合作與全球保護規範。同時，他們區分了常任理事國（P5）與非常任理事國（E10）的行為模式，以揭示不同的動機。【結果】研究發現，在1995-2016年期間，安理會對NSAGs的譴責佔所有譴責行為的44%，比例出人意料地高。最受譴責的NSAGs包括伊斯蘭國、哈馬斯、塔利班、上帝抵抗軍和青年黨等，其中多數具有伊斯蘭主義政治議程。統計分析顯示，P5國家在向提供外部支持的政府對抗的NSAGs進行譴責時，可能性增加約139%；而E10國家則更可能譴責那些針對平民造成重大傷亡的武裝團體。2014年出現明顯的譴責高峰，主要與敘利亞內戰升級和全球恐怖網絡擴張有關。這些結果揭示了國際組織內部權力結構與規範動態的複雜交互作用，為理解大國外交與小國在國際舞台上的策略提供了新視角。",
+      "en": "**Summary:** This research provides the first systematic examination of the United Nations Security Council's practice of 'naming and shaming' nonstate armed groups (NSAGs), revealing that such condemnations account for nearly half of all admonishments at the UNSC. The study makes a breakthrough by uncovering the divergent motivations between permanent five members (P5) and elected ten members (E10): P5 nations primarily act based on geopolitical partnerships with allied governments, while E10 members are more guided by commitment to global civilian protection norms. This finding challenges conventional international relations theory and reveals the complex dynamics of power and norm competition within international organizations.\n\n**Problem:** Previous research has predominantly focused on state-to-state 'naming and shaming,' overlooking systematic study of how international actors respond to nonstate armed groups. With the historic rise in intrastate conflict frequency and severity, NSAGs have become central actors in international politics, making it crucial to understand how the international community responds to their human rights violations and armed activities. This study fills this research gap, revealing previously unknown mechanisms in international diplomacy.\n\n**Approach:** The researchers innovatively constructed a comprehensive dataset of all speeches from UNSC public meetings from 1995-2016, systematically searching for instances containing 'condemn,' 'deplore,' and 'denounce' directed at NSAGs. They manually coded these instances to identify specific targets and behaviors. Using a dyadic approach with NSAG-UNSC member state-year as the unit of analysis, they employed logistic regression to test two theoretical explanations: geopolitical partnerships and global protection norms. Crucially, they distinguished between P5 and E10 member behaviors to reveal different motivations.\n\n**Results:** The study reveals that NSAGs constituted 44% of all condemnations at the UNSC during 1995-2016—a surprisingly high proportion. The most frequently condemned NSAGs included ISIS, Hamas, the Taliban, the Lord's Resistance Army, and Al-Shabaab, with most having Islamist political agendas. Statistical analysis shows P5 members were 139% more likely to condemn NSAGs fighting governments they supported externally, while E10 members were significantly more likely to target groups committing atrocities against civilians. A notable spike in condemnations occurred in 2014, coinciding with the escalation of the Syrian civil war and the expansion of global terrorist networks. These findings reveal the complex interplay of power structures and norm dynamics within international organizations, offering new perspectives on great power diplomacy and small state strategies on the global stage."
+    },
+    "keyArticle": {
+      "title": "Naming and Shaming Nonstate Armed Groups at the United Nations Security Council",
+      "authors": [
+        "Caroline M. Brandt",
+        "Jenniina Kotajoki"
+      ],
+      "doi": "10.1017/s0020818326101337",
+      "pages": "431-455"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-09-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101337",
+      "doi": "https://doi.org/10.1017/s0020818326101337"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-04T21:05:55.021170+00:00",
+    "source": "openalex"
+  }
+}

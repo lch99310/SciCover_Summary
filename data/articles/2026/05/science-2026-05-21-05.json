@@ -1,0 +1,48 @@
+{
+  "id": "science-2026-05-21-05",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6800",
+  "date": "2026-05-21",
+  "coverImage": {
+    "url": "data/images/science/science-2026-05-21-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "進化科學 vs. AI自動化：端到端科學的隱憂",
+      "en": "Evolutionary Science vs. AI Automation: The Hidden Risks of End-to-End Science"
+    },
+    "summary": {
+      "zh": "【總結】\n本文探討了人工智慧（AI）驅動的「端到端科學」（ETES）系統對科學發展的深遠影響。作者認為，儘管AI技術上能「做科學」，但科學作為一種社會進化系統，其產生可信知識的能力可能受到根本性挑戰。科學的進步類似達爾文進化論：多樣化的獨立研究變異、透過批評與複製的選擇機制、以及對可靠結果的保留。ETES系統可能因集中於少數平台、重疊數據和相似目標而產生相關性而非獨立性，這將窄化科學探索的空間，限制突破性發現的可能性。\n\n【研究問題】\n文章探討的核心問題是：當AI系統能自動執行科學研究的全部流程時，科學作為一個自我糾錯和產生新知的社會系統能否保持其本質？過去的研究多關注AI技術能力，卻忽略了科學作為進化系統的核心特性。解決這個問題至關重要，因為它涉及未來科學發展的方向——我們是追求效率優化，還是保留科學系統的進化特性，以確保持續的創新和知識的可靠性。\n\n【研究方法】\n作者採用理論分析和概念對比的方法，將科學進程比作達爾文進化論中的變異、選擇和保留過程，並與ETES系統的封閉優化模式進行對比。他們引入科學哲學家卡爾·波普爾（Karl Popper）的「時鐘與雲」概念，將科學工作流程比作可以分解和優化的時鐘，而科學作為發現系統則像由複雜互動產生行為的雲。這種概念框架幫助讀者理解為何單純技術優化可能損害科學作為整體的完整性。\n\n【結果】\n研究表明，ETES系統可能產生更多輸出，但會減少對意外路徑的探索，因為優化壓力驅使系統在受限的搜索空間內進行快速疊代。這種收窄效應對創造力有深遠影響，因為許多科學上的重大進步並非知識的重新組合，而是突破既有框架的概念性轉變。這些突破最難從訓練於過去數據的系統中產生。作者強調，科學系統中的「無效率」——如冗餘努力、失敗嘗試和分歧路徑——不是要消除的缺點，而是發現的來源。如果用工程化過程取代進化過程，我們可能窄化不僅是我們發現什麼，更是我們能夠發現什麼的範圍。",
+      "en": "**Summary:**\nThis article explores the profound implications of artificial intelligence-driven \"end-to-end science\" (ETES) systems on scientific progress. The authors argue that while AI can technically \"do science,\" science as a social, evolutionary system that generates trustworthy knowledge faces fundamental challenges. Science advances through a Darwinian process: variation across independent efforts, selection through critique and competition, and retention of robust results. ETES systems risk creating correlation rather than independence by relying on a small number of dominant platforms with overlapping data, potentially narrowing scientific exploration and limiting breakthrough discoveries.\n\n**Problem:**\nThe central question addressed is: when AI systems can automate the entire research process, can science maintain its essence as a self-correcting system that generates new knowledge? Previous research has focused on AI's technical capabilities while overlooking science's core evolutionary characteristics. This problem is crucial because it determines the future direction of science—whether we prioritize optimization efficiency or preserve the evolutionary properties that ensure continuous innovation and reliable knowledge.\n\n**Approach:**\nThe authors employ theoretical analysis and conceptual comparison, framing scientific progress through the lens of Darwinian evolution (variation, selection, retention) and contrasting it with the closed optimization model of ETES systems. They introduce philosopher Karl Popper's \"clocks and clouds\" concept, comparing scientific workflows to optimizable clocks while viewing science as a discovery system akin to clouds whose behavior emerges from complex interactions. This conceptual framework helps readers understand why mere technical optimization might compromise the integrity of science as a whole.\n\n**Results:**\nThe research reveals that ETES systems may produce more outputs but reduce exploration of unexpected paths due to optimization pressures driving rapid iteration within constrained search spaces. This narrowing effect has profound implications for creativity, as many significant scientific advances are not merely recombinations of existing knowledge but conceptual shifts that violate prior frameworks—breaks least likely to emerge from systems trained on historical data. The authors emphasize that the \"inefficiencies\" in science—redundant efforts, failed attempts, divergent paths—are not defects to be eliminated but sources of discovery. Replacing an evolutionary process with an engineered one risks narrowing not only what we discover but what we are capable of discovering at all."
+    },
+    "keyArticle": {
+      "title": "Progression without progress",
+      "authors": [
+        "Julio M. Ottino",
+        "Brian Uzzi"
+      ],
+      "doi": "10.1126/science.aeh8945",
+      "pages": "791"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-05-21-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh8945",
+      "doi": "https://doi.org/10.1126/science.aeh8945"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-04T20:56:47.060937+00:00",
+    "source": "openalex"
+  }
+}

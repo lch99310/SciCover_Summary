@@ -1,0 +1,68 @@
+{
+  "id": "nature-2026-05-27-03",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8117",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-27-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "哺乳動物衰老與死亡的普遍轉錄組標記",
+      "en": "Universal Transcriptomic Hallmarks of Mammalian Ageing and Mortality"
+    },
+    "summary": {
+      "zh": "【總結】這項研究整合了超過11,000個來自25種組織、4種哺乳動物（小鼠、大鼠、恆河猴和人類）的轉錄組數據，開發出準確且可解讀的年齡和預期死亡率生物標記。研究揭示了哺乳動物衰老和死亡的普遍轉錄組標記，包括CDKN1A和LGALS3等基因，其蛋白水平與UK Biobank中的死亡率和多病共存相關。研究發現衰老相關變化在物種和細胞類型中保守存在，並確定了衰老和死亡相關特徵的模塊化架構，涵蓋炎症、干擾信號、線粒體功能、染色質修飾和細胞外基質組織等。研究還開發了模塊特異性時鐘，以量化個體細胞成分的衰老，並提供了轉錄組年齡計算器在線工具。\n\n【研究問題】儘管衰老和干预措施可以調節健康和死亡率，但其基礎分子機制仍然不清楚。過去的研究雖然描述了哺乳動物衰老的分子特徵和壽命調節模型，但缺乏對衰老、縮短壽命模型和長壽干预措施共享的死亡相關機制的統一分析。現有的DNA甲基化死亡率時鐘主要限於人類血液，單細胞應用仍然有限，且基於CpG的模型通常難以機理解讀。這項研究旨在解決這一缺口，通過跨物種、跨組織的轉錄組分析，確定衰老和死亡的普遍標記。\n\n【研究方法】研究人員整合了來自UM-HET3小鼠的20種干預試驗(ITP)的RNA測序數據，並與已發表的轉錄組和生存數據結合，涵蓋了4,539個 rodent樣本和26種組織。他們開發了rodent多組織時鐘來預測年齡和預期死亡率，並將其分解為代表核心細胞成分的共調節模塊。研究還納入了6,626個靈長類樣本，開發了多物種、多組織轉錄組時鐘。研究人員使用了加權基因共表達網絡分析(WGCNA)來識別28個穩定的模塊，每個模塊包含30-630個基因，並針對每個模塊開發了特異性時鐘。研究還開發了轉錄組年齡計算器在線工具(TACO)和R包tAge以應用這些生物標記。\n\n【結果】研究開發的多物種多組織時鐘在所有四個物種中都表現良好，在留一折驗證中達到物種內Pearson's r ≥ 0.94（年齡時鐘）和r ≥ 0.91（死亡率時鐘）。研究發現衰老相關變化在物種和細胞類型中保守存在，包括CDKN1A和LGALS3等基因，其蛋白水平與UK Biobank中的死亡率和多病共存相關。模塊特異性時鐘揭示了不同干預措施的途徑特異性效果：慢性疾病主要加速炎症模塊衰老，而熱量限制和Klotho缺乏則靶向線粒體和代謝模塊。研究還發現轉錄組和DNA甲基化時鐘在人類血液中顯示相關的年齡加速，其中染色質相關模塊時鐘的相關性最強，突顯了分子衰老模式之間的機制聯繫。",
+      "en": "**Summary:** This research integrated over 11,000 transcriptomes from 25 tissues across 4 mammals (mouse, rat, macaque, and human) to develop accurate, interpretable biomarkers of chronological age and expected mortality. The study revealed universal transcriptomic signatures of mammalian ageing and mortality, including genes like CDKN1A and LGALS3, whose protein levels were associated with mortality in the UK Biobank. Ageing-related changes were conserved across species and cell types, revealing a modular architecture of ageing- and mortality-associated hallmarks encompassing inflammation, interferon signaling, mitochondrial function, chromatin modification, and extracellular matrix organization. The researchers also developed module-specific clocks to quantify ageing of individual cellular components and provided the Transcriptomic Age Calculator Online (TACO) web app to facilitate application of these biomarkers.\n\n**Problem:** Although ageing and interventions can modulate health and mortality, the underlying molecular mechanisms remain unclear. While previous studies have described mammalian molecular signatures of ageing and lifespan-regulating models, a unified analysis of mortality-associated mechanisms shared across ageing, lifespan-shortening models and longevity interventions has been lacking. Existing DNA methylation mortality clocks are largely restricted to human blood, single-cell applications remain limited, and CpG-based models are often difficult to interpret mechanistically. This research aimed to address this gap by identifying conserved signatures and a modular architecture of mortality regulation across species and tissues.\n\n**Approach:** The researchers generated RNA-sequencing data from UM-HET3 mice subjected to 20 Interventions Testing Program (ITP) interventions and integrated them with published transcriptomes and survival data, encompassing 4,539 rodent samples across 26 tissues. They developed rodent multi-tissue clocks of chronological age and expected mortality and decomposed them into co-regulated modules representing core cellular components. They further incorporated 6,626 primate samples to develop multi-species, multi-tissue transcriptomic clocks. The researchers used weighted gene co-expression network analysis (WGCNA) to identify 28 robust modules and developed module-specific clocks. They also created the Transcriptomic Age Calculator Online (TACO) web app and R package tAge to facilitate application of these biomarkers.\n\n**Results:** The multi-species multi-tissue clocks performed well across all four species, achieving within-species Pearson's r ≥ 0.94 (chronological clocks) and r ≥ 0.91 (mortality clocks) in leave-one-fold-out validation. The study identified conserved gene- and pathway-level ageing signatures across rodents and primates, including upregulation of interferon, TNF and p53 signaling, and downregulation of DNA repair, mitochondrial translation, and collagen formation. Module-specific clocks revealed pathway-specific effects of interventions: chronic diseases primarily accelerated inflammatory-module ageing, whereas caloric restriction and Klotho deficiency targeted mitochondrial and metabolic modules. Transcriptomic and DNA methylation clocks showed correlated age acceleration in human blood, with the strongest correlation for the chromatin-associated module clock, highlighting mechanistic links between molecular ageing modalities."
+    },
+    "keyArticle": {
+      "title": "Universal transcriptomic hallmarks of mammalian ageing and mortality",
+      "authors": [
+        "Alexander Tyshkovskiy",
+        "Daria Kholdina",
+        "Maria Davitadze",
+        "Adrian Molière",
+        "Alibek Moldakozhayev",
+        "Yoshiyasu Tongu",
+        "Tomoko Kasahara",
+        "Dmitrii Glubokov",
+        "Alec Eames",
+        "Lauren Kats",
+        "Anastasiya Vladimirova",
+        "Kejun Ying",
+        "Hanna Liu",
+        "Bohan Zhang",
+        "Uma Khasanova",
+        "Mahdi Moqri",
+        "Jeremy M. Van Raamsdonk",
+        "David E. Harrison",
+        "Randy Strong",
+        "Takaaki Abe",
+        "Sergey E. Dmitriev",
+        "Vadim N. Gladyshev"
+      ],
+      "doi": "10.1038/s41586-026-10542-3",
+      "pages": "173-188"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-27-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10542-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10542-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-04T20:59:38.956559+00:00",
+    "source": "openalex"
+  }
+}

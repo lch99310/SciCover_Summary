@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-06-03",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-06-03",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-06-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "無水築壩？解開摩洛哥現代化話語的矛盾迷思",
+      "en": "Building Dams Without Water? Unraveling Paradoxes in Morocco's Modernization Discourse"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇研究探討了摩洛哥在嚴重缺水背景下，仍持續以「透過水現代化」的思維推進水資源管理的矛盾現象。研究以摩洛哥El Hajeb省的M'dez水壩建設計畫為案例，揭示了即使面對地下水枯竭與氣候變遷的挑戰，國家政策仍堅持以基礎設施建設為導向的現代化路徑。研究突破點在於揭示了現代化話語如何透過不同時期的權力關係與演變，持續主導政策決策，而非隨著資源短缺而轉變。\n\n【研究問題】\n文章探討的核心問題是：為何在摩洛哥持續經歷乾旱與水資源短缺的情況下，國家仍選擇以大型水利設施（如M'dez水壩）作為解決方案，而非轉向更可持續的水資源管理策略？過去研究多關注技術層面的水資源管理，卻忽略了話語權力在塑造政策決策中的關鍵作用。研究試圖揭示「現代化透過水」話語如何在不同時期透過不同行動者的競爭與協商，持續維持其主導地位。\n\n【研究方法】\n研究採用民族誌田野調查方法，在2016至2020年期間進行長達13個月的實地研究，位於摩洛哥El Hajeb省的三個鄉村地區。研究方法包括長期直接觀察、參與式觀察、檔案分析及結構化與半結構化訪談。研究團隊訪談了20位高階官員與研究人員，並聚焦於不同行動者群體（農民、投資者、租戶、公私合夥夥伴、高階行政人員、流域機關官員及研究人員）。理論框架結合了現代化理論與批判性話語分析，並採用實用社會學中的「試煉」概念來分析政策決定過程。\n\n【結果】\n研究揭示了「現代化透過水」話語的四個演階：1980年代強調地下水豐裕與自主；1990年代聚焦於農業強化與創新；2010年代轉向地下水過度開採與枯竭的警告；2020年代則強調可持續性與責任，但仍維持農業強化的核心。儘管地下水資源已嚴重枯竭，M'dez水壩計畫仍被視為「決定性事件」，不同行動者群體雖有不同的利益關係，卻共同支持這一基礎設施導向的解決方案。研究顯示，現代化話語透過「結構化」、「合法化」與「制度化」過程，持續主導政策決策，即使面對資源短缺的現實挑戰。",
+      "en": "**Summary:**\nThis research examines Morocco's paradoxical approach to water management—continuing to frame water infrastructure projects as essential for modernization despite severe water scarcity. The study focuses on the M'dez Dam project in El Hajeb Province as a case study to reveal how the discourse of \"modernization through water\" has maintained its hegemonic position despite ecological constraints. The breakthrough lies in demonstrating how modernization discourses evolve through power relations and negotiations among different actor groups, rather than being abandoned in response to resource depletion.\n\n**Problem:**\nThe central question addressed is: Why does Morocco persist with large-scale hydraulic infrastructure solutions like the M'dez Dam project despite ongoing droughts and water scarcity, rather than shifting toward more sustainable water resource management strategies? Previous research has predominantly focused on technical aspects of water management, neglecting the critical role of discursive power in shaping policy decisions. This study seeks to reveal how the \"modernization through water\" discourse has been sustained through competing and negotiating processes among different actors across historical periods.\n\n**Approach:**\nThe research employs an ethnographic approach with 13 months of fieldwork conducted between 2016 and 2020 across three rural municipalities in El Hajeb Province. Methodologies included prolonged direct observation, participant observation, archival analysis, and structured and semi-structured interviews. The research team interviewed 20 senior administrators and researchers and focused on diverse actor groups including farmers, investors, tenants, public-private partnerships, government officials, basin agency representatives, and researchers. The theoretical framework integrates modernization theory with critical discourse analysis, utilizing the concept of \"trials\" from pragmatic sociology to analyze policy decision-making processes.\n\n**Results:**\nThe research identifies four evolutionary phases of the \"modernization through water\" discourse: the 1980s emphasizing groundwater abundance and autonomy; the 1990s focusing on agricultural intensification and innovation; the 2010s shifting to warnings about groundwater overexploitation and depletion; and the 2020s emphasizing sustainability and accountability while maintaining agricultural intensification. Despite severe groundwater depletion, the M'dez Dam project was framed as a \"determining event\" with different actor groups supporting this infrastructure-driven solution despite differing material interests. The findings demonstrate how modernization discourse maintains dominance through processes of \"structuration,\" \"legitimization,\" and \"institutionalization,\" even in the face of ecological constraints and water scarcity."
+    },
+    "keyArticle": {
+      "title": "Building a dam without water? Unraveling paradoxes and modernization discourses in Morocco, the case of El Hajeb Province (Saïss Plain, Morocco)",
+      "authors": [
+        "Imane Messaoudi",
+        "Christian Bréthaut"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103588",
+      "pages": "103588"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-06-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103588",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103588"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-04T21:03:53.969608+00:00",
+    "source": "openalex"
+  }
+}
