@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-05-25-02",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-05-25",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "'美國優先'會讓美國落後嗎？探索化石燃料心臘地的論述轉變",
+      "en": "Will 'America First' Leave America Behind? Exploring Discourses of a Fossil-Fueled Heartland"
+    },
+    "summary": {
+      "zh": "【總結】本文探討共和黨在「美國優先」政策框架下，如何透過三種不同論述（新自由理性論、國家保護主義論、懷舊激進論）轉變其氣候政策立場，從經濟考量轉向文化身份認同的對抗。研究發現，隨著特朗普當選，懷舊激進論述逐漸成為主導，將氣候行動描述為對「美式生活」的威脅，並以此為基礎推動化石燃料產業的復興。這一論述轉變不僅掩蓋了深層的社會環境衝突，也使美國在綠色經濟競爭中面臨被邊緣化的風險，同時卻為特朗普第二屆任期的大規環保政策倒退鋪平了道路。【研究問題】本研究旨在解釋「美國優先」政策如何重塑共和黨的氣候政策論述，以及這種轉變背後的意識形態機制。過去的研究雖然注意到共和黨對氣候政策的抵制，但未能充分分析其論述如何隨時間演變，以及這些論述如何與民粹主義和極右翼思想結合。解決這一問題至關重要，因為它揭示了政治論述如何影響環境政策的實質進展，以及美國在國際氣候治理中的地位如何被內部政治動態所削弱。【研究方法】研究採用地緣生態學框架，對2015-2024年期間的美國國會記錄進行論述分析，專注於氣候變化話題上發言頻率最高的十位共和黨議員（共157次演講，計271,038字）。研究採用結合歸納與演繹的編碼策略，識別出三種理想類型的論述模式，並分析它們如何隨時間演變。這種方法使研究者能夠揭示共和黨論述的內在邏輯及其在國家氣候政策制定中的影響。【結果】研究發現，共和黨的氣候論述存在明顯的轉變趨勢：2015-2018年期間以新自由理性論和國家保護主義論為主，從2019年開始，懷舊激進論述顯著增加，並在特朗普2024年當選後成為主流。這一轉變使氣候政策被重新框架為對「美國方式」的道德攻擊，而非純粹的經濟或技術問題。研究顯示，這種論述轉變已導致大規模的環境保護政策倒退，並使美國在中國和歐盟等競爭對手加速綠色技術發展的背景下，面臨在未來綠色經濟中被邊緣化的風險。",
+      "en": "**Summary:** This article examines how the Republican Party, under the 'America First' doctrine, has transformed its climate policy discourse through three distinct frameworks: neoliberal rationalism, nationalist protectionism, and radical nostalgia. The research reveals a significant shift from economic-based opposition to identity-based resistance, with the 'radical nostalgic' discourse emerging as dominant after 2019. This framing portrays climate action as a threat to 'the American way of life,' enabling the rollback of environmental regulations during Trump's second term. The study demonstrates how this discursive shift legitimizes fossil fuel expansion while masking deeper socio-environmental conflicts and potentially jeopardizing long-term U.S. competitiveness in the green economy.**Problem:** The article addresses how populist and radical right ideologies have reshaped Republican climate discourse over time, a question previous research has inadequately explored. While scholars have noted Republican climate resistance, few have examined the specific discursive mechanisms behind this shift or its connection to the 'America First' doctrine. Understanding this transformation is crucial because it reveals how political narratives can materially impact environmental policy and potentially undermine America's position in global climate governance and green technology competition.**Approach:** The researchers employed a geopolitical ecology framework, conducting a discourse analysis of Congressional Records from 2015-2024. They focused on speeches by the ten most vocal Republican legislators on climate issues (157 speeches totaling 271,038 words). Using a combined inductive-deductive coding strategy, they identified three ideal-type discourses and mapped their evolution over four congressional terms. This approach allowed them to analyze how Republican politicians constructed arguments about climate change, energy policy, and national identity, revealing the underlying ideological logics driving climate opposition.**Results:** The analysis reveals a clear discursive shift: from 2015-2018, dominated by neoliberal rationalism and nationalist protectionism; after 2019, a dramatic increase in radical nostalgic discourse. The 'radical nostalgic' framing, which depicts climate policies as attacks on American values and fossil fuel extraction as essential to national renewal, became particularly pronounced after Trump's 2024 election. This discursive shift has enabled sweeping environmental rollbacks, including regulatory reversals across climate, energy, and public lands policies. The study warns that this approach masks local ecological harms and risks U.S. competitiveness in green technology as China and the EU accelerate their energy transitions."
+    },
+    "keyArticle": {
+      "title": "Will ‘America first’ leave America behind? Exploring discourses of a fossil-fueled heartland",
+      "authors": [
+        "Ida Marie Støp Meland",
+        "Guri Bang"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103583",
+      "pages": "103583"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103583",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103583"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-07T20:15:38.085310+00:00",
+    "source": "openalex"
+  }
+}

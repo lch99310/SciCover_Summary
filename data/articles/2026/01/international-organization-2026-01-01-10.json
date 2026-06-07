@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2026-01-01-10",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "收斂靈活性：國際法如何與技術變革同步",
+      "en": "Convergent Flexibility: How International Law Keeps Pace with Technological Change"
+    },
+    "summary": {
+      "zh": "【總結】本研究提出「收斂靈活性」理論，解釋國際法如何應對技術變革。傳統觀點認為法律精確性有利於遵守，但本研究發現，過度精確的法律規則雖然在靜態環境中促進遵守，卻難以應對新型挑戰。相反，法律規則的概括性能促進解釋的收斂，即使面對前所未有的技術和分歧的監管利益，也能達成共識。這項研究挑戰了法律精確性與遵守之間的簡單關聯，為理解國際法在技術變革面前的韌性提供了新框架。\n\n【研究問題】文章探討的核心問題是：國際法如何應對技術變革？過去的研究多聚焦於「步調問題」或制度設計，但未能解釋為何某些法律規則能保持韌性而其他則會變爭議。傳統觀點認為法律精確性有利於遵守，但本研究指出這種觀點忽略了技術變革背景下的動態挑戰。解決這個問題至關重要，因為技術變革正在重塑全球治理架構，理解國際法的韌性有助於設計更能適應未來的法律制度。\n\n【研究方法】作者採用混合研究方法，包括一项涉及450名國家安全法律專業人士的隨機對照試驗（RCT）和兩個歷史案例研究。實驗採用$2^3$因子設計，獨立變更條約精確性、技術新穎性和政治動機。參與者分析假衛星技術的合法性，寫作長篇法律簡報，總共產出28萬字、10,000小時的法律意見。案例研究則聚焦於化學武器技術的兩個爭議：「超級催淚瓦斯」和「諾維喬克」神經劑，以驗證理論的外部有效性。\n\n【結果】研究發現高度精確的法律規則雖有利於短期遵守，但卻「脆弱」且難以應對新型挑戰。法律不精確性的形式至關重要：模糊性增加了解釋的分歧，而概括性系統性地提高了對限制性解釋的可信度，從而促進韌性。實驗顯示，即使面對政治化客戶指示，法律顧問仍會建議克制，以保護客戶免於被視為不遵守。兩個歷史案例研究證實了這一發現：1925年《日內瓦議定書》僅350字，因概括性解釋而保持了五十年技術衝擊下的韌性；而1993年《化學武器公約》則因需要正式修訂程序而受到「諾維喬克」的擾亂。",
+      "en": "**Summary:** This research introduces a theory of \"convergent flexibility\" to explain how international law maintains resilience against technological change. Traditional views have assumed that legal precision promotes compliance, but this study finds that overly precise rules, while beneficial in static environments, struggle to accommodate novel challenges. Instead, the generality of legal rules systematically upweights restrictive interpretations, fostering convergence even when technologies are unprecedented and regulatory interests diverge. This research challenges the simplistic relationship between legal precision and compliance, offering a new framework for understanding international law's adaptability in the face of technological change.\n\n**Problem:** The article addresses the core question of how international law keeps pace with technological change. Previous research has focused on the \"pacing problem\" or institutional design but failed to explain why some legal rules remain resilient while others become subject to contestation. The conventional view that legal precision improves compliance ignores the dynamic challenges posed by technological change. Solving this problem is crucial because technological innovation is reshaping global governance, and understanding international law's resilience helps design more adaptive legal frameworks for the future.\n\n**Approach:** The author employs a mixed-methods approach including a randomized controlled trial (RCT) with 450 national security law professionals and two historical case studies. The experimental design uses a $2^3$ factorial structure, independently varying treaty precision, technological novelty, and political incentives. Participants analyzed the legality of a hypothetical satellite technology, writing lengthy legal briefs that collectively contributed 280,000 words over 10,000 hours. Case studies examined two chemical weapons technologies—\"super tear gas\" and novichok—to validate external validity. This approach allowed for both controlled testing and real-world application of the theory.\n\n**Results:** The research reveals that highly precise legal rules, while promoting short-term compliance, are \"brittle\" and ill-suited for novel challenges. The form of imprecision proves critical: vagueness increases the plausibility of both permissive and restrictive interpretations, leading to divergence, while generality systematically upweights restrictive interpretations, fostering resilience. The experiment shows that even under politicized client instructions, legal advisors counsel restraint to protect clients from being viewed as noncompliant. Two historical cases confirmed these findings: the 1925 Geneva Protocol (350 words) maintained resilience for five decades through expansive interpretation, while the 1993 Chemical Weapons Convention required costly formal amendment when disrupted by novichok."
+    },
+    "keyArticle": {
+      "title": "Convergent Flexibility: How International Law Keeps Pace with Technological Change",
+      "authors": [
+        "Justin Key Canfil"
+      ],
+      "doi": "10.1017/s0020818326101295",
+      "pages": "237-280"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101295",
+      "doi": "https://doi.org/10.1017/s0020818326101295"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-07T20:19:03.390340+00:00",
+    "source": "openalex"
+  }
+}

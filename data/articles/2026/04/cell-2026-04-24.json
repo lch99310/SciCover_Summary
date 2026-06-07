@@ -1,0 +1,50 @@
+{
+  "id": "cell-2026-04-24",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "11",
+  "date": "2026-04-24",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肌肉細胞的「核內膜出芽」：大分子轉錄本的秘密通道",
+      "en": "Nuclear Envelope Budding: A Secret Highway for Mega-Transcripts in Muscle Cells"
+    },
+    "summary": {
+      "zh": "【總結】\n這項研究首次揭示了在肌肉細胞中，細胞核內膜出芽（NEB）作為一種非傳統途徑，用於運輸極長的肌節轉錄本（如肌節蛋白和肌織蛋白mRNA）。研究發現，當肌肉前體細胞分化為肌管細胞時，核內膜會形成含有內部囊泡的出芽結構，這些結構特異性地富集了極長的肌節轉錄本。研究團隊鑑定出UAP56相互作用因子（UIF）蛋白在調節mRNA貨物進入核內膜出芽中的關鍵作用，並證實此途徑需要內體分選複合物必需轉運III（ESCRT-III）膜重塑機制。這一發現為理解肌肉細胞中極長mRNA的核外運輸提供了全新視角。\n\n【研究問題】\n傳上認為，細胞核與細胞質之間的物質運輸僅能通過核孔複合物（NPC）進行，而NPC的通道直徑約60納米，限制了超大分子複合物的通過。過去的研究雖然觀察到核內膜出芽現象，但其在哺乳動物細胞內源性貨物運輸中的作用仍 largely unexplored。本研究旨在解答：肌肉細胞如何處理和運輸那些遠超核孔複合物容量的極長mRNA？這種非常規的核外運輸機制是什麼？\n\n【研究方法】\n研究團隊結合了電子顯微鏡（TEM）和熒光顯微鏡技術，觀察肌肉細胞分化過程中的核內膜出芽現象。他們使用了親和質譜學鑑定與核內膜出芽相關的蛋白質，並通過熒光原位雜交（FISH）和單分子FISH（smFISH）技術檢測特定轉錄本在出芽結構中的分佈。此外，研究團隊還採用RNA干擾實驗、熒光恢復光漂白（FRAP）技術以及RT-qPCR分析，系統性地闡明了UIF蛋白和ESCRT-III膜重塑機制在核內膜出芽途徑中的作用。\n\n【結果】\n研究發現，在肌肉前體細胞分化為肌管細胞後，68%的細胞核出現核內膜出芽現象，而未分化的前體細胞中僅5.4%有此現象。這些出芽結構直徑約350納米，部分可達1微米，約74%含有膜包裝的內部囊泡（ILVs）。特別值得注意的是，核內膜出芽特異性地富集了極長的肌節轉錄本，如肌節蛋白（Ttn）和肌織蛋白（Neb）。當敲除UIF蛋白後，核內膜出芽數量減少，且肌節轉錄本在細胞核內積累；同時，ESCRT-III組分（如Alix和CHMP4C）的缺失導致UIF和貨物停留在出芽表面而無法進入內部囊泡。這些結果證實了UIF和ESCRT-III在核內膜出芽運輸極長mRNA中的關鍵作用。",
+      "en": "**Summary:**\nThis study reveals that nuclear envelope budding (NEB) serves as a non-canonical pathway for exporting extremely large transcripts in muscle cells, particularly during myogenesis. The researchers discovered that during muscle cell differentiation, the inner nuclear membrane forms buds containing internal vesicles that are specifically enriched with long sarcomeric transcripts like titin and nebulin. They identified UAP56-interacting factor (UIF) as a key regulator for mRNA cargo targeting into these buds and demonstrated that the pathway requires the endosomal sorting complex required transport III (ESCRT-III) membrane remodeling machinery. This discovery provides a novel mechanism for understanding how muscle cells export transcripts too large to pass through nuclear pore complexes.\n\n**Problem:**\nTraditionally, nuclear-cytoplasmic transport was believed to occur exclusively through nuclear pore complexes (NPCs), which have a diameter of approximately 60 nm when fully stretched, limiting the passage of macromolecular complexes larger than this size. While NEB had been observed in various cell types, its functional significance for endogenous cargo export in mammalian cells remained largely unexplored. This study addresses the crucial question: how do muscle cells handle and export extremely large transcripts that exceed the size limitations of NPCs? What is the unconventional nuclear export mechanism for these mega-transcripts?\n\n**Approach:**\nThe researchers employed a combination of electron microscopy (TEM) and fluorescence microscopy to visualize NEB events during muscle cell differentiation. They used proximity proteomics to identify NEB-associated proteins, and fluorescence in situ hybridization (FISH) and single-molecule FISH (smFISH) to detect specific transcripts within the budding structures. Additionally, they utilized RNA interference experiments, fluorescence recovery after photobleaching (FRAP), and RT-qPCR analysis to systematically elucidate the roles of UIF protein and the ESCRT-III membrane remodeling machinery in the NEB pathway for exporting large mRNAs.\n\n**Results:**\nThe study found that 68% of myotube nuclei exhibited NEB events compared to only 5.4% in myoblasts. These buds had an average diameter of approximately 350 nm, with some reaching 1 μm, and about 74% contained membrane-enclosed internal luminal vesicles (ILVs). Notably, NE buds were specifically enriched with extremely long sarcomeric transcripts like titin (Ttn) and nebulin (Neb). When UIF was depleted, NEB numbers decreased and sarcomeric transcripts accumulated in the nucleus. Additionally, depletion of ESCRT-III components (Alix and CHMP4C) caused UIF and cargo to remain on the bud surface rather than being internalized into vesicles. These results confirm the critical roles of UIF and ESCRT-III in the NEB pathway for exporting large mRNAs."
+    },
+    "keyArticle": {
+      "title": "Nuclear envelope budding enables export of large transcripts in muscle cells",
+      "authors": [
+        "Sofia Zaganelli",
+        "Janet B. Meehl",
+        "Robert G. Abrisch",
+        "Gia K. Voeltz"
+      ],
+      "doi": "10.1016/j.cell.2026.03.050",
+      "pages": "3398-3412.e13"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.050",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.050"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-07T20:13:25.578488+00:00",
+    "source": "openalex"
+  }
+}

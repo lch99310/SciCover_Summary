@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-04T21:05:58.028462+00:00",
+  "lastUpdated": "2026-06-07T20:19:08.188263+00:00",
   "articles": [
+    {
+      "id": "science-2026-06-04",
+      "journal": "Science",
+      "date": "2026-06-04",
+      "path": "articles/2026/06/science-2026-06-04.json",
+      "title_zh": "科學前沿：蜜蜂認知能力、植物免疫策略與環境變遷",
+      "title_en": "Scientific Frontiers: Bee Cognition, Plant Immunity, and Environmental Change",
+      "cover_url": "data/images/science/science-2026-06-04-cover.jpg"
+    },
+    {
+      "id": "nature-2026-06-03",
+      "journal": "Nature",
+      "date": "2026-06-03",
+      "path": "articles/2026/06/nature-2026-06-03.json",
+      "title_zh": "木星弓形激波前的相對論電子加速：從行星到宇宙的粒子加速奧秘",
+      "title_en": "Relativistic Electron Acceleration at Jupiter's Bow Shock: From Planetary to Cosmic Particle Acceleration",
+      "cover_url": "data/images/nature/nature-2026-06-03-cover.jpg"
+    },
     {
       "id": "political-geography-2026-06-03",
       "journal": "Political Geography",
@@ -45,6 +63,15 @@
       "title_zh": "農地爭議背後的權力遊戲：解析里奇蒙的農業規劃與社會抗爭",
       "title_en": "The Politics of Protection: Agricultural Planning, Legitimacy, and Dissent in Richmond",
       "cover_url": "data/images/political-geography/political-geography-2026-05-26-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-05-25-02",
+      "journal": "Political Geography",
+      "date": "2026-05-25",
+      "path": "articles/2026/05/political-geography-2026-05-25-02.json",
+      "title_zh": "'美國優先'會讓美國落後嗎？探索化石燃料心臘地的論述轉變",
+      "title_en": "Will 'America First' Leave America Behind? Exploring Discourses of a Fossil-Fueled Heartland",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-05-25",
@@ -234,6 +261,15 @@
       "title_zh": "約束欲望：理解鳥類獵人欲望如何塑造可持續狩獵的前景",
       "title_en": "Disciplining Desires: How Bird Hunters' Desires Shape Sustainable Hunting Prospects",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-04-24",
+      "journal": "Cell",
+      "date": "2026-04-24",
+      "path": "articles/2026/04/cell-2026-04-24.json",
+      "title_zh": "肌肉細胞的「核內膜出芽」：大分子轉錄本的秘密通道",
+      "title_en": "Nuclear Envelope Budding: A Secret Highway for Mega-Transcripts in Muscle Cells",
+      "cover_url": "data/images/cell/cell-2026-04-24-cover.jpg"
     },
     {
       "id": "political-geography-2026-04-23",
@@ -1521,6 +1557,15 @@
       "title_zh": "聯合國安理會如何「名譽羞辱」武裝團體？大國博弈與全球規範的雙重動力",
       "title_en": "How the UN Security Council 'Names and Shames' Armed Groups: The Dual Dynamics of Great Power Politics and Global Norms",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-09-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-10",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-10.json",
+      "title_zh": "收斂靈活性：國際法如何與技術變革同步",
+      "title_en": "Convergent Flexibility: How International Law Keeps Pace with Technological Change",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-10-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

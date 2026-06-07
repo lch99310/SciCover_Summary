@@ -1,0 +1,52 @@
+{
+  "id": "nature-2026-06-03",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8117",
+  "date": "2026-06-03",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "木星弓形激波前的相對論電子加速：從行星到宇宙的粒子加速奧秘",
+      "en": "Relativistic Electron Acceleration at Jupiter's Bow Shock: From Planetary to Cosmic Particle Acceleration"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊首次直接觀測到木星弓形激波前存在相對論電子(≥1 MeV)加速現象，證明粒子加速主要發生在大型前激波瞬態結構內，而非僅限於激波前線本身。基於此發現，研究人員建立了普適的尺度律，將激波系統大小與最大粒子能量聯繫起來，並成功應用於原恆星噴流(SN 1987A)和超新星遺跡(SN 1006)等天體物理環境，預測其最大粒子能量可達數十TeV。這項研究為理解宇宙射線譜的形成提供了關鍵見解。【研究問題】傳統粒子加速理論認為，無碰撞激波是宇宙射線的主要加速源，但「注入問題」限制了這一機制的效率——只有足夠高能的粒子才能反覆穿越激波前線獲得能量。過去研究缺乏直接觀測證據，難以預測不同天體物理系統中的最大粒子能量。木星作為太陽系中最大的行星，其弓形激波提供了獨特的實驗室，有助於揭示粒子加速的機理。【研究方法】研究團隊利用NASA的朱諾號木星探測器數據，結合JADE(低能粒子)和JEDI(高能粒子)儀器，分析2023年10月1日朱諾號穿越木星弓形激波時的具體事件。研究人員仔細檢測了前激波瞬態結構的特徵，包括其尺度、傳播速度和電子能譜。基於太陽系內多個行星(水星、金星、火星、地球、土星、木星)的觀測數據，建立了激波系統大小(S)與加速區域大小(L)之間的經驗尺度律，並應用希拉斯準則(Hillas criterion)推導最大粒子能量。【結果】研究人員在木星前激波區域觀測到能量高達MeV級別的相對論電子，其能譜遵循指數為-1.85±0.2的冪律，與理論預測一致。建立了普適尺度律L ∝ S^0.67，將激波系統大小與最大粒子能量聯繫起來。應用此尺度律預測，在行星尺度上最大粒子能量為MeV級別，原恆星噴流(SN 1987A)約為數十GeV，超新星遺跡(SN 1006)約為數十TeV。特別值得注意的是，對SN 1006的預測與觀測到的≲100TeV最大能量高度吻合，驗證了模型的可靠性。",
+      "en": "**Summary:** Researchers have for the first time directly observed relativistic electrons (≥1 MeV) being accelerated upstream of Jupiter's bow shock, demonstrating that particle acceleration primarily occurs within large-scale foreshock transient structures rather than exclusively at the shock front itself. Building on this discovery, the team established a universal scaling law connecting shock system size to maximum particle energy, successfully applying it to astrophysical environments like protostellar jets (HH 211) and supernova remnants (SN 1987A and SN 1006), predicting maximum particle energies up to tens of TeV. This research provides crucial insights into the formation of the cosmic ray spectrum. **Problem:** The traditional understanding of particle acceleration posits that collisionless shocks are primary cosmic ray acceleration sites, but the 'injection problem' limits this mechanism's efficiency—only particles energetic enough to outrun the shock can repeatedly cross it and gain energy. Previous research lacked direct observational constraints, making it difficult to predict maximum particle energies across different astrophysical systems. Jupiter, as the largest planet in our solar system, offers a unique laboratory to reveal the mechanisms of particle acceleration. **Approach:** The research team utilized data from NASA's Juno spacecraft at Jupiter, combining observations from the JADE (low-energy particles) and JEDI (high-energy particles) instruments to analyze a specific event when Juno crossed Jupiter's bow shock on October 1, 2023. Researchers meticulously examined foreshock transient characteristics, including scale, propagation speed, and electron spectra. Based on multi-planetary observations from Mercury, Venus, Mars, Earth, Saturn, and Jupiter, they established an empirical scaling relationship between shock system size (S) and acceleration region size (L), applying the Hillas criterion to derive maximum particle energies. **Results:** The team observed MeV-level relativistic electrons in Jupiter's foreshock region, with a power-law spectrum index of -1.85±0.2, consistent with theoretical predictions. They established a universal scaling law L ∝ S^0.67 connecting shock system size to maximum particle energy. Applying this scaling, they predicted maximum particle energies of MeV scale at planetary systems, tens of GeV at protostellar jets (HH 211), and tens of TeV at supernova remnants (SN 1987A and SN 1006). Notably, the predictions for SN 1006 align with observed maximum energies of ≲100 TeV, validating the model's reliability."
+    },
+    "keyArticle": {
+      "title": "Relativistic electron acceleration at the bow shock of Jupiter and beyond",
+      "authors": [
+        "Savvas Raptis",
+        "Drew L. Turner",
+        "Damiano Caprioli",
+        "Jamey R. Szalay",
+        "George Clark",
+        "Colby Haggerty"
+      ],
+      "doi": "10.1038/s41586-026-10473-z",
+      "pages": "47-51"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10473-z",
+      "doi": "https://doi.org/10.1038/s41586-026-10473-z"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-07T20:11:12.163616+00:00",
+    "source": "openalex"
+  }
+}
