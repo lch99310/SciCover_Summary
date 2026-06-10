@@ -1,0 +1,48 @@
+{
+  "id": "international-organization-2026-01-01-11",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "美國退出 NATO 的威脅如何改變歐洲公眾對防衛的態度",
+      "en": "How the Threat of a US Exit from NATO Shapes European Public Opinion on Defense"
+    },
+    "summary": {
+      "zh": "【總結】文章的核心發現在於，當美國公開威脅退出北約時，英國、德國和瑞典的受訪者對國防支出的支持度顯著上升，平均提升 2.88 個百分點，且這效應在 99.9% 信賴區間內顯著；同時，同樣的威脅會讓他們對於在北約框架內繼續合作的意願下降約 2.1%，顯著性在 95% 信賴水平達標；此外，對於自國安全自主性的偏好則增加了約 3.9%，顯著性亦在 95% 以上。這些結果表明，威脅性脫離不僅驅動防衛預算增加，也削弱了對集體防御的支持，並促使公眾更傾向於尋求單獨或歐洲主導的安全安排，對 NATO 的未來合作模式產生深遠衝擊。\n\n【研究問題】本研究聚焦的問題是：當一個在同盟中佔主導地位的國家（美國）威脅退出 alliance 時，會如何改變盟友國公眾對防衛支出與合作的態度？過去的研究多以精英層面的預算談判或假設性問卷為主，缺乏在真實政治情境下的因果證據。尤其在俄烏戰爭加劇安全緊張、美國內部政治不確定的背景下，了解公眾對美國可能「拋棄」 NATO 的反應對政策制定者至關重要，因為這直接影響盟友國的國防預算決策與安全同盟的結構穩定性。\n\n【研究方法】作者利用 2024 年美國大選的「硬幣投擲」預測情況，設計了三組實驗參與者：英國、瑞典與德國的 2,973 名成人受測者。研究採用隨機實驗，將受測者分為控制組、特朗普勝利脅迫條件與卡瑪拉·哈里斯 安全承諾條件。在每個條件下，受測者閱讀選舉地圖與候選人對北約的具體 rhetorics，並回答是否支持提高國防預算、以及對北約、歐盟國防合作與國內安全自主的支持度。透過事先登錄的回歸模型， authors 比較不同處理組與控制組之差異，並加入年齡、教育、政治傾向等變數作健全性檢驗。\n\n【結果】實驗結果顯示，接受特朗普「鼓勵俄羅斯挑釁」情境的受測者，願意將國防預算提升至預算的比例上，相較於卡瑪拉·哈里斯 的安撫條件，增加了 2.88 個百分點，且顯著性達 99.9% 信賴區間；在北約合作意願方面，同樣的脅迫條件使支持度下降約 2.1%，在加入控制變數後在 95% 信賴水平顯著；而在安全自主的偏好上，受威脅的受測者比控制組提升了 3.9%，顯著性亦在 95% 以上。這些數據證明，威脅性脫離能顯著改變歐洲公眾的防衛政策偏好，並削弱對集體防衛框架的信任。",
+      "en": "**Summary:** The study delivers a striking breakthrough: it shows that when the United States publicly threatens to abandon NATO, citizens in the United Kingdom, Germany and Sweden become markedly more supportive of raising defence budgets and, paradoxically, less inclined to back continued NATO cooperation. The research isolates this effect by exploiting the genuine uncertainty of the 2024 US presidential election, turning a political toss‑up into a natural experiment. Its significance lies in demonstrating, with high statistical confidence, that a dominant ally’s withdrawal threat can simultaneously boost spending preferences while eroding trust in collective security, reshaping the strategic calculus of European societies.\n\n**Problem:** The central question the article tackles is how a powerful ally’s credible threat of leaving an alliance influences public attitudes toward defence spending and alliance cooperation. Prior scholarship has largely examined elite negotiations or relied on hypothetical scenarios, leaving a gap in causal evidence from real‑world contexts. Given the heightened security pressures from the Russia‑Ukraine war and the unprecedented political volatility in the United States, understanding whether and how such threats sway public opinion is crucial for policymakers who must anticipate budgetary shifts and alliance dynamics in a multipolar world.\n\n**Approach:** The authors conducted a preregistered online experiment with 2,973 respondents drawn from the UK, Germany and Sweden, fielded just days before the November 2024 election. Participants were randomly assigned to a control condition or to one of two vignette conditions: a ‘Trump victory’ scenario that highlighted his pledge to let Russia act freely against non‑paying NATO members, and a ‘Harris victory’ scenario that emphasized an iron‑clad US commitment. The design leveraged real campaign quotes and election poll maps, allowing a clean comparison of threat versus reassurance while controlling for demographic and political covariates.\n\n**Results:** Key findings emerged with striking precision. Exposure to the Trump threat increased willingness to raise defence spending by 2.88 percentage points (significant at the 99.9 % confidence level) relative to the Harris reassurance. Conversely, the same threat reduced support for continued NATO cooperation by about 2.1 % (significant at 95 % once controls were added). Moreover, the threat boosted preferences for national security autonomy by 3.9 % (significant at 95 %). These numbers reveal that while abandonment fears can mobilise defence budgets, they also sow doubts about collective defence and push citizens toward unilateral or European‑led security solutions."
+    },
+    "keyArticle": {
+      "title": "How Threats of American Withdrawal from NATO Affect European Public Attitudes Toward Defense",
+      "authors": [
+        "Hannah Jakob Barrett",
+        "Eric Gabo Ekeberg Nilsen"
+      ],
+      "doi": "10.1017/s0020818326101313",
+      "pages": "382-406"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101313",
+      "doi": "https://doi.org/10.1017/s0020818326101313"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-10T21:27:32.804882+00:00",
+    "source": "openalex"
+  }
+}

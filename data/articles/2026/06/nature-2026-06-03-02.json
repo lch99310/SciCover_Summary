@@ -1,0 +1,62 @@
+{
+  "id": "nature-2026-06-03-02",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8117",
+  "date": "2026-06-03",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-03-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "肉食與農耕如何改變牙齒納米晶體的取向",
+      "en": "How Meat‑Eating and Farming Reshape Enamel’s Nanocrystal Orientation"
+    },
+    "summary": {
+      "zh": "【總結】細緻敘述：研究發現，牙齒象牙質的納米晶體取向會隨食物硬度而變化。肉食與農耕的出現讓晶體的錯Orient角度顯著增大，從約1度提升到7度以上，形成低角度界面，提升抗裂能力。這種微觀取向的變化與宏觀的牙齒形態、厚度同步演化，證明飲食習慣能在最小尺度上重塑生物材料的結構，為生物啟發型材料提供了新思路。\n\n【研究問題】文章探討的核心問題是：飲食硬度如何影響象牙質中相鄰納米晶體的晶軸取向？過往研究主要聚焦於宏觀結構或宏觀磨損，而缺乏在數十萬到數百萬年演化框架下的纳米取向數據，因而無法說明為何不同飲食會帶來不同的牙齒適應，這也是理解人類牙齒演化的重要缺口。\n\n【研究方法】作者開發名為PELICAN的偏振驅動大規模晶角測量技術，對12種靈長類牙齒的顯微切片進行掃描電子顯微鏡與光電子發射顯微鏡結合分析，測量相鄰50 nm納米晶體的c軸取向，計算最大錯Orient角度，產生超過百萬組角度分佈，並以非參數統計（Krustal‑Wallis、Jonckheere‑Terpstra）比較不同飲食硬度組別，追蹤人類演化中的三大飲食轉變。\n\n【結果】關鍵數據顯示：食蟲類黑猩猩的平均錯Orient僅約1.3度，而專吃硬果的Cercocebus atys則達7.2度，差距超過六倍。農耕出現後，人類的平均角度翻倍至約4.7度，而工業革命期間未見顯著變化。整體來說，食物硬度與晶體取向呈正向趨勢，錯Orient幅度、寬度與足跡面積同步增長，證明納米層面的取向變化是適應硬食的重要進化機制。",
+      "en": "**Summary:** The study reveals that the crystallographic misorientation of enamel nanocrystals expands dramatically when diets shift toward meat and agriculture. By quantifying the angle between adjacent hydroxyapatite nanocrystals across 12 primate species, the researchers found that harder foods provoke larger misorientation angles, sometimes increasing six‑fold. This nanoscale reorientation appears to bolster enamel toughness, offering a material‑level explanation for how chewing habits sculpt tooth resilience over millions of years.\n\n**Problem:** The central question is how dietary hardness shapes the orientation of enamel’s nanoscopic crystals. Prior work described macroscopic enamel thickness and prism patterns but lacked nanoscale orientation data across evolutionary dietary transitions, leaving a gap in understanding the mechanistic link between food texture and tooth structural adaptation.\n\n**Approach:** The authors introduced PELICAN (Polarization Enabled Large Input of Crystal Angles at the Nanoscale), a high‑throughput polarization‑dependent photoemission electron microscopy method. They mapped the c‑axis orientation of thousands of 50‑nm pixels in fossil and modern primate teeth, computed maximum misorientation angles between neighboring pixels, and aggregated over a million angle measurements per sample. Statistical tests then correlated these histograms with dietary categories and temporal shifts in human evolution.\n\n**Results:** The data show that a fruit‑eating chimpanzee averages only ~1.3° misorientation, whereas a nut‑cracking monkey reaches ~7.2°, a six‑fold rise. Agricultural individuals from 1,500‑year‑old Britain double the angle (~4.7°) compared with a 40,000‑year‑old pre‑agricultural specimen. Introducing meat further lifts the angle, while the Industrial Revolution leaves it unchanged. Across the board, mode, width and footprint of the misorientation distribution increase with food hardness, confirming that nanocrystal tilt is a calibrated response to mechanical diet demands."
+    },
+    "keyArticle": {
+      "title": "Enamel nanocrystal misorientation increased with meat-eating and agriculture",
+      "authors": [
+        "Pupa U. P. A. Gilbert",
+        "Daniel Green",
+        "Patrick Mahoney",
+        "Debbie Guatelli-Steinberg",
+        "W. Scott McGraw",
+        "Emma Lagan",
+        "Fredrick Kyalo Manthi",
+        "Samuel Muteti",
+        "Emmanuel Ndiema",
+        "Fernando Ramirez Rozzi",
+        "Cayla A. Stifler",
+        "Connor A. Schmidt",
+        "Barat Q. Achinuq",
+        "A. Schöll",
+        "Benjamin Gilbert",
+        "Mackie C. O’Hara"
+      ],
+      "doi": "10.1038/s41586-026-10583-8",
+      "pages": "76-84"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-03-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10583-8",
+      "doi": "https://doi.org/10.1038/s41586-026-10583-8"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-10T21:25:31.488967+00:00",
+    "source": "openalex"
+  }
+}

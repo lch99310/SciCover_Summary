@@ -1,0 +1,49 @@
+{
+  "id": "science-2026-06-04-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6802",
+  "date": "2026-06-04",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-04-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超加工食品與肥胖：解讀證據",
+      "en": "Ultraprocessed Foods and Obesity: Interpreting the Evidence"
+    },
+    "summary": {
+      "zh": "【總結】在五項隨機對照試驗中，研究人員比較了高度加工食品（UPF）與未加工或少加工食品的飲食對能量攝取、體重與代謝健康的影響。結果顯示，UPF 食事往往熱量密度更高、纖維含量更低，導致在自由進食情況下每日多攝取約 500–800 大卡，進而促進體重增加。然而，當將熱量固定不變時，差異多半可以歸因於營養因數（如纖維、飽和脂肪和鈉的差異），而不是加工本身。這項工作揭示，政策應聚焦於減少熱量密度與高飽和脂肪的食品，而非僅僅限制加工程度，提供了針對肥胖防治的新視角。 \n\n【研究問題】過去的觀察性研究多將超加工食品與肥胖、代謝疾病掛鉤，但缺乏因果證據。研究者試圖釐清「加工本身」是否直接導致健康問題，還是主要受到熱量密度、營養成分等傳統因素影響。解決這個問題對於制定有效的公共健康政策與食品標準至關重要，因為若誤將加工視為罪因，可能會忽略可透過改善營養結構而達成的減重策略。 \n\n【研究方法】作者彙總並重新分析了五項已發表的隨機對照試驗（包括美國、英國、丹麥與日本的實驗），這些試驗以交叉設計比較UPF豐富飲食與非UPF飲食的效果。實驗採用「餵食」模式，要么在醫院或研究中心全程提供食物（住院式），要么在家中自行取食（門診式），並在每個階段交替進行。研究團隊細致記錄熱量密度、纖維、飽和脂肪、鈉含量等營養變化，並用吃飯速度與飽足感等指標說明差異。如此設計讓他們能夠隔離加工因素的影響，同時控制飲食依從性。 \n\n【結果】研究發現，UPF 飲食的熱量密度平均高出 28%–108%，而纖維含量下降 10%–74%；飽和脂肪與鈉則分別增加 108% 与 149%。在自由進食的三項試驗中，UPF 飲食使每日熱量攝入增加 500–800 大卡，體重相對提升 0.9–1.8 公斤。然而在熱量固定的兩項試驗中，差異主要可以用纖維增加 5.5%（約 180 大卡）以及鈉導致的體液潴留（約 150 大卡）解釋，顯示加工本身的代謝效應相當有限。整體而言，證據表明，與其限制加工程度，重要的是減少高熱量密度、低纖維與高飽和脂肪的食品選擇。",
+      "en": "**Summary:** The article synthesizes five recent randomized controlled trials that directly fed participants either ultraprocessed or minimally processed diets to test whether processing itself harms health. Across ad‑libitum settings, ultraprocessed meals contained 28% to 108% higher calorie density and 10% to 74% less fiber, while also delivering 108% more saturated fat and 149% more sodium. These nutritional imbalances drove an extra 500–800 kcal per day and led to weight gains of roughly 1 kg when participants ate freely. When calories were held constant, the apparent “processing effect” vanished after accounting for fiber loss (≈180 kcal) and extra sodium (≈150 kcal). The authors argue that policy should target calorie‑dense, low‑fiber foods rather than labeling foods solely by processing level, offering a nuanced roadmap for obesity prevention. \n\n**Problem:** Prior research linked ultraprocessed foods to obesity, but most evidence came from observational studies that cannot prove causality. Scientists lacked a clear experimental test of whether the act of processing, independent of nutrients, is inherently detrimental. This gap matters because policymakers may adopt overly broad restrictions that ignore the real drivers—high calorie density, low fiber, excess salt and fat—thereby missing more effective, targeted interventions. \n\n**Approach:** The authors re‑examined five controlled feeding studies that used crossover designs and provided all meals to participants, either in a residential setting or at home. Each trial compared a diet rich in ultraprocessed items with a control diet matched for calories but differing in processing level. The researchers meticulously recorded macronutrient composition, calorie density, fiber, sodium, and saturated fat, and they measured eating speed and satiety. By isolating these variables, they could assess whether processing itself produced metabolic effects beyond known nutritional differences. \n\n**Results:** In free‑feeding conditions, ultraprocessed diets increased daily energy intake by 500–800 kcal and raised body weight by about 1 kg compared with whole‑food controls. When diets were iso‑caloric, the weight gain vanished after adjusting for a 5.5 % reduction in metabolizable energy due to lower fiber (≈180 kcal) and the extra sodium‑induced fluid retention (≈150 kcal). Blood cholesterol rose only when saturated fat was higher, not because of processing per se. The authors conclude that the observed harms are largely explained by nutritional profiles, urging future trials to manipulate specific processing attributes while keeping other factors constant."
+    },
+    "keyArticle": {
+      "title": "Ultraprocessed foods and obesity: Interpreting the evidence",
+      "authors": [
+        "Faidon Magkos",
+        "Ciarán G. Forde",
+        "Eric Robinson"
+      ],
+      "doi": "10.1126/science.aef3495",
+      "pages": "1020-1022"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-04-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aef3495",
+      "doi": "https://doi.org/10.1126/science.aef3495"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-10T21:24:44.043660+00:00",
+    "source": "openalex"
+  }
+}
