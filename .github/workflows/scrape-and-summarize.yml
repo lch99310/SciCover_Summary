@@ -69,6 +69,7 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
           # ── Free summariser backends (tried in priority order) ──────────────
+          AGNES_AI_API_KEY: ${{ secrets.AGNES_AI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_KEY_GLAI: ${{ secrets.OPENROUTER_KEY_GLAI }}
           OPENROUTER_KEY_NVIDIA: ${{ secrets.OPENROUTER_KEY_NVIDIA }}
