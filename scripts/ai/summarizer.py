@@ -18,13 +18,14 @@ automatically.  Configure backends via environment variables — any backend
 whose key env-var is empty or missing is silently skipped.
 
 Priority order:
-  1. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
-  2. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
-  3. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
-  4. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
-  5. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
-  6. openrouter/auto                   (OPENROUTER_FREE_API_KEY   — OpenRouter auto free routing)
-  7. deepseek-chat                     (DEEPSEEK_API_KEY          — DeepSeek, PAID, last resort)
+  1. agnes-2.0-flash                   (AGNES_AI_API_KEY          — Agnes AI)
+  2. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
+  3. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
+  4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
+  5. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
+  6. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
+  7. openrouter/auto                   (OPENROUTER_FREE_API_KEY   — OpenRouter auto free routing)
+  8. deepseek-chat                     (DEEPSEEK_API_KEY          — DeepSeek, PAID, last resort)
 """
 
 from __future__ import annotations
@@ -62,6 +63,11 @@ _MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000
 # Order is based on observed reliability: glm-4.5-air and nvidia tend to be
 # available; qwen3 is often upstream-rate-limited from Venice provider.
 _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
+    (
+        "AGNES_AI_API_KEY",
+        "agnes-2.0-flash",
+        "https://apihub.agnes-ai.com/v1",
+    ),
     (
         "GEMINI_API_KEY",
         "gemini-2.0-flash",
