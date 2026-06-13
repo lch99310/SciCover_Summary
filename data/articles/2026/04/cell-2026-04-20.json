@@ -1,0 +1,84 @@
+{
+  "id": "cell-2026-04-20",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "12",
+  "date": "2026-04-20",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-20-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人體免疫防線大普查：CRISPR 掃描揭開 HIV 與 T 細胞的暗中博弈",
+      "en": "The Immune Chessboard: CRISPR Screens Map the Hidden Battle Between HIV and Human T Cells"
+    },
+    "summary": {
+      "zh": "【總結】\n這項發表於《Cell》的研究，首次在人體原代 CD4+ T 細胞中，以全基因體規模系統性地繪製了促進與抑制 HIV 感染的宿主因子地圖。研究團隊利用 CRISPR 基因編輯技術，不僅確認了已知的病毒助手，更發現了 PI16、PPID 等新穎且強效的抗病毒因子，特別是揭示了 PPID 如何像「塞子」一樣阻擋病毒核心進入細胞核，為開發新型抗艾滋病療法提供了關鍵的分子靶點。\n\n【研究問題】\n過去對 HIV 與宿主互動的理解多基於細胞系或有限基因，缺乏在真正人體免疫細胞中的全景視圖。由於 T 細胞是 HIV 的主要攻擊目標，卻因培養困難而研究不足，導致我們對病毒如何在真實人體環境中「劫持」細胞機制的認知存在巨大盲點。釐清這些機制對於突破現有抗反轉錄病毒療法的瓶頸至關重要。\n\n【研究方法】\n研究團隊採用了創新的「雙軌制」基因篩選策略：在來自三名捐贈者的原代 CD4+ T 細胞中，同時進行 CRISPR 活化（CRISPRa，用於尋找抗病毒因子）與 CRISPR 敲除（CRISPRn，用於尋找促病毒因子）的全基因體篩選。隨後，他們結合次級 pooled 篩選與單個基因的精確編輯驗證，並運用結構生物學建模、分子動力學模擬以及單細胞轉錄組數據，深入解析候選因子的作用機制與細胞分佈特徵。\n\n【結果】\n研究成功鑑定出多個高置信度的宿主因子，其中 PPID 表現尤為搶眼。實驗顯示，PPID 能直接結合 HIV 的衣殼蛋白，並透過其 TPR 結構域阻礙病毒核心進入細胞核，從而顯著抑制感染。有趣的是，非人類靈長類動物的 PPID 變異體顯示出更強的抗病毒活性，且通過定向突變可增強人類 PPID 的功能。此外，PI16 被發現透過干擾病毒融合過程來發揮作用。這些發現不僅填補了知識空白，更暗示我們可能通過增強宿主自身防禦機制來對抗 HIV。",
+      "en": "**Summary:**\nThis landmark study published in *Cell* presents the first comprehensive, genome-wide map of host factors that either promote or restrict HIV infection in primary human CD4+ T cells. By leveraging orthogonal CRISPR screening technologies, the researchers moved beyond previous limitations to identify novel, potent antiviral factors like PI16 and PPID. The discovery of PPID’s mechanism—acting as a molecular plug that blocks the viral core from entering the nucleus—offers a groundbreaking new perspective on how the body naturally defends itself and highlights promising avenues for next-generation HIV therapeutics.\n\n**Problem:**\nWhile the HIV lifecycle is well-studied in laboratory cell lines, our understanding of how the virus interacts with its true target—the primary human T cell—remains fragmented. Previous screens often missed critical factors due to the complexity of maintaining primary immune cells in vitro. This gap is crucial because T cells are the primary reservoir for HIV; without a complete map of the host factors involved in this battle, we cannot fully exploit the body’s innate defenses or identify new drug targets that work within the complex physiological environment of the human immune system.\n\n**Approach:**\nThe team employed a dual-screening strategy in primary CD4+ T cells derived from three different donors. They used CRISPR activation (CRISPRa) to overexpress genes and identify those that fight the virus, and CRISPR knockout (CRISPRn) to delete genes and find those that help the virus. This was followed by rigorous secondary pooled screens and arrayed validation to confirm hits. To understand the \"how,\" they integrated structural modeling, molecular dynamics simulations, and evolutionary analysis to pinpoint exactly how specific host proteins like PPID physically interact with the HIV capsid.\n\n**Results:**\nThe screens identified a robust set of pro- and anti-viral factors. The most significant finding was the characterization of PPID, a cyclophilin paralog that binds to the HIV capsid’s CypA-binding loop. Unlike its proviral cousin CypA, PPID restricts infection by inhibiting nuclear import of the viral core, a step essential for viral replication. The study further revealed that non-human primate versions of PPID are more potent antivirals, and specific human mutations (e.g., H60P) could enhance this restriction. Additionally, PI16 was identified as a factor that inhibits viral fusion. These insights provide a detailed mechanistic blueprint for host-virus interactions, suggesting that boosting natural host factors like PPID could be a viable therapeutic strategy."
+    },
+    "keyArticle": {
+      "title": "Systematic discovery of pro- and anti-HIV host factors in primary human CD4+ T cells",
+      "authors": [
+        "Ujjwal Rathore",
+        "Eli Dugan",
+        "Hunter Thornton",
+        "Vigneshwari Easwar Kumar",
+        "Rama Dajani",
+        "Ryan C. Burdick",
+        "Janet Young",
+        "Zachary Steinhart",
+        "R. Lao",
+        "Krista A. Delviks-Frankenberry",
+        "Woo-Young Choi",
+        "William S. Henriques",
+        "Ignacia Echeverria",
+        "Emma Dann",
+        "Ishaan Dureja",
+        "Nandini Pathak",
+        "Maya M. Arce",
+        "Justin McKetney",
+        "Jennifer M. Umhoefer",
+        "Simrun Parulekar",
+        "Ralf Schmidt",
+        "Benjamin J. Polacco",
+        "Jason Neidleman",
+        "Mauricio Montaño",
+        "Vinh Nguyen",
+        "Andrej Šali",
+        "Jay A. Levy",
+        "Jeannette L. Tenthorey",
+        "Yifan Cheng",
+        "Nadia R. Roan",
+        "Danielle L. Swaney",
+        "Robyn M. Kaake",
+        "Stacie E. Dodgson",
+        "Joseph Hiatt",
+        "Vinay K. Pathak",
+        "Harmit S. Malik",
+        "Nevan J. Krogan",
+        "Alexander Marson"
+      ],
+      "doi": "10.1016/j.cell.2026.03.046",
+      "pages": "3651-3668.e31"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-20-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.046",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.046"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-13T20:13:32.641923+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "international-organization-2026-01-01-12",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "越流動越不需要保護？顛覆常識的產權研究",
+      "en": "The Mobility Paradox: Why Mobile Assets Don't Need Strong Property Rights"
+    },
+    "summary": {
+      "zh": "【總結】傳統觀點認為，資產流動性高的企業主更有能力施壓政府建立產權保護，因為他們擁有「退出」的威脅。然而，Amy Pond 的研究顛覆了這一常識。她發現，資產流動性高的企業其實從產權保護中獲益最少，甚至可能因為競爭對手的優勢擴大而受損。真正渴望產權保護的，反而是那些資產難以移動、容易成為政府敲詐目標的企業。\n\n【研究問題】過去的文獻普遍假設，擁有流動資產（如金融資本、可移動設備）的企業主，因為能輕易將資產轉移至國外或避稅天堂，因此擁有強大的政治影響力，能推動產權和民主制度的發展。但這忽略了企業主「偏好」的問題：如果資產容易移動，他們其實不太擔心被政府徵收，因此對產權保護的需求並不高。這解釋了為何許多擁有流動資產的精英並未成為產權改革的主要推手。\n\n【研究方法】Pond 首先建立了一個形式化模型，模擬政府與兩家競爭企業（一家資產流動性高，一家低）之間的博弈。模型顯示，產權加強會降低所有企業的徵收風險，但對 immobile（固定資產多）企業的成本降低效果更顯著，從而使其在市場上獲得競爭優勢，擠壓流動性企業的利潤。為驗證此模型，作者分析了兩組數據：一是拉丁美洲五國388位企業高管的調查數據，衡量其資產固定程度與對產權保護的支持度；二是 Orbis 資料庫中156國、超過3300萬筆企業利潤數據，檢驗產權與資產流動性對利潤的交互影響。\n\n【結果】調查顯示，資產固定程度越高（移動成本越高）的高管，越強烈支持改善法律體系和打擊腐敗。在跨國數據中，產權改善顯著提高了固定資產密集型企業的利潤，卻對高流動性企業的利潤產生負面影響，因為產權強化減少了它們原本依賴的「競爭不對稱優勢」。這項研究揭示了一個悖論：擁有最大政治影響力的流動資產階級，恰恰是最不急需產權保護的群體，這挑戰了關於產權發展動力的傳統理論。",
+      "en": "**Summary:** Conventional wisdom suggests that owners of mobile assets (like financial capital) are the primary drivers of property rights, leveraging their ability to exit the country as political leverage. Amy Pond’s research overturns this assumption. She demonstrates that mobile asset owners actually benefit the least from property rights enforcement and may even suffer competitively. The true demand for strong property rights comes from firms with immobile assets, which are vulnerable to government expropriation and rely on legal protections to survive.\n\n**Problem:** Existing literature posits that asset mobility empowers business elites to demand property rights and democracy, as they can withhold capital from the state. However, this view ignores the actual preferences of these owners. If assets are highly mobile, owners can evade taxes and expropriation without government help, reducing their incentive to push for institutional reforms. This gap explains why mobile capital often fails to drive democratization or property rights development, despite its political clout.\n\n**Approach:** The author develops a formal game-theoretic model involving a government and two competing firms with different asset mobilities. The model predicts that stronger property rights disproportionately lower costs for immobile firms, shifting market share away from mobile firms. To test this, Pond uses two datasets: a survey of 388 business executives in Latin America to measure their preference for property rights based on asset immobility, and cross-national data from the Orbis database covering over 33 million firm observations across 156 countries to analyze the impact of property rights on profitability relative to asset mobility.\n\n**Results:** Survey data reveals that executives with higher fixed asset shares and relocation costs significantly favor stronger property rights and anti-corruption measures. Cross-national analysis confirms that property rights improvements boost profits for firms with immobile assets but negatively impact those with mobile assets, as the former gain a competitive edge. This finding challenges the notion that mobile capital drives institutional reform, suggesting instead that the most politically powerful elites are often indifferent to property rights because they are already insulated from state predation."
+    },
+    "keyArticle": {
+      "title": "Asset Mobility and Property Rights",
+      "authors": [
+        "Amy Pond"
+      ],
+      "doi": "10.1017/s0020818326101325",
+      "pages": "359-381"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101325",
+      "doi": "https://doi.org/10.1017/s0020818326101325"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-13T20:14:23.338578+00:00",
+    "source": "openalex"
+  }
+}

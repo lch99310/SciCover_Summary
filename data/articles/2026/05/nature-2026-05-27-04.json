@@ -1,0 +1,52 @@
+{
+  "id": "nature-2026-05-27-04",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8118",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-27-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "暫存碳不是萬靈丹：破解短命溫室氣體的抵消密碼",
+      "en": "Temporary Carbon Is Not a Panacea: Cracking the Code for Short-Lived Forcers"
+    },
+    "summary": {
+      "zh": "【總結】這項发表在《自然》期刊的研究徹底改變了我們對「臨時碳移除」（tCDR）的理解。研究團隊指出，過去將臨時碳移除與永久碳移除視為可互換的做法在物理學上是錯誤的。相反地，研究證明臨時碳移除最適合用於抵消甲烷等「短壽命」非二氧化碳溫室氣體。這項發現為農業和畜牧業等難以減排的行業提供了科學依據，使它們能透過購買臨時碳信用來平衡氣候影響。\n\n【研究問題】目前氣候政策常假設臨時碳移除（如生物塑膠或木材儲存）能像永久碳封存一樣抵消二氧化碳排放，這忽略了二氧化碳在大氣中存留數千年的特性。這種誤解導致了不準確的氣候效益評估。研究缺口在於缺乏一個基於物理學、能精確量化臨時碳與不同壽命氣體之間關係的框架，這使得政策制定者在處理非二氧化碳排放時缺乏可靠的工具。\n\n【研究方法】作者建立了一個基於物理學的計量框架，利用政府間氣候變化專門委員會（IPCC）的脈衝響應函數，計算不同儲存時間長度的臨時碳移除所產生的冷卻效應。他們定義了一個補償比率（α），即為了抵消1公斤特定氣體排放所需的臨時碳移除公斤數。研究分析了從黑碳到氧化亞氮等多種氣體，並根據大氣壽命劃分了「短壽命」與「長壽命」臨界值，以評估不同儲存時程的匹配度。\n\n【結果】研究發現，臨時碳移除無法有效抵消長壽命的二氧化碳，但對短壽命氣體非常有效。例如，要抵消1公斤甲烷的暖化效應，若使用儲存期20年的生物塑膠，需移除498公斤二氧化碳；若使用儲存期100年的耐用木材，則只需101公斤。研究確立了約30年為壽命臨界值，低於此值的氣體適合用臨時碳抵消。這意味著未來碳市場應區分氣體類型，允許農業部門透過臨時碳項目精準抵消其甲烷排放，從而實現更真實的氣候中和。",
+      "en": "**Summary:** This landmark study published in *Nature* redefines the role of temporary Carbon Dioxide Removal (tCDR). The researchers debunk the common misconception that temporary storage methods, like bio-plastics or timber, are interchangeable with permanent sequestration. Instead, they demonstrate that tCDR is physically best suited for offsetting short-lived non-CO2 climate forcers, such as methane. This breakthrough provides a robust scientific basis for sectors like agriculture, where deep emission cuts are difficult, allowing them to utilize temporary carbon credits to balance their specific climate footprint accurately.\n\n**Problem:** Current climate policies often erroneously assume that temporary carbon removal can fully offset CO2 emissions, ignoring the fact that CO2 persists in the atmosphere for centuries. This flaw creates a mismatch in climate accounting, rendering temporary credits ineffective for long-term temperature stabilization. The critical gap lies in the absence of a physics-based framework that quantifies how temporary storage durations interact with the varying lifetimes of different greenhouse gases, leaving policymakers without precise tools for managing non-CO2 emissions.\n\n**Approach:** The authors developed a novel accounting framework grounded in impulse response functions (IRFs) used by the IPCC. They calculated a compensation ratio (α), representing the mass of temporary CO2 removal needed to neutralize the cumulative warming of one kilogram of a specific pollutant over a set time horizon. By modeling various storage profiles—from rapid decay in bioplastics to slower release in wood products—they analyzed a wide range of climate forcers. They also established a \"lifetime threshold\" to distinguish between short-lived and long-lived species, ensuring the temporal dynamics of cooling matched the warming spikes of emissions.\n\n**Results:** The study reveals that tCDR is highly effective for short-lived gases but futile for long-lived CO2. For instance, offsetting 1 kg of methane requires removing 498 kg of CO2 if stored for 20 years (e.g., bioplastics), or just 101 kg if stored for 100 years (e.g., durable wood). The research identifies a lifetime threshold of roughly 30 years; gases with shorter lifetimes are ideal candidates for tCDR offsets. This implies a shift toward a \"two-basket\" accounting system in carbon markets, where temporary credits are strictly allocated to sectors like livestock farming to offset methane, ensuring climate integrity without compromising air quality goals."
+    },
+    "keyArticle": {
+      "title": "Temporary carbon dioxide removal to offset short-lived climate forcers",
+      "authors": [
+        "Yue He",
+        "Keywan Riahi",
+        "Matthew J. Gidden",
+        "Shilong Piao",
+        "Tao Wang",
+        "Thomas Gasser"
+      ],
+      "doi": "10.1038/s41586-026-10607-3",
+      "pages": "391-397"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-27-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10607-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10607-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-13T20:12:42.258338+00:00",
+    "source": "openalex"
+  }
+}

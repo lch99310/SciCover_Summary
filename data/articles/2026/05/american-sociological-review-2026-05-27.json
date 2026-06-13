@@ -1,0 +1,41 @@
+{
+  "id": "american-sociological-review-2026-05-27",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "3",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "巨人的陰影：當沃爾瑪超級中心進入，工會為何既擋不住入侵，也護不住會員？",
+      "en": "When the Goliath Enters: Why Unions Fail to Shield Workers from Walmart’s Wage Suppression"
+    },
+    "summary": {
+      "zh": "在社會學的經濟不平等圖譜中，我們習慣關注勞工如何爭取權力，卻往往忽視了另一個維度——「買方權力」（Buyer Power）。所謂買方權力，是指少數壟斷性雇主透過控制就業機會，讓勞工失去離職跳槽的選擇權。一項發表於《美國社會學評論》的最新研究，將目光鎖定在美國零售業的霸主沃爾瑪超級中心（Walmart Supercenter），探討這種擁有極強買方勢力的企業，如何衝擊當地工會的生存空間與保護效能。\n\n研究團隊利用精細的統計模型分析發現，高強度的工會組織確實能發揮「威懾」作用，使沃爾瑪更謹慎地評估是否進入該地區市場。然而，一旦沃爾瑪成功開設超級中心，當地的工會成員率便平均下降了 3.5 個百分點，這主要歸咎於零售業工會力量的萎縮。更為嚴峻的是，工會並未如預期般成為會員的避風港；數據顯示，在沃爾瑪進駐後，原本屬於工會的員工，其年薪下降的速度甚至比非工會成員更快。這揭示了一個殘酷的现实：當買方權力佔據主導地位時，勞工組織不僅規模縮水，其保護會員經濟利益的效能也隨之瓦解。\n\n這項研究為理解當代勞資關係提供了一個關鍵的警示：勞工權力並非獨立運作，它深受市場結構中買方勢力的制約。雖然組織化的勞工可以阻擋資本擴張的步伐，但當擴張已然發生，現有的勞工制度往往難以抵禦工資下行的壓力。未來的勞工市場研究，必須正視買方權力如何消解有組織勞動的社會與經濟目標，否則我們將無法真正解釋為何在生產力提升的同時，許多勞工的生活水準卻在停滯甚至倒退。",
+      "en": "In sociological accounts of economic inequality, the spotlight often falls on how workers mobilize to claim power, while the counterweight—\"buyer power\"—remains in the shadows. Buyer power describes market conditions where a dominant employer, or a handful of them, restricts workers’ outside options, effectively holding them hostage to their current jobs. A new study published in the American Sociological Review examines this dynamic through the lens of Walmart Supercenters, archetypal employers with immense buyer power, and investigates how their entry reshapes the landscape of union membership and worker protection.\n\nUsing rigorous difference-in-differences estimates based on longitudinal income data, the researchers found a dual effect of corporate expansion. On one hand, strong existing unionization acts as a deterrent; Walmart Supercenters are significantly less likely to enter labor markets with high union density. However, once a Supercenter does open, the tide turns rapidly. Local union membership drops by an average of 3.5 percentage points, driven largely by erosion within the retail sector. More disturbingly, the union fails to serve as a shield. Contrary to the expectation that collective bargaining protects wages, the study reveals that annual earnings for formerly unionized workers actually decline faster than those of non-union members following a Walmart entry.\n\nThese findings suggest a sobering reality: worker power is effective at blocking the rise of buyer power, but once buyer power is established, worker power tends to collapse in both size and protective capacity. This challenges the traditional view of labor unions as automatic stabilizers in wage dynamics. Instead, it highlights that the structural dominance of large retailers can neutralize organized labor’s ability to secure economic gains. For sociologists and policymakers, the lesson is clear: understanding labor market inequality requires analyzing not just how much power workers have, but how the sheer weight of buyer power can systematically undermine that power."
+    },
+    "keyArticle": {
+      "title": "Countervailing Powers: Labor Unions Against the Buyer Power of Walmart Supercenters",
+      "authors": [
+        "Joshua Choper",
+        "Lukas Lehner",
+        "Zachary Parolin"
+      ],
+      "doi": "10.1177/00031224261437057",
+      "pages": "435-463"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261437057",
+      "doi": "https://doi.org/10.1177/00031224261437057"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-06-13T20:14:45.410637+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-10T21:27:35.487089+00:00",
+  "lastUpdated": "2026-06-13T20:14:45.447099+00:00",
   "articles": [
+    {
+      "id": "science-2026-06-11",
+      "journal": "Science",
+      "date": "2026-06-11",
+      "path": "articles/2026/06/science-2026-06-11.json",
+      "title_zh": " NSF砸15億美元建「X實驗室」？別急著推翻研究計畫補助制",
+      "title_en": "The NSF’s $1.5 Billion Bet on X-Labs: Why the Grant System Isn’t Broken Yet",
+      "cover_url": ""
+    },
     {
       "id": "science-2026-06-04-02",
       "journal": "Science",
@@ -47,6 +56,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-06-03-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-05-27",
+      "journal": "American Sociological Review",
+      "date": "2026-05-27",
+      "path": "articles/2026/05/american-sociological-review-2026-05-27.json",
+      "title_zh": "巨人的陰影：當沃爾瑪超級中心進入，工會為何既擋不住入侵，也護不住會員？",
+      "title_en": "When the Goliath Enters: Why Unions Fail to Shield Workers from Walmart’s Wage Suppression",
+      "cover_url": ""
+    },
+    {
       "id": "nature-2026-05-27-02",
       "journal": "Nature",
       "date": "2026-05-27",
@@ -63,6 +81,15 @@
       "title_zh": "哺乳動物衰老與死亡的普遍轉錄組標記",
       "title_en": "Universal Transcriptomic Hallmarks of Mammalian Ageing and Mortality",
       "cover_url": "data/images/nature/nature-2026-05-27-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-05-27-04",
+      "journal": "Nature",
+      "date": "2026-05-27",
+      "path": "articles/2026/05/nature-2026-05-27-04.json",
+      "title_zh": "暫存碳不是萬靈丹：破解短命溫室氣體的抵消密碼",
+      "title_en": "Temporary Carbon Is Not a Panacea: Cracking the Code for Short-Lived Forcers",
+      "cover_url": "data/images/nature/nature-2026-05-27-04-cover.jpg"
     },
     {
       "id": "nature-2026-05-27",
@@ -351,6 +378,15 @@
       "title_zh": "邊界城鎮的移民治理：特里雅斯特與梅西納的本地邊界治理軌跡",
       "title_en": "Migration Governance in Border Towns: Trajectories of Local Border Governance in Trieste and Messina",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-04-20",
+      "journal": "Cell",
+      "date": "2026-04-20",
+      "path": "articles/2026/04/cell-2026-04-20.json",
+      "title_zh": "人體免疫防線大普查：CRISPR 掃描揭開 HIV 與 T 細胞的暗中博弈",
+      "title_en": "The Immune Chessboard: CRISPR Screens Map the Hidden Battle Between HIV and Human T Cells",
+      "cover_url": "data/images/cell/cell-2026-04-20-cover.jpg"
     },
     {
       "id": "science-2026-04-16",
@@ -1602,6 +1638,15 @@
       "title_zh": "美國退出 NATO 的威脅如何改變歐洲公眾對防衛的態度",
       "title_en": "How the Threat of a US Exit from NATO Shapes European Public Opinion on Defense",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-11-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-12",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-12.json",
+      "title_zh": "越流動越不需要保護？顛覆常識的產權研究",
+      "title_en": "The Mobility Paradox: Why Mobile Assets Don't Need Strong Property Rights",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

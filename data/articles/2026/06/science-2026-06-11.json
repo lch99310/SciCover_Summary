@@ -1,0 +1,39 @@
+{
+  "id": "science-2026-06-11",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6803",
+  "date": "2026-06-11",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": " NSF砸15億美元建「X實驗室」？別急著推翻研究計畫補助制",
+      "en": "The NSF’s $1.5 Billion Bet on X-Labs: Why the Grant System Isn’t Broken Yet"
+    },
+    "summary": {
+      "zh": "美國國家科學基金會（NSF）近期宣布，將投入15億美元於未來十年內建立「X實驗室」。這些獨立且以里程碑為導向的研究機構，旨在繞過長期主導美國基礎科學研究的「研究計畫補助」（Research Project Grants, RPG）制度，以及作為其主要受託單位的傳統大學。這項舉措標誌著一場積累多年的學術改革辯論達到了臨界點：越來越多改革者認為，基於競爭性、研究者主導且經同儕審查的RPG模式，已無法孕育出真正的顛覆性科學突破。\n\n然而，Pierre Azoulay 在最新發表於《科學》（Science）期刊的文章中，對這種激進的「X實驗室」處方提出了嚴肅的質疑。儘管改革者對現狀的不滿情有可原，但Azoulay 指出，RPG 制度雖然存在缺陷，卻是美國科學體系長期以來維持創新活力與分散風險的基石。X實驗室這種集中資源、目標明確的模式，或許能帶來短期的顯著成果，卻可能削弱科學界廣泛參與基礎探索的生態系。\n\n這篇文章並非單純地為現有制度辯護，而是呼籲公眾與政策制定者在追求效率與突破的同時，不要忽視科學發現本質上的不確定性。Azoulay 主張，真正的顛覆性創新往往源於看似隨機、自由探索的學術土壤，而非僅靠精心規劃的里程碑。在將大筆資金轉向新型機構之前，我們需要更謹慎地評估：我們是否正在用一種新的官僚主義，替換掉另一種可能阻礙長期科學生態多樣性的機制？",
+      "en": "The US National Science Foundation (NSF) has announced a commitment of $1.5 billion over the next decade to establish 'X-Labs.' These independent, milestone-driven research organizations are designed to bypass the Research Project Grant (RPG) system, which has long been the backbone of US basic science, along with the universities that serve as its primary recipients. This move signals a tipping point in a debate that has been brewing for years: a growing coalition of reformers argues that the RPG model—characterized by competitive, investigator-initiated, and peer-reviewed proposals—has become incapable of fostering transformative science.\n\nHowever, in a recent article published in *Science*, Pierre Azoulay offers a qualified defense of the RPG system, urging skepticism toward the X-Labs prescription. While acknowledging the frustration driving the reform movement, Azoulay contends that the RPG framework, despite its flaws, has been crucial for maintaining the diversity and risk-taking essential to scientific discovery. X-Labs, with their concentrated resources and predefined milestones, may deliver efficient short-term results, but they risk undermining the broader ecosystem of open-ended exploration that often yields unexpected breakthroughs.\n\nThis piece is not merely a defense of the status quo but a call for nuance. Azoulay suggests that true transformative science often emerges from the chaotic, unstructured nature of free inquiry rather than from rigidly planned objectives. Before diverting significant funding to new institutional models, policymakers must carefully consider whether they are simply replacing one form of bureaucratic constraint with another, potentially stifling the very scientific diversity that drives long-term innovation."
+    },
+    "keyArticle": {
+      "title": "In (qualified) defense of the research project grant",
+      "authors": [
+        "Pierre Azoulay"
+      ],
+      "doi": "10.1126/science.aej2947",
+      "pages": "1101"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej2947",
+      "doi": "https://doi.org/10.1126/science.aej2947"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-06-13T20:12:22.729906+00:00",
+    "source": "openalex"
+  }
+}
