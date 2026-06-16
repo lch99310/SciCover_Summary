@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-05-27-02",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "3",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "擁抱越多，改變越少？破解社會網絡中的「影響力悖論」",
+      "en": "The Influence Paradox: Why Being Well-Connected Doesn’t Mean You’re Effective"
+    },
+    "summary": {
+      "zh": "這項發現對理解領導力、創新採用及公共政策設計具有深遠意義。它提醒決策者，單純追求「影響力最大」的節點並非萬靈丹，網絡的整體結構同樣關鍵。如果忽略網絡的聚集特性，即使選對了「關鍵人物」，也可能因為結構性的阻礙而讓努力付諸東流。未來的社會干預需要從單純的「點狀打擊」轉向對整個網絡生態的更細緻調控。",
+      "en": "These findings carry significant implications for understanding leadership, innovation adoption, and public policy design. They serve as a reminder that simply chasing the most 'influential' nodes is not a panacea; network structure matters just as much. Ignoring clustering characteristics can render efforts futile, even when the right individuals are targeted. Future social interventions must shift from isolated 'point strikes' to a more nuanced regulation of the entire network ecosystem."
+    },
+    "keyArticle": {
+      "title": "The Influence “Paradox”: When More Network Ties Lead to Less Change",
+      "authors": [
+        "Yuan Hsiao",
+        "Nicholas A. Christakis"
+      ],
+      "doi": "10.1177/00031224261438845",
+      "pages": "464-489"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261438845",
+      "doi": "https://doi.org/10.1177/00031224261438845"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-06-16T21:41:19.177229+00:00",
+    "source": "openalex"
+  }
+}

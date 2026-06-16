@@ -1,0 +1,63 @@
+{
+  "id": "science-2026-06-11-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6803",
+  "date": "2026-06-11",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-11-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "地球的隱形脈絡與大腦的社會印記：《科學》雜誌六大前沿突破",
+      "en": "Earth's Invisible Threads and the Brain's Social Imprint: Six Frontiers from Science"
+    },
+    "summary": {
+      "zh": "【總結】本期《科學》雜誌揭開了從地下真菌網絡到人類基因組的多維圖景。研究不僅量化了連接植物的「木維爾」真菌密度，揭示了其在全球碳循環中的巨大變異性，還深入探讨了外行星的軌道動力學、火星般環境下的甲烷生成潛力，以及人工智能時代的光學芯片突破。同時，社會科學視角引入大腦發育與社區經濟狀況的深刻聯繫，顯示出環境因素對神經發展的強大塑造力。\n\n【研究問題】過去對地下真菌網絡的全球規模缺乏直接觀測數據，限制了我們對生態系統碳儲存的準確評估；此外，關於外行星大氣剝離機制、深海微生物的生物地球化學作用，以及社會經濟地位如何獨立於遺傳因素影響大腦結構，仍存在顯著知識空白。解決這些問題對於預測氣候變化影響、探索地外生命跡象及理解人類健康不平等至關重要。\n\n【研究方法】研究團隊採用了跨學科方法：利用機器學習整合野外數據以預測全球真菌密度；通過高分辨率影像分析實驗室培養的真菌網絡；分析系外行星凌日數據以研究軌道偏心率；並結合宏基因组學與同位素分析探討深海微生物群落。在社會科學部分，研究者通過大樣本腦成像數據，將神經特徵與社區層級的社會經濟指標進行多變量關聯分析，控制個體遺傳背景以分離環境效應。\n\n【結果】結果顯示，全球木維爾真菌生物量遠高於預期且具有空間異質性，挑戰了既往模型；外行星「半徑谷」兩側的類地行星與迷你海王星在軌道演化路徑上存在根本差異，暗示不同的氣體剝離機制；深海微生物分布並非完全隨機，而是受地理屏障限制。更重要的是，社區社會經濟地位被證實是大腦變異性的主要解釋因素（佔比高達34%），甚至削弱了傳統認為的智商與大腦結構的直接關聯，為公共衛生政策提供了新依據。",
+      "en": "**Summary:** This issue of *Science* unveils a multidimensional landscape ranging from underground fungal networks to the genomic imprint of human development. The research not only quantifies the density of arbuscular mycorrhizal (AM) fungi connecting plants, revealing significant global variability in their role in the carbon cycle, but also delves into the orbital dynamics of exoplanets, the potential for methanogenesis in Mars-like environments, and breakthroughs in optical chips for the AI era. Concurrently, a social science perspective introduces a profound connection between brain development and community economic status, demonstrating the powerful shaping force of environmental factors on neural architecture.\n\n**Problem:** Historically, there has been a lack of direct observational data on the global scale of underground fungal networks, limiting accurate assessments of ecosystem carbon storage. Additionally, significant knowledge gaps remain regarding atmospheric stripping mechanisms on exoplanets, the biogeochemical roles of deep-sea microbial communities, and how socioeconomic status independently influences brain structure apart from genetic factors. Addressing these issues is crucial for predicting climate change impacts, searching for extraterrestrial life signatures, and understanding health disparities.\n\n**Approach:** The research team employed interdisciplinary methods: utilizing machine learning to integrate field data for predicting global fungal density; analyzing laboratory-grown fungal networks via high-resolution imaging; examining exoplanet transit data to study orbital eccentricity; and combining metagenomics with isotope analysis to explore deep-sea microbial communities. In the social science domain, researchers conducted multivariate association analyses linking neural features to community-level socioeconomic indicators using large-scale brain imaging data, controlling for individual genetic backgrounds to isolate environmental effects.\n\n**Results:** The findings indicate that global AM fungal biomass is far higher than previously expected and exhibits spatial heterogeneity, challenging existing models. Planets on either side of the 'radius valley' show fundamental differences in orbital evolution, suggesting distinct mechanisms for gas envelope loss. Deep-sea microbial distributions are not entirely random but are constrained by geographic barriers. Crucially, community socioeconomic status was identified as the primary driver of brain variability (accounting for up to 34% of variance), even attenuating the traditionally cited direct link between IQ and brain structure, thereby providing new foundations for public health policy."
+    },
+    "keyArticle": {
+      "title": "In Science Journals",
+      "authors": [
+        "Bianca Lopez",
+        "Sacha Vignieri",
+        "Keith T. Smith",
+        "Marc S. Lavine",
+        "Leoma Bere",
+        "Yury Suleymanov",
+        "Susannah G. Tringe",
+        "Jesse Smith",
+        "Angela Hessler",
+        "Corinne Simonti",
+        "Phil Szuromi",
+        "Mattia Maroso",
+        "Madeleine Seale",
+        "Yevgeniya Nusinovich",
+        "Craig E. Cameron",
+        "Dorothy Hallberg",
+        "John Foley"
+      ],
+      "doi": "10.1126/science.aej5477",
+      "pages": "1138-1140"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-11-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej5477",
+      "doi": "https://doi.org/10.1126/science.aej5477"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-16T21:39:26.165978+00:00",
+    "source": "openalex"
+  }
+}

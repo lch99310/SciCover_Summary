@@ -1,0 +1,41 @@
+{
+  "id": "political-geography-2026-02-27-02",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-02-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當醫院變成軍火庫：「雙重用途」如何成為現代戰爭的合法化外衣",
+      "en": "When Hospitals Become Armories: How 'Dual Use' Legitimizes Modern Warfare"
+    },
+    "summary": {
+      "zh": "【總結】本文深入剖析了「雙重用途」（Dual Use）如何從一個技術或法律概念，演變為當代軍事暴力的一項核心政治技術。研究指出，現代戰爭透過模糊軍事與民用世界的界線，將醫院、學校、糧食甚至兒童玩具都定義為潛在軍事目標，從而為大規模毀滅平民基礎設施提供合法性。這項研究的重要性在於它揭示了這種「模糊化」並非意外，而是自由主義法律與戰爭機器共謀的結果，旨在為無限制的暴力開綠燈。\n\n【研究問題】過去的研究往往將國際人道法視為保護平民的堅實堡壘，卻忽略了其內在矛盾。本文探討的核心問題是：為何在國際法嚴禁攻擊平民的同時，現代軍隊卻能系統性地將民用基礎設施視為軍事目標？研究缺口在於，過往分析多集中在法律條文的表面應用，而忽略了「雙重用途」如何作為一種意識形態工具，重新定義了「敵我」與「可攻擊性」，使得「一切皆為目標」成為新的戰爭常態。\n\n【研究方法】作者採用歷史與理論相結合的批判性分析方法。首先，他們追溯了國際人道法（如日內瓦公約）中「區別原則」的演變，展示其如何試圖劃清軍民界線。其次，通過分析伊拉克、科索沃及加沙地帶的具體戰例，揭示軍事行動如何操縱「雙重用途」清單來擴大打擊範圍。最後，引入「武裝政治」（Martial Politics）理論框架，論證民用與軍事空間並非分開存在，而是相互構成、不可分割的，從而解構「雙重用途」作為獨立概念的神話。\n\n【結果】研究發現，「雙重用途」並非客觀事實，而是自由主義戰爭製造的虛構。以加沙為例，以色列透過將建築材料、肥料甚至香菜列為「雙重用途」禁運品，並在戰爭中將所有平民標記為戰鬥人員，導致超過7.3萬人死亡，60%建築被毀。這表明，當軍民界線被刻意模糊時，國際法中的「比例原則」反而成為計算平民傷亡以換取軍事利益的算盤。這一發現徹底顛覆了對現代精確打擊的認知，指出其本質是通過法律話語來加速和合法化對平民的系統性毀滅。",
+      "en": "**Summary:** This article dissects how 'dual use' has evolved from a technical or legal concept into a central political technology of contemporary military violence. The study reveals that modern warfare systematically blurs the line between military and civilian worlds, redefining hospitals, schools, food, and even toys as potential military targets to legitimize the mass destruction of civilian infrastructure. The breakthrough lies in exposing this 'blurring' not as an accident of war, but as a deliberate collusion between liberal lawmaking and war-making machinery, designed to unlock unrestricted violence under the guise of legality.\n\n**Problem:** Previous research often viewed International Humanitarian Law (IHL) as a robust shield for civilians, overlooking its internal contradictions. This article asks: Why does modern warfare systematically target civilian infrastructure despite legal prohibitions? The gap in existing literature is the failure to recognize 'dual use' as an ideological tool that redefines 'combatant' and 'targetability,' normalizing the logic that 'everything is targetable.' Solving this is crucial because it explains how legal frameworks intended to limit violence are instead manipulated to amplify it, turning humanitarian principles into mechanisms for calculating acceptable civilian casualties.\n\n**Approach:** The authors employ a critical historical and theoretical analysis. First, they trace the evolution of the 'principle of distinction' in IHL, showing how it attempts to demarcate civilian space. Second, they analyze specific military campaigns in Iraq, Kosovo, and Gaza to demonstrate how 'dual use' lists are weaponized to expand the scope of attack. Finally, they utilize the framework of 'martial politics' to argue that civilian and military spaces are co-constitutive and inseparable. By deconstructing the fiction of 'dual use,' they reveal that the boundary between war and peace is an illusion maintained to justify continuous military intervention.\n\n**Results:** The key finding is that 'dual use' is a fiction of liberal warmaking. In Gaza, Israel’s use of 'dual use' restrictions on items like construction materials and fertilizers, combined with the labeling of all civilians as combatants, has resulted in over 73,000 deaths and the destruction of 60% of buildings. The study shows that the 'proportionality principle' in international law has been twisted into a calculus for justifying mass civilian harm. This implies that the very legal structures meant to protect civilians are now integral to the distribution of lethal force, fundamentally challenging the notion of 'humanitarian' or 'precise' warfare."
+    },
+    "keyArticle": {
+      "title": "Dual use as a political technology of contemporary military violence",
+      "authors": [
+        "Craig Jones",
+        "Ichamati Mousamputri",
+        "Mark D Griffiths"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103525",
+      "pages": "103525"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103525",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103525"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-16T21:40:43.012285+00:00",
+    "source": "openalex"
+  }
+}

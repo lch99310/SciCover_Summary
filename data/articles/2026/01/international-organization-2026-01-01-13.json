@@ -1,0 +1,45 @@
+{
+  "id": "international-organization-2026-01-01-13",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-13-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "無米之炊：國際組織期刊卷首語與訂閱指南解析",
+      "en": "No Meat, Just Bone: Decoding the Front Matter of International Organization"
+    },
+    "summary": {
+      "zh": "【總結】本文獻並非傳統學術論文，而是《International Organization》（國際組織）期刊2026年第一期的封面與後記頁面。其核心價值在於展示頂尖社會科學期刊的出版生態與行政架構，而非提供新的理論見解。\n\n【研究問題】該頁面並未探討任何學術問題或研究缺口。它僅作為期刊的元數據存在，旨在向讀者確認出版商、編輯單位及訂閱細節，屬於期刊運營的必要資訊而非學術內容。\n\n【研究方法】由於缺乏實質學術文本，本文無法應用標準的研究方法論。頁面內容僅包含版權聲明、索引編目資訊、廣告聯繫方式及定價結構，屬於行政性文件的整理與展示。\n\n【結果】結果顯示，該期期刊由劍橋大學出版社為IO基金會出版，年費制度分為機構與個人訂閱，並明確列出了其在SSCI等資料庫中的索引狀態。這確認了該期刊在政治與經濟事務領域的持續運作與商業模型，但無任何具體的社會科學實證發現可供總結。",
+      "en": "**Summary:** This document is not a traditional academic paper but rather the cover and back matter for Volume 80, Issue 1 of *International Organization*, dated Winter 2026. Its primary value lies in illustrating the publishing ecosystem and administrative framework of a top-tier social science journal, rather than presenting new theoretical insights.\n\n**Problem:** The page does not address any specific academic question or research gap. It serves purely as metadata, confirming the publisher, editorial affiliations, and subscription details. It functions as necessary operational information for the journal rather than scholarly content.\n\n**Approach:** Given the absence of substantive academic text, standard methodological application is impossible. The content consists solely of copyright statements, indexing information, advertising contacts, and pricing structures, representing a compilation of administrative documentation.\n\n**Results:** The findings indicate that the journal is published quarterly by Cambridge University Press on behalf of the IO Foundation. The output details a tiered subscription model (institutional vs. individual) and lists its indexing in major databases like the Social Sciences Citation Index. This confirms the journal’s ongoing commercial and operational status in political and economic affairs, though it offers no empirical social science discoveries."
+    },
+    "keyArticle": {
+      "title": "INO volume 80 issue 1 Cover and Back matter",
+      "authors": [],
+      "doi": "10.1017/s002081832510088x",
+      "pages": "b1-b2"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-13-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s002081832510088x",
+      "doi": "https://doi.org/10.1017/s002081832510088x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-16T21:40:59.360585+00:00",
+    "source": "openalex"
+  }
+}

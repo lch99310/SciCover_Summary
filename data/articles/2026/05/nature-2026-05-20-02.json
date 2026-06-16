@@ -1,0 +1,62 @@
+{
+  "id": "nature-2026-05-20-02",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8118",
+  "date": "2026-05-20",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-20-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子光學新突破：用「 squeezed vacuum 」讓原子隧穿效率暴增 20 倍",
+      "en": "Quantum Boost: Squeezed Vacuum Light Doubles Atomic Tunneling Efficiency"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究證實，使用一種稱為「明亮壓縮真空」（BSV）的量子光源，可以將原子隧穿電離的非線性效應提升超過 20 倍。這不僅突破了傳統雷射強度的物理極限，更為精確控制極端非線性光學過程開創了全新途徑。\n\n【研究問題】傳統上，增強原子隧穿效應依賴提高雷射強度，但這會導致材料損傷。過去雖有理論預測量子光可提升非線性響應，但在最基礎的孤立原子系統中，缺乏直接證明量子統計特性如何驅動電離效率的實驗證據，也缺少有效的控制手段。\n\n【研究方法】研究團隊使用鈉原子作為測試對象，因其電離電位較低，適合觀測。他們比較了傳統相干雷射與 BSV 量子光源驅動下的電子動量譜。透過「角度掃掠」（angular streaking）技術，精確校準 BSV 的有效強度。此外，他們開發了 QADK 理論模型，將光與電子的量子糾纏納入計算，並透過調整 BSV 的相關函數來主動控制有效強度。\n\n【結果】實驗顯示，僅需 300 奈焦耳（nJ）的 BSV 光，就能產生與 7.1 微焦耳（μJ）傳統雷射相同強度的電離效果，實現 20 倍以上量子增益。更關鍵的是，研究者發現有效強度與 BSV 的第二階相關函數（g(2)）呈線性關係，這意味著在不增加平均脈衝能量的情況下，僅憑調整量子統計特性即可精確調控非線性過程。這為發展高效率阿秒光源和量子控制光譜學奠定了堅實基礎。",
+      "en": "**Summary:** This Nature study demonstrates that a quantum light source called Bright Squeezed Vacuum (BSV) can boost the nonlinear atomic tunneling ionization effect by more than 20 times. This breakthrough bypasses the intensity limits of classical lasers and establishes a new paradigm for controlling extreme nonlinear optical processes through quantum statistics.\n\n**Problem:** Traditionally, enhancing atomic tunneling required brute-force increases in laser intensity, which risks damaging materials. While theoretical models suggested quantum light could enhance nonlinear responses, there was a lack of experimental evidence in isolated atomic systems and no clear method to control this enhancement effectively, leaving a gap in understanding non-classical light-matter interactions.\n\n**Approach:** The researchers used sodium atoms, chosen for their low ionization potential, to compare ionization driven by coherent laser light versus BSV. They employed \"angular streaking\" to precisely calibrate the effective intensity of the BSV light. Furthermore, they developed the QADK (Quantum Ammosov-Delone-Krainov) theory, which incorporates light-electron entanglement, to model how quantum statistical properties imprint onto emitted electrons. They also actively tuned the BSV’s correlation function to control the interaction strength.\n\n**Results:** The experiment revealed that just 300 nanjoules of BSV light achieved the same peak electron momentum as 7.1 microjoules of coherent light, demonstrating a 20-fold quantum boost. Crucially, they found a linear scaling between the effective intensity and the BSV’s second-order correlation function (g(2)). This proves that nonlinear processes can be tailored and optimized by adjusting quantum correlations alone, without increasing average pulse energy, opening new avenues for efficient attosecond sources and quantum-controlled spectroscopy."
+    },
+    "keyArticle": {
+      "title": "Nonlinear atomic tunnelling boosted by bright squeezed vacuum",
+      "authors": [
+        "Zhejun Jiang",
+        "Shengzhe Pan",
+        "J C Chen",
+        "Mingyu Zhu",
+        "Chenhao Zhao",
+        "Yue Wang",
+        "Ru Zhang",
+        "Jianshi Lu",
+        "Lulu Han",
+        "Suwen Xiong",
+        "Dian Wu",
+        "Wenxue Li",
+        "Shicheng Jiang",
+        "Hongcheng Ni",
+        "Jian Wu"
+      ],
+      "doi": "10.1038/s41586-026-10485-9",
+      "pages": "356-360"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-20-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10485-9",
+      "doi": "https://doi.org/10.1038/s41586-026-10485-9",
+      "preprint": "https://arxiv.org/abs/2604.05783"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-16T21:39:44.697084+00:00",
+    "source": "openalex"
+  }
+}

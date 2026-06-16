@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-13T20:14:45.447099+00:00",
+  "lastUpdated": "2026-06-16T21:41:19.210951+00:00",
   "articles": [
+    {
+      "id": "science-2026-06-11-02",
+      "journal": "Science",
+      "date": "2026-06-11",
+      "path": "articles/2026/06/science-2026-06-11-02.json",
+      "title_zh": "地球的隱形脈絡與大腦的社會印記：《科學》雜誌六大前沿突破",
+      "title_en": "Earth's Invisible Threads and the Brain's Social Imprint: Six Frontiers from Science",
+      "cover_url": "data/images/science/science-2026-06-11-02-cover.jpg"
+    },
     {
       "id": "science-2026-06-11",
       "journal": "Science",
@@ -54,6 +63,15 @@
       "title_zh": "無水築壩？解開摩洛哥現代化話語的矛盾迷思",
       "title_en": "Building Dams Without Water? Unraveling Paradoxes in Morocco's Modernization Discourse",
       "cover_url": "data/images/political-geography/political-geography-2026-06-03-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-05-27-02",
+      "journal": "American Sociological Review",
+      "date": "2026-05-27",
+      "path": "articles/2026/05/american-sociological-review-2026-05-27-02.json",
+      "title_zh": "擁抱越多，改變越少？破解社會網絡中的「影響力悖論」",
+      "title_en": "The Influence Paradox: Why Being Well-Connected Doesn’t Mean You’re Effective",
+      "cover_url": ""
     },
     {
       "id": "american-sociological-review-2026-05-27",
@@ -171,6 +189,15 @@
       "title_zh": "科學前沿：跨越多學科的突破性研究",
       "title_en": "Science Frontiers: Breakthrough Research Across Multiple Disciplines",
       "cover_url": "data/images/science/science-2026-05-21-cover.jpg"
+    },
+    {
+      "id": "nature-2026-05-20-02",
+      "journal": "Nature",
+      "date": "2026-05-20",
+      "path": "articles/2026/05/nature-2026-05-20-02.json",
+      "title_zh": "量子光學新突破：用「 squeezed vacuum 」讓原子隧穿效率暴增 20 倍",
+      "title_en": "Quantum Boost: Squeezed Vacuum Light Doubles Atomic Tunneling Efficiency",
+      "cover_url": "data/images/nature/nature-2026-05-20-02-cover.jpg"
     },
     {
       "id": "nature-2026-05-20",
@@ -623,6 +650,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-03-31",
+      "journal": "Cell",
+      "date": "2026-03-31",
+      "path": "articles/2026/03/cell-2026-03-31.json",
+      "title_zh": "癌細胞的「建築藍圖」：破解乳癌轉移擴散的3D秘密",
+      "title_en": "The Cancer Blueprint: How Breast Cancer Rebuilds Itself in New Organs",
+      "cover_url": "data/images/cell/cell-2026-03-31-cover.jpg"
+    },
+    {
       "id": "science-2026-03-26-02",
       "journal": "Science",
       "date": "2026-03-26",
@@ -963,6 +999,15 @@
       "title_zh": "解析漢坦病毒糖蛋白四聚體高解析度結構：疫苗設計的突破性進展",
       "title_en": "Decoding Hantavirus Glycoprotein Tetramers: Breakthrough in Structural Basis for Vaccine Design",
       "cover_url": "data/images/cell/cell-2026-02-27-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-02-27-02",
+      "journal": "Political Geography",
+      "date": "2026-02-27",
+      "path": "articles/2026/02/political-geography-2026-02-27-02.json",
+      "title_zh": "當醫院變成軍火庫：「雙重用途」如何成為現代戰爭的合法化外衣",
+      "title_en": "When Hospitals Become Armories: How 'Dual Use' Legitimizes Modern Warfare",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-02-27",
@@ -1647,6 +1692,15 @@
       "title_zh": "越流動越不需要保護？顛覆常識的產權研究",
       "title_en": "The Mobility Paradox: Why Mobile Assets Don't Need Strong Property Rights",
       "cover_url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-13",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-13.json",
+      "title_zh": "無米之炊：國際組織期刊卷首語與訂閱指南解析",
+      "title_en": "No Meat, Just Bone: Decoding the Front Matter of International Organization",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-13-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

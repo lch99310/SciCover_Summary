@@ -1,0 +1,79 @@
+{
+  "id": "cell-2026-03-31",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "12",
+  "date": "2026-03-31",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-03-31-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "癌細胞的「建築藍圖」：破解乳癌轉移擴散的3D秘密",
+      "en": "The Cancer Blueprint: How Breast Cancer Rebuilds Itself in New Organs"
+    },
+    "summary": {
+      "zh": "【總結】\n這是一項顛覆我們對癌症轉移認知的突破性研究。傳統觀點認為，腫瘤只是無序生長的細胞堆積，但這項發表於《Cell》的研究揭示，轉移性乳腺癌細胞在擴散到肺部、肝臟或大腦後，會啟動一套類似胎兒發育時的「分支形態發生」基因程式。它們不再像原發腫瘤那樣團塊狀生長，而是像樹枝一樣形成複雜的三維網狀結構，這種特殊的建築模式是它們能夠長成大腫瘤並致命的关键。\n\n【研究問題】\n過去的研究大多聚焦於腫瘤細胞如何離開原發部位或在血液中存活，卻忽略了它們到達新器官後「如何生根發芽」的機制。為什麼有些轉移灶會迅速膨脹成致命的大腫瘤，而有些則長期休眠？研究缺口在於缺乏對轉移瘤三維空間結構與基因表達之間關聯的理解。解決這個問題至關重要，因為只有看清腫瘤在遠端器官的「建築方式」，才能找到針對性強烈的治療靶點，阻斷其致命擴張。\n\n【研究方法】\n研究團隊採用了多學科交叉的先進技術組合。他們結合了單細胞RNA測序和空間轉錄組學，對人類乳腺癌患者的原發腫瘤和轉移病灶進行精細繪圖。更獨特的是，他們利用人工智慧支援的3D影像重建技術（CODA），將傳統的二维切片病理報告轉化為立體的腫瘤模型。同時，通過在小鼠體內進行基因編輯（敲除特定轉錄因子）和活體顯微鏡觀察，驗證了這些結構形成的功能性依賴，從而建立了從分子訊號到三維宏觀結構的完整證據鏈。\n\n【結果】\n研究發現了一個名為「轉移性小樑形態發生」（MTM）的基因程式，由ETV1/4/5三個轉錄因子主導。數據顯示，所有形成大腫瘤的轉移灶都高度表達此程式，而未轉移或生長緩慢的原發腫瘤則表達較低。關鍵發現是，腫瘤細胞依賴周圍間質細胞分泌的FGF訊號來支撐這種分支生長；當抑制FGF受體或敲除ETV基因時，腫瘤細胞無法形成分支結構，轉移灶的生長受到嚴重抑制。這不僅確立了MTM作為轉移預後的指標，更揭露了FGF訊號通路是一個全新的、僅在轉移階段活躍的治療弱點。",
+      "en": "**Summary:**\nThis landmark study in *Cell* fundamentally shifts our understanding of metastasis. Rather than growing as chaotic, spherical clumps, metastatic breast cancer cells reactivate a developmental gene program called Metastatic Trabecular Morphogenesis (MTM). By mimicking the branching patterns seen in fetal tissue development, these cells construct a complex 3D lattice structure in distant organs like the lungs or brain. This architectural blueprint is not just cosmetic; it is the essential mechanism that allows micrometastases to expand into lethal macrometastases, revealing that the spatial organization of cancer is as critical as its genetic mutations.\n\n**Problem:**\nWhile decades of research have focused on how cancer cells detach and travel through the bloodstream, the \"how\" of their establishment in new organs remains a black box. Previous studies often viewed tumors as 2D aggregates, missing the crucial 3D context. The gap lies in understanding why some disseminated cells grow aggressively while others remain dormant. Solving this is vital because current therapies fail to target the specific structural dependencies of established metastases, leaving patients vulnerable to rapid, untreatable spread once the disease reaches advanced stages.\n\n**Approach:**\nThe researchers deployed a powerful multi-modal toolkit. They integrated single-cell RNA sequencing with spatial transcriptomics to map gene activity within the physical context of the tumor. Uniquely, they employed AI-driven 3D reconstruction (using the CODA algorithm) to visualize the intricate architecture of metastases from patient samples and mouse models. To prove causality, they performed functional experiments in mice, knocking out master regulator genes (ETV1/4/5) and analyzing stromal-epithelial interactions, thereby linking molecular drivers directly to 3D morphological outcomes.\n\n**Results:**\nThe study identified ETV1/4/5 as the master regulators of the MTM program. Data showed that primary tumors with high MTM signatures were significantly more likely to develop distant metastases. Crucially, the 3D reconstructions revealed that metastatic cells form branching structures dependent on Fibroblast Growth Factor (FGF) signals from surrounding stromal cells. When the team inhibited FGFR signaling or deleted ETV genes, the cancer cells lost their ability to branch and form macrometastases, although their initial survival was unaffected. This pinpoints the FGF-ETV axis as a specific vulnerability in the expansion phase of metastasis, offering a new therapeutic avenue."
+    },
+    "keyArticle": {
+      "title": "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer",
+      "authors": [
+        "Robin Caire",
+        "Roberta Bordo",
+        "Francesca Zanconato",
+        "Tito Panciera",
+        "Estelle Audoux",
+        "Paolo Contessotto",
+        "Michaela Fakiola",
+        "Ramona Bason",
+        "Oriana Romano",
+        "Ambela Suli",
+        "Giusy Battilana",
+        "Matteo Marchionni",
+        "Mattia Forcato",
+        "Sara Donzelli",
+        "M. Dieci",
+        "Gaia Griguolo",
+        "Mariantonia Carosi",
+        "Matteo Fassan",
+        "Vincenza Guzzardo",
+        "Angelo Paolo Dei Tos",
+        "Silvia Marsoni",
+        "Peng Wu",
+        "Denis Wirtz",
+        "Shanshan He",
+        "Cecilia Casali",
+        "Francesco Volpin",
+        "Giovanni Blandino",
+        "Claudio Tripodo",
+        "Silvio Bicciato",
+        "Valentina Guarneri",
+        "Massimiliano Pagani",
+        "Michelangelo Cordenonsi",
+        "Stefano Piccolo"
+      ],
+      "doi": "10.1016/j.cell.2026.03.009",
+      "pages": "3701-3718.e30"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-03-31-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.009",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.009"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-16T21:40:13.405551+00:00",
+    "source": "openalex"
+  }
+}
