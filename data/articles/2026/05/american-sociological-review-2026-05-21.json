@@ -1,0 +1,42 @@
+{
+  "id": "american-sociological-review-2026-05-21",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "3",
+  "date": "2026-05-21",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "在「面子」與「狂歡」之間：社會互動的兩種儀式本質",
+      "en": "Between Face and Frenzy: The Dual Rituals of Social Life"
+    },
+    "summary": {
+      "zh": "社會學的核心往往聚焦於人與人之間的互動，但我們對這些互動的理解卻常陷入兩極。挪威關於種族污名化的研究顯示，人們在白人面前小心翼翼地維護「面子」，而在少數族群社群中則能體驗到情感的共鳴與「狂歡」。這兩種看似矛盾的行為，其實揭示了社會生活中兩種截然不同的儀式動態：一種是為了防禦自我、維持界限，另一種則是為了產生情感共振、打破隔閡。\n\n在加拿大的創意歌曲創作過程中，研究者進一步發現這兩種儀式並非孤立存在，而是相互交織、遞迴運作的。創作者們在嚴謹的自我審查（面子儀式）與集體的情感爆發（狂歡儀式）之間來回切換。這種細緻的區分讓我們得以重新審視從社會運動到歧視現象等多樣化的社會過程，理解其背後的互動結構是如何在防禦與融合之間動態平衡的。\n\n這項研究由 Anders Vassenden、Nicholas Hoynes、Taylor Price 和 Iddo Tavory 共同完成，他們繼承了塗爾幹、高夫曼和柯林斯的思想傳統，提出了一個新的分析框架。通過將「面子儀式」與「狂歡儀式」分開觀察，學者們能夠更精確地捕捉社會互動的複雜性，並為解釋日常生活中的社會結果提供了更具說服力的理論工具。",
+      "en": "At the heart of sociology lies the study of interaction, yet our conceptual tools often fail to capture its nuance. In their latest work published in the American Sociological Review, Anders Vassenden, Nicholas Hoynes, Taylor Price, and Iddo Tavory propose a crucial distinction between two types of interaction rituals: 'rituals of face' and 'rituals of effervescence.' Drawing on the Durkheimian tradition and building on the works of Goffman and Collins, they argue that while both are fundamental to social life, they serve opposing functions—one defends the self through boundary maintenance, while the other generates collective emotional energy."
+    },
+    "keyArticle": {
+      "title": "Between Two Rituals: Face and Effervescence as Moments of Social Life",
+      "authors": [
+        "Anders Vassenden",
+        "Nicholas Hoynes",
+        "Taylor Price",
+        "Iddo Tavory"
+      ],
+      "doi": "10.1177/00031224261441865",
+      "pages": "379-404"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261441865",
+      "doi": "https://doi.org/10.1177/00031224261441865"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-06-19T20:29:43.428884+00:00",
+    "source": "openalex"
+  }
+}

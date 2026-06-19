@@ -1,0 +1,58 @@
+{
+  "id": "cell-2026-04-29-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "11",
+  "date": "2026-04-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞膜上的永恆之舞：揭開致癌受體二聚化的真實節奏",
+      "en": "The Eternal Dance on the Membrane: Unmasking the Real Rhythm of Oncogenic Receptor Dimerization"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過長時程單分子追蹤技術，首次揭示了ErbB家族受體在活細胞內的真實動態。研究不僅證實致癌突變會導致受體形成穩定的配體獨立性二聚體，更意外發現HER2和HER3存在構成性同源二聚化，徹底修正了傳統激活模型。\n\n【研究問題】過去對ErbB受體相互作用的理解主要基於靜態影像或短時間觀測，無法捕捉瞬態結合與長期穩定性的差異。這種視角盲點導致我們對致癌突變如何驅動信號持續異常活化缺乏精確動力學認知，阻礙了新藥開發。\n\n【研究方法】研究團隊開發了三種正交發光的上轉換奈米粒子（UCNPs），分別標記EGFR、HER2和HER3。由於UCNPs不會光漂白，他們能在活細胞中進行長達數十分鐘的連續多色單粒子追蹤，精確測量受體擴散模式及二聚體壽命。\n\n【結果】數據顯示，野生型EGFR二聚體壽命極短（通常少於35秒），遵循冪律分佈；而攜帶致癌突變的EGFR則形成穩定且持久的配體獨立性二聚體。更具突破性的是，HER2和HER3即使沒有配體也會形成穩定同源二聚體。HER2突變進一步增強其穩定性，而HER3突變卻破壞同源二聚體，暗示其機制是為了促進異源二聚化。這些發現繪製出迄今最精細的ErbB交互網絡圖譜。",
+      "en": "**Summary:** This study utilizes long-term single-particle tracking to reveal the authentic dynamics of ErbB family receptors in living cells. It confirms that oncogenic mutations promote stable, ligand-independent dimerization and unexpectedly discovers constitutive homodimerization in HER2 and HER3, fundamentally revising traditional activation models.\n\n**Problem:** Previous understanding of ErbB receptor interactions relied heavily on static images or short-duration observations, failing to capture the distinction between transient binding and long-term stability. This blind spot hindered precise kinetic comprehension of how oncogenic mutations drive persistent aberrant signaling, limiting the development of targeted therapies.\n\n**Approach:** The team engineered three orthogonal upconverting nanoparticles (UCNPs) to specifically label EGFR, HER2, and HER3. Unlike traditional fluorophores, these UCNPs do not photobleach, enabling continuous, multicolor single-particle tracking for tens of minutes in live cells to precisely measure diffusion modes and dimer lifetimes.\n\n**Results:** The data reveals that wild-type EGFR dimers are fleeting (typically under 35 seconds), following a power-law distribution. In contrast, oncogenic EGFR mutants form stable, long-lasting ligand-independent dimers. Most surprisingly, both HER2 and HER3 exhibit constitutive homodimerization. HER2 mutations modestly enhance this stability, while HER3 mutations destabilize homodimers, suggesting a mechanism to favor heterodimerization. These insights construct the most comprehensive ErbB interaction network to date."
+    },
+    "keyArticle": {
+      "title": "ErbB family receptor dimerization dynamics and dysregulation via long-term single-molecule imaging",
+      "authors": [
+        "Kaibo Ma",
+        "Xiaojie Ma",
+        "J. Shida",
+        "Zijian Niu",
+        "Yuzhu Karlie Lin",
+        "Saptarshi Mandal",
+        "Alexandra Dobbins",
+        "Lior Golomb",
+        "Michael J. Eck",
+        "Heidi Greulich",
+        "M. Meyerson",
+        "Chunte Sam Peng"
+      ],
+      "doi": "10.1016/j.cell.2026.04.010",
+      "pages": "3413-3431.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.04.010",
+      "doi": "https://doi.org/10.1016/j.cell.2026.04.010"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-19T20:28:21.252490+00:00",
+    "source": "openalex"
+  }
+}

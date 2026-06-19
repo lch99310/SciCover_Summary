@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-06-10",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-06-10",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-06-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "水不再是資源，而是無處不在的武器：破解「環境性武器化」的暴力密碼",
+      "en": "Water as the Ultimate Ambient Weapon: How the Hydrosphere Became a Weapon of Choice"
+    },
+    "summary": {
+      "zh": "【總結】本文顛覆了傳統對「水資源武器化」的認知，提出「環境性水武器化」（Ambient Water Weaponisation）的新框架。作者指出，水不再僅是被控制的戰略物資，其液態、氣態與固態的物理特性被系統性地操縱，以滲透並重塑人類的生存環境。\n\n【研究問題】現有研究將水視為靜態資源，忽視了其作為生命共同構成者的動態角色。過去的研究盲點在於無法解釋那些非直接斷水、而是通過改變環境氛圍（如化學殘留、氣候操控）造成的長期傷害。理解這一轉變對於應對現代混合戰爭中隱蔽且累積性的暴力至關重要。\n\n【研究方法】研究採用概念構建與案例分析相結合的方法，引入「環境性脆弱性」（Ambient Vulnerability）理論，分析水在不同相態下的武器化機制。通過解構烏克蘭戰爭中的核電廠洩漏、加薩地帶的「臭水」攻擊以及美國密歇根州弗林特的水危機，揭示水如何從背景環境轉化為主動的暴力媒介。\n\n【結果】研究發現，武器的定義已從「離散物件」擴展至「持續存在的條件」。例如，以色列在巴勒斯坦使用的「臭水」不僅造成瞬間痛苦，其蒸發後的殘留物更長期污染居住空間，導致心理創傷。這表明當代暴力已深入日常生活的每一個分子層面，迫使我們重新審視生態、政治與暴力的邊界。",
+      "en": "**Summary:** This article overturns conventional views on water weaponization by introducing \"Ambient Water Weaponisation.\" The authors argue that water is no longer just a strategic resource to be controlled, but a dynamic medium whose liquid, gaseous, and solid states are manipulated to permeate and reshape human survival conditions.\n\n**Problem:** Existing scholarship treats water as a static resource, ignoring its role as a co-constituent of life. The critical gap lies in the inability of traditional frameworks to explain indirect, cumulative harms caused by altering environmental atmospheres—such as chemical residues or climate manipulation. Addressing this is vital for understanding the hidden, pervasive violence of modern hybrid warfare.\n\n**Approach:** The study combines conceptual theory-building with in-depth case studies, utilizing the framework of \"Ambient Vulnerability\" to analyze how water functions across different phases. By dissecting incidents ranging from nuclear coolant drainage in Ukraine to the \"skunk water\" protests in Palestine and the Flint water crisis, the authors demonstrate how water transforms from a passive background into an active agent of violence.\n\n**Results:** The research reveals that the definition of a \"weapon\" has shifted from discrete objects to persistent conditions. For instance, the \"skunk water\" used in Palestine doesn't just cause immediate distress; its evaporation leaves toxic residues that contaminate living spaces and inflict long-term psychological trauma. This signifies that contemporary violence has infiltrated the molecular level of daily life, blurring the lines between ecology, politics, and warfare."
+    },
+    "keyArticle": {
+      "title": "Ambient water weaponisation: The permeation of violence in the hydrosphere",
+      "authors": [
+        "Jeremy J. Schmidt",
+        "Cameron Harrington"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103591",
+      "pages": "103591"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-06-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103591",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103591"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-19T20:28:51.423951+00:00",
+    "source": "openalex"
+  }
+}

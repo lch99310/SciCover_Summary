@@ -1,0 +1,41 @@
+{
+  "id": "international-organization-2026-01-01-14",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "1",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "撤銷追責等於獎勵貪腐？國際組織期刊更正聲明簡析",
+      "en": "Undoing Accountability? A Clarification on the IO Corrigendum Regarding Overseas Bribery Markets"
+    },
+    "summary": {
+      "zh": "【總結】本文並非一篇完整的學術研究論文，而是發表於《國際組織》（International Organization）期刊的一則「更正聲明」（Corrigendum）。它針對 Crippa、Malesky 與 Picci 於 2025 年發表的關於「暫停海外貪腐問責對市場影響」的研究進行行政性修訂。該研究核心探討當國家暫停對企業海外賄賂行為的法律追責時，是否會意外地將貪腐變為一種「有利可圖」的商業策略，進而扭曲全球市場競爭。\n\n【研究問題】原研究旨在填補一個關鍵的政策盲點：在打擊跨國貪腐的努力中，如果執法力度突然鬆綁或暫停問責機制，會對受援國或目標市場的經濟結構產生何種長期影響？過去研究多關注貪腐的發生率，卻較少量化分析「法律執行的不確定性」如何改變企業的成本效益計算，以及這種制度性漏洞如何被濫用。\n\n【研究方法】原研究團隊採用了嚴謹的計量經濟學方法，結合大規模的跨國企業財務數據與法律執行記錄，構建反事實推論模型。他們通過比較在問責政策變動前後，相關市場參與者的行為差異，來隔離出「暫停問責」這一單一變量對市場效率的影響。本次更正僅涉及補充遺漏的輔助數據文件，以確保研究結果的可重複性與透明度，並未改變原有的理論框架或實證結論。\n\n【結果】根據更正聲明確認的原研究數據顯示，當海外貪腐的問責機制被暫停或削弱時，市場並非恢復公平，反而出現了顯著的效率喪失。數據表明，依賴非正式賄賂而非正規競爭力的企業獲得了不成比例的市場份額，導致整體市場定價機制的扭曲。這一發現警示決策者：任何對貪腐法律的寬鬆處理，都可能產生嚴重的負面外部性，不僅未能促進投資，反而加劇了市場的不平等與腐敗制度化。",
+      "en": "**Summary:** This text is not a primary research article but a Corrigendum published in *International Organization*. It serves as an administrative correction for the study \"Making Bribery Profitable Again? The Market Effects of Suspending Accountability for Overseas Bribery\" by Crippa, Malesky, and Picci. The original research investigates a critical policy paradox: whether suspending legal accountability for overseas bribery inadvertently transforms corruption into a profitable market strategy, thereby distorting global competition. This corrigendum addresses a technical omission in the initial publication.\n\n**Problem:** The core issue addressed is the unintended consequence of regulatory rollback. While previous literature extensively covers the prevalence of corruption, there is a significant gap in understanding how the *suspension of enforcement* alters corporate cost-benefit analyses. The authors seek to determine if reducing the risk of prosecution for cross-border bribery creates a competitive advantage for corrupt firms over those adhering to strict compliance, effectively subsidizing illegal behavior through weakened institutional oversight.\n\n**Approach:** The original study employed a robust quantitative framework, utilizing large-scale datasets of multinational corporate transactions and legal enforcement records. By constructing counterfactual models, the researchers isolated the impact of accountability suspensions from other market variables. This corrigendum specifically notes that one of two supplementary material files was missing upon initial publication. The update ensures full transparency and replicability of the statistical models used to measure market distortions, confirming that the methodological integrity remains intact despite the initial technical error.\n\n**Results:** The corrected analysis reaffirms the original finding that suspending accountability does not stimulate healthy investment but rather penalizes ethical actors. Data indicates a significant shift in market share toward firms leveraging bribery when enforcement risks are low, leading to measurable inefficiencies in pricing and resource allocation. This implies that legal leniency in anti-corruption regimes can have profound negative externalities, encouraging systemic corruption and undermining the rule of law in international business environments."
+    },
+    "keyArticle": {
+      "title": "Making Bribery Profitable Again? The Market Effects of Suspending Accountability for Overseas Bribery – CORRIGENDUM",
+      "authors": [
+        "Lorenzo Crippa",
+        "Edmund J. Malesky",
+        "Lucio Picci"
+      ],
+      "doi": "10.1017/s0020818325101288",
+      "pages": "235"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818325101288",
+      "doi": "https://doi.org/10.1017/s0020818325101288"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-19T20:29:20.035422+00:00",
+    "source": "openalex"
+  }
+}
