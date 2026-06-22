@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-05-27-05",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8118",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-05-27-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "沉默的代價：非洲與亞洲千萬兒童在數位陰影下的創傷與求救迷途",
+      "en": "The Silence Cost: How Millions of Children in Africa and Asia Navigate Digital Trauma Without a Safety Net"
+    },
+    "summary": {
+      "zh": "【總結】\n一項涵蓋十二個中高收入國家的重磅研究揭開了一個令人不安的真相：在數位連線迅速普及的非洲與亞洲，每六名上網兒童中就有一人曾遭受科技輔助的性剝削或虐待（CSEA），總數逾千萬。這項由《自然》期刊發表的研究不僅量化了災難規模，更指出一個關鍵危機——大多數受害者選擇沉默，僅有極少數人向警方或專業機構求助，而是依賴朋友或家人。這揭示了現有保護體系在低資源環境中的巨大落差。\n\n【研究問題】\n過去關於網路性剝削的研究多集中在高收入國家，且僅關注發生率，忽略了「通報路徑」這一致命盲點。在非洲與亞洲，由於法律框架、社會污名及基礎設施的限制，兒童受害後如何尋求幫助幾乎是未知的黑箱。解決此問題至關重要，因為若無法建立有效的通報機制，預防與補救措施將無從著手，導致無數兒童在孤立無援中持續受創。\n\n【研究方法】\n研究團隊利用「破壞危害」（Disrupting Harm）專案的數據，對來自東非、南部非洲及東南亞十二個國家的11,912名12至17歲上網兒童進行全國代表性調查。研究採用貝氏層級模型，控制了各國異質性，並結合社會生態學框架，分析個人、家庭、文化及保護因素如何影響兒童的通報行為。這種大樣本、跨文化的量化方法，首次提供了該地區系統性的實證數據。\n\n【結果】\n數據顯示，17%的上網兒童曾經歷至少一種形式的CSEA，其中「不知向誰求助」是最大的通報障礙（37.6%）。有趣的是，年齡較大的兒童雖然受害風險較高，但通報意願卻較低；反之，擁有「 enabling parental mediation」（引導式父母監管）及清楚知道求助管道的兒童，通報機率顯著提升。這些發現強調了家庭溝通與教育在建立兒童求助信心上的核心作用，而非僅僅依賴技術過濾或執法介入。",
+      "en": "**Summary:**\nA landmark study published in *Nature* reveals a startling reality: in low- and middle-income countries across Africa and Asia, one in six internet-using children has experienced technology-facilitated child sexual exploitation and abuse (CSEA), affecting over 10 million youths. Beyond quantifying the scale of harm, the research highlights a critical systemic failure: most victims remain silent, rarely turning to police or helplines, and instead relying on informal networks like friends. This underscores a profound gap in child protection infrastructure in regions where digital adoption is accelerating faster than safety measures.\n\n**Problem:**\nExisting research on online sexual exploitation is heavily skewed toward high-income nations and focuses almost exclusively on prevalence rates, neglecting the crucial question of disclosure. In Africa and Asia, where legal and social contexts differ vastly, the pathways children take after trauma are largely unknown. Understanding these dynamics is vital because without effective reporting mechanisms, prevention strategies fail, and perpetrators remain free to exploit vulnerable children who lack access to formal support systems.\n\n**Approach:**\nThe authors analyzed nationally representative survey data from 11,912 internet-using children aged 12–17 across 12 countries in Eastern and Southern Africa and Southeast Asia, collected through the UNICEF-led \"Disrupting Harm\" project. Utilizing Bayesian hierarchical models to account for cross-country heterogeneity, the study examined demographic, familial, and cultural factors influencing disclosure. This socio-ecological approach allowed the team to isolate specific enablers and barriers to seeking help, providing the first robust population-level evidence from these underrepresented regions.\n\n**Results:**\nThe study found that 17% of internet-using children experienced at least one form of CSEA, with prevalence varying significantly by country. Crucially, 51% of victims did not disclose their experiences to anyone. The primary barrier was a lack of knowledge on where to turn (37.6%). Contrary to expectations, older children were less likely to report, while those with \"enabling parental mediation\"—supportive rather than restrictive digital oversight—and those who knew where to seek help were significantly more likely to disclose. These findings suggest that fostering open family communication and educating children on resources are more effective levers for protection than solely relying on formal law enforcement."
+    },
+    "keyArticle": {
+      "title": "Technology mediation in child sexual exploitation and abuse in Africa and Asia",
+      "authors": [
+        "Sakshi Ghai",
+        "Matti Vuorre",
+        "Daniel Kardefelt‐Winther",
+        "Amanda M Ferguson",
+        "Sebastian Kurten",
+        "SONIA LIVINGSTONE",
+        "Andrew K Przybylski",
+        "Amy Orben"
+      ],
+      "doi": "10.1038/s41586-026-10525-4",
+      "pages": "408-418"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-05-27-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10525-4",
+      "doi": "https://doi.org/10.1038/s41586-026-10525-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-22T21:30:32.293734+00:00",
+    "source": "openalex"
+  }
+}

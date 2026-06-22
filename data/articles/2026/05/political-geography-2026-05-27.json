@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-05-27",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-05-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "自由民主的幽靈：當南亞政治成為「後殖民施密特」",
+      "en": "The Ghost of Liberal Democracy: When South Asian Politics Meets the \"Postcolonial Schmitt\""
+    },
+    "summary": {
+      "zh": "【總結】\n本文挑戰了將民主簡單二分為「自由」與「非自由」的主流觀點，提出「超越自由主義」的民主概念。研究指出，在南亞等全球南方國家，被視為粗暴或非法的政治實踐，實則是邊緣群體爭取生存空間的必要手段，而非單純的反民主行為。這項研究的重要性在於它揭示了民主的真實面貌：它不僅是制度化的投票，更是充滿張力、妥協與暴力的日常博弈。\n\n【研究問題】\n傳統學術界常以西方自由民主為標準，將發展中國家的民粹主義或暴力政治標籤為「非自由」甚至「反民主」。這種視角存在嚴重的東方主義盲點，忽視了這些政治形式在當地脈絡中的合理性与功能性。研究旨在釐清：為何這些看似混亂的政治實踐不應被簡單否定？它們如何構成了一種不同的民主本質？理解這一點對於重新定義當代民主理論至關重要。\n\n【研究方法】\n作者採用理論批判與民族誌分析相結合的方法。首先，他們回顧了卡爾·施密特（Carl Schmitt）與尚塔尔·墨菲（Chantal Mouffe）關於政治即「敵我對抗」的本體論觀點。接著，深入剖析帕塔·查特吉（Partha Chatterjee）的「政治社會」概念，以及湯姆森·布洛姆·漢森（Thomas Blom Hansen）和喬納森·斯賓塞（Jonathan Spencer）在南亞的田野調查。通過對比這些學者的觀察，作者解構了「本体論」（抽象原則）與「民族誌」（具體經驗）之間的模糊地帶，指出所謂的「敵對性」往往是選民為了可見性而採取的務實戰術。\n\n【結果】\n研究发现，查特吉描述的「政治社會」雖然充滿「流氓」特質，卻是底層民眾在無法通過正規法律途徑（公民社會）獲得資源時，被迫採取的生存策略。這種策略並非反對民主，而是民主在資源分配不均下的變體。研究證實，將這些實踐視為「更純粹的政治」反而可能掩蓋其背後的結構性不公。最終，文章主張我們應放棄用「自由/非自由」的二元框架評判民主，轉而關注這些「超越自由主義」的政治實踐如何具體地讓無聲者發聲，並揭示民主運作的真實機制。",
+      "en": "**Summary:**\nThis article challenges the binary classification of democracy into \"liberal\" and \"illiberal,\" introducing the concept of \"more-than-liberal\" democracy. It argues that political practices in the Global South, often dismissed as violent or anti-democratic, are actually pragmatic tactics used by marginalized groups to claim visibility and resources. The study’s significance lies in reframing these chaotic interactions not as failures of democracy, but as its complex, grounded reality, revealing that democratic engagement often thrives in the grey areas between law and survival.\n\n**Problem:**\nConventional political theory frequently judges non-Western democracies against a sanitized, idealized model of liberal democracy, labeling deviations like populism or clientelism as \"illiberal\" or authoritarian. This perspective suffers from an orientalist bias, ignoring the functional necessity of these practices in contexts where formal institutions exclude the poor. The critical gap is the failure to understand why these \"rough\" political forms emerge and persist. Solving this is crucial to decolonizing democratic theory and recognizing that what looks like dysfunction from the outside may be a vital mechanism for inclusion from the inside.\n\n**Approach:**\nThe authors employ a comparative theoretical framework, juxtaposing Carl Schmitt’s ontological view of politics as antagonism with Clive Barnett’s call for \"ethnographically emergent\" theory. They analyze Partha Chatterjee’s concept of \"political society\" in India, where marginalized groups bypass formal rights to negotiate directly with the state through informal, sometimes illegal means. By examining ethnographies from scholars like Thomas Blom Hansen and Jonathan Spencer, the study traces how local political realities blur the line between abstract ontology and lived experience, suggesting that what appears as \"antagonism\" is often a calculated performance of power by voters seeking recognition.\n\n**Results:**\nThe research reveals that Chatterjee’s \"political society\" operates as a crucial bridge for the poor, allowing them to access state welfare despite lacking legal standing in \"civil society.\" While this terrain is marked by thuggishness and violence, it serves a democratic function by forcing the state to acknowledge overlooked populations. The study finds that interpreting these practices through Schmittian ontology risks romanticizing conflict, whereas an ethnographic approach exposes them as pragmatic, contingent tactics. Ultimately, the findings imply that \"illiberal\" behaviors are not necessarily anti-democratic but are rather expressions of a democracy that is \"more-than-liberal,\" prioritizing survival and visibility over procedural purity."
+    },
+    "keyArticle": {
+      "title": "A Postcolonial Schmitt? Ontology, ethnography, and “more-than-liberal” democracy",
+      "authors": [
+        "Benedikt Korf",
+        "Stephan Hochleithner"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103586",
+      "pages": "103586"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103586",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103586"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-22T21:32:10.844026+00:00",
+    "source": "openalex"
+  }
+}

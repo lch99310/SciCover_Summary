@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-04-01-09",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "8",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-09-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腫瘤不只是基因突變：解構免疫治療失效的多維度迷局",
+      "en": "Beyond Mutations: Decoding the Multilayer Maze of Immunotherapy Resistance"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇文章徹底顛覆了我們對腫瘤異質性的認知，指出腫瘤並非僅由基因突變驅動的死板實體，而是一個充滿動態變化的多維生態系統。研究強調，除了遺傳層面，表觀遺傳、轉錄組和蛋白質組的非遺傳異质性同樣關鍵，它們共同塑造了腫瘤細胞的「免疫可視性」。這一發現對於推進新一代免疫治療至關重要，因為它揭示了單一生物標記的局限性，並提出整合多層面測量是提升精準醫療效力的必由之路。\n\n【研究問題】\n過去的研究往往過度聚焦於腫瘤突變負荷（TMB）或特定基因突變，試圖以此預測免疫檢查點抑制劑（ICB）的療效。然而，臨床實踐顯示，即使擁有高突變負荷的腫瘤，若其內部存在高度的亞克隆異質性，免疫系統仍難以發揮作用，導致治療失敗。這種「基因決定論」的盲點忽略了腫瘤細胞狀態的動態可塑性，使得我們無法解釋為何部分高突變腫瘤能逃避免疫監視，也阻礙了更有效生物標記的開發。\n\n【研究方法】\n作者綜合了最新的單細胞測序、空間轉錄組學以及多組學整合分析技術，構建了一個跨層次的腫瘤異質性框架。研究並未依賴單一實驗，而是通過梳理大量基礎與臨床文獻，從遺傳（如DNA修復缺陷）、非遺傳（如幹細胞狀態轉換）以及免疫肽組學三個維度，深入剖析腫瘤細胞如何在不同微環境壓力下切換狀態。這種多維度的視角允許研究者將腫瘤視為一個動態演化的整體，而非靜態的基因集合。\n\n【結果】\n研究揭示，腫瘤內部的亞克隆結構會稀釋新抗原的展示，導致免疫系統無法識別所有腫瘤細胞。例如，在微衛星不穩定（MSI）腫瘤中，儘管突變極多，但只有「克隆性」（即存在於所有細胞中）的新抗原才能引發強效免疫反應；反之，高度異質性則促進免疫逃逸。此外，非遺傳的細胞狀態轉換（如間質化）能讓腫瘤細胞在不改變基因的的情況下獲得藥物耐受性和免疫隱藏能力。這些結果表明，未來的治療策略必須針對這些動態變化的多層面特徵，而非僅僅鎖定靜態基因突變。",
+      "en": "**Summary:**\nThis review revolutionizes our understanding of tumor heterogeneity, positioning cancer not as a static entity driven solely by genetic mutations, but as a dynamic, multidimensional ecosystem. The authors emphasize that non-genetic plasticity—spanning epigenetic, transcriptional, and proteomic layers—is equally critical in shaping a tumor's \"immune visibility.\" This insight is vital for advancing next-generation immunotherapies, as it exposes the limitations of single-marker approaches and proposes that integrating multi-layer measurements is essential for achieving precision medicine and overcoming treatment resistance.\n\n**Problem:**\nHistorically, research has heavily focused on tumor mutational burden (TMB) and specific genetic drivers to predict the efficacy of immune checkpoint blockers (ICBs). However, clinical realities show that even tumors with high mutational loads often fail to respond if they possess high intratumor heterogeneity (ITH). This \"genetic determinism\" overlooks the dynamic plasticity of cancer cell states, creating a blind spot that fails to explain how tumors evade immune surveillance despite appearing immunogenic, thereby hindering the development of more effective biomarkers and therapeutic strategies.\n\n**Approach:**\nThe authors employ a comprehensive synthesis of recent advances in single-cell sequencing, spatial transcriptomics, and multi-omics integration to construct a cross-layer framework of ITH. Rather than relying on a single experimental dataset, the study curates and analyzes extensive literature from genetic (e.g., DNA repair defects), non-genetic (e.g., cell state transitions), and immunopeptidomic perspectives. This multidimensional approach treats the tumor as an evolving system, allowing researchers to dissect how cancer cells adapt their phenotype in response to microenvironmental pressures and therapeutic interventions.\n\n**Results:**\nThe study reveals that subclonal architecture within tumors dilutes neoantigen presentation, preventing the immune system from recognizing all cancer cells. For instance, in microsatellite instability (MSI) tumors, only \"clonal\" neoantigens present in all cells trigger robust immune responses, whereas high heterogeneity facilitates immune escape. Additionally, non-genetic state transitions, such as epithelial-to-mesenchymal shifts, enable tumor cells to gain drug tolerance and immune invisibility without genetic changes. These findings imply that future therapies must target these dynamic, multi-layered characteristics rather than focusing exclusively on static genetic mutations."
+    },
+    "keyArticle": {
+      "title": "Mapping intratumor heterogeneity across layers for advancing immunotherapy",
+      "authors": [
+        "Jean-Christophe Marine",
+        "Osnat Bartok",
+        "Shira Sagie",
+        "Pietro Paolo Vitiello",
+        "Alberto Bardelli",
+        "Chen Weller",
+        "Tiangen Chang",
+        "Claudia Tonelli",
+        "Stefani Spranger",
+        "Eytan Ruppin",
+        "Yardena Samuels"
+      ],
+      "doi": "10.1016/j.cell.2026.03.025",
+      "pages": "2416-2440"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-09-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.03.025",
+      "doi": "https://doi.org/10.1016/j.cell.2026.03.025"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-22T21:31:17.855413+00:00",
+    "source": "openalex"
+  }
+}

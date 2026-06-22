@@ -1,0 +1,58 @@
+{
+  "id": "science-2026-06-18",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6804",
+  "date": "2026-06-18",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "戰火下的荒野：烏克蘭戰爭如何重塑野生動物的晝夜節奏",
+      "en": "Wildlife in the Crosshairs: How War Reshaped Animal Behavior in Chernobyl"
+    },
+    "summary": {
+      "zh": "【總結】本研究首次揭示了戰爭對野生動物行為的即時衝擊。透過分析烏克蘭切爾諾貝利隔離區在俄軍佔領期間的監視器數據，研究發現槍砲聲與軍事活動迫使鹿、狐狸等哺乳類動物大幅減少夜間活動，顯示「恐懼景觀」從日常干擾升級為致命威脅。\n\n【研究問題】過去關於戰爭生態影響的研究多集中於棲地破壞或物種滅絕，缺乏對即時行為反應的了解，尤其因戰區危險難以進入。本研究旨在填補這一空白，釐清在極端暴力環境下，野生動物如何動態調整其生存策略。\n\n【研究方法】研究團隊利用2021年和平時期與2022年戰時的重疊攝影機陷阱數據進行對比。他們結合地面訪談建立的「衝突強度指數」與衛星偵測的「熱異常數據」，精確量化了戰爭激烈程度對不同物種晝夜活動模式的具體影響。\n\n【結果】數據顯示，紅鹿與紅狐在戰時夜間出現頻率顯著下降，轉而增加日間活動以避開高風險時段；相反地，野兔在發生火災（熱異常）時更為活躍。這證明不同物種對威脅的感知與適應策略存在巨大差異，為戰區保育提供了關鍵科學依據。",
+      "en": "**Summary:** This study provides the first real-time insight into how armed conflict alters wildlife behavior. By analyzing camera trap data from the Chernobyl Exclusion Zone during the 2022 Russian occupation, researchers found that intense military activities forced mammals like deer and foxes to significantly reduce nocturnal activity. This reveals a shift in the \"landscape of fear,\" where animals adjust their daily rhythms to survive lethal threats.\n\n**Problem:** While the long-term ecological damage of war is known, the immediate behavioral responses of wildlife remain a blind spot due to the inaccessibility of conflict zones. This research addresses that gap by examining how animals react dynamically to sudden, extreme violence, offering critical insights into conservation in militarized areas.\n\n**Approach:** The team leveraged a unique opportunity: camera traps that remained operational before, during, and after the occupation. They correlated animal detection rates with two metrics: a ground-based \"conflict intensity index\" derived from local interviews and satellite-derived \"thermal anomalies\" indicating fires from shelling, allowing for a multi-layered analysis of disturbance.\n\n**Results:** Key findings show that red deer and red foxes significantly decreased night-time detections during the peak of fighting, suggesting a shift to daytime activity to avoid danger. Conversely, brown hares showed increased activity on days with thermal anomalies. These divergent responses highlight species-specific coping mechanisms and demonstrate the power of remote monitoring in assessing wartime ecological impact."
+    },
+    "keyArticle": {
+      "title": "Changes in wildlife activity patterns in response to war in Ukraine",
+      "authors": [
+        "Svitlana Kudrenko",
+        "Richard Bischof",
+        "Andreas Zedrosser",
+        "Nuria Selva",
+        "Kateryna Korepanova",
+        "Denys Vyshnevskiy",
+        "Martin Gahbauer",
+        "Serhii Obrizan",
+        "Serhii Domashevskiy",
+        "О.А. Борсук",
+        "Alona Varukha",
+        "Marco Heurich"
+      ],
+      "doi": "10.1126/science.aed1493",
+      "pages": "1282-1286"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aed1493",
+      "doi": "https://doi.org/10.1126/science.aed1493"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-22T21:30:07.290979+00:00",
+    "source": "openalex"
+  }
+}

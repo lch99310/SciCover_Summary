@@ -1,0 +1,45 @@
+{
+  "id": "international-organization-2026-01-01-15",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "2",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "代理人戰爭的副作用：為何扶持「非國家行為者」反而引爆國與國之間的衝突？",
+      "en": "The Proxy Paradox: How Backing Non-State Actors Ignites Interstate Warfare"
+    },
+    "summary": {
+      "zh": "【總結】本文打破「代理人戰爭僅是間接對抗」的傳統認知，揭示政府支持外國非國家武裝或民間團體，反而會顯著增加國家間的敵對行為。研究指出，這種網絡不僅增強了支持國的談判籌碼，更因「連帶責任」將支持者捲入意想不到的衝突中。這為理解當代大國競爭提供了全新視角，證明非國家行為者在國際衝突中扮演核心角色。\n\n【研究問題】過去學術界多聚焦於國家如何透過支持叛亂團體來影響他國內戰（下游效應），卻忽略了這種行為如何反過來影響支持國本身的外交政策（上游效應）。在當前大國競爭回歸的背景下，填補這一空白至關重要，因為它解釋了為何看似低成本的間接介入，最終可能釀成嚴重的軍事危機甚至全面戰爭。\n\n【研究方法】研究團隊利用1995年至2023年間的高解析度事件數據，建構了一個動態網絡模型。他們不僅統計政府與非國家行為者（包括武裝組織與民間反對派）的合作關係，還分析了網絡結構（如「接近中心性」，即間接聯繫的深度）。透過同時模擬跨國合作與國家間衝突的共演過程，研究得以區分直接影響與間接輻射效應，並納入常規軍力作為調節變數。\n\n【結果】數據顯示，擁有更大跨國網絡的國家，無論是主動發起言論或物質衝突，還是成為衝突目標，機率都顯著上升。特別值得注意的是，這種效应在軍力較弱的國家身上更為強烈，因為它們更依賴代理人來彌補實力差距，但也更难控制代理人的行為。例如，伊朗透過真主黨建立的間接網絡，使其影響力擴散，但也增加了與鄰國及西方強權發生摩擦的風險。這項發現挑戰了傳統權力平衡理論，強調非國家網絡已成為驅動國際衝突的關鍵變量。",
+      "en": "**Summary:** This study challenges the conventional wisdom that proxy warfare remains a contained, indirect conflict. It reveals that state support for foreign non-state actors significantly escalates interstate tensions. By enhancing a state’s bargaining capacity while simultaneously creating liabilities through unpredictable agents, these networks act as accelerants for conflict. The research provides a critical lens for understanding modern great-power competition, demonstrating that non-state groups are not merely tools but central drivers of international friction.\n\n**Problem:** Existing literature largely focuses on how state sponsorship affects subnational conflicts (downstream effects), neglecting how these ties reshape the sponsor state’s own foreign policy and interstate relations (upstream effects). In an era marked by the return of great-power rivalry, filling this gap is vital. It explains why states, seeking cost-effective influence, inadvertently trigger broader diplomatic crises and military confrontations, blurring the line between internal unrest and international war.\n\n**Approach:** Utilizing high-resolution event data from 1995 to 2023, the authors constructed a dynamic network model that captures the co-evolution of transnational cooperation and interstate conflict. They measured not just the size of a government’s direct ties to armed or civilian groups, but also the network’s structure, specifically \"closeness centrality,\" which reflects indirect influence through partner connections. The model controlled for conventional military strength to isolate the unique impact of non-state networks on conflict initiation and targeting.\n\n**Results:** The findings indicate that larger and more structurally integrated transnational networks strongly predict both the initiation and receipt of verbal and material conflicts. Crucially, this effect is amplified in militarily weaker states, which rely heavily on proxies to offset power deficits but struggle to control them. For instance, Iran’s network, extended through intermediaries like Hezbollah, illustrates how indirect ties project influence but also invite preemptive strikes from rivals. These results suggest that non-state networks are as pivotal to interstate stability as traditional metrics like geography or military budget."
+    },
+    "keyArticle": {
+      "title": "Transnational Networks and Interstate Competition: How Support for Nonstate Actors Increases Conflict between States",
+      "authors": [
+        "Brandon J Kinne",
+        "Juan F. Tellez",
+        "Anya Stewart",
+        "Iliyan Iliev",
+        "Brandon Derr",
+        "Shreya Murthy",
+        "Patrick Bernhard"
+      ],
+      "doi": "10.1017/s0020818326101349",
+      "pages": "281-323"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101349",
+      "doi": "https://doi.org/10.1017/s0020818326101349"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-22T21:32:56.751563+00:00",
+    "source": "openalex"
+  }
+}
