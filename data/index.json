@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-22T21:33:21.678977+00:00",
+  "lastUpdated": "2026-06-25T20:56:22.893889+00:00",
   "articles": [
+    {
+      "id": "science-2026-06-18-02",
+      "journal": "Science",
+      "date": "2026-06-18",
+      "path": "articles/2026/06/science-2026-06-18-02.json",
+      "title_zh": "英國科研的十字路口：從「回歸」轉向「戰略自主」的豪賭",
+      "title_en": "Britain’s Research Crossroads: From Rejoining to Strategic Autonomy",
+      "cover_url": "data/images/science/science-2026-06-18-02-cover.jpg"
+    },
     {
       "id": "science-2026-06-18",
       "journal": "Science",
@@ -36,6 +45,15 @@
       "title_zh": " NSF砸15億美元建「X實驗室」？別急著推翻研究計畫補助制",
       "title_en": "The NSF’s $1.5 Billion Bet on X-Labs: Why the Grant System Isn’t Broken Yet",
       "cover_url": ""
+    },
+    {
+      "id": "nature-2026-06-10",
+      "journal": "Nature",
+      "date": "2026-06-10",
+      "path": "articles/2026/06/nature-2026-06-10.json",
+      "title_zh": "光控納米摩擦力：讓碳奈米管在水中「慢動作」的量子魔法",
+      "title_en": "Slowing Down with Light: How Quantum Friction Tames Carbon Nanotubes in Water",
+      "cover_url": "data/images/nature/nature-2026-06-10-cover.jpg"
     },
     {
       "id": "political-geography-2026-06-10",
@@ -315,6 +333,15 @@
       "title_zh": "量子渦旋：超導體中的量子比特新希望",
       "title_en": "Quantum Vortices: A New Frontier in Quantum Bits",
       "cover_url": "data/images/nature/nature-2026-05-06-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-05-06",
+      "journal": "Political Geography",
+      "date": "2026-05-06",
+      "path": "articles/2026/05/political-geography-2026-05-06.json",
+      "title_zh": "困在移動中的囚徒：巴爾幹路線上的「流動圍堵」與無聲暴力",
+      "title_en": "Prisoners in Motion: Mobile Containment and Silent Violence on the Balkan Route",
+      "cover_url": "data/images/political-geography/political-geography-2026-05-06-cover.jpg"
     },
     {
       "id": "cell-2026-05-01-02",
@@ -702,6 +729,15 @@
       "title_zh": "腫瘤不只是基因突變：解構免疫治療失效的多維度迷局",
       "title_en": "Beyond Mutations: Decoding the Multilayer Maze of Immunotherapy Resistance",
       "cover_url": "data/images/cell/cell-2026-04-01-09-cover.jpg"
+    },
+    {
+      "id": "cell-2026-04-01-10",
+      "journal": "Cell",
+      "date": "2026-04-01",
+      "path": "articles/2026/04/cell-2026-04-01-10.json",
+      "title_zh": "解碼生命之樹：PLANeT計畫如何以AI重塑植物基因組學與永續未來",
+      "title_en": "Decoding the Tree of Life: How PLANeT Uses AI to Reshape Plant Genomics and Secure a Sustainable Future",
+      "cover_url": "data/images/cell/cell-2026-04-01-10-cover.jpg"
     },
     {
       "id": "cell-2026-04-01",
@@ -1194,8 +1230,8 @@
       "journal": "American Sociological Review",
       "date": "2026-02-22",
       "path": "articles/2026/02/american-sociological-review-2026-02-22-02.json",
-      "title_zh": "社會安全網如何重塑美國低收入家庭的信貸命運：各州政策的隱形力量",
-      "title_en": "The State's Safety Net: How Social Programs Shape Credit Choices for America's Poor",
+      "title_zh": "四倍利率的陷阱：誰在透過「發薪日貸款」榨乾美国家庭？",
+      "title_en": "The 400% APR Trap: How Payday Lenders Are Draining American Families",
       "cover_url": ""
     },
     {

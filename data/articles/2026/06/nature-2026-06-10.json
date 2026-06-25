@@ -1,0 +1,60 @@
+{
+  "id": "nature-2026-06-10",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8120",
+  "date": "2026-06-10",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "光控納米摩擦力：讓碳奈米管在水中「慢動作」的量子魔法",
+      "en": "Slowing Down with Light: How Quantum Friction Tames Carbon Nanotubes in Water"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究揭開了光與液體摩擦之間的神秘聯繫。科學家發現，當近紅外光照射水中的單壁碳奈米管時，其內部產生的激子會與水分子產生量子層面的耦合，導致一種稱為「量子摩擦力」的現象。這種力能瞬間增加約50%的阻力，顯著減緩奈米管的布朗運動。這不僅證實了理論預測，更展示了一種全新的方法，透過光學或化學手段精確控制奈米尺度的物質輸運。\n\n【研究問題】傳統摩擦力主要涉及機械接觸，而「量子摩擦力」涉及電子與溶劑間的動量傳遞，長期以來因極其微小難以被實驗捕捉。研究團隊試圖回答：在奈米尺度下，激發態電子（激子）是否能像微小的錨一樣，通過與水分子的相互作用來拖慢物體的運動？解決這個問題對於理解納米流體力學及開發新型奈米機器人至關重要。\n\n【研究方法】研究團隊結合了多種尖端技術。首先，他們利用螢光相關光譜（FCS）和廣域顯微追蹤，在單分子層面測量不同光照強度下碳奈米管的擴散速度。其次，為了探究機制，他們引入了化學干擾劑（如抗壞血酸和核黃素）來改變激子濃度，並使用含有缺陷的碳奈米管來限制激子移動。最後，通過超快太赫茲光譜和分子動力學模擬，他們觀測了激子與水分子偶極矩的即時互動，從微觀角度驗證了動量轉移的路徑。\n\n【結果】實驗顯示，隨著光照增強，碳奈米管的擴散係數線性下降約50%；若激子被局部陷阱固定，這種效應便會消失。太赫茲光譜捕捉到了一個獨特的30 cm⁻¹信號，直接指向激子與水德拜模式的耦合。化學調控進一步證明，擴散速度的變化與激子濃度成正比，最大可達兩倍的差異。這些結果確鑿地證明了光致量子摩擦的存在，為未來利用光學手段操控納米流體及設計智能納米驅動器奠定了堅實基礎。",
+      "en": "**Summary:** This groundbreaking study published in *Nature* reveals a direct link between light and quantum friction at the nanoscale. Researchers discovered that near-infrared excitation of single-walled carbon nanotubes (SWCNTs) in water generates excitons—electron-hole pairs—that interact with water molecules via quantum friction. This interaction creates a drag force that slows down the nanotubes' diffusion by approximately 50%. The findings not only confirm theoretical predictions of non-adiabatic coupling but also introduce a novel method for controlling nanoscale motion through optical and chemical means.\n\n**Problem:** While classical friction arises from mechanical contact, \"quantum friction\" involves momentum transfer between a solid's electrons and a liquid's dipoles. Despite theoretical proposals, experimental evidence has remained elusive due to the phenomenon's microscopic nature. This research addresses the critical gap: Can electronic excitations in nanomaterials actively modulate their own movement in a solvent? Understanding this is vital for advancing nanofluidics, improving biosensors, and developing light-driven nanorobots.\n\n**Approach:** The team employed a multi-faceted experimental design. They used Fluorescence Correlation Spectroscopy (FCS) and wide-field particle tracking to measure diffusion rates under varying light intensities. To isolate the role of excitons, they chemically manipulated their concentration using analytes like ascorbic acid and riboflavin, and introduced structural defects to localize excitons. Additionally, optical pump terahertz probe spectroscopy allowed them to observe the immediate coupling between excitons and water modes, while molecular dynamics simulations provided a microscopic view of the fluctuating dipole interactions.\n\n**Results:** The study found that diffusion constants decrease linearly with increased excitation power, dropping by up to 50%. Crucially, this effect vanished when excitons were trapped by quantum defects, proving that exciton mobility is key. Terahertz spectroscopy identified a unique 30 cm⁻¹ signal indicative of direct exciton-water coupling. Chemical manipulation confirmed that diffusion changes correlated directly with exciton concentration, altering diffusion speeds by a factor of two. These results establish light-induced quantum friction as a tangible, tunable force, opening new avenues for controlling matter at the nanoscale."
+    },
+    "keyArticle": {
+      "title": "Light-induced quantum friction of carbon nanotubes in water",
+      "authors": [
+        "Tanuja Kistwal",
+        "Krishan Kanhaiya",
+        "Adrian Buchmann",
+        "Chen Ma",
+        "Jana Nikolić",
+        "Julia Ackermann",
+        "Phillip Galonska",
+        "Sanjana S. Nalige",
+        "Vahideh Sardari",
+        "Aishwarya Sudarsan",
+        "Martina Havenith",
+        "Marialore Sulpizi",
+        "Sebastian Kruss"
+      ],
+      "doi": "10.1038/s41586-026-10632-2",
+      "pages": "941-947"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10632-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10632-2",
+      "preprint": "https://arxiv.org/abs/2503.12580"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-25T20:53:44.468580+00:00",
+    "source": "openalex"
+  }
+}

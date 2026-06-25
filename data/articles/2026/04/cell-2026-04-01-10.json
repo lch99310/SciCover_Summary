@@ -1,0 +1,101 @@
+{
+  "id": "cell-2026-04-01-10",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "9",
+  "date": "2026-04-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-04-01-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解碼生命之樹：PLANeT計畫如何以AI重塑植物基因組學與永續未來",
+      "en": "Decoding the Tree of Life: How PLANeT Uses AI to Reshape Plant Genomics and Secure a Sustainable Future"
+    },
+    "summary": {
+      "zh": "【總結】\n陸生植物構成了地球生態系統的基石，也是人類文明的根本支柱，但我們對其基因多樣性的了解仍處於驚人的匱乏狀態。PLANeT計畫是一項雄心勃勃的國際合作願景，旨在填補這一巨大空白。透過結合人工智慧與高品質基因組測序，該計畫不僅要繪製出涵蓋絕大多數植物物種的「生命之樹」基因圖譜，更要解碼植物在數億年演化中形成的保守機制。這不僅是一次科學上的補完，更是為了應對氣候變遷、糧食安全及新藥開發等全球性挑戰所做的關鍵基礎建設。\n\n【研究問題】\n儘管阿拉伯芥等模式植物已被深入研究，但截至2024年，高達95%的屬、70%的科及51%的目仍缺乏參考基因組。這種嚴重的抽樣偏差導致了知識的「孤島效應」，使得科學家難以將已知的基因功能推廣至野生近緣種或經濟作物。過去的研究受限於數據的不標準化與覆蓋面的狹隘，無法系統性地解析植物多樣性的演化驅動因素，也難以利用野生植物豐富的抗逆基因來改良現代作物。解決這一缺口對於理解植物適應環境的根本機制至關重要。\n\n【研究方法】\nPLANeT採取了一種系統性的「填空補遺」策略，優先選擇那些在系統發育樹上缺乏基因組數據的物種進行染色體級別的測序與組裝，力求在三年內覆蓋超過95%的開花植物科別。同時，計畫將人工智慧作為核心引擎，建立基於海量植物序列數據的「語言基礎模型」。這個模型將從四個層級進行微調：從非編碼序列的結構註解，到基因表達預測，再到檢測自然選擇的痕跡，最後用於發現與藥物代謝相關的生物合成基因簇。這種方法將比較基因組學與深度學習相結合，以標準化的流程打破數據孤島。\n\n【結果】\n該計畫規劃在十年內動員約100個實驗室，培訓1,000名科學家，並目標在2036年前完成對超過90%的被子植物屬的基因組測序。這一龐大的數位圖書館將允許研究者利用「望遠鏡」（系統發育視角）與「顯微鏡」（泛基因組視角）的雙重優勢，精準識別出受進化約束的關鍵基因位點。具體而言，這將加速野生植物抗病、抗旱基因的挖掘與轉化，為作物育種提供新的遺傳資源；同時，通過解析植物的天然產物生物合成路徑，有望發現全新類型的藥物候選分子，並為瀕危物種的保育提供精確的遺傳多樣性評估依據。",
+      "en": "**Summary:**\nLand plants are the foundation of terrestrial ecosystems and human civilization, yet their genomic diversity remains largely uncharted. The PLANeT initiative is an ambitious international effort designed to bridge this critical gap. By integrating artificial intelligence with high-quality genome sequencing, the project aims to construct a comprehensive genomic map of the plant tree of life, decoding conserved biological principles honed over 470 million years of evolution. This initiative is not merely an academic exercise; it serves as essential infrastructure to address urgent global challenges, including climate resilience, food security, and the discovery of novel therapeutic compounds derived from plant biodiversity.\n\n**Problem:**\nDespite decades of research, there is a severe bias in current genomic resources. As of 2024, reference genomes are missing for 95% of plant genera, 70% of families, and 51% of orders. This fragmentation creates \"knowledge islands\" centered on a few model species and crops, preventing scientists from systematically transferring insights to wild relatives or understanding the full spectrum of plant adaptation. Previous efforts lacked standardized, phylogenetically balanced sampling, hindering the identification of key genetic drivers for traits like stress tolerance and natural product biosynthesis. Filling this void is crucial for unlocking the evolutionary history and functional potential of the plant kingdom.\n\n**Approach:**\nPLANeT employs a strategic \"fill-the-gaps\" methodology, prioritizing the sequencing of chromosome-level genomes for underrepresented lineages across the plant phylogeny. The core innovation lies in leveraging Artificial Intelligence as a computational engine. The initiative plans to develop a genomic language foundation model trained on this diverse, standardized dataset. This AI framework will operate across four hierarchical levels: annotating structural elements of non-coding DNA, predicting gene expression patterns, detecting signatures of natural selection, and identifying biosynthetic gene clusters. By combining massive-scale comparative genomics with deep learning, the project aims to decipher the complex \"grammar\" of plant genomes.\n\n**Results:**\nThe project targets the engagement of approximately 100 laboratories and the training of 1,000 scientists, aiming to generate reference genomes for over 90% of flowering plant genera by 2036. This expansive digital library will enable researchers to use evolutionary genomics as both a \"telescope\" and a \"microscope,\" pinpointing conserved genomic regions that are critical for survival and adaptation. These findings will directly accelerate crop improvement by introducing beneficial alleles from wild plants into agricultural lines, enhance biodiversity conservation through precise genetic assessments, and unlock new frontiers in drug discovery by revealing the genetic basis of complex natural products."
+    },
+    "keyArticle": {
+      "title": "PLANeT: Understanding and leveraging the genome of land plants for a sustainable future",
+      "authors": [
+        "Li Wang",
+        "Mohamed Amar",
+        "Carlos I. Arbizu",
+        "John L. Bowman",
+        "Charles H. Cannon",
+        "David J. Cantrill",
+        "Xiaofeng Cao",
+        "Shilin Chen",
+        "Xiaoya Chen",
+        "Xuemei Chen",
+        "Kang Chong",
+        "Xingwang Deng",
+        "E Weinan",
+        "Hongwei Guo",
+        "Chuan He",
+        "Peter Hollingsworth",
+        "Qing Hu",
+        "Hongzhi Kong",
+        "Ilia J Leitch",
+        "Dezhu Li",
+        "Li J",
+        "Hongtao Liu",
+        "William Lucas",
+        "Eshchar Mizrachi",
+        "Mijoro Rakotoarinivo",
+        "Hai Ren",
+        "Loren Rieseberg",
+        "Jue Ruan",
+        "Rosa Scherson",
+        "Harald Schneider",
+        "Douglas E Soltis",
+        "Han Sun",
+        "Marcio C. Silva-Filho",
+        "S Smith",
+        "Alex D. Twyford",
+        "Björn Usadel",
+        "Yves Van de Peer",
+        "Cássio van den Berg",
+        "Rajeev K Varshney",
+        "Lyderson Fácio Viccini",
+        "Qingfeng Wang",
+        "Xiaoquan Wang",
+        "Yue Wang",
+        "Jonathan Wendel",
+        "Rod Wing",
+        "Gane Ka‐Shu Wong",
+        "Yaowu Xing",
+        "Xun Xu",
+        "Nieng Yan",
+        "Huanming Yang",
+        "Shouzhou Zhang",
+        "Yuxian Zhu",
+        "Pamela S. Soltis",
+        "Detlef Weigel",
+        "Sanwen Huang"
+      ],
+      "doi": "10.1016/j.cell.2026.01.026",
+      "pages": "2519-2532"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-04-01-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.01.026",
+      "doi": "https://doi.org/10.1016/j.cell.2026.01.026"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-25T20:54:58.480360+00:00",
+    "source": "openalex"
+  }
+}

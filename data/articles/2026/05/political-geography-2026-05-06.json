@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-05-06",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-05-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "困在移動中的囚徒：巴爾幹路線上的「流動圍堵」與無聲暴力",
+      "en": "Prisoners in Motion: Mobile Containment and Silent Violence on the Balkan Route"
+    },
+    "summary": {
+      "zh": "【總結】本研究揭示了巴爾幹移民路線背後一種隱蔽的邊境治理策略——「流動圍堵」。研究指出，波黑與克羅地亞邊境的邊境管控並非單純阻止遷移，而是通過反覆的驅逐和強制循環移動，將移民家庭困在邊境區域。這種策略利用移民渴望前行的動力，製造出一種持續的、耗盡體力的「被困在移動中」的狀態，構成了一種針對弱勢群體的緩慢暴力。\n\n【研究問題】過去研究常將邊境視為靜態的阻斷點，忽視了「移動」本身如何成為控制工具。本文旨在解答：邊境當局如何利用「流動圍堵」策略，在非法化移民存在的同時，迫使他們在邊境區進行無效的循環移動？這對於理解當代邊境治理的非線性特徵至關重要，特別是對帶孩子的家庭造成的深遠身心創傷。\n\n【研究方法】作者基於2018至2023年在波黑Una-Sana canton地區的長期民族誌田野調查。研究重點追蹤三個移民家庭在2021年的具體經歷，透過深度訪談和參與式觀察，記錄他們嘗試穿越邊境的過程。研究創新性地採用了「反繪製」（counter-mapping）方法，根據移民的回憶和敘事，繪製出非精確但具啟發性的移動軌跡圖，以視覺化呈現那些被官方地圖忽略的混亂空間與時間動態。\n\n【結果】研究发现，移民家庭經歷了極度疲憊的循環移動。例如，一個伊朗家庭在六週內多次嘗試越境，每次都被克羅地亞警方驅逐回森林或更遠處，導致孩子受傷、物資丟失，並被迫在不同收容所之間無休止地轉運。這種「流動圍堵」不僅阻礙了他們尋求庇護的機會，更通過反覆的挫敗和身體消耗，實施了一種難以察覺卻致命的緩慢暴力，徹底改寫了我們對邊境安全的認知。",
+      "en": "**Summary:** This study reveals a hidden border governance strategy called 'mobile containment' along the Balkan Route. It demonstrates that border control between Bosnia-Herzegovina and Croatia is not about stopping migration outright, but about trapping migrant families in a state of exhausting circular mobility through repeated pushbacks. This strategy leverages migrants' desire to move, creating a paradoxical state of being 'trapped in motion,' which constitutes a form of slow violence against vulnerable populations, particularly families with children.\n\n**Problem:** Previous scholarship often viewed borders as static barriers, overlooking how mobility itself can be a tool of control. This article addresses the gap by asking: How do border authorities use mobile containment to force migrants into futile loops within border zones? Understanding this is crucial for grasping the non-linear nature of contemporary border governance and its profound physical and psychological toll on displaced families.\n\n**Approach:** Drawing on extensive ethnographic fieldwork (2018-2023) in the Una-Sana canton, Bosnia-Herzegovina, the authors tracked three migrant families over several weeks. Using deep interviews and participant observation, they documented the families' attempts to cross irregularly. A key methodological innovation was the creation of 'counter-maps' based on migrant narratives, visualizing the chaotic, imprecise trajectories of movement and containment that standard official maps ignore.\n\n**Results:** The research highlights extreme cycles of exhaustion. For instance, one Iranian family attempted crossings repeatedly over six weeks, only to be pushed back by police into forests or further north, losing belongings and sustaining injuries. This 'mobile containment' not only blocked access to asylum but inflicted slow violence through relentless disruption and physical depletion, challenging traditional notions of border security and highlighting the brutal reality of governance through forced mobility."
+    },
+    "keyArticle": {
+      "title": "Geographies of migrant mobile containment along the Balkan Route",
+      "authors": [
+        "Lucija Klun Turk",
+        "Claudio Minca"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103566",
+      "pages": "103566"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-05-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103566",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103566"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-25T20:55:25.484874+00:00",
+    "source": "openalex"
+  }
+}

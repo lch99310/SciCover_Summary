@@ -1,0 +1,48 @@
+{
+  "id": "science-2026-06-18-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6804",
+  "date": "2026-06-18",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-18-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "英國科研的十字路口：從「回歸」轉向「戰略自主」的豪賭",
+      "en": "Britain’s Research Crossroads: From Rejoining to Strategic Autonomy"
+    },
+    "summary": {
+      "zh": "【總結】\n英國科學界正站在一個歷史性的轉折點上。十年前，脫歐讓英國失去了歐盟研究框架的成員資格；十年後，隨著歐盟即將推出更強調工業競爭力和戰略自主權的「第十個框架計劃」（FP10），英國面臨著比單純「回歸」更複雜的選擇。這篇文章指出，英國不能再將參與歐盟科研視為一種儀式性的權利，而應將其視為實現國內工業戰略的工具。核心觀點在於，英國需要重新評估與歐盟科研合作的成本效益，確保公共資金能真正轉化為本土的產業優勢，而非僅僅是學術界的國際參與度。\n\n【研究問題】\n過去十年，英國科學界的主流敘事是如何挽回脫歐帶來的損失，特別是重新獲得Horizon Europe的Associate Member資格。然而，這種「回歸舊秩序」的思路已顯過時。當前亟待解決的問題是：在歐盟科研政策日益轉向「經濟實用主義」和「供應鏈安全」的背景下，英國是否還有必要以現有條件參與FP10？如果參與，如何確保其符合英國政府指定的八大優先產業部門（如先進製造、生命科學等）的利益？這不僅关乎科學卓越，更关乎國家經濟競爭力。\n\n【研究方法】\n本文並非基於單一實驗數據，而是採用政策分析與宏觀戰略評估的方法。作者Ben Johnson和Will Stone深入剖析了歐盟委員會2025年提出的FP10預算草案（1,750億歐元）以及Draghi和Heitor報告的關鍵結論，這些報告批評歐洲公共研發投資未能帶來相應的工業紅利。同時，文章對比了英國政府2025年6月發布的《工業戰略》及英國研究與創新署（UKRI）的資金分配改革（將資金劃分為好奇心驅動基礎研究、國家優先產業和公司增長三部分）。通過比較兩大經濟體的政策導向差異，作者評估了不同合作模式（全面參與 vs. 選擇性參與）的潛在影響。\n\n【結果】\n研究顯示，FP10將與過往的Horizon Europe有本質不同，它將更嚴格地要求研究成果在歐洲境內轉化為經濟價值。這意味著英國若繼續採取「全面參與」策略，可能面臨「出資多、回報少」的風險，因為歐盟更傾向於保護內部市場利益。結果表明，英國科學部長Patrick Vallance和UKRI首席執行官Ian Chapman提出的「非自動性參與」立場是正確的。未來的關鍵不在於「是否參與」，而在於「以何種條件參與」。英國應制定明確的談判底線，將科研合作與國內產業戰略精準對接，否則盲目回歸可能削弱英國在全球科技競爭中的獨立談判能力。",
+      "en": "**Summary:**\nBritish science stands at a critical juncture. A decade after Brexit severed its full membership in EU research frameworks, the landscape has shifted dramatically. As the EU prepares for Framework Programme 10 (FP10) starting in 2028, the focus is no longer just on scientific excellence but on strategic autonomy and industrial competitiveness. This article argues that the old goal of simply \"rejoining\" the EU research space is obsolete. Instead, the UK must critically evaluate whether participation in FP10 serves its national industrial interests. The core message is that UK research policy must transition from seeking prestige to delivering tangible economic returns for priority sectors like clean energy and life sciences.\n\n**Problem:**\nThe primary question is no longer how to restore pre-Brexit ties, but how to navigate a new EU research environment that prioritizes internal market protection and industrial utility. Previous research gaps ignored the fundamental shift in EU policy driven by reports like Draghi and Heitor, which highlighted the disconnect between public R&D spending and industrial output. Why is this crucial? Because blind association with FP10 could drain UK resources without boosting domestic industries. The UK must determine if the cost of participation outweighs the benefits, especially given its own new industrial strategy that demands direct economic impact from public research funding.\n\n**Approach:**\nThe authors employ a comparative policy analysis framework, examining the structural changes in both EU and UK research funding mechanisms. They analyze the European Commission’s €175 billion proposal for FP10, noting its alignment with a proposed €409 billion European Competitiveness Fund. Simultaneously, they review the UK government’s June 2025 Industrial Strategy and the subsequent restructuring of UK Research and Innovation (UKRI) budgets. By breaking down UKRI’s new allocation into basic research, national priority sectors, and company growth, the authors assess the misalignment risks between EU goals and UK needs. This method highlights the tension between academic curiosity-driven research and state-directed industrial policy.\n\n**Results:**\nThe analysis reveals that FP10 will likely be less attractive to associate members than its predecessor, Horizon Europe, due to its stricter emphasis on capturing economic value within Europe. Key findings indicate that automatic association is no longer viable. Instead, the UK must adopt a selective engagement strategy. The authors conclude that the UK government should publish substantive conditions for any future partnership, ensuring that collaboration directly supports the eight priority sectors identified in the Industrial Strategy. Failure to do so risks weakening the UK’s negotiating power and failing to deliver the promised return on investment for taxpayers."
+    },
+    "keyArticle": {
+      "title": "Britain’s next research choice",
+      "authors": [
+        "Ben Johnson",
+        "Will Stone"
+      ],
+      "doi": "10.1126/science.aej6498",
+      "pages": "1217"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-18-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej6498",
+      "doi": "https://doi.org/10.1126/science.aej6498"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-25T20:53:04.198357+00:00",
+    "source": "openalex"
+  }
+}
