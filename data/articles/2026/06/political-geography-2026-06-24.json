@@ -1,0 +1,43 @@
+{
+  "id": "political-geography-2026-06-24",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-06-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "小艇、種族主義與晚期帝國主義：英吉利海峽邊境安全的黑金賬本",
+      "en": "The Profit of Pain: How the English Channel Became a Billion-Pound Border Security Business"
+    },
+    "summary": {
+      "zh": "【總結】本文揭示了英吉利海峽「小艇」危機並非單純的人道災難，而是一個由國家權力與私人資本共謀構建的邊境安全經濟體系。研究指出，邊境管控已成為新自由主義下財富提取和再生產霸權的關鍵機制。\n\n【研究問題】過去研究多關注邊境的碎片化或私有化現象，卻忽略了背後的利益鏈條：誰從中獲利？邊境政策如何服務於種族資本主義的積累邏輯？本文旨在填補這一空白，探討邊境如何作為危機管理與資本累積的重疊場域。\n\n【研究方法】作者結合歷史唯物主義與種族資本主義理論，對2017-2024年間英國內政部公開招標的217份合同進行量化分析，並輔以340份政策文獻的語義分析及14位政策精英的深度訪談，勾勒出版圖般的利益網絡。\n\n【結果】研究发现，英國內政部在此期間向私人企業支付了高達35億英鎊的邊境安保合同，佔其預算近2%。主要承包商包括BAE系統、TEKEVER等軍火與科技巨頭，以及Mitie等外包企業。這些資金用於無人機監控、拘留設施運營及對法國邊境的資助，證明了邊境管控已轉化為一個利潤豐厚的商業模式。",
+      "en": "**Summary:** This article exposes the English Channel 'small boats' crisis not merely as a humanitarian disaster, but as a border security economy engineered through collusion between state power and private capital. It reveals how border control serves as a mechanism for wealth extraction and hegemony reproduction under neoliberalism.\n\n**Problem:** While existing scholarship highlights the fragmentation and privatization of borders, it often overlooks the specific financial beneficiaries and the broader political economy. This study addresses the gap by asking: Who materially and symbolically benefits from these strategies? It aims to connect the micro-politics of border enforcement with the macro-dynamics of racial capitalism and late imperialism.\n\n**Approach:** The authors employ a mixed-methods approach grounded in historical materialist state theory. They analyzed 217 Home Office contracts from 2017-2024, conducted a discourse analysis of 340 policy documents, and interviewed 14 policy elites to map the intricate relationships between state agencies, defense contractors, and private security firms.\n\n**Results:** The study calculates that the UK Home Office awarded £3.5 billion in private contracts related to Channel border control during this period. Major recipients include arms and tech giants like BAE Systems and Tekever for surveillance drones, and outsourcing firms like Mitie for detention facilities. These findings demonstrate that border security has evolved into a highly profitable industry, where state violence and capital accumulation are inextricably linked."
+    },
+    "keyArticle": {
+      "title": "The border security economy in the English Channel: Small boats, racism and late imperialism",
+      "authors": [
+        "Joe Turner",
+        "Arshad Isakjee",
+        "Lucy Mayblin",
+        "Thom Davies",
+        "Tesfalem Habte Yemane"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103603",
+      "pages": "103603"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103603",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103603"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-28T20:12:35.908551+00:00",
+    "source": "openalex"
+  }
+}

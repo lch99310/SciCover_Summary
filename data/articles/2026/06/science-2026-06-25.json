@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-06-25",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6805",
+  "date": "2026-06-25",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當風暴來臨，誰為真理把舵？美國科學界的守護者與危機",
+      "en": "When the Storm Hits, Who Steers the Truth? The Guardian and Crisis of American Science"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇文章並非傳統意義上的實驗報告，而是一份由即將上任的美國國家科學院（NAS）院長 Neil H. Shubin 發出的時代宣言。文章深刻剖析了在民粹主義抬頭、社交媒體扭曲資訊傳播以及地緣政治競爭加劇的背景下，美國科學界面臨的嚴峻信任危機。Shubin 強調，國家科學院自林肯時代創立以來，始終致力於提供不受意識形態干擾的客觀證據，這份「終身追求科學」的精神在當前極化社會中顯得尤為珍貴且迫切。\n\n【研究問題】\n核心問題在於：在一個證據被情緒和算法淹沒的時代，如何維持科學作為公共決策基石的地位？過去的研究往往聚焦於單一科學發現，卻忽視了支撐科學共同體運作的制度性架構。隨著公眾對機構信任度降至冰點，若科學界不能清晰展示其非黨派、以實證為導向的本質，將無法有效應對氣候變化、人工智能倫理等複雜挑戰，這不僅是科學界的損失，更是社會治理的盲點。\n\n【研究方法】\nShubin 採用歷史縱深與現實批判相結合的分析框架。他回顧了 NAS 自 1863 年內戰期間成立的歷史淵源，對比了酸雨研究和人類基因組計劃等歷史成功案例，以此論證科學諮詢在國家危機時刻的關鍵作用。同時，他深入分析了當前科技生態系統的變遷，特別是指出了人工智慧重塑知識生產、社交媒體削弱理性辯論的機制，並結合自身即將領導 NAS、NAE 和 NAM 三院的職責，闡述了科學界應有的行動路徑。\n\n【結果】\n文章提出了一個堅定的結論：科學的權威不來自修辭，而來自透明嚴謹的過程。儘管面臨資金波動和國際合作破裂的風險，NAS 承諾繼續作為「最謹慎、最可信賴的聲音」。Shubin 指出，科學不僅帶來醫療突破等實用價值，其探索宇宙起源和生命演化的「驚奇感」也是吸引下一代投身 STEM 領域的關鍵動力。這一立場重申了科學作為共和政體處理複雜問題時的基礎設施地位，呼籲社會回歸對事實和理性的尊重。",
+      "en": "**Summary:**\nThis article serves not as a standard experimental report, but as a timely manifesto from Neil H. Shubin, the incoming President of the National Academy of Sciences (NAS). It critically examines the precarious position of American science amidst rising populism, algorithm-driven misinformation, and geopolitical fragmentation. Shubin argues that the NAS, established during the Civil War, must uphold its mandate to provide evidence-based counsel free from ideological bias. The piece highlights the urgent need to restore public trust in scientific institutions, framing the pursuit of truth as essential for navigating modern societal crises.\n\n**Problem:**\nThe central question addressed is how to sustain science as the bedrock of public policy when evidence is increasingly drowned out by viral memes and partisan rhetoric. While past discourse focused on individual scientific breakthroughs, this article identifies a critical gap: the erosion of the institutional framework that validates and disseminates knowledge. With public trust at historic lows and funding structures under threat, the failure to maintain a rigorous, nonpartisan scientific voice jeopardizes the nation’s ability to address complex challenges like climate change, artificial intelligence, and biodiversity loss.\n\n**Approach:**\nShubin employs a dual approach of historical reflection and contemporary analysis. He traces the lineage of the NAS back to its Lincoln-era origins, citing landmark reports on acid rain and the human genome as examples of science guiding federal priorities. He then dissects the current technological landscape, detailing how social media algorithms reinforce comfortable beliefs over deliberative evaluation. By outlining his leadership strategy across the National Academies, he maps out a pathway for science to remain transparent, rigorous, and publicly accessible despite growing polarization.\n\n**Results:**\nThe article concludes that the authority of science lies in its adherence to evidence, regardless of how unwelcome the findings may be. Despite international cooperation fraying, the NAS commits to being the \"most careful and trustworthy voice.\" Shubin emphasizes that beyond practical applications like medical cures, science fosters a sense of wonder—from fish fossils to black hole collisions—that inspires future generations. This reaffirms the academy’s role as a vital public good, urging society to value curiosity-driven research as a stabilizing force in an uncertain world."
+    },
+    "keyArticle": {
+      "title": "The enduring pursuit of science in America",
+      "authors": [
+        "Neil H. Shubin"
+      ],
+      "doi": "10.1126/science.aej8205",
+      "pages": "1323"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej8205",
+      "doi": "https://doi.org/10.1126/science.aej8205"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-28T20:10:11.149863+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cell-2026-06-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "13",
+  "date": "2026-06-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "救命的修復，致命的代價：順鉑如何「修」死神經元？",
+      "en": "The Fatal Fix: How DNA Repair Turns Cisplatin Into a Neuronal Executioner"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Cell》的突破性研究揭開了一個令人驚嘆的悖論：在抗癌藥物順鉑（Cisplatin）引發的神經毒性中，負責修復DNA的機制反而成了殺死神經元的兇手。研究指出，由於成熟的神經元缺乏分裂所需的備用核苷酸庫，當它們試圖修復藥物造成的DNA損傷時，會因「原料耗盡」而導致不可逆的雙鏈斷裂，最終引發細胞死亡和嚴重的周邊神經病變。\n\n【研究問題】過去醫學界對於為何順鉑能精準殺死癌細胞，卻同時傷害不分裂的神經組織，始終缺乏底層機制的理解。傳統觀點認為，神經元因為不分裂，所以對DNA損傷具有「免疫力」。然而，這種認知盲點導致臨床無法有效預防化疗帶來的永久性神經損傷。釐清這一過程至關重要，因為這不僅關係到癌症治療的副作用管理，更挑戰了我們對靜止細胞DNA修復邏輯的根本認知。\n\n【研究方法】研究團隊利用誘導多能幹細胞（iPSC）分化出的神經元模型，結合單細胞合成關聯修復測序（scSAR-seq）技術，首次在單個細胞層面精準繪製了順鉑損傷的修復軌跡。他們通過基因編輯技術敲除修復蛋白，並使用螢光染料追蹤核苷酸的消耗情況，同時在活體小鼠模型中進行行為學測試（如Von Frey機械敏感性測試），以量化疼痛反應。這種從分子細觀到整體行為的多維度驗證，確保了結論的堅實可靠。\n\n【結果】關鍵數據顯示，順鉑處理後，神經元內的三種核苷酸池（dNTPs）水平急劇下降約十倍，特別是在修復過程中被迅速耗竭。當研究者通過補充脫氧核糖核苷或基因手段人為恢復核苷酸池時，神經元的存活率顯著提升，且小鼠的疼痛敏感度大幅下降。這意味著，限制修復完成的並非修復機制本身，而是「燃料」不足。這一發現為開發核苷酸補充療法以緩解化療神經毒性提供了明確的科學依據和潛在臨床路徑。",
+      "en": "**Summary:** A groundbreaking study published in *Cell* reveals a startling paradox in cancer therapy: the very DNA repair mechanisms intended to save neurons from Cisplatin toxicity are actually driving them to death. The research identifies that mature neurons, lacking the robust nucleotide pools of dividing cells, run out of raw materials during repair attempts. This exhaustion leads to incomplete repair, causing lethal double-strand breaks and severe peripheral neuropathy.\n\n**Problem:** Historically, scientists believed that post-mitotic cells like neurons were immune to Cisplatin because the drug targets DNA replication, a process inactive in resting cells. This misconception left clinicians with no effective strategies to mitigate the devastating neurological side effects of chemotherapy. Understanding this vulnerability is crucial not only for improving cancer care quality of life but also for rewriting textbook definitions of how non-dividing cells handle genomic stress.\n\n**Approach:** The researchers utilized iPSC-derived human neurons and employed a novel single-cell sequencing technique called scSAR-seq to map DNA repair events with unprecedented precision. By genetically manipulating nucleotide pools and combining these cellular assays with in vivo behavioral tests in mice, they tracked the exact moment repair turned fatal. This multi-scale approach allowed them to isolate the specific metabolic bottleneck—the depletion of deoxynucleoside triphosphates (dNTPs)—that dictates neuronal survival.\n\n**Results:** The study found that Cisplatin treatment caused a drastic drop in neuronal dNTP levels, depleting the fuel needed to finish DNA repair. Crucially, when researchers supplemented neurons with deoxynucleosides or genetically boosted nucleotide synthesis, neuronal death was halted, and Cisplatin-induced neuropathic pain in mice was significantly reduced. These findings pinpoint nucleotide scarcity as the primary culprit, offering a promising therapeutic avenue: simple nucleoside supplementation could potentially protect patients from the worst side effects of platinum-based chemotherapy."
+    },
+    "keyArticle": {
+      "title": "DNA repair drives cisplatin-induced neuronal death",
+      "authors": [
+        "William J. Nathan",
+        "Chuanyuan Chen",
+        "Rosy Sakr",
+        "Bruno Siqueira Mietto",
+        "Vincent van Batenburg",
+        "Jeroen van den Berg",
+        "Josette J Wlaschin",
+        "Ferenc Livak",
+        "Elsa Callén",
+        "Nancy Wong",
+        "Eliza Y. H. Lloyd",
+        "Hanna Silberberg",
+        "Sushma Sharma",
+        "Raj Chari",
+        "Tzipporah Freeman",
+        "Baek Kim",
+        "Alexander van Oudenaarden",
+        "Alexander T. Chesler",
+        "Michael E. Ward",
+        "Lisa D. Boxer",
+        "Peter J. McHugh",
+        "Andrei Chabes",
+        "Claire E. Le Pichon",
+        "André Nussenzweig"
+      ],
+      "doi": "10.1016/j.cell.2026.05.025",
+      "pages": "4005-4021.e11"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.025",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.025"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-28T20:12:00.235023+00:00",
+    "source": "openalex"
+  }
+}

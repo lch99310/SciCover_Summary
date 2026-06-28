@@ -1,0 +1,53 @@
+{
+  "id": "nature-2026-06-03-03",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8120",
+  "date": "2026-06-03",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-03-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "採礦只是冰山一角：撒哈拉以南非洲森林消失的隱藏推手",
+      "en": "Beyond the Pit: How Mining Triggers Massive Hidden Deforestation in Africa"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究揭開了撒哈拉以南非洲採礦業對森林破壞的全貌。研究指出，直接開採造成的森林消失僅是冰山一角，真正的大規模破壞來自於伴隨道路建設、農業擴張和定居點遷移所引發的間接效應。這項發現對於理解全球能源轉型所需的關鍵礦產開採所帶來的環境代價至關重要。\n\n【研究問題】過去的研究多聚焦於礦坑本身的直接土地清理，忽略了礦區周邊因基礎設施改善而引發的連鎖反應。由於缺乏大範圍的精確數據，我們一直不清楚採礦活動對周圍森林的真實衝擊有多深遠。解決這一盲點，能幫助政策制定者全面評估礦業的環境成本，而非僅看地表開挖面積。\n\n【研究方法】研究團隊整合了2001至2020年間撒哈拉以南非洲16,627個礦區的空間數據與森林覆蓋變化資料。他們運用先進的「差異中的差異」統計模型，將礦區視為實驗組，並與未受採礦影響的相似區域進行對比。透過設定不同距離的環狀緩衝區（從1公里到20公里），精確量化礦業啟動前後及不同時間點的森林消失速率。\n\n【結果】研究發現，每直接破壞1公頃森林，平均會額外導致34公頃的間接森林消失。在礦區1公里範圍內，十年後的累計森林消失率比未採礦地區高出8個百分點。值得注意的是，銅和鈷等能源轉型關鍵礦產的開採，其觸發的間接毀林效應最為顯著。這意味著若要在供應鏈中實現「零毀林」，必須將這些間接影響納入環境評估標準。",
+      "en": "**Summary:** Published in *Nature*, this study reveals the full extent of mining-induced deforestation in sub-Saharan Africa. While direct clearing for pits accounts for some loss, the true devastation lies in the ripple effects: roads, agriculture, and settlements triggered by mining. This finding is critical for understanding the hidden ecological cost of sourcing minerals for the global green energy transition.\n\n**Problem:** Previous assessments largely ignored the \"ancillary\" deforestation caused by improved access and population influx around mines. Without a continental-scale analysis, it was unclear how far the impact of a single mine extended or which minerals posed the greatest risk. Addressing this gap is essential to prevent the \"green\" energy transition from being built on avoidable forest loss.\n\n**Approach:** The researchers analyzed 16,627 mine clusters across sub-Saharan Africa between 2001 and 2020, combining satellite forest data with post-deforestation land-use maps. They employed a robust difference-in-differences statistical framework, comparing forest loss rates in concentric buffers around mines before and after operations began against similar unmined areas. This allowed them to isolate the specific causal impact of mining from other regional trends.\n\n**Results:** The study found that for every hectare directly cleared by mining, an additional 34 hectares of forest were lost to offsite activities like agriculture and settlement expansion within five years. Within 1 km of a mine, deforestation rates were 8 percentage points higher than in unmined areas. Mines extracting cobalt and copper—the backbone of electric vehicles—caused the most severe indirect impacts. These results underscore the urgent need to include offsite deforestation in environmental impact assessments for critical mineral supply chains."
+    },
+    "keyArticle": {
+      "title": "Mining triggers extensive additional deforestation in sub-Saharan Africa",
+      "authors": [
+        "Oscar Morton",
+        "Christopher G. Bousfield",
+        "Prince D. Valé",
+        "Ieuan Lamb",
+        "Victor; id_orcid 0000-0002-7385-4723 Maus",
+        "Robert G. Bryant",
+        "David P. Edwards"
+      ],
+      "doi": "10.1038/s41586-026-10551-2",
+      "pages": "971-977"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-03-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10551-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10551-2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-06-28T20:10:42.844496+00:00",
+    "source": "openalex"
+  }
+}
