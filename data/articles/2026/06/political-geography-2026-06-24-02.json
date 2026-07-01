@@ -1,0 +1,50 @@
+{
+  "id": "political-geography-2026-06-24-02",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-06-24",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-06-24-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解開和平的地理密碼：為什麼「通行權」是停火協議的關鍵鑰匙？",
+      "en": "Unlocking the Geography of Peace: Why 'Freedom of Movement' Is the Key to Lasting Ceasefires"
+    },
+    "summary": {
+      "zh": "【總結】\n這項由日內瓦高等研究所與蘇黎世聯邦理工學院學者共同發表的研究，首次將「自由通行權」從次要技術議題提升為和平進程的核心變數。研究指出，通行權不僅是戰後重建的結果，更是建立信任、推動談判進行的關鍵機制。它揭示了空間控制與政治權威之間的深刻連結，為理解衝突如何轉化為和平提供了全新的地理學視角。\n\n【研究問題】\n過去關於和平協議的文獻多聚焦於停火、權力分享或裁軍，往往忽視了「人與貨物能否自由移動」這一基礎但致命的問題。在衝突中，檢查站、封鎖和宵禁不僅擾亂平民生活，更阻礙人道救援與外交接觸。研究旨在填補這一空白，探討為何談判代表們頻繁討論通行權，以及這背後的政治與社會意義，從而建立一個跨政治地理學與衝突管理的新型研究議程。\n\n【研究方法】\n研究團隊利用「和平天文台」（Peace Observatory）資料庫，涵蓋1989年至2023年間超過一萬一千個談判回合。他們採用人工編碼方式，將涉及通行權的談判主題細分為三大類：人員流動、貨物流動，以及特定空間的進入權。這種大數據分析結合定性案例研究的方法，使得研究者能夠系統性地識別並分類全球各地衝突中關於移動性的談判模式，而非僅依賴單一案例的 anecdotal evidence。\n\n【結果】\n數據顯示，超過10%的談判回合涉及通行權議題，使其成為第四大常見談判主題。其中，「流離失所者返回家園」（佔27.2%）和「人道主義通道」（佔18.1%）是最受關注的領域。研究發現，通行權談判在談判中期與執行階段尤為關鍵。例如，波斯尼亞和平協議確立了全國範圍內的自由遷徙權，而黑海穀物協議則展示了經濟互通如何作為和平紅利。這些結果證明，通行權既是談判的目標，也是維持談判動能的燃料，對未來和平協議的設計具有指導意義。",
+      "en": "**Summary:**\nThis groundbreaking study, authored by scholars from the Geneva Graduate Institute and ETH Zurich, elevates \"freedom of movement\" from a peripheral technicality to a central pillar of peace processes. The research demonstrates that mobility is not merely a post-conflict outcome but a critical mechanism for building trust and sustaining negotiations. By bridging political geography and conflict management, the article reveals how controlling space is synonymous with exercising political authority, offering a fresh lens through which to view the transition from war to peace.\n\n**Problem:**\nPrevious literature on peace agreements has predominantly focused on high-level political structures like power-sharing, ceasefires, or disarmament, often overlooking the granular reality of how people and goods move. In conflicts, checkpoints and blockades disrupt civilian life and hinder humanitarian aid, yet these issues are frequently treated as secondary. This study addresses the gap by asking why freedom of movement is so pervasive in negotiations and how it functions politically. Understanding this is crucial because mobility restrictions are often tools of warfare, and their removal is a prerequisite for genuine reconciliation.\n\n**Approach:**\nThe authors leveraged the Peace Observatory dataset, coding over 10,000 negotiation rounds from 1989 to 2023 across interstate, intrastate, and non-state conflicts. They developed a novel classification system that categorizes freedom of movement into three dimensions: the movement of actors (e.g., negotiators, displaced persons), goods (e.g., trade, livestock), and access to specific spaces (e.g., blocked areas, infrastructure). This mixed-methods approach combines large-scale quantitative analysis with qualitative case studies, allowing for a systematic and nuanced understanding of global negotiation patterns.\n\n**Results:**\nFreely negotiated movement appears in over 10% of all recorded negotiation rounds, ranking it as the fourth most common topic. The most frequent issues involve the return of displaced persons (27.2%) and humanitarian access (18.1%). The study highlights that these negotiations peak during the implementation phase, suggesting that mobility is key to sustaining peace. Case studies, such as the Black Sea Grain Deal and the Dayton Agreement, illustrate how unlocking movement delivers tangible \"peace dividends.\" These findings imply that future peacebuilding strategies must prioritize spatial connectivity as a core component of conflict resolution."
+    },
+    "keyArticle": {
+      "title": "Moving peace forward: Negotiating freedom of movement in peace processes",
+      "authors": [
+        "Emilian Berutti",
+        "Janek Bruker",
+        "Allard Duursma",
+        "Valentin Felix Geier"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103609",
+      "pages": "103609"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-06-24-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103609",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103609"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-01T20:50:02.761420+00:00",
+    "source": "openalex"
+  }
+}

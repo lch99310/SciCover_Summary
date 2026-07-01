@@ -1,0 +1,62 @@
+{
+  "id": "science-2026-06-25-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6805",
+  "date": "2026-06-25",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-25-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從白堊紀果實到基因解碼：《科學》雜誌2026年6月號六大顛覆性發現",
+      "en": "From Cretaceous Berries to Gene Decoding: Six Paradigm-Shifting Discoveries in Science, June 2026"
+    },
+    "summary": {
+      "zh": "【總結】\n2026年6月25日出版的《科學》雜誌呈現了一場跨越時空的科學盛宴，從地球早期的地質劇變到人類細胞的微觀運作，展現了自然與社會科學的多維突破。本期核心亮點包括：白堊紀化石揭示開花植物種子多樣性起源早於預期；神經科學家證實自噬系統能逆轉腦部損傷；以及利用大型語言模型實現遺傳變異的自動化解讀。這些研究不僅填補了演化生物學、神經科學和醫學診斷的知識空白，更為可持續能源開發和精準醫療提供了全新的技術路徑。\n\n【研究問題】\n長期以來，科學界面臨幾個關鍵懸念：開花植物的果實多樣性究竟是何時爆發的？神經元在積累廢物後是否還有恢復能力？以及抗生素為何有時反而幫細菌「強化」防禦？此外，面對海量的基因测序數據，人類專家能否被AI有效輔助以解決解讀瓶頸？這些問題涉及生命起源、大腦可塑性、微生物抗藥機制及臨床診斷效率，解決它們對於理解生命適應策略和改善人類健康至關重要。\n\n【研究方法】\n研究團隊採用了極具創新的方法論。Lee等人分析了新墨西哥州晚白堊世化石森林中的77種種子形態；Eguchi等人開發了可逆開關自噬功能的鼠類模型，以觀察神經元恢復過程；Kim等人利用非水溶劑將催化劑製成適合工業反應器的顆粒；而Ma等人則訓練基於DeepSeek-R1的大型語言模型，遵循美國醫學遺傳學會與基因組學協會的指南來分析基因變異。這些方法結合了古生物學採樣、基因工程操控、材料化學合成及人工智能算法，展現了跨學科的強大威力。\n\n【結果】\n關鍵發現令人驚嘆：晚白堊世已存在類似藍莓大小的肉質果實，證明動物傳播策略出現得比假設更早；恢復自噬功能可大幅逆轉小鼠的神經退行性症狀；廢棄塑料和食物垃圾可通過熱解和乾式重整转化为航空燃油和柴油替代品；AI模型在遺傳變異分類上的表現已媲美人類專家。這些結果不僅重寫了植物演化時間線，更為神經疾病治療、循環經濟和精準醫療帶來了實質性的應用前景。",
+      "en": "**Summary:**\nThe June 25, 2026 issue of *Science* presents a sweeping narrative of scientific breakthroughs, ranging from the geological upheavals of early Earth to the molecular intricacies of human cells. Key highlights include the discovery that flowering plant seed diversity originated earlier than previously thought, evidenced by well-preserved Late Cretaceous fossils; the demonstration that neurons possess remarkable resilience through autophagy restoration; and the deployment of Large Language Models to automate genetic variant interpretation. These studies bridge gaps in evolutionary biology, neuroscience, and clinical medicine, offering new pathways for sustainable energy, neurodegenerative disease treatment, and precision healthcare.\n\n**Problem:**\nSeveral critical questions have long puzzled the scientific community: When did the diverse fruit and seed morphologies of angiosperms actually emerge? Can neurons recover once cellular waste accumulates? Why do antibiotics sometimes inadvertently bolster bacterial survival? Furthermore, how can we handle the bottleneck of interpreting vast amounts of genomic data efficiently? Addressing these issues is vital for understanding life’s adaptive strategies, developing therapies for brain disorders, combating antibiotic resistance, and accelerating personalized medicine.\n\n**Approach:**\nThe researchers employed innovative methodologies across disciplines. Lee et al. analyzed 77 diaspore morphotypes from a Late Cretaceous fossil forest in New Mexico. Eguchi et al. developed a mouse model with reversible autophagy开关 to track neuronal recovery. Kim et al. utilized non-aqueous solvents to pelletize catalysts for industrial-scale waste-to-fuel conversion. Meanwhile, Ma et al. trained a DeepSeek-R1-based LLM workflow to classify genetic variants according to ACMG guidelines. This integrative approach combined paleobotanical excavation, genetic engineering, chemical catalysis, and artificial intelligence to tackle complex biological and societal challenges.\n\n**Results:**\nThe findings are transformative: fleshy, blueberry-sized fruits existed in the Late Cretaceous, suggesting early vertebrate dispersal strategies; restoring autophagy largely reversed motor and cognitive deficits in mice; plastic and food waste were successfully converted into jet fuel and diesel substitutes via dry reforming; and the AI system matched human experts in classifying genetic variants. These results rewrite the timeline of plant evolution, offer hope for reversing neurodegeneration, promote circular economy solutions for waste management, and pave the way for fully automated clinical genetic interpretation."
+    },
+    "keyArticle": {
+      "title": "In Science Journals",
+      "authors": [
+        "Bianca Lopez",
+        "Stella M. Hurtley",
+        "Phil Szuromi",
+        "Sacha Vignieri",
+        "Yury Suleymanov",
+        "Unnati Sonawala",
+        "Madeleine Seale",
+        "Christiana N. Fogg",
+        "Rocío Titiunik",
+        "Di Jiang",
+        "Michael A. Funk",
+        "Yevgeniya Nusinovich",
+        "Jelena Stajic",
+        "Angela Hessler",
+        "Catherine Charneski",
+        "Leslie Ferrarelli"
+      ],
+      "doi": "10.1126/science.aej9372",
+      "pages": "1352-1354"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-25-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej9372",
+      "doi": "https://doi.org/10.1126/science.aej9372"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-01T20:47:50.897248+00:00",
+    "source": "openalex"
+  }
+}

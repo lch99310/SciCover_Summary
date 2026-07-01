@@ -1,0 +1,58 @@
+{
+  "id": "nature-2026-06-03-04",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8118",
+  "date": "2026-06-03",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-03-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "室溫下的量子旋風：鈣銫礦超晶格首現「手性超發射」",
+      "en": "Quantum Spin Storm: Chiral Superfluorescence Emerges in Room-Temperature Perovskites"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究，首次在室溫下觀察到源自鈣銫礦超晶格邊緣態的「手性超發射」（Chiral Superfluorescence）。這不僅填補了量子光學中將材料手性與集體量子相干性結合的空白，更證明通過微弱的磁場即可精確調控發射光的圓偏振特性，為未來發展高效、可控的量子光源奠定了堅實基礎。\n\n【研究問題】儘管「超發射」（大量量子發射體協同發射強相干光）現象已在多種固態材料中被證實，但如何從非極化狀態自發產生具有特定手性的圓偏振超發射光，一直是未解之謎。過去的研究缺乏能在室溫下穩定運作且具有明確結構手性的固態平台，導致無法驗證理論預測的光子自旋軌道耦合效應。\n\n【研究方法】研究團隊構建了大面積（超過100微米見方）、垂直排列的準二維有機-無機雜化鈣銫礦超晶格。他們利用左旋（SMBA）和右旋（RMBA）手性配體將螺旋對稱性轉移至晶格結構，並使用飛秒雷射激發樣品。透過時間分辨光譜、瞬態吸收光譜以及量子光學理論模型，他們詳細分析了在不同激發密度下，系統如何從非相干自發輻射轉變為集體相干發射，並量化了圓偏振度的變化。\n\n【結果】研究團隊成功觀測到高達約14%的圓偏振度（DCP），且偏振方向隨材料手性反轉而切換，與理論計算完美吻合。此外，施加小於0.5特斯拉的微弱磁場，能進一步增強超發射強度並提升圓偏振度至16.5%。這一發現揭示了量子相干性與結構手性的深刻聯繫，展示了在室溫下實現可調控量子光發射的巨大潛力，有望推動量子信息處理與自旋光電技術的革新。",
+      "en": "**Summary:** This study, published in *Nature*, reports the first observation of chiral superfluorescence originating from the edge states of vertically aligned perovskite superlattices at room temperature. This breakthrough bridges the gap between structural chirality and macroscopic quantum coherence, demonstrating that weak magnetic fields can precisely modulate the circular polarization of emitted light. It opens new pathways for developing scalable, chirality-controlled quantum optical devices.\n\n**Problem:** While superfluorescence—the collective, coherent emission of light from an ensemble of quantum emitters—has been observed in various solids, the spontaneous generation of circularly polarized superfluorescence from chiral materials remained theoretical and experimentally elusive. Previous attempts lacked a scalable solid-state platform capable of sustaining the necessary quantum coherence at room temperature, leaving the interplay between chirality and many-body entanglement largely unexplored.\n\n**Approach:** The researchers fabricated large-area, vertically aligned quasi-2D hybrid perovskite superlattices using left-handed (SMBA) and right-handed (RMBA) chiral ligands to induce screw-axis symmetry. They excited these structures with femtosecond lasers and employed time-resolved photoluminescence, transient absorption spectroscopy, and quantum optical modeling. This multi-faceted approach allowed them to track the transition from incoherent spontaneous emission to coherent superfluorescence and quantify the resulting circular polarization.\n\n**Results:** The team observed superfluorescence with a degree of circular polarization (DCP) reaching approximately 14%, with the polarization sign reversing according to the material's handedness, matching theoretical predictions. Crucially, applying a weak magnetic field (under 0.5 Tesla) further enhanced both the intensity and the DCP up to 16.5%. These findings confirm that structural chirality can dictate quantum optical properties at room temperature, offering a robust platform for advanced quantum spin-optical applications and tunable quantum light sources."
+    },
+    "keyArticle": {
+      "title": "Chiral superfluorescence from perovskite superlattices at room temperature",
+      "authors": [
+        "Wei Qi",
+        "Jonah S. Peter",
+        "Hui Ren",
+        "Weizhen Wang",
+        "Luwei Zhou",
+        "Qi Liu",
+        "Stefan Ostermann",
+        "Jun Yin",
+        "Songhua Cai",
+        "Susanne F. Yelin",
+        "Mingjie Li"
+      ],
+      "doi": "10.1038/s41586-026-10637-x",
+      "pages": "369-374"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-03-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10637-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10637-x",
+      "preprint": "http://arxiv.org/abs/2506.22786"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-01T20:48:22.667442+00:00",
+    "source": "openalex"
+  }
+}

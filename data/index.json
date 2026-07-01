@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-06-28T20:13:14.652227+00:00",
+  "lastUpdated": "2026-07-01T20:50:41.733356+00:00",
   "articles": [
+    {
+      "id": "science-2026-06-25-02",
+      "journal": "Science",
+      "date": "2026-06-25",
+      "path": "articles/2026/06/science-2026-06-25-02.json",
+      "title_zh": "從白堊紀果實到基因解碼：《科學》雜誌2026年6月號六大顛覆性發現",
+      "title_en": "From Cretaceous Berries to Gene Decoding: Six Paradigm-Shifting Discoveries in Science, June 2026",
+      "cover_url": "data/images/science/science-2026-06-25-02-cover.jpg"
+    },
     {
       "id": "science-2026-06-25",
       "journal": "Science",
@@ -9,6 +18,15 @@
       "title_zh": "當風暴來臨，誰為真理把舵？美國科學界的守護者與危機",
       "title_en": "When the Storm Hits, Who Steers the Truth? The Guardian and Crisis of American Science",
       "cover_url": "data/images/science/science-2026-06-25-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-06-24-02",
+      "journal": "Political Geography",
+      "date": "2026-06-24",
+      "path": "articles/2026/06/political-geography-2026-06-24-02.json",
+      "title_zh": "解開和平的地理密碼：為什麼「通行權」是停火協議的關鍵鑰匙？",
+      "title_en": "Unlocking the Geography of Peace: Why 'Freedom of Movement' Is the Key to Lasting Ceasefires",
+      "cover_url": "data/images/political-geography/political-geography-2026-06-24-02-cover.jpg"
     },
     {
       "id": "political-geography-2026-06-24",
@@ -128,6 +146,15 @@
       "cover_url": "data/images/nature/nature-2026-06-03-03-cover.jpg"
     },
     {
+      "id": "nature-2026-06-03-04",
+      "journal": "Nature",
+      "date": "2026-06-03",
+      "path": "articles/2026/06/nature-2026-06-03-04.json",
+      "title_zh": "室溫下的量子旋風：鈣銫礦超晶格首現「手性超發射」",
+      "title_en": "Quantum Spin Storm: Chiral Superfluorescence Emerges in Room-Temperature Perovskites",
+      "cover_url": "data/images/nature/nature-2026-06-03-04-cover.jpg"
+    },
+    {
       "id": "nature-2026-06-03",
       "journal": "Nature",
       "date": "2026-06-03",
@@ -144,6 +171,15 @@
       "title_zh": "無水築壩？解開摩洛哥現代化話語的矛盾迷思",
       "title_en": "Building Dams Without Water? Unraveling Paradoxes in Morocco's Modernization Discourse",
       "cover_url": "data/images/political-geography/political-geography-2026-06-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-06-01-02",
+      "journal": "Cell",
+      "date": "2026-06-01",
+      "path": "articles/2026/06/cell-2026-06-01-02.json",
+      "title_zh": "血液中的肺癌預警：從空氣污染到免疫干預的關鍵線索",
+      "title_en": "Blood Signals of Lung Tumorigenesis: From Air Pollution to Immune Intervention",
+      "cover_url": "data/images/cell/cell-2026-06-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-06-01",

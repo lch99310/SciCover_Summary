@@ -1,0 +1,133 @@
+{
+  "id": "cell-2026-06-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "13",
+  "date": "2026-06-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "血液中的肺癌預警：從空氣污染到免疫干預的關鍵線索",
+      "en": "Blood Signals of Lung Tumorigenesis: From Air Pollution to Immune Intervention"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Cell》的研究揭示了一種由14種蛋白質組成的血液特徵，能在肺癌臨床診斷前五年以上精準預測風險。研究不僅驗證了該指標在多族群中的普適性，更透過細胞與動物實驗，首次將環境污染物（如顆粒物PM）、致癌基因（EGFR）與一種稱為「KAC」的肺部過渡細胞狀態相連結。更重要的是，研究證明針對炎症介質IL-1β的治療能有效抑制這種促癌狀態，為肺癌預防提供了全新的分子標靶。\n\n【研究問題】儘管已知發炎與肺癌有關（如CANTOS試驗顯示抗IL-1β療法可降低肺癌發生率），但因需治療人數（NNT）過高，無法在廣泛人群中推廣。目前的盲點在於：我們無法在早期識別哪些人真正處於「腫瘤促進」的高風險狀態。解決這個問題至關重要，因為它能將被動的篩檢轉變為主動的分子預防，讓藥物資源精準投放給最受益的人群。\n\n【研究方法】研究團隊結合了機器學習與多組學技術。首先，利用英國生物銀行（UK Biobank）的大數據訓練模型，篩選出14種與肺癌高度相關的血液蛋白質。接著，通過單細胞RNA序列分析（snRNA-seq）和譜系追蹤技術，在人類組織和小鼠模型中追蹤細胞命運。他們使用空氣顆粒物（PM）刺激小鼠和人類肺切片，觀察細胞反應，並回顧性分析CANTOS臨床試驗數據，以評估該指標對治療反應的分層能力。\n\n【結果】研究發現，這14種蛋白質特徵在吸菸者和暴露於空氣污染的人群中顯著升高。機制上，不同上皮細胞譜系在惡變前會匯聚成一種叫KAC（Keratin8+/Claudin4+）的過渡狀態。空氣污染和EGFR突變會誘發這種狀態，而IL-1β是其關鍵驅動因子。在CANTOS試驗中，基線特徵值高的受試者在接受抗IL-1β治療後，肺癌風險顯著降低，從而大幅降低了治療門檻。這標誌著我們終於能透過血液檢測識別出那些因環境發炎而面臨極高風險、且能從抗炎治療中獲益的個體。",
+      "en": "**Summary:** This study, published in *Cell*, identifies a 14-protein plasma signature capable of predicting lung cancer risk more than five years before clinical diagnosis. By integrating machine learning with single-cell genomics and longitudinal clinical data, the researchers discovered that environmental pollutants and oncogenic drivers push lung cells into a vulnerable, pro-tumorigenic transitional state known as KAC. Crucially, the study demonstrates that blocking the inflammatory cytokine IL-1β can suppress this state, offering a precise molecular strategy for cancer prevention that transforms broad clinical trials into targeted interventions.\n\n**Problem:** While the CANTOS trial proved that inhibiting inflammation reduces lung cancer incidence, the approach is impractical for the general population due to a prohibitively high \"number needed to treat\" (NNT). The critical gap lies in our inability to identify which individuals are actively undergoing \"tumor promotion\" before tumors become visible. Solving this is vital because it shifts cancer care from passive screening to active, personalized prevention, ensuring that potent anti-inflammatory therapies are reserved for those most likely to benefit.\n\n**Approach:** The team employed a multi-modal framework. They used machine learning on the UK Biobank dataset to isolate a robust 14-protein signature. To understand the biology, they utilized single-nucleus RNA sequencing and lineage-tracing in mouse models to track how different lung cell types evolve. They exposed these models and human lung tissues to particulate matter (PM) to simulate air pollution. Finally, they re-analyzed data from the CANTOS clinical trial to see if this plasma signature could predict who responded best to anti-IL-1β therapy.\n\n**Results:** The 14-protein signature was significantly elevated in smokers and those exposed to air pollution. Mechanistically, diverse epithelial lineages converge on a \"KAC\" transitional state (Keratin8+/Claudin4+) during early tumorigenesis, a process driven by PM exposure and EGFR mutations via IL-1β signaling. In the CANTOS trial, individuals with high baseline signature levels showed a dramatic reduction in lung cancer incidence when treated with canakinumab (an anti-IL-1β drug), whereas those with low levels did not. This finding effectively lowers the NNT by identifying a specific subgroup where prevention is highly effective."
+    },
+    "keyArticle": {
+      "title": "Plasma signals of lung tumor promotion for molecular cancer prevention",
+      "authors": [
+        "Tej Pandya",
+        "Maria Zagorulya",
+        "Michelle Leung",
+        "Marcellus Augustine",
+        "Lydia Liu",
+        "Aino‐Maija Leppä",
+        "Ulysse Baruchel",
+        "Sin Wi Ng",
+        "Tamara Klockner",
+        "Miriam Mugabo",
+        "Anthony Griffen",
+        "Oleg Blyuss",
+        "Chrysante S. Iliakis",
+        "Amalie Grenov",
+        "Kerstin Haase",
+        "David C. Muller",
+        "K Chan",
+        "Jincheng Wu",
+        "Vernon A. Burk",
+        "Neil Wright",
+        "Alix Le Marois",
+        "Ekaterina Pazukhina",
+        "Sophia Ward",
+        "Hubert Slawinski",
+        "Marc Pelletier",
+        "C L Murphy",
+        "Matthew D. Park",
+        "Thomas Snoeks",
+        "Alejandro Suarez-Bonnet",
+        "Simon L. Priestnall",
+        "Alexandros Hardas",
+        "Charlotte Grieco",
+        "Ami Archer",
+        "Alpkaan Celik",
+        "Alejandro Jiménez-Sánchez",
+        "Rachel Scott",
+        "Hana Zahed",
+        "Léa Montégut",
+        "Rafael Meza",
+        "Clinton H. Durney",
+        "Stephen Lam",
+        "Takahiro Karasaki",
+        "Roel C.H. Vermeulen",
+        "Huilei Xu",
+        "Pablo Serrano‐Fernández",
+        "Tatjana Crnogorac-Jurcevic",
+        "Usha Menon",
+        "Sophia Apostolidou",
+        "Alexey Zaikin",
+        "Richard Gunu",
+        "Harry J. Whitwell",
+        "Zhe Huang",
+        "Zonglun Li",
+        "Xin Hu",
+        "Bo Zhu",
+        "Liming Li",
+        "MD Chirlaque",
+        "Marcela Guevara",
+        "P Martijn Kolijn",
+        "Aghiles Guenoun",
+        "Neeloffer Mookherjee",
+        "Mattias Johansson",
+        "Ziqiao Wang",
+        "Nilanjan Chatterjee",
+        "Chao‐Hua Chiu",
+        "Z M Chen",
+        "Dana Pe’er",
+        "Erik Sahai",
+        "Saskia Freytag",
+        "Andreas Wack",
+        "Marc J. Gunter",
+        "Miriam Merad",
+        "J Zhang",
+        "C. Carlsten",
+        "Pan-Chyr Yang",
+        "H Chen",
+        "Elizabeth A. Platz",
+        "Lindsay M. LaFave",
+        "Karl Smith-Byrne",
+        "Mariam Jamal-Hanjani",
+        "Kevin Litchfield",
+        "Nuno R. Nene",
+        "Nicholas McGranahan",
+        "Eva Grönroos",
+        "W. Hill",
+        "Clare E. Weeden",
+        "Charles Swanton"
+      ],
+      "doi": "10.1016/j.cell.2026.05.005",
+      "pages": "3903-3921.e26"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.005",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.005"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-01T20:49:19.018122+00:00",
+    "source": "openalex"
+  }
+}
