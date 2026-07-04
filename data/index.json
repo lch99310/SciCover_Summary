@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-01T20:50:41.733356+00:00",
+  "lastUpdated": "2026-07-04T20:09:07.099711+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-03",
+      "journal": "Political Geography",
+      "date": "2026-07-03",
+      "path": "articles/2026/07/political-geography-2026-07-03.json",
+      "title_zh": "臨時工不是過渡，而是結構：揭秘跨國治理中的「制度性不穩」",
+      "title_en": "The Permanent Temporariness: How Global Governance Manufactures Precarity",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-03-cover.jpg"
+    },
     {
       "id": "science-2026-06-25-02",
       "journal": "Science",
@@ -11,6 +20,15 @@
       "cover_url": "data/images/science/science-2026-06-25-02-cover.jpg"
     },
     {
+      "id": "science-2026-06-25-03",
+      "journal": "Science",
+      "date": "2026-06-25",
+      "path": "articles/2026/06/science-2026-06-25-03.json",
+      "title_zh": "打破極限：單分子在表面也能達到「傅里葉極限」光譜解析",
+      "title_en": "Breaking the Barrier: Single Molecules on Surfaces Reach the Fourier Limit",
+      "cover_url": "data/images/science/science-2026-06-25-03-cover.jpg"
+    },
+    {
       "id": "science-2026-06-25",
       "journal": "Science",
       "date": "2026-06-25",
@@ -18,6 +36,15 @@
       "title_zh": "當風暴來臨，誰為真理把舵？美國科學界的守護者與危機",
       "title_en": "When the Storm Hits, Who Steers the Truth? The Guardian and Crisis of American Science",
       "cover_url": "data/images/science/science-2026-06-25-cover.jpg"
+    },
+    {
+      "id": "nature-2026-06-24",
+      "journal": "Nature",
+      "date": "2026-06-24",
+      "path": "articles/2026/06/nature-2026-06-24.json",
+      "title_zh": "看不見的致命訊號：深度學習如何從心電圖中揪出猝死預兆",
+      "title_en": "The Silent Killer’s Signature: How Deep Learning Finds a New ECG Biomarker for Sudden Cardiac Death",
+      "cover_url": "data/images/nature/nature-2026-06-24-cover.jpg"
     },
     {
       "id": "political-geography-2026-06-24-02",
@@ -360,6 +387,15 @@
       "title_zh": "城市風暴的多元響應：解開城市化如何影響不同類型暴雨之謎",
       "title_en": "Divergent Urban Storm Responses: How City Development Affects Different Types of Rainfall",
       "cover_url": "data/images/nature/nature-2026-05-20-cover.jpg"
+    },
+    {
+      "id": "cell-2026-05-15",
+      "journal": "Cell",
+      "date": "2026-05-15",
+      "path": "articles/2026/05/cell-2026-05-15.json",
+      "title_zh": "給免疫細胞裝上「自動斷電開關」：CAR-T療法的新曙光",
+      "title_en": "Installing an 'Auto-Shutoff' Switch for Immune Cells: The New Dawn of CAR-T Therapy",
+      "cover_url": "data/images/cell/cell-2026-05-15-cover.jpg"
     },
     {
       "id": "science-2026-05-14",

@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-07-03",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-03",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "臨時工不是過渡，而是結構：揭秘跨國治理中的「制度性不穩」",
+      "en": "The Permanent Temporariness: How Global Governance Manufactures Precarity"
+    },
+    "summary": {
+      "zh": "【總結】本文提出「制度性不穩定」（institutional precarity）這一概念，指出臨時勞動力遷移（TLM）已從邊緣政策轉變為全球勞動治理的核心結構。研究認為，不穩定並非政策的意外副作用，而是一種有意識的多尺度控制機制，旨在通過分散責任和製造依賴來維持勞動力的靈活性與低成本。\n\n【研究問題】現有文獻多聚焦於移民個人的脆弱經歷，卻忽視了治理體系本身如何生產這種不穩定。文章探討的關鍵缺口在於：不同層級的行為者（從國際組織到私人招聘中介）如何通過互動，將法律地位的不確定性轉化為結構性的勞動控制？理解這一點對於揭示現代資本主義下勞動剝削的制度根源至關重要。\n\n【研究方法】作者採用多尺度分析框架，結合了對國際勞工組織（ILO）及全球工会專家的深度訪談、政策諮詢會的田野觀察，以及歷史檔案研究。通過聚焦招聘、住房和技能三大政策領域，研究揭示了這些看似獨立的環節如何串聯成價值循環，系統性地將社會再生產成本外部化給移民及其原籍國。\n\n【結果】研究發現，招聘協議（如雙邊勞動協議）雖標榜透明，卻因監管碎片化而加劇債務束縛；住房政策則透過集體宿舍制度模糊工作與生活的界線，強化控制；技能體系則將培訓成本轉嫁給南方國家，北方國家則攫取剩餘價值。例如英國季節工人計劃中，移民承擔高昂費用並被特定國籍篩選，體現了基於地緣政治的勞動階級化。這證明不穩定是治理設計的產物，而非執行失誤。",
+      "en": "**Summary:** This paper introduces \"institutional precarity\" as a core structural feature of transnational labor governance, arguing that temporary labor migration (TLM) schemes are no longer peripheral fixes but deliberate mechanisms of control. The authors contend that precarity is not an accidental byproduct of deregulation but a calculated outcome of multi-scalar governance that organizes labor processes and social reproduction to ensure a flexible, dependent workforce.\n\n**Problem:** While existing literature often focuses on the individual vulnerabilities of migrants, there is a significant gap in understanding how governance architectures themselves produce this instability. The article addresses the question of how various actors—from international organizations to private recruiters—interact across different scales to create a system where legal uncertainty and dependency are structurally embedded. Solving this is crucial to moving beyond blaming \"bad apples\" and recognizing precarity as a systemic feature of neoliberal migration management.\n\n**Approach:** Adopting a multi-scalar perspective, the authors analyze the intersection of labor process theory and social reproduction. Their methodology combines semi-structured interviews with experts from the ILO and global trade unions, participant observation at policy consultations, and archival research. By examining three critical policy domains—recruitment, housing, and skills—the study traces how value circuits are created and how responsibilities are dispersed to maintain migrant vulnerability across borders.\n\n**Results:** The findings reveal that institutional precarity is engineered through specific policy designs. In recruitment, bilateral agreements often fail to prevent debt bondage due to fragmented oversight, as seen in the UK’s Seasonal Worker Scheme where costs are shifted to migrants. Housing policies, such as dormitory regimes, blur the line between work and life to enforce discipline. Meanwhile, skills regimes allow destination countries to externalize training costs to origin nations while capturing surplus value. For instance, the selection of Central Asian workers for the UK scheme highlights how geopolitical hierarchies are used to cultivate a \"compliant\" labor force, proving that precarity is a feature, not a bug, of the system."
+    },
+    "keyArticle": {
+      "title": "Interrogating temporary labour migration schemes: A multiscalar perspective on institutional precarity",
+      "authors": [
+        "Ioana Jipa-Muşat",
+        "Nicola Piper"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103599",
+      "pages": "103599"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103599",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103599"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-04T20:08:55.400347+00:00",
+    "source": "openalex"
+  }
+}

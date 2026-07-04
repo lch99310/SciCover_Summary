@@ -1,0 +1,57 @@
+{
+  "id": "science-2026-06-25-03",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6805",
+  "date": "2026-06-25",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-25-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "打破極限：單分子在表面也能達到「傅里葉極限」光譜解析",
+      "en": "Breaking the Barrier: Single Molecules on Surfaces Reach the Fourier Limit"
+    },
+    "summary": {
+      "zh": "【總結】科學家首次成功在單個吸附於表面的分子上實現「傅里葉極限」的光譜分辨率，這意味著測得的譜線寬度僅由分子激發態的自然壽命決定，而非環境干擾。這項突破標誌著表面科學進入了一個全新的精密測量時代。\n\n【研究問題】傳統觀點認為，分子吸附在固體表面時，會因環境雜質、晶格缺陷及熱漲落導致能級展寬，難以獲得高解析度的光譜。過去的研究受限于表面污染和技術瓶頸，無法觸及這一理論極限，限制了我們對單分子量子態的精確操控與理解。\n\n【研究方法】研究團隊開發了一種創新的「自清潔」技術：在低溫真空下，讓蒽（Anthracene）晶體表面自然昇華，露出原子級平整的新表面。隨後，在液氦溫度下，將二苯並碲烯（DBT）分子蒸鍍其上。利用超高分辨率螢光激發光譜和超分辨顯微術，精確測量單分子的發光特性與空間取向。\n\n【結果】實驗測得單個DBT分子的零聲子線寬度僅為18-23 MHz，完美符合傅里葉極限，比過去最佳記錄提高了數千倍。研究還揭示了分子在不同晶軸方向的穩定取向，並通過氣相光譜對比，精確計算出表面范德瓦耳斯力引起的頻移。這為未來結合掃描探針顯微術與光譜學、探索納米尺度的量子相互作用奠定了堅實基礎。",
+      "en": "**Summary:** Researchers have achieved the elusive \"Fourier limit\" in spectroscopy for single molecules adsorbed on a surface, meaning the observed linewidth is dictated solely by the molecule's natural lifetime rather than environmental noise. This milestone opens a new era of precision surface science.\n\n**Problem:** It has long been believed that molecules adsorbed on solid surfaces suffer from significant spectral broadening due to impurities, lattice defects, and thermal fluctuations. Previous attempts failed to reach the fundamental limit because surface contamination and technical constraints obscured the intrinsic quantum properties of individual molecules.\n\n**Approach:** The team devised a novel \"self-cleaning\" method where anthracene crystals sublime in a vacuum at cryogenic temperatures to expose a pristine, atomically flat surface. Dibenzoterrylene (DBT) molecules were then deposited in situ. Using ultra-high-resolution fluorescence excitation spectroscopy and super-resolution microscopy at liquid helium temperatures, they isolated and measured the quantum transitions of single molecules.\n\n**Results:** The study recorded zero-phonon line widths of just 18-23 MHz, perfectly matching the Fourier limit and surpassing previous surface studies by over 5,000 times. The researchers identified stable molecular orientations along crystal axes and quantified the frequency shift caused by van der Waals interactions with the surface. These findings pave the way for combining scanning probe microscopy with high-resolution spectroscopy to probe molecular quantum mechanics at the nanoscale."
+    },
+    "keyArticle": {
+      "title": "Nano–electron volt Fourier-limited transition of a single surface-adsorbed molecule",
+      "authors": [
+        "Masoud Mirzaei",
+        "Alexey Shkarin",
+        "Burak Gurlek",
+        "Johannes Zirkelbach",
+        "Ashley J. Shin",
+        "Irena Deperasińska",
+        "Β. Kozankiewicz",
+        "Tobias Utikal",
+        "Stephan Götzinger",
+        "Vahid Sandoghdar"
+      ],
+      "doi": "10.1126/science.aeg5014",
+      "pages": "1384-1389"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-25-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeg5014",
+      "doi": "https://doi.org/10.1126/science.aeg5014",
+      "preprint": "http://arxiv.org/abs/2510.14999"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-04T20:06:50.042630+00:00",
+    "source": "openalex"
+  }
+}

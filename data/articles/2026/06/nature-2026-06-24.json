@@ -1,0 +1,51 @@
+{
+  "id": "nature-2026-06-24",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8121",
+  "date": "2026-06-24",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "看不見的致命訊號：深度學習如何從心電圖中揪出猝死預兆",
+      "en": "The Silent Killer’s Signature: How Deep Learning Finds a New ECG Biomarker for Sudden Cardiac Death"
+    },
+    "summary": {
+      "zh": "【總結】\n本研究揭示了一種全新的「心電圖生物標記」，能精準預測突發性心臟死亡。研究團隊利用深度學習分析瑞典大規模人群數據，發現傳統指標（左心室射血分數，LVEF）漏掉了大部分高風險患者，而新模型鎖定的2.2%高危險群，其年度猝死率高達7.0%，顯著優於傳統標準。更令人驚嘆的是，透過生成式AI還原波形，科學家首次直觀看到了一個此前未被描述的特定波形特徵，並初步驗證了其與心肌纖維化的關聯，為預防猝死開闢了新途徑。\n\n【研究問題】\n儘管植入型心臟復律除顫器（ICD）已存在數十年，但每年仍有大量患者因無法預測風險而在院外猝死。目前的黃金標準——測量心臟超聲波中的LVEF值，存在嚴重缺陷：它既會誤判許多低風險患者接受不必要的植入手術（假陽性），又會錯過大多數真正發生猝死的患者（假陰性）。由於其他高級影像檢查成本高昂且難以普及，臨床急需一種既能低成本篩選大衆，又能提供精確風險評估的新方法。\n\n【研究方法】\n研究人員將瑞典某個地區所有患者的日常心電圖（ECG）數據與死亡證明書及電子健康記錄進行大規模關聯，訓練了一個深度學習模型。為了確保結果的嚴謹性，他們設立了一個「數據保險箱」，在模型訓練完成並獲得期刊 provisional acceptance 後才打開驗證。此外，他們結合生成式AI，將低風險心電圖逐步變形為高風險波形，從中提取出模型所關注的具體形態特徵。最後，該模型未經任何調整，直接應用於美國和台灣的獨立數據集進行外部驗證，並通過回歸分析比較了植入除顫器對不同風險群體的影響。\n\n【結果】\n新模型在瑞典數據中表現卓越，預測猝死的心臟病學受試者工作曲線下面積（AUC）高達0.872，遠超傳統風險評分。在美國數據中，該模型零樣本預測室性心律失常的AUC達到0.822；在台灣數據中，成功區分了未來的心律失常猝死與非心律失常死亡，證明了其高度特異性。數據顯示，86.1%被模型標記為高風險的患者，其LVEF值完全正常。更關鍵的是，對於符合高風險標準且植入了除顫器的患者，其預期死亡率降低了54.4%，證實了該標記能識別出真正受益於干預的人群。",
+      "en": "**Summary:**\nThis study uncovers a novel ECG biomarker capable of precisely predicting sudden cardiac death (SCD). By applying deep learning to population-wide Swedish data, the team identified a high-risk group comprising just 2.2% of the population, yet exhibiting a 7.0% annual SCD rate—significantly higher than patients flagged by the traditional gold standard, Left Ventricular Ejection Fraction (LVEF). Remarkably, 86.1% of these high-risk patients had normal LVEF levels. Using generative AI to visualize the waveform patterns the model relies on, researchers isolated a previously undescribed morphological feature in the ECG and hypothesized a link to diffuse myocardial fibrosis, offering a powerful new tool for preventing sudden cardiac events.\n\n**Problem:**\nDespite the availability of implantable cardioverter-defibrillators (ICDs) since 1980, hundreds of thousands of people still die annually from sudden cardiac arrhythmias because doctors cannot reliably predict who is at risk. The current clinical standard, LVEF (measured via ultrasound), is flawed: it misses most SCD victims (false negatives) and flags two-thirds of implanted devices that never fire (false positives). While advanced imaging exists, it is too costly and complex for broad screening. There is an urgent need for a scalable, inexpensive, and highly accurate method to identify those who truly need life-saving defibrillators.\n\n**Approach:**\nThe researchers trained a deep learning model on a massive dataset linking everyday ECGs from an entire Swedish region to death certificates and electronic health records. To ensure rigor, they used a strict 'lockbox' validation protocol, withholding a portion of the data until after model development. They combined this predictive model with a generative AI approach to morph low-risk ECGs into high-risk ones, visually isolating the specific waveform changes the algorithm detects. The model was then tested without fine-tuning ('zero-shot') on independent datasets from the US and Taiwan to verify its generalizability and specificity across different healthcare systems and populations.\n\n**Results:**\nThe model achieved an AUC of 0.872 for predicting SCD in Sweden, vastly outperforming traditional risk scores. In the US, it predicted ventricular arrhythmias with an AUC of 0.822, and in Taiwan, it successfully distinguished arrhythmic arrests from non-arrhythmic ones, confirming its specificity. Crucially, the high-risk group identified by the ECG model had a much higher SCD rate (7.0%) than those with reduced LVEF (4.6%). Observational analysis revealed that high-risk patients who received defibrillators had a 54.4% reduction in mortality compared to expectations, suggesting that this new biomarker effectively identifies patients who benefit most from intervention, potentially saving countless lives."
+    },
+    "keyArticle": {
+      "title": "An ECG biomarker for sudden cardiac death discovered with deep learning",
+      "authors": [
+        "Ziad Obermeyer",
+        "Alexander Schubert",
+        "James Ross",
+        "Sendhil Mullainathan",
+        "Markus Lingman"
+      ],
+      "doi": "10.1038/s41586-026-10674-6",
+      "pages": "210-218"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10674-6",
+      "doi": "https://doi.org/10.1038/s41586-026-10674-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-04T20:07:20.961246+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cell-2026-05-15",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "13",
+  "date": "2026-05-15",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-05-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "給免疫細胞裝上「自動斷電開關」：CAR-T療法的新曙光",
+      "en": "Installing an 'Auto-Shutoff' Switch for Immune Cells: The New Dawn of CAR-T Therapy"
+    },
+    "summary": {
+      "zh": "【總結】加州大學斯坦福大學團隊在《Cell》發表突破性研究，開發出名為「活化誘導釋放」（Activation-Induced Release, AIR）的基因開關技術。這項技術利用人體內的ADAM17蛋白酶，為免疫細胞（特別是CAR-T細胞）賦予了自主調節表面受體強度的能力。這不僅解決了CAR-T療法中常見的細胞疲勞與過度活化問題，更為下一代精準腫瘤免疫治療奠定了堅實的基礎。\n\n【研究問題】儘管CAR-T細胞療法在血液腫瘤治療中成效卓著，但許多患者面臨細胞在體內迅速「疲憊」（exhaustion）的困境。傳統上，為了降低副作用，科學家依賴外部藥物來暫時抑制T細胞活性，但這會干擾治療的連續性。如何讓免疫細胞具備「自我感知」與「自我調節」的能力，在過度活躍時自動減少受體數量，而在需要時恢復活力，一直是領域內的巨大挑戰。\n\n【研究方法】研究團隊首先透過大規模篩選，發現T細胞活化後，表面的CD62L蛋白會被ADAM17蛋白酶快速切割並脫落。他們從中提取出一個僅含15個胺基酸的微小序列，將其嵌入到CAR受體中，構建了AIR系統。隨後，他們在多種CAR-T細胞模型（包括針對白血病和骨肉瘤的模型）以及活體小鼠腫瘤模型中進行了嚴謹測試，並結合CRISPR基因編輯技術，將此機制應用於內源性蛋白，以驗證其廣泛的適用性與安全性。\n\n【結果】實驗顯示，AIR系統能根據T細胞活化的程度精確調控受體數量。對於因「基礎訊號過強」而易疲勞的CAR-T細胞，AIR顯著減少了細胞疲勞標記，使它們在腫瘤模型中展現出更強的殺傷力並延長了存活率；對於一般CAR-T細胞，AIR則能有效降低活化引起的細胞死亡，促進細胞擴增。此外，該系統還成功用於編寫「邏輯閘」，讓T細胞只在偵測到特定組合抗原時才展開攻擊，並實現了對內源性受體的自主控制。這標誌著CAR-T療法正邁向更智能、更可控的新紀元。",
+      "en": "**Summary:** Researchers from Stanford University published a landmark study in *Cell*, introducing a novel genetic switch called \"Activation-Induced Release\" (AIR). By harnessing the natural protease ADAM17, this technology empowers immune cells (specifically CAR-T cells) to autonomously regulate their surface receptor density. This breakthrough addresses the critical issue of T-cell exhaustion, paving the way for smarter, more durable cancer immunotherapies.\n\n**Problem:** While CAR-T cell therapy has revolutionized the treatment of blood cancers, a major hurdle remains: T cells often become \"exhausted\" or dysfunctional within the tumor microenvironment. Currently, scientists rely on external drugs to dampen T-cell activity, but this disrupts the continuous fight against cancer. The scientific community has long sought a way to engineer T cells with \"self-awareness\"—the ability to automatically reduce receptor expression when overstimulated to prevent burnout, while maintaining potency when needed.\n\n**Approach:** The team conducted a massive screen of the T-cell surfaceome and discovered that the protein CD62L is rapidly shed upon T-cell activation via the enzyme ADAM17. They isolated a tiny 15-amino-acid sequence responsible for this shedding and embedded it into CAR constructs to create the AIR platform. They rigorously tested this system across various CAR-T models, including those targeting leukemia and osteosarcoma, in both in vitro settings and living mouse models. Furthermore, they utilized CRISPR gene-editing to integrate this mechanism into endogenous proteins, demonstrating its versatility beyond just artificial receptors.\n\n**Results:** The AIR system proved highly effective. For CAR-T cells prone to exhaustion due to high \"tonic signaling,\" AIR significantly reduced exhaustion markers and improved tumor clearance and survival in mice. For standard CAR-T cells, AIR minimized activation-induced cell death and enhanced expansion. Crucially, the modularity of AIR allowed researchers to build \"logic gates,\" enabling T cells to target tumors only when specific antigen combinations were present, thereby sparing healthy tissue. This work establishes AIR as a foundational tool for next-generation, self-regulating cell therapies."
+    },
+    "keyArticle": {
+      "title": "Cell-autonomous control of CAR signaling and receptor shedding via ADAM17-mediated proteolysis",
+      "authors": [
+        "Jeremy Bjelajac",
+        "Adrià Cañellas‐Socias",
+        "Preeti Nehra",
+        "Kevin Reynolds",
+        "Meena Malipatlolla",
+        "Naiara Martínez-Vélez",
+        "Diane C. Manjarrez",
+        "Katie Ho",
+        "Peng Xu",
+        "Jennifer L. Hamad",
+        "Sean A. Yamada-Hunter",
+        "Louai Labanieh",
+        "Elena Sotillo",
+        "Crystal L. Mackall"
+      ],
+      "doi": "10.1016/j.cell.2026.04.037",
+      "pages": "3883-3902.e23"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-05-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.04.037",
+      "doi": "https://doi.org/10.1016/j.cell.2026.04.037"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-04T20:08:07.612474+00:00",
+    "source": "openalex"
+  }
+}
