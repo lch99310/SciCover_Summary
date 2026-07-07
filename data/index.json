@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-04T20:09:07.099711+00:00",
+  "lastUpdated": "2026-07-07T20:57:19.413590+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-05",
+      "journal": "Political Geography",
+      "date": "2026-07-05",
+      "path": "articles/2026/07/political-geography-2026-07-05.json",
+      "title_zh": "英國如何將邊境「外包」？從殖民遺緒看現代移民管理的新舊手法",
+      "title_en": "Outsourcing the Border: How the UK's Modern Migration Policies Echo Colonial Strategies",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-05-cover.jpg"
+    },
     {
       "id": "political-geography-2026-07-03",
       "journal": "Political Geography",
@@ -81,6 +90,15 @@
       "title_zh": "戰火下的荒野：烏克蘭戰爭如何重塑野生動物的晝夜節奏",
       "title_en": "Wildlife in the Crosshairs: How War Reshaped Animal Behavior in Chernobyl",
       "cover_url": "data/images/science/science-2026-06-18-cover.jpg"
+    },
+    {
+      "id": "nature-2026-06-17-02",
+      "journal": "Nature",
+      "date": "2026-06-17",
+      "path": "articles/2026/06/nature-2026-06-17-02.json",
+      "title_zh": "量子計算新紀元：Quantinuum Helios 如何以 98 個離子重寫規則",
+      "title_en": "The Helios Breakthrough: How a 98-Qubit Trap Defies Classical Limits",
+      "cover_url": "data/images/nature/nature-2026-06-17-02-cover.jpg"
     },
     {
       "id": "nature-2026-06-17",
@@ -398,6 +416,15 @@
       "cover_url": "data/images/cell/cell-2026-05-15-cover.jpg"
     },
     {
+      "id": "science-2026-05-14-02",
+      "journal": "Science",
+      "date": "2026-05-14",
+      "path": "articles/2026/05/science-2026-05-14-02.json",
+      "title_zh": "深海萬米的生態奇蹟與極限科技：從吃松花粉的微生物到耐高溫記憶體",
+      "title_en": "Life at the Abyss and Limits of Tech: From Pollen-Eating Microbes to Heat-Resistant Memory",
+      "cover_url": "data/images/science/science-2026-05-14-02-cover.jpg"
+    },
+    {
       "id": "science-2026-05-14",
       "journal": "Science",
       "date": "2026-05-14",
@@ -405,6 +432,15 @@
       "title_zh": "亞馬遜疏浚法令暴露治理漏洞：河流權利運動如何改變巴西環境保護",
       "title_en": "Amazon Dredging Law Exposes Governance Gaps: How River Rights Could Transform Environmental Protection",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-05-12",
+      "journal": "Cell",
+      "date": "2026-05-12",
+      "path": "articles/2026/05/cell-2026-05-12.json",
+      "title_zh": "細胞的電流羅盤：破解傷口癒合的神秘訊號",
+      "title_en": "The Cell’s Electric Compass: Decoding the Secret Signal of Wound Healing",
+      "cover_url": "data/images/cell/cell-2026-05-12-cover.jpg"
     },
     {
       "id": "nature-2026-05-06-02",

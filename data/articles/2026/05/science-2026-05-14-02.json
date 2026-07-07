@@ -1,0 +1,63 @@
+{
+  "id": "science-2026-05-14-02",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6799",
+  "date": "2026-05-14",
+  "coverImage": {
+    "url": "data/images/science/science-2026-05-14-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "深海萬米的生態奇蹟與極限科技：從吃松花粉的微生物到耐高溫記憶體",
+      "en": "Life at the Abyss and Limits of Tech: From Pollen-Eating Microbes to Heat-Resistant Memory"
+    },
+    "summary": {
+      "zh": "【總結】本期《科學》雜誌展現了自然與社會科學的邊界突破。在深海最黑暗處，科學家發現依賴陸地松花粉生存的異養生物，顛覆了化能合成主導的傳統認知；同時，海溝斷層展現出令人驚嘆的「鐘錶式」地震規律。在技術前沿，人工智慧協助開發出能在100°C下穩定運作的鈣鈦礦太陽能電池，而新型存儲器更能在700°C極端環境下工作。這些研究不僅揭示了地球深處的生態秘密，更為能源、電子和醫療領域提供了應對極限挑戰的新方案。\n\n【研究問題】人類長期假設深海生態系統主要依賴海底熱液或冷泉的化學合成作用，但對於萬米級別海溝中究竟存在何種生命形式知之甚少。此外，隨著氣候變遷加劇，高海拔冰川融化導致河流改道加速，威脅下游基礎設施。在材料科學方面，如何在保持高效能的同時，解決鈣鈦礦太陽能電池不耐高溫以及常規記憶體無法適應極端環境的問題，是商業化與應用瓶頸所在。\n\n【研究方法】研究團隊駕駛載人潛水器深入克爾馬德克和海溝，採集9000至11000米深度的樣本進行物種鑑定與基因分析，並檢測其食物來源。針對斷層活動，科學家分析了跨越十餘年的海底地震儀數據，比對兩次大地震週期的震源機制。在工程領域，研究人員利用AI框架篩選分子組合以優化鈣鈦礦結構，並透過圖論和電子顯微鏡技術量化納米顆粒自組裝過程中的結構複雜性，從而建立新的穩定機制模型。\n\n【結果】研究證實深海生物多樣性遠超預期，發現大量絲狀原生動物和有孔蟲，其中異養生物直接攝食來自陸地的松花粉，顯示深海碳循環與地表存在密切聯繫。地震數據顯示，某些斷層每五年發生一次約為6級的地震，且主震前會出現持續數天的前震序列，證明斷層具有穩定的應力累積機制。技術上，新型鈣鈦礦電池在100°C下運行1000小時後效率維持在97%，而新開發的記憶體器件可在700°C下保持超過10億次切換壽命，為極端環境電子設備開闢了新途徑。",
+      "en": "**Summary:** This issue of *Science* highlights breakthroughs spanning the deep ocean to advanced materials. Researchers discovered heterotrophic organisms in the deepest trenches feeding on terrestrial pine pollen, overturning the assumption that chemosynthesis dominates these ecosystems. Meanwhile, deep-sea faults exhibit rhythmic, clockwork-like earthquake cycles. On the technology front, AI-driven design stabilized perovskite solar cells for high-temperature operation, and novel memristors were developed to function reliably above 700°C. These findings redefine our understanding of Earth's hidden ecosystems and offer robust solutions for extreme-environment engineering.\n\n**Problem:** It has long been assumed that deep-sea life relies primarily on chemosynthesis near hydrothermal vents. The actual biodiversity and energy sources in the hadal zone (below 6,000 meters) remain largely unexplored. Additionally, perovskite solar cells promise high efficiency but fail under heat, and conventional memories degrade rapidly in extreme temperatures. Understanding these gaps is crucial for mapping global carbon cycles and advancing renewable energy and electronics for harsh environments like space or geothermal sites.\n\n**Approach:** Scientists used manned submersibles to collect samples from depths of 9,000 to 11,000 meters in the Kermadec and Mariana trenches, analyzing species morphology and isotopic signatures to trace food sources. For seismology, researchers compared ocean-bottom seismometer data from a 20-year span to identify patterns in fault slip cycles. In materials science, an AI framework screened molecular additives to stabilize perovskite structures, while graph theory was applied to quantify the assembly of gold nanoparticles, linking structural order to plasmonic performance and thermal resilience.\n\n**Results:** The study revealed a diverse fauna dominated by filamentous protists and forams, with significant evidence of heterotrophs consuming pine pollen washed from land, indicating a vital link between surface and deep-ocean carbon cycles. Seismic analysis showed that specific fault segments rupture every five years with predictable foreshocks, acting as barriers that regulate stress. Technologically, the new perovskite cell retained 97% of its 25% efficiency after 1,000 hours at 100°C, and the new memristor operated above 700°C with over 10^9 switching cycles, marking a leap forward for high-temperature electronics."
+    },
+    "keyArticle": {
+      "title": "In Science Journals",
+      "authors": [
+        "Sacha Vignieri",
+        "Angela Hessler",
+        "Phil Szuromi",
+        "Madeleine Seale",
+        "Marc S. Lavine",
+        "Yury Suleymanov",
+        "Christiana N. Fogg",
+        "Leslie Ferrarelli",
+        "Bianca Lopez",
+        "Michael A. Funk",
+        "Jack Huang",
+        "Priscilla N. Kelly",
+        "Stella M. Hurtley",
+        "Ekeoma Uzogara",
+        "Yevgeniya Nusinovich",
+        "Jelena Stajic",
+        "Melissa Norton"
+      ],
+      "doi": "10.1126/science.aei7753",
+      "pages": "709-711"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-05-14-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aei7753",
+      "doi": "https://doi.org/10.1126/science.aei7753"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-07T20:46:45.538309+00:00",
+    "source": "openalex"
+  }
+}

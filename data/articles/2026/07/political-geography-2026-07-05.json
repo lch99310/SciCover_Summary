@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-07-05",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-05",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "英國如何將邊境「外包」？從殖民遺緒看現代移民管理的新舊手法",
+      "en": "Outsourcing the Border: How the UK's Modern Migration Policies Echo Colonial Strategies"
+    },
+    "summary": {
+      "zh": "【總結】本文揭示英國當代移民政策如何延續殖民邏輯，透過將邊境管控「外包」至其主權領土之外的區域，以管理不受歡迎的移民。研究聚焦於盧安達、迪戈加西亞、Bibby Stockholm 船屋和加萊四個案例，闡明這些地點如何成為英國轉移邊境責任、阻絕脆弱移民進入本土的工具。作者認為，這種「外化」邊境的做法，不僅是為了國家安全或主權，更是對過往帝國空間配置和權力關係的重塑，旨在維護一個想像中的「白人英國」。\n\n【研究問題】文章探討英國如何利用其主權領土以外的空間（無論是前殖民地、海外領地或合作國家）來管理和驅逐「不受歡迎」的移民，即「邊境外化」。過去的研究多關注單一案例或特定政策，但忽略了這些做法背後深層的、持續存在的殖民邏輯。本研究旨在釐清英國當代移民政策與其歷史上的殖民遺緒之間的關聯，解釋為何這些看似新穎的政策，實則承襲了帝國時代的強制遷移、隔離和控制模式，並探究其對全球移民治理的影響。\n\n【研究方法】作者採用了案例研究法，深入分析了四個英國移民外化政策的具體實踐地點：盧安達（作為合作國家）、迪戈加西亞（英屬印度洋領地，現存殖民地）、Bibby Stockholm 船屋（臨時性「人造」空間），以及法國加萊（作為邊境中轉站）。透過檢視這些地點的歷史背景、政策執行和空間配置，作者追溯了英國如何利用這些「境外的」空間來實現邊境外化，並將這些實踐置於殖民主義、新殖民主義和帝國主義的理論框架下進行分析，強調了地理空間的轉變與殖民邏輯的演變如何相互作用。\n\n【結果】研究發現，英國透過盧安達的協議（儘管受阻）、迪戈加西亞對尋求庇護者的不當對待、Bibby Stockholm 船屋惡劣的居住條件，以及加萊對移民的隔離與邊緣化，成功地將邊境「外推」至英國本土之外。這些案例顯示，英國利用了地理上的遙遠性（如島嶼）、政治上的不對等關係（如與盧安達），以及創造臨時性空間（如船屋），來規避其在國際法和人權上的義務。這些「開合循環」的政策操作，暴露了英國試圖在維持國家主權的同時，將責任轉嫁給他者，並在地理和社會層面將「不受歡迎」的移民排除在國家想像之外，延續了殖民時代的空間控制與社會分層邏輯。",
+      "en": "**Summary:** This article reveals how contemporary British migration policy perpetuates colonial logic by 'outsourcing' border control to spaces beyond its sovereign territory to manage 'undesirable' migrants. Focusing on four case studies—Rwanda, Diego Garcia, the Bibby Stockholm barge, and Calais—the research demonstrates how these locations serve as tools for the UK to externalize border responsibilities and prevent vulnerable migrants from reaching the metropole. The author argues that this 'externalization' of borders is not merely about national security or sovereignty, but a reshaping of imperial spatial arrangements and power relations aimed at preserving an imagined 'White Britain'.\n\n**Problem:** The article investigates how the UK utilizes spaces outside its sovereign territory (whether former colonies, overseas territories, or partner nations) to manage and deport 'undesirable' migrants, a practice termed 'border externalization'. Previous research often examined single cases or specific policies, overlooking the underlying, persistent colonial logic. This study aims to clarify the connection between contemporary British migration policies and its historical colonial legacy, explaining how seemingly novel policies inherit imperial-era practices of forced removal, segregation, and control, and exploring their impact on global migration governance.\n\n**Approach:** The author employs a case study methodology, deeply analyzing four specific sites of UK migration externalization: Rwanda (as a partner nation), Diego Garcia (British Indian Ocean Territory, a current colony), the Bibby Stockholm barge (a temporary 'artificial' space), and Calais, France (a border transit point). By examining the historical context, policy implementation, and spatial arrangements of these locations, the author traces how the UK uses these 'offshore' spaces for border externalization, analyzing these practices within theoretical frameworks of colonialism, neo-colonialism, and imperialism, emphasizing the interplay between shifting geographies and evolving colonial logics.\n\n**Results:** The research finds that the UK successfully 'pushes out' its borders through the Rwanda agreement (despite setbacks), mistreatment of asylum-seekers on Diego Garcia, the harsh conditions on the Bibby Stockholm barge, and the segregation and marginalization of migrants in Calais. These cases illustrate how the UK leverages geographical remoteness (e.g., islands), political asymmetry (e.g., with Rwanda), and the creation of temporary spaces (e.g., barges) to evade international legal and human rights obligations. These 'cycles of opening and closure' in policy reveal the UK's attempt to assert national sovereignty while transferring responsibility to others, spatially and socially excluding 'undesirable' migrants from the national imagination, thereby continuing colonial-era spatial control and social stratification."
+    },
+    "keyArticle": {
+      "title": "Migration and the metropole: The United Kingdom's colonial use of the offshore to externalize and manage migration",
+      "authors": [
+        "Kate Motluk"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103615",
+      "pages": "103615"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103615",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103615"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-07T20:57:12.380939+00:00",
+    "source": "openalex"
+  }
+}
