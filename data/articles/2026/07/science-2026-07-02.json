@@ -1,0 +1,72 @@
+{
+  "id": "science-2026-07-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6806",
+  "date": "2026-07-02",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "繞過自旋：銅氧化物界面激發軌道電流，讓反鐵磁體电阻暴增五十倍",
+      "en": "Bypassing Spin: Orbital Currents at Copper Oxide Interfaces Boost Magnetoresistance Fifty-Fold in Antiferromagnets"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《科學》雜誌的研究揭示了一種全新的磁電子學機制：利用氧化銅（Cu*）表面產生的強大軌道電流，與氧化鈷（CoO）中未被淬滅的靜態軌道角動量直接相互作用。這種「軌道-軌道」耦合方式，使軌道霍爾磁阻效應（OMR）較傳統自旋霍爾磁阻效應（SMR）增強了超過五十倍。\n\n【研究問題】過去二十年來，自旋電子學依賴自旋電流控制磁矩，但自旋電流的產生依賴較弱的自旋-軌道耦合（SOC），效率受限。儘管理論預測軌道電流可產生比自旋電流大幾個數量級的效應，但由於常規磁性材料中的軌道角動量已被晶體場「淬滅」（即被抑制無法自由參與磁化），導致巨大的軌道電流無法有效與磁矩互動，必須先轉換為自旋電流，這造成了能量損耗與效率瓶頸。\n\n【研究方法】研究團隊在氧化鎂基板上生長出氧化鈷薄膜，並分別沉積鉑（Pt）和自然氧化的銅（Cu*）作為頂層。他們設計了Hall Bar結構，注入電流以產生軌道電流（來自Cu*）和自旋電流（來自Pt）。透過測量橫向電阻隨磁場掃掠的變化，特別是觀察奈爾矢量（Néel vector）在順磁-反鐵磁相變過程中的轉向，來量化磁阻效應。同時，他們利用α-氧化鐵（軌道角動量被淬滅的反鐵磁體）進行對照實驗，並透過第一性原理計算驗證軌道交換相互作用的強度。\n\n【結果】實驗發現，CoO/Cu*雙層膜的軌道霍爾磁阻（0.28%）是CoO/Pt自旋霍爾磁阻（0.0078%）的約36倍，且在低溫下差距擴大至50倍以上。更獨特的是，軌道電流引起的磁阻符號與自旋電流相反，這歸因於CoO中軌道四極矩動力學的異常。此外，厚度依賴性測試證實軌道電流主要源自Cu*表面的軌道拉什巴-埃德斯坦效應（OREE）。這證明直接利用軌道角動量互動是可行的，為開發超高能效、太赫茲頻率的反鐵磁記憶體與邏輯器件開闢了新途徑。",
+      "en": "**Summary:** This study published in *Science* unveils a transformative mechanism in spintronics: leveraging giant orbital currents generated at the surface of oxidized copper (Cu*) to interact directly with the unquenched static orbital angular momentum in cobalt oxide (CoO). This \"orbital-orbital\" coupling enhances the orbital Hall magnetoresistance (OMR) by more than fifty times compared to conventional spin-based methods.\n\n**Problem:** For decades, spintronics has relied on spin currents to control magnetization. However, generating spin currents depends on the weak relativistic spin-orbit coupling (SOC), limiting efficiency. While theoretical models predict orbital currents can be orders of magnitude larger, their practical application has been hindered because conventional magnets have \"quenched\" orbital moments—meaning the orbital angular momentum is suppressed and cannot effectively interact with the massive orbital currents generated. Researchers have had to convert orbital currents back into spin currents, negating the potential efficiency gains.\n\n**Approach:** The team epitaxially grew CoO thin films on MgO substrates and capped them with either Platinum (Pt), a standard spin current generator, or naturally oxidized Copper (Cu*), a potent orbital current source. They fabricated Hall bar devices to measure transverse resistance changes as a function of magnetic field sweeps, specifically targeting the spin-flop transition of the antiferromagnetic Néel vector. To isolate the orbital effect, they conducted control experiments using alpha-hematite (which lacks unquenched orbital moments) and performed first-principles density functional theory calculations to model the orbital exchange interactions.\n\n**Results:** The CoO/Cu* device exhibited an OMR of 0.28%, roughly 36 times larger than the 0.0078% SMR observed in CoO/Pt. This ratio increased to nearly 60-fold at lower temperatures. Crucially, the sign of the OMR was reversed compared to the SMR, a signature of unique orbital quadrupole dynamics in CoO. Thickness-dependent experiments confirmed the orbital current originates from the surface via the Orbital Rashba-Edelstein Effect. These findings demonstrate that bypassing spin conversion entirely allows for vastly more efficient manipulation of magnetic order, paving the way for ultra-low-power, terahertz-speed antiferromagnetic memory and logic devices."
+    },
+    "keyArticle": {
+      "title": "Orbital magnetoresistance in the antiferromagnet CoO driven by dynamic orbital angular momentum",
+      "authors": [
+        "Christin Schmitt",
+        "Sachin Krishnia",
+        "Mahmoud Zeer",
+        "Edgar Galindez‐Ruales",
+        "Mehak Loyal",
+        "J. Kohler",
+        "Luca Micus",
+        "Takashi Kikkawa",
+        "Hiroki Arisawa",
+        "Thibaud Denneulin",
+        "András Kovács",
+        "Renyou Xu",
+        "Duc Tran",
+        "Florian Kronast",
+        "Dongwook Go",
+        "Leonid V. Pourovskii",
+        "Rafal E. Dunin‐Borkowski",
+        "Timo Kuschel",
+        "Marjana Ležaić",
+        "Jairo Sinova",
+        "Eiji Saitoh",
+        "G. Jakob",
+        "Olena Gomonay",
+        "Yuriy Mokrousov",
+        "Mathias Kläui"
+      ],
+      "doi": "10.1126/science.adw1808",
+      "pages": "76-79"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw1808",
+      "doi": "https://doi.org/10.1126/science.adw1808",
+      "preprint": "https://arxiv.org/abs/2603.06425"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-10T20:18:07.133609+00:00",
+    "source": "openalex"
+  }
+}

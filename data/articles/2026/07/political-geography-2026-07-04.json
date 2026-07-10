@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-07-04",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-04",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "被偷走的風景：磁鐵如何揭開比斯開灣的工業傷痕",
+      "en": "Stolen Landscapes: How Magnets Reveal the Industrial Scars of the Bay of Biscay"
+    },
+    "summary": {
+      "zh": "【總結】本研究以巴斯克語「Ostu」（隱瞞與剝奪）為核心概念，透過具身地圖學方法，揭示比斯開灣海岸線在人類世背景下的雙重面貌：既是自然美景，也是工業廢棄物與海底電纜等隱形基礎設施的堆積場。研究打破了傳統地圖的靜態視角，證明地圖可以成為一種抵抗和揭示權力的美學實踐。\n\n【研究問題】傳統政治地理學往往忽視了「不可見」的基礎設施（如海底電纜）和物質痕跡（如工業渣滓），導致公眾對資本流動與環境剝削之間的連結缺乏認知。如何透過感官體驗與集體行動，將這些被刻意隱藏或遺忘的「偷走」的景觀重新帶入公共視野，是本文試圖解決的關鍵問題。\n\n【研究方法】作者開發了一套結合觸覺圖像、磁鐵實踐與協同漂移（dérive）的具身地圖學方法。研究團隊收集戈龍達特謝海灘含有鐵爐渣的黑沙，利用磁鐵使其移動並形成圖案，創造出「觸覺圖像」。隨後，通過集體徒步、聽覺敘事和互動工作坊，將參與者引導至現場，讓他們親身體驗並共同繪製這片被掩蓋的歷史，將抽象的資本流動轉化為可觸摸、可感知的物質經驗。\n\n【結果】研究發現，戈龍達特謝海灘的黑沙實為百年前鋼鐵廠傾倒的3000萬噸廢棄物之一部分，這些物質在潮汐作用下回歸岸邊，成為人類世的明確地質證據。透過磁鐵互動，研究者不僅揭示了物質的「Thing-power」（物體力量），更建立了一種非線性的、參與式的地圖框架。這種方法成功將隱形的基礎設施和工業傷痕具象化，為理解當代領土剝削提供了新的認識論工具，並啟發了集體環境行動的可能性。",
+      "en": "**Summary:** This study utilizes the Basque concept of *ostu* (concealment and theft) to investigate the Biscayan coast through embodied cartography. It reveals the paradoxical nature of the landscape as both a natural retreat and a repository for industrial waste and invisible digital infrastructure. By transforming mapping into an aesthetic and political practice, the research exposes how capital and extractivism operate beneath the surface of seemingly pristine environments, offering a new framework for understanding the material footprint of the Anthropocene.\n\n**Problem:** Conventional political geography often fails to account for the invisibility of critical infrastructures, such as submarine cables, and the material traces of extractivism, like industrial slag. There is a significant gap in understanding how these hidden elements shape territorial power and ecological reality. Addressing this is crucial because the opacity of these systems allows for unchecked extraction and obscures the socio-ecological impacts of late capitalism, leaving citizens disconnected from the material consequences of their consumption.\n\n**Approach:** The author employs an embodied cartographic methodology centered on haptic mapping, magnet-based practices, and collaborative *dérives* (drifts). Using black sand from Gorrondatxe beach—which contains magnetic foundry slag—the researcher creates interactive \"haptic images\" that defy static visual representation. The process involves collective walks along the coast, auditory narratives, and participatory workshops where participants use magnets to engage with the sand, physically manifesting the hidden histories of extraction and converting abstract data into tangible, sensory experiences.\n\n**Results:** The study identifies that approximately one million tons of the 30 million tons of industrial waste dumped off the coast have been returned to Gorrondatxe beach, forming distinct sedimentary layers and black sand rich in iron. The magnetic interaction with this sand revealed the \"thing-power\" of the material, demonstrating how non-human entities actively participate in shaping territorial memory. This approach successfully mapped the convergence of historical industrial extraction and contemporary digital infrastructure, providing a methodological model for revealing concealed power dynamics and fostering collective environmental awareness."
+    },
+    "keyArticle": {
+      "title": "Stolen and hidden [Ostutako Paisaiak].The material footprint of the Anthropocene on the Biscayan coast",
+      "authors": [
+        "Arantzazu Luzarraga"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103612",
+      "pages": "103612"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103612",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103612"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-10T20:24:29.933670+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "cell-2026-06-24",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "14",
+  "date": "2026-06-24",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "骨骼密碼解鎖：古老牙齒蛋白質揭示「納萊迪人」性別之謎，竟無男性蹤跡？",
+      "en": "Unlocking Ancient Secrets: Proteomic Analysis of Homo naledi Teeth Reveals No Male Markers, Challenging Assumptions"
+    },
+    "summary": {
+      "zh": "【總結】\n\n這項開創性的古蛋白質體學研究，透過分析20位「智人納萊迪人」（Homo naledi）的牙齒琺瑯質蛋白質，首次為這個已滅絕的人類物種的性別構成提供了關鍵線索。研究發現，在所有分析的樣本中，均未找到確鑿的男性標記，強烈暗示該樣本群體可能僅包含女性，或男性個體具有獨特的生理變異。這不僅加深了我們對H. naledi形態同質性的理解，也為古人類學研究開發出一種創新的、微創性的蛋白質分析方法。\n\n【研究問題】\n\nH. naledi 物種的化石標本呈現出驚人的形態均一性，尤其是在牙齒尺寸上，這引發了該物種是否為單一性別組成的疑問。然而，傳統的基於形態學的性別估計方法對於已滅絕物種存在局限性，而古DNA（aDNA）在溫暖氣候下保存不易。因此，本研究旨在利用先進的蛋白質體學技術，特別是針對牙齒琺瑯質中的蛋白質，來客觀、獨立地探究H. naledi的性別組成，以填補此前的研究空白，並驗證形態學觀察的可靠性。\n\n【研究方法】\n\n研究團隊從20位H. naledi個體（至少包含20個獨立個體）的23顆牙齒樣本中，採用微創性的酸蝕法提取琺瑯質蛋白質。利用質譜儀（MS）技術，他們專注於尋找與性別相關的蛋白質標記，特別是來自性別決定基因AMELX和AMELY的蛋白質片段。透過與已知人類和古人類樣本的比較，研究人員分析了蛋白質序列中的特定胺基酸變異，並開發了一套統計模型來評估個體為女性的機率。為確保結果的可靠性，研究同時排除了實驗技術偏差的可能性。\n\n【結果】\n\n分析結果顯示，在所有20位H. naledi個體中，均未檢測到任何可靠的AMELY（男性標記）蛋白質片段，儘管AMELX（兩性均有）蛋白質存在。進一步的統計分析顯示，其中19位個體被確認為女性的機率超過95%，其餘1位個體也傾向於女性。此外，研究還發現了兩種胺基酸變異：一種在AMELX蛋白中（F141），與其他人類物種不同；另一種在COL17A1蛋白中（P635），為一種較為原始的形態，也存在於其他古人類物種中。這些發現不僅支持了H. naledi 的高度同質性，也為其在人類演化樹上的獨特位置提供了蛋白質證據。",
+      "en": "**Summary:**\n\nThis groundbreaking paleoproteomic study analyzed dental enamel proteins from 20 individuals of *Homo naledi*, providing crucial insights into the sex composition of this extinct hominin species. The research found no definitive male markers in any of the analyzed specimens, strongly suggesting that the sampled group may consist solely of females or that any males possessed unique genetic variations. This discovery deepens our understanding of *H. naledi*'s morphological homogeneity and introduces an innovative, minimally destructive proteomic approach for paleoanthropological research.\n\n**Problem:**\n\nThe remarkable morphological homogeneity observed in *Homo naledi* fossils, particularly in dental dimensions, has raised questions about whether the species was exclusively single-sex. However, traditional morphology-based sex estimation is limited for extinct taxa, and ancient DNA (aDNA) is often poorly preserved in warmer climates. This study addresses this gap by employing advanced proteomic techniques on dental enamel proteins to objectively and independently investigate the sex of *H. naledi*, validating previous morphological hypotheses.\n\n**Approach:**\n\nThe research team extracted enamel proteins from 23 teeth belonging to a minimum of 20 *H. naledi* individuals using a micro-destructive acid-etching method. Mass spectrometry (MS) was used to identify sex-specific protein markers, focusing on peptides from the AMELX and AMELY genes. By comparing protein sequences with those from known human and hominin samples, researchers analyzed specific amino acid variations and developed a statistical model to estimate the probability of an individual being female. Technical biases were rigorously excluded to ensure data integrity.\n\n**Results:**\n\nThe analysis revealed no reliable AMELY (male marker) peptides in any of the 20 *H. naledi* individuals, despite the presence of AMELX (found in both sexes). Statistical probability analysis confirmed 19 individuals as female with over 95% certainty, while the remaining individual showed a strong female likelihood. Additionally, two amino acid substitutions were identified: a phenylalanine (F) at position 141 in AMELX, distinct from other human species, and a proline (P) at position 635 in COL17A1, an ancestral state also found in other hominins. These findings support *H. naledi*'s homogeneity and provide molecular evidence for its unique evolutionary position."
+    },
+    "keyArticle": {
+      "title": "Proteomic analysis of dental enamel from 20 Homo naledi individuals shows no male markers",
+      "authors": [
+        "Palesa P. Madupe",
+        "Alberto J. Taurozzi",
+        "Claire Koenig",
+        "Ioannis Patramanis",
+        "Fazeelah Munir",
+        "Marc R. Dickinson",
+        "Meaghan Mackie",
+        "Gaudry Troché",
+        "Glendon Parker",
+        "Pelagia Kyriakidou",
+        "Patrick Mahoney",
+        "Gina McFarlane",
+        "Bernhard Zipfel",
+        "Jürgen Cox",
+        "Kirsty Penkman",
+        "Lauren Schroeder",
+        "Rebecca R. Ackermann",
+        "J Olsen",
+        "J. Hawks",
+        "Lee Berger",
+        "Enrico Cappellini"
+      ],
+      "doi": "10.1016/j.cell.2026.05.044",
+      "pages": "4415-4424.e11"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.044",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.044"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-10T20:24:01.127827+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "nature-2026-07-08",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8122",
+  "date": "2026-07-08",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "讓水凝膠學會呼吸：顛覆傳統的透氣黑科技",
+      "en": "Teaching Hydrogels to Breathe: A Breakthrough in Breathable Biomedical Interfaces"
+    },
+    "summary": {
+      "zh": "【總結】\n研究團隊開發出一種全新的「粘彈性相分離」（VPS）技術，成功製作出具有超高空氣穿透性的水凝膠。這項突破解決了傳統水凝膠因含水量高而導致透氣性極差的長期痛點。這種新型水凝膠在保持70%高含水量的同時，氧氣穿透率達到了創紀錄的185 barrer，比傳統水凝膠高出十倍，為長期穿戴式醫療設備和組織工程開闢了全新可能。\n\n【研究問題】\n水凝膠廣泛應用於生物醫學界面，但其內部的水環境嚴重阻礙了氧氣和二氧化碳的交換，因為氣體在水中的溶解度和擴散率極低。過去為了提高透氣性，往往不得不犧牲水含量或結構穩定性，導致材料容易塌陷或無法長期使用。這使得長期佩戴的生物感測器和傷口敷料容易引發皮膚不適甚至損傷，亟需一種能同時兼顧高含水與高透氣的材料。\n\n【研究方法】\n研究人員靈感來自人體肺部，採用了自下而上的相工程策略。他們將疏水性二氧化矽氣凝膠微粒懸浮在水中，並誘發「粘彈性相分離」現象。由於水和氣凝膠顆粒在運動能力上的巨大差異，氣凝膠顆粒在水中形成了一種穩定、相互連接的三維網絡。隨後，研究人員將各種水凝膠前驅體注入這個空氣網絡中，固化後便得到了擁有無數微小空氣通道的新型水凝膠，無需犧牲大量水分即可實現高效氣體傳輸。\n\n【結果】\n實驗顯示，這種VPS水凝膠不僅氧氣穿透率創新高，還具備優異的機械柔韌性和生物相容性。在連續佩戴10天的測試中，它有效防止了汗液積聚，並促進皮膚水分和經皮水分流失量的恢復。此外，當用於心電圖（ECG）貼片時，即使在劇烈運動出汗的情況下，信號質量也遠超傳統產品。這項技術不僅適用於合成聚合物，還能兼容多種天然高分子，展現出極大的商業化和臨床應用潛力。",
+      "en": "**Summary:**\nResearchers have developed a novel strategy using \"viscoelastic phase separation\" (VPS) to create hydrogels with unprecedented air permeability. This breakthrough addresses the longstanding trade-off between high water content and gas exchange efficiency. By embedding a stable, air-rich network within the hydrogel matrix, the team achieved a record-breaking oxygen permeability of 185 barrer at 70% water content—a tenfold improvement over conventional hydrogels. This innovation paves the way for next-generation wearable biosensors and tissue engineering scaffolds that require sustained, efficient gas exchange.\n\n**Problem:**\nHydrogels are widely used in biomedical interfaces, but their high water content inherently limits gas diffusion, as non-polar gases like oxygen dissolve and diffuse poorly in water. Previous attempts to enhance permeability often compromised mechanical stability or required low water content, leading to skin irritation and discomfort during long-term wear. The inability of traditional hydrogels to support adequate respiration has been a major bottleneck for continuous health monitoring and advanced wound care applications.\n\n**Approach:**\nInspired by the lung's architecture, the team employed a bottom-up phase engineering approach. They suspended superhydrophobic silica aerogel particles in water and induced viscoelastic phase separation. Due to the vast difference in mobility between the water and the rigid aerogel particles, the particles formed a percolated, stable 3D network before settling. This aerogel network creates microscopic, non-collapsible air channels. Finally, various hydrogel precursors (synthetic, protein-based, or polysaccharide-based) were infused into this network, locking in the air-permeable structure while maintaining high hydration.\n\n**Results:**\nThe resulting VPS hydrogels demonstrated exceptional performance, with oxygen permeability exceeding commercial silicone hydrogels by more than four times. In physiological tests, wearing these hydrogels for 24 hours significantly improved skin recovery regarding transepidermal water loss and hydration levels compared to standard hydrogels. Furthermore, when used as electrodes for continuous ECG monitoring over 10 days, they maintained stable signal quality even during intense sweating, proving their potential to revolutionize long-term wearable health technology."
+    },
+    "keyArticle": {
+      "title": "Air-permeable hydrogels through viscoelastic phase separation of aerogels",
+      "authors": [
+        "Xiaoyun Yan",
+        "Shucong Li",
+        "Won Jun Song",
+        "Runze Li",
+        "Aarosh Dahal",
+        "Bastien F.G. Aymon",
+        "Haodong Hu",
+        "Deep Malu",
+        "Gabriella E. Carreira",
+        "Jingjing Wu",
+        "Gengxi Lu",
+        "Bolei Deng",
+        "Jiayi Liu",
+        "Siqin Yu",
+        "Shu Wang",
+        "Eric Lu",
+        "Hyunhee Lee",
+        "HJ Xu",
+        "Anqi Chen",
+        "Yuxing Yao",
+        "James H. Zhang",
+        "Chen Gong",
+        "Y W Sun",
+        "Jeong‐Yun Sun",
+        "David A. Weitz",
+        "Casey O’Brien",
+        "Yuhang Hu",
+        "Zachary P. Smith",
+        "Aditya Kumar",
+        "Xuanhe Zhao"
+      ],
+      "doi": "10.1038/s41586-026-10712-3",
+      "pages": "372-380"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10712-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10712-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-10T20:18:36.814629+00:00",
+    "source": "openalex"
+  }
+}
