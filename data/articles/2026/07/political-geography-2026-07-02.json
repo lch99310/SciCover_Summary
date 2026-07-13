@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-07-02",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-02",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "綠色氫氣的資金迷思：南非轉型正義的真實代價",
+      "en": "The Capital Current: How Finance is Steering South Africa’s Green Hydrogen Promise"
+    },
+    "summary": {
+      "zh": "【總結】本文揭開綠色氫氣轉型背後的資金運作邏輯。研究指出，儘管南非政策高調宣稱追求「轉型正義」，但實際發展卻被金融機制悄然主導。資金不僅決定技術路線與空間佈局，更在無形中劃分出知識階級，讓既有利益集團持續掌控話語權。這項研究提醒我們，若不重新審視資本的治理角色，綠色轉型恐將淪為新形式的資源掠奪。\n\n【研究問題】過去研究多聚焦綠色氫氣的技術可行性或環境影響，卻忽略了「錢從哪裡來、誰在決定怎麼花」這一核心權力結構。在資源有限的全球南方國家，政府必須在短期民生與長期低碳目標間抉擇，而國際資本的介入往往加深了殖民時期的不平等依賴。釐清金融如何塑造轉型方向，對確保弱勢群體不被邊緣化至關重要。\n\n【研究方法】作者採用關鍵現實主義框架，以南非為案例進行深度剖析。透過訪談24位政策制定者、投資人與產業專家，並交叉比對超過800項融資規則與政策文件，研究團隊還原了資金機制如何轉化為社會、技術與空間的重組。這種「由果溯因」的推演方法，巧妙避開了枯燥的數據堆疊，直接觸及資本運作的底層邏輯。\n\n【結果】分析顯示，政策文件中描繪的六大正義維度在現實中嚴重縮水。融資門檻與風險評估模型優先保障了投資回報率，導致社區參與流於形式、土地與水資源管理向資本傾斜。具體案例中，原本由社區掌握的談判權被國家委任的管理員接管，凸顯了資金如何重塑權力版圖。這意味著，真正的正義轉型必須削弱金融的治理霸權，或重新分配其背後的決策權力。",
+      "en": "**Summary:** This study pulls back the curtain on green hydrogen’s expansion in South Africa, revealing that capital—not climate ambition alone—steers the transition. While policy documents champion a just transition, the actual trajectory is quietly dictated by financial governance. The research demonstrates how investment logic creates epistemic hierarchies and reinforces extractive patterns, warning that without deliberate intervention, green technology may simply replicate historical inequalities under a new label.\n\n**Problem:** Previous scholarship has largely examined the technological feasibility or environmental footprint of hydrogen economies, overlooking the invisible architecture of funding that dictates where, how, and for whom these systems develop. In resource-constrained Global South nations, the tension between immediate social needs and long-term decarbonization is sharpened by external debt and uneven capital flows. Understanding how finance operates as a governance mechanism is essential to prevent green transitions from becoming vehicles for neo-colonial extraction.\n\n**Approach:** Grounded in critical realism, the author treats finance not merely as a resource but as a structural force that actively shapes technological niches. Through 24 in-depth interviews with policymakers, investors, and industry strategists, alongside a systematic mapping of over 800 financing mechanisms and policy documents, the study traces how abstract financial rules materialize into tangible social, technical, and spatial shifts. This retrospective analytical method uncovers the hidden causal chains linking capital allocation to developmental outcomes.\n\n**Results:** The research reveals a stark divergence between envisioned justice and lived reality. Financing criteria prioritize techno-economic viability and risk mitigation, effectively sidelining community voices and locking in export-oriented, capital-intensive corridors. In practice, this has meant that land negotiation authority was transferred from local communal associations to state-appointed administrators, while technology pathways were steered toward platinum group metals and incumbent energy firms. The findings suggest that steering transitions toward equity requires either diluting finance’s governing grip or fundamentally redistributing the power it concentrates."
+    },
+    "keyArticle": {
+      "title": "Realising South Africa's green hydrogen proposition: Finance and its implications for a just transition",
+      "authors": [
+        "Amanda-Leigh O'Connell"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103606",
+      "pages": "103606"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103606",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103606"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-13T20:13:36.094672+00:00",
+    "source": "openalex"
+  }
+}

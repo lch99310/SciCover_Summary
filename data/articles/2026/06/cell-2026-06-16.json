@@ -1,0 +1,70 @@
+{
+  "id": "cell-2026-06-16",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "14",
+  "date": "2026-06-16",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從常規切片解碼腫瘤生態：AI 如何讀懂癌細胞的「陣型」？",
+      "en": "Reading the Tumor’s Hidden Architecture: How AI Decodes Spatial Ecology from Routine Slides"
+    },
+    "summary": {
+      "zh": "【總結】\n腫瘤微環境如同人體內的一場微型生態戰役，細胞的站位與互動直接決定治療成敗。這項研究推出了一個名為 CANVAS 的人工智慧平台，能從最普通的蘇木精-伊紅染色（H&E）病理切片中，精準還原腫瘤內部的「生態棲地」。它不僅打破了高階空間蛋白質定序昂貴且難以普及的門檻，更將單細胞尺度的空間組學數據轉譯為臨床常規可讀的影像語言，為精準腫瘤學開闢了一條可規模化應用的新路徑。\n\n【研究問題】\n過去十年，科學家雖已確認腫瘤微環境的空間結構會影響免疫療效與預後，但解析這些結構高度依賴昂貴且複雜的空間定序技術，無法在數千名患者中常規開展。相較之下，H&E 病理切片雖是臨床診斷的黃金標準，卻僅能呈現細胞形態，缺乏分子與空間互動的深度資訊。如何在不增加臨床負擔的前提下，從常規切片中「讀取」高維度的空間生態資訊，成為精準醫療亟待突破的瓶頸。\n\n【研究方法】\n研究團隊首先利用 41 重空間蛋白質技術（CODEX），對 457 位非小細胞肺癌患者的組織進行解析，繪製出超過 1800 萬個細胞的高精度地圖。他們由此提煉出 10 種穩定存在的「細胞鄰里」（Cellular Neighborhoods），作為腫瘤微環境的空間標本。接著，開發 CANVAS 平台，結合基礎病理模型與多模態對齊技術，讓 AI 學習 H&E 切片中的組織紋理與細胞鄰地的對應關係。最後，這套模型在涵蓋 9 種癌症、逾 5000 名患者的獨立數據集中進行臨床驗證與預後建模。\n\n【結果】\nCANVAS 成功將常規病理影像轉譯為高精度的空間棲地圖譜，並進一步劃分出四類具有明確基因體特徵與預後差異的「空間生態型」。研究發現，特定細胞鄰里的空間排列能預測患者存活率，甚至發展出一套空間特徵指標，在缺乏 PD-L1 表現的腫瘤中也能準確預測免疫療效（PFS）。這項成果證實，AI 能從舊有病理資料中挖掘出新維度的生物標誌物，讓高階空間組學真正落地於大規模臨床決策。",
+      "en": "**Summary:**\nThe tumor microenvironment operates less like a chaotic mass and more like a finely tuned ecosystem, where the precise positioning of immune cells and stromal architects dictates therapeutic success or failure. This study introduces CANVAS, an artificial intelligence framework that decodes this hidden spatial logic directly from routine H&E histopathology slides. By bridging the gap between high-resolution spatial proteomics and everyday clinical practice, the platform transforms standard tissue sections into detailed ecological maps. It offers a scalable, cost-effective pathway to harness spatial biology for prognostic modeling and immunotherapy prediction, fundamentally changing how we read cancer pathology.\n\n**Problem:**\nFor years, spatial biology has remained largely confined to research laboratories due to the prohibitive cost and technical complexity of multiplexed imaging technologies. While conventional H&E staining remains the bedrock of cancer diagnosis, it captures only cellular morphology, leaving the intricate three-dimensional dialogue between tumor cells, immune infiltrates, and stromal networks invisible. Clinicians lack a practical tool to extract this spatial dimension from existing archival slides, creating a critical bottleneck in translating spatial genomics into routine precision oncology.\n\n**Approach:**\nTo solve this, researchers first constructed a massive spatial atlas using CODEX multiplexed protein imaging across 457 non-small cell lung cancer samples, profiling over 18 million individual cells. From this data, they identified ten reproducible cellular neighborhoods that serve as stable architectural blueprints of the tumor microenvironment. They then trained CANVAS, a multimodal AI system leveraging foundational pathology models, to recognize the subtle morphological signatures in H&E images that correspond to these neighborhoods. The model was subsequently validated across nine cancer types, encompassing more than 5,000 patient cohorts, to assess its clinical utility.\n\n**Results:**\nCANVAS successfully predicts habitat structures with high fidelity, revealing four distinct spatial ecotypes strongly correlated with genomic alterations and patient survival. Notably, the platform generated a spatial signature capable of stratifying immunotherapy outcomes, performing robustly even in tumors lacking PD-L1 expression. By mapping intercellular distances and stromal barriers directly from routine slides, the study demonstrates that AI can resurrect latent spatial information from decades-old pathology archives, providing clinicians with a powerful, scalable biomarker for predicting disease progression and treatment response."
+    },
+    "keyArticle": {
+      "title": "Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology",
+      "authors": [
+        "Y J. Li",
+        "Z Li",
+        "Ryan Quinton",
+        "Yuanfeng Ji",
+        "Xi Zhang",
+        "Jinxi Xiang",
+        "Xiyue Wang",
+        "Sen Yang",
+        "Feyisope Eweje",
+        "Yijiang Chen",
+        "Xiangde Luo",
+        "Y J. Li",
+        "Jonathan Mulholland",
+        "Siwei Chen",
+        "Colin Bergstrom",
+        "T Kim",
+        "Francesca Olguin",
+        "Sierra Willens",
+        "S H Lin",
+        "Jeffrey Nirschl",
+        "Robert West",
+        "Joel Neal",
+        "Maximilian Diehn",
+        "Ruijiang Li"
+      ],
+      "doi": "10.1016/j.cell.2026.05.031",
+      "pages": "4241-4259.e9"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.031",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.031"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-13T20:12:17.581920+00:00",
+    "source": "openalex"
+  }
+}

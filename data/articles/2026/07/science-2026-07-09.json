@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-07-09",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6807",
+  "date": "2026-07-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-09-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當禽流感叩關：紐西蘭為瀕危鳥類搶建「免疫防線」",
+      "en": "When Bird Flu Knocks: New Zealand Builds an Immune Firewall for Endangered Birds"
+    },
+    "summary": {
+      "zh": "【總結】當高病原性H5N1禽流感越過海峽登陸澳洲時，紐西蘭搶先拉響了生態警報。保育團隊正執行一項史無前例的緊急行動：為五種極度瀕危的本土鳥類施打疫苗。這項計畫不僅是獸醫學與保育生物學的跨界嘗試，更是島嶼生態系面對新興傳染病時，從「被動救火」轉向「主動防禦」的關鍵轉折。\n\n【研究問題】遷徙鳥類已將H5N1散佈至全球，造成數百種野生動物慘烈死亡。紐西蘭的珍稀鳥類因長期與世隔絕，體內毫無免疫記憶。過去的研究多聚焦於家禽或實驗室動物，卻缺乏針對野外極危物種的疫苗保護數據。疾病正成為壓垮瀕危物種的最快推手，若不提前佈局，一旦病毒爆發，這些曾經死裡逃生的物種恐將面臨滅頂之災。\n\n【研究方法】團隊沒有冒險讓活體接觸病毒，而是巧妙借用禽用滅活疫苗進行臨床測試。他們先從每種目標鳥類中各選約十隻，注射兩劑間隔一個月的疫苗，並透過定期抽血檢測抗體濃度來評估免疫成效。針對難以捕捉的野生族群（如生活在深山叢林的鸚鵡），研究人員搭配無線電項圈追蹤與直升機空投接種，以極低的干擾成本建立足以抵禦疫情的「保險族群」。\n\n【結果】測試顯示，五個物種中有四個能維持六個月以上的抗體保護力，僅一種黑蹼鴴的抗體在第三個月出現下降。這不僅證實了跨物種疫苗應用的可行性，也提醒我們「雞舍配方」未必能完美套用在所有飛羽族群身上。如今計畫擴大至三百隻鳥類，為未來可能擴及二十多種鳥類的防疫網打下基礎。這場大規模的野外實證，正在為全球野生動物傳染病管理寫下全新範本。",
+      "en": "**Summary:** As the H5N1 avian influenza virus crossed into Australia, New Zealand’s conservationists moved swiftly from anticipation to action. The nation has launched an unprecedented emergency vaccination campaign targeting five critically endangered bird species, including the iconic kākāpō. This bold initiative represents a paradigm shift in wildlife management: rather than waiting for a pandemic to sweep through isolated ecosystems, scientists are actively building immunological firebreaks to shield irreplaceable lineages from sudden collapse.\n\n**Problem:** Migratory birds have effectively turned H5N1 into a global traveler, triggering catastrophic die-offs across hundreds of species. Island endemics like New Zealand’s rarest birds evolved without exposure to modern influenza strains, leaving them biologically defenseless. Historically, vaccine development focused almost exclusively on livestock or captive zoo animals, leaving a stark gap in knowledge about how these formulations perform in wild, ecologically sensitive populations. With disease rapidly emerging as a primary driver of extinction, proactive intervention is no longer optional.\n\n**Approach:** Recognizing that challenging endangered birds with live virus is ethically and practically impossible, researchers adapted a commercially available poultry vaccine designed against a related strain. They administered two spaced doses to small cohorts of approximately ten birds per species, then monitored their immune responses through longitudinal blood sampling. To navigate the rugged terrain where these birds reside, teams combined radio telemetry, helicopter transport, and patient fieldwork, aiming to establish robust “insurance populations” capable of surviving a potential outbreak.\n\n**Results:** Preliminary data reveals that four of the five targeted species sustained protective antibody levels for over six months, while one species showed a decline after three months. These findings confirm that cross-species vaccination is viable, though not uniformly predictable. Scaling the program to three hundred birds lays the groundwork for a broader strategy that could eventually encompass two dozen additional species. This large-scale ecological experiment offers a crucial blueprint for managing emerging pathogens in vulnerable wildlife networks worldwide."
+    },
+    "keyArticle": {
+      "title": "As bird flu threatens, New Zealand vaccinates endangered birds",
+      "authors": [
+        "Christina Larson"
+      ],
+      "doi": "10.1126/science.aek3889",
+      "pages": "126-127"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-09-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aek3889",
+      "doi": "https://doi.org/10.1126/science.aek3889"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-13T20:09:56.676346+00:00",
+    "source": "openalex"
+  }
+}

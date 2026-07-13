@@ -1,0 +1,68 @@
+{
+  "id": "nature-2026-06-24-02",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8122",
+  "date": "2026-06-24",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-24-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "猴痘病毒的「錯名」謎題：當松鼠換上學名，疫情追蹤該何去何從？",
+      "en": "The Name Game of Zoonotic Spillover: Why a Squirrel’s New Taxonomy Matters for Monkeypox Tracking"
+    },
+    "summary": {
+      "zh": "【總結】\n這篇發表於《自然》的補充說明，看似是一紙學術名稱的修正，實則牽動著人畜共患病追蹤的關鍵一環。研究團隊針對此前揭示火腳繩松鼠將猴痘病毒（MPXV）傳染給黑猩猩獴的原研究，正式接納了西非種群獨立成新物種的分類建議。在生態與流行病學研究中，宿主物種的精確鑑定直接決定病毒傳播路徑的還原度。此次分類更新不僅釐清了動物基因譜系，更為未來監測潛在疫源地、預判跨物種溢出風險提供了更精準的生物標尺。\n\n【研究問題】\n過去對猴痘病毒自然宿主的探索常因動物分類學的滯後而產生偏差。當同一個俗名背後隱藏著多個隱存種時，疫情數據的地理分布與傳播鏈分析便容易出現張冠李戴的誤區。為什麼必須糾正這顆小小的樹棲哺乳動物學名？因為精確的物種劃分是破解病毒生態位、評估人類接觸風險的基礎。若忽略種群間的遺傳差異，公共衛生策略可能無法鎖定真正的危險區域，進而影響疫苗部署與防疫資源的有效分配。\n\n【研究方法】\n作者並未進行新的野外採樣，而是採用生物資訊學與系統發生學交叉驗證的策略。他們比對了最新發表的線粒體基因組數據，並將其與原有研究的病毒序列進行親緣關係重建。透過將舊有樣本的分子標記與新分類框架對齊，團隊確認了研究對象確實屬於西非獨立的物種分支。同時，他們也審視了全球主流生物資料庫的分類狀態，發現學術界慣用的命名尚未全面更迭，因此在正文中維持大眾熟悉的舊稱以確保文獻連貫性。\n\n【結果】\n研究明確指出，原標註為火腳繩松鼠的樣本，在分子演化樹上已穩固歸入新物種 Funisciurus leucostigma。這項分類學修正雖未改變病毒本身的病原特性，卻徹底重塑了我們對其生態棲地的認知。具體而言，它將原本模糊的西非松鼠族群精確定位至特定河流兩岸的隔離種群。此結果意味著，未來的猴痘監測網絡必須按新物種邊界重新劃設採樣熱區，這對構建精準的跨境動物疫病早期預警系統具有不可替代的實踐價值。",
+      "en": "**Summary:**\nPublished as a formal addendum in Nature, this concise correction carries outsized implications for disease ecology. While the original study documented monkeypox virus (MPXV) jumping from fire-footed rope squirrels to sooty mangabeys, recent genomic evidence has elevated West African squirrel populations to a distinct species. The authors formally adopt this taxonomic revision, aligning their mitochondrial phylogeny with the new classification. In the high-stakes arena of zoonotic surveillance, precise host identification is not merely academic semantics; it is the foundation of accurate transmission mapping. Correcting the nomenclature ensures that viral reservoirs are tracked against the right biological backdrop, sharpening our ability to anticipate and contain future cross-species spillovers.\n\n**Problem:**\nHistorically, the hunt for animal reservoirs of emerging pathogens has been hampered by outdated or overly broad taxonomic frameworks. When a single common name masks multiple genetically distinct lineages, epidemiological models risk conflating separate ecological niches and transmission dynamics. Why does correcting this matter? Because misidentified hosts lead to misplaced surveillance efforts. If researchers treat geographically isolated squirrel populations as a single unit, public health interventions may overlook localized hotspots or dilute resource allocation. Solving this taxonomic ambiguity is essential for building reliable predictive models of viral evolution and human exposure risk.\n\n**Approach:**\nRather than conducting fresh fieldwork, the team leveraged comparative genomics and phylogenetic reconciliation. They cross-referenced newly published mitochondrial genome data with their original viral sequences, reconstructing evolutionary trees to verify lineage boundaries. By mapping their sample’s genetic signature onto the revised classification scheme, they confirmed its placement within the newly recognized West African clade. Acknowledging that major biodiversity databases lag behind peer-reviewed taxonomic updates, the authors strategically retained the widely recognized nomenclature in their primary manuscript to maintain continuity for readers and policymakers.\n\n**Results:**\nThe analysis definitively places the study’s squirrel specimens under the newly validated species Funisciurus leucostigma, separating them from eastern populations. This refinement does not alter the virological facts of the monkeypox transmission event, but it fundamentally recontextualizes the virus’s ecological theater. The genetic split correlates with geographic barriers like the Sanaga River, highlighting how isolation drives both viral and host diversification. Practically, this means global pathogen monitoring networks must redraw their sampling grids along new species boundaries, transforming abstract taxonomy into actionable intelligence for early outbreak detection."
+    },
+    "keyArticle": {
+      "title": "Addendum: Transmission of MPXV from fire-footed rope squirrels to sooty mangabeys",
+      "authors": [
+        "Carme Riutord-Fe",
+        "Jasmin Schlotterbeck",
+        "Lorenzo Lagostina",
+        "Léonce Kouadio",
+        "Harriet Herridge",
+        "Moritz J. S. Jochum",
+        "Nea Yves Noma",
+        "Ane López-Morales",
+        "Donata Hoffmann",
+        "Sten Calvelage",
+        "Hjalmar S. Kühl",
+        "Alexander Mielke",
+        "Catherine Crockford",
+        "Liran Samuni",
+        "Roman M. Wittig",
+        "Martin Beer",
+        "Sery Gonedelé-Bi",
+        "Jan F. Gogarten",
+        "Sébastien Calvignac‐Spencer",
+        "Ariane Düx",
+        "Livia Victoria Patrono",
+        "Fabian H. Leendertz"
+      ],
+      "doi": "10.1038/s41586-026-10767-2",
+      "pages": "E4"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-24-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10767-2",
+      "doi": "https://doi.org/10.1038/s41586-026-10767-2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-13T20:11:02.936234+00:00",
+    "source": "openalex"
+  }
+}
