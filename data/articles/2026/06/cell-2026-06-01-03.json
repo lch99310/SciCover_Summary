@@ -1,0 +1,54 @@
+{
+  "id": "cell-2026-06-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "12",
+  "date": "2026-06-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "捕捉細胞內的「分子觸覺」：全新單細胞技術直擊轉錄因子與DNA的瞬息邂逅",
+      "en": "Mapping the Invisible Handshakes of Gene Regulation in Single Cells"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Cell》的研究推出了一項名為D&D-seq的革命性單細胞技術，成功突破長期以來難以在單一細胞層級捕捉轉錄因子與DNA短暫結合的瓶頸。透過將抗體導向的納米體與鹼基編輯酶巧妙結合，研究者能在活細胞中精準標記蛋白質結合位點，並將其與染色質開放性及基因表現數據無縫整合。這不僅為解析基因調控網絡提供了前所未有的高清視角，更讓科學家得以在克隆性造血等複雜疾病中，直接追蹤突變如何重塑細胞的表觀遺傳版圖。\n\n【研究問題】基因表達的開關主要由轉錄因子掌控，但這些因子與DNA的結合往往極其短暫或親和力較弱，傳統的高通量測序技術在單細胞尺度上難以精確捕捉，且常受高鹽條件或染色質開放程度的干擾。此外，當細胞內同時存在野生型與突變型群體時，過去的方法無法同時連結基因型與染色質互動狀態。釐清這些微觀動態，對於理解發育過程、細胞老化及癌症發生機制至關重要。\n\n【研究方法】研究團隊開發了D&D-seq（Docking and Deamination followed by Sequencing），其核心在於「分子錨定與編輯」。首先，利用帶有特異抗體的納米體作為橋樑，將經過改造的DddA鹼基編輯酶精確引導至目標轉錄因子附近；隨後加入活化肽，啟動編輯酶在結合位點周邊進行特異性的胞嘧啶轉尿嘧啶修飾。此步驟可無縫嵌入現有的單細胞測序流程中，讓每一次的DNA編輯痕跡都成為該細胞中特定蛋白質曾經造訪的指紋，進而實現多維度數據的同步讀取。\n\n【結果】實驗數據展現了驚人的精度與靈敏度。D&D-seq在單細胞層級對CTCF的特異性辨識率（FRiP值）高達約60%，遠超現有超微量技術的14%左右。研究成功繪製出人類免疫細胞中CTCF在全基因組開放與關閉區域的完整結合輪廓，並發現突變型IDH2細胞因代謝物累積導致CTCF結合顯著下降，進而改變染色質三維結構。在紅血球分化過程中，技術更清晰呈現了GATA1調控網路隨時間推移的動態重組，為精準醫學與基礎生物學架起了一座實用的單細胞橋樑。",
+      "en": "**Summary:** Published in *Cell*, this study introduces D&D-seq, a breakthrough single-cell technology that finally captures the fleeting dance between transcription factors and DNA within individual cells. By tethering a precision base editor to target proteins via nanobodies, researchers can leave a permanent molecular signature at binding sites, transforming ephemeral interactions into readable genomic footprints. This innovation seamlessly integrates with standard multi-omic workflows, offering an unprecedented, high-resolution map of how gene regulatory networks are wired across diverse cell types and disease states.\n\n**Problem:** For decades, scientists have struggled to track how transcription factors physically bind to DNA at the single-cell level. Traditional methods like ChIP-seq or CUT&Tag require bulk tissue, averaging out rare cellular states, while existing single-cell proxies rely on indirect inference rather than direct observation. Moreover, weak or transient protein-DNA interactions are easily washed away during processing, and linking these epigenetic shifts to specific somatic mutations remains a formidable technical hurdle. Solving this is critical for decoding developmental programs, aging, and cancers where regulatory networks go awry.\n\n**Approach:** The team engineered D&D-seq, a clever immuno-tethering strategy that combines targeted antibody recognition with precision base editing. A nanobody bridges a primary antibody bound to a protein of interest and a split deaminase enzyme. Upon activation, the enzyme catalyzes precise C-to-U edits exclusively at nearby DNA sequences, effectively stamping a molecular receipt wherever the target protein lingers. This protocol was designed to slide effortlessly into established droplet-based scATAC-seq pipelines, allowing simultaneous profiling of chromatin accessibility, genotype, and direct protein-DNA contact maps from the same cell.\n\n**Results:** D&D-seq delivers remarkable specificity, achieving a fraction of reads in peaks score of approximately 60% for CTCF—more than quadrupling the performance of ultra-low-input benchmarks. The method successfully mapped transcription factor occupancy across both open and tightly packed heterochromatin, revealing how IDH2-mutated cells exhibit globally reduced CTCF binding due to metabolic interference. In clonal hematopoiesis models, it precisely correlated mutant genotypes with localized chromatin remodeling, while in erythropoiesis, it traced the dynamic rewiring of GATA1’s regulatory network over time. These findings establish D&D-seq as a powerful new lens for dissecting gene regulation in health and disease."
+    },
+    "keyArticle": {
+      "title": "Single-cell mapping of regulatory DNA-protein interactions",
+      "authors": [
+        "Wei-Yu Chi",
+        "Sang-Ho Yoon",
+        "Levan Mekerishvili",
+        "Saravanan Ganesan",
+        "Catherine Potenski",
+        "Franco Izzo",
+        "Dan A. Landau",
+        "Ivan Raimondi"
+      ],
+      "doi": "10.1016/j.cell.2026.05.014",
+      "pages": "3801-3816.e11"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.014",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.014"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-16T20:21:30.085977+00:00",
+    "source": "openalex"
+  }
+}

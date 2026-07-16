@@ -1,0 +1,48 @@
+{
+  "id": "political-geography-2026-04-30-02",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-04-30",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-30-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "指尖上的國界：台灣數位地圖背後的「指界」秘辛與國家治理的肉身實踐",
+      "en": "Beyond the Pixel: How Taiwan’s Officials Still Draw Borders With Their Fingers"
+    },
+    "summary": {
+      "zh": "【總結】本文突破傳統數位治理的技術決定論，揭示台灣「一級戰區」土地數位化工程（ONOM平台）背後，真正維繫邊界確權的並非演算法，而是一項延續百年的肉身實踐——「指界」。研究指出，面對層疊的歷史地圖與地殼持續漂移的現實，技術無法提供永恆的地理坐標。官員透過現場指認、協商與情感勞動，將不確定性轉化為暫時的共識。這項發現重新定義了國家能力：治理並非冷冰冰的數據對齊，而是充滿人情世故與歷史積累的動態過程。\n\n【研究問題】過去研究多將數位化視為消除地理不確定性的終極方案，卻忽略了邊界確認中「人」的關鍵角色，更鮮少探討官僚體系如何處理技術無法解決的歷史遺留問題。在土地數位化浪潮下，為何傳統的「指界」非但沒有消失，反而成為不可或缺的治理基礎？釐清此問題，能打破「科技可解決一切空間矛盾」的迷思，揭示數位時代國家權力運作的真實樣貌。\n\n【研究方法】作者採用深度訪談與參與式觀察，聚焦台灣桃園市的土地管理實務。研究團隊訪問了30位跨領域關鍵人物，涵蓋中央與地方官員、測量師、都市計畫專家及學術顧問。透過剖析政府會議紀錄、歷史地圖檔案與數位平台運作邏輯，研究者將抽象的「指界」行為拆解為具體的官僚日常，並結合女性主義地理學的「具身治理」理論，還原邊界協商背後的權力互動與情感張力。\n\n【結果】研究揭露台灣面臨龐大的「歷史爛帳」：僅2011至2021年間，桃園一地就審查逾萬件地圖落差案件，其中半數超出容許誤差。官員採取「安靜接受」策略，默許高達八成至九成的邊界差異存在，僅在民眾抗爭或開發案啟動時才介入「指界」。現場協商往往透過點點頭、手指地面與情感妥協來達成暫定共識，而非追求絕對精準。這證明數位平台僅是參考座標，真正的法律邊界仍依賴肉身談判與時間累積的務實智慧。",
+      "en": "**Summary:** This study dismantles the myth that digital mapping automatically resolves territorial ambiguity. Instead, it reveals that Taiwan’s ambitious “One Nation, One Map” initiative relies on an enduring, embodied practice known as *zhǐ jiè*—the physical act of pointing out boundaries on contested ground. Rather than viewing bureaucratic negotiation as a friction to be engineered away, the authors frame it as the very mechanism through which state authority materialises. The research offers a vital corrective to techno-utopian governance models, demonstrating that spatial order is not downloaded from servers, but painstakingly assembled through human interaction, historical compromise, and emotional labour.\n\n**Problem:** Contemporary political geography often treats digitisation as a rationalising force capable of standardising complex land registries. Yet this perspective overlooks how historical surveying methods, shifting legal frameworks, and tectonic plate movements create irreconcilable spatial layers. The critical gap lies in understanding why street-level bureaucrats continue to rely on informal, on-the-ground negotiations despite advanced geospatial platforms. Addressing this question is essential to grasp how states actually govern uncertain territories when technology falls short of its promises.\n\n**Approach:** Drawing on mixed-method fieldwork in Taoyuan City, the researchers conducted thirty semi-structured interviews with urban planners, land administrators, private surveyors, and policy consultants. They triangulated these accounts with archival analysis of municipal planning committee minutes, historical cadastral records, and the operational logic of the ONOM platform. By applying feminist theories of embodied statecraft, the study traces how official gestures, affective responses, and tactical delays function as institutional tools rather than mere procedural glitches.\n\n**Results:** The findings expose a vast, unacknowledged inventory of spatial contradictions. Between 2011 and 2021 alone, local authorities reviewed over ten thousand map discrepancies, with nearly half exceeding acceptable error margins. Officials routinely tolerate eighty to ninety percent of these mismatches, adopting a strategy of “quiet acceptance” unless disputes escalate. When action is required, boundary resolution occurs through on-site negotiations where surveyors, landowners, and developers align competing claims through gesture and compromise. Ultimately, digital coordinates serve only as provisional references; legal certainty remains a negotiated, temporally fluid construct sustained by human presence."
+    },
+    "keyArticle": {
+      "title": "Embodied statecraft: The endurance of zhǐ jiè (pointing at the boundary) in Taiwan's land digitalisation",
+      "authors": [
+        "Wen-I Lin",
+        "Ayona Datta"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103568",
+      "pages": "103568"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-30-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103568",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103568"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-16T20:23:14.897227+00:00",
+    "source": "openalex"
+  }
+}

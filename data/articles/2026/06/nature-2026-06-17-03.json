@@ -1,0 +1,67 @@
+{
+  "id": "nature-2026-06-17-03",
+  "journal": "Nature",
+  "volume": "654",
+  "issue": "8119",
+  "date": "2026-06-17",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-17-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "五千五百年前的貝加爾湖：一場史前獵人社群的致命瘟疫",
+      "en": "5,500 Years Ago in Lake Baikal: A Lethal Plague's Devastation of Hunter-Gatherer Communities"
+    },
+    "summary": {
+      "zh": "【總結】\n\n這項開創性的研究，透過分析西伯利亞貝加爾湖地區距今約5500年前的史前獵人社群遺骸，發現了迄今最古老的「鼠疫桿菌」（Yersinia pestis）菌株，並證實了其致命的疾病傳播能力。研究不僅將已知最早的瘟疫爆發時間提前了數千年，更揭示了這種古老病原體如何在人口密度不高、未發展農業的獵人社群中造成嚴峻的急性死亡事件，特別是對兒童造成了不成比例的影響。這項發現挑戰了過去認為瘟疫爆發必須依賴農業社會高人口密度和生活方式改變的觀點，並為理解早期人類健康、疾病演化及跨物種傳播提供了關鍵的新視角。\n\n【研究問題】\n\n過去普遍認為，像瘟疫這類人畜共通傳染病的興起與新石器時代的農業革命息息相關，特別是與人口密集、飼養家畜的生活方式有關。然而，關於早期「鼠疫桿菌」菌株的致病性和實際影響，尤其是在農業化之前的獵人社群中，仍存在許多未知。本研究旨在釐清：最早的瘟疫菌株是否已具備致命性？它們如何在非農業化的史前社群中傳播並造成死亡？以及這些早期瘟疫的爆發時間和範圍，是否能修正我們對人類疾病史的既有認知？解決這些問題對於理解疾病演化、人類遷徙與環境互動至關重要。\n\n【研究方法】\n\n研究團隊從貝加爾湖周邊四個距今約5600至5000年的獵人社群墓葬中，提取了46個人的骨骼樣本，並進行了全基因組定序，特別是從牙齒的齒質中獲取古代DNA。透過先進的病原體篩檢流程，他們成功在18個樣本中偵測到「鼠疫桿菌」DNA，並從中重構出最早期的「鼠疫桿菌」基因組。此外，研究人員利用同位素定年法精確測定了遺骸的年代，並透過分析DNA中的同源性（IBD）片段來重建親屬關係網絡，藉此推斷疾病的傳播模式。他們還分析了受感染者的年齡分佈，並將新發現的古老菌株與現今及其他古代菌株進行了基因演化樹分析，以追溯其起源和變異。\n\n【結果】\n\n研究在距今約5600至5300年前的Shumilikha和Ust’-Ida I墓地，以及稍晚的Bratskii Kamen和Serovo墓地，發現了兩個瘟疫爆發階段的證據，總計有39%的樣本感染。其中，Ust’-Ida I墓地的感染率高達39%，顯示出極高的病原體檢出率。基因分析顯示，這些來自貝加爾湖地區的菌株是最古老的「鼠疫桿菌」之一，其分歧時間點比先前估計的早約2000年，並推測「鼠疫桿菌」的起源可追溯至約9300年前。親屬關係分析表明，疾病在小型的家族群體內傳播，且在Ust’-Ida I墓地，兒童的死亡率異常偏高，尤其是在7.5至11歲的年齡段，這與現代一些細菌感染的兒科流行病學特徵相似。同時，研究還在一位兒童樣本中發現了「布魯氏菌」感染的證據，顯示了跨物種傳播的存在。這些結果強烈暗示，即使在沒有農業化的社會，早期瘟疫菌株也已具備高度致命性，並能造成急性、集中的死亡事件。",
+      "en": "**Summary:**\n\nThis groundbreaking study analyzes human remains from prehistoric hunter-gatherer communities around Lake Baikal in Siberia, dating back approximately 5,500 years. It has identified the oldest known strains of *Yersinia pestis*, the bacterium responsible for plague, confirming its lethal capacity in ancient times. The research pushes back the timeline for documented plague outbreaks by millennia and reveals how this ancient pathogen caused severe acute mortality events, disproportionately affecting children, even in pre-agricultural societies with low population densities. These findings challenge the long-held notion that plague epidemics necessitated the high population densities and lifestyle changes associated with the Neolithic agricultural transition, offering crucial new insights into early human health, disease evolution, and zoonotic transmission.\n\n**Problem:**\n\nThe rise of zoonotic diseases like plague has traditionally been linked to the Neolithic Revolution, particularly to increased population densities and the adoption of farming and animal husbandry. However, the precise virulence and impact of early *Yersinia pestis* strains, especially within pre-agricultural hunter-gatherer societies, remained unclear. This study addresses the specific questions: Were the earliest plague strains already highly virulent? How did they spread and cause mortality in non-farming communities? What are the actual timing and scope of these early outbreaks, and can they revise our understanding of human epidemiological history? Solving this is crucial for comprehending disease evolution, human migration, and environmental interactions.\n\n**Approach:**\n\nThe researchers analyzed ancient DNA from 46 skeletal remains from four hunter-gatherer cemeteries near Lake Baikal, dating to approximately 5600–5000 years ago, extracting DNA primarily from dental cementum. Using advanced pathogen screening techniques, they detected *Yersinia pestis* DNA in 18 individuals and reconstructed the earliest *Y. pestis* genomes to date. Radiocarbon dating precisely established the age of the remains, while analysis of Identity-by-Descent (IBD) segments helped reconstruct kinship networks to infer disease transmission patterns. The study also examined age-at-death distributions among infected individuals and performed phylogenetic analysis to trace the evolutionary history and diversification of these ancient strains compared to modern and other ancient plague strains.\n\n**Results:**\n\nThe study identified two distinct phases of plague outbreaks at the Shumilikha and Ust’-Ida I sites (5580–5320 cal. BP) and later at Bratskii Kamen and Serovo (5475–4870 cal. BP), with a 39% detection rate across samples. The Ust’-Ida I site showed a particularly high infection rate (39%). The reconstructed genomes represent the oldest *Y. pestis* strains found so far, pushing back their divergence from *Y. pseudotuberculosis* by approximately 2000 years and suggesting an origin for *Y. pestis* around 9317 years ago. Kinship analysis indicated transmission within small family groups. Notably, mortality profiles revealed a disproportionately high death rate among children, particularly those aged 7.5–11 years, at Ust’-Ida I, aligning with pediatric epidemiology of certain bacterial infections. Evidence of *Brucella* infection in one child also points to zoonotic transmission. These findings strongly suggest that even in pre-agricultural societies, early plague strains were highly lethal and caused acute mortality events."
+    },
+    "keyArticle": {
+      "title": "Lethal plague outbreaks in Lake Baikal hunter-gatherers 5,500 years ago",
+      "authors": [
+        "Ruairidh Macleod",
+        "Frederik Valeur Seersholm",
+        "Bianca De Sanctis",
+        "Angela R. Lieverse",
+        "Adrian Timpson",
+        "Jesper Stenderup",
+        "Charleen Gaunitz",
+        "Lasse Vinner",
+        "Rick Schulting",
+        "Olga I. Goriunova",
+        "Vladimir I. Bazaliiskii",
+        "S.A. Vasiliev",
+        "Erin Jessup",
+        "Yucheng Wang",
+        "Mark Thomas",
+        "Russell Corbett-Detig",
+        "Astrid K. N. Iversen",
+        "Andrzej Weber",
+        "Martin Sikora",
+        "Eske Willerslev",
+        "Eske Willerslev"
+      ],
+      "doi": "10.1038/s41586-026-10540-5",
+      "pages": "697-705"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-17-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10540-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10540-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-16T20:20:00.634632+00:00",
+    "source": "openalex"
+  }
+}

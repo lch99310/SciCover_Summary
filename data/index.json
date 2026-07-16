@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-13T20:13:44.052135+00:00",
+  "lastUpdated": "2026-07-16T20:24:13.932312+00:00",
   "articles": [
+    {
+      "id": "science-2026-07-09-02",
+      "journal": "Science",
+      "date": "2026-07-09",
+      "path": "articles/2026/07/science-2026-07-09-02.json",
+      "title_zh": "別再一刀切了！統計學如何證明「量身打造」才是王道？",
+      "title_en": "The One-Size-Fits-All Trap: How to Statistically Prove Personalization Pays Off",
+      "cover_url": "data/images/science/science-2026-07-09-02-cover.jpg"
+    },
     {
       "id": "science-2026-07-09",
       "journal": "Science",
@@ -164,6 +173,15 @@
       "cover_url": "data/images/nature/nature-2026-06-17-02-cover.jpg"
     },
     {
+      "id": "nature-2026-06-17-03",
+      "journal": "Nature",
+      "date": "2026-06-17",
+      "path": "articles/2026/06/nature-2026-06-17-03.json",
+      "title_zh": "五千五百年前的貝加爾湖：一場史前獵人社群的致命瘟疫",
+      "title_en": "5,500 Years Ago in Lake Baikal: A Lethal Plague's Devastation of Hunter-Gatherer Communities",
+      "cover_url": "data/images/nature/nature-2026-06-17-03-cover.jpg"
+    },
+    {
       "id": "nature-2026-06-17",
       "journal": "Nature",
       "date": "2026-06-17",
@@ -297,6 +315,15 @@
       "title_zh": "血液中的肺癌預警：從空氣污染到免疫干預的關鍵線索",
       "title_en": "Blood Signals of Lung Tumorigenesis: From Air Pollution to Immune Intervention",
       "cover_url": "data/images/cell/cell-2026-06-01-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-06-01-03",
+      "journal": "Cell",
+      "date": "2026-06-01",
+      "path": "articles/2026/06/cell-2026-06-01-03.json",
+      "title_zh": "捕捉細胞內的「分子觸覺」：全新單細胞技術直擊轉錄因子與DNA的瞬息邂逅",
+      "title_en": "Mapping the Invisible Handshakes of Gene Regulation in Single Cells",
+      "cover_url": "data/images/cell/cell-2026-06-01-03-cover.jpg"
     },
     {
       "id": "cell-2026-06-01",
@@ -585,6 +612,15 @@
       "title_zh": "分子膠複合物受損導致RAS抑制劑抗藥性：癌症治療的新突破與挑戰",
       "title_en": "Disrupted Molecular Glue Complex Drives RAS Inhibitor Resistance: New Breakthroughs and Challenges in Cancer Therapy",
       "cover_url": "data/images/cell/cell-2026-05-01-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-04-30-02",
+      "journal": "Political Geography",
+      "date": "2026-04-30",
+      "path": "articles/2026/04/political-geography-2026-04-30-02.json",
+      "title_zh": "指尖上的國界：台灣數位地圖背後的「指界」秘辛與國家治理的肉身實踐",
+      "title_en": "Beyond the Pixel: How Taiwan’s Officials Still Draw Borders With Their Fingers",
+      "cover_url": "data/images/political-geography/political-geography-2026-04-30-02-cover.jpg"
     },
     {
       "id": "political-geography-2026-04-30",

@@ -1,0 +1,49 @@
+{
+  "id": "science-2026-07-09-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6807",
+  "date": "2026-07-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-09-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "別再一刀切了！統計學如何證明「量身打造」才是王道？",
+      "en": "The One-Size-Fits-All Trap: How to Statistically Prove Personalization Pays Off"
+    },
+    "summary": {
+      "zh": "【總結】從精準醫療到數位行銷，「量身打造」的干預策略一直是各界的夢想，但究竟該不該捨棄「一套通吃」的舊模式？本文提出了一種全新的統計檢驗框架——K折個人化檢驗（KPT），能嚴格驗證個人化策略是否真的比單一最佳方案更有效。這項突破將機器學習的政策優化與半參數統計理論巧妙結合，為決策者提供了一把科學的尺，讓「客製化」的潛在收益與執行成本得以清晰量化，徹底改變我們評估干預效果的思維。\n\n【研究問題】過去的研究常陷入一個迷思：只要不同族群對治療反應不同，就代表個人化一定更好。然而，異質性效應存在並不等同於個人化策略能超越單一最佳方案。現有方法多數受限於二元干預、單一特徵，或在訓練與評估數據上重複使用，導致估計偏差與結果不穩定。在資源有限且客製化往往伴隨更高行政成本的現實下，若缺乏嚴謹的統計檢驗，決策者極可能盲目投入複雜系統卻換取微薄的實際效益。填補此缺口，對提升公共政策、臨床治療與教育干預的實證基礎至關重要。\n\n【研究方法】研究團隊巧妙運用「交叉擬合」技術，將歷史數據多次隨機分割為多個資料夾。他們不直接追求預測最終政策，而是將個人化策略與單一最佳干預視為「干擾參數」，透過隔離訓練與評估區塊來徹底消除迴歸假象。接著，利用雙重魯棒估計器整合結果模型與傾向分數模型，並將所有隨機分割的結果進行彙總平均。這種設計不僅完美處理多維特徵與多種干預選項，更在數學上確保了估計值的漸進正態分佈與最小變異數，讓統計檢定兼具嚴謹性與高檢定力。\n\n【結果】在就業培訓、憂鬱症治療、線上課程與笑話推薦等四個跨領域數據集上，KPT 展現出卓越的穩定度。相較於傳統方法，其置信區間更窄且不受隨機分割影響。例如在就業培訓模擬中，它以 p<0.001 識別出依年齡個人化的顯著收益，預估每人每年多賺約 525 美元；但在線上課程測試中，則明確指出個人化增益微乎其微（0.18%±0.26%）。這證明 KPT 能有效過濾偽訊號，為決策者提供「該不該客製化」的堅實依據。",
+      "en": "**Summary:** Decades of research have championed personalized interventions, from precision medicine to targeted marketing, yet deciding when customization actually pays off remains a statistical black box. This study introduces the K-fold Personalization Test (KPT), a rigorous hypothesis testing framework that quantifies whether tailoring actions to individuals truly outperforms deploying a single best solution for everyone. By bridging machine learning policy optimization with semiparametric efficiency theory, KPT offers practitioners a reliable, statistically sound compass to navigate the trade-offs between customization’s potential rewards and its logistical costs.\n\n**Problem:** The core dilemma is straightforward: while heterogeneity in treatment effects is common, it doesn’t automatically guarantee that a personalized strategy will beat the average best option. Existing methods often falter when faced with multiple interventions, high-dimensional features, or the hidden bias of evaluating policies on the same data used to train them. Without a robust test, decision-makers risk investing in complex, fragile personalization schemes that offer little to no real-world gain over simple, uniform approaches. Solving this gap is critical for evidence-based policy design across healthcare, education, and social sciences.\n\n**Approach:** The authors developed KPT by treating personalized policies and optimal single interventions as “nuisance parameters” rather than primary targets, focusing instead on estimating the pure personalization effect. They employ a cross-fitting technique that repeatedly partitions historical data into multiple folds, training outcome models, propensity estimators, and decision policies on disjoint subsets to eliminate evaluation bias. These estimates are then aggregated across numerous random permutations, yielding a doubly-robust estimator that achieves asymptotic normality with minimal variance. This architecture gracefully accommodates multi-arm interventions and diverse covariate structures without relying on restrictive binary assumptions.\n\n**Results:** Across four distinct domains—semi-synthetic job training, clinical depression therapy, MOOC course completion, and joke recommendation systems—KPT consistently delivered narrower confidence intervals and greater stability compared to leading baselines like TrainEval, PAPD, and SRP. In job training simulations, it detected a significant personalization benefit with a p-value below 0.001, estimating roughly $525 additional annual wages per participant. Conversely, in MOOC completion trials, it correctly identified negligible gains from personalization, preventing unnecessary policy complexity. These findings establish KPT as a versatile, high-powered tool for validating customization before costly deployment."
+    },
+    "keyArticle": {
+      "title": "A statistical test for the benefits of personalizing interventions",
+      "authors": [
+        "Zhaoqi Li",
+        "Emma Brunskill"
+      ],
+      "doi": "10.1126/science.aeb9506",
+      "pages": "eaeb9506"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-09-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb9506",
+      "doi": "https://doi.org/10.1126/science.aeb9506",
+      "preprint": "https://arxiv.org/abs/2607.08951"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-16T20:04:13.854168+00:00",
+    "source": "openalex"
+  }
+}
