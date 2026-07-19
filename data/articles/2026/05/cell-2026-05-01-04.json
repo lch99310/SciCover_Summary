@@ -1,0 +1,65 @@
+{
+  "id": "cell-2026-05-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "10",
+  "date": "2026-05-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-05-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解開經顱磁刺激的抗憂鬱密碼：磁場沒有讓大腦『全亮』，而是精準喚醒了這群細胞",
+      "en": "When Magnetism Heals: The Single Neuron Type That Powers rTMS's Rapid Antidepressant Effect"
+    },
+    "summary": {
+      "zh": "【總結】\n\n這項發表於《Cell》的研究揭開了經顼磁刺激（rTMS）治療憂鬱症的機制黑盒子。研究團隊開發了一套具有高度臨床對標性的小鼠模型，證實加速型間歇性theta波刺激（aiTBS）並非均勻激活整個前額葉，而是像精準手術刀般，專門喚醒背側內側前額葉皮層中的胞內終端（IT）投射神經元，卻對錐體束（PT）神經元幾乎無感。這項發現將行為改善直接連結到特定細胞類型的突觸可塑性，為優化腦刺激療法提供了細胞級別的因果機制。\n\n【研究問題】\n\n儘管rTMS已廣泛應用於臨床，科學家仍不清楚磁場如何改變神經迴路以產生療效。過去的動物模型存在嚴重盲點：多數使用麻醉動物或過大線圈，導致刺激不聚焦且無法反映人類治療時的清醒狀態。此外，缺乏證據證明究竟是哪種神經元介導了治療效果。釐清這一點至關重要，因為只有理解機制，才能針對不同症狀、加速療效或改善藥物抗性患者的治療方案。\n\n【研究方法】\n\n作者打造了臨床級的微型rTMS系統，使用特製線圈在清醒、頭部固定的小鼠身上進行小於2毫米的聚焦刺激，並配備液冷散熱以維持臨床療程強度。他們透過慢性皮質酮（CORT）給藥和不可預測慢性輕度壓力（UCMS）建立憂鬱與焦慮樣模型，結合強制游泳、高架十字迷宮及趨避衝突實驗評估行為變化。核心技術包括光纖光譜儀記錄IT與PT神經元的即時活動、MORF3遺傳標記觀察樹突棘動態，以及在rTMS期間利用化學遺傳學選擇性抑制特定細胞，從而建立從行為到結構的因果鏈。\n\n【結果】\n\naiTBS治療顯著減少了壓力小鼠在強制游泳測試中的不動時間，並改善焦慮與憂鬱相關的綜合行為評分；若將刺激定位至運動皮層則無此效果，證明靶點特異性。光纖記錄顯示，IT神經元在aiTBS期間及後續壓力行為中持續活躍，PT神經元則無此持久變化。結構上，aiTBS逆轉了壓力導致的IT神經元樹突棘喪失，PT神經元則未受影響。最關鍵的因果驗證來自化學抑制實驗：rTMS期間關閉IT神經元會完全消除抗憂鬱效應，關閉PT則無影響。這些行為與結構改變在治療後一週仍持續存在。",
+      "en": "**Summary:**\n\nPublished in *Cell*, this study cracks open the mechanistic black box of repetitive transcranial magnetic stimulation (rTMS), a widely used but poorly understood treatment for depression. By developing a preclinical rodent model with strong clinical face validity, the authors demonstrate that accelerated intermittent theta-burst stimulation (aiTBS) does not broadly activate the prefrontal cortex. Instead, it exerts its rapid antidepressant effects through a precise, cell-type-specific mechanism: selectively engaging intratelencephalic (IT) projection neurons in the dorsomedial prefrontal cortex while leaving pyramidal tract (PT) neurons largely untouched. This work links the behavioral rescue of stress-induced deficits directly to IT-specific synaptic plasticity.\n\n**Problem:**\n\nDespite its clinical success, the neural basis of rTMS remains elusive. Why does electromagnetic stimulation alleviate depressive symptoms, and which specific circuits are responsible? Previous animal studies were limited by significant translational gaps: models often relied on anesthetized subjects or non-focal stimulation coils that failed to replicate the precision and awake state of human treatment. Moreover, no prior research had established a causal link between stimulation of a defined cortical cell type and lasting behavioral change. Resolving this gap is essential for rational protocol optimization, particularly as clinicians seek faster-acting treatments and aim to tailor brain stimulation to individual symptom profiles.\n\n**Approach:**\n\nThe team engineered a refined rodent rTMS system capable of delivering clinically relevant aiTBS protocols to awake, head-fixed mice with sub-millimeter focal precision, using custom liquid-cooled coils to manage heat. Chronic stress was induced via corticosterone administration and unpredictable chronic mild stress, producing robust depression- and anxiety-like behaviors. To dissect the mechanism, they combined fiber photometry to monitor real-time activity in genetically identified IT versus PT neurons during and after stimulation, MORF3-based sparse labeling to visualize dendritic spine dynamics, and chemogenetic inhibition to selectively silence each cell type during rTMS. This multi-modal approach allowed them to move from correlation to causation across behavior, physiology, and structure.\n\n**Results:**\n\naiTBS significantly reversed stress-induced immobility in the forced swim test and improved composite anxiety-depression scores, an effect absent when stimulation was targeted to the motor cortex. Photometry revealed a striking divergence: IT neurons showed sustained increases in activity during both aiTBS delivery and subsequent behavioral assays, whereas PT neurons did not. Structural analysis confirmed that aiTBS selectively restored dendritic spines lost to chronic stress on IT neurons, with no comparable effect on PT cells. Causal validation came from chemogenetic experiments: silencing IT neurons during rTMS completely abolished the antidepressant-like behavioral effects, while silencing PT neurons had no impact. These therapeutic and structural changes persisted for at least seven days post-treatment."
+    },
+    "keyArticle": {
+      "title": "A cell type-specific mechanism driving the rapid antidepressant effects of transcranial magnetic stimulation",
+      "authors": [
+        "Michael W. Gongwer",
+        "Alex Qi",
+        "Alexander S. Enos",
+        "Sophia A. Rueda Mora",
+        "Cassandra B. Klune",
+        "Meelan Shari",
+        "Cassandra B. Klune",
+        "Meelan Shari",
+        "Adrienne Q. Kashay",
+        "Owen H. Williams",
+        "G. Wilke",
+        "Yihong Yang",
+        "G. Wilke",
+        "Yihong Yang",
+        "Hanbing Lu",
+        "Andrew F. Leuchter",
+        "Laura A. DeNardo",
+        "Scott A. Wilke"
+      ],
+      "doi": "10.1016/j.cell.2025.12.040",
+      "pages": "3052-3070.e13"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-05-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2025.12.040",
+      "doi": "https://doi.org/10.1016/j.cell.2025.12.040",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.01.29.635537"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-19T20:14:36.355391+00:00",
+    "source": "openalex"
+  }
+}

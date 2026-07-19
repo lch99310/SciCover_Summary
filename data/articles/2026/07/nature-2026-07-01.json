@@ -1,0 +1,65 @@
+{
+  "id": "nature-2026-07-01",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8121",
+  "date": "2026-07-01",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
+      "en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'"
+    },
+    "summary": {
+      "zh": "【總結】\n這項開創性的研究利用詹姆斯·韋伯太空望遠鏡（JWST）的強大觀測能力，首次詳細分析了一顆圍繞白矮星運行的系外行星 WD 1856 b 的大氣成分。研究發現其大氣中富含烴類（特別是甲烷），並存在氣溶膠（aerosols）以及來自行星夜側的熱輻射。更令人驚訝的是，行星的有效溫度遠高於預期，這表明它經歷了一次大規模的軌道遷移和加熱事件，為我們理解恆星演化晚期行星的命運提供了前所未有的窗口。\n\n【研究問題】\n行星在恆星演化為紅巨星並最終成為白矮星後能否倖存？倖存下來的行星大氣成分為何？它們如何演化？過去的研究僅發現了少數圍繞白矮星的行星，但對其大氣的了解幾乎為零，存在巨大的知識鴻溝。WD 1856 b 的特殊軌道（0.02 AU）表明它經歷了劇烈的軌道演化，但其詳細過程和對行星的影響尚不明確。理解這些問題對於我們勾勒出太陽系乃至宇宙中行星系統的最終命運至關重要。\n\n【研究方法】\n研究團隊利用 JWST 的 NIRSpec PRISM 儀器，對 WD 1856 b 進行了透射光譜觀測。通過分析行星從恆星前方經過時，不同波長光線被吸收的細微差異，重建了行星大氣的光譜。他們開發了複雜的數據處理和分析流程（包括 FIREFLy 和 Juniper 兩個獨立管道），並採用了先進的大氣反演模型（POSEIDON），結合行星的質量、溫度、大氣組分（如甲烷、氨、水等）、氣溶膠特性以及來自行星夜側的熱輻射進行擬合。同時，他們利用行星冷卻模型，回溯分析了行星的熱演化歷史，以推斷其軌道遷移和加熱事件發生的時間。\n\n【結果】\n觀測數據證實 WD 1856 b 的大氣中存在顯著的烴類，尤其是甲烷（CH₄），其豐度約為 7%，大氣金屬豐度約為太陽的 100 倍。同時，檢測到氣溶膠的存在，這可能解釋了短波長處的散射現象。最引人注目的是，行星的有效溫度高達 390–412 K，遠超其理論平衡溫度（160 K）。通過回溯分析，研究推斷 WD 1856 b 在約 3.0–5.5 Gya 前（白矮星階段）經歷了一次高偏心率軌道遷移事件，並在此過程中被加熱。這一發現為揭示巨行星在恆星「死亡」後的長期生存和演化路徑提供了關鍵證據。",
+      "en": "**Summary:**\nThis groundbreaking study leverages the powerful capabilities of the James Webb Space Telescope (JWST) to provide the first detailed atmospheric analysis of WD 1856 b, an exoplanet orbiting a white dwarf. The research reveals an atmosphere rich in hydrocarbons, particularly methane, along with the presence of aerosols and thermal emission from the planet's nightside. Most strikingly, the planet's effective temperature is significantly higher than expected, indicating a dramatic orbital migration and reheating event, offering an unprecedented window into the fate of planets in the late stages of stellar evolution.\n\n**Problem:**\nCan planets survive the transformation of their host stars into red giants and then white dwarfs? If so, what are their atmospheric compositions and evolutionary paths? While a few planets have been found around white dwarfs, their atmospheres remain largely unexplored, presenting a significant knowledge gap. WD 1856 b's unusually close orbit (0.02 AU) strongly suggests a history of violent orbital evolution, but the specifics and its impact on the planet were unclear. Understanding these questions is crucial for comprehending the ultimate destiny of planetary systems, including our own.\n\n**Approach:**\nThe research team employed JWST's NIRSpec PRISM instrument to obtain transmission spectroscopy of WD 1856 b. By analyzing the subtle absorption of starlight at different wavelengths as the planet transited its star, they reconstructed its atmospheric spectrum. Complex data reduction pipelines (FIREFLy and Juniper) and advanced atmospheric retrieval models (POSEIDON) were used to fit the data, incorporating planetary mass, temperature, atmospheric constituents (like methane, ammonia, water), aerosol properties, and nightside thermal emission. Furthermore, planetary cooling models were utilized to trace back the planet's thermal history, inferring the timing of its orbital migration and heating event.\n\n**Results:**\nThe observations confirmed the presence of significant hydrocarbons, especially methane (CH₄), with an abundance of approximately 7% and a high atmospheric metallicity ~100 times solar. Aerosols were also detected, potentially explaining scattering at shorter wavelengths. Most notably, the planet's effective temperature is a surprisingly high 390–412 K, far exceeding its theoretical equilibrium temperature of 160 K. Backwards thermal evolution analysis suggests WD 1856 b underwent a high-eccentricity migration event approximately 3.0–5.5 billion years ago during the white dwarf phase, during which it was significantly reheated. This discovery provides critical evidence for the long-term survival and evolutionary pathways of giant planets after their host stars have died."
+    },
+    "keyArticle": {
+      "title": "Aerosols and hydrocarbons in the atmosphere of a white dwarf planet",
+      "authors": [
+        "Ryan J. MacDonald",
+        "Christopher E. O’Connor",
+        "V. A. Boehm",
+        "Erin May",
+        "David K. Sing",
+        "Elijah Mullens",
+        "L. C. Mayorga",
+        "Trevor O. Foote",
+        "Simon Blouin",
+        "Logan Pearce",
+        "Nikole K. Lewis",
+        "Jeff A. Valenti",
+        "Natasha Batalha",
+        "Maura Lally",
+        "Joshua D. Lothringer",
+        "Mark S. Marley",
+        "Ishan Mishra",
+        "Susan E. Mullally"
+      ],
+      "doi": "10.1038/s41586-026-10514-7",
+      "pages": "76-80"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10514-7",
+      "doi": "https://doi.org/10.1038/s41586-026-10514-7",
+      "preprint": "https://arxiv.org/abs/2607.01316"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-19T20:13:36.394479+00:00",
+    "source": "openalex"
+  }
+}

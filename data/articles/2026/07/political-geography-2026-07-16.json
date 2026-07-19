@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-07-16",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "「戰略自主」的迷宮：歐洲為何無法真正看見他者",
+      "en": "The Continent That Cannot See Its Rivals: Europe’s Strategic Autonomy Paradox"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章把「戰略自主」從歐盟的政策口號，還原為一場關於歐洲自我認同的深層辯論。作者指出，歐洲總想同時扮演兩角色：一方面承認自己是世界棋局中的一個區域玩家，另一方面又堅信歐洲現代性是全人類的終點。這種普遍主義的自我想像，讓歐洲很難真正面對「他者」與競爭，最終只能在政策話語中不斷自我迴圈。\n\n【研究問題】為什麼「戰略自主」這詞十年來越用越廣、卻越來越模糊？過往政策分析只把它當作工具性概念，卻忽略了它背後的想像地理學。當中國崛起、跨大西洋關係動搖、供應鏈風險加劇時，歐洲該如何定位自身？這不僅是策略問題，更是歐洲能否擺脫「歷史等待室」、正視世界多元性的認知難題。\n\n【研究方法】作者採用「地緣敘事」分析法，結合批判地緣政治學與賽義德的「想像地理」概念。他系統梳理了2013至2025年間歐盟文件、戰略監察報告與高層演說，追蹤「戰略自主」的語義擴張；同時剖析歐盟報告借用馬斯洛需求金字塔的隱喻，揭示歐洲話語中潛藏的線性發展觀與自我中心邏輯。\n\n【結果】研究發現，該概念已從國防工業擴展至健康、能源、數位主權等十大政策領域，但歐盟官方監測報告仍將歐洲的「自我實現」等同於成為全球模範。領導人演說頻繁強調「歐洲方式」，卻迴避真正的地緣對抗。這說明模糊不是缺陷而是功能：它讓敘事永遠處於「即將完成」狀態，持續為歐盟提供主權決心的想像空間。",
+      "en": "**Summary:** This article reframes “strategic autonomy” not as a policy blueprint, but as a revealing symptom of Europe’s identity crisis. Herborth argues that the EU is caught in a structural antinomy: it wants to act as one geopolitical player among many, yet still views European modernity as the universal standard toward which the rest of the world will inevitably converge. This universalist lens makes genuine engagement with difference nearly impossible, turning geopolitical strategy into a self-referential monologue.\n\n**Problem:** Why has “strategic autonomy” become Europe’s most pervasive yet persistently vague policy buzzword? Previous analyses treated it as a technical gap in defense or industrial policy, overlooking the deeper narrative machinery at work. As non-Western powers rise and transatlantic trust erodes, understanding how Europe imagines its place in a multipolar world becomes essential—not just for EU strategy, but for grasping how historical self-conceptions shape contemporary power politics.\n\n**Approach:** Herborth employs geonarrative analysis, drawing on critical geopolitics and Edward Said’s concept of “imaginative geography.” He traces the semantic evolution of “strategic autonomy” across EU documents, strategic monitors, and high-level speeches from 2013 to 2025. By examining how the EU borrows frameworks like Maslow’s hierarchy to map policy priorities, he exposes the developmentalist assumptions quietly structuring Europe’s geopolitical self-understanding.\n\n**Results:** The analysis shows the term has ballooned from defense industry coordination to a ten-pillar agenda spanning health, energy, and digital sovereignty. Yet official reports still frame Europe’s “self-actualization” as becoming a global role model while others “catch up.” Leaders’ rhetoric consistently emphasizes the “European way,” sidestepping real competition. The paper concludes that this vagueness is deliberate: it keeps the narrative permanently unfinished, sustaining the illusion of sovereign resolve."
+    },
+    "keyArticle": {
+      "title": "European strategic antinomy",
+      "authors": [
+        "Benjamin Herborth"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103616",
+      "pages": "103616"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103616",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103616"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-19T20:15:47.426150+00:00",
+    "source": "openalex"
+  }
+}

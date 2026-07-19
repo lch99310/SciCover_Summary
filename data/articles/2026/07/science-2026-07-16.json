@@ -1,0 +1,57 @@
+{
+  "id": "science-2026-07-16",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6808",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "牙齒裡的非洲足跡：聖赫勒拿「解放非裔」的失落地圖",
+      "en": "Teeth as Maps: Tracing the Lost Homelands of St Helena’s Liberated Africans"
+    },
+    "summary": {
+      "zh": "【總結】在大西洋孤島聖赫勒拿的荒草谷地裡，長眠著約八千名十九世紀被英國海軍從非法奴隸船上救出的非裔。他們的名字早已失落，墓穴也沒有碑文。這項發表於《Science》的研究，用牙齒琺瑯質中的鍶同位素當時間膠囊，搭配非洲地質等值線模型、歷史檔案與古DNA，成功拼出這些人被帶往海岸前的家園與童年遷徙軌跡。研究不僅還原了跨大西洋奴隸貿易的真實觸角，也為後代社群如何安頓祖先遺骸提供了倫理路徑。\n\n【研究問題】奴隸貿易的船票只記錄登船港口，卻從不標記他們的內陸故鄉，更遑論童年時被迫跋涉的距離。過去的古DNA能追蹤血緣淵源，卻無法精確指出某個人出生或成長在哪裡；而檔案資料往往只停留在海岸線。對聖赫勒拿島的居民與學者而言，釐清這些無名者的地理來源，不只是學術補完，更是紀念、歸葬與文化尊嚴的核心問題。\n\n【研究方法】研究團隊採集了152具遺骸的牙齒琺瑯質，因為牙釉質在兒童期形成後就不再重組，會把當地地質的鍶同位素比值永久封存。他們將測得的數值與撒哈拉以南非洲的大型鍶同位素地圖比對，計算每個人最可能的家園機率。接著，結合英國海軍戰利品法庭紀錄與已發布的古DNA數據交叉校準。另有41人進行成對牙齒比對，並用雷射微探技術在一顆牙上劃出成長軌跡，精準還原童年搬遷的時間點。\n\n【結果】所有個體的鍶比值都遠高於聖赫勒拿島的火山基線，證實沒有人在島上出生。數值橫跨0.712到0.772，顯示來源極其多元：多數來自西中非沿海地區，但也有不少人出身安哥拉深處、甚至遠至辛巴威與博茨瓦納。成對牙齒與雷射掃描更捕捉到十餘人在童年時期被迫向海岸移動的痕跡。正因為故鄉過於分散，社區最終決定不嘗試單一歸還，而是在2022年於島上舉行公開儀式集體重新安葬。",
+      "en": "**Summary:** Beneath the wind-scoured slopes of Rupert’s Valley on St Helena lie the unmarked graves of roughly eight thousand Africans rescued from illegal slave ships in the mid-nineteenth century. For decades, their names and homelands were lost to the archive. A new study in *Science* turns human teeth into geochemical archives: by reading strontium isotopes locked into childhood enamel, combining them with a continental isoscape model, and cross-referencing shipping logs and ancient DNA, researchers have reconstructed where these people grew up and how far they were forced to march before boarding a ship. The work transforms erased biographies into traceable lives—and reshapes how diaspora communities approach remembrance.\n\n**Problem:** Historical records of the transatlantic slave trade reliably name embarkation ports, but they rarely reach inland. They tell us where captives were loaded, not where they were born, raised, or dragged across the continent. Ancient DNA can point to broad ancestral regions, yet it cannot pinpoint childhood residence, especially across genetically diverse and poorly sampled parts of Africa. Reconstructing individual origins matters not only for historical accuracy, but because it directly informs whether, and how, human remains should be repatriated or commemorated.\n\n**Approach:** The team analyzed strontium isotope ratios in tooth enamel from 152 individuals. Because enamel forms during childhood and never remodels, it preserves a chemical fingerprint of the local bedrock and water supply. Researchers matched each measurement against a published sub-Saharan strontium isoscape to generate probabilistic geographic assignments. They then layered in British vice-admiralty court records and previously published ancient DNA to narrow the possibilities. For a subset, paired early- and late-forming teeth were compared, and laser-ablation profiling inside single crowns captured mobility shifts at sub-yearly resolution.\n\n**Results:** Every individual showed isotopic signatures far exceeding St Helena’s young volcanic baseline, confirming none were island-born. Values spanned 0.712 to 0.772, revealing origins ranging from the Angolan coast to deep interiors now spanning Namibia, Zimbabwe, and Botswana. Paired-tooth and laser data caught clear childhood relocations, including one teenager moved from inland Angola to the coast around age seven or eight. Faced with such dispersed homelands, the St Helena community concluded that a single repatriation was impractical, opting instead for a collective reburial ceremony on the island in 2022."
+    },
+    "keyArticle": {
+      "title": "Tracing the origins of St Helena’s liberated Africans",
+      "authors": [
+        "X Wang",
+        "Judy Watson",
+        "Helena Bennett",
+        "Andrew Pearson",
+        "Geoff Nowell",
+        "Joanne Peterkin",
+        "Kate Robson Brown",
+        "Alistair Pike",
+        "Jason E. Laffoon",
+        "Vicky M. Oelze",
+        "Hannes Schroeder"
+      ],
+      "doi": "10.1126/science.aeb3661",
+      "pages": "eaeb3661"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb3661",
+      "doi": "https://doi.org/10.1126/science.aeb3661"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-19T20:11:17.448844+00:00",
+    "source": "openalex"
+  }
+}

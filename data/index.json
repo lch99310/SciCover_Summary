@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-16T20:24:13.932312+00:00",
+  "lastUpdated": "2026-07-19T20:16:33.246687+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-16",
+      "journal": "Political Geography",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/political-geography-2026-07-16.json",
+      "title_zh": "「戰略自主」的迷宮：歐洲為何無法真正看見他者",
+      "title_en": "The Continent That Cannot See Its Rivals: Europe’s Strategic Autonomy Paradox",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-16-cover.jpg"
+    },
+    {
+      "id": "science-2026-07-16",
+      "journal": "Science",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/science-2026-07-16.json",
+      "title_zh": "牙齒裡的非洲足跡：聖赫勒拿「解放非裔」的失落地圖",
+      "title_en": "Teeth as Maps: Tracing the Lost Homelands of St Helena’s Liberated Africans",
+      "cover_url": "data/images/science/science-2026-07-16-cover.jpg"
+    },
     {
       "id": "science-2026-07-09-02",
       "journal": "Science",
@@ -72,6 +90,15 @@
       "title_zh": "繞過自旋：銅氧化物界面激發軌道電流，讓反鐵磁體电阻暴增五十倍",
       "title_en": "Bypassing Spin: Orbital Currents at Copper Oxide Interfaces Boost Magnetoresistance Fifty-Fold in Antiferromagnets",
       "cover_url": "data/images/science/science-2026-07-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-01",
+      "journal": "Nature",
+      "date": "2026-07-01",
+      "path": "articles/2026/07/nature-2026-07-01.json",
+      "title_zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
+      "title_en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'",
+      "cover_url": "data/images/nature/nature-2026-07-01-cover.jpg"
     },
     {
       "id": "science-2026-06-25-02",
@@ -603,6 +630,15 @@
       "title_zh": "破解蛋白質遺傳密碼：最大規模蛋白質基因組學研究揭示疾病治療新方向",
       "title_en": "Decoding the Protein Genetic Code: Largest Proteogenomic Study Reveals New Directions for Disease Treatment",
       "cover_url": "data/images/cell/cell-2026-05-01-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-05-01-04",
+      "journal": "Cell",
+      "date": "2026-05-01",
+      "path": "articles/2026/05/cell-2026-05-01-04.json",
+      "title_zh": "解開經顱磁刺激的抗憂鬱密碼：磁場沒有讓大腦『全亮』，而是精準喚醒了這群細胞",
+      "title_en": "When Magnetism Heals: The Single Neuron Type That Powers rTMS's Rapid Antidepressant Effect",
+      "cover_url": "data/images/cell/cell-2026-05-01-04-cover.jpg"
     },
     {
       "id": "cell-2026-05-01",
