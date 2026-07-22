@@ -15,17 +15,25 @@ Backend fallback
 Multiple API backends are tried in priority order.  When one backend returns
 a 402 (insufficient credits / quota exhausted), the next backend is tried
 automatically.  Configure backends via environment variables — any backend
-whose key env-var is empty or missing is silently skipped.
+whose key env-var is empty or whose resolved model slug is empty is silently
+skipped.  Each model slug can be overridden via a ``*_MODEL`` env var (see
+``_BACKEND_CONFIGS``), so a retired free slug can be swapped without a code
+change.
 
-Priority order:
-  1. agnes-2.0-flash                   (AGNES_AI_API_KEY          — Agnes AI)
-  2. gemini-2.0-flash                  (GEMINI_API_KEY            — Google)
-  3. z-ai/glm-4.5-air:free             (OPENROUTER_KEY_GLAI       — OpenRouter)
-  4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA   — OpenRouter)
-  5. qwen/qwen3-next-80b-a3b-instruct:free (OPENROUTER_KEY_QWEN3  — OpenRouter)
-  6. minimax/minimax-m2.5:free         (OPENROUTER_KEY_MINIMAX    — OpenRouter)
-  7. openrouter/auto                   (OPENROUTER_FREE_API_KEY   — OpenRouter auto free routing)
-  8. deepseek-chat                     (DEEPSEEK_API_KEY          — DeepSeek, PAID, last resort)
+Priority order (default slugs; ``*_MODEL`` env vars override each one):
+  1. agnes-2.0-flash                   (AGNES_AI_API_KEY / AGNES_MODEL)
+  2. gemini-2.0-flash                  (GEMINI_API_KEY / GEMINI_MODEL)
+  3. (disabled) OPENROUTER_KEY_GLAI    — set OPENROUTER_MODEL_GLAI to a live
+       free model to re-enable (the previous ``:free`` slug was retired)
+  4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA / OPENROUTER_MODEL_NVIDIA)
+  5. (disabled) OPENROUTER_KEY_QWEN3   — set OPENROUTER_MODEL_QWEN3 to re-enable
+  6. (disabled) OPENROUTER_KEY_MINIMAX — set OPENROUTER_MODEL_MINIMAX to re-enable
+  7. openrouter/auto                   (OPENROUTER_FREE_API_KEY / OPENROUTER_MODEL_FREE)
+  8. deepseek-v4-flash                 (DEEPSEEK_API_KEY / DEEPSEEK_MODEL, PAID, last resort)
+
+Backends that fail in a run-persistent way (404 unavailable endpoint or a
+used-up daily quota) are blacklisted for the rest of the run so they are not
+re-tried for every subsequent article.
 """
 
 from __future__ import annotations
@@ -60,49 +68,73 @@ _MAX_FULLTEXT_CHARS = int(os.environ.get("SUMMARIZER_MAX_FULLTEXT_CHARS", "60000
 
 # Each tuple: (env_var_name, model_id, base_url)
 # Tried in this priority order; 402/404/PerDay causes fallover to the next entry.
-# Order is based on observed reliability: glm-4.5-air and nvidia tend to be
-# available; qwen3 is often upstream-rate-limited from Venice provider.
+#
+# Every model slug can be overridden at runtime via the env var shown in the
+# second column of the helper calls below.  This matters because free-tier
+# model slugs on OpenRouter are frequently retired (the provider then returns
+# a 404 telling you to use a paid slug).  When that happens, point the key at a
+# currently-available free model by setting e.g. ``OPENROUTER_MODEL_GLAI`` in
+# the GitHub Actions secrets — no code change or redeploy required.
+#
+# A backend whose resolved model slug is empty is skipped entirely.  The three
+# OpenRouter slots below (GLAI / QWEN3 / MINIMAX) default to empty because the
+# ``:free`` variants they previously used were retired by OpenRouter and now
+# 404 on every call; set the matching ``OPENROUTER_MODEL_*`` env var to a live
+# free model to re-enable them.
+
+
+def _model(env_var: str, default: str) -> str:
+    """Resolve a model slug from *env_var*, falling back to *default*.
+
+    An empty resolved value disables the backend (see :func:`_build_backends`).
+    """
+    return os.environ.get(env_var, "").strip() or default
+
+
 _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     (
         "AGNES_AI_API_KEY",
-        "agnes-2.0-flash",
+        _model("AGNES_MODEL", "agnes-2.0-flash"),
         "https://apihub.agnes-ai.com/v1",
     ),
     (
         "GEMINI_API_KEY",
-        "gemini-2.0-flash",
+        _model("GEMINI_MODEL", "gemini-2.0-flash"),
         "https://generativelanguage.googleapis.com/v1beta/openai/",
     ),
+    # Retired ``:free`` slug — disabled until OPENROUTER_MODEL_GLAI is set.
     (
         "OPENROUTER_KEY_GLAI",
-        "z-ai/glm-4.5-air:free",
+        _model("OPENROUTER_MODEL_GLAI", ""),
         "https://openrouter.ai/api/v1",
     ),
     (
         "OPENROUTER_KEY_NVIDIA",
-        "nvidia/nemotron-3-nano-30b-a3b:free",
+        _model("OPENROUTER_MODEL_NVIDIA", "nvidia/nemotron-3-nano-30b-a3b:free"),
         "https://openrouter.ai/api/v1",
     ),
+    # Retired ``:free`` slug — disabled until OPENROUTER_MODEL_QWEN3 is set.
     (
         "OPENROUTER_KEY_QWEN3",
-        "qwen/qwen3-next-80b-a3b-instruct:free",
+        _model("OPENROUTER_MODEL_QWEN3", ""),
         "https://openrouter.ai/api/v1",
     ),
+    # Retired ``:free`` slug — disabled until OPENROUTER_MODEL_MINIMAX is set.
     (
         "OPENROUTER_KEY_MINIMAX",
-        "minimax/minimax-m2.5:free",
+        _model("OPENROUTER_MODEL_MINIMAX", ""),
         "https://openrouter.ai/api/v1",
     ),
     # Free auto-routing key — OpenRouter picks the best available free model.
     (
         "OPENROUTER_FREE_API_KEY",
-        "openrouter/auto",
+        _model("OPENROUTER_MODEL_FREE", "openrouter/auto"),
         "https://openrouter.ai/api/v1",
     ),
     # PAID fallback — only reached when every free backend above has failed.
     (
         "DEEPSEEK_API_KEY",
-        "deepseek-v4-flash",
+        _model("DEEPSEEK_MODEL", "deepseek-v4-flash"),
         "https://api.deepseek.com",
     ),
 ]
@@ -122,6 +154,11 @@ def _build_backends() -> List[Tuple[OpenAI, str]]:
     for env_var, model, base_url in _BACKEND_CONFIGS:
         key = os.environ.get(env_var, "").strip()
         if not key:
+            continue
+        # A backend with no resolved model slug is intentionally disabled
+        # (e.g. a retired OpenRouter ``:free`` model with no override set).
+        if not model:
+            logger.debug("Skipping backend for %s: no model slug configured", env_var)
             continue
         # Google's Gemini endpoint doesn't need the OpenRouter custom headers.
         headers = _OPENROUTER_HEADERS if "openrouter" in base_url else {}
@@ -184,9 +221,11 @@ class BilingualSummarizer:
             logger.info("Summariser backends (in priority order): %s", models)
 
         self._last_mode = "abstract-only"
-        # Models that exhausted all retries due to 429 rate limits in this
-        # session are blacklisted so subsequent articles skip them immediately.
-        self._rate_limit_blacklist: set = set()
+        # Models that failed in a way that will persist for the rest of this
+        # run — exhausted per-minute rate limits, a retired/unavailable
+        # endpoint (404), or a used-up daily quota — are blacklisted so
+        # subsequent articles skip them immediately instead of re-failing.
+        self._session_blacklist: set = set()
 
     # ------------------------------------------------------------------
     # Public API
@@ -269,9 +308,9 @@ class BilingualSummarizer:
             )
 
         for client, model in self._backends:
-            if model in self._rate_limit_blacklist:
+            if model in self._session_blacklist:
                 logger.info(
-                    "[%s] Skipping — persistently rate-limited earlier in this session",
+                    "[%s] Skipping — unavailable or exhausted earlier in this session",
                     model,
                 )
                 continue
@@ -290,8 +329,10 @@ class BilingualSummarizer:
     ) -> Optional[Dict[str, Any]]:
         """Try one backend with retries.  Returns result or None on failure.
 
-        If ALL attempts fail due to 429 rate limits, the model is added to
-        ``self._rate_limit_blacklist`` so subsequent articles skip it.
+        Failures that will persist for the rest of the run (a 404 unavailable
+        endpoint, a used-up daily quota, or fully-exhausted per-minute rate
+        limits) add the model to ``self._session_blacklist`` so subsequent
+        articles skip it immediately.
         """
         rate_limit_failures = 0
         for attempt in range(1, self.MAX_RETRIES + 2):
@@ -322,12 +363,15 @@ class BilingualSummarizer:
                     )
                     return None
 
-                # 404 — endpoint not available (e.g. guardrail/data-policy
-                # restrictions on OpenRouter).  This is a permanent config
-                # issue, not a transient error — skip immediately.
+                # 404 — endpoint not available (e.g. a retired model slug or
+                # guardrail/data-policy restrictions on OpenRouter).  This will
+                # persist for the whole run, so blacklist the model to avoid
+                # re-hitting it for every subsequent article.
                 if "404" in exc_str:
+                    self._session_blacklist.add(model)
                     logger.warning(
-                        "[%s] Endpoint not available (404) — switching to next backend",
+                        "[%s] Endpoint not available (404) — blacklisting for "
+                        "this session and switching to next backend",
                         model,
                     )
                     return None
@@ -342,10 +386,13 @@ class BilingualSummarizer:
 
                 # 429 / RESOURCE_EXHAUSTED — rate limited.
                 if "429" in exc_str or "rate" in exc_str.lower() or "RESOURCE_EXHAUSTED" in exc_str:
-                    # Daily quota exhaustion: retrying later is pointless.
+                    # Daily quota exhaustion: won't recover within this run, so
+                    # blacklist the model to skip it for the remaining articles.
                     if "PerDay" in exc_str or "per_day" in exc_str or "daily" in exc_str.lower():
+                        self._session_blacklist.add(model)
                         logger.warning(
-                            "[%s] Daily quota exhausted — switching to next backend",
+                            "[%s] Daily quota exhausted — blacklisting for this "
+                            "session and switching to next backend",
                             model,
                         )
                         return None
@@ -362,7 +409,7 @@ class BilingualSummarizer:
 
         # If every attempt was a rate-limit failure, blacklist for this session.
         if rate_limit_failures >= self.MAX_RETRIES + 1:
-            self._rate_limit_blacklist.add(model)
+            self._session_blacklist.add(model)
             logger.warning(
                 "[%s] All %d attempts rate-limited — blacklisting for this session",
                 model, rate_limit_failures,
