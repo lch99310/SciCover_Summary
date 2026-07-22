@@ -1,0 +1,81 @@
+{
+  "id": "science-2026-06-18-03",
+  "journal": "Science",
+  "volume": "392",
+  "issue": "6805",
+  "date": "2026-06-18",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-18-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "歐盟「綜合簡化」提案：為法規鬆綁，卻讓生態與健康承擔風險？",
+      "en": "The EU Omnibus Proposal: Deregulation or a Threat to Ecosystem Health?"
+    },
+    "summary": {
+      "zh": "【總結】本文嚴厲批評歐盟委員會於2025年底提出的「食品與飼料安全綜合簡化方案」。研究指出，該提案旨在簡化農藥審批流程並減輕產業負擔，但其核心措施——特別是允許多數現有農藥活性成分無限期保留在市場上——將嚴重削弱現有的環境風險評估體系。作者警告，這不僅無法解決法規延遲問題，反而會放現有的科學盲點，危及歐盟的生物多樣性保護目標及國際承諾。\n\n【研究問題】儘管歐盟擁有嚴格的農藥監管框架，但生態損害與健康風險仍持續發生。過去的審評存在明顯缺口：未充分評估對非目標物種（如兩棲類、蝙蝠）的影響，忽略亞致死效應及多種農藥混合使用的協同毒性，且高階測試統計效力不足。為什麼解決這些問題至關重要？因為現行制度依賴定期更新來淘汰高風險物質，若移除這一機制，有害農藥將長期滯留環境，阻礙更安全替代品的創新與採用。\n\n【研究方法】作者團隊由來自歐洲多國大學與研究機構的生態學家、毒理學家與政策專家組成。他們並未進行新的實驗室實驗，而是採用政策分析與科學證據綜述的方法。他們深入剖析《綜合簡化方案》對第1107/2009號條例的具體修訂條款，比較現行「限期 renewal」制度與提案中「無限期批准+选择性再評估」的差異。研究結合了歷史審評數據（如過去五年淘汰的農藥數量）、獨立科學文獻關於農藥混合毒性的證據，以及對現行監測系統缺失的批判性評估，從而構建出一套完整的風險推演模型。\n\n【結果】研究揭示，提案雖標榜減負，實則可能導致監管標準倒退。關鍵數據顯示，自2011年以來，已有59種常規活性成分因健康或環境原因未能通過續期，另有96種未申請續期；若改為無限期批准，這類篩選機制將失效。此外，提案賦予執委會過大裁量權決定哪些物質需再評估，而缺乏強制觸發機制。結果意義深遠：這不僅會放緩淘汰有害物質的速度，還會削弱獨立科學研究在決策中的影響力。作者建議通過增加EFSA人手、強制公開研究數據、建立後期監測反饋迴路等「更安全的途徑」，在降低行政負擔的同時強化保護標準。",
+      "en": "**Summary:** This Policy Forum critically analyzes the European Commission’s proposed \"Omnibus Simplification Package\" for food and feed safety, arguing that it jeopardizes environmental and human health protections. The authors contend that while the proposal aims to streamline pesticide approvals and reduce regulatory burdens, its core mechanism—granting indefinite approval to most active substances—exacerbates existing flaws in risk assessment. By weakening mandatory renewal cycles and limiting the integration of independent science, the package risks locking the EU into outdated, under-protective standards, undermining biodiversity goals and international commitments.\n\n**Problem:** Despite a comprehensive regulatory framework, pesticides continue to cause ecological damage and health risks. Significant gaps remain in current assessments: impacts on non-target organisms (e.g., bats, amphibians), sublethal effects, and cumulative toxicity from mixtures are often ignored. Furthermore, higher-tier studies frequently lack statistical power. Why is this crucial? The current system relies on time-bound renewals to systematically remove high-risk substances and incentivize safer alternatives. Removing this deadline-driven review process eliminates a critical safety valve, potentially allowing harmful chemicals to persist in the environment indefinitely without updated scrutiny.\n\n**Approach:** The authors, a diverse consortium of ecotoxicologists, policy experts, and researchers from across Europe, employ a rigorous policy analysis rather than new laboratory experiments. They dissect the specific amendments the Omnibus proposal makes to Regulation (EC) No 1107/2009, contrasting the proposed \"indefinite approval\" model with the current mandatory renewal system. Their methodology integrates historical data on substance withdrawals, evidence from independent scientific literature on synergistic toxicity, and an evaluation of the practical feasibility of the proposed monitoring and reassessment triggers. This multi-faceted approach allows them to map out how legal changes directly translate to scientific and ecological risks.\n\n**Results:** The analysis reveals that the Omnibus proposal would significantly dilute regulatory safeguards. Historically, between 2011 and the proposal date, 59 active substances failed renewal due to safety concerns, and another 96 were not renewed; indefinite approval would halt this attrition of risky chemicals. The proposal’s reassessment triggers are deemed too weak and discretionary, relying on monitoring systems that do not yet exist. Crucially, the study highlights that statistical power in current higher-tier bee studies is often insufficient (e.g., none of 63 neonicotinoid studies met EFSA’s recommended 80% power). The findings imply that without reforming the assessment methodology itself, simply accelerating approvals will lead to greater environmental harm. The authors propose actionable reforms, such as hiring more EFSA staff, mandating equivalence testing, and creating robust feedback loops from post-market monitoring to pre-market assessments."
+    },
+    "keyArticle": {
+      "title": "EU Omnibus proposal increases pesticide risks",
+      "authors": [
+        "Dimitry Wintermantel",
+        "Denicia Kassie",
+        "Lindsey Hendricks‐Franco",
+        "Jessica Knapp",
+        "Annika Jahnke",
+        "Tom Breeze",
+        "M. J. F. Brown",
+        "C Brühl",
+        "Justine Dewaele",
+        "Manon Fiévet",
+        "Andreas Focks",
+        "Antoine Gekière",
+        "Dave Goulson",
+        "Gregor Hagedorn",
+        "Timo Huelsduenker",
+        "Claudia Ituarte-Lima",
+        "Alexandra‐Maria Klein",
+        "Alicia Kling",
+        "Joachim R. de Miranda",
+        "Denis Michez",
+        "Paul N. Ozoh",
+        "Robert J. Paxton",
+        "Guy Pe’er",
+        "Simon G. Potts",
+        "Antonia Riedel",
+        "Josselin Rouillard",
+        "Maj Rundlöf",
+        "Ralf B. Schäfer",
+        "Andreas Schäffer",
+        "Fabio Sgolastra",
+        "Daniel Slunge",
+        "Christopher J. Topping",
+        "Simone Tosi",
+        "Adam J. Vanbergen",
+        "Julia Osterman"
+      ],
+      "doi": "10.1126/science.aeg8744",
+      "pages": "1348-1351"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-18-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeg8744",
+      "doi": "https://doi.org/10.1126/science.aeg8744"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-22T20:09:28.642861+00:00",
+    "source": "openalex"
+  }
+}

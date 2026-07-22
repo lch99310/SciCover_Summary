@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-19T20:16:33.246687+00:00",
+  "lastUpdated": "2026-07-22T20:14:40.366485+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-18",
+      "journal": "Political Geography",
+      "date": "2026-07-18",
+      "path": "articles/2026/07/political-geography-2026-07-18.json",
+      "title_zh": "當土地改革遇上「叢林」：利比里亞女性為何被排除在決策之外？",
+      "title_en": "When Land Reform Meets the 'Bush': How De Facto Authority Silences Women in Liberia",
+      "cover_url": ""
+    },
     {
       "id": "political-geography-2026-07-16",
       "journal": "Political Geography",
@@ -182,6 +191,15 @@
       "cover_url": "data/images/science/science-2026-06-18-02-cover.jpg"
     },
     {
+      "id": "science-2026-06-18-03",
+      "journal": "Science",
+      "date": "2026-06-18",
+      "path": "articles/2026/06/science-2026-06-18-03.json",
+      "title_zh": "歐盟「綜合簡化」提案：為法規鬆綁，卻讓生態與健康承擔風險？",
+      "title_en": "The EU Omnibus Proposal: Deregulation or a Threat to Ecosystem Health?",
+      "cover_url": "data/images/science/science-2026-06-18-03-cover.jpg"
+    },
+    {
       "id": "science-2026-06-18",
       "journal": "Science",
       "date": "2026-06-18",
@@ -243,6 +261,24 @@
       "title_zh": " NSF砸15億美元建「X實驗室」？別急著推翻研究計畫補助制",
       "title_en": "The NSF’s $1.5 Billion Bet on X-Labs: Why the Grant System Isn’t Broken Yet",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-06-10",
+      "journal": "Cell",
+      "date": "2026-06-10",
+      "path": "articles/2026/06/cell-2026-06-10.json",
+      "title_zh": "大腦的「老」細胞：揭開發育中的感質細胞如何築起保護屏障的秘密",
+      "title_en": "The Brain's 'Old' Cells: Unveiling How Developing Senescent Cells Build Protective Barriers",
+      "cover_url": "data/images/cell/cell-2026-06-10-cover.jpg"
+    },
+    {
+      "id": "nature-2026-06-10-02",
+      "journal": "Nature",
+      "date": "2026-06-10",
+      "path": "articles/2026/06/nature-2026-06-10-02.json",
+      "title_zh": "解碼全球遷徙：深度學習如何重繪四十年人口流動地圖",
+      "title_en": "Mapping Human Tides: How Deep Learning Decodes Four Decades of Global Migration",
+      "cover_url": "data/images/nature/nature-2026-06-10-02-cover.jpg"
     },
     {
       "id": "nature-2026-06-10",
@@ -465,8 +501,8 @@
       "journal": "American Sociological Review",
       "date": "2026-05-21",
       "path": "articles/2026/05/american-sociological-review-2026-05-21.json",
-      "title_zh": "在「面子」與「狂歡」之間：社會互動的兩種儀式本質",
-      "title_en": "Between Face and Frenzy: The Dual Rituals of Social Life",
+      "title_zh": "面子與狂歡：社會互動中兩種被遺忘的儀式",
+      "title_en": "Between Two Rituals: Face and Effervescence as Moments of Social Life",
       "cover_url": ""
     },
     {

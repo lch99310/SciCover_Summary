@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-07-18",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-07-18",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當土地改革遇上「叢林」：利比里亞女性為何被排除在決策之外？",
+      "en": "When Land Reform Meets the 'Bush': How De Facto Authority Silences Women in Liberia"
+    },
+    "summary": {
+      "zh": "【總結】本文挑戰了國際土地治理改革的經典假設，指出「社區」並非單一、邊界清晰的空間。在利比里亞，非正式權威（如男性秘密社會和海外同鄉會）通過構建排他性的「叢林」或跨越地理界限的網絡，巧妙地繞過旨在賦權女性的新法律。這揭示了性別平等政策在地化執行時的脆弱性，提醒我們空間本身是被權力動態生產出來的，而非靜態容器。\n\n【研究問題】過去研究常將社區視為固定的地理單元，忽視了權威如何在不同時空中動態構建空間以維持權力。本文探討：非正式權威如何通過製造「開放」與「封閉」的空間來抵制性別平等條款？解決此問題至關重要，因為若不理解空間的社會建構本質，土地改革將無法真正觸及深層的性別歧視結構，導致政策淪為表面文章。\n\n【研究方法】作者採用 feminist geography（女性主義地理學）理論框架，結合三年期的田野調查，深入利比里亞四個縣份的二十多個社區。透過對地方領袖、CLDMC成員及普通居民的深度訪談，並運用「定位」（siting）方法論，將全球改革議程與當地具體實踐相連結，分析人們如何在口述中隱晦地提及秘密社會及發展協會，從而揭示空間背後的權力運作。\n\n【結果】研究發現兩個關鍵機制：一是「叢林」（Poro秘密社會活動區），男性透過將土地爭議移入此女性禁區，暫時懸置了公開會議中的性別平等規定；二是「家鄉發展協會」，由首都精英組成，他們利用跨地域網絡重塑社區邊界，往往強化了傳統父權結構。具體案例顯示，即使在新法實施後，許多社區仍將敏感土地問題帶入「叢林」裁決，證明空間的排他性是維持性別不平等的核心工具。",
+      "en": "**Summary:** This article challenges the prevailing assumption in land governance reforms that 'communities' are fixed, bounded entities. In Liberia, de facto authorities—such as male secret societies and urban-based development associations—construct exclusionary spaces like 'the bush' or transnational networks to circumvent gender-equality provisions. The study reveals that space is not a passive container but an active product of power relations, demonstrating how informal authorities can undermine formal legal reforms designed to empower women.\n\n**Problem:** Previous research often treated community authority as operating within pre-existing, static territories, ignoring how space itself is socially constructed to maintain hierarchy. The article asks: How do de facto authorities reconstruct spatial boundaries to resist gender equality? This is crucial because assuming communities are unified, bounded spaces leads to failed policies; understanding the dynamic production of space is key to addressing the root causes of gendered exclusion in land governance.\n\n**Approach:** Drawing on feminist geography, the author conducted three years of fieldwork across four counties in Liberia, interviewing community leaders, CLDMC members, and residents. Using a 'siting' methodology, the study connects global reform agendas with local practices. Instead of comparing cases, it examines how specific sites reveal the circulation of power. The analysis focuses on how respondents indirectly referenced secret societies ('the bush') and hometown associations to understand how these actors manipulate spatial openness and closure to assert authority.\n\n**Results:** The study identifies two mechanisms of spatial exclusion. First, the 'bush' (a secret society space) allows men to move land disputes out of public view, effectively suspending gender-equal rules by invoking secrecy. Second, 'hometown development associations' based in the capital extend community influence beyond geographic borders, often reinforcing patriarchal norms through claims of modernity and education. Evidence shows that even when laws mandate inclusive meetings, men still drive women out by retreating to these non-public, exclusionary spaces, proving that legal reforms cannot succeed without addressing the social production of space."
+    },
+    "keyArticle": {
+      "title": "Land matters, gender, and de facto authority in (un)expected places",
+      "authors": [
+        "Caitlin L. Ryan"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103625",
+      "pages": "103625"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103625",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103625"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-22T20:14:17.690291+00:00",
+    "source": "openalex"
+  }
+}

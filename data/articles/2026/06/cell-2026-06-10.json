@@ -1,0 +1,58 @@
+{
+  "id": "cell-2026-06-10",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "14",
+  "date": "2026-06-10",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦的「老」細胞：揭開發育中的感質細胞如何築起保護屏障的秘密",
+      "en": "The Brain's 'Old' Cells: Unveiling How Developing Senescent Cells Build Protective Barriers"
+    },
+    "summary": {
+      "zh": "【總結】\n這項開創性研究深入探討了在小鼠大腦發育過程中，一種名為「感質細胞」（senescent cells）的細胞扮演了意想不到的關鍵角色。研究發現，這些細胞並非總是病態的象徵，而是分為「持久型」和「短暫型」兩種，分別在血腦屏障（BBB）和血腦脊髓液屏障（blood-CSF barrier）的形成與維持中發揮著精確而獨特的功能。這項發現顛覆了對感質細胞的傳統認知，揭示了它們在維持大腦穩態中的生理學重要性。\n\n【研究問題】\n過去，細胞衰老（senescence）多被視為老齡化或疾病的病理過程，其在正常大腦發育中的作用鮮為人知。特別是，大腦的兩個關鍵保護結構——血腦屏障（BBB）和血腦脊髓液屏障（blood-CSF barrier）——如何精確形成，以及其中是否存在特殊的細胞機制，是尚未解決的謎團。本研究旨在釐清這種被稱為p21+ 的感質細胞在大腦發育，特別是屏障形成過程中的具體功能與類型差異，填補了該領域的知識空白。\n\n【研究方法】\n研究團隊利用小鼠模型，首先透過免疫染色和單細胞RNA測序，識別出在大腦發育早期（E11.5-E15.5）表達p21蛋白的特定細胞類型：脈絡叢上皮細胞（ChPe）、血管內皮細胞（VECs）和腦部駐留巨噬細胞。接著，他們利用誘導性譜系追踪系統（p21-CreERT2），標記並追蹤這些感質細胞的存活與行為。更關鍵的是，他們透過基因工程手段，在特定發育階段選擇性地「消融」（ablate）這些p21+ 細胞，觀察其對大腦血管發育、脈絡叢完整性、腦脊髓液生成及整體大腦結構的影響，並結合掃描式電子顯微鏡、MRI等技術進行定量分析。\n\n【結果】\n研究發現，脈絡叢上皮細胞的p21+ 感質狀態是「持久型」且「非發炎性」，終生存在，對維持血腦脊髓液屏障的完整性至關重要。而血管內皮細胞和腦部駐留巨噬細胞則呈現「短暫型」且「促發炎性」的感質狀態，在腦部血管形成期活躍，參與血管生成和細胞外基質的組裝。當在胚胎中期消融這些p21+ 細胞時，小鼠出現了嚴重的腦血管發育異常、脈絡叢結構破壞、腦脊髓液生成受損，甚至腦出血和腦室塌陷。這證明了這些感質細胞是正常大腦屏障發育不可或缺的。例如，p21+ 細胞的消融導致了E15.5時期的腦血管面積分數（vessel area fraction）顯著改變，以及MHB區域血管分支數（branchpoint #）和價數（valency）的異常。",
+      "en": "**Summary:**\nThis groundbreaking study reveals the crucial, unexpected role of specific \"senescent\" cells during mouse brain development. It identifies two distinct types: \"persistent\" senescent cells in the choroid plexus epithelium, which remain non-inflammatory and lifelong, supporting the blood-cerebrospinal fluid (CSF) barrier. In contrast, vascular endothelial cells and brain-resident macrophages enter a \"transient,\" pro-inflammatory senescent state, vital for brain vascularization and extracellular matrix assembly. This work reframes senescence not just as a pathological hallmark of aging but as a critical physiological process essential for forming and maintaining the brain's protective barriers.\n\n**Problem:**\nCellular senescence has traditionally been viewed as a detrimental process linked to aging and disease, with its role in normal brain development largely unknown. Specifically, how the brain's essential protective structures—the blood-brain barrier (BBB) and the blood-CSF barrier—are precisely formed was unclear. This research addresses the gap by investigating the function and distinct states of p21-expressing senescent cells during embryonic development, particularly their contribution to barrier formation.\n\n**Approach:**\nThe researchers used mouse models, employing immunostaining and single-cell RNA sequencing to identify p21-expressing cells in the choroid plexus epithelium (ChPe), vascular endothelial cells (VECs), and brain-resident macrophages during mid-gestation. They then utilized an inducible lineage tracing system (p21-CreERT2) to track these cells. Crucially, they selectively ablated these p21+ cells during mid-gestation using a diphtheria toxin A (iDTA) system, observing the consequences on brain vascularization, choroid plexus integrity, CSF production, and overall brain structure. Techniques like MRI and quantitative histology were employed to analyze the outcomes.\n\n**Results:**\nThe study found that ChPe cells adopt a persistent, non-inflammatory senescent state essential for blood-CSF barrier integrity, while VECs and macrophages exhibit a transient, pro-inflammatory senescence during vascular development. Ablation of these p21+ cells during mid-gestation led to severe defects: disrupted brain vascular patterning, compromised choroid plexus integrity, impaired CSF production, hemorrhage, and ventricular collapse. For instance, p21+ cell ablation resulted in altered vessel area fraction and abnormal vascular branching and valency in the midbrain-hindbrain boundary at E15.5, highlighting the critical role of these senescent cells in establishing functional brain barriers."
+    },
+    "keyArticle": {
+      "title": "Persistent and transient senescent cells contribute to brain-barrier development",
+      "authors": [
+        "L. Ashley Watson",
+        "Zoe Adelsheim",
+        "Mackenzie J. Carter",
+        "Grace T. Carter",
+        "Karen L. Jimenez-Reyes",
+        "Huijie Du",
+        "Ziqing Zhu",
+        "David B. Berry",
+        "Mia C. Paredez",
+        "Rania H. Palaniappan",
+        "John M. Augustine",
+        "Hiruy S. Meharena"
+      ],
+      "doi": "10.1016/j.cell.2026.05.022",
+      "pages": "4295-4309.e6"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.022",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.022"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-22T20:13:22.900894+00:00",
+    "source": "openalex"
+  }
+}
