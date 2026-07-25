@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-07-23",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-07-23",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊界不在地圖上：希臘-土耳其邊境如何重塑國家權力",
+      "en": "The Border Is Not on the Map: How the Greek-Turkish Frontier Redefines State Power"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章挑戰了我們對「邊界」的傳統認知。作者提出「邊界化管理體制」（Regime of Bordering）框架，指出國家權力並非僅存於軍事化的政治地緣空間，而是通過經濟與社會互動，在看似遙遠的地標（如伊茲密爾的會議室與色雷斯邊境村落）之間流動與重構。研究揭示了邊境不僅是隔離線，更是權力運作的動態網絡。\n\n【研究問題】過去研究多聚焦於非法移民管控或單一類型的跨境流動，忽視了邊境作為歷史遺產與當代日常實踐的複雜性。本文旨在解決這一缺口，探討在後帝國時期的希臘-土耳其邊境，國家權力如何通過不同類型的跨境移動（合法、非法、日常貿易）被關係性地生產與再生產。\n\n【研究方法】作者採用歷史民族誌方法，結合2013至2015年在色雷斯地區的田野調查。透過分析當地報紙、進行約200次訪談（包括官員、商人和邊境居民），並引入托馬斯·艾倫的「拓撲權力」理論，將邊境視為一種跨越時空的關係網絡，而非固定的地理線。\n\n【結果】研究發現，儘管地緣政治緊張導致邊境軍事化，但在經濟與社會領域，邊境居民通過非正式貿易和親屬網絡創造了「邊境引發的尺度」。例如，土耳其商人利用邊境官員的自由裁量權進行小規模跨境交易，這雖未顛覆國家主權，卻展示了權力在日常生活中的彈性與「安靜的運作」，證明國家權力是透過這些微觀互動不斷被協商與重塑的。",
+      "en": "**Summary:** This article challenges the conventional understanding of borders as static lines. The author introduces the \"regime of bordering\" framework, arguing that state power is not confined to militarized geopolitical spaces but is dynamically reproduced through economic and social interactions across seemingly distant sites, such as diplomatic meetings in Izmir and daily life in Thrace. The study reveals that borders are active networks of power rather than mere barriers.\n\n**Problem:** Previous scholarship has largely focused on illegal migration control or single types of mobility, overlooking the complex interplay of historical legacies and everyday practices in post-imperial borders. This paper addresses this gap by examining how state power is relationally produced and contested through various forms of cross-border mobility—legal, illicit, and mundane—in the Greek-Turkish context.\n\n**Approach:** Employing a historical ethnographic approach, the author conducted fieldwork in Thrace between 2013 and 2015. Utilizing newspaper archives, nearly 200 interviews with officials and locals, and Thomas Allen’s theory of \"topological power,\" the study maps borderland interactions as relational networks that stretch across time and space, connecting local micro-practices with macro-political dynamics.\n\n**Results:** Key findings reveal that despite geopolitical tensions driving militarization, economic and social spaces exhibit fluidity. Local actors created a \"border-induced scale\" through informal trade and kinship networks. For instance, Turkish merchants leveraged border guards’ discretion for small-scale transactions. While not overthrowing state sovereignty, these practices demonstrate the \"quiet\" and flexible nature of state power, showing it is continuously negotiated and reshaped through everyday borderwork."
+    },
+    "keyArticle": {
+      "title": "The regime of bordering: Borderwork, mobility, and relational state power in the Greek–Turkish borderlands",
+      "authors": [
+        "Zeynep Kaşlı"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103621",
+      "pages": "103621"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103621",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103621"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-25T20:12:10.732903+00:00",
+    "source": "openalex"
+  }
+}

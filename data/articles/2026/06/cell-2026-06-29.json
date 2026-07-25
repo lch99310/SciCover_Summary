@@ -1,0 +1,59 @@
+{
+  "id": "cell-2026-06-29",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-06-29",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "阿茲海默症的「病毒式」擴散：Arc蛋白如何為致命蛋白打包上船？",
+      "en": "The Viral Spread of Alzheimer’s: How the Arc Protein Packages Toxic Tau for Delivery"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Cell》的研究揭示了阿茲海默症（AD）中Tau蛋白在細胞間傳播的關鍵機制。研究發現，神經元中的Arc蛋白不僅是突觸可塑性的調節者，更像是一個「病毒衣殼」，直接結合並將有毒的磷酸化Tau蛋白打包進胞外囊泡（EVs）中釋放出去。這不僅解釋了病理如何擴散，更指出Arc是介導這種「傳染性」的核心中介。\n\n【研究問題】過去已知Tau病理像癲癇一樣在腦區間擴散，且與認知衰退密切相關，但具體的分子載體和機制一直成謎。研究者面臨的缺口在於：Tau究竟是自由漂浮還是被包裝運輸？誰負責這個「裝車」過程？釐清這一點對於開發阻斷病理傳播的新療法至關重要。\n\n【研究方法】研究團隊採用多管齊下的策略。他們利用基因工程改造的小鼠模型（敲除Arc基因），結合人腦屍檢組織，通過尺寸排阻層析分離大腦來源的胞外囊泡。接著，他們運用蛋白質免疫沉澱、電子顯微鏡雙標記技術確認蛋白共定位，並使用FRET生物傳感器細胞檢測囊泡中Tau的「種子」活性。最後，透過分子動力學模擬，從原子層面解析了Arc與Tau的結合細節。\n\n【結果】數據顯示，當缺乏Arc時，小鼠大腦釋放出的Tau量顯著減少，且這些囊泡失去了誘導其他細胞Tau聚集的能力。相反地，Arc缺失導致有毒Tau在神經元內積累，引發早期細胞死亡。在人腦樣本中，囊泡內的Arc水平與磷酸化Tau呈現強正相關。這項發現證明，Arc依賴性的囊泡運輸是Tau病理擴散的主要途徑，阻斷這一過程可能成為治療阿茲海默症的新策略。",
+      "en": "**Summary:** This study, published in *Cell*, uncovers a critical mechanism behind the spread of Tau pathology in Alzheimer’s disease (AD). The researchers discovered that the neuronal protein Arc, traditionally known for regulating synaptic plasticity, acts like a viral capsid. It directly binds to toxic, phosphorylated Tau and packages it into extracellular vesicles (EVs) for release. This finding identifies Arc as the key mediator of intercellular Tau transmission, offering a new perspective on how neurodegenerative diseases propagate.\n\n**Problem:** While it is well-established that pathological Tau spreads from cell to cell in a prion-like manner, correlating strongly with cognitive decline, the specific molecular machinery driving this transport has remained elusive. Previous research identified EVs as potential carriers but failed to pinpoint the exact packaging mechanism. Solving this is crucial because if EV-mediated transmission is the primary driver, therapeutic strategies targeting free-floating Tau may fail; instead, interventions must block the packaging and release process itself.\n\n**Approach:** The team employed a comprehensive multi-model approach. They used transgenic mice with mutant Tau crossed with Arc knockout mice to isolate the specific role of Arc. They purified brain-derived EVs using size exclusion chromatography and analyzed them via Western blotting and immunogold electron microscopy. To test functionality, they used HEK biosensor cells with FRET assays to measure the seeding potential of the released Tau. Additionally, they performed molecular dynamics simulations to visualize the atomic-level interactions between Arc and Tau, complemented by analysis of post-mortem human AD brain tissue.\n\n**Results:** The data revealed that in the absence of Arc, the release of Tau in EVs was drastically reduced, and these EVs lost their ability to seed Tau aggregation in recipient cells. Consequently, toxic Tau accumulated intracellularly, leading to increased neuronal death in early disease stages. In human AD brains, levels of Arc in EVs strongly correlated with phosphorylated Tau levels. These results demonstrate that Arc is essential for packaging and transmitting pathological Tau, suggesting that targeting the Arc-Tau interaction could halt disease progression."
+    },
+    "keyArticle": {
+      "title": "Arc mediates intercellular tau transmission via extracellular vesicles",
+      "authors": [
+        "Mitali Tyagi",
+        "Eric de Hoog",
+        "Matthew Grega",
+        "Kaelan R. Sullivan",
+        "Alan Walker",
+        "Radhika Chadha",
+        "A. J. Northrop",
+        "Balázs Fábián",
+        "Gerhard Hummer",
+        "Mónika Fuxreiter",
+        "Bradley T. Hyman",
+        "Jason D. Shepherd"
+      ],
+      "doi": "10.1016/j.cell.2026.06.008",
+      "pages": "4706-4723.e13"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.008",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.008",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.10.22.619703"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-25T20:11:09.081829+00:00",
+    "source": "openalex"
+  }
+}

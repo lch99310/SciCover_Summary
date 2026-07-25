@@ -1,0 +1,89 @@
+{
+  "id": "nature-2026-07-15",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8124",
+  "date": "2026-07-15",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解開核物理二十年的謎題：鋅-70中的低能伽馬增強竟源自磁性",
+      "en": "Solving a Nuclear Physics Mystery: The Magnetic Heart of Zinc-70's Low-Energy Enhancement"
+    },
+    "summary": {
+      "zh": "【總結】\n\n這項發表於《自然》的研究，為原子核物理學中一個長達二十多年的未解之謎畫下了句點。科學家們終於確認，在鋅-70（70Zn）原子核中觀察到的「低能伽馬增強現象」（Low-Energy Enhancement, LEE），其本質是磁性的。這不僅證實了理論預測，更改寫了我們對原子核內部電磁衰變機制的理解。\n\n【研究問題】\n\n當原子核從高能態躍遷至低能態時，會釋放伽馬射線。過去的研究發現，在某些能量較低的區域，伽馬射線的發射強度異常增強，這被稱為低能增強（LEE）。然而，這種增強究竟是來自「電偶極（E1）」還是「磁偶極（M1）」轉換，長期以來爭議不斷。由於LEE顯著影響恆星中元素合成的預測模型，釐清其性質對於天體物理學至關重要。\n\n【研究方法】\n\n研究團隊利用密西根州立大學的稀有同位素束設施（FRIB），採用了一種創新的雙重比較策略。他們分別測量了銅-70（70Cu）的兩種不同狀態——基態（自旋6-）和第二同核異構態（自旋1+）——在β衰變後產生的伽馬強度函數。透過對比這兩條曲線在低能區的巨大差異，並結合總吸收光譜與理論模型分析奇偶性狀態的分佈，研究者成功剝離了干擾因素，鎖定了增強現象的物理來源。\n\n【結果】\n\n實驗數據顯示，由自旋1+狀態衰變產生的伽馬強度函數在低能區呈現明顯抑制，這是因為該路徑無法有效觸發電偶極（E1）轉換（受限於終態的奇偶性配對）。相反地，由自旋6-基態衰變的路徑則顯示出強烈的低能增強。通過排除E1貢獻，研究團隊確鑿地證明這種增強完全來自磁偶極（M1）轉換。這一發現為改進恆星核合成模擬提供了關鍵參數，並確認了M1增強在中等質量原子核中的普遍性。",
+      "en": "**Summary:**\n\nThis landmark study published in *Nature* resolves a two-decade-old enigma in nuclear physics. Researchers have definitively identified the \"low-energy enhancement\" (LEE) observed in the gamma-ray strength function of Zinc-70 (70Zn) as being of magnetic origin. This discovery not only validates long-standing theoretical predictions but also fundamentally refines our understanding of electromagnetic decay mechanisms within atomic nuclei.\n\n**Problem:**\n\nWhen atomic nuclei transition from excited states to lower energy levels, they emit gamma rays. Previously, scientists noticed an anomalous increase in emission intensity at low energies, termed the Low-Energy Enhancement (LEE). However, the fundamental nature of this enhancement remained a subject of intense debate: was it driven by electric dipole (E1) or magnetic dipole (M1) transitions? Resolving this is critical because LEE significantly impacts the accuracy of models predicting how elements are synthesized in stars.\n\n**Approach:**\n\nThe team utilized the Facility for Rare Isotope Beams (FRIB) at Michigan State University, employing a novel comparative technique. They extracted the gamma-ray strength functions of 70Zn following the beta-decay of Copper-70 (70Cu) from two distinct initial states: its ground state (spin 6-) and a specific isomeric state (spin 1+). By comparing the resulting spectral shapes and analyzing the parity distribution of nuclear states using total absorption spectroscopy, they could isolate the specific electromagnetic character responsible for the low-energy anomaly.\n\n**Results:**\n\nThe data revealed a striking divergence: the decay path from the spin-1+ isomer showed suppressed gamma strength at low energies due to the lack of available negative-parity final states for electric dipole transitions. In contrast, the path from the spin-6- ground state exhibited the characteristic low-energy enhancement. By demonstrating that the electric component was suppressed while the magnetic component persisted, the researchers conclusively proved that the LEE is of magnetic dipole (M1) nature. This finding provides essential data for improving astrophysical nucleosynthesis models."
+    },
+    "keyArticle": {
+      "title": "Magnetic character of the low-energy enhancement in 70Zn",
+      "authors": [
+        "E. K. Ronning",
+        "A. L. Richard",
+        "S. N. Liddick",
+        "A. Spyrou",
+        "R. Ringle",
+        "H. Arora",
+        "H. C. Berg",
+        "J. M. Berkman",
+        "D. L. Bleuel",
+        "K. Bosmpotinis",
+        "S. E. Campbell",
+        "X. Chen",
+        "B. P. Crider",
+        "R. J. Coleman",
+        "P. A. DeYoung",
+        "A. A. Doetsch",
+        "H. Erington",
+        "T. Gaballah",
+        "N. D. Gamage",
+        "E. C. Good",
+        "B. Greaves",
+        "A. C. Hartley",
+        "J. Huffman",
+        "C. M. Ireland",
+        "C. Izzo",
+        "R. Jain",
+        "A. C. Larsen",
+        "J. E. L. Larsson",
+        "R. S. Lubna",
+        "F. M. Maier",
+        "M. J. Mogannam",
+        "D. Mücher",
+        "M. R. Mumpower",
+        "G. Owens-Fryar",
+        "T. H. Ogunbeku",
+        "D. P. Scriven",
+        "M. K. Smith",
+        "C. S. Sumithrarachchi",
+        "A. Sweet",
+        "K. Taft",
+        "A. Tsantiri",
+        "S. Uthayakumaar",
+        "M. Wiedeking"
+      ],
+      "doi": "10.1038/s41586-026-10758-3",
+      "pages": "875-878"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10758-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10758-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-25T20:10:20.808780+00:00",
+    "source": "openalex"
+  }
+}

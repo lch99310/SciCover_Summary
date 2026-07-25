@@ -1,0 +1,72 @@
+{
+  "id": "science-2026-07-23",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6809",
+  "date": "2026-07-23",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦的「數位老化」：海馬迴細胞如何透過基因組重編程走向崩潰",
+      "en": "The Digital Decay of the Brain: How the Hippocampus Rewires Itself for Inflammation"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《科學》雜誌的研究，揭開了人類海馬迴在老化過程中，細胞組成與基因調控網絡發生劇變的神秘面紗。研究團隊發現，隨著年齡增長，不僅支持神經元功能的星形膠質細胞大量消失，負責免疫監測的小膠質細胞也經歷了深刻的「表觀遺傳重編程」。這種重編程將小膠質細胞從安靜狀態轉變為「預備攻擊」的炎症狀態，並伴隨3D基因組結構的崩解。這些發現不僅解釋了正常老化為何會導致認知功能衰退，更為理解阿茲海默症等神經退化疾病的早期機制提供了關鍵線索。\n\n【研究問題】年齡是阿茲海默症等神經退化疾病最大的風險因子，但我們過去對大腦老化過程的了解多侷限於基因表達水平的變化，對於背後的「調節機制」——即細胞如何決定開關哪些基因——知之甚少。特別是在海馬迴這個負責記憶形成的核心區域，缺乏針對不同細胞類型在單細胞層級上的全面解析。解決這個問題至關重要，因為只有釐清老化過程中具體是哪種細胞出了問題、以及如何出問題，才能開發出精準的干預手段，而非僅僅針對症狀進行治療。\n\n【研究方法】研究團隊採用了前所未有的多組學整合策略，分析了40名跨度從20歲到100歲的無神經疾病死者海馬迴組織。他們使用了兩種先進的單細胞技術：一是10x Multiome，同時測量每個細胞核的基因表達（RNA）和染色質可及性（ATAC-seq），以了解哪些基因正在運作以及基因開關是否打開；二是snm3C-seq（甲基化-3C测序），這是一項突破性技術，能同時在同一個細胞核中檢測DNA甲基化狀態和3D基因組結構（染色體如何摺疊）。這種多維度的數據讓研究者能夠從分子、表觀遺傳到三維結構層面，完整重建細胞老化的軌跡。\n\n【結果】研究揭示了三個關鍵發現。首先，星形膠質細胞（特別是參與突觸調節的「三方突觸」亞型）數量隨年齡顯著下降，且其線粒體功能基因表達減少，暗示能量危機可能導致細胞死亡。其次，小膠質細胞在50至75歲之間經歷了一場「政變」：DNA甲基組的重編程使它們進入一種預備狀態（Micro2亞型），表現出更高的促炎基因潛力（如MHC II類分子上調），即使在日常情況下未激活，一旦遇到刺激便會引發強烈的炎症反應。最後，老化細胞的3D基因組架構普遍崩解，頂部 associados 結構域（TADs）的完整性喪失，且與CTCF蛋白結合減少有關，這導致基因調控混亂，進一步加劇了炎症和神經退行性病變。",
+      "en": "**Summary:** This study, published in *Science*, unveils the complex molecular mechanisms driving cognitive decline in the human hippocampus. By integrating multi-omic data from donors spanning the entire adult lifespan, the researchers discovered that aging is not merely a passive wear-and-tear process but an active reprogramming of cellular states. Specifically, they found a dramatic loss of astrocytes essential for synaptic support and a profound epigenetic shift in microglia, turning them into a pro-inflammatory, \"primed\" state. Furthermore, the 3D architecture of the genome unravels with age, disrupting gene regulation. These insights provide a mechanistic link between normal aging and neurodegenerative diseases like Alzheimer’s, highlighting potential targets for intervention.\n\n**Problem:** While age is the primary risk factor for neurodegenerative diseases, the specific regulatory mechanisms within the brain’s memory center, the hippocampus, have remained largely obscure. Previous studies often looked at bulk tissue or focused on single molecular layers (like just RNA or just DNA methylation), missing the interconnected nature of cellular aging. Understanding *how* different cell types change their internal regulatory logic over time is crucial. Without this detailed map, it is impossible to distinguish between normal aging and pathological decline, nor can we develop therapies that target the root causes of memory loss rather than just treating symptoms.\n\n**Approach:** The authors leveraged a unique cohort of 40 postmortem hippocampal tissues, carefully balanced across four decades of adult life (ages 20–100). They employed two cutting-edge single-nucleus sequencing technologies: 10x Multiome, which simultaneously profiles gene expression and chromatin accessibility, and snm3C-seq, a novel method that captures both DNA methylation and 3D genome folding from the same nucleus. This multi-modal approach allowed the team to correlate changes in gene activity with structural changes in how DNA is packaged and accessed, providing a holistic view of cellular aging at unprecedented resolution.\n\n**Results:** The study identified three major age-related shifts. First, there is a significant depletion of astrocytes, particularly those involved in synaptic maintenance, accompanied by a drop in mitochondrial function genes, suggesting energy failure may drive their death. Second, microglia undergo a striking epigenetic reprogramming between ages 50 and 75. DNA methylation changes lock these immune cells into a \"primed\" state (Micro2 cluster), characterized by upregulated MHC II expression and a heightened potential for inflammatory responses, effectively creating an \"immune memory\" of aging. Third, the 3D genome structure erodes; topologically associating domains (TADs) weaken due to reduced CTCF binding, leading to chaotic gene regulation. These structural and epigenetic changes are strongly correlated with the transcriptional shifts that drive neuroinflammation and cognitive decline."
+    },
+    "keyArticle": {
+      "title": "Epigenetic and 3D genome reprogramming during the aging of the human hippocampus",
+      "authors": [
+        "Nathan R. Zemke",
+        "Seo Yeon Lee",
+        "Sainath Mamde",
+        "Bing Yang",
+        "Nicole Berchtold",
+        "B. Maximiliano Garduño",
+        "Hannah S. Indralingam",
+        "Weronika M. Bartosik",
+        "Pik Ki Lau",
+        "Keyi Dong",
+        "Emily Hsu",
+        "Amanda Yang",
+        "Yasmine Tani",
+        "Chumo Chen",
+        "Qiurui Zeng",
+        "Varun Ajith",
+        "Liqi Tong",
+        "Chanrung Seng",
+        "Daofeng Li",
+        "Ting Wang",
+        "Jingtian Zhou",
+        "Joseph R. Ecker",
+        "Christopher K. Glass",
+        "Carl W. Cotman",
+        "Xiangmin Xu",
+        "Bing Ren"
+      ],
+      "doi": "10.1126/science.adt8307",
+      "pages": "eadt8307"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adt8307",
+      "doi": "https://doi.org/10.1126/science.adt8307"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-25T20:09:35.723672+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-22T20:14:40.366485+00:00",
+  "lastUpdated": "2026-07-25T20:12:36.729974+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-23",
+      "journal": "Political Geography",
+      "date": "2026-07-23",
+      "path": "articles/2026/07/political-geography-2026-07-23.json",
+      "title_zh": "邊界不在地圖上：希臘-土耳其邊境如何重塑國家權力",
+      "title_en": "The Border Is Not on the Map: How the Greek-Turkish Frontier Redefines State Power",
+      "cover_url": ""
+    },
+    {
+      "id": "science-2026-07-23",
+      "journal": "Science",
+      "date": "2026-07-23",
+      "path": "articles/2026/07/science-2026-07-23.json",
+      "title_zh": "大腦的「數位老化」：海馬迴細胞如何透過基因組重編程走向崩潰",
+      "title_en": "The Digital Decay of the Brain: How the Hippocampus Rewires Itself for Inflammation",
+      "cover_url": "data/images/science/science-2026-07-23-cover.jpg"
+    },
     {
       "id": "political-geography-2026-07-18",
       "journal": "Political Geography",
@@ -27,6 +45,15 @@
       "title_zh": "牙齒裡的非洲足跡：聖赫勒拿「解放非裔」的失落地圖",
       "title_en": "Teeth as Maps: Tracing the Lost Homelands of St Helena’s Liberated Africans",
       "cover_url": "data/images/science/science-2026-07-16-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-15",
+      "journal": "Nature",
+      "date": "2026-07-15",
+      "path": "articles/2026/07/nature-2026-07-15.json",
+      "title_zh": "解開核物理二十年的謎題：鋅-70中的低能伽馬增強竟源自磁性",
+      "title_en": "Solving a Nuclear Physics Mystery: The Magnetic Heart of Zinc-70's Low-Energy Enhancement",
+      "cover_url": "data/images/nature/nature-2026-07-15-cover.jpg"
     },
     {
       "id": "science-2026-07-09-02",
@@ -108,6 +135,15 @@
       "title_zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
       "title_en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'",
       "cover_url": "data/images/nature/nature-2026-07-01-cover.jpg"
+    },
+    {
+      "id": "cell-2026-06-29",
+      "journal": "Cell",
+      "date": "2026-06-29",
+      "path": "articles/2026/06/cell-2026-06-29.json",
+      "title_zh": "阿茲海默症的「病毒式」擴散：Arc蛋白如何為致命蛋白打包上船？",
+      "title_en": "The Viral Spread of Alzheimer’s: How the Arc Protein Packages Toxic Tau for Delivery",
+      "cover_url": "data/images/cell/cell-2026-06-29-cover.jpg"
     },
     {
       "id": "science-2026-06-25-02",
