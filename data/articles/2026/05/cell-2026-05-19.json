@@ -1,0 +1,62 @@
+{
+  "id": "cell-2026-05-19",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-05-19",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-05-19-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞間DNA轉移：基因不穩定如何透過「隧道」在細胞間擴散",
+      "en": "Genomic Instability Spreads via Cellular Nanotubes: A New Route for Horizontal DNA Transfer"
+    },
+    "summary": {
+      "zh": "【總結】本項研究發現，當人類細胞因基因不穩定（如染色體斷裂或分裂錯誤）導致DNA漏入細胞質時，這些DNA片段能透過連接相鄰細胞的微管狀結構（類似隧道）直接傳遞給鄰居。這種傳遞並非偶然，而是由多種誘因（如放化療藥物、放射線、CRISPR切割等）觸發的普遍現象。更關鍵的是，接收細胞不僅會保留這些外來DNA片段，還能將其整合為穩定的染色體外遺傳元件，甚至因此獲得新的可遺傳性狀——例如抗生素抗性。這揭示了哺乳動物細胞間存在一種類似細菌的水平基因轉移機制，可能深刻影響癌症演化、腫瘤異質性及治療抵抗的形成。\n\n【研究問題】過去已知細胞內DNA若誤入胞漿會觸發炎性反應或被清除，但尚不清楚這些裸露的DNA能否在細胞間傳遞並產生跨細胞影響。尤其在癌症或基因編輯情境下，大量DNA碎片積聚於胞漿中，是否會成為一種隱形的傳播媒介？此研究旨在釐清：1) 胞漿DNA是否能在細胞間移動；2) 移動機制為何；3) 是否會改變接收細胞的基因組與表型。解決此問題對於理解腫瘤微環境中的基因流動、治療抗性的起源以及基因編輯的安全性至關重要。\n\n【研究方法】作者利用活細胞影像技術追蹤標記的DNA（如SiR-DNA或H2B-GFP/mCherry），觀察其在RPE-1、RPTEC等人源細胞間的移動情形。他們使用有絲分裂抑制劑、離子輻射、Cas9基因編輯等方式誘導基因不穩定，製造含有胞漿DNA的供體細胞。同時，他們抑制肌動蛋白聚合（使用細胞鬆弛素D）以固定細胞位置，使微管構成的「隧道」更易被觀察。此外，他們設計了Y染色體特異性報告系統，並導入新霉素抗性基因（neoR），用以驗證轉移到recipient細胞中的DNA是否能穩定維持並表達功能性蛋白質。單細胞轉錄組分析進一步確認了外源基因在接收細胞中的持續表達。\n\n【結果】實驗顯示，在基因不穩定條件下，胞漿DNA透過微管主導的隧道結構以平均390奈米/秒的速度從供體細胞傳遞至受體細胞，且此過程跨越不同細胞類型（如RPE-1到RPTEC）。接收細胞中，外來DNA片段可作為功能性染色體外DNA（ecDNA）穩定存在，並在有絲分裂中與宿主染色體混合。最關鍵的是，當供體細胞攜帶Y染色體上的neoR基因時，接收細胞不僅保留該基因，還表現出對G418抗生素的抗性，且此抗性可傳至下一代。單細胞RNA測序顯示，接收細胞中neoR和UTY（Y染色體基因）的mRNA水平顯著升高，而自體基因未變，證明外源DNA確實被整合並功能化。這證實了一種全新的水平基因轉移路徑，可能在癌症進展和耐藥性發展中扮演關鍵角色。",
+      "en": "**Summary:** This study reveals that when human cells experience genomic instability—such as from chromosomal breaks or mitotic errors—and release DNA into their cytoplasm, this DNA can be directly transferred to neighboring cells through microtubule-based nanotube-like connections. Triggered by diverse stressors including spindle poisons, ionizing radiation, and CRISPR-induced breaks, this transfer is not a random accident but a widespread phenomenon across both cancerous and non-cancerous cell types. Crucially, the recipient cells don’t just passively receive the DNA; they stably integrate these fragments as functional extrachromosomal genetic elements (ecDNA), acquiring heritable phenotypic traits such as antibiotic resistance. This uncovers a novel horizontal gene transfer mechanism in mammalian cells, potentially reshaping our understanding of how genomic instability propagates within tissues and contributes to tumor evolution and therapy resistance.\n\n**Problem:** While it’s known that cytoplasmic DNA triggers innate immune responses inside its own cell, it remained unclear whether such DNA could escape its original cell and affect neighbors—or worse, alter their genomes. In contexts like cancer treatment or gene editing, where massive amounts of fragmented DNA accumulate in the cytoplasm, could this become a silent vector for spreading genetic damage? The researchers asked: 1) Can cytoplasmic DNA move between human cells? 2) What’s the mechanism? And 3) Does it change the recipient’s genome or behavior? Answering these questions is vital for understanding tumor heterogeneity, drug resistance mechanisms, and the safety implications of genome-editing therapies.\n\n**Approach:** The team used live-cell imaging to track fluorescently labeled DNA (SiR-DNA or H2B-GFP/mCherry) as it moved between RPE-1 and RPTEC cells. They induced genomic instability using mitotic inhibitors, ionizing radiation, and Cas9-mediated chromosome breaks. To stabilize cell positions and visualize nanotubes clearly, they treated cells with cytochalasin D to block actin polymerization while preserving microtubule structures. They designed a Y-chromosome-specific reporter system and introduced a neomycin resistance gene (neoR) on the Y chromosome to test if transferred DNA could functionally confer new traits. Single-cell RNA sequencing was then used to confirm sustained expression of donor-derived genes in recipient cells.\n\n**Results:** Under conditions of genomic instability, cytoplasmic DNA traveled through nanotubes at an average speed of 390 nm/second between adjacent cells—even across different epithelial lineages. Once received, foreign DNA fragments persisted as stable ecDNA, mixing with host chromosomes during mitosis. Most strikingly, when donor cells carried a neoR gene on the Y chromosome, recipient cells not only retained the gene but also became resistant to G418 antibiotic—a trait passed to subsequent generations. Single-cell transcriptomics confirmed elevated levels of neoR and UTY mRNA in recipients without changes to endogenous gene expression, proving functional integration of the transferred material. This demonstrates a previously unknown pathway for horizontal gene transfer in mammals with profound implications for cancer biology and therapeutic design."
+    },
+    "keyArticle": {
+      "title": "Genome instability triggers intercellular DNA transfer between human cells",
+      "authors": [
+        "Elizabeth G. Maurais",
+        "Alice Mazzagatti",
+        "Yu-Fen Lin",
+        "Maria Narozna",
+        "Qing Hu",
+        "Rashmi Dahiya",
+        "Derek Santiago-Ferrer",
+        "Conor P. Herlihy",
+        "Mary Krebs",
+        "Nikoleta Pateraki",
+        "Evlampia Parcharidou",
+        "Stamatis Papathanasiou",
+        "Brian J. Beliveau",
+        "Gary J. Gorbsky",
+        "Isidro Cortés-Ciriano",
+        "Peter Ly"
+      ],
+      "doi": "10.1016/j.cell.2026.04.041",
+      "pages": "4548-4561.e14"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-05-19-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.04.041",
+      "doi": "https://doi.org/10.1016/j.cell.2026.04.041"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-28T20:15:15.081327+00:00",
+    "source": "openalex"
+  }
+}

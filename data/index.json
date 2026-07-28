@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-25T20:12:36.729974+00:00",
+  "lastUpdated": "2026-07-28T20:17:08.447660+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-24",
+      "journal": "Political Geography",
+      "date": "2026-07-24",
+      "path": "articles/2026/07/political-geography-2026-07-24.json",
+      "title_zh": "換位思考能否打動泰國人心？一場關於難民接納的心理實驗",
+      "title_en": "Can Empathy Change Minds? A Field Experiment on Refugee Receptivity in Thailand",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-24-cover.jpg"
+    },
     {
       "id": "political-geography-2026-07-23",
       "journal": "Political Geography",
@@ -38,6 +47,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-07-16-cover.jpg"
     },
     {
+      "id": "science-2026-07-16-02",
+      "journal": "Science",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/science-2026-07-16-02.json",
+      "title_zh": "冷放射性分子的光譜探測：在桌面實驗室中創造極端靈敏的物質探針",
+      "title_en": "Spectroscopy of Cold Radioactive Molecules: Creating Extreme-Sensitivity Probes on a University Tabletop",
+      "cover_url": "data/images/science/science-2026-07-16-02-cover.jpg"
+    },
+    {
       "id": "science-2026-07-16",
       "journal": "Science",
       "date": "2026-07-16",
@@ -45,6 +63,15 @@
       "title_zh": "牙齒裡的非洲足跡：聖赫勒拿「解放非裔」的失落地圖",
       "title_en": "Teeth as Maps: Tracing the Lost Homelands of St Helena’s Liberated Africans",
       "cover_url": "data/images/science/science-2026-07-16-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-15-02",
+      "journal": "Nature",
+      "date": "2026-07-15",
+      "path": "articles/2026/07/nature-2026-07-15-02.json",
+      "title_zh": "量子統計等離子體超晶體：室温下操控多光子量子態的新材料",
+      "title_en": "Quantum Statistical Plasmonic Metacrystals: A Room-Temperature Platform for Controlling Multiphoton Quantum States",
+      "cover_url": "data/images/nature/nature-2026-07-15-02-cover.jpg"
     },
     {
       "id": "nature-2026-07-15",
@@ -135,6 +162,15 @@
       "title_zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
       "title_en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'",
       "cover_url": "data/images/nature/nature-2026-07-01-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-06-29",
+      "journal": "American Sociological Review",
+      "date": "2026-06-29",
+      "path": "articles/2026/06/american-sociological-review-2026-06-29.json",
+      "title_zh": "線上房仲廣告與社區名稱如何重塑美國人的居住偏好？",
+      "title_en": "How Online Ads and Neighborhood Names Reshape Residential Preferences in Multiracial America",
+      "cover_url": "data/images/american-sociological-review/american-sociological-review-2026-06-29-cover.jpg"
     },
     {
       "id": "cell-2026-06-29",
@@ -603,6 +639,15 @@
       "title_zh": "城市風暴的多元響應：解開城市化如何影響不同類型暴雨之謎",
       "title_en": "Divergent Urban Storm Responses: How City Development Affects Different Types of Rainfall",
       "cover_url": "data/images/nature/nature-2026-05-20-cover.jpg"
+    },
+    {
+      "id": "cell-2026-05-19",
+      "journal": "Cell",
+      "date": "2026-05-19",
+      "path": "articles/2026/05/cell-2026-05-19.json",
+      "title_zh": "細胞間DNA轉移：基因不穩定如何透過「隧道」在細胞間擴散",
+      "title_en": "Genomic Instability Spreads via Cellular Nanotubes: A New Route for Horizontal DNA Transfer",
+      "cover_url": "data/images/cell/cell-2026-05-19-cover.jpg"
     },
     {
       "id": "cell-2026-05-15",

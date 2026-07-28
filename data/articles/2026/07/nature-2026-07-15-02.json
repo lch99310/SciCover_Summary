@@ -1,0 +1,57 @@
+{
+  "id": "nature-2026-07-15-02",
+  "journal": "Nature",
+  "volume": "655",
+  "issue": "8124",
+  "date": "2026-07-15",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-15-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子統計等離子體超晶體：室温下操控多光子量子態的新材料",
+      "en": "Quantum Statistical Plasmonic Metacrystals: A Room-Temperature Platform for Controlling Multiphoton Quantum States"
+    },
+    "summary": {
+      "zh": "【總結】本研究提出了一種全新的室温量子材料——量子統計等離子體超晶體（Quantum Statistical Plasmonic Metacrystals），其核心突破在於利用等離子體近場介導的多粒子干涉，創造出類似半導體能帶的「量子統計能帶」。這種結構允許特定量子相干度的光線無畸變通過，而抑制或熱化其他統計特性的光場。這是首個對多光子系統量子相干性敏感的室溫材料，為能量收集與多體量子技術提供了關鍵平臺。\n\n【研究問題】過去的光子超表面主要操控光的頻率、偏振或軌道角動量，卻無法直接接觸或篩選多光子系統的量子統計特性（如光子數漲落）。缺乏對「量子相干性」敏感的材料，使得基於多光子相干性的操作難以實現。解決此問題至關重要，因為多光子干涉是量子資訊處理的核心，而控制其相干性將推動可擴展量子技術的發展。\n\n【研究方法】作者設計了一個由100個金奈米天線組成的超晶體，每個天線作為一個「元原子」，透過等離子體近場耦合產生多粒子干涉。實驗上，他們使用旋轉散射片產生從相干光到熱光再到超熱光（二階相干度g(2)從1到3）的多光子源，並用光子數分辨探測器檢測輸出。理論上，他們基於弗雷斯爾核與格林函數方法，推導了元幾何與集體排列如何決定允許與禁止的統計能帶。\n\n【結果】實驗驗證顯示，當輸入光的g(2)=3（超熱）或g(2)=1（相干）時，光可無損通過；而當g(2)=2.15或1.25落在禁帶時，光被熱化至g(2)=2.58或1.50。四粒子子系統在穿過晶體深度後仍保持統計能帶結構，且福克態分佈穩定。這證明了該平台可在室温下魯棒傳輸脆弱的多光子態，對太陽能轉換效率提升及室温多體量子計算具有深遠影響。",
+      "en": "**Summary:** This study introduces quantum statistical plasmonic metacrystals, a novel room-temperature quantum material that leverages multiparticle interference mediated by optical near-fields to create 'quantum statistical bands' analogous to semiconductor energy bands. These bands selectively transmit multiphoton fields with specific coherence properties while suppressing or thermalizing others, marking the first material intrinsically sensitive to many-body photonic coherence. This breakthrough enables robust manipulation of fragile quantum states without cryogenic cooling.\n\n**Problem:** Previous metasurfaces manipulated degrees of freedom like frequency and polarization but could not directly access or filter the statistical properties of multiphoton systems (e.g., photon-number fluctuations). The lack of materials sensitive to quantum coherence prevented operations based on many-body coherence, which are essential for scalable quantum technologies. Addressing this gap is crucial because controlling multiphoton interference underpins quantum information processing.\n\n**Approach:** The researchers engineered a metacrystal composed of 100 gold nanoantennas acting as 'meta-atoms,' coupled via surface plasmons to induce multiparticle interference. Experimentally, they generated multiphoton sources ranging from coherent to superthermal light (second-order coherence g(2) from 1 to 3) using laser scattering off rotating ground glass and analyzed outputs with photon-number-resolving detectors. Theoretically, they employed Fresnel kernels and Green’s functions to derive how meta-atom geometry and collective arrangement dictate allowed versus forbidden statistical bands.\n\n**Results:** Experiments confirmed that light with g(2)=3 (superthermal) or g(2)=1 (coherent) transmitted undistorted, whereas inputs in forbidden gaps (e.g., g(2)=2.15 or 1.25) were thermalized to g(2)=2.58 or 1.50. Crucially, four-particle subsystems preserved statistical band structures throughout crystal depth, and Fock-state probabilities remained stable despite losses. This demonstrates room-temperature transport of fragile multiphoton states, with transformative implications for enhancing solar energy conversion efficiency and enabling scalable many-body quantum technologies."
+    },
+    "keyArticle": {
+      "title": "Quantum statistical plasmonic metacrystals",
+      "authors": [
+        "Chenglong You",
+        "Riley B. Dawkins",
+        "Jannatul Ferdous",
+        "Mohammed Mehedi Hasan",
+        "Aadi Singh",
+        "Ziang Zhuang",
+        "Addison Wilberg",
+        "Ian Baum",
+        "Benjamin Bertoni",
+        "Mingyuan Hong",
+        "Omar S. Magaña-Loaiza"
+      ],
+      "doi": "10.1038/s41586-026-10782-3",
+      "pages": "885-891"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-15-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10782-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10782-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-28T20:14:12.734847+00:00",
+    "source": "openalex"
+  }
+}

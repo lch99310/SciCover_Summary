@@ -1,0 +1,49 @@
+{
+  "id": "american-sociological-review-2026-06-29",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "4",
+  "date": "2026-06-29",
+  "coverImage": {
+    "url": "data/images/american-sociological-review/american-sociological-review-2026-06-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "線上房仲廣告與社區名稱如何重塑美國人的居住偏好？",
+      "en": "How Online Ads and Neighborhood Names Reshape Residential Preferences in Multiracial America"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過實地實驗發現，即使看似中立的網路房仲資訊（如廣告文案或社區名稱）也會強化既有的種族空間階級結構：白人富裕社區最受青睞，窮人黑人與拉丁裔社區則評價最低。研究特別強調，這種偏見並非僅來自既有認知——當受試者看到來自貧窮拉丁裔社區的廣告時，即便社區名稱是「白人富區」，其評價仍會大幅下降。這顯示數位時代的資訊環境雖看似開放，卻可能以更微妙的方式鞏固種族隔離。\n\n【研究問題】過去研究多聚焦於傳統線下人脈或房地產中介造成的資訊不平等，但隨著美國都市居民轉向網路找房，我們仍不清楚這些「表面中立」的線上文字與名稱是否會潛移默化地影響人們對社區的評價。此研究缺口在於：若將不同種族背景的廣告隨機搭配社區名稱，是否仍能觀察到種族偏見？解決此問題對於理解當代種族隔離的成因至關重要，因為它揭示了看似客觀的演算法或列表頁背後隱藏的主觀篩選機制。\n\n【研究方法】作者設計了一項結合真實資料與實驗控制的混合研究。他們從 Craigslist 收集芝加哥、休士頓等五大都市百萬筆租房廣告，運用主題模型萃取各類型社區（如窮人黑人社區、白人富社區）的典型文案風格，並隨機搭配真實的社區名稱讓受試者評分。此設計巧妙切斷了「廣告內容」與「社區實際特徵」的原有關聯，從而單獨測出廣告語氣與社區名稱各自的影響力。此外，研究還根據受試者對該社區的熟悉程度分層分析，並比較白、黑、拉丁裔、亞裔四組受訪者的反應差異。\n\n【結果】關鍵數據顯示，相較於白人富社區的廣告，窮人拉丁裔社區的廣告使整體評價降低 0.55 分（滿分 5 分），效果強度高達四倍以上；而社區名稱方面，窮人黑人社區的名稱使評價下降 0.59 分，為所有類別中最低。有趣的是，熟悉度高的受試者反而更容易被社區名稱影響，而熟悉度低者則更易受廣告文案左右。種族差異上，白人群體對種族相關訊號最敏感，種族偏見差距最大；非白人群體雖評價較包容，但仍維持相同的階級排序——白人富社區居首，窮人少數族裔社區墊底。這些結果證明，微小的數位資訊足矣在心理層面再製種族空間階級，為政策干預提供新切入點。",
+      "en": "**Summary:** This study reveals that seemingly neutral online housing information—such as advertisement copy or neighborhood names—reinforces existing racial-spatial hierarchies: affluent White neighborhoods are rated most desirable, while poor Black and Latinx neighborhoods receive the lowest scores. Crucially, these biases persist even when exposure is decoupled from prior knowledge; for instance, viewing ads modeled on those from poor Latinx neighborhoods significantly lowers desirability ratings even when paired with a name of an affluent White area. The research demonstrates that digital environments, though appearing open, may subtly cement segregation through standardized linguistic cues.\n\n**Problem:** While prior literature highlights unequal access to information via offline networks or real estate agents, little is known about how 'race-neutral' textual signals on housing websites shape perceptions during the search process. Specifically, does pairing diverse ad types with randomized neighborhood names still reproduce racial bias? Addressing this gap is vital because it uncovers how algorithmic neutrality masks subjective filtering mechanisms that sustain segregation in the digital age.\n\n**Approach:** The authors designed a novel field experiment combining real-world data with causal inference. They collected millions of rental listings from Craigslist across five major U.S. metros (Chicago, Houston, LA, NYC, SF), used topic modeling to extract representative ad texts for eight neighborhood typologies (e.g., poor Black, affluent White), and randomly matched these texts with actual neighborhood names within respondents’ metro areas. This factorial design isolates the independent effects of ad language and neighborhood naming by breaking their historical correlation. Additionally, the survey measured pre-existing familiarity with each neighborhood and stratified responses by respondent race/ethnicity (White, Black, Latinx, Asian) to assess differential sensitivity.\n\n**Results:** Key findings show that ads modeled on poor Latinx neighborhoods reduce desirability scores by 0.55 points (on a 5-point scale)—over four times the impact of non-poor White ads—while neighborhood names for poor Black areas lower scores by 0.59 points, the largest penalty among all groups. Familiarity moderates effects differently: highly familiar respondents are more influenced by neighborhood names, whereas less-familiar ones respond more strongly to ad text. Racial variation exists—White participants show the steepest desirability gaps between racial groups—but all groups maintain the same hierarchy: affluent White neighborhoods top the list, poor minority neighborhoods bottom it. These results suggest that minor informational cues can psychologically reify spatial inequality, offering new levers for policy intervention."
+    },
+    "keyArticle": {
+      "title": "Neighborhood Desirability and Decision-Making in Online, Multiracial, Metropolitan America",
+      "authors": [
+        "Max Besbris",
+        "Ariela Schachter",
+        "John Kuk"
+      ],
+      "doi": "10.1177/00031224261446899",
+      "pages": "595-622"
+    },
+    "images": [
+      {
+        "url": "data/images/american-sociological-review/american-sociological-review-2026-06-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261446899",
+      "doi": "https://doi.org/10.1177/00031224261446899"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-28T20:17:08.399766+00:00",
+    "source": "openalex"
+  }
+}

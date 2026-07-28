@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-07-24",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-07-24",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "換位思考能否打動泰國人心？一場關於難民接納的心理實驗",
+      "en": "Can Empathy Change Minds? A Field Experiment on Refugee Receptivity in Thailand"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過在泰國進行的預註冊調查實驗，發現僅有「換位思考」（perspective taking）干預措施能顯著提升民眾對接收緬甸難民的支稱度。研究顯示，當參與者被要求想像自己是逃亡的難民時，他們支持接收更多難民的意愿提升了7.4個百分點，且支持泰國簽署《難民公約》的比例也上升了8.4個百分點。相較之下，強調經濟負擔分攤、國際聲譽或人道主義悲情的資訊性文案則完全無效。這表明在資訊飽和政治衝突高發的環境中，激發情感共鳴與道德承諾的認知訓練，比單純的數據說服更有效，且其效果可持續至少兩個月。\n\n【研究問題】儘管全球難民危機日益嚴峻，但大多數關注點集中在歐美等全球北方國家，忽略了實際承載絕大多數流離失所者的全球南方（Global South）地區。特別是泰國作為一個非《難民公約》締約國的中等收入國家，長期面臨緬甸軍政府政變後的邊境人道壓力，但其國內公眾對難民接受度的形成機制卻鮮少被系統性探討。本研究旨在釐清：究竟是理性的成本效益計算（如經濟負擔），還是感性的心理機制（如同理心與道德認同等），才是塑造東南亞國家民眾難民態度的關鍵動力？解決此問題對於制定有效的人道政策至關重要。\n\n【研究方法】作者採取嚴謹的因果推斷設計，於2022年11月在泰國進行了一項線上預註冊調查實驗。研究樣本涵蓋2355名符合人口學配額的泰國民眾，並隨機分配至一個控制組和四個處理組。控制組僅閱讀簡短的緬甸局勢背景說明；四組處理分別對應四種理論框架：1）換位思考組（要求受訪者書寫作為難民會攜帶什麼物品及面臨的最大挑戰）；2）經濟負擔組（強調聯合國將承擔所有費用）；3）國際聲譽組（提及ASEN成員國已開放邊界）；4）人道悲情組（列出軍事政權造成的死亡與流離數字）。通過對比各組對「接收難民」、「提供公共服務」及「簽署公約」三項政策的五分量表評分，研究者得以隔離不同心理機制的作用效果，並透過事後兩個月的追蹤調查檢驗效果的持久性。\n\n【結果】關鍵數據顯示，換位思考是唯一具有統計顯著性的干預手段（p<0.01），使受訪者支稱接收難民的概率提升7.4%，支持簽署公約提升8.4%。因果中介分析進一步揭示，這種影響並非來自減輕恐懼，而是因為該訓練強化了受訪者的「道德義務感」（認為收容是正確的事）以及「國家形象考量」（認為這有助於提升泰國國際聲譽）。值得注意的是，直接暴露於血腥敘事或經濟保證的資訊組別均未產生顯著效果，這暗示在緬甸危機高曝光的背景下，普通資訊可能因「資訊疲勞」而失效，唯有需要主動構思的認知任務才能突破既有偏見。此發現為亞洲及發展中國家如何運用低成本的心理干預來緩解排外情緒提供了實證依據。",
+      "en": "**Summary:** This study conducts a pre-registered survey experiment in Thailand to investigate which psychological mechanisms best foster public support for refugees amid the ongoing crisis following Myanmar's 2021 coup. Among four tested interventions—perspective taking, cost-sharing appeals, reputation framing, and human suffering narratives—only the perspective-taking exercise significantly increased receptivity. Participants who imagined themselves as refugees fleeing persecution showed a 7.4 percentage point higher likelihood of supporting refugee admission and an 8.4 percentage point increase in backing Thailand’s accession to the UN Refugee Convention compared to controls. In contrast, informational treatments emphasizing financial burdens or moral pleas had no discernible effect. The findings reveal that empathy-driven cognitive engagement outperforms rationalist or emotive appeals in high-salience geopolitical contexts, with effects persisting at least two months post-intervention.\n\n**Problem:** While much scholarship focuses on refugee reception in wealthy Global North nations, the majority of displaced people are hosted by developing countries like Thailand, which lacks formal asylum systems despite decades of hosting neighbors’ exiles. Prior research often overlooks how local publics in Southeast Asia form attitudes toward refugees when legal frameworks are ambiguous and security concerns loom large. This paper addresses a critical gap: determining whether Thai citizens’ openness to refugees is driven primarily by self-interested calculations (economic costs, social cohesion) or by affective-psychological pathways (empathy, moral identity). Understanding these drivers is essential for designing effective humanitarian policies in regions where state capacity is limited and public sentiment can rapidly shift under political pressure.\n\n**Approach:** The authors deployed a rigorous online randomized controlled trial with 2,355 Thai respondents recruited via quota sampling matching national demographics. Participants were randomly assigned to one of five conditions: a control group receiving only background context about the Myanmar crisis, or one of four treatment groups exposed to distinct theoretical framings. The core experimental manipulation involved a perspective-taking task where respondents wrote freely about what they would carry and fear if fleeing Myanmar—activating embodied imagination versus passive reading. Other treatments presented facts about UN funding (cost-sharing), ASEAN solidarity (reputation), or casualty statistics (human suffering). Outcomes measured support for three policy dimensions on five-point scales: accepting more refugees, granting them access to public services, and signing the Refugee Convention. Robustness checks included mediation analysis to test moral vs. reputational pathways, latency controls to rule out mere rumination, and a follow-up wave two months later to assess durability.\n\n**Results:** Statistically significant effects emerged exclusively from perspective taking: average treatment effects indicated +7.4 pp support for hosting and +8.4 pp for treaty ratification (both surviving Bonferroni corrections). Mediation analysis confirmed this worked through heightened moral conviction (“accepting refugees is right”) and reputational pride (“it improves Thailand’s image”), not reduced economic fears. Notably, even prolonged engagement with informational vignettes failed to replicate empathy’s impact, proving that active generative cognition—not just reflection time—is key. Regional heterogeneity revealed weaker effects in northern border provinces, suggesting entrenched exposure may blunt short-term empathy triggers. These results challenge dominant narratives that material incentives or tragic storytelling drive pro-refugee attitudes; instead, they demonstrate that cultivating shared humanity through imaginative role-switching offers a scalable, low-cost lever for shifting public opinion—even in politically polarized, resource-constrained settings across the Global South."
+    },
+    "keyArticle": {
+      "title": "Fostering refugee receptivity through perspective taking: Evidence from Thailand",
+      "authors": [
+        "Enze Han",
+        "Sirada Khemanitthathai",
+        "Xiaojun Li"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103627",
+      "pages": "103627"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103627",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103627"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-28T20:16:33.421515+00:00",
+    "source": "openalex"
+  }
+}

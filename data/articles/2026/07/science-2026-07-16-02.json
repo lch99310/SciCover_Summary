@@ -1,0 +1,58 @@
+{
+  "id": "science-2026-07-16-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6808",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-16-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "冷放射性分子的光譜探測：在桌面實驗室中創造極端靈敏的物質探針",
+      "en": "Spectroscopy of Cold Radioactive Molecules: Creating Extreme-Sensitivity Probes on a University Tabletop"
+    },
+    "summary": {
+      "zh": "【總結】加州理工學院團隊成功在桌面裝置中製備並冷凍了含鐳-226的放射性分子（RaOH, RaOD, RaF），這是首次實現中性放射性多原子分子的產物與高分辨率光譜分析。研究突破在於結合新型放射性靶材製備、 cryogenic 緩衝氣體冷卻與共振光學驅動化學反應，僅用微克級放射性材料便產出低溫、低速樣品。此成果為利用放射性分子進行超越標準模型的基本對稱性檢驗、核結構研究及量子感測開拓了新路徑。\n\n【研究問題】放射性原子因數量稀少且具輻射危害，長期難以用於精密測量；含重核（如鐳）的「梨形」分子雖能放大對新物理的敏感度，但因理論預測誤差高達 THz 量級而難以尋獲其光譜。過去研究受限於粒子加速器或大型設施，無法在一般實驗室操作。解決此問題至關重要，因為若能穩定製備並操控這些分子，將使大學實驗室也能進行TeV以上能量的新物理搜尋，彌補大型對撞機的不足。\n\n【研究方法】作者開發了一套微型化實驗系統：首先以「滴鍍法」將微量氯化鐳沉積在黃金箔上形成靶材，再用脈衝雷射剝離產生氣態鐳原子；接著注入氦氣緩衝氣體將分子冷卻至4K，並利用714奈米雷射激發鐳原子至亞穩態以促進與水或氟的反應生成目標分子；最後使用不同解析度的連續波與脈衝染料雷射進行掃描式激發，搭配鎖相放大器與歸一化激光技術，在極低背景噪訊下偵測螢光訊號，從而解析旋轉與自旋結構。\n\n【結果】研究成功觀測到RaOH與RaOD的C~2Σ+−X~2Σ+電子躍遷帶，解析出數十條轉動譜線，並測得旋轉常數B₀≈5800 MHz與自旋-旋轉耦合γ≈150 MHz等參數，與相對論量子化學計算相符；同時首次獲得RaF分子的中等分辨率光譜。所有分子均以低於30 m/s的速度存在於實驗室參考系，具備後續光學冷卻與囚禁潛力。這標誌著放射性分子研究正式進入精密光學時代，未來可用於測量225Ra等八極變形核的電四極矩，甚至搜尋時間反演破缺效應，對基礎物理與量子技術具有深遠影響。",
+      "en": "**Summary:** A team at Caltech successfully produced and spectroscopically characterized cold radioactive molecules containing radium-226—specifically RaOH, RaOD, and RaF—in a tabletop apparatus. This marks the first demonstration of neutral radioactive polyatomic molecules being synthesized, cooled to ~4 K, and studied with high-resolution laser spectroscopy using only microgram-scale radioactive material. By combining novel drop-casting target preparation, cryogenic buffer gas cooling, resonant optochemical synthesis, and low-noise detection methods, the researchers created samples with velocities below 30 m/s in the lab frame. These results open the door for university-level labs to use exotic nuclei as probes for physics beyond the Standard Model, nuclear structure tests, and quantum sensing.\n\n**Problem:** Radioactive atoms are extremely scarce and hazardous, making them difficult to work with for precision measurements—even more so for molecules. While heavy octupole-deformed nuclei like radium can amplify sensitivity to fundamental symmetry violations by over three orders of magnitude compared to spherical nuclei, their electronic energy levels are theoretically uncertain by tens of terahertz, far exceeding typical molecular linewidths (~100 MHz). Previous approaches required large accelerator facilities or ion traps, limiting accessibility. Solving this is crucial because enabling tabletop experiments with radioactive molecules would democratize access to frontier physics searches—from CP violation to dark matter signatures—and complement collider-based discoveries.\n\n**Approach:** The authors engineered a compact experimental setup inside a copper cryostat held at 4–7 K. First, they prepared radium targets by drop-casting aqueous RaCl₂ or Ra(NO₃)₂ solutions onto gold foil, adding xylitol to ensure uniform deposition. Pulsed 532 nm lasers ablated these targets to release radium atoms into a helium buffer gas, where they collided and thermalized. To overcome reaction barriers at low temperatures, they used a continuous-wave 714 nm laser to excite ground-state radium atoms into a metastable ³P₁ state that could react efficiently with co-ablated hydroxide, deuteroxide, or fluoride pellets. Molecular products were detected via laser-induced fluorescence using tunable dye lasers with progressively narrowing linewidths—from broad CW sweeps covering >10 THz down to single-mode 500 kHz resolution—all while employing amplitude modulation and lock-in amplification to suppress background noise from plasma scatter and metastable emissions.\n\n**Results:** The team resolved rotational transitions in RaOH and RaOD within the C̃²Σ⁺–X̃²Σ⁺ electronic system, measuring rotational constants B₀ ≈ 5814 MHz (RaOH) and 5256 MHz (RaOD), and spin-rotation parameters γ ≈ 151 MHz and 143 MHz respectively—values consistent with relativistic coupled-cluster predictions. For RaF, they recorded a vibronic band centered near 16172 cm⁻¹ with resolved P₁ and R₂ branch progressions. All species were cooled to translational temperatures corresponding to <30 m/s motion, meeting prerequisites for future optical trapping and laser cooling. Crucially, these were the first neutral polyatomic radioactive molecules ever observed in such controlled conditions. The methodology is broadly applicable to other short-lived isotopes including ²²⁵Ra (I=1/2) and ²²³Ra (I=3/2), promising unprecedented sensitivity in searches for permanent electric dipole moments and parity-violating hadronic interactions at energy scales inaccessible to current accelerators."
+    },
+    "keyArticle": {
+      "title": "Production and spectroscopy of cold radioactive molecules",
+      "authors": [
+        "Chandler J. Conn",
+        "Phelan Yu",
+        "Madison I. Howard",
+        "Yuxi Yang",
+        "Chaoqun Zhang",
+        "Arian Jadbabaie",
+        "Aikaterini Gorou",
+        "Alyssa Gaiser",
+        "Timothy C. Steimle",
+        "Lan Cheng",
+        "Nicholas R. Hutzler"
+      ],
+      "doi": "10.1126/science.aea9413",
+      "pages": "319-323"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-16-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aea9413",
+      "doi": "https://doi.org/10.1126/science.aea9413",
+      "preprint": "https://arxiv.org/abs/2508.08368"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-28T20:13:26.561310+00:00",
+    "source": "openalex"
+  }
+}
