@@ -1,0 +1,43 @@
+{
+  "id": "american-sociological-review-2026-07-08",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "4",
+  "date": "2026-07-08",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "宗教「解綁」：當信仰變成自助餐，美國人還在信什麼？",
+      "en": "Religion Unbundled: When Faith Becomes À La Carte in America"
+    },
+    "summary": {
+      "zh": "【總結】這篇論文提出了一個全新框架，解釋美國宗教如何從過去「一站式套餐」變成「自助選配」。作者認為，過去宗教像一張訂閱合約——信仰、社群、道德、儀式全部打包；如今這些元素被拆開，人們可以單點購買。更關鍵的是，宗教的邊界變得模糊，世俗與信仰相互滲透。這項研究的突破在於，它不只觀察宗教的「興衰」，而是重新繪製了美國宗教地圖的整體輪廓。\n\n【研究問題】過去五十年，社會學研究美國宗教主要依賴兩個範式：「世俗化理論」（宗教會持續衰退）和「宗教經濟學」（宗教市場競爭帶來活力）。但這兩個框架都只盯著傳統宗教的指標，無法解釋為何大量美國人雖脫離教會，卻仍相信上帝；也無法理解靈性實踐、世俗運動甚至網路迷因如何承擔宗教功能。研究缺口在於：我們缺少一個能同時容納「傳統宗教」與「非傳統宗教現象」的整合性框架。\n\n【研究方法】作者採用理論綜合法，先回顧既有文獻的盲點，再從查爾斯·泰勒、伯格等學者的理論中汲取資源，提出「解綁」核心概念。他們借鑒商業用語中的「解綁」——將原本打包的產品拆成單品——並將其應用於宗教研究。接著，作者建構了五種宗教商品的新配置類型，並以基督教和佛教為例，展示解綁過程如何運作。最後，他們提出四條界定「宗教性」的標準：歸屬標籤、功能替代、歷史淵源與模仿模板。\n\n【結果】研究揭示，28%的美國成年人自稱「無宗教歸屬」，已超過天主教徒或福音派；但其中近70%仍相信上帝或更高力量，約22%自認「靈性上但非宗教」。作者提出五種解綁後的宗教配置：單點式宗教（如祈禱APP、基督教網紅）、重新打包的準宗教商品（如正念課程、瑜伽）、世俗競爭者（如環保主義、網路社群）、爭議性宗教（如基督教民族主義），以及適應新環境的傳統宗教。這意味著美國宗教並未消失，而是以更多元、更流動的形式重新分佈。",
+      "en": "**Summary:** This paper introduces a groundbreaking framework for understanding how American religion has shifted from an all-inclusive package to an à la carte menu. The authors argue that the traditional bundled goods of religion—community, moral guidance, ritual, identity, access to the sacred—have been unbundled and now float freely across the cultural landscape. Equally important, the boundaries of the religious field have grown porous, with secular and spiritual practices increasingly interpenetrating. The breakthrough lies not in tracking religion's rise or fall, but in mapping its transformed topology.\n\n**Problem:** For decades, the sociology of American religion has been dominated by two paradigms: secularization theory, which predicts religion's steady decline, and the religious economies model, which argues that market competition sustains religious vitality. Both frameworks, however, focus narrowly on traditional religious indicators—membership, attendance, belief—and struggle to explain phenomena that blur the line between religion and secularity. Why do 28 percent of Americans claim no religious affiliation yet most still believe in God? Why do yoga studios, atheist churches, and conspiracy theory communities function as religious substitutes? The field lacks a synthetic framework capable of capturing this hybrid reality.\n\n**Approach:** The authors employ a theoretical synthesis method, drawing on recent advances in the sociology of religion since the 1990s. They borrow the business concept of \"unbundling\"—where products once sold as a package are sold individually—and apply it to religion. They construct five ideal-typical configurations of unbundled religious goods and illustrate the framework through two case studies: Christianity and Buddhism. To delimit what counts as religious, they propose four criteria: attribution (actors label something religious), functional equivalence (it serves as a substitute for religion), genealogy (it traces to religious traditions), and mimesis (organized religion serves as its template).\n\n**Results:** The research reveals that 28 percent of American adults are religiously unaffiliated—surpassing both Catholics and evangelical Protestants—yet nearly 70 percent of them still believe in God or a higher power. About 22 percent identify as \"spiritual but not religious,\" and many engage in practices like meditation, yoga, and paranormal communities. The authors identify five configurations of unbundled religion: à la carte goods (prayer apps, Christian influencers), rebundled quasi-religious products (mindfulness programs, wellness movements), secular competitors (eco-spirituality, online communities), contested religion (Christian nationalism), and traditional organized religion adapting to the new landscape. The implication is profound: American religion has not disappeared—it has dispersed, multiplied, and become far more porous."
+    },
+    "keyArticle": {
+      "title": "Religion Unbundled: Toward a Twenty-First-Century Paradigm for the Sociology of American Religion",
+      "authors": [
+        "Ruth Braunstein",
+        "Jaime Kucinskas",
+        "Brian Steensland",
+        "Daniel Winchester"
+      ],
+      "doi": "10.1177/00031224261453543",
+      "pages": "623-650"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261453543",
+      "doi": "https://doi.org/10.1177/00031224261453543",
+      "preprint": "https://doi.org/10.31235/osf.io/jr6fu_v1"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-31T20:22:08.107562+00:00",
+    "source": "openalex"
+  }
+}

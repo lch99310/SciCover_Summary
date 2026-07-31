@@ -1,0 +1,67 @@
+{
+  "id": "science-2026-06-25-04",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6809",
+  "date": "2026-06-25",
+  "coverImage": {
+    "url": "data/images/science/science-2026-06-25-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "捕捉系外行星的隱形磁場：一顆海王星大小的行星如何「觸碰」它的母星",
+      "en": "Feeling the Pulse of a Distant Star: How an Exoplanet's Magnetic Field Reveals Itself"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Science》的研究，首次利用光學光譜數據為系外行星的磁場強度設定了具體約束。研究團隊分析了矮星 GJ 436 長達 18 年的高解析度光譜觀測資料，發現恆星活動指標中出現與行星公轉週期同步的訊號，並受到恆星自轉及 8 年磁週期的調製。研究團隊將此解讀為星-行星磁相互作用的可觀測訊號，並推論 GJ 436 b 的磁場強度介於 6 至 110 高斯之間。這項突破為我們打開了一扇窺探系外行星內部結構的新窗戶。\n\n【研究問題】系外行星的磁場一直難以直接測量——我們無法像測量地球磁場那樣，用磁針或衛星直接探測遙遠的系外行星。過去的研究主要依賴理論模型推估，缺乏觀測證據。解決這個問題至關重要，因為磁場是保護行星大氣層不被恒星風剝蝕的關鍵屏障，直接影響行星的宜居性與生命存在的可能性。若能確認系外行星擁有磁場，將大幅深化我們對行星形成與演化的理解。\n\n【研究方法】研究團隊動用了 GJ 436 恆星 18 年的高解析度光譜觀測資料。GJ 436 是一顆紅矮星，其旁有一顆海王星大小的系外行星 GJ 436 b，以極端偏心的極軌道繞行。研究人員從光譜中提取了多項恆星活動指標（如 Hα 發射線、Ca II H&K 線等），並仔細比對這些指標的時間變化與行星公轉週期之間的關係。他們進一步建立了幾何模型，模擬星-行星磁場相互作用可能產生的光學訊號，並與觀測數據進行比對，從而反推出行星磁場的可能強度範圍。\n\n【結果】研究發現，GJ 436 的恆星活動指標呈現出與行星公轉週期一致的調製訊號，且該訊號同時受到恆星自轉週期和 8 年磁活動週期的影響。透過幾何模型的擬合，研究團隊推斷 GJ 436 b 的磁場強度落在 6 至 110 高斯之間——作為對照，地球的磁場約為 0.5 高斯，木星則高達約 4.2 高斯（表面），而木星核心區域可達數萬高斯。這項結果不僅是首次從觀測上約束系外行星磁場，也為未來利用星-行星相互作用研究其他系外行星磁場提供了可行的方法論藍圖，對理解系外行星大氣演化與宜居性評估具有深遠影響。",
+      "en": "**Summary:** This study, published in *Science*, achieves a milestone by placing the first observational constraints on the magnetic field of an exoplanet. The team analyzed 18 years of high-resolution optical spectroscopy of GJ 436, a red dwarf star orbited by a Neptune-sized planet, GJ 436 b, on a highly eccentric polar orbit. Stellar activity indicators in the data revealed modulations synchronized with the planet's orbital period, further shaped by the star's rotation and its 8-year magnetic cycle. The researchers interpret these modulations as signatures of star-planet magnetic interaction and, using a geometric model, infer that GJ 436 b possesses a magnetic field between 6 and 110 Gauss. This breakthrough opens a new observational window into the hidden magnetic worlds orbiting distant stars.\n\n**Problem:** Measuring the magnetic field of an exoplanet has long been one of the most stubborn challenges in planetary science. Unlike Earth, where we can deploy magnetometers and satellites, distant exoplanets remain invisible to direct magnetic probing. Previous studies relied almost entirely on theoretical extrapolations from solar system planets, with virtually no observational grounding. Solving this problem is crucial because a planet's magnetic field acts as a shield against stellar wind erosion of its atmosphere—a key factor in determining whether a world can retain the conditions necessary for life. Confirming the presence and strength of exoplanetary magnetic fields would transform our understanding of planetary formation, atmospheric evolution, and the true scope of habitability beyond our solar system.\n\n**Approach:** The researchers leveraged an extraordinary 18-year baseline of high-resolution optical spectroscopic observations of GJ 436. They extracted multiple stellar activity indicators—such as the Hα emission line and the Ca II H & K lines—from the spectra and meticulously tracked their temporal variations. The key insight was to search for periodic modulations that matched the orbital period of GJ 436 b, while accounting for the star's own rotation and its 8-year magnetic cycle. To connect the observed modulations to a physical magnetic field, the team constructed a geometric model of star-planet magnetic interaction, simulating how the planet's magnetosphere would couple with the star's magnetic field lines and what optical signatures this coupling would produce. By fitting the model to the data, they reverse-engineered the planet's magnetic field strength.\n\n**Results:** The study found that stellar activity indicators exhibit clear modulations at the orbital period of GJ 436 b, with additional shaping from the star's rotation and its 8-year magnetic cycle—precisely the pattern expected from magnetic interaction. The geometric model constrained GJ 436 b's magnetic field to between 6 and 110 Gauss. For context, Earth's surface magnetic field is roughly 0.5 Gauss, while Jupiter's ranges from about 4.2 Gauss at its cloud tops to tens of thousands of Gauss in its interior. This result represents the first observational constraint on an exoplanet's magnetic field, moving the concept from pure theory into the realm of measurable reality. The methodology established here provides a blueprint for future studies of star-planet magnetic interactions across a wide range of exoplanetary systems, with profound implications for understanding atmospheric retention, planetary habitability, and the diversity of magnetic environments in the galaxy."
+    },
+    "keyArticle": {
+      "title": "Constraining an exoplanet’s magnetic field using star-planet interactions",
+      "authors": [
+        "Daniel Revilla",
+        "P. J. Amado",
+        "R. Luque",
+        "P. Schöfer",
+        "A. F. Lanza",
+        "A. Binnenfeld",
+        "J. A. Caballero",
+        "A. P. Hatzes",
+        "G. W. Henry",
+        "S. V. Jeffers",
+        "Simranpreet Kaur",
+        "Ε. Πάλλη",
+        "L. Peña-Moñino",
+        "M. Á. Pérez-Torres",
+        "A. Quirrenbach",
+        "A. Reiners",
+        "I. Ribas",
+        "Daniele Viganò",
+        "M. R. Zapatero Osorio",
+        "S. Zucker"
+      ],
+      "doi": "10.1126/science.adv3075",
+      "pages": "403-407"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-06-25-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adv3075",
+      "doi": "https://doi.org/10.1126/science.adv3075",
+      "preprint": "https://arxiv.org/abs/2604.06969"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-31T20:18:27.297229+00:00",
+    "source": "openalex"
+  }
+}

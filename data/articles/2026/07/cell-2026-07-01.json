@@ -1,0 +1,96 @@
+{
+  "id": "cell-2026-07-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-07-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "小鼠大腦如何偵測視覺變化？七萬五千個神經元揭開「發現不同」的神秘機制",
+      "en": "How Does a Mouse Brain Spot a Change? 75,000 Neurons Reveal the Mechanics of Visual Detection"
+    },
+    "summary": {
+      "zh": "【總結】這項由Allen研究所主導的大型研究，利用Neuropixels探針同時記錄小鼠視覺系統中超過七萬五千個高品質神經元，涵蓋皮質、丘腦與中腦。研究揭示了小鼠在執行圖像變換偵測任務時，不同腦區、皮質層級與細胞類型如何編碼感官與運動資訊，並首次明確界定出二十至一百毫秒的關鍵決策時間窗口。研究同時指出，小鼠似乎採用「適應性編碼」而非「圖像比較」的策略來偵測變化。這套開放數據集為理解感覺運動計算的神經網絡機制提供了前所未有的資源。\n\n【研究問題】視覺行為需要跨層次腦區協同運作，但過往研究多為單一腦區、少量神經元的串行記錄，缺乏同時、密集且大規模的跨腦區數據。過去對小鼠視覺系統的描繪，多來自被動觀看狀態，缺少在行為任務中的完整映射。理解大腦如何在動態環境中將感官輸入轉化為行為決策，一直是神經科學的核心挑戰。這套數據填補了從皮質到皮層下結構的高解析度神經活動地圖空白。\n\n【研究方法】研究團隊在五十四隻小鼠身上進行實驗，每隻小鼠使用六根Neuropixels探針，同時記錄六個視覺皮質區域（VISp、VISl、VISal、VISrl、VISam、VISpm）以及丘腦（LGd、LP）與中腦（SCm、MRN）的神經放電。小鼠需完成一個圖像變換偵測任務：當螢幕上的自然圖像發生改變時，小鼠需舔水獲得獎勵。實驗還包含被動重播、新舊圖像對比等階段。研究使用通用線性模型（GLM）分析每個神經元的編碼特性，並透過光遺傳學靜默VISp皮質，以因果方式驗證決策時間窗口。\n\n【結果】研究發現，感覺資訊編碼沿視覺層級從丘腦向皮質傳遞，圖像變換解碼最早出現在高階丘腦核團LP（五十三毫秒），早於初級視覺皮質VISp。中腦（SCm/MRN）的神經元對任務參與度和圖像變換的調制最強。新圖像主要調制皮質晚期反應（六十至一百毫秒），而非丘腦早期反應，且上層皮質層（二/三層）的新鮮度調制最強，第六層幾乎無反應。光遺傳學實驗證實，當VISp被靜默超過一百毫秒後，小鼠無法可靠偵測圖像變換。解碼分析顯示小鼠傾向使用適應性編碼策略——即對重複刺激的神經反應減弱，而非直接比較兩張圖像——來判斷變化。",
+      "en": "**Summary:** This landmark study from the Allen Institute used Neuropixels probes to simultaneously record over 75,000 high-quality neuronal units across the mouse visual system—including cortex, thalamus, and midbrain—while mice performed an image change detection task. The research maps how sensory and motor information is encoded across brain areas, cortical layers, and cell types, identifies a critical 20-to-100-millisecond decision window for change detection, and reveals that mice likely use an adaptation-based strategy rather than direct image comparison. The resulting open dataset provides an unprecedented resource for understanding sensorimotor computation in neural circuits.\n\n**Problem:** Visual behavior demands coordinated activity across hierarchically organized brain circuits, yet prior large-scale recordings were typically serial and shallow—sampling only tens to hundreds of neurons per area. Moreover, most existing maps of the mouse visual system were derived from passive viewing, lacking the behavioral context necessary to understand how sensory input is transformed into action. A comprehensive, dense, simultaneous recording across multiple visual areas during an active task remained absent, leaving a critical gap in our understanding of how the brain detects changes in a dynamic environment.\n\n**Approach:** The researchers recorded from 54 mice using six simultaneous Neuropixels probes targeting six visual cortical areas (VISp, VISl, VISal, VISrl, VISam, VISpm), plus the thalamic nuclei (LGd, LP) and midbrain regions (SCm, MRN). Mice performed a change detection task: they received water rewards for licking when the identity of a briefly presented natural image changed on screen. The experimental design included active behavior epochs, passive stimulus replay, and sessions with both familiar and novel image sets. General linear models (GLMs) were fitted to each neuron's spiking activity to quantify sensory and motor encoding. Optogenetic silencing of VISp at precisely timed intervals was used to causally test the critical decision window. Population decoding and functional clustering further revealed the temporal dynamics and computational strategies underlying change detection.\n\n**Results:** Sensory information propagated along the visual hierarchy with image identity decoding leading at 38 ms in LGd, while change decoding emerged earliest in the higher-order thalamic nucleus LP at 53 ms—preceding VISp. Midbrain regions (SCm/MRN) showed the strongest modulation by both task engagement and image changes. Novel images preferentially enhanced late cortical responses (60–100 ms) without affecting thalamic responses, and upper cortical layers (2/3) showed the strongest novelty modulation while layer 6 was nearly unresponsive. Optogenetic silencing demonstrated that mice require no more than 100 ms of VISp activity to detect changes. Decoding analyses favored an adaptation-based strategy—where neurons respond less to repeated stimuli—over a direct image-comparison mechanism. The dataset, freely available on public cloud platforms, enables future computational and modeling studies of visual decision-making."
+    },
+    "keyArticle": {
+      "title": "Map of spiking activity underlying change detection in the mouse visual system",
+      "authors": [
+        "Corbett Bennett",
+        "Samuel D. Gale",
+        "Greggory Heller",
+        "Tamina K. Ramirez",
+        "Hannah Belski",
+        "Alex T. Piet",
+        "Omid A. Zobeiri",
+        "Adam Amster",
+        "Anton Arkhipov",
+        "Alex Cahoon",
+        "Shiella Caldejon",
+        "Mikayla Carlson",
+        "Linzy Casal",
+        "Scott Daniel",
+        "Colin Farrell",
+        "Marina Garrett",
+        "Ryan Gillis",
+        "Conor Grasso",
+        "Ben Hardcastle",
+        "Ross Hytnen",
+        "Tye Johnson",
+        "Peter Ledochowitsch",
+        "Quinn L’Heureux",
+        "D. Mastrovito",
+        "Ethan G. McBride",
+        "Ştefan Mihalaş",
+        "Chris Mochizuki",
+        "Christopher Morrison",
+        "Chelsea Nayan",
+        "Kiet Ngo",
+        "Kat North",
+        "Doug Ollerenshaw",
+        "Ben Ouellette",
+        "Paul S. Rhoads",
+        "Kara Ronellenfitch",
+        "Martin Schroedter",
+        "Joshua H. Siegle",
+        "Cliff Slaughterbeck",
+        "David Sullivan",
+        "Jackie Swapp",
+        "Michael Taormina",
+        "Wayne Wakeman",
+        "Xana Waughman",
+        "Allison Williford",
+        "John W. Phillips",
+        "Peter A. Groblewski",
+        "Séverine Durand",
+        "Christof Koch",
+        "Shawn R. Olsen"
+      ],
+      "doi": "10.1016/j.cell.2026.06.025",
+      "pages": "4775-4791.e13"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.025",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.025",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.10.17.683190"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-07-31T20:20:19.998605+00:00",
+    "source": "openalex"
+  }
+}

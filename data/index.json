@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-28T20:17:08.447660+00:00",
+  "lastUpdated": "2026-07-31T20:22:08.137555+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-27",
+      "journal": "Political Geography",
+      "date": "2026-07-27",
+      "path": "articles/2026/07/political-geography-2026-07-27.json",
+      "title_zh": "政治招牌還是生意殺手？少數族裔老闆在街角店舖裡的生存博弈",
+      "title_en": "Political Brand or Business Liability? How Minority Entrepreneurs Navigate the Street-Level Tightrope",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-27-cover.jpg"
+    },
     {
       "id": "political-geography-2026-07-24",
       "journal": "Political Geography",
@@ -101,6 +110,24 @@
       "cover_url": "data/images/science/science-2026-07-09-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-07-08",
+      "journal": "American Sociological Review",
+      "date": "2026-07-08",
+      "path": "articles/2026/07/american-sociological-review-2026-07-08.json",
+      "title_zh": "宗教「解綁」：當信仰變成自助餐，美國人還在信什麼？",
+      "title_en": "Religion Unbundled: When Faith Becomes À La Carte in America",
+      "cover_url": ""
+    },
+    {
+      "id": "nature-2026-07-08-02",
+      "journal": "Nature",
+      "date": "2026-07-08",
+      "path": "articles/2026/07/nature-2026-07-08-02.json",
+      "title_zh": "氣候變遷正在吞噬亞馬遜的知識森林：植物與語言雙重滅絕危機",
+      "title_en": "The Amazon's Knowledge Forest Is Burning: A Double Threat to Plants and Languages",
+      "cover_url": "data/images/nature/nature-2026-07-08-02-cover.jpg"
+    },
+    {
       "id": "nature-2026-07-08",
       "journal": "Nature",
       "date": "2026-07-08",
@@ -155,6 +182,15 @@
       "cover_url": "data/images/science/science-2026-07-02-cover.jpg"
     },
     {
+      "id": "cell-2026-07-01",
+      "journal": "Cell",
+      "date": "2026-07-01",
+      "path": "articles/2026/07/cell-2026-07-01.json",
+      "title_zh": "小鼠大腦如何偵測視覺變化？七萬五千個神經元揭開「發現不同」的神秘機制",
+      "title_en": "How Does a Mouse Brain Spot a Change? 75,000 Neurons Reveal the Mechanics of Visual Detection",
+      "cover_url": "data/images/cell/cell-2026-07-01-cover.jpg"
+    },
+    {
       "id": "nature-2026-07-01",
       "journal": "Nature",
       "date": "2026-07-01",
@@ -198,6 +234,15 @@
       "title_zh": "打破極限：單分子在表面也能達到「傅里葉極限」光譜解析",
       "title_en": "Breaking the Barrier: Single Molecules on Surfaces Reach the Fourier Limit",
       "cover_url": "data/images/science/science-2026-06-25-03-cover.jpg"
+    },
+    {
+      "id": "science-2026-06-25-04",
+      "journal": "Science",
+      "date": "2026-06-25",
+      "path": "articles/2026/06/science-2026-06-25-04.json",
+      "title_zh": "捕捉系外行星的隱形磁場：一顆海王星大小的行星如何「觸碰」它的母星",
+      "title_en": "Feeling the Pulse of a Distant Star: How an Exoplanet's Magnetic Field Reveals Itself",
+      "cover_url": "data/images/science/science-2026-06-25-04-cover.jpg"
     },
     {
       "id": "science-2026-06-25",
