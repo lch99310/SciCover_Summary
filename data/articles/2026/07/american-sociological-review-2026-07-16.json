@@ -1,0 +1,41 @@
+{
+  "id": "american-sociological-review-2026-07-16",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "4",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "老闆的兒子還是老闆：階級與性別如何交織成管理階層的傳承密碼",
+      "en": "The Boss's Son Remains the Boss: How Class and Gender Converge to Reproduce Managerial Power"
+    },
+    "summary": {
+      "zh": "管理階層一向被視為能力與奮鬥的獎賞，但一項基於五十萬丹麥勞工的大型追蹤研究，卻揭開了一個更令人不安的現實：成為經理人的孩子，成為經理人的機率遠高於非經理人的孩子，而且這種「階級遺傳」並非平均分配——兒子比女兒更容易繼承，而來自高階主管家庭的後代，優勢更為驚人。\n\n研究團隊以事件史分析追蹤2000年至2019年間出生於1965至1975年的丹麥勞工，發現低階主管子女的优势主要來自早期資源：父母的經濟資本與教育程度。然而，高階主管的後代不僅享有這些早期優勢，更在職業生涯中持續累積「後期資本」——包括更優越的職業軌跡與精英階層的社交網絡。這兩種優勢的疊加，使高階主管階层的子代在晉升管理職位時具有近乎壓倒性的競爭力。\n\n最引人注目的發現是性別與階層的交織效應：高階主管父親的兒子，享有特別顯著的優勢，而且即使控制了眾多可能的中介變數（如教育、收入、職業經歷等），這種優勢依然殘存。研究者認為，這暗示了男性主導的精英文化資本與社會資本——例如加入排他性俱樂部、繼承人脈網絡——在頂層管理階層的傳承中扮演了關鍵角色。這項發現對「透過正式組織制度即可實現階級流動」的樂觀假設提出了嚴峻挑戰：在職業階層的最頂端，正式的平等機制似乎難以撼動深植於性別與階級交織中的非正式傳承邏輯。",
+      "en": "The path to management is often portrayed as a meritocratic ladder, but a new study tracking half a million Danish workers over two decades reveals a more stubborn reality: children of managers are significantly more likely to become managers themselves, and this intergenerational transmission is far from equal. Sons outperform daughters, and those whose parents held senior managerial positions enjoy advantages that compound across the life course in ways that formal equality policies simply cannot erase.\n\nUsing event history analysis on Danish workers born between 1965 and 1975, the researchers found a clear distinction by parental level. Children of lower-level managers benefit primarily from early-life advantages—parental economic resources and educational attainment—that set them on a faster track. But descendants of senior managers draw on both these early resources and advantages that accumulate later: smoother career trajectories, access to elite social networks, and the kind of cultural fluency that opens doors in high-level organizations. The combination produces a compounding effect that is especially pronounced for sons of senior-managerial fathers.\n\nEven after controlling for a wide array of potential mediators—education, income, work experience, and other measurable factors—a substantial portion of this advantage remains unexplained. The authors argue that this residual points to the role of male-dominated forms of elite cultural and social capital: exclusive club memberships, informal mentorship networks, and social practices that are difficult to quantify but impossible to ignore at the top of the occupational hierarchy. The findings carry an uncomfortable implication for organizations that believe formal policies alone can equalize outcomes. When the very top of the managerial ladder is reproduced through gendered and classed networks that operate beyond the reach of institutional design, meritocracy remains more aspiration than reality."
+    },
+    "keyArticle": {
+      "title": "The Gendered Intergenerational Transmission of Managerial Status",
+      "authors": [
+        "Nicholas Martindale",
+        "Thomas Lyttelton",
+        "Lasse Folke Henriksen"
+      ],
+      "doi": "10.1177/00031224261457151",
+      "pages": "674-707"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261457151",
+      "doi": "https://doi.org/10.1177/00031224261457151"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-08-01T20:11:02.193409+00:00",
+    "source": "openalex"
+  }
+}

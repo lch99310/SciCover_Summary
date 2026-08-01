@@ -1,0 +1,52 @@
+{
+  "id": "cell-2026-07-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-07-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "植物生長激素的雙面膠：從基因開關到秒級訊號的革命性發現",
+      "en": "The Two Faces of Auxin: How a Century-Old Hormone Keeps Plants in Motion"
+    },
+    "summary": {
+      "zh": "【總結】生長素（auxin）是植物生長與發育的核心激素，近十年來研究取得突破性進展。這篇文章系統性地整理了兩大訊號分支的最新發現：一是核內生長素路徑（NAP）的進化與調控新機制，包括ARF轉錄因子的不穩定性 motif、TIR1/AFB受體兼具環腺苷酸（cAMP）合成酶活性、以及Aux/IAA抑制蛋白的氧化還原調控；二是快速反應分支，揭示了細胞表面的ABP1/ABL-TMK模組如何透過蛋白質磷酸化在數秒內驅動離子流通、細胞骨架重組與基因表達，其中AFB1更被發現能在細胞質中獨立執行非轉錄性的快速訊號。這些發現將過去被忽視的快速反應重新帶回視野，並與慢速轉錄反應串連成一個更完整的生長素訊號圖譜。\n\n【研究問題】過去五十年，生長素研究主要聚焦於NAP這條「慢速」轉錄路徑，因其概念簡潔、遺傳學工具成熟，成為植物分子生物學最成功的範例之一。然而，這種成功也造成盲點——快速反應（如細胞膨脹、離子流、細胞質流動）雖早在二十世紀三十年代就被觀察到，但其分子機制長期成謎。此外，ABP1作為細胞外生長素受體的爭議歷史更讓領域陷入停滯。本文旨在彌合這兩條支流的知識斷層，並提出未來研究的关键問題。\n\n【研究方法】作者採用綜合性文獻回顧策略，整合了遺傳學（Arabidopsis與苔蘚植物Marchantia的突變體分析）、蛋白質體學（時間解析磷蛋白體學，在生長素處理後30秒內檢測到近400個磷酸化位點變化）、結構生物學（cAMP合成酶活性測定）、以及進化比較基因组學（從綠藻到陸生植物的ARF與TIR1/AFB譜系分析）。研究同時引用了CRISPR基因編輯、顯微鏡活細胞成像、以及酵母合成生物學重建等多元技術。\n\n【結果】關鍵發現包括：（1）ARF轉錄因子存在一段高度保守的不穩定性motif，突變後B-ARF無法被降解，導致生長素反應顯著下降；（2）TIR1/AFB不僅是E3泛素連接酶，還具有腺苷酸環化酶活性，能在生長素感知後產生cAMP，但產量極低（與動物系統相差數個數量級），可能透過區室化實現局部訊號；（3）ABP1/ABL-TMK模組被證實負責細胞外生長素感知，ABL1/2雖與ABP1序列相似度低但同樣結合生長素，三重突變體表現出嚴重生長缺陷；（4）RAF樣激酶是快速磷酸化反應的核心調控者，raf突變體中近5%的蛋白質體磷酸化事件消失，但轉錄反應不受影響；（5）TMK1可透過磷酸化H⁺-ATPase促進細胞伸長，同時其胞內結構域可切割進入細胞核，磷酸化非典型Aux/IAA蛋白（IAA32/34）以調控慢速反應；（6）AFB1獨特地定位於細胞質，透過調節CNGC14鈣離子通道執行快速生長抑制，且其F-box結構域與SKP1結合能力下降，使其脫離經典SCF複合體途徑。這些結果重新定義了生長素訊號的雙軌架構，並開啟了跨時間尺度的整合研究新方向。",
+      "en": "**Summary:** Auxin, the master regulator of plant growth and development, has undergone a remarkable conceptual transformation over the past decade. This review synthesizes advances across two signaling branches long studied in isolation: the well-characterized nuclear auxin pathway (NAP), which controls transcriptional responses, and the rapidly emerging paradigm for fast, post-translational signaling. Key breakthroughs include the discovery that TIR1/AFB receptors possess adenylate cyclase activity—producing cAMP upon auxin perception—alongside new insights into ARF transcription factor regulation through degradation motifs, phase condensation, and redox-sensitive Aux/IAA multimerization. On the rapid-response side, the ABP1/ABL-TMK module has been validated as the extracellular auxin-sensing machinery, driving proteome-wide phosphorylation within seconds. Perhaps most strikingly, AFB1—a canonical NAP component—has been repurposed as a cytoplasmic receptor for non-transcriptional responses, including calcium influx and rapid root growth inhibition. Together, these findings dissolve the old fast-versus-slow dichotomy and reveal a deeply interconnected signaling network.\n\n**Problem:** For nearly fifty years, auxin biology was dominated by the nuclear auxin pathway (NAP), whose elegant simplicity—auxin triggers degradation of repressor proteins, releasing transcription factors—became a textbook success story. This very success, however, created a blind spot: rapid auxin responses, observed as early as the 1930s (changes in proton flux, membrane potential, cytoplasmic streaming), were mechanistically neglected because they fell outside the NAP framework. The controversial history of ABP1, long proposed as an extracellular auxin receptor but dismissed after contradictory mutant phenotypes, further stalled progress. The field needed a integrative re-evaluation that reconciles fast and slow branches, clarifies the molecular basis of rapid responses, and identifies the evolutionary logic connecting them.\n\n**Approach:** The authors employ a comprehensive integrative review strategy, drawing on genetic analyses in Arabidopsis and the model bryophyte Marchantia, time-resolved phosphoproteomics (detecting ~400 phosphorylation sites within 30 seconds of auxin treatment), structural and enzymatic assays for cAMP production, and comparative genomics across streptophyte algae and land plants. The review also synthesizes findings from CRISPR-Cas9 gene editing, live-cell microscopy, synthetic yeast reconstitution of the NAP, and kinase network interference studies using raf mutants to dissect the rapid-response phosphoproteome.\n\n**Results:** Six key findings emerge: (1) A conserved instability motif in ARF DNA-binding domains governs B-ARF turnover; mutating this motif stabilizes B-ARFs and severely impairs auxin responses across bryophytes and angiosperms. (2) TIR1/AFB complexes produce cAMP with adenylate cyclase activity, but at levels orders of magnitude lower than animal systems—raising the question of whether compartmentalized microdomains enable effective signaling. (3) The ABP1/ABL-TMK module is confirmed as the extracellular auxin receptor system; abp1 abl1 abl2 triple mutants show severe growth defects rescued by ABL1, while ABL proteins lack the ER-retention signal that plagued earlier ABP1 interpretations. (4) RAF-like kinases are central executors of rapid auxin signaling—raf mutants retain transcriptional responses but lose nearly all auxin-induced phosphorylation across ~5% of the proteome. (5) TMK1 operates at both membranes and nuclei: it phosphorylates H⁺-ATPases to drive cell elongation and PIN polarities for auxin transport, while its cleaved cytosolic domain enters the nucleus to stabilize IAA32/34, linking surface sensing to transcriptional output. (6) AFB1 localizes uniquely to the cytoplasm, where it triggers rapid calcium influx via CNGC14 and root growth inhibition independently of SCF-mediated Aux/IAA degradation—a neofunctionalized role preserved through evolution despite whole-genome duplications. These results reframe auxin signaling as a unified, multi-layered system spanning seconds to hours."
+    },
+    "keyArticle": {
+      "title": "Auxin signaling",
+      "authors": [
+        "Jiashu Chu",
+        "Aaron Chun Hou Ang",
+        "Martijn de Roij",
+        "Lucia Strader",
+        "Tongda Xu",
+        "Dolf Weijers"
+      ],
+      "doi": "10.1016/j.cell.2026.06.024",
+      "pages": "4531-4547"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.024",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.024"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-01T20:09:23.328462+00:00",
+    "source": "openalex"
+  }
+}

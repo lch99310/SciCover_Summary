@@ -1,0 +1,60 @@
+{
+  "id": "science-2026-07-30",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6810",
+  "date": "2026-07-30",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "花瓣的左右手：蝴蝶百合如何用基因決定「鏡像花」的轉向",
+      "en": "The Left and Right Hands of Petals: How Butterfly Lilies Use Genes to Determine Mirror-Image Flower Orientation"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了蝴蝶百合（Wachendorfia）「鏡像花」的左右不對稱之謎。研究發現，雌蕊和雄蕊的轉向並非單純由基因決定，而是「內在手性」與「重力感知」共同作用的結果——這就像人體器官的左右分工不同，植物的這種左右取向是參考外部環境（重力）而非內部軸線來定義的。更關鍵的是，作者發現了一個稱為「R位點」的超級基因，它同時控制雌蕊向右彎（MIR156-R基因）和雄蕊向左彎（YUC-R基因），確保兩者在同一朵花中朝向相反方向，從而促進異花授粉。這項研究不僅揭示了植物左右不對稱發育的分子機制，也為理解基因如何協調複雜性狀提供了新視角。\n\n【研究問題】過去對鏡像花的了解停留在表型描述，缺乏對其發育機制和遺傳基礎的深入解析。特別是，植物如何決定「左」與「右」、以及這種左右取向如何與授粉者互動以維持遺傳多態性，一直是未解之謎。此外，與動物中已知的左右不對稱基因（如脊椎動物的Nodal通路）不同，植物中缺乏對這種多態性遺傳控制的分子證據。本研究旨在填補這些空白，揭示鏡像花發育的發育生物學和遺傳學基礎。\n\n【研究方法】研究團隊綜合運用多種方法：首先，他們對蝴蝶百合的花芽進行顯微解剖和時間序列觀察，記錄雌蕊和雄蕊的彎曲過程；其次，透過改變花芽的重力方向（將花束旋轉180度培養），驗證重力對取向的影響；第三，利用生物力學模型模擬細胞扭轉與差異生長如何導致器官彎曲；第四，透過全基因體測序和RNA測序，鑑定與左右形態相關的基因區域，並發現R位點超級基因；最後，他們在自然种群中搜尋突變個體（同蕊花），並透過基因體測序確認突變位點。\n\n【結果】研究發現，雌蕊的彎曲是由細胞文件的螺旋扭轉（內在手性）與重力誘導的差異細胞伸長共同作用的结果。當花芽被旋轉時，雌蕊仍會朝向重力方向彎曲，證明重力是關鍵參考軸。基因分析揭示R位點超級基因包含兩個基因：MIR156-R在雌蕊中表達，導致向右彎；YUC-R在雄蕊中表達，通過增加生長素水平導致向左彎。研究還發現了自然突變個體：YUC-R缺失導致右同蕊花（雌雄蕊均向右），MIR156-R缺失導致左同蕊花。這些結果表明，超級基因通過協調兩個基因的表達，確保了左右形態的穩定遺傳和授粉效率。",
+      "en": "**Summary:** This study unravelled the mystery of left-right asymmetry in mirror-image flowers of butterfly lilies (Wachendorfia). The research reveals that style and stamen deflection results from a combination of intrinsic chirality (cellular twisting) and gravitropic response (differential cell elongation guided by gravity). Unlike animal left-right asymmetry, which is internally determined, plant handedness in these flowers is oriented relative to an external reference—gravity. The key breakthrough is the identification of a hemizygous supergene, the R locus, which contains two genes: MIR156-R controls rightward style deflection, while YUC-R controls leftward stamen deflection through auxin biosynthesis. This genetic architecture ensures coordinated opposite orientation of reproductive organs, promoting outcrossing. The study also found natural homostylous mutants with deletions in either gene, confirming their causal roles.\n\n**Problem:** Despite being described over 140 years ago, the developmental and genetic basis of enantiostyly in mirror-image flowers remained largely unknown. While left-right asymmetry in animals is well-studied, plants present a unique case where handedness is defined relative to an external axis (gravity) rather than internal body plans. The molecular mechanisms controlling coordinated organ placement and the genetic architecture maintaining polymorphism were completely uncharacterized. Understanding these mechanisms is crucial for elucidating how genetic variation is maintained in natural populations and how complex adaptive traits evolve.\n\n**Approach:** The researchers combined developmental biology, biomechanics, and genomics. They tracked style deflection through bud development using time-lapse imaging and confocal microscopy. To test gravitropic orientation, they cultured flower buds in inverted positions and on clinostats. A bead-spring biomechanical model simulated how twist and differential elongation combine to produce deflection. For genetic analysis, they performed whole-genome sequencing of pooled L- and R-morph individuals, RNA-seq of dissected styles and stamens, and small RNA sequencing. They also surveyed natural populations for homostylous mutants and performed whole-genome sequencing on mutant individuals to identify causal deletions.\n\n**Results:** The study demonstrated that style deflection requires both intrinsic chirality and gravitropism: when grown on a clinostat, styles remained nearly straight. Cell-file twisting was detected only in late-stage buds and open flowers, not in early development. The R locus supergene spans approximately 100-200 kb and contains two expressed genes: YUC-R, expressed in stamen filaments and producing higher auxin levels (confirmed by IAA measurements), and MIR156-R, expressed in styles and producing mature miR156-5p. Homostylous mutants revealed that YUC-R deletions cause right-homostyly (both organs deflected right), while MIR156-R/X1 deletions cause left-homostyly. Phylogenetic analysis showed the R locus arose from a segmental duplication after divergence from Dilatris, approximately 28-52 million years ago, with the YUC-R clade showing elevated dN/dS ratios consistent with hemizygous inheritance under long-term balancing selection."
+    },
+    "keyArticle": {
+      "title": "Supergene control of chiral development in mirror-image flowers",
+      "authors": [
+        "Haoran Xue",
+        "Marco Saltini",
+        "Nicola Illing",
+        "Kelly Shepherd",
+        "Olivia Page-Macdonald",
+        "Oliver Marketos",
+        "Caroline E. Robertson",
+        "A. Udaya Shankar",
+        "S. T. Suess",
+        "Christian Kappel",
+        "Saleh Alseekh",
+        "Eva E. Deinum",
+        "Robert A. Ingle",
+        "Michael Lenhard"
+      ],
+      "doi": "10.1126/science.aeb1157",
+      "pages": "eaeb1157"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeb1157",
+      "doi": "https://doi.org/10.1126/science.aeb1157"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-01T20:07:39.583300+00:00",
+    "source": "openalex"
+  }
+}

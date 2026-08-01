@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-07-31T20:22:08.137555+00:00",
+  "lastUpdated": "2026-08-01T20:11:02.236045+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-07-31",
+      "journal": "Political Geography",
+      "date": "2026-07-31",
+      "path": "articles/2026/07/political-geography-2026-07-31.json",
+      "title_zh": "非洲旅遊的真實幻象：當「原真性」成為一場精心包裝的壯觀表演",
+      "title_en": "The Spectacular Fantasy of African Tourism: When 'Authenticity' Becomes a Carefully Packaged Performance",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-31-cover.jpg"
+    },
+    {
+      "id": "science-2026-07-30",
+      "journal": "Science",
+      "date": "2026-07-30",
+      "path": "articles/2026/07/science-2026-07-30.json",
+      "title_zh": "花瓣的左右手：蝴蝶百合如何用基因決定「鏡像花」的轉向",
+      "title_en": "The Left and Right Hands of Petals: How Butterfly Lilies Use Genes to Determine Mirror-Image Flower Orientation",
+      "cover_url": "data/images/science/science-2026-07-30-cover.jpg"
+    },
     {
       "id": "political-geography-2026-07-27",
       "journal": "Political Geography",
@@ -44,6 +62,15 @@
       "path": "articles/2026/07/political-geography-2026-07-18.json",
       "title_zh": "當土地改革遇上「叢林」：利比里亞女性為何被排除在決策之外？",
       "title_en": "When Land Reform Meets the 'Bush': How De Facto Authority Silences Women in Liberia",
+      "cover_url": ""
+    },
+    {
+      "id": "american-sociological-review-2026-07-16",
+      "journal": "American Sociological Review",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/american-sociological-review-2026-07-16.json",
+      "title_zh": "老闆的兒子還是老闆：階級與性別如何交織成管理階層的傳承密碼",
+      "title_en": "The Boss's Son Remains the Boss: How Class and Gender Converge to Reproduce Managerial Power",
       "cover_url": ""
     },
     {
@@ -128,6 +155,15 @@
       "cover_url": "data/images/nature/nature-2026-07-08-02-cover.jpg"
     },
     {
+      "id": "nature-2026-07-08-03",
+      "journal": "Nature",
+      "date": "2026-07-08",
+      "path": "articles/2026/07/nature-2026-07-08-03.json",
+      "title_zh": "讓量子電腦學會「從錯誤中學習」：強化學習打造永不當機的量子校正器",
+      "title_en": "Teaching Quantum Computers to Learn From Their Mistakes: Reinforcement Learning for Continuous Error Correction",
+      "cover_url": "data/images/nature/nature-2026-07-08-03-cover.jpg"
+    },
+    {
       "id": "nature-2026-07-08",
       "journal": "Nature",
       "date": "2026-07-08",
@@ -180,6 +216,15 @@
       "title_zh": "繞過自旋：銅氧化物界面激發軌道電流，讓反鐵磁體电阻暴增五十倍",
       "title_en": "Bypassing Spin: Orbital Currents at Copper Oxide Interfaces Boost Magnetoresistance Fifty-Fold in Antiferromagnets",
       "cover_url": "data/images/science/science-2026-07-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-07-01-02",
+      "journal": "Cell",
+      "date": "2026-07-01",
+      "path": "articles/2026/07/cell-2026-07-01-02.json",
+      "title_zh": "植物生長激素的雙面膠：從基因開關到秒級訊號的革命性發現",
+      "title_en": "The Two Faces of Auxin: How a Century-Old Hormone Keeps Plants in Motion",
+      "cover_url": "data/images/cell/cell-2026-07-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-07-01",
