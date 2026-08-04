@@ -1,0 +1,53 @@
+{
+  "id": "science-2026-07-30-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6810",
+  "date": "2026-07-30",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-30-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從智利古墓挖出的天花病毒：揭開美洲大流行的基因密碼",
+      "en": "The First American Smallpox: Ancient Genomes Reveal How a Virus Conquered the New World"
+    },
+    "summary": {
+      "zh": "【總結】這項研究成功從智利北部一個印加-殖民時期的考古遺址（Camarones 9）中，萃取並測序出兩份距今約 1492 至 1631 年的古代天花病毒基因組。這是美洲大陸首次發現古代天花病毒基因證據。研究團隊發現，這兩份基因組相似度高達 99.912%，屬於一個已滅絕的病毒譜系，其分化時間約在 1296 年。這項發現提供了直接分子證據，證實天花是隨著歐洲殖民活動傳入美洲，並為理解病毒適應人類宿主過程中的基因失活節奏提供了關鍵的時間錨點。\n\n【研究問題】過去對於美洲天花大流行的理解，主要依賴殖民者的歷史文獻，這些紀錄往往帶有殖民視角的偏見，且難以完整捕捉原住民社區內的傳播細節。此外，天花病毒在美洲的具體引入時間、傳播路徑以及早期病毒株的遺傳特徵，長期以來缺乏直接的生物分子證據。由於天花病毒不會在骨骼中留下明顯病變，傳統考古方法很難確認感染案例。因此，透過古 DNA 技術直接檢索古代病毒基因組，成為釐清這些歷史謎團的關鍵。\n\n【研究方法】研究團隊從智利北部 Camarones 9 遺址的 13 塊骨骼樣本中進行篩檢，利用 aMeta 工具進行病原體檢測，成功鎖定兩名個體（一名 30-35 歲女性與一名 18-20 歲男性）的股骨碎片中含有天花病毒基因。研究者對其中一個高覆蓋度的基因組（CAM9_208，覆蓋度 84.851×）進行 de novo 組裝，獲得完整的 188,890 個鹼基對基因組序列。隨後，研究團隊建構了包含 71 個現代天花病毒基因組與多個古代基因組的泛基因組參考集，透過最大似然法與貝氏推斷進行系統發生學分析，並利用 BEAST 軟體在鬆散分子鐘模型下進行定年，同時整合放射性碳定年數據作為先驗資訊，以重建病毒的演化時序。\n\n【結果】研究確認這兩份古代天花基因組屬於一個獨立的滅絕譜系，分化時間約在 1296 年（95% 最高後驗密度區間為 1124-1460 年），介於早期中世紀歐洲病毒株與現代天花病毒之間。基因組分析顯示，該病毒已失活 49 個基因，其中 37 個基因在所有已知古代與現代天花病毒中均處於失活狀態，推測這些基因在宿主適應過程中已變得不必要。研究進一步發現，天花病毒的基因失活速率在 16 世紀中葉至 17 世紀初保持相對穩定，之後進入一個演化緩慢的階段，同義與非同義突變率均顯著下降，這段約兩個世紀的演化靜止期可能反映病毒與人類宿主已達高度適應平衡。這些結果不僅證實天花由歐洲殖民者引入美洲，也揭示病毒演化與人類人口結構變化之間緊密的互動關係。",
+      "en": "**Summary:** This study successfully sequenced two ancient smallpox virus genomes dating to approximately 1492–1631 CE from the Camarones 9 archaeological site in northern Chile, representing the first direct molecular evidence of smallpox in the Americas. The two genomes share 99.912% sequence identity and belong to a now-extinct lineage that diverged around 1296 CE, positioning it phylogenetically between early medieval European strains and modern variola viruses. This discovery provides concrete genetic proof that smallpox was introduced to the Americas through European colonization, while also establishing a critical temporal benchmark for understanding the virus’s evolutionary trajectory, particularly the pace of gene inactivation during its adaptation to human hosts.\n\n**Problem:** Historical accounts of smallpox in the Americas rely heavily on colonial records, which are inherently biased and often overlook transmission dynamics within Indigenous communities. Moreover, the exact timing, routes, and genetic characteristics of early American smallpox strains remained speculative due to the absence of ancient viral DNA. Skeletal evidence of smallpox infection is rare, making it nearly impossible to confirm cases through traditional archaeology. Without direct molecular data, key questions about when and how smallpox arrived in the Americas, and how it evolved in the new environment, could not be answered. This study addresses that gap by retrieving and analyzing ancient variola genomes from well-dated human remains.\n\n**Approach:** The researchers screened 13 bone samples from the Camarones 9 site in northern Chile using aMeta, a metagenomic screening tool, and identified two individuals—an adult female (30–35 years old) and an adult male (18–20 years old)—with smallpox DNA in their femur fragments. The high-coverage genome (CAM9_208, 84.851×) was assembled de novo using MEGAHIT, yielding a 188,890-base-pair sequence with 205 open reading frames. Phylogenetic analyses were conducted using both maximum-likelihood (IQ-TREE) and Bayesian (BEAST) methods, with a pangenome of 71 modern variola genomes as reference. Molecular clock dating incorporated radiocarbon dates from hair samples as priors, while gene inactivation was assessed by comparing predicted protein sequences against cowpox orthologs, identifying truncations, fragmentations, and complete gene losses.\n\n**Results:** The CAM9 smallpox genomes form a distinct extinct lineage that diverged from modern variola ancestors around 1296 CE (95% HPD: 1124–1460 CE). The virus had already inactivated 49 genes, including 37 that are uniformly inactive across all known ancient and modern variola strains, suggesting these genes became dispensable during early host adaptation. Ten additional genes showed variable inactivation states across medieval genomes, with an estimated inactivation rate of one to two genes per century prior to 1550 CE. Notably, no fixed gene inactivation events occurred after the emergence of the modern variola ancestor (estimated 1551–1631 CE). Instead, the virus entered a period of evolutionary constraint from the late 16th to late 18th centuries, during which both synonymous and nonsynonymous substitution rates dropped significantly—synonymous rates falling 3.1- to 3.8-fold compared to other branches. This genomic stasis likely reflects a highly optimized host-virus relationship. Substitution rates later rebounded, possibly coinciding with the rise of widespread vaccination. These findings demonstrate that smallpox evolution was not constant but shaped by major shifts in human demography and epidemiology."
+    },
+    "keyArticle": {
+      "title": "The genomic identity of early smallpox in South America",
+      "authors": [
+        "Bruno Romero González",
+        "Margarita Reyes‐Madrid",
+        "Bernardo Arriaza",
+        "Lara M. Cassidy",
+        "Mauricio Moraga",
+        "Constanza de la Fuente Castro",
+        "Shigeki Nakagome"
+      ],
+      "doi": "10.1126/science.aee6957",
+      "pages": "504-508"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-30-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aee6957",
+      "doi": "https://doi.org/10.1126/science.aee6957"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-04T20:21:25.709678+00:00",
+    "source": "openalex"
+  }
+}

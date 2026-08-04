@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T20:11:02.236045+00:00",
+  "lastUpdated": "2026-08-04T20:24:50.705160+00:00",
   "articles": [
     {
       "id": "political-geography-2026-07-31",
@@ -9,6 +9,15 @@
       "title_zh": "非洲旅遊的真實幻象：當「原真性」成為一場精心包裝的壯觀表演",
       "title_en": "The Spectacular Fantasy of African Tourism: When 'Authenticity' Becomes a Carefully Packaged Performance",
       "cover_url": "data/images/political-geography/political-geography-2026-07-31-cover.jpg"
+    },
+    {
+      "id": "science-2026-07-30-02",
+      "journal": "Science",
+      "date": "2026-07-30",
+      "path": "articles/2026/07/science-2026-07-30-02.json",
+      "title_zh": "從智利古墓挖出的天花病毒：揭開美洲大流行的基因密碼",
+      "title_en": "The First American Smallpox: Ancient Genomes Reveal How a Virus Conquered the New World",
+      "cover_url": "data/images/science/science-2026-07-30-02-cover.jpg"
     },
     {
       "id": "science-2026-07-30",
@@ -54,6 +63,15 @@
       "title_zh": "大腦的「數位老化」：海馬迴細胞如何透過基因組重編程走向崩潰",
       "title_en": "The Digital Decay of the Brain: How the Hippocampus Rewires Itself for Inflammation",
       "cover_url": "data/images/science/science-2026-07-23-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-07-21",
+      "journal": "Political Geography",
+      "date": "2026-07-21",
+      "path": "articles/2026/07/political-geography-2026-07-21.json",
+      "title_zh": "把河流還給人民：厄瓜多爾社區如何用一張地圖對抗礦業與水壩",
+      "title_en": "Mapping What Matters: How an Ecuadorian Community Fought Back with a Map",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-21-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-18",
@@ -108,6 +126,15 @@
       "title_zh": "量子統計等離子體超晶體：室温下操控多光子量子態的新材料",
       "title_en": "Quantum Statistical Plasmonic Metacrystals: A Room-Temperature Platform for Controlling Multiphoton Quantum States",
       "cover_url": "data/images/nature/nature-2026-07-15-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-15-03",
+      "journal": "Nature",
+      "date": "2026-07-15",
+      "path": "articles/2026/07/nature-2026-07-15-03.json",
+      "title_zh": "太陽風暴的「極限」只是統計幻覺？回歸均值揭開磁暴飽和之謎",
+      "title_en": "The 'Ceiling' on Geomagnetic Storms May Be a Statistical Mirage",
+      "cover_url": "data/images/nature/nature-2026-07-15-03-cover.jpg"
     },
     {
       "id": "nature-2026-07-15",
@@ -243,6 +270,15 @@
       "title_zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
       "title_en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'",
       "cover_url": "data/images/nature/nature-2026-07-01-cover.jpg"
+    },
+    {
+      "id": "cell-2026-06-30",
+      "journal": "Cell",
+      "date": "2026-06-30",
+      "path": "articles/2026/06/cell-2026-06-30.json",
+      "title_zh": "用4D顯微鏡打造細胞數位分身：線粒體的動態世界終於可以被模擬了",
+      "title_en": "Building a Digital Twin of the Cell: How 4D Microscopy Lets Us Simulate Mitochondrial Dynamics in Real Time",
+      "cover_url": "data/images/cell/cell-2026-06-30-cover.jpg"
     },
     {
       "id": "american-sociological-review-2026-06-29",
@@ -459,6 +495,15 @@
       "title_zh": "水不再是資源，而是無處不在的武器：破解「環境性武器化」的暴力密碼",
       "title_en": "Water as the Ultimate Ambient Weapon: How the Hydrosphere Became a Weapon of Choice",
       "cover_url": "data/images/political-geography/political-geography-2026-06-10-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-06-09",
+      "journal": "American Sociological Review",
+      "date": "2026-06-09",
+      "path": "articles/2026/06/american-sociological-review-2026-06-09.json",
+      "title_zh": "倒數計時的不平等：末期癌症患者如何被「錯位」的時間剝奪選擇權",
+      "title_en": "The Unequal Clock: How Terminal Illness Reveals Time as a Mechanism of Inequality",
+      "cover_url": ""
     },
     {
       "id": "science-2026-06-04-02",

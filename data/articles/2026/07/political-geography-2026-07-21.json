@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-07-21",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-07-21",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-21-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "把河流還給人民：厄瓜多爾社區如何用一張地圖對抗礦業與水壩",
+      "en": "Mapping What Matters: How an Ecuadorian Community Fought Back with a Map"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章記錄了厄瓜多爾亞蘇伊省揚努卡伊河流域社區如何透過參與式反繪圖（counter-mapping）方法，共同創造出一張對抗大型採礦與水電開發的地圖。研究團隊與當地Soldados社區合作，將社區的生態知識、情感連結與社會經濟依賴轉化為視覺化的地圖敘事，讓被主流開發話語抹除的在地意義得以「物質化」呈現。這張地圖不僅是技術產物，更成為社區抗爭與政治動員的有力工具。\n\n【研究問題】在厄瓜多爾等全球南方國家，大型採礦與水電項目以「發展」之名持續侵蝕農村社區的河流與領土。過去研究多聚焦於河流治理的技術政治過程，卻較少關注社區如何主動以視覺化手段重新主張自己的領土想像。本文旨在回答：社區如何透過反繪圖實踐，將基於在地經驗的敘事轉化為抗爭工具，從而挑戰資源掠奪？\n\n【研究方法】研究團隊採用批判性地圖學（Critical Cartography）框架，結合民族誌訪談與參與式行動研究。作者首先在庫恩卡市進行二十場深度訪談，了解各方對礦業與水電項目的敘事。接著與Soldados社區舉辦河流共學活動（River Co-Learning Activities），透過工作坊讓社區成員在衛星影像底圖上繪製他們對流域的理解——包含生態知識、水源地、畜牧區、植物動物與抗爭地點。地圖經過多輪社區回饋與修改，最終形成一份標題為「揚努卡伊河流域濕地的水與社會重要性」的反繪圖。\n\n【結果】反繪圖成功將社區的 hydrosocial territory（ hydrosocial 領土）視覺化：地圖呈現了河流的垂直流動、社區共同使用的 páramos（高山濕地）生態、水電工程的擬建位置，以及社區抵抗的象徵。這張地圖隨後被帶入公開抗爭場合，例如2024年11月在庫恩卡舉行的「Contra Cumbre de los Pueblos en Resistencia」峰會。研究證明，反繪圖不僅是視覺表達，更是一套政治實踐——它讓社區得以重新定義「什麼重要」，挑戰以開發為名的河流掠奪，並為更廣泛的河流捍衛網絡提供凝聚與動員的基礎。",
+      "en": "**Summary:** This article documents how communities in the Yanuncay River Basin of Azuay Province, Ecuador, used participatory counter-mapping to create a visual tool of resistance against large-scale mining and hydropower projects. Working with the Soldados community, the researchers co-produced a map that translates local ecological knowledge, emotional attachments, and socio-economic dependencies into a cartographic narrative—making visible what extractive development agendas systematically erase. The resulting map is not merely a technical document but a political instrument that empowers communities to defend their hydrosocial territories.\n\n**Problem:** Across the Global South, including Ecuador, large-scale mining and mega-hydropower projects continue to encroach on rural riverine territories in the name of development. While scholarship on river grabbing has examined the political and technical processes behind such projects, there has been less attention to how affected communities actively produce counter-visualizations to reclaim their territorial narratives. This article asks: How do grassroots communities use counter-mapping to transform place-based knowledge into a tool of resistance against extractivist river grabbing?\n\n**Approach:** The authors employed a Critical Cartography framework, combining ethnographic interviews with participatory action-research. They conducted twenty open-ended interviews with stakeholders in Cuenca to understand competing narratives about mining and hydropower. They then organized River Co-Learning Activities with the Soldados community, holding workshops where residents drew on satellite-base maps to represent their understanding of the basin—marking ecological knowledge, water sources, grazing lands, flora and fauna, and sites of resistance. The map underwent multiple rounds of community feedback and revision, culminating in a final counter-map titled \"Water and Social Importance of the Yanuncay River Moors.\"\n\n**Results:** The counter-map successfully visualized the community’s hydrosocial territory: it depicted the river’s vertical flow, the shared páramo wetlands, the proposed hydroelectric infrastructure, and symbols of community resistance. The map was subsequently deployed in public protests, including the Contra Cumbre de los Pueblos en Resistencia in Cuenca in November 2024. The study demonstrates that counter-mapping is not simply a representational act but a political practice—one that allows communities to redefine what matters, challenge river grabbing justified by development discourse, and provide a rallying point for broader river defense networks."
+    },
+    "keyArticle": {
+      "title": "Matterialising grassroots hydrosocial territories: Visualising and politically reframing what matters in the upper Yanuncay River, Ecuador",
+      "authors": [
+        "Catalina Rey-Hernández",
+        "Jaime Hoogesteger",
+        "Rutgerd Boelens"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103613",
+      "pages": "103613"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-21-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103613",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103613"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-04T20:24:17.769073+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-06-30",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-06-30",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "用4D顯微鏡打造細胞數位分身：線粒體的動態世界終於可以被模擬了",
+      "en": "Building a Digital Twin of the Cell: How 4D Microscopy Lets Us Simulate Mitochondrial Dynamics in Real Time"
+    },
+    "summary": {
+      "zh": "【總結】這項研究由加州大學聖地牙哥分校的團隊主導，發表於2026年6月的《Cell》期刊。研究團隊開發了一套「全細胞數位分身」框架，將四維（x、y、z、時間）晶格光片顯微鏡（LLSM）所捕捉的活細胞影像，與粒子基反應擴散模擬（ReaDDy）結合，首次實現了對人類細胞內線粒體網路動態的高保真模擬。這項突破的意義在於：它架起了一個長期存在的科研鴻溝——從分子尺度到細胞尺度的介觀層次，讓研究者能在電腦中「重現」並「預測」細胞內部的動態行為，而不僅僅是靜態結構。\n\n【研究問題】過去的全細胞模型（WCMs）多依賴靜態結構數據（如冷凍電子斷層掃描），難以捕捉秒級時間尺度上的細胞器動態。同時，傳統活細胞顯微技術（如共軛焦顯微鏡）的光毒性過高，無法長時間追蹤細胞器行為。研究缺口在於：缺乏一種能將高分辨率4D活細胞影像轉化為可計算模擬模型的自動化方法。解決這個問題至關重要，因為線粒體動態異常與糖尿病、神經退化疾病和癌症等廣泛疾病相關，理解其機制有望開闢新的治療策略。\n\n【研究方法】研究團隊使用自建的晶格光片顯微鏡（LLSM），以每秒11幀的速度、230×230×370奈米的解析度，對活體Cal27頭頸部鱗狀細胞癌細胞進行11分鐘的四維成像。他們用MitoTracker綠色螢光標記線粒體，用Tubulin Tracker深紅螢光標記微管。透過MitoGraph演算法對線粒體影像進行分割和骨架化，再以MitoTNT追蹤線粒體片段在時間軸上的運動與融合/分裂事件。模型構建方面，研究團隊將影像數據中的每個節點轉換為粒子，並利用ReaDDy模擬軟體建立粒子基反應擴散模型，包含線粒體擴散、融合/分裂反應、以及沿微管的驅動蛋白和動力蛋白主動運輸。他們還開發了ReaDDy Made Models（RMM）工具，從螢光強度影像自動生成微管網路的拓撲結構。\n\n【結果】研究團隊成功構建並驗證了三種條件下的數位分身模型：（1）對照組（未處理細胞）：線粒體在微管網路上的主動運輸模擬與實驗數據高度吻合，包括均方位移（MSD）曲線、分裂率和融合率。（2）低劑量化纖菌素處理30分鐘（微管部分破壞）：使用對照組參數（無需重新校準），模擬結果準確預測了介於對照與完全破壞之間的線粒體動態趨勢。（3）高劑量化纖菌素處理60分鐘（微管完全破壞）：線粒體僅表現被動擴散，模擬成功重現了實驗觀察到的扩散行為。更重要的是，研究團隊透過模擬「應力模擬」條件（增強逆行運動動力學），預測了線粒體周核聚集的現象，並發現微管拓撲結構是這一重組的關鍵結構閥門——僅靠增強逆行走行動力學不足以驅動聚集，必須有允許的微管連接性。這些結果證明了數位分身框架的預測能力，為未來研究細胞器動態和藥物干擾效應提供了一個可解釋、生物學基礎扎實的計算平台。",
+      "en": "**Summary:** This study, led by researchers at the University of California San Diego and published in Cell in June 2026, introduces a whole-cell digital twin framework that bridges the gap between live-cell imaging and computational simulation. By integrating four-dimensional lattice light-sheet microscopy (LLSM) with particle-based reaction-diffusion simulations in ReaDDy, the team created high-fidelity digital replicas of human Cal27 cells, capturing the dynamic behavior of mitochondrial networks in real time. The breakthrough lies in its ability to simulate mesoscale intracellular processes—such as organelle fusion, fission, and motor-driven transport—that were previously inaccessible to whole-cell models, which historically relied on static structural data.\n\n**Problem:** Traditional whole-cell models have been limited by their reliance on static snapshots from techniques like cryo-electron tomography, unable to capture the rapid, second-scale dynamics of organelles. Meanwhile, conventional live-cell fluorescence microscopy (e.g., confocal) suffers from high phototoxicity, preventing long-term observation. The critical gap: there has been no automated pipeline to transform high-resolution 4D live-cell imaging data into computable, particle-based simulation models. Solving this is essential because mitochondrial dysfunction is linked to diabetes, neurodegeneration, and cancer—understanding their dynamics could unlock new therapeutic strategies.\n\n**Approach:** The team used a custom-built LLSM to capture 4D images of live Cal27 cells at 11-second intervals over 11 minutes, with 230×230×370 nm resolution. Mitochondria were labeled with MitoTracker Green and microtubules with Tubulin Tracker Deep Red. Image segmentation was performed using MitoGraph, which thresholds and skeletonizes mitochondrial signals into graph representations, while MitoTNT tracked mitochondrial fragment motility and fusion/fission events across time-lapse frames. The ReaDDy simulation platform was used to build particle-based models where mitochondria diffuse, undergo topological fusion and fission reactions, and are actively transported along microtubules by kinesin and dynein motor particles. The team also developed ReaDDy Made Models (RMM), a stochastic procedural generation method that constructs microtubule networks from fluorescence intensity data, assigning polarized directions for motor-driven transport.\n\n**Results:** The researchers validated their digital twin across three conditions without reparameterization. In control cells, simulated mitochondrial mean-squared displacement (MSD), fission rates, and fusion rates all matched experimental measurements closely. When microtubules were partially disrupted with 30 minutes of nocodazole treatment, the model—using only control parameters—accurately predicted intermediate mitochondrial dynamics between control and fully disrupted states. In cells with microtubules fully disrupted after 60 minutes of nocodazole, the passive diffusion model successfully reproduced experimental trends. Critically, stress-mimicking simulations that upregulated retrograde motor kinetics predicted emergent perinuclear mitochondrial clustering, revealing that microtubule topology acts as a structural gate: enhanced retrograde motility alone is insufficient without permissive filament connectivity. These findings demonstrate the framework's predictive power and establish a biologically grounded, interpretable platform for investigating intracellular dynamics and perturbation responses."
+    },
+    "keyArticle": {
+      "title": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data",
+      "authors": [
+        "Eric Arkfeld",
+        "Zichen Wang",
+        "Hiroyuki Hakozaki",
+        "Johannes Schöneberg"
+      ],
+      "doi": "10.1016/j.cell.2026.06.010",
+      "pages": "4581-4593.e6"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.010",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.010",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.04.09.647865"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-04T20:23:16.574872+00:00",
+    "source": "openalex"
+  }
+}

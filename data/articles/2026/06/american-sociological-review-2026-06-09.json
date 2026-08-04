@@ -1,0 +1,41 @@
+{
+  "id": "american-sociological-review-2026-06-09",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "4",
+  "date": "2026-06-09",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "倒數計時的不平等：末期癌症患者如何被「錯位」的時間剝奪選擇權",
+      "en": "The Unequal Clock: How Terminal Illness Reveals Time as a Mechanism of Inequality"
+    },
+    "summary": {
+      "zh": "時間對每個人看似公平，但對末期癌症患者而言，時間本身就是一道階梯——有人能從容安排餘生，有人卻被制度與病情的雙重節奏逼入絕境。這項發表於《美國社會學評論》的研究，追蹤九十六位末期癌症患者五年的田野調查，揭示了一個關鍵概念：「時間錯位」。所謂時間錯位，是指個人行動的節奏與制度所強加的時間框架之間的撕裂——當治療、工作、家庭與官僚系統的時鐘各自走速不同，患者便陷入無止境的協調困境。",
+      "en": "Time seems like the great equalizer—until you're running out of it. A new study in the American Sociological Review examines how terminal cancer patients navigate a landscape where time itself becomes a mechanism of stratification. Drawing on five years of fieldwork across nine cancer clinics and 196 in-depth interviews with 96 patients, the authors introduce the concept of 'temporal misalignment': the fracture between the rhythms of individual action and the institutional timelines that structure when and how action is possible."
+    },
+    "keyArticle": {
+      "title": "Temporal Misalignment and Unequal Agency: What Terminal Cancer Patients Teach Us about Time and Inequality",
+      "authors": [
+        "Zhuofan Li",
+        "Daniel Dohan",
+        "Corey M. Abramson"
+      ],
+      "doi": "10.1177/00031224261448220",
+      "pages": "545-571"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261448220",
+      "doi": "https://doi.org/10.1177/00031224261448220"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-08-04T20:24:50.671102+00:00",
+    "source": "openalex"
+  }
+}
