@@ -1,0 +1,56 @@
+{
+  "id": "cell-2026-06-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "15",
+  "date": "2026-06-04",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "讀懂細胞「無膜器官」的AI語言：Deep-Phase如何揭開核仁形態背後的生物密碼",
+      "en": "Decoding the Language of Cellular 'Organelles': How Deep-Phase Reveals the Molecular Secrets Behind Nucleolar Morphology"
+    },
+    "summary": {
+      "zh": "【總結】普林斯頓大學團隊開發了名為 Deep-Phase 的神經網路框架，能直接從顯微鏡影像中「閱讀」細胞內生物分子凝聚體的形態變化。這項研究打破了以往僅依賴低維度特徵（如大小、數量）的分析瓶頸，證明凝聚體的複雜形態是底層生化路徑的精確指紋。研究不僅驗證了該技術在核仁、核斑及病毒凝聚體上的適用性，更意外發現 DNA 拓撲異構酶 I（TOP1）在核糖體 RNA 加工中的新角色，為疾病標記與藥物篩選開闢了全新視角。\n\n【研究問題】細胞內許多關鍵功能（如核糖體合成）發生在無膜的生物分子凝聚體中，但長期以來，科學界難以將納米尺度的分子相互作用與微米尺度的凝聚體形態直接連結。現有的高內容篩選技術過於依賴人工設定的幾何特徵，容易遺漏微妙的結構變化，且難以區分不同生化通路帶來的影響。如何建立一個 unbiased（無偏見）且定量的工具，將「形態」轉譯為「功能」，是該領域亟待解決的關鍵缺口。\n\n【研究方法】研究團隊構建了基於 ResNet 架構的卷積神經網路（CNN），利用遷移學習技術，將數萬張人類細胞的多色螢光顯微鏡影像輸入訓練。他們首先以核仁的三種亞區（FC、DFC、GC）為標記，使用不同藥物誘發特定的形態變化（如「帽子」或「珠鏈」狀）作為訓練數據。訓練完成的網路能將細胞影像壓縮至二維「活化空間」，從而定量測量形態隨時間和濃度的連續變化。研究進一步將這些形態數據與生化工學數據（如 IC50）進行交叉驗證，並擴展應用於核斑和呼吸道融合病毒（RSV）的包涵體分析。\n\n【結果】Deep-Phase 在分類核仁形態時準確率超過 98%，且測得的半效濃度（RC50）與傳統生化實驗的 IC50 高度吻合，證明了形態變化的功能性意義。在藥物篩選中，團隊發現一種化合物會誘導出一種前所未有的「花狀」核仁形態。機制研究揭示，這是由於 TOP1 被抑制，導致未正確加工的 rRNA 前體在核仁界面堆積。透過Sequential 處理實驗，研究證實 rRNA 前體的豐度是維持核仁各亞區邊界清晰的關鍵。這不僅確立了 Deep-Phase 作為連接分子途徑與細胞中觀組織的強大平台，也重新定義了我們對核仁結構穩定性的理解。",
+      "en": "**Summary:** Researchers at Princeton University developed Deep-Phase, a neural network framework that decodes the morphology of biomolecular condensates directly from microscopy images. This breakthrough moves beyond traditional low-dimensional metrics like size or count, proving that condensate shape serves as a precise fingerprint of underlying biochemical pathways. The study validates the tool across nucleoli, nuclear speckles, and viral inclusions, while uncovering a novel role for DNA topoisomerase I (TOP1) in ribosome biogenesis. This work establishes a powerful platform for linking cellular structure to function, with significant implications for drug discovery and disease biomarkers.\n\n**Problem:** While biomolecular condensates like the nucleolus are crucial for cellular organization, a major gap exists between nanoscale molecular interactions and mesoscale structural organization. Existing high-content screening methods rely on handcrafted geometric features, which often miss subtle morphological changes and struggle to distinguish between different biochemical perturbations. There has been a critical need for an unbiased, quantitative method to translate complex condensate shapes into functional insights, bridging the gap between structure and biochemical activity.\n\n**Approach:** The team built a convolutional neural network (CNN) based on the ResNet architecture, trained on tens of thousands of multicolor fluorescence microscopy images of human cells. Using transfer learning, they trained the model to classify nucleolar sub-compartments (FC, DFC, GC) and their perturbations, such as 'cap' or 'necklace' morphologies induced by specific drugs. The network projects cells into a 2D 'activation space,' allowing for the quantitative measurement of morphological changes over time and concentration. The researchers validated these morphological readings against biochemical data (IC50 values) and extended the model to analyze nuclear speckles and cytoplasmic viral inclusion bodies.\n\n**Results:** Deep-Phase achieved over 98% accuracy in classifying nucleolar morphologies, with measured half-maximal response concentrations (RC50) tightly correlating with biochemical inhibitory concentrations (IC50). During a chemical screen, the team identified a unique 'flower-like' nucleolar morphology caused by the inhibition of TOP1. Mechanistic studies revealed that TOP1 inhibition leads to the accumulation of misprocessed rRNA intermediates at the nucleolar interfaces. Sequential treatment experiments confirmed that the abundance of rRNA precursors is essential for maintaining the boundaries between nucleolar sub-compartments. These findings demonstrate that Deep-Phase can effectively link molecular pathways to cellular organization, offering a new paradigm for studying condensate biology."
+    },
+    "keyArticle": {
+      "title": "Deep learning of functional perturbations from condensate morphology",
+      "authors": [
+        "Anita Donlic",
+        "Troy J. Comi",
+        "Sofia A. Quinodoz",
+        "Nima Jaberi-Lashkari",
+        "Krist Helen Antunes",
+        "Lifei Jiang",
+        "Lennard W Wiesner",
+        "Ai Ing Lim",
+        "Clifford P. Brangwynne"
+      ],
+      "doi": "10.1016/j.cell.2026.05.010",
+      "pages": "4562-4580.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.010",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.010",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.08.18.670955"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-07T19:49:50.116264+00:00",
+    "source": "openalex"
+  }
+}

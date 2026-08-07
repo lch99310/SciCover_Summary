@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T20:24:50.705160+00:00",
+  "lastUpdated": "2026-08-07T19:50:53.003240+00:00",
   "articles": [
     {
       "id": "political-geography-2026-07-31",
@@ -83,6 +83,15 @@
       "cover_url": ""
     },
     {
+      "id": "political-geography-2026-07-17",
+      "journal": "Political Geography",
+      "date": "2026-07-17",
+      "path": "articles/2026/07/political-geography-2026-07-17.json",
+      "title_zh": "從礦山到工廠：關鍵礦物供應鏈的「中遊地緣政治」",
+      "title_en": "The Midstream Power Play: How Processing, Not Just Mining, Redefines Geopolitics",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-17-cover.jpg"
+    },
+    {
       "id": "american-sociological-review-2026-07-16",
       "journal": "American Sociological Review",
       "date": "2026-07-16",
@@ -153,6 +162,15 @@
       "title_zh": "別再一刀切了！統計學如何證明「量身打造」才是王道？",
       "title_en": "The One-Size-Fits-All Trap: How to Statistically Prove Personalization Pays Off",
       "cover_url": "data/images/science/science-2026-07-09-02-cover.jpg"
+    },
+    {
+      "id": "science-2026-07-09-03",
+      "journal": "Science",
+      "date": "2026-07-09",
+      "path": "articles/2026/07/science-2026-07-09-03.json",
+      "title_zh": "破解「不可成药」的密码：CRBN分子胶无需降解子也能精准清除致癌酶",
+      "title_en": "Unlocking the Undruggable: How CRBN Molecular Glues Recruit Targets Without a Degron",
+      "cover_url": "data/images/science/science-2026-07-09-03-cover.jpg"
     },
     {
       "id": "science-2026-07-09",
@@ -297,6 +315,15 @@
       "title_zh": "阿茲海默症的「病毒式」擴散：Arc蛋白如何為致命蛋白打包上船？",
       "title_en": "The Viral Spread of Alzheimer’s: How the Arc Protein Packages Toxic Tau for Delivery",
       "cover_url": "data/images/cell/cell-2026-06-29-cover.jpg"
+    },
+    {
+      "id": "nature-2026-06-29",
+      "journal": "Nature",
+      "date": "2026-06-29",
+      "path": "articles/2026/06/nature-2026-06-29.json",
+      "title_zh": "磁場「幫」超導體：菱形石墨烯揭開非平凡超導新家族",
+      "title_en": "When a Magnetic Field Helps Superconductivity: The New Family of Rhombohedral Graphene",
+      "cover_url": "data/images/nature/nature-2026-06-29-cover.jpg"
     },
     {
       "id": "science-2026-06-25-02",
@@ -504,6 +531,15 @@
       "title_zh": "倒數計時的不平等：末期癌症患者如何被「錯位」的時間剝奪選擇權",
       "title_en": "The Unequal Clock: How Terminal Illness Reveals Time as a Mechanism of Inequality",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-06-04",
+      "journal": "Cell",
+      "date": "2026-06-04",
+      "path": "articles/2026/06/cell-2026-06-04.json",
+      "title_zh": "讀懂細胞「無膜器官」的AI語言：Deep-Phase如何揭開核仁形態背後的生物密碼",
+      "title_en": "Decoding the Language of Cellular 'Organelles': How Deep-Phase Reveals the Molecular Secrets Behind Nucleolar Morphology",
+      "cover_url": "data/images/cell/cell-2026-06-04-cover.jpg"
     },
     {
       "id": "science-2026-06-04-02",

@@ -1,0 +1,68 @@
+{
+  "id": "nature-2026-06-29",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8126",
+  "date": "2026-06-29",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-06-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "磁場「幫」超導體：菱形石墨烯揭開非平凡超導新家族",
+      "en": "When a Magnetic Field Helps Superconductivity: The New Family of Rhombohedral Graphene"
+    },
+    "summary": {
+      "zh": "【總結】\n研究團隊在菱形（ABC堆疊）五層與四層石墨烯中，發現多種在極高純淨度下出現的超導態，其中三種對磁場呈現「越強越穩定」或「磁場催生」的異常行為。這挑戰了傳統超導理論中磁場會壓抑超導的直覺，並建立了一個全新的磁場增強型超導體家族。\n\n【研究問題】\n非常規超導往往對雜質極度敏感，傳統體材料因缺陷難以系統性研究。二維材料雖可靜電摻雜，但莫爾超晶格受扭角不穩定性限制。菱形石墨烯兼具極高結晶品質與平坦能帶，卻在較厚層數下的非常規超導行為仍屬空白，尤其是磁場如何與自旋、谷自由度耦合尚未釐清。\n\n【研究方法】\n研究者在低於10 mK的稀釋冷凍機中，對無雜質干擾的菱形四層與五層石墨烯進行輸運測量。透過調節載子密度與位移場，結合平面與垂直磁場，並利用舒布尼科夫－哈爾特曼振盪的傅立葉分析（費米面繪測）來辨識母態。另以WSe2近鄰效應引入自旋軌道耦合，觀察超導相圖的變化。\n\n【結果】\n在五層石墨烯中，SC2被平面磁場擴大且臨界溫度上升；SC4在高平面場下被誘導，對照巴丁－庫珀－施里弗理論的保里極限違背率高達約68倍；SC3則被微小垂直場（約1.8 mT）強化，保里極限違背率超過34倍。理論指出，磁場透過自旋軌道耦合重新分配谷內態密度，強化層內配對。加入WSe2後更出現五個新超導態，同時保留石墨烯原本的高遷移率，為拓撲量子計算提供潔淨平台。",
+      "en": "**Summary:**\nThe study reports a family of clean-limit superconductors in rhombohedral tetralayer and pentalayer graphene, where three unconventional states are boosted or even induced by magnetic fields. This overturns the conventional view that magnetism suppresses superconductivity and establishes a new platform for exploring pairing mechanisms beyond phonons.\n\n**Problem:**\nUnconventional superconductors are often fragile against disorder, making them hard to study in bulk crystals with varying defect levels. While moiré graphene allows electrostatic tuning, its phase diagrams suffer from twist-angle inhomogeneity. Thicker rhombohedral graphene offers flatter bands and richer symmetry-broken states at lower gate fields, yet its clean-limit superconductivity and magnetic-field responses remained largely unexplored.\n\n**Approach:**\nThe team performed transport measurements at millikelvin temperatures on high-quality rhombohedral graphene without moiré or proximitized spin-orbit coupling. They mapped resistance across carrier density and displacement field, then applied in-plane and out-of-plane magnetic fields. Quantum oscillation analysis reconstructed the Fermi surfaces to identify the parent metallic states. A second set of devices introduced spin-orbit coupling via WSe2 proximity to test how interface engineering proliferates superconducting phases while preserving material quality.\n\n**Results:**\nThree unconventional superconductors were identified in pentalayer graphene. SC2 expands and strengthens under in-plane fields; SC4 emerges only at high in-plane fields, violating the Pauli limit by about 68 times. SC3 is enhanced by a tiny perpendicular field of roughly 1.8 mT, exceeding the Pauli limit by more than 34 times. The mechanism is linked to spin canting and spin-orbit coupling redistributing valley densities of states, thereby strengthening intravalley pairing. Adding WSe2 generates five additional superconducting states while keeping the normal-state resistance around 25 ohms per square, demonstrating that interface engineering can multiply superconducting phases without degrading cleanliness."
+    },
+    "keyArticle": {
+      "title": "Family of magnetic field-boosted superconductors in rhombohedral graphene",
+      "authors": [
+        "Junseok Seo",
+        "Armel A. Cotten",
+        "Shenyong Ye",
+        "Mingchi Xu",
+        "Omid Sharifi Sedeh",
+        "Henok Weldeyesus",
+        "Tonghang Han",
+        "Zhenghan Wu",
+        "Zhenghan Wu",
+        "Wei Xü",
+        "Jixiang Yang",
+        "Emily Aitken",
+        "Prayoga P. Liong",
+        "Phatthanon Pattanakanvijit",
+        "Zach Hadjri",
+        "Rasul Gazizulin",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Mingda Li",
+        "Dominik M. Zumbühl",
+        "Long Ju"
+      ],
+      "doi": "10.1038/s41586-026-10815-x",
+      "pages": "60-66"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-06-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10815-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10815-x",
+      "preprint": "http://arxiv.org/abs/2509.03295"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-07T19:49:13.239316+00:00",
+    "source": "openalex"
+  }
+}

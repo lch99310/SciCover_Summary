@@ -1,0 +1,59 @@
+{
+  "id": "science-2026-07-09-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6807",
+  "date": "2026-07-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-09-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解「不可成药」的密码：CRBN分子胶无需降解子也能精准清除致癌酶",
+      "en": "Unlocking the Undruggable: How CRBN Molecular Glues Recruit Targets Without a Degron"
+    },
+    "summary": {
+      "zh": "【總結】這項研究打破了靶向蛋白降解（TPD）領域長期以來的認知限制。研究團隊發現了一種全新的分子胶（compound 4），它能以極高的選擇性誘導KAT2A蛋白降解，而KAT2A是一種在多種白血病和癌症中起關鍵作用的賴氨酸乙醯轉移酶。與傳統機制不同，這種降解不依賴於目標蛋白上的經典「降解子」（degron）結構，這意味著潛在的可降解靶點範圍將大幅擴展。\n\n【研究問題】過去，利用CRBN（Cereblon）作為E3泛素連接酶來降解疾病相關蛋白，通常要求目標蛋白必須具備一個特定的β-髮夾結構（G-loop）。然而，人類蛋白質組中絕大部分蛋白（包括許多重要的轉錄因子和致癌酶如KAT2A）並不具備這種結構，這被視為「不可成药」的盲區。如何繞過對降解子的依賴，精準靶向這些缺乏經典結構域的蛋白，是該領域亟待解決的核心難題。\n\n【研究方法】研究團隊首先通過高通量蛋白質組學篩選，從大量化合物中識別出能誘導KAT2A降解的初篩化合物。隨後，他們利用冷凍電子顯微鏡（Cryo-EM）解析了CRBN、分子胶與KAT2A N端結構域形成的三元複合物的高解析度結構，揭示了新的結合模式。在藥物優化階段，他們通過結構引導的藥物化學修飾，逐步消除對脫靶蛋白GSPT1的影響，同時增強對KAT2A的選擇性。最後，他們在急性髓系白血病（AML）細胞系和患者來源的異種移植（PDX）小鼠模型中驗證了該化合物的體外和體內活性。\n\n【結果】研究成功開發出化合物4，它在納摩爾級別上選擇性降解KAT2A，且不影響其同源蛋白KAT2B或脫靶蛋白GSPT1。結構分析顯示，分子胶通過模擬抗體般的識別機制，與KAT2A表面暴露的酪氨酸（Y200）相互作用，而非依賴G-loop。在體外實驗中，化合物4能顯著降低H3K9乙醯化水平並抑制AML細胞增殖。在體內PDX模型中，每日20 mg/kg的劑量顯著延長了小鼠的生存期（47.5天 vs 36.5天），並降低了血液中的白血病負荷。這項發現不僅為治療AML提供了新的治療策略，更確立了一種無需降解子即可擴展CRBN靶點範圍的全新藥理學框架。",
+      "en": "**Summary:** This study breaks a long-standing paradigm in Targeted Protein Degradation (TPD). The researchers discovered a novel molecular glue (compound 4) that selectively induces the degradation of KAT2A, a lysine acetyltransferase critical in various leukemias and cancers. Unlike traditional mechanisms, this degradation does not rely on a canonical 'degron' motif within the target protein, significantly expanding the universe of proteins that can be targeted by CRBN-based therapies.\n\n**Problem:** Historically, CRBN-based molecular glues required target proteins to possess a specific structural feature known as the G-loop (a β-hairpin motif) to facilitate degradation. However, the majority of the human proteome, including many therapeutically relevant transcription factors and enzymes like KAT2A, lacks this motif, rendering them 'undruggable' by existing degrader technologies. The critical gap was understanding how to recruit and degrade targets that do not fit the classical degron template.\n\n**Approach:** The team utilized high-throughput degradomics and immunoprecipitation mass spectrometry to screen for KAT2A degraders. They identified initial hits and then employed Structure-Based Drug Design to optimize lead compounds, specifically aiming to eliminate off-target effects on GSPT1 while enhancing KAT2A selectivity. Cryo-EM was used to resolve the atomic structure of the ternary complex between CRBN, the molecular glue, and the KAT2A N-terminal domain. The therapeutic potential was then validated through in vitro ubiquitylation assays, cell-based proliferation studies in AML lines, and in vivo efficacy testing using patient-derived xenograft (PDX) mouse models.\n\n**Results:** The optimized compound 4 demonstrated exquisite selectivity for KAT2A over its homolog KAT2B and the off-target GSPT1, with no observable degradation of other proteins in proteome-wide screens. Structural analysis revealed that compound 4 recruits KAT2A via a solvent-exposed tyrosine residue (Y200) on an alpha-helix, mimicking antibody-antigen recognition rather than relying on a G-loop. Functionally, compound 4 reduced H3K9 acetylation and inhibited AML cell growth. In vivo, daily dosing of 20 mg/kg in a KMT2A-rearranged AML PDX model significantly improved median survival (47.5 days versus 36.5 days in controls) and reduced leukemic burden. These findings establish that degron-independent recruitment is a viable strategy to expand the CRBN target space."
+    },
+    "keyArticle": {
+      "title": "Degron-independent recruitment of KAT2A expands the target space of CRBN molecular glues",
+      "authors": [
+        "Samuel Ojeda",
+        "Meng Wang",
+        "Kheewoong Baek",
+        "Wallace Bourgeois",
+        "Alba Sommerschield",
+        "Hong Yue",
+        "Rebecca J. Metivier",
+        "Panagiotis Karagiannis",
+        "Talya S. Levitz",
+        "Yuan Xiong",
+        "Katherine A. Donovan",
+        "Scott A. Armstrong",
+        "Eric S. Fischer"
+      ],
+      "doi": "10.1126/science.aef5391",
+      "pages": "188-194"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-09-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aef5391",
+      "doi": "https://doi.org/10.1126/science.aef5391"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-07T19:48:39.381499+00:00",
+    "source": "openalex"
+  }
+}

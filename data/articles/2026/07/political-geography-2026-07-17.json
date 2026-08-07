@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-07-17",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-07-17",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-17-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從礦山到工廠：關鍵礦物供應鏈的「中遊地緣政治」",
+      "en": "The Midstream Power Play: How Processing, Not Just Mining, Redefines Geopolitics"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章提出了「中遊地緣政治」（midstream geopolitics）的概念，指出關鍵礦物（如鋰、鈷、稀土）的競爭重心已從單純的開採轉向加工環節。熔煉廠和精煉廠成為新的地緣政治焦點，各國正透過重新設廠或結盟來控制供應鏈咽喉。這項研究突破了以往只關注礦山的視角，揭示了技術與工業能力本身就是戰略資源。\n\n【研究問題】過去的地緣政治研究多聚焦於上游開採和運輸路線，忽略了將原礦轉化為工業原料的加工過程。這造成了研究盲點：為什麼美國和歐盟在擁有礦產的情況下，仍難以擺脫對中國加工能力的依賴？理解這一環節對於制定國家安全和產業政策至關重要。\n\n【研究方法】作者綜合分析了政策文件、貿易數據和企業報告，並結合了對澳洲、加拿大、剛果民主共和國及歐盟等地的實地考察與訪談。他們構建了一個分析框架，詳細梳理了上遊、中遊與下遊之間的雙向依賴關係，並歸納出九種國家行使地緣經濟權力的政策工具。\n\n【結果】研究顯示，到2030年，中國預計將控制全球76%的稀土加工和95%的石墨加工。文章以剛果（金）的鈷和印尼的鎳為例，展示了資源民族主義如何與中國的中遊優勢互動。同時，美國和歐盟正透過「友岸外包」和補貼來推動供應鏈重組，試圖打破中國的加工壟斷。",
+      "en": "**Summary:** This article introduces the concept of \"midstream geopolitics,\" arguing that the competition for critical minerals like lithium, cobalt, and rare earths has shifted from mere extraction to processing. Smelters and refineries are now the primary sites of geopolitical leverage, as major powers race to secure or bypass processing chokepoints. This research moves beyond the traditional focus on mining sites, revealing that industrial capacity and technology are themselves strategic assets.\n\n**Problem:** Previous geopolitical analyses have overwhelmingly focused on upstream extraction and supply routes, neglecting the transformative processing stage. This oversight creates a blind spot regarding how raw materials become usable industrial inputs. Solving this is crucial because understanding processing dependencies is key to grasping current trade wars and industrial policy shifts, particularly the West's attempt to decouple from China.\n\n**Approach:** The authors employ a mixed-methods approach, synthesizing policy documents, trade data, and corporate reports, supplemented by field visits and interviews in regions like the DRC, Indonesia, and the EU. They develop a framework analyzing the multidirectional dependencies between upstream, midstream, and downstream actors, and categorize nine specific policy tools states use to exert geoeconomic power.\n\n**Results:** The study projects that by 2030, China will control 76% of global rare earth processing and 95% of graphite processing. Using cobalt in the DRC and nickel in Indonesia as case studies, the authors illustrate how resource-rich nations attempt to capture value, yet remain constrained by Chinese midstream dominance. Meanwhile, the US and EU are actively reshoring and friendshoring capacities to mitigate these risks."
+    },
+    "keyArticle": {
+      "title": "Midstream geopolitics: Processing power in critical mineral supply chains",
+      "authors": [
+        "Raphael Deberdt",
+        "Philippe Le Billon",
+        "Jessica DiCarlo"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103626",
+      "pages": "103626"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-17-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103626",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103626"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-07T19:50:29.776736+00:00",
+    "source": "openalex"
+  }
+}
