@@ -1,0 +1,53 @@
+{
+  "id": "science-2026-07-30-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6810",
+  "date": "2026-07-30",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-30-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從果糖神經元到珊瑚共生：本期科學期刊精華全解析",
+      "en": "From Fructose-Sensing Neurons to Coral Symbiosis: This Week's Science Highlights"
+    },
+    "summary": {
+      "zh": "【總結】本期《Science》「其他期刊」專欄橫跨神經科學、氣候學、演化生物學與化學等多個領域，呈現了十一項前沿發現。其中最具突破性的是：果糖與葡萄糖雖熱量相同，卻透過不同腸腦路徑調節飢餓神經元，顛覆了「大腦只算卡路里」的傳統觀點；水稻對高溫的敏感度被嚴重低估，全球暖化一度將使全球稻米減產達8%；而珊瑚共生藻的養分運輸機制，則揭示了溶酶體如何被「重新編程」以支援光合作用。\n\n【研究問題】這些研究共同回應了一個核心命題：生物系統如何在分子與生態尺度上應對環境與生理壓力？過去研究往往將神經元視為被動的能量計數器、將氣候模型簡化為線性溫度函數、將共生關係理解為模糊的營養交換。研究缺口在於：我們缺乏對這些系統「精細調控機制」的解析，而正是這些機制決定了物種的生存韌性與糧食安全的未來。\n\n【研究方法】研究團隊採用了多元方法：McKnight等人以果糖與葡萄糖對照實驗，追踪小鼠下丘腦AgRP神經元的電生理反應；Jian等人匯整全球 Field-warming 實驗數據，建立生育期階段性溫度敏感度模型；Maruyama等人透過蛋白質體學解析海葵共生體的細胞器組成的；Sun等人則以銀殼金奈米粒子為模板，利用蒸發自組裝技術構建低密度立方超晶格。\n\n【結果】關鍵數據令人警醒：水稻生育期每增加一天超過30°C的高溫，產量下降1.1%至1.8%，遠超模型預期的0.1%至1.3%；果糖抑制AgRP神經元的效果明顯弱於葡萄糖，直接影響食物偏好；ADAR酵素在果蠅與人類腸道幹細胞中均隨年齡衰退，補充ADAR可延長壽命並改善腸道功能；而珊瑚共生體中SLC26A11碳酸氫鹽運輸蛋白被證實是維持藻類光合作用的關鍵閥門。這些發現不僅修正了既有理論，更為農業調適、神經疾病治療與生態保護提供了具體的科學依據。",
+      "en": "**Summary:** This issue of Science's In Other Journals section spans neuroscience, climatology, evolutionary biology, and chemistry, presenting eleven cutting-edge findings. The most paradigm-shifting discovery is that fructose and glucose, despite being calorically identical, inhibit AgRP hunger neurons through distinct gut-brain pathways—challenging the long-held view that the brain merely counts calories. Meanwhile, rice yields are far more sensitive to heat than previously modeled: one additional day above 30°C during the reproductive stage reduces yields by 1.1% to 1.8%, nearly double earlier estimates. In marine biology, researchers revealed that coral symbiosomes co-opt lysosomal machinery to create an acidic, nutrient-rich environment that sustains photosynthetic algae—a remarkable example of cellular repurposing.\n\n**Problem:** These studies collectively address a fundamental question: how do biological systems fine-tune their responses to environmental and physiological stress at molecular and ecological scales? Previous research often treated neurons as passive calorie counters, climate models as linear temperature functions, and symbiosis as a vague exchange of nutrients. The critical gap lies in understanding the precise regulatory mechanisms that determine a species' resilience and the future of global food security.\n\n**Approach:** The research teams employed diverse methodologies. McKnight and colleagues used controlled glucose versus fructose experiments to trace electrophysiological responses in mouse hypothalamic AgRP neurons. Jian et al. compiled a global dataset from field-warming experiments to build stage-specific heat-sensitivity models for rice. Maruyama et al. applied proteomics to map the symbiosome organelle in sea anemones. Sun et al. grew epitaxial silver shells on gold nanoparticles and used evaporation-driven self-assembly to construct low-density cubic superlattices.\n\n**Results:** The key findings are both striking and actionable: rice yield losses under heat stress are nearly twice what current models predict, implying an 8% global decline under 1°C of warming, with South and Southeast Asia most vulnerable. Fructose's weaker suppression of AgRP neurons directly alters food preference, suggesting nutrient-specific signaling beyond caloric content. The RNA-editing enzyme ADAR declines with age in both fruit fly and human intestinal stem cells, and restoring ADAR extends lifespan and improves gut function in aged flies. In corals, the bicarbonate transporter SLC26A11 was identified as essential for symbiosome biogenesis across distinct cnidarian lineages. Together, these findings refine theoretical frameworks and offer concrete pathways for agricultural adaptation, neurological therapeutics, and ecosystem conservation."
+    },
+    "keyArticle": {
+      "title": "In Other Journals",
+      "authors": [
+        "Phil Szuromi",
+        "Mattia Maroso",
+        "Cheri Sirois",
+        "Keith T. Smith",
+        "Melissa McCartney",
+        "Joana Osório",
+        "Yevgeniya Nusinovich"
+      ],
+      "doi": "10.1126/science.aek9789",
+      "pages": "481-482"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-30-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aek9789",
+      "doi": "https://doi.org/10.1126/science.aek9789"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-10T19:51:56.338666+00:00",
+    "source": "openalex"
+  }
+}

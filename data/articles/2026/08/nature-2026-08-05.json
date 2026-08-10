@@ -1,0 +1,118 @@
+{
+  "id": "nature-2026-08-05",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8126",
+  "date": "2026-08-05",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
+      "en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing"
+    },
+    "summary": {
+      "zh": "【總結】D-Wave Quantum 團隊在《Nature》發表一項關鍵突破：他們設計並實驗實現了雙軌腔量子位元（dual-rail cavity qubits）之間的首個高保真度纠缠門——控制-Z（CZ）門。這項技術被命名為「交換─等待─交換」（Swap-Wait-Swap，SWS）閘，能在約 500 奈秒內完成兩個量子位元的纠缠操作。更重要的是，這個門在執行過程中大幅保留了雙軌量子位元的「錯誤階層」特性：可被偵測的洩漏錯誤（erasures）佔主導，而殘餘的保里錯誤（Pauli errors）極低，其中位元翻轉（bit-flip）錯誤率低達百萬分之一級別。這意味著量子錯誤修正（QEC）的門檻可以被顯著提高，為實現容錯量子計算提供了一條更快的路徑。\n\n【研究問題】量子計算要發揮其全部潛力，必須依賴量子錯誤修正（QEC），但當前 QEC 面臨兩大瓶頸：一是硬體開銷龐大，二是對物理量子位元的閘錯誤率要求極高。過去的研究已經證明了「可擦除量子位元」（erasure qubits）能透過將最常見的錯誤轉化為可偵測的洩漏事件來降低 QEC 負擔，但在此之前，雙軌腔量子位元始終缺少一個關鍵組件——高保真度、能保留錯誤階層的兩量子位元纠缠門。沒有這個門，就無法在實際電路中執行錯誤修正協議。這項研究正是為了填補這個空白。\n\n【研究方法】研究團隊設計了一種名為 SWS 的 CZ 閘。其核心思路是：利用一個超導耦合器（transmon coupler）作為中介，將控制量子位元的一個腔中的激發暫時「交換」到耦合器上，讓耦合器與目標量子位元的腔之間產生色散互動（dispersive interaction），累積纠缠相位後，再將激發「交換」回控制腔。整個過程約需 500 奈秒。實驗上，他們使用三維同軸微波腔構建雙軌量子位元，並透過參數側帶互動實現高保真度的單量子位元門。為驗證閘性能，他們採用量子態層析（QST）、交錯隨機基準測試（IRB），以及重複 CZ 閘的贝尔態生成實驗來精確量化錯誤率與錯誤結構。\n\n【結果】實驗數據顯示，SWS 閘的總擦除率約為 0.53%，其中控制量子位元的擦除率約 0.40%，目標量子位元約 0.10%，呈現約 4:1 的不對稱性——這是有利的，因為在表面碼中可將控制量子位元指定為輔助量子位元，讓資料量子位元承受較少錯誤。殘餘去相位錯誤（Z 錯誤）約 0.1%，而位元翻轉錯誤率低於 10^-6（百萬分之一），幾乎可以忽略。透過表面碼模擬，研究團隊發現使用 SWS 閘的結構化錯誤模型時，邏輯錯誤率隨碼距增加的壓抑因子 Λ 約為 27，遠優於同等總錯誤率的去極化噪聲模型（Λ≈14）。這證明了錯誤階層的保留能帶來顯著的糾錯增益。",
+      "en": "**Summary:** A team at D-Wave Quantum Inc. has achieved a key milestone in superconducting quantum computing by designing and experimentally demonstrating the first high-fidelity two-qubit entangling gate for dual-rail cavity qubits—a type of erasure qubit encoded across a pair of microwave cavities. The gate, dubbed the Swap-Wait-Swap (SWS) controlled-Z (CZ) operation, completes its entangling cycle in roughly 500 nanoseconds while preserving the crucial error hierarchy that makes erasure qubits valuable: detectable leakage errors dominate, while residual Pauli errors remain extremely low, with bit-flip errors suppressed to the 10^-6 level. This work fills a critical gap in the dual-rail qubit toolkit and points toward a faster route to fault-tolerant quantum computing via quantum error correction (QEC).\n\n**Problem:** Realizing the full potential of quantum computing will likely require quantum error correction, but QEC comes with daunting hardware overhead and demands very low physical gate errors. Erasure qubits offer a promising way to ease these demands by engineering a strong error hierarchy—most noise channels are detectable at the hardware level and can be converted into erasure errors, which QEC codes tolerate far better than unknown Pauli errors. Prior work had demonstrated fast, high-fidelity single-qubit gates and efficient erasure detection for dual-rail cavity qubits, but a vital missing ingredient was a two-qubit entangling gate that simultaneously achieved low error rates and preserved the favorable error hierarchy. Without such a gate, practical QEC protocols could not be implemented.\n\n**Approach:** The researchers developed a CZ gate based on a three-step sequence: first, a parametric swap moves an excitation from one cavity of the control dual-rail qubit into a shared transmon coupler; second, the coupler remains populated while a strong dispersive interaction accrues an entangling phase with the target qubit's cavity; third, a second swap returns the excitation to the control cavity. The entire gate takes approximately 500 ns. The team characterized the gate using quantum state tomography (QST) to measure Bell-state fidelity, interleaved randomized benchmarking (IRB) to extract per-gate error rates, and repeated-gate experiments up to N=10^3 cycles to isolate erasure probabilities. They also performed process tomography under controlled leakage conditions to map how photon-loss errors propagate through the gate.\n\n**Results:** The SWS gate achieves a post-selected infidelity of 0.029% per gate at shallow depths, with a total erasure probability of 0.53% per gate. Erasures are asymmetric—about 0.40% on the control qubit versus 0.10% on the target—allowing the control qubit to serve as the ancilla in surface-code syndrome extraction while protecting data qubits. Residual dephasing (Z) errors are at or below 0.1% per gate, and bit-flip errors are bounded at roughly 2.8×10^-6 per gate, effectively negligible. Leakage propagation was shown to be benign: if the control qubit leaks before the gate, the CZ simply does not occur (identity on the target); if leakage occurs mid-gate, the target acquires only a conditional dephasing error. Surface-code simulations using the measured error model yield a logical-error suppression factor Λ≈27—nearly double the Λ≈14 obtained with an unstructured depolarizing-noise model at the same total error rate—demonstrating that preserving the error hierarchy translates directly into substantially better QEC performance."
+    },
+    "keyArticle": {
+      "title": "An entangling gate for dual-rail erasure qubits",
+      "authors": [
+        "Nitish Mehta",
+        "James D. Teoh",
+        "Taewan Noh",
+        "Ankur Agrawal",
+        "Amos Anderson",
+        "Beau Birdsall",
+        "Avadh Brahmbhatt",
+        "Winfred Byrd",
+        "Anthony Cabrera",
+        "Marc Cacioppo",
+        "Leo Carroll",
+        "Jonathan Chen",
+        "Tzu-Chiao Chien",
+        "Richard Chamberlin",
+        "Jacob C. Curtis",
+        "Doreen Danso",
+        "Sanjana Renganatha Desigan",
+        "Francesco D'Acounto",
+        "Bassel Heiba Elfeky",
+        "S. M. Farzaneh",
+        "Chase Foley",
+        "Benjamin Gudlewski",
+        "Hannah Hastings",
+        "Robert Johnson",
+        "Nishaad Khedkar",
+        "Trevor Keen",
+        "Anup Kumar",
+        "Cihan Kurter",
+        "Kamila Krawczuk",
+        "Eric Langstengel",
+        "Richard D. Li",
+        "Gangqiang Liu",
+        "Hanyi Lu",
+        "Pinlei Lu",
+        "Luke Mastalli-Kelly",
+        "Adam Maines",
+        "Michael Maxwell",
+        "Heather McCarrick",
+        "Mona Mirzaei",
+        "A. Narla",
+        "Omar Rashad",
+        "Erik Reikes",
+        "Mizanur Rahman",
+        "Rurik Primiani",
+        "Michael Schwaller",
+        "Ali Sabbah",
+        "Tali Shemma",
+        "Aoshuang Shi",
+        "Sitakanta Satapathy",
+        "Dean Stolpe",
+        "Jonathan Strenczewilk",
+        "Doug Szperka",
+        "Iu-Wei Sze",
+        "David Sweeney",
+        "Preetham Tikkireddi",
+        "Chin-Lun Tsung",
+        "Daren Vet Sam",
+        "Daniel K. Weiss",
+        "Zhibo Yang",
+        "Liuqi Yu",
+        "Teng Zhang",
+        "Olivier Boireau",
+        "Stephen Horton",
+        "Sean Weinberg",
+        "José Aumentado",
+        "Bryan Cord",
+        "Chan U Lei",
+        "Joseph O. Yuan",
+        "Shantanu Mundhada",
+        "Kevin Chou",
+        "S. H. Moseley",
+        "Robert Schoelkopf"
+      ],
+      "doi": "10.1038/s41586-026-10822-y",
+      "pages": "47-53"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10822-y",
+      "doi": "https://doi.org/10.1038/s41586-026-10822-y"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-10T19:52:45.998508+00:00",
+    "source": "openalex"
+  }
+}

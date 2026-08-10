@@ -1,0 +1,95 @@
+{
+  "id": "cell-2026-08-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "16",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "雀鳥的基因地圖終於完整：斑胸草雀端粒到端粒基因組揭開鳥類染色體的神秘面紗",
+      "en": "Birdsong Decoded: The First Complete Telomere-to-Telomere Genome of a Songbird"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊成功完成斑胸草雀（Taeniopygia guttata）的首個完整二倍體端粒到端粒（T2T）參考基因組，填補了過去雀鳥基因組中幾乎所有缺口。這項研究不僅為鳥類神經科學與進化基因組學提供了前所未有的精確工具，更揭示了鳥類染色體結構的獨特設計——特別是極小染色體（dot chromosomes）的完整序列與獨特地體構造。相較於之前的參考基因組，新基因組新增了約9,000萬鹼基對（7.8%）的序列，並發現了2,710個先前未組裝或未註解的基因（佔總基因的8.13%）。\n\n【研究問題】鳥類擁有羊膜動物中最小的基因組（約0.9至1.3億鹼基對），但其結構極具挑戰性，尤其是數量眾多的微染色體。過去的研究長期受限於技術瓶頸：微染色體、著絲粒區域與端粒重複序列因高度重複而難以組裝。更關鍵的是，鳥類染色體體制的演化歷史與功能機制仍缺乏完整證據。解決這些缺口對於理解鳥類快速演化、基因組壓縮策略以及染色體結構與功能之間的關係至關重要。\n\n【研究方法】研究團隊採用多種測序策略的整合方案，結合PacBio HiFi高保真讀長、Oxford Nanopore長讀長、Hi-C染色質構象捕獲技術以及父母本Illumina短讀長進行單倍型定相。他們使用Verkko v2.2.1與hifiasm等最新組裝演算法，並透過手動圖譜校準逐條染色體進行反覆審核。研究還整合了DNA甲基化分析、重複序列註解、結構變異檢測以及A/B區室化分析等多層面數據，確保基因組的完整性與精確性。\n\n【結果】研究團隊成功實現了所有33對染色體（含Z和W性染色體）的無縫組裝，包括過去難以捕捉的點染色體。他們首次完整描繪了鳥類著絲粒區域的衛星重複序列（Tgut716A與Tgut191A），並發現了與哺乳動物相似的動粒相關CENP-B同源蛋白，挑戰了過去認為鳥類著絲粒主要依賴表觀遺傳定義的觀點。此外，研究揭示了鳥類染色體的TCHEST模型——著絲粒衛星序列緊鄰端粒，並伴隨異染色質與常染色質的特定排列模式。這些發現為鳥類基因組的演化與功能研究奠定了堅實基礎。",
+      "en": "**Summary:** Researchers have produced the first fully phased diploid telomere-to-telomere (T2T) reference genome for the zebra finch, closing nearly all remaining gaps in avian genomic maps. This milestone provides an unprecedented resource for neuroscience and evolutionary genomics, revealing the intricate architecture of bird chromosomes—particularly the elusive dot chromosomes that carry distinctive structural features. Compared to the previous Vertebrate Genomes Project reference, the new assembly adds approximately 90 million base pairs (7.8 percent) of sequence and recovers 2,710 previously unassembled or unannotated genes, representing over 8 percent of the total gene catalog.\n\n**Problem:** Bird genomes are the smallest among amniotes, yet their structural complexity has made them notoriously difficult to assemble. Microchromosomes—gene-dense, GC-rich, and packed with repetitive elements—have consistently fallen through the cracks of earlier sequencing efforts. Centromeres and telomeres remained largely uncharacterized, and the evolutionary logic behind avian chromosome architecture was poorly understood. Filling these gaps is essential for unraveling how birds achieve such compact genomes while maintaining remarkable phenotypic diversity, and for understanding the mechanistic principles governing chromosome organization across vertebrates.\n\n**Approach:** The team deployed an integrated sequencing strategy combining PacBio HiFi reads, Oxford Nanopore long reads, Hi-C chromatin conformation data, and parental Illumina reads for haplotype phasing. They leveraged Verkko v2.2.1 and hifiasm assembly algorithms, followed by iterative manual graph curation to resolve each chromosome. Additional layers of analysis—including DNA methylation profiling, repeat annotation, structural variant detection, and A/B compartment mapping—were layered onto the assembly to produce a comprehensive, multi-dimensional genomic resource.\n\n**Results:** All 33 chromosome pairs, including the Z and W sex chromosomes, were assembled gaplessly—with dot chromosomes finally resolved in their entirety. The study identified complete centromeric satellite repeats (Tgut716A and Tgut191A) and discovered candidate CENP-B homologs in birds, challenging the long-held view that avian centromeres are defined primarily by epigenetic mechanisms rather than conserved DNA motifs. The researchers also proposed the TCHEST model, describing how centromeric satellites sit adjacent to telomeres with heterochromatin and euchromatin arranged in distinct patterns across chromosome types. These findings reshape our understanding of avian genome architecture and provide a foundation for comparative studies across vertebrate evolution."
+    },
+    "keyArticle": {
+      "title": "The complete genome of a songbird",
+      "authors": [
+        "Giulio Formenti",
+        "Nivesh Jain",
+        "Jack A Medico",
+        "Marco Sollitto",
+        "Dmitry Antipov",
+        "Suziane Alves Barcellos",
+        "Matthew T. Biegler",
+        "Ines Borges",
+        "Jong-How Chang",
+        "Ying Chen",
+        "Haoyu Cheng",
+        "Helena B. Conceição",
+        "Matthew H. Davenport",
+        "L. Oliveira",
+        "Erick Duarte",
+        "Gillian P. Durham",
+        "Jonathan Fenn",
+        "Niamh Forde",
+        "Pedro A. F. Galante",
+        "K. Gerhardt",
+        "Alice Maria Giani",
+        "Simona Giunta",
+        "Juhyun Kim",
+        "Aleksey Komissarov",
+        "Bonhwang Koo",
+        "Sergey Koren",
+        "Denis M. Larkin",
+        "Chul Lee",
+        "Heng Li",
+        "Kateryna D. Makova",
+        "Patrick Masterson",
+        "Terence D. Murphy",
+        "Kirsty McCaffrey",
+        "Rafael L. V. Mercuri",
+        "Yeojung Na",
+        "Mary J. O’Connell",
+        "Shujun Ou",
+        "Adam M. Phillippy",
+        "M. Popova",
+        "Arang Rhie",
+        "Francisco J. Ruíz-Ruano",
+        "Simona Secomandi",
+        "Linnéa Smeds",
+        "Alexander Suh",
+        "Tatiana Tilley",
+        "Niki Vontzou",
+        "Paul D. Waters",
+        "Jennifer Balacco",
+        "Erich D. Jarvis"
+      ],
+      "doi": "10.1016/j.cell.2026.07.018",
+      "pages": "4922-4945.e12"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.018",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.018"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-10T19:53:31.887045+00:00",
+    "source": "openalex"
+  }
+}

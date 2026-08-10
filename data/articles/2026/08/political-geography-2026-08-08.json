@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-08-08",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-08-08",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-08-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "城市難民兒童的「情感地圖」：他們在哪裡感到安全，在哪裡感到恐懼？",
+      "en": "Where Do Refugee Children Belong? Mapping the Emotional Geographies of Urban Exclusion"
+    },
+    "summary": {
+      "zh": "【總結】這項研究突破性地將城市難民兒童的融合問題從法律與政策的框架中解放出來，轉而從「空間」的角度重新理解他們的日常經驗。研究指出，法律上的模糊地位並非抽象概念，而是透過學校准入、移動限制與公共空間的爭奪，具體體現在每個孩子每天的行走路線中。在坎帕拉與特拉維夫兩座城市的對比顯示，難民兒童所經歷的「歸屬感、恐懼或不安」，並非單純來自政策歧視，而是城市基礎設施、居住隔離與地方治理共同作用的結果。\n\n【研究問題】過去關於難民兒童的研究多聚焦於國家層級的移民政策或學校內部運作，卻忽視了「 neighborhood（鄰里）」作為一個關鍵場域，如何實際地執行治理、塑造公民與非公民的邊界。研究缺口在於：城市空間如何與法律地位交織，影響兒童的融入與歸屬感？為什麼同樣是「合法入學」的政策，在不同城市卻產生截然不同的日常體驗？理解這個問題至關重要，因為全球超過60%的難民居住在城市，而兒童的經驗往往被政策話語所掩蓋。\n\n【研究方法】作者提出一種「以兒童為中心、結合空間分析」的混合方法，並在兩座城市分別應用。在坎帕拉，研究團隊進行了六個月的學校民族誌，走訪三所小學（涵蓋公立、公立補助與私立學校），透過教師訪談、兒童繪圖與地理資訊系統（GIS）分析學校與難民社區的空間分佈。在特拉維夫，研究團隊同樣進行六個月的田野調查，透過兒童繪圖、社區地圖製作、市政交通事故數據與社群媒體內容分析，描繪難民兒童在公共空間中的日常經驗。兩項研究均採用視覺方法（繪圖、照片日記）讓兒童表達難以用語言描述的空間感受。\n\n【結果】在坎帕拉，GIS分析顯示公立學校多位於中高收入社區，而難民主要聚居在低收入邊緣區域，形成「機會的狹窄地理」——即使政策允許免費入學，交通與經濟障礙仍將兒童排除在外。教師的偏見進一步將居住地的標籤轉化為對學習能力的低估，使難民兒童被分流至低階教育軌道。在特拉維夫，兒童的繪圖揭示公共空間中的恐懼：他們描繪「危險的馬路」與「令人害怕的車輛」，同時也將某些公園與咖啡館視為歸屬感的來源。然而，這些空間同時也是種族歧視、士紳化與居住爭議的交戰地。兩座城市對比顯示，空間政治、難民政策與城市不平等共同生產了難民兒童的「非公民身份」，而空間分析是理解這種日常排除機制不可或缺的工具。",
+      "en": "**Summary:** This article makes a compelling argument that the urban integration of refugee children cannot be understood through legal or policy frameworks alone—it must be read through the lens of space. The author demonstrates that ambiguous legal status is not an abstract condition but is lived daily through school access, mobility restrictions, and contested claims to public space. By juxtaposing two case studies—Kampala, Uganda, and Tel Aviv, Israel—the research reveals how refugee children's everyday emotional geographies of belonging, fear, and uncertainty are shaped by the intersection of urban infrastructure, residential segregation, and local governance.\n\n**Problem:** Previous research on refugee children has predominantly focused on national immigration policies or school-internal processes, largely ignoring the neighborhood as a critical site where citizenship and non-citizenship are practically negotiated. The gap lies in understanding how spatial arrangements and legal liminality co-produce children's experiences of inclusion and exclusion in urban settings. This matters because over 60 percent of the world's refugees now live in cities, yet their spatially embedded experiences remain underexplored. Understanding how place shapes integration is essential for moving beyond policy-centric accounts that flatten the complex realities of urban refugee childhoods.\n\n**Approach:** The author proposes a mixed, child-centered spatial methodology applied across two distinct urban contexts. In Kampala, the study combined six months of school ethnography across three primary schools (a government school, a government-aided school, and a private Catholic school), semi-structured interviews with 110 participants including children, teachers, and parents, visual mapping, photo diaries, and GIS analysis of school locations, refugee settlement patterns, and income distribution. In Tel Aviv, the research drew on six months of neighborhood ethnography, participatory mapping and drawing sessions with 28 refugee children, in-depth interviews with 11 stakeholders, digital ethnography of neighborhood social media groups, and municipal data on traffic accidents and census distributions. Both studies prioritized children's own voices through visual and spatial methods to capture emotional experiences that words alone cannot convey.\n\n**Results:** In Kampala, GIS analysis revealed that government and government-aided schools are concentrated in middle-to-high-income areas, while refugee communities cluster in neglected, low-income neighborhoods—creating what the author calls narrow \"geographies of opportunity.\" Even under Uganda's progressive open-door policy and Universal Primary Education law, refugee children face structural barriers: long commutes, unaffordable fees, and teacher prejudices that track them into lower socioeconomic pathways. In Tel Aviv, children's drawings depicted dangerous roads and frightening traffic, while also identifying parks and cafés as spaces of belonging. Yet these same public spaces are sites of xenophobia, gentrification struggles, and residential disputes. Together, the cases demonstrate that spatial politics, refugee policy, and urban inequality co-produce refugee children's everyday non-citizenship—and that spatial analysis is essential for making these hidden mechanisms visible."
+    },
+    "keyArticle": {
+      "title": "Urban refugee children's integration through a spatial lens: Everyday emotional geographies in two cities",
+      "authors": [
+        "Manya Kagan"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103643",
+      "pages": "103643"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-08-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103643",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103643"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-10T19:54:31.980938+00:00",
+    "source": "openalex"
+  }
+}
