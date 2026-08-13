@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T19:54:48.197317+00:00",
+  "lastUpdated": "2026-08-13T19:55:53.167818+00:00",
   "articles": [
     {
       "id": "political-geography-2026-08-08",
@@ -18,6 +18,15 @@
       "title_zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
       "title_en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing",
       "cover_url": "data/images/nature/nature-2026-08-05-cover.jpg"
+    },
+    {
+      "id": "cell-2026-08-01-02",
+      "journal": "Cell",
+      "date": "2026-08-01",
+      "path": "articles/2026/08/cell-2026-08-01-02.json",
+      "title_zh": "從「拼圖」到「全圖」：人類基因組測序迎來完美座標",
+      "title_en": "From Puzzle Pieces to the Full Picture: A Complete Diploid Genome Benchmark",
+      "cover_url": "data/images/cell/cell-2026-08-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-08-01",
@@ -137,6 +146,15 @@
       "cover_url": ""
     },
     {
+      "id": "political-geography-2026-07-16-02",
+      "journal": "Political Geography",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/political-geography-2026-07-16-02.json",
+      "title_zh": "凍土不凍：當青藏鐵路遇上會「呼吸」的大地",
+      "title_en": "When Permafrost Fights Back: The Qinghai-Tibet Railway's Unstable Foundation",
+      "cover_url": ""
+    },
+    {
       "id": "political-geography-2026-07-16",
       "journal": "Political Geography",
       "date": "2026-07-16",
@@ -209,6 +227,15 @@
       "cover_url": "data/images/science/science-2026-07-09-03-cover.jpg"
     },
     {
+      "id": "science-2026-07-09-04",
+      "journal": "Science",
+      "date": "2026-07-09",
+      "path": "articles/2026/07/science-2026-07-09-04.json",
+      "title_zh": "高海拔小鼠的生存抉擇：吸氧還是解毒？",
+      "title_en": "To Breathe or To Detoxify? The Molecular Tug-of-War in High-Altitude Mice",
+      "cover_url": "data/images/science/science-2026-07-09-04-cover.jpg"
+    },
+    {
       "id": "science-2026-07-09",
       "journal": "Science",
       "date": "2026-07-09",
@@ -243,6 +270,15 @@
       "title_zh": "讓量子電腦學會「從錯誤中學習」：強化學習打造永不當機的量子校正器",
       "title_en": "Teaching Quantum Computers to Learn From Their Mistakes: Reinforcement Learning for Continuous Error Correction",
       "cover_url": "data/images/nature/nature-2026-07-08-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-08-04",
+      "journal": "Nature",
+      "date": "2026-07-08",
+      "path": "articles/2026/07/nature-2026-07-08-04.json",
+      "title_zh": "海底裂開的那一刻：科學家首次親眼見證大洋中脊的「產房時刻」",
+      "title_en": "When the Seafloor Split Open: Scientists Witness a Mid-Ocean Ridge Birth for the First Time",
+      "cover_url": "data/images/nature/nature-2026-07-08-04-cover.jpg"
     },
     {
       "id": "nature-2026-07-08",

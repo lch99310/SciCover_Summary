@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-07-16-02",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "凍土不凍：當青藏鐵路遇上會「呼吸」的大地",
+      "en": "When Permafrost Fights Back: The Qinghai-Tibet Railway's Unstable Foundation"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章將多年凍土帶入地緣政治的討論，挑戰了「領土等於穩固陸地」的傳統假設。作者認為，凍土不是被動的材料，而是一個充滿動態關係的「集合體」——它與溫度、水、大氣和太陽密切互動，具有不可預測的融化與重新凍結行為。透過青藏鐵路的案例，研究揭示凍土如何在國家整合邊疆的計劃中扮演關鍵角色，甚至威脅到已建成基礎設施的穩定性。這項研究為理解氣候變遷時代的地緣政治提供了新的視角。\n\n【研究問題】過去的地緣政治學長期以「穩固陸地」為領土概念的核心，卻鮮少關注凍土這種介於固體與流體之間的物質。凍土在自然科學和工程領域已有豐富研究，但從地緣政治角度探討其「能動性」的研究卻極為匱乏。為什麼這個問題重要？因為在全球暖化背景下，凍土的融解不僅影響工程安全，更直接關乎國家對邊疆地區的治理與整合能力。\n\n【研究方法】作者採用理論綜合與案例研究相結合的方式。首先，他們回顧了領土理論與「元素地緣政治」的文獻，並系統梳理了凍土在自然科學與工程學中的研究，提取其關鍵的「關係性」特徵。接著，以青藏鐵路為案例，分析凍土如何與鐵路基礎設施形成動態的「集合體」，並探討這種關係如何影響國家地緣政治計劃。研究使用了中英文學術文獻、政府報告、新聞報導及專家訪談等多源資料。\n\n【結果】青藏鐵路穿越凍土區約630公里，其中221公里為高冰含量凍土，134公里同時被歸類為「暖」且高冰含量。為應對凍土不穩定，工程師採用了遮陽板、碎石隔熱層、熱虹吸管和橋樑等多種技術。儘管當前工程措施似乎有效控制了退化，但研究指出，隨著氣候變暖，熱喀斯特湖泊和土層沉降等問題日益嚴重，鐵路穩定性面臨持續威脅。此外，中國官方將成功建設青藏鐵路塑造為科學進步與國家能力的象徵，凍土在此過程中成為地緣政治合法化的關鍵元素。",
+      "en": "**Summary:** This article brings permafrost into geopolitical debate, challenging the traditional assumption that territory equals stable land. The authors argue that permafrost is not passive material but a dynamic assemblage—constantly interacting with temperature, water, atmosphere, and sunlight, exhibiting unpredictable thawing and refreezing behaviors. Through the case of the Qinghai-Tibet Railway, the study reveals how permafrost plays a crucial role in state efforts to integrate frontier regions, even threatening the stability of already-built infrastructure. This research offers a fresh perspective for understanding geopolitics in an era of climate change.\n\n**Problem:** Geopolitical scholarship has long centered on solid land as the foundation of territory, yet largely ignored permafrost—a substance straddling solid and fluid states. While permafrost is well-studied in natural sciences and engineering, its agency from a geopolitical angle remains underexplored. Why does this matter? Because in a warming world, permafrost thaw does not only endanger infrastructure but directly undermines state capacity to govern and integrate border regions.\n\n**Approach:** The authors combine theoretical synthesis with a case study. First, they review literature on territory and elemental geopolitics, alongside permafrost research in the natural sciences and engineering, extracting its key relational characteristics. They then analyze the Qinghai-Tibet Railway as a case, examining how permafrost and infrastructure form a dynamic assemblage and how this relationship affects state geopolitical projects. The research draws on Chinese and English academic sources, government reports, news coverage, and expert interviews.\n\n**Results:** The Qinghai-Tibet Railway crosses approximately 630 km of permafrost, of which 221 km has high ice content and 134 km is classified as both warm and ice-rich. To address instability, engineers deployed shading boards, crushed-rock insulation, thermosyphons, and bridges. While current measures appear to control degradation, the study warns that climate warming is intensifying thermokarst lakes and soil settlement, posing ongoing risks to railway stability. Moreover, the Chinese state has framed the railway's success as a symbol of scientific prowess and national capability, making permafrost a key element in geopolitical legitimation."
+    },
+    "keyArticle": {
+      "title": "A land between solid and fluid: Situating permafrost within more-than-human geopolitics",
+      "authors": [
+        "Vincent Roderic Hansmann",
+        "Jason Dittmer"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103575",
+      "pages": "103575"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103575",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103575"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-13T19:55:44.282184+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-07-09-04",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6807",
+  "date": "2026-07-09",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-09-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "高海拔小鼠的生存抉擇：吸氧還是解毒？",
+      "en": "To Breathe or To Detoxify? The Molecular Tug-of-War in High-Altitude Mice"
+    },
+    "summary": {
+      "zh": "【總結】安第斯山葉耳鼠（Phyllotis vaccarum）能在海拔6739公尺的極端環境中生存，這項研究揭示了它們如何同時應對低氧與飲食毒素兩大壓力。關鍵突破在於發現低氧反應與解毒途徑競爭同一個分子調節因子——ARNT2，這解釋了為何高海拔個體的解毒能力會隨海拔上升而變化。\n\n【研究問題】哺乳類在高海拔地區面臨低氧、低溫、食物稀缺等多重挑戰。過去研究多聚焦於氧氣運輸與代謝適應，卻忽略了一個關鍵問題：當身體優先處理低氧時，如何兼顧分解植物毒素與環境重金屬？這項研究填补了高海拔適應中「生理優先順序」的空白。\n\n【研究方法】研究團隊比較了來自高海拔（4260公尺）、低海拔（1420公尺）的葉耳鼠，以及近緣物種達爾文葉耳鼠（P. darwinii，海拔620公尺）。他們在實驗室中模擬寒冷低氧環境，測量代謝產熱能力，並結合基因選取分析，檢視哪些基因在高海拔族群中經歷了自然選擇。\n\n【結果】高海拔小鼠的最大耗氧量與棕色脂肪組織活性顯著較高，但血红蛋白濃度與氧親和力並未改變，反而碳酸酐酶活性降低以減輕鹼中毒風險。基因分析顯示，熱生成相關基因（如Nrf1、Esrrg）與脂質代謝基因（Eci2、Acot3）受到選拔；同時，低氧感應途徑（HIF）與解毒途徑（AHR）共享ARNT2蛋白，導致兩者在高海拔環境中產生競爭——這或許解釋了為何其他高海拔哺乳類會選擇低毒素食物或特殊飲食行為。",
+      "en": "**Summary:** The Andean leaf-eared mouse (Phyllotis vaccarum) thrives at 6,739 meters, surviving both hypoxia and dietary toxins—a dual challenge that has puzzled researchers. The breakthrough lies in discovering that the hypoxia response and detoxification pathways compete for a shared molecular regulator, ARNT2, revealing a fundamental physiological trade-off that shapes high-altitude adaptation.\n\n**Problem:** Mammals at extreme altitude face not only low oxygen but also toxic compounds from plants and volcanic soils. While prior research focused on oxygen transport and metabolic efficiency, a critical gap remained: how do animals balance the competing demands of surviving low oxygen while processing environmental toxins? Understanding this trade-off is essential for explaining the behavioral and molecular strategies that enable life at the roof of the world.\n\n**Approach:** The researchers compared high-elevation (4,260 m) and low-elevation (1,420 m) P. vaccarum with a closely related lowland species, P. darwinii (620 m). They exposed the mice to cold hypoxic conditions in the lab to measure thermogenic capacity and used evolutionary genomic analysis to identify genes under positive selection at high altitude, linking genetic changes to physiological function.\n\n**Results:** Highland mice showed greater maximal oxygen consumption and more active brown adipose tissue, yet their hemoglobin properties were unchanged—instead, reduced carbonic anhydrase activity helps prevent alkalosis from hyperventilation. Genes regulating thermogenesis (Nrf1, Esrrg) and lipid metabolism (Eci2, Acot3) were under selection. Critically, the hypoxia-inducible factor (HIF) pathway and the aryl hydrocarbon receptor (AHR) detoxification pathway compete for the same dimerization partner, ARNT2. As hypoxia response intensifies with altitude, AHR-regulated detoxification genes declined, while non-AHR detoxification genes increased—offering a molecular explanation for the selective feeding behaviors observed in other high-altitude mammals."
+    },
+    "keyArticle": {
+      "title": "To eat or to breathe?",
+      "authors": [
+        "M. Denise Dearing"
+      ],
+      "doi": "10.1126/science.aei7713",
+      "pages": "140-141"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-09-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aei7713",
+      "doi": "https://doi.org/10.1126/science.aei7713"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-13T19:53:56.326183+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "cell-2026-08-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "16",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從「拼圖」到「全圖」：人類基因組測序迎來完美座標",
+      "en": "From Puzzle Pieces to the Full Picture: A Complete Diploid Genome Benchmark"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Cell》的研究，為人類基因組測序領域帶來了一場根本性的轉變。研究團隊以著名的HG002樣本為基礎，構建了一個從端粒到端粒（T2T）的完整二倍體基因組基準，覆蓋了此前所有基準都無法觸及的99.4%基因組區域。這項突破不僅填補了常染色體701.4百萬鹼基對和兩條性染色體216.8百萬鹼基對的空白，更重新定義了我們評估基因組測序準確性的方式——從「變異檢測」轉向「基因組推斷」，為個性化基因醫學打開了全新的大門。\n\n【研究問題】過去二十年來，基因組學界依賴的「變異基準」（variant benchmark）存在一個深層的結構性缺陷：它們本質上是將測序讀段比對到一個參考基因組上，然後找出差異。這種方法在重複序列和結構多態性區域產生了系統性偏差——這些區域恰恰是與人類遺傳疾病最相關的地帶。GIAB的最新小變異基準甚至完全排除了兩條性染色體和12%的常染色體。研究團隊指出，這種循環依賴使得新技術（如泛基因組參考）的驗證變得不可能，因為驗證本身依賴於同樣有缺陷的基準。換句話說，我們一直在用一把有缺口的尺子量世界，卻從未意識到那些被量不到的地方可能藏著最重要的答案。\n\n【研究方法】研究團隊開發了一種全新的「基因組基準」（genome benchmark）框架。他們首先對HG002樣本進行了端粒到端粒的完整二倍體測序與組裝，經過三輪大規模的精修（rounds 1–3），包括社群協作審核、Flagger/SecPhase錯誤檢測、DeepVariant調用和NIST排除區域校正，最終構建出T2T-HG002v1.1基準。接著，他們設計了全新的評估方法學：不再將讀段或變異比對到外部參考，而是直接將測序數據與這個完整的二倍體參考進行比對，從而實現無偏見的準確性測量。他們用這個基準評估了五種基因組組裝方法和四種測序技術，並系統比較了基因組基準與傳統變異基準在檢測錯誤上的差異。\n\n【結果】T2T-HG002v1.1基準達成了所有46條染色體的端粒到端粒連續性，準確率接近完美（QV分數極高）。研究發現，de novo組裝方法比傳統變異檢測方法多解析了2%至7%的基因組序列，且在準確性上優越一個數量級。具體而言，母單倍型註釋了19,956個編碼蛋白的基因，父單倍型則有19,190個，兩者之間存在顯著的基因含量差異。基因組基準分析還揭示，傳統變異基準在重複序列、同源多聚體和結構變異區域嚴重低估了錯誤率——這些區域在變異基準中被完全排除，但在基因組基準中暴露無遺。這項研究為整個基因組測序領域提供了一把真正的「標準尺」，標誌著個性化基因醫學從「拼湊式」走向「完整式」的新時代。",
+      "en": "**Summary:** This Cell study marks a watershed moment in human genomics. The researchers constructed a complete telomere-to-telomere (T2T) diploid genome benchmark using the widely used HG002 sample, covering 99.4% of the genome—regions that every prior benchmark left entirely blind. By adding 701.4 Mb of autosomal sequence and both sex chromosomes (216.8 Mb), the benchmark not only fills massive gaps but also redefines how we evaluate sequencing accuracy: shifting from variant calling against a reference to direct genome inference against a complete diploid ground truth. This is the foundation upon which the next era of personalized genomics will be built.\n\n**Problem:** For two decades, the genomics field has relied on variant benchmarks—essentially lists of known differences between a sample and a reference genome. But this approach carries a deep structural flaw: because reads are mapped to a reference, duplicated and structurally polymorphic regions are systematically excluded. These are precisely the regions most implicated in human genetic disease. The latest GIAB small variant benchmark for HG002 excludes both sex chromosomes and 12% of the autosomes. This creates a circular dependency: new technologies like pangenome references cannot be properly validated because their validation depends on the same incomplete benchmarks. We have been measuring the world with a ruler that has missing centimeters, never realizing that what we cannot measure may be the most important part.\n\n**Approach:** The team developed a novel \"genome benchmark\" framework. They first generated a complete T2T diploid assembly of HG002, which underwent three rigorous rounds of curation—incorporating crowd-sourced feedback, Flagger/SecPhase error detection, DeepVariant calls, and NIST exclusion regions—yielding T2T-HG002v1.1. They then designed evaluation methods that compare sequencing reads, assemblies, and variant calls directly against this complete diploid reference, eliminating reference bias entirely. Using this benchmark, they evaluated five genome assembly methods and four sequencing technologies, and systematically compared errors detected by genome benchmarking versus traditional variant benchmarking across different sequence contexts.\n\n**Results:** T2T-HG002v1.1 achieved telomere-to-telomere continuity across all 46 chromosomes with near-perfect accuracy. De novo assembly resolved 2% to 7% more sequence than variant calling and outperformed it by an order of magnitude in accuracy. The maternal haplotype was annotated with 19,956 protein-coding genes, the paternal with 19,190—revealing significant haplotype-specific gene content differences. Genome benchmarking exposed that traditional variant benchmarks severely underestimate errors in repetitive sequences, homopolymers, and structurally complex regions—areas entirely excluded from variant benchmarks but fully visible here. This study provides the field with a true standard ruler, marking the transition of personalized genomic medicine from patchwork to completeness."
+    },
+    "keyArticle": {
+      "title": "A complete diploid human genome benchmark for personalized genomics",
+      "authors": [
+        "Nancy F. Hansen",
+        "Nathan Dwarshuis",
+        "Hyun Joo Ji",
+        "Arang Rhie",
+        "Hailey Loucks",
+        "Glennis A. Logsdon",
+        "Mitchell R. Vollger",
+        "Jessica M. Storer",
+        "Juhyun Kim",
+        "Eleni Adam",
+        "Nicolas Altemose",
+        "Dmitry Antipov",
+        "Mobin Asri",
+        "Sofia N. Barreira",
+        "Stephanie C. Bohaczuk",
+        "Andrey V. Bzikadze",
+        "Sara A. Carioscia",
+        "Andrew Carroll",
+        "Kuan-Hao Chao",
+        "Yanan Chu",
+        "Arun Das",
+        "Peter Ebert",
+        "Adam C. English",
+        "Mark Fleharty",
+        "Laura E. Fleming",
+        "Giulio Formenti",
+        "Andrea Guarracino",
+        "Gabrielle A. Hartley",
+        "Katharine M. Jenike",
+        "Jenna Kalleberg",
+        "Yu Kang",
+        "Robert C. King",
+        "Josipa Lipovac",
+        "Mira Mastoras",
+        "Matthew W. Mitchell",
+        "Shloka Negi",
+        "Nathan D. Olson",
+        "Keisuke K. Oshima",
+        "Luis F. Paulin",
+        "Brandon D. Pickett",
+        "David Porubskỳ",
+        "Jane Ranchalis",
+        "Desh Ranjan",
+        "Mikko Rautiainen",
+        "Harold Riethman",
+        "Robert D. Schnabel",
+        "Fritz J. Sedlazeck",
+        "Kishwar Shafin",
+        "Mile Šikić",
+        "Steven J. Solar",
+        "Alexander P. Sweeten",
+        "Winston Timp",
+        "Justin Wagner",
+        "DongAhn Yoo",
+        "Ying Zhou",
+        "Erik Garrison",
+        "Evan E. Eichler",
+        "Michael C. Schatz",
+        "Andrew B. Stergachis",
+        "Rachel J. O’Neill",
+        "Karen H. Miga",
+        "Steven L. Salzberg",
+        "Sergey Koren",
+        "Justin M. Zook",
+        "Adam M. Phillippy"
+      ],
+      "doi": "10.1016/j.cell.2026.06.016",
+      "pages": "4857-4875.e31"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.016",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.016"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-13T19:55:05.729751+00:00",
+    "source": "openalex"
+  }
+}
