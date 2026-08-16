@@ -1,0 +1,53 @@
+{
+  "id": "nature-2026-07-29",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8127",
+  "date": "2026-07-29",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "用手「扭轉」光的左手性：科學家用應力創造人工手性材料",
+      "en": "Twisting Light with Strain: Scientists Engineer Chirality on Demand"
+    },
+    "summary": {
+      "zh": "【總結】馬普研究所與牛津大學的團隊在《Nature》發表了一項突破性發現：壓手性效應（piezochiral effect）。研究團隊首次證明，透過對原本不具有手性的晶體施加單軸應力，可以精確誘導出手性——也就是讓材料從「左右對稱」轉變為「有明確左右之分」。這項發現不僅在理論上建立了應力與手性之間的線性耦合框架，更在實驗上以硫化銀鎵（AgGaS2）驗證了這一效應，為未來從自旋電子學到非對稱催化等多領域應用打開了全新大門。\n\n【研究問題】手性廣泛存在於物理、化學與生物學中，從藥物作用到非對稱合成都依賴於此。然而，過去的研究多數透過「自下而上」的晶體生長或分子合成來創造手性材料，缺乏一種能夠「由外而內」動態調控手性的通用方法。過去雖有研究利用光脈衝或應力來調變預存的手性，但無法決定性地控制手性的方向（左手或右手）。研究團隊指出，缺乏一個能與手性線性耦合的「共軛場」是長期以來的核心盲點。\n\n【研究方法】研究團隊首先透過群論分析，系統性地檢視了所有32種晶體點群，找出哪些非手性晶體在對稱性上允許壓手性耦合。他們發現四種非手性點群（包括AgGaS2所屬的m42點群）支持這種線性耦合，並推導出相應的數學形式。接著，他們以AgGaS2為模型系統，利用密度泛函理論（DFT）計算應力如何打破原本相反手性子結構的簡並態，使整體晶胞產生淨手性。實驗上，研究團隊對c-cut的AgGaS2單晶施加不同方向的單軸應力，並透過測量近紅外探測光（808奈米）的偏振旋轉角來量化光學活性，同時以360度旋轉入射偏振角來分離應力誘發雙折射的干擾訊號。\n\n【結果】研究團隊發現，在AgGaS2中僅需0.02%的微小應力，即可產生相當於α-石英10%的旋光率，且旋轉方向會隨應力從拉伸切換為壓縮而反轉。當應力沿x軸施加時，手性為正；沿y軸施加時，手性反號——這與理論預測的對稱性完全吻合。此外，研究團隊還建立了超過40,000種潛在壓手性材料的資料庫，涵蓋從GaSe到GaAs等不同階層的耦合系統。這項發現不僅驗證了壓手性效應的存在，更展示了其巨大的應用潛力，包括微型光電元件、動態調諧的手性催化劑以及量子材料中的新耦合通道。",
+      "en": "**Summary:** A team from the Max Planck Institute and the University of Oxford has published a breakthrough in Nature introducing the piezochiral effect: the ability to induce chirality in achiral crystals through mechanical strain. By applying uniaxial stress to materials like AgGaS2, the researchers demonstrated that one can deterministically generate left- or right-handedness simply by switching between tensile and compressive strain—or by rotating the strain direction by 90 degrees. This discovery establishes a new linear coupling between strain and chirality, adding a member to the family of strain-responsive phenomena alongside piezoelectricity and piezomagnetism, and opens doors to applications ranging from spintronics to asymmetric catalysis.\n\n**Problem:** Chirality—the property of an object that cannot be superimposed on its mirror image—is central to fields from drug design to quantum materials. Yet, controlling chirality on demand has remained a formidable challenge. Most existing approaches rely on bottom-up synthesis or merely modulate pre-existing chirality without the ability to deterministically set its handedness. Previous attempts using terahertz pulses or strain near phase transitions could not overcome the fundamental obstacle: the absence of a universal conjugate field that couples linearly to chirality. The researchers asked whether a general, symmetry-allowed coupling between mechanical strain and chirality could be realized across a broad class of materials.\n\n**Approach:** The team began with a rigorous group-theory analysis, enumerating all 32 crystallographic point groups to identify which achiral symmetries permit a linear piezochiral coupling. They derived the explicit tensor forms for each allowed case, finding four point groups—including the m42 symmetry of AgGaS2—that support first-order coupling. To understand the microscopic mechanism, they used density functional theory to model how uniaxial strain lifts the degeneracy between left- and right-handed substructures within the unit cell of AgGaS2, which naturally hosts an antiferrochiral arrangement. Experimentally, they applied controlled uniaxial strain to c-cut AgGaS2 single crystals and measured the resulting optical activity via polarization rotation of a near-infrared probe beam at 808 nm, carefully separating the chiral signal from strain-induced birefringence by averaging over a full 360-degree range of incident polarization angles.\n\n**Results:** The experiments confirmed a robust, linear relationship between applied strain and induced optical activity. A remarkably small uniaxial strain of just 0.02% produced a rotary power approximately 10% that of α-quartz—a widely used chiral reference material. Switching from tensile to compressive strain reversed the handedness of the induced chirality, and applying strain along the orthogonal y-axis produced the opposite sign compared to the x-axis, exactly as predicted by symmetry. The team also built a public database cataloguing over 40,000 candidate piezochiral materials. These results establish a versatile new knob for chirality control, with implications for on-chip optoelectronic devices, enantioselective biosensors, dynamically tunable asymmetric catalysts, and novel coupling channels in quantum materials."
+    },
+    "keyArticle": {
+      "title": "The piezochiral effect",
+      "authors": [
+        "Z. Zeng",
+        "M. Först",
+        "M. Fechner",
+        "X. Deng",
+        "A. Cavalleri",
+        "P. G. Radaelli"
+      ],
+      "doi": "10.1038/s41586-026-10845-5",
+      "pages": "338-342"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10845-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10845-5",
+      "preprint": "https://arxiv.org/abs/2510.21674"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-16T19:18:00.664644+00:00",
+    "source": "openalex"
+  }
+}

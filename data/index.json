@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-13T19:55:53.167818+00:00",
+  "lastUpdated": "2026-08-16T19:19:55.520589+00:00",
   "articles": [
+    {
+      "id": "science-2026-08-13",
+      "journal": "Science",
+      "date": "2026-08-13",
+      "path": "articles/2026/08/science-2026-08-13.json",
+      "title_zh": "受體自己管自己？肌營養蛋白的「自我修剪」機制揭開肌肉退化謎團",
+      "title_en": "The Receptor That Trims Itself: How Dystroglycan Regulates Its Own Glycan Coat",
+      "cover_url": "data/images/science/science-2026-08-13-cover.jpg"
+    },
     {
       "id": "political-geography-2026-08-08",
       "journal": "Political Geography",
@@ -72,6 +81,15 @@
       "title_zh": "花瓣的左右手：蝴蝶百合如何用基因決定「鏡像花」的轉向",
       "title_en": "The Left and Right Hands of Petals: How Butterfly Lilies Use Genes to Determine Mirror-Image Flower Orientation",
       "cover_url": "data/images/science/science-2026-07-30-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-29",
+      "journal": "Nature",
+      "date": "2026-07-29",
+      "path": "articles/2026/07/nature-2026-07-29.json",
+      "title_zh": "用手「扭轉」光的左手性：科學家用應力創造人工手性材料",
+      "title_en": "Twisting Light with Strain: Scientists Engineer Chirality on Demand",
+      "cover_url": "data/images/nature/nature-2026-07-29-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-27",
@@ -605,6 +623,15 @@
       "cover_url": ""
     },
     {
+      "id": "cell-2026-06-05",
+      "journal": "Cell",
+      "date": "2026-06-05",
+      "path": "articles/2026/06/cell-2026-06-05.json",
+      "title_zh": "胚胎裡的隱形守門人：巨噬細胞如何扼殺跨物種器官移植的希望",
+      "title_en": "The Embryo's Hidden Gatekeeper: How Macrophages Block Cross-Species Organ Growth",
+      "cover_url": "data/images/cell/cell-2026-06-05-cover.jpg"
+    },
+    {
       "id": "cell-2026-06-04",
       "journal": "Cell",
       "date": "2026-06-04",
@@ -726,8 +753,8 @@
       "journal": "American Sociological Review",
       "date": "2026-05-27",
       "path": "articles/2026/05/american-sociological-review-2026-05-27.json",
-      "title_zh": "巨人的陰影：當沃爾瑪超級中心進入，工會為何既擋不住入侵，也護不住會員？",
-      "title_en": "When the Goliath Enters: Why Unions Fail to Shield Workers from Walmart’s Wage Suppression",
+      "title_zh": "當工會遇上沃爾瑪：誰在勞動市場中真正掌握權力？",
+      "title_en": "When Unions Meet Walmart: Who Really Holds the Power in the Labor Market?",
       "cover_url": ""
     },
     {
@@ -927,6 +954,15 @@
       "title_zh": "細胞的電流羅盤：破解傷口癒合的神秘訊號",
       "title_en": "The Cell’s Electric Compass: Decoding the Secret Signal of Wound Healing",
       "cover_url": "data/images/cell/cell-2026-05-12-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-05-08",
+      "journal": "Political Geography",
+      "date": "2026-05-08",
+      "path": "articles/2026/05/political-geography-2026-05-08.json",
+      "title_zh": "當現實崩裂：特朗普時代的「解離地緣政治」與我們如何逃離無法承受的世界",
+      "title_en": "When Reality Fractures: Dissociative Geopolitics and the Escape from an Unbearable World in the Trump Era",
+      "cover_url": "data/images/political-geography/political-geography-2026-05-08-cover.jpg"
     },
     {
       "id": "nature-2026-05-06-02",

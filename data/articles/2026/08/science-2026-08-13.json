@@ -1,0 +1,51 @@
+{
+  "id": "science-2026-08-13",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6812",
+  "date": "2026-08-13",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-13-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "受體自己管自己？肌營養蛋白的「自我修剪」機制揭開肌肉退化謎團",
+      "en": "The Receptor That Trims Itself: How Dystroglycan Regulates Its Own Glycan Coat"
+    },
+    "summary": {
+      "zh": "【總結】\n\n《科學》期刊的最新研究揭示了一個令人驚嘆的細胞自我調節機制：跨膜受體肌營養蛋白（dystroglycan，簡稱DG）的N端結構域竟具備木糖磷酸酶活性，能「自我修剪」自身糖鏈上的磷酸基團，從而精確控制其關鍵修飾——基質糖（matriglycan）的長度。這項發現不僅解答了長期以來的研究盲點，更可能為肌肉營養不良症等疾病的治療提供全新方向。\n\n【研究問題】\n\n肌營養蛋白是廣泛表達於細胞表面的重要受體，負責將細胞與細胞外基質錨定在一起，對大腦、肌肉和心臟的發育至關重要。它的功能依賴於一種名為「基質糖」的複雜糖鏈修飾；基質糖越長，受體功能越強。然而，過去二十年間，科學家一直不知道基質糖的長度究竟是如何被精確控制的——這是一個巨大的知識空白。更令人困惑的是，臨床上發現的某些肌營養不良症患者，其DG的N端結構域發生突變，導致基質糖變短，但機制不明。\n\n【研究方法】\n\n研究團隊採用了多管齊下的策略。首先，他們在體外以化學合成的二糖為底物，測試了多種高爾基體激酶，發現FAM20B能在木糖的第二碳位置加上磷酸基團，形成磷酸化的引物二糖。接著，他們利用核磁共振（NMR）技術確認了磷酸化的確切位置。隨後，研究者純化了DG的N端結構域蛋白，並發現它能專一性地移除木糖上的磷酸基團——這是一種全新的磷酸酶活性。最後，他們透過CRISPR基因編輯技術在小鼠肌肉中引入突變，觀察基質糖長度和肌肉功能的變化。\n\n【結果】\n\n研究發現，FAM20B在基質糖合成初期短暫地磷酸化引物木糖，這能顯著提高另一種酶LARGE1的結合親和力和催化速率，從而啟動基質糖的延伸。然而，磷酸基團必須被DG的N端結構域移除後，基質糖才能繼續延長。當研究者在小鼠肌肉中引入DG N端結構域的DXD基序突變（D194N/D196N）後，基質糖分子量下降了約90kD，小鼠出現嚴重的後肢夾縮、體重減輕、握力下降和肌肉收縮後恢復能力受損等肌營養不良症狀。這些結果證實了DG的磷酸酶活性是基質糖正常延伸和肌肉功能維持所必需的，為理解肌營養不良症的致病機制開闢了全新視角。",
+      "en": "**Summary:**\n\nA landmark study published in *Science* reveals a stunning self-regulatory mechanism: the N-terminal domain of dystroglycan (DG), a transmembrane receptor, acts as a xylose phosphatase that trims its own glycan coat to precisely control the length of matriglycan—a complex sugar polymer essential for muscle integrity. This discovery not only solves a two-decade-old mystery but also opens new therapeutic avenues for muscular dystrophies and related diseases.\n\n**Problem:**\n\nDystroglycan is a universally expressed cell surface receptor that anchors cells to the extracellular matrix, playing a critical role in brain, muscle, and heart development. Its function depends on a complex glycan modification called matriglycan; longer matriglycan chains mean stronger receptor function. Yet for over twenty years, scientists have had no idea how the length of matriglycan is controlled—a major knowledge gap. Even more puzzling, certain muscular dystrophy patients carry mutations in DG's N-terminal domain that shorten matriglycan, but the mechanism remained a complete mystery.\n\n**Approach:**\n\nThe research team employed a multi-pronged strategy. First, they chemically synthesized a disaccharide primer and tested multiple Golgi kinases, discovering that FAM20B adds a phosphate group to the second carbon of xylose, creating a phosphorylated primer. They used nuclear magnetic resonance (NMR) spectroscopy to confirm the exact phosphorylation site. Next, they purified the N-terminal domain of DG and found it specifically removes that phosphate—revealing a previously unknown phosphatase activity. Finally, they used CRISPR gene editing to introduce mutations into mouse skeletal muscle and assessed matriglycan length and muscle function.\n\n**Results:**\n\nThe study found that FAM20B transiently phosphorylates the primer xylose early in matriglycan synthesis, significantly boosting the binding affinity and catalytic rate of the enzyme LARGE1, thereby initiating matriglycan extension. However, the phosphate must be removed by DG's N-terminal domain for elongation to continue. When researchers introduced mutations in the DXD motif (D194N/D196N) of DG's N-terminal domain in mouse muscle, matriglycan molecular weight dropped by approximately 90 kD. The mice developed severe muscular dystrophy symptoms: hindlimb clasping, reduced body weight, diminished grip strength, and impaired recovery from contraction-induced muscle injury. These findings demonstrate that DG's phosphatase activity is essential for proper matriglycan extension and muscle function, offering a transformative new perspective on the mechanisms underlying muscular dystrophies."
+    },
+    "keyArticle": {
+      "title": "Xylose phosphatase activity of dystroglycan self-regulates its receptor function",
+      "authors": [
+        "Ishita Chandel",
+        "David Venzke",
+        "Bailey A. Wollesen",
+        "Liping Yu",
+        "Kevin P. Campbell"
+      ],
+      "doi": "10.1126/science.adz7427",
+      "pages": "690-695"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-13-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz7427",
+      "doi": "https://doi.org/10.1126/science.adz7427"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-16T19:17:25.889126+00:00",
+    "source": "openalex"
+  }
+}

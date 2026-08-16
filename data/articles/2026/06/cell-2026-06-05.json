@@ -1,0 +1,64 @@
+{
+  "id": "cell-2026-06-05",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "16",
+  "date": "2026-06-05",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "胚胎裡的隱形守門人：巨噬細胞如何扼殺跨物種器官移植的希望",
+      "en": "The Embryo's Hidden Gatekeeper: How Macrophages Block Cross-Species Organ Growth"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Cell》的研究揭示了一個前所未有的先天免疫屏障：在跨物種嵌合胚胎中，宿主巨噬細胞會主動吞噬並清除異種供體細胞，研究團隊將此現象命名為「異種吞噬作用」（xenophagocytosis）。這項發現不僅解釋了為何「blastocyst complementation」技術在培育跨物種器官時效率低下，更提供了一條清晰的破解之道——透過基因編輯阻斷這一機制，可大幅提升異種細胞的嵌合率，進而改善器官生成效率。這對於解決全球器官短缺危機具有深遠意義。\n\n【研究問題】器官移植長期面臨供體短缺的困境，跨物種囊胚互補技術被視為在動物體內培育人類器官的希望之路。然而，過去研究多聚焦於發育時序、訊號路徑等「發育不相容性」因素，卻嚴重忽略了胚胎早期免疫系統的介入。研究團隊發現，異種細胞在胚胎發育中期（約E9.5）開始大量減少，而這恰好是原始巨噬細胞出現的時間點——這暗示免疫排斥可能是被長期忽視的關鍵屏障。\n\n【研究方法】研究團隊首先利用螢光標記的大鼠與小鼠多能幹細胞，生成四個方向的嵌合胚胎（大鼠→小鼠、小鼠→大鼠、同種對照），並在E9.5、E11.5、E14.5等時間點進行螢光激活細胞分選（FACS），精準鎖定含有供體細胞的巨噬細胞。接著，他們對這些「吞噬型巨噬細胞」進行單細胞RNA定序，比對其基因表現與非吞噬型巨噬細胞的差異。為驗證機制，團隊設計了三種干預策略：敲除宿主胚胎的PU.1或Csf1r基因以消除巨噬細胞、敲除Axl受體基因、以及在供體細胞中過表現「別吃我」訊號CD47或調節磷脂醯絲胺酸的翻轉酶ATP11C。最後，他們結合胰臟缺失（Pdx1 KO）的嵌合模型，評估胰臟器官生成的實際改善效果。\n\n【結果】研究團隊發現，異種嵌合胚胎中巨噬細胞的吞噬指數顯著高於同種嵌合胚胎，且被吞噬的異種供體細胞大多處於存活狀態（caspase-3陰性），證明這是主動的免疫清除而非被動的凋亡清理。單細胞定序鎖定Axl受體為關鍵識別分子。基因干預結果令人振奮：PU.1敲除宿主中，大鼠細胞在血液、心臟、腸道和肺臟的嵌合率分別從9%提升至33%、從14%提升至38%、從8%提升至26%、從18%提升至45%；Axl敲除同樣顯著提升嵌合率。在胰臟互補實驗中，雙重敲除（Pdx1/PU.1）的胰臟生成效率從37.5%（6/16）躍升至72.7%（8/11）。此外，該屏障在人類→小鼠嵌合胚胎中同樣存在，顯示這是跨物種發育的普遍性免疫屏障。",
+      "en": "**Summary:** This Cell study uncovers a previously unrecognized innate immune barrier: during interspecies chimeric embryonic development, host macrophages actively engulf and eliminate viable xenogeneic donor cells—a process the authors term \"xenophagocytosis.\" By identifying phosphatidylserine exposure on donor cells as the \"eat-me\" signal recognized through the Axl receptor, the researchers demonstrate that blocking this mechanism through three orthogonal strategies—macrophage ablation, Axl knockout, or overexpression of the \"don't-eat-me\" signal CD47 or the flippase ATP11C in donor cells—dramatically enhances xenogeneic chimerism across multiple organs and improves interspecies pancreas organogenesis. This breakthrough offers a concrete mechanistic path forward for the long-stalled goal of growing human organs in livestock hosts.\n\n**Problem:** The global shortage of donor organs has made interspecies blastocyst complementation—an approach that aims to grow human organs inside animal hosts—an attractive but frustratingly inefficient strategy. While decades of research have explored developmental incompatibilities such as mismatched signaling pathways, adhesion molecules, and developmental timing, the immunological dimension of the xenogeneic barrier has remained largely unexplored. The critical gap: the earliest innate immune cells emerge precisely when xenogeneic donor cell chimerism plummets in mid-gestation embryos, suggesting that immune-mediated rejection may be a fundamental, overlooked obstacle.\n\n**Approach:** The researchers generated four types of chimeric embryos (rat-to-mouse, mouse-to-rat, and both intraspecies controls) using fluorescently labeled pluripotent stem cells, tracking chimerism across E9.5, E11.5, and E14.5. They used flow cytometry to isolate macrophages containing donor cell material and performed single-cell RNA sequencing to identify the molecular signature of \"eating\" versus \"non-eating\" macrophages. To test causality, they employed CRISPR-Cas9 RNP electroporation to generate host embryos lacking PU.1 (a master myeloid transcription factor) or Csf1r (essential for macrophage survival), as well as Axl and Mertk knockouts. On the donor side, they engineered rat PSCs to overexpress CD47 or the flippase ATP11C. Pancreas complementation efficiency was evaluated in Pdx1-deficient mouse hosts, both with and without macrophage depletion.\n\n**Results:** Xenophagocytosis was strikingly specific: the phagocytic index in interspecies chimeras was significantly higher than in intraspecies controls, and the majority of engulfed donor cells were viable (caspase-3 negative), confirming this is active immune clearance rather than apoptotic cleanup. Single-cell sequencing identified Axl as the key receptor driving xenogeneic recognition. Genetic ablation of host macrophages yielded dramatic gains: in PU.1 knockout hosts, rat donor chimerism rose from 9% to 33% in blood, 14% to 38% in heart, 8% to 26% in intestine, and 18% to 45% in lung—some of the highest reported levels for rat-to-mouse chimeras. Axl knockout also significantly enhanced chimerism. In pancreas complementation, combining Pdx1 knockout with PU.1 knockout increased organ generation efficiency from 37.5% (6/16) to 72.7% (8/11). Critically, the same xenophagocytosis barrier was observed in human-to-mouse chimeras, indicating this is a conserved cross-species immune barrier."
+    },
+    "keyArticle": {
+      "title": "Xenophagocytosis blockade enhances interspecies chimerism",
+      "authors": [
+        "Sicong Wang",
+        "Kouta Niizuma",
+        "Daniel Dan Liu",
+        "Fabian P. Suchy",
+        "Alyssa H. Chang",
+        "Saman Tabatabaee",
+        "Hideyuki Sato",
+        "Ayaka Yanagida",
+        "Hideki Masaki",
+        "Nathan Hidajat",
+        "Shota Homma",
+        "Masashi Miyauchi",
+        "Joydeep Bhadury",
+        "Carsten T. Charlesworth",
+        "Jinyu Zhang",
+        "Irving L. Weissman",
+        "Hiromitsu Nakauchi"
+      ],
+      "doi": "10.1016/j.cell.2026.05.016",
+      "pages": "5081-5098.e13"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.016",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.016",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.10.14.682291"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-16T19:18:39.713574+00:00",
+    "source": "openalex"
+  }
+}
