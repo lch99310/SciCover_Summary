@@ -1,0 +1,55 @@
+{
+  "id": "science-2026-08-06",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6811",
+  "date": "2026-08-06",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "蝸牛黏液的多面人生：鈣離子與膠原蛋白如何調控五種截然不同的材料",
+      "en": "The Snail's Material Alchemy: How Calcium and Collagen Engineer Five Distinct Mucus Functions"
+    },
+    "summary": {
+      "zh": "【總結】研究揭示陸生蝸牛能分泌五種功能迥異的黏液材料，從潤滑、黏附到防禦、保護。關鍵發現在於，這些材料均以膠原蛋白VI為主要結構成分，並透過無定形碳酸鈣（ACC）的調控實現性質切換。ACC可作為鈣離子來源促進蛋白質交聯，或作為礦物前驅體形成方解石增強結構。這項研究打開了對生物黏液材料多功能性的理解，為可持續生物材料設計提供新範式。\n\n【研究問題】過去對動物黏液的研究多聚焦於其潤滑與保護功能，卻未深入探討黏液材料如何實現從流體到固體的轉變，尤其是結構蛋白與礦物成分的作用。本研究旨在解答：蝸牛如何以同一套基本組分製造出性質截然不同的五種材料？解決此問題不僅能揭示生物材料自組裝的機制，更對仿生材料開發具有重要意義。\n\n【研究方法】研究團隊採用跨學科方法：首先以液相層析-串聯質譜（LC-MS/MS）分析五種黏液的蛋白質組成；接著運用偏光顯微鏡（PLM）、二次諧波產生（SHG）與冷凍聚焦離子束掃描電子顯微鏡（cryo-FIB-SEM）觀察其三維結構；再以X射線熒光（XRF）與X射線繞射（XRD）鑑定鈣的存在形態；最後透過流變學測試測量各黏液的流動點與機械性質。這些技術共同勾勒出材料從分子到宏觀的完整圖譜。\n\n【結果】結果顯示，五種黏液均含有高相似度的膠原蛋白VI，但各種蛋白質的相對含量差異顯著：防禦性黏液蛋白質種類最多，潤滑黏液則以膠原蛋白VI和XXI為主。鈣的分析揭示ACC顆粒儲存在腺體中，分泌後在不同黏液裡扮演不同角色：在潤滑與防禦黏液中作為鈣離子源，在黏附黏液與封閉膜（epiphragm）中則轉化為方解石礦物。流變學數據顯示，黃色防禦黏液的流動點高達4809%，遠超潤滑黏液的470%，反映其膠原網絡的應力硬化效應。這些發現證實蝸牛透過蛋白質組成與鈣形態的精細調控，實現材料功能的巨大跨度，為開發可調控的生物材料提供寶貴靈感。",
+      "en": "**Summary:** The study reveals that land snails produce five functionally distinct mucus materials, ranging from lubricating trails to defensive foams and protective epiphragms. The breakthrough lies in identifying collagen VI as the primary structural protein and amorphous calcium carbonate (ACC) as a tunable modulator. ACC acts either as an ion source for protein cross-linking or as a mineral precursor for calcite reinforcement, depending on the mucus type. This versatile biomaterial system offers new insights into how organisms engineer complex materials from simple components, with promising applications in sustainable biomaterials.\n\n**Problem:** While mucus is known for its lubricating and protective roles, the molecular basis for its mechanical versatility remains unclear. Previous studies noted that divalent ions influence viscosity but failed to identify the structural proteins and calcium dynamics responsible for tailoring mucus properties. Understanding how snails achieve such functional diversity from a common set of building blocks is crucial for unraveling biological material design principles and inspiring next-generation adaptive materials.\n\n**Approach:** The researchers employed a multidisciplinary toolkit. They used liquid chromatography-tandem mass spectrometry (LC-MS/MS) to profile proteins in each mucus type. Polarized light microscopy (PLM), second harmonic generation (SHG), and cryo-focused ion beam scanning electron microscopy (cryo-FIB-SEM) visualized the hierarchical structures. X-ray fluorescence (XRF) and X-ray diffraction (XRD) mapped calcium distribution and identified its chemical form. Rheological amplitude sweeps measured the transition from solid-like to fluid-like behavior. Together, these methods linked composition, structure, and mechanics.\n\n**Results:** Proteomic analysis showed all five mucus types contain collagen VI, but with varying abundances of other extracellular matrix proteins like Matrilin and Tenascin. Defensive mucuses had the richest protein profiles, while lubricant mucus was dominated by collagen VI and XXI. Calcium existed as ACC granules in gland tissue; upon secretion, ACC served as an ion source in lubricant, bubbly, and yellow mucuses, but transformed into calcite crystals in adhesive mucus and epiphragm. Rheology revealed distinct flow points: lubricant mucus at 470% strain, bubbly mucus at 2180%, and yellow mucus at an exceptional 4809%, indicating strain-stiffening due to collagen alignment. These findings demonstrate that snails precisely tune material properties by modulating protein composition and calcium chemistry, offering a blueprint for bioinspired smart materials."
+    },
+    "keyArticle": {
+      "title": "Calcium tunes snail mucus–based materials to multiple functions",
+      "authors": [
+        "Mariella Gabler",
+        "Émeline Raguin",
+        "Ernesto Scoppola",
+        "Barbara Steigenberger",
+        "Assa Yeroslaviz",
+        "Peter Werner",
+        "Peter Fratzl",
+        "Franziska Jehle"
+      ],
+      "doi": "10.1126/science.adx7367",
+      "pages": "596-600"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adx7367",
+      "doi": "https://doi.org/10.1126/science.adx7367",
+      "preprint": "https://doi.org/10.26434/chemrxiv-2025-jx7gt"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-19T19:20:46.654550+00:00",
+    "source": "openalex"
+  }
+}

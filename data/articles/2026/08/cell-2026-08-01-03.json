@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-08-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "16",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "人類染色體的「暗物質」：acrocentric 短臂的突變密碼與遺傳謎題",
+      "en": "The Hidden Genome: Decoding Mutation and Recombination in Human Acrocentric Short Arms"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次對人類acrocentric染色體（13、14、15、21、22號）的短臂進行了全面解析，揭示了這些曾被認為是基因組「黑暗區域」的結構所蘊含的獨特遺傳規律。研究團隊透過整合長讀長定序與Hi-C技術，成功組裝出156條相位分明的短臂，並追蹤了23個樣本、四代家系中的107次遺傳傳遞事件。核心發現包括：短臂幾乎沒有等位基因重組，但長臂著絲粒附近卻成為重組熱區；短臂的突變率比常染色質高出十倍，且呈現獨特的突變光譜特徵。\n\n【研究問題】人類acrocentric染色體短臂（SAAC）由高度重複的DNA組成，包含大量衛星序列和片段重複，過去因技術限制難以定序與比對，長期被排除在基因組變異與減數分裂重組的大規模研究之外。這意味著我們對人類遺傳多樣性、染色體不穩定性以及羅伯遜易位（Robertsonian translocation）等臨床相關現象的理解存在重大盲點。解決這個問題不僅能填補基因組學的最後一塊拼圖，更能幫助我們理解染色體演化和遺傳疾病的分子基礎。\n\n【研究方法】研究團隊利用CEPH1463四代家系，對23個樣本進行深度PacBio HiFi定序（平均40×）、超長Oxford Nanopore定序（30×）以及Hi-C長程交互作用資料，並使用Verkko演算法進行相位分明的基因組組裝。他們特別針對短臂進行分析：以T2T-CHM13參考基因組為基準，搜尋跨越p臂與q臂的pq-scatig，並透過all-vs-all比對追蹤親代與子代之間的DNA傳遞。重組斷點以3 kb解析度定位，突變則要求HiFi與UL-ONT雙重驗證且親本reads中不存在，確保極高的可信度。\n\n【結果】研究共鉴定出103個de novo SNV，突變率為1.33×10^-7 per bp per generation，是常染色質的10倍（p=1.8×10^-6），與Y染色體異染色質區域相當。突變光譜呈現顯著差異：C>T轉換減少（p=0.00004），而C>G（p=0.0046）和A>C（p=0.0056）轉換增加。在19個重組事件中，18個位於q臂著絲粒附近且母源偏倚（74%），p臂則完全沒有等位基因重組；唯一一次異常重組發生在13號與21號染色體之間，由630 kb的片段重複介導的非等位同源重組（NAHR）所驅動。這些結果表明，acrocentric短臂的序列組成偏差與有限的等位基因重組共同促成了高突變率，為理解染色體不穩定性提供了全新視角。",
+      "en": "**Summary:** This study delivers the first comprehensive analysis of human acrocentric chromosome short arms—regions long dismissed as genomic dark matter due to their extreme repetitiveness. By integrating long-read sequencing with Hi-C phasing across a four-generation pedigree, the team assembled 156 phased short arms and tracked 107 intergenerational transmissions from 23 individuals. The findings overturn long-held assumptions: the p-arms show a striking depletion of allelic recombination (zero events detected), while the pericentromeric q-arm region acts as a recombination hotspot. Moreover, the short arms harbor a mutation rate tenfold higher than autosomal euchromatin, with a distinctly biased mutational signature pointing to unique DNA damage and repair dynamics.\n\n**Problem:** The short arms of human acrocentric chromosomes (13, 14, 15, 21, and 22) are composed almost entirely of highly repetitive satellite DNA and segmental duplications, making them notoriously difficult to sequence and assemble. Consequently, these ~75 Mbp of human DNA have been systematically excluded from genome-wide studies of de novo mutation and meiotic recombination. This gap is not merely technical—it obscures our understanding of chromosomal instability, Robertsonian translocations, and the evolutionary forces shaping human genetic diversity. Filling this void is essential for completing the human genetic map and for understanding how repetitive genome architecture influences mutation and inheritance.\n\n**Approach:** The researchers re-sequenced 23 members of the CEPH1463 four-generation pedigree using deep PacBio HiFi (~40×), ultra-long Oxford Nanopore (~30×), and Hi-C data. They assembled genomes with Verkko and specifically identified pq-scatigs—scaffolded contigs spanning the p-arm, centromere, and q-arm. To detect transmissions, they performed all-vs-all alignments requiring >1 Mbp homology and >99% identity between parents and offspring. Recombination breakpoints were resolved to 3 kb, and de novo mutations were validated orthogonally by both HiFi and UL-ONT reads while being absent from parental data, ensuring exceptional accuracy despite the repetitive context.\n\n**Results:** The team identified 103 germline de novo SNVs across 107 transmitted segments, yielding a mutation rate of 1.33×10^-7 per bp per generation—approximately 10-fold higher than autosomal euchromatin (1.37×10^-8, p=1.8×10^-6) and comparable to the male-specific Y chromosome region. Mutational signatures were striking: CpG>TpG transitions were significantly depleted (p=0.00004), while C>G (p=0.0046) and A>C (p=0.0056) substitutions were enriched. Among 19 recombination events, 18 mapped to the q-arm near the centromere with a strong maternal bias (74%), and zero allelic recombination occurred on the p-arm. A single ectopic recombination event between chromosomes 13 and 21 was mediated by a 630 kb segmental duplication via nonallelic homologous recombination (NAHR). These findings reveal that acrocentric short arms are mutationally volatile yet recombinationally quiescent, reshaping our understanding of how repetitive genome architecture drives genetic diversity and disease."
+    },
+    "keyArticle": {
+      "title": "Human acrocentric chromosome short-arm de novo mutation and recombination",
+      "authors": [
+        "Jiadong Lin",
+        "F. Kumara Mastrorosa",
+        "Michelle D. Noyes",
+        "DongAhn Yoo",
+        "Arang Rhie",
+        "David Porubskỳ",
+        "Kendra Hoekzema",
+        "Katherine M. Munson",
+        "Nidhi Koundinya",
+        "W. Scott Watkins",
+        "Lynn B. Jorde",
+        "Aaron R. Quinlan",
+        "Deborah W. Neklason",
+        "Adam M. Phillippy",
+        "Evan E. Eichler"
+      ],
+      "doi": "10.1016/j.cell.2026.05.035",
+      "pages": "4876-4890.e8"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.035",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.035"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-19T19:22:02.547345+00:00",
+    "source": "openalex"
+  }
+}

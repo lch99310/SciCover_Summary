@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-07-29-02",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8127",
+  "date": "2026-07-29",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "鋰電池石墨負極的「雪崩」時刻：微觀世界裡的相變舞蹈",
+      "en": "The Avalanche Moments Inside Your Lithium-Ion Battery"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭開了鋰電池中最常見材料——石墨——在充電時的神秘面紗。研究團隊透過操縱式光學顯微鏡，首次直接觀察到石墨顆粒在稀釋階段（低鋰濃度）的鋰嵌入過程，發現這並非平滑連續的變化，而是由一系列快速、局部的「雪崩」事件組成。這些事件在數秒內導致微米級區域的鋰離子脫嵌與嵌入，其行為與磁性材料或流體入侵中的雪崩現象驚人地相似。研究進一步發展了隨機場伊辛模型，成功解釋了實驗觀察到的雪崩統計特徵與看似連續的相變行為，為理解層狀電池材料的相變物理學打開了全新視角。\n\n【研究問題】石墨作為鋰離子電池最廣泛使用的負極材料，其鋰嵌入過程尤其是稀釋階段（低鋰濃度區間，x≈0.25以下）的動力學機制長期未被充分理解。過去的研究結果相互矛盾，有的報告顯示一階雙相變，有的則指向連續過渡。這主要是因為稀釋階段涉及低原子序數元素、鋰離子快速擴散、亞穩態相形成以及顆粒級異質性等多重挑戰，加上X射線或中子衍射技術在測量時可能造成樣品損傷。由於稀釋階段與快充性能密切相關，釐清其微觀機制對開發更快充電的電池至關重要。\n\n【研究方法】研究團隊開發了一套操縱式光學散射顯微鏡系統，搭配自製的光學可視化鈕扣電池半電池，在25°C至45°C的溫度範圍內對單個石墨顆粒進行實時成像。他們以每秒兩幀的高幀率捕捉光學散射強度變化，並結合差分容量分析（dQ/dV）將光學信號與電化學數據對齊。同時，他們構建了一個修正的隨機場伊辛模型（RFIM），在模型中引入層內吸引力、層間斥力以及代表材料靜態缺陷的隨機勢場，透過蒙特卡羅模擬重現鋰離子在 Disorder 石墨晶格中的填充行為。此外，研究團隊還運用像素級交叉相關函數與光譜共聚類算法，對雪崩事件的時空相關性進行系統性分析。\n\n【結果】研究發現，在稀釋階段（1′L至4L相變區間），光學散射強度呈現明顯的階梯狀跳變，而非平滑過渡。這些階梯事件在整個顆粒的不同區域中獨立發生，且大小分佈廣泛。實驗數據顯示，在較高溫度下（45°C），雪崩事件更集中於差分容量峰附近，而在某些區域（如D區和E區），事件則更頻繁但幅度較小，時間分佈更廣。模型模擬成功重現了實驗中的雪崩統計特徵與「尖銳—漸變—尖銳」的填充趨勢。時空相關分析揭示，不同區域之間存在顯著的非對稱關聯：充電與放電過程中的前驅—後繼關係經常相反，表明每個雪崩事件都對應到一個局部亞穩態構型的過渡。這些發現表明，石墨中的相變並非簡單的形核與生長過程，而是由靜態缺陷驅動的、空間分散的雪崩網絡共同驅動。",
+      "en": "**Summary:** This study peels back the mystery of graphite—the workhorse anode material in lithium-ion batteries—during the charging process. Using operando optical scattering microscopy, the researchers directly observed that lithium insertion into graphite during dilute stages is not a smooth, continuous process but rather proceeds through a series of rapid, localized avalanche events. These step-like transitions, occurring within seconds across micrometer-scale regions, bear a striking resemblance to avalanche phenomena seen in disordered magnetic and fluid systems. A modified random field Ising model successfully reproduced the experimental avalanche statistics and the apparently continuous phase transitions, offering a new conceptual framework for understanding phase-transition physics in realistic, disordered battery materials.\n\n**Problem:** Despite graphite being the most widely used anode material in commercial lithium-ion batteries, the dynamics of lithium intercalation during the dilute stages—low lithium concentrations up to approximately x = 0.25 in LixC6—remain poorly understood. Previous studies have produced contradictory reports, with some describing first-order biphasic transitions and others suggesting continuous behavior. This confusion stems from the inherent difficulty of probing dilute stages: light lithium atoms are hard to detect, diffusion is rapid, metastable phases form readily, and particle-level heterogeneity complicates interpretation. Advanced techniques like X-ray and neutron diffraction can suffer from beam damage. Understanding these dilute-stage dynamics is especially critical because they govern fast-charging performance, yet they have received far less attention than the dense staging regimes.\n\n**Approach:** The team built an operando optical scattering microscopy setup paired with a custom optically accessible coin-cell half-cell, enabling real-time imaging of individual graphite particles at frame rates of 2 Hz across temperatures from 15°C to 45°C. They correlated the optical intensity traces with electrochemical data through differential capacity analysis (dQ/dV). To interpret the observations, they developed an anisotropic random field Ising model (RFIM) that incorporates attractive intralayer coupling, repulsive screened interlayer coupling, and a site-specific random potential representing quenched disorder such as turbostratic defects and elastic deformations. Monte Carlo simulations of lithium filling in this disordered lattice reproduced key experimental features. Finally, they applied pixel-pixel cross-correlation analysis and spectral co-clustering to map spatio-temporal correlations among avalanche events across the particle.\n\n**Results:** The optical intensity during dilute-stage transitions exhibited clear step-like jumps rather than smooth changes. These avalanche events were spatially heterogeneous: some regions showed tightly clustered events at higher temperatures, while others displayed more frequent, smaller events spread broadly across the voltage window. The RFIM simulations captured both the avalanche statistics and the characteristic sharp–gradual–sharp filling trend observed experimentally. Cross-correlation analysis revealed strong inter-region connectivity patterns that were asymmetric between lithiation and delithiation—the predecessor-successor relationships between regions often reversed depending on the direction of cycling. This asymmetry indicates that each avalanche represents a transition to a localized metastable configuration, not merely a propagating phase front. The findings demonstrate that static disorder breaks what might appear as a single collective transition into a spatially distributed network of avalanche events, fundamentally reshaping how we understand phase transitions in layered battery materials."
+    },
+    "keyArticle": {
+      "title": "Avalanche-like intercalation and intraparticle correlations in graphite",
+      "authors": [
+        "Jiho Han",
+        "George Phillips",
+        "Alice J. Merryweather",
+        "Juhwan Lim",
+        "Christoph Schnedermann",
+        "Robert L. Jack",
+        "Clare P. Grey",
+        "Akshay Rao"
+      ],
+      "doi": "10.1038/s41586-026-10862-4",
+      "pages": "364-369"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10862-4",
+      "doi": "https://doi.org/10.1038/s41586-026-10862-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-19T19:21:29.180475+00:00",
+    "source": "openalex"
+  }
+}

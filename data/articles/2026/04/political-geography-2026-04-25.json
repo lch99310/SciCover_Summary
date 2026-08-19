@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-04-25",
+  "journal": "Political Geography",
+  "volume": "127",
+  "issue": "",
+  "date": "2026-04-25",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當國家失去可信度：自由運動如何用陰謀論重建世界的秩序",
+      "en": "When the State Loses Its Grip: How the Freedom Movement Uses Conspiracy to Reorder Reality"
+    },
+    "summary": {
+      "zh": "【總結】本文探討了疫情期間興起的「自由運動」如何透過一套名為「普通法」的陰謀論敘事，重新想像並抵抗國家權力。作者提出「反規訓」（counter-conducts）與「國家恐懼」（state phobia）兩個概念，指出參與者並非單純反對疫苗強制措施，而是透過陰謀論來逃離一種被感知為國家強加的生存方式。這項研究的重要突破在於，它超越了將抵抗預設為「進步」或「解放」的框架，提供了一種診斷性工具，讓我們理解當前新自由主義政府治理危機中的政治動能。\n\n【研究問題】過去地理學對抵抗的研究，往往帶有隱含的規範性價值判斷，將抵抗等同於解放與政治進步。這導致學界難以理解那些看似「倒退」的政治運動。本文提出的問題是：我們如何在不預設抵抗為正面的前提下，理解自由運動這類陰謀論驅動的反對形式？這至關重要，因為陰謀論已成為當代政治格局中的重要力量，影響著從反疫苗運動到民粹主義崛起等多種現象。\n\n【研究方法】作者進行了為期十個月（2023年11月至2024年9月）的民族志研究，包括對英國自由運動群體的參與式觀察、17位參與者的深度訪談，以及對Telegram頻道的大量數位觀察。理論上，作者借鑒福柯的「反規訓」概念，並結合拉岡精神分析中的「恐懼症」理論，提出「國家恐懼」作為一種大氣條件，解釋參與者如何將焦慮投射到國家身上。\n\n【結果】研究發現，自由運動參與者普遍經歷了一種「國家失去連貫性」的時刻——例如口罩規定的矛盾執行、國際航班繼續運行等。這種不一致性引發了焦慮，而陰謀論（特別是普通法理論）提供了一種敘事，將國家想像為操縱雙重身份的幕後黑手。這種敘事讓參與者得以逃離國家所定義的自我，重新獲得穩定感。研究揭示了陰謀論不僅是謊言，更是一種在政府治理危機中重建意義的心理機制。",
+      "en": "**Summary:** This article examines how the Freedom Movement, which emerged during the COVID-19 pandemic, uses a conspiracy theory centered on \"common law\" to reimagine and resist state power. The author introduces two key concepts—\"counter-conducts\" and \"state phobia\"—to argue that participants are not merely opposing vaccine mandates but are seeking to escape a mode of conduct imposed by a state they perceive as overreaching. The study's breakthrough lies in moving beyond the assumption that resistance is inherently emancipatory, offering instead a diagnostic tool for understanding the political energies driving the current crisis of neoliberal governmentality.\n\n**Problem:** Geographic scholarship on resistance has long carried an implicit normative commitment, equating resistance with liberation and political progress. This blind spot makes it difficult to understand political movements that appear regressive. The article asks: How can we analyze forms of dissent driven by conspiracism without pre-judging them as progressive or regressive? This question is crucial because conspiracy thinking has become a powerful force in contemporary politics, fueling everything from anti-vaccine activism to the rise of populist movements.\n\n**Approach:** The author conducted a ten-month ethnographic study (November 2023 to September 2024), combining participant observation of a UK-based Freedom Movement group, seventeen in-depth interviews, and extensive digital observation of Telegram channels. Theoretically, the study draws on Foucault's concept of \"counter-conducts\" and Lacanian psychoanalytic theory on phobias, proposing \"state phobia\" as an atmospheric condition that explains how participants displace anxiety onto the state.\n\n**Results:** The study finds that Freedom Movement participants experienced moments when the state appeared to lose coherence—such as contradictory mask rules or the continued operation of international flights. This inconsistency generated anxiety, which conspiracy theories, particularly common law narratives, helped resolve by portraying the state as a manipulator imposing a dual identity. This narrative allowed participants to escape a state-defined self and regain a sense of stability. The research reveals that conspiracy thinking is not merely misinformation but a psychological mechanism for reconstructing meaning during a crisis of governance."
+    },
+    "keyArticle": {
+      "title": "The freedom movement as resistance? Understanding new counter-conducts in a crisis of governmentality",
+      "authors": [
+        "Victoria Ridgway"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103565",
+      "pages": "103565"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103565",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103565"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-19T19:22:42.451025+00:00",
+    "source": "openalex"
+  }
+}
