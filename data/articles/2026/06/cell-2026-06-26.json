@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-06-26",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "17",
+  "date": "2026-06-26",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-06-26-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦連接組的幾何藍圖：為何神經元如此連線？",
+      "en": "The Geometric Blueprint of the Brain: Why Neurons Wire Themselves This Way"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了一條深藏在大腦連接組背後的幾何法則：哺乳動物皮層的神經元連接並非隨機，而是受到大腦幾何形狀的物理約束。研究團隊發展出一個簡潔的解析模型，將皮層視為一個振動的幾何表面，預測連接優先出現在能激發「共振幾何模式」的皮層位置之間。該模型在人類、黑猩猩、猕猴、狨猴和老鼠等多物種中，精確重現了連接組的拓撲結構與空間分佈，超越了過往僅依賴距離或結構相似性的模型。這項發現將神經網絡的架構歸因於基本的物理幾何，為理解大腦的演化保守性提供了全新視角。\n\n【研究問題】過去對皮層連接組的研究，多聚焦於「距離效應」（越遠的區域連接越弱）或「結構相似性」（細胞層結構相似的區域傾向連接），但這些模型無法充分解釋連接組中觀察到的複雜拓撲特徵（如小世界性、模組化）與精確的空間分佈模式。研究缺口在於缺乏一個能從第一性原理出發、同時解釋多尺度連接特性的統一框架。解決這個問題至關重要，因為它直指大腦網絡構建的根本原理：連接組是僅由經驗和學習塑造，還是由更基本的物理幾何約束所決定？\n\n【研究方法】作者從神經場理論（neural field theory）出發，將大腦皮層建模為一個彎曲的幾何表面。他們推導出該表面的「幾何本徵模式」（geometric eigenmodes）——類似於鼓面振動時形成的穩定波形。接著，他們提出「幾何本徵模式模型」（Geometric Eigenmode Model, GEM），假設皮層區域之間的連接強度，正比於它們共同激發這些幾何共振模式的能力。模型僅需幾個參數（如幾何模式的權重衰減），即可生成整個皮層的連接矩陣。研究者在人類（擴散磁共振成像數據）與多種非人類靈長類及小鼠（病毒標記追溯數據）的連接組數據上驗證模型，並與隨機模型、純距離模型、拉普拉斯-貝爾特拉米算子模型等基準進行比較。\n\n【結果】GEM模型在多個層面上顯著優於所有基準模型。在人類高分辨率連接組中，它能精確預測皮層區域間的連接機率與強度的空間分佈（相關係數高達0.9以上），並重現拓撲特徵如小世界性與模組結構。該模型成功泛化至黑猩猩、猕猴、狨猴與小鼠的連接組，顯示幾何約束在哺乳動物演化中（跨越至少9000萬年）具有高度保守性。研究指出，連接組的「長距離連接」並非偶然，而是幾何共振模式所驅動的必然結果。這項發現為計算神經科學與網絡醫學提供了強大的預測工具，並暗示大腦網絡的異常（如神經發育障礙或退化性疾病）可能源於幾何約束的破壞。",
+      "en": "**Summary:** This study uncovers a fundamental geometric law governing the mammalian cortical connectome: neural connections are not random but are shaped by the physical constraints of the brain's geometry. The researchers developed a parsimonious analytical model derived from neural field theory, treating the cortex as a vibrating geometric surface. Connectivity is predicted to concentrate between cortical locations that jointly excite resonant geometric modes. The model accurately reproduces both topological and topographical properties of connectomes across humans, chimpanzees, macaques, marmosets, and mice, outperforming existing distance- or structure-based models. By attributing connectome architecture to basic physical geometry, the work offers a unified, evolutionarily conserved explanation for brain wiring.\n\n**Problem:** Previous connectome models have relied heavily on the \"distance effect\" (connections weaken with cortical distance) or \"structural similarity\" (regions with similar cytoarchitecture tend to connect), yet these frameworks fail to fully account for the complex topological features (e.g., small-worldness, modularity) and precise spatial patterns observed in empirical connectomes. The critical gap is the lack of a first-principles framework that simultaneously explains multi-scale connectivity. Solving this problem is crucial because it addresses a foundational question in neuroscience: is connectome architecture merely a product of experience and learning, or is it constrained by deeper geometric principles?\n\n**Approach:** The authors begin with neural field theory, modeling the cortical sheet as a curved geometric surface. They derive the surface's \"geometric eigenmodes\"—stable vibrational patterns analogous to standing waves on a drumhead. The Geometric Eigenmode Model (GEM) posits that connection strength between two cortical regions is proportional to their joint capacity to excite these geometric resonances. With only a few parameters (e.g., a decay factor for higher-order modes), GEM generates a full connectome matrix. The model is tested against empirical data from humans (diffusion MRI) and multiple non-human primates and mice (viral tract tracing), and benchmarked against random, pure-distance, Laplace-Beltrami, and structural-matching models.\n\n**Results:** GEM significantly outperforms all benchmark models across multiple metrics. In high-resolution human connectomes, it precisely predicts the spatial distribution of connection probability and strength (correlation coefficients exceeding 0.9) and reproduces key topological features like small-worldness and modular structure. The model generalizes successfully to chimpanzee, macaque, marmoset, and mouse connectomes, demonstrating that geometric constraints are evolutionarily conserved across mammals (spanning at least 90 million years). The study shows that long-range connections are not accidental but are driven by geometric resonance. This finding provides a powerful predictive tool for computational neuroscience and network medicine, suggesting that connectome abnormalities in neurodevelopmental or neurodegenerative disorders may stem from disruptions in geometric constraints."
+    },
+    "keyArticle": {
+      "title": "Geometric constraints on the architecture of mammalian cortical connectomes",
+      "authors": [
+        "Francis Normand",
+        "Mehul Gajwani",
+        "Trang Ngoc Cao",
+        "Jace Cruddas",
+        "Arshiya Sangchooli",
+        "Stuart Oldham",
+        "Alexander Holmes",
+        "Peter A. Robinson",
+        "James C. Pang",
+        "Alex Fornito"
+      ],
+      "doi": "10.1016/j.cell.2026.05.048",
+      "pages": "5283-5303.e17"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-06-26-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.05.048",
+      "doi": "https://doi.org/10.1016/j.cell.2026.05.048",
+      "preprint": "https://osf.io/rz3hw"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-22T19:20:34.406791+00:00",
+    "source": "openalex"
+  }
+}

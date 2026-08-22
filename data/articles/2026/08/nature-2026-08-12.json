@@ -1,0 +1,82 @@
+{
+  "id": "nature-2026-08-12",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8128",
+  "date": "2026-08-12",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "七百年最慘洪水年：1342年歐洲連發16場超級洪水，背後真相令人警醒",
+      "en": "The Year Europe Drowned Twice: How a Cascading Flood Sequence in 1342–1343 Rewrites Risk"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究揭開了中世紀歐洲最驚人的氣候災難之一：1342至1343年間，歐洲大陸爆發了16場大型洪水，是過去700年中最極端的洪水雙年。其中四場——瑪格達琳洪水、聖燭節洪水、雅各洪水與聖巴多羅買洪水——的回歸期長達500至1,000年。研究證明，這並非單一災難，而是一連串連鎖洪水，其規模與頻率遠超現代記錄，並徹底改變了歐洲的防洪策略與社會經濟結構。\n\n【研究問題】過去學術界普遍將1342年視為單一「瑪格達琳洪水」事件，忽略了同期其他洪水。研究缺口在於：歷史文獻與沉積證據的時間解析度不足，加上中世紀檔案保存不均，導致多數洪水被遺忘。釐清這段歷史至關重要，因為現代防洪管理通常只基於近幾十年的數據，若極端洪水以密集序列出現，現有風險評估將嚴重不足。\n\n【研究方法】研究團隊整合了超過1,000條原始文獻記錄，涵蓋編年史、年鑑、經濟與法律檔案、天氣日誌及私人信件，並結合土壤侵蝕模式、沉積物證據與樹輪氣候重建。他們採用三級洪水分類法（顯著、重大、非凡），並透過洪水標記、建築損壞程度與當代文字描述，估算每場洪水的回歸期。方法核心是「相對排名法」——不直接比較中世紀與現代的絕對水位，而是根據基礎設施損壞規模、死亡人數與社會衝擊來推斷極端程度。\n\n【結果】1342年成為過去700年歐洲重大洪水數量最多的一年，1343年亦躋身前十大洪水年。16場洪水中，萊茵河、美因河、多瑙河與蒂薩河多次泛濫。洪水摧毀了布拉格自1172年以來的石橋、萊茵河中下游所有橋樑，並導致數千人死亡。更深远的影响是：歐洲開始大規模建造石造橋樑、加高城牆、修築堤防，防洪策略出現範式轉移。研究還指出，火山爆發與北極海冰消退可能是連鎖洪水的氣候推手。這項發現警示：當前的防洪規劃必須納入「極端洪水序列」的可能性，而非僅防範單一事件。",
+      "en": "**Summary:** A landmark study published in Nature reveals that 1342–1343 was the most extreme flood period in Europe over the past 700 years, with 16 major flood events cascading across the continent. Four of these—the Magdalena, Candlemas, Jacob, and Bartholomew Floods—each carried return periods of 500 to 1,000 years, shattering the long-held assumption that 1342 featured only a single catastrophic event. The research demonstrates that these floods formed an unprecedented sequence, triggering a paradigm shift in European flood mitigation and causing devastating socio-economic consequences including famine, disease, and banking crises.\n\n**Problem:** For decades, the Magdalena Flood of July 1342 was treated as the sole extreme European flood of that period, with its magnitude and context poorly understood. Previous reconstructions relied on low-resolution sedimentary and erosion data, while medieval documentary sources remained fragmented and geographically biased toward politically central regions. Understanding the full scope of this event is critical: modern flood risk management is built on observations from recent decades and rarely accounts for the possibility of multiple mega-floods striking in rapid succession—a scenario that could overwhelm current preparedness.\n\n**Approach:** The researchers compiled an unprecedented dataset drawn from over 1,000 primary source entries, including contemporary chronicles, annals, legal and economic records, weather diaries, and private correspondence, alongside natural proxy evidence such as tree-ring temperature reconstructions, ice-core sulfate data, and archaeological flood marks. They classified each flood on a three-tier scale—notable, great, and outstanding—and estimated return periods using a relative, rank-based methodology that accounts for landscape and river-morphology changes since the 14th century rather than relying on direct comparisons with modern gauge data. Volcanic and Arctic sea-ice records were cross-referenced to identify potential climate drivers.\n\n**Results:** The analysis identified 16 major flood events between late 1341 and 1343, making 1342 the flood-richest year in 700 years and 1343 a top-ten flood year. The Magdalena Flood alone carried a return period of up to 10,000 years for its driving precipitation. Key infrastructure—including Prague’s iconic stone bridge since 1172, all bridges along the Middle Rhine, and countless roads and mills—was destroyed. The cascading floods caused thousands of direct fatalities and indirect deaths from famine and waterborne disease, disrupted military campaigns, and may have contributed to the collapse of Italian banking houses. In response, Europe undertook a transformative shift in flood engineering: stone bridges with ice-breaking piers, elevated town walls, and substantial dykes became standard. The study attributes the sequence to a combination of tropical and extratropical volcanic eruptions around 1340 and multi-annual Arctic sea-ice retreat, which together shifted atmospheric circulation patterns. The findings carry urgent implications: current risk management frameworks must evolve to address cascading mega-flood sequences rather than isolated events."
+    },
+    "keyArticle": {
+      "title": "Cascading continental-scale floods across Europe in 1342–1343",
+      "authors": [
+        "Andrea Kiss",
+        "Alberto Viglione",
+        "Mariano Barriendos",
+        "Silvia Enzi",
+        "Martin Bauch",
+        "Kris Decker",
+        "Nicolas Maughan",
+        "Dag Retsö",
+        "Astrid Ogilvie",
+        "Miriam Bertola",
+        "Tim Soens",
+        "Líbor Elleder",
+        "Rudolf Brázdil",
+        "Kathleen Pribyl",
+        "Juraj Párajka",
+        "Ioannis Telelis",
+        "Inês Amorim",
+        "Josep Barriendos",
+        "O. Böhm",
+        "Gerardo Benito",
+        "Chiara Bertolin",
+        "Dario Camuffo",
+        "Denis Coeur",
+        "Gaston Demarée",
+        "Radosław Doktor",
+        "Markus Dotterweich",
+        "Rüdiger Glaser",
+        "Jürgen Komma",
+        "Neil Macdonald",
+        "Hrvoje Petrić",
+        "Christian Röhr",
+        "Petra Schmocker-Fackel",
+        "Lothar Schulte",
+        "W.H.J. Toonen",
+        "Oliver Wetter",
+        "Günter Blöschl"
+      ],
+      "doi": "10.1038/s41586-026-10888-8",
+      "pages": "638-645"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10888-8",
+      "doi": "https://doi.org/10.1038/s41586-026-10888-8"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-22T19:19:47.058355+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "science-2026-08-20",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6813",
+  "date": "2026-08-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "《科學》期刊封面：學界群星璀璨，2026年8月號特輯",
+      "en": "Science Journal Cover: A Gathering of Scholars — August 2026 Issue"
+    },
+    "summary": {
+      "zh": "本文為《科學》期刊（Science）2026年8月20日出版的第393卷第6813期封面專文，題為「In Science Journals」。該期以「Science期刊家族亮點」為主題，匯集了多位來自不同研究領域的學者貢獻，包括Jonathan Fan、Michael A. Funk、Jelena Stajic、Di Jiang、Keith T. Smith、Jack Huang、Melissa Norton、Stella M. Hurtley、Unnati Sonawala、Madeleine Seale、Sarah H. Ross、Yevgeniya Nusinovich、Mattia Maroso、Sacha Vignieri、Hannah Isles、Wei Wong、Phil Szuromi等。",
+      "en": "This article serves as the cover editorial for the August 20, 2026 issue (Volume 393, No. 6813) of Science journal, titled 'In Science Journals.' The piece highlights contributions from the Science family of journals, featuring a diverse group of researchers including Jonathan Fan, Michael A. Funk, Jelena Stajic, Di Jiang, Keith T. Smith, Jack Huang, Melissa Norton, Stella M. Hurtley, Unnati Sonawala, Madeleine Seale, Sarah H. Ross, Yevgeniya Nusinovich, Mattia Maroso, Sacha Vignieri, Hannah Isles, Wei Wong, and Phil Szuromi."
+    },
+    "keyArticle": {
+      "title": "In Science Journals",
+      "authors": [
+        "Jonathan Fan",
+        "Michael A. Funk",
+        "Jelena Stajic",
+        "Di Jiang",
+        "Keith T. Smith",
+        "Jack Huang",
+        "Melissa Norton",
+        "Stella M. Hurtley",
+        "Unnati Sonawala",
+        "Madeleine Seale",
+        "Sarah H. Ross",
+        "Yevgeniya Nusinovich",
+        "Mattia Maroso",
+        "Sacha Vignieri",
+        "Hannah Isles",
+        "Wei Wong",
+        "Phil Szuromi"
+      ],
+      "doi": "10.1126/science.ael5804",
+      "pages": "773-775"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ael5804",
+      "doi": "https://doi.org/10.1126/science.ael5804"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-08-22T19:18:59.805045+00:00",
+    "source": "openalex"
+  }
+}
