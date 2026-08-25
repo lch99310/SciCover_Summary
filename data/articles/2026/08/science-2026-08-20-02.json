@@ -1,0 +1,53 @@
+{
+  "id": "science-2026-08-20-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6813",
+  "date": "2026-08-20",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-20-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "科學期刊精華週報：從火星硫磺石到細菌電腦、從腦內多工到昆虫物種大數的跨域探索",
+      "en": "Science Journal Roundup: From Martian Sulfur Stones to Bacterial Computers and the Hidden World of Insect Diversity"
+    },
+    "summary": {
+      "zh": "【總結】\n\n本期《科學》期刊的「其他期刊」專欄橫跨十一項前沿研究，涵蓋神經科學、行星地質、合成生物學、氣候與生態等多個領域。其中最具突破性的發現包括：研究團隊在火星表面發現純硫磺石場，推測其形成於數十億年前埋藏氯氣水合物的减压過程；科學家利用大腸桿菌的代謝生長動力學，結合機器學習成功預測COVID-19病情嚴重程度；研究人員透過活體肺部三維成像技術，首次繪製出肺部顆粒沉積的馬賽克圖譜；而哥斯大黎加的密集採樣更顯示，地球上昆蟲物種可能高達1400萬至3000萬種，遠超先前估計的600萬種。\n\n【研究問題】\n\n這些研究各自回應了不同領域的核心盲點。在神經科學中，學界長期不清楚大腦如何分配有限資源以同時執行多項任務；在行星科學中，火星純硫磺沉積的成因始終成謎，因該區域缺乏火山或熱液活動；在生態學中，昆蟲物種數量的估算長期受限於分類學家的命名速度趕不上新物種發現的節奏；而在臨床醫學中，早產期風險篩檢缺乏獨立於胎兒fraction和臨床風險因子之外的客觀生物標記。這些研究缺口限制了我們對大腦運作、行星歷史、生物多樣性及妊娠健康的深入理解。\n\n【研究方法】\n\n研究團隊採用了多樣化的創新方法。在神經科學研究中，作者記錄小鼠次級運動皮層的神經元活動，讓小鼠同時執行槓桿操作與聽覺決策兩項認知需求不同的任務，並比較不同學習階段的神經迴路變化。在火星研究中，好奇號火星車的X光光譜儀分析了淺色石頭的成分，發現其為純硫磺覆蓋表面沙塵，部分石頭經車輪壓碎後暴露出內部硫磺晶體。在昆蟲研究中，Colwell團隊結合DNA條碼技術與統計豐富度分析，對哥斯大黎加寄生蜂等高度多樣化類群進行密集採樣，推估全球昆蟲物種總數。在細菌計算研究中，Ahavi等人利用患者血浆代謝物驅動大腸桿菌差異生長動力學，再結合機器學習模型區分輕重症患者。\n\n【結果】\n\n各項研究均取得突破性數據。火星硫磺石研究確認了四種不同的釷離子摻雜位點及其電場環境，為火星古氣候重建提供關鍵線索。神經科學研究發現，隨著訓練進行，任務專用的神經元被招募，執行不同任務的神經迴路逐漸分離，顯示大腦具有可塑性適應機制。昆蟲物種估算結果顯示全球至少有1400萬至2000萬種昆蟲，上限可達3000萬種，為先前估計的兩至三倍。細菌計算模型成功區分COVID-19輕重症患者，且該方法獨立於胎兒fraction與臨床風險因子，為早產篩檢提供新工具。加州中央谷地的衛星數據顯示土地沉降加速，北部區域可能已進入不可逆轉的過度抽取狀態，對農業用水政策提出警示。",
+      "en": "**Summary:**\n\nThis issue of Science's \"In Other Journals\" section surveys eleven frontier studies spanning neuroscience, planetary geology, synthetic biology, and ecology. The most striking breakthroughs include the discovery of pure sulfur stone fields on Mars, likely formed billions of years ago during the decompression of buried clathrates; the use of E. coli metabolic growth kinetics combined with machine learning to predict COVID-19 severity from patient blood samples; the first 3D visualization of particle deposition mosaics in living lungs using an ex vivo mouse lung assembly in a transparent artificial ribcage; and estimates suggesting Earth may harbor 14 to 30 million insect species, two to three times more than previously thought. These findings collectively reshape our understanding of brain multitasking, Martian geochemistry, clinical diagnostics, and global biodiversity.\n\n**Problem:**\n\nEach study addresses a critical gap in its field. Neuroscientists have long wondered how the brain distributes limited resources to perform multiple tasks in parallel, particularly how neural circuits reorganize across learning stages. Planetary geologists puzzled over the origin of pure sulfur deposits on Mars, where volcanic or hydrothermal activity is unlikely. Ecologists faced the taxonomic bottleneck: new insect species are described faster than they can be named, making species richness estimates unreliable. Clinicians lacked early pregnancy risk markers independent of fetal fraction and clinical factors. These gaps hindered our ability to understand cognitive flexibility, Martian climate history, biodiversity scales, and obstetric outcomes.\n\n**Approach:**\n\nThe researchers deployed diverse innovative methodologies. Wang et al. recorded single-cell and population neural activity in the secondary motor cortex of mice performing two tasks with different cognitive demands—lever pressing for sugar reward and sound-cued licking—across learning stages. VanBommel et al. used the Curiosity rover's X-ray spectrometer to analyze light-colored stones, finding pure sulfur overlain by dust, with crushed pieces revealing internal sulfur crystals. Colwell et al. combined DNA barcoding with statistical richness analyses from intensive sampling of hyperdiverse parasitoid wasps in Costa Rica. Ahavi et al. leveraged metabolite-driven differential E. coli growth kinetics from patient plasma, combined with machine learning, to classify disease severity.\n\n**Results:**\n\nThe findings deliver precise, impactful data. Mars sulfur stones contain four distinct thorium ion doping sites with unique electric field environments, constraining models of ancient clathrate decomposition. In the brain, task-specialized neurons were recruited with training, and neural circuits became increasingly segregated—a hallmark of cognitive flexibility. Insect diversity estimates rose to at least 14 to 20 million species globally, with an upper bound of 30 million, dwarfing the prior 6-million estimate. The bacterial computing model distinguished mild from severe COVID-19 outcomes independently of fetal fraction and clinical risk factors. Satellite data from California's Central Valley revealed accelerating land subsidence at rates indicative of irreversible aquifer compaction, suggesting the northern region may now be critically overdrafted, with profound implications for agriculture and water policy."
+    },
+    "keyArticle": {
+      "title": "In Other Journals",
+      "authors": [
+        "Yevgeniya Nusinovich",
+        "Cheri Sirois",
+        "Joana Osório",
+        "Sacha Vignieri",
+        "Sumin Jin",
+        "Jake S. Yeston",
+        "Angela Hessler"
+      ],
+      "doi": "10.1126/science.ael5805",
+      "pages": "774-775"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-20-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ael5805",
+      "doi": "https://doi.org/10.1126/science.ael5805"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-25T19:31:05.030820+00:00",
+    "source": "openalex"
+  }
+}

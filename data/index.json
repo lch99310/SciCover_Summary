@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-22T19:21:38.399540+00:00",
+  "lastUpdated": "2026-08-25T19:33:48.545746+00:00",
   "articles": [
+    {
+      "id": "science-2026-08-20-02",
+      "journal": "Science",
+      "date": "2026-08-20",
+      "path": "articles/2026/08/science-2026-08-20-02.json",
+      "title_zh": "科學期刊精華週報：從火星硫磺石到細菌電腦、從腦內多工到昆虫物種大數的跨域探索",
+      "title_en": "Science Journal Roundup: From Martian Sulfur Stones to Bacterial Computers and the Hidden World of Insect Diversity",
+      "cover_url": "data/images/science/science-2026-08-20-02-cover.jpg"
+    },
     {
       "id": "science-2026-08-20",
       "journal": "Science",
@@ -72,6 +81,15 @@
       "title_zh": "人類染色體的「暗物質」：acrocentric 短臂的突變密碼與遺傳謎題",
       "title_en": "The Hidden Genome: Decoding Mutation and Recombination in Human Acrocentric Short Arms",
       "cover_url": "data/images/cell/cell-2026-08-01-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-08-01-04",
+      "journal": "Cell",
+      "date": "2026-08-01",
+      "path": "articles/2026/08/cell-2026-08-01-04.json",
+      "title_zh": "破解哮喘基因的「黑盒子」：新方法直指致病核心",
+      "title_en": "Cracking Asthma's Genetic Black Box: A New Method Targets the Disease Core",
+      "cover_url": "data/images/cell/cell-2026-08-01-04-cover.jpg"
     },
     {
       "id": "cell-2026-08-01",
@@ -342,6 +360,15 @@
       "title_zh": "海底裂開的那一刻：科學家首次親眼見證大洋中脊的「產房時刻」",
       "title_en": "When the Seafloor Split Open: Scientists Witness a Mid-Ocean Ridge Birth for the First Time",
       "cover_url": "data/images/nature/nature-2026-07-08-04-cover.jpg"
+    },
+    {
+      "id": "nature-2026-07-08-05",
+      "journal": "Nature",
+      "date": "2026-07-08",
+      "path": "articles/2026/07/nature-2026-07-08-05.json",
+      "title_zh": "流動的社會創造創新的經濟：歐洲跨代教育流動如何驅動發明？",
+      "title_en": "When Opportunity Flows, Innovation Follows: How Intergenerational Mobility Fuels Europe's Invention Engine",
+      "cover_url": "data/images/nature/nature-2026-07-08-05-cover.jpg"
     },
     {
       "id": "nature-2026-07-08",
@@ -1509,8 +1536,8 @@
       "journal": "American Sociological Review",
       "date": "2026-03-31",
       "path": "articles/2026/03/american-sociological-review-2026-03-31.json",
-      "title_zh": "恐襲陰影下的職場歧視：伊斯蘭恐怖主義浪潮如何影響中東裔男性的就業機會",
-      "title_en": "Terrorism's Shadow: How Islamist Attack Waves Shape Employment for Middle Eastern Men",
+      "title_zh": "恐怖襲擊之後，僱主眼中的「他者」：伊斯蘭主義恐怖事件如何影響中東裔男性就業",
+      "title_en": "After the Attack: How Islamist Terrorism Reshapes Hiring for Middle Eastern Men",
       "cover_url": ""
     },
     {
@@ -2583,6 +2610,15 @@
       "title_zh": "代理人戰爭的副作用：為何扶持「非國家行為者」反而引爆國與國之間的衝突？",
       "title_en": "The Proxy Paradox: How Backing Non-State Actors Ignites Interstate Warfare",
       "cover_url": ""
+    },
+    {
+      "id": "international-organization-2026-01-01-16",
+      "journal": "International Organization",
+      "date": "2026-01-01",
+      "path": "articles/2026/01/international-organization-2026-01-01-16.json",
+      "title_zh": "當白人比黑人更慘：經濟落差如何點燃種族敵意與政治轉向",
+      "title_en": "When White Workers Lose More: How Relative Economic Decline Fuels Racial Animus and Political Backlash",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-16-cover.jpg"
     },
     {
       "id": "international-organization-2026-01-01",

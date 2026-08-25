@@ -1,0 +1,68 @@
+{
+  "id": "cell-2026-08-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "17",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解哮喘基因的「黑盒子」：新方法直指致病核心",
+      "en": "Cracking Asthma's Genetic Black Box: A New Method Targets the Disease Core"
+    },
+    "summary": {
+      "zh": "【總結】這項研究發表於《Cell》，介紹了一個名為DANDELION的全新計算框架，用於識別驅動複雜疾病的「疾病近端基因」（DPGs）。傳統基因組學方法（如GWAS）雖然已發現數以千計的哮喘相關基因變異，但大多數只是間接調節者，真正的致病核心基因長期被掩蓋。DANDELION透過整合轉錄調控網絡與全外顯子測序數據，成功挖掘出21個以往方法無法發現的哮喘關鍵基因。實驗驗證顯示，這些基因多數直接影響氣道上皮屏障功能和T細胞炎症反應，其中兩個基因（SLC27A3和SCD）的缺失在小鼠模型中顯著減輕了過敏性哮喘的炎症和氣道重塑。這項研究不僅提供了一套強大的致病基因篩選工具，更揭示了蛋白質棕櫚酰化這一前所未有的哮喘致病機制。\n\n【研究問題】複雜疾病（如哮喘）的遺傳基礎極度多基因化——GWAS已發現近200個哮喘風險位點，但絕大多數位於遠離真正致病基因的位置。研究團隊提出：這些遠端位點實際上是透過「反式調控網絡」間接影響一小批核心疾病驅動基因。然而，目前缺乏系統性方法來識別這些疾病近端基因（DPGs）。傳統的GWAS偏向常見變異（效應小），全外顯子測序（WES）受樣本量限制，而cis-eQTL方法也因選擇壓力導致疾病基因往往缺乏強烈的cis調控信號。因此，如何從海量遺傳關聯中抽絲剝繭、找出真正的致病核心，成為人類遺傳學的重大挑戰。\n\n【研究方法】研究團隊開發了DANDELION方法，其靈感來自統計學中的「中介分析」。該框架將疾病關聯變異（X）→ 中介基因（M，即DPGs）→ 疾病表型（Y）構建為一條潛在的中介路徑。具體而言，DANDELION結合兩類數據：第一，利用RNA測序數據計算疾病相關SNP或基因對候選基因的「反式調控效應」（X→M）；第二，利用WES負擔測試評估候選基因與疾病表型的關聯（M→Y）。然後透過DACT（分割-聚合複合零假設檢驗）方法將兩者的p值整合，篩選出統計學上顯著的中介路徑。研究團隊將此方法應用於英國生物銀行（UK Biobank）的哮喘數據（61,807例病例、313,658例對照），並使用eQTLGen和DGN兩個獨立數據集進行交叉驗證。最後，通過CRISPR篩選、小鼠過敏性哮喘模型和脂質體學等多種實驗手段對候選基因進行功能驗證。\n\n【結果】DANDELION在哮喘分析中識別出21個DPGs，其中僅3個是已知GWAS鄰近基因，其餘均為全新候選基因。這些基因在孟氏血液疾病基因中富集達5.3至21.7倍，遠高於隨機基因或僅靠負擔測試候選基因。GO分析顯示這些基因顯著富集於「內質網膜」和「細胞質至內質網運輸」途徑，暗示內質網應激在哮喘发病中的關鍵作用。CRISPR篩選證實，大部分DPGs的敲除顯著影響氣道上皮細胞的屏障功能（TEER測試）和Th2細胞的IL-13細胞因子產生。在小鼠模型中，SLC27A3基因缺失通過改變脂質運輸和蛋白質棕櫚酰化（特別是STAT3信號通路的調控），顯著減輕了氣道炎症、黏液分泌和膠原沉積。研究還發現，GWAS中最顯著的位點實際上有40%映射到「超連接疾病遠端基因」（HCGs）而非DPGs本身，這解釋了為何傳統方法難以直接從GWAS結果中識別致病核心基因。",
+      "en": "**Summary:** Published in Cell, this study introduces DANDELION, a novel computational framework for identifying disease-proximal genes (DPGs)—the central genetic drivers of complex diseases like asthma. While genome-wide association studies (GWAS) have cataloged nearly 200 asthma risk loci, most are distal regulators acting indirectly through trans-regulatory networks, leaving the true disease-driving genes largely hidden. DANDELION overcomes this by integrating trans-regulatory effects from disease-relevant tissues with gene-level burden signals from whole-exome sequencing. The method identified 21 previously undetected asthma DPGs, most of which were experimentally validated using CRISPR screens in epithelial and T cells to show direct effects on key asthma-relevant cellular phenotypes. Knocking out two candidate DPGs, SLC27A3 and SCD, in a mouse model of allergic asthma significantly reduced airway inflammation and remodeling. The study also uncovered protein palmitoylation as a previously unrecognized mechanism in asthma pathogenesis.\n\n**Problem:** Complex diseases are highly polygenic, with GWAS identifying thousands of associated variants—yet most are distal regulators rather than direct drivers of disease. The central challenge is distinguishing the limited set of core disease-driving genes (DPGs) from the vast network of indirect regulators. Existing methods fall short: GWAS is biased toward common variants with small effects, whole-exome sequencing (WES) burden tests are limited by sample size, and cis-eQTL approaches miss disease genes that are under strong selective constraint and thus lack strong cis-regulatory signals. Systematically identifying DPGs has remained an open problem in human genetics, despite its critical importance for therapeutic target discovery.\n\n**Approach:** The authors developed DANDELION, a mediation-inspired statistical framework that models the path from disease-associated variants (X) through mediator genes (M, the DPGs) to the disease trait (Y). The method combines two types of associations: (1) trans-regulatory effects between disease-associated SNPs/genes and candidate mediator genes, estimated from RNA-seq data, and (2) gene-level disease associations from WES burden tests. Using the DACT (divide-aggregate composite-null test), DANDELION integrates p-values from both association types to identify significant putative mediation pathways. Applied to UK Biobank asthma data (61,807 cases, 313,658 controls), the framework was cross-validated using independent eQTLGen and DGN blood expression datasets. Experimental validation included CRISPR screens in bronchial epithelial cells (measuring transepithelial electrical resistance) and primary human Th2 cells (measuring IL-13 production), lipidomics profiling, and in vivo characterization using SLC27A3 and SCD knockout mice in an allergic asthma model.\n\n**Results:** DANDELION identified 21 asthma DPGs, only 3 of which were nearest genes to known GWAS loci—the remaining 18 are novel candidate genes. These DPGs showed 5.3- to 21.7-fold enrichment in Mendelian blood disorder genes, far exceeding enrichment in non-DPGs with similar burden test significance. Gene ontology analysis revealed significant enrichment in \"ER membrane\" and \"cytosol to ER transport\" pathways, implicating endoplasmic reticulum stress in asthma pathogenesis. CRISPR screens confirmed that most DPGs significantly affect epithelial barrier function and Th2 cytokine production. In mice, SLC27A3 loss reduced airway inflammation, mucin production, and collagen deposition by altering lipid transport and protein palmitoylation—specifically modulating STAT3 signaling. Notably, the study found that 40% of the most significant GWAS loci map to hyper-connected distal genes (HCGs) rather than DPGs themselves, explaining why traditional GWAS prioritization often misses the true disease drivers."
+    },
+    "keyArticle": {
+      "title": "Trans-regulatory gene mapping prioritizes disease drivers in asthma",
+      "authors": [
+        "Isabella M. Salamone",
+        "Peixin Tian",
+        "Zining Qi",
+        "Jiaqi Zhao",
+        "Li Zhang",
+        "Qilong Tan",
+        "Jinghui Li",
+        "Ashley N. Michael",
+        "Alexis G. Thornburg",
+        "Noboru J. Sakabe",
+        "Mark Minogue",
+        "Zachary Weber",
+        "Bohao Chen",
+        "Cezary Ciszewski",
+        "Xin He",
+        "Hardik Shah",
+        "Donata Vercelli",
+        "Carole Ober",
+        "Hening Lin",
+        "Zhonghua Liu",
+        "Marcelo A. Nóbrega",
+        "Xuanyao Liu"
+      ],
+      "doi": "10.1016/j.cell.2026.07.034",
+      "pages": "5250-5265.e11"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.034",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.034"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-25T19:32:27.739950+00:00",
+    "source": "openalex"
+  }
+}

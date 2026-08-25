@@ -1,0 +1,50 @@
+{
+  "id": "international-organization-2026-01-01-16",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-01-01",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-01-01-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當白人比黑人更慘：經濟落差如何點燃種族敵意與政治轉向",
+      "en": "When White Workers Lose More: How Relative Economic Decline Fuels Racial Animus and Political Backlash"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了全球化經濟衝擊如何透過「相對經濟落差」驅動種族敵意與政治行為。研究發現，當白人勞工比黑人勞工遭受更嚴重的經濟打擊時，反黑人情緒顯著上升，共和黨總統得票率也隨之增加。這不僅挑戰了過去認為「經濟困難本身」才是政治反彈主因的觀點，更精確指出：是「相對於他者的經濟衰退」而非絕對的經濟困境，才是種族主義政治的真正引擎。\n\n【研究問題】過去關於貿易衝擊與政治反彈的研究，多聚焦於整體經濟受損程度，卻忽視了衝擊在不同種族群體間的不均衡分配。在美國，種族是經濟階層與政治衝突的核心軸線，但國際政治經濟學文獻長期依賴「白人/非白人」的二元框架，模糊了群體間的細微差異。研究缺口在於：我們不了解國際經濟衝擊如何透過當地勞動力市場中的種族間經濟地位變化，轉化為種族敵意與選舉行為。解決此問題至關重要，因為它直接關係到我們如何理解當今美國政治極化與種族緊張的根源。\n\n【研究方法】作者以2000年至2020年美國通勤區（commuting zones）為研究範圍，以「中國衝擊」（China shock）——即中國加入世貿組織後對美出口激增——作為外生經濟衝擊的自然實驗。他們構建了白人和黑人勞工各自的進口衝擊暴露指標，並計算兩者的差距（白人暴露減黑人暴露）作為核心解釋變項。結果變項包括：哈佛大學隱蔽聯想測驗（IAT）測量的隱蔽種族偏見、explicit feeling thermometer 測量的顯性態度、FBI Hate Crime 數據中的反黑人仇恨犯罪，以及南方貧困法律中心的仇恨團體分布資料，最後還有兩黨總統投票率。所有模型均控制整體進口暴露、人口結構變項，並使用通勤區固定效果來捕捉區內變化。\n\n【結果】研究結果顯示，白黑進口暴露差距越大，白人受訪者的反黑人隱蔽偏見越強，explicit 態度也更負面；反黑人仇恨犯罪數量顯著上升，仇恨團體（如三K黨、白人至上主義組織）出現的機率也增加。在政治行為方面，差距較大的通勤區在2000至2020年間民主黨總統得票率顯著下降、共和黨得票率上升。關鍵發現是：一旦控制白黑暴露差距，整體進口暴露的統計顯著性往往消失——這證明驅動種族敵意與政治轉向的不是經濟困難本身，而是白人相對於黑人的經濟地位相對衰落。這項研究為全球化與種族政治之間的連結提供了扎實的微觀基礎，也為理解當今美國政治極化提供了新的解釋框架。",
+      "en": "**Summary:** This study reveals how global economic shocks drive racial animus and political behavior through a mechanism of relative economic decline. The authors find that when white workers suffer disproportionately larger economic losses compared to Black workers in the same labor markets, anti-Black sentiment intensifies and Republican presidential vote shares increase. This challenges the conventional wisdom that economic hardship alone fuels political backlash, pinpointing instead that it is the relative economic decline of a dominant group—rather than absolute deprivation—that powers racialized politics.\n\n**Problem:** Previous research on trade shocks and political backlash has primarily measured aggregate local exposure, treating economic disruption as uniform within labor markets. This overlooks a crucial question: how do international economic shocks reshape racial hierarchies and produce racially specific political responses rather than generalized discontent? In the United States, where race is a foundational axis of economic stratification and political conflict, existing International Political Economy (IPE) literature often relies on a broad white/nonwhite binary that conflates distinct mechanisms such as nativism, anti-immigration sentiment, and demographic anxiety. The gap lies in understanding how trade-induced economic losses are distributed across entrenched racial groups within local labor markets and how this relative distribution translates into racial animus and electoral outcomes. Addressing this gap is essential for explaining the roots of contemporary American political polarization and racial tension.\n\n**Approach:** The authors exploit the China shock—the sharp rise in Chinese imports following China's WTO accession in 2001—as a plausibly exogenous source of variation in local US labor market conditions. Using commuting zone (CZ) data from 2000 to 2020, they construct race-specific measures of import exposure for white and Black workers, then calculate the gap between them (white exposure minus Black exposure) as their key independent variable. Outcome measures include implicit bias (Harvard IAT data), explicit attitudes (feeling thermometers), anti-Black hate crimes (FBI Uniform Crime Reporting data), the presence of hate groups (Southern Poverty Law Center data), and two-party presidential vote share. Their empirical strategy uses CZ fixed effects to capture within-area changes over time, controlling for overall import exposure, demographic composition, and other time-varying factors.\n\n**Results:** The findings are striking and consistent across multiple measures. A larger white-Black import exposure gap is associated with stronger anti-Black implicit bias, more negative explicit racial attitudes, higher rates of anti-Black hate crimes, and increased likelihood of hate group presence in a commuting zone. Politically, larger gaps predict declining Democratic and rising Republican presidential vote shares. Crucially, once the relative exposure gap is accounted for, the effect of overall import exposure often becomes statistically insignificant—demonstrating that it is the racially differentiated distribution of economic decline, not economic hardship per se, that drives racial animus and political realignment. The study also shows these effects strengthened during and after the Obama administration, consistent with elite rhetoric amplifying status threat. These results provide a micro-foundation linking globalization to racialized political outcomes and suggest that the domestic political consequences of economic integration depend fundamentally on how losses are distributed across existing social group boundaries."
+    },
+    "keyArticle": {
+      "title": "Relative Exposure to Negative Economic Shocks, Racial Animus, and Voting",
+      "authors": [
+        "Daniel B. Jones",
+        "Erica Owen",
+        "Rena Sung"
+      ],
+      "doi": "10.1017/s0020818326101428",
+      "pages": "497-528"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-01-01-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101428",
+      "doi": "https://doi.org/10.1017/s0020818326101428",
+      "preprint": "https://doi.org/10.2139/ssrn.5146425"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-25T19:33:30.878069+00:00",
+    "source": "openalex"
+  }
+}

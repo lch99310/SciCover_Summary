@@ -1,0 +1,49 @@
+{
+  "id": "nature-2026-07-08-05",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8128",
+  "date": "2026-07-08",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-07-08-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "流動的社會創造創新的經濟：歐洲跨代教育流動如何驅動發明？",
+      "en": "When Opportunity Flows, Innovation Follows: How Intergenerational Mobility Fuels Europe's Invention Engine"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《自然》的研究揭開了一個常被忽略的經濟增長引擎：社會流動性。作者團隊構建了歐洲首個跨代教育流動性空間數據庫（EUROPE-IGM-ATLAS），覆蓋36個國家的225個次國家區域，時間跨度從1985年至2025年。研究的核心發現是，跨代教育流動性較高的歐洲地區，其創新產出（以專利數量衡量）顯著更高，兩者之間呈現穩定且強烈的負相關關係。更重要的是，這種效應並非線性——在流動性較低的社會中，提升流動性帶來的創新紅利最大。\n\n【研究問題】過去關於不平等與經濟增長的討論，大多聚焦於個人層面的後果，而缺乏大規模實證證據來回答：跨代流動性的改善是否能在宏觀層面促進經濟發展？尤其是，教育機會的不平等如何影響一個地區的創新能力？這一研究缺口限制了政策制定者理解社會公平與經濟效率之間的聯繫。\n\n【研究方法】研究團隊利用歐洲社會調查（ESS）2002至2023年間11個波次的數據，涵蓋約26萬名受訪者，估算三個出生世代（1940-1959、1960-1979、1980-1999）的跨代教育流動性。他們將世代層級的指標轉化為年度時間序列數據，並與歐洲專利局（EPO）的專利數據進行匹配，以三個維度衡量創新：專利申請數量、獲批專利數量和引用加權專利數量。分析中控制了平均教育年限、教育不平等程度、歷史氣候條件及當代區域經濟狀況等多重變量，並採用區域與時間固定效應來排除混淆因素。\n\n【結果】研究發現，歐洲整體的跨代教育流動性在二十世紀後半葉有所提升，主要得益於低教育背景家庭子女的教育成就改善。然而，流動性的提升並非均勻分布——南部和東部歐洲地區仍顯著落後於北部和中部歐洲。在創新方面，斜率係數每下降0.1（代表流動性提升），專利數量增加4%至23%。約89%的估計結果顯示流動性與創新之間存在統計上顯著的負相關，平均彈性約為14%。然而，在頂級創新樞紐地區（專利數排名前10%），這種正相關關係反而減弱甚至轉為負向，原因在於這些地區已依靠集聚經濟和精英網絡驅動創新，而非依賴更廣泛的人才挖掘。研究進一步揭示，流動性對創新的促進作用呈現非線性特徵：在流動性較低的社會中，改善流動性帶來的創新收益最大，而在已具有高流動性的地區，進一步提升的邊際效益遞減。",
+      "en": "**Summary:** This Nature study uncovers a often-overlooked engine of economic growth: social mobility. The authors constructed the EUROPE-IGM-ATLAS, the first spatially disaggregated database on intergenerational educational mobility across 225 subnational regions in 36 European countries, spanning 1985 to 2025. The core finding is that European regions with higher intergenerational mobility produce significantly more innovation, measured by patent output, with a robust negative relationship between persistence and invention. Crucially, this relationship is nonlinear—the greatest innovation gains come from lifting mobility in societies where it is currently low.\n\n**Problem:** While decades of research have examined the individual consequences of inequality, a critical gap remains: does improving intergenerational mobility at scale actually drive economic development? Specifically, how does educational opportunity inequality affect a region's innovative capacity? Filling this gap is essential for policymakers seeking to understand the link between social equity and economic efficiency.\n\n**Approach:** The team analyzed 11 waves of the European Social Survey (2002-2023), covering approximately 258,000 respondents, to estimate intergenerational educational mobility across three birth cohorts (1940-1959, 1960-1979, 1980-1999). They transformed cohort-level measures into annual time-series indicators and linked them to European Patent Office (EPO) patent data, using three innovation metrics: raw patent applications, granted patents, and citation-weighted patents. The analysis controlled for average education, educational inequality, historical climate conditions, and contemporary regional economic conditions, while employing region and time fixed effects to address confounding factors.\n\n**Results:** Intergenerational educational mobility improved across Europe during the late 20th century, driven primarily by educational gains among individuals from lower-education families. However, this progress was uneven—Southern and Eastern Europe lagged significantly behind Northern and Central Europe. Regarding innovation, a 0.1 decrease in the persistence slope coefficient (indicating improved mobility) was associated with a 4% to 23% increase in patent counts. Approximately 89% of estimates showed a statistically significant negative relationship between persistence and innovation, with an average elasticity of around 14%. Yet in top innovation hubs (top 10% in patents), this positive relationship weakened or even turned negative, as these regions rely more on agglomeration economies and elite networks than on broad talent discovery. The study further reveals that the mobility-innovation link is nonlinear: regions with initially low mobility see the largest innovation gains from improved mobility, while those already highly mobile experience diminishing returns."
+    },
+    "keyArticle": {
+      "title": "Intergenerational mobility fosters innovation in Europe",
+      "authors": [
+        "Sarah McNamara",
+        "Guido Neidhöfer",
+        "Patrick Lehnert"
+      ],
+      "doi": "10.1038/s41586-026-10736-9",
+      "pages": "646-652"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-07-08-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10736-9",
+      "doi": "https://doi.org/10.1038/s41586-026-10736-9"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-25T19:31:48.628807+00:00",
+    "source": "openalex"
+  }
+}
