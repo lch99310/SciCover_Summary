@@ -1,0 +1,57 @@
+{
+  "id": "nature-2026-08-26",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8129",
+  "date": "2026-08-26",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-26-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解磁學新形態：CrSb 中的 g 波交換分裂與三維費米面圖譜",
+      "en": "Mapping the g-Wave Altermagnet: How CrSb Reveals a Hidden Spin Texture"
+    },
+    "summary": {
+      "zh": "【總結】劍橋大學研究團隊在《自然》期刊發表突破性成果，首次在體相材料中完整繪製出 CrSb 的 g 波反鐵磁序參量。這項研究證實 CrSb 是一種室溫金屬性反鐵磁（altermagnet），其自旋分裂模式遵循 g 軌域對稱性——這是凝聚態物理中首次以量子振盪技術直接測得如此高階的磁序參量對稱性。\n\n【研究問題】過去十年，物理學家一直在尋找金屬性反鐵磁材料，但許多候選者（如 RuO₂ 和 KV₂Se₂O）的表面光譜結果與體相測量相互矛盾。表面敏感技術（如光電子能譜）容易受到表面態干擾，無法區分體相真實磁性與表面拓撲態。研究缺口在於：缺乏一種能穿透材料內部、同時解析動量依賴性自旋分裂的精確體相探針。\n\n【研究方法】研究團隊採用德哈斯－范阿爾芬效應（量子振盪測量），在極低溫（0.4 K）與強磁場（高達 41.5 特斯拉）條件下，旋轉磁場方向穿過 CrSb 晶體的各向異性平面。他們同時進行了密度泛函理論（DFT）計算，並利用 LOESS 背景扣除與高通濾波技術，從複雜的磁扭矩信號中分離出狗骨形費米面的量子振盪成分。\n\n【結果】關鍵發現包括：在節面方向（如沿 a 軸），量子振盪頻率僅出現單一峰（4.1 kT）；偏離節面僅 3° 後，頻率即分裂為 3.41 kT 與 3.82 kT 兩個峰，分裂幅度達 0.41 kT。有效質量比 m*₁/m*₂ = 0.94 與頻率比的平方根完全吻合，證實兩峰來自同一母費米面的自旋分裂。推算費米面處交換分裂能約 25 meV。CrSb 的奈爾溫度高達約 740 K，且殘餘電阻率低至 2 μΩ·cm，顯示其極高的材料品質與應用潛力。",
+      "en": "**Summary:** A team at the University of Cambridge has published a landmark study in Nature, presenting the first bulk, three-dimensional mapping of a g-wave altermagnetic order parameter in CrSb. The work establishes CrSb as a prototypical room-temperature metallic altermagnet, in which the momentum-dependent spin splitting follows the symmetry of a g-orbital — a real spherical harmonic Y⁻³₄ proportional to zy(3x²−y²). This represents the highest-order magnetic order parameter symmetry ever resolved by quantum oscillation techniques in a bulk metal.\n\n**Problem:** For over a decade, the search for metallic altermagnets has been hampered by contradictory evidence: surface-sensitive photoemission studies of candidates like RuO₂ and KV₂Se₂O appeared to show altermagnetic spin splitting, but subsequent bulk-sensitive measurements revealed conventional antiferromagnetism or topological surface states masquerading as bulk splitting. The critical gap has been the lack of a bulk probe capable of resolving momentum-dependent spin splitting with the angular resolution needed to map nodal planes and order parameter symmetry.\n\n**Approach:** The researchers employed de Haas–van Alphen quantum oscillation measurements at 0.4 K in fields up to 41.5 T, rotating the magnetic field through multiple crystallographic planes — nodal (c–a), antinodal (c–ab), and a tilted low-symmetry plane at 14° from the ab plane. They combined cantilever torque magnetometry with high-pass filtering and LOESS background subtraction to isolate the dogbone Fermi sheet oscillations. Density functional theory (DFT) calculations using the WIEN2k code provided theoretical frequency profiles for direct comparison.\n\n**Results:** The central finding is a clean, quantitative mapping of g-wave symmetry. Along nodal directions (H ∥ a), a single quantum oscillation frequency of 4.1 kT is observed. A mere 3° rotation into the antinodal plane produces a clear beat pattern, with the peak splitting into two branches at 3.41 kT and 3.82 kT — a separation of 0.41 kT. The effective masses of the two spin-split sheets (1.73 me and 1.84 me) satisfy m*₁/m*₂ = √(f₁/f₂) = 0.94, confirming they originate from the same parent Fermi surface. The estimated exchange splitting at the Fermi level is approximately 25 meV. CrSb orders at ~740 K, far above room temperature, and exhibits a residual resistivity as low as 2 μΩ·cm — a combination of properties that positions it as a leading candidate for practical spintronic devices."
+    },
+    "keyArticle": {
+      "title": "3D bulk-resolved g-wave altermagnetic order parameter in CrSb",
+      "authors": [
+        "Mengmeng Long",
+        "Theodore I. Weinberger",
+        "Z. Wu",
+        "Mads F. Hansen",
+        "Ran Tao",
+        "Mridul Shrestha",
+        "D. Graf",
+        "Y. Skourski",
+        "F. Malte Grosche",
+        "Alexander G. Eaton"
+      ],
+      "doi": "10.1038/s41586-026-10902-z",
+      "pages": "854-860"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-26-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10902-z",
+      "doi": "https://doi.org/10.1038/s41586-026-10902-z",
+      "preprint": "https://arxiv.org/abs/2601.14526"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-29T01:58:58.350116+00:00",
+    "source": "openalex"
+  }
+}

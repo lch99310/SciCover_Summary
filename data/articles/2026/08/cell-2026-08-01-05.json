@@ -1,0 +1,54 @@
+{
+  "id": "cell-2026-08-01-05",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "17",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "看懂別人的動作，大腦是如何做到的？新研究揭開「鏡像神經元」的神秘面紗",
+      "en": "How Your Brain Decodes Others' Actions: The Hidden Hierarchy Behind Understanding Movement"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Cell》的研究，透過直接記錄人類大腦的神經活動，揭示了我們理解他人動作時的腦部運作機制。研究發現，大腦並非單純靠「鏡像」來理解動作，而是存在一個階層式的分工系統：運動皮層（MC）專注於 encode 自己的意圖，而頂葉皮層（SPL）則負責將觀察到的動作與內部目標連結起來，且這種連結會根據行為相關性靈活開關。\n\n【研究問題】過去三十年，神經科學界普遍相信「鏡像神經元」是大腦理解他人動作的核心機制——當我們看到別人做動作時，大腦會無意識地重現相同的運動指令。然而，這個理論主要建立在猴子實驗上，人類單神經元證據極度缺乏。此外，鏡像理論無法解釋為何觀察反應會隨任務情境變化，也無法說明觀察與意圖的神经表示是否真的共享同一套代碼。\n\n【研究方法】研究團隊招募了兩位四肢癱瘓的患者（JJ 和 RD），他們因醫療需求已在運動皮層和頂葉皮層植入了 Utah 電極陣列。研究團隊記錄了單個神經元活動（SUA）、多單元活動（MUA）以及局部場電位（LFP）。實驗設計了一個精細的因子實驗：受試者要在兩種情境下執行或觀察手部動作——意圖動作（自己想像並準備執行）與觀察動作（靜止觀看他人做動作）。每個動作包含2隻手×3種動作類型（抬、滑、旋轉）×2個方向，共12種條件。研究還設計了「解離任務」來測試當意圖與觀察內容衝突時，大腦如何處理。\n\n【結果】研究發現了三個關鍵結果。第一，在單神經元層面，SPL 有35.4%的神經元在兩種情境下都對動作有反應，而 MC 僅有12.4%。第二，在群體編碼層面，SPL 在兩種情境下都能穩定解碼動作類型（觀察時達84.9%準確率），而 MC 在觀察時的解碼能力僅略高於隨機（54.9%）。第三，在解離任務中，當觀察的動作與意圖動作不一致時，SPL 只在觀察動作具有行為相關性時才會編碼該動作，而 MC 始終只反映意圖動作。這些結果表明 SPL 存在一個情境依賴的門控機制，而 MC 則維持意圖主導的編碼方式。",
+      "en": "**Summary:** This Cell study provides the first direct single-neuron evidence in humans showing that action understanding relies on a hierarchical, context-dependent system rather than simple mirror mechanisms. The motor cortex (MC) maintains intention-specific codes regardless of what is observed, while the superior parietal lobule (SPL) flexibly links observed actions to internal goals—but only when behaviorally relevant. This challenges the decades-old mirror neuron theory and reveals a more nuanced neural architecture for social cognition.\n\n**Problem:** For over thirty years, the mirror neuron theory has dominated our understanding of how we comprehend others' actions. First discovered in macaques, mirror neurons fire both when performing and observing an action, suggesting we understand others by covertly simulating their movements. However, this framework faces three critical gaps: (1) direct single-neuron evidence in humans is virtually absent, (2) mirror responses are increasingly shown to be shaped by context and prior experience rather than being hardwired, and (3) the theory cannot explain how the brain flexibly selects which observed actions to encode. Understanding whether action observation shares neural representations with action execution—and how this generalization differs across cortical regions—remains a fundamental open question in neuroscience.\n\n**Approach:** Researchers recorded from two tetraplegic participants (JJ and RD) who had Utah array implants in their motor and parietal cortices for clinical reasons. They captured single-unit activity (SUA), multi-unit activity (MUA), and local field potentials (LFPs) while participants performed or passively observed hand actions. The experimental design used a fully crossed factorial structure: 2 hands × 3 action types (lift, slide, rotate) × 2 directions, creating 12 unique conditions across two formats—intention (imagining/executing) and observation (watching videos). A key innovation was the dissociation task, where instructed and observed actions were deliberately mismatched, allowing the team to test whether neural encoding of observed actions depends on behavioral relevance. This design enabled direct comparison of representational geometry across cortical regions and task formats.\n\n**Results:** Three striking findings emerged. First, at the single-neuron level, SPL showed 35.4% of units responsive in both intention and observation formats, compared to only 12.4% in MC. Shared action tuning was the most common model in SPL (31.2%) but rare in MC. Second, population-level decoding revealed SPL could decode action types during observation with 84.9% accuracy and achieved robust bidirectional cross-format decoding (up to 93% accuracy), while MC showed weak, asymmetric generalization—only 54.9% accuracy during observation and unidirectional decoding. Procrustes analysis confirmed SPL maintained consistent representational geometry across formats (alignment distance d < 0.1), whereas MC showed selective or absent overlap. Third, in the dissociation task, SPL encoded observed actions only when they were behaviorally relevant (probe condition), while MC remained locked to instructed intentions. These results demonstrate that SPL acts as a flexible gate for action understanding, while MC serves as a stable intention encoder."
+    },
+    "keyArticle": {
+      "title": "Hierarchical and context-dependent encoding of actions in human posterior parietal and motor cortex",
+      "authors": [
+        "Vasiliki Bougou",
+        "Jorge Gámez",
+        "Emily R. Rosario",
+        "Charles Y. Liu",
+        "Kelsie Pejsa",
+        "Ausaf Bari",
+        "Richard A. Andersen"
+      ],
+      "doi": "10.1016/j.cell.2026.07.032",
+      "pages": "5304-5317.e7"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.032",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.11.10.687245"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-29T01:59:35.628827+00:00",
+    "source": "openalex"
+  }
+}
