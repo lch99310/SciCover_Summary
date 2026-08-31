@@ -1,0 +1,64 @@
+{
+  "id": "science-2026-07-23-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6809",
+  "date": "2026-07-23",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-23-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "阿茲海默症的「三維密碼」：大腦細胞如何從內部崩解",
+      "en": "The 3D Genome Unravels in Alzheimer's"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊利用新型單細胞多體學技術 GAGE-seq，首次在大腦前額葉皮質中同時繪製阿茲海默症（AD）患者與健康對照組的基因表現與三維染色體結構。他們發現 AD 的大腦細胞中，染色體三維組織出現全局性崩解——原本緊密分隔的活躍與沉默區域開始混雜，長距離染色體交互作用顯著增加，並與特定神經元與膠質細胞的基因調控失調密切相關。這項研究將三維基因組重塑確立為 AD 分子病理的重要一環。\n\n【研究問題】過去單細胞轉錄體研究已清楚描繪 AD 中哪些基因表現改變，但染色體在三維空間中的組織方式如何影響這些改變，仍是未解之謎。雖然表觀遺傳學研究顯示 AD 存在染色質可及性變化，卻從未有研究在單細胞層級同時整合三維基因組、轉錄體、染色質可及性與空間資訊。理解這層調控機制，對揭示為何特定細胞類型對 AD 特別脆弱至關重要。\n\n【研究方法】研究團隊使用 GAGE-seq 技術，對 20 位 ROSMAP 計劃捐贈者（10 位 AD、10 位非 AD）的前額葉皮質單細胞進行轉錄體與 Hi-C 染色體交互作用共測序。他們進一步整合來自相同捐贈者的 snATAC-seq 數據與 Xenium 空間轉錄體數據，並開發了深度學習模型 Hicformer，將 DNA 序列與一維、二維染色體特徵結合，預測細胞類型特異性的基因表現。\n\n【結果】AD 細胞顯示長距離染色體交互作用比例上升，A/B 隔間混雜分數提高，且與總轉錄活性下降相關。CTCF 介導的中距離染色體環增強最為顯著，影響 excitatory neurons、inhibitory neurons 與 astrocytes。小膠質細胞表現最高衰老相關基因集分數，星形膠質細胞則有最高的 SASP 分數。Hicformer 在預測 AD 相關差異表現基因時顯著優於僅用 DNA 序列的基線模型，特別是在免疫相關基因上。空間分析顯示 AD 中神經元-膠質細胞鄰域結構改變，如 L4 星形膠質細胞與 Exc L4 IT 神經元距離增加 63.4%。",
+      "en": "**Summary:** The research team used a novel single-cell multiomics technology called GAGE-seq to simultaneously map gene expression and three-dimensional chromatin architecture in the human prefrontal cortex of Alzheimer's disease (AD) patients and age-matched controls. They discovered that AD brains exhibit a global breakdown of 3D genome organization: active and repressive chromatin compartments become increasingly mixed, long-range chromatin interactions surge, and these structural changes are tightly linked to cell type-specific transcriptional dysregulation — particularly in excitatory neurons, inhibitory neurons, and astrocytes. The study establishes higher-order chromatin reorganization as a core component of AD molecular pathology.\n\n**Problem:** While single-cell RNA sequencing has revealed which genes go awry in AD, the role of 3D genome architecture in shaping these transcriptional changes remains largely unexplored. Previous epigenomic studies noted chromatin accessibility changes, but no study had integrated 3D chromatin structure, transcriptome, chromatin accessibility, and spatial context from the same samples at single-cell resolution. Understanding this regulatory layer is critical to explaining why specific cell types are selectively vulnerable in AD.\n\n**Approach:** The researchers applied GAGE-seq to postmortem prefrontal cortex tissue from 20 ROSMAP donors (10 with AD, 10 without), jointly profiling transcriptomes and Hi-C chromatin contacts in individual cells. They integrated matched snATAC-seq data and Xenium spatial transcriptomics from the same cohort. They also developed Hicformer, a transformer-based deep learning model that combines DNA sequence with 1D and 2D chromatin features to predict cell type-specific gene expression.\n\n**Results:** AD cells showed a significant increase in long-range chromatin interactions and higher A/B compartment mingling scores, correlated with reduced global transcriptional output. CTCF-mediated mid-range chromatin loops were selectively enhanced across excitatory neurons, inhibitory neurons, and astrocytes. Microglia exhibited the highest senescence program scores, while astrocytes showed the strongest SASP signatures. Hicformer outperformed sequence-only models, especially for immune-related and AD-risk genes. Spatial analysis revealed disrupted neuron-glia neighborhoods — for example, L4 astrocytes showed a 63.4% reduction in spatial proximity to Exc L4 IT neurons in AD. The study provides a multiscale map linking 3D genome remodeling to transcriptional and spatial alterations in neurodegeneration."
+    },
+    "keyArticle": {
+      "title": "Single-cell multiomics connects 3D genome and transcriptome alterations in Alzheimer’s disease",
+      "authors": [
+        "Yang Zhang",
+        "Xinyue Lu",
+        "Alexander K. Kunisky",
+        "Shahul Alam",
+        "Junjie Tang",
+        "Ruochi Zhang",
+        "Shike Wang",
+        "H H Zhang",
+        "Jude K. Baroudi",
+        "Walid Ichcho",
+        "Deyong Jia",
+        "Sahar Ghorbanikalateh",
+        "Sahel Ghorbanikalateh",
+        "Shihan Wang",
+        "David A. Bennett",
+        "Hansruedi Mathys",
+        "Zhijun Duan",
+        "Jian Ma"
+      ],
+      "doi": "10.1126/science.adz1652",
+      "pages": "eadz1652"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-23-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz1652",
+      "doi": "https://doi.org/10.1126/science.adz1652"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-31T23:08:05.196022+00:00",
+    "source": "openalex"
+  }
+}

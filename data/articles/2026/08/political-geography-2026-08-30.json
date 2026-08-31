@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-08-30",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-08-30",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-08-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "一條線，多個版本：韓戰停戰線為何越來越「看不清」？",
+      "en": "One Line, Many Versions: Why the Korean Demarcation Line Is Growing Fuzzier"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章挑戰了對韓戰軍事分界線（MDL）的常規想像。人們普遍認為這是冷戰時期最清晰、最嚴格執行的邊界之一，但作者指出，這條線的「不清楚」並非邊界不存在，而是其操作基準發生了動搖——哪份地圖算數、哪個標記可信、哪個機構有權裁決，都成了爭議。文章提出「分版劃界」（versioned demarcation）的概念，說明邊界清晰度不是天然屬性，而是透過地圖、標記、紀錄與驗證程序持續對齊的基礎設施成就。\n\n【研究問題】過去研究多將邊界視為「沙灘上的一條線」，忽視了邊界如何在日常維護中保持可操作性。本文追问：當聯合檢查與維護機制逐漸瓦解，一條被高度軍事化的邊界如何仍能運作？為何關於「線在哪裡」的爭議，本質上是關於誰有權驗證、誰能進入、誰能保管基準的權力之爭？解決這個問題，有助於理解全球許多類似「模糊邊界」背後的運作邏輯。\n\n【研究方法】作者綜合分析1953年《韓戰停戰協定》原文及附件地圖、軍事停戰委員會（MAC）會議紀錄、聯合國指揮部（UNC）操作規範，以及後續測繪與地理空間更新資料。透過檔案重建，追蹤從地圖符號到地面標記的翻譯過程，並檢視標記系統如何隨時間退化、版本如何產生衝突。理論上，文章將邊境研究與科學技術研究（STS）對話，把邊界視為一種需要持續維護的基礎設施。\n\n【結果】研究揭示，1953年安裝的標記中僅約10%仍可見；地圖比例尺1:50,000下，0.20毫米的線寬等於地面10公尺，測繪誤差可達32公尺，而精確調查曾發現實際線位與預期位置偏差超過100公尺。這些數字說明，邊界從來不是一條精確的幾何線，而是依賴標記完整性與機構驗證的社會技術集合。當聯合監督停擺、標記損壞、存取受限，邊界並未消失，而是以多個部分對齊、有時互不相容的「操作版本」繼續存在。這為分析世界各地類似邊界爭議提供了新的理論框架。",
+      "en": "**Summary:** This article challenges the conventional image of the Korean Military Demarcation Line (MDL) as one of the clearest borders of the Cold War. The author argues that the line's growing \"unclearness\" does not mean the border has disappeared, but that its operational reference has become uncertain: which map counts, which markers are trustworthy, and which institution has the authority to adjudicate. The article introduces the concept of \"versioned demarcation\" to show that border clarity is not an inherent property but an ongoing infrastructural achievement sustained through the alignment of maps, markers, records, and verification procedures.\n\n**Problem:** Previous research often treated borders as fixed lines drawn on maps, overlooking how operational clarity is produced and maintained through daily practices. The article asks: when joint inspection and maintenance mechanisms erode, how does a heavily militarized border continue to function? And why do disputes over \"where the line is\" often mask deeper conflicts over who can verify, who has access, and who holds custodial authority? Solving this problem offers a framework for understanding ambiguous borders worldwide.\n\n**Approach:** The author combines documentary analysis of the 1953 Korean Armistice Agreement and its annex maps, Military Armistice Commission (MAC) meeting records, United Nations Command (UNC) operational regulations, and subsequent geospatial updating efforts. The study traces the translation from cartographic symbols to ground markers and examines how the marker system deteriorated and how versions came into conflict. Theoretically, the article bridges border studies with science and technology studies, treating the border as infrastructure that requires continuous maintenance.\n\n**Results:** The research reveals that only about 10 percent of the markers installed in 1953 remain visible; at a 1:50,000 scale, a 0.20 mm line width translates to 10 meters on the ground, and plotting errors can reach 32 meters, with precise surveys uncovering discrepancies exceeding 100 meters between the effective line and its assumed position. These figures demonstrate that the border was never a precise geometric line but a socio-technical assemblage dependent on marker integrity and institutional verification. When joint supervision collapsed and markers deteriorated, the line did not vanish—it persisted through multiple, partially aligned, and sometimes incompatible operational versions. This offers a new analytical framework for understanding similar border disputes globally."
+    },
+    "keyArticle": {
+      "title": "Bordering standards: The politics of verifying the Korean military demarcation line",
+      "authors": [
+        "Junsu Kim"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103652",
+      "pages": "103652"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-08-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103652",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103652"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-31T23:11:08.067409+00:00",
+    "source": "openalex"
+  }
+}

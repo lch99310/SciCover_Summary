@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-08-29T02:01:12.135330+00:00",
+  "lastUpdated": "2026-08-31T23:11:38.667099+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-08-30",
+      "journal": "Political Geography",
+      "date": "2026-08-30",
+      "path": "articles/2026/08/political-geography-2026-08-30.json",
+      "title_zh": "一條線，多個版本：韓戰停戰線為何越來越「看不清」？",
+      "title_en": "One Line, Many Versions: Why the Korean Demarcation Line Is Growing Fuzzier",
+      "cover_url": "data/images/political-geography/political-geography-2026-08-30-cover.jpg"
+    },
     {
       "id": "nature-2026-08-26",
       "journal": "Nature",
@@ -54,6 +63,15 @@
       "title_zh": "受體自己管自己？肌營養蛋白的「自我修剪」機制揭開肌肉退化謎團",
       "title_en": "The Receptor That Trims Itself: How Dystroglycan Regulates Its Own Glycan Coat",
       "cover_url": "data/images/science/science-2026-08-13-cover.jpg"
+    },
+    {
+      "id": "nature-2026-08-12-02",
+      "journal": "Nature",
+      "date": "2026-08-12",
+      "path": "articles/2026/08/nature-2026-08-12-02.json",
+      "title_zh": "宇宙深處的首條星流：天文學家在銀河系外發現球狀星團潮汐殘骸",
+      "title_en": "The First Stellar Stream Beyond Our Galaxy: Hunting Dark Matter in the Faint Glow of a Distant Ultra-Diffuse Galaxy",
+      "cover_url": "data/images/nature/nature-2026-08-12-02-cover.jpg"
     },
     {
       "id": "nature-2026-08-12",
@@ -126,6 +144,15 @@
       "title_zh": "看懂別人的動作，大腦是如何做到的？新研究揭開「鏡像神經元」的神秘面紗",
       "title_en": "How Your Brain Decodes Others' Actions: The Hidden Hierarchy Behind Understanding Movement",
       "cover_url": "data/images/cell/cell-2026-08-01-05-cover.jpg"
+    },
+    {
+      "id": "cell-2026-08-01-06",
+      "journal": "Cell",
+      "date": "2026-08-01",
+      "path": "articles/2026/08/cell-2026-08-01-06.json",
+      "title_zh": "大腦失智不只是腦的事：免疫系統如何悄悄「背叛」你的神經元",
+      "title_en": "When the Brain's Immune Allies Turn Against It: Rethinking Neurodegeneration",
+      "cover_url": "data/images/cell/cell-2026-08-01-06-cover.jpg"
     },
     {
       "id": "cell-2026-08-01",
@@ -216,6 +243,15 @@
       "title_zh": "邊界不在地圖上：希臘-土耳其邊境如何重塑國家權力",
       "title_en": "The Border Is Not on the Map: How the Greek-Turkish Frontier Redefines State Power",
       "cover_url": ""
+    },
+    {
+      "id": "science-2026-07-23-02",
+      "journal": "Science",
+      "date": "2026-07-23",
+      "path": "articles/2026/07/science-2026-07-23-02.json",
+      "title_zh": "阿茲海默症的「三維密碼」：大腦細胞如何從內部崩解",
+      "title_en": "The 3D Genome Unravels in Alzheimer's",
+      "cover_url": "data/images/science/science-2026-07-23-02-cover.jpg"
     },
     {
       "id": "science-2026-07-23",

@@ -1,0 +1,50 @@
+{
+  "id": "cell-2026-08-01-06",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "17",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦失智不只是腦的事：免疫系統如何悄悄「背叛」你的神經元",
+      "en": "When the Brain's Immune Allies Turn Against It: Rethinking Neurodegeneration"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章提出了一個顛覆性的觀點：神經退化疾病（如阿茲海默症、帕金森氏症）不只是神經元自身的故障，更是大腦與免疫系統之間「對話」崩潰的結果。研究團隊綜合了近年來神經科學與免疫學的最新發現，建立了一個全新的框架——將免疫細胞視為大腦健康的「哨兵」與「塑造者」，而非被動反應者。這項研究的突破在於將神經退化重新定義為「神經免疫對話失調」，為治療策略打開了全新方向。\n\n【研究問題】過去對神經退化的理解長期聚焦於神經元本身的病變，例如蛋白質異常聚集（如β-澱粉樣蛋白、tau蛋白），卻忽略了免疫系統在其中的核心角色。傳統觀點認為大腦是「免疫特權」器官，免疫細胞被排除在外。然而，近年研究顯示免疫細胞實際參與大腦功能，但其作用機制、時機與方向性仍不清楚。解決這個問題至關重要，因為若神經退化源於神經免疫對話失調，僅針對蛋白質聚集的治療可能治標不治本。\n\n【研究方法】作者並未進行單一實驗，而是透過綜合分析大量文獻，提出三個概念框架：「由外而內」（周邊免疫系統影響大腦）、「由內而外」（小膠質細胞協調免疫通訊）以及「鎖定狀態」（基因調控機制穩定異常免疫狀態）。文章引用了來自人類患者組織、小鼠模型、基因體學數據等多種證據，並整合了腸道-大腦軸、腦膜淋巴管、骨髓等新兴研究領域的發現。\n\n【結果】研究指出，T細胞可識別神經元自體抗原（如帕金森氏症中的α-突觸核蛋白），並在腸道中被「教育」後遷移至大腦；小膠質細胞不僅清除病原，更作為信號中樞，透過分泌趨化因子（如CXCL10）招募T細胞，形成正反饋循環；基因調控機制（如染色質修飾）可將免疫狀態「鎖定」，使大腦對炎症反應產生長期記憶。這些發現暗示，治療神經退化不應僅限於清除蛋白質，而應重新調節神經免疫對話，恢復免疫穩態。",
+      "en": "**Summary:** This perspective article challenges the conventional view that neurodegenerative diseases like Alzheimer's and Parkinson's are solely disorders of neurons. Instead, the authors argue that neurodegeneration is fundamentally a failure of neuroimmune crosstalk—a breakdown in the continuous dialogue between the nervous and immune systems. The breakthrough lies in reframing immune cells not as passive responders but as active sentinels and shapers of neuronal health, vulnerability, and repair. By synthesizing decades of converging evidence, the authors propose a paradigm shift: restoring immune homeostasis and recalibrating neuroimmune communication may be as critical as targeting protein aggregates.\n\n**Problem:** For decades, research on neurodegeneration has been dominated by the protein-aggregation hypothesis, focusing on amyloid-beta, tau, and alpha-synuclein as primary drivers of disease. The brain was long considered an immune-privileged site, with immune cells viewed as outsiders or mere responders to damage. However, this view fails to explain why neurodegeneration varies so widely among individuals with similar protein pathology, or why immune modulation shows promise in preclinical models. Understanding neuroimmune crosstalk is crucial because it could reveal why current therapies targeting proteins alone have largely failed and open new therapeutic avenues.\n\n**Approach:** Rather than presenting new experimental data, the authors construct a conceptual framework by integrating findings from human genetics, animal models, single-cell transcriptomics, and immunology. They organize the evidence into three frameworks: the outside-in model (peripheral immune responses initiating or shaping CNS pathology), the inside-out model (microglia orchestrating broader immune communication), and the locked-in model (epigenetic and gene regulatory mechanisms stabilizing maladaptive immune states). The analysis draws on diverse evidence including T cell reactivity to neuronal antigens in Parkinson's and ALS, gut-brain immune axes, microglial-T cell feedback loops, and chromatin-based cellular memory.\n\n**Results:** Key findings include: (1) Peripheral T cells in Parkinson's patients recognize alpha-synuclein peptides presented on MHC molecules, suggesting antigen-specific adaptive immunity against neuronal self-antigens. (2) Gut-educated T cells traffic to the brain and localize to disease-relevant regions, with disruption of this circuit reducing pathology in mouse models. (3) Microglia secrete chemokines like CXCL10 to recruit CD8+ T cells, creating a feedback loop that amplifies neuroinflammation. (4) Epigenetic mechanisms can lock immune cells into disease-associated states, creating persistent vulnerability. These results imply that neurodegeneration is a systems-level failure of communication, not merely a cellular malfunction, and that therapies targeting immune recalibration—rather than protein clearance alone—may offer transformative potential."
+    },
+    "keyArticle": {
+      "title": "Neurodegeneration as a dysregulation of neuroimmune crosstalk",
+      "authors": [
+        "F. Chris Bennett",
+        "Soyon Hong",
+        "Ning Jiang",
+        "Ivan Marazzi"
+      ],
+      "doi": "10.1016/j.cell.2026.07.015",
+      "pages": "5156-5173"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.015",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.015"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-31T23:09:49.618059+00:00",
+    "source": "openalex"
+  }
+}

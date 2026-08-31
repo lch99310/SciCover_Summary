@@ -1,0 +1,55 @@
+{
+  "id": "nature-2026-08-12-02",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8129",
+  "date": "2026-08-12",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-12-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "宇宙深處的首條星流：天文學家在銀河系外發現球狀星團潮汐殘骸",
+      "en": "The First Stellar Stream Beyond Our Galaxy: Hunting Dark Matter in the Faint Glow of a Distant Ultra-Diffuse Galaxy"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊利用哈勃太空望遠鏡（HST）的深空影像，在距離地球約3,520萬秒差距的超 diffuse 星系UGC 9050-Dw1中，發現了一條被命名為「大進潮」（Oyashio）的細長星流結構。這是人類首次在銀河系之外確認的球狀星團潮汐星流，為研究暗物質暈的質量與密度分佈打開了一扇全新的窗戶。\n\n【研究問題】超 diffuse 星系（UDG）的暗物質含量長期以來是天文學界爭議的焦點。這類星系擁有與銀河系相當的尺度，但恆星質量卻只有矮星系的水平，且因其極低表面亮度，傳統的速度的散度或旋轉曲線測量方法難以應用。過去所有已知的球狀星團星流都只在銀河系內被發現，缺乏星系外樣本，使得我們無法將星流作為探針來檢驗不同類型星系中暗物質暈的性質。\n\n【研究方法】研究團隊結合了HST與加拿大—法國—夏威夷望遠鏡（CFHT）的觀測數據，在排除成像偽影後確認了星流的存在。他們測量了星流的寬度（約72.3秒差距）、顏色（F555W−F814W = 1.0 ± 0.2）以及表面亮度，並與假設的球狀星團 progenitor 進行比較。接著，他們使用X-Stream生成式流建模工具，將觀測到的星流形態直接擬合到動力學模型中，推導出 progenitor 質量上限與宿主暗物質暈的參數。\n\n【結果】研究結果顯示，Oyashio星流的 progenitor 質量上限為2.5 × 10⁶ M⊙，符合球狀星團的質量範圍，而非矮星系。宿主星系UGC 9050-Dw1的暗物質暈質量對數約為log₁₀(M₂₀₀/M⊙) = 11.63，與之前基於球狀星團計數的估計一致。更重要的是，這是首次利用星流對超 diffuse 星系的暗物質暈內斜率進行約束，結果顯示其內斜率γ ≈ 0.92，略高於一般低表面亮度矮星系的典型值（γ ≈ 0.2）。這項發現標誌著星流暗物質探測技術正式邁向星系外部，未來借助Euclid和Roman太空望遠鏡，預計將發現更多此類結構，從而為暗物質粒子性質提供 tighter 的限制。",
+      "en": "**Summary:** Using deep Hubble Space Telescope imaging, researchers have identified the first confirmed globular cluster stellar stream outside the Milky Way — a thin, elongated structure nicknamed Oyashio, located in the ultra-diffuse galaxy UGC 9050-Dw1, approximately 35.2 megaparsecs away. This discovery opens a entirely new chapter in dark matter science, as stellar streams from globular clusters are among the most sensitive probes of dark matter halos and substructure, yet had never before been observed beyond our own galaxy.\n\n**Problem:** The dark matter content of ultra-diffuse galaxies (UDGs) — galaxies with dwarf-like stellar masses but Milky Way-sized extents — remains one of the most debated topics in modern astrophysics. Traditional methods for measuring mass and density profiles, such as velocity dispersion or rotation curves, are extremely difficult to apply due to UDGs' characteristically low surface brightness. Moreover, all known globular cluster streams had previously been found only within the Milky Way, leaving a critical gap: without extragalactic streams, astronomers lacked the ability to test whether stream-based dark matter constraints hold across different galaxy types.\n\n**Approach:** The team combined deep HST ACS/WFC observations in F555W and F814W filters with CFHT MegaCam data to independently confirm the stream candidate and rule out imaging artifacts. They measured the stream's width (72.3 ± 8.9 parsecs), color (F555W−F814W = 1.0 ± 0.2), and surface brightness, then compared these properties to those of the presumed progenitor globular cluster and other GCs in the host galaxy. To constrain the dynamics, they applied the X-Stream generative stream sampler, which fits N-body-inspired particle-spray models directly to the observed stream morphology, deriving constraints on the progenitor mass, halo mass, and inner density slope.\n\n**Results:** The progenitor mass is constrained to M_p < 2.5 × 10⁶ M⊙ at 95% confidence — firmly in the globular cluster regime and well below even the Milky Way's Omega Centauri. The host halo mass is log₁₀(M₂₀₀/M⊙) = 11.63⁺⁰·⁷¹₋₀·₈₃, consistent with prior estimates based on GC counts. The inner density slope γ = 0.92 suggests a somewhat cuspier halo than typical low-surface-brightness dwarfs (γ ≈ 0.2), though still compatible with some previously studied UDGs. This is the first stream-based dark matter constraint on any UDG. Looking ahead, the detection at 35.2 Mpc demonstrates that future missions like Euclid and the Roman Space Telescope will likely uncover many more extragalactic GC streams, enabling cleaner tests of cold dark matter substructure predictions in environments with fewer baryonic perturbations."
+    },
+    "keyArticle": {
+      "title": "Evidence for the first globular cluster stellar stream beyond the Milky Way",
+      "authors": [
+        "Julie Kiel Holm",
+        "Sarah Pearson",
+        "Jacob Nibauer",
+        "David J. Sand",
+        "Adrian M. Price-Whelan",
+        "Tjitske Starkenburg",
+        "David Hendel",
+        "Catherine E. Fielder"
+      ],
+      "doi": "10.1038/s41586-026-10878-w",
+      "pages": "843-847"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-12-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10878-w",
+      "doi": "https://doi.org/10.1038/s41586-026-10878-w",
+      "preprint": "https://arxiv.org/abs/2608.12254"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-08-31T23:08:53.756917+00:00",
+    "source": "openalex"
+  }
+}
