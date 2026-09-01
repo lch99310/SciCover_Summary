@@ -1,0 +1,55 @@
+{
+  "id": "cell-2026-08-01-07",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "17",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-01-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "骨頭裡竟藏著淋巴管？多学科證據揭開骨骼微環境的新主角",
+      "en": "Lymphatics Hidden Inside Bone: Multimodal Evidence Rewrites the Skeletal Microenvironment"
+    },
+    "summary": {
+      "zh": "【總結】本研究整合空間轉錄體學、單細胞RNA測序與高分辨率光片顯微鏡，提供了確鑿的多模態證據，證明淋巴內皮細胞（LECs）確實存在於骨骼皮質與骨髓微環境中，而非既往所認為的技術假象或病理產物。這項發現顛覆了傳統認知——淋巴管不再只是骨骼疾病的配角，而是骨骼健康與修復的積極調節者。\n\n【研究問題】過去研究多將淋巴管與骨骼疾病和骨量流失聯繫，但骨內是否存在生理性淋巴管長期存在爭議。Meng等人（2026）提出質疑，認為Prox1+內皮細胞在骨骼中並不存在，並質疑先前研究可能受到骨膜污染或病理狀態的干擾。解決此爭議至關重要，因為若骨淋巴管確實存在，將為骨折修復、骨质疏松和骨壞死等疾病開闢全新治療策略。\n\n【研究方法】研究團隊採用了三重驗證策略：首先，分析兩個獨立的空間轉錄體學數據集（Mathavan等與Rios等），在完整骨骼組織架構中定位Prox1表達；其次，系統性重新分析多個公共scRNA-seq數據集（涵蓋小鼠與人類胚胎及成人骨骼），嚴格定義LECs為Cdh5+、Pecam1+、Ptprc−、Flt4+且Prox1高表達的細胞群；最後，利用光片顯微鏡對整個骨骼進行三維成像，實現對礦化骨組織中稀疏淋巴管的精確視覺化。\n\n【結果】空間轉錄體學在皮質骨和骨髓腔中明確檢測到Prox1+ Pecam1+ Ptprc−的淋巴內皮細胞，並共表達Flt4、ReIn等淋巴標記。scRNA-seq分析在多達六個獨立數據集中一致檢出Prox1高表達LECs，而骨膜數據中僅含極少量Prox1+細胞，證明骨膜無法解釋骨內LECs的來源。光片顯微鏡清晰呈現嵌入骨組織中的管狀LYVE1+結構，與圓形血細胞形態截然不同。這些結果確立了骨淋巴管為骨骼微環境的固有組成部分，具有促進骨形成、限制炎症性骨丟失的生理功能，為骨修復相關疾病治療提供了新靶點。",
+      "en": "**Summary:** This study integrates spatial transcriptomics, single-cell RNA sequencing, and high-resolution light-sheet microscopy to provide convergent multimodal evidence that lymphatic endothelial cells (LECs) are genuine, integral components of the skeletal microenvironment—embedded within both cortical bone and bone marrow—rather than artifacts or pathological anomalies as previously argued. This paradigm-shifting finding repositions lymphatic vessels from passive bystanders in bone disease to active positive regulators of bone mass and repair.\n\n**Problem:** The existence of physiological lymphatic vessels within bone has been hotly debated. While earlier work demonstrated their presence, Meng et al. (2026) challenged these findings, arguing that Prox1+ endothelial cells are absent in healthy bone and that prior detections may reflect periosteal contamination or pathological lymphatic hyperplasia. Resolving this controversy is critical: if bone lymphatics are real, they represent a fundamental component of skeletal biology with direct implications for fracture healing, osteoporosis, and osteonecrosis therapies.\n\n**Approach:** The authors employed a three-pronged validation strategy. First, they analyzed two independent spatial transcriptomics datasets (Mathavan et al. and Rios et al.) to map Prox1-expressing cells within intact bone architecture. Second, they systematically reanalyzed multiple publicly available scRNA-seq datasets from murine and human bone and bone marrow, rigorously defining LECs as Cdh5+ Pecam1+ Ptprc− Flt4+ Prox1hi cells. Third, they used whole-bone light-sheet fluorescence microscopy with multi-marker immunolabeling (LYVE1, PDPN, CD31) to visually resolve tubular lymphatic structures embedded in mineralized bone—achieving resolution impossible with conventional confocal sectioning.\n\n**Results:** Spatial transcriptomics unambiguously identified Prox1+ Pecam1+ Ptprc− LECs within cortical bone and marrow compartments, co-expressing additional lymphatic markers including Flt4 and ReIn. scRNA-seq reanalysis across six independent datasets consistently detected Prox1hi LECs in bone and marrow, while periosteal datasets contained only sparse Prox1+ cells—ruling out periosteal contamination as an explanation. Light-sheet imaging revealed clear LYVE1+ tubular vascular structures within bone, morphologically distinct from round CD45+ hematopoietic cells. These findings establish bone lymphatics as a physiologically relevant, functionally significant component of the skeletal niche, with therapeutic implications for enhancing bone regeneration and treating inflammatory bone loss."
+    },
+    "keyArticle": {
+      "title": "Multimodal evidence for bone lymphatics in skeletal health and repair",
+      "authors": [
+        "Yang Yang",
+        "Yuheng Zhang",
+        "Yixin Shi",
+        "Sanyam Jain",
+        "Jessy D. Joseph",
+        "Amit Singh",
+        "Junyu Chen",
+        "Saravana K. Ramasamy",
+        "Anjali P. Kusumbe"
+      ],
+      "doi": "10.1016/j.cell.2026.06.026",
+      "pages": "5466-5477.e4"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-01-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.026",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.026"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-01T21:35:10.485368+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "nature-2026-08-26-02",
+  "journal": "Nature",
+  "volume": "656",
+  "issue": "8129",
+  "date": "2026-08-26",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-26-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "海神波濤下的火星：潮汐層析揭開火星內核熱異常之謎",
+      "en": "Tides as a X-Ray: How Mars's Gravity Field Reveals a Hidden Thermal Anomaly"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究，首次利用「潮汐層析」技術，透過火星季節性潮汐引起的重力場微小變化，揭示火星地函中存在大規模的橫向結構差異。研究團隊發現，火星三階重力場分量與球形對稱模型的預測偏差高達300%，這意味著火星地函的剪切模量存在超過20%的南北向變化，且其空間分布與火星著名的「地殼二分法」——南方高地與北方低地——完美吻合。研究進一步推斷，火星南方高地下方至今仍保存著200至400攝氏度的熱異常，這可能是數十億年前巨型撞擊事件的餘暉，或是厚地殼長期隔熱與放射性生熱共同作用的結果。\n\n【研究問題】火星地殼二分法（南方高地與北方低地的巨大差異）的起源是行星科學界數十年来最大的懸念之一。過去的理論假說——包括巨型撞擊說與地函對流說——都預測火星深部應存在長壽命的結構異質性，但這些深部結構一直無法被直接探測。靜態重力場對淺層結構較為敏感，難以有效探測深部地函的橫向變化。因此，如何穿透火星數千公里厚的岩石層，直接探測其深部結構，成為關鍵的研究缺口。\n\n【研究方法】研究團隊採用了創新的「潮汐層析」方法，類似於醫學上的CT掃描。他們分析了來自火星全球探測者號（MGS）、火星探測者號（ODY）和火星 reconaissance orbiters（MRO）等三艘太空船的16年X波段多普勒追蹤數據，這些數據由美國國家航空暨太空總署（NASA）的深空網絡（DSN）收集。當火星因橢圓軌道和軸傾角而受到太陽的季節性潮汐力時，其重力場會產生微小變化。研究團隊利用半解析光譜程式碼LOV3D，結合貝葉斯馬可夫鏈蒙特卡羅（MCMC）反演，將觀測到的三階重力場變化與不同內部結構模型進行比對，從而推斷火星地函的橫向剪切模量分佈。\n\n【結果】研究團隊成功恢復了火星季節性三階非軸對稱重力場係數，發現其與球形對稱模型的預測值偏差高達300%（統計顯著性超過99.99%）。反演結果顯示，火星地函存在顯著的度-1剪切模量變化：南北向（經向）峰值振幅為60±40%，東西向為36±34%，整體變化幅度達81±60%，超過20%的統計顯著性。這些變化模式與火星地殼二分法的表面地形高度吻合。研究進一步將剪切模量變化轉換為溫度與成分影響，推斷南方高地下方的地函溫度異常約為200至400攝氏度，鐵含量可能高出高達5%。這項研究不僅為火星深部熱結構提供了直接證據，也展示了潮汐層析技術在探索其他行星（如木衛三、水星、木衛一）內部的巨大潛力。",
+      "en": "**Summary:** This study, published in Nature, represents the first application of tidal tomography to Mars, revealing a massive thermal anomaly beneath the planet's southern highlands. By analyzing seasonal tidal deformations, the researchers discovered that Mars's degree-3 gravity field components deviate by up to 300% from predictions for a spherically symmetric planet. This deviation maps directly onto the planet's famous crustal dichotomy—the stark contrast between the rugged southern highlands and the smooth northern lowlands. The team inferred a present-day mantle shear modulus variation exceeding 20%, corresponding to a hemispheric temperature anomaly of 200 to 400 degrees Celsius beneath the southern highlands. This finding provides compelling evidence that Mars's deep interior still preserves the thermal signature of ancient geodynamic processes, potentially dating back billions of years.\n\n**Problem:** The origin of Mars's crustal dichotomy—one of the most striking features in the solar system—has long been one of planetary science's most debated questions. Leading hypotheses, including the giant impact theory and spontaneous degree-1 mantle convection, predict that long-lived structures should persist deep within the planet. However, static gravity fields are most sensitive to shallow interior structure and cannot effectively probe deep mantle heterogeneities. This created a critical gap: while surface geology and magnetic anomalies pointed to deep asymmetries, no direct method existed to image the mantle structure at the scale and depth needed to distinguish between competing formation scenarios. Solving this problem was essential for understanding not only Mars's geological evolution but also the thermal and dynamical history of terrestrial planets more broadly.\n\n**Approach:** The researchers employed a novel technique called tidal tomography—essentially using the Sun's gravitational pull as a probe beam to image Mars's interior. They analyzed 16 years of X-band Doppler tracking data from three NASA spacecraft: Mars Global Surveyor (MGS), Mars Odyssey (ODY), and Mars Reconnaissance Orbiter (MRO), collected by the Deep Space Network. As Mars orbits the Sun with significant eccentricity (0.0934) and axial tilt (25.2°), it experiences strong seasonal tidal forcing that deforms the planet cyclically. For a perfectly symmetric interior, this forcing would produce only degree-2 gravity signals. However, lateral heterogeneities in the mantle can couple with degree-2 tidal forcing to generate measurable degree-3 signals. The team used the semi-analytical spectral code LOV3D to model this mode-coupling effect and performed Bayesian Markov chain Monte Carlo inversions to constrain the three-dimensional shear modulus structure of the Martian mantle, accounting for atmospheric loading effects and non-gravitational perturbations.\n\n**Results:** The recovered degree-3 non-zonal time-variable gravity coefficients deviate from the spherical-symmetry null hypothesis by up to 300% (with statistical significance exceeding 99.99%). The inversions resolve statistically significant degree-1 (hemispheric) shear modulus variations in the mantle: a north-south (meridional) pattern with peak-to-peak amplitude of 60±40%, an east-west pattern of 36±34%, and an overall variation of 81±60%—all well above the 20% threshold. These variations align spatially with the crustal dichotomy, with reduced shear modulus beneath the southern highlands and enhanced modulus beneath the northern lowlands. Converting shear modulus variations to temperature and composition using anelastic rheology models, the team inferred a hemispheric temperature anomaly of 200 to 400°C and up to 5% iron enrichment in the southern mantle. The findings support a hybrid scenario in which a giant impact depleted iron from the northern mantle, after which the thicker southern crust provided thermal insulation, preserving the heat anomaly to the present day. The study demonstrates that tidal tomography—a technique previously applied only to Earth and the Moon—can be extended to Mars and potentially to other planetary bodies such as Ganymede, Mercury, Io, and Enceladus."
+    },
+    "keyArticle": {
+      "title": "Tidal tomography reveals a thermal anomaly beneath Mars’s crustal dichotomy",
+      "authors": [
+        "Alexander Berne",
+        "Nick Wagner",
+        "I. Matsuyama",
+        "Sander Goossens",
+        "Antonio Genova",
+        "Marc Rovira‐Navarro",
+        "Amirhossein Bagheri",
+        "Chuan Qin",
+        "Angela G. Marusiak",
+        "D. Hemingway",
+        "H. C. P. Lau",
+        "Kar Wai Cheng",
+        "Shijie Zhong",
+        "F. Nimmo"
+      ],
+      "doi": "10.1038/s41586-026-10893-x",
+      "pages": "848-853"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-26-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10893-x",
+      "doi": "https://doi.org/10.1038/s41586-026-10893-x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-01T21:34:26.688945+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "science-2026-07-23-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6809",
+  "date": "2026-07-23",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-23-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞核裡的摺紙術：扁桃體3D基因組圖譜揭開B細胞抗體突變與淋巴瘤之謎",
+      "en": "A 3D Genome Atlas of the Human Tonsil: How Chromosome Folding Sets the Stage for Antibody Mutation"
+    },
+    "summary": {
+      "zh": "【總結】這項研究打造了人類扁桃體單細胞3D基因組圖譜，結合定序與超高解析度顯微影像，解開B細胞在生發中心進行抗體基因突變（體細胞超突變，SHM）時的染色體立體摺疊規則。研究發現，容易與不容易被突變的基因區塊（TAD）在細胞核中有固定位置：抗突變區傾向聚集成簇並深居核內，離核孔較遠，可能因此避開突變酶AID的攻擊；而容易突變的區域則與B細胞發育、淋巴瘤相關。更關鍵的是，團隊證明「環擠出」機器中的核心蛋白RAD21是啟動SHM的必要條件，一旦將它快速降解，抗體基因的突變幾乎完全消失。這份圖譜為理解免疫反應、抗體親和力成熟，以及B細胞淋巴瘤的起源提供了前所未見的空間視角。\n\n【研究問題】B細胞在生發中心會故意對免疫球蛋白基因引入突變（SHM），以產生高親和力抗體。但這個過程一旦「瞄錯目標」，就會造成致癌突變、染色體易位，甚至B細胞淋巴瘤。過去已知SHM與3D基因組有關，但多數研究是在培養細胞中進行，缺乏在原發組織中、單細胞等級的3D基因組與基因表現全貌。尤其，基因組「熱點」與「冷點」如何在細胞核中組織，以及cohesin／環擠出是否直接控制SHM，一直是空白。因為SHM必須在組織微環境中的生發中心暗區中心母細胞進行，舊方法難以捕捉這群罕見細胞的染色體摺疊狀態。因此需要新技術來觀察單一細胞內染色體如何擺放，並測試3D結構的調控者是否決定突變的標靶。\n\n【研究方法】團隊整合了兩大技術：Droplet Hi-C（液滴單細胞染色體構象捕獲）與MINA（多重DNA、RNA、蛋白質影像）。扁桃體手術樣本被切成8微米薄片，用1,151個基因座探針做全基因組染色體追蹤，同時以RNA MERFISH偵測447種RNA，再用CD35抗體標記生發中心，精準分辨11種細胞類型與細胞週期。為了測試cohesin角色，他們在Ramos來源的RASH-1細胞中，將RAD21加上可被小分子快速降解的degron標籤，清除RAD21後量測突變、染色體環、轉錄與AID結合。也使用3C-HTGTS與TT-TimeLapse-seq等方法追蹤染色體交互作用與新生成RNA。方法上有點像在細胞核裡做GPS定位與空拍，再配合「基因突變計數器」。\n\n【結果】關鍵發現有四：(1) 單細胞Hi-C分析12,308顆高品質細胞，成功分群出初始B細胞、記憶B細胞、生發中心B細胞、漿細胞等，並發現染色質區室與基因本體接觸程度會隨B細胞分化改變。(2) SHM「冷點」TAD在所有細胞類型中都傾向互相靠近、且位於細胞核更內部；「熱點」TAD則富含生發中心與B細胞發育基因，且在SHM活躍的生發中心B細胞中獲得更多染色體接觸。(3) 降解RAD21 20小時後，IGH-V、IGL-V與GFP報導子的突變幾乎降到未誘導AID的背景水準；連非免疫球蛋白標靶BCL6、POU2AF1的突變也被抑制。(4) 在SHM被取消的6至18小時內，AID結合在6小時僅降約2倍，18小時後嚴重下降；IGL與IGH的增強子—啟動子環交互作用部分下降但未完全消失，並發現IGH 3’RR1與3’RR2兩個超級增強子形成特殊的平行「curl」結構。結論是cohesin透過維持染色體架構、轉錄環境與AID的長期結合來支援SHM；核內位置可能決定突變風險，也解釋為何某些淋巴瘤相關基因特別容易中彈。未來可望用3D基因組特徵預測突變熱點，甚至發展新療法。",
+      "en": "**Summary:** This study builds a single-cell 3D genome atlas of the human tonsil, combining sequencing-based Droplet Hi-C with super-resolution imaging (MINA) to reveal how chromosomes fold inside B cells during germinal center reactions. The authors show that somatic hypermutation — the deliberate mutation of antibody genes — is governed by 3D genome architecture. Cold TADs resistant to mutation cluster together and sit deep in the nuclear interior, far from nuclear pores where the mutagenic enzyme AID enters. Hot TADs harbor germinal center and lymphoma-associated genes and gain extra contacts in mutation-active cells. Crucially, acute degradation of RAD21, a core cohesin subunit, nearly abolishes SHM, demonstrating that loop extrusion machinery is essential. This atlas offers a new spatial framework for understanding antibody affinity maturation, genome instability, and B-cell lymphoma origins.\n\n**Problem:** Somatic hypermutation is a double-edged sword: it diversifies antibody genes in germinal center B cells, enabling affinity maturation, but when mistargeted it causes oncogenic mutations, chromosomal translocations, and B-cell lymphoma. Although previous work linked SHM to 3D chromatin organization, most studies were done in cell lines and lacked single-cell, tissue-level views of the relevant B-cell states. It was unknown whether hot and cold genomic regions occupy distinct nuclear positions, and whether cohesin-mediated loop extrusion directly controls SHM. Since SHM occurs in rare dark-zone centroblasts inside intact tissue microenvironments, conventional genomics could not capture the architecture of these cells. Resolving this is critical for predicting mutation risk and understanding how a healthy immune response becomes cancerous.\n\n**Approach:** The team profiled fresh-frozen human tonsil sections using two complementary technologies. Droplet Hi-C gave genome-wide chromatin contact maps for 12,308 single cells; MINA imaging combined 1,151-locus chromatin tracing, RNA MERFISH for 447 transcripts, smFISH, and protein staining on the same 8-micron section. This allowed them to identify 11 cell types, including naive B cells, germinal center light-zone and dark-zone cells, memory B cells, plasma cells, Tfh cells, and dendritic cells, and to reconstruct chromosome trajectories in individual cells. To interrogate causality, they engineered a degron tag onto RAD21 in the RASH-1 Ramos-based SHM system, enabling acute protein degradation within hours. They then measured mutations by Mut-Seq, chromatin loops by chromatin tracing and 3C-HTGTS, transcription by TT-TimeLapse-seq, and AID occupancy by CUT&RUN.\n\n**Results:** Four findings stand out. First, cold SHM-resistant TADs preferentially cluster and localize toward the nuclear interior in essentially all cell types, while hot SHM-susceptible TADs are enriched for germinal center and B-cell development genes. Second, degrading RAD21 for 20 hours reduced mutations at IGH-V, IGL-V, and an integrated GFP reporter to near no-AID background levels; off-target mutations at BCL6 and POU2AF1 were also suppressed. Third, RAD21 loss did not immediately destroy transcription or enhancer-promoter loops; AID binding fell only about 2-fold at 6 hours but collapsed by 18 hours, indicating that cohesin sustains AID recruitment. Fourth, they discovered a striking curl structure in which the IGH super-enhancers 3'RR1 and 3'RR2 align in parallel, supported by Hi-C and orthogonal probes. These results establish that nuclear positioning and loop extrusion set the stage for SHM, with direct implications for understanding antibody evolution and lymphomagenesis."
+    },
+    "keyArticle": {
+      "title": "A 3D genome atlas of human tonsil and the role of loop extrusion in B cell somatic hypermutation",
+      "authors": [
+        "Yubao Cheng",
+        "Yi-Xiang Wang",
+        "Yuan Zhang",
+        "Anurupa Devi Yadavalli",
+        "Miao Liu",
+        "Shengyan Jin",
+        "Grace Buddle",
+        "Ann M. Haberman",
+        "David G. Schatz",
+        "Siyuan Wang"
+      ],
+      "doi": "10.1126/science.adw4243",
+      "pages": "eadw4243"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-23-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adw4243",
+      "doi": "https://doi.org/10.1126/science.adw4243"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-01T21:33:38.809073+00:00",
+    "source": "openalex"
+  }
+}
