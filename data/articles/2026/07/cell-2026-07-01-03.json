@@ -1,0 +1,68 @@
+{
+  "id": "cell-2026-07-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "18",
+  "date": "2026-07-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦的「斷線危機」：一種貫穿阿茲海默症、ALS與FTD的神經元基因損傷新機制",
+      "en": "The Brain's 'Snipped Thread' Crisis: A Shared Mechanism of Neuronal Genomic Damage Across Alzheimer's, ALS, and FTD"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Cell》的研究，首次在同一個分子層面上，揭示了漸進性肌萎縮側索硬化症（ALS）、額顳葉痴呆（FTD）和阿茲海默症（AD）這三種截然不同的神經退化疾病，竟共享著同一種基因損傷機制。研究團隊透過單細胞全體基因體定序，發現這三種疾病的腦神經元中，都存在異常頻繁的「雙鹼基缺失」突變，其背後推手是一種名為TOP1（拓撲異構酶1）的酵素異常活化所導致的DNA損傷。這項發現不僅為理解神經退化提供了統一框架，更暗示未來可能開發出針對DNA損傷修復路徑的共通治療策略。\n\n【研究問題】過去對ALS、FTD和AD的研究多聚焦於特定蛋白質（如TDP-43、tau蛋白）的異常堆積，但「為什麼神經元會死亡」的根本機制仍不清楚。尤其令人困惑的是，這三種疾病病理特徵各異，卻似乎都有基因體不穩定性的跡象。研究缺口在於：缺乏從單細胞層面系統性比較不同神經退化疾病中體細胞突變的模式，也未曾有人將TOP1介導的DNA損傷與這些疾病直接連結。解開這個問題，對找到跨疾病的治療靶點至關重要。\n\n【研究方法】研究團隊從6例C9ORF72基因突變導致的ALS患者、6例FTD患者，以及阿茲海默症患者和正常對照組的大腦中，分離出469個神經元細胞核。他們採用單細胞全基因體定序（scWGS）技術，並使用自研的SCAN2分析流程來鑑定體細胞單鹼基變異（sSNVs）和插入/缺失突變（sIndels）。此外，研究還結合了多重終端標記擴增互補鏈（META-CS）雙鏈定序技術來區分單鏈與雙鏈DNA斷裂，以及RADAR檢測法直接量測TOP1-DNA共價複合物的水平。\n\n【結果】研究發現，三種疾病的神經元中sSNVs和sIndels負擔均顯著上升，其中sIndels增幅更大。更具突破性的是，一種以「雙鹼基缺失」為特徵的突變簽名（ID-A）在22%的ALS、76%的FTD和61%的AD神經元中被檢測到，而對照組僅2%。ID-A與COSMIC資料庫中已知的ID4簽名高度相似，後者與TOP1介導的轉錄偶聯修復（RER）路徑失調有關。RADAR實驗證實，FTD和AD患者神經元中的TOP1-DNA共價複合物顯著增加。雙鏈定序進一步揭示，單鏈DNA斷裂是這些突變的前驅事件。有趣的是，來自同一批患者小腦的神經元並未出現此種損傷模式，顯示該機制具有大腦皮層區域特異性。",
+      "en": "**Summary:** This Cell study reveals a striking molecular commonality across three major neurodegenerative diseases—ALS, frontotemporal dementia (FTD), and Alzheimer's disease (AD)—that have long been studied in isolation. Using single-cell whole-genome sequencing of 469 neurons, the researchers discovered that all three diseases share an accelerated pattern of somatic mutations dominated by two-base-pair deletions. The culprit is aberrant activity of topoisomerase 1 (TOP1), an enzyme that relieves DNA supercoiling during transcription. When TOP1 gets stuck on DNA, it creates covalent complexes that, if not properly resolved, lead to single-strand breaks and catastrophic genomic instability. This work provides the first unified mechanistic framework linking TDP-43 proteinopathies (ALS/FTD) and tauopathies (AD) through shared DNA damage pathways, opening the door to cross-disease therapeutic strategies targeting genomic integrity.\n\n**Problem:** Despite decades of research, the mechanisms driving neuronal death in ALS, FTD, and AD remain poorly understood. While each disease is defined by distinct proteinopathies—TDP-43 aggregation in ALS/FTD and tau pathology in AD—emerging evidence points to DNA damage and genomic instability as a common thread. However, previous studies lacked the resolution to systematically compare somatic mutation patterns across these diseases at single-cell level, and the specific mutational signatures linking them had never been identified. Understanding this shared mechanism is critical because it could reveal therapeutic targets relevant to multiple devastating conditions simultaneously.\n\n**Approach:** The team isolated neuronal nuclei from the motor/premotor cortex of six C9ORF72-ALS brains and the prefrontal cortex of six C9ORF72-FTD brains, alongside neurons from AD patients and age-matched controls. They employed primary template-directed amplification (PTA)-based single-cell whole-genome sequencing combined with their SCAN2 variant caller to detect somatic single-nucleotide variants and indels. De novo mutational signature extraction was performed to identify disease-specific patterns. To validate the TOP1 mechanism, they used RADAR assays to directly quantify TOP1-DNA covalent complexes, META-CS duplex sequencing to distinguish single-strand from double-strand lesions, and S1 nuclease gel assays to measure single-strand breaks in bulk tissue DNA. Cerebellar neurons from the same diseased brains were also analyzed to test region-specificity.\n\n**Results:** All three diseases showed significantly elevated burdens of somatic SNVs and indels compared to controls, with indels showing the greatest increase. A disease-associated indel signature (ID-A), dominated by 2-bp deletions, was found in 22% of ALS, 76% of FTD, and 61% of AD neurons—but only 2% of control neurons. ID-A closely resembles COSMIC signature ID4, previously linked to TOP1-mediated ribonucleotide excision repair (RER). RADAR assays confirmed significantly elevated TOP1-DNA covalent complexes in FTD and AD neurons. Duplex sequencing revealed that single-strand breaks serve as precursor lesions to the double-strand deletions. Notably, cerebellar neurons from the same patients showed no such damage, demonstrating region-specific vulnerability. A complementary SNV signature (SBS-B) resembling COSMIC SBS30 suggested increased oxidative DNA damage, and qPCR revealed downregulation of RNASEH2B and RRM2B—genes critical for clearing ribonucleotides from DNA—in diseased neurons."
+    },
+    "keyArticle": {
+      "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
+      "authors": [
+        "Zinan Zhou",
+        "Lovelace J. Luquette",
+        "Guanlan Dong",
+        "Junho Kim",
+        "Jayoung Ku",
+        "K M Kim",
+        "Nandini Ramesh",
+        "Mingyun Bae",
+        "Ann Caplin",
+        "Diane D. Shao",
+        "Bezawit Sahile",
+        "Kow Essuman",
+        "Eitan Goodman",
+        "Michael B. Miller",
+        "August Yue Huang",
+        "William J. Nathan",
+        "Andre Nussenzweig",
+        "Peter J. Park",
+        "Clotilde Lagier‐Tourenne",
+        "Eunjung Alice Lee",
+        "Christopher A. Walsh"
+      ],
+      "doi": "10.1016/j.cell.2026.06.013",
+      "pages": "5766-5782.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.013",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.013",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.03.641186"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-04T21:12:04.999642+00:00",
+    "source": "openalex"
+  }
+}

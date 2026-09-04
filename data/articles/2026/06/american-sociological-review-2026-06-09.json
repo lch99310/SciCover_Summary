@@ -10,12 +10,12 @@
   },
   "coverStory": {
     "title": {
-      "zh": "倒數計時的不平等：末期癌症患者如何被「錯位」的時間剝奪選擇權",
-      "en": "The Unequal Clock: How Terminal Illness Reveals Time as a Mechanism of Inequality"
+      "zh": "癌症患者的時間戰爭：當命運倒數遇上制度的時鐘",
+      "en": "The Time War of Cancer Patients: When Countdown Meets the Institutional Clock"
     },
     "summary": {
-      "zh": "時間對每個人看似公平，但對末期癌症患者而言，時間本身就是一道階梯——有人能從容安排餘生，有人卻被制度與病情的雙重節奏逼入絕境。這項發表於《美國社會學評論》的研究，追蹤九十六位末期癌症患者五年的田野調查，揭示了一個關鍵概念：「時間錯位」。所謂時間錯位，是指個人行動的節奏與制度所強加的時間框架之間的撕裂——當治療、工作、家庭與官僚系統的時鐘各自走速不同，患者便陷入無止境的協調困境。",
-      "en": "Time seems like the great equalizer—until you're running out of it. A new study in the American Sociological Review examines how terminal cancer patients navigate a landscape where time itself becomes a mechanism of stratification. Drawing on five years of fieldwork across nine cancer clinics and 196 in-depth interviews with 96 patients, the authors introduce the concept of 'temporal misalignment': the fracture between the rhythms of individual action and the institutional timelines that structure when and how action is possible."
+      "zh": "【總結】這項研究揭示了一個常被忽視的不平等機制：時間錯配。研究團隊追蹤96位末期癌症患者五年，發現即使資源充足，患者仍會因「排程衝突」「軌跡錯位」和「預期不確定」三類時間困境而喪失行動力。時間錯配不僅複製既有資源落差，更創造出新的、即時的行動限制——這意味著不平等不只是資源分配的問題，更是制度時間與個人時間錯位的結果。\n\n【研究問題】社會學長期探討資源如何塑造人生軌跡，卻鮮少解釋「為什麼同樣資源的人，行動能力卻截然不同」。過去研究將時間視為次要變數，或僅視為組織瑕疵。本文填補此缺口：當制度時間與個人時間衝突時，不平等如何透過時間關係被創造與強化？\n\n【研究方法】作者團隊在美國東西兩岸兩所癌症中心進行五年田野調查，收集4,860段田野筆記與196次縱向訪談。研究結合民族誌觀察與多維對應分析（MCA），將患者的時間困境與經濟、文化、社會資本進行統計映射，以驗證時間錯配是否僅為資源不均的附帶現象。\n\n【結果】MCA結果顯示，時間錯配與資源落差是兩個獨立的不平等維度。排程衝突與軌跡錯位尤其獨立於經濟資本之外，形成新的不平等軸線。案例顯示：上班族Bobby因通勤時間放棄更佳診所；護士Meghan靠人脈快通臨床試驗；高收入銀行家Peter最終也被治療日程綁死。研究證明，即使最優勢的患者，管理時間錯配的努力最終仍會耗竭資源、偏離原初目標。",
+      "en": "**Summary:** This study reveals an often-overlooked mechanism of inequality: temporal misalignment. Tracking 96 terminal cancer patients over five years, the researchers found that even well-resourced patients lose agency through three types of temporal dilemmas—schedule conflict, trajectory mismatch, and anticipation uncertainty. Temporal misalignment doesn't just reproduce existing resource gaps; it creates new, immediate constraints on action. Inequality, the study argues, is not merely about who has resources, but about whose time aligns with institutional time.\n\n**Problem:** Sociology has long examined how resources shape life chances, yet it struggles to explain why people with similar resources exercise vastly different agency. Previous work treated time as a secondary variable or organizational quirk. This study fills that gap: when institutional temporality clashes with personal temporality, how is inequality produced and intensified through time relations?\n\n**Approach:** The authors conducted five years of ethnographic fieldwork at two NCI-designated cancer centers on the West and Midwest coasts, collecting 4,860 paragraphs of field notes and 196 longitudinal interviews with 96 terminal cancer patients. They combined qualitative analysis with Multiple Correspondence Analysis (MCA), mapping temporal misalignment against economic, cultural, and social capital to test whether time dilemmas were merely derivatives of resource inequality.\n\n**Results:** MCA results show temporal misalignment and resource disparity are distinct dimensions of inequality. Schedule conflict and trajectory mismatch operate independently of economic capital, forming a separate axis of inequality. Case evidence is striking: house painter Bobby sacrificed better care to keep his job schedule; nurse Meghan leveraged organizational embeddedness to fast-track clinical trials; wealthy banker Peter, despite maximum resources, was ultimately bound to the clinic. Even the most advantaged patients found that managing temporal misalignment drained resources and displaced original goals."
     },
     "keyArticle": {
       "title": "Temporal Misalignment and Unequal Agency: What Terminal Cancer Patients Teach Us about Time and Inequality",
@@ -34,8 +34,11 @@
     }
   },
   "_meta": {
-    "summary_mode": "abstract-only",
+    "summary_mode": "full-text",
     "created_at": "2026-08-04T20:24:50.671102+00:00",
-    "source": "openalex"
+    "updated_at": "2026-09-04T21:12:54.160792+00:00",
+    "source": "openalex",
+    "retry_count": 1,
+    "last_retry_at": "2026-09-04T21:12:54.160792+00:00"
   }
 }

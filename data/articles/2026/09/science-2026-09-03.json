@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-09-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6815",
+  "date": "2026-09-03",
+  "coverImage": {
+    "url": "data/images/science/science-2026-09-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "複製後的染色體並不對稱：真相藏在DNA複製的「偏袒」裡",
+      "en": "Replicated Chromosomes Aren't Mirror Images—The Truth Is in DNA's Asymmetric Dance"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了一個前所未有的發現：人類染色體在完成DNA複製後，兩條姊妹染色單體並非完美對齊，而是沿著母鏈5′→3′方向產生整體性的錯位偏移。這項發現將DNA複製的分子不對稱性與染色體三維架構的宏觀不對稱性直接串聯，為理解染色體結構建立與DNA修復機制打開了全新視角。\n\n【研究問題】DNA複製雖然產生遺傳上完全相同的姊妹染色單體，但複製過程本身具有內在的不對稱性——兩條染色單體繼承不同的母鏈，且前導鏈與後隨鏈的合成機制截然不同。過去研究從未探討這種分子層面的不對稱性如何影響染色體的高階結構組織，這是一個關鍵的研究缺口。理解這個問題不僅關乎染色體架構的建立機制，更涉及DNA損傷修復中同源搜尋的精確性。\n\n【研究方法】研究團隊結合了三種互補技術：姊妹染色單體敏感的Hi-C（scsHi-C）可區分兩條染色單體的DNA接觸；RASER-FISH螢光原位雜交技術可在單細胞層級直接觀察姊妹染色單體的空間距離；以及聚合物模擬計算模型。他們還利用auxin-inducible degron（AID）系統選擇性降解NIPBL、Sororin和Rad21等關鍵蛋白質，以精確區分「環挤出」與「黏著」兩種cohesin功能的獨立貢獻。\n\n【結果】scsHi-C數據顯示，在100 kb至10 Mb的基因組距離範圍內，姊妹染色單體間的接觸呈現約兩倍的不對稱性，峰值出現在約1 Mb處，方向統一沿著母鏈5′→3′。RASER-FISH在三個獨立探針組中均證實了這一錯位，距離差異達100至200奈米。當去除負責環挤出的NIPBL後，不對稱性依然存在；但當去除負責黏著的Sororin、或在前中期移除cohesin時，不對稱性完全消失。聚合物模擬表明，仅需約100 kb的微小錯位偏移，即可產生觀察到的百萬碱基尺度不對稱。研究提出了兩種機制模型：一是複製叉在推進時直接造成cohesin錯位，二是半錨定cohesin配對通過隨機滑動產生不對稱。",
+      "en": "**Summary:** This study reveals a previously unrecognized genome-wide asymmetry in replicated human chromosomes: sister chromatids are systematically misaligned along the 5′→3′ direction of their inherited parental strands. This discovery bridges the molecular asymmetry of DNA replication with large-scale chromatin architecture, opening new perspectives on how chromosome structure is established and how homology search proceeds during DNA repair.\n\n**Problem:** Although DNA replication produces genetically identical sister chromatids, the replication process is inherently asymmetric—each chromatid inherits a different parental strand, and leading versus lagging strand synthesis employ fundamentally different mechanisms. It remained unknown whether and how this molecular asymmetry influences higher-order chromatin organization, representing a critical gap in our understanding of chromosome architecture and its functional consequences for DNA repair.\n\n**Approach:** The researchers combined three complementary techniques: sister-chromatid-sensitive Hi-C (scsHi-C), which distinguishes DNA contacts between sisters; RASER-FISH, which directly measures spatial distances between sister chromatids at the single-cell level; and polymer simulations to model chromatin behavior. They used auxin-inducible degron (AID) systems to selectively deplete key proteins—NIPBL, Sororin, and Rad21—enabling precise dissection of the distinct contributions of cohesin's loop-extrusion versus cohesion functions.\n\n**Results:** scsHi-C data revealed a pronounced ~2-fold asymmetry in trans-sister contacts across 100 kb to 10 Mb genomic separations, peaking at approximately 1 Mb, consistently oriented along the 5′→3′ direction of inherited strands. RASER-FISH independently confirmed this shift across three probe sets, with distance differences of 100–200 nanometers. Removing loop-extruding cohesins via NIPBL depletion left the asymmetry intact, but disrupting cohesive cohesins through Sororin depletion or prophase removal completely eliminated it. Polymer simulations showed that a modest ~100 kb directional misalignment of cohesive cohesins is sufficient to generate the observed megabase-scale asymmetry. Two mechanistic models were proposed: direct misalignment by replication forks, and asymmetric cohesin pairing through semi-anchored random sliding."
+    },
+    "keyArticle": {
+      "title": "Conformational asymmetry of replicated human chromosomes",
+      "authors": [
+        "Flavia Corsi",
+        "Sofia Kolesnikova",
+        "Thomas L. Steinacker",
+        "Zsuzsanna Takács",
+        "Paul Batty",
+        "Michael Mitter",
+        "Daniel W. Gerlich",
+        "Anton Goloborodko"
+      ],
+      "doi": "10.1126/science.aea4611",
+      "pages": ""
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-09-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aea4611",
+      "doi": "https://doi.org/10.1126/science.aea4611"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-04T21:10:53.189942+00:00",
+    "source": "openalex"
+  }
+}

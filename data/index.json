@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-09-01T21:36:01.717200+00:00",
+  "lastUpdated": "2026-09-04T21:12:54.216643+00:00",
   "articles": [
+    {
+      "id": "science-2026-09-03",
+      "journal": "Science",
+      "date": "2026-09-03",
+      "path": "articles/2026/09/science-2026-09-03.json",
+      "title_zh": "複製後的染色體並不對稱：真相藏在DNA複製的「偏袒」裡",
+      "title_en": "Replicated Chromosomes Aren't Mirror Images—The Truth Is in DNA's Asymmetric Dance",
+      "cover_url": "data/images/science/science-2026-09-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-09-02",
+      "journal": "Nature",
+      "date": "2026-09-02",
+      "path": "articles/2026/09/nature-2026-09-02.json",
+      "title_zh": "用量子糾纏解開標準模型最後一塊拼圖：Λ超子衰變的突破性測量",
+      "title_en": "Unlocking the Standard Model's Last Puzzle Piece: A Breakthrough Measurement in Λ Baryon Decay",
+      "cover_url": "data/images/nature/nature-2026-09-02-cover.jpg"
+    },
     {
       "id": "political-geography-2026-08-30",
       "journal": "Political Geography",
@@ -243,6 +261,15 @@
       "title_zh": "政治招牌還是生意殺手？少數族裔老闆在街角店舖裡的生存博弈",
       "title_en": "Political Brand or Business Liability? How Minority Entrepreneurs Navigate the Street-Level Tightrope",
       "cover_url": "data/images/political-geography/political-geography-2026-07-27-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-07-24-02",
+      "journal": "Political Geography",
+      "date": "2026-07-24",
+      "path": "articles/2026/07/political-geography-2026-07-24-02.json",
+      "title_zh": "被遺忘的帝國地理學家：路易·范沃倫與荷蘭殖民地緣政治的真相",
+      "title_en": "The Geographer Who Map-Made an Empire: Louis van Vuuren and the Dutch Colonial Geopolitical Imagination",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-24-02-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-24",
@@ -533,6 +560,15 @@
       "cover_url": "data/images/cell/cell-2026-07-01-02-cover.jpg"
     },
     {
+      "id": "cell-2026-07-01-03",
+      "journal": "Cell",
+      "date": "2026-07-01",
+      "path": "articles/2026/07/cell-2026-07-01-03.json",
+      "title_zh": "大腦的「斷線危機」：一種貫穿阿茲海默症、ALS與FTD的神經元基因損傷新機制",
+      "title_en": "The Brain's 'Snipped Thread' Crisis: A Shared Mechanism of Neuronal Genomic Damage Across Alzheimer's, ALS, and FTD",
+      "cover_url": "data/images/cell/cell-2026-07-01-03-cover.jpg"
+    },
+    {
       "id": "cell-2026-07-01",
       "journal": "Cell",
       "date": "2026-07-01",
@@ -798,8 +834,8 @@
       "journal": "American Sociological Review",
       "date": "2026-06-09",
       "path": "articles/2026/06/american-sociological-review-2026-06-09.json",
-      "title_zh": "倒數計時的不平等：末期癌症患者如何被「錯位」的時間剝奪選擇權",
-      "title_en": "The Unequal Clock: How Terminal Illness Reveals Time as a Mechanism of Inequality",
+      "title_zh": "癌症患者的時間戰爭：當命運倒數遇上制度的時鐘",
+      "title_en": "The Time War of Cancer Patients: When Countdown Meets the Institutional Clock",
       "cover_url": ""
     },
     {
