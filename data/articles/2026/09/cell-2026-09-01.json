@@ -1,0 +1,48 @@
+{
+  "id": "cell-2026-09-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "18",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "為什麼傷口癒合會「卡住」？破解發炎與纖維化的細胞決策邏輯",
+      "en": "When Healing Goes Wrong: How Cells Get Stuck in the Fibrosis Loop"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章提出了一個革命性的觀點：纖維化不是組織受損後的必然結局，而是一種可以被「重新編程」的調節狀態。作者指出，免疫細胞與成纖維細胞之間的雙向對話，透過染色質調控的基因電路來決定組織走向修復還是慢性瘢痕。這項框架的突破在於，它將纖維化從一個被動的終點，轉化為一個可逆的、由細胞決策邏輯所驅動的過程，為開發新型抗纖維化療法打開了全新路徑。\n\n【研究問題】過去對纖維化的理解往往聚焦於單一分子或細胞類型，缺乏一個統一的機制框架來解釋為何急性修復會轉為慢性瘢痕。此外，多數研究依賴小鼠急性損傷模型，與人類慢性疾病進程存在顯著差距。理解細胞如何整合環境訊號並做出「修復或瘢痕」的決策，是填補這一空白的關鍵。\n\n【研究方法】作者綜合了心臟、肺、肝、腎等多器官的最新單細胞測序、空間轉錄體學與表觀基因體學數據，並重點引用人類組織研究結果。他們以染色質可及性、增強子動態與轉錄因子網絡為核心分析框架，系統梳理了免疫-間質細胞對話的分子機制，並對比了再生與纖維化兩種截然不同的組織命運。\n\n【結果】研究揭示了多個關鍵發現：CCR2+單核細胞來源的巨噬細胞是IL-1β的主要來源，透過激活成纖維細胞中MEOX1基因的應激增強子驅動纖維化程序；BET抑制劑可使這些染色質區域可逆性關閉，同時逆轉纖維化；KLF2/4/5等轉錄因子主動維持成纖維細胞的靜息狀態；代謝中間物（如琥珀酸、乳酸）與機械力訊號透過染色質修飾酶直接重寫細胞的基因表達程式。這些發現表明，靶向染色質調節網絡而非單純抑制纖維化輸出，有望實現纖維化的真正逆轉。",
+      "en": "**Summary:** This review proposes a paradigm-shifting framework: fibrosis is not an inevitable endpoint of tissue damage but a reversible regulatory state governed by chromatin-encoded gene circuits that integrate immune-stromal crosstalk. The central insight is that fibroblasts and macrophages function as dynamic interpreters of their microenvironment, and the choice between resolution and chronic scarring is determined by how these cells process signals through enhancer landscapes and transcriptional networks. This reframing opens therapeutic avenues that target the upstream regulatory logic rather than downstream fibrotic outputs.\n\n**Problem:** The field has long lacked a unified mechanistic framework explaining why acute repair transitions into chronic fibrosis. Most prior work focused on individual molecules or cell types in isolation, and the predominant reliance on murine acute injury models— which often resolve spontaneously—leaves a critical gap in understanding the sustained pathological states seen in human disease. Clarifying how cells integrate diverse cues over time to lock into or escape fibrotic programs is essential for developing disease-modifying therapies.\n\n**Approach:** The authors synthesize findings from single-cell RNA sequencing, spatial transcriptomics, ATAC-seq, and Perturb-seq across multiple organs—heart, lung, liver, and kidney—with a deliberate emphasis on human tissue data. They construct a gene regulatory circuit model centered on chromatin dynamics, tracing how paracrine signals from immune cells are interpreted by fibroblasts through enhancer rewiring, and how metabolic and mechanical inputs converge on chromatin-modifying enzymes to stabilize pathological states.\n\n**Results:** Key findings include: CCR2+ monocyte-derived macrophages are the dominant source of IL-1β in injured tissue, which activates a p65/RELA-dependent enhancer driving MEOX1 expression in fibroblasts—a conserved regulatory hub across organs. BET inhibition (targeting BRD4) reversibly closes stress-induced enhancers and regresses fibrosis in cardiac models. KLF2, KLF4, and KLF5 were identified as active guardians of fibroblast quiescence, with their loss sufficient to trigger activation. Metabolic intermediates like succinate and lactate directly feed into chromatin-modifying enzymes (e.g., histone lactylation), while mechanical forces via YAP/TAZ and PIEZO1 reinforce profibrotic programs. These discoveries collectively demonstrate that fibrotic states are maintained by writable regulatory circuits, not fixed cell fates, and can potentially be rewired therapeutically."
+    },
+    "keyArticle": {
+      "title": "The regulatory logic linking inflammation and fibrosis",
+      "authors": [
+        "Michael Alexanian",
+        "Deepak Srivastava"
+      ],
+      "doi": "10.1016/j.cell.2026.08.001",
+      "pages": "5488-5503"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.001",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.001"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-07T21:54:11.283640+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "science-2026-07-16-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6813",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-16-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "三十年的難題終於破解：科學家首次實現「扶手椅」納米管的高純度合成",
+      "en": "The Armchair Advantage: How Scientists Finally Tamed Nanotube Chirality"
+    },
+    "summary": {
+      "zh": "【總結】發表於《Science》的這項研究，成功實現了過渡金屬二硫化物（TMDC）納米管的手性選擇性合成——這是材料科學領域長達三十餘年的「聖杯」問題。研究團隊利用氮化硼納米管（BNNT）作為納米模板，在 confines 下生長出 SnS2、MoS2 和 WS2 納米管，扶手椅結構的比例分別高達 84%、62.5% 和 45.8%。這項突破不僅填補了單壁 TMDC 納米管手性控制的空白，更揭示了一條從鋸齒形納米帶捲曲成扶手椅納米管的全新形成機制，為未來高性能納米電子器件的開發奠定了基礎。\n\n【研究問題】一維納米管因量子束縛效應擁有獨特的力學、光學和電子特性。與碳納米管（CNT）相比，TMDC 納米管的材料種類更為豐富，調控自由度更大。然而，TMDC 晶格對稱性較低，其手性（即捲曲角度）極難控制。過去三十多年裡，科學家只能在多層 WS2 納米管中實現同向堆疊，卻始終無法在單壁 TMDC 納米管中實現特定手性的選擇性生長。這就像你有一堆不同顏色的積木，卻始終無法精準拼出你想要的形狀。\n\n【研究方法】研究團隊設計了一套巧妙的四步合成策略：以單壁碳納米管為模板，在其外壁生長氮化硼納米管；氧化去除內層碳管，留下內徑 1-12 奈米的純 BNNT；最後在 BNNT 內腔中生長 TMDC 納米管。BNNT 的內徑預先由初始碳管直徑決定，扮演關鍵角色。結構鑑定綜合運用了高分辨透射電子顯微鏡（HR-TEM）、納米區電子衍射（NAED）、圓二色性光譜（CD）及拉曼光譜。更具突破性的是，研究團隊開發了基於密度泛函理論（DFT）數據的機器學習勢能（MLP），實現了超過十萬原子系統的分子動力學模擬，並通過原位 TEM 實時觀測了納米帶到納米管的動態轉變過程。\n\n【結果】研究團隊對超過 50 個納米管的電子衍射數據進行統計分析，發現 SnS2 納米管中約 84% 為扶手椅結構（α ≈ 30°），MoS2 為 62.5%，WS2 為 45.8%。DFT 計算揭示了一個看似矛盾的現象：扶手椅和鋸齒形納米管的形成能幾乎相同，但鋸齒形納米帶的邊緣能量卻顯著更低。機器學習模擬和原位 TEM 共同驗證了一條全新的形成路徑：鋸齒形納米帶在 BNNT 模板約束下捲曲，最終閉合成扶手椅納米管。此外，扶手椅 SnS2 納米管的電子有效質量明顯低於鋸齒形結構，意味著其載流子遷移率更高，在納米電子器件中具有潛在優勢。",
+      "en": "**Summary:** A landmark study in Science has achieved what many considered impossible: chirality-selective synthesis of transition metal dichalcogenide (TMDC) nanotubes—a three-decade-old materials science challenge. By confining growth of SnS2, MoS2, and WS2 inside boron nitride nanotube (BNNT) templates, the researchers produced nanotubes with a strong armchair preference: up to 84% for SnS2, 62.5% for MoS2, and 45.8% for WS2. This breakthrough not only fills a critical gap in single-walled TMDC nanotube control but also reveals an unexpected formation pathway—zigzag nanoribbons spontaneously rolling into armchair nanotubes under spatial confinement. The work opens a new chapter in nanomaterials engineering with direct implications for next-generation nanoelectronics.\n\n**Problem:** One-dimensional nanotubes exhibit extraordinary quantum phenomena—1D confinement, van Hove singularities, and strong nonlinear optical responses—that make them highly attractive for advanced electronics and photonics. While carbon nanotubes (CNTs) have been studied for decades, TMDC nanotubes offer a far richer chemical landscape, enabling bandgap engineering and novel exciton-polariton interactions. Yet controlling their chirality—the precise angle at which the atomic sheet is rolled—has remained stubbornly elusive. After more than twenty years of effort on CNTs, researchers finally achieved some chirality control; but for single-walled TMDC nanotubes, no reliable strategy existed. The only prior success was coherent stacking in multi-walled WS2 nanotubes, not true single-chirality selection. This gap has limited the practical deployment of TMDC nanotubes in high-performance devices.\n\n**Approach:** The team devised an elegant four-step template-based synthesis. Single-walled carbon nanotubes served as sacrificial templates: BNNTs were grown on their exterior, the carbon core was oxidized away, and TMDC nanotubes were then synthesized inside the resulting BNNT channels. The inner diameter of the BNNT—pre-determined by the original SWCNT—acts as a critical geometric constraint. Structural characterization combined multiple techniques: high-resolution TEM for atomic-scale imaging, nano-area electron diffraction (NAED) for chirality determination, circular dichroism spectroscopy for chiroptical analysis, and Raman spectroscopy for chemical verification. To understand the formation mechanism, the researchers employed density functional theory (DFT) for energetic calculations and developed a machine learning potential (MLP) trained on DFT data, enabling molecular dynamics simulations of systems exceeding 100,000 atoms. Finally, in-situ TEM allowed real-time observation of the nanoribbon-to-nanotube transformation.\n\n**Results:** Statistical analysis of over 50 NAED patterns revealed that 84% of SnS2 nanotubes adopted the armchair configuration (chiral angle α ≈ 30°), with 62.5% for MoS2 and 45.8% for WS2. DFT calculations showed that armchair and zigzag nanotubes have nearly identical formation energies, ruling out thermodynamic stability as the selection mechanism. Instead, the key lies in the nanoribbon intermediate: zigzag nanoribbons are significantly more stable. MLP-MD simulations and in-situ TEM observations confirmed that these zigzag nanoribbons, confined within the BNNT template, undergo a collapse-driven rolling process that transforms them into armchair nanotubes. Additionally, DFT calculations showed that armchair SnS2 nanotubes possess noticeably lower electron effective mass than their zigzag counterparts, suggesting superior carrier mobility for electronic applications."
+    },
+    "keyArticle": {
+      "title": "Preferred synthesis of armchair transition metal dichalcogenide nanotubes",
+      "authors": [
+        "Abid",
+        "Luneng Zhao",
+        "Ju Huang",
+        "Yongjia Zheng",
+        "Yuta Sato",
+        "Tianyu Wang",
+        "Dmitry Levshov",
+        "Lingfeng Wang",
+        "Haiming Sun",
+        "Qingyun Lin",
+        "Zhen Han",
+        "Chunxia Yang",
+        "Bill Herve Nduwarugira",
+        "Yicheng Ma",
+        "Yige Zheng",
+        "Hang Wang",
+        "Salman Ullah",
+        "Afzal Khan",
+        "Qi Zhang",
+        "Wenbin Li",
+        "Junfeng Gao",
+        "Bingfeng Ju",
+        "Feng Ding",
+        "Yan Li",
+        "Wouter Herrebout",
+        "Kazu Suenaga",
+        "Shigeo Maruyama",
+        "Huayong Yang",
+        "Rong Xiang"
+      ],
+      "doi": "10.1126/science.aeh1429",
+      "pages": "783-787"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-16-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh1429",
+      "doi": "https://doi.org/10.1126/science.aeh1429",
+      "preprint": "http://arxiv.org/abs/2506.16346"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-07T21:52:49.754165+00:00",
+    "source": "openalex"
+  }
+}

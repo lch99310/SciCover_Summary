@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-09-04T21:12:54.216643+00:00",
+  "lastUpdated": "2026-09-07T21:55:11.424725+00:00",
   "articles": [
+    {
+      "id": "political-geography-2026-09-06",
+      "journal": "Political Geography",
+      "date": "2026-09-06",
+      "path": "articles/2026/09/political-geography-2026-09-06.json",
+      "title_zh": "從K2到康亞庫馬里，印度是統一的：拉達克路標如何重塑邊境想像",
+      "title_en": "From K2 to Kanyakumari, Bharat is One: How Road Signs Remap Ladakh's Frontier Imagination",
+      "cover_url": "data/images/political-geography/political-geography-2026-09-06-cover.jpg"
+    },
     {
       "id": "science-2026-09-03",
       "journal": "Science",
@@ -20,6 +29,15 @@
       "cover_url": "data/images/nature/nature-2026-09-02-cover.jpg"
     },
     {
+      "id": "cell-2026-09-01",
+      "journal": "Cell",
+      "date": "2026-09-01",
+      "path": "articles/2026/09/cell-2026-09-01.json",
+      "title_zh": "為什麼傷口癒合會「卡住」？破解發炎與纖維化的細胞決策邏輯",
+      "title_en": "When Healing Goes Wrong: How Cells Get Stuck in the Fibrosis Loop",
+      "cover_url": "data/images/cell/cell-2026-09-01-cover.jpg"
+    },
+    {
       "id": "political-geography-2026-08-30",
       "journal": "Political Geography",
       "date": "2026-08-30",
@@ -36,6 +54,15 @@
       "title_zh": "海神波濤下的火星：潮汐層析揭開火星內核熱異常之謎",
       "title_en": "Tides as a X-Ray: How Mars's Gravity Field Reveals a Hidden Thermal Anomaly",
       "cover_url": "data/images/nature/nature-2026-08-26-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-08-26-03",
+      "journal": "Nature",
+      "date": "2026-08-26",
+      "path": "articles/2026/08/nature-2026-08-26-03.json",
+      "title_zh": "岩石固碳的隱形天花板：為什麼磨碎的玄武岩難以拯救地球？",
+      "title_en": "The Hidden Ceiling on Rock-Based Carbon Removal: Why Crushed Basalt Falls Short",
+      "cover_url": "data/images/nature/nature-2026-08-26-03-cover.jpg"
     },
     {
       "id": "nature-2026-08-26",
@@ -378,6 +405,15 @@
       "title_zh": "冷放射性分子的光譜探測：在桌面實驗室中創造極端靈敏的物質探針",
       "title_en": "Spectroscopy of Cold Radioactive Molecules: Creating Extreme-Sensitivity Probes on a University Tabletop",
       "cover_url": "data/images/science/science-2026-07-16-02-cover.jpg"
+    },
+    {
+      "id": "science-2026-07-16-03",
+      "journal": "Science",
+      "date": "2026-07-16",
+      "path": "articles/2026/07/science-2026-07-16-03.json",
+      "title_zh": "三十年的難題終於破解：科學家首次實現「扶手椅」納米管的高純度合成",
+      "title_en": "The Armchair Advantage: How Scientists Finally Tamed Nanotube Chirality",
+      "cover_url": "data/images/science/science-2026-07-16-03-cover.jpg"
     },
     {
       "id": "science-2026-07-16",

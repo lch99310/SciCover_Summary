@@ -1,0 +1,49 @@
+{
+  "id": "nature-2026-08-26-03",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8130",
+  "date": "2026-08-26",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-26-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "岩石固碳的隱形天花板：為什麼磨碎的玄武岩難以拯救地球？",
+      "en": "The Hidden Ceiling on Rock-Based Carbon Removal: Why Crushed Basalt Falls Short"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了一個被嚴重低估的關鍵事實：將玄武岩粉末施加於農地以移除大氣二氧化碳的「強化風化」（Enhanced Weathering, EW）策略，其實際固碳效率遠低於當前估算。研究團隊綜合全球火山流域的觀測數據，發現從土壤到河流的整個「臨界帶」過程中，二次礦物（如黏土與碳酸鹽）的沉澱會大量消耗和截留風化產生的鹼度，導致最終輸出至海洋的鹼度大幅衰減。這項發現為氣候工程評估提供了重要的實證基準，提醒政策制定者需將流域尺度的地球化學過程納入考量。\n\n【研究問題】當前EW碳移除潛力估算（每公頃每年4至12噸CO₂）主要依賴淺層土壤的鹼基陽離子流失量，卻忽略了風化產物在地下水流經土壤、風化層、地下水至河川的完整路徑中，會遭遇二次礦物沉澱、離子交換等「隱形消耗」。過去研究缺乏對整個臨界帶鹼度輸出的整合性評估，這是評估EW實際碳移除效能的重大盲點。\n\n【研究方法】研究團隊編纂了來自太平洋西北、堪察加、冰島、夏威夷、瓜德羅普及菲律賓等火山流域的河川溶質數據，計算各流域的CO₂吸收率。他們利用同位素質量平衡（如δ³⁰Si、δ⁴⁴Ca、δ⁸⁸Sr）追蹤硅、鈣、鎂等元素的流失與保留比例，並結合「地貌演化實驗設施」（Landscape Evolution Observatory）的30公尺尺度人工山坡 mesocosm 實驗數據，量化次生礦物形成對鹼度輸出的衰減效應。同時校正大氣沉積與熱液輸入的干擾。\n\n【結果】自然火山流域的CO₂吸收中位數僅0.16至0.97 t CO₂ ha⁻¹ year⁻¹，遠低於EW預估的4–12 t。冰島流域顯示30–67%的鈣、45–81%的鎂、90–95%的硅被次生礦物截留；夏威夷mesocosm實驗中69–90%的溶解鈣鎂硅在數天至數週內被保留。河川鹼度濃度隨流量增加而稀釋（HCO₃⁻濃度與流量呈負相關），枯水期採樣會嚴重高估鹼度輸出。現有EW田間試驗的鹼度輸出多低於0.1 t CO₂ ha⁻¹ year⁻¹，與預期差距懸殊。這意味著當前EW碳移除潛力可能被高估了數倍，未來評估必須整合臨界帶完整過程。",
+      "en": "**Summary:** This study reveals a critically underestimated reality: the actual carbon removal efficiency of Enhanced Weathering (EW)—a strategy that spreads crushed basalt on agricultural lands to draw down atmospheric CO₂—is far lower than current projections suggest. By synthesizing observational data from natural volcanic watersheds worldwide, the researchers demonstrate that secondary mineral formation (clays and carbonates) along subsurface flow paths significantly attenuates alkalinity export before it reaches the ocean. This work provides an essential empirical baseline for climate engineering assessments and underscores the need to incorporate watershed-scale geochemical processes into future EW evaluations.\n\n**Problem:** Current EW carbon removal potential estimates (4–12 t CO₂ ha⁻¹ year⁻¹) are primarily derived from shallow soil base cation depletion, ignoring the fate of weathering products as water traverses the full critical zone—from soil through regolith, groundwater, and into streams. Secondary mineral precipitation, ion exchange, and proton regeneration along these flow paths act as hidden sinks that consume alkalinity. This gap in understanding the complete solute pathway represents a major blind spot in assessing the real-world efficacy of EW as a carbon dioxide removal strategy.\n\n**Approach:** The research team compiled watershed-scale river solute data from volcanic regions including the Pacific Northwest, Kamchatka, Iceland, Hawai'i, Guadeloupe, and the Philippines, calculating CO₂ uptake rates from alkalinity export fluxes. They employed stable isotope mass balances (δ³⁰Si, δ⁴⁴Ca, δ⁸⁸Sr) to quantify the retention of silicon, calcium, and magnesium by secondary minerals. Data from the Landscape Evolution Observatory—a 30-metre-scale artificial hillslope mesocosm—provided controlled experimental validation of solute retention over days to weeks. Atmospheric deposition and hydrothermal inputs were carefully corrected to isolate low-temperature weathering signals.\n\n**Results:** Natural volcanic watersheds exhibit median CO₂ uptake rates of only 0.16–0.97 t CO₂ ha⁻¹ year⁻¹, far below the 4–12 t projected for EW. In Icelandic catchments, inverse modelling shows 30–67% of Ca, 45–81% of Mg, and 90–95% of Si from silicate weathering are retained in secondary minerals. The Hawai'i mesocosm experiment retained 69–90% of dissolved Ca, Mg, and Si over hydrologic timescales of days to weeks. River bicarbonate concentrations decrease with increasing discharge (dilution trends), meaning base-flow sampling substantially overestimates alkalinity export. Published EW field trials report alkalinity export equivalent to only 0–0.15 t CO₂ ha⁻¹ year⁻¹, often statistically indistinguishable from zero. These findings suggest current EW carbon removal potential may be overestimated by an order of magnitude, and future assessments must integrate full critical-zone process modeling rather than relying on shallow soil measurements alone."
+    },
+    "keyArticle": {
+      "title": "Critical zone processes limit alkalinity export from natural basaltic systems",
+      "authors": [
+        "Louis A. Derry",
+        "Kate Maher",
+        "Oliver A. Chadwick"
+      ],
+      "doi": "10.1038/s41586-026-10936-3",
+      "pages": "150-155"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-26-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10936-3",
+      "doi": "https://doi.org/10.1038/s41586-026-10936-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-07T21:53:30.873970+00:00",
+    "source": "openalex"
+  }
+}
