@@ -1,0 +1,71 @@
+{
+  "id": "cell-2026-09-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "18",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "作物西來，人未西遷：四千年前甘肅如何成為 Eurasia 的十字路口",
+      "en": "Crops Came West to East, but People Didn't: How Gansu Became a Crossroads Without Genetic Exchange"
+    },
+    "summary": {
+      "zh": "【總結】這項研究對中國西北甘肅地區11個考古遺址、共149個個體的古代DNA進行分析，時間跨度為4700至3000年前。研究揭示了一個令人意外的現象：儘管小麥、大麥、牛、羊等源自西南亞的農作物和牲畜已在當地廣泛使用，但當地人群的基因組中卻檢測不到來自西亞或中亞的遺傳影響。這表明史前跨大陸的農業與技術傳播可能並非通過大規模人口遷徙實現，而是以文化擴散的方式進行——與歐洲和中亞的模式截然不同。此外，研究對 Mogou 墓地複雜的社會結構進行了基因層面的解讀，發現該社群具有廣泛的血緣網絡，但埋葬習俗與生物親屬關係之間並無明確對應。\n\n【研究問題】過去四千年前，西南亞的馴化作物和牲畜開始出現在甘肅這一連接內亞山脈走廊、黃土高原、蒙古高原和青藏高原的關鍵十字路口。然而，關於這些變革背後的族群動態和社會實踐，學界長期缺乏系統性的基因數據支持。此前的研究多集中於歐洲和中亞，對於東亞地區的史前人口遷徙機制、社會組織模式（如從夫居或從妻居）以及多人合葬的親屬含義，了解極為有限。解決這個問題不僅能釐清農業傳播的真實路徑，更能揭示早期全球化進程中社會結構的運作方式。\n\n【研究方法】研究團隊從甘肅11個遺址採集古代骨骼樣本，利用靶向SNP捕獲和全基因組測序技術，成功獲取149個個體的基因組數據，覆蓋44,270至1,172,796個SNP位點。研究綜合運用主成分分析（PCA）、ADMIXTURE群體結構分析、D統計量、TreeMix系統發育樹、qpAdm祖先成分建模、DATES混合時間估算、IBD（相同遺傳段）共享網絡分析、純合子區域（ROH）分析等多種古基因組學方法。同時結合考古學文化分類（馬家窯、齊家、寺洼、西營等文化）、穩定同位素數據和埋葬習俗記錄，進行跨學科的綜合分析。\n\n【結果】研究發現，所有甘肅古代個體在基因上均聚集於東亞人群範圍內，未檢測到西亞或中亞遺傳成分。根據考古文化，人群分為兩大群體：齊家文化和寺洼文化相關群體主要源自黃河流域祖先（59%–100%），而馬家窯、西營和沙巴文化相關群體則更多來自東南蒙古高原祖先。Mogou 墓地73個個體中，90.4%（66/73）與他人存在IBD共享，顯示廣泛且持續數百年的血緣網絡。有效人口規模約為4,000人，表明存在外婚制而非封閉的內婚制。研究未發現明顯的父居或母居模式跡象，共葬個體之間也無強烈的生物親屬關係證據。值得注意的是，具有非本地祖先成分的個體（基因異常值）往往與較低地位的埋葬習俗相關聯，暗示社會等級與來源地之間的複雜關聯。",
+      "en": "**Summary:** This study analyzed ancient DNA from 149 individuals across 11 archaeological sites in Gansu, China, spanning 4,700 to 3,000 years ago. The research revealed a surprising phenomenon: despite the widespread adoption of southwest Asian domesticates such as wheat, barley, cattle, and sheep in the region, no detectable genetic influence from West or Central Eurasia was found in the local populations. This suggests that prehistoric agricultural and technological dispersal likely occurred through cultural transmission rather than large-scale population migration—a model distinct from what is documented in Europe and Central Asia. Additionally, the study provides a genomic lens into the complex social structure of the Mogou cemetery, revealing a community with extensive kinship networks but no clear correspondence between burial practices and biological relatedness.\n\n**Problem:** Beginning around 4,000 years ago, domesticated crops and livestock from southwest Asia began appearing in Gansu, a key crossroads linking the Inner Asian Mountain Corridor, the Loess Plateau, the Mongolian Plateau, and the Tibetan Plateau. Yet the population dynamics and social practices underlying these transformative events remained poorly understood. Previous research had focused heavily on Europe and Central Asia, leaving East Asia severely underrepresented in ancient DNA studies. Critical questions persisted: How did agricultural dispersal occur in East Asia—through population movement or cultural spread? What were the social structures, including residence patterns (patrilocal vs. matrilocal) and the meaning of multiple burials, in these early complex societies? Solving these problems is essential for understanding both the mechanisms of early trans-Eurasian connectivity and the social organization of prehistoric communities.\n\n**Approach:** The research team extracted ancient DNA from skeletal remains across 11 Gansu sites, generating genomic data for 149 individuals using targeted SNP capture and shotgun sequencing, covering between 44,270 and 1,172,796 SNPs. The study employed a comprehensive suite of population genetic methods: principal-component analysis (PCA), ADMIXTURE for population structure, D-statistics and outgroup f3 for genetic affinities, TreeMix for phylogenetic modeling, qpAdm for ancestry composition, DATES for admixture timing, and identity-by-descent (IBD) segment sharing to map kinship networks. Runs of homozygosity (ROH) were used to estimate effective population size and detect consanguinity. These genetic analyses were integrated with archaeological culture classifications (Majiayao, Qijia, Siwa, Xichengyi, Siba, and Lower Changshan cultures), stable isotope data, and detailed burial practice records for a multidisciplinary synthesis.\n\n**Results:** All Gansu individuals clustered firmly within East Asian genetic variation, with no detectable West or Central Eurasian ancestry. Two major genetic groups emerged aligned with archaeological cultures: Qijia and Siwa groups derived 59%–100% of their ancestry from Yellow River-related sources, while Majiayao, Xichengyi, and Siba groups showed greater southeastern Mongolian Plateau ancestry. At Mogou, 90.4% (66 of 73) of individuals shared IBD segments with at least one other person, revealing widespread and enduring kinship ties persisting across centuries and cultural transitions. The effective population size was approximately 4,000, indicating exogamous rather than endogamous mating practices. No significant sex-biased demographic patterns were detected—neither patrilocal nor matrilocal residence was supported. Co-buried individuals showed no strong evidence of biological relatedness. Notably, genetic outliers with non-local ancestry components were associated with lower-status burial practices, suggesting a link between social stratification and regional origin."
+    },
+    "keyArticle": {
+      "title": "Genomics and social practices at Mogou and other Gansu sites during prehistoric trans-Eurasian exchange",
+      "authors": [
+        "Han Shi",
+        "E. Andrew Bennett",
+        "Guoke Chen",
+        "Hui Wang",
+        "Tianyi Wang",
+        "Peng Cao",
+        "Ruilin Mao",
+        "Fan Bai",
+        "Qingyan Dai",
+        "Feng Liu",
+        "Xiaotian Feng",
+        "Yongan Wang",
+        "Chong Yao",
+        "Jing Wu",
+        "Wenjun Wang",
+        "Ming Zhang",
+        "Tingwu Liu",
+        "Jingkun Ran",
+        "Yue-Chen Liu",
+        "Yuan Liu",
+        "Dan Ju",
+        "Chuyan Li",
+        "Hongwei Hou",
+        "Xinyi Liu",
+        "Qiaomei Fu"
+      ],
+      "doi": "10.1016/j.cell.2026.07.050",
+      "pages": "5802-5820.e22"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.050",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.050"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-10T21:32:21.191387+00:00",
+    "source": "openalex"
+  }
+}

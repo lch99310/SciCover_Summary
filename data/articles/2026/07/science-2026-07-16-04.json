@@ -1,0 +1,63 @@
+{
+  "id": "science-2026-07-16-04",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6815",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/science/science-2026-07-16-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "宜居帶岩石行星正在「漏氣」：氦氣大逃亡揭開系外行星大氣演化之謎",
+      "en": "A Rocky Planet in the Habitable Zone Is Leaking: Helium Escape Reveals the Fate of Exoplanet Atmospheres"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊首次在近距岩石系外行星 LHS 1140b 的大氣層中偵測到氦氣外洩現象，這顆行星位於其恆星的宜居帶內。這項發現不僅是岩石行星擁有大氣層的直接證據，更揭示了一個動態過程：恆星的高能輻射正在持續剝蝕這顆行星的大氣。更令人驚訝的是，2024年偵測到氦氣外洩，但2025年卻沒有，顯示大氣逃逸具有時間變異性。這項研究為理解系外行星大氣層的長期演化提供了關鍵線索。\n\n【研究問題】過去對系外行星大氣層的觀測主要集中在大型氣體行星上，而岩石行星由於體積小、亮度低，極難偵測其大氣層。許多觀測結果顯示岩石行星可能是無大氣狀態，這引發了「宇宙海岸線」（cosmic shoreline）的概念——即行星能否在大約數十億年間維持大氣層的邊界條件。LHS 1140系統恰好提供了絕佳的測試案例：兩顆岩石行星分別位於這個邊界的兩側，為理解大氣層流失機制提供了天然實驗室。\n\n【研究方法】研究團隊使用位於智利拉斯坎帕納斯天文台的6.5公尺克拉望遠鏡，搭配WINERED近紅外光譜儀進行觀測。他們在2024年9月23日觀測了LHS 1140b和1140c的凌日過程，並在2025年9月29日再次觀測了1140b的凌日。研究團隊利用XMM-Newton太空望遠鏡的X射線觀測數據來估算恆星的高能輻射通量，並使用p-winds大氣逃逸模型來模擬行星大氣的物理特性。他們採用貝氏檢索框架和馬可夫鏈蒙地卡洛方法來擬合觀測數據，以推導大氣逃逸率、溫度、氫氦比例等關鍵參數。\n\n【結果】研究團隊在2024年觀測中偵測到LHS 1140b大氣層中存在氦吸收信號，吸收深度為1.24%，並發現行星前方存在一個氦氣「領先尾」，後方則可能有「拖尾」。模型計算顯示大氣逃逸率約為每秒2.03×10^8克，上層大氣以氦為主、氫含量極低（氫氦原子比約為10^-3）。這個結果支持「大氣分餾」模型——即輕元素氦優先逃逸，而較重的氧、碳、氮等元素則被保留在下層大氣。相較之下，LHS 1140c未偵測到任何氦吸收信號，符合其無大氣狀態的預期。這些發現為宇宙海岸線理論提供了有力支持，並暗示LHS 1140b可能是一個「迷你海王星」或「水世界」，其大氣層正在經歷動態演化。",
+      "en": "**Summary:** The research team has made the first detection of helium escaping from the atmosphere of LHS 1140b, a rocky exoplanet orbiting within its star's habitable zone. This discovery not only provides direct evidence that rocky planets can retain atmospheres, but also reveals a dynamic process: the star's high-energy radiation is steadily stripping away the planet's atmosphere. Remarkably, helium escape was detected in 2024 but absent in 2025, indicating time-variable atmospheric loss. This study offers crucial insights into the long-term evolution of exoplanet atmospheres.\n\n**Problem:** Past observations of exoplanet atmospheres have focused primarily on large gas giants, while rocky planets remain extremely difficult to study due to their small size and low brightness. Many observations have revealed airless worlds, prompting the concept of the \"cosmic shoreline\" — a proposed boundary that separates planets that retain atmospheres from those that lose them over billions of years. The LHS 1140 system provides an ideal testing ground: its two rocky planets sit on either side of this proposed boundary, offering a natural laboratory for understanding atmospheric escape mechanisms.\n\n**Approach:** The team used the WINERED near-infrared spectrograph on the 6.5-meter Clay Telescope at Las Campanas Observatory in Chile. They observed transits of both LHS 1140b and LHS 1140c on September 23, 2024, and re-observed 1140b on September 29, 2025. X-ray observations from the XMM-Newton space telescope were used to estimate the host star's high-energy radiation flux. The team employed the p-winds atmospheric escape model to simulate the physical properties of the planetary atmosphere, using a Bayesian retrieval framework with Markov Chain Monte Carlo analysis to derive key parameters including mass-loss rate, outflow temperature, and hydrogen-to-helium ratio.\n\n**Results:** In 2024, the team detected helium absorption in LHS 1140b's atmosphere with an absorption depth of 1.24%. They identified a leading tail of escaping helium ahead of the planet and tentative evidence for a trailing tail behind it. Modeling indicates an atmospheric mass-loss rate of approximately 2.03×10^8 grams per second, with the upper atmosphere dominated by helium and extremely depleted in hydrogen (H:He ratio of ~10^-3). This supports atmospheric fractionation models, where lighter helium escapes preferentially while heavier elements like oxygen, carbon, and nitrogen remain trapped at lower altitudes. In contrast, no helium absorption was detected for LHS 1140c, consistent with its airless nature. These findings provide strong support for the cosmic shoreline theory and suggest LHS 1140b may be a temperate mini-Neptune or water world undergoing dynamic atmospheric evolution."
+    },
+    "keyArticle": {
+      "title": "Helium escaping from the atmosphere of a nearby rocky exoplanet orbiting in a habitable zone",
+      "authors": [
+        "Collin Cherubim",
+        "Shreyas Vissapragada",
+        "Tim Cunningham",
+        "Annabella Meech",
+        "David Charbonneau",
+        "Robin Wordsworth",
+        "Aaron Householder",
+        "Johanna Teske",
+        "Leonardo A. Dos Santos",
+        "Nicole L. Wallack",
+        "William Misener",
+        "Zifan Lin",
+        "Andrew McWilliam",
+        "Michael Zhang",
+        "Jason Dittmann",
+        "Mercedes López‐Morales"
+      ],
+      "doi": "10.1126/science.aea9708",
+      "pages": "998-1001"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-07-16-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aea9708",
+      "doi": "https://doi.org/10.1126/science.aea9708",
+      "preprint": "https://arxiv.org/abs/2607.14326"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-10T21:24:46.242758+00:00",
+    "source": "openalex"
+  }
+}

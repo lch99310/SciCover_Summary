@@ -1,0 +1,39 @@
+{
+  "id": "american-sociological-review-2026-03-25",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "2",
+  "date": "2026-03-25",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "血緣與權力的鎖鏈：上流階級如何透過家族網絡代代相傳？",
+      "en": "The Kinship Lock: How Elite Families Lock in Wealth, Status, and Power Across Generations"
+    },
+    "summary": {
+      "zh": "為什麼有些家族能穩坐上流階級數百年，而其他家族卻只是曇花一現？社會學家 Shay O'Brien 在《美國社會學評論》提出「親屬互鎖」概念，將經濟社會學、政治社會學與階層研究相結合。他指出，上流階級的持久性不僅來自財富累積，更依賴於家族網絡中財富、地位與權力的緊密交織——就像企業董事會的重疊席位連接精英一樣，親屬關係將經濟、政治與社會精英緊密串聯。\n\n研究基於達拉斯市前 122 年的獨特數據，涵蓋整個上流階級及所有經濟、政治與社會精英，並追蹤其全部家族聯繫。O'Brien 發現，親屬互鎖透過兩種機制促成階級延續：一是為家族成員抵禦經濟、法律與社會風險，二是推動成員向上流動。然而，這些親屬形成與資源交換的過程，與性別、性取向與種族體系相互塑造——因此，最穩定的上流階級往往呈現強烈的異性戀規範與種族主導特徵。\n\n這項研究提醒我們，階級固化不僅是經濟現象，更是親屬網絡與權力結構共同作用的結果。理解「親屬互鎖」有助於揭開上流階級長青背後的社會機製，也為社會流動與平等政策提供新的分析視角。",
+      "en": "Why do some families remain at the top of society for generations while others fade away? In the American Sociological Review, Shay O'Brien introduces the concept of kinship interlocks, bridging economic sociology, political sociology, and stratification studies. He argues that upper-class persistence relies not merely on wealth accumulation but on the tight intertwining of wealth, status, and power within family networks—much like overlapping board memberships connect corporate elites, kinship ties bind economic, political, and social elites together.\n\nDrawing on a unique dataset covering the entire upper class and all economic, political, and social elites in Dallas over its first 122 years, along with their mutual family ties, O'Brien identifies two primary mechanisms: kinship interlocks shield family members from economic, legal, and social risks, and they propel kin into higher strata. However, these processes of kin formation and intimate exchange are co-constitutive with systems of gender, sexuality, and race—meaning the most durable segments of the upper class are especially heteronormative and racially dominant.\n\nThis study reveals that class persistence is not purely an economic phenomenon but the product of kinship networks and power structures working in tandem. Understanding kinship interlocks offers new insight into how elite continuity is maintained, and opens fresh perspectives for policies aimed at social mobility and equality."
+    },
+    "keyArticle": {
+      "title": "Kinship Interlocks: How the Intimate Exchange of Wealth, Status, and Power Generates Upper-Class Persistence",
+      "authors": [
+        "Shay O’Brien"
+      ],
+      "doi": "10.1177/00031224261425688",
+      "pages": "191-226"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261425688",
+      "doi": "https://doi.org/10.1177/00031224261425688"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-09-10T21:35:23.105363+00:00",
+    "source": "openalex"
+  }
+}

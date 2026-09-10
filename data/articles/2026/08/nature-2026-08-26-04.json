@@ -1,0 +1,58 @@
+{
+  "id": "nature-2026-08-26-04",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8131",
+  "date": "2026-08-26",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-26-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "量子貓放大「單光子反沖」——科學家首次測得單一多原子分子的紅外吸收光譜",
+      "en": "A Quantum 'Cat' Amplifies a Single Photon's Kick: Infrared Spectroscopy of a Single Polyatomic Molecule"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次實現了對單一多原子分子離子的非破壞性紅外吸收光譜量測。團隊將一個 CaOH⁺ 分子離子與一個 Ca⁺ 原子離子一同囚禁在離子阱中，利用「反沖偵測」捕捉分子吸收單顆中紅外光子時獲得的微小動量；更關鍵的是，他們把雙離子晶體的集體運動製備成「薛丁格貓態」，讓這股幾乎察覺不到的反沖被大幅放大，最後藉由原子離子的螢光讀出訊號。他們成功測得 CaOH⁺ 的 O–H 伸縮振動譜線，並展示了單光子靈敏度的吸收光譜。這項技術為複雜多原子分子的量子態製備與量測開創了新途徑。\n\n【研究問題】吸收光譜學是研究光與物質交互作用的基本工具，但傳統方法依賴量測穿過樣品後的光強度變化；當對象只有單一分子時，訊號會被光子的量子雜訊淹沒。更麻煩的是，分子離子之間互相排斥，難以形成高密度樣本，過去科學家只能用光解離、電荷轉移或碎裂等「破壞性」方法間接推測吸收。量子邏輯光譜學雖能非破壞性地讀取分子狀態，但目前大多只適用於雙原子分子。能否直接偵測單一多原子分子吸收單顆光子的過程，並且不破壞它的量子狀態？這是量子計量與量子科技發展的關鍵問題。\n\n【研究方法】實驗使用線性 Paul 阱囚禁一個 ⁴⁰Ca⁺ 與一個 ⁴⁰CaOH⁺ 離子；CaOH⁺ 是藉由洩入水蒸氣與鈣離子反應生成。首先將兩離子集體運動冷卻到基態，再用雙色雷射場施加自旋相關力，把運動態製備成「貓態」——原子狀態與兩個反向相干態的糾纏疊加。當分子吸收一顆光子時，反沖動量會使貓態產生微小位移；接著反轉貓態生成過程，這個位移便轉換成原子狀態的旋轉角，等同把訊號放大了約 |α|≈6.5 倍。團隊先用電脈衝製造已知大小的位移來校正系統，再以重複率 100 kHz 的飛秒雷射脈衝激發 O–H 伸縮振動，並結合量子化學計算與蒙地卡羅模擬比對。\n\n【結果】校正實驗顯示，貓態放大後的偵測訊號與理論預期一致，實際對比度因退相干而乘以 0.52(3) 的修正因子；單次電脈衝造成的位移 η=0.0193(2) 與中紅外單光子反沖量級相符。在雷射中心頻率 3703.3(2) cm⁻¹、施加 34 個脈衝時，測得吸收訊號為 0.12(1)，換算的單光子吸收機率隨脈衝數增加並飽和至約 0.5，反映了分子隨機取向造成的去相位。掃描 3600–4000 cm⁻¹ 得到的吸收峰與 ab initio 預測的 3783 cm⁻¹ 接近，譜寬也吻合。這套方法可延伸至低至 2000 cm⁻¹ 的躍遷，未來有望實現單次讀取的非破壞性量子態偵測、高精密頻梳光譜，以及超快分子動力學研究。",
+      "en": "**Summary:** For the first time, researchers performed non-destructive infrared absorption spectroscopy on a single polyatomic molecular ion. By co-trapping a CaOH⁺ ion with a single Ca⁺ ion in a Paul trap, they detected the tiny recoil kick a molecule receives when it absorbs one mid-infrared photon. The key trick: the two-ion crystal's motion was prepared in a Schrödinger-cat state — a quantum superposition of two motional wavepackets — which amplified the minuscule displacement into a large, measurable change in the atomic ion's electronic state. Using this \"recoil amplification,\" the team recorded the O–H stretching vibration of CaOH⁺ with genuine single-photon sensitivity, opening a new route toward non-destructive quantum-state readout of complex molecules.\n\n**Problem:** Absorption spectroscopy normally works by measuring how much light a sample attenuates. For a single molecule, the signal is buried under photon shot noise and laser fluctuations. Molecular ions are even trickier: they repel each other, so dense samples are hard to make, and conventional ion spectroscopy relies on destructive readouts — photodissociation, charge transfer, or fragmentation — that destroy or perturb the very state being studied. Quantum logic spectroscopy can read out molecular states non-destructively via a co-trapped atomic ion, but it has largely been limited to diatomic or simple species. The open challenge: detect a single-photon absorption event on a single polyatomic molecule without destroying it — a crucial capability for molecular quantum technologies and precision measurement.\n\n**Approach:** The team trapped one ⁴⁰Ca⁺ ion and one ⁴⁰CaOH⁺ ion in a linear Paul trap, forming a two-ion crystal whose shared motion behaves as a single harmonic oscillator. After laser-cooling to the motional ground state, they applied a bichromatic light field to the atomic ion, generating a spin-dependent force that entangled the ion's internal state with two coherent motional states — a cat state with amplitude |α| ≈ 6.5. When the molecule absorbed an infrared photon, the recoil displaced this cat state; reversing the entanglement operation converted that displacement into a geometric phase, read out as a change in atomic fluorescence. The recoil signal is amplified by the cat-state amplitude, making single-photon detection possible. They calibrated the system using electric \"kick\" pulses of known displacement and then drove the O–H stretch vibration with synchronized femtosecond laser pulses, comparing results against ab initio quantum-chemistry calculations and Monte Carlo simulations.\n\n**Results:** The calibrated detection reached a signal contrast of 0.52(3) relative to ideal at |α| = 6.5(7), limited mainly by atomic and motional decoherence; a single electric kick with η = 0.0193(2) mimicked the recoil of a mid-infrared photon. Exciting CaOH⁺ with 34 femtosecond pulses at 3703.3(2) cm⁻¹ yielded an absorption signal of 0.12(1), and the effective single-photon absorption probability saturated near 0.5 due to random molecular orientation. The measured absorption spectrum peaked close to the ab initio value of 3783 cm⁻¹ for the O–H stretch, with matching width. Beyond this benchmark, the method can detect transitions down to ~2000 cm⁻¹, and the authors outline how it could enable single-shot, non-destructive quantum-state detection, frequency-comb precision spectroscopy, and ultrafast pump–probe studies of intramolecular dynamics — important steps toward quantum technology with molecular ions."
+    },
+    "keyArticle": {
+      "title": "Infrared absorption spectroscopy of a single polyatomic molecular ion",
+      "authors": [
+        "Zhenlin Wu",
+        "Tim Duka",
+        "Mariano Isaza-Monsalve",
+        "Miriam Kautzky",
+        "Vojtěch Švarc",
+        "Andrea Turci",
+        "René Nardi",
+        "Marcin Gronowski",
+        "Michał Tomza",
+        "Brandon J. Furey",
+        "Philipp Schindler"
+      ],
+      "doi": "10.1038/s41586-026-10915-8",
+      "pages": "364-368"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-26-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10915-8",
+      "doi": "https://doi.org/10.1038/s41586-026-10915-8",
+      "preprint": "https://arxiv.org/abs/2511.19687"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-10T21:29:10.610948+00:00",
+    "source": "openalex"
+  }
+}
