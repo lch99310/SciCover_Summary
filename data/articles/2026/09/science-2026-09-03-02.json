@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-09-03-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6815",
+  "date": "2026-09-03",
+  "coverImage": {
+    "url": "data/images/science/science-2026-09-03-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "禽流感逼近南極：澳洲撤離研究站背後的科學與倫理之爭",
+      "en": "When Bird Flu Reaches the Edge of the World: Australia's Controversial Station Evacuation"
+    },
+    "summary": {
+      "zh": "【總結】澳洲南极局做出前所未有的決定：因高致病性H5N1禽流感病毒（2.3.4.4b株）可能席捲麥夸里島，將撤離該島全部24名研究人員。這座位於澳洲與南極之間的遙遠島嶼擁有約19,000隻南部象海豹的繁殖群，自1948年起便持續監測。此舉引發科學界激烈辯論——保護研究人員心理健康無可厚非，但無限期中止現場研究，意味著錯失記錄一場重大野生動物疾病爆發的珍貴機會，也迫使人們反思：當大規模疫情成為南大洋環境的一部分，科學該何去何從？\n\n【研究問題】這篇文章探討的核心問題是：面對可能席捲南大洋的H5N1禽流感疫情，科學界應如何在研究人員安全與科學數據收集之間取得平衡？過去的研究盲點在於，科學家從未見過如此大規模的哺乳動物禽流感爆發——該病毒自2020年起在全球傳播，主要感染鳥類，極少在物種內傳播，但2022年起在秘魯海獅、阿根廷南部象海豹中造成高達95%幼崽死亡率，打破了傳統認知。解決這個問題至關重要，因為這標誌著一種新型生態威脅的出現，而我們對如何在疫情中繼續科學研究毫無準備。\n\n【研究方法】本文是一篇新聞報導，並非原始研究論文。作者Erik Stokstad綜合了澳洲南极局的官方聲明、多位學者的訪談（包括疾病生態學家Jane Younger、研究阿根廷象海豹的Claudio Campagna、加州大學聖塔克魯茲分校生物學家Roxanne Beltran等），以及已發表的預印本數據。文章梳理了H5N1病毒在南大洋的傳播時間線：2022年11月秘魯海獅開始死亡、2023年阿根廷南部象海豹大規模死亡、2023年10月南喬治亞島約53,000隻海豹喪生、2025年10月 Heard Island與McDonald Islands幼崽死亡率達四分之三。作者透過對比不同學者的觀點，呈現了這一決策背後的科學、倫理與實務層面的複雜性。\n\n【結果】H5N1病毒已對南大洋海洋哺乳動物造成毀滅性打擊：南喬治亞島與南桑威奇群島的 breeding population 幾乎減半， Heard Island 幼崽死亡率達75%。麥夸里島被評估為「極高機率」在6週繁殖季內遭到感染。澳洲政府以兩項理由決定全面撤離：一是避免研究人員目睹幼崽大量死亡而產生心理創傷，二是若事後緊急撤離將動用澳洲唯一極地艦船，干擾三大南極站的運作。然而，學者指出其他國家的次南極項目在加強生物安全下仍持續監測禽流感，澳洲的決定被批評為過度反應，且未提供替代方案（如縮減團隊規模、縮短部署時間、加強心理支援）。這一決策凸顯了氣候與疫情變化時代科學研究的根本困境。",
+      "en": "**Summary:** Australia's Antarctic Division has made an unprecedented decision to evacuate all 24 researchers from Macquarie Island, a remote sub-Antarctic outpost, fearing that the highly pathogenic H5N1 avian flu strain 2.3.4.4b will soon devastate the island's colony of approximately 19,000 breeding southern elephant seals. While the risk to human health is deemed low, officials cite the psychological toll of watching thousands of pups die as the primary concern. The decision has ignited a fierce debate within the scientific community: protecting researchers' mental health is understandable, but indefinitely halting fieldwork means losing a rare opportunity to study a major wildlife disease outbreak at its epicenter—and forcing a reckoning with what science looks like when catastrophic epidemics become part of the Southern Ocean's new normal.\n\n**Problem:** The article addresses a pressing question with no precedent: how should science proceed when a novel, devastating pathogen enters a previously unaffected ecosystem? Historically, H5N1 was considered a bird disease that rarely jumped to mammals or spread within mammal species. That changed dramatically in November 2022, when thousands of sea lions began dying in Peru, followed by southern elephant seals in Argentina with pup mortality reaching 95%. By October 2023, the virus had reached the sub-Antarctic, killing an estimated 53,000 seals on South Georgia and the South Sandwich Islands. The gap in knowledge is stark—we have no framework for conducting sustained scientific research in an environment where mass wildlife mortality events may now recur annually. Solving this is crucial because the Southern Ocean is one of the last relatively pristine ecosystems on Earth, and understanding how diseases propagate through it is essential for predicting and responding to future ecological change.\n\n**Approach:** This is a news feature rather than a primary research article. Author Erik Stokstad synthesizes official statements from the Australian Antarctic Division, interviews with multiple experts—including disease ecologist Jane Younger (University of Tasmania), seal researcher Claudio Campagna (Wildlife Conservation Society), and biologist Roxanne Beltran (UC Santa Cruz)—and preprint data. The article reconstructs the virus's timeline across the Southern Ocean: from the 2022 Peruvian sea lion die-off, through the 2023 Argentine seal catastrophe, to the 2025 outbreak at Heard and McDonald Islands where three-quarters of pups perished. By juxtaposing diverging expert perspectives, the piece examines the scientific, ethical, and logistical dimensions of the evacuation decision without taking a single position.\n\n**Results:** The H5N1 virus has inflicted catastrophic losses on sub-Antarctic marine mammals. South Georgia and the South Sandwich Islands lost an estimated 53,000 seals—nearly halving the breeding population. At Heard and McDonald Islands, 75% of elephant seal pups died. Macquarie Island, home to ~19,000 breeding females studied since 1948, was assessed as having a \"very high likelihood\" of infection during the upcoming six-week breeding season. Australia justified the full evacuation on two grounds: protecting staff from psychological harm and avoiding the logistical chaos of a last-minute emergency extraction that would divert the nation's only polar vessel from its three Antarctic stations. Critics note that other nations continue monitoring bird flu in sub-Antarctic regions under enhanced biosecurity, and argue Australia never explained why a smaller specialist team, shorter deployments, or additional psychological support were not considered. The episode lays bare a fundamental dilemma for science in an era of accelerating ecological disruption."
+    },
+    "keyArticle": {
+      "title": "Fearing seal die-off from bird flu, Australia moves to evacuate sub-Antarctic research station",
+      "authors": [
+        "Erik Stokstad"
+      ],
+      "doi": "10.1126/science.aem0441",
+      "pages": "960-961"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-09-03-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aem0441",
+      "doi": "https://doi.org/10.1126/science.aem0441"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-13T21:14:47.964697+00:00",
+    "source": "openalex"
+  }
+}

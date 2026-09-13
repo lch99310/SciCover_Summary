@@ -1,0 +1,52 @@
+{
+  "id": "cell-2026-09-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "18",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "果蠅大腦的視覺高速公路：從眼睛到意識的完整地圖",
+      "en": "The Fly's Visual Superhighway: Mapping the Complete Journey from Eye to Brain"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次完整描繪了果蠅大腦中視覺訊號的傳播路徑。研究團隊利用果蠅的連接組（connectome）數據，追蹤從視網膜感光細胞到大腦深處的視覺訊號傳遞過程，揭示了視覺資訊如何在整個大腦中被組織、整合與分發。這項研究不僅解答了「視覺資訊在大腦中如何路由」的根本問題，更為理解跨物種的視覺系統組織原則提供了全新的框架。\n\n【研究問題】過去對視覺系統的理解多集中於單一腦區（如果蠅的視葉），缺乏從眼睛到大腦全域的完整視角。雖然研究者知道視覺系統採用平行路徑處理不同特徵（如運動、對比、顏色），但訊號如何從感光細胞一路傳遞到中央大腦、各條路徑如何分工與交匯，仍是未解之謎。解決這個問題對於理解大腦如何將光訊號轉化為感知至關重要。\n\n【研究方法】研究團隊使用雄性果蠅的完整中樞神經系統連接組數據，包含超過16萬個神經元。他們開發了一套資訊流算法，從視覺輸入神經元（L1、L2、L3、R7、R8等八種細胞類型）出發，模擬訊號在大腦網絡中的傳播過程。通過計算每個神經元的「視覺輸入貢獻度」（VIC）和預測「解剖學感受野」（ARF），研究團隊能夠在不進行實際電生理實驗的情況下，預測神經元對視覺特徵的響應特性，並與現有實驗數據進行交叉驗證。\n\n【結果】研究發現果蠅視葉包含九個不同的視覺通路類別（oc1–oc9），每個類別具有獨特的輸入混合模式。在中央大腦中，約38%的雄性特異性神經元和41%的性二態性神經元被預測為視覺相關。研究預測的ON/OFF選擇性與實驗數據的準確率達83%（45/54），感受野大小的預測與實際測量值高度吻合。這些結果表明，視覺資訊在整個大腦中並非隨機分佈，而是遵循精確的層級結構和空間組織原則。",
+      "en": "**Summary:** This study presents the first complete map of how visual signals are organized and routed throughout the entire Drosophila brain. Using the male fruit fly connectome—a comprehensive wiring diagram of over 160,000 neurons—the researchers traced visual information from photoreceptors through the optic lobes and into the central brain. The work reveals a multilayered architecture of parallel pathway classes, each with distinct feature preferences, and demonstrates how visual information is systematically integrated across the brain.\n\n**Problem:** While visual systems across species share a conserved architecture of parallel, hierarchical processing, how visual information is routed throughout an entire brain has remained elusive. Previous studies focused largely on isolated brain regions, particularly the optic lobes, leaving a critical gap in understanding how visual signals propagate from the eye to higher-order brain areas and how different feature channels (motion, contrast, color) are preserved, mixed, or converged across processing stages.\n\n**Approach:** The researchers applied a network-based information flow algorithm to the male Drosophila connectome. Starting from eight types of visual input neurons (L1, L2, L3, R7, R8, R7d, R8d, and the HB eyelet), they simulated signal propagation through the brain's synaptic network, assigning each neuron a hierarchical layer and computing its Visual Input Contribution (VIC). They predicted anatomical receptive fields (ARFs) and contrast selectivity (ON/OFF) for thousands of neuron types, then validated these predictions against existing physiological data.\n\n**Results:** The analysis identified nine distinct optic lobe pathway classes (oc1–oc9) and ten central brain pathway classes (cc1–cc10). Approximately 38% of male-specific and 41% of sexually dimorphic central brain neurons were predicted to be visually responsive. Predicted ON/OFF selectivity matched experimental data in 83% of cases (45/54), and predicted receptive field sizes correlated strongly with measured values. The study demonstrates that visual information is not randomly distributed but follows precise hierarchical and spatial organization principles across the entire brain."
+    },
+    "keyArticle": {
+      "title": "The organization of visual pathways in the Drosophila brain",
+      "authors": [
+        "Judith Hoeller",
+        "Arthur Zhao",
+        "Aljoscha Nern",
+        "Edward M. Rogers",
+        "Sandro Romani",
+        "Michael B. Reiser"
+      ],
+      "doi": "10.1016/j.cell.2026.08.014",
+      "pages": "5552-5570.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.014",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.014"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-13T21:17:55.375811+00:00",
+    "source": "openalex"
+  }
+}

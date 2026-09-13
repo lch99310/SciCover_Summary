@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-04-30-03",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-04-30",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-30-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI如何成為伊斯蘭恐嚇的空間武器？從加沙到倫敦的算法種族主義",
+      "en": "How AI Became a Spatial Weapon of Islamophobia: From Gaza to London"
+    },
+    "summary": {
+      "zh": "【總結】本文探討人工智慧如何加劇針對穆斯林的空間性歧視。作者指出，AI技術正從軍事監控到社交媒體內容生成，系統性地將穆斯林標記為威脅，從而重塑城市與邊境空間的權力關係。\n\n【研究問題】過去研究多聚焦九一一後的反恐怖主義政策，卻忽略了AI作為新技術如何延續並強化種族主義的空間邏輯。文章追問：當算法滲入日常治理，穆斯林的生活空間如何被重新定義與壓縮？\n\n【研究方法】作者採用批判性政治地理學視角，分析多個實證案例，包括加沙的AI目標識別系統、新疆的數字圍欄、英國2024年騷亂中的深偽內容，以及X平台Grok聊天機器人的偏見輸出，揭示AI如何成為種族歧視的基礎設施。\n\n【結果】研究發現，AI在加沙被用於自動轟炸目標識別（如「薰衣草」系統），在新疆透過生物識別技術監控維吾爾人，在英國則透過深偽圖像煽動反穆斯林情緒。這些案例證明，AI不是中立的工具，而是強化伊斯蘭恐嚇的空間工程，將穆斯林的身體數據化為威脅指標，進一步剝奪其移動、居住與歸屬的權利。",
+      "en": "**Summary:** This article examines how artificial intelligence exacerbates spatialised Islamophobia—the systemic regulation of Muslim presence, mobility, and belonging through algorithmic systems. The author argues that AI is not a neutral technology but a racialised infrastructure that extends imperial logics of exclusion into the digital age.\n\n**Problem:** While scholars have documented how post-9/11 security architectures produced spatial exclusion of Muslims, less attention has been paid to how generative AI and autonomous weapons systems are accelerating and normalising these patterns. The article asks: how is AI restructuring the geography of Muslim life across military, surveillance, and cultural domains?\n\n**Approach:** The author employs a critical political geography framework, analysing case studies spanning Gaza’s AI targeting systems, Xinjiang’s digital enclosure of Uyghurs, the 2024 UK riots fueled by deepfake imagery, and the Islamophobic outputs of X’s Grok chatbot. These cases are read as interconnected nodes in a global infrastructure of algorithmic racialisation.\n\n**Results:** The article reveals that Israel’s “Lavender” and “Where’s Daddy?” AI systems in Gaza have been used to identify and strike targets at scale, often misidentifying civilians. In Xinjiang, biometric surveillance creates a “digital enclosure” that strips Uyghurs of transnational Muslim identity. During the 2024 UK riots, AI-generated deepfakes falsely portrayed the Southport attacker as a Muslim migrant, amplifying far-right violence. Grok, X’s AI chatbot, legitimised Islamophobic claims by affirming that critiques of Islamic practices are “not racism.” Together, these cases demonstrate that AI functions as a spatial project—producing racialised geographies that confine, surveil, and delegitimise Muslim life worldwide."
+    },
+    "keyArticle": {
+      "title": "AI and spatialised Islamophobia",
+      "authors": [
+        "Shereen Fernandez"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103570",
+      "pages": "103570"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-30-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103570",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103570"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-13T21:19:41.159362+00:00",
+    "source": "openalex"
+  }
+}

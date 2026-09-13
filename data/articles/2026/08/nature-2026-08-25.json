@@ -1,0 +1,48 @@
+{
+  "id": "nature-2026-08-25",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8131",
+  "date": "2026-08-25",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-08-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "海平面比想像中更高：一鍵公開關鍵數據，讓海岸風險評估不再盲猜",
+      "en": "The Ocean's True Face: How Open-Source Geoid Data Is Rewriting Coastal Risk"
+    },
+    "summary": {
+      "zh": "【總結】這篇《自然》補遺文章為2026年3月發表的原始研究提供了完整的方法學透明度。原始研究發現，全球多數海岸災害評估低估了海平面高度——而這篇補遺公開了支撐該發現的核心數據：五種大地水準面模型（EGM96、EGM2008、GOCO06s、GOCO2025s、DIR R4）的詳細配置參數與統計數據。這讓全球研究者能夠完整複現研究結果，確保海岸防護決策建立在可驗證的科學基礎之上。\n\n【研究問題】過去海岸風險評估普遍採用簡化或過時的大地水準面參考框架，導致海平面高度被系統性低估。研究缺口在於：原始發表的數據處理細節不夠透明，其他團隊難以驗證或重複分析。解決這個問題至關重要，因為數億沿海居民的生命財產安全仰賴這些評估的準確性——如果海平面被低估，防洪堤坝、疏散計畫和基礎設施設計都可能嚴重不足。\n\n【研究方法】作者從德國地球科學研究中心（GFZ）的國際全球地球模型中心（ICGEM）開放計算服務中，下載了五種大地水準面模型的全球點位數據。原始模型以0.085°解析度涵蓋約897萬個點位；後續新增的GOCO2025s與DIR R4模型則以1.000°解析度取得65,341個網格點。所有數據均參照WGS84橢球體，並採用潮汐自由系統配置。作者使用ArcGIS Pro的多邊式徑向基函數（multiquadric radial basis functions）將離散點位內插為全球網格，並對核參數進行了最佳化。每個模型的統計特徵（加權平均、最大值、最小值、加權均方根）均在補充資料中完整列出。\n\n【結果】補遺提供了五種大地水準面模型的完整配置元數據與統計摘要：EGM96（最高階360階）加權平均為−7.14毫米、極值介於−106.5至85.9米之間；EGM2008（最高階2190階）加權平均為−8.24毫米；GOCO06s與GOCO2025s（均為300階）的加權平均約為−7.15毫米與16.37毫米；DIR R4（260階）加權平均為16.49毫米。這些數據不僅使原始研究完全可複現，也為未來海岸災害模型提供了標準化的大地水準面基準——研究團隊強調，不同模型之間的微小差異可能影響局部海岸偏移量的計算，因此透明公開每一項參數是確保科學可信度的關鍵。",
+      "en": "**Summary:** This Addendum to a March 2026 *Nature* paper provides the complete methodological transparency needed to reproduce the original study's central finding: that sea level is substantially higher than assumed in most coastal hazard assessments worldwide. The authors disclose the full configuration details of five geoid models—EGM96, EGM2008, GOCO06s, GOCO2025s, and DIR R4—along with their statistical profiles and processing parameters. By making these details publicly available, the paper ensures that coastal risk assessments built on this research can be independently verified and refined.\n\n**Problem:** Coastal hazard assessments around the world have relied on simplified or outdated geoid reference frameworks, systematically underestimating true sea surface heights. The gap this paper addresses is one of reproducibility: the original study's data processing pipeline was not fully disclosed, leaving other researchers unable to verify or extend the findings. This matters enormously because hundreds of millions of people live in coastal zones, and inaccurate sea level estimates can lead to dangerously inadequate flood defenses, evacuation plans, and infrastructure design.\n\n**Approach:** The authors obtained point data on geoid height anomalies from the International Centre for Global Earth Models (ICGEM), operated by the GFZ Helmholtz Centre for Geosciences. For the three primary models (EGM96, EGM2008, GOCO06s), they downloaded global data at 0.085° resolution—approximately 8.97 million points per model. Two additional models (GOCO2025s and DIR R4) were processed at 1.000° resolution, yielding 65,341 grid points each. All data were referenced to the WGS84 ellipsoid in a tide-free system. The team interpolated the discrete point data into global rasters using multiquadric radial basis functions in ArcGIS Pro, optimizing the kernel parameter for each interpolation. Every statistical descriptor—weighted mean, maximum, minimum, and weighted root mean square—is reported for each model in Extended Data Tables 1–5.\n\n**Results:** The five geoid models show distinct statistical signatures. EGM96 (max degree 360) has a weighted mean of −7.14 mm, ranging from −106.5 m to 85.9 m. EGM2008 (max degree 2190) averages −8.24 mm over the same range. GOCO06s and GOCO2025s (both max degree 300) yield weighted means of −7.15 mm and +16.37 mm respectively, while DIR R4 (max degree 260) averages +16.49 mm. These configurations enable exact reproduction of the coastal offset calculations that underpin the original study's claim that sea level is far higher than previously assumed. The authors stress that even subtle differences between geoid models can shift local coastal elevation estimates, making full transparency essential for the integrity of coastal risk science."
+    },
+    "keyArticle": {
+      "title": "Addendum: Sea level much higher than assumed in most coastal hazard assessments",
+      "authors": [
+        "Katharina Seeger",
+        "Philip S. J. Minderhoud"
+      ],
+      "doi": "10.1038/s41586-026-11017-1",
+      "pages": "E8-E14"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-08-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11017-1",
+      "doi": "https://doi.org/10.1038/s41586-026-11017-1"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-13T21:16:40.806301+00:00",
+    "source": "openalex"
+  }
+}
