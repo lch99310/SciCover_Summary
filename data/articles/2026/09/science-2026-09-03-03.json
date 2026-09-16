@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-09-03-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6815",
+  "date": "2026-09-03",
+  "coverImage": {
+    "url": "data/images/science/science-2026-09-03-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "俄羅斯孤注一擲：用超級科學設施重塑國際科研版圖",
+      "en": "Russia's Megascience Gamble: Building New Facilities to Rewire Global Science"
+    },
+    "summary": {
+      "zh": "【總結】俄羅斯在2026年8月宣布完成首座現代化同步輻射光源——西伯利亞圓形光子源（SKIF），耗資六億美元，是該國「六項 megaclass 研究設施」計劃的一部分。在烏克蘭戰爭導致西方科學家切斷與俄羅斯的合作後，俄羅斯正試圖透過這些先進設施吸引中國、印度等「友好國家」的研究人員，以重建國際科研網絡。SKIF預計明年全面運營，將成為全球同類設施中最先進的五座之一。\n\n【研究問題】自2011年啟動 megaclass 研究設施計劃以來，俄羅斯希望扭轉過去科研合作「不對稱」的局面——俄羅斯科學家頻繁出國，但外國研究人員和投資卻鮮少進入俄羅斯。然而，六項計劃中三項未能推進，包括融合反應爐 Ignitor 因義大利夥伴另起爐竈而告吹。2022年全面入侵烏克蘭後，貿易制裁更使進口設備變得極度困難。俄羅斯亟需找到替代方案，擺脫科學孤立。\n\n【研究方法】本文採用新聞分析與數據解讀的方式，整合俄羅斯國家原子能公司（Rosatom）的官方公告、學者訪談（如莫斯科物理技術研究所結構生物學家 Valentin Borshchevskiy）、以及 scientometrician Ivan Sterligov 對 Scopus 數據的分析。作者還引用了俄羅斯科學院官員 Andrei Fursenko 的公開聲明，並對比了中俄在科學出版與太空合作領域的數據變化。\n\n【結果】SKIF 完成後，俄羅斯同時邀請外國研究者使用另外兩座預計年底前運營的設施：位於杜布納的基於 Nuclotron 的離子對撞機設施（探測物質基本組件）和位於加特契納的 PIK 核研究反應爐（產生中子束用於材料研究）。數據顯示，2021至2025年間，俄中合著論文數量年均增長22%，從2021年的約3,570篇增至2025年的4,400篇，中國已取代美國和德國成為俄羅斯最頻繁的國際合作夥伴。太空領域同樣出現轉向：俄羅斯正將儀器搭載於中國「嫦娥七號」月球任務。然而，與中國研究人員合作也伴隨風險——近年來數名與中國合作的俄羅斯科學家被控叛國，普京已授權安全部門監控科學家與外國的研究人員的聯繫與出版物。",
+      "en": "**Summary:** Russia announced the completion of its first modern synchrotron, the Siberian Circular Photon Source (SKIF), in August 2026. The $600 million machine, one of six planned \"megaclass research facilities\" launched in 2011, is expected to be fully operational next year and will rank among the world's five most advanced in its class. With Western scientists largely severing ties following the Ukraine war, Russia is betting these state-of-the-art facilities will attract researchers from China, India, and other \"friendly\" nations, effectively rewiring its international scientific partnerships.\n\n**Problem:** Since 2011, Russia has sought to reverse what officials described as an \"asymmetrical\" pattern of international collaboration: Russian scientists frequently worked abroad, but few foreign researchers or investments came to Russia. Three of the six planned megaprojects stalled—most notably the Ignitor fusion reactor, which collapsed after Italian partners pivoted to their own machine. The full-scale invasion of Ukraine in 2022 and subsequent trade sanctions further complicated matters by making it nearly impossible to import critical equipment. Russia now faces scientific isolation and needs new strategies to remain globally relevant.\n\n**Approach:** The article draws on Rosatom's official announcements, interviews with scientists such as structural biologist Valentin Borshchevskiy (MIPT), and bibliometric analysis by scientometrician Ivan Sterligov using Scopus data. It also incorporates statements from Andrei Fursenko, a Putin aide and architect of the megascience program, and examines shifts in co-authorship patterns and international space cooperation to trace Russia's strategic pivot toward China and other non-Western partners.\n\n**Results:** Beyond SKIF, Russia is inviting foreign researchers to two additional facilities expected online by year's end: the Nuclotron-based Ion Collider Facility in Dubna, which probes the building blocks of matter, and the PIK nuclear research reactor in Gatchina, producing neutron beams for materials studies. Co-authorship data reveals a dramatic realignment: from 2021 to 2025, annual papers co-authored between Russian and Chinese researchers rose 22% to 4,400, making China Russia's top international collaborator—surpassing the U.S. and Germany. In space, Russia is now sending an instrument aboard China's Chang'e-7 lunar mission, a stark contrast to its pre-2022 practice of partnering with European, Japanese, and American space agencies. Yet collaboration carries risks: several high-profile Russian scientists have been charged with treason for partnering with Chinese researchers, and Putin has granted security agencies authority to monitor scientists' foreign contacts and publications."
+    },
+    "keyArticle": {
+      "title": "Russia bets on new research facilities to build foreign ties",
+      "authors": [
+        "Ilya Ferapontov"
+      ],
+      "doi": "10.1126/science.aem0440",
+      "pages": "958-959"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-09-03-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aem0440",
+      "doi": "https://doi.org/10.1126/science.aem0440"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-16T21:51:17.821983+00:00",
+    "source": "openalex"
+  }
+}

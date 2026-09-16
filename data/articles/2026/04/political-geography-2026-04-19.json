@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-04-19",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-04-19",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-19-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "堤防拆除的背後：當氣候危機遇上基礎設施的政治經濟學",
+      "en": "After the Embankment: The Hidden Politics of Climate Infrastructure Unmaking"
+    },
+    "summary": {
+      "zh": "【總結】本文探討尼德蘭與孟加拉兩地拆除堤防（embankment）的政治經濟學，指出拆除行動並非單純的技術決策，而是延續了建造時期的權力邏輯——透過土地控制與農業生產的重新評價，服務於精英階層的利益。研究打破「基於自然的解決方案」是範式轉移的神話，揭示其背後的不平等政治經濟結構。\n\n【研究問題】過去研究多將堤防拆除視為水文技術問題，忽視其決策過程中的權力分配與土地利益衝突。作者追问：在什麼政治經濟條件下，堤防拆除變得「可思考」、被推動或被抵抗？這為何重要？因為全球氣候變遷正迫使各國重新評估基礎設施，若只看水文數據而忽略社會政治動態，將使邊緣社區承擔不成比例的風險。\n\n【研究方法】作者採用「內嵌式比較」（incorporated comparison）方法，結合民族誌研究與文獻分析。在孟加拉進行兩年以上田野調查（2014–2015及後續訪問），在尼德蘭進行深度訪談（25位專家）、工作坊參與及博物館考察，並系統梳理現有學術文獻，從歷史、決策政治與政治經濟三個層面交叉分析。\n\n【結果】研究發現：尼德蘭「給河流空間」計畫以「空間品質」為名，實質由五名專家組成的Q團隊主導，將生態、經濟與美學價值量化為單一指標，掩蓋了農地與城市利益的優先排序；孟加拉的堤防系統自1960年代建於外來工程設計，如今因泥沙堆積與地面沉降導致內澱嚴重，科學家建議拆除，但當地居民強烈反對，因這將迫使約4000萬沿海居民遷移。兩地共同點在於：基礎設施的「拆除」與「建造」同樣服務於特定的土地與生產邏輯。",
+      "en": "**Summary:** This article examines the political economy of embankment removal in the Netherlands and Bangladesh, arguing that demolition is not a neutral technical decision but a continuation of the power logics that drove construction—consolidating land control and revaluing agrarian production to serve elite interests. The study debunks the myth that nature-based solutions represent a paradigm shift, revealing the unequal political-economic structures embedded within them.\n\n**Problem:** Previous research has largely treated embankment removal as a hydrological engineering problem, overlooking the power dynamics and land-interest conflicts embedded in decision-making. The author asks: Under what political-economic conditions does embankment removal become thinkable, pursued, or resisted? This matters because climate change is forcing governments worldwide to reassess existing infrastructure; focusing only on hydrological data while ignoring socio-political dynamics will disproportionately burden marginalized communities.\n\n**Approach:** The author employs an incorporated comparison method, combining ethnographic fieldwork with documentary analysis. Research in Bangladesh included over two years of fieldwork (2014–2015 and follow-up interviews). In the Netherlands, the author conducted 25 expert interviews, participated in workshops, visited museums, and systematically reviewed existing scholarship—analyzing the three dimensions of history, decision-making politics, and political economy.\n\n**Results:** Key findings: In the Netherlands, the Room for the River program uses spatial quality as a framing device, but decisions are effectively made by a five-member Q-Team of experts who quantify ecological, economic, and aesthetic values into a single metric, obscuring the prioritization of urban over agrarian land. In Bangladesh, the polder system built since the 1960s on foreign engineering models now suffers from severe waterlogging due to sediment accumulation and land subsidence; scientists recommend removal, but local residents strongly oppose it, as it would displace an estimated 40 million coastal inhabitants. Both cases reveal a shared logic: infrastructure unmaking serves the same land and production priorities that originally justified its construction."
+    },
+    "keyArticle": {
+      "title": "After the Embankment: Climate change and the politics of infrastructural unmaking",
+      "authors": [
+        "Kasia Paprocki"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103542",
+      "pages": "103542"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-19-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103542",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103542"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-16T21:56:04.720374+00:00",
+    "source": "openalex"
+  }
+}

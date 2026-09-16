@@ -1,0 +1,49 @@
+{
+  "id": "cell-2026-07-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "14",
+  "date": "2026-07-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "阿茲海默症逆襲：從斑塊清除到免疫革命，人類正重新掌握這場大腦戰役",
+      "en": "The Alzheimer's Reversal: How Amyloid Clearance and Immune Breakthroughs Are Redefining the Fight for the Brain"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《Cell》的綜述文章，全面梳理了過去五年阿茲海默症（AD）研究的突破性進展。研究指出，AD不再只是「斑塊與纏結」的簡單故事——免疫系統、脂質代謝、血腦屏障功能，乃至ApoE基因的多重角色，正被重新定義為疾病的核心驅動因素。更具里程碑意義的是，抗淀粉樣蛋白抗體藥物（lecanemab與donanemab）已證實能減緩認知衰退約30%，標誌著AD治療正式進入疾病修正時代。\n\n【研究問題】過去數十年，AD研究長期被困在「淀粉樣蛋白假說」的單一框架內，大量針對Aβ的臨床試驗接連失敗。同時，AD的生物標記依賴影像學，缺乏早期、便捷的檢測手段。更重要的是，ApoE4作為最強的遺傳風險因子，其作用機制遠未明晰，且不同族群、性別的風險差異缺乏系統性解釋。解決這些問題，是實現AD早期診斷與有效預防的必由之路。\n\n【研究方法】作者綜合分析了近五年發表於頂尖期刊的大量基礎研究與臨床試驗數據，涵蓋冷凍電子顯微術（cryo-EM）解析Aβ與tau蛋白結構、CRISPR篩選技術鑑定tau降解相關基因、大型生物標記隊列研究追蹤疾病發展序列，以及多項III期臨床試驗（如CLARITY-AD與TRAILBLAZER-ALZ 2）的統計結果。研究採用跨學科框架，將神經免疫學、脂質體學與遺傳學整合入AD病理模型。\n\n【結果】研究揭示多項關鍵發現：抗Aβ抗體可清除腦內斑塊並使認知衰退減慢約30%；cryo-EM首次解析人類腦源性Aβ42與tau纖維的獨特結構，證實其與合成纖維截然不同；APOE4攜帶者血腦屏障損傷風險顯著升高，且與認知衰退獨立相關；APOE3-Christchurch突變可大幅減少tau病理擴散；基於血液的p-tau217與Aβ42/40標記可在症狀出現前20年檢測到異常。這些發現為AD的早期篩查、個體化治療與多靶點聯合療法奠定了科學基礎。",
+      "en": "**Summary:** This comprehensive review in *Cell* synthesizes breakthrough advances in Alzheimer's disease (AD) research over the past five years. The article reframes AD not merely as a story of plaques and tangles, but as a multifactorial disease driven by neuroimmunology, lipid metabolism, blood-brain barrier dysfunction, and the pleiotropic effects of the APOE gene. A landmark finding is the demonstration that anti-amyloid antibodies (lecanemab and donanemab) slow cognitive decline by approximately 30%, marking the dawn of disease-modifying therapy for AD.\n\n**Problem:** For decades, AD research remained trapped within the singular amyloid hypothesis, resulting in repeated clinical trial failures targeting Aβ. Diagnostic reliance on expensive imaging lacked early, accessible biomarkers. Furthermore, the mechanistic role of APOE4—the strongest genetic risk factor—remained poorly understood, as did population-specific and sex-specific risk variations. Addressing these gaps is essential for achieving early diagnosis and meaningful prevention of AD.\n\n**Approach:** The authors integrated findings from a wide range of recent studies published in high-impact journals, including cryo-EM structural analyses of Aβ and tau filaments, CRISPR screens identifying tau degradation pathways, longitudinal biomarker cohorts tracking disease progression, and statistical data from Phase III clinical trials (CLARITY-AD and TRAILBLAZER-ALZ 2). The review employs a multidisciplinary framework, synthesizing neuroimmunology, lipidomics, and genetics into a unified model of AD pathogenesis.\n\n**Results:** Key findings include: anti-Aβ antibodies clear plaques and slow cognitive decline by ~30%; cryo-EM revealed that human brain-derived Aβ42 and tau filaments have distinct structures unlike synthetic counterparts; APOE4 carriers show significantly elevated blood-brain barrier dysfunction independently of amyloid and tau pathology; the APOE3-Christchurch mutation dramatically reduces tau seeding and spreading; and blood-based biomarkers (p-tau217 and Aβ42/40) can detect abnormalities up to 20 years before symptom onset. These discoveries lay the foundation for early screening, personalized therapy, and combination treatment strategies in AD."
+    },
+    "keyArticle": {
+      "title": "Recent advances in Alzheimer’s disease: From molecular mechanisms to therapeutic strategies",
+      "authors": [
+        "Michelle D. Rudman",
+        "Jason D. Ulrich",
+        "David M. Holtzman"
+      ],
+      "doi": "10.1016/j.cell.2026.06.006",
+      "pages": "4193-4224"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.06.006",
+      "doi": "https://doi.org/10.1016/j.cell.2026.06.006"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-16T21:54:25.246867+00:00",
+    "source": "openalex"
+  }
+}
