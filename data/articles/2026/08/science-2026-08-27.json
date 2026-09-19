@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-08-27",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6814",
+  "date": "2026-08-27",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "致命蜱傳病毒席捲歐洲：科索沃的三十年抗疫經驗，能救多少歐洲人？",
+      "en": "The Tick-Borne Virus Creeping Up on Europe—and the Lessons Kosovo Learned the Hard Way"
+    },
+    "summary": {
+      "zh": "【總結】克里米亞-剛果出血熱（CCHF）病毒正隨著氣候變遷與蜱蟲擴散，從歐洲東南部向北部蔓延。科索沃作為歐洲面對此病毒經驗最豐富的國家，其三十年的監測與防控實踐，為其他歐洲國家提供了珍貴的借鑑藍圖。\n\n【研究問題】CCHF病毒在歐洲的實際擴散範圍有多大？過去歐洲多數國家的監測系統存在嚴重盲點——許多國家根本不去檢測這種病毒，因為他們認為自己「沒有」這種病。科學界往往只在病原體引發明顯人類病例後才關注它，而非在動物與媒介中靜默傳播時就介入。了解病毒的真實分布與擴散動力，是制定有效防控策略的前提。\n\n【研究方法】本文綜合了多項來源：科索沃國家公共衛生實驗室的長期監測數據、2025年歐洲蜱蟲分佈的系統性回顧、克什特卡爾-賈赫羅米等人發表於《病毒學中國》的CCHF爆發風險評測，以及對科索沃、西班牙、葡萄牙、法國等多國疫情的實地調查與專家訪談。研究團隊還分析了科索沃2012年血清學調查中4%的無症狀感染者數據，用以推估實際感染規模。\n\n【結果】目前Hyalomma蜱蟲已在歐洲40個國家至少被發現一次；西班牙自2013年起就有本地感染病例，葡萄牙2024年出現首例且患者死亡，法國2023年首次在蜱蟲中檢出病毒。科索沃在2013年爆發後加強了農戶教育、牲畜殺蜱處理與診斷能力，2016至2025年間僅記錄5例人類病例。然而2012年調查顯示4%的科索沃居民已有抗體卻無症狀，暗示大量感染未被發現。專家警告：「第一個確診人類病例可能不是故事的開始，而只是我們第一次注意到它。」",
+      "en": "**Summary:** Crimean-Congo hemorrhagic fever (CCHF) virus is spreading across Europe, driven by climate change and the northward expansion of Hyalomma ticks. Kosovo, Europe's most experienced country in confronting CCHF, offers a critical blueprint for surveillance and control as the virus encroaches on previously unaffected nations.\n\n**Problem:** How far has CCHF virus actually spread across Europe, and why are so many countries caught off guard? The core gap lies in surveillance: most European nations do not test for CCHF precisely because they assume they do not have it. Scientists also tend to focus on pathogens only after they cause conspicuous human illness, rather than tracking them while they circulate silently in animals and ticks. Understanding the true distribution and drivers of spread is essential for proactive, not reactive, public health policy.\n\n**Approach:** The article synthesizes multiple data sources: decades of surveillance data from Kosovo's National Institute of Public Health, a 2025 review documenting Hyalomma ticks in at least 40 European countries, a risk assessment by Keshtkar-Jahromi et al. published in Virologica Sinica, and field investigations across Spain, Portugal, France, and Kosovo. Serological data from a 2012 Kosovo survey—showing 4% asymptomatic antibody positivity—was used to estimate the scale of undetected infections.\n\n**Results:** Hyalomma ticks have been reported in at least 40 European countries. Spain has recorded locally acquired CCHF since 2013, including three cases so far this year with one fatality. Portugal confirmed its first case in 2024, which proved fatal. France detected the virus in ticks for the first time in 2023, though no human cases have been reported. In Kosovo, human cases dropped to just five between 2016 and 2025 after targeted interventions: farmer education, acaricide treatment of livestock, and expanded diagnostics. Yet a 2012 survey found CCHF antibodies in 4% of 1,105 asymptomatic Kosovars, suggesting massive undercounting. As Parvage warns: \"The first diagnosed human case may not be the beginning of the story. It may simply be the first time we notice it.\""
+    },
+    "keyArticle": {
+      "title": "Deadly tick-borne virus gains ground in Europe",
+      "authors": [
+        "Richard Stone"
+      ],
+      "doi": "10.1126/science.ael8352",
+      "pages": "848-849"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ael8352",
+      "doi": "https://doi.org/10.1126/science.ael8352"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-19T21:15:13.371681+00:00",
+    "source": "openalex"
+  }
+}

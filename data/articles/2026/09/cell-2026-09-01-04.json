@@ -1,0 +1,57 @@
+{
+  "id": "cell-2026-09-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "19",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "粒線體的 4D 風景：AI 從上千 TB 活細胞影像中，解碼「形態決定功能」的密碼",
+      "en": "Mitochondria in 4D: How Self-Supervised AI Learns to Read Organelle Shape, Motion, and Energy State"
+    },
+    "summary": {
+      "zh": "【總結】MitoSpace 是第一個專為 4D（三維空間＋時間）粒線體影像設計的自監督深度學習模型。研究團隊以晶格光片顯微鏡拍攝約四萬個單一細胞、涵蓋 26 種藥物處理條件的活細胞影像，在不使用任何人工標註的情況下，讓模型自行學會辨識粒線體形態與動態的深層特徵。MitoSpace 不僅能把藥物反應清楚地分群，還能從形態與動態直接預測膜電位（R²=0.91），相當於在單細胞層次定量證明了「形態決定功能」的古老命題。更特別的是，它能零樣本推論到從未見過的藥物與人類肺臟類器官，而且 4D 資訊優於 3D、3D 優於 2D，為未來的高內涵表型篩選奠定了開放、可擴充的基礎。\n\n【研究問題】粒線體是細胞的發電廠，也是高度動態的 4D 胞器。過去研究大多依賴 2D 固定細胞影像或人工定義的特徵（如長度、圓度），只能看到片段、靜態的樣貌，無法捕捉融合、分裂、運動等動態行為；而傳統共軛焦顯微鏡又有光毒性與螢光漂白的限制。因此，學界一直缺乏能系統性、大規模回答「粒線體形態與功能之間究竟有何定量關係」的分析平台。這項研究要填補的正是這個缺口：用高解析度、低光毒性的 4D 活細胞影像搭配自監督學習，建立不依靠人工標註、又能跨條件與跨系統通用的表型分析方法。\n\n【研究方法】作者先用 25 種作用機制不同的藥物處理人類頭頸癌細胞 Cal27，並以晶格光片顯微鏡連續拍攝每個區域 20 分鐘、每分鐘取得一組 3D 立體影像，總共累積約 40,000 個單一細胞、12 TB 的 4D 資料。為了解決資料量太大無法直接訓練的問題，他們先訓練一個 3D 自編碼器，把每個影格壓縮 16 倍；接著用「3D ResNet＋雙向 LSTM」的時空編碼器，搭配 SimCLR 對比學習與各種時空增廣（如時間遮罩、旋轉、裁切、模糊），讓模型在沒有標籤的狀況下學會把表型相近的細胞聚在一起。最後用凍結的編碼器產生 2,048 維嵌入向量，進行藥物分類、特徵預測與膜電位迴歸。\n\n【結果】幾個關鍵數字：MitoSpace 在 26 種條件的藥物辨識（top-1 k-NN）平均準確率達 74.67%，遠高於傳統 13 個人工特徵的 23.81%；用嵌入向量預測 TMRM 膜電位得到 R²=0.91；即使只給 10 種條件訓練，對未見過藥物的零樣本準確率仍有 68.37%；在人類肺臟類器官的發育階段預測也有 62.9%。此外，將 4D 資料降成 3D、2D 後，分類準確率與群集純度都單調下降，證明體積與時間資訊不可或缺。這表示 MitoSpace 可作為「形態—功能」的通用讀取器，未來有望應用在藥物篩選、毒性預測與疾病模型等領域。",
+      "en": "**Summary:** MitoSpace is a self-supervised deep-learning model built to read the full four-dimensional lives of mitochondria—x, y, z, and time. Trained on roughly 40,000 single-cell movies from lattice light-sheet microscopy, spanning 26 drug-treated conditions, it learns to organize mitochondrial shape and motion into a meaningful landscape without any human labels. The model can identify which drug a cell was exposed to, predict mitochondrial membrane potential from morphology alone (R²=0.91), and generalize zero-shot to never-seen drugs and human lung organoids. By showing that 4D data outperform 3D, and 3D outperform 2D, MitoSpace makes a strong case that dynamic, volumetric imaging is essential for phenotypic screening and opens the door to foundation models in cell biology.\n\n**Problem:** Mitochondria are not static oval cartoons; they are continuously fusing, dividing, and moving. Yet most high-throughput screening relies on 2D snapshots of fixed cells or hand-crafted features like length and roundness, which miss the very dynamics that define mitochondrial behavior. Traditional confocal microscopy can capture 3D movies but causes phototoxicity and bleaching. As a result, the long-standing question—does mitochondrial form encode bioenergetic function?—has never been tested quantitatively at single-cell scale across many mechanistically distinct perturbations. The field needed an analytical framework that could handle terabytes of 4D live-imaging data without predefined labels and still extract biologically interpretable, generalizable phenotypes.\n\n**Approach:** The authors perturbed Cal27 human cancer cells with 25 mechanistically distinct drugs—including fission/fusion inhibitors, ETC complex inhibitors, uncouplers, ionophores, ROS modulators, and cytoskeletal drugs—and imaged mitochondria in 4D using lattice light-sheet microscopy (one volume per minute for 20 minutes). From ~40,000 single-cell crops they built a self-supervised contrastive learning pipeline: a 3D autoencoder first compressed each frame 16-fold to make training feasible; then a 3D ResNet plus bidirectional LSTM encoded volumetric morphology and temporal dynamics; and a SimCLR-style contrastive loss, augmented with temporal masking and 3D geometric transforms, learned a structured latent space. Downstream, frozen embeddings powered k-NN classification, feature-regression probes, and membrane-potential prediction, with the TMRM channel withheld during training as an independent functional readout.\n\n**Results:** MitoSpace reached 74.67% top-1 accuracy across 26 conditions—far above the 23.81% achieved with 13 predefined mitochondrial features. A regression probe predicted TMRM-measured membrane potential with R²=0.91, quantitatively linking form and function at single-cell resolution. In zero-shot mode (trained on only 10 conditions), accuracy remained 68.37%, and the model predicted developmental stages of human lung organoids with 62.9% accuracy. Ablation experiments showed cluster purity and classification accuracy improved monotonically from 2D to 3D to 4D, improving in 22 of 26 conditions. The model, dataset, and interactive explorer are public, positioning MitoSpace as a foundation for 4D phenotypic screening and a stepping stone toward general-purpose cellular imaging models."
+    },
+    "keyArticle": {
+      "title": "4D spatiotemporal landscape of mitochondrial phenotypes across cellular states unlocked through representation learning",
+      "authors": [
+        "Dhruv Agarwal",
+        "Zichen Wang",
+        "Eric Arkfeld",
+        "Andre Modolo",
+        "Parth Natekar",
+        "Hiroyuki Hakozaki",
+        "Mehul Arora",
+        "Gillian McMahon",
+        "Siddharth Nahar",
+        "Manav Doshi",
+        "Johannes Schöneberg"
+      ],
+      "doi": "10.1016/j.cell.2026.08.028",
+      "pages": "5962-5979.e6"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.028",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.028"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-19T21:19:08.377514+00:00",
+    "source": "openalex"
+  }
+}

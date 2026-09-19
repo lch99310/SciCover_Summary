@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-04-21",
+  "journal": "Political Geography",
+  "volume": "128",
+  "issue": "",
+  "date": "2026-04-21",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-04-21-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當河流成為「人」：羅訥河的生態覺醒與民主重生",
+      "en": "When Rivers Become Legal Persons: The Rhône's Quest for Ecological and Democratic Renewal"
+    },
+    "summary": {
+      "zh": "【總結】本文探討「自然權利」與「河流法律人格」如何透過三種想像——extractivism（開採主義）、ecocentrism（生態中心主義）與democracy（民主）——在羅訥河流域具體實踐。研究發現，開採主義想像已深植制度，生態中心主義尚未形成完整的經濟政治方案，而自然權利倡議者所推動的新決策過程，正在挑戰現有的民主想像。作者最終主張，賦予河流法律人格可能是為西方民主「重新魅惑」的一條路徑。\n\n【研究問題】過去關於自然權利的研究多聚焦於法律實施與制度設計，卻忽略了「想像」在推動變革中的核心角色。羅訥河是跨越法國與瑞士的高度工業化河流，擁有超過20座水壩，其治理模式長期由公營或半公營機構主導。本文旨在回答：在法律人格概念尚未完全落實的情況下，不同行動者如何透過想像重新定義人與河流的關係？這種想像又如何挑戰現有的治理結構？\n\n【研究方法】作者採用政治地理學的質性研究框架，結合語意分析、29場半結構式訪談（涵蓋政治家、官員、經濟用戶、環保組織與學者，來自法國與瑞士），以及2024年對羅訥河「Rhônergia水壩」公共辯論的參與式觀察。研究透過Castoriadis的「社會建制想像」理論與Jasanoff的想像演進四階段模型（起源、嵌入、抵抗、擴展），分析行動者如何建構與競爭對河流的不同想像。\n\n【結果】研究證實三個假說：第一，開採主義想像仍然強勢——羅訥河被視為「不竭資源」， slogans如「羅訥為國家服務」仍懸掛於水壩之上；第二，生態中心主義雖有萌芽，但尚未形成全面的經濟政治方案，倡議者內部對私有財產與公地關係也存在分歧；第三，自然權利倡議確實創造了公共討論空間，例如「羅訥人民議會」與線上請願，挑戰了現有的代議民主框架，推動從「委託民主」向「對話民主」轉型。",
+      "en": "**Summary:** This article examines how the Rights of Nature and legal personhood for rivers are materialized through three competing imaginaries—extractivism, ecocentrism, and democracy—within the Rhône River basin. The study finds that the extractivist imaginary remains deeply institutionalized, while the ecocentric imaginary has yet to coalesce into a comprehensive economic and political program. However, advocates for river personhood are indeed creating new deliberative spaces that challenge representative democracy. The author concludes that granting legal personhood to rivers could serve as a mechanism to re-enchant Western democracies.\n\n**Problem:** Prior research on the Rights of Nature has largely focused on legal implementation and institutional design, overlooking the role of imaginaries—the collectively held, institutionally stabilized visions of desirable futures—in driving transformative change. The Rhône River, a highly industrialized transboundary waterway spanning France and Switzerland with over 20 dams, represents a critical case where governance has been dominated by public and semi-public actors for decades. The article asks: how do different actors imagine the river and their relationship to it, and how do these imaginaries challenge existing governance structures? This question matters because without understanding the imaginative dimension, legal innovations like river personhood risk remaining hollow symbols.\n\n**Approach:** The study employs a qualitative methodology rooted in political geography, combining discourse analysis, 29 semi-structured interviews with diverse stakeholders—including elected officials, state administrators, economic users, environmental advocates, and academics from both France and Switzerland—and participant observation at 2024 public meetings on the controversial Rhônergia dam project. The theoretical framework draws on Castoriadis's concept of the \"social instituting imaginary\" and Jasanoff's four-stage model of imaginary evolution: origin, embedding, resistance, and extension. This approach allows the author to trace how alternative narratives about the river compete with entrenched institutional visions.\n\n**Results:** Three key findings emerge. First, the extractivist imaginary is firmly institutionalized: the Rhône is still widely conceived as an inexhaustible resource, encapsulated in slogans like \"Le Rhône sert la Nation\" displayed on dam facades. Climate change projections—winter flows up 30%, summer flows down 30%—are intensifying conflicts over water allocation rather than prompting systemic rethinking. Second, the ecocentric imaginary is nascent but incomplete. While advocates frame the Rhône as a living entity capable of \"dying\" if mistreated, there is no unified economic or political program, and even proponents disagree on issues like private property and access to lake shores. Third, the Rights of Nature movement is indeed generating new democratic spaces: the online petition, the Popular Assembly of the Rhône (25 randomly selected citizens), and public debate participation are pushing governance from delegated toward dialogic democracy, though institutional bodies like the Water Basin Committee remain largely performative."
+    },
+    "keyArticle": {
+      "title": "Extractivism, ecocentrism and democracy. Imaginaries around rights of river and legal personhood of the Rhône River",
+      "authors": [
+        "Cyrille Vallet"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103563",
+      "pages": "103563"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-04-21-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103563",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103563"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-19T21:19:59.525119+00:00",
+    "source": "openalex"
+  }
+}

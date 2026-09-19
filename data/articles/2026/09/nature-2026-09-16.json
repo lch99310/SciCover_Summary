@@ -1,0 +1,63 @@
+{
+  "id": "nature-2026-09-16",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8132",
+  "date": "2026-09-16",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "超導體也能「記住」電流？烏蘭金屬中的量子記憶效應揭開超高速低耗電運算新頁",
+      "en": "Superconductors That Remember: How a Quantum Memory Effect in Uranium Telluride Could Rewrite Computing"
+    },
+    "summary": {
+      "zh": "【總結】英國劍橋大學團隊在《自然》發表研究，發現超導體 UTe2 擁有一種前所未有的「電流記憶效應」。當材料處於兩個不同超導相（SC1 與 SC2）之間的過渡區域時，施加直流電流脈衝可以將系統切換至一個臨界電流密度更高的「記憶態」，且該狀態可穩定維持數小時。這項發現證明了超導體的量子渦旋物質本身即可作為非揮發性記憶體，無需依賴任何外部磁性或半導體界面，為極低功耗的超導計算與冷卻神經形態運算打開了全新可能性。\n\n【研究問題】過去數十年，科學界一直致力於開發基於超導元件的電腦，因為其能耗遠低於傳統電子器件。然而，實現可讀寫的非揮發性超導記憶體始終是一大難題。既有方案——如鐵磁體—超導體異質結構或磁通陷阱——都需要複雜的外層材料組合，且多數僅在臨界溫度附近運作。研究缺口在於：是否存在一種「本質上」的超導記憶體機制？為什麼 NbSe2 等材料在「峰值效應」區間雖有類似的臨界電流變化，卻無法在低溫下穩定存儲信息？\n\n【研究方法】研究團隊使用高純度 UTe2 單晶（剩餘電阻比高達 395），在稀釋製冷機中將溫度降至 50 毫開爾文，並施加最高 30 特斯拉的強磁場。他們通過精確控制直流電流的振幅、持續時間和衰減速率，系統性地掃描材料的電壓—電流（V–J）特性曲線。通過「泵浦—探測—擦除」的循環協議，團隊繪製了記憶效應在磁場強度與角度上的完整相圖，並對比了純 SC1 相、純 SC2 相以及過渡區域的行為差異。\n\n【結果】研究發現，記憶效應僅出現在 SC1 與 SC2 相交界的 SC1.5 區域（約 7–20 特斯拉），且在低溫下最強——超過 0.6 開爾文後迅速消失。電流脈衝越強、持續時間越長、衰減越快，產生的磁滯環越大，直至飽和。值得注意的是，記憶效應對電流方向無所偏愛，正負極均可觸發。團隊將此解釋為：急驟的電流變化將原本有序的渦旋晶格「淬火」為高度無序的玻璃態，其更强的釘扎力導致更高的臨界電流；而緩慢的電流掃描則讓系統「退火」回平衡態。讀取一個記憶狀態僅需約 1 納瓦功耗，若微縮至微米級則可低至皮瓦級別。",
+      "en": "**Summary:** A team at the University of Cambridge has discovered a previously unknown electrically controllable memory effect in the multiphase superconductor UTe2, reported in Nature. When the material is placed in an intermediate phase regime between two distinct superconducting states (SC1 and SC2), direct current pulses can switch it into a metastable high-critical-current state that persists for hours. This intrinsic memory functionality—rooted entirely in the vortex matter of the superconductor itself, without any magnetic or semiconductor interfaces—opens a new pathway toward ultra-low-power non-volatile memory and cryogenic neuromorphic computing.\n\n**Problem:** For decades, researchers have envisioned computers built entirely from superconducting components, which would consume far less energy than conventional electronics. Yet realizing writable, non-volatile superconducting memory has remained elusive. Existing approaches rely on ferromagnet–superconductor heterostructures or history-dependent magnetic flux trapping, both of which require complex layered materials and operate only near critical temperatures. The central gap: could a superconductor's own quantum vortex matter serve as an intrinsic, electrically programmable memory medium? Previous work in materials like NbSe2 showed hysteretic critical-current modulation near the peak-effect region, but this was thermally driven and vanished at low temperatures.\n\n**Approach:** The researchers grew ultra-clean UTe2 single crystals (with residual resistivity ratios up to 395) and performed DC transport measurements at temperatures as low as 50 millikelvin in magnetic fields up to 30 tesla. They systematically varied three control parameters of the current excitation—amplitude, duration, and relaxation rate—and mapped the resulting hysteretic voltage–current curves. By cycling through pump, probe, and erase protocols, they charted the full phase-space domain of the memory effect as a function of magnetic field strength and orientation, comparing behavior across the pure SC1 phase, pure SC2 phase, and the intermediate SC1.5 coexistence region.\n\n**Results:** The memory effect emerges only in the narrow SC1.5 regime (roughly 7–20 tesla) and is strongest below 0.4 kelvin, disappearing above 0.6 kelvin—a hallmark of an intrinsic low-energy phenomenon distinct from superconductivity itself. Stronger perturbations, longer pulse durations, and faster current relaxation all enlarge the hysteretic loop up to saturation. The effect is polarity-independent, working equally for positive and negative currents. The authors interpret the phenomenon as a quench-induced glassy vortex state: sharp current drops abruptly freeze disordered vortices into a pinned configuration with higher Jc, while gradual current ramps anneal the system back to equilibrium. Reading a memory state consumes only about 1 nanowatt for the millimeter-scale crystals tested, scaling down to sub-picowatt levels at micron dimensions—orders of magnitude below silicon-based memory."
+    },
+    "keyArticle": {
+      "title": "Electrically controllable superconducting memory effect in UTe2",
+      "authors": [
+        "Zheyu Wu",
+        "Hanyi Chen",
+        "Mengmeng Long",
+        "Daniel Shaffer",
+        "Dmitry V. Chichinadze",
+        "A. Cabala",
+        "Theodore I. Weinberger",
+        "Alexander J. Hickey",
+        "Jinxu Pu",
+        "D. Graf",
+        "V. Sechovský",
+        "Michal Valiska",
+        "Gang Li",
+        "Rui Zhou",
+        "F. Malte Grosche",
+        "Alexander G. Eaton"
+      ],
+      "doi": "10.1038/s41586-026-11015-3",
+      "pages": "632-637"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11015-3",
+      "doi": "https://doi.org/10.1038/s41586-026-11015-3",
+      "preprint": "https://doi.org/10.48550/arxiv.2603.02450"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-19T21:16:54.134192+00:00",
+    "source": "openalex"
+  }
+}
