@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-09-19T21:21:10.771181+00:00",
+  "lastUpdated": "2026-09-22T21:50:18.055483+00:00",
   "articles": [
+    {
+      "id": "nature-2026-09-16-02",
+      "journal": "Nature",
+      "date": "2026-09-16",
+      "path": "articles/2026/09/nature-2026-09-16-02.json",
+      "title_zh": "雷射吸收譜學 breakthrough：釷-229 核鐘邁向超快讀取時代",
+      "title_en": "Breaking the Fluorescence Bottleneck: CW Laser Absorption Spectroscopy Opens the Door to Fast Nuclear Clocks",
+      "cover_url": "data/images/nature/nature-2026-09-16-02-cover.jpg"
+    },
     {
       "id": "nature-2026-09-16",
       "journal": "Nature",
@@ -47,6 +56,15 @@
       "cover_url": "data/images/science/science-2026-09-03-03-cover.jpg"
     },
     {
+      "id": "science-2026-09-03-04",
+      "journal": "Science",
+      "date": "2026-09-03",
+      "path": "articles/2026/09/science-2026-09-03-04.json",
+      "title_zh": "雪山巔峰的隱形危機：歐洲高山植物滅絕率攀升，物種豐富度背後的代價",
+      "title_en": "The Hidden Cost of Mountain Warming: Plant Extinctions Rise Even as Species Richness Increases",
+      "cover_url": "data/images/science/science-2026-09-03-04-cover.jpg"
+    },
+    {
       "id": "science-2026-09-03",
       "journal": "Science",
       "date": "2026-09-03",
@@ -90,6 +108,15 @@
       "title_zh": "粒線體的 4D 風景：AI 從上千 TB 活細胞影像中，解碼「形態決定功能」的密碼",
       "title_en": "Mitochondria in 4D: How Self-Supervised AI Learns to Read Organelle Shape, Motion, and Energy State",
       "cover_url": "data/images/cell/cell-2026-09-01-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-09-01-05",
+      "journal": "Cell",
+      "date": "2026-09-01",
+      "path": "articles/2026/09/cell-2026-09-01-05.json",
+      "title_zh": "生物世界的數位分身：AI 如何預測細胞、胚胎與患者的未來？",
+      "title_en": "Digital Twins of Living Systems: How AI Can Simulate the Future of Cells, Embryos, and Patients",
+      "cover_url": "data/images/cell/cell-2026-09-01-05-cover.jpg"
     },
     {
       "id": "cell-2026-09-01",

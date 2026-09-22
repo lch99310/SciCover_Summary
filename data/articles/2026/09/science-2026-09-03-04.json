@@ -1,0 +1,93 @@
+{
+  "id": "science-2026-09-03-04",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6815",
+  "date": "2026-09-03",
+  "coverImage": {
+    "url": "data/images/science/science-2026-09-03-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "雪山巔峰的隱形危機：歐洲高山植物滅絕率攀升，物種豐富度背後的代價",
+      "en": "The Hidden Cost of Mountain Warming: Plant Extinctions Rise Even as Species Richness Increases"
+    },
+    "summary": {
+      "zh": "【總結】研究揭示歐洲高山峰頂的植物滅絕率正在加速上升，儘管物種豐富度因氣候變暖而增加，但本地特有种和適應高海拔的物種正面臨消失風險。這項研究首次在大洲尺度上量化了滅絕動態，指出物種豐富度的增長掩蓋了 resident 物種的喪失，而先前 abundances 下降可作為滅絕的早期預警信號。\n\n【研究問題】過去研究多聚焦於高山植物物種數的增加，卻忽視了同時發生的本地物種滅絕。缺乏大陸尺度的系統性評估，無法區分真實滅絕與觀察誤差。理解這一問題至關重要，因為高海拔物種往往具有地理侷限性和獨特功能，其滅絕將對生態系統產生不成比例的影響。\n\n【研究方法】研究團隊利用 GLORIA 監測網絡，在歐洲 16 個山區的 62 個峰頂設置 896 個永久樣方，於 2001、2008、2015 和 2022 年進行四次植被調查。通過廣義線性混合效應模型分析滅絕率與氣候變暖幅度、物種相對海拔位置及群落溫化程度的關係。為區分真實滅絕與隨機波動，研究者追蹤「出現‑消失‑消失」序列，並使用重採樣方法校正觀察方法差異。\n\n【結果】結果顯示，過去 21 年間局部滅絕率顯著上升；每增加 0.1°C 變暖，樣方層面的滅絕比例上升 1.6%。物種在其分布區下緣更易滅絕，且群落溫化程度越強，滅絕風險越高。此外，物種覆蓋度持續下降是滅絕的有效預警：單調遞減至滅絕的軌跡發生頻率是隨機預期的 2.5 倍。這些發現呼籲保護策略應關注 abundances 趨勢，而非僅計數物種。",
+      "en": "**Summary:** The study reveals that extinction rates of plants on European mountain summits are accelerating, even as species richness increases due to climate warming. This continental-scale analysis uncovers that the gain in new species masks the loss of resident specialists, with prior abundance declines serving as an early warning signal for impending local extinctions.\n\n**Problem:** Previous research has documented rising plant species richness on mountains but has largely ignored the simultaneous extinction of native high-elevation species. No large-scale assessment had quantified extinction dynamics or distinguished real losses from observational noise. Addressing this gap is critical because alpine endemics are often functionally unique and disproportionately vulnerable to climate change.\n\n**Approach:** Researchers analyzed data from the GLORIA monitoring network, which established 896 permanent 1‑m² plots across 62 summits in 16 European mountain regions. Vegetation was surveyed in 2001, 2008, 2015, and 2022. Using generalized linear mixed‑effects models, they linked local extinction rates to the magnitude of warming, each species’ position within its elevational range, and the degree of community thermophilization. To separate true extinctions from chance disappearances, they tracked presence‑absence‑absence transitions and employed resampling to account for methodological variations.\n\n**Results:** Local extinction rates increased significantly over the 21‑year period. Each 0.1°C of warming raised the proportion of extinctions by 1.6% at the plot level. Species at the lower edge of their range were more likely to disappear, and extinctions were more frequent in communities undergoing stronger thermophilization. Moreover, a sustained decline in plant cover preceded most extinctions; monotonic decline‑to‑extinction trajectories occurred 2.5 times more often than expected by chance. These findings highlight that monitoring abundance trends, not just species counts, is essential for conservation in warming mountain ecosystems."
+    },
+    "keyArticle": {
+      "title": "Rising plant extinction rates on European mountain summits",
+      "authors": [
+        "Johannes Wessely",
+        "Kryštof Chytrý",
+        "Andreas Gattringer",
+        "Johannes Hausharter",
+        "Norbert Helm",
+        "Karl Hülber",
+        "Dietmar Moser",
+        "Otar Abdaladze",
+        "Christopher Andrews",
+        "Elena Barni",
+        "Debora Barolin",
+        "José Luis Benito Alonso",
+        "Raphael S. von Büren",
+        "Michele Carbognani",
+        "Pau Carnicero",
+        "Valter Di Cecco",
+        "Philippe Choler",
+        "Jan Dick",
+        "Rosa Fernández‐Calzado",
+        "Pieter De Frenne",
+        "Mary Carolina García Lino",
+        "Dany Ghosn",
+        "Khatuna Gigauri",
+        "Bente J. Graae",
+        "Andreas Hilpold",
+        "Juan José Jiménez",
+        "Katharina Kagerl",
+        "Róbert Kanka",
+        "Jozef Kollár",
+        "Andrea Lamprecht",
+        "Jonas J. Lembrechts",
+        "Jonathan Lenoir",
+        "Juan Lorite",
+        "Panagiotis Nyktas",
+        "Mihai Puşcaş",
+        "Christophe F. Randin",
+        "Christian Rixen",
+        "Graziano Rossi",
+        "Patrick Saccone",
+        "Tudor Mihai Ursu",
+        "Thomas Vanneste",
+        "Marco Varricchione",
+        "Pascal Vittoz",
+        "Manuela Winkler",
+        "Sonja Wipf",
+        "Harald Pauli",
+        "Stefan Dullinger"
+      ],
+      "doi": "10.1126/science.aed2974",
+      "pages": "1021-1026"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-09-03-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aed2974",
+      "doi": "https://doi.org/10.1126/science.aed2974"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-22T21:46:05.327060+00:00",
+    "source": "openalex"
+  }
+}

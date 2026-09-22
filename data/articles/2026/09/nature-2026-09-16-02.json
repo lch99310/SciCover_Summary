@@ -1,0 +1,67 @@
+{
+  "id": "nature-2026-09-16-02",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8132",
+  "date": "2026-09-16",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-16-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "雷射吸收譜學 breakthrough：釷-229 核鐘邁向超快讀取時代",
+      "en": "Breaking the Fluorescence Bottleneck: CW Laser Absorption Spectroscopy Opens the Door to Fast Nuclear Clocks"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊首次在摻釷氟化鈣（CaF₂）晶體中，利用連續波（CW）窄線寬固態雷射成功激發釷-229核的低能躍遷，並首次以吸收譜學方式偵測到核共振信號。這項突破解決了過去螢光偵測方法因長衰減時間（約600秒）導致的極低操作效率問題，為固態核光鐘的實用化奠定關鍵基礎。研究同時發現了一種具有極高對稱性的「O中心」缺陷態，其靜電場梯度近乎為零，顯示出對晶格變形的極強耐受性，是未來核光鐘的理想候選。\n\n【研究問題】釷-229的核異構態躍遷能量僅約8.4 eV，是已知最低能量的核躍遷之一，極適合用於建造超高穩定度的固態核光鐘。然而，過去所有實驗均依賴脈衝雷射結合螢光偵測——螢光衰減時間長達約600秒，意味著每個測量週期中，絕大部分時間都耗費在等待衰變與重新初始化，僅有極短時間用於實際的雷射頻率校準。此外，脈衝雷射產生的真空紫外線（VUV）光子中，僅有極小比例與核躍遷共振，非共振光子還會造成AC Stark偏移與晶體輻射損傷。如何實現快速、高信噪比的核共振偵測，是阻礙核光鐘發展的關鍵瓶頸。\n\n【研究方法】研究團隊使用一台全固態連續波雷射系統，將1,187 nm的紅外線雷射經三次倍頻轉換，最終產生波長約148.4 nm的真空紫外線（VUV）雷射，輸出功率約500 mW（296.8 nm），經最後一次倍頻後產生約1 nW的148 nm VUV光。關鍵元件為使用隨機準相位匹配（random quasi-phase-matching）的硼酸鍶（SBO）晶體。為提升頻寬解析度，雷射被鎖相至高芬奈斯（high-finesse）共振腔穩定的外腔二極體雷射（ECDL），使VUV線寬降至約10 kHz以下。實驗中使用Th:CaF₂晶體（摻雜濃度約6.6×10¹⁵ mm⁻³），在吸收模式下，以皮安培計測量穿透晶體後的VUV光功率衰減；在螢光模式下，則以微通道板（MCP）偵測螢光光子。研究團隊同時利用密度泛函理論（DFT）計算O中心與D中心的電子密度差異，驗證實驗測得的異構位移。\n\n【結果】研究團隊成功觀測到兩種不同的釷摻雜中心：D中心（釷二聚體，具有D₂h對稱性）與新發現的O中心（具有Oh高對稱性）。D中心的四極分裂譜線線寬約339–472 kHz，而O中心的線寬約1 MHz，推導出其靜電場梯度（EFG）的Vzz分量小於0.1 V/Å²，遠低於D中心的約100 V/Å²。兩中心之間的異構位移為3.99 MHz，與DFT計算結果（3.60 MHz）高度吻合。在吸收偵測模式下，使用10 Hz頻率調變的光譜技術，訊號獲取時間從螢光模式的800秒縮短至僅3秒，偵測週期縮短了兩個數量級。研究團隊估算，在現有設定下，核光鐘的 fractional frequency instability 可達約2×10⁻¹²/√τ，透過進一步優化（如增加晶體長度、使用光學共振腔、提升VUV功率），有望在約10⁴秒內達到≤10⁻¹⁶的穩定度，這將是時間計量領域的里程碑。",
+      "en": "**Summary:** For the first time, researchers have successfully excited the low-energy nuclear transition of thorium-229 in a thorium-doped calcium fluoride (CaF₂) crystal using a continuous-wave (CW) narrow-linewidth solid-state laser and detected the nuclear resonance via absorption spectroscopy. This breakthrough overcomes the fundamental limitation of previous fluorescence-based methods, which were bottlenecked by the isomer's ~600-second radiative decay time, making clock operation extremely inefficient. The work also identifies a previously unobserved high-symmetry doping site—the O-center—with a near-zero electric field gradient, offering exceptional robustness against lattice distortions and representing a promising candidate for future solid-state nuclear clocks.\n\n**Problem:** The 8.4 eV nuclear transition of Th-229 is the lowest-energy nuclear transition known, making it an ideal candidate for an ultra-stable solid-state optical nuclear clock. However, all prior experiments relied on pulsed laser excitation combined with fluorescence detection. Because the excited nuclear state decays with a time constant of approximately 600 seconds in CaF₂, each measurement cycle required waiting hundreds of seconds for the state to relax, meaning the clock oscillator was compared to the nuclear reference for only a tiny fraction of the total time. Additionally, pulsed VUV sources—whether based on four-wave mixing or high-harmonic generation—produced spectra in which only a minuscule fraction of photons were resonant with the nuclear transition, while the vast non-resonant background caused detrimental effects such as AC Stark shifts, population quenching, and crystal radiation damage. A narrow-linewidth CW laser with a fast, sensitive detection method was urgently needed to unlock the full potential of the Th-229 nuclear clock.\n\n**Approach:** The team employed a fully solid-state CW laser system that frequency-quadrupled a 1,187 nm infrared diode laser through three consecutive second-harmonic generation steps to produce ~148.4 nm VUV light. The final frequency-doubling step used a randomly quasi-phase-matched strontium tetraborate (SBO) crystal, yielding approximately 1 nW of VUV power after transmission losses. To achieve sub-10 kHz VUV linewidth, the laser was phase-locked to a high-finesse cavity-stabilized external-cavity diode laser (ECDL). The Th:CaF₂ crystal (doping concentration ~6.6×10¹⁵ mm⁻³) was placed in a vacuum spectroscopy chamber. For absorption measurements, a CsI-coated photomultiplier tube (PMT) behind the crystal measured the attenuation of transmitted VUV power; for fluorescence, a microchannel plate (MCP) detector collected emitted photons. Frequency-modulation spectroscopy at 10 Hz was used to generate error signals for laser stabilization. Density functional theory (DFT) calculations using VASP and WIEN2k were performed to compute electron density differences and isomer shifts between the O-center and D-center defect structures, providing theoretical confirmation of the experimental assignments.\n\n**Results:** The team resolved two distinct thorium doping centers in CaF₂: the D-center (a thorium dimer with D₂h symmetry) and the O-center (a single Th ion in a high-symmetry Oh site). The D-center exhibited a quadrupole-split structure with linewidths of 339–472 kHz and an electric field gradient (EFG) of Vzz ≈ 100 V/Å². The O-center showed a single unresolved line with a width of ~1 MHz, from which an upper bound of |Vzz| < 0.1 V/Å² was derived—a reduction of three orders of magnitude compared to the D-center. The isomer shift between the two centers was measured at Δf_OD = 3.99(2) MHz, in excellent agreement with DFT predictions of 3.60(29) MHz. Absorption detection reduced the measurement cycle from 800 seconds (fluorescence) to just 3 seconds per data point—a two-order-of-magnitude improvement. Based on the measured linewidth (~100 kHz), detected photon flux (~6×10⁶ s⁻¹), and absorption fraction (~1%), the setup yields a fractional frequency instability of approximately 2×10⁻¹²/√τ. With further improvements—longer crystals, optical cavities, and higher VUV power—the team projects reaching ≤10⁻¹⁶ instability at ~10⁴ seconds, a threshold that would rival and potentially surpass the best atomic optical clocks."
+    },
+    "keyArticle": {
+      "title": "Continuous-wave laser absorption spectroscopy of the thorium-229 nucleus",
+      "authors": [
+        "Ira Morawetz",
+        "T. Riebner",
+        "L. Toscani De Col",
+        "F. Schneider",
+        "N. Sempelmann",
+        "F. Schaden",
+        "M. Bartokos",
+        "G. A. Kazakov",
+        "S. Lahs",
+        "K. Beeks",
+        "B. Gerstenecker",
+        "A. Grüneis",
+        "M. Pimon",
+        "T. Schumm",
+        "V. Lal",
+        "G. Zitzer",
+        "V. Petrov",
+        "J. Tiedau",
+        "M. V. Okhapkin",
+        "E. Peik"
+      ],
+      "doi": "10.1038/s41586-026-11011-7",
+      "pages": "626-631"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-16-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11011-7",
+      "doi": "https://doi.org/10.1038/s41586-026-11011-7",
+      "preprint": "https://doi.org/10.48550/arxiv.2604.16640"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-22T21:47:49.465483+00:00",
+    "source": "openalex"
+  }
+}

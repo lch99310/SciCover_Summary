@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-09-01-05",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "19",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "生物世界的數位分身：AI 如何預測細胞、胚胎與患者的未來？",
+      "en": "Digital Twins of Living Systems: How AI Can Simulate the Future of Cells, Embryos, and Patients"
+    },
+    "summary": {
+      "zh": "【總結】本文提出了一項開創性的願景：將人工智慧中的「世界模型」概念延伸至生物醫學領域，打造能夠模擬生物系統在各種干預下如何演變的 AI 系統。這種模型涵蓋分子、細胞、組織到臨床尺度，讓科學家能在進行複雜實驗前預測生物反應，徹底改變生物醫學研究的範式。這項研究的重要性在於，它為當前 AI 科學家自主推動實驗發現提供了計算基礎，並有望加速藥物開發與精準醫療的進程。\n\n【研究問題】生物系統對環境變化做出動態回應，但人類目前只能實驗性地探索極小部分的干預組合。例如，人類參考相互作用組僅涵蓋約 2% 至 11% 的蛋白質相互作用，ClinVar 僅標註了人類基因組 7,100 萬種可能變異中的 0.1%，而所有已核准藥物僅作用於 652 個基因。過去的研究盲點在於：現有數據要么是觀察性的（缺乏干預資訊），要么是介入性的（覆蓋的狀態稀疏），且多數測量會破壞樣本，無法獲得時間序列數據。解決這個問題至關重要，因為生物醫學知識的探索空間過於龐大，僅靠實驗採樣根本無法覆蓋。\n\n【研究方法】作者並未進行單一實驗，而是提出了一個概念框架，定義了生物醫學世界模型的三大核心組件：狀態與觀察（模型如何編碼當前生物狀態）、動作（干預的表示方式，如藥物劑量、基因編輯等），以及生物動力學（模型如何預測狀態轉換）。文章同時分析了三類案例研究——細胞世界模型、胚胎世界模型與患者世界模型——並探討了數據需求、模型架構設計原則與評估方法。作者強調，世界模型必須具備「預測充分性」，即在給定當前狀態與動作後，能夠生成未來狀態的分佈，並以此作為後續模擬的起點。\n\n【結果】文章列舉了當前虛擬細胞模型的進展與局限：GEARS、CellFlow、TxPert 等模型已在單細胞 RNA 序列與 CRISPR 篩選數據上訓練，但由於干預空間與狀態空間的覆蓋率極低，這些模型在泛化到未見過的細胞情境時表現不佳，甚至常被簡單的線性基線模型超越。作者指出，要實現真正的生物醫學世界模型，需要結合觀察性數據、干預性數據與縱向測量，並發展非破壞性測量技術、類器官模型、高吞吐量自動化實驗室與學習型健康系統。若這些挑戰得以克服，世界模型將能支持反事實推理、干預設計與序列規劃，開啟生物醫學研究的全新探索模式。",
+      "en": "**Summary:** This perspective paper proposes a groundbreaking vision: extending the concept of \"world models\" from artificial intelligence into biomedicine, creating AI systems capable of simulating how biological systems evolve under diverse interventions. These models span molecular, cellular, tissue, and clinical scales, enabling scientists to predict biological responses before applying complex interventions—a paradigm shift for biomedical research. The significance lies in providing a computational foundation for autonomous AI scientists to prioritize experiments, potentially accelerating drug discovery and precision medicine.\n\n**Problem:** Biological systems respond dynamically to environmental changes, yet humans can only experimentally explore a minuscule fraction of possible interventions. For instance, the Human Reference Interactome covers only 2% to 11% of the binary protein interactome; ClinVar annotates just 0.1% of the 71 million possible human genome variants; and all approved drugs act through only 652 genes—less than 15% of the druggable genome. The critical gap is that existing data sources are either observational (rich in state coverage but lacking intervention information) or interventional (covering sparse states), and most measurements are destructive, preventing longitudinal tracking. Solving this is essential because the experimental space is combinatorially vast and cannot be exhaustively sampled.\n\n**Approach:** Rather than presenting a single experiment, the authors develop a conceptual framework defining three core components of biomedical world models: state and observations (how the model encodes the current biological state), actions (representations of interventions such as drug dose, genetic perturbation), and biological dynamics (how the model predicts state transitions). The paper analyzes three case studies—cellular, embryonic, and patient world models—and discusses data requirements, design principles, and evaluation frameworks. A key concept is \"predictive sufficiency\": given a current state and action, the model must generate a distribution over future states that can serve as the starting point for further simulation.\n\n**Results:** The paper reviews current virtual cell models such as GEARS, CellFlow, and TxPert, trained on single-cell RNA sequencing and CRISPR perturbation atlases. However, due to sparse coverage of both intervention and state spaces, these models struggle to generalize to unseen cellular contexts and are often outperformed by simple linear baselines. The authors argue that realizing true biomedical world models requires integrating observational data, interventional data, and longitudinal measurements, alongside emerging technologies like non-destructive imaging, organoids, self-driving laboratories, and learning health systems. If these challenges are met, world models could enable counterfactual reasoning, intervention design, and sequential planning—opening entirely new modes of inquiry in biology and medicine."
+    },
+    "keyArticle": {
+      "title": "World models for biomedicine",
+      "authors": [
+        "Ayush Noori",
+        "Nic Fishman",
+        "Ada Fang",
+        "Lukas Fesser",
+        "Marinka Žitnik"
+      ],
+      "doi": "10.1016/j.cell.2026.08.032",
+      "pages": "5845-5869"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.032"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-22T21:49:25.441763+00:00",
+    "source": "openalex"
+  }
+}
