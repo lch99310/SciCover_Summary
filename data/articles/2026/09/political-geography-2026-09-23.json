@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-09-23",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-09-23",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-09-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "綠色帝國主義：歐洲國家資本如何重新瓜分全球電網",
+      "en": "Electric Imperialism: How European State Capital Is Redrawing the Global Power Map"
+    },
+    "summary": {
+      "zh": "【總結】本文提出「電力帝國主義」概念，揭示歐洲國家如何透過國有電業公司（SOEs）在全球綠色轉型中重新奪回主導權。研究打破「綠色資本主義國家只是為私人資本消除風險」的既有論述，指出歐洲政府同時扮演「保護者」與「擴張者」雙重角色——在本國築起貿易壁壘、鞏固國有壟斷，同時推動這些國營企業出海收購，掌控他國的電力供應與綠色資產。這不僅重塑了能源轉型的政治經濟學，也為理解當代國家資本主義提供了全新視角。\n\n【研究問題】過去政治經濟學研究過度聚焦於「去風險化國家」（derisking state）如何為私人資本創造投資條件，卻忽視了全球仍有超過一半的發電容量屬於國有。研究缺口在於：國有電業在全球綠色經濟中的角色與擴張邏輯尚未被理論化。理解這個問題至關重要，因為它直接挑戰了「能源轉型必然走向私有化」的意識形態，並揭示綠色轉型背後的不均衡地理發展機制。\n\n【研究方法】作者採用理論建構與案例分析相結合的方法。首先回顧馬克思主義帝國主義理論（布哈林、列寧、希法亭），提出「國家資本主義托拉斯」的分析框架；其次，結合企業年報、政策文件與新聞報導，詳細剖析法國（EDF、Engie）、義大利（Enel）、挪威（Statkraft）與丹麥（Ørsted）五家國有電業的成長軌跡，揭示各國如何透過「保護性自由化」與跨國併購戰實現國內壟斷與國際擴張。\n\n【結果】研究發現，歐洲國有電業已成為全球可再生能源的主要玩家：Enel擁有67GW可再生能源容量，計劃2027年達76GW；EDF目標2030年達50GW；Engie現有46GW、目標95GW；Statkraft與Ørsted分別計劃新增30GW與9GW。這些企業並非憑空崛起——法國政府透過2008年合併GDF與Suez打造Engie，被視為對抗義大利Enel惡意收購的防禦舉措；義大利政府公開支持Enel收購西班牙Endesa，換取西班牙支持Telefónica入股義大利電信；挪威政府向Statkraft注入資本，使其國內發電占比從30%躍升至47%。這些案例共同證明：歐洲國家的保護主義與擴張主義是一體兩面，「電力帝國主義」正在重塑全球綠色經濟的地緣政治格局。",
+      "en": "**Summary:** This article introduces the concept of 'electric imperialism' to reveal how European states are reclaiming dominance in the global energy transition through state-owned electric utilities. It challenges the prevailing narrative that the 'green capitalist state' merely derisks private investment, showing instead that European governments play a dual role—as protectors building trade barriers at home and as expanders pushing state-backed utilities abroad to seize control of other nations' electricity supply and green assets. This reframes the political economy of energy transition and offers a fresh lens for understanding contemporary state capitalism.\n\n**Problem:** Previous political economy research has overwhelmingly focused on the 'derisking state' that creates investment conditions for private capital, while ignoring that over half of global power generation capacity remains state-owned. The gap lies in the lack of theoretical framing for the role and expansion logic of state-owned utilities in the global green economy. Addressing this is crucial because it directly challenges the ideology that 'energy transition inevitably means privatization' and reveals the mechanisms of uneven geographical development underpinning the green transition.\n\n**Approach:** The author combines theoretical construction with case study analysis. First, drawing on classical Marxist theory of imperialism (Bukharin, Lenin, Hilferding), the article develops an analytical framework of 'state-capitalist trusts.' Second, by synthesizing corporate annual reports, policy documents, and news coverage, it traces the growth trajectories of five major European state-owned utilities—EDF and Engie (France), Enel (Italy), Statkraft (Norway), and Ørsted (Denmark)—revealing how each country employed 'protectionist liberalization' and cross-border merger battles to achieve domestic monopoly and international expansion.\n\n**Results:** The study finds that European state-owned utilities have become major players in global renewable energy: Enel holds 67 GW of renewable capacity with plans to reach 76 GW by 2027; EDF targets 50 GW by 2030; Engie has 46 GW with a goal of 95 GW; Statkraft and Ørsted plan to add 30 GW and 9 GW respectively. These companies did not rise by accident—France's government orchestrated the 2008 merger of GDF and Suez to create Engie as a defensive move against Enel's hostile takeover bid; the Italian government openly backed Enel's acquisition of Spain's Endesa in exchange for Spanish support for Telefónica's stake in Italian telecom; the Norwegian state injected capital into Statkraft, boosting its domestic generation share from 30% to 47%. Together, these cases demonstrate that European states' protectionism and expansionism are two sides of the same coin, and 'electric imperialism' is actively reshaping the geopolitical landscape of the global green economy."
+    },
+    "keyArticle": {
+      "title": "Electric imperialism: Europe, state capital and the global political economy of the energy transition",
+      "authors": [
+        "Yngve Solli Heiret"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103679",
+      "pages": "103679"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-09-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103679",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103679"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-25T22:02:12.926126+00:00",
+    "source": "openalex"
+  }
+}

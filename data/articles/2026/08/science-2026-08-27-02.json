@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-08-27-02",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6814",
+  "date": "2026-08-27",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-27-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "羅馬望遠鏡升空：一百倍於哈伯的視野，揭開暗能量與系外行星的神秘面紗",
+      "en": "Roman Takes Flight: A Telescope 100 Times Wider Than Hubble Sets Out to Uncover Dark Energy and Alien Worlds"
+    },
+    "summary": {
+      "zh": "【總結】\n\nNASA耗資四十三億美元的南希·格雷斯·羅馬太空望遠鏡即將於八月三十日升空，這標誌著天文學正式邁入大數據時代的太空版本。羅馬望遠鏡擁有與哈伯望遠鏡同等清晰的視力，但視野卻廣達一百倍，這意味著它能在短時間內掃描大片天區，系統性地尋找遙遠的超新星、繪製數十億個星系的分布圖，並搜尋數萬顆系外行星。它不僅能獨立推動多項重大研究，更將成為史匹哲與詹姆斯·韋伯太空望遠鏡的絕佳前哨站，為後續深入觀測提供海量目標。\n\n【研究問題】\n\n當前宇宙學面臨一個核心謎題：暗能量——驅動宇宙加速膨脹的神秘力量——究竟是不變的宇宙學常數，還是隨時間演化的動態場？去年一項地面觀測暗示暗能量可能並非恒定，這讓問題變得更加迫切。然而，現有數據嚴重不足：用於測量宇宙膨脹的超新星樣本不到兩千顆，且多數集中在較近的星系；系外行星的普查也存在嚴重偏見，大部分已發現的行星都是靠近恆星的大質量氣態巨行星。這些盲點讓科學家難以拼湊出完整的宇宙圖景。\n\n【研究方法】\n\n羅馬望遠鏡將用五年時間執行三項大型巡天計畫。第一項超新星巡天將搜尋數萬顆遙遠的Ia型超新星，這些「標準燭光」能精確測量宇宙在不同時期的膨脹速率。第二項宇宙學巡天將繪製超過十億個星系的三维分布，並透過重力透鏡效應分析暗物質的排列——暗物質與暗能量同樣影響宇宙結構的形成。第三項系外行星巡天採用兩種技術：一是凌日法，監測恆星亮度微降以發現行星；二是重力微透鏡法，透過前景恆星引力彎曲背景星光來探測遠方行星，這種方法能發現傳統技術無法觸及的寒冷、低質量行星。\n\n【結果】\n\n羅馬望遠鏡預計將發現約十萬顆新的凌日系外行星，以及約兩千五百顆透過微透鏡效應發現的行星，其中包括小於火星且軌道更遠離恆星的類型。超新星巡天將把已知Ia型超新星數量從兩千顆提升至數萬顆，實現數量級的提升。宇宙學巡天將繪製十億個星系的分布與形狀，提供迄今最精確的暗能量限制。此外，羅馬搭載的實驗性日冕儀有望首次捕捉到成熟、較冷木星大小行星的反射光，甚至可能揭示其雲層結構。這些數據將與歐洲的普朗克衛星及未來的魯賓天文台互補，共同構建當代最嚴密的暗能量測量體系。",
+      "en": "**Summary:**\n\nNASA's $4.3 billion Nancy Grace Roman Space Telescope is set to launch on August 30, bringing a revolutionary approach to space-based astronomy. Combining Hubble's sharp resolution with a field of view one hundred times wider, Roman will rapidly survey vast stretches of sky to tackle two of cosmology's deepest mysteries: the nature of dark energy and the demographics of planets beyond our solar system. Rather than staring at a single target for years, Roman operates as a cosmic surveyor—cataloging tens of thousands of supernovae, mapping over a billion galaxies, and detecting exoplanets through both transit and gravitational microlensing methods. It will also serve as a powerful discovery engine for JWST, identifying intriguing targets for detailed follow-up observation.\n\n**Problem:**\n\nThe accelerating expansion of the universe points to the existence of dark energy, yet its fundamental nature remains one of the most pressing unsolved problems in physics. The standard cosmological model treats dark energy as a constant, but a ground-based survey last year hinted that it may actually evolve over cosmic time—a finding that, if confirmed, would upend our understanding of the universe. Existing measurements are severely limited: fewer than 2,000 supernovae have been used to trace cosmic expansion, and the roughly 6,000 known exoplanets are heavily biased toward large, close-orbiting worlds detectable by the transit method. These gaps leave critical questions about the universe's composition and planetary systems largely unanswered.\n\n**Approach:**\n\nRoman's five-year mission centers on three major surveys. The supernova survey will hunt for tens of thousands of distant Type Ia supernovae, which serve as reliable cosmic distance markers. The cosmology survey will map over one billion galaxies to study how dark energy has shaped galaxy clustering across time, while also measuring subtle distortions in galaxy shapes caused by dark matter's gravitational pull—another independent probe of cosmic acceleration. The exoplanet survey combines two techniques: the transit method, which detects planets as they pass in front of their host stars, and gravitational microlensing, which exploits the bending of light by foreground stars to reveal orbiting planets that would otherwise be invisible. Roman will also test an advanced coronagraph capable of blocking starlight to directly image mature, Jupiter-sized exoplanets.\n\n**Results:**\n\nRoman is expected to discover approximately 100,000 new transiting exoplanets and roughly 2,500 additional planets via microlensing—including small, Mars-sized worlds and those orbiting far from their stars, populations largely inaccessible to current methods. The supernova survey will increase the catalog of usable Type Ia supernovae from under 2,000 to tens of thousands, a magnitude leap that will dramatically tighten constraints on dark energy. The cosmology survey will produce the most detailed map of over a billion galaxies to date, cross-referenced with data from Europe's Euclid telescope and Chile's Vera Rubin Observatory to deliver the sharpest measurements of dark energy's behavior yet. The coronagraph may capture reflected light from cold, mature gas giants for the first time, potentially revealing atmospheric cloud structures. All observations will feed into a publicly accessible archive, enabling discoveries no single team could anticipate."
+    },
+    "keyArticle": {
+      "title": "NASA’s Roman telescope readies a sweeping view of the universe",
+      "authors": [
+        "Daniel Clery"
+      ],
+      "doi": "10.1126/science.ael8353",
+      "pages": "849-850"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-27-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ael8353",
+      "doi": "https://doi.org/10.1126/science.ael8353"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-25T21:56:49.631692+00:00",
+    "source": "openalex"
+  }
+}

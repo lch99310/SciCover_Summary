@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-09-22T21:50:18.055483+00:00",
+  "lastUpdated": "2026-09-25T22:02:22.638706+00:00",
   "articles": [
+    {
+      "id": "nature-2026-09-23",
+      "journal": "Nature",
+      "date": "2026-09-23",
+      "path": "articles/2026/09/nature-2026-09-23.json",
+      "title_zh": "破解大腦遺傳密碼：單細胞解析精神與神經退化疾病的基因謎題",
+      "title_en": "Decoding the Brain's Genetic Blueprint: Single-Cell Maps Reveal How Gene Expression Drives Mental and Neurodegenerative Disease",
+      "cover_url": "data/images/nature/nature-2026-09-23-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-09-23",
+      "journal": "Political Geography",
+      "date": "2026-09-23",
+      "path": "articles/2026/09/political-geography-2026-09-23.json",
+      "title_zh": "綠色帝國主義：歐洲國家資本如何重新瓜分全球電網",
+      "title_en": "Electric Imperialism: How European State Capital Is Redrawing the Global Power Map",
+      "cover_url": "data/images/political-geography/political-geography-2026-09-23-cover.jpg"
+    },
     {
       "id": "nature-2026-09-16-02",
       "journal": "Nature",
@@ -135,6 +153,15 @@
       "title_zh": "一條線，多個版本：韓戰停戰線為何越來越「看不清」？",
       "title_en": "One Line, Many Versions: Why the Korean Demarcation Line Is Growing Fuzzier",
       "cover_url": "data/images/political-geography/political-geography-2026-08-30-cover.jpg"
+    },
+    {
+      "id": "science-2026-08-27-02",
+      "journal": "Science",
+      "date": "2026-08-27",
+      "path": "articles/2026/08/science-2026-08-27-02.json",
+      "title_zh": "羅馬望遠鏡升空：一百倍於哈伯的視野，揭開暗能量與系外行星的神秘面紗",
+      "title_en": "Roman Takes Flight: A Telescope 100 Times Wider Than Hubble Sets Out to Uncover Dark Energy and Alien Worlds",
+      "cover_url": "data/images/science/science-2026-08-27-02-cover.jpg"
     },
     {
       "id": "science-2026-08-27",
@@ -351,6 +378,15 @@
       "title_zh": "雀鳥的基因地圖終於完整：斑胸草雀端粒到端粒基因組揭開鳥類染色體的神秘面紗",
       "title_en": "Birdsong Decoded: The First Complete Telomere-to-Telomere Genome of a Songbird",
       "cover_url": "data/images/cell/cell-2026-08-01-cover.jpg"
+    },
+    {
+      "id": "cell-2026-07-31",
+      "journal": "Cell",
+      "date": "2026-07-31",
+      "path": "articles/2026/07/cell-2026-07-31.json",
+      "title_zh": "大腦血管的「細胞街區」：首張人類腦血管空間地圖揭開神經疾病的新線索",
+      "title_en": "The Brain's Vascular Neighborhoods: The First Spatial Map of Human Cerebrovasculature Reveals New Clues to Neurological Disease",
+      "cover_url": "data/images/cell/cell-2026-07-31-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-31",

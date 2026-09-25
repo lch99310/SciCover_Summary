@@ -1,0 +1,124 @@
+{
+  "id": "nature-2026-09-23",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8133",
+  "date": "2026-09-23",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-23-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解大腦遺傳密碼：單細胞解析精神與神經退化疾病的基因謎題",
+      "en": "Decoding the Brain's Genetic Blueprint: Single-Cell Maps Reveal How Gene Expression Drives Mental and Neurodegenerative Disease"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次利用單細胞解析技術，建立了一個跨越多種族的大腦基因調控全景圖。研究團隊從近1,500名捐贈者的腦組織中，對超過600萬個細胞核進行定序，開發出能精確預測不同細胞類型基因表現的模型。將這些模型應用於12種精神與神經退化疾病的基因資料後，發現了數千個過去Bulk分析完全無法偵測到的基因─疾病關聯，並將許多遺傳訊號精準定位到特定的神經元、膠質細胞與免疫細胞。這項突破不僅揭示了疾病共病的細胞基礎，更證實了跨種族間基因調控的高度保守性，為未來精準醫療與藥物靶點開發提供了前所未有的細胞級解析度。\n\n【研究問題】精神分裂症、阿茲海默症、帕金森氏症等大腦疾病具有高度遺傳性，但過去的全體基因關聯研究（GWAS）僅能定位到基因組上的風險區域，卻難以確定究竟是哪個基因、在哪種細胞中、透過什麼機制導致疾病。更關鍵的是，過去的大腦转录體研究幾乎完全依賴「Bulk RNA-seq」——將整個腦組織研磨成均勻混合物後進行分析，這如同將一鍋蔬菜濃湯的營養成分平均化，完全抹除了不同細胞類型之間的差異。此外，現有模型幾乎僅基於歐洲血統個體建構，無法推廣至其他種族。這些盲點使得遺傳風險訊號難以轉化為具體的治療靶點，也錯失了種族差異可能帶來的關鍵洞見。\n\n【研究方法】研究團隊利用PsychAD聯盟所建立的單細胞核转录體資料庫，該資料庫涵蓋來自920名歐洲、321名非洲及118名混血美洲捐贈者的顳葉背外側前額葉皮層（DLPFC）組織，總計超過600萬個細胞核。他們首先針對32種細胞群體（包含興奮性神經元、抑制性神經元、星狀膠質細胞、寡突膠質細胞、內皮細胞及免疫細胞等八大類及其23個亞型）訓練了94套「單細胞核转录體插補模型」（snTIMs），這些模型能夠根據個體的基因型預測特定細胞類型中的基因表現水平。接著，他們將這些模型套用於12種大腦疾病的GWAS統計數據，執行「單細胞核转录體關聯研究」（snTWAS），從而識別出細胞類型特異性的基因─疾病關聯。為驗證結果，研究團隊在百萬退伍軍人計劃（MVP）的約60萬名參與者中進行獨立驗證與跨種族比較分析。\n\n【結果】研究發現，與Bulk分析方法相比，單細胞解析度顯著提升了基因發現能力：在12種疾病中，subclass層級的snTIMs識別出3,003個獨特的基因─疾病關聯，遠多於Bulk的1,254個。更重要的是，22.5%的顯著關聯（3,711個）是全新的發現，在過去任何Bulk分析中均未被報導。以阿茲海默症為例，研究發現「 tau蛋白結合」路徑的調控異常主要源自免疫細胞中的BIN1與APOE基因，而非以往認為的神經元。在精神分裂症中，「二價無機陽離子跨膜運輸」路徑的異常被精準定位至抑制性神經元的ADARB2亞型，驅動基因為CACNA1C。跨種族分析顯示，歐洲與非洲血統個體間的基因表現遺傳調控具有高度保守性（Spearman相關係數ρ=0.54），但多祖先聯合分析能顯著提升因果基因的鑑定能力——例如雙相情感障礙基因RHOBTB2在單一祖先分析中未達顯著，但在跨種族聯合分析中獲得了接近確定的因果支持（PIP=0.98）。這些發現標誌著大腦遺傳學研究從「組織平均」邁向「細胞精確」的新紀元。",
+      "en": "**Summary:** This landmark study delivers the first cell-type-resolved, multi-ancestry atlas of genetically regulated gene expression in the human brain, fundamentally advancing our ability to pinpoint the cellular origins of neuropsychiatric and neurodegenerative disorders. By leveraging single-nucleus RNA sequencing from over 6 million nuclei across 1,494 donors, the researchers built predictive models that estimate how genetic variation shapes gene expression in 32 distinct brain cell populations across European, African, and admixed American ancestries. Applying these models to 12 major brain disorders revealed thousands of gene-trait associations invisible to traditional bulk-tissue analyses, resolved disease signals to specific neuronal, glial, and immune cell subtypes, and demonstrated that cross-ancestry integration dramatically improves causal gene discovery. The work establishes a new paradigm for translating genetic risk into cellular and mechanistic insight.\n\n**Problem:** Genome-wide association studies have identified thousands of genetic risk loci for brain disorders, yet the vast majority lie in non-coding regions, making it extraordinarily difficult to determine which genes they regulate, in which cell types, and through what mechanisms. Traditional transcriptome-wide association studies (TWAS) relied on bulk RNA sequencing—essentially grinding whole brain tissue into a homogeneous soup—which averages across diverse cell types and obscures cell-specific genetic effects. Moreover, nearly all existing reference panels were built exclusively from European-ancestry cohorts, rendering them unreliable for non-European populations and missing ancestry-specific biology. This dual limitation—cellular blurring and ancestral narrowness—has left thousands of disease-associated loci functionally uncharacterized, hindering both basic understanding and therapeutic development.\n\n**Approach:** The researchers trained 94 single-nucleus transcriptomic imputation models (snTIMs) using genotype and single-nucleus RNA-seq data from the PsychAD Consortium, which profiles the dorsolateral prefrontal cortex across three ancestries (920 European, 321 African, 118 admixed American) and 32 cellular populations spanning excitatory and inhibitory neurons, astrocytes, oligodendrocytes, endothelial cells, and immune cells. These models predict genetically regulated expression (GReX) for each cell type and ancestry. The snTIMs were then applied to summary statistics from 12 neuropsychiatric and neurodegenerative disorder GWAS to perform single-nucleus TWAS (snTWAS), identifying cell-type-specific gene-trait associations. Findings were independently validated in the Million Veteran Program (MVP), a cohort of approximately 600,000 participants, using ancestry-matched snTIMs for cross-ancestry comparison, fine-mapping, and phenome-wide association studies (PheWAS) to assess pleiotropic effects.\n\n**Results:** Cell-type-resolved snTWAS identified 3,003 unique gene-trait associations at the subclass level—more than double the 1,254 found with bulk methods—and 22.5% of all significant associations (3,711 genes) were entirely novel, never detected by bulk TWAS or MAGMA analyses. In Alzheimer's disease, the \"tau protein binding\" pathway was driven by immune-cell-specific dysregulation of BIN1 and APOE, while in schizophrenia, a \"divalent cation transport\" pathway was restricted to inhibitory neuron ADARB2 subclasses via CACNA1C. Cross-ancestry analysis revealed that genetic regulation of brain gene expression is broadly conserved (Spearman ρ=0.54 between European and African ancestries), yet multi-ancestry fine-mapping uncovered ancestry-specific signals: for example, the bipolar disorder gene RHOBTB2 reached near-certain causal status (PIP=0.98) only through combined European-African analysis, despite being non-significant in either ancestry alone. The snGReX-PheWAS further demonstrated that a single gene like CELF1 can exhibit dramatically different cell-type-specific effects across distinct phenotypes, revealing pleiotropic complexity invisible to bulk approaches. These findings collectively establish that cellular resolution and ancestral diversity are not optional refinements but essential requirements for unlocking the functional architecture of brain disorders."
+    },
+    "keyArticle": {
+      "title": "Single-nucleus transcriptome-wide association study of human brain disorders",
+      "authors": [
+        "Sanan Venkatesh",
+        "Roman Kosoy",
+        "Zhenyi Wu",
+        "Marios Anyfantakis",
+        "Christian Dillard",
+        "N. M. Prashant",
+        "David Burstein",
+        "Deepika Mathur",
+        "Chris Chatzinakos",
+        "Bukola Ajanaku",
+        "Fotis Tsetsos",
+        "Biao Zeng",
+        "Sonali Gupta",
+        "Rachel Bercovitch",
+        "Aram Hong",
+        "Clara Casey",
+        "Marcela Alvia",
+        "Zhiping Shao",
+        "Stathis Argyriou",
+        "Karen Therrien",
+        "Athan Z. Li",
+        "Chenfeng He",
+        "Chirag Gupta",
+        "Christian Porras",
+        "Colleen A. McClung",
+        "Collin Spencer",
+        "Daifeng Wang",
+        "David A. Bennett",
+        "Fotios Tsetsos",
+        "Gennadi Ryan",
+        "Hui Yang",
+        "Jaroslav Bendl",
+        "Jennifer Monteiro Fortes",
+        "Jerome J. Choi",
+        "Kalpana H. Arachchilage",
+        "Lars J. Jensen",
+        "Lisa L. Barnes",
+        "Logan C. Dumitrescu",
+        "Lyra Sheu",
+        "Madeline R. Scott",
+        "Marios Anyfantakis",
+        "Maxim Signaevsky",
+        "Mikaela Koutrouli",
+        "Milos Pjanic",
+        "Monika Ahirwar",
+        "Nicolas Y. Masse",
+        "Noah Cohen Kalafut",
+        "Pavan K. Auluck",
+        "Pavel Katsel",
+        "Pengfei Dong",
+        "Pramod B. Chandrashekar",
+        "Sanan Venkatesh",
+        "Saniya Khullar",
+        "Sarah Murphy",
+        "Sayali A. Alatkar",
+        "Seon Kinrot",
+        "Steven Finkbeiner",
+        "Steven P. Kleopoulos",
+        "Tereza Clarence",
+        "Timothy J. Hohman",
+        "Ting Jin",
+        "Vahram Haroutunian",
+        "Vivek G. Ramaswamy",
+        "Xiang Huang",
+        "Xinyi Wang",
+        "Zhenyi Wu",
+        "Tim B. Bigdeli",
+        "Pavan Kumar Auluck",
+        "David A. Bennett",
+        "Stefano Marenco",
+        "Vahram H. Haroutunian",
+        "Kiran Kumar Girdhar",
+        "Jaroslav M. Bendl",
+        "Donghoon Lee",
+        "John F. Fullard",
+        "Gabriel E. Hoffman",
+        "Georgios Voloudakis",
+        "Panos Roussos"
+      ],
+      "doi": "10.1038/s41586-026-10836-6",
+      "pages": "1016-1026"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-23-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10836-6",
+      "doi": "https://doi.org/10.1038/s41586-026-10836-6"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-25T21:58:39.187063+00:00",
+    "source": "openalex"
+  }
+}

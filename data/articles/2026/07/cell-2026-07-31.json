@@ -1,0 +1,76 @@
+{
+  "id": "cell-2026-07-31",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "19",
+  "date": "2026-07-31",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-31-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦血管的「細胞街區」：首張人類腦血管空間地圖揭開神經疾病的新線索",
+      "en": "The Brain's Vascular Neighborhoods: The First Spatial Map of Human Cerebrovasculature Reveals New Clues to Neurological Disease"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次繪製出人類大腦血管的完整細胞空間地圖，整合了超過31萬個轉錄體數據，並在顳葉皮質和海馬迴中定位了超過150萬個細胞。研究團隊發現，大腦血管並非隨機分布的管道網絡，而是由特定的細胞組合——他們稱為「血管細胞群集」——所構成的微型社區。這些群集沿著動脈到靜脈的軸線排列，各自負責不同的功能，從神經血管耦合到血腦屏障運輸，再到免疫監視。這項研究不僅填補了人類腦血管生物學的知識空白，更為理解小血管疾病和中風等神經疾病的易感性和治療反應提供了全新的藍圖。\n\n【研究問題】過去的研究雖然已經發現腦血管內皮細胞、周細胞和平滑肌細胞具有多樣性，但這些細胞在大腦中的空間組織方式幾乎完全未知。單細胞測序技術雖然能分辨細胞類型，卻會破壞組織的原始結構，讓我們無法知道這些細胞在體內究竟如何排列。此外，不同研究之間的分類標準不一致，使得跨研究比較變得困難。理解血管細胞的空間組織為何至關重要，因為大腦的血液供應並非一成不變——動脈端和靜脈端的血管執行完全不同的功能，若不了解這種空間邏輯，就難以解釋為什麼某些神經疾病會特定影響某些血管區段，也難以開發精準的治療策略。\n\n【研究方法】研究團隊首先整合了五個獨立的大腦血管單細胞/單細胞核測序數據集，涵蓋39名捐贈者的314,535個高品質轉錄體，建立了一個統一的腦血管細胞目錄。他們使用scVI和scANVI演算法來消除不同實驗批次之間的技術偏差，並透過迭代聚類的方法，將血管細胞細分為16個亞型。接著，他們針對顳葉皮質（6名捐贈者）和海馬迴（7名捐贈者）設計了一個包含300個基因的Xenium空間轉錄組學面板，在亞細胞解析度下定位了超過150萬個細胞。他們還將人類數據與小鼠腦血管數據進行了跨物種比較，並結合MAGMA遺傳風險分析和Drug2Cell藥理反應預測，將細胞類型與神經疾病和藥物反應聯繫起來。\n\n【結果】研究團隊成功辨識出五大類血管細胞的16個亞型，包括5種內皮細胞（動脈、微動脈、毛細管、微靜脈、靜脈）、2種周細胞、3種平滑肌細胞、5種成纖維細胞和1種血管周圍巨噬細胞。空間分析顯示，這些細胞在大腦中形成了高度有序的「血管細胞群集」，每個群集由特定類型的內皮細胞、 mural細胞、成纖維細胞和巨噬細胞組成，並沿動脈到靜脈軸線呈現區段特異性分佈。例如，動脈段的群集富含收縮相關基因，而靜脈段的群集則與免疫監視相關。研究還發現，不同神經疾病遺傳風險因子會特異性地富集在特定血管細胞亞型中，如腦小血管疾病風險基因主要富集在動脈平滑肌細胞中。此外，他們預測了特定藥物（如ACE抑制劑）對不同血管細胞亞型的選擇性反應，為個體化治療提供了潛在靶點。",
+      "en": "**Summary:** This study presents the first comprehensive spatial atlas of the human brain vasculature, integrating over 314,000 transcriptomes and mapping more than 1.5 million cells across the temporal cortex and hippocampus at subcellular resolution. The researchers discovered that brain blood vessels are not randomly arranged pipes but are organized into specialized micro-communities they call \"vascular cell ensembles.\" These ensembles—comprising specific combinations of endothelial cells, mural cells, fibroblasts, and perivascular macrophages—are arranged along the arteriovenous axis and each performs distinct functions, from neurovascular coupling to blood-brain barrier transport and immune surveillance. This work not only fills a critical gap in our understanding of human cerebrovascular biology but also establishes a blueprint for decoding why neurological diseases like small vessel disease and stroke selectively target certain vascular segments and how therapies might be tailored accordingly.\n\n**Problem:** While prior single-cell studies had revealed remarkable diversity among cerebrovascular cells—endothelial cells, pericytes, smooth muscle cells—their spatial organization within intact brain tissue remained almost entirely unknown. Single-cell sequencing, by its nature, dissociates tissue and destroys architectural context, leaving us unable to see how these molecularly distinct cells are actually arranged in the brain. Moreover, inconsistent annotation standards across different atlases have made cross-study comparisons nearly impossible, and the cerebrovasculature has been systematically excluded from major initiatives like the Brain Initiative Cell Census Network. Understanding this spatial organization is crucial because the arteriovenous axis is not functionally uniform: arterial and venous segments perform fundamentally different roles. Without a map of how vascular cell types are organized in space, we cannot explain why certain neurological diseases preferentially affect specific vascular territories, nor can we develop segment-specific therapies.\n\n**Approach:** The team integrated five independent sc/snRNA-seq datasets from 39 human brain donors, yielding 314,535 high-quality transcriptomes, and used scVI and scANVI algorithms to harmonize technical batch effects across studies. Iterative clustering resolved 16 vascular cell subsets across five major cell types. They then designed a 300-gene Xenium spatial transcriptomics panel and applied it to coronal sections from the temporal cortex (n=6 donors) and hippocampus (n=7 donors), capturing over 1.5 million cells with subcellular resolution. Trajectory analysis was used to define arteriovenous zonation markers, which were validated using single-molecule FISH. To bridge species gaps, they integrated six mouse neurovascular atlases and confirmed that 25 of 33 zonation markers are conserved between humans and mice. Finally, they overlaid MAGMA-based genetic risk enrichment and Drug2Cell pharmacologic reactivity scores to link cell types to neurological diseases and therapeutic responses.\n\n**Results:** The integrated atlas resolved 16 vascular cell subsets: five endothelial subtypes (arterial, arteriolar, capillary, venular, and venous; n=60,373), two pericyte subsets (matrix and transport; n=48,209), three smooth muscle cell states (arterial, arteriolar, venous; n=42,536), five fibroblast subsets, and one perivascular macrophage subset. Spatial transcriptomics revealed that these cells organize into stereotyped \"vascular cell ensembles\"—reproducible micro-communities whose composition shifts systematically along the arteriovenous axis. Arterial ensembles were enriched for contractility genes, capillary ensembles for blood-brain barrier transport functions, and venous ensembles for immune-related programs. Genetic risk analysis showed disease-specific vulnerabilities: cerebral small vessel disease risk genes were significantly enriched in arterial smooth muscle cells, while multiple sclerosis risk factors targeted venous endothelial cells. Drug2Cell analysis predicted segment-specific drug responses, identifying ACE inhibitors and interleukin receptor antagonists as having selective reactivity against particular endothelial subsets. These findings provide a mechanistic framework for understanding why neurological diseases target specific vascular territories and reveal candidate therapeutic targets for precision medicine approaches."
+    },
+    "keyArticle": {
+      "title": "Spatial atlas of the human brain vasculature reveals specialized cell ensembles",
+      "authors": [
+        "Jerry C. Wang",
+        "Damian Sanchez",
+        "Santhosh Arul",
+        "Belda Gülsuyu",
+        "Adnan Gopinadhan",
+        "Tanzila Mukhtar",
+        "Joseph Kim",
+        "John P. Andrews",
+        "Marcus A. C. Williams",
+        "Yewon Jung",
+        "Mana L. Hashimoto",
+        "Chang N. Kim",
+        "Shubhang Bhalla",
+        "Nathan A. Ewing-Crystal",
+        "John M. Bernabei",
+        "Vijay Letchuman",
+        "Alexander F. Haddad",
+        "Kafi Hemphill",
+        "S. M. Weinsheimer",
+        "Helen Kim",
+        "Kazim H. Narsinh",
+        "Daniel L. Cooke",
+        "Cathryn R. Cadwell",
+        "Thomas Wälchli",
+        "Fanny M. Elahi",
+        "Andrew C. Yang",
+        "Peng He",
+        "Edward F. Chang",
+        "Ari B. Molofsky",
+        "Ethan A. Winkler"
+      ],
+      "doi": "10.1016/j.cell.2026.07.007",
+      "pages": "6125-6152.e8"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-31-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.007",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.007"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-25T22:00:28.160097+00:00",
+    "source": "openalex"
+  }
+}
