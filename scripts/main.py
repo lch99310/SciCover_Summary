@@ -62,7 +62,9 @@ def _build_parser() -> argparse.ArgumentParser:
             "Journal to process.  Accepted values: science, nature, cell, "
             "polgeog (or 'political geography'), intorg (or "
             "'international organization'), asr (or "
-            "'american sociological review'), or 'all' (default).  "
+            "'american sociological review'), apsr (or "
+            "'american political science review'), jde (or "
+            "'journal of development economics'), or 'all' (default).  "
             "May be specified multiple times."
         ),
     )

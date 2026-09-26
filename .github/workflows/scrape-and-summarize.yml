@@ -10,9 +10,11 @@ on:
         description: >-
           Comma-separated journal names, or 'all'.
           Available: science, nature, cell, polgeog,
-          intorg, asr, political geography,
+          intorg, asr, apsr, jde, political geography,
           international organization,
-          american sociological review
+          american sociological review,
+          american political science review,
+          journal of development economics
         required: false
         default: "all"
 

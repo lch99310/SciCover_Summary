@@ -62,6 +62,8 @@ JOURNAL_IMAGE_SLUG: Dict[str, str] = {
     "Political Geography": "political-geography",
     "International Organization": "international-organization",
     "American Sociological Review": "american-sociological-review",
+    "American Political Science Review": "american-political-science-review",
+    "Journal of Development Economics": "journal-of-development-economics",
 }
 
 # All journal keys from the registry.

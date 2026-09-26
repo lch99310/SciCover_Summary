@@ -71,6 +71,21 @@ JOURNAL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "slug": "asr",
         "require_oa": True,
     },
+    "apsr": {
+        "source_id": "S176007004",
+        "display_name": "American Political Science Review",
+        "slug": "apsr",
+        "require_oa": True,
+        # Cambridge, same as intorg — see the note there.  Confirm on the
+        # first run: if the dates come back day-level, drop this flag.
+        "coarse_dates": True,
+    },
+    "jde": {
+        "source_id": "S101209419",
+        "display_name": "Journal of Development Economics",
+        "slug": "jde",
+        "require_oa": True,
+    },
 }
 
 # Aliases for user-facing --journal names.
@@ -78,6 +93,8 @@ JOURNAL_ALIASES: Dict[str, str] = {
     "political geography": "polgeog",
     "international organization": "intorg",
     "american sociological review": "asr",
+    "american political science review": "apsr",
+    "journal of development economics": "jde",
 }
 
 API_BASE = "https://api.openalex.org"
