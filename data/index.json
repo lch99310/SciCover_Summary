@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T04:35:23.046085+00:00",
+  "lastUpdated": "2026-09-26T04:39:58.879778+00:00",
   "articles": [
     {
       "id": "nature-2026-09-23",
@@ -513,6 +513,15 @@
       "title_zh": "大腦的「數位老化」：海馬迴細胞如何透過基因組重編程走向崩潰",
       "title_en": "The Digital Decay of the Brain: How the Hippocampus Rewires Itself for Inflammation",
       "cover_url": "data/images/science/science-2026-07-23-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-07-22",
+      "journal": "International Organization",
+      "date": "2026-07-22",
+      "path": "articles/2026/07/international-organization-2026-07-22.json",
+      "title_zh": "援助換和平？難民政策背後的暴力算計",
+      "title_en": "Aid for Peace? The Violence Calculus Behind Refugee Policy",
+      "cover_url": ""
     },
     {
       "id": "political-geography-2026-07-21",

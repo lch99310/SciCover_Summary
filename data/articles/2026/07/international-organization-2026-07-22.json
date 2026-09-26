@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2026-07-22",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-07-22",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "援助換和平？難民政策背後的暴力算計",
+      "en": "Aid for Peace? The Violence Calculus Behind Refugee Policy"
+    },
+    "summary": {
+      "zh": "【總結】本文揭示了國際援助與難民政策之間一个常被忽略的危險悖論：當捐助國試圖同時減少暴力與難民流動時，政策往往適得其反。作者透過博弈論模型證明，援助條件化只有在捐助國擁有足夠槓桿且將「減少壓迫」置於「控制移民」之上時才能奏效。一旦優先順序偏向移民管控，政府便會利用這種默許，以更高強度的暴力對抗反叛組織，最終加劇平民苦難。\n\n【研究問題】過去研究通常假設捐助國只有一個目標——要麼保護平民，要麼防止難民潮。但現實中，英國等國同時追求兩個目標。本文填补了這一空白：當捐助國同時關注壓迫與移民時，其政策如何影響政府的戰爭策略？為什麼看似補償性的援助與移民政策，實際上可能產生相互衝突的後果？\n\n【研究方法】作者建構了一個三段式博弈模型：政府首先選擇戰鬥強度與鎮壓程度，平民隨後決定是否逃難，捐助國則透過援助條件施加影響。模型將反叛組織的經濟能力與平民工資透過勞動市場聯結，使暴力與移民成為內生變量。研究對比了兩種捐助國——優先減少移民者與優先減少壓迫者——在不同槓桿強度下的政策效果，並以2020-2022年衣索比亞戰爭作為實證案例。\n\n【結果】核心發現包括：（1）提高難民 barriers 或增加人道援助，反而可能讓政府更有餘力加強戰鬥，因為反叛組織的平民支持基礎得以保留；（2）援助條件化在捐助國槓桿不足時無效——歐盟對衣索比亞凍結9000萬歐元援助未能阻止暴力，因為中國和阿聯酋提供了替代支持；（3）只有當捐助國將懲罰壓迫置於控制移民之上，並擁有足夠槓桿時，才能同時減少戰鬥與鎮壓。衣索比亞案例顯示，歐盟成員國在移民問題上的分歧，被政府解讀為「默許信號」，從而加大了暴力強度。",
+      "en": "**Summary:** This article uncovers a dangerous paradox often overlooked in international aid and refugee policy: when donor countries attempt to simultaneously reduce violence and curb refugee flows, their policies frequently backfire. Using a game-theoretic model, the author demonstrates that aid conditionality only works when donors possess sufficient leverage and prioritize reducing repression over controlling migration. When priorities tilt toward migration management, governments exploit this tacit permission to intensify violence against rebel groups, ultimately worsening civilian suffering.\n\n**Problem:** Previous research typically assumes donors have a single objective—either protecting civilians or preventing refugee flows. Yet in reality, countries like the UK pursue both goals simultaneously. This article fills that gap: when donors care about both repression and migration, how do their policies affect government war strategies? Why do policies that appear complementary can produce conflicting outcomes?\n\n**Approach:** The author constructs a three-stage game model: the government first chooses fighting intensity and repression levels, civilians then decide whether to flee, and donors influence outcomes through aid conditionality. The model links rebel economic capacity and civilian wages through a labor market, making violence and migration endogenous variables. The study compares two types of donors—those prioritizing migration reduction versus those prioritizing repression reduction—under varying leverage strengths, using the 2020-2022 Ethiopia war as an empirical case study.\n\n**Results:** Key findings include: (1) Raising asylum barriers or increasing humanitarian aid can paradoxically embolden governments to fight harder, as rebel support bases remain intact; (2) Aid conditionality fails when donor leverage is insufficient—the EU's €90 million aid suspension to Ethiopia failed to stop violence because China and the UAE provided alternative support; (3) Only when donors prioritize punishing repression over managing migration, and possess adequate leverage, can they reduce both fighting and civilian violence. The Ethiopia case reveals that EU member states' divisions over migration were interpreted by the government as a permission structure, leading to escalated violence."
+    },
+    "keyArticle": {
+      "title": "Protecting at Home or Providing Abroad: Refugee Policy in Civil Conflicts",
+      "authors": [
+        "Jessica Sun"
+      ],
+      "doi": "10.1017/s0020818326101416",
+      "pages": "674-697"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101416",
+      "doi": "https://doi.org/10.1017/s0020818326101416"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T04:39:58.819382+00:00",
+    "source": "openalex"
+  }
+}
