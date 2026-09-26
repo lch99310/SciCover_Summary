@@ -163,6 +163,14 @@ class PipelineRunner:
             )
             return
 
+        # Step 1b — Bring stored dates in line with the candidates' dates.
+        # This is a pass over ALL candidates, deliberately separate from the
+        # search below: that search stops at the first unprocessed article,
+        # so anything hanging off it would never run once a new article is
+        # found — which is the normal case.
+        if not self.dry_run:
+            self._backfill_dates(candidates)
+
         # Step 2 — Find the first candidate we haven't processed yet.
         raw = None
         article_id = ""
@@ -181,8 +189,6 @@ class PipelineRunner:
             # under the old coarse date (see _doi_index()).
             known_file = self._lookup_by_doi(candidate)
             if known_file is not None:
-                if not self.dry_run:
-                    self._correct_stored_date(known_file, candidate)
                 logger.info(
                     "Already have %s ('%s') — trying next candidate",
                     known_file.stem, candidate.article_title[:50],
@@ -535,9 +541,32 @@ class PipelineRunner:
             return None
         return self._doi_index().get(doi)
 
+    def _backfill_dates(self, candidates: List[CoverArticleRaw]) -> None:
+        """Correct the stored date of every candidate we already hold.
+
+        Entries written before Crossref date resolution carry the coarse
+        ``YYYY-01-01`` that OpenAlex reported.  Walking the whole candidate
+        list — rather than only the ones the search below happens to touch —
+        is what actually repairs the existing archive.
+
+        Each correction is a no-op when the stored date already matches, so
+        this settles after the first run and costs only reads thereafter.
+        """
+        corrected = 0
+        for candidate in candidates:
+            if not (candidate.date or "").strip():
+                continue
+            known_file = self._lookup_by_doi(candidate)
+            if known_file is None:
+                continue
+            if self._correct_stored_date(known_file, candidate):
+                corrected += 1
+        if corrected:
+            logger.info("Corrected the date of %d stored entries", corrected)
+
     def _correct_stored_date(
         self, entry_file: Path, candidate: CoverArticleRaw,
-    ) -> None:
+    ) -> bool:
         """Bring an existing entry's ``date`` in line with a better one.
 
         Entries written before Crossref date resolution carry the coarse
@@ -549,19 +578,21 @@ class PipelineRunner:
         are referenced by ``index.json`` and by the cover-image filenames,
         and ``index.json`` is rebuilt from a recursive glob, so a file may
         sit in a directory that no longer matches its date without harm.
+
+        Returns ``True`` when the file was rewritten.
         """
         new_date = (candidate.date or "").strip()
         if not new_date:
-            return
+            return False
         try:
             data = json.loads(entry_file.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError) as exc:
             logger.warning("Could not re-date %s: %s", entry_file.name, exc)
-            return
+            return False
 
         old_date = (data.get("date") or "").strip()
         if old_date == new_date:
-            return
+            return False
 
         data["date"] = new_date
         cover = data.get("coverStory")
@@ -576,11 +607,12 @@ class PipelineRunner:
             )
         except OSError as exc:
             logger.warning("Could not write re-dated %s: %s", entry_file.name, exc)
-            return
+            return False
         logger.info(
             "Corrected date for %s: %s -> %s",
             data.get("id", entry_file.stem), old_date or "?", new_date,
         )
+        return True
 
     @staticmethod
     def _is_same_article(existing_file: Path, candidate: CoverArticleRaw) -> bool:
