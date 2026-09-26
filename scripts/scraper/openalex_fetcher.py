@@ -22,6 +22,7 @@ from typing import Any, Dict, List, Optional
 import requests
 
 from .base import CoverArticleRaw
+from .crossref_dates import resolve_dates
 
 logger = logging.getLogger(__name__)
 
@@ -59,6 +60,10 @@ JOURNAL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "display_name": "International Organization",
         "slug": "intorg",
         "require_oa": True,
+        # Cambridge deposits year-only publication dates for this journal,
+        # so OpenAlex normalises every article to YYYY-01-01 regardless of
+        # which issue it appeared in.  Compare recency by year instead.
+        "coarse_dates": True,
     },
     "asr": {
         "source_id": "S157620343",
@@ -287,8 +292,62 @@ class OpenAlexFetcher:
             logger.warning("No articles found for %s", journal_name)
             return []
 
-        ranked = self._rank_candidates(results, journal_name)
+        coarse_dates = bool(info.get("coarse_dates", False))
+        ranked = self._rank_candidates(
+            results, journal_name, coarse_dates=coarse_dates,
+        )
+        if coarse_dates:
+            # This journal's OpenAlex dates are year-only (normalised to
+            # YYYY-01-01).  Ask Crossref for something more precise so the
+            # articles carry — and sort by — the issue they belong to.
+            ranked = self._apply_crossref_dates(ranked, journal_name)
         return [self._work_to_raw(w, journal_name) for w in ranked]
+
+    def _apply_crossref_dates(
+        self, works: List[Dict[str, Any]], journal_name: str,
+    ) -> List[Dict[str, Any]]:
+        """Overwrite coarse OpenAlex dates with precise Crossref ones.
+
+        Mutates each work's ``publication_date`` in place when Crossref has
+        a date of at least month precision, then re-sorts newest first so
+        the caller still sees a chronologically ordered list.  Works that
+        Crossref cannot improve keep their OpenAlex date untouched.
+        """
+        dois = [w.get("doi") or "" for w in works]
+        try:
+            resolved = resolve_dates(dois, session=self._session)
+        except Exception as exc:  # never let metadata polish break a run
+            logger.warning(
+                "%s: Crossref date resolution failed (%s) — "
+                "keeping OpenAlex dates", journal_name, exc,
+            )
+            return works
+
+        if not resolved:
+            logger.warning(
+                "%s: Crossref had no more precise dates than OpenAlex; "
+                "articles keep their year-only date",
+                journal_name,
+            )
+            return works
+
+        for work in works:
+            doi = (work.get("doi") or "").replace("https://doi.org/", "").lower()
+            better = resolved.get(doi)
+            if not better:
+                continue
+            original = work.get("publication_date", "")
+            if better == original:
+                continue
+            work["publication_date"] = better
+            logger.info(
+                "%s: re-dated '%s' %s -> %s (Crossref)",
+                journal_name, (work.get("display_name") or "")[:50],
+                original or "?", better,
+            )
+
+        works.sort(key=lambda w: w.get("publication_date", ""), reverse=True)
+        return works
 
     def fetch_fulltext(self, openalex_id: str) -> Optional[str]:
         """Download the full text of a work via OpenAlex's content API.
@@ -394,7 +453,11 @@ class OpenAlexFetcher:
     # ------------------------------------------------------------------
 
     def _rank_candidates(
-        self, results: List[Dict[str, Any]], journal_name: str,
+        self,
+        results: List[Dict[str, Any]],
+        journal_name: str,
+        *,
+        coarse_dates: bool = False,
     ) -> List[Dict[str, Any]]:
         """Rank articles by content-quality tier, returning all recent ones.
 
@@ -430,7 +493,13 @@ class OpenAlexFetcher:
                 continue
 
             pub_date = work.get("publication_date", "") or ""
-            if pub_date < cutoff:
+            if coarse_dates:
+                # Year-only deposits (e.g. Cambridge's International
+                # Organization) all land on YYYY-01-01, which would always
+                # fall outside a day-level cutoff.  Compare years instead.
+                if pub_date[:4] < cutoff[:4]:
+                    continue
+            elif pub_date < cutoff:
                 continue
 
             best_oa = work.get("best_oa_location", {}) or {}
@@ -458,17 +527,24 @@ class OpenAlexFetcher:
         ranked = tier1 + tier2 + tier3 + tier4 + tier5
 
         if not ranked:
-            # No recent candidates — fall back to newest with abstract.
-            for work in results:
-                if bool(work.get("abstract_inverted_index")):
-                    logger.warning(
-                        "%s: no recent article found (cutoff=%s), "
-                        "falling back to newest: '%s' (%s)",
-                        journal_name, cutoff,
-                        work.get("display_name", "")[:60],
-                        work.get("publication_date", ""),
-                    )
-                    return [work]
+            # No recent candidates — fall back to ALL works that have an
+            # abstract, newest first.  Returning only the single newest
+            # deadlocks the pipeline: once that one article is processed,
+            # every later run reports "all candidates already processed"
+            # and the journal never advances again.
+            fallback = [
+                w for w in results if bool(w.get("abstract_inverted_index"))
+            ]
+            if fallback:
+                logger.warning(
+                    "%s: no article inside the %d-day window (cutoff=%s), "
+                    "falling back to %d dated candidates, newest first: "
+                    "'%s' (%s)",
+                    journal_name, _RECENT_DAYS, cutoff, len(fallback),
+                    fallback[0].get("display_name", "")[:60],
+                    fallback[0].get("publication_date", ""),
+                )
+                return fallback
             # Absolute last resort.
             return [results[0]]
 

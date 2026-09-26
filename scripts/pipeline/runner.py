@@ -94,6 +94,8 @@ class PipelineRunner:
         self.journal_keys = self._resolve_journals(journals)
         self.fetcher = OpenAlexFetcher()
         self.summarizer = None if dry_run else BilingualSummarizer()
+        # Lazily built DOI -> file map; see _doi_index().
+        self._doi_index_cache: Optional[Dict[str, Path]] = None
 
         ensure_dir(DATA_DIR)
         ensure_dir(IMAGES_DIR)
@@ -173,6 +175,20 @@ class PipelineRunner:
             if not candidate.date or not candidate.date.strip():
                 today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
                 candidate.date = today
+
+            # Identity check by DOI first.  This is independent of the date,
+            # so it still recognises an article whose stored copy was written
+            # under the old coarse date (see _doi_index()).
+            known_file = self._lookup_by_doi(candidate)
+            if known_file is not None:
+                if not self.dry_run:
+                    self._correct_stored_date(known_file, candidate)
+                logger.info(
+                    "Already have %s ('%s') — trying next candidate",
+                    known_file.stem, candidate.article_title[:50],
+                )
+                report["skipped"].append(known_file.stem)
+                continue
 
             cand_id = generate_article_id(candidate.journal, candidate.date)
             try:
@@ -462,7 +478,109 @@ class PipelineRunner:
             logger.info("Upgraded %s to full-text", entry_file)
         else:
             report["processed"].append(article_id)
+            # A new file changes the DOI -> file mapping, so drop the cache
+            # rather than let a later journal in this run consult a stale one.
+            self._doi_index_cache = None
             logger.info("Wrote %s", entry_file)
+
+    # ------------------------------------------------------------------
+    # DOI index (identity that survives a change of date)
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _normalise_doi(doi: str) -> str:
+        """Strip any URL prefix and lowercase a DOI for comparison."""
+        doi = (doi or "").strip()
+        for prefix in ("https://doi.org/", "http://doi.org/", "doi:"):
+            if doi.lower().startswith(prefix):
+                doi = doi[len(prefix):]
+                break
+        return doi.lower()
+
+    def _doi_index(self) -> Dict[str, Path]:
+        """Map every stored article's DOI to its JSON file.
+
+        Deduplication used to be scoped to the ``<year>/<month>`` directory
+        implied by a candidate's date.  That is only safe while an article's
+        date never changes.  Now that coarse year-only dates get corrected
+        from Crossref, an article already stored under ``2026/01`` can come
+        back dated ``2026-07``; a directory-scoped lookup would miss it and
+        write a second copy.  Keying on DOI instead makes identity
+        independent of the date.
+
+        Built once per run and cached.
+        """
+        if self._doi_index_cache is not None:
+            return self._doi_index_cache
+
+        index: Dict[str, Path] = {}
+        for f in DATA_DIR.glob("articles/**/*.json"):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            doi = self._normalise_doi(
+                data.get("coverStory", {}).get("keyArticle", {}).get("doi", "")
+            )
+            if doi:
+                index[doi] = f
+        self._doi_index_cache = index
+        logger.debug("Built DOI index with %d entries", len(index))
+        return index
+
+    def _lookup_by_doi(self, candidate: CoverArticleRaw) -> Optional[Path]:
+        """Return the stored file for *candidate*, matched by DOI."""
+        doi = self._normalise_doi(candidate.article_doi)
+        if not doi:
+            return None
+        return self._doi_index().get(doi)
+
+    def _correct_stored_date(
+        self, entry_file: Path, candidate: CoverArticleRaw,
+    ) -> None:
+        """Bring an existing entry's ``date`` in line with a better one.
+
+        Entries written before Crossref date resolution carry the coarse
+        ``YYYY-01-01`` that OpenAlex reported.  When we now know a more
+        precise date for the same DOI, rewrite the stored ``date`` so the
+        archive sorts correctly.
+
+        The article ``id`` and file path are deliberately left alone: they
+        are referenced by ``index.json`` and by the cover-image filenames,
+        and ``index.json`` is rebuilt from a recursive glob, so a file may
+        sit in a directory that no longer matches its date without harm.
+        """
+        new_date = (candidate.date or "").strip()
+        if not new_date:
+            return
+        try:
+            data = json.loads(entry_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Could not re-date %s: %s", entry_file.name, exc)
+            return
+
+        old_date = (data.get("date") or "").strip()
+        if old_date == new_date:
+            return
+
+        data["date"] = new_date
+        cover = data.get("coverStory")
+        if isinstance(cover, dict) and cover.get("keyArticle"):
+            # Keep the nested article date consistent when present.
+            if "date" in cover["keyArticle"]:
+                cover["keyArticle"]["date"] = new_date
+        try:
+            entry_file.write_text(
+                json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        except OSError as exc:
+            logger.warning("Could not write re-dated %s: %s", entry_file.name, exc)
+            return
+        logger.info(
+            "Corrected date for %s: %s -> %s",
+            data.get("id", entry_file.stem), old_date or "?", new_date,
+        )
 
     @staticmethod
     def _is_same_article(existing_file: Path, candidate: CoverArticleRaw) -> bool:
@@ -544,6 +662,16 @@ class PipelineRunner:
 
         Returns ``(article_id, file_path, data)`` or ``(None, None, None)``.
         """
+        # DOI match first: works even when the stored copy sits under a
+        # directory that no longer matches the candidate's corrected date.
+        known_file = self._lookup_by_doi(candidate)
+        if known_file is not None:
+            try:
+                data = json.loads(known_file.read_text(encoding="utf-8"))
+                return data.get("id", known_file.stem), known_file, data
+            except (json.JSONDecodeError, OSError) as exc:
+                logger.warning("Failed to read %s: %s", known_file, exc)
+
         try:
             dt = datetime.strptime(candidate.date, "%Y-%m-%d")
         except (ValueError, TypeError):
