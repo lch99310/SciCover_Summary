@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T04:55:31.696110+00:00",
+  "lastUpdated": "2026-09-26T04:59:16.352053+00:00",
   "articles": [
     {
       "id": "nature-2026-09-23",
@@ -18,6 +18,15 @@
       "title_zh": "綠色帝國主義：歐洲國家資本如何重新瓜分全球電網",
       "title_en": "Electric Imperialism: How European State Capital Is Redrawing the Global Power Map",
       "cover_url": "data/images/political-geography/political-geography-2026-09-23-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-09-17",
+      "journal": "Journal of Development Economics",
+      "date": "2026-09-17",
+      "path": "articles/2026/09/journal-of-development-economics-2026-09-17.json",
+      "title_zh": "一堂課讓器官捐贈登記率暴增231%？突尼西亞隨機實驗揭開「信任」的力量",
+      "title_en": "Can a Single Classroom Session Lift Organ Donation by 231%? A Tunisian Field Experiment on Trust and Information",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-17-cover.jpg"
     },
     {
       "id": "nature-2026-09-16-02",
@@ -324,6 +333,15 @@
       "title_zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
       "title_en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing",
       "cover_url": "data/images/nature/nature-2026-08-05-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2026-08-01",
+      "journal": "American Political Science Review",
+      "date": "2026-08-01",
+      "path": "articles/2026/08/american-political-science-review-2026-08-01.json",
+      "title_zh": "困獸之鬥：經濟制裁如何將日本精英推向威權主義",
+      "title_en": "The Cornered Mouse: How Economic Sanctions Drove Japanese Legislators Toward Authoritarianism",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2026-08-01-cover.jpg"
     },
     {
       "id": "cell-2026-08-01-02",

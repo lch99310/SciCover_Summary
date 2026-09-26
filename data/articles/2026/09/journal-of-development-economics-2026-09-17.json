@@ -1,0 +1,48 @@
+{
+  "id": "journal-of-development-economics-2026-09-17",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-17",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-17-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "一堂課讓器官捐贈登記率暴增231%？突尼西亞隨機實驗揭開「信任」的力量",
+      "en": "Can a Single Classroom Session Lift Organ Donation by 231%? A Tunisian Field Experiment on Trust and Information"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《發展經濟學期刊》的隨機對照實驗，在突尼西亞一所大學測試「專家主導的資訊型干預」能否促進死後器官捐贈。研究團隊以心臟移植倖存者的短片、醫師主講的說明與問答，實際讓學生在身分證上加註捐贈者身分。結果顯示，干預使捐贈登記率提高3個百分點，相對對照組增加231%。更關鍵的是，行為改變背後是醫療與法律知識、宗教認知和醫療機構信任度的全面提升；這證明即使在中低收入國家、民眾普遍不信任制度的情況下，低成本資訊干預仍能促成實質行為改變。\n\n【研究問題】器官移植能救命，但全球捐贈供不應求，中低收入國家尤其嚴重。突尼西亞僅約0.16%成年人登記為捐贈者，2023年高達58.3%的家屬拒絕捐贈。過去經濟學研究多聚焦西方國家，政策如推定同意、腎臟交換或捐贈者優先權，皆需要高度制度信任與機構能力；而開發中國家常見的問題是資訊不足、怕器官販運、以及對伊斯蘭教義的誤解。作者想測試：由可信賴的醫療專家提供正確資訊，能否同時矯正誤解、建立制度信任，並真正提高捐贈登記行為？\n\n【研究方法】作者與突尼西亞國家器官移植中心及技術科學警察合作，在校園舉辦「器官捐贈宣導週」。實驗以班級為隨機分派單位，共42班、1265名學生；21班接受干預，21班為對照。干預包含一名心臟移植倖存者的短片、醫師主講的簡報（涵蓋醫療程序、法律框架與伊斯蘭觀點），以及十分鐘問答。主要結果是行為而非意願：學生可現場辦理身分證加註捐贈者，由警政單位發證。研究亦蒐集社交網絡資料估計外溢效果，並在六個月後追蹤。\n\n【結果】干預使捐贈登記率提高3個百分點（對照組僅1.3%），且隨機化推論檢定仍顯著。社交網絡分析也顯示，資訊可能外溢到對照組學生，真實效果或許更高。男性是主要驅動力，登記率增加5.5個百分點；女性幾乎沒有改變，家庭是否支持也強烈影響決定。態度與社會期望幾乎沒變，但醫療與法律知識增加超過0.8個標準差、制度信任增加0.5個標準差，宗教信念也變得更支持捐贈，六個月後仍持續。初步估計每挽救一個生命年成本不到3000美元，遠低於長期洗腎，具高度成本效益，也為其他中低收入國家提供了可參考的政策工具。",
+      "en": "**Summary:** This randomized controlled trial, published in the Journal of Development Economics, tests whether an expert-led informational intervention can increase deceased organ donation in Tunisia. Students watched a short video of a heart-transplant survivor, attended a doctor-led presentation, and took part in a Q&A session. The intervention raised the rate of ID changes adding donor status by 3 percentage points—a 231% increase relative to the control group. The deeper finding is that the behavioral shift was accompanied by large gains in medical and legal knowledge, more donation-friendly religious beliefs, and greater trust in medical institutions. Even in a low-trust, middle-income setting, a low-cost information session can produce real, measurable behavior change.\n\n**Problem:** Organ transplantation saves lives, but supply falls far short of demand, especially in low- and middle-income countries. In Tunisia, only about 0.16% of adults have registered as donors, and in 2023, 58.3% of families refused donation. Previous economic research has concentrated on Western tools—presumed consent, kidney exchange, or priority rules—that require strong institutions and public trust. What is missing is evidence on contexts marked by low institutional trust, fear of organ trafficking, and religious misconceptions. This study asks whether credible, expert-provided information can correct these barriers and increase actual donor registrations, not just stated intentions.\n\n**Approach:** The authors partnered with Tunisia’s national transplant center and the technical police to run an “Organ Donation Awareness Week” at a university. The experiment was cluster-randomized at the classroom level: 42 classes and 1,265 students, with 21 classes assigned to the expert intervention and 21 to control. The treatment combined a testimonial video from a heart-transplant survivor, a physician-led presentation covering medical procedures, legal rules, and Islamic perspectives, and a 10-minute Q&A. The primary outcome was behavioral—students could add “donor” to their national ID on site. Network data were collected to estimate spillovers, and a six-month follow-up measured persistence.\n\n**Results:** Treated students were 3 percentage points more likely to register as deceased donors, versus only 1.3% in the control group; the effect survived randomization inference. Network analysis also hinted at positive spillovers to control students, suggesting the true effect may be larger. Male students drove the result, with a 5.5 percentage-point increase, while female students showed almost no change. Family approval strongly predicted registration. Attitudes and social expectations barely moved, but medical and legal knowledge rose by more than 0.8 standard deviations, institutional trust by 0.5 standard deviations, and religious beliefs became significantly more supportive—effects that persisted after six months. The estimated cost per life-year saved is below US$3,000, making the intervention highly cost-effective relative to dialysis and a promising model for other developing countries."
+    },
+    "keyArticle": {
+      "title": "Fostering institutional trust and organ donation: Evidence from a randomized informational intervention in Tunisia",
+      "authors": [
+        "Christina Sarah Hauser",
+        "Maleke Fourati"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103921",
+      "pages": "103921"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-17-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103921",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103921"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T04:59:16.323791+00:00",
+    "source": "openalex"
+  }
+}

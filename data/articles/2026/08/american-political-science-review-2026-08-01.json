@@ -1,0 +1,47 @@
+{
+  "id": "american-political-science-review-2026-08-01",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2026-08-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "困獸之鬥：經濟制裁如何將日本精英推向威權主義",
+      "en": "The Cornered Mouse: How Economic Sanctions Drove Japanese Legislators Toward Authoritarianism"
+    },
+    "summary": {
+      "zh": "【總結】本文研究二戰前日本立法精英如何回應民主制度的瓦解。研究發現，美國經濟制裁反而促使受制裁行業的立法者轉向支持軍國主義，而非如傳統預期般推動民主改革。這項研究顛覆了「制裁迫使精英擁抱民主」的常識，揭示了經濟脆弱性如何成為威權整合的催化劑。\n\n【研究問題】過去研究認為制裁會提高精英對政權的忠誠成本，迫使其推動改革。但此觀點忽略了另一種可能：當精英因經濟壓力而削弱時，他們可能因依賴而非信念選擇妥協。研究此問題的重要性在於，它能解釋為何看似民主的制度會在精英默許下崩潰。\n\n【研究方法】作者收集了1936至1942年間1,086位日本眾議院議員的傳記與企業董事會成員資料，並結合東京證券交易所的產業股價數據。研究採用差分中的差分與事件研究法，以1940年9月美國制裁為斷點，比較受制裁行業與採購受益行業立法者的投票行為變化。\n\n【結果】受制裁行業（紡織、石化、鋼鐵）的立法者在制裁後顯著轉向支持軍方，投票行為發生劇烈變化；而採購受益行業（汽車等）的立法者則保持穩定甚至更趨獨立。研究進一步指出，制裁行業的立法者更可能加入軍國主義政黨「大政翼贊會」，並接受政權提供的競選資金。這證明經濟脆弱性而非意識形態驅動了精英的妥協。",
+      "en": "**Summary:** This study examines how Japanese legislative elites responded to the erosion of democracy in the prewar period. The central finding is counterintuitive: US economic sanctions pushed legislators from affected sectors toward authoritarian alignment rather than democratic resistance, overturning the conventional assumption that sanctions compel elites to demand reform. The research reveals how economic vulnerability, not ideological conviction, became the primary driver of elite collaboration with the military regime.\n\n**Problem:** Conventional wisdom holds that sanctions raise the cost of loyalty to authoritarian regimes, pushing elites toward democratic reform. This perspective overlooks a critical alternative: when elites are materially weakened by external pressure, they may align with authoritarian regimes out of dependence rather than conviction. Understanding this mechanism is essential for explaining how semi-democratic institutions can collapse with the acquiescence of the very elites positioned to defend them.\n\n**Approach:** The author compiled an original dataset of 1,086 Japanese Diet members serving between 1936 and 1942, linking their biographical records and corporate board memberships to sectoral stock market data from the Tokyo Stock Exchange. Using difference-in-differences and event-study designs, the study treats the September 1940 US trade embargo as an exogenous shock, comparing the voting behavior of legislators tied to sanctioned sectors against those in procurement-benefiting sectors before and after the shock.\n\n**Results:** Legislators connected to sanctioned sectors—textiles, petrochemicals, and steel—shifted dramatically toward pro-military positions after the sanctions, while those from procurement-linked sectors like automobiles remained stable or grew more independent. Sanctioned-sector legislators were significantly more likely to join the Imperial Rule Assistance Association and accept regime-backed campaign financing. The case of Kunitarō Koyama, a silk industry legislator who abandoned constitutional commitments after economic strain, exemplifies how diminished bargaining power, not ideological shift, drove elite collaboration."
+    },
+    "keyArticle": {
+      "title": "The Cornered Mouse: Sanctioned Elites and Authoritarian Realignment in the Japanese Legislature, 1936–1942",
+      "authors": [
+        "Makoto Fukumoto"
+      ],
+      "doi": "10.1017/s0003055426101440",
+      "pages": "1167-1187"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2026-08-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101440",
+      "doi": "https://doi.org/10.1017/s0003055426101440"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T04:58:25.771483+00:00",
+    "source": "openalex"
+  }
+}
