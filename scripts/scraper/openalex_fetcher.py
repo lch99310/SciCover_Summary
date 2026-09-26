@@ -76,9 +76,9 @@ JOURNAL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "display_name": "American Political Science Review",
         "slug": "apsr",
         "require_oa": True,
-        # Cambridge, same as intorg — see the note there.  Confirm on the
-        # first run: if the dates come back day-level, drop this flag.
-        "coarse_dates": True,
+        # NOT coarse_dates: unlike intorg, Cambridge deposits day-level dates
+        # for this journal (its first run returned 2026-03-02, 2026-02-24,
+        # 2026-02-20, ... rather than a uniform 2026-01-01).
     },
     "jde": {
         "source_id": "S101209419",
@@ -196,6 +196,47 @@ def _landing_page_pdf_urls(article_url: str) -> List[str]:
         urls.append(pdf_url)
 
     return urls
+
+def _is_coarse_date(date: str) -> bool:
+    """True when *date* is a year-only deposit that OpenAlex normalised.
+
+    A publisher that deposits only a year shows up as ``YYYY-01-01``.  A
+    genuine 1 January publication is indistinguishable, which is why this is
+    only consulted for journals explicitly flagged ``coarse_dates``.
+    """
+    return bool(date) and date.endswith("-01-01")
+
+
+# Titles that are issue furniture rather than research articles.  OpenAlex's
+# is_paratext flag misses these: APSR's "PSR volume 120 issue 1 Cover and
+# Back matter" arrived as a ranked candidate with a PDF and an abstract, and
+# would have been summarised as if it were a paper.
+_FRONT_BACK_MATTER = re.compile(
+    r"\b("
+    r"(front|back|end)\s+matter"
+    r"|cover\s+and\s+(front|back)\s+matter"
+    r"|issue\s+information"
+    r"|editorial\s+board"
+    r"|table\s+of\s+contents"
+    r"|masthead"
+    r"|volume\s+\d+\s+issue\s+\d+\s+cover"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def _is_excluded(work: Dict[str, Any]) -> bool:
+    """True for records that must never be summarised as research articles.
+
+    Covers Nature's news/comment DOIs and issue furniture.  Applied on both
+    paths through ranking: the fallback used to skip this check, which is
+    the path a coarse-date journal such as intorg always takes.
+    """
+    doi = work.get("doi") or ""
+    if "d41586" in doi or "d41591" in doi:
+        return True
+    return bool(_FRONT_BACK_MATTER.search(work.get("display_name") or ""))
+
 
 # Only consider articles published within this many days as "recent".
 # This prevents the tier system from selecting old articles with better
@@ -330,7 +371,19 @@ class OpenAlexFetcher:
         the caller still sees a chronologically ordered list.  Works that
         Crossref cannot improve keep their OpenAlex date untouched.
         """
-        dois = [w.get("doi") or "" for w in works]
+        # Only works whose date is actually coarse.  A year-only deposit
+        # surfaces as YYYY-01-01; anything else is a real date that Crossref
+        # must not overwrite.  Crossref prefers the issue date, so re-dating
+        # a work that already has a good one would collapse a whole issue
+        # onto a single day and lose the ordering within it.
+        stale = [w for w in works if _is_coarse_date(w.get("publication_date", ""))]
+        if not stale:
+            logger.info(
+                "%s: all candidate dates are day-level — no Crossref lookup needed",
+                journal_name,
+            )
+            return works
+        dois = [w.get("doi") or "" for w in stale]
         try:
             resolved = resolve_dates(dois, session=self._session)
         except Exception as exc:  # never let metadata polish break a run
@@ -348,7 +401,7 @@ class OpenAlexFetcher:
             )
             return works
 
-        for work in works:
+        for work in stale:
             doi = (work.get("doi") or "").replace("https://doi.org/", "").lower()
             better = resolved.get(doi)
             if not better:
@@ -501,8 +554,11 @@ class OpenAlexFetcher:
         tier5: List[Dict[str, Any]] = []
 
         for work in results:
-            doi = work.get("doi") or ""
-            if "d41586" in doi or "d41591" in doi:
+            if _is_excluded(work):
+                logger.debug(
+                    "Skipping non-article: %s",
+                    (work.get("display_name") or "")[:60],
+                )
                 continue
 
             has_abstract = bool(work.get("abstract_inverted_index"))
@@ -550,7 +606,8 @@ class OpenAlexFetcher:
             # every later run reports "all candidates already processed"
             # and the journal never advances again.
             fallback = [
-                w for w in results if bool(w.get("abstract_inverted_index"))
+                w for w in results
+                if bool(w.get("abstract_inverted_index")) and not _is_excluded(w)
             ]
             if fallback:
                 logger.warning(
@@ -562,8 +619,18 @@ class OpenAlexFetcher:
                     fallback[0].get("publication_date", ""),
                 )
                 return fallback
-            # Absolute last resort.
-            return [results[0]]
+            # Absolute last resort: the newest record that is at least a
+            # research article, even without an abstract.  Exclusions still
+            # apply — returning results[0] unconditionally would hand back
+            # the very front matter or news item the filters just rejected.
+            usable = [w for w in results if not _is_excluded(w)]
+            if not usable:
+                logger.warning(
+                    "%s: every candidate was front/back matter or a news "
+                    "item — nothing to process", journal_name,
+                )
+                return []
+            return usable[:1]
 
         # Log the top pick.
         top = ranked[0]

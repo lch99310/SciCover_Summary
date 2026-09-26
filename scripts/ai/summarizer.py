@@ -22,7 +22,7 @@ change.
 
 Priority order (default slugs; ``*_MODEL`` env vars override each one):
   1. agnes-2.0-flash                   (AGNES_AI_API_KEY / AGNES_MODEL)
-  2. gemini-2.0-flash                  (GEMINI_API_KEY / GEMINI_MODEL)
+  2. gemini-3.8-flash                  (GEMINI_API_KEY / GEMINI_MODEL)
   3. (disabled) OPENROUTER_KEY_GLAI    — set OPENROUTER_MODEL_GLAI to a live
        free model to re-enable (the previous ``:free`` slug was retired)
   4. nvidia/nemotron-3-nano-30b-a3b:free (OPENROUTER_KEY_NVIDIA / OPENROUTER_MODEL_NVIDIA)
@@ -99,7 +99,8 @@ _BACKEND_CONFIGS: List[Tuple[str, str, str]] = [
     ),
     (
         "GEMINI_API_KEY",
-        _model("GEMINI_MODEL", "gemini-2.0-flash"),
+        # gemini-2.0-flash was retired; Google's 404 names this successor.
+        _model("GEMINI_MODEL", "gemini-3.8-flash"),
         "https://generativelanguage.googleapis.com/v1beta/openai/",
     ),
     # Retired ``:free`` slug — disabled until OPENROUTER_MODEL_GLAI is set.
