@@ -224,6 +224,21 @@ _FRONT_BACK_MATTER = re.compile(
     re.IGNORECASE,
 )
 
+# Recurring section headings that are digests of other papers rather than
+# papers themselves.  Matched on the whole title, not as a substring, so a
+# real article whose title merely contains one of these phrases is safe.
+_SECTION_TITLES = frozenset({
+    "in other journals",
+    "in science journals",
+    "this week in science",
+    "news at a glance",
+    "editors' choice",
+    "editors choice",
+    "editor's choice",
+    "research articles",
+    "science news",
+})
+
 
 def _is_excluded(work: Dict[str, Any]) -> bool:
     """True for records that must never be summarised as research articles.
@@ -235,7 +250,11 @@ def _is_excluded(work: Dict[str, Any]) -> bool:
     doi = work.get("doi") or ""
     if "d41586" in doi or "d41591" in doi:
         return True
-    return bool(_FRONT_BACK_MATTER.search(work.get("display_name") or ""))
+
+    title = (work.get("display_name") or "").strip()
+    if title.lower().rstrip(".") in _SECTION_TITLES:
+        return True
+    return bool(_FRONT_BACK_MATTER.search(title))
 
 
 # Only consider articles published within this many days as "recent".
