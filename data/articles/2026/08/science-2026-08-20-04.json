@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-08-20-04",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6813",
+  "date": "2026-08-20",
+  "coverImage": {
+    "url": "data/images/science/science-2026-08-20-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "火焰燒不滅的引力波夢：義大利薩丁尼亞的科學抗爭",
+      "en": "Fire Can't Burn the Gravitational-Wave Dream: Italy's Scientific Standoff in Sardinia"
+    },
+    "summary": {
+      "zh": "【總結】2026年8月1日，薩丁尼亞小村盧拉發生了一起令人震驚的縱火事件——兩位參與義大利爭取「愛因斯坦望遠鏡」專案的地球物理學家，吉烏奇與奇亞內蒂，他們的車子 Overnight 被焚毀。這起事件發生在2023年礦坑入口發現炸彈之後，再次引發對研究人員安全的擔憂。愛因斯坦望遠鏡是歐洲下一代重力波觀測站，預算高達20億歐元，預計能探測比現有儀器遠十倍的天文事件，對理解黑洞和中子星合併具有革命性意義。\n\n【研究問題】這篇文章探討的不僅是一起犯罪事件，而是大型科學基礎設施面臨的社會政治挑戰：當一項需要極端安靜環境的科學項目進入偏遠社區時，如何平衡科學進步與當地居民的權益？過去的研究指出，大型科學設施常因環境影響、經濟衝擊和噪音限制而遭遇地方反對，但這個案例的特殊性在於，反對運動已從和平抗議升級為暴力破壞，迫使科學界重新思考如何與社區建立信任。\n\n【研究方法】這是一篇新聞報導，作者Alessio Cozzolino透過採訪專案協調人馬可·帕拉維奇尼、當地居民和相關科學家，結合公開的法律文件和歷史記錄，梳理事件的來龍去脈。報導引用了2023年通過的法律條文、環境影響評估報告（耗資1700萬歐元），以及專案團隊三年來舉辦數十場社區會議的紀錄，呈現了科學界與地方社會互動的完整圖景。\n\n【結果】縱火事件發生前幾日，盧拉剛剛開設了資訊中心，當地居民對項目表現出熱情；然而反對團體「拒絕薩丁尼亞的愛因斯坦望遠鏡」運動認為該項目將損害當地經濟，並擔憂挖掘工程會破壞環境。2023年曾發生炸彈事件，此次縱火被當局調查為恐怖行為。儘管如此，帕拉維奇尼強調科學家不會讓少數人的干擾破壞多數人的努力。專案預計為該地區創造36,000個工作機會，產生約60億歐元的經濟價值。當地居民甚至已籌款幫助受害者購買新車，顯示社區支持依然存在。歐盟預計於2027年選定最終址。",
+      "en": "**Summary:** On the night of August 1, 2026, a devastating arson attack in Lula, a village of 1,200 in Sardinia, set fire to the cars of Carlo Giunchi and Spina Cianetti, geophysicists at Italy's National Institute of Geophysics and Volcanology who are leading the country's bid to host the Einstein Telescope. The incident, investigated as an act of terrorism, echoes a 2023 bombing at the entrance of the mine that researchers hope to repurpose for the observatory. The Einstein Telescope, a €2 billion next-generation gravitational-wave detector, would be ten times more sensitive than current instruments like LIGO and Virgo, opening a new window into the cosmos by observing black hole and neutron star mergers from vast distances.\n\n**Problem:** This article examines the growing tension between ambitious scientific infrastructure projects and local communities. Why do some residents oppose a project that promises thousands of jobs and billions in economic value? The core issue lies in the stringent restrictions imposed by a 2023 law: Lula and 20 neighboring municipalities face bans on noisy activities including road construction, industrial projects, and stone cutting. Opponents argue these constraints will harm the local economy and environment, raising a fundamental question about how to reconcile the needs of cutting-edge science with the livelihoods and concerns of rural communities.\n\n**Approach:** Journalist Alessio Cozzolino, based in Sardinia, constructed the narrative through extensive interviews with project coordinator Marco Pallavicini of the University of Genoa and INFN, local officials, and community members. The reporting draws on legal documents, a €17 million environmental impact assessment commissioned by INFN, records of dozens of community meetings held over three years, and the timeline of incidents from the 2023 bomb to the 2026 arson. The article also references two alternative sites under consideration—the Meuse-Rhine Euroregion and Saxony in Germany—as the EU prepares to select a host in 2027.\n\n**Results:** The arson attack has prompted increased surveillance cameras and police patrols in Lula. Yet the response from locals has been mixed: while the anti-Einstein Telescope campaign denies involvement in either incident, residents have already raised funds to help Giunchi and Cianetti replace their vehicles. Pallavicini emphasizes that the project will generate approximately 36,000 jobs and roughly €6 billion in economic value, and that most local jobs in agriculture are unaffected by the noise restrictions. Despite the shock, scientists remain undeterred. The incident underscores a broader challenge for big science: even when the case for a project is strong, winning and maintaining community trust requires sustained engagement and tangible benefits for those who host it."
+    },
+    "keyArticle": {
+      "title": "Arson attack jolts Italy’s bid to host the Einstein Telescope",
+      "authors": [
+        "Alessio Cozzolino"
+      ],
+      "doi": "10.1126/science.ael6247",
+      "pages": "749"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-08-20-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ael6247",
+      "doi": "https://doi.org/10.1126/science.ael6247"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:08:22.068559+00:00",
+    "source": "openalex"
+  }
+}

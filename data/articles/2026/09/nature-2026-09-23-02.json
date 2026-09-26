@@ -1,0 +1,113 @@
+{
+  "id": "nature-2026-09-23-02",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8133",
+  "date": "2026-09-23",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-23-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦疾病的單細胞地圖：揭開八種腦病的共同與獨特密碼",
+      "en": "Decoding Brain Disorders at Single-Cell Resolution"
+    },
+    "summary": {
+      "zh": "【總結】一項史詩級研究為八種腦部疾病繪製了迄今最完整的單細胞轉錄組地圖。研究團隊分析了1,494名捐贈者的腦組織，產出超過630萬個細胞核的數據，揭示了神經退化性疾病（如阿茲海默症、帕金森氏症）與精神疾病（如精神分裂症、雙相障礙）在分子層面的共享與獨特特徵。這項研究不僅填補了過去缺乏大規模跨疾病比較數據的缺口，更為開發新療法提供了精準的細胞靶標。\n\n【研究問題】過去對腦部疾病的理解多侷限於單一疾病，且缺乏對細胞異質性的系統性解析。研究者想知道：不同腦病之間是否存在共同的分子脆弱性？哪些細胞類型在疾病中扮演關鍵角色？過去的研究因樣本量有限、技術限制，難以回答這些跨疾病的根本問題。\n\n【研究方法】研究團隊建立了PsychAD Cohort，整合三個腦庫資源（MSSM、HBCC、RADC），對前額葉皮質進行單細胞核RNA測序。他們建立了三層細胞分類系統（8大類、27亞類、65亞型），並運用變異分解、差分表現分析、遺傳相关性建模及中介分析等統計方法，系統性解析細胞組成變化與基因表達模式。\n\n【結果】研究發現，個體間差異解釋了7.5%的基因表達變異，而細胞類型差異佔50.5%。跨疾病共享的轉錄組特徵主要涉及mRNA處理與蛋白質定位等基礎細胞功能。扣除共享特徵後，阿茲海默症、Diffuse Lewy body disease、血管性失智與帕金森氏症表現出最強烈的分子相似性。阿茲海默症嚴重度越高，神經元數量越少，免疫與血管細胞越多。此外，NPS症狀與深層興奮性神經元增加相關。研究還發現MAPT基因座H1單倍型與帕金森氏症風險高度相關（OR=4.1），為疾病機制提供了新的遺傳學證據。",
+      "en": "**Summary:** A landmark study has produced the most comprehensive single-cell transcriptomic atlas of eight brain disorders to date. By analyzing brain tissue from 1,494 donors, the team generated over 6.3 million nuclei and revealed shared and distinct molecular signatures across neurodegenerative diseases—such as Alzheimer's and Parkinson's—and psychiatric conditions like schizophrenia and bipolar disorder. This work addresses a critical gap in our understanding of how different brain disorders converge and diverge at the cellular level, offering new targets for therapeutic intervention.\n\n**Problem:** Previous research on brain disorders has largely been confined to single-disease studies, lacking systematic comparisons across conditions. A key question remained: do different brain disorders share common molecular vulnerabilities, and which cell types drive disease pathology? Prior studies were limited by small sample sizes and technological constraints, making it impossible to dissect cross-disease patterns with confidence.\n\n**Approach:** The researchers assembled the PsychAD cohort, integrating brain specimens from three major biobanks (MSSM, HBCC, RADC). They performed single-nucleus RNA sequencing on the dorsolateral prefrontal cortex and built a three-tiered cellular taxonomy—8 classes, 27 subclasses, and 65 subtypes. Using variance partitioning, differential expression analysis, heritability-transcriptome concordance modeling, and mediation analysis, they systematically mapped how cell composition and gene expression change across diseases.\n\n**Results:** Interindividual variation explained 7.5% of gene expression variance, while cell type accounted for 50.5%. Cross-disease shared signatures were enriched in fundamental processes like mRNA processing and protein localization. After discounting these shared effects, Alzheimer's disease, DLBD, vascular dementia, and Parkinson's disease showed the strongest transcriptomic similarity. In Alzheimer's, greater disease severity correlated with reduced neuronal abundance and expanded immune and vascular cell populations. Neuropsychiatric symptoms were linked to increased deep-layer excitatory neurons. The H1 haplotype at the MAPT locus was associated with a 4.1-fold increased Parkinson's risk, providing new genetic evidence for disease mechanisms."
+    },
+    "keyArticle": {
+      "title": "Single-cell atlas of transcriptomic vulnerability across brain disorders",
+      "authors": [
+        "Donghoon Lee",
+        "Mikaela Koutrouli",
+        "Nicolas Y. Masse",
+        "Gabriel E. Hoffman",
+        "Seon Kinrot",
+        "Xinyi Wang",
+        "N. M. Prashant",
+        "Milos Pjanic",
+        "Tereza Clarence",
+        "Fotis Tsetsos",
+        "Deepika Mathur",
+        "David Burstein",
+        "Karen Therrien",
+        "Aram Hong",
+        "Clara Casey",
+        "Zhiping Shao",
+        "Marcela Alvia",
+        "Stathis Argyriou",
+        "Jennifer Monteiro Fortes",
+        "Sarah E. Murphy",
+        "Pavel Katsel",
+        "Pavan Kumar Auluck",
+        "Lisa L. Barnes",
+        "Stefano Marenco",
+        "David A. Bennett",
+        "Athan Z. Li",
+        "Biao Zeng",
+        "Chenfeng He",
+        "Chirag Gupta",
+        "Christian Dillard",
+        "Christian Porras",
+        "Colleen A. McClung",
+        "Collin Spencer",
+        "Daifeng Wang",
+        "Gennadi Ryan",
+        "Hui Yang",
+        "Jerome J. Choi",
+        "Kalpana H. Arachchilage",
+        "Lars J. Jensen",
+        "Logan C. Dumitrescu",
+        "Lyra Sheu",
+        "Madeline R. Scott",
+        "Marios Anyfantakis",
+        "Maxim Signaevsky",
+        "Monika Ahirwar",
+        "Noah Cohen Kalafut",
+        "Pengfei Dong",
+        "Pramod B. Chandrashekar",
+        "Rachel Bercovitch",
+        "Roman Kosoy",
+        "Sanan Venkatesh",
+        "Saniya Khullar",
+        "Sayali A. Alatkar",
+        "Steven Finkbeiner",
+        "Steven P. Kleopoulos",
+        "Timothy J. Hohman",
+        "Ting Jin",
+        "Vivek G. Ramaswamy",
+        "Xiang Huang",
+        "Zhenyi Wu",
+        "Lars Juhl Jensen",
+        "Kiran Kumar Girdhar",
+        "Georgios Voloudakis",
+        "Vahram H. Haroutunian",
+        "Jaroslav M. Bendl",
+        "John F. Fullard",
+        "Panos Roussos"
+      ],
+      "doi": "10.1038/s41586-025-09573-z",
+      "pages": "988-1002"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-23-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-025-09573-z",
+      "doi": "https://doi.org/10.1038/s41586-025-09573-z"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:10:04.142798+00:00",
+    "source": "openalex"
+  }
+}

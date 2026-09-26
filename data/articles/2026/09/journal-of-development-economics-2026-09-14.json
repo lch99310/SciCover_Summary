@@ -1,0 +1,48 @@
+{
+  "id": "journal-of-development-economics-2026-09-14",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-14",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "職場資訊戰：給求職者看市場數據，為什麼有的人找到工作，有的人反而更迷茫？",
+      "en": "The Grass Is Not Always Greener: Why Labor Market Information Helps Some Job Seekers but Not Others"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《發展經濟學雜誌》的研究，透過一項大規模隨機對照實驗，揭示了勞動市場資訊如何影響印度求職者的就業決策。研究發現，向求職者提供當地勞動力市場數據（職缺數量、申請者人數等），整體上能使七個月後的就業機率提升4.8個百分點。然而，這個效果的分布極度不均——已就業者的就業率顯著上升，而未就業者儘管增加了搜尋活動，卻沒有獲得更多工作。研究進一步發現，那些原本對勞動市場預期較悲观的求職者，反而從資訊干預中獲益最多。這些發現挑戰了傳統認知：提供資訊不等於改善結果，關鍵在於受眾的初始狀態。\n\n【研究問題】過去關於勞動市場摩擦的研究，幾乎全部聚焦於失業者——探討如何幫助他們找到工作。然而，一個被嚴重忽視的群體是「已就業但正在尋找更好機會的人」，學界稱為「在職求職者」。這些人佔勞動力的重要比例，他們的離職與留任決策同樣影響整體就業穩定性。此外，儘管線上求職平台在低收入國家迅速普及，但關於不同類型的市場資訊如何塑造求職行為，尤其是如何影響在職者的「跳槽」決策，幾乎沒有任何實證證據。解決這個問題至關重要，因為它直接關乎理解發展中國家的「工作輪換率」——為什麼許多人頻繁換工作卻難以穩定就業。\n\n【研究方法】研究團隊與印度知名求職平台QuikrJobs合作，招募了6,155名在城市地區搜尋工作的求職者。實驗設計簡潔而巧妙：參與者被隨機分配到四個組別——控制組僅收到一般性求職建議，而三個實驗組則分別收到不同類型的市場資訊：需求面資訊（職缺數量、平均薪資）、供給面資訊（申請者人數、學歷分布），以及綜合資訊（同時顯示供需雙方數據）。資訊以電子郵件形式發送，並在兩個月內持續更新。研究團隊透過基線調查、追蹤調查以及平台行政數據，在七個月後追蹤參與者的就業狀況、薪資收入及搜尋行為。\n\n【結果】整體而言，接受資訊干預的求職者就業機率提升了4.8個百分點（相對於控制組的40.1%，增幅達12%），平均月收入增加了1,320盧比。但深入分析揭示了截然不同的兩套邏輯：對於基線時已就業的求職者（約佔樣本的三分之一），資訊干預使就業率上升8.2個百分點，同時顯著減少了他們在非平台渠道的搜尋活動——這意味著他們選擇留在現職而非頻繁跳槽。然而，對於基線時未就業的求職者，資訊干預雖然增加了平台搜尋活動，卻沒有轉化為更高的就業率。進一步分析發現，就業增益主要集中在原本對勞動市場預期較悲观（低於中位數）的求職者身上；預期較高的人幾乎沒有受益。這暗示著，資訊干預的核心機制可能是減少「無謂的工作輪換」，而非單純促進就業匹配。",
+      "en": "**Summary:** This study, published in the Journal of Development Economics, uses a large-scale randomized controlled trial to reveal how labor market information shapes job seekers' employment decisions in India. Providing job seekers with local market data—such as the number of job postings and applicants—increased employment rates by 4.8 percentage points seven months later. Yet the effects were strikingly uneven: employed job seekers saw significant gains, while unemployed job seekers, despite increasing their search activity, did not secure more jobs. Crucially, the benefits concentrated among those with initially pessimistic labor market expectations. The findings challenge a common assumption: providing information does not automatically improve outcomes—the recipient's starting position matters profoundly.\n\n**Problem:** The vast literature on labor market frictions has focused almost exclusively on the unemployed—how to help them find work. But a critically important population remains understudied: employed job seekers, those who have a job but are actively looking for a better one. These \"on-the-job searchers\" represent a substantial share of the labor force, and their decisions to stay or leave jobs drive worker churn in low-income countries. Moreover, while online job portals have proliferated rapidly in developing economies, there is virtually no experimental evidence on how different types of market information shape the decisions of employed workers. Understanding this gap is essential because it bears directly on the puzzle of high job turnover in lower-income countries—why so many people cycle through jobs without achieving stable employment.\n\n**Approach:** The researchers partnered with QuikrJobs, a major Indian job portal, and recruited 6,155 urban job seekers for the experiment. Participants were randomly assigned to one of four groups: a control group that received only general job search advice, and three treatment groups that received different types of labor market information—demand-side data (number of new job postings, average salary), supply-side data (number of applicants, their education levels), or a combined \"tightness\" measure showing both sides of the market. Information was delivered via email and updated over two months. Researchers tracked outcomes through baseline surveys, follow-up surveys, and portal administrative data, measuring employment status, earnings, and search behavior seven months later.\n\n**Results:** Overall, treated job seekers were 4.8 percentage points more likely to be employed seven months later—a 12% increase over the control group's 40.1% employment rate—and earned an additional Rs. 1,320 per month on average. But the story split sharply by baseline employment status. Among those already employed at the start, treatment increased employment by 8.2 percentage points while significantly reducing off-portal job search—suggesting they chose to stay put rather than churn. Among the unemployed, treatment increased portal search activity but produced no employment gain. Heterogeneity analysis revealed that the largest effects came from job seekers with below-median job-finding expectations: employed seekers in this group saw a 13 percentage-point employment boost, while those with above-median expectations gained almost nothing. The findings suggest that information interventions primarily work by reducing wasteful job churn among employed workers who were previously overestimating their outside options, rather than by helping the unemployed find jobs faster."
+    },
+    "keyArticle": {
+      "title": "The grass is not always greener: The effects of local labor market information on search and employment",
+      "authors": [
+        "A. Nilesh Fernando",
+        "Niharika Singh"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103915",
+      "pages": "103915"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103915",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103915"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:16:10.548038+00:00",
+    "source": "openalex"
+  }
+}

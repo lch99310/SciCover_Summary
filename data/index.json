@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-09-26T04:59:16.352053+00:00",
+  "lastUpdated": "2026-09-26T05:16:10.607244+00:00",
   "articles": [
+    {
+      "id": "nature-2026-09-23-02",
+      "journal": "Nature",
+      "date": "2026-09-23",
+      "path": "articles/2026/09/nature-2026-09-23-02.json",
+      "title_zh": "大腦疾病的單細胞地圖：揭開八種腦病的共同與獨特密碼",
+      "title_en": "Decoding Brain Disorders at Single-Cell Resolution",
+      "cover_url": "data/images/nature/nature-2026-09-23-02-cover.jpg"
+    },
     {
       "id": "nature-2026-09-23",
       "journal": "Nature",
@@ -45,6 +54,15 @@
       "title_zh": "超導體也能「記住」電流？烏蘭金屬中的量子記憶效應揭開超高速低耗電運算新頁",
       "title_en": "Superconductors That Remember: How a Quantum Memory Effect in Uranium Telluride Could Rewrite Computing",
       "cover_url": "data/images/nature/nature-2026-09-16-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-09-14",
+      "journal": "Journal of Development Economics",
+      "date": "2026-09-14",
+      "path": "articles/2026/09/journal-of-development-economics-2026-09-14.json",
+      "title_zh": "職場資訊戰：給求職者看市場數據，為什麼有的人找到工作，有的人反而更迷茫？",
+      "title_en": "The Grass Is Not Always Greener: Why Labor Market Information Helps Some Job Seekers but Not Others",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-14-cover.jpg"
     },
     {
       "id": "political-geography-2026-09-07",
@@ -144,6 +162,15 @@
       "title_zh": "生物世界的數位分身：AI 如何預測細胞、胚胎與患者的未來？",
       "title_en": "Digital Twins of Living Systems: How AI Can Simulate the Future of Cells, Embryos, and Patients",
       "cover_url": "data/images/cell/cell-2026-09-01-05-cover.jpg"
+    },
+    {
+      "id": "cell-2026-09-01-06",
+      "journal": "Cell",
+      "date": "2026-09-01",
+      "path": "articles/2026/09/cell-2026-09-01-06.json",
+      "title_zh": "果蠅男人大腦全圖：性徵如何編織出不同的神經電路？",
+      "title_en": "The Male Fly Brain Unwrapped: How Sex Shapes Neural Circuits",
+      "cover_url": "data/images/cell/cell-2026-09-01-06-cover.jpg"
     },
     {
       "id": "cell-2026-09-01",
@@ -254,6 +281,15 @@
       "cover_url": "data/images/science/science-2026-08-20-03-cover.jpg"
     },
     {
+      "id": "science-2026-08-20-04",
+      "journal": "Science",
+      "date": "2026-08-20",
+      "path": "articles/2026/08/science-2026-08-20-04.json",
+      "title_zh": "火焰燒不滅的引力波夢：義大利薩丁尼亞的科學抗爭",
+      "title_en": "Fire Can't Burn the Gravitational-Wave Dream: Italy's Scientific Standoff in Sardinia",
+      "cover_url": "data/images/science/science-2026-08-20-04-cover.jpg"
+    },
+    {
       "id": "science-2026-08-20",
       "journal": "Science",
       "date": "2026-08-20",
@@ -333,15 +369,6 @@
       "title_zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
       "title_en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing",
       "cover_url": "data/images/nature/nature-2026-08-05-cover.jpg"
-    },
-    {
-      "id": "american-political-science-review-2026-08-01",
-      "journal": "American Political Science Review",
-      "date": "2026-08-01",
-      "path": "articles/2026/08/american-political-science-review-2026-08-01.json",
-      "title_zh": "困獸之鬥：經濟制裁如何將日本精英推向威權主義",
-      "title_en": "The Cornered Mouse: How Economic Sanctions Drove Japanese Legislators Toward Authoritarianism",
-      "cover_url": "data/images/american-political-science-review/american-political-science-review-2026-08-01-cover.jpg"
     },
     {
       "id": "cell-2026-08-01-02",
@@ -560,6 +587,15 @@
       "cover_url": ""
     },
     {
+      "id": "international-organization-2026-07-17",
+      "journal": "International Organization",
+      "date": "2026-07-17",
+      "path": "articles/2026/07/international-organization-2026-07-17.json",
+      "title_zh": "從邊緣發聲：阿爾及利亞獨立戰爭如何重塑國際人道法",
+      "title_en": "How the Algerian Revolution Turned International Law Into a Weapon",
+      "cover_url": ""
+    },
+    {
       "id": "political-geography-2026-07-17",
       "journal": "Political Geography",
       "date": "2026-07-17",
@@ -747,6 +783,15 @@
       "title_zh": "讓水凝膠學會呼吸：顛覆傳統的透氣黑科技",
       "title_en": "Teaching Hydrogels to Breathe: A Breakthrough in Breathable Biomedical Interfaces",
       "cover_url": "data/images/nature/nature-2026-07-08-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-16",
+      "journal": "International Organization",
+      "date": "2026-07-07",
+      "path": "articles/2026/01/international-organization-2026-01-01-16.json",
+      "title_zh": "當白人比黑人更慘：經濟落差如何點燃種族敵意與政治轉向",
+      "title_en": "When White Workers Lose More: How Relative Economic Decline Fuels Racial Animus and Political Backlash",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-16-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-05",
@@ -1208,6 +1253,24 @@
       "cover_url": "data/images/cell/cell-2026-06-01-cover.jpg"
     },
     {
+      "id": "international-organization-2026-01-01-07",
+      "journal": "International Organization",
+      "date": "2026-05-29",
+      "path": "articles/2026/01/international-organization-2026-01-01-07.json",
+      "title_zh": "推文到街頭？領袖社群媒體訊息對民族主義動員的影響",
+      "title_en": "Tweets to the Streets? The Impact of Leaders' Social Media on Nationalist Mobilization",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-07-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-15",
+      "journal": "International Organization",
+      "date": "2026-05-29",
+      "path": "articles/2026/01/international-organization-2026-01-01-15.json",
+      "title_zh": "代理人戰爭的副作用：為何扶持「非國家行為者」反而引爆國與國之間的衝突？",
+      "title_en": "The Proxy Paradox: How Backing Non-State Actors Ignites Interstate Warfare",
+      "cover_url": ""
+    },
+    {
       "id": "american-sociological-review-2026-05-27-02",
       "journal": "American Sociological Review",
       "date": "2026-05-27",
@@ -1433,6 +1496,24 @@
       "cover_url": "data/images/political-geography/political-geography-2026-05-08-cover.jpg"
     },
     {
+      "id": "international-organization-2026-01-01-08",
+      "journal": "International Organization",
+      "date": "2026-05-06",
+      "path": "articles/2026/01/international-organization-2026-01-01-08.json",
+      "title_zh": "從障礙到虐待：邊境強化與酷刑的隱藏連結",
+      "title_en": "From Barriers to Abuse: The Hidden Link Between Border Hardening and Torture",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-08-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-09",
+      "journal": "International Organization",
+      "date": "2026-05-06",
+      "path": "articles/2026/01/international-organization-2026-01-01-09.json",
+      "title_zh": "聯合國安理會如何「名譽羞辱」武裝團體？大國博弈與全球規範的雙重動力",
+      "title_en": "How the UN Security Council 'Names and Shames' Armed Groups: The Dual Dynamics of Great Power Politics and Global Norms",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-09-cover.jpg"
+    },
+    {
       "id": "nature-2026-05-06-02",
       "journal": "Nature",
       "date": "2026-05-06",
@@ -1611,6 +1692,15 @@
       "title_zh": "肌肉細胞的「核內膜出芽」：大分子轉錄本的秘密通道",
       "title_en": "Nuclear Envelope Budding: A Secret Highway for Mega-Transcripts in Muscle Cells",
       "cover_url": "data/images/cell/cell-2026-04-24-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-12",
+      "journal": "International Organization",
+      "date": "2026-04-23",
+      "path": "articles/2026/01/international-organization-2026-01-01-12.json",
+      "title_zh": "越流動越不需要保護？顛覆常識的產權研究",
+      "title_en": "The Mobility Paradox: Why Mobile Assets Don't Need Strong Property Rights",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg"
     },
     {
       "id": "political-geography-2026-04-23",
@@ -1964,6 +2054,24 @@
       "cover_url": "data/images/cell/cell-2026-03-31-cover.jpg"
     },
     {
+      "id": "international-organization-2026-01-01-10",
+      "journal": "International Organization",
+      "date": "2026-03-27",
+      "path": "articles/2026/01/international-organization-2026-01-01-10.json",
+      "title_zh": "收斂靈活性：國際法如何與技術變革同步",
+      "title_en": "Convergent Flexibility: How International Law Keeps Pace with Technological Change",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-10-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-11",
+      "journal": "International Organization",
+      "date": "2026-03-27",
+      "path": "articles/2026/01/international-organization-2026-01-01-11.json",
+      "title_zh": "美國退出 NATO 的威脅如何改變歐洲公眾對防衛的態度",
+      "title_en": "How the Threat of a US Exit from NATO Shapes European Public Opinion on Defense",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-11-cover.jpg"
+    },
+    {
       "id": "science-2026-03-26-02",
       "journal": "Science",
       "date": "2026-03-26",
@@ -2088,6 +2196,15 @@
       "title_zh": "人體E3泛素連接酶地圖：科學家繪製細胞「蛋白質標記系統」完整譜系",
       "title_en": "Mapping the Human E3 Ubiquitin Ligase Landscape: Scientists Complete the Cellular 'Protein Tagging System' Atlas",
       "cover_url": "data/images/cell/cell-2026-03-20-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01",
+      "journal": "International Organization",
+      "date": "2026-03-19",
+      "path": "articles/2026/01/international-organization-2026-01-01.json",
+      "title_zh": "跨國空氣污染與模糊問責：韓國的中國責任指責實證",
+      "title_en": "Transboundary Air Pollution and Hazy Accountability: Blame Shifting in South Korea",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-cover.jpg"
     },
     {
       "id": "science-2026-03-19-02",
@@ -2261,6 +2378,33 @@
       "cover_url": "data/images/nature/nature-2026-03-04-cover.jpg"
     },
     {
+      "id": "international-organization-2026-01-01-03",
+      "journal": "International Organization",
+      "date": "2026-03-03",
+      "path": "articles/2026/01/international-organization-2026-01-01-03.json",
+      "title_zh": "威權金融機構：維持專制政權穩定的隱形助手",
+      "title_en": "Authoritarian Financial Institutions: The Hidden Hands Supporting Autocratic Regimes",
+      "cover_url": ""
+    },
+    {
+      "id": "international-organization-2026-01-01-05",
+      "journal": "International Organization",
+      "date": "2026-03-03",
+      "path": "articles/2026/01/international-organization-2026-01-01-05.json",
+      "title_zh": "國際關係中的制度性種族歧視：揭示看似中立國際秩序下的種族不平等",
+      "title_en": "Institutional Racism in International Relations: Revealing Racial Inequality in the Seemingly Neutral International Order",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-05-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2026-08-01",
+      "journal": "American Political Science Review",
+      "date": "2026-03-02",
+      "path": "articles/2026/08/american-political-science-review-2026-08-01.json",
+      "title_zh": "困獸之鬥：經濟制裁如何將日本精英推向威權主義",
+      "title_en": "The Cornered Mouse: How Economic Sanctions Drove Japanese Legislators Toward Authoritarianism",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2026-08-01-cover.jpg"
+    },
+    {
       "id": "cell-2026-03-01-02",
       "journal": "Cell",
       "date": "2026-03-01",
@@ -2376,6 +2520,15 @@
       "title_zh": "超導體的電磁微腔：hBN讓超流密度暴跌50%的突破實驗",
       "title_en": "Quantum Tuner: How a Nano-Cavity Slashes Superfluid Density by Half",
       "cover_url": "data/images/nature/nature-2026-02-25-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2026-02-24",
+      "journal": "American Political Science Review",
+      "date": "2026-02-24",
+      "path": "articles/2026/02/american-political-science-review-2026-02-24.json",
+      "title_zh": "教會為什麼站左派？巴西主教如何暗中推升勞工黨勝選",
+      "title_en": "When the Pulpit Turns Left: How Progressive Bishops Built Brazil's Workers' Party",
+      "cover_url": ""
     },
     {
       "id": "cell-2026-02-24",
@@ -2540,6 +2693,15 @@
       "cover_url": ""
     },
     {
+      "id": "international-organization-2026-01-01-06",
+      "journal": "International Organization",
+      "date": "2026-02-13",
+      "path": "articles/2026/01/international-organization-2026-01-01-06.json",
+      "title_zh": "怨憊的地理學：工業中心如何放大政治不滿",
+      "title_en": "The Geography of Grievance: How Industrial Hubs Amplify Political Discontent",
+      "cover_url": ""
+    },
+    {
       "id": "science-2026-02-12-02",
       "journal": "Science",
       "date": "2026-02-12",
@@ -2691,6 +2853,15 @@
       "title_zh": "家鄉情結如何變成選票優勢？印度選舉中的社交網絡動員術",
       "title_en": "The Hidden Power of Local Networks: How Indian Candidates Turn Neighborhood Ties into Votes",
       "cover_url": "data/images/political-geography/political-geography-2026-01-31-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-01-01-02",
+      "journal": "International Organization",
+      "date": "2026-01-30",
+      "path": "articles/2026/01/international-organization-2026-01-01-02.json",
+      "title_zh": "轉交毀滅權力：自動化核系統如何威脅國際安全",
+      "title_en": "Delegating Destruction: How Automated Nuclear Systems Could Change Coercive Threats",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-01-29-02",
@@ -2846,6 +3017,15 @@
       "cover_url": "data/images/science/science-2026-01-15-cover.jpg"
     },
     {
+      "id": "international-organization-2026-01-01-04",
+      "journal": "International Organization",
+      "date": "2026-01-14",
+      "path": "articles/2026/01/international-organization-2026-01-01-04.json",
+      "title_zh": "威權改革與國際合法性：實證研究揭示政權生存的隱形策略",
+      "title_en": "Authoritarian Reforms and External Legitimacy: Unveiling the Invisible Strategies of Regime Survival",
+      "cover_url": "data/images/international-organization/international-organization-2026-01-01-04-cover.jpg"
+    },
+    {
       "id": "political-geography-2026-01-14",
       "journal": "Political Geography",
       "date": "2026-01-14",
@@ -2909,105 +3089,6 @@
       "cover_url": "data/images/cell/cell-2026-01-01-cover.jpg"
     },
     {
-      "id": "international-organization-2026-01-01-02",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-02.json",
-      "title_zh": "轉交毀滅權力：自動化核系統如何威脅國際安全",
-      "title_en": "Delegating Destruction: How Automated Nuclear Systems Could Change Coercive Threats",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-02-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-03",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-03.json",
-      "title_zh": "威權金融機構：維持專制政權穩定的隱形助手",
-      "title_en": "Authoritarian Financial Institutions: The Hidden Hands Supporting Autocratic Regimes",
-      "cover_url": ""
-    },
-    {
-      "id": "international-organization-2026-01-01-04",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-04.json",
-      "title_zh": "威權改革與國際合法性：實證研究揭示政權生存的隱形策略",
-      "title_en": "Authoritarian Reforms and External Legitimacy: Unveiling the Invisible Strategies of Regime Survival",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-04-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-05",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-05.json",
-      "title_zh": "國際關係中的制度性種族歧視：揭示看似中立國際秩序下的種族不平等",
-      "title_en": "Institutional Racism in International Relations: Revealing Racial Inequality in the Seemingly Neutral International Order",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-05-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-06",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-06.json",
-      "title_zh": "怨憊的地理學：工業中心如何放大政治不滿",
-      "title_en": "The Geography of Grievance: How Industrial Hubs Amplify Political Discontent",
-      "cover_url": ""
-    },
-    {
-      "id": "international-organization-2026-01-01-07",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-07.json",
-      "title_zh": "推文到街頭？領袖社群媒體訊息對民族主義動員的影響",
-      "title_en": "Tweets to the Streets? The Impact of Leaders' Social Media on Nationalist Mobilization",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-07-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-08",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-08.json",
-      "title_zh": "從障礙到虐待：邊境強化與酷刑的隱藏連結",
-      "title_en": "From Barriers to Abuse: The Hidden Link Between Border Hardening and Torture",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-08-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-09",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-09.json",
-      "title_zh": "聯合國安理會如何「名譽羞辱」武裝團體？大國博弈與全球規範的雙重動力",
-      "title_en": "How the UN Security Council 'Names and Shames' Armed Groups: The Dual Dynamics of Great Power Politics and Global Norms",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-09-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-10",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-10.json",
-      "title_zh": "收斂靈活性：國際法如何與技術變革同步",
-      "title_en": "Convergent Flexibility: How International Law Keeps Pace with Technological Change",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-10-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-11",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-11.json",
-      "title_zh": "美國退出 NATO 的威脅如何改變歐洲公眾對防衛的態度",
-      "title_en": "How the Threat of a US Exit from NATO Shapes European Public Opinion on Defense",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-11-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01-12",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-12.json",
-      "title_zh": "越流動越不需要保護？顛覆常識的產權研究",
-      "title_en": "The Mobility Paradox: Why Mobile Assets Don't Need Strong Property Rights",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-12-cover.jpg"
-    },
-    {
       "id": "international-organization-2026-01-01-13",
       "journal": "International Organization",
       "date": "2026-01-01",
@@ -3024,33 +3105,6 @@
       "title_zh": "撤銷追責等於獎勵貪腐？國際組織期刊更正聲明簡析",
       "title_en": "Undoing Accountability? A Clarification on the IO Corrigendum Regarding Overseas Bribery Markets",
       "cover_url": ""
-    },
-    {
-      "id": "international-organization-2026-01-01-15",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-15.json",
-      "title_zh": "代理人戰爭的副作用：為何扶持「非國家行為者」反而引爆國與國之間的衝突？",
-      "title_en": "The Proxy Paradox: How Backing Non-State Actors Ignites Interstate Warfare",
-      "cover_url": ""
-    },
-    {
-      "id": "international-organization-2026-01-01-16",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01-16.json",
-      "title_zh": "當白人比黑人更慘：經濟落差如何點燃種族敵意與政治轉向",
-      "title_en": "When White Workers Lose More: How Relative Economic Decline Fuels Racial Animus and Political Backlash",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-16-cover.jpg"
-    },
-    {
-      "id": "international-organization-2026-01-01",
-      "journal": "International Organization",
-      "date": "2026-01-01",
-      "path": "articles/2026/01/international-organization-2026-01-01.json",
-      "title_zh": "跨國空氣污染與模糊問責：韓國的中國責任指責實證",
-      "title_en": "Transboundary Air Pollution and Hazy Accountability: Blame Shifting in South Korea",
-      "cover_url": "data/images/international-organization/international-organization-2026-01-01-cover.jpg"
     },
     {
       "id": "science-2026-01-01-02",

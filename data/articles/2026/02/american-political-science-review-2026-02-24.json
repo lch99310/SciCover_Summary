@@ -1,0 +1,39 @@
+{
+  "id": "american-political-science-review-2026-02-24",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2026-02-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "教會為什麼站左派？巴西主教如何暗中推升勞工黨勝選",
+      "en": "When the Pulpit Turns Left: How Progressive Bishops Built Brazil's Workers' Party"
+    },
+    "summary": {
+      "zh": "【總結】這項研究顛覆了政治經濟學中一個根深蒂固的假設：宗教總是支持右翼、反對再分配。作者透過巴西的案例證明，進步派主教不僅能成為左翼政黨的關鍵盟友，更能實質推動勞工黨（PT）在民主化後的首次總統大選中獲得顯著選票增長。這項研究打開了宗教領導者如何塑造政治版圖的黑盒子，尤其對發展中國家的左翼政黨發展路徑提供了全新解釋。\n\n【研究問題】過去研究普遍認為宗教會削弱民眾對國家再分配的支持，進而不利左翼政黨。然而，這一論述忽略了宗教領導者內部的意識形態差異——並非所有神職人員都持保守立場。研究缺口在於：我們缺乏對宗教領袖意識形態如何具體影響選舉結果的系統性分析。解決這個問題至關重要，因為它關係到我們如何理解全球南方國家左翼運動的興起。\n\n【研究方法】作者利用1978年若望保祿二世（JPII）登基後的「自然實驗」。JPII上任後試圖以保守派主教取代進步派，但教會規定主教須滿75歲才退休，這造成各教區保留進步派主教的年限呈現「類隨機」差異。作者以此為工具變數，結合1989至2002年間巴西各市鎮的選舉數據，以兩階段最小平方法（2SLS）估計進步派主教任期長度對勞工黨得票率的因果影響。\n\n【結果】研究發現，進步派主教每多執政一年，勞工黨在1989年總統大選中的得票率便上升0.57個百分點，約為當時平均得票率的20%。效果具有長期性，在2002年盧拉當選總統的選舉中仍顯著。進一步分析顯示，進步派主教透過講道、教育小冊子和組織工會網絡，將貧富不均塑造為道德議題，並為勞工黨提供組織基礎設施。在工會覆蓋率較低的地區，這種影響尤為強烈。",
+      "en": "**Summary:** This study upends a long-standing assumption in political economy: that religion inherently favors conservative, anti-redistribution forces. By examining Brazil, the author demonstrates that progressive Catholic bishops were instrumental in boosting the Workers' Party's (PT) electoral performance during the country's early democratic elections. The research reveals how religious leaders—rather than religious doctrine alone—shape the political alignment of their congregations, offering a fresh explanation for the rise of left-wing parties in the developing world.\n\n**Problem:** Conventional scholarship holds that religiosity undermines support for redistribution and, by extension, left-wing parties. Yet this view treats religion as a monolith, ignoring the ideological diversity among religious leaders themselves. The gap is stark: while we know religious institutions matter politically, we lack causal evidence on how individual leaders' economic preferences translate into electoral outcomes. Filling this gap is critical for understanding why left-wing parties succeed—or fail—in contexts where labor unions are weak and the poor are deeply religious.\n\n**Approach:** The author exploits a natural experiment triggered by Pope John Paul II's 1978 appointment. JPII sought to replace progressive bishops with conservatives across Brazil, but Church law required bishops to serve until age 75. This created as-if random variation in how long each diocese remained under progressive leadership. Using this mandated exposure as an instrumental variable, the author estimates the causal effect of progressive bishop tenure on PT vote shares across Brazilian municipalities from 1989 to 2002, employing two-stage least squares (2SLS) with state fixed effects and diocese-level clustering.\n\n**Results:** Each additional year under a progressive bishop increased the PT's vote share by 0.57 percentage points in 1989—a roughly 20% boost over the party's average. The effect persisted through 2002, when Lula won the presidency. Mechanism evidence shows progressive bishops framed inequality as a moral crisis, distributed educational pamphlets, and nurtured labor organizing. The electoral impact was strongest in municipalities with weak union presence, where the Church provided the organizational infrastructure the PT otherwise lacked. These findings suggest that religious leaders can be decisive allies for left-wing movements, particularly where secular mobilization channels are thin."
+    },
+    "keyArticle": {
+      "title": "When the Church Votes Left: How Progressive Bishops Supported the Workers’ Party in Brazil",
+      "authors": [
+        "Guadalupe Tuñón"
+      ],
+      "doi": "10.1017/s0003055426101427",
+      "pages": "1150-1166"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101427",
+      "doi": "https://doi.org/10.1017/s0003055426101427"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:14:43.203784+00:00",
+    "source": "openalex"
+  }
+}

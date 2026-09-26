@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2026-07-17",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-07-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "從邊緣發聲：阿爾及利亞獨立戰爭如何重塑國際人道法",
+      "en": "How the Algerian Revolution Turned International Law Into a Weapon"
+    },
+    "summary": {
+      "zh": "【總結】本文重建了阿爾及利亞民族解放陣線（FLN）在1954至1962年獨立戰爭期間的開創性法律行動，揭示了一個被長期忽視的事實：武装團體不僅是被動接受國際人道法（IHL）的「規範接受者」，更是主動挑戰並重塑該體系的「規範倡導者」。FLN法學家將IHL從帝國控制的工具轉化為反殖民鬥爭的武器，為後來的民族解放運動和武裝團體建立了可複製的法律模範，深刻影響了當代武裝團體如何援引國際人道法。\n\n【研究問題】現有國際法與國際關係學界普遍假定規範變革主要由國家推動，武裝團體的法律主張被視為 opportunistic 的零碎舉動，而非具有歷史深度的概念創新。文章指出，過去研究對阿爾及利亞戰爭的法律維度關注不足，尤其忽略了FLN如何系統性地挑戰IHL的帝國架構，以及這些實踐如何通過南南交流傳播至非洲其他解放運動。理解這一點至關重要，因為它改變了我們對誰能創造國際法的根本認知。\n\n【研究方法】作者利用此前難以獲取的阿爾及利亞、南非、摩洛哥及國家社會主義陣營的檔案材料，包括FLN內部備忘錄、GPRA外交信函、紅新月會記錄及ICRC會議紀錄，進行歷史重建。研究追蹤FLN法律思想的演變軌跡：從1954年戰爭爆發初期對IHL的猶豫態度，到1956年蘇姆阿會議後的戰略轉向，再到1958年臨時政府成立後的系統性法律倡議，最後考察其戰後如何透過南南網絡影響安哥拉、莫桑比克、納米比亞等解放運動的法律實踐。\n\n【結果】研究發現，FLN法學家貝賈烏伊（Mohammed Bedjaoui）等人發展出「叢林主權」（spectral sovereignty）論述，主張1830年法國征服從未消滅阿爾及利亞的國家人格，從而將衝突定性為國際性武裝衝突而非內部動亂。1960年，FLN透過利比亞代為向瑞士递交加入日內瓦公約的書面文件，開創了武裝團體單方面宣布接受國際法的先例。他們還創新了戰俘釋放儀式、反殖民律師訴訟策略、以及將傷病員公約原則轉化為革命醫療網絡等實踐。這些做法直接啟發了後來的ANC、SWAPO、波利薩里奧陣線等運動，奠定了當代武裝團體援引IHL的制度基礎。",
+      "en": "**Summary:** This article recovers the groundbreaking legal activism of the FLN during the Algerian War of Independence (1954–1962), revealing a long-overlooked reality: armed groups are not merely passive recipients of international humanitarian law (IHL) but active norm entrepreneurs who challenged and reshaped the legal order. FLN jurists transformed IHL from an instrument of imperial control into a weapon of anticolonial struggle, establishing a replicable model that influenced subsequent national liberation movements and continues to shape how armed groups invoke humanitarian law today.\n\n**Problem:** Existing scholarship in international law and IR predominantly assumes that normative change is state-driven, dismissing insurgent legal claims as opportunistic gestures lacking historical depth. The article identifies a critical gap: prior research has largely ignored how the FLN systematically challenged IHL's imperial architecture and how these practices diffused through South–South networks to movements across Africa and Asia. Understanding this matters because it fundamentally challenges the assumption that only sovereign states create international law.\n\n**Approach:** The author reconstructs the FLN's legal strategy using previously inaccessible archival materials from Algeria, South Africa, Morocco, and state-socialist countries, including FLN memoranda, GPRA diplomatic correspondence, Red Crescent records, and ICRC meeting minutes. The research traces the evolution of FLN legal thought from the war's outbreak in 1954, through the strategic pivot at the 1956 Soummam Conference, to the systematic legal offensives launched after the 1958 establishment of the Provisional Government (GPRA), and finally examines how these practices spread through South–South exchanges to movements in Angola, Mozambique, and Namibia.\n\n**Results:** The study finds that FLN legal thinker Mohammed Bedjaoui developed the concept of \"spectral sovereignty,\" arguing that France's 1830 conquest never extinguished Algeria's statehood, thereby reclassifying the conflict as international rather than internal. In 1960, the GPRA secured Libya's diplomatic assistance to deposit its accession to the Geneva Conventions with Switzerland, creating a precedent for armed groups to unilaterally invoke international law. The FLN also pioneered prisoner-release ceremonies, anticolonial courtroom strategies, and repurposed the Sick and Wounded Convention into a revolutionary healthcare network. These practices directly inspired the ANC, SWAPO, and the POLISARIO Front, laying the institutional groundwork for how armed groups engage with IHL today."
+    },
+    "keyArticle": {
+      "title": "Norm Making from the Margins: Armed Groups, the Algerian War, and South–South Legal Politics",
+      "authors": [
+        "Boyd van Dijk"
+      ],
+      "doi": "10.1017/s0020818326101441",
+      "pages": "640-673"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101441",
+      "doi": "https://doi.org/10.1017/s0020818326101441"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:12:53.446476+00:00",
+    "source": "openalex"
+  }
+}
