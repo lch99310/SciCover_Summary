@@ -1,0 +1,39 @@
+{
+  "id": "international-organization-2026-08-05",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-08-05",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "革命者如何偷走你的時間？一段被改寫的日曆，如何影響百年後的罷工潮",
+      "en": "How Revolutionaries Stole Your Time: A Calendar's Long Shadow Over Labor Unrest"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究揭開了一個常被忽略的國家建設工具：象徵性計畫。作者梅根·史都華以法國大革命期間的共和曆為案例，發現當地方官員嚴格推行這部將時間、勞動與休息「政治化」的曆法時，不僅打破了天主教會對社會的長期影響，更在深層面重塑了人與人之間的社會紐帶。這項發現的重要性在於，它證明象徵性計畫一旦深入落實，其社會效應能延續數十年——即便共和曆在1806年被拿破崙廢除，嚴格執行該曆法的地區在之後的幾十年裡仍經歷了更多的勞資糾紛。\n\n【研究問題】過去關於國家建設的學術研究，大多聚焦於暴力、制度建立、普及教育和精英收編等機制，卻較少探討「象徵性計畫」如何重塑社會秩序。象徵性計畫指的是透過新儀式、節日、曆法等文化符號，將國家統治者的價值觀嵌入日常生活。本文要回答的問題是：當象徵性計畫被嚴格執行時，它是否真的能改變社會紐帶？這種改變又會帶來什麼長期後果？這個問題之所以關鍵，是因為它揭示了國家權力如何透過非暴力、非物質的手段，在深層面影響社會結構與集體行為。\n\n【研究方法】作者選擇了1793年至1806年間法國推行的共和曆作為研究對象。這部曆法以十天為一週取代傳統的七天週，將休息日從星期日（天主教的聖日）改為第十日，並將勞動與休息定義為國家管理的政治經濟議題，而非宗教義務。研究的核心創新在於測量「執行強度」：作者利用各地區民事登記簿中出生與死亡日期的記錄方式，以採用共和曆的速度與一致性作為衡量指標——登記官員越快、越一致地使用共和曆日期，代表當地執行力度越強。接著，作者結合歷史上的罷工與勞資衝突數據，採用差異中的差異（difference-in-differences）設計，比較嚴格執行與寬鬆執行共和曆的地區，在曆法廢除之後的勞資衝突發生率差異。\n\n【結果】研究結果明確支持了假設：共和曆執行越嚴格的部門，在1805年曆法廢除之後，經歷勞資衝突的機率顯著更高。這項效應在排除了地方官員政治立場、既有國家能力、特派代表存在等多種替代解釋後依然成立。作者解釋其機制：嚴格執行共和曆促進了社區內的社會協調與紐帶形成，同時將「時間、勞動與休息是政治經濟概念、應由國家規範」的理念深植人心。這使得後來的勞工運動更容易以政治經濟語言 articulate 不滿，並降低組織罷工的協調成本。這項研究對國家建設理論的貢獻在於，它將象徵性計畫從單純的「政治符號」提升為能產生實質社會後果的治理工具，並為理解當代各國透過文化符號重塑社會秩序的政策提供了歷史鏡鑑。",
+      "en": "**Summary:** This article reveals an often-overlooked mechanism of state-building: the intense enforcement of symbolic programs. Megan A. Stewart uses the French Republican calendar as a case study to demonstrate that when local officials rigorously implemented this calendar—which redefined time, labor, and rest as political-economic concepts rather than religious duties—it forged new social bonds and socialized citizens into revolutionary principles. The study's breakthrough lies in showing that these symbolic interventions produce lasting effects decades after their abolition: departments that enforced the calendar most strictly experienced significantly more labor conflicts after its demise in 1806. This finding repositions symbolic programs from mere political theater to genuine instruments of social transformation with enduring consequences.\n\n**Problem:** Existing scholarship on state-building has extensively documented the roles of violence, institution-building, mass education, and elite co-optation in reshaping social orders, yet it has largely neglected the transformative potential of symbolic programs—policies that embed state priorities into daily life through rituals, calendars, festivals, and cultural representations. The article asks: when and why do symbolic programs successfully restructure social orders? Why does this matter? Because understanding how non-coercive, non-material state interventions reshape social bonds and collective behavior fills a critical gap in our knowledge of how states fundamentally alter society. It also has direct relevance to contemporary debates about the power of symbolic politics in authoritarian and democratic contexts alike.\n\n**Approach:** The author examines the Republican calendar, introduced during the French Revolution (1793–1806), which replaced the seven-day week with a ten-day cycle, shifted rest from Sunday to the decadi, and recast labor and rest as matters of state regulation rather than Catholic obligation. The key methodological innovation is measuring enforcement intensity using original data from civil registers—birth and death records kept by local officials. The speed and consistency with which officials adopted Republican dates serve as a proxy for how vigorously the calendar was enforced in each department. The author then applies a difference-in-differences design, comparing labor conflict incidence in high-enforcement versus low-enforcement departments before and after the calendar's abolition in 1805, while controlling for alternative explanations such as local political faction, pre-existing state capacity, and the presence of revolutionary representatives.\n\n**Results:** The analysis finds a robust and significant association: departments that more intensely enforced the Republican calendar experienced substantially higher rates of labor conflict onset in the decades following its abolition. This result holds after accounting for Jacobin factional affiliation, state capacity, and the influence of representatives en mission. The mechanism is twofold: intense enforcement created stronger horizontal social bonds that lowered coordination costs for collective action, and it socialized populations into viewing labor and rest as political-economic issues subject to state regulation—thereby providing the conceptual vocabulary and shared framework necessary for articulating grievances and mobilizing around them. The implications are profound: symbolic programs are not ephemeral gestures but durable forces that can reshape the opportunity structures for collective action long after the programs themselves have disappeared, offering a new lens through which to understand the long arc of state-society relations."
+    },
+    "keyArticle": {
+      "title": "Revolutionizing Time, Reforging Social Orders: State-Building Success and the Enforcement of Symbolic Programs in Revolutionary France",
+      "authors": [
+        "Megan A Stewart"
+      ],
+      "doi": "10.1017/s0020818326101453",
+      "pages": "457-496"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101453",
+      "doi": "https://doi.org/10.1017/s0020818326101453"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T04:35:23.020505+00:00",
+    "source": "openalex"
+  }
+}

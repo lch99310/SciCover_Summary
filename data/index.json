@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T22:02:22.638706+00:00",
+  "lastUpdated": "2026-09-26T04:35:23.046085+00:00",
   "articles": [
     {
       "id": "nature-2026-09-23",
@@ -306,6 +306,15 @@
       "title_zh": "蝸牛黏液的多面人生：鈣離子與膠原蛋白如何調控五種截然不同的材料",
       "title_en": "The Snail's Material Alchemy: How Calcium and Collagen Engineer Five Distinct Mucus Functions",
       "cover_url": "data/images/science/science-2026-08-06-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-08-05",
+      "journal": "International Organization",
+      "date": "2026-08-05",
+      "path": "articles/2026/08/international-organization-2026-08-05.json",
+      "title_zh": "革命者如何偷走你的時間？一段被改寫的日曆，如何影響百年後的罷工潮",
+      "title_en": "How Revolutionaries Stole Your Time: A Calendar's Long Shadow Over Labor Unrest",
+      "cover_url": ""
     },
     {
       "id": "nature-2026-08-05",
