@@ -22,6 +22,7 @@ from typing import Any, Dict, List, Optional
 import requests
 
 from .base import CoverArticleRaw
+from .crossref_dates import resolve_dates
 
 logger = logging.getLogger(__name__)
 
@@ -291,10 +292,62 @@ class OpenAlexFetcher:
             logger.warning("No articles found for %s", journal_name)
             return []
 
+        coarse_dates = bool(info.get("coarse_dates", False))
         ranked = self._rank_candidates(
-            results, journal_name, coarse_dates=info.get("coarse_dates", False),
+            results, journal_name, coarse_dates=coarse_dates,
         )
+        if coarse_dates:
+            # This journal's OpenAlex dates are year-only (normalised to
+            # YYYY-01-01).  Ask Crossref for something more precise so the
+            # articles carry — and sort by — the issue they belong to.
+            ranked = self._apply_crossref_dates(ranked, journal_name)
         return [self._work_to_raw(w, journal_name) for w in ranked]
+
+    def _apply_crossref_dates(
+        self, works: List[Dict[str, Any]], journal_name: str,
+    ) -> List[Dict[str, Any]]:
+        """Overwrite coarse OpenAlex dates with precise Crossref ones.
+
+        Mutates each work's ``publication_date`` in place when Crossref has
+        a date of at least month precision, then re-sorts newest first so
+        the caller still sees a chronologically ordered list.  Works that
+        Crossref cannot improve keep their OpenAlex date untouched.
+        """
+        dois = [w.get("doi") or "" for w in works]
+        try:
+            resolved = resolve_dates(dois, session=self._session)
+        except Exception as exc:  # never let metadata polish break a run
+            logger.warning(
+                "%s: Crossref date resolution failed (%s) — "
+                "keeping OpenAlex dates", journal_name, exc,
+            )
+            return works
+
+        if not resolved:
+            logger.warning(
+                "%s: Crossref had no more precise dates than OpenAlex; "
+                "articles keep their year-only date",
+                journal_name,
+            )
+            return works
+
+        for work in works:
+            doi = (work.get("doi") or "").replace("https://doi.org/", "").lower()
+            better = resolved.get(doi)
+            if not better:
+                continue
+            original = work.get("publication_date", "")
+            if better == original:
+                continue
+            work["publication_date"] = better
+            logger.info(
+                "%s: re-dated '%s' %s -> %s (Crossref)",
+                journal_name, (work.get("display_name") or "")[:50],
+                original or "?", better,
+            )
+
+        works.sort(key=lambda w: w.get("publication_date", ""), reverse=True)
+        return works
 
     def fetch_fulltext(self, openalex_id: str) -> Optional[str]:
         """Download the full text of a work via OpenAlex's content API.
