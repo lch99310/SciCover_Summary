@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T05:16:10.607244+00:00",
+  "lastUpdated": "2026-09-26T05:49:11.838111+00:00",
   "articles": [
     {
       "id": "nature-2026-09-23-02",
@@ -2601,6 +2601,15 @@
       "title_zh": "邊界碎片化下的權責真空：北愛爾蘭EUSS計劃的三重迷思",
       "title_en": "The Accountability Vacuum: How Brexit's Border Fragmentation Created Three Ways to Avoid Responsibility",
       "cover_url": ""
+    },
+    {
+      "id": "american-political-science-review-2026-02-20",
+      "journal": "American Political Science Review",
+      "date": "2026-02-20",
+      "path": "articles/2026/02/american-political-science-review-2026-02-20.json",
+      "title_zh": "奴隸掠奪反而催生了強國？黑海奴隸貿易如何意外推動東歐長期發展",
+      "title_en": "How Slave Raids Forged Stronger States: The Unexpected Developmental Legacy of the Black Sea Slave Trade",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2026-02-20-cover.jpg"
     },
     {
       "id": "science-2026-02-19-02",

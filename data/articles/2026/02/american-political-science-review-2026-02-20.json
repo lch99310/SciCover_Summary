@@ -1,0 +1,48 @@
+{
+  "id": "american-political-science-review-2026-02-20",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2026-02-20",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2026-02-20-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "奴隸掠奪反而催生了強國？黑海奴隸貿易如何意外推動東歐長期發展",
+      "en": "How Slave Raids Forged Stronger States: The Unexpected Developmental Legacy of the Black Sea Slave Trade"
+    },
+    "summary": {
+      "zh": "【總結】本文揭示了一個令人驚訝的歷史悖論：十五至十八世紀的黑海奴隸貿易雖然給東歐帶來了短期災難，卻意外地推動了該地區的長期發展。研究發現，遭受掠襲的地區在後續數百年間經歷了更快的城市人口增長和更強的国家建設，這與非洲奴隸貿易的發展後果形成了鮮明對比。\n\n【研究問題】過去關於奴隸貿易發展影響的研究幾乎完全基於跨大西洋奴隸貿易的非洲經驗，認為奴隸掠奪會導致制度崩潰、經濟停滯和社會撕裂。然而，東歐作為早期現代世界第二大奴隸來源地，其遭遇卻被嚴重忽視。本文旨在回答：當一個社會抵抗並拒絕融入跨國奴隸體系時，奴隸掠襲會產生怎樣的發展後果？\n\n【研究方法】作者構建了迄今最全面的黑海奴隸掠襲數據集，涵蓋1453年至1774年間2,511次襲擊、882個地點，跨越13個現代國家。研究採用差異中的差異方法，比較受襲與未受襲城鎮的人口增長軌跡；並利用地形特徵作為工具變量，分析半十九世紀各行政區的發展指標。機制檢驗則透過財政收入、軍事駐軍、堡壘建設等多重歷史證據進行驗證。\n\n【結果】研究估計，黑海奴隸貿易至少掠奪了364萬人，經統計推估實際數字約達500萬人，相當於1400年東歐總人口的27.5%。受襲城鎮的人口增長平均高出約五分之一。機制分析顯示，受襲地區建造了更多永久堡壘，稅收和軍事能力顯著提升，軍隊人數增加，而商人和工匠人口在十七世紀後轉為正增長。這表明防禦性國家建設吸引了勞動力和資本流入，最終帶來了長期的經濟紅利。",
+      "en": "**Summary:** This article reveals a striking historical paradox: the Black Sea slave trade, while devastating Eastern Europe in the short term between the fifteenth and eighteenth centuries, ultimately spurred long-run development in the region. The researchers find that raided areas experienced faster urban population growth and stronger state-building over subsequent centuries, a pattern that sharply contrasts with the developmental consequences of slavery in Africa.\n\n**Problem:** Research on the developmental impact of slavery has been almost entirely based on evidence from the transatlantic slave trade in West Africa, where raiding is associated with extractive institutions, economic stagnation, and social fragmentation. Yet Eastern Europe was the second-largest source of slaves in the early modern world, and its experience has been largely absent from global historical narratives. The article asks: when targeted societies resist integration into transnational slavery systems, what are the developmental consequences of slave raiding?\n\n**Approach:** The authors construct the most comprehensive dataset on Black Sea slave raids to date, covering 2,511 attacks across 882 locations in 13 modern countries from 1453 to 1774. They employ a difference-in-differences strategy comparing population trajectories of raided versus non-raided settlements, and an instrumental variables approach exploiting topographical features to identify effects on mid-nineteenth-century development outcomes. Mechanisms are tested through fiscal records, military encampment data, fortification counts, and demographic composition.\n\n**Results:** The study estimates that at least 3.64 million people were captured, with imputed figures reaching approximately 5 million—roughly 27.5% of Eastern Europe's population in 1400. Raided urban settlements grew approximately 20% more in population over the sample period. Mechanism evidence shows raided areas built significantly more permanent fortifications, saw higher fiscal revenues, maintained larger military garrisons, and experienced a shift from negative to positive growth in trader and artisan populations by the early eighteenth century. These findings suggest that defensive state-building attracted labor and capital flows that more than offset the losses from raiding."
+    },
+    "keyArticle": {
+      "title": "Consequences of the Black Sea Slave Trade: Long-Run Development in Eastern Europe",
+      "authors": [
+        "Volha Charnysh",
+        "Ranjit Lall"
+      ],
+      "doi": "10.1017/s0003055426101439",
+      "pages": "1127-1149"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2026-02-20-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101439",
+      "doi": "https://doi.org/10.1017/s0003055426101439"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-26T05:49:11.797528+00:00",
+    "source": "openalex"
+  }
+}
