@@ -44,28 +44,44 @@ jobs:
 
       - name: Determine journals to fetch
         id: journals
+        env:
+          # Passed via env rather than interpolated into the script, so that
+          # spaces and shell metacharacters in the input stay inert.
+          INPUT_JOURNALS: ${{ github.event.inputs.journals }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "args=${{ github.event.inputs.journals }}" >> "$GITHUB_OUTPUT"
+            echo "args=$INPUT_JOURNALS" >> "$GITHUB_OUTPUT"
           else
             echo "args=all" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Fetch articles via OpenAlex
         run: |
-          JOURNALS="${{ steps.journals.outputs.args }}"
+          JOURNALS="$STEP_JOURNALS"
           if [ "$JOURNALS" = "all" ] || [ -z "$JOURNALS" ]; then
             python -m scripts.main --journal all
           else
-            # Comma-separated list from workflow_dispatch
+            # Comma-separated list from workflow_dispatch.  Journal names may
+            # contain spaces ("international organization"), so argv is built
+            # as an array: a flat string expanded unquoted would split
+            # "international organization" into two arguments and argparse
+            # would reject the second one.
             IFS=',' read -ra NAMES <<< "$JOURNALS"
-            ARGS=""
+            ARGS=()
             for name in "${NAMES[@]}"; do
-              ARGS="$ARGS --journal $(echo $name | xargs)"
+              trimmed="$(printf '%s' "$name" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
+              if [ -n "$trimmed" ]; then
+                ARGS+=(--journal "$trimmed")
+              fi
             done
-            python -m scripts.main $ARGS
+            if [ ${#ARGS[@]} -eq 0 ]; then
+              echo "No journal names parsed from '$JOURNALS'" >&2
+              exit 1
+            fi
+            python -m scripts.main "${ARGS[@]}"
           fi
         env:
+          STEP_JOURNALS: ${{ steps.journals.outputs.args }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
           # ── Free summariser backends (tried in priority order) ──────────────
