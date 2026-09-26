@@ -60,6 +60,8 @@
   --color-polgeog: #8B5CF6;
   --color-intorg: #D97706;
   --color-asr: #0891B2;
+  --color-apsr: #BE185D;
+  --color-jde: #4D7C0F;
 
   /* Accent */
   --color-accent: #D4620A;
@@ -261,6 +263,8 @@ button {
 .badge--political-geography { background-color: var(--color-polgeog); }
 .badge--international-organization { background-color: var(--color-intorg); }
 .badge--american-sociological-review { background-color: var(--color-asr); }
+.badge--american-political-science-review { background-color: var(--color-apsr); }
+.badge--journal-of-development-economics { background-color: var(--color-jde); }
 
 /* ============================================
    Responsive

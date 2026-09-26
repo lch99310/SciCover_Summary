@@ -16,7 +16,8 @@ export function Footer() {
         <div className="footer__intro">
           <p className="footer__intro-text" lang="zh-Hant">
             本站運用人工智慧技術，為讀者整理 Science、Nature、Cell
-            等自然科學期刊以及 Political Geography、International Organization、American Sociological Review
+            等自然科學期刊以及 Political Geography、International Organization、American Sociological Review、
+            American Political Science Review、Journal of Development Economics
             等社會科學期刊中的最新開放取用（Open Access）研究，以中英雙語摘要形式呈現，協助讀者快速瞭解全球學術前沿。
           </p>
           <p className="footer__intro-text" lang="zh-Hant">
@@ -27,7 +28,8 @@ export function Footer() {
           <p className="footer__intro-text" lang="en">
             This site leverages artificial intelligence to provide bilingual (Chinese/English) summaries of
             the latest Open Access research from leading natural-science journals (Science, Nature, Cell) and
-            social-science journals (Political Geography, International Organization, American Sociological Review),
+            social-science journals (Political Geography, International Organization, American Sociological Review,
+            American Political Science Review, Journal of Development Economics),
             helping readers stay informed about global academic developments.
           </p>
           <p className="footer__intro-text" lang="en">

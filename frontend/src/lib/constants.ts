@@ -7,6 +7,8 @@ export const JOURNALS: { name: JournalName; color: string; label: string }[] = [
   { name: 'Political Geography', color: 'var(--color-polgeog)', label: 'Political Geography' },
   { name: 'International Organization', color: 'var(--color-intorg)', label: 'International Organization' },
   { name: 'American Sociological Review', color: 'var(--color-asr)', label: 'American Sociological Review' },
+  { name: 'American Political Science Review', color: 'var(--color-apsr)', label: 'American Political Science Review' },
+  { name: 'Journal of Development Economics', color: 'var(--color-jde)', label: 'Journal of Development Economics' },
 ];
 
 export const JOURNAL_COLORS: Record<JournalName, string> = {
@@ -16,6 +18,8 @@ export const JOURNAL_COLORS: Record<JournalName, string> = {
   'Political Geography': 'var(--color-polgeog)',
   'International Organization': 'var(--color-intorg)',
   'American Sociological Review': 'var(--color-asr)',
+  'American Political Science Review': 'var(--color-apsr)',
+  'Journal of Development Economics': 'var(--color-jde)',
 };
 
 export const JOURNAL_RAW_COLORS: Record<JournalName, string> = {
@@ -25,6 +29,8 @@ export const JOURNAL_RAW_COLORS: Record<JournalName, string> = {
   'Political Geography': '#8B5CF6',
   'International Organization': '#D97706',
   'American Sociological Review': '#0891B2',
+  'American Political Science Review': '#BE185D',
+  'Journal of Development Economics': '#4D7C0F',
 };
 
 /**
@@ -66,6 +72,8 @@ const DEFAULT_COVER_MAP: Record<string, string> = {
   'Political Geography': 'data/images/political-geography/default-cover.jpg',
   'International Organization': 'data/images/international-organization/default-cover.jpg',
   'American Sociological Review': 'data/images/american-sociological-review/default-cover.jpg',
+  'American Political Science Review': 'data/images/american-political-science-review/default-cover.jpg',
+  'Journal of Development Economics': 'data/images/journal-of-development-economics/default-cover.jpg',
 };
 
 /**

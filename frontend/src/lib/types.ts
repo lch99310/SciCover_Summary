@@ -44,7 +44,9 @@ export type JournalName =
   | 'Cell'
   | 'Political Geography'
   | 'International Organization'
-  | 'American Sociological Review';
+  | 'American Sociological Review'
+  | 'American Political Science Review'
+  | 'Journal of Development Economics';
 
 export interface ArticleDetail {
   id: string;
@@ -78,4 +80,6 @@ export interface LatestArticles {
   'Political Geography': string;
   'International Organization': string;
   'American Sociological Review': string;
+  'American Political Science Review': string;
+  'Journal of Development Economics': string;
 }
