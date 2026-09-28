@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-09-01-07",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "19",
+  "date": "2026-09-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-01-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI 自動策展五億細胞：scBaseCount 打造單細胞數據的新紀元",
+      "en": "500 Million Cells, One AI Curator: How scBaseCount Is Rewriting the Rules of Single-Cell Genomics"
+    },
+    "summary": {
+      "zh": "【總結】\n\n研究團隊推出 scBaseCount，這是目前全球最大的公開單細胞基因表達數據庫，收錄超過 5.02 億個細胞，涵蓋 27 個物種與 75 種組織。這項研究的突破在於首次以大規模 AI 代理（SRAgent）自動完成數據發現、元數據抽取與標準化重處理，解決了公開數據庫長期依賴人工策展所面臨的規模瓶頸。scBaseCount 不僅數據量超越現有資源，更以統一的處理流程顯著降低技術變異，讓 AI 模型能更精準學習生物學訊號。\n\n【研究問題】\n\n單細胞 RNA 定序（scRNA-seq）已徹底改變細胞生物學研究，但美國國家衛生院（NIH）旗下的序列讀取檔案庫（SRA）蘊含海量數據，卻因元數據缺乏標準化而長期未被充分利用。現有數據庫如 CZ CELLxGENE 主要依賴研究者主動提交與人工策展，雖品質精細，卻受限於規模與多樣性，難以滿足訓練大規模 AI 細胞狀態模型的需求。此外，不同實驗室採用不同的比對工具、參考基因體與讀取計數策略，使得整合多來源數據時產生嚴重的分析變異（batch effect）。如何以自動化方式挖掘、標準化並持續更新這些龐雜數據，成為關鍵研究缺口。\n\n【研究方法】\n\n研究團隊開發了一套雙層架構：首先，設計名為 SRAgent 的 AI 代理系統，基於 LangGraph 框架與大型語言模型，以分層式 ReAct 代理架構自動搜尋、檢索與註解 SRA 中的 10x Genomics 數據集。SRAgent 會系統性呼叫 NCBI 的 eSearch、eFetch 等工具，並利用 SRA BigQuery 與 HTML 爬蟲技術提取生物體、組織、疾病等關鍵元數據，存入關聯式資料庫。其次，開發名為 scRecounter 的 Nextflow 處理流程，使用 STARsolo 對原始測序讀取進行標準化比對與計數，支援多種基因模型（如僅外顯子、外顯子加內含子、Velocyto 模式）與多重比對策略，確保數據可適用於不同分析需求。\n\n【結果】\n\nSRAgent 已處理超過 20 萬筆 SRA 實驗，其中約 10.5 萬筆被識別為 10x Genomics 數據庫，目前已重處理 6.1 萬筆，累積超過 5.02 億個細胞。數據分析顯示，3' 端數據佔 77%，人類與小鼠細胞分別佔 60% 與 32%，癌症相關數據佔 30.7%。 Uniform processing 顯著降低技術因素對聚類的影響：在 scBaseCount 中，樣本 ID 與製備化學等技術因素的輪廓分數（silhouette score）低於或等同於組織類型等生物因素，而在 CELLxGENE 中則顯著較高。以 scBaseCount 訓練的 State 細胞嵌入模型在區分疾病感染狀態時準確率提升 2.24%，在 CRISPRi 基因敲低干擾分組時提升 23.9%，在差異表達基因預測的 ROC 曲線下面積提升 10.2%。這證明大規模、標準化的數據資源能顯著增強 AI 模型對細微生物學變異的辨識能力。\n\n【研究意義】\n\nscBaseCount 不僅是數據量的突破，更提供了一種可擴展的 AI 驅動生物數據策展藍圖。它使研究人員能夠在統一的基準下進行跨物種、跨組織的比較分析，並為訓練下一代細胞狀態 AI 模型奠定堅實基礎。隨著新數據持續自動汇入，scBaseCount 將成為推動單細胞生物學與計算生物學發展的核心公共資源。",
+      "en": "**Summary:**\n\nThe research team introduces scBaseCount, the largest publicly available single-cell gene expression repository to date, containing over 502 million cells across 27 organisms and 75 tissues. The breakthrough lies in the first large-scale use of an AI agent (SRAgent) to autonomously discover, annotate, and uniformly reprocess single-cell data from the Sequence Read Archive (SRA), overcoming the scalability bottleneck of manually curated databases. By standardizing data processing across all datasets, scBaseCount significantly reduces technical artifacts and enables AI models to learn more accurately from biological variation. This work establishes a new paradigm for autonomous biological data curation.\n\n**Problem:**\n\nSingle-cell RNA sequencing has transformed cell biology, yet the SRA—the largest public repository of sequencing reads—remains underutilized due to unstandardized metadata and inconsistent processing. Existing databases like CZ CELLxGENE rely on manually curated, contributor-submitted datasets, which limits both scale and diversity. Moreover, integrating datasets processed with different alignment tools, reference genomes, and counting strategies introduces significant analytical variability (batch effects) that obscures true biological signals. As AI models for cell state prediction grow in demand, the field needs a resource that is both massive in scale and uniform in processing. Filling this gap is essential for training robust, generalizable models of cellular behavior.\n\n**Approach:**\n\nThe team built a two-component system. First, they developed SRAgent, a hierarchical agentic workflow powered by large language models and LangGraph. SRAgent asynchronously queries NCBI tools—including eSearch, eFetch, SRA BigQuery, and HTML scraping—to automatically discover 10x Genomics datasets, extract key metadata (organism, tissue, disease, chemistry), and store structured annotations in a relational database. Second, they created scRecounter, a Nextflow-based pipeline that reprocesses all identified datasets using STARsolo with standardized parameters. scRecounter supports multiple feature annotation strategies (Gene, GeneFull, Velocyto, etc.) and multi-mapping approaches, generating harmonized count matrices in h5ad format. This dual system ensures both scalable metadata curation and uniform computational processing.\n\n**Results:**\n\nSRAgent processed over 208,000 SRA experiments, identifying 105,343 as 10x Genomics libraries, with 61,381 entries reprocessed to date, yielding over 502 million cells. The data reveal that 3' data dominate at 77%, human and mouse cells account for 60% and 32% respectively, and cancer-related datasets comprise 30.7% of cells. Uniform processing dramatically reduced technical confounders: silhouette scores for technical factors like sample ID and library chemistry were comparable to or lower than biological factors like tissue type in scBaseCount, whereas in CZ CELLxGENE they were significantly higher. A State cell embedding model trained on scBaseCount (214 million cells) outperformed one trained on CELLxGENE (134 million cells), improving classification accuracy by 2.24% for infection status, 23.9% for CRISPRi perturbation groups, and 10.2% in AUROC for differential gene expression prediction. These results demonstrate that scale combined with uniform processing yields meaningfully better models.\n\n**Significance:**\n\nscBaseCount represents not just a quantitative leap but a methodological one—it provides a scalable blueprint for AI-driven biological data curation. By minimizing technical noise and maximizing phenotypic diversity, it empowers cross-species, cross-tissue comparative analyses and lays the foundation for next-generation cell state AI models. As new data are continuously ingested, scBaseCount will serve as a core public resource driving advances in single-cell biology and computational biology."
+    },
+    "keyArticle": {
+      "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
+      "authors": [
+        "Nicholas D. Youngblut",
+        "Christopher Carpenter",
+        "Arshia Nayebnazar",
+        "Abhinav Adduri",
+        "Rohan Shah",
+        "Chiara Ricci-Tam",
+        "Jaanak Prashar",
+        "Rajesh Ilango",
+        "Noam Teyssier",
+        "Silvana Konermann",
+        "Patrick D. Hsu",
+        "Alexander Dobin",
+        "Dave P. Burke",
+        "Hani Goodarzi",
+        "Yusuf Roohani"
+      ],
+      "doi": "10.1016/j.cell.2026.08.025",
+      "pages": "5932-5944.e6"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-01-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.025",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.025"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:40:57.476390+00:00",
+    "source": "openalex"
+  }
+}

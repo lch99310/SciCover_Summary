@@ -1,0 +1,49 @@
+{
+  "id": "political-geography-2026-09-26",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-09-26",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-09-26-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "告別「農園」陰影：羅德島如何用十年扭轉歷史記憶，抹去全美最長州名？",
+      "en": "Erasing 'Plantations': How Memory-Work and Protest Rewrote Rhode Island's Name"
+    },
+    "summary": {
+      "zh": "【總結】美國面積最小的羅德島州，過去卻擁有全美最冗長的官方全稱——「羅德島與普羅維登斯農園州」（State of Rhode Island and Providence Plantations）。其中的「農園」（Plantations）一詞，長年背負著奴隸制歷史的沉重傷痕。2010年，該州曾就刪除該詞舉行公民投票，遭到近八成選民殘酷否決；然而到了2020年，在公投題目與憲法修正文字分毫不差的情況下，選民卻以53.1%的過半票數逆轉過關。本研究結合批判地名學、歷史記憶工作與議題框架理論，揭示了這場並未伴隨政權更迭的「地名淨化」何以成真：十年間非裔倡議者對本土奴隸貿易史的長期挖掘、2020年佛洛伊德之死所引爆的「黑人的命也是命」（BLM）抗爭機遇期，以及專業政治倡導的議題重構，共同促成了這場由選民集體「轉念」推動的象徵性抵抗。\n\n【研究問題】地名從來不只是空間代號，更是烙印在日常景觀中的歷史記憶與權力投射。傳統政治地理學認為，更改整個政治共同體的官方名稱屬於極罕見的劇變，通常只發生在帝國崩解、革命爆發或政權轉型之際。然而，羅德島州在政治體制未變、兩黨版圖基本穩定的十年間，選民對同一個改名公投的態度卻發生了高達31個百分點的戲劇性逆轉。過去文獻常將投票轉變歸因於人口結構更迭或投票率差異，本研究則直指核心缺口：如果選民母體並未發生人口學換血，社會運動與記憶激進主義（Memory Activism）究竟如何透過具體機制重構公共認同與常識，進而打破地名維繫的文化霸權？\n\n【研究方法】研究團隊採取混合方法研究。定量分析層面，作者整合了2010年與2020年兩次公投在全州75個州眾議院選區的逐區投票數據，並結合美國人口普查與美國社區調查（ACS）的多變量社會人口特徵（種族、族裔、教育程度、年齡中位數、所得、投票率與政黨支持度）。藉由構建多元線性迴歸模型，作者有效排除了單純由人口換血或投票率波動驅動結果的假說。定性研究層面，作者梳理了橫跨十年的地方媒體報導、社論與讀者投書（聚焦《普羅維登斯日報》的輿論風向演變），並對主導兩次修憲與公投的關鍵立法者、非裔運動領袖、倡議聯盟「團結羅德島」（Rhode Island United）操盤手進行了深度半結構化訪談。\n\n【結果】迴歸模型證實，即便嚴格控制了各選區的種族比例、教育水平、年齡與政黨偏好，「年份效應」依然具備壓倒性的統計顯著性，證明選民並非被人口置換，而是實質改變了想法。這場逆轉的核心機制包含三重交織：其一，長達十年的歷史記憶發掘瓦解了神話——史學研究揭露羅德島曾是新英格蘭奴隸比例最高（1750年達10%）的地區，其繁榮直接奠基於奴隸船製造與「黑奴布」生產，「農園純屬無害定居點」的歷史辯解徹底破產；其二，2020年5月引爆的BLM示威構成「歷史關鍵節點」（Critical Juncture），萬人示威迫使州長雷蒙多等政治菁英從反對或消極轉向全面背書；其三，2020年成立的倡議陣線汲取2010年各自為政的教訓，募資逾十萬美元，將微觀的地名爭議成功鏈接至全美拆除邦聯雕像的反種族主義大敘事。然而作者也提醒，象徵性地名的剔除究竟是通往深層實質賠償的踏腳石，抑或只是政治菁英免除結構性改革的廉價代價，仍有待持續檢驗。",
+      "en": "**Summary:** In November 2020, voters in Rhode Island passed a constitutional amendment to officially drop the phrase \"Providence Plantations\" from the state's formal name, securing 53.1% of the vote. A decade earlier, an identical ballot measure had suffered an overwhelming defeat, rejected by 77.9% of voters. Bridging critical toponymy, memory studies, and framing theory, this study explains how a profound toponymic cleansing occurred without an accompanying regime collapse or geopolitical upheaval. The authors argue that this turnaround was driven by a decade of tireless grassroots memory-work exposing the state's historical complicity in the slave trade, catalyzed by the critical juncture of the 2020 Black Lives Matter protests, and sealed by a highly professional, well-funded advocacy campaign that redefined the symbolic stakes of the vote.\n\n**Problem:** Critical toponymy has long established that place names are not merely utilitarian markers, but ideologically charged commemorative structures that dictate belonging and public memory. Substantial alterations to the official name of an entire political unit are exceedingly rare in political geography, typically catalyzed only by imperial dissolution, constitutional overhauls, or sweeping regime changes. Rhode Island's abrupt 31-percentage-point swing between 2010 and 2020 presents a striking puzzle: What explains such a massive mnemonic shift when the institutional, ideological, and demographic baseline of the state remained largely continuous? Identifying the mechanics of this transformation illuminates how social movements can destabilize entrenched symbolic hegemony in stable democracies.\n\n**Approach:** The authors deployed a mixed-methods design. Quantitatively, they evaluated electoral and demographic data across Rhode Island's 75 State House districts for both the 2010 and 2020 referenda. Using multivariate linear regression models, they controlled for registered turnout, Republican vote share, race, Hispanic ethnicity, educational attainment, median income, and age cohorts to rigorously test whether demographic replacement or turnout differentials could account for the outcome. Qualitatively, the team triangulated legislative archives, local media narratives (analyzing op-eds and letters to the editor in the *Providence Journal*), and in-depth interviews with key stakeholders, including the legislative sponsors, civil rights advocates, and campaign strategists behind the \"Rhode Island United\" initiative.\n\n**Results:** The quantitative models demonstrate that even after holding district-level demographics, educational gains, and partisan affiliation constant, the \"year effect\" was overwhelmingly significant: Rhode Island voters actively changed their minds rather than simply being replaced by a younger or more progressive electorate. Qualitatively, three interrelated dynamics explain this cognitive pivot. First, sustained memory-work between 2010 and 2020—uncovering Rhode Island's preeminent role in financing slave voyages and producing plantation textiles—dismantled the prevailing conservative defense that the word \"plantations\" was merely a benign seventeenth-century synonym for settlement. Second, the nationwide 2020 BLM mobilizations created an affective critical juncture, inducing state elites (including Governor Gina Raimondo) to shift from indifference to public endorsement. Third, advocates discarded the disorganized grassroots approach of 2010, securing major foundation grants to run a targeted \"Yes on 1\" marketing campaign that tied Rhode Island's toponymic reckoning directly to national anti-racist mobilizations. While celebrating this victory of symbolic resistance, the authors caution that renaming must not become a superficial substitute for structural reparations."
+    },
+    "keyArticle": {
+      "title": "What's in a name? Name change, memory-work, and symbolic resistance in Rhode Island",
+      "authors": [
+        "Lily Martin",
+        "Juliet Ellen Johnson",
+        "Benjamin Forest"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103675",
+      "pages": "103675"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-09-26-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103675",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103675"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:41:56.024443+00:00",
+    "source": "openalex"
+  }
+}

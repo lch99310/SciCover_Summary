@@ -1,0 +1,50 @@
+{
+  "id": "journal-of-development-economics-2026-09-03",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-03",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "百年前的技術傳授：日資紗廠如何悄悄改變中國紡織業",
+      "en": "How Japanese Mills Secretly Modernized China's Cotton Industry—A Century of Hidden Spillovers"
+    },
+    "summary": {
+      "zh": "【總結】這篇研究首次從歷史角度量化了外商直接投資（FDI）的生產力外溢效應。研究發現，抗日戰爭前日本在華紡廠（Zaikabo）對中國本地紗廠產生了顯著的正向外溢，且這種效應高度集中於十公里範圍內，以上海為最。外溢的主要管道是技能勞動力的流動——日資廠僱用較高比例技術工人的廠，對周邊中資廠的生產力提升效果更明顯。這項研究填補了歷史FDI外溢研究的空白，也為理解技術如何跨越國界傳播提供了新的實證證據。\n\n【研究問題】過去關於FDI外溢的研究大多聚焦當代數據，且多採用行業或城市層級的聚合資料，難以精確捕捉地理距離與技術轉移的關係。此外，歷史情境中的FDI研究多依賴敘事分析，缺乏嚴謹的計量經濟驗證。本研究試圖回答：在交通與通訊尚不發達的1920至1930年代，日資紗廠是否真的將先進技術與管理知識傳授給中國本地同行？這種外溢是否存在，其機制為何？\n\n【研究方法】研究團隊利用1925至1938年間中國紗廠的廠級資料，並首次將日資與中資廠的地理位置進行地理編碼。他們以逆距離加權的方式建構外溢變數，並控制廠固定效果與時間固定效果，以隔離日資活動波動對中資廠生產力的因果影響。研究同時檢視日資廠的員工結構（技術工人比例）與中資廠的初始生產力，以探索技能傳遞與吸收能力兩條潛在管道。\n\n【結果】實證結果顯示，日資紗廠的存在使附近中資廠的產出提升約0.6個百分點，且這種效應在十公里內最為顯著，超過此距離後便不再具統計意義。上海的中資廠受益最大，因為當時上海是紡織業中心。研究還發現，日資廠僱用較高比例技術工人（以生產線男性員工比例或管理人員占比衡量）時，外溢效果更強，這支持了「技能勞動渠道」的假說。此外，初始生產力較高的中資廠從外溢中獲益更多，符合吸收能力的理論預期。這些發現對理解技術轉移的空間局限性和人力資本的重要性具有深遠意義。",
+      "en": "**Summary:** This paper provides the first quantitative evidence of productivity spillovers from foreign direct investment in a historical context. It finds that Japanese cotton-spinning affiliates, known as Zaikabo, generated significant positive spillovers to local Chinese mills during the 1925–1938 interwar period. These spillovers were highly localized, strongest within a ten-kilometer radius, and particularly pronounced in Shanghai. The primary channel appears to be skilled-labor diffusion: Zaikabo plants employing higher shares of skilled workers generated larger productivity gains for neighboring Chinese firms. This study fills a critical gap in the literature by combining geo-located historical data with modern econometric techniques to trace how technology crossed borders before the digital age.\n\n**Problem:** Previous research on FDI spillovers has largely relied on contemporary data and industry- or city-level aggregates, making it difficult to isolate the role of geographic proximity in knowledge transfer. Historical studies of FDI, meanwhile, have predominantly taken a narrative approach, lacking rigorous econometric validation. This paper addresses a crucial question: in an era before modern telecommunications and globalized supply chains, did Japanese firms actually transfer technology and managerial know-how to Chinese counterparts? Understanding this matters not only for the history of China's industrialization but also for debates about how foreign investment benefits host economies.\n\n**Approach:** The authors assembled plant-level data on Chinese and Japanese cotton-spinning mills from 1925 to 1938 and geo-located every facility. They constructed inverse-distance-weighted spillover measures, allowing them to capture how the presence and activity of Zaikabo affected nearby Chinese mills. By exploiting temporal variation in Japanese operations—particularly the sharp decline after the 1930 global crisis and subsequent recovery—they identified causal effects while controlling for plant and year fixed effects. The study also examined workforce composition at Japanese plants and initial productivity levels at Chinese mills to test two mechanisms: skilled-labor diffusion and absorptive capacity.\n\n**Results:** The results show a statistically significant and economically meaningful spillover effect: the presence of Zaikabo increased local Chinese mill output by approximately 0.6 percent. This effect decayed sharply with distance, becoming insignificant beyond roughly ten kilometers. Shanghai, as the industry hub, accounted for the bulk of the average effect. Crucially, spillovers were driven almost entirely by Zaikabo plants with higher shares of skilled workers—proxied by the male share of production workers and administrative intensity—while routine spinning operations generated no measurable spillovers. Chinese mills with higher initial total factor productivity benefited more, consistent with absorptive-capacity theory. These findings suggest that tacit knowledge travels poorly over distance but flows readily through skilled labor markets, with important implications for understanding how technology diffuses in developing economies."
+    },
+    "keyArticle": {
+      "title": "FDI spillovers in history: Interwar Japanese “Zaikabo” investment in China's cotton spinning industry",
+      "authors": [
+        "Holger Görg",
+        "Toshihiro Okubo",
+        "Eric Strobl",
+        "Maximilian Von Ehrlich"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103925",
+      "pages": "103925"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103925",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103925"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:45:51.697181+00:00",
+    "source": "openalex"
+  }
+}

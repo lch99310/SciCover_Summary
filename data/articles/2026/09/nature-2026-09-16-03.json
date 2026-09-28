@@ -1,0 +1,49 @@
+{
+  "id": "nature-2026-09-16-03",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8133",
+  "date": "2026-09-16",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-16-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "四成九的沉默支持：美國白人支持白人國家主義的真實比例與背後推手",
+      "en": "The 4.9% Hidden Majority: Who Supports White Nationalism in America"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《自然》的研究首次以直接問卷方式，精確測量了美國非拉丁裔白人對白人國家主義的明確支持度。研究團隊開發了一套全新的測量工具——在告知受訪者白人國家主義的三大核心主張（人口威脅、文化優越性、權力維持）後，直接詢問他們是否支持該運動。結果顯示，整體白人成年人口中有4.9%明確支持白人國家主義，而在18至29歲白人男性中，這一比例高達13.5%。這項研究打破了過往間接推測的局限，為理解美國極端主義的社會基礎提供了迄今最可靠的數據。\n\n【研究問題】過去學術界長期將白人國家主義視為「潛在構念」，透過間接指標（如種族同質性信念、移民限制態度）來推斷支持度，卻從未直接詢問受訪者是否支持白人國家主義。這種方法存在兩個根本缺陷：一是許多白人可能不了解這個詞彙，導致數據嚴重低估；二是將白人國家主義僅視為其他態度的預測變項，而非獨立研究對象。解決這個問題至關重要，因為白人國家主義已從邊緣運動走向公共視野，並與多起種族恐怖攻擊密切相關，然而我們對其在大眾中的實際影響力一無所知。\n\n【研究方法】研究團隊進行了三項全國性調查（2021年、2024年、2024至2025年），合計超過7,800名非拉丁裔白人受訪者。核心創新在於實驗設計：受訪者被隨機分為兩組，實驗組先閱讀一段簡明描述白人國家主義三大核心主張的說明，再被問及是否支持該運動；對照組則先被直接詢問，之後才閱讀說明。這種設計讓研究者能夠比較「知情」與「不知情」狀態下的支持率差異。研究還結合了個人層面的壓力指標（如失業、親人離世、犯罪受害）、社區層面的社會困苦指數（貧困率、失業率、藥物相關死亡率），以及線上社交網絡特徵，來檢驗壓力理論、地位威脅理論與線上動員理論的預測力。\n\n【結果】研究發現三項關鍵結果。第一，支持白人國家主義的人主要來自經歷個人困境與社區社會困苦的群體——報告過去一年經歷三項以上困難的人支持率高出4個百分點，來自社會困苦程度最高縣份的人支持率也高出4個百分點。第二，支持度與當地種族構成或人口變化無關，否定了地位威脅理論的核心假設。第三，線上社交是關鍵預測因子：當受訪者的三位最親密朋友全部為線上認識時，支持率高出13個百分點，但單純的社群媒體使用頻率與支持度無關。人口統計上，支持度在低收入、低學歷、共和黨人、保守派及政治疏離者中顯著較高，且在18至29歲白人男性中達到13.5%。這些發現揭示了白人國家主義的吸引力不僅源於種族焦慮，更與經濟壓力、社會孤立和線上社群動員緊密相連。",
+      "en": "**Summary:** This Nature study introduces the first direct measurement of explicit support for white nationalism among non-Hispanic white Americans. The researchers developed a novel survey instrument that informs respondents of the movement's three core tenets—demographic threat, cultural superiority, and the maintenance of white political power—before asking whether they support it. The results reveal that 4.9% of white adults endorse white nationalism, a figure that climbs to 13.5% among white men aged 18 to 29. By moving beyond indirect proxy measures used in prior research, this study provides the most reliable estimate to date of how deeply white nationalist ideology resonates within the broader American white population.\n\n**Problem:** Previous scholarship has treated white nationalism as a latent construct, inferring support indirectly through survey items about ethnic homogeneity, racial superiority, and immigration restriction—never asking directly whether respondents support the movement itself. This approach suffers from two critical flaws: many white Americans may simply be unfamiliar with the term, leading to severe underestimation, and the ideology has been studied primarily as a predictor of other attitudes rather than as a phenomenon demanding explanation in its own right. Understanding the true prevalence and predictors of white nationalist support is urgently important, given the movement's growing visibility, its connections to political violence, and its role in inspiring acts of racial terror across the United States.\n\n**Approach:** The authors conducted three national surveys of non-Hispanic white adults between 2021 and 2025, totaling over 7,800 respondents. The key methodological innovation was a survey experiment: respondents were randomly assigned to either a treatment group, which first read a concise description of white nationalism's core beliefs before answering whether they supported the movement, or a control group, which answered the support question first and received the description afterward. This design allowed the researchers to measure how much awareness of the term's meaning affected expressed support. The study also collected rich data on individual hardships (job loss, bereavement, crime victimization), county-level social distress indices (poverty, unemployment, drug- and alcohol-related mortality), local racial demographics, and patterns of online versus offline social relationships, enabling tests of strain theory, status threat theory, and online mobilization theory.\n\n**Results:** Three findings stand out. First, support is significantly higher among white people experiencing personal hardship and living in socially distressed communities: those reporting three or more hardships in the past year showed 4 percentage points higher endorsement, as did those in the most distressed counties. Second, local racial composition and demographic change showed no substantively meaningful relationship with support, undermining status threat explanations. Third, online social life emerged as a powerful predictor—respondents whose three closest friends were known only online showed 13 percentage points higher support, while general social media use frequency was unrelated. Demographically, support clustered among lower-income and less-educated whites, Republicans, conservatives, and the politically disaffected, peaking at 13.5% among white men aged 18 to 29. Together, these results suggest white nationalism's appeal is driven less by demographic anxiety than by economic strain, social alienation, and the mobilizing power of online communities."
+    },
+    "keyArticle": {
+      "title": "Predictors and prevalence of support for white nationalism in the United States",
+      "authors": [
+        "Patrick J. W. Egan",
+        "James H. Bisbee",
+        "Joshua Aaron Tucker"
+      ],
+      "doi": "10.1038/s41586-026-11018-0",
+      "pages": "964-972"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-16-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11018-0",
+      "doi": "https://doi.org/10.1038/s41586-026-11018-0"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:39:24.081197+00:00",
+    "source": "openalex"
+  }
+}

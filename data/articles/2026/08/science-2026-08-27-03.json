@@ -1,0 +1,40 @@
+{
+  "id": "science-2026-08-27-03",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6814",
+  "date": "2026-08-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "每加一公升油都在透支未來：為什麼全球補貼化石燃料的政策屢次失敗？",
+      "en": "The Subsidy Trap: Why the World Keeps Subsidizing the Very Fuels That Are Destroying It"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章揭示了一個令人不安的真相：當伊朗戰爭推高能源價格、各國政府為平息民怨而推出燃油補貼時，它們正在做一件對氣候和社會最不利的決策。研究指出，消費端化石燃料補貼是全球最糟糕的能源政策——它耗資龐大、極難撤銷，且讓窮人沒受惠、富人卻大撈一筆。2022年全球化石燃料消費補貼更創下1萬億美元的歷史新高。更關鍵的是，這波危機本可成為加速淘汰化石燃料的歷史契機，但各國卻在往相反的方向狂奔。\n\n【研究問題】過去十年間，儘管《巴黎協定》及各國領袖屢次承諾淘汰「低效化石燃料補貼」，全球卻幾乎毫無進展。2003年以來，補貼規模不減反增。研究缺口在於：為什麼這些補貼如此難以取消？哪些因素導致改革失敗？作者試圖解答這個關鍵問題，因為補貼不僅拖慢能源轉型，更扭曲市場、加劇不平等，並讓氣候目標遙不可及。\n\n【研究方法】作者分析了2016年至2023年間全球130個最大補貼國的約130項補貼改革嘗試，追蹤每項改革的命運——哪些成功、哪些失敗、以何種方式失敗。研究結合政治學理論與量化數據，從改革設計、政治阻力、經濟環境等多個維度剖析補貼改革的存續時間與失敗機制，特別是區分了「明確推翻」與「靜默侵蝕」兩種截然不同的失敗路徑。\n\n【結果】研究發現，130項補貼改革中，70%在一年內崩潰，超過90%在三年內消失。其中一種失敗模式是「明確推翻」——政府調漲油價後引發大規模抗議，許多政權動盪正是從每公升幾毛錢的油價戰起。另一種更隱蔽的模式是「靜默侵蝕」：通膨或貨幣貶值悄悄侵蝕改革效果，補貼在無聲無息中復活，這已成為改革失敗的最大主因。研究同時指出，越大膽的改革越脆弱；而看似溫和的暫行稅免措施，往往在下一次選舉或油價衝擊中變成永久政策。作者呼籲各國改用現金轉移、公共交通補貼等「臨時、精準、適時、量身打造」的替代方案，而非一勞永逸地凍結油價。",
+      "en": "**Summary:** This article exposes a troubling paradox: as the Iran War sends energy prices soaring and governments rush to subsidize fuel for angry citizens, they are enacting the single worst kind of energy policy on record. The research shows that consumer fossil fuel subsidies are wasteful, deeply regressive, and extraordinarily difficult to reverse—yet they are exactly what 89 countries adopted between February and July 2026. Global fossil fuel consumption subsidies hit a record $1 trillion in 2022. Rather than using this crisis as a catalyst to accelerate the transition to renewables, governments are digging the fossil fuel rut deeper.\n\n**Problem:** Despite widespread promises since the Paris Agreement to phase out inefficient fossil fuel subsidies, there has been almost no global progress since 2003. The puzzle is stark: why do governments keep failing to remove subsidies that economists and climate scientists agree are harmful? Previous research identified the scale of the problem but lacked a systematic account of why reform efforts collapse. Understanding the mechanics of subsidy persistence is crucial—not only for climate policy but for governance itself, because these subsidies distort markets, worsen inequality, and lock countries into polluting energy systems for decades.\n\n**Approach:** The authors tracked approximately 130 subsidy reform attempts across the world's 21 largest subsidizing countries between 2016 and 2023, documenting the outcome of each reform. They combined political science theory with quantitative analysis, examining how reform design, political pressure, and macroeconomic conditions shaped whether subsidies survived or faded. A key innovation was distinguishing between two distinct failure modes: explicit reversal (often triggered by protests) and silent erosion (where inflation or currency depreciation gradually undermined the reform without any formal decision to restore subsidies).\n\n**Results:** The data reveals a grim picture: 70 percent of subsidy reforms collapsed within a year, and more than 90 percent were gone within three. Explicit reversals commonly followed public protests—many episodes of government upheaval worldwide have roots in a fight over a few cents per liter of gasoline. But the single largest cause of reform failure is now silent erosion: governments keep the new pump price in place and do nothing else, allowing inflation or currency depreciation to quietly restore the subsidy month by month. The boldest reforms—where domestic prices fully track international costs—are also the most fragile. Meanwhile, modest temporary tax waivers rarely expire; the next election or oil shock quietly converts them into permanent policy. The authors argue that cash transfers, targeted public transit subsidies, and remote-work policies are far more effective and equitable alternatives."
+    },
+    "keyArticle": {
+      "title": "The worst energy policy in the world",
+      "authors": [
+        "Paasha Mahdavi",
+        "Michael L. Voeten Ross"
+      ],
+      "doi": "10.1126/science.aej2018",
+      "pages": "845"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej2018",
+      "doi": "https://doi.org/10.1126/science.aej2018"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:37:45.773943+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "international-organization-2026-07-15",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-07-15",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "霸權與夥伴的恐懼遊戲：集體威懾為何有時奏效、有時崩盤",
+      "en": "The Dominant Power's Dilemma: Why Collective Deterrence Succeeds, Falters, and Sometimes Backfires"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章建立了一個關於「集體威懾」的理論模型，解釋為什麼由大國率領的多國聯盟有時能成功嚇阻侵略、有時卻內部瓦解。研究的核心突破在於指出：大國在聯盟中的「主導程度」才是決定威懾成敗的關鍵變量——它決定了聯盟面臨的主要問題是夥伴「搭便車」，還是彼此「猜忌不確」。更反直覺的是，大國越強，夥伴越可能偷懶，但威懾效果反而可能增強，因為大國會自動填補夥伴的空白。作者進一步以2016年特朗普當選為案例，解釋為何歐洲盟國與東亞盟國面對美國承諾動搖時，做出了截然不同的反應。\n\n【研究問題】過去國際關係理論多聚焦於兩國之間的嚇阻模型，或僅粗略提及「集體行動困境」，卻鮮少系統性回答：在多國聯盟中，威懾究竟如何運作？大國與夥伴之間的力量不對等、資訊不對稱，以及彼此的不信任，如何交互影響嚇阻的成功與失敗？這個問題至關重要，因為冷戰後至今，美國主導的聯盟體系正面臨中國、俄羅斯等國的挑戰，而盟國對美國承諾的可信度日益存疑——理解集體威懾的機制，直接關係到當代國際安全的格局。\n\n【研究方法】作者採用博弈論模型，設定一個潛在攻擊者面對由大國G與n個夥伴組成的防禦聯盟。每個防禦方的戰爭成本是私人資訊（只有自身知道），攻擊者與其他防禦方都無法確知。模型包含三個核心特徵：合作（地位 quo 是公共財，夥伴有搭便車誘因）、不確定性（戰爭成本私有導致各方互相猜測）、階層（大國在軍力與成本分佈上與夥伴不同）。透過求解完美貝葉斯均衡，作者推導出大國「聯盟內主導度」（dominance）的公式，並以此為核心變量，分析聯盟規模、夥伴總軍力、大國承諾強度與不確定性變化對威懾效果的影響。最後以特朗普當選後歐美與東亞盟國的不同反應作為實證檢驗。\n\n【結果】研究發現四項關鍵結論。第一，大國主導度高時，夥伴搭便車是主要問題；主導度低時，彼此不信任才是阻碍。第二，提升大國軍力或降低其戰爭成本，會同時增加威懾效果與夥伴搭便車——因為大國會自動補位。第三，聯盟規模與夥伴總軍力對威懾的影響方向相反：大國主導時，增加夥伴數量能強化威懾；大國主導度低時，增加夥伴總軍力才能強化威懾，兩者無法同時奏效。第四，增加對大國承諾的不確定性，可能增強也可能削弱威懾——取決於原先承諾是強是弱：若原先承諾強，不確定性增加會削弱威懾；若原先承諾弱，不確定性增加反而可能因夥伴「樂觀預期」而自我實現，強化威懾。以特朗普當選為例，歐洲盟國原先相信美國承諾強（γ低），不確定性增加導致威懾動搖，因而主動加強自身戰備；東亞盟國原先對美國承諾本就存疑（γ高），不確定性增加反而讓夥伴更樂觀，威懾未受顯著影響，美國也轉向提供更多保證信號。",
+      "en": "**Summary:** This article develops a formal model of collective deterrence to explain why coalitions led by a great power sometimes successfully deter aggression and sometimes falter from within. The central breakthrough is the concept of the great power's intra-coalition dominance—a derived equilibrium quantity that determines whether the primary obstacle to cooperation is partner free riding or mutual uncertainty about willingness to fight. Strikingly, the model shows that a stronger great power can simultaneously increase deterrence and encourage more free riding, because the great power automatically substitutes for reluctant partners. The authors then apply the model to explain the divergent responses of American allies in Europe and East Asia following Trump's 2016 election.\n\n**Problem:** Most deterrence theory focuses on two-player models or treats collective action problems as a black box. There is little systematic understanding of how hierarchy, private information, and cooperation problems interact within multi-state coalitions to shape deterrence outcomes. This gap matters enormously: the post-Cold War order has relied on U.S.-led coalitions to deter revisionist powers, yet alliance credibility is increasingly questioned. Understanding the mechanics of collective deterrence is essential for grasping contemporary security dynamics in Europe and the Indo-Pacific.\n\n**Approach:** The authors build a game-theoretic model in which a potential attacker faces a defensive coalition comprising one great power G and n partners. Each defender's war cost is private information, unknown to the attacker and to other defenders. The model embeds three features of collective deterrence: cooperation (the status quo is a public good, creating free-riding incentives), uncertainty (private costs lead to strategic misrepresentation and mutual suspicion), and hierarchy (the great power draws from different distributions of power and costs than its partners). Solving for perfect Bayesian equilibrium, the authors derive an intra-coalition dominance metric and use it to trace how coalition size, partner capabilities, commitment strength, and uncertainty shifts affect deterrence. The model is then illustrated through process-tracing of U.S. alliance responses to the 2016 Trump election in Europe versus East Asia.\n\n**Results:** Four key findings emerge. First, when the great power is dominant, free riding is the main problem; when it is less dominant, uncertainty about others' willingness to fight dominates. Second, increasing the great power's capabilities or lowering its war costs boosts deterrence even as it increases partner free riding, because the great power compensates. Third, coalition size and partner capabilities have opposite effects on deterrence depending on dominance: more partners help when the great power is dominant, but greater total partner capabilities help only when the great power is less dominant—the two cannot be optimized simultaneously. Fourth, increasing uncertainty about the great power's commitment can either strengthen or weaken deterrence, depending on whether the prior commitment was strong or weak. Applied to the Trump shock: European allies, who previously believed U.S. commitment was strong, saw deterrence weaken and responded by bolstering their own readiness; East Asian allies, who already doubted U.S. commitment, experienced a self-fulfilling optimism that sustained deterrence, while the U.S. shifted toward more explicit reassurance signals."
+    },
+    "keyArticle": {
+      "title": "Collective Deterrence",
+      "authors": [
+        "Scott Wolford",
+        "Joshua Landry",
+        "Kevin Galambos"
+      ],
+      "doi": "10.1017/s002081832610143x",
+      "pages": "602-639"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s002081832610143x",
+      "doi": "https://doi.org/10.1017/s002081832610143x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:42:44.029152+00:00",
+    "source": "openalex"
+  }
+}

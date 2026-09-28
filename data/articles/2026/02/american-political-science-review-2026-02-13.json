@@ -1,0 +1,47 @@
+{
+  "id": "american-political-science-review-2026-02-13",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2026-02-13",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2026-02-13-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "北京媒體如何悄悄改變選票？2020年台灣大選的實地實驗揭示了真相",
+      "en": "How Pro-Beijing Media Shifts Votes: A Field Experiment From Taiwan's 2020 Election"
+    },
+    "summary": {
+      "zh": "【總結】一項在2020年台灣大選期間進行的隨機實地實驗揭示：北京支持的媒體《中國時報》能夠顯著影響選民行為。實驗發現，持續接觸該媒體政治新聞的選民，轉向支持親中候選人韓國瑜的比例大幅提升。然而，這種影響並非均勻分布——非政黨支持者與親中選民最容易被說服，而對北京持懷疑態度的選民反而可能產生反彈效果。這項研究首次以嚴謹的實驗方法，證實了威權政權透過收編外國媒體來影響民主選舉的實際效果。\n\n【研究問題】過去關於威權國家跨境媒體干預的研究，多數聚焦於俄羅斯對美國選舉的影響，且主要依賴觀察性數據，難以建立因果關係。同時，學界對「收編式」媒體操作——即透過經濟手段控制外國本土媒體——的實際選舉效果缺乏實證。台灣作為北京情報戰的重點目標，擁有華語資訊環境與高度政治分歧，是檢驗此問題的理想場域。理解這一機制對評估全球民主社會面臨的外國干預威脅至關重要。\n\n【研究方法】研究團隊在2020年1月台灣大選前四周招募了2,077名符合投票資格的台灣成年人，透過線上民調面板進行抽樣。參與者被隨機分配到三個群組：50%進入實驗組，被引導瀏覽一個客製化網站，上面每日更新《中國時報》的政治新聞；20%進入安慰劑組，瀏覽該報的娛樂新聞；30%為純對照組，僅獲得網站描述。實驗持續兩週，參與者每日收到提醒郵件，若日均瀏覽達3分鐘即可獲得額外150元新台幣獎勵。研究團隊透過網頁追蹤數據精確記錄每位參與者的瀏覽行為，並在前後兩次問卷中測量其投票意向、候選人評價及對中國態度。\n\n【結果】實驗結果顯示，實驗組中原本不打算投票給韓國瑜的參與者，有15.9%在接觸《中國時報》後改變了投票意向。整體而言，實驗組轉向支持韓國瑜的比例為20.3個百分點，遠高於對照組的7.7個百分點與安慰劑組的8.7個百分點。效應主要集中在非政黨支持者（約占選民40%）與親中選民身上；而對北京持懷疑態度的選民則出現反彈，態度反而更加負面。研究同時發現，親中與反中選民對《中國時報》新聞的認知與情感反應截然不同，但在瀏覽娛樂新聞的安慰劑條件下這種差異並不存在。",
+      "en": "**Summary:** A randomized field experiment conducted during Taiwan's 2020 general election reveals that pro-Beijing media can meaningfully influence voter behavior. Participants exposed to The China Times—a Beijing-aligned outlet—showed a significant shift toward supporting the PRC-favored candidate, Han Kuo-yu. But the effects were far from uniform: nonpartisan and PRC-friendly voters were most susceptible, while PRC-skeptics actually backfired, growing more hostile. This study provides the first rigorous experimental evidence that authoritarian media co-optation—the covert strategy of acquiring and steering foreign domestic outlets—can sway democratic elections.\n\n**Problem:** Research on authoritarian media influence has disproportionately focused on Russian operations targeting the United States, relying heavily on observational data that limits causal inference. Far less is known about media co-optation, a more covert strategy in which foreign regimes acquire and steer domestic news outlets to serve their objectives. Taiwan, a frequent target of PRC influence campaigns with a Chinese-language information environment and sharp political divisions over cross-strait relations, offers an ideal laboratory. Understanding whether and how this strategy works is crucial for assessing the vulnerability of democratic elections worldwide.\n\n**Approach:** The researcher recruited 2,077 voting-eligible Taiwanese adults through an online panel four weeks before the January 2020 election. Participants were randomly assigned to one of three conditions: 50% received access to a customized website featuring The China Times' real-time political news, updated daily; 20% accessed the same site but with entertainment news (placebo); and 30% received only descriptions of the websites (control). Throughout the two-week period, participants received daily email reminders and a financial incentive of NT$150 for averaging at least three minutes of daily browsing. Web-tracking data precisely recorded each participant's browsing behavior, which was linked to panel survey responses measuring vote choice, candidate evaluations, and attitudes toward the PRC.\n\n**Results:** Among participants who initially had no intention of voting for Han Kuo-yu, 15.9% in the treatment group shifted their electoral preference after sustained exposure to The China Times. Overall, the treatment group showed a 20.3 percentage-point increase in support for Han, compared to just 7.7 points in the control group and 8.7 points in the placebo group. The effects were concentrated among nonpartisan voters—who make up roughly 40% of the electorate—and PRC-friendly voters. Among PRC-skeptics, exposure to the outlet actually backfired, producing more negative attitudes toward the PRC. Cognitive and emotional reactions to the news differed sharply between PRC-friendly and PRC-skeptical participants, but these differences vanished in the placebo condition, confirming that the effects were driven by the political content, not merely by website engagement."
+    },
+    "keyArticle": {
+      "title": "How the Pro-Beijing Media Influences Voters: Evidence from a Randomized Field Experiment",
+      "authors": [
+        "Jay C. Kao"
+      ],
+      "doi": "10.1017/s0003055426101476",
+      "pages": "795-814"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2026-02-13-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101476",
+      "doi": "https://doi.org/10.1017/s0003055426101476"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-09-28T23:44:34.748062+00:00",
+    "source": "openalex"
+  }
+}
