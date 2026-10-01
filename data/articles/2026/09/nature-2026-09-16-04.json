@@ -1,0 +1,51 @@
+{
+  "id": "nature-2026-09-16-04",
+  "journal": "Nature",
+  "volume": "657",
+  "issue": "8132",
+  "date": "2026-09-16",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-16-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "讓電腦自己「滑」向答案：首個熱力學自發的DNA分子電腦",
+      "en": "Letting the Answer Find Itself: The First Thermodynamically Favored DNA Computer"
+    },
+    "summary": {
+      "zh": "【總結】這項研究首次實驗實現了一種全新的計算範式——熱力學自發的「支架DNA電腦」（Scaffolded DNA Computer, SDC）。傳統電腦和分子計算機都需要持續消耗能量來維持非平衡狀態並糾錯，而SDC巧妙地将計算結果編碼在熱力學最穩定的平衡態中，讓系統自然「滑落」到正確答案。研究團隊在10個程式上成功演示了乘法、除法、8位元奇偶校驗以及25位元加法（共100位元運算），平均產率超過95%，部分快速程式甚至在一分鐘內完成。這不僅顛覆了分子計算機的設計哲學，也為超低能耗計算開啟了全新方向。\n\n【研究問題】現代電子電腦的能耗與理論最低能耗之間存在巨大差距，而過去的DNA分子計算機雖令人印象深刻，卻都依賴「非平衡」設計原理——需要精確的溫度控制、冗餘糾錯機制、繁瑣的手動操作，且對實驗條件極度敏感。研究缺口在於：是否可能設計一種計算機，讓正確答案本身就是能量上最有利狀態，從而徹底省去糾錯與動學控制？解決這個問題至關重要，因為它不僅能大幅降低計算能耗，還能簡化分子計算機的設計與操作，使其更易於擴展和重複使用。\n\n【研究方法】作者提出並實現了SDC模型。其核心設計是一條一維DNA支架鏈，上面有N個獨特的結合位點。計算「瓦片」（compute tiles）從一個大型池子中挑選，每塊瓦片兩側帶有編碼程式指令與輸入比特的計算域。計算過程極其簡潔：只需將支架、瓦片池和輸入 strands 混合，然後進行簡單的温度退火（從80°C緩慢降至20°C），系統便會通過隨機的結合與替換動力学，自然搜尋並穩定在能量最低的目標配置。研究團隊刻意不強制任何特定動學路徑，而是依賴熱力學優勢與多條潛在路徑的組合來完成計算。他們還設計了熒光猝滅報告機制來讀取輸出結果，並通過 isoenergetic 編程技術來優化更大規模支架的能量地形。\n\n【結果】研究在10個不同程式上取得了令人矚目的成果：4位元加法程式平均產率達96.7%；奇偶校驗、乘以3、除以2（三進位）、平衡括號匹配、3態非確定性有限自動機等程式均成功運行；競爭複雜度從2提升至8時產率未顯著下降（平均95.1%）。快速退火實驗中，部分非平凡程式在僅30秒至1分鐘內完成，刷新了DNA計算速度紀錄。更令人驚豔的是可重複性——BitCopy程式連續運行了25次，加法程式重複9次，計數器程式重複24次，信號衰減極小。25位元加法（100位元計算）在經過能量地形工程後也能在14小時內可靠完成。這些結果證明熱力學自發計算不僅理論可行，而且在實踐中堅固、快速、可重複且具備擴展潛力。",
+      "en": "**Summary:** This study experimentally demonstrates a radical new paradigm in computing: the Scaffolded DNA Computer (SDC), which performs calculations by naturally relaxing to a thermodynamically favored equilibrium state. Unlike conventional computers—whether silicon-based or molecular—that must constantly consume energy to stay out of equilibrium and correct errors, the SDC encodes the correct output as the lowest-energy configuration, allowing the system to simply drift to the right answer. The team successfully ran 10 programs, including multiplication by 3, division by 2, 8-bit parity detection, and the addition of two 25-bit numbers (a 100-bit computation), achieving average yields above 95% and completing some fast programs in under a minute. This work fundamentally rethinks how computation can be physically realized and opens a path toward ultra-low-energy computing.\n\n**Problem:** Modern electronic computers consume vastly more energy than thermodynamically required, and previous DNA molecular computers—despite impressive demonstrations—relied on out-of-equilibrium design principles that demanded precise kinetic control, error-correction redundancy, tedious multi-step protocols, and were sensitive to experimental conditions. The critical gap was whether computation could be embedded directly into a system's equilibrium state, eliminating the need for active error correction and energy-intensive kinetic control. Solving this is crucial not only for drastically reducing computing energy costs but also for simplifying molecular computing systems so they become robust, reusable, and scalable.\n\n**Approach:** The authors designed and implemented the SDC model. The core idea is a one-dimensional DNA scaffold strand with N unique binding positions. A large pool of compute tiles—each carrying program instructions and input bits on their flanking compute domains—competes to bind to the scaffold. Computation proceeds through simple bind-and-replace dynamics: tiles attach to the scaffold and to neighboring tiles, with mismatched (erroneous) bindings carrying an energetic penalty that drives their replacement. Rather than enforcing precise kinetic pathways, the team relied on thermodynamic favorability and multiple plausible routes to the target state. A single temperature anneal (cooling from 80°C to 20°C) was sufficient. Fluorescence quenching reporters read out results at each scaffold position. For scaling up, they developed isoenergetic programming techniques to flatten the energy landscape and avoid kinetic traps.\n\n**Results:** The SDC ran 10 distinct programs with striking results: 4-bit addition achieved 96.7% mean yield; parity, multiply-by-3, divide-by-2 (ternary output), balanced parentheses, and a 3-state nondeterministic finite automaton all computed correctly. Yield remained high (average 95.1%) even when competitive complexity increased from 2 to 8. Super-fast anneals completed non-trivial programs in as little as 30 seconds to 1 minute, beating previous DNA computing speed records. Renewable computing was demonstrated with a BitCopy program run 25 times, an Addition program renewed 9 times, and a Counter program renewed 24 consecutive times with minimal signal degradation. A 25-position scaffold performing 100-bit addition (two 25-bit numbers) completed reliably in 14 hours after energy-landscape engineering. These results prove that thermodynamically favored computation is not only theoretically sound but practically robust, fast, reusable, and scalable."
+    },
+    "keyArticle": {
+      "title": "A thermodynamically favoured molecular computer",
+      "authors": [
+        "Tristan Stérin",
+        "Abeer Eshra",
+        "Constantine G. Evans",
+        "Janet Adio",
+        "Damien Woods"
+      ],
+      "doi": "10.1038/s41586-026-10996-5",
+      "pages": "646-652"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-16-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-10996-5",
+      "doi": "https://doi.org/10.1038/s41586-026-10996-5"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T23:00:32.013988+00:00",
+    "source": "openalex"
+  }
+}

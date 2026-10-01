@@ -1,0 +1,47 @@
+{
+  "id": "american-political-science-review-2026-01-14",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2026-01-14",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2026-01-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "為什麼國家不打仗？因為沒架可吵——油氣發現如何點燃領土爭端",
+      "en": "Why Nations Don't Fight: Oil Discoveries, Claimable Territory, and the Roots of Interstate Conflict"
+    },
+    "summary": {
+      "zh": "【總結】國際關係中一個常被忽略的事實是：國家之間之所以很少打仗，不是因為它們學會了和平協商，而是因為它們根本沒有什麼值得爭吵的東西。Kyosuke Kikuta 這篇發表於《美國政治科學評論》的研究，首次建立了一套涵蓋1946至2024年全球領土「可主張範圍」的數據集，並以油氣發現為自然實驗，證明了一個關鍵結論：燃料資源只有在發現於「多個國家均可主張」的爭議區域時，才會顯著推升國家間的軍事衝突機率，效應高達11.69個百分點，且影響持續數十年。\n\n【研究問題】過去關於資源與衝突的研究結論分歧嚴重——有些發現石油會增加戰爭風險，有些則完全相反。研究缺口在於，學者們普遍忽視了一個前置條件：「可主張性」（claimability）。一個油氣田是否存在，並不取決於它地下有沒有石油，而在於國際規範是否允許某個國家對它提出合法主張。過去研究未能區分「爭議區域」與「非爭議區域」的資源發現，導致因果關係難以辨識。\n\n【研究方法】作者聚焦二戰後形成的三大國際規範：領土完整（戰後邊界不得更改）、民族自決與少數族群保護（跨境同族權益）、以及海洋主權（領海、大陸棚、專屬經濟區）。基於這些規範，編碼全球各國的「可主張區域」，重疊部分即為「爭議區域」。研究設計巧妙利用超過60萬筆野貓鑽探記錄，以「在既定鑽探次數下，大型油氣田的發現近乎隨機」為因果識別策略，並結合遞進式差異中的差異（staggered DiD）與事件研究法，控制時間趨勢與預期行為。\n\n【結果】核心發現是：油氣發現整體對軍事衝突無顯著影響，但若發現於爭議區域，衝突機率上升11.69個百分點，且效果持續數十年。機制分析顯示，爭議區域的資源發現並未提升相關國家的燃料產量或政府收入，卻顯著增加了軍事能力投入。作者以東海平湖與春曉氣田為最相似案例，強調「不可分割性」與「石油民族主義」所代表的無形重要性，是推動衝突升級的關鍵心理機制。",
+      "en": "**Summary:** A striking but often overlooked fact in international relations is that states rarely fight not because they have learned to negotiate peacefully, but because they simply have nothing substantial to dispute. Kyosuke Kikuta's article in the American Political Science Review constructs the first globally comprehensive dataset of \"claimable areas\" from 1946 to 2024, grounded in three post-war international norms: territorial integrity, minority protection, and maritime sovereignty. Using oil and gas discoveries as a natural experiment, the study demonstrates a key finding: fuel resources only significantly escalate interstate military conflicts when discovered in areas claimable by multiple states—an effect of 11.69 percentage points that persists for decades.\n\n**Problem:** The literature on resources and conflict has produced deeply mixed findings—some studies find oil increases war risk, others find the opposite. The gap lies in a critical overlooked precondition: claimability. Whether an oil field matters politically depends not on whether oil exists underground, but on whether international norms permit a state to legitimately claim it. Prior research failed to distinguish between resource discoveries in disputable versus non-disputable areas, making causal identification nearly impossible.\n\n**Approach:** The author codes claimable areas based on three post-WWII norms: territorial integrity (borders established after 1945), self-determination and minority protection (claims over unrepresented co-ethnic groups across borders), and maritime sovereignty (territorial seas, continental shelves, and exclusive economic zones). Overlapping claimable areas between states define \"disputable areas.\" The research design leverages over 600,000 wildcat drill records, treating giant fuel discoveries as quasi-random conditional on drill counts, and combines this with staggered difference-in-differences and event-study methods to control for anticipation effects and time trends.\n\n**Results:** The central finding: fuel discoveries overall have no significant effect on military conflict, but when discovered in disputable areas, the probability of conflict rises by 11.69 percentage points, an effect that endures for decades. Mechanism analyses reveal that discoveries in disputable areas did not increase fuel production or government revenues but did significantly boost military capabilities. Using the East China Sea's Pinghu and Chunxiao gas fields as a most-similar case study, the author highlights intangible salience—petro-nationalism and the perception of resources as indivisible national wealth—as the critical psychological mechanism driving escalation."
+    },
+    "keyArticle": {
+      "title": "Claimability in International Relations: Oil Discoveries, Territorial Claims, and Interstate Conflicts",
+      "authors": [
+        "Kyosuke Kikuta"
+      ],
+      "doi": "10.1017/s0003055425101366",
+      "pages": "1080-1105"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2026-01-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101366",
+      "doi": "https://doi.org/10.1017/s0003055425101366"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T23:07:44.037975+00:00",
+    "source": "openalex"
+  }
+}

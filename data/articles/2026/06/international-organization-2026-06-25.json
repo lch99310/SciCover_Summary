@@ -1,0 +1,49 @@
+{
+  "id": "international-organization-2026-06-25",
+  "journal": "International Organization",
+  "volume": "80",
+  "issue": "3",
+  "date": "2026-06-25",
+  "coverImage": {
+    "url": "data/images/international-organization/international-organization-2026-06-25-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰在買聯合國安理會的票？美國援助背後的家門政治遊戲",
+      "en": "Buying Votes at the UN: How Domestic Politics Shapes America's Aid Strategy"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了一個耐人尋味的真相：美國對外援助的選擇，不僅取決於地緣政治利益，更深受國內政治角力的影響。當總統所屬政黨同時掌控國會時，美國傾向用雙邊援助直接「收買」安理會中的盟友；而當政府分裂時，則轉而透過世界銀行貸款，為非盟友國家「洗白」交易，以此規避國會的阻撓。這項研究將「髒活假說」與「分裂政府效應」兩大理論結合，為理解霸權國家如何運用國際金融機構提供了更完整的分析框架。\n\n【研究問題】過去關於美國援助的研究，主要存在兩個獨立解釋：一是「髒活假說」，認為美國會透過國際金融機構掩蓋對不友好國家的援助；二是「分裂政府效應」，指出政府分裂時行政部門更傾向利用多邊管道。然而，這兩個理論從未同時被檢驗，也未能回答一個關鍵問題：在什麼具體條件下，美國會選擇哪種援助工具？解決這個缺口，有助於我們理解霸權國家在國內政治約束下如何靈活運用國際組織。\n\n【研究方法】作者採用1961至2015年間的不丹常任理事國投票數據，結合美國雙邊援助和世界銀行貸款數據進行實證分析。他們以聯合國大會投票一致性作為衡量「盟友」與「非盟友」的標準，並根據美國政府是否分裂（總統政黨是否同時控制參眾兩院）進行分組回歸。研究設計精巧地將「安理會投票支持美國」與「過去聯合國大會投票一致性」進行交互項分析，從而區分不同政治情境下的援助流向。\n\n【結果】研究結果有力地支持了理論預期：在政府未分裂期間，安理會投票支持美國的非盟友國家，其獲得的美國雙邊援助平均增加62%；而在政府分裂期間，同樣的投票行為卻無法帶來雙邊援助增長，反而使這些非盟友國家獲得的世界銀行貸款增加67%。此外，研究發現分裂政府年份，美國在安理會遭遇的反对票平均增加10至13張。這些發現不僅驗證了理論，更揭示了國際組織在霸權國內政治中的「髒活」功能——它們既是掩護工具，也是政治困境下的替代方案。",
+      "en": "**Summary:** This study reveals a compelling truth: America's choice of foreign aid instrument is driven not only by geopolitical interests but also by domestic political calculations. When the president's party controls Congress, the US tends to use bilateral aid to directly reward UNSC allies; but when government is divided, it channels World Bank loans to non-allies as a way to launder the transaction and circumvent congressional opposition. By synthesizing the \"dirty work hypothesis\" and the \"divided government effect\" into a unified framework, the authors provide a more complete understanding of how a hegemonic power flexibly deploys international financial institutions.\n\n**Problem:** Previous research on US aid has offered two separate explanations: the \"dirty work hypothesis,\" which argues that the US uses international financial institutions to obscure aid to unfriendly regimes, and the \"divided government effect,\" which finds that administrations turn to multilateral channels when Congress is uncooperative. Yet these two theories have never been tested together, and neither answers a critical question: under what specific conditions does the US choose one aid instrument over the other? Filling this gap is essential for understanding how a hegemon navigates domestic political constraints in its use of international organizations.\n\n**Approach:** The authors analyze data from 1961 to 2015, combining UNSC voting records with US bilateral aid and World Bank lending flows. They measure allyship using UN General Assembly voting alignment and split the sample by whether the US government was divided (the president's party controlling both chambers) or unified. The key innovation is an interaction design that cross-references \"voting with the US on the UNSC\" against \"prior UNGA alignment,\" allowing the authors to isolate the conditions under which each aid channel is deployed.\n\n**Results:** The findings strongly support the theoretical predictions: during periods of unified government, countries voting with the US on the UNSC receive 62% more US bilateral aid—but only if they are traditional allies. During divided government, the same voting behavior yields no bilateral aid increase; instead, non-allied countries receive 67% more World Bank lending. Additionally, the study finds that during divided government years, the US faces 10 to 13 additional votes against its position in the UNSC. These results not only validate the theory but also illuminate the \"dirty work\" function of international organizations—as both a political shield and a substitute when direct action is blocked."
+    },
+    "keyArticle": {
+      "title": "Dirty Work and the Domestic Politics of Aid",
+      "authors": [
+        "Santi Foncillas",
+        "Erasmus Kersting",
+        "Christopher Paul Kilby"
+      ],
+      "doi": "10.1017/s0020818326101404",
+      "pages": "698-722"
+    },
+    "images": [
+      {
+        "url": "data/images/international-organization/international-organization-2026-06-25-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0020818326101404",
+      "doi": "https://doi.org/10.1017/s0020818326101404"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T23:04:45.120631+00:00",
+    "source": "openalex"
+  }
+}

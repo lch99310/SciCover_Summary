@@ -1,0 +1,55 @@
+{
+  "id": "cell-2026-07-30",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "18",
+  "date": "2026-07-30",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-07-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "細胞的形狀由外骨骼決定：基膜如何「塑形」你的細胞",
+      "en": "How the Cell's Scaffold Shapes It: Basement Membrane Turnover Controls Cell Form"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了一個令人驚嘆的機制：細胞的三維形狀不僅由內部力量決定，更受到外部「外骨骼」——基膜（basement membrane, BM）動態更新的深刻影響。研究團隊透過數學模型、分子動力學模擬，以及在果蠅翅膀發育中的活體實驗，建立了一套跨尺度的分析框架，證明基膜的應力弛豫時間直接控制細胞形狀，而這一時間又取決於膠原蛋白IV的壽命。這項發現填補了細胞形態發生學中的一個關鍵空白，為理解組織發育、癌症轉移等過程提供了全新視角。\n\n【研究問題】在 multicellular 組織中，細胞形狀由內外力量平衡決定，但基膜作為細胞感受生化與機械訊號的第一道屏障，其機械性質如何被調控、又如何影響細胞形狀，長期以來仍是未解之謎。過去的研究多聚焦於細胞內部的細胞骨架動力學，卻忽略了細胞外基質的動態特性。解決這個問題至關重要，因為基膜的機械性質異常與多種疾病（如癌症轉移、遺傳性腎病）密切相關。\n\n【研究方法】研究團隊採用跨學科方法，結合三大工具：首先，建立組織力學模型，將基膜視為黏彈性流體，模擬不同參數下細胞形狀的變化；其次，使用分子動力學模擬膠原蛋白IV網絡，證明網絡的應力弛豫時間與膠原蛋白IV分子壽命呈線性關係；第三，開發一種「螢光計時器」報告系統（colIV-FTF），讓膠原蛋白IV在不同時間呈現藍光到紅光的漸變，從而在活體果蠅翅膀中直接測量膠原蛋白IV的壽命。他們還透過調控insulin受體和perlecan基因，驗證了細胞增殖與基膜組成的相互影響。\n\n【結果】研究發現三個關鍵結果：第一，基膜應力弛豫時間越長，細胞越容易因增殖而被擠壓變形；第二，膠原蛋白IV網絡的弛豫時間與其分子壽命呈正比，這為活體測量提供了理論基礎；第三，perlecan（一種基膜蛋白）能顯著延長膠原蛋白IV的壽命——過表達perlecan使膠原蛋白IV壽命增加，細胞形狀更穩定；敲低perlecan則縮短壽命，細胞更容易變形。這些結果建立了一個從分子動力學到組織形態的完整因果鏈，為未來研究基膜在發育與疾病中的作用奠定了框架。",
+      "en": "**Summary:** This study reveals a striking mechanism: cell 3D shape is not solely determined by internal forces but is profoundly shaped by the dynamic turnover of its external \"exoskeleton\"—the basement membrane (BM). Through mathematical modeling, molecular dynamics simulations, and live imaging in Drosophila wing discs, the team established a multiscale framework demonstrating that BM stress relaxation time directly controls cell shape, and that this time is governed by collagen IV lifetime. This breakthrough fills a critical gap in morphogenesis research and offers new perspectives for understanding tissue development, cancer metastasis, and other biological processes.\n\n**Problem:** In multicellular tissues, cell shape emerges from the balance of internal and external forces. Yet, despite being the first extracellular barrier cells sense, the mechanical properties of the basement membrane and how they are regulated remain poorly understood. Previous research has largely focused on intracellular cytoskeletal dynamics, overlooking the dynamic nature of the extracellular matrix. Solving this problem is crucial because BM mechanical abnormalities are linked to diseases such as cancer metastasis and hereditary kidney disorders.\n\n**Approach:** The researchers employed a cross-disciplinary strategy combining three tools: first, a tissue mechanics model treating the BM as a viscoelastic fluid to simulate cell shape changes under different parameters; second, molecular dynamics simulations of collagen IV networks, demonstrating a linear relationship between network relaxation time and collagen IV molecule lifetime; third, a novel fluorescent timer reporter (colIV-FTF) that shifts from blue to red over time, enabling direct in vivo measurement of collagen IV turnover in Drosophila wings. They further validated findings by manipulating insulin receptor signaling and perlecan expression.\n\n**Results:** Three key findings emerged: First, longer BM stress relaxation time leads to greater cell deformation during proliferation. Second, collagen IV network relaxation time is directly proportional to collagen IV molecule lifetime, providing a theoretical basis for in vivo measurement. Third, perlecan—a key BM protein—significantly extends collagen IV lifetime: overexpression stabilizes cell shape, while knockdown accelerates turnover and increases cell deformability. These results establish a complete causal chain from molecular dynamics to tissue morphology, laying a foundation for future research on BM roles in development and disease."
+    },
+    "keyArticle": {
+      "title": "Basement membrane turnover controls cell shape",
+      "authors": [
+        "Ricardo Barrientos",
+        "Billie Meadowcroft",
+        "Besaiz J. Sánchez-Sánchez",
+        "Brian Marc Stramer",
+        "Ewa K. Paluch",
+        "Guillaume Charras",
+        "Shiladitya Banerjee",
+        "Anđela Šarić",
+        "Yanlan Mao"
+      ],
+      "doi": "10.1016/j.cell.2026.07.010",
+      "pages": "5611-5624.e4"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-07-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.010",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.010"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T23:01:45.790711+00:00",
+    "source": "openalex"
+  }
+}

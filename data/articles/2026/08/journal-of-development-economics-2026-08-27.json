@@ -1,0 +1,51 @@
+{
+  "id": "journal-of-development-economics-2026-08-27",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-08-27",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "打破行政邊界：用演算法重組保險區，讓乾旱保險不再「失效」",
+      "en": "Breaking the Map: How Algorithmic Insurance Zones Can Triple the Value of Drought Protection"
+    },
+    "summary": {
+      "zh": "【總結】這是一項將機器學習與發展經濟學結合的突破性研究。作者開發了一套演算法，用衛星數據重新劃定指數保險的地理區域，不再依賴現有的行政邊界（如村莊、郡界），而是讓同一保險區內的各個像素點在乾旱時「同進退」。結果顯示，這種優化後的保險區設計，能讓保險的經濟價值最高提升兩百四十%，且經過嚴格的穩健性檢驗，排除了過度擬合的疑慮。\n\n【研究問題】指數保險透過單一可驗證的指標（如衛星測量的植被指數）來觸發賠付，避免逐戶核保的高昂成本。然而，它有一個致命弱點：「下行基差風險」——農民確實遭受了損失，但保險指數卻沒有觸發賠付，形成「假陰性」。現有保險計畫大多沿用行政區劃來劃定保險區，這些邊界在統計上只是權宜之舉，並未考慮氣候與生態的實際分佈。如何降低這種基差風險，是讓指數保險真正惠及貧困農戶的關鍵難題。\n\n【研究方法】作者以肯亞馬爾薩比特郡（Marsabit）的衛星指數保險計畫為實證場域。他們首先收集了高解析度的遙測數據（如NDVI植被指數），然後開發了一種基於「下尾相依性」（lower tail dependence）的聚類演算法——簡單來說，這個演算法尋找那些「當一處嚴重乾旱時，其他位置也極可能同時乾旱」的像素群組，將它們劃為同一保險區。接著，作者以牲畜死亡率作為真實損失的基準，計算不同保險區設計下的「保險品質指標」（RIB，基於期望效用的經濟衡量），並與現有行政區劃的結果進行比較。最後，他們透過排除嚴重乾旱年份、交叉驗證、以及將方法套用於肯亞其他郡和衣索比亞南部，檢驗結果的穩健性。\n\n【結果】在馬爾薩比特郡，以行政區劃為基礎的保險方案，在最嚴格的觸發門檻（z-score −1.3，約10%概率）下，RIB僅為5%；而優化後的LTD保險區可達16%，增幅高達240%。即使以較寬鬆的門檻（z-score −0.7），RIB仍從24%提升至38%，增長59%。相比之下，僅以相關係數為基礎的聚類方法效果較差，且在嚴苛門檻下RIB反而下降13%。在假陰性分析中，行政區劃在z-score −0.7時有1.25%的事件導致超過40%的資產未被保險覆蓋；優化後的LTD區僅0.67%。將同一方法應用至衣索比亞博爾納（Borana）地區，亦獲得類似改善。這些結果表明，打破行政邊界、以氣候相依性為基礎重新劃定保險區，能顯著提升指數保險的經濟價值與社會效益。",
+      "en": "**Summary:** This is a breakthrough study at the intersection of machine learning and development economics. The authors developed an algorithm that redraws the geographic boundaries of index insurance using satellite data, replacing arbitrary administrative lines with zones where pixels move together during droughts. The result: insurance value can triple, and the finding survives rigorous robustness checks that rule out overfitting.\n\n**Problem:** Index insurance triggers payouts based on a single verifiable measure—such as satellite-derived vegetation indices—avoiding the prohibitive cost of verifying each farmer's individual loss. But it has a fatal flaw: \"downside basis risk,\" or false negatives, where a farmer suffers a real loss but the index fails to trigger payment. Existing programs typically use administrative boundaries (wards, districts) to define insurance zones—choices that are statistically ad hoc and ignore the actual spatial patterns of climate and ecology. Reducing this basis risk is the key to making index insurance genuinely useful for poor rural households.\n\n**Approach:** The authors used a satellite-based index insurance program in Marsabit County, Kenya, as their empirical setting. They collected high-resolution remote sensing data (notably NDVI, a measure of vegetation greenness) and developed a clustering algorithm based on \"lower tail dependence\"—essentially grouping pixels that tend to experience severe drought simultaneously. They then evaluated insurance quality using the \"Relative Insurance Benefit\" (RIB), an expected-utility-based metric, comparing optimized zones against existing administrative boundaries. Livestock mortality data served as the ground truth for actual losses. To test robustness, they excluded severe drought years from zone formation, performed cross-validation, and applied the same method to other Kenyan counties and to Borana in southern Ethiopia.\n\n**Results:** In Marsabit, at the strictest trigger threshold (z-score −1.3, roughly the 10th percentile), the RIB for the administrative ward-based scheme was just 5%, while the optimized LTD-based zone reached 16%—a 240% gain. Even at the most lenient threshold (z-score −0.7), RIB rose from 24% to 38%, a 59% improvement. By contrast, a correlation-based clustering approach performed worse and actually reduced RIB by 13% at the strictest threshold. On false-negative analysis, at z-score −0.7, 1.25% of events under the ward-based scheme left over 40% of a family's livestock assets uncovered; the optimized LTD scheme cut this to just 0.67%. Applying the method to Borana, Ethiopia, produced similar improvements. These results demonstrate that breaking administrative boundaries and redesigning insurance zones around climate co-movement can dramatically increase the economic value and social impact of index insurance."
+    },
+    "keyArticle": {
+      "title": "The economic gains from breaking boundaries: Reformulating index insurance zones to maximize lower tail dependence",
+      "authors": [
+        "Enrique Estefania-Salazar",
+        "Michael Carter",
+        "Eva Iglesias",
+        "Álvaro Escribano"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103913",
+      "pages": "103913"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103913",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103913",
+      "preprint": "https://doi.org/10.2139/ssrn.5375362"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T23:09:16.157848+00:00",
+    "source": "openalex"
+  }
+}

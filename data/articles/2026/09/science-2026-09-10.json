@@ -1,0 +1,55 @@
+{
+  "id": "science-2026-09-10",
+  "journal": "Science",
+  "volume": "393",
+  "issue": "6816",
+  "date": "2026-09-10",
+  "coverImage": {
+    "url": "data/images/science/science-2026-09-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "塊材中的非厄米相變：量子動力學在室溫下突變",
+      "en": "Non-Hermitian Phase Transition in Bulk Matter: How Dynamics Itself Changes Phase"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊在塊狀歐鎳氧化物（EuO）中首次觀測到一種內在的非厄米相變（NHPT），這是一種純粹由系統動力學行為而非基態性質所定義的新物質態。當溫度跨越約85K的臨界點時，系統的弛豫動力學從雙指數實數衰減轉變為單指數複數衰減，這標誌著系統進入了非厄米相。這項發現突破了以往非厄米相變只能在人工設計系統中實現的局限，為塊材凝聚態物理開闢了全新的研究領域。\n\n【研究問題】傳統相變研究聚焦於熱力學平衡態下的基態性質變化，而非厄米相變則描述了遠離平衡態系統中動力學行為的質變。過去的研究多集中在單自旋、納米結構或超冷原子等人工系統，從未在均勻塊材固態系統中實現過內在的非厄米相變，因為建立所需極端非平衡條件被認為在塊材中不可行。理解這種動力學相變的物理機制對於拓展相變理論和開發新型動態材料控制技術至關重要。\n\n【研究方法】研究團隊利用超快光泵浦-探針光譜技術，對EuO單晶進行時間分辨反射率測量。使用120飛秒、1.55電子伏特的泵浦脈衝將電子從Eu的4f價帶激發到5d導帶，產生亮激子和暗激子。隨後用1.31電子伏特的探針脈衝在不同延時時間觀測反射率變化。研究團隊結合林德布羅德形式主義（Lindblad formalism）建立了亮暗激子耦合動力學的理論模型，並通過雙指數實數衰減和複數衰減兩種拟合方式比較不同溫度下的動力學行為。\n\n【結果】實驗發現，在低於85K時反射率變化呈現雙指數實數衰減，而在高於85K時轉變為單指數複數衰減。複數衰減參數隨溫度呈平方根依賴關係（γ'' ∝ √(T−T*)），這正是非厄米相變的獨特標誌。研究還發現，隨著泵浦能量密度增加，臨界溫度T*向低溫方向移動，且複數衰減參數隨泵浦能量呈平方根依賴（γ'' ∝ √(P−P*)）。理論模型成功解釋了這些現象，並預測了3D相圖中非厄米相變點與居里溫度（69K）的共存關係。這項發現表明非厄米相變可能廣泛存在於具有耦合激發態和耗散動力學的凝聚態系統中。",
+      "en": "**Summary:** Researchers have observed an intrinsic non-Hermitian phase transition (NHPT) in bulk europium monoxide (EuO), revealing a new state of matter defined not by ground-state properties but by the dynamics themselves. Above a critical temperature of approximately 85 K, the relaxation dynamics undergo a qualitative change from biexponential real decay to single exponential complex decay, marking the system's entry into a non-Hermitian phase. This breakthrough demonstrates that non-Hermitian phase transitions can occur naturally in bulk condensed-matter systems, challenging the long-held assumption that such extreme non-equilibrium conditions are unachievable in homogeneous solids.\n\n**Problem:** Traditional phase transitions are understood as changes in equilibrium ground-state properties, while non-Hermitian phase transitions describe qualitative changes in the dynamical behavior of systems far from equilibrium. Previous experimental realizations of NHPTs were limited to engineered systems such as single spins, nanostructures, optical setups, and ultracold atomic gases. No intrinsic NHPT had ever been discussed in bulk solid-state systems, as establishing the required extreme non-equilibrium conditions was considered infeasible. Understanding how dynamical phase transitions emerge in bulk materials is crucial for expanding phase transition theory and developing new approaches to control material properties through dynamics.\n\n**Approach:** The team employed ultrafast optical pump-probe spectroscopy on EuO single crystals. A 120-femtosecond pump pulse at 1.55 eV excited electrons from the Eu 4f valence band to the 5d conduction band, generating bright and dark excitons. Time-resolved reflectivity measurements were taken using a delayed 1.31 eV probe pulse. The researchers developed a theoretical model based on the Lindblad formalism to describe the coupled dynamics of bright and dark excitons, accounting for dissipative spin-flip processes mediated by acoustic phonons. They compared biexponential real-rate fits with complex-rate fits across the temperature range to identify the exceptional point.\n\n**Results:** Below 85 K, the reflectivity change exhibits biexponential real decay with two distinct relaxation times. Above 85 K, the dynamics collapse into a single complex-conjugate decay mode, with the imaginary part of the relaxation rate scaling as γ'' ∝ √(T − T*), the hallmark signature of a non-Hermitian phase transition. The critical temperature T* shifts to lower values with increasing pump fluence, and at fixed temperature the imaginary decay rate scales as γ'' ∝ ∝ √(P − P*). The theoretical model successfully reproduces all experimental features, including a cusp in relaxation times at the Curie temperature Tc = 69 K, confirming that both the Hermitian ferromagnetic transition and the NHPT originate from the same microscopic spin coupling but represent fundamentally distinct phenomena occurring at different critical temperatures."
+    },
+    "keyArticle": {
+      "title": "Discovery of an intrinsic non-Hermitian phase transition in a bulk condensed-matter system",
+      "authors": [
+        "Jingwen Li",
+        "Michael Turaev",
+        "Masakazu Matsubara",
+        "Kristin Kliemt",
+        "C. Krellner",
+        "Shovon Pal",
+        "M. Fiebig",
+        "Johann Kroha"
+      ],
+      "doi": "10.1126/science.ady4670",
+      "pages": "1152-1155"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-09-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.ady4670",
+      "doi": "https://doi.org/10.1126/science.ady4670",
+      "preprint": "https://arxiv.org/abs/2412.16012"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-01T22:58:41.585915+00:00",
+    "source": "openalex"
+  }
+}
