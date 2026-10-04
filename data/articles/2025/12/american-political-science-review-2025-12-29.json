@@ -1,0 +1,47 @@
+{
+  "id": "american-political-science-review-2025-12-29",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-12-29",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2025-12-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "捐錢也會踩煞車？政治極端候選人如何被選前金主「懲罰」",
+      "en": "The Donor Brake: How Money Punishes Extreme Candidates"
+    },
+    "summary": {
+      "zh": "【總結】這篇文章揭示了一個令人意外的政治現象：當政黨在初選中險勝提名極端候選人時，一般選舉的金主會以真金白銀投票，大幅減少對該政黨的支持。研究顯示，這種「捐獻懲罰」平均讓政黨的一般選舉捐款占比下降7個百分點，在極端與溫和候選人意識形態差距最大時，懲罰更可達18至19個百分點。這項研究的重要突破在於，作者開發了一套全新的意識形態量化方法，專為避免測量偏差而設計，並結合了美國國會與49個州議會超過40年的海量數據，為理解美國政治極化提供了迄今最嚴謹的實證證據。\n\n【研究問題】過去關於金主是否偏好極端或溫和候選人的研究結論莫衷一是：有的發現極端候選人募款優勢，有的則發現被懲罰。研究缺口主要來自兩個方法論難題：一是候選人會根據募款前景策略性決定是否參選，造成選擇偏差；二是傳統意識形態測量方法往往混入了選舉後的捐款數據，產生後處理偏差。解決這個問題至關重要，因為募款直接影響誰會參選、誰能堅持到下一屆、以及誰最終勝選，進而塑造美國國會的意識形態組成。\n\n【研究方法】作者採用了「斷點回歸設計」（Regression Discontinuity Design），利用初選中極端候選人與溫和候選人「險勝」的幾乎隨機變異來識別因果效應。研究時間跨度涵蓋1980至2022年的美國國會選舉，以及1996至2022年49個州議會的選舉，樣本規模比先前研究擴大15倍。最關鍵的創新是作者開發了一套全新的意識形態量表，僅使用初選階段個人捐款的數據來量化候選人意識形態，避免了一般選舉捐款和策略性捐款造成的測量污染。此外，作者還使用了面板數據分析方法作為互補驗證，並用選票記錄獨立驗證了意識形態量表的準確性。\n\n【結果】核心發現是：在「擲硬幣」般的險勝初選中，提名極端候選人而非溫和候選人，會使該黨一般選舉捐款占比下降7個百分點；當意識形態對比最激烈時，懲罰幅度高達18至19個百分點。企業政治行動委員會（PAC）對極端候選人的懲罰力度是個人捐款的近三倍。這種懲罰是對稱的：金主一方面撤資極端候選人，另一方面轉向支持其對手。研究還發現，自2000年以來，這種金融懲罰已減少了近一半。在開放席位選舉中懲罰最大，在安全選區則較小；媒體報導較多或選舉較受關注時懲罰也更大。這些結果表明，一般選舉金主曾扮演著重要的溫和化過濾角色，但這一力量正在消退。",
+      "en": "**Summary:** This article reveals a counterintuitive political dynamic: when a party narrowly nominates an extremist candidate in a primary, general-election donors punish them with their wallets. The study finds that an extremist primary victory reduces the party's share of general-election contributions by 7 percentage points on average, and by 18 to 19 percentage points when the ideological contrast between candidates is at its widest. The study's key breakthrough lies in a novel ideology-scaling method designed specifically to avoid measurement bias, combined with an unprecedented dataset covering over 40 years of U.S. congressional and state legislative elections—15 times larger than prior research—providing the most rigorous empirical evidence to date on the forces shaping American political polarization.\n\n**Problem:** Previous research on whether donors favor moderate or extremist candidates has produced wildly conflicting conclusions: some find fundraising advantages for extremists, others find penalties. The main gaps stem from two methodological challenges: first, candidates strategically decide whether to run based on their fundraising prospects, creating selection bias; second, traditional ideology measures often incorporate post-primary contributions, producing post-treatment bias. Solving this problem is crucial because fundraising directly determines who runs for office, who persists across election cycles, and who ultimately wins—fundamentally shaping the ideological composition of American legislatures.\n\n**Approach:** The author employs a regression discontinuity design, exploiting the near-random variation in close primary elections between extremist and moderate candidates to identify causal effects. The dataset spans 1980–2022 for U.S. Congress and 1996–2022 for 49 state legislatures, expanding the sample 15-fold beyond prior work. The critical innovation is a new ideology scaling trained exclusively on individual-donor contributions received during primary elections, avoiding contamination from general-election fundraising and strategic donors. A complementary panel-based identification strategy validates the findings, and roll-call voting records independently confirm the scaling's accuracy.\n\n**Results:** The core finding: a coin-flip primary victory for an extremist over a moderate cuts the party's general-election contribution share by 7 percentage points; when ideological contrast is strongest, the penalty swells to 18–19 percentage points. Corporate PACs punish extremists at nearly three times the rate of individual donors. The penalty is symmetric—donors both withdraw from extremists and rally behind their opponents. Since 2000, this financial penalty has declined by nearly half. The punishment is largest in open-seat races and safest in uncompetitive districts, and stronger when media coverage is intense or elections are highly salient. These results suggest general-election donors once acted as a significant moderating filter—but one that has noticeably faded in recent decades."
+    },
+    "keyArticle": {
+      "title": "Do Donors Punish Extremist Primary Nominees? Evidence from Congress and American State Legislatures",
+      "authors": [
+        "Andrew Myers"
+      ],
+      "doi": "10.1017/s000305542510138x",
+      "pages": "1059-1079"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2025-12-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s000305542510138x",
+      "doi": "https://doi.org/10.1017/s000305542510138x"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:18:49.801345+00:00",
+    "source": "openalex"
+  }
+}

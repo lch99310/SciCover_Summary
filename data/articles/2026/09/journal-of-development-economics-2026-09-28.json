@@ -1,0 +1,52 @@
+{
+  "id": "journal-of-development-economics-2026-09-28",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-28",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "一張證照能改變什麼？哥倫比亞實驗揭示技能認證如何重塑本地與移民的就業命運",
+      "en": "What Can a Certificate Change? Experimental Evidence from Colombia on Skill Certification and Labor Market Integration"
+    },
+    "summary": {
+      "zh": "【總結】本研究透過隨機對照實驗，檢驗政府發放的技能認證是否能改善勞動市場整合。研究發現，技能認證對本地工人效果顯著——就業率提升5.7個百分點、每週工時增加2小時，且效果持續一年以上。然而，對移民工人卻未顯示出統計上顯著的正面影響。這項研究揭示了一個重要洞見：同一張認證在不同群體身上產生的效果可能截然不同，凸顯了移民在勞動市場中面臨的結構性障礙。\n\n【研究問題】移民往往帶著來源國的學歷與工作經驗進入目的地勞動市場，但這些資格對當地雇主來說缺乏可信度。既有研究多聚焦於移民身份合法性或語言培訓等干預措施，卻鮮少探討「技能認證」這一低成本政策工具的效果。更重要的是，現有文獻缺乏對本地工人與移民群體並行比較的隨機對照證據，使得我們無法判斷同一張認證是否對不同群體產生相同效果。\n\n【研究方法】研究團隊與哥倫比亞勞工部合作，針對2024年「技能有價」計畫進行隨機對照試驗。研究對象為2,160名符合資格的申請者，其中855人透過抽籤獲得認證資格，包含250名移民。認證項目涵蓋醫療服務、餐飲、設計與回收等五個職業領域。研究採用意圖治療分析，比較接受認證資格與未接受者在3個月、6個月與12個月後的勞動市場成果，並分別分析本地工人與移民群體的差異。\n\n【結果】研究顯示，本地工人獲得認證資格後，就業率顯著提升5.7個百分點，失業不活動率下降3.5個百分點，每週工時增加2小時，全職工作比例上升3.7個百分點。失業持續時間縮短0.23個月。然而，移民群體的估計結果精確度較低，就業率、工時與薪資均未顯示統計上顯著的改善。研究團隊透過工具變數法驗證，結果與意圖治療估計一致。這些發現表明，技能認證能有效降低本地工人的就業篩選摩擦，但對移民的勞動市場整合效果有限。",
+      "en": "**Summary:** This study evaluates whether government-issued skill certifications improve labor market integration through a randomized controlled experiment in Colombia. The findings reveal a striking divergence: skill certification significantly boosts employment for local workers—increasing employment by 5.7 percentage points, raising weekly hours worked by 2 hours, and sustaining these effects for over a year. However, the same certification shows no statistically significant effects for migrant workers. This research demonstrates a critical insight: identical credentials can produce dramatically different labor market outcomes depending on who holds them, highlighting the structural barriers migrants face even when their skills are formally verified.\n\n**Problem:** Migrants often arrive in destination labor markets with education and work experience that employers find difficult to assess, leading to occupational mismatch and concentration in informal employment. While previous research has examined policies like regularization, job search assistance, and training programs, few studies have rigorously tested whether skill certification—a low-cost policy that verifies existing competencies rather than providing training—can improve labor market outcomes. Moreover, existing literature lacks randomized evidence comparing how the same credential affects locals versus migrants, leaving open the question of whether certification serves as an equitable signal across groups.\n\n**Approach:** The researchers partnered with Colombia's Ministry of Labor to evaluate the 2024 cohort of the \"Skills Pay Off\" program. Among 2,160 eligible applicants, 855 were randomly offered access to occupation-specific certification in five sectors: health services, food preparation, food handling, design and tailoring, and recycling operations, including 250 migrants. Participants were surveyed at baseline and at three, six, and twelve months post-intervention. The study employs intention-to-treat analysis, comparing outcomes between those offered certification and those in the control group, with separate estimates for locals and migrants. Instrumental variable methods account for imperfect compliance, and dynamic specifications track how effects evolve over time.\n\n**Results:** For local workers, certification access increased employment by 5.7 percentage points, reduced inactivity by 3.5 percentage points, raised weekly hours worked by 2.0 hours, and increased full-time employment by 3.7 percentage points. Unemployment duration decreased by 0.23 months. These effects emerged quickly and persisted unevenly over the follow-up period. In contrast, migrant estimates were imprecise and showed no significant effects on employment, hours, or wages—the point estimates were smaller than the minimum detectable effects. Instrumental variable estimates closely mirrored the intention-to-treat results. The findings suggest that while certification reduces screening frictions for locals, it does not similarly overcome the barriers migrants face in labor market integration."
+    },
+    "keyArticle": {
+      "title": "Skill certifications and migrant labor market integration: Experimental evidence from Colombia",
+      "authors": [
+        "Matias Busso",
+        "Carolina González-Velosa",
+        "Juan Sebastian Muñoz-Morales",
+        "Juanita Ruiz",
+        "Juan D. Valencia",
+        "Cynthia van der Werf"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103949",
+      "pages": "103949"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103949",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103949"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:20:08.181096+00:00",
+    "source": "openalex"
+  }
+}

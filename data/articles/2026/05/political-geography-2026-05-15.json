@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-05-15",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-05-15",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-05-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "綠能戰場：當減碳成為戰爭的掩護與利潤",
+      "en": "The Green Battlefield: How Decarbonisation Became a Warfighting Opportunity"
+    },
+    "summary": {
+      "zh": "【總結】本文提出一個顛覆性的觀點：歐洲軍事部門推動的「軍事綠色轉型」並非真正的生態守護，而是一種「軍事主義的綠色化」——在氣候行動與環境永續的名義下，將戰爭準備、武器生產與軍工暴利正常化。作者將此過程定義為「掠食者」而非「管理者」的角色延續，揭示綠色技術與軍事技術的供應鏈如何交織為同一套剝削體系。\n\n【研究問題】過去研究多將氣候變化視為安全威脅，或探討軍事對環境的破壞，卻鮮少觸及「綠色轉型」如何被軍事工業吸收與利用。本文填补了這一空白：當減碳成為國防戰略的核心話語，我們該如何理解軍事與綠色工業的合流？這不僅是學術問題，更關係到氣候正義與和平的未來。\n\n【研究方法】作者結合政策文本分析（2020–2025年間歐洲國防部、北約、歐盟等發布的軍事氣候策略）、六場深度訪談（涵蓋軍方、軍工企業與行業協會），以及七場歐洲軍工展（DSEI、EUROSATORY等）的實地觀察，從理論框架上借鑒地緣政治生態學，將軍事部門定位為「社會生態掠食者」。\n\n【結果】研究揭示三大關鍵機制：其一，戰場電動化——英國陸軍高強度作戰每日耗油約80萬公升（相當於1000輛汽車一年的用量），電動化被宣傳為「戰術優勢+減碳」雙贏；其二，數位化作為力量倍增器——AI、雲端與自主系統被包裝為綠色解決方案，同時吸引Google、Amazon、Palantir等科技巨頭深度介入軍工綜合體；其三，可持續航空燃料（SAF）的軍事化——洛克希德·馬丁已認證F-16與F-35使用50% SAF混合燃料，挪威空軍完成60/40混合燃料的首次試飛。然而，這些「綠色」技術背後是鈷、銅、鋰等礦物的掠奪性開採（與剛果民主共和國、印尼等地的生態災難相連），以及核能擴張帶來的長期危害。作者結論：軍事綠色轉型本質上是將社會生態關懷扭曲為戰場與商業機會，延續了殖民主義、extractivism與帝國主義的社會生態關係。",
+      "en": "**Summary:** This article offers a provocative thesis: Europe's so-called military green transition is not genuine ecological stewardship but rather a process of militarism's greening—normalizing war-making, weapons production, and military-industrial profiteering under the banner of climate action and sustainability. The author reframes military sectors not as environmental managers but as socio-ecological predators, revealing how green and military technology supply chains are entangled in the same extractive logic.\n\n**Problem:** While much research treats climate change as a security threat or documents military environmental damage, few studies examine how the green transition is being absorbed and instrumentalized by the military-industrial complex. This article addresses that gap: when decarbonisation becomes central to defence strategy, how do we understand the convergence of military and green industries? This is not merely an academic question—it bears directly on climate justice and the future of peace.\n\n**Approach:** The author combines policy analysis of military climate strategies published between 2020 and 2025 (from European defence ministries, NATO, and the EU), six in-depth interviews with military sector representatives, and field observations at seven European defence trade shows (including DSEI and EUROSATORY). Theoretically, the study draws on geopolitical ecology, positioning military sectors as socio-ecological predators whose operations depend on violent, non-reciprocal resource extraction and harm externalisation.\n\n**Results:** The research identifies three key mechanisms. First, battlefield electrification: a British Army unit in high-intensity combat consumes approximately 800,000 litres of diesel per day—equivalent to 1,000 cars over a year—making fleet electrification a priority framed as both tactical advantage and decarbonisation. Second, digitalisation as a force multiplier: AI, cloud computing, and autonomous systems are marketed as green solutions while drawing in tech giants like Google, Amazon, and Palantir into the military-industrial complex. Third, sustainable aviation fuel (SAF) militarisation: Lockheed Martin certified 50% SAF blends for F-16 and F-35 fleets, and the Royal Norwegian Air Force completed a historic 60/40 blend test flight. Yet behind these green technologies lies the predatory extraction of cobalt, copper, and lithium—linked to ecological devastation in the Democratic Republic of Congo and Indonesia—and the long-term dangers of nuclear expansion. The conclusion: the military green transition warps socio-ecological care into a battlefield and business opportunity, reinforcing colonial, extractivist, and imperial relations."
+    },
+    "keyArticle": {
+      "title": "The military green transition: Decarbonisation as warfighting opportunity",
+      "authors": [
+        "Nico Edwards"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103573",
+      "pages": "103573"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-05-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103573",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103573"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:14:42.133322+00:00",
+    "source": "openalex"
+  }
+}

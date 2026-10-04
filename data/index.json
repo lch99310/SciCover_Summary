@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-10-01T23:09:16.200457+00:00",
+  "lastUpdated": "2026-10-04T22:20:08.219657+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-01",
+      "journal": "Science",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/science-2026-10-01.json",
+      "title_zh": "室溫下讓光與物體「量子纠缠」：懸浮奈米球的突破性實驗",
+      "title_en": "Trapping Quantum Entanglement at Room Temperature: A Levitated Nanosphere Talks to Light",
+      "cover_url": "data/images/science/science-2026-10-01-cover.jpg"
+    },
+    {
+      "id": "nature-2026-09-30",
+      "journal": "Nature",
+      "date": "2026-09-30",
+      "path": "articles/2026/09/nature-2026-09-30.json",
+      "title_zh": "終結三千年博弈困境：AI 以千分之一的成本擊敗史上最強戰棋玩家",
+      "title_en": "The Fog of War Is Lifted: AI Masters Stratego at a Fraction of the Cost",
+      "cover_url": "data/images/nature/nature-2026-09-30-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-09-28",
+      "journal": "Journal of Development Economics",
+      "date": "2026-09-28",
+      "path": "articles/2026/09/journal-of-development-economics-2026-09-28.json",
+      "title_zh": "一張證照能改變什麼？哥倫比亞實驗揭示技能認證如何重塑本地與移民的就業命運",
+      "title_en": "What Can a Certificate Change? Experimental Evidence from Colombia on Skill Certification and Labor Market Integration",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-cover.jpg"
+    },
     {
       "id": "political-geography-2026-09-26",
       "journal": "Political Geography",
@@ -245,6 +272,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-08-30-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-08-27",
+      "journal": "American Sociological Review",
+      "date": "2026-08-27",
+      "path": "articles/2026/08/american-sociological-review-2026-08-27.json",
+      "title_zh": "沒人看見就沒關係？跨90國研究揭開日常行為背後的「觀眾效應」與階級壓力",
+      "title_en": "Does It Matter If Anyone's Watching? A 90-Society Study of How Observers and Status Shape Everyday Norms",
+      "cover_url": "data/images/american-sociological-review/american-sociological-review-2026-08-27-cover.jpg"
+    },
+    {
       "id": "journal-of-development-economics-2026-08-27",
       "journal": "Journal of Development Economics",
       "date": "2026-08-27",
@@ -414,6 +450,15 @@
       "title_zh": "七百年最慘洪水年：1342年歐洲連發16場超級洪水，背後真相令人警醒",
       "title_en": "The Year Europe Drowned Twice: How a Cascading Flood Sequence in 1342–1343 Rewrites Risk",
       "cover_url": "data/images/nature/nature-2026-08-12-cover.jpg"
+    },
+    {
+      "id": "cell-2026-08-11",
+      "journal": "Cell",
+      "date": "2026-08-11",
+      "path": "articles/2026/08/cell-2026-08-11.json",
+      "title_zh": "寄生蟲的代謝指揮家：TgPRO如何讓弓形蟲在缺氧與營養匱乏中求生",
+      "title_en": "The Metabolic Conductor: How TgPRO Enables Toxoplasma to Survive Starvation and Stress",
+      "cover_url": "data/images/cell/cell-2026-08-11-cover.jpg"
     },
     {
       "id": "political-geography-2026-08-08",
@@ -1568,6 +1613,15 @@
       "cover_url": "data/images/cell/cell-2026-05-15-cover.jpg"
     },
     {
+      "id": "political-geography-2026-05-15",
+      "journal": "Political Geography",
+      "date": "2026-05-15",
+      "path": "articles/2026/05/political-geography-2026-05-15.json",
+      "title_zh": "綠能戰場：當減碳成為戰爭的掩護與利潤",
+      "title_en": "The Green Battlefield: How Decarbonisation Became a Warfighting Opportunity",
+      "cover_url": "data/images/political-geography/political-geography-2026-05-15-cover.jpg"
+    },
+    {
       "id": "science-2026-05-14-02",
       "journal": "Science",
       "date": "2026-05-14",
@@ -1593,6 +1647,15 @@
       "title_zh": "細胞的電流羅盤：破解傷口癒合的神秘訊號",
       "title_en": "The Cell’s Electric Compass: Decoding the Secret Signal of Wound Healing",
       "cover_url": "data/images/cell/cell-2026-05-12-cover.jpg"
+    },
+    {
+      "id": "international-organization-2026-05-11",
+      "journal": "International Organization",
+      "date": "2026-05-11",
+      "path": "articles/2026/05/international-organization-2026-05-11.json",
+      "title_zh": "從黃巾到宗教改革：社會運動如何重塑國際秩序",
+      "title_en": "From the Yellow Turbans to the Reformation: How Social Movements Reshaped International Orders",
+      "cover_url": "data/images/international-organization/international-organization-2026-05-11-cover.jpg"
     },
     {
       "id": "political-geography-2026-05-08",
@@ -3267,6 +3330,15 @@
       "title_zh": "流浪行星大發現！土星大小的宇宙漂泊者，揭開『愛因斯坦沙漠』的千年謎題",
       "title_en": "Saturn-Sized Rogue Planet Caught in the Act: How Gaia and Telescopes Cracked the Einstein Desert",
       "cover_url": "data/images/science/science-2026-01-01-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2025-12-29",
+      "journal": "American Political Science Review",
+      "date": "2025-12-29",
+      "path": "articles/2025/12/american-political-science-review-2025-12-29.json",
+      "title_zh": "捐錢也會踩煞車？政治極端候選人如何被選前金主「懲罰」",
+      "title_en": "The Donor Brake: How Money Punishes Extreme Candidates",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-12-29-cover.jpg"
     },
     {
       "id": "american-sociological-review-2025-12-29",

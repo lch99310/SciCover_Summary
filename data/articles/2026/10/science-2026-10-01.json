@@ -1,0 +1,51 @@
+{
+  "id": "science-2026-10-01",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6819",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "室溫下讓光與物體「量子纠缠」：懸浮奈米球的突破性實驗",
+      "en": "Trapping Quantum Entanglement at Room Temperature: A Levitated Nanosphere Talks to Light"
+    },
+    "summary": {
+      "zh": "【總結】義大利佛羅倫斯大學團隊在室溫下成功實現了懸浮奈米球質心運動與光場之間的量子糾纏，且這種糾纏不僅存在於光腔內部，更延伸到了離開相互作用區域後繼續傳播的光波中。這是首次在不依賴極低溫環境的情況下，觀察到機械自由度與傳播光模式之間違反分離性邊界的量子關聯，為宏觀量子光學和未來基礎物理檢驗開闢了全新途徑。\n\n【研究問題】過去光機系統中實現的機械與光場糾纏，大多需要超低溫環境（接近絕對零度），且糾纏通常局限於腔內，無法隨傳播光場帶離相互作用區域。研究團隊希望回答：能否在室溫下產生穩定的光─物質糾纏，並讓這種非經典關聯隨光波傳播出去？這不僅是量子技術的實用化關鍵，也為未來用宏觀物體檢驗量子引力理論奠定了基礎。\n\n【研究方法】研究者將直徑100奈米的二氧化矽奈米球以光學鉗鑷懸浮於超高真空腔中，並置入一個光學共振腔的節點附近。兩束不同頻率的雷射（A束與B束）相位鎖定後分別紅頻偏移與藍頻偏移驅動腔模，A束負責冷卻並穩定奈米球的質心振動，B束則透過兩模壓縮哈密頓量在機械振子與出射光場之間產生糾纏。實驗採用異頻檢波技術，透過兩個不同頻率的本地振盪器重疊於單一平衡探測器上，完整重建輸出光場的頻譜相關矩陣，進而推導出機械─光學聯態的協方差矩陣並檢驗分離性邊界。\n\n【結果】研究團隊測得最小辛本徵值ν−=0.931±0.015，對應對數負性EN=0.10±0.03，明確違反了ν−=1的分離性閾值，證實了機械模式與傳播光場之間存在穩態量子糾纏。糾纏在腔內亦被模型推演出來（腔內ν−=0.885，EN=0.176），且該糾纏在失諧量超過40 kHz的寬廣範圍內依然穩定存在，與腔線寬κ同數量級。這項結果顯示室溫下無需精密調諧即可維持光機糾纏，為 scalable 的宏觀量子介面與未來引力量子性檢驗鋪平了道路。",
+      "en": "**Summary:** A team at the University of Florence has demonstrated stationary quantum entanglement between the center-of-mass motion of a levitated nanosphere and an optical field at room temperature, with the nonclassical correlations surviving in the light propagating beyond the interaction region. This is the first observation of separability-bound violation between mechanical degrees of freedom and a freely propagating optical mode without requiring ultra-cryogenic conditions, marking a significant step toward practical macroscopic quantum technologies and future tests of quantum gravity.\n\n**Problem:** Previous optomechanical experiments achieving light-matter entanglement have largely depended on ultra-low temperatures and confined the entanglement within the cavity, preventing it from being carried away by outgoing light. The open question was whether robust, stationary entanglement could be generated at room temperature and distributed through a propagating optical mode. Solving this is crucial for building scalable quantum interfaces and for probing whether gravity itself can mediate quantum correlations using increasingly massive objects.\n\n**Approach:** The researchers trapped a 100-nm silica nanosphere in an optical tweezer inside an ultra-high-vacuum cavity, positioning it near a standing-wave node. Two phase-locked laser fields, A (red-detuned) and B (blue-detuned), were coupled to opposite sides of a cavity resonance. Field A cooled and stabilized the bright mechanical mode via a beam-splitter interaction, while field B generated entanglement through a two-mode squeezing interaction. Heterodyne detection with two local oscillators allowed full reconstruction of the output-field spectral correlation matrix, from which the joint optical-mechanical covariance matrix was extracted and tested against separability criteria.\n\n**Results:** The team measured a smallest symplectic eigenvalue of ν−=0.931±0.015, corresponding to a logarithmic negativity of EN=0.10±0.03, clearly below the separability threshold of 1. The entanglement was also inferred inside the cavity (ν−=0.885, EN=0.176), with the propagating mode showing slightly stronger correlations. Entanglement persisted across a detuning range exceeding 40 kHz—comparable to the cavity linewidth κ—demonstrating robustness without fine-tuning. These findings establish levitated optomechanics as a versatile, room-temperature platform for distributing quantum correlations and advancing macroscopic quantum physics."
+    },
+    "keyArticle": {
+      "title": "Stationary entanglement of a levitated oscillator with an optical field",
+      "authors": [
+        "Q. Deplano",
+        "A. Pontin",
+        "F. Marino",
+        "F. Marin"
+      ],
+      "doi": "10.1126/science.aeh1375",
+      "pages": "113-117"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh1375",
+      "doi": "https://doi.org/10.1126/science.aeh1375",
+      "preprint": "http://arxiv.org/abs/2602.03456"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:09:42.558266+00:00",
+    "source": "openalex"
+  }
+}

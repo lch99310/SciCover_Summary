@@ -1,0 +1,52 @@
+{
+  "id": "nature-2026-09-30",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8134",
+  "date": "2026-09-30",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-30-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "終結三千年博弈困境：AI 以千分之一的成本擊敗史上最強戰棋玩家",
+      "en": "The Fog of War Is Lifted: AI Masters Stratego at a Fraction of the Cost"
+    },
+    "summary": {
+      "zh": "【總結】卡內基梅隆大學與紐約大學的研究團隊開發出名為 Ataraxos 的 AI，在經典兵棋遊戲《戰棋》（Stratego）中擊敗了史上最傑出的職業選手 Pim Niemeijer，戰績為 15 勝 1 負 4 和，有效勝率達 85%。這項研究的核心突破在於，團隊設計出一套適用於海量隱藏資訊環境的強化學習與搜尋框架，不僅在《戰棋》中達成史上首次超人類表現，還同時在協力遊戲《漢巴利》（Hanabi）、團隊對戰遊戲《鬥地主》以及《戰棋》變體《Barrage Stratego》中達到頂尖水平，且訓練成本僅約數千美元，相比 DeepMind 此前耗資數百萬美元的 DeepNash 系統，運算成本僅為其約 1/500。\n\n【研究問題】現實世界中的決策往往涉及隱藏資訊——某些資訊為一方所知而另一方未知，這種不完美資訊情境廣泛存在於金融市場、軍事衝突與談判中。然而，過去強化學習與搜尋方法在隱藏資訊龐大時會失效。以《戰棋》為例，其棋子配置可能性超過 10 的 33 次方種，遠超德州撲克的 1,326 種手牌組合。DeepMind 的 DeepNash 雖投入數百萬美元與數千億訓練樣本，卻仍未達超人類水平，這使得《戰棋》成為少數在龐大工業資源投入下仍無法被 AI 征服的古典遊戲。\n\n【研究方法】Ataraxos 的核心設計包含三個組件：首先是策略—價值網路，透過自我對弈強化學習訓練，學習提出決策並預測遊戲結果；其次是信念網路，在自我對弈數據上訓練，用於建模隱藏資訊（如對手棋子的類型）；第三是測試時搜尋程序，在決策時利用信念網路生成隱藏資訊的可能的狀態，再以策略網路評估各候選動作的價值，最後執行一次自博弈風格的更新步驟來選擇動作。研究團隊還設計了動態阻尼機制——在訓練早期使用較強的正則化與較大的策略更新，在訓練後期則相反，以此平衡學習速度與穩定性。此外，團隊開發了基於 CUDA 的客製化模擬器，每秒可執行數百萬次狀態更新，大幅降低記憶體消耗。\n\n【結果】Ataraxos 在 20 場對陣 Pim Niemeijer 的系列賽中以 15 勝 1 負 4 和的成績奪得 85% 的有效勝率，這是戰棋最高水準對戰中前所未有的 margins。在 2025 年世界戰棋錦標賽的公開示範中，Ataraxos 在 40 場對戰中取得 95% 有效勝率（38 勝 2 負）。在 Barrage Stratego 中，Ataraxos 擊敗三位世界冠軍選手；在 Hanabi 中創下統計顯著的新紀錄；在《鬥地主》中擊敗了先前最強的 PerfectDou 與 DouZero。整體訓練僅消耗 16 塊 NVIDIA H100 GPU 運行一週，總成本低於 8,000 美元，相較 DeepNash 的 1,024 個 TPU 節點與數百萬美元成本，展現出極高的樣本效率。",
+      "en": "**Summary:** Researchers from Carnegie Mellon University and New York University have developed Ataraxos, an AI that has achieved superhuman performance in Stratego—a classic board wargame renowned for its enormous scale of hidden information. In a 20-game series against Pim Niemeijer, widely regarded as the greatest Stratego player of all time, Ataraxos won 15, lost 1, and drew 4, achieving an 85 percent effective win rate—an unprecedented margin at the highest level of human play. The breakthrough lies not only in this victory but in the generality of the approach: the same techniques produced state-of-the-art AIs for Barrage Stratego, the cooperative game Hanabi, and the massively popular Chinese card game dou dizhu. Remarkably, Ataraxos was trained for under $8,000 using 16 NVIDIA H100 GPUs over one week, compared to DeepMind’s DeepNash, which consumed roughly $3 to 4.5 million across 1,024 TPU nodes.\n\n**Problem:** Real-world strategic decision-making is fundamentally shaped by imperfect information—situations where agents possess knowledge unavailable to others. This is the defining characteristic of financial markets, military conflicts, and negotiations. Yet traditional reinforcement learning and search methods falter when hidden information scales up. In perfect-information games like chess and Go, the optimal move is relatively straightforward to compute. In imperfect-information settings, however, the value of a decision depends not only on future play but also on the policies agents used—and counterfactually would have used—in the past, creating a tangle of interdependent beliefs that resists intuitive reasoning. Stratego, with over 10^33 possible piece configurations, epitomized this challenge: despite multi-year, multi-million-dollar industrial efforts, no AI had previously reached superhuman level, making it arguably the only classical game where well-resourced AI research had failed.\n\n**Approach:** Ataraxos is built on three interconnected components. First, a policy-value network is trained through self-play reinforcement learning to propose moves and estimate game outcomes. The network uses a transformer architecture, with separate set-up and move networks that learn in tandem: the set-up network determines how pieces are arranged at the start, while the move network handles in-game decisions. Second, a belief network is trained on self-play data to model the opponent’s hidden pieces, effectively serving as a generative model that samples likely configurations of concealed information. Third, at test time, Ataraxos performs search by generating possible hidden states through its belief network, running depth-limited rollouts for each candidate move, and then applying a single damped reinforcement-learning update—mimicking the self-play training process—to select its action. A key innovation is the dynamically damped training schedule: strong regularization and large policy updates early in training ensure rapid progress, while weaker regularization and smaller updates later prevent the policy from collapsing into exploitable rigidity. The team also built a custom CUDA-accelerated simulator capable of executing millions of state updates per second while minimizing memory overhead.\n\n**Results:** Ataraxos defeated Pim Niemeijer 15-1-4 in a 20-game series, achieving an 85 percent effective win rate with a one-sided binomial test yielding P < 2.6 × 10^-4. In public demos at the 2025 Stratego World Championship, Ataraxos won 38 of 40 games against a diverse field of human players (95 percent effective win rate). Against Barrage Stratego world champions, Ataraxos won all four 50-game series (P < 1.3 × 10^-5). In Hanabi, Ataraxos set new state-of-the-art scores across two- to five-player variants, requiring two orders of magnitude less compute than prior approaches for the two-player game. In dou dizhu, it defeated both PerfectDou and DouZero with statistical significance. The total training cost was under $8,000—roughly 1/500th the compute, 1/30th the self-play games, and 1/100th the training examples of DeepNash—demonstrating a dramatic leap in sample efficiency. The results establish that reinforcement learning and search, long thought unsuitable for massive hidden-information settings, can now achieve superhuman performance across adversarial, cooperative, and team games."
+    },
+    "keyArticle": {
+      "title": "Scalable decision-making for games of imperfect information",
+      "authors": [
+        "Samuel Sokota",
+        "Eugene Vinitsky",
+        "Hengyuan Hu",
+        "Zhiyuan Fan",
+        "J. Zico Kolter",
+        "Gabriele Farina"
+      ],
+      "doi": "10.1038/s41586-026-11036-y",
+      "pages": "55-59"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-30-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11036-y",
+      "doi": "https://doi.org/10.1038/s41586-026-11036-y"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:11:33.103686+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cell-2026-08-11",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-08-11",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "寄生蟲的代謝指揮家：TgPRO如何讓弓形蟲在缺氧與營養匱乏中求生",
+      "en": "The Metabolic Conductor: How TgPRO Enables Toxoplasma to Survive Starvation and Stress"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了弓形蟲（Toxoplasma gondii）在宿主体內高密度繁殖時，如何透過一種名為TgPRO的RNA結合蛋白來調節代謝基因表達。TgPRO是纖毛蟲類寄生蟲中第一個被發現的專職代謝調控因子，它透過結合特定mRNA的3'非翻譯區（3' UTR），穩定碳代謝與鐵硫簇相關轉錄本，從而維持氧化還原平衡。這項發現不僅填補了纖毛蟲缺乏已知代謝調控因子（如NRF2、HIF1）的研究空白，也為針對寄生蟲代謝途徑的新型抗寄生蟲藥物開發提供了潛在靶點。\n\n【研究問題】過去對寄生蟲代謝適應的研究存在明顯盲點：雖然已知寄生蟲在宿主体內會面臨營養匱乏、氧化壓力與廢物累積等「擁擠」壓力，但纖毛蟲門（Apicomplexa）寄生蟲缺乏與高等生物同源的代謝調控因子（如NRF2、HIF1、IRP1）。這引發了一個關鍵問題：寄生蟲究竟依靠什麼機制來調控代謝基因表達以適應高密度感染環境？解決這個問題對於理解寄生蟲的致病機制與開發新型治療策略至關重要。\n\n【研究方法】研究團隊採用多重實驗策略。首先，他們進行全基因體CRISPR篩選，比較弓形蟲在高感染密度（MOI=3）與低感染密度（MOI=0.3）下的基因適應度差異，識別出31個「密度抑制突變基因」（DIMs）。接著，他們針對266個候選基因進行靶向篩選，並輔以煙酰胺補充實驗。為鑑定TgPRO的RNA結合特性，研究人員使用RNA免疫沉澱測序（RIP-seq）找出TgPRO直接結合的轉錄本。最後，他們結合RNA測序、蛋白質體學、代謝組學、同位素標記（13C-葡萄糖追蹤）以及線粒體功能分析，全面解析TgPRO缺失對寄生蟲代謝的影響。\n\n【結果】研究發現，TgPRO缺失導致寄生蟲在高密度環境下適應度顯著下降，但可在低氧條件（1% O2）下部分恢復。TgPRO直接結合89個轉錄本，涵蓋碳代謝、鐵硫簇組裝與電子傳遞等途徑，其中鐵硫簇組裝蛋白ISCU的調控最為關鍵——TgPRO透過結合ISCU的3' UTR來穩定其mRNA。代謝組學顯示，TgPRO缺失使寄生蟲從戊糖磷酸途徑（PPP）向糖解作用重新分配碳流，乳酸分泌減少，線粒體備用呼吸容量下降。值得注意的是，在粒線體中表達乳酸桿菌NADH氧化酶（LbNOX）可恢復NAD+池，並顯著改善Δtgpro寄生蟲在高密度下的適應度。這些結果確立了TgPRO作為纖毛蟲中第一個專職代謝調控因子的地位，並展示了 convergent evolution 在寄生蟲代謝適應中的重要作用。",
+      "en": "**Summary:** This study reveals how the parasite Toxoplasma gondii regulates metabolic gene expression through a protein called TgPRO during high-density replication within host cells. TgPRO is the first dedicated metabolic regulator identified in apicomplexan parasites, functioning as an RNA-binding protein that stabilizes transcripts involved in carbon metabolism and iron-sulfur cluster assembly by binding to their 3' UTRs. This discovery fills a critical gap in our understanding of how parasites adapt metabolically in the absence of known regulators like NRF2 or HIF1, and opens new avenues for antiparasitic drug development targeting metabolic vulnerability.\n\n**Problem:** A major blind spot in parasitology has been the absence of known metabolic regulators in apicomplexan parasites. While organisms from bacteria to mammals deploy factors like NRF2 (oxidative stress), HIF1 (hypoxia), and IRP1 (iron homeostasis) to adapt to crowding, apicomplexans lack homologs of these regulators. The critical question was: what mechanism allows parasites to fine-tune metabolic gene expression under the extreme stress of high-density intracellular growth? Solving this is essential for understanding parasite pathogenesis and identifying novel therapeutic targets.\n\n**Approach:** The researchers employed a multi-pronged experimental strategy. They conducted a genome-wide CRISPR screen comparing parasite fitness at high (MOI=3) versus low (MOI=0.3) infection density, identifying 31 density-inhibited mutants (DIMs). A targeted screen of 266 candidate genes with nicotinamide supplementation narrowed the focus to TgPRO. RNA immunoprecipitation sequencing (RIP-seq) identified 89 direct TgPRO RNA targets. Comprehensive metabolic profiling—including RNA-seq, proteomics, stable isotope tracing with 13C-glucose, and mitochondrial respiration assays—was then used to dissect the downstream consequences of TgPRO loss on carbon flux, redox balance, and iron-sulfur cluster biogenesis.\n\n**Results:** TgPRO loss severely compromised parasite fitness at high density, an effect partially rescued by low oxygen (1% O2). TgPRO directly bound 89 transcripts spanning carbon metabolism, iron-zinc transport, and iron-sulfur cluster assembly. Regulation of ISCU via its 3' UTR was identified as a key mechanism. Metabolomic analysis revealed that TgPRO deficiency reroutes carbon away from the pentose phosphate pathway toward glycolysis, with reduced lactate secretion and diminished spare respiratory capacity. Expressing a bacterial NADH oxidase (LbNOX) specifically in the parasite mitochondrion restored the NAD+/NADH ratio and significantly improved Δtgpro fitness at high density. These findings establish TgPRO as a convergently evolved metabolic regulator and reveal the first RNA-based mechanism governing redox adaptation in apicomplexan parasites."
+    },
+    "keyArticle": {
+      "title": "Convergent evolution of metabolic regulation governs redox adaptation in Toxoplasma",
+      "authors": [
+        "Christopher J. Giuliano",
+        "Chinmay A. Kalluraya",
+        "Joachim Kloehn",
+        "Megan A. Sloan",
+        "Molly E. Bunkofske",
+        "Christopher A. Hunter",
+        "Dominique Soldati‐Favre",
+        "Clare R. Harding",
+        "Sebastian Lourido"
+      ],
+      "doi": "10.1016/j.cell.2026.07.029",
+      "pages": "6338-6355.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.029",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.029"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-04T22:13:08.820982+00:00",
+    "source": "openalex"
+  }
+}
