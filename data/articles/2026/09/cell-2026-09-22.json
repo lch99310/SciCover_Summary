@@ -1,0 +1,68 @@
+{
+  "id": "cell-2026-09-22",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-09-22",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-22-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "火熱中的生命奇蹟：新發現的阿米巴蟲打破真核生物耐熱極限",
+      "en": "Life in the Furnace: A New Amoeba Shatters the Eukaryotic Heat Limit"
+    },
+    "summary": {
+      "zh": "【總結】研究團隊在美國加州拉森火山國家公園的地熱溪中，分離出一種全新的阿米巴蟲——Incendiamoeba cascadensis（意為「火焰阿米巴」）。這項發現打破了科學界長期以來的認知：過去認為真核生物的繁殖溫度上限為攝氏60度，而這種阿米巴蟲能在63度下完成細胞分裂，並在64度時仍保持移動能力。這不僅刷新了真核生命耐熱極限的紀錄，也為理解生命在極端環境中的生存策略提供了全新視角。\n\n【研究問題】自二十世紀以來，科學家對細菌與古菌的耐熱機制已有深入探討，但真核生物的極限溫度卻長期被認為卡在60度。過去的研究大多聚焦於單細胞真菌與紅藻，對於更複雜的真核生物——特別是阿米巴蟲這類原生生物——在高溫環境中的適應機制幾乎毫無了解。這個問題為何重要？因為釐清真核生物的溫度極限，不僅能重新定義生命存在的邊界，也能為尋找地外生命提供關鍵線索。\n\n【研究方法】研究團隊在三年間（2023至2025年）於拉森火山國家公園的熱泉溪流域進行了20個採樣點的生物採集，最終從14個樣本中成功分離出目標阿米巴蟲。他們採用小麥穀粒富集培養法，刺激環境中的細菌生長，進而誘發以細菌為食的阿米巴蟲繁殖。研究團隊結合了多種先進技術：透過超高溫活細胞顯微鏡觀察細胞運動與分裂過程；使用超結構擴展顯微術（U-ExM）在63度下直接視覺化有絲分裂；進行RNA定序比較高溫與常溫下的基因表現差異；並利用AlphaFold2預測蛋白質結構，分析其生物物理特性。\n\n【結果】I. cascadensis的繁殖溫度範圍為42至63度，最適生長溫度在55至57度之間。在63度時，細胞完成有絲分裂的視覺證據清晰可辨——紡錘體寬闊且無中心體，證實這是一種完整的細胞複製，而非單純的細胞延伸。運動性測試顯示，細胞在57度時移動速度最快（每分鐘14.5微米），並在64度時仍保持活性。當溫度升至66度以上，細胞開始形成囊腫進入休眠狀態；在70度下暴露5分鐘後，細胞可成功囊腫化並在降溫後恢復活動。基因體分析發現，與中溫阿米巴蟲相比，I. cascadensis富含與蛋白質穩定性相關的基因，其蛋白質表面帶有更多正電荷殘基——這與耐熱細菌和古菌的機制驚人地相似，顯示出趨同進化的痕跡。RNA定序進一步揭示，在高溫下，蛋白質穩態、DNA修復和膜運輸相關的途徑被顯著上調。這項研究不僅將真核生物的耐熱紀錄推高了3度，更揭示了生命在極端高溫下維持結構與功能的分子策略。",
+      "en": "**Summary:** A research team has discovered a remarkable new amoeba species, Incendiamoeba cascadensis, in the geothermal streams of Lassen Volcanic National Park in California. This organism shatters a long-held biological ceiling: for decades, scientists believed 60°C was the upper temperature limit for eukaryotic reproduction. I. cascadensis not only divides at 63°C but remains motile up to 64°C, pushing the known boundary of complex life into uncharted territory and opening new questions about how cellular machinery can function under extreme thermal stress.\n\n**Problem:** While the thermal limits of bacteria and archaea have been extensively studied—with some microbes thriving above 100°C—eukaryotic thermophiles remain strikingly underexplored. The prevailing assumption was that eukaryotic cells, with their complex membrane-bound organelles, simply could not tolerate temperatures beyond 60°C. This assumption was largely based on limited observations of fungi and red algae. The critical gap? No one had systematically investigated whether more complex eukaryotic lineages, such as amoebae, might possess previously unrecognized heat tolerance. Closing this gap matters because redefining life's thermal boundaries has profound implications for evolutionary biology, astrobiology, and our understanding of how cellular complexity constrains or enables survival in extreme environments.\n\n**Approach:** Over three years (2023–2025), the team sampled 20 geothermal locations along a tributary of Hot Springs Creek in Lassen Volcanic National Park, successfully isolating the amoeba from 14 sites. They used a wheatberry enrichment culture technique to stimulate local bacterial growth, which in turn attracted the bacterivorous amoebae. The researchers employed a multidisciplinary toolkit: high-temperature live-cell microscopy to track motility across a 45°C range; ultrastructure expansion microscopy (U-ExM) to visualize mitosis at 63°C; comparative RNA sequencing to identify temperature-responsive gene pathways; and AlphaFold2-based protein structure prediction to analyze biophysical properties. Phylogenomic analysis of 102 concatenated genes placed the organism within the Amoebozoa, while metagenomic sequencing revealed the bacterial community it feeds on.\n\n**Results:** I. cascadensis grows between 42°C and 63°C, with optimal growth at 55–57°C. At 63°C, the team captured clear visual evidence of complete mitotic division—wide, acentric spindles with no astral microtubules—confirming full cellular replication rather than mere elongation. Motility peaked at 57°C (14.5 μm/min) and persisted up to 64°C. When exposed to 66°C or higher, cells formed cysts; after a 5-minute shock at 70°C, cells encysted and could recover when temperatures dropped back to 60°C—a survival capability far exceeding that of related species like Vermamoeba vermiformis, whose cysts are inactivated at just 60°C. Genomic analysis revealed an enrichment of proteostasis and environmental sensing genes, and predicted proteins carried an unusual abundance of positively charged surface residues, mirroring a convergent adaptation seen in hyperthermophilic bacteria and archaea. RNA-seq showed upregulation of protein folding, DNA repair, and membrane trafficking pathways at high temperatures. These findings not only raise the eukaryotic growth limit by 3°C but also illuminate the molecular strategies that allow complex cells to endure what was once thought impossible."
+    },
+    "keyArticle": {
+      "title": "A geothermal amoeba sets a new upper temperature limit for eukaryotes",
+      "authors": [
+        "Hannah B. Rappaport",
+        "Natalie A. Petek-Seoane",
+        "Tomáš Tyml",
+        "Jessica K. Niblo",
+        "Felix Mikus",
+        "Naomi E. Gilbert",
+        "Kurt M. LaButti",
+        "Godwin Ani",
+        "Ethan MacVicar",
+        "Rachel M. Shepherd",
+        "Ignacio de la Higuera",
+        "Samuel J. Lord",
+        "Gautam Kumar Dey",
+        "Gordon V. Wolfe",
+        "Omaya Dudin",
+        "Laura A. Katz",
+        "Kenneth Mark Stedman",
+        "Shahar Sukenik",
+        "Kristen Skruber",
+        "Frederik Schulz",
+        "R. Dyche Mullins",
+        "Angela Oliverio"
+      ],
+      "doi": "10.1016/j.cell.2026.08.043",
+      "pages": "6325-6337.e7"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-22-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.043",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.043"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:29:04.596073+00:00",
+    "source": "openalex"
+  }
+}

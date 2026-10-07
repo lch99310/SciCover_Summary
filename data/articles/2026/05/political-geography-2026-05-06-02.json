@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-05-06-02",
+  "journal": "Political Geography",
+  "volume": "129",
+  "issue": "",
+  "date": "2026-05-06",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-05-06-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "政客的地緣政治：瑞典國會五十年演講揭示城鄉代表的秘密",
+      "en": "Reppin' Your Constituency: What 50 Years of Swedish Parliamentary Speeches Reveal About Urban-Rural Representation"
+    },
+    "summary": {
+      "zh": "【總結】這項研究破解了一個懸而未決的政治地理學難題：當城鄉選民對「在地代表」的需求日益強烈，政客到底該如何應對？研究發現，雖然國會議員整體上更傾向提及城市地點，但來自鄉村選區的議員會主動補償這種偏向——他們更頻繁地談論自己選區內的城鎮與鄉鎮，並在地失業率攀升時，更積極地以經濟議題為訴求。這項研究首次將自然語言處理技術與地理資訊系統結合，為政治地理學開闢了全新的量化路徑。\n\n【研究問題】過去研究多聚焦於「政客為何提及選區」，卻忽視了三個關鍵盲點：首先，城鄉之間的地理訴求是否存在系統性差異？其次，既有研究時間跨度通常不超過五年，難以觀察長期趨勢。第三，我們對地理訴求的「內容」幾乎一無所知——政客提到某個地方時，究竟在談什麼？這些缺口使我們無法理解城鄉分裂如何影響民主代表品質。\n\n【研究方法】作者開發了一套創新的「地理文本分析」方法：首先，使用經過微調的瑞典語BERT模型，從1976至2024年間五十五萬七千餘場國會演講中，以命名實體辨識（NER）技術自動萃取所有地理名稱，模型準確率（F1分數）達0.87。接著，透過GeoNames和Wikidata資料庫進行地理編碼，將每個地名映射至精確座標，並結合歐盟全球人類居住層（GHS-SMOD）數據，將每個地點分類為「城市」或「鄉村」。最後，運用種子LDA主題模型分析演講內容，並結合各郡失業率數據，以計數回歸模型檢驗地理訴求的數量與內容。\n\n【結果】研究揭示四項關鍵發現。第一，在四十三萬兩千餘筆地理提及中，高達43%來自議員談論自己選區內的地點，其中鄉村選區議員的「代表性紅利」最大，有效抵銷了整體向城市傾斜的趨勢。第二，議員出身鄉村背景者，更傾向提及鄉村地點。第三，當地方失業率上升時，議員更可能以經濟議題為框架談論選區——這項回應性在城市郡縣最為顯著，但鄉村議員（尤其是鄉村出身者）同樣對本區經濟困境保持高度敏感。這些發現證明，地理代表並非單一模式，城鄉議員在回應選民需求時展現了截然不同的策略，這為理解當代民主中城鄉裂痕的治理意涵提供了全新視角。",
+      "en": "**Summary:** This study tackles a pressing question in political geography: as urban-rural divides deepen and voters increasingly demand place-based representation, how do politicians actually respond? The research reveals a nuanced picture. While parliamentarians generally talk more about urban places, those representing rural constituencies actively compensate for this bias by discussing their home areas more frequently and framing local economic distress in their speeches. By combining cutting-edge natural language processing with fifty years of Swedish parliamentary data, the study opens a new chapter in understanding how geography shapes political representation.\n\n**Problem:** Despite growing literature on the urban-rural political divide, three critical gaps remain. First, we lack knowledge about whether geographical appeals differ systematically between urban and rural contexts. Second, existing studies typically span no more than five years, limiting our ability to track how place-based rhetoric evolves over time. Third, prior research has largely ignored the content of geographical appeals—what politicians actually say when they mention a place. These gaps matter because geography is one of the few representation mechanisms enshrined in electoral systems worldwide, and understanding how it operates is essential for diagnosing the democratic implications of the urban-rural cleavage.\n\n**Approach:** The author developed a novel Geographical Text Analysis pipeline. Using a fine-tuned Swedish BERT model for Named Entity Recognition (achieving an F1 score of 0.87), the study automatically extracted all geographical mentions from over 557,000 parliamentary speeches delivered between 1976 and 2024. Each mention was then geocoded through GeoNames and Wikidata, mapped to precise coordinates, and classified as urban or rural using the European Commission's GHS-SMOD dataset. Topic modeling (Seeded LDA) identified the subject matter of each speech, which was then linked to county-level unemployment data. Statistical models—OLS regression and zero-inflated negative binomial regression—tested how constituency type, politician background, and local economic conditions shaped both the volume and content of geographical appeals.\n\n**Results:** Four key findings emerge. First, of 432,253 geographical mentions, 43% referred to places within the speaker's own constituency, with rural constituency representatives showing the largest \"representation bonus,\" effectively offsetting the overall urban tilt. Second, parliamentarians with rural backgrounds were significantly more likely to mention rural places. Third, when local unemployment rose, MPs were more likely to frame their constituency discussions around the economy—this responsiveness was strongest in urban counties, yet rural representatives, especially those from rural backgrounds, remained highly attuned to local economic hardship. These results demonstrate that geographical representation is far from uniform: urban and rural MPs employ fundamentally different strategies in responding to constituent needs, offering fresh insights into how spatial divides are navigated within democratic institutions."
+    },
+    "keyArticle": {
+      "title": "Reppin’ your constituency? Urban-rural differences in geographical representation in Swedish parliamentary debates",
+      "authors": [
+        "Albert Wendsjö"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103557",
+      "pages": "103557"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-05-06-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103557",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103557"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:30:38.993888+00:00",
+    "source": "openalex"
+  }
+}

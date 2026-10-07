@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-09-23-03",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8134",
+  "date": "2026-09-23",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-23-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "精度突破19位！魯特鎗離子光鐘如何重新定義時間的極限？",
+      "en": "The 19th Digit: How a Lutetium Ion Clock Is Redefining the Limits of Time"
+    },
+    "summary": {
+      "zh": "【總結】新加坡國立大學研究團隊成功建立兩台獨立的176Lu+單離子光頻標準，每台系統的系統性不確定度低至1×10^-19，並在相關譜技術下實現了兩台設備間頻率差異僅為[-0.1 ± 5.7stat ± 1.0sys]×10^-19的驗證。這是迄今為止同種離子鐘最嚴格的自我驗證，精度達到了19位小數，為未來國際時間標準的重新定義奠定了堅實基礎，同時也為精密測地學和基礎物理測試開闢了全新可能。\n\n【研究問題】隨著國際科學界尋求重新定義國際單位制（SI）秒的共識，光學原子鐘的不確定度評定已達到10^-18以下，但「同種比較」——即兩台相同類型的鐘相互校驗——仍是該領域的重大盲點。過往不同物種之間的比較結果與預期不符，凸顯了系統性誤差評估的可靠性問題。若無法驗證鐘本身的準確性，任何基於光鐘的應用（如重力紅移測量或暗物質搜尋）都將建立在沙灘上。\n\n【研究方法】研究團隊採用「相關譜技術」（correlation spectroscopy），讓兩台獨立離子阱中的176Lu+離子同時接受雷射照射，從而消除共用雷射的相位雜訊干擾。他們使用一種稱為「超精細平均-超拉姆齊」（HA–HR）的混合微波與光學脈衝序列，在每次測量週期中自動抵消二階塞曼效應與四極矩偏移。研究團隊還進行了嚴格的系統性壓力測試，包括多次重新測量 quadratic Zeeman 係數，並對黑體輻射（BBR）偏移、背景氣體碰撞、微運動等各項系統性影響進行全面評估。\n\n【結果】兩台光鐘在200小時的測量後，顯示出4.8×10^-16(τ/s)^-1/2的穩定度，頻率差異僅為[-0.1 ± 5.7stat ± 1.0sys]×10^-19，與評定不確定度完全吻合。176Lu+的1S0↔3D1躍遷對黑體輻射和磁場的敏感度低於其他主流光鐘系統，使其在室溫條件下即可實現10^-19級精度。研究指出，若未來能進一步精確評估直流極化率，現有系統的不確定度可降至中位數10^-20水平。這為國際計時、毫米級大地測量和基礎物理常數變化的搜尋提供了前所未有的工具。",
+      "en": "**Summary:** A team from the National University of Singapore has built two independent 176Lu+ single-ion optical frequency references, each achieving an evaluated systematic uncertainty near 1×10^-19. By comparing the two clocks using correlation spectroscopy, they demonstrated agreement at the level of [-0.1 ± (5.7)stat ± (1.0)sys]×10^-19 — a direct, same-species verification at the 19th decimal digit. This is the most rigorous self-validation of an optical clock to date, clearing a critical hurdle for the redefinition of the SI second and opening new frontiers in precision geodesy and fundamental physics.\n\n**Problem:** As the international community moves toward redefining the SI second, state-of-the-art optical clocks now report fractional uncertainties below 10^-18. Yet the crucial test — comparing two independent clocks of the same species to verify those uncertainty budgets — remains rare. Cross-species comparisons have previously shown inconsistencies that cast doubt on reported systematic evaluations. Without rigorous same-species validation, any application built on optical clocks, from relativistic geodesy to dark matter searches, rests on unproven assumptions.\n\n**Approach:** The researchers employed correlation spectroscopy, a technique that compares two trapped 176Lu+ ions simultaneously, rejecting common-mode phase noise from the shared clock laser and making the comparison limited only by atomic coherence rather than laser stability. They used a hybrid microwave-optical pulse sequence called hyperfine-averaged hyper-Ramsey (HA–HR) spectroscopy, which cancels second-order Zeeman and quadrupole shifts within each interrogation cycle. The team also performed rigorous stress tests — remeasuring the quadratic Zeeman coefficient multiple times across different years and setups — and comprehensively assessed every known systematic effect, including blackbody radiation shifts, background gas collisions, micromotion, and AC Stark shifts.\n\n**Results:** After 200 hours of averaging across 11 comparison runs, the two clocks agreed at [-0.1 ± (5.7)stat ± (1.0)sys]×10^-19, fully consistent with their evaluated uncertainties. The system achieved a comparison instability of 4.8×10^-16(τ/s)^-1/2 with interrogation times up to 10 seconds. The 176Lu+ 1S0↔3D1 transition stands out for its exceptionally low sensitivity to blackbody radiation and magnetic fields — the lowest among established clock systems — enabling 10^-19-level accuracy in a practical room-temperature linear Paul trap. The authors note that improved polarizability calculations could push uncertainties into the mid-10^-20 range, making 176Lu+ a leading candidate for the next generation of international timekeeping."
+    },
+    "keyArticle": {
+      "title": "Lu+ optical frequency references with accuracy verified at the 19th digit",
+      "authors": [
+        "K. J. Arnold",
+        "Michael Dao Kang Lee",
+        "Qi Zhao",
+        "Qichen Qin",
+        "Zhao Zhang",
+        "N. Jayjong",
+        "M. D. Barrett"
+      ],
+      "doi": "10.1038/s41586-026-11072-8",
+      "pages": "60-64"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-23-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11072-8",
+      "doi": "https://doi.org/10.1038/s41586-026-11072-8",
+      "preprint": "https://arxiv.org/abs/2512.07346"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:27:34.630236+00:00",
+    "source": "openalex"
+  }
+}

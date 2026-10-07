@@ -1,0 +1,39 @@
+{
+  "id": "american-sociological-review-2026-09-24",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "5",
+  "date": "2026-09-24",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "運動不會消失，只會換個方式存在：跨國社會運動如何靠「人」而不是「組織」延續生命",
+      "en": "How Movements Outlive Their Organizations: The Relational Secret of Transnational Activism"
+    },
+    "summary": {
+      "zh": "過去幾十年，社會運動研究幾乎把「社會運動組織」當作一切的核心——沒有組織，就沒有動員；沒有動員，就沒有運動。然而，當抗爭越來越依賴數位平台、越來越個人化，這個以組織為中心的理論框架開始顯得捉襟見肘。2019年香港反送中運動之後，傳統組織如雨伞运动後的民間人權陣線等，影響力大幅衰退，但抗爭的餘波卻沒有就此消散，反而在加拿大等海外社群中繼續發酵。這到底是怎麼發生的？",
+      "en": "For decades, social movement studies have treated organizations as the engine of collective action: no organization, no mobilization; no mobilization, no movement. But as protest becomes increasingly digital, individualized, and decentralized, the organization-centric frameworks that have dominated the field—particularly resource mobilization theory—struggle to explain how movements persist when their formal structures fade. After the 2019 Hong Kong protests, traditional organizations like the Civil Human Rights Front lost much of their visibility and capacity, yet the movement's energy did not simply vanish. Instead, it migrated, transformed, and re-emerged in diasporic communities across countries like Canada."
+    },
+    "keyArticle": {
+      "title": "Connective Resource Mobilization: A Relational Approach to Movement Continuity in Transnational Activism",
+      "authors": [
+        "Pamela P. Tsui"
+      ],
+      "doi": "10.1177/00031224261475572",
+      "pages": "860-892"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261475572",
+      "doi": "https://doi.org/10.1177/00031224261475572"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-07T23:32:01.232416+00:00",
+    "source": "openalex"
+  }
+}

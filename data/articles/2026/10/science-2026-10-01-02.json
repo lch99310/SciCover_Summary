@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-10-01-02",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6819",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "重新打開遠紅外之窗：PRIMA望遠鏡將揭開星際塵埃與行星誕生的秘密",
+      "en": "NASA's PRIMA Telescope Will Reopen the Far-Infrared Sky"
+    },
+    "summary": {
+      "zh": "【總結】NASA已選定PRIMA任務，這是一艘價值12億美元的探針級太空望遠鏡，預計於2033年發射。它將填補自2013年赫歇爾太空望遠鏡停運後遠紅外觀測的空白，並首次以探針級任務的形式連接研究人員主導的探測器與數十億美元的旗艦任務。PRIMA將專注於觀測星際氣體與塵埃的微弱冷光，這些物質是恆星形成與行星凝聚的原料。這項任務不僅將延長遠紅外觀測的壽命，還將以前所未有的靈敏度追溯宇宙歷史中 galaxies 的演化與行星系統的誕生過程。\n\n【研究問題】遠紅外波段是電磁光譜中探索最少的領域之一，因為地球大氣層會阻擋大部分輻射，迫使天文學家必須前往太空觀測。此外，與中紅外和微波波段不同，遠紅外偵測器技術缺乏商業與軍事應用支持，只能由天文學家自行研發。赫歇爾望遠鏡雖是首個專門用於遠紅外的太空望遠鏡，但其3.5公尺鏡面產生的雜散熱限制了對遠距離源的靈敏度，且液態氦冷卻劑在不到四年內耗盡，使任務提前結束。因此，科學家亟需一種更持久、更靈敏的遠紅外觀測平台，以突破過去僅限於鄰近星系的局限，進而探索整個宇宙歷史中的星系演化與行星形成。\n\n【研究方法】PRIMA採用被動冷卻與機械cryocooler結合的方式，將1.8公尺鏡面冷卻至絕對零度以上4.5度。另有一個cryocooler將新型超導感測器——動力電感偵測器（KID）——冷卻至低於絕對零度1/8度。KID能記錄個別光子的能量與到達時間，靈敏度約為赫歇爾偵測器的100倍。這種設計無需液態氦，可支持更長的任務壽命。英國 consortium 貢獻硬體，團隊包括卡迪夫大學的天體物理學家Matt Griffin等專家。任務由NASA噴氣推進實驗室管理，目前進入詳細設計與技術驗證階段，為未來建設鋪路。\n\n【結果】PRIMA的KID偵測器靈敏度提升約100倍，將使天文學家能夠觀測到赫歇爾僅能研究的地方宇宙，但擴展至整個宇宙歷史。具體而言，PRIMA將追蹤數十個星系在過去四分之三宇宙時間中的演化，揭示星際氣體如何塌縮成恆星或被黑洞風吹散。在銀河系內，PRIMA將檢測原行星盤中的水，測試冰是否作為「膠水」幫助塵埃聚集形成行星。這些數據將填補遠紅外觀測的長期空白，為恆星與行星形成理論提供關鍵實證，並推動未來旗艦任務的技術發展。",
+      "en": "**Summary:** NASA has selected PRIMA, a $1.2 billion Probe-class space telescope slated for launch in 2033. It will fill the far-infrared observing gap left by Europe's Herschel telescope, which ceased operations in 2013, and bridge the gap between researcher-led Explorer missions and multibillion-dollar flagship missions. PRIMA will explore the faint, cool glow of gas and dust that fuels star formation and coalesces into planets. By combining passive cooling with mechanical cryocoolers and new superconducting sensors, the mission will enable sensitive, long-duration far-infrared observations throughout cosmic history, offering unprecedented insights into galaxy evolution and planetary birth.\n\n**Problem:** The far-infrared is one of the least explored parts of the electromagnetic spectrum because Earth's atmosphere blocks most of its radiation, forcing astronomers to go to space. Unlike neighboring wavelengths, far-infrared detector technology lacks commercial and military applications, requiring astronomers to develop their own instruments. Herschel, the first major space telescope dedicated to far-infrared, had a 3.5-meter mirror whose stray heat limited sensitivity to distant sources, and its liquid helium coolant ran out in less than four years. This left a critical gap: astronomers needed a more sensitive, longer-lasting far-infrared observatory to study cosmic evolution and planet formation beyond nearby galaxies.\n\n**Approach:** PRIMA will use a combination of passive cooling and a mechanical cryocooler to keep its 1.8-meter mirror at 4.5° above absolute zero. An additional cryocooler will chill a new type of superconducting sensor, called a kinetic inductance detector (KID), to less than one-eighth of a degree above absolute zero. KIDs can record the energy and arrival time of individual photons, offering roughly 100 times the sensitivity of Herschel's detectors. This design eliminates the need for liquid helium, enabling longer mission lifetimes. The UK consortium, including Cardiff University astrophysicist Matt Griffin, is contributing hardware. Managed by NASA's Jet Propulsion Laboratory, PRIMA is now undergoing detailed design and technology development ahead of construction.\n\n**Results:** PRIMA's KIDs will be about 100 times more sensitive than Herschel's detectors, allowing observations of the local universe throughout cosmic time. The mission will probe dozens of galaxies across three-quarters of cosmic history, tracking how interstellar gas collapses into stars or is expelled by black hole winds. Within the Milky Way, PRIMA will detect water in protoplanetary disks, testing the hypothesis that ice acts as glue to help dust clump together and drive planet formation. These results will fill a decades-long observational gap, provide key evidence for star and planet formation theories, and pave the way for future flagship missions."
+    },
+    "keyArticle": {
+      "title": "Space telescope will reopen view of far-infrared sky",
+      "authors": [
+        "Daniel Clery"
+      ],
+      "doi": "10.1126/science.aem8462",
+      "pages": "20"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aem8462",
+      "doi": "https://doi.org/10.1126/science.aem8462"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:26:04.513114+00:00",
+    "source": "openalex"
+  }
+}

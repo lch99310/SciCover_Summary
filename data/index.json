@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-04T22:20:08.219657+00:00",
+  "lastUpdated": "2026-10-07T23:35:00.676825+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-01-02",
+      "journal": "Science",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/science-2026-10-01-02.json",
+      "title_zh": "重新打開遠紅外之窗：PRIMA望遠鏡將揭開星際塵埃與行星誕生的秘密",
+      "title_en": "NASA's PRIMA Telescope Will Reopen the Far-Infrared Sky",
+      "cover_url": "data/images/science/science-2026-10-01-02-cover.jpg"
+    },
     {
       "id": "science-2026-10-01",
       "journal": "Science",
@@ -18,6 +27,15 @@
       "title_zh": "終結三千年博弈困境：AI 以千分之一的成本擊敗史上最強戰棋玩家",
       "title_en": "The Fog of War Is Lifted: AI Masters Stratego at a Fraction of the Cost",
       "cover_url": "data/images/nature/nature-2026-09-30-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-09-28-02",
+      "journal": "Journal of Development Economics",
+      "date": "2026-09-28",
+      "path": "articles/2026/09/journal-of-development-economics-2026-09-28-02.json",
+      "title_zh": "窮農夫的困境：為什麼越貧困越不敢種高產作物？",
+      "title_en": "The Poor Farmer's Dilemma: Why Wealth Shapes What You Grow",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-02-cover.jpg"
     },
     {
       "id": "journal-of-development-economics-2026-09-28",
@@ -38,6 +56,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-09-26-cover.jpg"
     },
     {
+      "id": "american-sociological-review-2026-09-24",
+      "journal": "American Sociological Review",
+      "date": "2026-09-24",
+      "path": "articles/2026/09/american-sociological-review-2026-09-24.json",
+      "title_zh": "運動不會消失，只會換個方式存在：跨國社會運動如何靠「人」而不是「組織」延續生命",
+      "title_en": "How Movements Outlive Their Organizations: The Relational Secret of Transnational Activism",
+      "cover_url": ""
+    },
+    {
       "id": "nature-2026-09-23-02",
       "journal": "Nature",
       "date": "2026-09-23",
@@ -45,6 +72,15 @@
       "title_zh": "大腦疾病的單細胞地圖：揭開八種腦病的共同與獨特密碼",
       "title_en": "Decoding Brain Disorders at Single-Cell Resolution",
       "cover_url": "data/images/nature/nature-2026-09-23-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-09-23-03",
+      "journal": "Nature",
+      "date": "2026-09-23",
+      "path": "articles/2026/09/nature-2026-09-23-03.json",
+      "title_zh": "精度突破19位！魯特鎗離子光鐘如何重新定義時間的極限？",
+      "title_en": "The 19th Digit: How a Lutetium Ion Clock Is Redefining the Limits of Time",
+      "cover_url": "data/images/nature/nature-2026-09-23-03-cover.jpg"
     },
     {
       "id": "nature-2026-09-23",
@@ -63,6 +99,15 @@
       "title_zh": "綠色帝國主義：歐洲國家資本如何重新瓜分全球電網",
       "title_en": "Electric Imperialism: How European State Capital Is Redrawing the Global Power Map",
       "cover_url": "data/images/political-geography/political-geography-2026-09-23-cover.jpg"
+    },
+    {
+      "id": "cell-2026-09-22",
+      "journal": "Cell",
+      "date": "2026-09-22",
+      "path": "articles/2026/09/cell-2026-09-22.json",
+      "title_zh": "火熱中的生命奇蹟：新發現的阿米巴蟲打破真核生物耐熱極限",
+      "title_en": "Life in the Furnace: A New Amoeba Shatters the Eukaryotic Heat Limit",
+      "cover_url": "data/images/cell/cell-2026-09-22-cover.jpg"
     },
     {
       "id": "journal-of-development-economics-2026-09-17",
@@ -1719,6 +1764,15 @@
       "title_zh": "量子渦旋：超導體中的量子比特新希望",
       "title_en": "Quantum Vortices: A New Frontier in Quantum Bits",
       "cover_url": "data/images/nature/nature-2026-05-06-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-05-06-02",
+      "journal": "Political Geography",
+      "date": "2026-05-06",
+      "path": "articles/2026/05/political-geography-2026-05-06-02.json",
+      "title_zh": "政客的地緣政治：瑞典國會五十年演講揭示城鄉代表的秘密",
+      "title_en": "Reppin' Your Constituency: What 50 Years of Swedish Parliamentary Speeches Reveal About Urban-Rural Representation",
+      "cover_url": "data/images/political-geography/political-geography-2026-05-06-02-cover.jpg"
     },
     {
       "id": "political-geography-2026-05-06",
@@ -3384,6 +3438,15 @@
       "title_zh": "價錢背後的隱形階級：為什麼富人更認同「風險定價」？",
       "title_en": "Whose Side Are You On? How Wealth Shapes Our Views on Fair Pricing",
       "cover_url": ""
+    },
+    {
+      "id": "american-political-science-review-2025-12-24",
+      "journal": "American Political Science Review",
+      "date": "2025-12-24",
+      "path": "articles/2025/12/american-political-science-review-2025-12-24.json",
+      "title_zh": "鐵馬驛站換來暴動：法國大革命前國家擴張如何激化民變",
+      "title_en": "How the King's Horses Sparked Revolt: State-Building and Rebellion Before the French Revolution",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-12-24-cover.jpg"
     },
     {
       "id": "political-geography-2025-12-23",

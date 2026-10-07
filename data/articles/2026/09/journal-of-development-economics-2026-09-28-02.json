@@ -1,0 +1,47 @@
+{
+  "id": "journal-of-development-economics-2026-09-28-02",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-28",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "窮農夫的困境：為什麼越貧困越不敢種高產作物？",
+      "en": "The Poor Farmer's Dilemma: Why Wealth Shapes What You Grow"
+    },
+    "summary": {
+      "zh": "【總結】這項研究揭示了烏干達農村農民面臨的一個核心困境：在缺乏保險和信貸市場的情況下，貧窮農民被迫在「高產但高風險」與「低產但穩定」的作物之間做出抉擇。研究發現，財富較少的農戶傾向於選擇安全但產量較低的作物，這不僅限制了他們的生产力，也加劇了資源配置的低效。當市場變得完備時，農業生產力可提升12.8%，其中近六成的收益來自於消除投入品在不同農戶和作物之間的錯配。\n\n【研究問題】發展經濟學長期關注市場不完善如何影響貧困國家的經濟表現，但對於農戶如何在風險與收益之間進行作物組合選擇，缺乏系統性的實證與理論分析。過去的研究往往將風險與投入決策分開處理，忽略了兩者之間的緊密聯繫。本研究填补了這一空白，探討了市場不完善如何通過影響農戶的風險偏好，進而影響其投入使用效率和整體農業生產力。\n\n【研究方法】作者使用了烏干達國家面板調查數據（Uganda National Panel Survey），結合了實證分析與理論建模。首先，通過數據描繪了農民在作物選擇上的實際行為模式；其次，構建了一個不完全市場的動態模型，其中家庭在收入回報與消費平滑之間進行權衡；最後，將模型校準到烏干達農村數據，模擬了市場完備化對生產力、消費和福利的影響。\n\n【結果】研究發現，最貧困的農戶傾向於集中種植低產、低風險的作物，而較富裕的農戶則敢於種植高產但風險較高的作物。模型校準顯示，若烏干達農村市場完全化，農業生產力將提升12.8%，其中15.8%的增益來自於消除投入品的錯配。消費將上升17.6%，福利提升17.4%。值得注意的是，收入不平等會輕微上升，但消費不平等保持不變，這說明市場完善主要惠及的是最貧困的農戶。",
+      "en": "**Summary:** This study uncovers a fundamental tension faced by rural Ugandan farmers: in the absence of insurance and credit markets, poor households are forced to choose between high-yield-but-risky crops and low-yield-but-stable ones. The research demonstrates that wealth-poor farmers disproportionately gravitate toward safer, lower-productivity crops, creating a self-reinforcing cycle of inefficiency. When markets are completed, agricultural productivity could rise by 12.8%, with nearly 60 percent of that gain stemming from eliminating the misallocation of intermediate inputs across farmers and crops.\n\n**Problem:** Development economics has long grappled with how incomplete markets constrain economic outcomes in poor countries, yet there has been limited systematic analysis of how farmers balance risk and return when constructing crop portfolios. Previous studies often treated risk and input decisions in isolation, missing the critical link between the two. This paper addresses that gap by examining how market imperfections shape farmers' risk-bearing capacity, which in turn affects their input choices and overall agricultural productivity.\n\n**Approach:** The author draws on the Uganda National Panel Survey, combining empirical analysis with a structural model. First, the data is used to document how farmers actually allocate land across different crops. Second, an incomplete-markets model is developed in which households trade off income returns against consumption smoothing. Finally, the model is calibrated to rural Ugandan data to simulate the effects of market completion on productivity, consumption, and welfare.\n\n**Results:** The findings show that the poorest farmers concentrate on low-yield, low-risk crops, while wealthier households can afford to plant higher-yield but riskier varieties. Model simulations reveal that completing markets in rural Uganda would boost agricultural productivity by 12.8 percent, with 15.8 percent of that gain coming from correcting input misallocation. Consumption would rise by 17.6 percent and welfare by 17.4 percent. Notably, income inequality rises slightly, but consumption inequality remains unchanged—suggesting that market completion primarily benefits the poorest farmers."
+    },
+    "keyArticle": {
+      "title": "Incomplete markets, crop portfolios, and agricultural productivity",
+      "authors": [
+        "ALBERT RODRÍGUEZ-SALA"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103944",
+      "pages": "103944"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-28-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103944",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103944"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:35:00.613548+00:00",
+    "source": "openalex"
+  }
+}

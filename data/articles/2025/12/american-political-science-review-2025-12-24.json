@@ -1,0 +1,48 @@
+{
+  "id": "american-political-science-review-2025-12-24",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-12-24",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2025-12-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "鐵馬驛站換來暴動：法國大革命前國家擴張如何激化民變",
+      "en": "How the King's Horses Sparked Revolt: State-Building and Rebellion Before the French Revolution"
+    },
+    "summary": {
+      "zh": "【總結】一項針對18世紀法國的突破性研究揭示，國家建設過程本身就會製造動亂。作者利用教區級數據發現，馬郵驛站的擴張並未帶來秩序，反而引發了更多地方反抗。這項研究顛覆了「國家能力越強，社會越穩定」的直覺假設，為理解法國大革命的深層根源提供了全新視角。\n\n【研究問題】法國大革命前數十年間，全國各地爆發了數千起地方性起義，卻長期被學術界忽視。過往研究多聚焦於革命本身，而非其積累過程。作者試圖回答：當國家透過驛站網絡加深對地方的滲透時，為何反而激起更大規模的反抗？這涉及國家建設與社會秩序之間的複雜關係。\n\n【研究方法】研究者構建了1710年代至1780年代35,000個教區的面板數據，結合歷史上首次完整數位化的馬郵驛站網絡資料，以及Jean Nicolas編纂的8,516起暴動記錄。他們採用交錯差分法（staggered difference-in-differences），以教區為最小分析單位，比較驛站設立前後的地區與其他地區在暴動頻率上的差異，並控制了戰區、信息傳遞系統等多種替代解釋。\n\n【結果】研究發現，新設驛站與隨後數十年的地方暴動增加顯著相關，尤其是針對稅收徵收、軍事徵兵和司法執法這些國家強制力的反抗。在已有行政碎片化的地區，這種效應更為強烈。驛站網絡在這80年間幾乎翻倍，從841個驛站、11,000公里增長到1,403個驛站、24,000公里，而平均每個教區到最近驛站的距離從22公里縮短至13公里。這表明，國家基礎設施的擴張在強化中央控制的同時，也為民眾提供了更頻繁接觸並反抗國家機器的機會。",
+      "en": "**Summary:** A groundbreaking study of 18th-century France reveals that state-building itself generates unrest. Using parish-level data, the authors show that the expansion of the horse-post relay network—far from bringing order—sparked more local rebellion. This finding upends the intuitive assumption that greater state capacity automatically produces stability and offers a fresh lens for understanding the deep roots of the French Revolution.\n\n**Problem:** In the decades before the French Revolution, thousands of localized uprisings erupted across French territory, yet they have received comparatively little scholarly attention. Most research has focused on the Revolution itself rather than the accumulated grievances that preceded it. The authors ask: when the state deepened its penetration through relay stations, why did it provoke more resistance rather than compliance? This question sits at the heart of the long-debated relationship between state formation and social order.\n\n**Approach:** The researchers built a panel dataset covering 35,000 parishes from the 1710s to the 1780s, combining the first fully digitized horse-post relay network with Jean Nicolas's comprehensive database of 8,516 rebellions. They employed a staggered difference-in-differences design at the parish level, comparing areas that received new relays with those that did not, before and after the intervention. The analysis also tested and ruled out several alternative explanations, including war-zone effects, the letter-post system, changes in police recording practices, and broader transit infrastructure.\n\n**Results:** New horse-post relays were significantly associated with increased local rebellion in subsequent decades, particularly against state agents enforcing taxation, military conscription, and judicial authority. The effect was disproportionately stronger in areas with pre-existing administrative fragmentation. Over the 80-year period, the relay network nearly doubled—from 841 stations spanning 11,000 kilometers to 1,403 stations covering 24,000 kilometers—while the average distance from a parish to the nearest relay shrank from 22 km to 13 km. The findings suggest that state infrastructure, while strengthening central control, also brought state power more directly into contact with populations who had grievances against it."
+    },
+    "keyArticle": {
+      "title": "State-Building and Rebellion in the Run-Up to the French Revolution",
+      "authors": [
+        "MICHAEL ALBERTUS",
+        "Victor Gay"
+      ],
+      "doi": "10.1017/s0003055425101342",
+      "pages": "1031-1058"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2025-12-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101342",
+      "doi": "https://doi.org/10.1017/s0003055425101342"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-07T23:33:33.944027+00:00",
+    "source": "openalex"
+  }
+}
