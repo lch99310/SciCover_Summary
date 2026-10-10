@@ -1,0 +1,70 @@
+{
+  "id": "nature-2026-10-07",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8135",
+  "date": "2026-10-07",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當愛因斯坦改寫元素週期表：科學家首次在106號超重元素中證實「相對論化學鍵弱化」",
+      "en": "Relativity at the Edge of the Periodic Table: The Surprising Fragility of Seaborgium Hexacarbonyl"
+    },
+    "summary": {
+      "zh": "【總結】在元素週期表的最底端，極致的核電荷會迫使內層電子以接近光速狂飆，產生顯著的「相對論效應」，顛覆我們熟知的化學週期律。德國重離子研究所（GSI）的跨國團隊利用氣相反應與超靈敏層析探測技術，首次成功測量了106號超重元素「𨭎」（Seaborgium, Sg）所形成的六羰基化合物 Sg(CO)₆ 的第一鍵解離能（FBDE）。研究發現，從同族的鉬（Mo）、鎢（W）一路向下原本化學鍵越來越強的趨勢，在𨭎這裡意外逆轉——Sg–CO 鍵比 W–CO 鍵更弱。這項里程碑研究首次在「單原子」尺度上直接驗證了相對論對超重元素化學鍵的削弱機制，為現代相對論量子化學理論提供了最關鍵的實驗錨點。\n\n【研究問題】傳統週期律告訴我們，同族過渡金屬從上到下（第6族的鉻、鉬、鎢），金屬與一氧化碳之間的鍵結強度會隨原子序數增加而持續上升。若依非相對論理論推測，超重的𨭎應該形成更堅固的六羰基錯合物。然而，最新的相對論量子化學計算卻提出震撼預測：超重原子的內層電子因光速運動導致質量增加、軌域收縮，進而遮蔽了原子核電荷，引發外層 6d 價軌域在能量上「失穩並向外擴展」，最終同時削弱了金屬與配體間的 σ 配位與 π 反饋鍵。過去科學界面臨的巨大瓶頸在於：𨭎是人造超重元素，半衰期僅有幾百毫秒，合成產率低至每幾天僅數個原子，如何在極短壽命與極端微量的限制下，測出精準的化學鍵能？\n\n【研究方法】研究團隊利用重離子加速器，以高強度的鉻-52離子束轟擊鉛-208靶，藉由核融合反應合成出壽命僅約 320 毫秒的超重同位素 ²⁵⁹Sg，並同步以錫-112靶製造同族同位素 ¹⁶¹’¹⁶²W 作為參照基準。新生成的原子穿過氣體充填分離器 TASCA，在含有氦氣與一氧化碳的反衝轉移腔中迅速進行配位反應。研究設計了由兩組串聯探測器組成的氣相層析系統：第一組常溫 miniCOMPACT 陣列能即時捕捉不穩定、易吸附的未飽和碎片 M(CO)ₙ（n ≤ 5）；而化學惰性且具揮發性的完全配位化合物 M(CO)₆ 則能順利穿透，到達維持低溫梯度的第二組鍍金 COMPACT 陣列，並在極低溫下物理吸附。透過追蹤衰變鏈中的 α 粒子與自發分裂信號，研究團隊能精確統計單個分子的揮發比例與反應速率常數。\n\n【結果】在整整兩週的高強度實驗中，研究團隊在第二級鍍金探測器中成功捕捉到僅僅 3 個源自 ²⁵⁹Sg(CO)₆ 的特徵衰變事件，而在第一級陣列中則記錄了 72 個未飽和碎片事件。由此推算出 Sg(CO)₆ 的揮發性生成份額約為 0.04，顯著低於同族參照鎢（約 0.20）。透過阿瑞尼斯動力學模型轉換，團隊測得 Sg(CO)₆ 的第一鍵解離能為 188(9) kJ/mol，比 W(CO)₆ 的數值整整低了 4(2) kJ/mol；此外亦測得其在金表面的吸附焓為 -45 (+4/-6) kJ/mol。此數據確鑿證實了第6族羰基化合物鍵能「由增轉降」的逆轉趨勢，與相對論狄拉克-庫侖計算的預測高度契合。這項突破不僅在單原子極限下開創了超重元素物理化學參數的精準量測方法，更生動證明了相對論在宏觀物質建構中的決定性力量。",
+      "en": "**Summary:** At the farthest frontiers of the periodic table, superheavy nuclei harbor electrostatic fields so immense that inner-shell electrons orbit at relativistic speeds. This relativistic contraction drastically reshapes the chemical landscape, occasionally defying the familiar periodic trends established over a century ago. In an experimental feat published in *Nature*, an international team at GSI Darmstadt investigated the hexacarbonyl complex of seaborgium—element 106 ($^{259}\\text{Sg}$)—on a single-atom-at-a-time scale. By coupling gas-filled nuclear separation with cryogenic thermochromatography, the researchers determined the first bond dissociation energy (FBDE) of $\\text{Sg(CO)}_6$. Contrary to the non-relativistic expectation that bond strength continues to climb down Group 6, the seaborgium–carbon bond proves weaker than that of its lighter congener, tungsten. This direct observation provides definitive empirical proof of relativistic bond destabilization in superheavy organometallic systems.\n\n**Problem:** In Group 6 of the periodic table, the bond between transition metals and carbon monoxide strengthens steadily as one descends from chromium to molybdenum and tungsten ($\text{Cr} < \text{Mo} < \text{W}$). Non-relativistic models predict this trend should persist down to seaborgium ($\text{Sg}$, $Z = 106$). However, state-of-the-art relativistic quantum chemical calculations recently postulated an unexpected reversal: the indirect relativistic expansion and energetic destabilization of the valence $6d$ atomic orbitals in seaborgium should attenuate both $\\sigma$-donation and $\\pi$-backbonding, making $\\text{Sg(CO)}_6$ inherently less robust than $\\text{W(CO)}_6$. Experimentally validating this hypothesis was deemed nearly impossible because seaborgium isotopes are man-made, have sub-second half-lives, and can only be synthesized at production rates of isolated single atoms.\n\n**Approach:** The team synthesized the short-lived isotope $^{259}\\text{Sg}$ ($T_{1/2} \\approx 320\\text{ ms}$) via the fusion-evaporation reaction $^{208}\\text{Pb}(^{52}\\text{Cr}, 1n)^{259}\\text{Sg}$ at the UNILAC accelerator, alongside homologous tungsten isotopes ($^{161,162}\\text{W}$) under identical conditions. Recoil products were separated through the TASCA separator and thermalized within a recoil transfer chamber flushed with a helium and carbon monoxide mixture ($\text{He}:\text{CO} = 1:1$). Chemical species were analyzed using two silicon PIN-detector arrays in series: the room-temperature *miniCOMPACT* channel caught non-volatile, reactive carbonyl fragments ($\text{M(CO)}_n$, $n \\le 5$) on $\\text{SiO}_2$ surfaces, whereas the volatile hexacarbonyls ($\text{M(CO)}_6$) traveled downstream into the gold-coated *COMPACT* channel, where a steep negative temperature gradient (down to $-165\\,^\\circ\\text{C}$) induced physisorption. Decays and spontaneous fissions registered along the arrays yielded both chemical yields and deposition profiles.\n\n**Results:** Over a two-week run, the detectors registered 72 decay chains of $^{259}\\text{Sg}$ as non-volatile fragments in the first array, and precisely three $^{259}\\text{Sg(CO)}_6$ molecules in the cryo-adsorption channel. This translated to a volatile complex fraction of $0.04_{-0.02}^{+0.05}$ for seaborgium, markedly lower than the $0.20 \\pm 0.01$ observed for tungsten. By correlating these fractional yields with reaction rate constants via Arrhenius relations, the authors deduced that the first bond dissociation energy of $\\text{Sg(CO)}_6$ is $188(9)\\text{ kJ/mol}$—exactly $4(2)\\text{ kJ/mol}$ lower than that of $\\text{W(CO)}_6$ ($192(8)\\text{ kJ/mol}$). Furthermore, the adsorption enthalpy of $\\text{Sg(CO)}_6$ on gold was established at $-\\Delta H_{\\text{ads}}^{\\text{Au}} = 45_{-6}^{+4}\\text{ kJ/mol}$. By confirming that the Group 6 bonding trend reverses precisely at element 106, this work marks the first measurement of bond dissociation energy in a superheavy organometallic compound and showcases the paramount role of Einsteinian relativity in governing molecular stability."
+    },
+    "keyArticle": {
+      "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+      "authors": [
+        "Alexander B. Yakushev",
+        "J. Khuyagbaatar",
+        "Ch. E. Düllmann",
+        "Valeria Pershina",
+        "MATTHIAS SCHÄDEL",
+        "J. Ballof",
+        "P. Bartl",
+        "M. Block",
+        "Raul-Andrei Cantemir",
+        "Dominik Dietzel",
+        "F. Giacoppo",
+        "Katharina Hermainski",
+        "R.-D. Herzberg",
+        "Jan John",
+        "J. Krier",
+        "N. Kurz",
+        "S. Löchner",
+        "Moumita Maiti",
+        "Pavol Mošat’",
+        "S. Raeder",
+        "Tetsuya K. Sato",
+        "Brigitta Schausten",
+        "J. Uusitalo",
+        "P. Wieczorek"
+      ],
+      "doi": "10.1038/s41586-026-11105-2",
+      "pages": "337-341"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11105-2",
+      "doi": "https://doi.org/10.1038/s41586-026-11105-2"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-10T22:16:44.098430+00:00",
+    "source": "openalex"
+  }
+}

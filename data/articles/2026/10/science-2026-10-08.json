@@ -1,0 +1,68 @@
+{
+  "id": "science-2026-10-08",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6820",
+  "date": "2026-10-08",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當AI開始解決數學難題：AlphaProof Nexus 如何破解半世紀未解的艾狄胥猜想",
+      "en": "Cracking 50-Year-Old Conjectures: How AI-Driven Formal Proof Search Is Transforming Mathematics"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《Science》的研究標誌著人工智慧跨入前沿數學研究的重要里程碑。Google DeepMind 團隊打造了名為「AlphaProof Nexus」的自動形式化證明搜尋系統，成功自主解決了著名數學家艾狄胥（Paul Erdős）遺留的 9 道公開懸案（包含兩道懸宕長達 56 年的難題），並證明了整數數列線上大全（OEIS）中的 44 個未解猜想。研究證明，當大語言模型具備形式化語言編譯器的嚴密檢驗回饋後，不再只是複誦已知知識，而是能以每道題僅數百美元的運算成本，產出經得起嚴格邏輯檢驗、貨真價實的數學新突破。\n\n【研究問題】大語言模型雖然展現出驚人的符號推理潛力，但在面對深奧的專業數學時，極易產生看似合理卻帶有致命邏輯漏洞的「幻覺」。在複雜的長鏈推演中，一個微小瑕疵就會引發連鎖反應，導致整篇自然語言證明崩潰，必須仰賴人類數學家耗費大量心力逐行審查。先前 AI 在形式化證明（如 Lean 語言）上的突破多集中在高中奧林匹亞競賽題或既有論文的電腦代碼化轉譯；AI 能否在無人引導下，真正解決前沿、未經人類涉足的開放性科學難題，一直是指標性的未解之謎。\n\n【研究方法】研究團隊開發了 AlphaProof Nexus 框架，將前沿模型（Gemini 3.1 Pro）與具備嚴格型別檢查機制的 Lean 編譯器緊密耦合。系統設計了多層次代理人架構：基礎版採用多回合計畫與搜尋替換迴圈，依據 Lean 報錯即時自我修正；旗艦版則引入「演化演算法」，在共享的候選證明資料庫中維護證明草稿，並指派較輕量的 Gemini 3.0 Flash 擔任「評審員」，運用 Plackett-Luce 模型計算每篇草稿的 Elo 棋力評分，再透過 P-UCB 公式挑選最具潛力的草稿進行突變。當遇到棘手的局部子目標時，代理人更可調用強化學習驅動的專門工具 AlphaProof 攻堅。\n\n【結果】在針對 353 道艾狄胥問題的正式檢驗中，旗艦代理人成功攻克 9 題，包括結合中國剩餘定理與無等差數列集合解決了 1970 年的整除性密度難題（#12(i)），以及透過丟番圖逼近論證了基底 3 與 4 的受限位元和集下密度為零（#125）。此外，它驗證了 44/492 個 OEIS 猜想，破解了代數幾何中沉睡 15 年的純 O 序列對數凹性問題，並在凸最佳化中自主發現全新的演算法排程。更令人振奮的是，研究發現即使是不含演化庫的基礎代理人，也能在編譯器反饋引導下解開這 9 道難題，預示著強大通用模型搭配形式化驗證，已具備推動數學邊界的力量。",
+      "en": "**Summary:** In a landmark study published in *Science*, researchers from Google DeepMind introduced AlphaProof Nexus, an AI framework coupling large language models with the Lean formal proof assistant. The system autonomously solved 9 open problems posed by Paul Erdős and collaborators—including two conjectures that had remained open for 56 years—at an inference cost of merely a few hundred dollars per problem. Beyond recreational puzzles, the framework also proved 44 open conjectures from the OEIS, resolved a 15-year-old open question in algebraic geometry, and uncovered improved convergence bounds in convex optimization, signaling that AI-driven formal proof search has matured into a genuine engine of mathematical discovery.\n\n**Problem:** While frontier LLMs demonstrate surprising mathematical competence, their propensity for hallucination severely limits their reliability in genuine research. In human-language mathematics, subtle logical missteps cascade catastrophically, forcing mathematicians to spend enormous cognitive effort vetting machine-generated arguments. Prior successes of automated theorem proving had largely been confined to competition-style puzzles (such as IMO problems) or the post-hoc computer formalization of known proofs. Whether AI could independently formulate rigorous, end-to-end proofs for open mathematical frontiers without human steering remained an unresolved empirical question.\n\n**Approach:** The team engineered AlphaProof Nexus, an agent framework that interfaces Gemini 3.1 Pro with the Lean proof assistant, where mathematical statements compile into machine-verified code. They benchmarked configurations ranging from independent search agents driven by compiler error feedback to a full-featured evolutionary architecture. In the evolutionary setup, a population of proof sketches is iteratively refined; asynchronous rater agents (Gemini 3.0 Flash) conduct multi-sketch tournaments to assign dynamic Elo ratings via Plackett-Luce models, while a P-UCB sampling heuristic balances exploitation and exploration. Subagents decompose monolithic goals and selectively query AlphaProof, a reinforcement-learning theorem prover, to dispatch stubborn subgoals.\n\n**Results:** Across 353 formalized Erdős problems, the full-featured agent solved 9 instances, synthesizing non-trivial mathematical machinery such as the Chinese Remainder Theorem, progression-free sets, and Diophantine approximations. It rigorously proved 44 out of 492 formal conjectures from the OEIS, resolved the log-concavity of codimension-3, type-2 pure O-sequences in algebraic geometry, and designed an optimal parameter schedule for min-max convex optimization. Notably, a simpler agent alternating LLM edits with Lean feedback also replicated all 9 Erdős breakthroughs, demonstrating that immediate compiler feedback effectively grounds raw model reasoning and drastically lowers the barrier to AI-assisted scientific discovery."
+    },
+    "keyArticle": {
+      "title": "Advancing mathematics research with AI-driven formal proof search",
+      "authors": [
+        "George Tsoukalas",
+        "Anton Kovsharov",
+        "Sergey Shirobokov",
+        "Anja Surina",
+        "Moritz Firsching",
+        "Gergely Bérczi",
+        "Francisco J. R. Ruiz",
+        "Arun Suggala",
+        "Ascher Wagner",
+        "Eric Wieser",
+        "Lei Yu",
+        "Aja Huang",
+        "Miklós Z. Horváth",
+        "Andrew Ferrauiolo",
+        "Henryk Michalewski",
+        "Codruţ Grosu",
+        "Edward Lockhart",
+        "Thomas Hubert",
+        "Matej Balog",
+        "Pushmeet Kohli",
+        "Swarat Chaudhuri"
+      ],
+      "doi": "10.1126/science.aej2213",
+      "pages": "234-239"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aej2213",
+      "doi": "https://doi.org/10.1126/science.aej2213",
+      "preprint": "https://arxiv.org/abs/2605.22763"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-10T22:11:46.032020+00:00",
+    "source": "openalex"
+  }
+}

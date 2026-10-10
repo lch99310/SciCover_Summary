@@ -1,0 +1,49 @@
+{
+  "id": "journal-of-development-economics-2026-08-07",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-08-07",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-07-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "半天的職業啟蒙，如何重塑柬埔寨農村少年的命運軌跡？",
+      "en": "Mapping the Horizon: How Scalable Career Guidance Reshapes Educational Trajectories in Rural Cambodia"
+    },
+    "summary": {
+      "zh": "【總結】在資源匱乏的開發中國家，學生往往因為缺乏生涯指引而陷入「志向貧困」或「盲目設定目標」的困境。本研究發表於《發展經濟學期刊》（Journal of Development Economics），評估了一項在柬埔寨農村開展的半天生涯輔導工作坊。研究發現，這項低成本且高度可推廣的干預顯著提升了學生的整體教育投資，將高中入學率提高了5.9個百分點，並持續推動了高中畢業率。然而，干預效果展現出鮮明的「雙向分流」特徵：優等生受到激勵而大幅加碼學業努力，而後段班學生則務實下調了過度脫節的升學追求，將精力精準分配至基礎畢業門檻與職業道路。\n\n【研究問題】過往發展經濟學多將輟學歸咎於貧窮與學費負擔，卻忽視了「資訊不對稱」與「志向之窗（aspirations window）」受限的深層阻礙。柬埔寨因紅色高棉歷史創傷，成人教育水準極低，逾八成農村少年僅能想像教師、醫生或軍警等少數職業，對升學門檻及技職路徑一無所知。現有研究多著眼於高收入國家昂貴的長期諮詢，或低收入國家單純展示成功榜樣的宣傳，鮮少探索兼具個人化與規模化的生涯指引能否矯正教育資源錯配。當青少年缺乏對自身能力與就業市場的客觀參照時，究竟會如何影響其人力資本投資？\n\n【研究方法】研究團隊針對柬埔寨農村37所國中、共1,715名九年級（義務教育最後一年）學生實施了隨機對照試驗（RCT）。受試學生參加了為期半天的精簡工作坊，利用平板應用程式進行性格與興趣探索（IET），並獲取各類職業的技能要求、日常工作內容及薪資回報（CET），隨後參與涵蓋高中升學與技職培訓成本的資訊講座。作者追蹤長達3.5年的行政學籍檔案與疫情期間的電話訪談，並建構了一個結合「里程碑效用」與「內生志向」的理論模型，細緻拆解學生基線成績對資訊回饋的異質性反應。\n\n【結果】長期追蹤顯示，干預組學生的九年級會考出席率提升2.6個百分點，會考成績顯著提高0.22個標準差，高中入學率增加5.9個百分點（增幅7.9%），十一年級升學率提升6.2個百分點，最終高中畢業率亦增加3.9個百分點。但這項平均紅利掩蓋了強烈的異質性：成績前50%的學生志向高遠且更努力自習，成為推升升學率的主力；反之，成績後50%的學生在認清現實後降低了過高的學術志向，疫情期間自習減少，會考成績微幅下滑，但並未衝擊其基礎畢業率。這項發現表明，精準的生涯指引並非盲目灌輸雞湯，而是打破狹隘的認知邊界，讓不同天賦的學生找到最適的人力資本定位。",
+      "en": "**Summary:** In impoverished rural settings, adolescents often chart their educational futures in the dark, tethered to vague ambitions and severe informational deficits. A pioneering study in the *Journal of Development Economics* investigates a light-touch, half-day career guidance workshop administered to 1,715 Grade 9 students across rural Cambodia. The researchers demonstrate that providing adolescents with personalized vocational exploration and structural information on schooling costs systematically alters educational investments over a 3.5-year horizon. Crucially, the intervention does not merely produce a uniform uplift; it induces a rational sorting. Academically top-performing adolescents intensified their scholastic effort and drove a sustained increase in high school completion, whereas lower-performing students recalibrated away from unachievable academic paths toward realistic baselines.\n\n**Problem:** While standard economic models treat schooling attrition primarily as a liquidity constraint, students in low-income countries also suffer from severely truncated \"aspirations windows.\" In post-conflict Cambodia, where the Khmer Rouge eradicated an entire generation of educated professionals, parental guidance is virtually absent, and over 85 percent of rural students can identify only four careers: teacher, doctor, police officer, or soldier. Existing literature either evaluates expensive, high-contact mentoring programs in wealthy nations or passive role-model videos in developing economies that often fail to trigger actionable steps. The critical question remains: can an easily scalable, digital career intervention correct belief distortions and optimize educational investment without inducing despair or misallocating effort?\n\n**Approach:** The authors conducted a cluster-randomized controlled trial across 37 rural lower-secondary schools. Grade 9 students in treatment schools received a half-day workshop featuring a tablet-based Interest and Career Exploration Tool (IET and CET)—grounded in psychological vocational typologies—alongside a structured information session detailing academic paths, vocational alternatives, and actual financial requirements. Utilizing individual-level administrative data tracked through lower-secondary completion and three years of high school, complemented by lockdown phone surveys, the authors measured educational progression, effort, and subjective aspirations. To interpret the empirical results, they formulated a microeconomic model marrying endogenous aspiration formation with milestone utility, where information frictions restrict the perceived choice set of effort-aspiration pairs.\n\n**Results:** On average, workshop attendance yielded substantial and lasting dividends: treated students were 2.6 percentage points more likely to sit for the Grade 9 national examination, scored 0.22 standard deviations higher, were 5.9 percentage points (7.9%) more likely to enroll in high school, and were 3.9 percentage points (7.0%) more likely to graduate high school. Beneath these averages lay striking heterogeneity: baseline high-performers expanded their occupational horizons, studied more during pandemic lockdowns, and captured the long-term gains in high school progression. Conversely, baseline low-performers reduced redundant academic effort during Grade 9, recalibrating their aspirations toward feasible vocational profiles. Far from a blunt motivational nudge, low-cost personalized guidance serves as an allocative compass, harmonizing human capital investment with comparative advantage."
+    },
+    "keyArticle": {
+      "title": "Career guidance and investments in education: Experimental evidence from Cambodia",
+      "authors": [
+        "Esther Gehrke",
+        "Friederike Lenel",
+        "Claudia Schupp"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103898",
+      "pages": "103898"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-07-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103898",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103898"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-10T22:26:57.071212+00:00",
+    "source": "openalex"
+  }
+}

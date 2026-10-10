@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-08-04",
+  "journal": "Political Geography",
+  "volume": "131",
+  "issue": "",
+  "date": "2026-08-04",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "街頭與牢房的無縫接軌：加州首府的「監禁式住房危機」",
+      "en": "From the Sidewalk to the Cell: How Sacramento’s Housing and Prison Crises Merged"
+    },
+    "summary": {
+      "zh": "在加州首府沙加緬度，天際線下並存著兩道刺眼的城市景觀：急速蔓延的街友帳篷，以及戒備森嚴的監獄與警政體系。傳統視角往往將遊民問題歸咎於房地產市場失靈，將大規模監禁視為刑事司法議題，但政治地理學者米雅·卡麗莎·道森（Mia Karisa Dawson）指出，這兩者根本是同一套暴力邏輯的兩面——她稱之為「監禁式住房危機」（carceral housing crisis）。居無定所者與受刑人不僅高度重疊，資本利益更在驅逐貧民與興建監管設施之間找到了驚人的共生之道。\n\n透過訪談當地的街友、在押者與假釋人員，道森揭示了這場危機在日常生活中的運作機制。從針對露宿者的清場掃蕩、嚴苛的罰單，到假釋條款中近乎苛刻的居住限制，城市治理逐步將生存空間「監獄化」；而走出鐵窗的人，也往往因犯罪前科被排擠出租屋市場，再度跌入街頭的泥淖。牢房與帳篷之間形成了一道旋轉門，國家的強制力與私人資本聯手，將貧困者徹底鎖定在無休止的監控與不安全感之中。\n\n然而，抵抗的種子也在街頭生根。沙加緬度的一線廢除主義（abolitionist）運動者拒絕採取修補式的改革，而是將廢除監獄與爭取居住權視為不可分割的戰役。道森記錄了這些團體如何將激進的政治理想轉化為具體的日常實踐：透過非資本主義的互助網絡、去商品化的庇護實驗，以及拒絕引入警察暴力的社區照護，他們正試圖證明，唯有從根本上瓦解懲罰與掠奪的邏輯，真正的城市正義才有可能實現。",
+      "en": "In California’s capital city, two defining crises of modern American life collide: an explosion of unhoused encampments and an expansive apparatus of policing and incarceration. In Political Geography, Mia Karisa Dawson argues that these are not separate social dysfunctions, but twin facets of a unified structure she defines as a “carceral housing crisis.” By tracking how land speculation and penal systems reinforce one another, Dawson demonstrates that housing deprivation and imprisonment govern the exact same marginalized populations, enrich overlapping capital interests, and blur the boundaries between life inside a cell and life on the street.\n\nDrawing on in-depth interviews with unhoused residents, incarcerated individuals, and people on probation in Sacramento, the study traces the brutal, mundane mechanisms through which this crisis unfolds every day. Municipal sweeps, criminal citations for sleeping in public, and the spatial surveillance of unhoused communities turn public space into an extension of the prison yard. Conversely, the stigma of a criminal record and the punishing mandates of parole virtually lock formerly incarcerated individuals out of the formal housing market, creating a relentless pipeline that shuffles vulnerable people between the asphalt and the cage.\n\nCrucially, Dawson spotlights how local abolitionist coalitions are intervening in this vicious cycle. Rather than treating prison reform and tenant advocacy as discrete silos, organizers in Sacramento view decarceration and housing justice as indivisible struggles. By creating community-led alternatives grounded in non-capitalist mutual aid and non-coercive sanctuary, these activists show how abolitionist theory is forged into material reality—arguing that dismantling mass incarceration requires reimagining the right to shelter from the ground up."
+    },
+    "keyArticle": {
+      "title": "Abolition and the everyday life of Sacramento's carceral housing crisis",
+      "authors": [
+        "Mia Karisa Dawson"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103634",
+      "pages": "103634"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103634",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103634"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-10T22:18:56.575244+00:00",
+    "source": "openalex"
+  }
+}

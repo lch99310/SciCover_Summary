@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-10-07T23:35:00.676825+00:00",
+  "lastUpdated": "2026-10-10T22:26:57.115746+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-08",
+      "journal": "Science",
+      "date": "2026-10-08",
+      "path": "articles/2026/10/science-2026-10-08.json",
+      "title_zh": "當AI開始解決數學難題：AlphaProof Nexus 如何破解半世紀未解的艾狄胥猜想",
+      "title_en": "Cracking 50-Year-Old Conjectures: How AI-Driven Formal Proof Search Is Transforming Mathematics",
+      "cover_url": "data/images/science/science-2026-10-08-cover.jpg"
+    },
+    {
+      "id": "nature-2026-10-07",
+      "journal": "Nature",
+      "date": "2026-10-07",
+      "path": "articles/2026/10/nature-2026-10-07.json",
+      "title_zh": "當愛因斯坦改寫元素週期表：科學家首次在106號超重元素中證實「相對論化學鍵弱化」",
+      "title_en": "Relativity at the Edge of the Periodic Table: The Surprising Fragility of Seaborgium Hexacarbonyl",
+      "cover_url": "data/images/nature/nature-2026-10-07-cover.jpg"
+    },
+    {
+      "id": "cell-2026-10-01",
+      "journal": "Cell",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/cell-2026-10-01.json",
+      "title_zh": "奪明變形蟲的「能量雙修」之謎：粒線體蛋白組揭示缺氧下吐出氫氣的演化奇蹟",
+      "title_en": "The Amoeba That Breathes Without Air: Decoding the Hydrogen-Producing Mitochondria of an Eye Pathogen",
+      "cover_url": "data/images/cell/cell-2026-10-01-cover.jpg"
+    },
     {
       "id": "science-2026-10-01-02",
       "journal": "Science",
@@ -108,6 +135,15 @@
       "title_zh": "火熱中的生命奇蹟：新發現的阿米巴蟲打破真核生物耐熱極限",
       "title_en": "Life in the Furnace: A New Amoeba Shatters the Eukaryotic Heat Limit",
       "cover_url": "data/images/cell/cell-2026-09-22-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-09-17",
+      "journal": "American Sociological Review",
+      "date": "2026-09-17",
+      "path": "articles/2026/09/american-sociological-review-2026-09-17.json",
+      "title_zh": "鏡像還是稜鏡？組織如何悄悄重構社會的不平等",
+      "title_en": "Prism or Mirror: How Organizations Reshape the Architecture of Inequality",
+      "cover_url": ""
     },
     {
       "id": "journal-of-development-economics-2026-09-17",
@@ -515,6 +551,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-08-08-cover.jpg"
     },
     {
+      "id": "journal-of-development-economics-2026-08-07",
+      "journal": "Journal of Development Economics",
+      "date": "2026-08-07",
+      "path": "articles/2026/08/journal-of-development-economics-2026-08-07.json",
+      "title_zh": "半天的職業啟蒙，如何重塑柬埔寨農村少年的命運軌跡？",
+      "title_en": "Mapping the Horizon: How Scalable Career Guidance Reshapes Educational Trajectories in Rural Cambodia",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-07-cover.jpg"
+    },
+    {
       "id": "science-2026-08-06",
       "journal": "Science",
       "date": "2026-08-06",
@@ -540,6 +585,15 @@
       "title_zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
       "title_en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing",
       "cover_url": "data/images/nature/nature-2026-08-05-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-08-04",
+      "journal": "Political Geography",
+      "date": "2026-08-04",
+      "path": "articles/2026/08/political-geography-2026-08-04.json",
+      "title_zh": "街頭與牢房的無縫接軌：加州首府的「監禁式住房危機」",
+      "title_en": "From the Sidewalk to the Cell: How Sacramento’s Housing and Prison Crises Merged",
+      "cover_url": ""
     },
     {
       "id": "cell-2026-08-01-02",
@@ -3492,6 +3546,15 @@
       "title_zh": "LLM加持，論文生產爆炸？學術界面臨新考驗",
       "title_en": "The LLM Effect: How AI is Rewriting the Rules of Scientific Production",
       "cover_url": "data/images/science/science-2025-12-18-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2025-12-17",
+      "journal": "American Political Science Review",
+      "date": "2025-12-17",
+      "path": "articles/2025/12/american-political-science-review-2025-12-17.json",
+      "title_zh": "誰在替美國政府踩煞車？白宮審查大數據揭開聯邦官僚的「意識形態光譜」",
+      "title_en": "Mapping the Administrative State: How White House Oversight Uncovers Agency Ideology",
+      "cover_url": ""
     },
     {
       "id": "american-sociological-review-2025-12-17",

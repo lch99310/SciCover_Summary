@@ -1,0 +1,78 @@
+{
+  "id": "cell-2026-10-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-10-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "奪明變形蟲的「能量雙修」之謎：粒線體蛋白組揭示缺氧下吐出氫氣的演化奇蹟",
+      "en": "The Amoeba That Breathes Without Air: Decoding the Hydrogen-Producing Mitochondria of an Eye Pathogen"
+    },
+    "summary": {
+      "zh": "【總結】棘阿米巴原蟲（Acanthamoeba castellanii）是一種惡名昭彰的單細胞病原體，常隨隱形眼鏡感染角膜導致劇痛甚至失明。這項發表於《Cell》的重大研究，為其粒線體繪製出高解析度的「蛋白質全景圖譜」（AcMitoCarta），收錄了1,122種高置信度粒線體蛋白。令人震驚的是，其中超過三分之一的蛋白質在人類或酵母菌粒線體中完全找不到對應同源物。研究團隊不僅繪製出複雜的巨分子複合體網絡，更首次從實驗上證實：當環境缺氧時，這種變形蟲會迅速重塑其能量代謝網絡，啟動源自細菌水平基因轉移（HGT）的無氧途徑，透過粒線體內的鐵鐵氫化酶（[FeFe]-hydrogenase, HydA）直接釋放氫氣（H2）。這項突破打破了傳統對真核生物粒線體只能進行「有氧呼吸」的固有想像，揭開了早期真核生物能量適應的演化拼圖，也為長年缺乏有效藥物的棘阿米巴角膜炎指明了全新的特異性治療靶點。\n\n【研究問題】教科書中通常將粒線體視為「細胞的發電廠」，專職有氧呼吸與氧化磷酸化。然而，在生命之樹的漫長演化中，不同生物的粒線體經歷了劇烈的分化。棘阿米巴原蟲作為真核生物基群的變形蟲綱代表，生活在氧氣濃度劇烈波動的土壤、深水乃至宿主缺氧的角膜組織中，過去基因體分析曾隱約預測它可能兼具「有氧」與「無氧」代謝能力，甚至擁有厭氧菌的特徵產氫模組。但過去幾十年來，科學家面臨著棘手難題：棘阿米巴的基因組結構緊湊且內含子繁多，蛋白質定位預測準確率極差；傳統粒線體分離純度不足導致質譜污染嚴重；且從未有人成功為其粒線體蛋白進行活體螢光標定與影像驗證，更無人真正測量過變形蟲粒線體是否真的會產生氫氣。這些能量途徑究竟是靜止的演化遺跡，還是隨氧氣波動而動態切換的生命防線？這一直是演化生物學與寄生蟲學的重大懸案。\n\n【研究方法】研究團隊結合了尖端多組學技術與嚴謹的生物物理學實驗。首先，他們利用超深度轉錄組將棘阿米巴的基因組註解準確率從52%大幅提升至98%；接著在粒線體外膜蛋白TOM7上融合標籤，創新開發出「粒線體免疫沉澱法」（MitoIP），並搭配等滲透壓Percoll密度梯度離心與蛋白酶K消化外圍雜質，將粒線體純度推向極致。研究者運用資料非依賴採集質譜（DIA-MS）結合蛋白質相關性分型（PCP），對比三種經典粒線體標記（TOM40、HSPD1、ISCU）的富集軌跡，精確篩選出1,084種高信度蛋白。更具突破性的是，團隊利用基因合成與共軛焦顯微鏡，首次在活體棘阿米巴中成功標定並證實了96種粒線體蛋白的精確定位。最後，他們藉助藍色原位凝膠電泳質譜（BN-PAGE-MS）解析出20組超大蛋白質複合體，並以克拉克型高靈敏度氫氣感測電極，即時監測原蟲在常氧與無氧培養下的產氫動力學。\n\n【結果】研究最終建構出包含1,122種蛋白質的AcMitoCarta圖譜，其中381種蛋白質完全不存在於人類或酵母粒線體中。令人驚奇的是，圖譜中有53種蛋白質（約5%）是棘阿米巴在演化史中直接從原核生物「借來」的水平基因轉移產物；例如原核生物的擬核結合蛋白HupA，在此竟取代了人類的TFAM，專職負責變形蟲粒線體DNA的纏繞與維護。在代謝機制上，轉錄組與蛋白質組分析顯示，當氧氣被抽離時，棘阿米巴會關閉傳統的電子傳遞鏈複合物，急劇上調由丙酮酸:鐵氧還原蛋白氧化還原酶（PFOR）與[FeFe]-氫化酶（HydA）構成的厭氧通道。電化學實驗明確證實，無氧誘導後的棘阿米巴粒線體具有強大的產氫活性，而一旦重新接觸空氣，這套氫化酶便迅速失活。更重要的是，在多株臨床致盲分離株中，研究團隊驗證了這些無氧途徑在原蟲存活中的關鍵作用，並發現特異性阻斷這些代謝分支能有效抑制病原體，為克服棘阿米巴角膜炎現行療法毒性大、易抗藥的臨床困境提供了嶄新的靶向生機。",
+      "en": "**Summary:** *Acanthamoeba castellanii*, a ubiquitous protozoan famous for causing blinding keratitis and lethal encephalitis, occupies a pivotal evolutionary branch as an outgroup to both animals and fungi. In a landmark study published in *Cell*, researchers established \"AcMitoCarta\"—a definitive, high-confidence catalog comprising 1,122 mitochondrial proteins. Remarkably, over a third of these proteins (381) have no recognizable counterparts in human or yeast mitochondria. By marrying deep proteomics with structural complexome profiling and live-cell confocal imaging, the authors uncovered an extraordinary metabolic plasticity: when deprived of oxygen, *Acanthamoeba* radically remodels its organellar machinery to switch on an ancient, horizontally transferred anaerobic engine. For the first time, isolated amoebic mitochondria were directly demonstrated to generate molecular hydrogen (H2) via a bona fide, oxygen-sensitive [FeFe]-hydrogenase. This work redefines our understanding of eukaryotic bioenergetic evolution and opens an unprecedented window for targeted therapies against a devastating ocular pathogen.\n\n**Problem:** While standard biology models celebrate the mitochondrion as an oxygen-devouring ATP turbine, organisms scattered across the tree of life inhabit dramatically shifting oxygen regimes. *Acanthamoeba* thrives anywhere from oxygen-rich topsoil to the nearly anoxic depths of stagnant water, as well as in hypoxic tissue niches beneath contact lenses. Early genomic clues hinted that its mitochondrion might harbor ancestral anaerobic machinery, but experimental verification remained elusive. Prior mitochondrial proteomics suffered from severe cellular contamination (yielding an estimated 25% false-discovery rate), nuclear gene models were plagued by inaccurate intron annotations, and not a single tagged mitochondrial protein had ever been successfully visualized in this pathogen via microscopy. Crucially, whether hypothesized anaerobic enzymes—such as pyruvate:ferredoxin oxidoreductase (PFOR) and [FeFe]-hydrogenase (HydA)—actually resided inside the organelle, assembled into functional units, and responded dynamically to physiological oxygen gradients had remained an unresolved biological paradox.\n\n**Approach:** To overcome these longstanding hurdles, the authors first re-annotated the *Acanthamoeba* nuclear genome using deep RNA sequencing, boosting gene model accuracy from 52% to 98%. They next developed a robust mitochondrial immunoprecipitation (MitoIP) protocol by expressing a tagged outer-membrane construct (3xHA-eGFP-TOM7), combined with proteinase K treatment and isotonic Percoll density gradients to achieve pristine organellar purity. Using data-independent acquisition mass spectrometry (DIA-MS) across serial fractions, they implemented protein correlation profiling (PCP) against canonical markers (TOM40, HSPD1, ISCU), achieving an 80% sensitivity at an 8% false-discovery rate. The team paired this proteomic core with the first extensive confocal immunofluorescence campaign in *Acanthamoeba*, directly confirming the mitochondrial residency of 96 proteins. Furthermore, Blue Native PAGE mass spectrometry (BN-PAGE-MS) resolved 20 macromolecular complexes, while Clark-type polarographic electrodes and methyl viologen assays quantitatively captured live hydrogen generation under stringently controlled hypoxic and anoxic conditions.\n\n**Results:** The resulting AcMitoCarta comprises 1,122 proteins, establishing that 53 proteins arose from prokaryotic horizontal gene transfer (HGT)—a two-fold enrichment relative to the broader proteome. Notably, an HGT-acquired bacterial histone-like protein, HupA, was shown via gel-shift assays and imaging to colocalize with mitochondrial DNA, functionalizing as an evolutionary substitute for canonical human TFAM. Complexome mapping revealed a deeply rewired electron transport chain, alongside extensive diversity in the mitoribosome and ATP synthase. When challenged with anoxia, the amoeba drastically dialed down aerobic respiratory complexes and simultaneously induced the PFOR-HydA cascade. The authors experimentally proved that isolated *Acanthamoeba* mitochondria vigorously produce H2 gas under anoxia, an activity immediately extinguished upon air re-exposure due to the extreme oxygen sensitivity of the catalytic H-cluster. Finally, this dynamic bioenergetic architecture was confirmed across clinical patient isolates, demonstrating that inhibiting these unique anaerobic and divergent aerobic pathways can selectively starve the amoeba of ATP, offering promising avenues for non-toxic, highly targeted antiparasitic drug discovery."
+    },
+    "keyArticle": {
+      "title": "Mitochondrial proteome of Acanthamoeba delineates aerobic and anaerobic pathways dynamically regulated by oxygen",
+      "authors": [
+        "Jonathan A. Stefely",
+        "Felicia G. Deng",
+        "Michael Z. Chen",
+        "Khanh Nguyen",
+        "Bridget E Luce",
+        "Michelle Y. Fry",
+        "Xiaoyan A. Guo",
+        "Konstantinos Maliaris",
+        "Keith D. Rivera",
+        "Malvina Papanastasiou",
+        "Tiana M. Issa",
+        "Bharath Kanakapura Sundararaj",
+        "Sophia L.Y. Root",
+        "D.R. Mani",
+        "Ruslan Aphasizhev",
+        "Inna Aphasizheva",
+        "Cora N. Betsinger",
+        "Steven A. Carr",
+        "Manoj T. Duraisingh",
+        "Manish Goyal",
+        "Minsoo Kim",
+        "Cameron Genxuan Lian",
+        "Yi-Ting Liao",
+        "Syed Yusuf Mian",
+        "Aditya S. Paul",
+        "Md Solayman",
+        "Andres F. Vacas",
+        "Luke H. Chao",
+        "Sarah E. Calvo",
+        "Namrata D. Udeshi",
+        "John C. Samuelson",
+        "Vamsi Krishna Mootha"
+      ],
+      "doi": "10.1016/j.cell.2026.08.056",
+      "pages": "6246-6266.e19"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-10-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.056",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.056"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-10T22:17:46.408827+00:00",
+    "source": "openalex"
+  }
+}

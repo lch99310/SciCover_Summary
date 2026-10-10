@@ -1,0 +1,39 @@
+{
+  "id": "american-political-science-review-2025-12-17",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-12-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰在替美國政府踩煞車？白宮審查大數據揭開聯邦官僚的「意識形態光譜」",
+      "en": "Mapping the Administrative State: How White House Oversight Uncovers Agency Ideology"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，美國聯邦行政官僚究竟是專業中立的執行機器，還是帶有鮮明黨派偏向的「隱形決策者」？政治學者 Alex Acs 在《美國政治學評論》（APSR）發表的突破性研究，提出了一套創新的動態測量模型。研究跳脫傳統問卷或政治獻金等間接推測，直接從柯林頓至川普四任政府期間、白宮「資訊與法規事務辦公室」（OIRA）審查聯邦法規的實證博弈數據入手，繪製出 69 個聯邦監管機構跨越數十年的意識形態動態地圖，並成功將行政官僚與國會議員置於同一個意識形態空間進行跨機構比較。\n\n【研究問題】在美國政黨極化加劇的背景下，聯邦法規早已成為兩黨交鋒的主戰場。然而，實證政治學長期面臨一個「黑箱難題」：究竟該如何客觀衡量聯邦機構自身的政策偏好？過去的研究多依賴公務員問卷調查、政治獻金或選民登記資料，這些方法不僅充斥主觀偏差，更無法動態捕捉機構偏好隨政治人事更迭、法規重組或外部危機產生的質變。若無法準確估算機構與總統之間的意識形態落差，學界便難以釐清官僚代理問題（Principal-Agent Problem）究竟如何牽制總統施政。\n\n【研究方法】作者借鑑賽局理論中的「猜硬幣（matching pennies）」邏輯：當監管機構與白宮政策理念相近時，白宮傾向信任並減少審查；但若兩者立場相左，白宮 OIRA 就會如「警察巡邏」般加強抽查，甚至過濾那些被機構標註為不重要的常規法規。研究整合了《聯邦法規統一議程》中各機構提報的法規清單與 OIRA 實際審查資料庫，建立了一套貝氏項目反應理論（IRT）測量模型。該模型引入總統的 NOMINATE 立法空間分數作為基準錨點，並透過隨機遊走（random walk）統計過程，動態追蹤機構在柯林頓、小布希、歐巴馬及川普四任政府間的意識形態位移。\n\n【結果】研究揭示了聯邦官僚機構鮮明的「非對稱偏左」格局。職業安全與健康管理局（OSHA）與環保署空保處（EPA Air）最為激進偏左，OSHA 的自由主義傾向甚至超過了參議院最左翼的民主黨議員；相對地，保守派機構如小企業署（SBA）與食藥局（FDA）則落在光譜右側，但極端程度遠不及左翼機構。專利局（PTO）與航太總署（NASA）等處理常規技術事務的機構則穩居中間立場。此外，機構意識形態並非一成不變：歷經漏油事故與重組的海洋能源管理局顯著走向溫和，而川普指派普魯伊特掌舵後的環保署則劇烈向右靠攏。最關鍵的發現是：當機構與總統意識形態契合度越高時，審查摩擦越小，其法規產出效率出現顯著躍升。",
+      "en": "**Summary:** For decades, uncovering the latent ideological leanings of the American administrative state has presented a formidable methodological challenge. In this landmark study, political scientist Alex Acs develops a novel dynamic measurement model rooted in Item Response Theory (IRT) to chart the political contours of 69 federal regulatory agencies across four presidential administrations, spanning from Bill Clinton to Donald Trump. By analyzing the discretionary review decisions of the White House Office of Information and Regulatory Affairs (OIRA), Acs maps bureaucratic ideal points onto the common spatial continuum shared by members of Congress and the president, offering unprecedented insight into institutional friction within the executive branch.\n\n**Problem:** Understanding bureaucratic ideology is essential to diagnosing the classical principal-agent problem: do administrative agencies faithfully reflect presidential priorities, or do they possess entrenched policy biases that resist political control? Previous empirical studies largely relied on perceptual surveys of federal executives, campaign donations, or voter registration records. These proxies capture personal political behavior rather than institutional policymaking, struggle to untangle civil-service culture from political leadership, and fail to track how an agency's policy orientation fluctuates dynamically over time in response to legislative shocks or executive reorganizations.\n\n**Approach:** Acs models the regulatory review process as a strategic game analogous to 'matching pennies' and 'police patrol' oversight. When an agency diverges ideologically from the sitting president, the White House faces heightened incentives to scrutinize its planned regulations—even reviewing measures the agency designates as routine or non-significant. Merging the Unified Agenda of Federal Regulatory Activity with historical OIRA review logs, the paper constructs an IRT measurement model where review probabilities depend on the quadratic spatial distance between the president and the agency. Crucially, presidential DW-NOMINATE scores serve as identifying anchors, while agency ideal points evolve across administrations via a random walk, placing regulators in the same spatial dimension as congressional lawmakers.\n\n**Results:** The empirical estimates reveal a striking, left-skewed regulatory bureaucracy. High-conflict agencies anchor the liberal extreme: the Occupational Safety and Health Administration (OSHA) is estimated to be more liberal than the most progressive Senate Democrat, followed closely by the EPA's Office of Air and entitlement administrators like the SSA and CMS. Conversely, conservative agencies are fewer and less extreme, led by the Small Business Administration (SBA). While technical and procedural bodies like NASA and the Patent and Trademark Office remain solidly centrist, agency positions undergo meaningful dynamic shifts: the Minerals Management Service moderated noticeably after its post-Deepwater Horizon overhaul, and the EPA swung sharply conservative under Trump appointee Scott Pruitt. Crucially, Acs shows that ideological proximity to the president directly governs administrative velocity, driving substantially higher regulatory productivity."
+    },
+    "keyArticle": {
+      "title": "Mapping the Political Contours of the Regulatory State: Dynamic Estimates of Agency Ideal Points",
+      "authors": [
+        "Alex Acs"
+      ],
+      "doi": "10.1017/s0003055425101391",
+      "pages": "1013-1030"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101391",
+      "doi": "https://doi.org/10.1017/s0003055425101391"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-10T22:21:38.227700+00:00",
+    "source": "openalex"
+  }
+}

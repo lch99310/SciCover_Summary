@@ -1,0 +1,40 @@
+{
+  "id": "american-sociological-review-2026-09-17",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "5",
+  "date": "2026-09-17",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "鏡像還是稜鏡？組織如何悄悄重構社會的不平等",
+      "en": "Prism or Mirror: How Organizations Reshape the Architecture of Inequality"
+    },
+    "summary": {
+      "zh": "我們身處的學校、企業與機構，究竟只是被動複製社會既有的種族、性別與階級偏見，還是有能力打破這些外在枷鎖？長久以來，社會學界對於不平等的討論往往聚焦於宏觀制度或個體偏見，卻忽略了組織內部究竟如何定義「誰是有價值的成員」。社會學家 Brent Hoagland 與 Hana R. Shepherd 在《美國社會學評論》發表的最新研究，提出了一個關鍵診斷概念——「組織整固度」（organizational consolidation），精準描繪了組織如何扮演折射社會階層的「稜鏡」。\n\n所謂組織整固度，指的是外在賦予的身分標籤（如種族、性別、階級）與組織內部評價標準之間的重合程度。當整固度極高時，組織便成了一面平滑的鏡子：外在身分直接對應著內部認可，既有的特權被原封不動地複製；然而，當整固度較低時，組織便如同一座稜鏡，打破了外在標籤的單一主導地位。內部評價轉而仰賴成員複雜的行為特質與多維度特徵的交互作用，使邊緣群體也有可能在特定情境中獲得肯定與資源。\n\n為了捕捉這種微妙的在地意義建構，研究者結合了關聯規則探勘、潛在類別分析與偏序集建模等跨領域方法，深入剖析了一所種族多元且整固度較低的美國高中。研究發現，在整固度低的環境中，教師評斷學生並非單純依循單一種族或性別刻板印象，而是交織考量多重脈絡與組織特質。這項研究不僅提供了一套量化診斷組織結構的全新工具，更提醒我們：不平等並非無法撼動的既定命運，理解並調整組織內部的評價機制，正是重塑社會公平的關鍵起點。",
+      "en": "Do institutions simply mirror the racial, gender, and class divides of the wider world, or do they possess the power to refract them into something fundamentally different? Sociologists Brent Hoagland and Hana R. Shepherd tackle this enduring question in the American Sociological Review by introducing \"organizational consolidation\"—a structural measure of the degree to which external ascriptive statuses align with local, context-specific criteria of worth and recognition.\n\nAt the core of their framework lies the distinction between reflection and refraction. When organizational consolidation is high, external status markers dictate who is celebrated and who is marginalized, turning the organization into an amplifier of societal privilege. But when consolidation is low, local interactions disrupt this straightforward mapping. Evaluative rubrics become decouple from crude demographic categories, allowing complex, intersectional combinations of behavior and identity to yield recognition in unexpected ways.\n\nTo map these micro-politics of evaluation, the authors develop a sophisticated analytical toolkit combining association rule mining, latent class analysis, and partial order set modeling. Applying these methods to a racially diverse U.S. high school with low consolidation, they reveal how educators evaluate students through intricate bundles of characteristics rather than isolated demographic proxies. By formalizing consolidation as a measurable condition, the study provides scholars and institutional leaders with a rigorous diagnostic to pinpoint exactly how organizations can move from reproducing inequality to actively reshaping it."
+    },
+    "keyArticle": {
+      "title": "Organizational Consolidation: How Organizations Reflect or Refract Societal Hierarchies",
+      "authors": [
+        "Brent Hoagland",
+        "Hana R. Shepherd"
+      ],
+      "doi": "10.1177/00031224261475238",
+      "pages": "731-764"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261475238",
+      "doi": "https://doi.org/10.1177/00031224261475238"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-10T22:19:51.786642+00:00",
+    "source": "openalex"
+  }
+}
