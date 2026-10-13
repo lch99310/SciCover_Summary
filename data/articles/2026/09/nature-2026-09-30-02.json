@@ -1,0 +1,53 @@
+{
+  "id": "nature-2026-09-30-02",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8135",
+  "date": "2026-09-30",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-30-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "馴服危險的碳烯：噻蒽鎓葉立德如何重塑環丙烷合成的化學版圖",
+      "en": "Taming the Untameable Carbene: How Thianthrenium Ylides Unlock Safe and Universal Cyclopropanation"
+    },
+    "summary": {
+      "zh": "【總結】\n在有機合成中，環丙烷這一緊繃的三元碳環結構是藥物分子與農藥活性成分中的「明星骨架」，但其構築過程歷來伴隨著極高風險——傳統方法往往依賴劇毒且易爆的重氮化合物或高活性二鹵烷基鋅試劑。德國馬克斯·普朗克煤炭研究所 Tobias Ritter 團隊發表於《Nature》的研究，打破了半個多世紀以來的化學權衡。研究人員以性質穩定且易於製備的「烷基噻蒽鎓鹽」（thianthrenium salts）為碳烯前驅體，成功實現了由鐵酞菁（Fe(Pc)）催化的廣譜碳烯轉移與環丙烷化反應。這項工作不僅解決了長久以來常規鋶鹽葉立德因路易斯鹼性過高而無法高效釋放金屬碳烯的難題，更將碳烯轉移拓展至矽－氫、鍺－氫鍵插入及重排反應，兼具無溶劑球磨放大反應的絕佳安全性，為合成化學樹立了新標竿。\n\n【研究問題】\n構築環丙烷的核心在於「碳烯轉移」，即將一個二價碳片段插入碳－碳雙鍵中。然而，化學家長期受制於「底物多樣性」與「操作安全性」難以兩全的困境：1958 年發明的 Simmons–Smith 反應對烯烴適用面極廣，但通常只能轉移最簡單的亞甲基（-CH2-），且鋅試劑極易引發放大反應時的爆炸；現代廣泛採用的重氮酯類試劑雖然拓展了碳烯結構，卻天生具備釋放氮氣帶來的爆炸與毒性隱患，且通常只能匹配苯乙烯等活化烯烴。儘管傳統鋶鹽（如三甲基鋶鹽）安全穩定，但在 Corey–Chaykovsky 反應中它們只表現為碳親核試劑，極易與羰基形成環氧化合物，且產生的二甲基硫醚因路易斯鹼性太強，會死死「咬住」金屬中心，落入深層能量阱而無法釋放親電性金屬碳烯。如何設計一種既絕對安全、又能兼顧多樣化烯烴與取代碳烯的普適平台，成為困擾化學界數十年的瓶頸。\n\n【研究方法】\n研究團隊獨闢蹊徑，盯上了此前由他們開創的「噻蒽」（thianthrene, TT）骨架。噻蒽具備特殊的剛性幾何構構與極低的路易斯鹼性（甚至弱於三氟甲磺酸根），這賦予了烷基噻蒽鎓鹽前所未有的反應性。作者透過密度泛函理論（DFT）計算深入剖析反應能階曲面，發現二甲基硫醚葉立德會與鐵催化劑形成過於穩定的低自旋單重態鐵－類碳烯中間體，導致高昂的活化能壘（ΔE‡ 高出約 6 kcal/mol）；相反地，噻蒽因空間位阻與弱鹼性，促使體系從高能級的三重態中間體出發，巧妙避開了熱力學能量深阱，使金屬－碳烯鍵的均勻裂解並進行環丙烷化變得極其順暢。在實驗層面，團隊利用不溶性弱鹼（如碳酸銫）在甲苯懸浮液中原位緩慢釋放葉立德，配合價格低廉的鐵酞菁（Fe(Pc)）或銅催化劑，實現了高效率的碳烯捕獲，並進一步將反應轉化為無溶劑機械球磨體系。\n\n【結果】\n該方法展現出令人驚嘆的普適性與耐受性。反應不僅以高產率（最高達 98%）兼容各類末端烯、1,1-二取代、1,2-二取代乃至三取代烯烴，更直接應用於吉貝素（gibberellic acid）、降脂藥非諾貝特（fenofibrate）、抗炎藥萘普生（naproxen）及雪松烯（β-cedrene, 92% 產率）等複雜天然產物與藥物分子的後期精準修飾。可轉移的基團涵蓋鹵素、炔基、烷基乃至 Weinreb 醯胺，徹底突破了傳統重氮化合物必須依賴特定吸電子基的枷鎖。更具產業吸引力的是其無與倫比的安全優勢：差示掃描量熱（DSC）顯示噻蒽鎓鹽高達 180 °C 亦無放熱分解峰；團隊更成功利用固態球磨技術，在無任何有機溶劑下完成 10 克級別 (+)-香芹酮的環丙烷化，產率高達 74%，並回收昂貴的噻蒽副產物。此外，該體系還順利拓展至矽－氫與鍺－氫 σ 鍵插入（產率最高 97%）以及 [2,3]-σ 遷移重排，宣告了一種安全、強大且可持續的金屬碳烯化學平台的成熟。",
+      "en": "**Summary:**\nConstructing the strained three-membered cyclopropane ring is a cornerstone of modern medicinal chemistry, yet the synthetic methods required to forge it have long been plagued by operational danger and limited molecular scope. In a landmark study published in *Nature*, a team led by Tobias Ritter at the Max-Planck-Institut für Kohlenforschung demonstrates that bench-stable alkylthianthrenium salts function as exceptionally versatile carbene precursors. Driven by iron phthalocyanine (Fe(Pc)) or copper catalysts, these thianthrenium ylides deliver diverse carbene fragments into an expansive array of unactivated, multisubstituted olefins. By circumventing the explosive hazards of diazo compounds and the strict structural constraints of conventional sulfonium reagents, this strategy provides a robust, scalable, and universal blueprint for metal-carbene transfer across cyclopropanation, σ-bond insertion, and sigmatropic rearrangements.\n\n**Problem:**\nFor more than six decades, synthetic chemists seeking to build cyclopropanes have been forced into an uneasy compromise. The classical Simmons–Smith reaction accommodates unactivated olefins, but it requires highly energetic zinc-carbenoid intermediates that threaten thermal runaway upon scale-up and is largely confined to transferring unsubstituted methylene (-CH2-). Conversely, modern alternatives utilizing diazoalkanes (such as ethyl diazoacetate) expand carbene variety, yet rely on toxic, shock-sensitive compounds whose irreversible release of dinitrogen presents severe explosion risks while typically demanding conjugated olefins such as styrenes. Sulfonium salts represent a non-explosive, widely accessible alternative; however, classic sulfonium ylides (like dimethylsulfonium methylide) fail as universal carbene donors. Because dimethyl sulfide is a potent Lewis base, it binds tenaciously to catalytic metal centers, trapping the reaction in a deep thermodynamic well and precluding the formation of reactive, electrophilic metal carbenes.\n\n**Approach:**\nTo dismantle this longstanding thermodynamic barrier, Ritter and co-workers exploited the unique electronic and steric properties of thianthrene (TT). Because thianthrene possesses exceptionally low Lewis basicity and substantial steric bulk, the authors hypothesized that alkylthianthrenium ylides would avoid the parasitic metal-donor coordination that disables standard sulfonium reagents. Rigorous density functional theory (DFT) computations using the ORCA package substantiated this intuition: while dimethylsulfonium ylides form a hyper-stable singlet iron-carbenoid intermediate with Fe(Pc), leading to an activation barrier roughly 6 kcal/mol higher, the thianthrenium equivalent shifts the spin-crossover point, allowing the reaction to proceed smoothly from an energetically accessible triplet state without falling into a local minimum. Experimentally, the team leveraged a heterogeneous protocol in toluene using cesium carbonate or potassium phosphate as base, which balances the kinetics of ylide generation against carbene transfer, preventing unproductive decomposition.\n\n**Results:**\nThe synthetic breadth and operational robustness of the thianthrenium platform are exceptional. The iron-catalyzed method efficiently cyclopropanates structurally diverse olefins—including challenging unactivated 1,2-disubstituted and trisubstituted alkenes, enol ethers, and enamides—with yields up to 98% and high chemoselectivity over carbonyl epoxidation. The protocol easily functionalizes complex natural products and pharmaceuticals such as (+)-β-cedrene (92% yield), gibberellic acid, fenofibrate, and naproxen derivatives, transferring previously inaccessible functional handles including alkynyl, halo, and Weinreb amide fragments. Differential scanning calorimetry (DSC) revealed no detectable exotherm below the material's sublimation point at 180 °C, proving its safety advantage over diazoalkanes. Capitalizing on this stability, the team translated the reaction to solvent-free ball milling, successfully executing a 10-gram cyclopropanation of (+)-carvone in 74% yield with quantitative thianthrene recovery. Finally, the authors extended the platform to high-yielding Si–H and Ge–H σ-bond insertions (up to 97%) and Doyle–Kirmse [2,3]-sigmatropic rearrangements, establishing thianthrenium ylides as a transformative, general-purpose vehicle for catalytic carbene chemistry."
+    },
+    "keyArticle": {
+      "title": "Carbene transfer from thianthrenium ylides for cyclopropanation",
+      "authors": [
+        "Deepak Behera",
+        "Sagnik Chatterjee",
+        "Áron Adorján",
+        "Chuanhao Wang",
+        "Ahmet Altun",
+        "Frank Neese",
+        "Tobias Ritter"
+      ],
+      "doi": "10.1038/s41586-026-11108-z",
+      "pages": "407-414"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-30-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11108-z",
+      "doi": "https://doi.org/10.1038/s41586-026-11108-z"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-13T23:14:56.604129+00:00",
+    "source": "openalex"
+  }
+}

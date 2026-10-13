@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-10T22:26:57.115746+00:00",
+  "lastUpdated": "2026-10-13T23:25:48.700485+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-08-02",
+      "journal": "Science",
+      "date": "2026-10-08",
+      "path": "articles/2026/10/science-2026-10-08-02.json",
+      "title_zh": "把手機鎖進木盒後：一場涵蓋萬名大學生的「無手機課堂」實驗",
+      "title_en": "Locking the Screen: What a 16,000-Student Experiment Reveals About Phone-Free Classrooms",
+      "cover_url": "data/images/science/science-2026-10-08-02-cover.jpg"
+    },
     {
       "id": "science-2026-10-08",
       "journal": "Science",
@@ -18,6 +27,15 @@
       "title_zh": "當愛因斯坦改寫元素週期表：科學家首次在106號超重元素中證實「相對論化學鍵弱化」",
       "title_en": "Relativity at the Edge of the Periodic Table: The Surprising Fragility of Seaborgium Hexacarbonyl",
       "cover_url": "data/images/nature/nature-2026-10-07-cover.jpg"
+    },
+    {
+      "id": "cell-2026-10-01-02",
+      "journal": "Cell",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/cell-2026-10-01-02.json",
+      "title_zh": "生物能量學的驚人拼圖：棘阿米巴粒線體將檸檬酸循環直接「物理鑲嵌」於ATP合成酶",
+      "title_en": "Rewiring the Powerhouse: Acanthamoeba Directly Tethers the TCA Cycle to ATP Synthase",
+      "cover_url": "data/images/cell/cell-2026-10-01-02-cover.jpg"
     },
     {
       "id": "cell-2026-10-01",
@@ -45,6 +63,15 @@
       "title_zh": "室溫下讓光與物體「量子纠缠」：懸浮奈米球的突破性實驗",
       "title_en": "Trapping Quantum Entanglement at Room Temperature: A Levitated Nanosphere Talks to Light",
       "cover_url": "data/images/science/science-2026-10-01-cover.jpg"
+    },
+    {
+      "id": "nature-2026-09-30-02",
+      "journal": "Nature",
+      "date": "2026-09-30",
+      "path": "articles/2026/09/nature-2026-09-30-02.json",
+      "title_zh": "馴服危險的碳烯：噻蒽鎓葉立德如何重塑環丙烷合成的化學版圖",
+      "title_en": "Taming the Untameable Carbene: How Thianthrenium Ylides Unlock Safe and Universal Cyclopropanation",
+      "cover_url": "data/images/nature/nature-2026-09-30-02-cover.jpg"
     },
     {
       "id": "nature-2026-09-30",
@@ -189,6 +216,15 @@
       "title_zh": "超導體也能「記住」電流？烏蘭金屬中的量子記憶效應揭開超高速低耗電運算新頁",
       "title_en": "Superconductors That Remember: How a Quantum Memory Effect in Uranium Telluride Could Rewrite Computing",
       "cover_url": "data/images/nature/nature-2026-09-16-cover.jpg"
+    },
+    {
+      "id": "american-sociological-review-2026-09-15",
+      "journal": "American Sociological Review",
+      "date": "2026-09-15",
+      "path": "articles/2026/09/american-sociological-review-2026-09-15.json",
+      "title_zh": "善意囚籠裡的「策略倒錯」：難民如何將人道救濟演成掩護，在地下建立尊嚴經濟？",
+      "title_en": "The Art of Strategic Inversion: How Refugees Turn Humanitarian Paternalism into Clandestine Dignity Economies",
+      "cover_url": ""
     },
     {
       "id": "journal-of-development-economics-2026-09-14",
@@ -731,6 +767,15 @@
       "cover_url": "data/images/nature/nature-2026-07-29-cover.jpg"
     },
     {
+      "id": "political-geography-2026-07-27-02",
+      "journal": "Political Geography",
+      "date": "2026-07-27",
+      "path": "articles/2026/07/political-geography-2026-07-27-02.json",
+      "title_zh": "校園淪為混合戰新前線：當大學成為威權勢力拆解民主的「關鍵基礎設施」",
+      "title_en": "The Campus as Battleground: How Resilience Targeting Threatens Pluralist Democracy",
+      "cover_url": ""
+    },
+    {
       "id": "political-geography-2026-07-27",
       "journal": "Political Geography",
       "date": "2026-07-27",
@@ -801,6 +846,15 @@
       "title_zh": "援助換和平？難民政策背後的暴力算計",
       "title_en": "Aid for Peace? The Violence Calculus Behind Refugee Policy",
       "cover_url": ""
+    },
+    {
+      "id": "journal-of-development-economics-2026-07-21",
+      "journal": "Journal of Development Economics",
+      "date": "2026-07-21",
+      "path": "articles/2026/07/journal-of-development-economics-2026-07-21.json",
+      "title_zh": "誰在拉大全球貧富差距？經濟學家拆解世界不平等的「核心引擎」",
+      "title_en": "Who Drives Inequality? An Exact Accounting of Global and National Disparities",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-21-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-21",
@@ -3680,6 +3734,15 @@
       "path": "articles/2025/11/american-sociological-review-2025-11-22.json",
       "title_zh": "平等的陰影：法國三代移民後裔的教育流動性與族裔階級差異",
       "title_en": "Shades of Égalité: How France’s Third-Generation Immigrants Reveal a Racial Hierarchy in Education",
+      "cover_url": ""
+    },
+    {
+      "id": "american-political-science-review-2025-11-21",
+      "journal": "American Political Science Review",
+      "date": "2025-11-21",
+      "path": "articles/2025/11/american-political-science-review-2025-11-21.json",
+      "title_zh": "海牙的陰影與談判桌的籌碼：國際刑事法院如何逼內戰精英啟動國內審判？",
+      "title_en": "The Shadow of The Hague: How the Threat of International Justice Forces Domestic Trials in Peace Deals",
       "cover_url": ""
     },
     {

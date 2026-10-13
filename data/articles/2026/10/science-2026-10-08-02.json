@@ -1,0 +1,49 @@
+{
+  "id": "science-2026-10-08-02",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6820",
+  "date": "2026-10-08",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-08-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "把手機鎖進木盒後：一場涵蓋萬名大學生的「無手機課堂」實驗",
+      "en": "Locking the Screen: What a 16,000-Student Experiment Reveals About Phone-Free Classrooms"
+    },
+    "summary": {
+      "zh": "【總結】在智慧型手機無孔不入的時代，課堂「禁手機令」究竟是救贖還是徒勞？一項發表於《科學》（Science）的超大規模隨機對照試驗給出了震撼解答。研究團隊在印度奧迪沙邦動員逾 1.6 萬名大學生，強制將課堂手機統一收納進木盒。結果顯示，這項簡單的物理隔離措施顯著拉抬了學生學業表現，且進步最顯著的反而是原本成績墊底的後段班學生與大一新生。更意外的是，經歷過手機管制的學生不僅沒有強烈反彈，反而更加支持禁令，證明擺脫數位誘惑的自律機制能有效重構課堂生態。\n\n【研究問題】全球各國教育決策者正掀起中小學禁止智慧型手機的立法浪潮，然而過去的相關文獻多屬觀察性或小樣本準實驗，結論莫衷一是，更缺乏高等教育環境中的大規模嚴格因果證據。究竟課堂禁用手機能否直接轉化為學業進步？這項介入是普遍有益，還是只對特定族群起作用？學生是否會因此產生排斥心態或數位焦慮？釐清這些問題，對於在數位時代制定符合教育公平與學習效益的科技政策至關重要。\n\n【研究方法】研究團隊在印度奧迪沙邦的 10 所高等教育機構展開預先註冊的隨機對照試驗（RCT），涵蓋 16,683 名學生、742 名教師及 2,305 門課程。研究製造了約 1,000 個由回收材料製成的木製手機收納盒，以系所年級為單位進行隨機分派。實驗組學生在 2024 年春季學期所有課堂開始時，均須將手機放入收納盒；對照組則維持常態。團隊透過盲審的期末標準化外部考試成績評估成效，結合兩波學生問卷調查，並由研究助理進行隨機課堂微觀抽查，多維度捕捉學業、心理與課堂互動變化。\n\n【結果】實驗結果顯示，課堂禁手機使學生的總體 GPA 顯著提升了 0.073 個標準差，這相當於其他具備高擴展性教育干預措施的中位水準。異質性分析更揭示，成效幾乎全由先前成績低於中位數的學生、大一新生與非 STEM 學生驅動，且有效縮小了組內成績不平等（GPA 離散度相對降低 0.060 個標準差）。課堂抽檢發現，無手機環境促使教師減少自身手機使用並更專注於教學，課堂干擾行為顯著下降。調查更顯示，親身體驗過禁令的學生對手機管制的態度大幅轉向支持（增加 0.174 個標準差），顯示課堂手機限制不僅能充當抵抗數位誘惑的「承諾機制」，更能自我強化並促進教育公平。",
+      "en": "**Summary:** As debates over digital distraction reach a crescendo, a massive randomized controlled trial published in *Science* provides decisive evidence on the power of phone-free classrooms. Tracking over 16,000 college students in India who deposited their devices into wooden boxes before lectures, the researchers found that physically removing phones produced measurable academic gains. Crucially, these benefits were heavily concentrated among previously low-performing students and first-year undergraduates, effectively narrowing the achievement gap. Far from triggering mutiny, experiencing the restriction actually increased students' enthusiasm for phone bans, highlighting how structural guardrails can restore cognitive focus in higher education.\n\n**Problem:** While primary and secondary schools worldwide increasingly enact smartphone bans, rigorous empirical evidence supporting these policies has remained surprisingly thin. Prior literature consists largely of mixed observational studies or small-scale laptop experiments, leaving unresolved whether removing smartphones genuinely boosts academic achievement or merely pushes distraction into new avenues. Furthermore, questions remained over whether such policies harm student morale, induce fear of missing out, or fail in university environments where students are expected to exercise self-regulation. Establishing rigorous causal evidence is essential for shaping sound, equitable educational policy in the smartphone era.\n\n**Approach:** The authors conducted a preregistered randomized controlled trial across 10 higher education institutions in Odisha, India, encompassing 16,683 students, 742 instructors, and 2,305 courses over a full semester. The intervention utilized roughly 1,000 recycled-wood deposit boxes installed in classrooms. Randomization was executed at the department-grade cohort level: treated students were required to surrender their phones into the boxes at the start of every lecture, while control cohorts kept unrestricted access. The researchers combined administrative exam data—graded blindly by external examiners—with multi-wave student surveys and unannounced classroom behavioral audits conducted by stationed research assistants.\n\n**Results:** Enforcing the classroom ban led to an average GPA increase of 0.073 standard deviations (p = 0.021), a magnitude comparable to major curriculum reforms and growth-mindset interventions. The gains were driven almost entirely by lower-performing students, first-year undergraduates, and non-STEM majors, resulting in a 0.060 standard deviation reduction in grade dispersion and shrinking academic inequality. Classroom spot checks revealed that teachers in phone-free rooms decreased their own personal device use and engaged more with instructional materials, while peer disruptions plunged. Moreover, treated students became significantly more supportive of restrictive phone policies (b = 0.174 SD), suggesting that removing phones acts as an effective commitment device that builds its own grassroots legitimacy once experienced."
+    },
+    "keyArticle": {
+      "title": "Phones impede learning: Evidence from a massive phone-free classroom experiment",
+      "authors": [
+        "Alp Sungu",
+        "Pradeep Kumar Choudhury",
+        "Andreas Bjerre-Nielsen"
+      ],
+      "doi": "10.1126/science.aef7249",
+      "pages": "178-181"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-08-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aef7249",
+      "doi": "https://doi.org/10.1126/science.aef7249"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-13T23:12:34.730337+00:00",
+    "source": "openalex"
+  }
+}

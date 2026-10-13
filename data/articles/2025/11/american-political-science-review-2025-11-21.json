@@ -1,0 +1,39 @@
+{
+  "id": "american-political-science-review-2025-11-21",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-11-21",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "海牙的陰影與談判桌的籌碼：國際刑事法院如何逼內戰精英啟動國內審判？",
+      "en": "The Shadow of The Hague: How the Threat of International Justice Forces Domestic Trials in Peace Deals"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，國際刑事法院（ICC）常被批評為「和平的攪局者」——發出通緝令可能逼得軍閥困獸之鬥，延長內戰。然而，政治學者珍妮薇芙·貝茨（Genevieve Bates）在《美國政治學評論》發表的重要研究推翻了這種二元對立。她指出，ICC 的介入其實為內戰交戰方帶來了強大的外在壓力；交戰精英為了避免被送往海牙受審，會巧妙利用《羅馬規約》的「補充性原則」（Complementarity），主動在和平協議中承諾推動國內司法審判。這項突破性發現表明，國際司法的威嚇並非只能製造僵局，它反而像一把高懸的利劍，促使內戰各方在談判桌上以「在國內清算」來換取「免赴國際法庭」，從由上而下的機制催生了過渡正義的制度承諾。\n\n【研究問題】過去關於過渡正義與和平進程的研究存在重大盲點：學者大多聚焦於草根運動「由下而上」的人權倡議，或是認為 ICC 的通緝只會讓獨裁者與叛軍喪失妥協動機，導致「要和平還是要正義」的死胡同。此外，學界往往假定國際法院是威脅反對派的工具，執政菁英總能透過不合作全身而退。這篇研究直指核心問題：當和平談判展開時，國際刑事法院的實質介入究竟如何重塑交戰雙方的博弈誘因？交戰精英真的不怕國際審判嗎？如果害怕，他們會如何在和平條約中設計機制以規避海牙的直接干預？\n\n【研究方法】作者結合了大規模定量檢驗與深度質性案例研究。在定量層面，她分析了 2002 年（ICC 成立）至 2019 年間全球 832 份內戰和平協議（資料源自 PA-X 資料庫），並原創性地將 ICC 在各國的介入程度細分為初步審查、正式調查、發出逮捕令、審判到定罪等多個階段，將其歸納為「實質威脅」與「實際干預」兩大類。針對國內審判承諾這一極為罕見的結果變項（僅出現在不到 5% 的和平協議中），作者採用罕見事件邏輯迴歸（Rare Events Logit），控制了平民傷亡規模、人權組織網絡、外援比例及民主水準等變數。在質性層面，她深入哥倫比亞與蘇丹兩大關鍵案例，並在哥倫比亞進行了長達兩年半、涵蓋 27 位政府與叛軍核心談判代表、官員與法學專家的深度訪談。\n\n【結果】實證模型顯示，相較於完全沒有 ICC 涉入的和平談判，面臨 ICC「實質威脅」（初步審查或正式調查）的國家，其和平協議包含承諾進行國內司法審判或限制大赦的勝算（odds）暴增了 7 倍；即使 ICC 已經跨越紅線進入「實際干預」（發出逮捕令），該勝算同樣高達 7 倍。哥倫比亞的案例生動印證了這點：正因為軍方深陷「虛假陽性」（殺害平民冒充游擊隊員）醜聞且海牙檢察官公開警告，談判團隊才被迫設計出特別和平管轄權（JEP）等嚴格問責架構；正如受訪官員所言：「當 ICC 在你背後盯著，你走路都會變直。」這項研究深遠地證明，即便最初的司法承諾可能是為了抵擋國際審判而做出的「門面工夫」，條約文本一旦簽署，便會產生不可逆的「綁架效應」，賦予國內社會推進實質問責的長遠武器。",
+      "en": "**Summary:** Does the International Criminal Court (ICC) derail peace processes by threatening combatants with prosecution, or can it advance accountability? In a landmark study published in the *American Political Science Review*, Genevieve Bates demonstrates that international tribunals exert a profound, constructive discipline on warring elites. Rather than merely incentivizing actors to entrench and fight to the death, the prospect of being hauled before The Hague induces negotiators to leverage the ICC’s core design feature: the principle of complementarity. Under this clause, the Court defers jurisdiction if domestic courts are genuinely willing and able to prosecute international crimes. Warring elites exploit this escape hatch by formally committing to domestic trials in their peace pacts, effectively trading the threat of external prosecution for manageable domestic justice.\n\n**Problem:** Conventional transitional justice literature suffers from two key blind spots. First, it predominantly highlights bottom-up mobilization—how grassroots victim groups and human rights NGOs pressure states to confront past abuses—while neglecting top-down institutional catalysts. Second, scholars of conflict termination have frequently framed the ICC as a peace spoiler: by eliminating blanket amnesties and raising the cost of surrender, international warrants purportedly prolong civil wars and narrow the bargaining space. What remains poorly understood is how the concrete threat of international jurisdiction alters the internal calculus of negotiators at the peace table. Do elites fear The Hague, and can that fear be redirected toward domestic legal commitments?\n\n**Approach:** Bates evaluates her theory using a mixed-methods design that bridges broad empirical patterns with granular elite decision-making. Quantitatively, she examines all 832 peace agreements related to civil conflicts negotiated between 2002 (the Court’s inception) and 2019 from the PA-X Peace Agreement Database. She pairs this with original, fine-grained temporal data tracking the ICC’s escalating levels of involvement across countries—categorized into \"threat\" (preliminary examinations, formal investigations) and \"intervention\" (arrest warrants, trials). Because domestic trial commitments are an exceptionally high hurdle (found in under 5% of agreements), she employs rare-events logistic regression while controlling for conflict severity, human rights NGO density, treaty ratification, foreign aid, and judicial capacity. Qualitatively, Bates conducts critical case studies of Colombia and Sudan, drawing on 27 elite, semi-structured interviews with chief negotiators, legal architects, and civil society leaders from the Colombian peace process.\n\n**Results:** The empirical findings reveal that both the concrete threat of ICC involvement and active intervention multiply the odds of an agreement containing domestic trial commitments by roughly sevenfold compared to peace deals without ICC presence. The qualitative evidence explains why: in Colombia, the Office of the Prosecutor's looming preliminary examination directly shaped the 2016 Havana accords, compelling both the Santos government and FARC leadership to reject blanket amnesties and construct the Special Jurisdiction for Peace (JEP) to ward off international action. As one Colombian negotiator candidly observed, \"when [the ICC] are hanging around you and they are watching you, you walk straighter.\" Even when these commitments originate as strategic window dressing to forestall international intervention, they ultimately bind negotiating elites and hand domestic legal advocates powerful tools to demand long-term accountability."
+    },
+    "keyArticle": {
+      "title": "Threats and Commitments: International Tribunals and Domestic Trials in Peace Negotiations",
+      "authors": [
+        "GENEVIEVE BATES"
+      ],
+      "doi": "10.1017/s0003055425101317",
+      "pages": "966-981"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101317",
+      "doi": "https://doi.org/10.1017/s0003055425101317"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-13T23:22:56.259189+00:00",
+    "source": "openalex"
+  }
+}

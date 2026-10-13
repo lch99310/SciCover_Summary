@@ -1,0 +1,72 @@
+{
+  "id": "cell-2026-10-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-10-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "生物能量學的驚人拼圖：棘阿米巴粒線體將檸檬酸循環直接「物理鑲嵌」於ATP合成酶",
+      "en": "Rewiring the Powerhouse: Acanthamoeba Directly Tethers the TCA Cycle to ATP Synthase"
+    },
+    "summary": {
+      "zh": "【總結】在傳統生物化學教科書中，粒線體的三羧酸循環（TCA cycle）與氧化磷酸化（OXPHOS）始終被描繪為兩個分工明確、彼此獨立的代謝模組，兩者僅透過可擴散的還原當量（如NADH）進行間接溝通。然而，發表於《Cell》的一項突破性研究顛覆了這項既有認知。哈佛醫學院與麻省總醫院的研究團隊利用革命性的「未純化裂解物冷凍電鏡技術」，解析了機會致病性原蟲「棘阿米巴」（Acanthamoeba castellanii）的內源性粒線體大分子結構。研究赫然發現，TCA循環中的關鍵酵素——蘋果酸脫氫酶（MDH）二聚體，竟然直接「實體錨定」在ATP合成酶（複合體V）的外周柄上，首次揭示了呼吸鏈發電機與碳代謝循環之間存在直接的硬體物理連接，重塑了我們對真核生物代謝演化多樣性的理解。\n\n【研究問題】長期以來，科學界對粒線體ATP合成酶的結構認識幾乎完全集中於哺乳動物、真菌等少數模式生物，而原生生物龐大且古老的變形蟲門（Amoebozoa）在結構生物學上幾乎是一片荒原。棘阿米巴能引發失明性角膜炎與致命的肉芽腫性阿米巴腦炎，其粒線體具有多種獨特的生物化學特徵。過去的凝膠質譜研究曾偶爾偵測到MDH與ATP合成酶亞基共同遷移，但學界始終無法判定這究竟只是樣品製備中的偶然吸附，還是一種具備特定生理功能的超分子複合物。探索這類演化上高度分歧的生物如何組裝其能量機器，對於理解代謝通路的實體整合、演化可塑性以及尋找潛在的抗原蟲藥物靶點至關重要。\n\n【研究方法】由於棘阿米巴缺乏高效的遺傳編輯工具，且難以透過傳統層析方法大規模純化脆弱的天然膜蛋白複合物，研究團隊另闢蹊徑，採用了無需標籤與富集的「原生裂解液直接成像法」（purification-free cryo-EM）。他們僅用0.5% DDM界面活性劑溫和裂解新鮮分離的完整粒線體，不經任何純化管柱，直接將混合懸浮液置於冷凍電鏡載網上快速玻璃化。研究人員採集了逾6.8萬張高解析度影像，從數萬個雜亂的單顆粒中，利用演算法分類重構出ATP合成酶二聚體（3.8–4.2 Å）、伴護蛋白Hsp60（3.9 Å）以及呼吸複合體III（3.9 Å）的高解析度密度圖。為了精確辨識未知亞基，團隊結合了無序列依賴的深度學習建模工具（ModelAngelo）與隱馬爾可夫模型（HMMER），並對照最新的棘阿米巴粒線體蛋白質組數據庫（AcMitoCarta），成功實現了從未純化樣品中直接建立天然原子模型的創舉。\n\n【結果】解析出的結構揭示了多項驚人的演化適應特徵：首先，MDH二聚體透過一個棘阿米巴特有的支架蛋白MASA（ACANB14707），如同戴上一頂「帽子」般精準鑲嵌於ATP合成酶的外周柄頂端；體外酶動力學實驗證實，這種實體物理束縛直接拓寬了MDH適應受質濃度的動態工作區間。其次，其質子驅動輪（c環）呈現獨特的9聚體（c9）化學計量數，代表每旋轉一周轉運9個質子並產出3個ATP分子（3 H+/ATP），有別於哺乳類的c8設計，且其質子結合口袋周圍的氨基酸排列使它天生能抵抗抗結核藥物貝達喹啉（BDQ）。此外，催化核心的β亞基演化出一條長達118個氨基酸的C端延伸胜肽，緊密包覆相鄰亞基並搭接外周柄，提供了一種全新的結構穩定策略。這些發現不僅改寫了代謝實體模組化的理論框架，更為針對阿米巴特異性能量結構開發精準治療藥物奠定了堅實基礎。",
+      "en": "**Summary:** For decades, biochemistry textbooks have compartmentalized mitochondrial energy metabolism into separate, self-contained stages: the tricarboxylic acid (TCA) cycle oxidizes carbon substrates to generate reducing equivalents, which freely diffuse to feed the electron transport chain and drive ATP synthase via oxidative phosphorylation (OXPHOS). Now, a landmark study published in *Cell* dismantles this neat separation. By employing an enrichment-free cryo-electron microscopy (cryo-EM) strategy directly on crude mitochondrial lysates of the pathogenic amoeba *Acanthamoeba castellanii*, researchers discovered that an active malate dehydrogenase (MDH) dimer is physically docked onto the peripheral stalk of mitochondrial ATP synthase. This unexpected structural tether establishes a direct macromolecular bridge between the TCA cycle and OXPHOS, revealing an unprecedented evolutionary strategy for metabolic integration in single-celled eukaryotes.\n\n**Problem:** Our structural understanding of mitochondrial respiratory machinery has historically been heavily skewed toward opisthokonts (animals and fungi). Vast branches across the eukaryotic tree of life—most notably the Amoebozoa supergroup—remain bioenergetic dark matter. *Acanthamoeba castellanii* is a ubiquitous environmental amoeba capable of causing blinding keratitis and fatal encephalitis, yet its metabolic wiring diverges markedly from classical mammalian paradigms. While previous native electrophoretic surveys had observed the TCA enzyme MDH migrating alongside complex V components, it was widely dismissed as non-specific co-purification. Whether these vital metabolic pathways operate as physically decoupled diffusion networks or assemble into dedicated supramolecular complexes remained a fundamental, unanswered question in cellular bioenergetics.\n\n**Approach:** Confronted with the limited genetic toolkits and biochemical recalcitrance of *Acanthamoeba*, the investigators implemented an ambitious, purification-free native lysate cryo-EM workflow. Rather than subjecting membrane complexes to extensive chromatography, they gently solubilized isolated mitochondrial membranes in 0.5% n-dodecyl-β-D-maltoside (DDM) and vitrified the crude mixture directly onto grids. Across 68,290 movies, computational single-particle classification parsed out distinct macromolecular assemblies, culminating in high-resolution reconstructions of the ATP synthase dimer (3.8–4.2 Å), mitochondrial Hsp60 (3.9 Å), and respiratory complex III (3.9 Å). To model divergent and uncharacterized subunits de novo, the authors coupled automated, sequence-agnostic density tracing via ModelAngelo with hidden Markov model (HMMER) genomic searches against their curated *Acanthamoeba* mitochondrial proteome (AcMitoCarta).\n\n**Results:** The atomic model of *Acanthamoeba* ATP synthase exposed radical lineage-specific adaptations. Most strikingly, an active MDH dimer is structurally integrated into the stator's peripheral stalk directly above the OSCP subunit, tethered by an amoeba-specific scaffolding subunit designated MASA (ACANB14707). Enzymatic profiling revealed that this physical assembly modulates MDH catalytic behavior, widening its operational substrate concentration range compared to free enzyme. Structurally, the turbine's transmembrane rotor adopts a c9 stoichiometry—yielding a distinct bioenergetic gearing of 3.0 protons per ATP molecule (contrasting with mammalian c8)—with binding-pocket alterations conferring intrinsic resistance to bedaquiline. Additionally, the catalytic β subunit brandishes an extraordinary 118-residue C-terminal extension that wraps around the α subunit to contact the peripheral stalk, compensating for missing subunits via domain expansion rather than subunit accretion. These insights provide a new structural paradigm for eukaryotic metabolic coupling and spotlight lineage-specific vulnerabilities for antiparasitic drug design."
+    },
+    "keyArticle": {
+      "title": "Acanthamoeba ATP synthase structure reveals the TCA cycle is tethered to OXPHOS",
+      "authors": [
+        "Michelle Y. Fry",
+        "Bridget E Luce",
+        "Jonathan A. Stefely",
+        "Michael Z. Chen",
+        "Felicia G. Deng",
+        "Tiana M. Issa",
+        "Ruslan Aphasizhev",
+        "Inna Aphasizheva",
+        "Cora N. Betsinger",
+        "Steven A. Carr",
+        "Manoj T. Duraisingh",
+        "Manish Goyal",
+        "Minsoo Kim",
+        "Cameron Genxuan Lian",
+        "Yi-Ting Liao",
+        "Syed Yusuf Mian",
+        "Khanh Nguyen",
+        "Aditya S. Paul",
+        "Keith D. Rivera",
+        "Md Solayman",
+        "Namrata D. Udeshi",
+        "Andres F. Vacas",
+        "Sarah E. Calvo",
+        "John C. Samuelson",
+        "Vamsi Krishna Mootha",
+        "Luke H. Chao"
+      ],
+      "doi": "10.1016/j.cell.2026.08.057",
+      "pages": "6307-6324.e7"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-10-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.057",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.057"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-13T23:16:01.304853+00:00",
+    "source": "openalex"
+  }
+}

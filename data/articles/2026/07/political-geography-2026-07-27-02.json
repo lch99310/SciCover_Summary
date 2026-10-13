@@ -1,0 +1,39 @@
+{
+  "id": "political-geography-2026-07-27-02",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-27",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "校園淪為混合戰新前線：當大學成為威權勢力拆解民主的「關鍵基礎設施」",
+      "en": "The Campus as Battleground: How Resilience Targeting Threatens Pluralist Democracy"
+    },
+    "summary": {
+      "zh": "在當前全球民主倒退的浪潮中，大學校園正悄悄從知識殿堂演變為政治衝突的震央。以美國佛羅里達州近年對公立高等教育的系列打壓為例——從整肅多元包容（DEI）計畫、限縮終身教職保障，到審查歷史與性別教材——這些舉措往往被簡化為政黨間的「文化戰爭」。然而，政治地理學者凱文·格羅夫（Kevin J. Grove）指出，這種視角低估了危機的本質：這不是尋常的意識形態爭端，而是一場針對多元民主體制的「混合戰」（hybrid warfare）。\n\n格羅夫借鑒了國際關係與地緣政治中的「韌性打擊」（resilience targeting）概念。在傳統軍事戰略中，破壞對手的電網或供水系統能癱瘓其社會運作；而在現代政治角力中，高等教育正是多元民主社會不可或缺的「無形基礎設施」。大學培育了批判思考、包容分歧與公民參與的能力，是抵禦專制與極端主義最重要的社會防禦層。保守派與威權力量並非隨機發難，而是精準鎖定這個能夠賦予社會自我修復與反思韌性的核心節點，試圖從內部瓦解多元共存的民主土壤。\n\n這場攻擊呈現出雙重維度：它既破壞了高等教育內部的制度基石（如學術自由與教職員治理），同時也將大學作為整體，視為必須被拆解或改裝的意識形態工具，旨在重新推動公共生活的隔離與均質化。格羅夫的分析提醒我們，捍衛學術自由不單是象牙塔內學者的自保之戰，更是一場守護民主韌性與公共生活根基的總體防衛戰役。",
+      "en": "Across the globe, the university is increasingly finding itself in the crosshairs of an illiberal political project. While legislative assaults on tenure, academic freedom, and diversity initiatives in places like Florida are frequently framed as standard partisan culture wars, geographer Kevin J. Grove argues that this lens misses a far more insidious dynamic. Drawing on concepts of hybrid warfare and geopolitical conflict, Grove demonstrates that reactionary assaults on public universities represent a calculated campaign of \"resilience targeting\" aimed at dismantling the foundational architecture of pluralist democracy.\n\nIn national security studies, critical infrastructure traditionally refers to power grids, communication networks, and transit hubs—the essential systems that allow a modern society to withstand shocks. Grove extends this logic to the civic sphere, asserting that public higher education serves as the vital cognitive and social infrastructure of democratic pluralism. Universities cultivate critical inquiry, institutional memory, and spaces where diverse populations navigate complex differences. By systematically eroding academic governance, defunding public institutions, and policing curricula, illiberal actors are not merely expressing ideological grievance; they are degrading society's institutional capacity to resist authoritarian consolidation.\n\nThis framework reveals a dual offensive: attacks are directed both *at* the operational infrastructure of higher education (funding, tenure, curricula) and at higher education *as* infrastructure for a multi-ethnic, pluralistic society. Ultimately, Grove issues a compelling call to action for political geographers and civil society alike: defending the university is no longer just a parochial fight for academic autonomy, but a frontline battle to preserve the very systems that make collective self-governance possible."
+    },
+    "keyArticle": {
+      "title": "Resilience targeting and the war on pluralist democracy",
+      "authors": [
+        "Kevin J. Grove"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103501",
+      "pages": "103501"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103501",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103501"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-13T23:17:38.904597+00:00",
+    "source": "openalex"
+  }
+}
