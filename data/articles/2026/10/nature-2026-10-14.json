@@ -1,0 +1,65 @@
+{
+  "id": "nature-2026-10-14",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8136",
+  "date": "2026-10-14",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解三十年電池黑盒：AI 算力與核磁共振聯手，揭密鋰離子「抱團」如何塑造電池壽命",
+      "en": "Rethinking the Battery: How Machine Learning Unmasked Lithium's Secret Clustering in Electrolytes"
+    },
+    "summary": {
+      "zh": "【總結】過去三十年間，全球鋰電池產業幾乎都在依賴碳酸乙烯酯（EC）電解液，但科學界始終無法在原子尺度說清它為何能完美生成保護陽極的「固態電解質介面膜」（SEI）。一項發表於《自然》（Nature）的研究結合機器學習力場（QRNN）與超低溫固態核磁共振（ssNMR），推翻了傳統認知中鋰離子「單打獨鬥」的孤立溶劑化假說，首次證實電解液中普遍存在多個鋰離子緊密相依的「多鋰團簇」（multi-Li⁺ clusters）。這些在陰離子缺席下、僅由溶劑分子架橋聚集的團簇，其還原電位精準落在 0.8 V，正是誘發陽極鈍化保護層形成的關鍵催化劑，為下一代電解液的理性設計打下了堅實基礎。\n\n【研究問題】鋰電池運作的生命線在於陽極表面的鈍化保護膜（SEI），它必須在初次充電時於約 0.8 V（相對於 Li/Li⁺）的電壓下及時還原生成，阻止溶劑進一步分解。然而長久以來，電池化學陷入了理論與現實矛盾的瓶頸：傳統分子動力學模型（如 OPLS4）顯示，電解液中超過 99% 的鋰離子皆為獨立的單鋰錯合物；但高階量子化學計算卻表明，這些孤立的單鋰結構還原電位遠低於 0.8 V，根本無法在此電位下自發分解。究竟是什麼分子構型在 0.8 V 率先犧牲反應，成了困擾科學界數十年的未解之謎。\n\n【研究方法】研究團隊開發了具備量子力學精度的電荷遞歸神經網絡機器學習力場（QRNN-MLFF），該模型完全以氣相高階量子化學數據訓練，擺脫了經驗參數的束縛，能在維持第一性原理精度的同時，將模擬速度提升數個數量級，成功捕捉到濃電解液在奈米尺度上的動態重組。為驗證這項驚人預測，研究團隊採用超低溫快速冷凍（flash-freezing）技術凍結常溫電解液的暫態構型，並透過多種固態核磁共振技術（包括 ⁷Li 直接極化，以及 ¹H/¹⁹F→⁷Li 和 ¹H→¹³C 交叉極化魔角旋轉）探測原子間距，徹底排除了 PF₆⁻ 陰離子與鋰離子直接配對的可能，並將實測光譜與模擬預測進行嚴密校驗。\n\n【結果】結果證實，在商業電池常見的 1.2 M LiPF₆ 濃度下，高達 40% 的鋰離子並非單獨存在，而是聚集在間距僅 2.4 至 3.0 Å 的「多鋰團簇」（如 Li₂EC₇）中；在 2.0 M 時這一比例更暴增至 68% 以上。量子化學計算顯示，單鋰錯合物（如 LiEC₄）因缺乏足夠電荷穩定性而極難被還原，但由 EC 分子羰基氧架橋的多鋰團簇，其單電子還原電位恰好落在約 0.8 V（誤差在 0.1 V 內），與實際電池中 SEI 的生成電位完美吻合。這項成果不僅解開了 EC 溶劑不可替代的底層物理機制，更確立了機器學習力場在化學動態模擬中精確預測複雜凝聚態相變的里程碑地位。",
+      "en": "**Summary:** For more than thirty years, the rechargeable battery revolution has leaned on an empirical marvel: ethylene carbonate (EC)-based liquid electrolytes, which spontaneously form an anode-protecting solid electrolyte interphase (SEI) at ~0.8 V vs Li/Li+. In a landmark study published in *Nature*, Stevenson and colleagues deployed advanced machine-learning force fields alongside flash-frozen solid-state NMR to dismantle the classical textbook model of battery solvation. They discovered that rather than existing as solitary, isolated cations, Li⁺ ions extensively aggregate into dense \"multi-Li⁺ clusters\" held together exclusively by bridging solvent molecules. These cooperative assemblies exhibit reduction potentials that land squarely at 0.8 V, resolving a long-standing thermodynamic paradox and providing the mechanistic key to rational electrolyte design.\n\n**Problem:** The operating life and interfacial safety of a lithium-ion battery depend directly on the SEI, a passivation barrier generated via reductive decomposition of electrolyte species during initial charging at roughly 0.8 V. Yet computational and experimental electrochemistry have long been stymied by a glaring discrepancy: conventional molecular dynamics force fields (such as OPLS4) insist that over 99% of lithium cations reside in monomeric, single-Li⁺ solvation shells. However, quantum chemical calculations demonstrate that isolated single-cation complexes are thermodynamically unreactive at 0.8 V and require far more negative voltages to reduce. Determining what molecular species actually triggers SEI formation has remained an elusive black box in interfacial energy storage.\n\n**Approach:** To overcome the trade-offs between slow quantum mechanical simulations and inaccurate empirical force fields, the researchers built a charge-recursive neural network (QRNN) machine-learning force field. Trained exclusively on gas-phase electronic structure data without any empirical parameter fitting, the QRNN framework modeled condensation-phase trajectories across millions of steps with ab initio rigor. To corroborate these predictions experimentally without thermal exchange averaging out local environments, the team flash-froze electrolyte mixtures across multiple concentrations (0.5 M, 1.2 M, and 2.0 M) and performed multinuclear solid-state NMR (ssNMR). By employing ¹H/¹⁹F→⁷Li and ¹H→¹³C cross-polarization magic-angle spinning experiments, they tracked sub-nanometer spatial couplings and compared the experimental line shapes directly to first-principles NMR spectra derived from the machine-learned dynamics.\n\n**Results:** The findings overturn decades of conventional wisdom. In a standard 1.2 M LiPF₆ in EC electrolyte, 40% of all Li⁺ ions are sequestered in multi-cation clusters (e.g., Li₂EC₇) with inter-lithium separations as small as 2.4 to 3.0 Å—surpassing 68% at 2.0 M concentration. Solid-state NMR verified that Li⁺ cations remain solvent-separated from counterions (PF₆⁻), supported by a fivefold suppression of the ¹⁹F→⁷Li CPMAS signal and distinct ¹³C carbonyl peak shoulder broadening. Most crucially, reduction potential calculations revealed that while single-Li⁺ clusters resist reduction until much lower voltages, multi-Li⁺ complexes feature first-electron reduction potentials centered right at 0.8 V vs Li/Li⁺. By demonstrating how the high polarizability and bridging geometry of EC stabilize these reactive multi-ion clusters, the study bridges atomic-scale simulation with macroscopic electrochemical design."
+    },
+    "keyArticle": {
+      "title": "Evidence for multi-Li+ clustering in lithium-ion battery electrolytes",
+      "authors": [
+        "James Stevenson",
+        "Garvit Agarwal",
+        "Sibali Debnath",
+        "Zachary K. Goldsmith",
+        "M. Mondal",
+        "Asya Svirinovsky-Arbeli",
+        "In Won Yeu",
+        "Amy S. Metlay",
+        "Yongbeom Kwon",
+        "Lakshmi Bhai",
+        "Rishabh D. Guha",
+        "Eric G. Keeler",
+        "John L. Weber",
+        "Daniel A. Steingart",
+        "Lauren E. Marbella",
+        "Alexander Urban",
+        "Leif D. Jacobson",
+        "Mathew David Halls",
+        "Richard A. Friesner"
+      ],
+      "doi": "10.1038/s41586-026-11138-7",
+      "pages": "636-642"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11138-7",
+      "doi": "https://doi.org/10.1038/s41586-026-11138-7"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-16T22:00:58.457768+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "cell-2026-10-01-03",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "21",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-10-01-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "植物如何指揮根系微生物「挖鐵」？阿拉伯芥隨土壤酸鹼值切換的微觀外交戰",
+      "en": "Roots in Negotiation: How Plants Modulate Coumarins to Enlist Ancient Bacterial Iron Miners"
+    },
+    "summary": {
+      "zh": "【總結】鐵元素是植物合成葉綠素與維持光合作用的核心命脈，但它在自然土壤中往往被深鎖於不可溶的氧化鐵沉澱中。本研究發表於權威期刊《Cell》，揭示了模式植物阿拉伯芥（Arabidopsis thaliana）一項令人驚嘆的生存策略：植物能精準感應土壤的酸鹼值（pH），動態調節根系分泌的特化代謝物——香豆素（coumarins）之化學結構，藉此「徵召」根系共生菌啟動兩種截然不同的取鐵機制。在中性土壤中，植物分泌草質素（fraxetin），與細菌分泌的鐵載體聯手螯合鐵；而在酸性土壤中，植物則分泌鐵素（sideretin），透過其特殊的對苯醌結構激活細菌古老的氧化還原感應路徑，直接還原三價鐵供植物吸收。這項突破顛覆了植物「自給自足」獲取鐵營養的傳統認知，證明陸生植物巧妙收編了遠古微生物的代謝工具箱。\n\n【研究問題】傳統教科書將非禾本科植物的取鐵方式歸類為「第一型機制」（Strategy I）：植物根系透過質子泵酸化周圍微環境，利用自身的鐵還原酶 FRO2 將不溶的三價鐵還原為可溶的二價鐵，再經由高親和力轉運蛋白 IRT1 吸收。然而，科學家長期觀察到一個令人困惑的悖論：在完全無菌的嚴苛土壤環境中，即便植物全力啟動這套自我救濟程式，依然會深陷嚴重的缺鐵性黃化；一旦引入土壤細菌，植株便迅速重獲生機。過往研究並不清楚：植物究竟如何感知複雜多變的土壤酸鹼環境，進而與根系微生物群分工合作？植物分泌的代謝物如何扮演「化學指揮官」，喚醒細菌深藏的促生機能？\n\n【研究方法】由德國馬克斯·普朗克植物育種研究所牽頭的團隊，從德國農業土壤（CAS）與義大利土壤（IS）分離出數百株代表性根系細菌，構建高通量的無菌瓊脂共培養系統。研究人員利用光系統 II 最大光化學量子產量（Fv/Fm）、葉綠素含量與感應耦合電漿質譜儀（ICP-MS）精準評估植物的鐵營養狀態。為拆解分子黑盒子，團隊跨界結合了植物遺傳突變體（如缺乏還原功能的 fro2、轉運受阻的 irt1、各級香豆素合成缺陷株）與細菌遺傳學技術（以模式共生菌 Aquipseudomonas proteolytica IT466 進行 mini-Tn5 轉座子隨機突變篩選及標靶基因敲除），並搭配體外（ex planta）鐵化學分析與細菌轉錄組定序（RNA-seq），全方位追蹤電子與鐵離子的微觀動態。\n\n【結果】研究發現，無論細菌源自何種母體土壤，高達 74%（pH 7.4）與 65%（pH 5.7）的根系細菌皆能顯著緩解宿主缺鐵，且廣泛分布於變形菌門、放線菌門與擬桿菌門等核心菌群。分子機制顯示，在中性偏鹼環境（pH 7.4）下，植物特異性分泌具鄰苯二酚結構的 fraxetin，與 IT466 的綠膿菌素鐵載體（pyoverdine, PVD）協同發揮螯合作用；在酸性環境（pH 5.7）下，植物則轉向合成 sideretin，此時超過 75% 的細菌菌株竟能完全取代植物原生還原酶 FRO2 的功能。進一步突變分析證實，sideretin 依賴其對苯醌活性基團充當細胞外「電子穿梭巴士」，活化細菌保守的 RoxSR 雙組分氧化還原感應系統，在細胞內外進行持續的電子傳遞並還原三價鐵。這些演化上早於陸生植物出現的微生物感應與代謝途徑，為未來開發適應酸鹼劣土的新型生物肥料提供了強大的理論基石。",
+      "en": "**Summary:** Iron is an indispensable currency of photosynthetic life, yet it remains stubbornly locked within insoluble mineral oxides across most of the world's soils. In a study published in *Cell*, Malisic and colleagues reveal that *Arabidopsis thaliana* orchestrates an elegant, pH-dependent micro-alliance with its root microbiota to mine this locked element. By sensing edaphic pH, the plant dynamically switches the chemical identity of the specialized metabolites—coumarins—it exudes from its roots. At circumneutral pH, roots secrete fraxetin to cooperate with bacterial siderophores in chelating ferric iron. In acidic soils, plants instead exude sideretin, an oxidized coumarin that bypasses the plant's own enzymatic reduction machinery by commandeering ancient bacterial redox-sensing pathways. This discovery reveals that terrestrial plants have co-opted primeval microbial genetic circuits that predate the dawn of land plants, dynamically outsourcing vital chemical transformations to survive edaphic stress.\n\n**Problem:** Under Strategy I iron acquisition, dicots and non-graminaceous plants are traditionally defined as autonomous geochemical agents: they acidify the rhizosphere, reduce insoluble ferric iron [Fe(III)] to ferrous iron [Fe(II)] using the root-surface ferric chelate reductase FRO2, and import it via the high-affinity transporter IRT1. Yet paradoxically, germ-free plants cultivated on insoluble iron sources remain chronically chlorotic despite hyperactivating their endogenous uptake machinery, recovering only in the presence of root-associated microbes. How plants integrate varying edaphic factors—most notably soil pH—with microbial services has remained an enduring mystery. Specifically, what precise chemical signals govern this host-microbe cooperation, and what bacterial genetic modules execute nutrient mobilization across different soil environments?\n\n**Approach:** The researchers tackled this question by deploying a high-throughput gnotobiotic agar matrix system utilizing extensive culture collections isolated from distinct European soils (Cologne Agricultural Soil and Italian Soil). They profiled plant photosynthetic performance (Fv/Fm), total chlorophyll, and elemental shoot accumulation across broad taxonomic lineages. To dissect the underlying molecular architecture, the authors paired plant genetic mutants defective in iron reduction (*fro2*), transport (*irt1*), and sequential coumarin biosynthesis (*f6′h1*, *s8h*, *cyp82c4*) with forward and reverse bacterial genetics in the model commensal *Aquipseudomonas proteolytica* IT466. By screening a mini-Tn5 insertion library, performing targeted deletions (such as the pyoverdine synthetase $\\Delta pvdD$ and redox regulator $\\Delta roxR$), and conducting ex planta Fe-mobilization assays and bacterial RNA-seq, they charted the chemical and transcriptional network driving iron rescue.\n\n**Results:** The survey uncovered that microbe-mediated relief of host iron starvation is extraordinarily widespread: over 74% of commensals at pH 7.4 and 65% at pH 5.7 successfully alleviated plant chlorosis, spanning all five major bacterial classes regardless of origin. Crucially, under acidic conditions, more than 75% of root commensals rendered the host's primary reductase FRO2 completely dispensable. The team identified a strict division of chemical labor: at circumneutral pH, roots enrich fraxetin, which acts synergistically with bacterial pyoverdine (PVD) to mobilize Fe(III) via high-affinity chelation; at acidic pH, root flux shifts to sideretin, whose *p*-quinone moiety acts as an extracellular electron shuttle. This coumarin engages the bacterial RoxSR two-component redox-sensing system to reduce Fe(III) directly for plant IRT1 uptake. By illustrating how plant specialized exometabolites tap into ancestral prokaryotic redox machinery, this work redefines plant nutrition as a distributed metabolic partnership, opening new avenues for microbial bio-inoculants in marginal soils."
+    },
+    "keyArticle": {
+      "title": "Arabidopsis uses distinct coumarins and bacterial pathways for pH-adaptive iron acquisition",
+      "authors": [
+        "Milena Malisic",
+        "Charles Copeland",
+        "Anton Amrhein",
+        "Pengfan Zhang",
+        "Masayoshi Hashimoto",
+        "Christopher J. Harbort",
+        "Tak H. Lee",
+        "Yudelsy Antonia Tandrón Moya",
+        "Lara Van Dijck",
+        "Niklas Kiel",
+        "Stanislav Kopřiva",
+        "Sabine U Metzger",
+        "Rubén Garrido‐Oter",
+        "Ricardo Fabiano Hettwer Giehl",
+        "Paul Schulze‐Lefert"
+      ],
+      "doi": "10.1016/j.cell.2026.09.030",
+      "pages": "6829-6846.e9"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-10-01-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.09.030",
+      "doi": "https://doi.org/10.1016/j.cell.2026.09.030"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-16T22:04:59.380789+00:00",
+    "source": "openalex"
+  }
+}

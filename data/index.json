@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-10-13T23:25:48.700485+00:00",
+  "lastUpdated": "2026-10-16T22:15:59.860857+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-15",
+      "journal": "Science",
+      "date": "2026-10-15",
+      "path": "articles/2026/10/science-2026-10-15.json",
+      "title_zh": "讓光子自帶螺旋轉動：科學家以量子穿隧造出首個「電驅動奈米手性光源」",
+      "title_en": "Twisting Light with Pure Electricity: Nanoscale Tunnel Junctions Emit Sculpted Chiral Photons",
+      "cover_url": "data/images/science/science-2026-10-15-cover.jpg"
+    },
+    {
+      "id": "nature-2026-10-14",
+      "journal": "Nature",
+      "date": "2026-10-14",
+      "path": "articles/2026/10/nature-2026-10-14.json",
+      "title_zh": "破解三十年電池黑盒：AI 算力與核磁共振聯手，揭密鋰離子「抱團」如何塑造電池壽命",
+      "title_en": "Rethinking the Battery: How Machine Learning Unmasked Lithium's Secret Clustering in Electrolytes",
+      "cover_url": "data/images/nature/nature-2026-10-14-cover.jpg"
+    },
     {
       "id": "science-2026-10-08-02",
       "journal": "Science",
@@ -36,6 +54,15 @@
       "title_zh": "生物能量學的驚人拼圖：棘阿米巴粒線體將檸檬酸循環直接「物理鑲嵌」於ATP合成酶",
       "title_en": "Rewiring the Powerhouse: Acanthamoeba Directly Tethers the TCA Cycle to ATP Synthase",
       "cover_url": "data/images/cell/cell-2026-10-01-02-cover.jpg"
+    },
+    {
+      "id": "cell-2026-10-01-03",
+      "journal": "Cell",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/cell-2026-10-01-03.json",
+      "title_zh": "植物如何指揮根系微生物「挖鐵」？阿拉伯芥隨土壤酸鹼值切換的微觀外交戰",
+      "title_en": "Roots in Negotiation: How Plants Modulate Coumarins to Enlist Ancient Bacterial Iron Miners",
+      "cover_url": "data/images/cell/cell-2026-10-01-03-cover.jpg"
     },
     {
       "id": "cell-2026-10-01",
@@ -632,6 +659,15 @@
       "cover_url": ""
     },
     {
+      "id": "american-sociological-review-2026-08-01",
+      "journal": "American Sociological Review",
+      "date": "2026-08-01",
+      "path": "articles/2026/08/american-sociological-review-2026-08-01.json",
+      "title_zh": "誰的理想能落地生根？非營利組織背後的「人脈鍊金術」與菁英再製",
+      "title_en": "Whose Social Change Gets Funded? The Networked Machinery Behind Modern Nonprofits",
+      "cover_url": ""
+    },
+    {
       "id": "cell-2026-08-01-02",
       "journal": "Cell",
       "date": "2026-08-01",
@@ -882,6 +918,15 @@
       "title_zh": "從邊緣發聲：阿爾及利亞獨立戰爭如何重塑國際人道法",
       "title_en": "How the Algerian Revolution Turned International Law Into a Weapon",
       "cover_url": ""
+    },
+    {
+      "id": "journal-of-development-economics-2026-07-17",
+      "journal": "Journal of Development Economics",
+      "date": "2026-07-17",
+      "path": "articles/2026/07/journal-of-development-economics-2026-07-17.json",
+      "title_zh": "豐收的代價：印尼綠色革命如何悄然瓦解集體主義，催生現代個人主義",
+      "title_en": "Seeds of Detachment: How Indonesia’s Green Revolution Cultivated Modern Individualism",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-17-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-17",
@@ -1179,6 +1224,15 @@
       "title_zh": "揭開白矮星行星的神秘面紗：JWST 發現甲烷、氣溶膠與行星的「重生」之謎",
       "title_en": "Unveiling the Secrets of White Dwarf Planets: JWST Detects Methane, Aerosols, and Hints at Planetary 'Rebirth'",
       "cover_url": "data/images/nature/nature-2026-07-01-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-07-01",
+      "journal": "Political Geography",
+      "date": "2026-07-01",
+      "path": "articles/2026/07/political-geography-2026-07-01.json",
+      "title_zh": "地圖上的帝國幻術：俄羅斯地理教科書如何編造「自古以來的神聖領土」",
+      "title_en": "Cartographies of Empire: How Russian Textbooks Fabricate an Eternal \"Geo-Body\"",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-01-cover.jpg"
     },
     {
       "id": "cell-2026-06-30",
@@ -3753,6 +3807,15 @@
       "title_zh": "建構區域：北極的本體論政治中的多重性與單一化",
       "title_en": "Doing Regions: Multiplicity and Singularization in the Ontological Politics of the Arctic",
       "cover_url": "data/images/political-geography/political-geography-2025-11-21-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2025-11-20",
+      "journal": "American Political Science Review",
+      "date": "2025-11-20",
+      "path": "articles/2025/11/american-political-science-review-2025-11-20.json",
+      "title_zh": "走出種姓圍城：當國家福利取代宗族互助，印度社會如何打破階級藩籬？",
+      "title_en": "Breaking the Caste Trap: How State Welfare Unravels Ethnic Safety Nets and Fosters Social Integration",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-11-20-cover.jpg"
     },
     {
       "id": "international-organization-2025-11-20-02",

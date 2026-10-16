@@ -1,0 +1,50 @@
+{
+  "id": "science-2026-10-15",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6821",
+  "date": "2026-10-15",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-15-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "讓光子自帶螺旋轉動：科學家以量子穿隧造出首個「電驅動奈米手性光源」",
+      "en": "Twisting Light with Pure Electricity: Nanoscale Tunnel Junctions Emit Sculpted Chiral Photons"
+    },
+    "summary": {
+      "zh": "【總結】倫敦國王學院（King's College London）的研究團隊在《Science》發表了一項光子學里程碑成果：他們首次在單顆奈米粒子的極致尺度下，實現了完全由「電驅動」的手性光（Chiral Light）發射。研究人員將具備手性幾何結構的金奈米螺旋體（nanohelicoid）嵌入金屬-絕緣體-金屬量子穿隧接面中，藉由非彈性電子穿隧過程，激發出高純度的圓偏振光與光學渦旋。這項技術徹底擺脫了過去對龐大雷射泵浦光路或強烈外加磁場的依賴，以純電學方式精準雕刻光子的角動量，為擴增實境（AR/VR）超微型顯示器、晶片級量子資訊處理與手性光化學合成鋪平了道路。\n\n【研究問題】手性是指物體與其鏡像無法重合的空間不對稱性；在光波中，這表現為攜帶自旋角動量（圓偏振）或軌道角動量（螺旋波前）的奇特狀態。這類手性光在立體顯示、生化分子識別及高維度量子通訊中極具價值。然而，傳統製造手性光的方法面臨嚴峻的物理極限：多數材料的手性光學響應極其微弱，必須仰賴外部磁場、複雜宏觀波片或額外雷射激發染料分子，難以微縮至晶片尺度。雖然「金屬穿隧接面」能將電能直接轉換為高度侷域的次波長電漿光，但穿隧電流本身在空間上是非手性的，過去學界始終無法在奈米尺度下僅靠純電壓直接激發出高度定向且純淨的手性光束。\n\n【研究方法】研究團隊巧妙融合了奈米化學與量子穿隧架構，設計出兼具光學共振與電子穿隧的微型異質結構。他們在30奈米厚的金薄膜上沉積僅3奈米厚的氧化鋁絕緣層，並撒佈精心合成的金奈米螺旋體，隨後以聚合物封裝、電漿蝕刻暴露頂部，並鋪上頂層金電極形成完整迴路。當施加偏壓時，大部分電子進行無能量損失的彈性穿隧，但少部分電子發生「非彈性穿隧」，將自身能量注入並共振激發穿隧間隙中的手性電磁模態。團隊利用四分之一波片、方解石分束器與傅立葉顯微成像系統，精確分離並量測出射光場的左右圓偏振態及其立體相位波前。\n\n【結果】實驗與多極矩數值模擬高度吻合：在施加約2.5伏特偏壓下，單個奈米結構在約760奈米波長處展現出驚人的發射不對稱因子（g-factor），數值高達約0.8，意味著產生了極高純度的單手性圓偏振光。頂層金電極宛如微型反射鏡，透過相位干涉大幅抑制反向手性成分，進一步放大了發射純度。更關鍵的是，基於角動量守恆定律，原本無手性的穿隧電子將自旋角動量（SAM）與大小相等、方向相反的軌道角動量（OAM，拓撲荷 l = ±1）同時賦予了發射光，成功在次波長尺度直接發射出旋渦光束。這項成果打破了手性光學元件的體積瓶頸，象徵著主動式手性光電子學正式邁入奈米實用化階段。",
+      "en": "**Summary:** In a milestone paper published in *Science*, a research team at King's College London has achieved the first electrically-driven chiral light emission at the single-nanoparticle level. By embedding plasmonic gold nanohelicoids into metal-insulator-metal (MIM) quantum tunnel junctions, the authors harnessed inelastic electron tunneling to resonantly excite chiral plasmonic modes without any external optical excitation. The resulting device directly converts electric voltage into sculpted, subwavelength light beams that carry both spin and orbital angular momentum. This breakthrough circumvents decades-old dependencies on bulky lasers, waveplates, and external magnetic fields, charting a concrete course toward ultra-compact optoelectronics for AR/VR displays, enantioselective photochemistry, and on-chip quantum networks.\n\n**Problem:** Chirality is a geometric asymmetry in which an object cannot be superimposed onto its mirror reflection. In optics, chiral light fields feature circular polarization (spin angular momentum, SAM) and twisted wavefronts (orbital angular momentum, OAM)—properties that are vital for molecular sensing, 3D displays, and high-capacity quantum communication. However, engineering chiral light at subwavelength scales has historically hit a wall. Naturally occurring chiral materials exhibit notoriously weak chiroptical effects, while artificial metasurfaces or chiral molecules typically demand intense optical pumping with external lasers or heavy magnetic infrastructure. Although inelastic electron tunneling can generate localized luminescence directly from electric currents, configuring an initially achiral tunneling process to emit directional, high-purity chiral states had long remained an intractable challenge.\n\n**Approach:** To tackle this hurdle, the researchers integrated chiral plasmonic nanoresonators into an asymmetric vertical tunnel junction. They deposited synthesized chiral gold nanohelicoids onto a 30-nm gold film coated with an atomically thin (3-nm) alumina dielectric barrier, planarized the array in a polymer matrix, and deposited a 50-nm gold top electrode. When a bias voltage is applied across the junction, a fraction of electrons undergoes inelastic quantum tunneling, driving the high chiral local density of optical states (LDOS) confined within the sub-nanometer gap. The emitted light was subsequently separated into left- and right-handed circularly polarized components via polarimetry, while Fourier-plane imaging and electrodynamic multipole decompositions were applied to dissect the phase evolution and spatial radiation topology.\n\n**Results:** The device exhibited pronounced chiral electroluminescence across the visible and near-infrared spectra, achieving an extraordinary emission dissymmetry factor ($g_{\\text{emit}}$) of approximately 0.8 around the 760-nm resonance. Numerical simulations revealed that the top gold electrode serves as an internal optical cavity mirror, flipping and constructively interfering with the preferred polarization state to suppress the opposite handedness. Crucially, in accordance with angular momentum conservation, the achiral vertical tunneling transition induces coupled chiral dipolar modes, simultaneously endowing the emitted photons with an orbital angular momentum ($l = \\pm 1$) that is equal in magnitude and opposite in sign to their spin angular momentum. By realizing electrically pumped optical vortex beams from individual nanostructures, this work unlocks unprecedented opportunities for miniaturized, polarization-programmable nanophotonic circuits."
+    },
+    "keyArticle": {
+      "title": "Electrically driven chiral emission from plasmonic tunnel junctions",
+      "authors": [
+        "Yuanyang Xie",
+        "Alexey V. Krasavin",
+        "Anatoly V. Zayats"
+      ],
+      "doi": "10.1126/science.aeh4015",
+      "pages": "326-330"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-15-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh4015",
+      "doi": "https://doi.org/10.1126/science.aeh4015",
+      "preprint": "http://arxiv.org/abs/2604.08300"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-16T21:56:53.409784+00:00",
+    "source": "openalex"
+  }
+}

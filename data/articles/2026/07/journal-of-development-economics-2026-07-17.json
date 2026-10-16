@@ -1,0 +1,49 @@
+{
+  "id": "journal-of-development-economics-2026-07-17",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-07-17",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-17-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "豐收的代價：印尼綠色革命如何悄然瓦解集體主義，催生現代個人主義",
+      "en": "Seeds of Detachment: How Indonesia’s Green Revolution Cultivated Modern Individualism"
+    },
+    "summary": {
+      "zh": "【總結】20世紀下半葉席捲全球的「綠色革命」常被視為消滅飢荒、推動農業現代化的經典範例，但它對人類傳統社會結構與深層文化心理的重塑卻鮮為人知。本研究利用印尼長達數十年的微觀數據，首次提供了農業技術變革推動文化個人主義興起的實證證據。研究發現，在政府強力推動綠色革命政策、現代化水稻種植擴張最劇烈的地區，傳統互助與集體協作體系遭到嚴重瓦解，隨後幾十年間出生的世代展現出顯著且持久的「個人主義」傾向；同時，地方村民自主集資籌辦公共事務的集體行動力也明顯衰退。這項突破性發現揭示出：技術衝擊不僅改變生產力，更能在短短一兩代人之間重寫千年沉澱的文化基因。\n\n【研究問題】傳統水稻種植依賴極高的勞動力互助（如插秧、除草、收穫）、種子共享以及複雜的共用水利管理，長久以來被人類學與經濟學界視為孕育東南亞與東亞「集體主義」文化與互助傳統（Gotong Royong）的溫床。然而，既有文獻大多聚焦於農業技術革命對糧食產量、健康與結構轉型的物質層面影響，忽略了技術介入對非正式社會制度與文化的破壞。政策推動的現代農業技術——包含高產稻種、化學肥料與現代灌溉技術——是否會削弱農民之間的相互依賴，進而催生以個體為中心的價值觀？釐清這項因果關聯，有助於我們理解現代化浪潮如何迅速解構傳統社會資本與公共品合作基石。\n\n【研究方法】作者聚焦於印尼蘇哈托政府在1966至1983年間推動的中央集權式綠色革命（核心為BIMAS專案）。為排除市場自發調節與天候優勢的干擾，研究巧妙運用分數Logit模型，將1963至1983年印尼各縣的水稻面積變化拆解為受外生農業氣候條件驅動的「潛在增長」，以及更能精準捕捉政府政策干預力度的「殘差增長」，並構建連續雙重差分模型（Continuous DID）。在衡量文化方面，研究調用了2010年印尼全體人口普查中高達2.46億人的微觀數據，以社會學與文化經濟學近年廣泛驗證的指標——「罕見新生兒名字佔比」（非前25大熱門名字）作為個人主義的代理變數，並以世界價值觀調查（WVS）加以交叉驗證。此外，研究還利用涵蓋約5.6萬個村莊的普查資料，追蹤村莊集體公共基金的演變，並嚴格控制選擇性人口遷移、教育擴張、都市化與電網普及等競爭性解釋。\n\n【結果】研究結果顯示，綠色革命政策暴露度越高的地區，新生兒取罕見名字的比例呈現顯著且長期的增長。這種文化轉變始於1970年代出生的世代，隨後幾十年間持續擴大（相對於革命前的基準世代，政策暴露效應在1976年出生世代為0.003，至2006年世代已攀升至0.013）。即便限定在非移民家庭的子女樣本中，該效應依然穩健。在公共事務層面，綠色革命程度較高的地區，村莊預算中仰賴社區自籌集體資金的比例顯著下降（標準化係數約為-0.09至-0.11），即使村莊整體的財政規模並未萎縮。這表明，現代農業技術消除了對鄰里無償換工與種子互惠的剛性需求，使農民轉向純粹的市場交易，從而削弱了集體認同與公共品協同供給的動力。這項研究深刻提醒各國決策者：推動經濟與技術現代化往往伴隨著非意圖的文化代價，必須正視社會凝聚力與基層協作網絡的流失。",
+      "en": "**Summary:** The Green Revolution is widely celebrated as a triumph of agricultural technology that averted global famine and accelerated structural transformation. Yet its deeper repercussions on social fabric and human culture have remained largely unquantified. This groundbreaking study examines Indonesia's massive state-led agricultural modernization between the 1960s and 1980s, offering the first rigorous causal evidence that modern agricultural technology fostered a profound and enduring cultural shift toward individualism. Districts subjected to higher policy intensity witnessed a persistent rise in individualistic behavior—measured by the naming choices of parents—and an accompanying decay in community-funded collective action, demonstrating that rapid technical change can fundamentally alter societal values within a single generation.\n\n**Problem:** Wet-rice cultivation historically demanded tight-knit mutual interdependence, from coordinated labor exchanges and seed-sharing arrangements to communal feasts and joint irrigation upkeep. Scholars have long argued that these collective imperatives served as the historical bedrock for collectivist cultures across Asia. Anthropologists suspected that the introduction of high-yielding crop varieties, commercial fertilizers, and mechanization would commercialize traditional agrarian life and erode the reciprocal social bonds that bound villages together. However, empirical economics had struggled to establish a causal link between agricultural technology and persistent cultural evolution, leaving unresolved the critical question of whether technological interventions inherently undo traditional cooperative norms and social capital.\n\n**Approach:** The authors exploited the quasi-experimental rollout of Indonesia’s centralized rice self-sufficiency drive under the Suharto regime from 1966 to 1983 (primarily the BIMAS program). Using district-level data across 241 agricultural districts from the 1963 and 1983 Agricultural Censuses, they decomposed observed changes in rice acreage shares into agro-climatically driven \"potential growth\" and policy-driven \"residual rice growth\" via a fractional logit framework. Individualism was operationalized using individual-level records from the complete-count 2010 Indonesian Population Census (roughly 246 million individuals), measuring the prevalence of children given infrequent first names (outside the top 25)—a proxy validated against individualist attitudes in the World Values Survey. By implementing a continuous difference-in-differences design and drawing on 1993 and 2003 Village Census data spanning 56,000 villages, the authors tracked cohort-level naming patterns and village collective funding, while methodically ruling out selective migration, urbanization, fertility shifts, and educational expansion.\n\n**Results:** The empirical results reveal a pronounced, time-increasing surge in individualism in regions with greater exposure to the Green Revolution. The cultural deviation became evident among cohorts born in the 1970s and widened over subsequent decades: the estimated effect of residual rice growth on the prevalence of uncommon names rose monotonically from 0.003 for the 1976 cohort to 0.013 for the 2006 cohort, with zero pre-existing trends prior to the program. Restricting the analysis to children of non-migrants produced identical patterns. Crucially, this rise in individualism was matched by a lasting erosion in collective action: high-exposure districts exhibited a significant 8 to 11 percentage-point reduction in the share of local budgets funded through community-led contributions in 1993 and 2003, despite no contraction in overall village fiscal capacity. The findings underscore that while technological modernization achieves food security, it can unintentionally unravel communal safety nets and civic co-production, leaving societies more individualistic and culturally fragmented."
+    },
+    "keyArticle": {
+      "title": "The Green Revolution and individualism: Evidence from Indonesia",
+      "authors": [
+        "Yeonha Jung",
+        "Uyseok Lee",
+        "Gedeon J. Lim"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103877",
+      "pages": "103877"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-17-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103877",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103877"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-16T22:15:59.827540+00:00",
+    "source": "openalex"
+  }
+}

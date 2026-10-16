@@ -1,0 +1,39 @@
+{
+  "id": "american-sociological-review-2026-08-01",
+  "journal": "American Sociological Review",
+  "volume": "91",
+  "issue": "5",
+  "date": "2026-08-01",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰的理想能落地生根？非營利組織背後的「人脈鍊金術」與菁英再製",
+      "en": "Whose Social Change Gets Funded? The Networked Machinery Behind Modern Nonprofits"
+    },
+    "summary": {
+      "zh": "在傳統論述中，非營利組織與社會企業往往被描繪成「哪裡有破洞就往哪裡補」的仁慈化身——要麼填補政府與市場失靈的真空，要麼憑藉崇高理念動員邊緣資源。然而，在日益專業化與競爭激烈的發展中國家，理想究竟如何真正轉化為一家能夠存續的組織？社會學者特立尼達（Jose Eos Trinidad）在《美國社會學評論》發表的最新研究指出，答案不在於需求有多迫切，而在於創辦人掌握了何種「關係根基」。\n\n藉由深入追蹤發展中國家的十多家新興公民組織，研究揭示了一場精密的「資本轉換」過程。創辦人並非單打獨鬥的理想家，而是高度倚賴既有的階級網絡與人際牽線，將自身的「社會資本」巧妙兌換為營運所需的經濟贊助、智識技術、專業人才與象徵正當性。更關鍵的是，這種鍊金術並非人人可及——唯有身處優勢場域位置、具備特定文化慣習（habitus）的菁英創辦人，才懂得如何運用與國際組織及政府官僚接軌的專業行話，贏得關鍵資源。\n\n這項發現揭示了當代公民社會令人深思的盲點：組織的「創新」往往伴隨著深刻的「再製」。當唯有熟稔專業化、體制相容語彙的行動者才能將理念實體化時，公民社會最終呈現的治理樣貌，便會無可避免地複製倡議菁英的世界觀。這促使我們重新追問：在由網絡與資源築起的門檻背後，究竟是誰的願景正在定義社會變革的未來？",
+      "en": "For decades, social scientists have explained the rise of civil society through the neat arithmetic of supply and demand: civic groups either emerge to mend the safety nets shredded by state and market failures, or they sprout wherever entrepreneurial activists successfully marshal resources. Yet in today’s hyper-networked, professionalized development landscape, these orthodoxies leave a crucial question unanswered: why do certain civic visions successfully institutionalize while others wither on the vine?\n\nExamining a cohort of emerging civic organizations and social enterprises in a developing country, sociologist Jose Eos Trinidad advances a relational theory of how civic fields are born. Drawing on Bourdieusian sociology, Trinidad demonstrates that launching an organization is fundamentally an exercise in capital conversion. Founders leverage strategic interpersonal ties and institutional relationships to transform initial social capital into economic funding, technical expertise, and symbolic legitimacy. Crucially, this capacity for conversion is not evenly distributed; it is anchored in the founders’ pre-existing social positions and class-inflected habitus, which equip them with the precise cultural codes required to navigate elite philanthropic and technocratic circuits.\n\nThe broader consequence is a systematic organizational reproduction of the field. Rather than cultivating disruptive grassroots alternatives, the civic ecosystem increasingly rewards models that mirror their founders' professionalized, state-aligned dispositions. As non-state actors take on ever-larger mandates in global governance and social welfare, Trinidad’s work offers a sharp analytical reality check: the ideas that crystallize into enduring organizations are rarely those born of the greatest need, but those backed by the most powerful networks."
+    },
+    "keyArticle": {
+      "title": "Relational Roots of Civic Fields: Capital Conversion and Organizational Reproduction in a Developing Country",
+      "authors": [
+        "Jose Eos Trinidad"
+      ],
+      "doi": "10.1177/00031224261465023",
+      "pages": "832-859"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1177/00031224261465023",
+      "doi": "https://doi.org/10.1177/00031224261465023"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-16T22:08:45.939623+00:00",
+    "source": "openalex"
+  }
+}
