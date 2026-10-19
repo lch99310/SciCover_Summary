@@ -1,0 +1,54 @@
+{
+  "id": "nature-2026-09-23-04",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8135",
+  "date": "2026-09-23",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-23-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "幼年節食如何鎖定終身長壽？果蠅體內的「蛋白質記憶」揭開早期營養之謎",
+      "en": "A Molecular Memory of Youth: How Early-Life Diet Calibrates Lifespan Through Translation Control"
+    },
+    "summary": {
+      "zh": "【總結】\n童年時期的飲食，竟能跨越生命階段悄悄改寫壽命長度。長久以來，科學界已知在發育期限制熱量或蛋白質攝取能延長成年後的壽命，但這種「營養記憶」如何跨越變態發育並刻印在成體生理中，機制始終成謎。日本理化學研究所（RIKEN）團隊在《Nature》發表的最新研究突破了此瓶頸，發現果蠅幼蟲時期的蛋白質限制（ePR）透過下調主要的儲存蛋白 Lsp2（幼蟲血清蛋白 2），使成蟲早期的轉譯活動維持在較低水平，進而顯著延長壽命。這項研究首次指認儲存蛋白是承載發育期營養記憶的實體媒介，顛覆了傳統認為長壽必伴隨生殖代價的觀念，為「健康與疾病的發育起源」（DOHaD）提供了嶄新的分子解釋。\n\n【研究問題】\n限制飲食（Dietary Restriction）是目前已知延緩衰老最普遍的途徑，但過去一個世紀的研究絕大多數聚焦於「成年期」的節食干預。儘管早在近百年前的齧齒類與昆蟲實驗中，便觀察到僅在生命早期進行飲食限制亦能延長壽命，然而受限於縱向追蹤的實驗難度，這背後的「發育烙印」如何傳遞至成體期仍是個黑盒子。過往假說多推測是不可逆的器官結構改變或表觀遺傳修飾，卻缺乏確切的分子標靶。此外，早期營養限制造成的體型縮小、生殖力下降等表型，是否為換取壽命延長不可避免的演化代價，亦缺乏明確釐清。\n\n【研究方法】\n研究團隊以生命週期短、發育階段清晰且遺傳工具豐富的黑腹果蠅為模型。研究者在幼蟲二齡末期將其轉移至低酵母（1% 或 2%）的受限飲食，成蟲羽化後則完全恢復正常飲食。為追蹤童年攝入的營養究竟去了哪裡，團隊設計了創新的活體脈衝穩定同位素標記技術（in vivo pSILAC），以重同位素賴胺酸和精胺酸餵食幼蟲，羽化後改餵中同位素，藉由高解析度質譜儀比對成蟲體內胺基酸的世代來源。隨後，研究人員結合全轉錄組定序（RNA-seq）、組織特異性基因敲降（RNAi）以及嘌呤黴素（puromycin）蛋白質合成監測，精確拆解 Lsp2 與蛋白質轉譯速率在壽命調控中的因果關係。\n\n【結果】\n活體同位素追蹤呈現出令人震撼的畫面：成蟲羽化後長達 16 天，頭部仍有高達 41% 的蛋白質完全源自幼蟲期攝入的胺基酸，且這些幼時胺基酸特異性地高比例富集於「核糖體蛋白」中。研究發現，幼蟲蛋白質限制會長期壓低儲存蛋白 Lsp2 的轉錄與表現量；更關鍵的是，Lsp2 富含酪胺酸（Tyr）與苯丙胺酸，幼蟲時期單獨限制酪胺酸，便足以抑制成年期的蛋白質轉譯並延長壽命。令人振奮的是，在脂肪體中特異性敲降 Lsp2 雖然能精準重現 ePR 的轉譯下調與長壽表型，卻完全不影響果蠅的產卵量與卵巢構造，成功打破了「長壽必須犧牲生育力」的傳統權衡假說，展示了透過微調特定儲存蛋白在不損害生殖下延年益壽的可能。",
+      "en": "**Summary:** \nNutritional conditions experienced during critical developmental windows can resonate throughout an organism's life, dictating adult physiology and overall lifespan. While early-life dietary restriction has been known to promote longevity across diverse species, the molecular machinery that encodes and maintains this \"nutritional memory\" through metamorphosis and development into adulthood has remained elusive. In a landmark study published in *Nature*, researchers at RIKEN demonstrate that protein restriction specifically during the larval stage in *Drosophila* extends adult lifespan by durably suppressing the larval storage protein Lsp2 (Larval serum protein 2). This reduction dampens the protein translation spike typically seen in young adults. By revealing that a storage protein functions as both an amino acid reservoir and a dynamic translation rheostat, this work establishes a concrete molecular link between juvenile diet and life-long survival, uncoupling longevity from reproductive trade-offs.\n\n**Problem:** \nSince the foundational discovery nearly a century ago that dietary restriction delays aging, research has predominantly focused on adult-onset dietary regimens. However, early studies in rodents, *Daphnia*, and fruit flies hinted that restricting calories or protein solely during juvenile stages could confer comparable life-extension benefits. The central enigma remained: how do transient nutritional cues encountered during growth transmit durable physiological signals into adulthood? While irreversible organ remodeling, epigenetic reprogramming, and microbiome shifts have been proposed under the Developmental Origins of Health and Disease (DOHaD) framework, direct causal molecular vehicles have remained unidentified. Furthermore, it remained unresolved whether early-life longevity was merely an inevitable byproduct of a classic trade-off with growth and reproduction.\n\n**Approach:** \nTo trace this juvenile imprinting, the authors subjected late second-instar *Drosophila* larvae to low-yeast diets before returning the newly eclosed adults to standard food. To map the long-term molecular fate of juvenile nutrients, the team implemented a clever in vivo pulse stable isotope labeling by amino acids in cell culture (pSILAC) strategy: larvae were fed synthetic diets containing \"heavy\" isotope-labeled lysine and arginine, while adults were pulsed with \"medium\" isotopes. Using high-resolution liquid chromatography-tandem mass spectrometry (nanoLC/MS/MS), they mapped isotopic carryover across tissues. They coupled this with transcriptomic profiling (RNA-seq), temporal- and tissue-specific RNA interference (RNAi), CRISPR/Cas9-mediated endogenous tag knock-ins (Lsp2-muGFP), and non-radioactive puromycin translation assays (SUnSET) to interrogate ribosomal dynamics and longevity.\n\n**Results:** \nRemarkably, pSILAC profiling revealed that larval-derived amino acids persisted deep into adulthood—constituting 56.1% of the total head proteome at day 6 and still 41.0% at day 16—with heavy isotopes selectively incorporated into structural ribosomal proteins and mitochondrial metabolic enzymes. Early-life protein restriction (ePR) systematically silenced Lsp2 expression, an aromatic amino acid-rich storage protein whose downregulation reduced total adult amino acid reserves and suppressed the early-adult spike in protein translation. Larval restriction of tyrosine alone was sufficient to diminish Lsp2 levels, decrease translation, and extend lifespan. Crucially, targeted knockdown of Lsp2 in the fat body extended male and female lifespan to the same extent as ePR, but without compromising adult body weight under replete conditions, ovariole number, or female fecundity. This decisively demonstrates that developmental nutritional memory can govern adult longevity independently of reproductive and metabolic fitness trade-offs."
+    },
+    "keyArticle": {
+      "title": "Lsp2 links early-life diet to adult translation and lifespan in Drosophila",
+      "authors": [
+        "Hina Kosakamoto",
+        "Rina Okada",
+        "Clive S. Barker",
+        "Ayako Isomura-Matoba",
+        "Jun Seita",
+        "Naoshi Dohmae",
+        "Koshi Imami",
+        "Fumiaki Obata"
+      ],
+      "doi": "10.1038/s41586-026-11031-3",
+      "pages": "474-484"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-23-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11031-3",
+      "doi": "https://doi.org/10.1038/s41586-026-11031-3"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-19T22:48:55.546095+00:00",
+    "source": "openalex"
+  }
+}

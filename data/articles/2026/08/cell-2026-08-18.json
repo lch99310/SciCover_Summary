@@ -1,0 +1,66 @@
+{
+  "id": "cell-2026-08-18",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-08-18",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "飢餓植物的「化學求救信號」：阿拉伯芥如何招募細菌軍團化解缺磷危機",
+      "en": "An Underground Cry for Help: How Plants Recruit Bacterial Allies to Unlock Soil Phosphorus"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，生物學界普遍認為無法與菌根真菌共生的植物（如十字花科的阿拉伯芥），在遭遇土壤缺磷時主要依賴「自力更生」——分泌蘋果酸等有機酸直接化學溶解礦物磷。這項發表於頂尖期刊《Cell》的突破性研究徹底改寫了這個傳統觀點。研究團隊發現，阿拉伯芥在缺磷逆境下分泌的蘋果酸並非單純的「採礦工具」，而是一個精確調控的「求救信號」（call-for-help），能透過趨化性將根際特定益生細菌（特別是不動桿菌屬 *Acinetobacter* R1280）招募到根表（根面）。在根表這個養分交換熱點，細菌利用植物釋放的碳氮源進行代謝重塑，高效活化植物無法吸收的固態磷並與宿主共享，揭示了非菌根植物與細菌建立互利共生以獲取磷營養的全新生存策略。\n\n【研究問題】磷是維持生命核心代謝所必需的大量元素，儘管土壤中總磷含量豐富，但絕大多數都鎖定在難溶性無機礦物（如羥基磷灰石）或有機植酸中，植物能直接吸收的正磷酸鹽（Pi）極其稀缺。地球上超過八成的陸生植物依靠叢枝菌根（AM）真菌協助採集磷素，但缺乏菌根共生系統的植物究竟如何適應貧磷環境？過去學界認為植物分泌有機酸是獨自溶解磷礦的「單打獨鬥」行為，而農業領域尋找的溶磷細菌（PSB）也多半依賴離體培養皿測試。然而，在實驗室培養基中溶磷能力極強的細菌，施用於田間植物時卻往往無效。植物是否能主動與特定根系細菌締結互利共生聯盟？這種合作的分子機制與生態界面究竟為何？這一直是植物營養與微生態學領域亟待解答的核心謎題。\n\n【研究方法】研究團隊採取了嚴謹的還原論實驗設計，首先從130株多樣化的阿拉伯芥根系共生細菌庫中進行篩選，以難溶性羥基磷灰石（HAP）為唯一磷源，並利用高靈敏度的磷飢餓反應螢光報導系統（*PT2-LUC*）結合避光培養技術，排除光照引發的根部毒性干擾，精確測定細菌減緩宿主磷飢餓及促進生長的能力。團隊比對了細菌在「游離狀態」下的離體溶磷活性與其在「活體植物」上的實際促生效果，隨後結合轉錄組定序（RNA-seq）、微流體毛細管趨化測定、3D共聚焦顯微成像等技術，深入追蹤模式菌株 *Acinetobacter* R1280 的動態行為。研究更進一步利用植物遺傳突變體（如調控蘋果酸分泌的 *stop1*、*almt1*，以及磷轉運關鍵基因 *phf1*）、細菌功能基因敲除株（如葡萄糖脫氫酶 *Δgcd*、胺基酸轉運蛋白 *ΔgltK/L* 與 *ΔgabP*），並在微型合成菌群（mini-SynCom）及真實貧磷土壤中驗證該機制的普適性。\n\n【結果】研究篩選發現，高達20%（26/130株）的共生細菌能同時減緩植物磷飢餓反應並顯著增加植株生物量，但迴歸分析證實，細菌在游離狀態下的溶磷能力與其在植物上的促生效益毫無關聯，證明促生完全取決於植物與細菌間的動態互作。分子層面上，缺磷植物透過 STOP1-ALMT1 訊號途徑使根系分泌的蘋果酸濃度提升3倍，專一性地招募 R1280 定殖於根成熟區；一旦利用外源蘋果酸打亂濃度梯度或在 *stop1*、*almt1* 突變株中，招募現象便蕩然無存。定殖於根表的 R1280 會啟動全新的生活型態，大幅上調高親和力磷轉運系統（*pst*）與葡萄糖脫氫酶基因 *gcd*，同時吸收植物根系釋放的麩胺酸與 GABA 作為營養源。至關重要的是，若以微孔濾膜將細菌與根系人為隔開僅1毫米，細菌的促生能力即徹底瓦解，證明「根表緊密接觸」是雙方進行高效磷與碳氮交換的關鍵熱點。該機制在複雜土壤環境與多種農作物（小麥、水稻）關聯菌株中同樣有效，為未來利用合成生物學與益生菌群開發綠色生物肥料提供了堅實的理論藍圖。",
+      "en": "**Summary:** For decades, plant biologists believed that non-mycorrhizal plants like *Arabidopsis* endure phosphorus scarcity primarily through a solitary \"do-it-yourself\" strategy—exuding organic acids to chemically liberate minerals from soil particles. A landmark study published in *Cell* overturns this long-standing paradigm, revealing that *Arabidopsis* forms an intricate, mutualistic partnership with root-associated bacteria to overcome phosphorus starvation. The researchers discovered that malate secreted by phosphorus-deprived roots does not act merely as a chemical chisel; rather, it serves as a sophisticated \"call-for-help\" signal that recruits specific bacteria, prominently *Acinetobacter guillouiae* R1280, directly to the rhizoplane via chemotaxis. At this intimate root-surface interface, the bacteria undergo extensive metabolic reprogramming, feeding on host-derived nutrients to power the robust solubilization of inaccessible mineral and organic phosphorus, establishing a reciprocal exchange that fuels the growth of both host and microbe.\n\n**Problem:** Phosphorus is an indispensable macronutrient for all living organisms, yet despite its abundance in terrestrial soils, over 80% is locked in insoluble mineral complexes or recalcitrant organic matter (such as phytate), leaving plants starved in the midst of plenty. While the majority of land plants overcome this bottleneck by establishing symbioses with arbuscular mycorrhizal (AM) fungi, non-mycorrhizal lineages—including agronomically crucial cruciferous crops—were presumed to rely purely on autonomous carboxylate secretion. Furthermore, agricultural biotechnology has long been plagued by inconsistent field performances: bacteria capable of dissolving phosphate vigorously in pure petri dish cultures routinely fail to assist plants in real soil. Deciphering whether non-mycorrhizal plants actively cooperate with root-associated bacteria to secure phosphorus, and untangling the precise biochemical choreography of this dialogue, has remained a foundational open question in plant-microbiome biology.\n\n**Approach:** To address this challenge, the authors implemented a rigorous reductionist pipeline, screening a taxonomically diverse collection of 130 *Arabidopsis* root commensal bacteria. Seedlings carrying a sensitive phosphate starvation reporter (*PT2-LUC*) were grown on agar media containing insoluble hydroxyapatite (HAP) as the sole phosphorus source, with root light-blocking applied to prevent light-induced root Fenton artifacts. They compared bacterial phosphate solubilization in the free-living state against in-planta growth phenotypes, uncovering a striking absence of correlation. Focusing on *Acinetobacter* R1280, the team conducted bacterial transcriptome profiling (comparing free-living vs. root-dwelling lifestyles), capillary chemotaxis assays, and high-resolution 3D confocal imaging. They mechanically dissected the interaction using host mutants impaired in organic acid exudation (*stop1*, *almt1*) and phosphate assimilation (*phf1*), alongside targeted bacterial knockouts (*Δgcd* for glucose dehydrogenase; *ΔgltK/L* and *ΔgabP* for glutamate and GABA uptake), culminating with validation in synthetic bacterial consortia (mini-SynCom) and natural phosphorus-deficient soil.\n\n**Results:** The screen identified that 26 of the 130 commensal strains (~20%) significantly alleviated host phosphorus starvation and stimulated seedling biomass; crucially, their efficacy showed zero correlation with their free-living phosphate-solubilizing potency in vitro. Under phosphorus deficit, host plants activated the STOP1–ALMT1 pathway to release a threefold surge of malate, creating a chemotactic beacon that gathered R1280 specifically onto the root differentiated zone; disrupting this gradient abolished recruitment. Once settled on the rhizoplane, R1280 fundamentally restructured its transcriptome, dramatically activating ATP production, the high-affinity phosphate transport operon (*pst*), and the glucose dehydrogenase gene *gcd*, while consuming plant-secreted glutamate and GABA as carbon and nitrogen fuel. Strikingly, physically separating bacteria from roots by a mere 1 mm barrier abolished the growth-promoting effect, demonstrating that the rhizoplane acts as an indispensable, close-contact nutritional hotspot. These findings held true within multi-species synthetic communities and natural impoverished soils, offering a profound mechanistic blueprint for engineering targeted microbiome inoculants for sustainable agriculture."
+    },
+    "keyArticle": {
+      "title": "Mutually beneficial interactions between bacteria and Arabidopsis promote phosphorus nutrition and growth",
+      "authors": [
+        "Yongjin Wang",
+        "Chulei Gao",
+        "Fang Liu",
+        "Yiheng Liu",
+        "Zhaoyang Zhou",
+        "Qi Wang",
+        "Fengxia Zhang",
+        "Hangyuan Cheng",
+        "Xinwei Jiang",
+        "Wei Wang",
+        "Binglei Wang",
+        "Tang Yuanjie",
+        "Feng Zhou",
+        "Guodong Wang",
+        "Yiping Wang",
+        "Yang Weicai",
+        "Paul Schulze‐Lefert",
+        "Dong Liu",
+        "Yang Bai",
+        "Jian‐Min Zhou"
+      ],
+      "doi": "10.1016/j.cell.2026.07.048",
+      "pages": "6371-6386.e8"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.048",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.048"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-19T22:50:38.033027+00:00",
+    "source": "openalex"
+  }
+}

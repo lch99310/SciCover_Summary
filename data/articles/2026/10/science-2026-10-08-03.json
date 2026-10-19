@@ -1,0 +1,47 @@
+{
+  "id": "science-2026-10-08-03",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6820",
+  "date": "2026-10-08",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-08-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "希特勒的核武夢只是泡影：神秘鈾立方體揭開納粹反應爐的真實困境",
+      "en": "Ghost in the Machine: How Nazi Uranium Cubes Disproved Heisenberg’s Atomic Myth"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，二戰時期納粹德國是否具備製造原子彈的能力，一直是歷史學家與物理學界爭論不休的謎團。諾貝爾物理學獎得主海森堡（Werner Heisenberg）戰後曾聲稱，德國最後的實驗性核反應爐距離達到自持鏈式反應僅差「臨門一腳」。然而，一項由馬里蘭大學與普林斯頓大學研究團隊發表的最新研究，徹底打破了這項神話。科學家透過對留存至今的納粹「鈾立方體」進行精確物理測量，結合檔案調查與中子傳輸電腦模擬，證實即使將全德國分散的所有核原料傾囊相湊，納粹政權在物資與技術上也絕無可能啟動核反應爐，更遑論提煉出足以製造原子彈的鈽。\n\n【研究問題】二戰末期，海森堡團隊在德國西南部的海格洛赫（Haigerloch）地下酒窖中秘密搭建了代號為「B8」的反應爐，試圖開啟核裂變鏈式反應。戰後，海森堡辯稱德國只需稍微增加鈾的存量即可實現臨界狀態，甚至暗示科學家是因道德良知而故意放慢進度；亦有現代學者推測，若納粹未將鈾庫存分散給互不合作的競爭團隊，或許真能建造出可用反應爐。解開這段公案的核心缺口在於：德國實際使用的核原料品質到底如何？B8反應爐究竟距離達到自持鏈式反應的臨界點有多遠？這對理解同盟國發起曼哈頓計畫的歷史動機具有關鍵意義。\n\n【研究方法】研究團隊結合了核取證學、檔案考據與先進電腦模擬。團隊調用現存的兩顆納粹鈾立方體——包含一塊意外保存在大學辦公室抽屜內、長寬約5公分的金屬立方——透過物理與同位素檢驗，確認其為天然鈾而非濃縮鈾，並精確測量了內部的多孔性與雜質。普林斯頓大學的派屈克·帕克（Patrick Park）等人隨後調閱國家檔案館中重水與石墨反射層的真實歷史數據，構建出高度精準的三維反應爐數位模型，成功重現了當年德國團隊記錄的中子倍增測量數據，進而精確推算反應爐達成臨界所需的真實物資門檻。\n\n【結果】模擬結果顯示，海森堡的B8反應爐中子倍增因子僅有約0.94，意即每100個裂變中子在下一代只能產生約94個，遠低於維持連鎖反應所需的1.0基準值。更關鍵的是，若要使反應爐達到臨界，德國需要約3.1噸的鈾和3.5噸的重水，但B8當時僅各持有約1.5噸；這意味著臨界需求比全德國已知鈾立方體總庫存多出20%，重水缺口更是高達80%。由於盟軍此前突擊破壞了挪威的重水工廠，加上德國國產石墨純度不足無法替代重水，納粹從原料供應鏈上就已注定失敗。這項發現不僅洗刷了海森堡「故意拖延」的戰後說辭，也蓋棺論定：希特勒的原子彈威脅，在物理與物質現實中從未真正接近實現。",
+      "en": "**Summary:** For more than seven decades, the true extent of Nazi Germany's nuclear ambitions has lingered as one of World War II's most chilling historical enigmas. Following Germany's defeat, Werner Heisenberg famously asserted that his final reactor experiment, code-named B8, fell short of criticality only by a razor-thin margin. However, a landmark forensic study led by researchers from the University of Maryland and Princeton University has decisively shattered that post-war narrative. By analyzing surviving uranium cubes recovered from clandestine laboratories and coupling material forensics with archival records and high-fidelity computer simulations, the researchers proved that wartime Germany lacked the fissile inventory and heavy water required to sustain a chain reaction, let alone harvest plutonium for a viable atomic weapon.\n\n**Problem:** In the closing weeks of the war, Heisenberg’s team suspended 664 dense uranium cubes in a cellar in Haigerloch, immersing them in heavy water within an experimental assembly designed to achieve a sustained chain reaction. After 1945, Heisenberg claimed that a modest addition of fuel would have tipped the system into criticality, and hinted that moral reluctance among German scientists had restrained the project. Modern historians had also speculated that Germany’s fragmented bureaucracy—which split uranium stockpiles between rival military and academic factions—was the primary obstacle. The central historical problem remained unresolved: Was Nazi failure merely a matter of administrative disorganization, or was it bounded by an insurmountable physics deficit?\n\n**Approach:** The investigative breakthrough emerged from nuclear forensics performed on two authentic 5-centimeter uranium cubes that survived the Allied ALSOS mission and black-market circulation. Material scientists determined the cubes' internal porosity, natural isotopic abundance, and density, confirming they consisted of un-enriched fuel. Lead author Patrick Park then integrated these material characteristics, historical graphite reflection metrics, and archival records of German heavy-water purity into sophisticated neutron transport simulations. By precisely reproducing the raw neutron flux measurements documented by Heisenberg's own physicists in 1945, the team constructed a validated computational replica capable of testing whether the reactor could have ever gone critical under any realistic wartime scenario.\n\n**Results:** The simulation established that the B8 reactor achieved a neutron multiplication factor of only 0.94—meaning that for every 100 neutrons released, only 94 propagated to the next generation, falling decisively short of the 1.0 threshold needed for a self-sustaining reaction. To attain criticality, the core design required approximately 3.1 tons of uranium and 3.5 tons of heavy water; Heisenberg possessed roughly 1.5 tons of each. Even pooling the entire German uranium stockpile would have left the program 20% short on fuel and 80% short on heavy water, the supply of which had been irreparably choked by Norwegian sabotage and Allied bombing raids. Furthermore, impure domestic graphite could not bridge the gap. Far from an ethical strike or a near miss, Nazi Germany's atomic pursuit was fatally stalled by an insurmountable material chasm."
+    },
+    "keyArticle": {
+      "title": "Nazi Germany had no hope of making an atomic bomb, uranium cubes reveal",
+      "authors": [
+        "Richard Stone"
+      ],
+      "doi": "10.1126/science.aen0165",
+      "pages": "152-153"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-08-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aen0165",
+      "doi": "https://doi.org/10.1126/science.aen0165"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-19T22:47:35.579986+00:00",
+    "source": "openalex"
+  }
+}

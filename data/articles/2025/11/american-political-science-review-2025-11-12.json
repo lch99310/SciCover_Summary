@@ -1,0 +1,50 @@
+{
+  "id": "american-political-science-review-2025-11-12",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-11-12",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2025-11-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰的聲音被聽見了？美國聯邦立法的種族回應落差與政黨政治密碼",
+      "en": "Whose Preferences Prevail? How Partisan Power and Race Shape U.S. Federal Lawmaking"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《美國政治學評論》的重磅研究，首次全面剖析了美國聯邦立法體系究竟對誰的民意更具「回應性」（Responsiveness）。研究團隊追蹤近二十年間超過52萬名公民對134項重大法案的態度，打破了過往認為「白人利益總體全面碾壓少數族裔」的直覺印象，指出整體平均的政策勝率在各族群間差距其實不大。然而，這種表面上的平衡完全被「政黨輪替」所左右：一旦共和黨主導聯邦政府或參議院，少數族裔的法案勝率便急遽崩跌，而白人選民的優勢則顯著擴大。這項研究揭示了美國民主體制中，種族不平等是如何透過政黨控制與關鍵否決點（特別是參議院）被系統性放大。\n\n【研究問題】民主的核心基石在於政府能否平等回應每位公民的偏好。然而，過去數十年針對代表性不平等的研究，絕大多數聚焦於「階級」差距（如富人是否比窮人更有影響力），甚少探討「種族」在國家級法律制定中扮演的角色。少數探討種族的文獻，往往局限於地方政府、選區選民服務，或是僅測量議員與選民之間抽象的意識形態光譜，而非實質法案的最終成敗。這留下了一個致命的盲點：當具體法案在國會過關斬將時，黑人、拉丁裔與亞裔的訴求是否真的比白人更容易遭到忽視？如果是，這種差距究竟是由階級、政黨認同，還是更深層的種族動態所驅動？\n\n【研究方法】研究團隊整合了2006年至2022年間「合作選舉研究」（CES）龐大的調查數據，涵蓋超過52萬名受訪者對134項重大具體法案（如最低工資、健保改革、墮胎限制等）的贊成或反對立場，並將其與國會表決及最終立法結果進行人工精確匹配。研究採用雙重測量維度：首先是「總體政策回應性」（公民支持的法案是否最終成法，或反對的是否被阻擋）；其次是「個體代表性」（國會議員的點名表決是否符合選區選民的期望）。透過多層次迴歸模型，作者嚴格控制了受訪者的所得、教育、年齡、性別、意識形態以及政黨認同，並進一步探討州層級的選民結構與白人種族怨恨心理的調節效應。\n\n【結果】全體平均而言，白人、黑人、拉丁裔與亞裔在政策上的勝率均徘徊在49%至50%左右，表面差距微乎其微。然而一旦切分政黨控制權，殘酷的鴻溝立即浮現：在共和黨掌權的總統任期或掌控參議院時，黑人選民在立法上的勝率比白人驟降約7至9個百分點（勝率僅約38%至40%），拉丁裔與亞裔亦落後4至7個百分點；而在民主黨執政時，黑人勝率則微幅超越白人近4個百分點。值得注意的是，即便控制了階級、教育與意識形態，這種落差依然存在。更具警示意義的是，在參議院層次，當一州的黑人人口比例愈高，該州參議員對黑人選民的代表性反而顯著惡化——研究證實，這背後的主要推手正是白人的「種族怨恨」（Racial Resentment），顯示人口威脅動態正在扭曲關鍵立法機制的運作。",
+      "en": "**Summary:** This landmark study in the *American Political Science Review* provides the most comprehensive investigation to date into whether U.S. federal policymaking systematically favors white Americans over racial minorities. Drawing on two decades of opinion data from 520,000 citizens across 134 major legislative battles, the authors overturn the assumption of a persistent, monolithic racial gap in policy outcomes. Instead, they demonstrate that racial responsiveness is profoundly contingent on partisan power: while overall aggregate win rates appear surprisingly parity-driven, Republican control of the federal government—especially the Senate—precipitates a dramatic collapse in policy congruence for Black, Latino, and Asian American citizens, exposing the institutional levers through which racial inequality persists in American governance.\n\n**Problem:** While political equality requires lawmakers to weigh citizens' preferences without prejudice, empirical scholarship on unequal representation has overwhelmingly prioritized income inequality over racial disparities. The sparse literature addressing race in federal policy typically relies on blunt ideological scales or roll-call votes rather than final legislative enactments across diverse policy domains. Consequently, scholars have struggled to answer a vital question: Do people of color face systematic disadvantages when federal bills become law, or are apparent disparities simply artifacts of underlying divides in income, education, or party alignment? Understanding this dynamic is crucial for diagnosing the health of multiracial democracy.\n\n**Approach:** The authors linked respondent data from the 2006–2022 Cooperative Election Study (CES)—representing 3.7 million policy evaluations across 520,000 Black, Latino, Asian American, and white respondents—directly to the legislative outcomes of 134 salient congressional bills. They deployed two distinct evaluative metrics: \"policy responsiveness\" (whether a citizen's preferred policy passed or opposed policy failed) and \"dyadic representation\" (whether specific lawmakers voted congruently with their constituents' views). Using linear probability models with policy fixed effects, they systematically adjusted for socioeconomic status, education, age, gender, ideology, and party affiliation, while tracking shifts across partisan configurations and state-level demographic and attitudinal variables.\n\n**Results:** Across all years, average policy win rates were remarkably similar across groups, with white, Black, Latino, and Asian respondents winning roughly 49% to 50% of the time. However, this equilibrium masks stark partisan polarities: under Republican control of the presidency and Senate, Black citizens lost on policy 7 to 9 percentage points more often than white citizens (seeing win rates plummet to below 40%), while Latinos and Asian Americans suffered a 4 to 7 point disadvantage. These gaps remain robust when controlling for income, education, and ideology. Crucially, the authors uncovered an alarming inverse relationship in the Senate: as the Black population share in a state grows, Senate representation of Black constituents deteriorates—a paradox largely explained by white racial resentment, which compounds representational penalties in pivotal legislative venues."
+    },
+    "keyArticle": {
+      "title": "Race, Responsiveness, and Representation in U.S. Lawmaking",
+      "authors": [
+        "G. Agustin Markarian",
+        "Jacob S. Hacker",
+        "Mackenzie Lockhart",
+        "Zoltan L. Hajnal"
+      ],
+      "doi": "10.1017/s0003055425101287",
+      "pages": "917-941"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2025-11-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101287",
+      "doi": "https://doi.org/10.1017/s0003055425101287"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-19T22:53:49.325449+00:00",
+    "source": "openalex"
+  }
+}

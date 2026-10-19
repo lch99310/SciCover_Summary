@@ -1,0 +1,51 @@
+{
+  "id": "journal-of-development-economics-2026-07-16",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-07-16",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "告贏「利維坦」：當中國法官跨區辦案，民營企業為何敢大膽下注？",
+      "en": "Suing the Leviathan: How Cross-Regional Courts Unleashed Private Investment in China"
+    },
+    "summary": {
+      "zh": "【總結】在威權體制下，民營企業常面臨「民告官」的死局：當地方政府既是違法行政的被告，又掌握審判法官的升遷任命與財政預算時，產權保護無異於空中樓閣。本研究聚焦中國自2013年起推動的「跨行政區劃管轄改革」（TRJ），該改革未撼動中央政治體制，僅透過「訴訟換地審理」的程序切換，將告官案件移交異地法院。研究證實，這項微小的司法程序重組顯著瓦解了地方司法保護主義，使企業實體投資規模躍升約28.7%，為發展中國家如何在缺乏三權分立的政治現實下建立有效產權保護，提供了全新的制度借鏡。\n\n【研究問題】長期以來，法經濟學文獻普遍認為司法獨立是經濟繁榮的基石，但傳統路徑大多依賴三權分立、法官終身制或司法選舉等西方民主制度安排。然而在威權政體中，地方司法長期陷入雙重代理困境：法院必須監管同級政府，卻在人頭費、辦公經費與人事任免上受制於對方。當行政干預常態化，民營企業深感產權朝不保夕，往往選擇抑制投資或將資金短視化。學界面臨的重大缺口在於：在既有政治架構不變的前提下，威權政府究竟能否單靠「程序性改革」增進司法公信力？這種改革又如何穿透行政迷霧，真正啟動微觀企業的投資引擎？\n\n【研究方法】研究團隊利用2013至2019年間中國各城市分批試點跨區管轄改革的准自然實驗，採用嚴謹的堆疊雙重差分法（Stacked Difference-in-Differences），有效排除了交錯實施時間所導致的雙向固定效應估計偏誤。研究整合了A股民營上市公司財務數據、裁判文書網的海量行政訴訟判決、中國家庭追蹤調查（CFPS）的政商信任度指標，以及世界銀行企業投資環境調查數據。除了檢驗企業資本支出的變化，作者還建立了一套多維機制檢驗鏈：分析行政訴訟受理量與原告勝訴率、企業對外溝通文本的語調情緒、非生產性制度交易成本，以及土地交易與風險承擔行為。\n\n【結果】實證結果顯示，實施跨區管轄後，受影響城市的民營企業投資支出大幅增長了樣本均值的28.7%。司法機制方面，企業提起行政訴訟的案件量顯著上升，原告勝訴率更實質提升了5.5至5.6個百分點，而民事與刑事案件則無顯著變化。異質性分析指出，改革紅利主要由資產專用性高（投資不可逆）、原先面臨較重行政審批延誤與高融資約束的民企享有，國有企業則不受影響。此外，產權預期的穩定促使民企敢於購置更多工業用地並承擔長期經營風險，儘管研究也發現部分新增投資呈現過度投資傾向。這項研究雄辯地證明：即便在威權體系下，僅靠重劃訴訟管轄邊界、斬斷地方利益鏈條，便足以釋放強大的民營經濟動能。",
+      "en": "**Summary:** In authoritarian regimes, administrative courts are notoriously captured by the very local governments they are tasked to police, rendering property rights fragile and dampening corporate investment. Examining China's landmark Trans-Regional Jurisdiction (TRJ) reform—which shifted administrative lawsuits against municipal agencies to courts located outside the defendant's geographic district—this study provides compelling causal evidence that targeted procedural re-engineering can bypass institutional capture. The authors demonstrate that severing the geographic tie between local officials and the bench reduced bureaucratic expropriation and boosted private corporate investment by an astonishing 28.7 percent of the sample mean.\n\n**Problem:** Classic law and economics doctrine asserts that judicial independence requires sweeping institutional architecture: constitutional checks and balances, life tenure, or merit-based central appointments. In authoritarian and civil law contexts, however, local courts routinely suffer from institutional dependence, with judges relying on municipal authorities for their fiscal operating budgets and career advancements. When private firms face administrative abuse or illegal asset seizures, suing the local state is practically futile. The literature has left a critical blind spot: Can an authoritarian state credibly enforce judicial impartiality and protect private property through procedural jurisdictional adjustments without undertaking sweeping constitutional overhauls?\n\n**Approach:** The authors exploit the staggered city-by-city rollout of China's TRJ reform between 2013 and 2019 as a quasi-natural experiment. To resolve econometric biases inherent in standard two-way fixed effects with heterogeneous treatment timing, they implement a stacked difference-in-differences framework on listed Chinese private firms. The empirical strategy synthesizes multiple micro-datasets: corporate capital expenditures, administrative adjudication records from China Judgments Online, institutional climate surveys from the World Bank, and socio-economic trust measures from the China Family Panel Studies (CFPS). The analysis traces the precise transmission mechanisms by testing administrative litigation outcomes, corporate risk tolerance, institutional transaction friction, and post-reform capital misallocation.\n\n**Results:** The baseline estimates reveal that the TRJ reform increased corporate investment by 28.7% relative to the sample average. On the judicial front, administrative lawsuit filings jumped significantly, and the private plaintiff win rate against the state expanded by roughly 5.5 to 5.6 percentage points, while placebo civil and criminal dockets showed zero reaction. The investment rebound was most pronounced among non-state enterprises holding highly irreversible fixed assets and those previously hampered by severe bureaucratic red tape and financing constraints. Furthermore, insulated from regional protectionism, private firms aggressively acquired industrial land and engaged in higher operational risk-taking, though evidence of marginal overinvestment emerged. The findings demonstrate that altering where a case is heard—rather than overhauling sovereign political control—can meaningfully temper the Leviathan's grasp."
+    },
+    "keyArticle": {
+      "title": "Suing the leviathan: The effect of trans-regional jurisdiction reform on corporate investment",
+      "authors": [
+        "Jiayi Geng",
+        "Yinyi Jiao",
+        "Jinjun Ke",
+        "Meiting Lu",
+        "Yaowen Shan"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103880",
+      "pages": "103880"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103880",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103880"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-19T22:56:32.283232+00:00",
+    "source": "openalex"
+  }
+}

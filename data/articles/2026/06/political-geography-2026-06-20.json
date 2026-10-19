@@ -1,0 +1,40 @@
+{
+  "id": "political-geography-2026-06-20",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-06-20",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "善意的偏心：當國際 NGO 成為亞馬遜原住民的「領土經紀人」",
+      "en": "The Uneven Map: How Well-Intentioned NGOs Fuel Inter-Indigenous Land Disputes in the Amazon"
+    },
+    "summary": {
+      "zh": "在亞馬遜雨林的生態保衛戰中，非政府組織（NGO）、學者與法律援助者向來被視為原住民抵禦跨國企業與國家掠奪的關鍵盟友。這些外部力量引進尖端地理測繪、募款網絡與頂尖法扶團隊，協助在地部落將世代相傳的土地記憶轉化為現代法庭認可的「法定產權」。然而，發表於《政治地理學》（Political Geography）的一項最新研究指出，這種強大的外援正在引發意想不到的負面連鎖反應：當爭端發生在原住民彼此之間時，「誰獲得贊助」直接決定了誰能勝出。\n\n研究聚焦於厄瓜多亞馬遜地區的一場土地審判。在歷史上，亞馬遜不同族群間的領土界線往往流動、重疊且具協商彈性。但在這場現代訴訟中，一個獲得充足國際 NGO 贊助的原住民社群，憑藉專業的數位說故事策略與法庭攻防，在法律上成功「吞併」了另一個缺乏外部資源的鄰近社群近三分之一的世居土地。原本應是共同抵抗開採資本主義的盟友，在不平等的資源挹注下，淪為零和博弈的司法競爭者。\n\n學者指出，NGO 與學術界在無意間已扮演了「領土經紀人」（territorial brokers）的角色。當外部機構偏袒特定社群時，不僅架空了原住民傳統的部落協商機制，更將僵化的現代產權觀念強加於歷史複雜的生態地景之上，削弱了劃界的社會合法性。這項研究對當代環境人權運動提出深刻警示：在倡導土地正義的同時，外部行動者必須警惕自身權力結構如何重塑在地政治，避免以「守護」之名無意間製造了新的邊緣群體。",
+      "en": "In the global campaign to protect the Amazon basin, non-governmental organizations, academics, and legal advocates have long served as vital champions for Indigenous peoples resisting encroachment by corporate and state interests. By deploying high-tech GIS mapping, international fundraising campaigns, and elite legal representation, these external allies help render ancestral land claims legible to modern courtrooms. Yet, as a study in Political Geography demonstrates, this support carries a profound and under-examined consequence: when disputes arise between Indigenous groups themselves, external backing can decisively tilt the balance of power, creating what the authors term 'uneven territorial sponsorship.'\n\nDrawing on a landmark case study from the Ecuadorian Amazon, researchers Angus Lyall and Tod Dillon Swanson illustrate how this dynamic unfolds on the ground. Historically, Amazonian Indigenous territoriality was fluid, characterized by shifting zones of influence and overlapping use. Today, however, modern legal institutions require rigid, cartographic boundaries. In the examined trial, a community armed with extensive NGO sponsorship legally captured nearly one-third of an ancestral territory that had long been inhabited by a rival community lacking institutional backing. What could have been an internally negotiated compromise instead became an asymmetrical zero-sum legal victory.\n\nThe authors argue that NGOs and academic allies have inadvertently evolved into powerful 'territorial brokers.' By subsidizing specific factions through digital storytelling and litigation, external patrons risk stifling traditional inter-community mediation and fostering contentious courtroom battles that undermine long-term social legitimacy. The study issues an urgent call for conservationists and human rights practitioners to critically reflect on their interventions, cautioning that projecting modern notions of exclusive property onto historically entangled landscapes can paradoxically fuel localized dispossession."
+    },
+    "keyArticle": {
+      "title": "Uneven territorial sponsorship: NGOs and ancestral recognition in inter-indigenous territorial disputes in Amazonia",
+      "authors": [
+        "Angus Lyall",
+        "Tod Dillon Swanson"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103605",
+      "pages": "103605"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103605",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103605"
+    }
+  },
+  "_meta": {
+    "summary_mode": "abstract-only",
+    "created_at": "2026-10-19T22:52:00.785657+00:00",
+    "source": "openalex"
+  }
+}
