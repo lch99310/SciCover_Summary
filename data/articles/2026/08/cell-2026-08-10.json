@@ -1,0 +1,66 @@
+{
+  "id": "cell-2026-08-10",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "20",
+  "date": "2026-08-10",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-10-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "破解帕金森氏症關鍵開關：冷凍電鏡揭密 LRRK2 蛋白的「自我封印」與突變失控機制",
+      "en": "Unlocking Parkinson's Engine: Cryo-EM Unveils the Molecular Switch of LRRK2 Autoinhibition"
+    },
+    "summary": {
+      "zh": "【總結】富白氨酸重複激酶 2（LRRK2）是遺傳性帕金森氏症最惡名昭彰的元兇之一。過去科學界雖然清楚其激酶活性過高會毒害神經細胞，但這個龐大的多結構域蛋白究竟如何自我調控，長年以來如同一個未解的黑盒子。由加州大學聖地牙哥分校領導的跨國團隊在頂級期刊《Cell》發表指標性研究，利用單顆粒冷凍電鏡（Cryo-EM）首次精準捕捉到 LRRK2 在不同核苷酸狀態下的立體動態結構，揭露其內建的「分子開關」——ROC GTPase 結構域。研究證實，當結合 GDP 時，LRRK2 的 N 端重複序列會嚴密扣鎖激酶活性中心，處於「自我抑制」狀態；一旦釋放 GDP 或結合 GTP，抑制臂便會彈開解鎖，使激酶轉為活化單體。這項成果不僅統一了過去數十年來相互矛盾的生化觀點，更為精準開發帕金森氏症的新型別構調節藥物確立了清晰的分子藍圖。\n\n【研究問題】LRRK2 是一個高達 286 kDa 的超大型酵素，罕見地同時擁有負責水解 GTP 的 ROC 結構域與負責磷酸化的激酶結構域。學界已知帕金森氏症突變會顯著增加 LRRK2 對下游受體 Rab GTPase 的磷酸化活性，甚至在常見的偶發性（非遺傳性）帕金森氏症患者腦中也觀察到其活性異常飆高。然而，過去的研究面臨兩大核心困境：第一，ROC 結構域究竟如何遠程操控激酶的開關？早期在細胞裂解液與純化蛋白質系統中的實驗結果往往互相矛盾；第二，臨床上最常見的兩大家族性突變——位於激酶活性催化區的 G2019S，以及位於 ROC 結構域交界面的 R1441 突變群，究竟是透過相同還是相異的機制引發過度活化？若無法釐清這些分子尺度的構型動態，藥物開發者就難以設計出專一性高、副作用低的新一代別構調節劑。\n\n【研究方法】為了解開這一難題，研究團隊設計了一套精密的體外重組與結構解析策略。他們先利用金屬螯合劑 EDTA 剝除純化 LRRK2 蛋白內部緊密結合的 GDP，再分別回補 GDP、不可水解的 GTP 類似物 GMPPNP 或兩者混合物，並結合能改善樣品玻璃冰層方位取向的合成錨蛋白 DARPin E11。研究團隊藉由高解析度單顆粒冷凍電鏡，一舉解構出涵蓋自抑態、活化態、單體與二聚體等 16 個獨立結構模型。為進一步操縱蛋白構型以驗證功能，團隊開發出兩種專屬的分子工具：一種是能透過空間立體位阻推開 N 端抑制臂的促活化蛋白 DARPin C12，另一種則是如「分子訂書針」般將抑制臂鎖死於失活構型的抑制性蛋白 DARPin G10。配合質量光度學（Mass Photometry）、單次循環螢光核苷酸解離動力學測定與哺乳動物細胞活性分析，全方位解析了構型轉換與受體磷酸化的交互關係。\n\n【結果】冷凍電鏡數據明確顯示，處於自我抑制狀態的 LRRK2 結構完全被 GDP 所鎖定；當樣品經過 24 小時的核苷酸剝除處理後，100% 的分子轉變為抑制臂鬆脫的活化構型，且質量光度學證實活化會驅使二聚體解離為單體。更重要的是，研究揭示了致病突變存在「雙軌失控機制」：在野生型蛋白中，第 1441 位的精氨酸（R1441）扮演著穩固結構的「插銷」，將 ROC 結構域緊緊扣在相鄰的 COR-B 結構域上以維持自我抑制；而在 R1441C/G/H 突變體中，插銷斷裂導致抑制臂更容易彈開，使活化構型的分子比例顯著升高。相反地，G2019S 突變則是直接提高激酶催化中心的內在催化速率。細胞實驗證實，DARPin C12 無法進一步增強已經解鎖的 R1441H 活性，卻能顯著加乘 G2019S 的活性；將兩者合一的雙突變體（R1441H/G2019S）更表現出完全疊加的狂暴催化力。此外，下游受體 Rab8a 的結合能阻擋抑制臂回扣，並同時加速 GDP 釋放與 GTP 水解。這項發現指出，未來開發能將 ROC 結構域「凍結」在 GDP 結合態的小分子，將是治療帕金森氏症極具潛力的新方向。",
+      "en": "**Summary:** Leucine-rich repeat kinase 2 (LRRK2) is a colossal multidomain enzyme whose dysregulation represents the second most frequent cause of familial Parkinson's disease, with elevated kinase activity also heavily implicated in idiopathic cases. Despite its recognized clinical prominence, how LRRK2 orchestrates its internal regulatory switches has remained an enduring biochemical mystery. In a landmark study published in *Cell*, a team led by researchers at the University of California San Diego deployed single-particle cryo-electron microscopy (cryo-EM) to decode the molecular architecture of LRRK2 across distinct nucleotide states. The study reveals that LRRK2's Ras-like GTPase domain (ROC) functions as an allosteric master switchboard: bound to GDP, the flexible N-terminal repeat domains fold over the kinase active site to enforce strict autoinhibition; loss of GDP or binding of GTP triggers a structural reorganization that undocks the N-terminal repeats, exposing the kinase cleft as an active monomer. This discovery reconciles conflicting observations in the field and provides a unified structural blueprint for allosteric drug discovery.\n\n**Problem:** LRRK2 is a 286-kilodalton molecular behemoth that unusually combines both a functional GTPase domain and a kinase domain on the same polypeptide chain. Hyperactivation of LRRK2 leads to excessive phosphorylation of its downstream physiological substrates—a specific subset of Rab GTPases—disrupting membrane trafficking and endolysosomal homeostasis in dopaminergic neurons. However, fundamental mechanistic voids have persistently hindered targeted therapeutic design. First, it was entirely unclear how guanine nucleotide exchange within the ROC GTPase mechanically communicates across domains to govern kinase accessibility, largely due to contradictory biochemical results from lysate versus purified enzyme assays. Second, it remained an enigma whether distinct clinical mutations—such as the active-site G2019S variant and the ROC-COR interface mutations (R1441C/G/H)—provoke neurodegeneration via identical or fundamentally distinct structural trajectories.\n\n**Approach:** To map this dynamic conformational landscape, the researchers devised an exhaustive biochemical reconstitution pipeline. They depleted endogenous GDP from purified wild-type and disease-mutant LRRK2 via prolonged EDTA-mediated nucleotide stripping, systematically re-incubating the enzyme with GDP, the non-hydrolyzable GTP analogue GMPPNP, or equimolar mixtures. To eliminate orientation bias during cryo-EM imaging, samples were vitrified with DARPin E11, yielding 16 high-resolution reconstruction maps capturing intermediate, autoinhibited, and activated states. Beyond structural cataloging, the authors engineered two novel, conformationally selective probes: DARPin C12, which sterically forces the undocking of the N-terminal repeats to drive activation, and DARPin G10, which acts as a physical bracket bridging the N-terminus to the WD40 domain to freeze autoinhibition. These synthetic tools were deployed alongside mass photometry, fluorometric single-turnover GDP release kinetics, and cellular Rab phosphorylation assays in HEK293T cells.\n\n**Results:** The structural data definitively proved that autoinhibited LRRK2 is trapped in a GDP-bound conformation, whereas 24 hours of nucleotide stripping shifted 100% of particles into the activated, repeat-undocked state, which mass photometry confirmed to dissociate from dimers into active monomers. Crucially, the authors demonstrated that pathogenic mutations operate via divergent, serial mechanisms: in wild-type LRRK2, residue R1441 acts as an allosteric latch packing against COR-B to stabilize the autoinhibited state; pathogenic substitutions at R1441 disrupt this interface, thermodynamically shifting the population toward the open, repeat-undocked state. In contrast, the G2019S mutation enhances the intrinsic catalytic turnover rate of the kinase domain itself. In cellular assays, DARPin C12 failed to further elevate R1441H phosphorylation levels while markedly boosting G2019S activity; pairing both mutations into a double mutant (R1441H/G2019S) produced fully additive enzymatic hyperactivation. Furthermore, Rab8a substrate engagement was shown to sterically prevent redocking of the inhibitory repeats while stimulating GDP exit and GTP turnover. These discoveries highlight that pharmacologically locking the ROC domain in a GDP-bound state presents an attractive therapeutic strategy to reinforce autoinhibition in Parkinson's disease."
+    },
+    "keyArticle": {
+      "title": "The structural basis for LRRK2’s activation and autoinhibition",
+      "authors": [
+        "Amalia C. Villagran Suarez",
+        "Kathryn S. Hatch",
+        "Tatyana Bodrug",
+        "Wei Gai",
+        "Katherine J. Surridge",
+        "Elizabeth Moussikhina",
+        "Kendrick H V Nguyen",
+        "Marta M. Sanz Murillo",
+        "Robert Callahan",
+        "Erica Xiong",
+        "Delisa Ramos",
+        "Lawrence Zhu",
+        "Verena Dederer",
+        "Sebastian Mathea",
+        "Janet Iwasa",
+        "Stefan Knapp",
+        "Kevan M. Shokat",
+        "Samara L. Reck‐Peterson",
+        "Andrés E. Leschziner"
+      ],
+      "doi": "10.1016/j.cell.2026.07.027",
+      "pages": "6460-6473.e7"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-10-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.027",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.027",
+      "preprint": "https://www.biorxiv.org/content/10.64898/2026.05.31.729085"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-22T22:11:11.708027+00:00",
+    "source": "openalex"
+  }
+}

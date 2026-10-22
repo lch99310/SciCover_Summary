@@ -1,0 +1,48 @@
+{
+  "id": "american-political-science-review-2025-11-05",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-11-05",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2025-11-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "「下凡」的雙軌博弈：日本官僚「旋轉門」如何為政商兩端輸送利益？",
+      "en": "Descent from Heaven: The Bifurcated Political Economy of Japan’s Bureaucratic Revolving Door"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，政商學界普遍將公職「旋轉門」視為營利企業單向尋租的工具：企業透過聘用卸任高官換取監管寬鬆與商業特權。然而，阿姆斯特丹大學政治經濟學者崔佛·因塞爾蒂（Trevor Incerti）透過日本「天下り」（Amakudari，即官僚退休後「下凡」任職）的全面行政數據，揭示了一個顛覆傳統認知的「雙軌就業市場」。研究發現，旋轉門絕非單純由企業需求驅動，而是國家部會主動維繫的制度性補償機制。高階菁英官員流入上市企業換取低利政府貸款與市場紅利；市場需求不足的中低階官員則被安置於非營利組織與公法人，並為其導入高額政府合約。這項研究重新定義了旋轉門本質：它既是企業的尋租跳板，更是國家在公共部門低薪體制下維繫精英招募的「隱形契約」。\n\n【研究問題】既有文獻大多聚焦於民選議員的政治人脈價值，或僅著眼於少數監管機構與特定私企間的個案交換，卻忽略了規模更為龐大的文官官僚群體。在許多已開發國家，公務員面臨「相對低薪」與「強制提早退休」的雙重困境，他們究竟何去何從？企業是否真的對所有退職官僚照單全收？如果缺乏私人市場需求，龐大的普通公務員如何獲得體面的退休保障？解答這些問題，關鍵在於突破「只有私企才能分肥」的盲點，全面剖析官僚體系自身如何在體制外打造延遲補償管道，以及不同層級的官僚如何為其新雇主實質變現。\n\n【研究方法】作者構建了跨越十年的多維度微觀資料庫，克服了過往研究仰賴抽樣樣本的限制。核心數據涵蓋 2008 年《國家公務員法》改革後日本內閣府公開的 2009 至 2019 年全量官員初次「下凡」紀錄（共計逾 1.2 萬筆），並串聯了日經 NEEDS 企業財務資料庫、雅虎財經每日股價，以及約 2.5 萬筆中央政府向非營利機構發包的採購合約與補貼數據。方法上，作者採用結合馬氏距離（Mahalanobis Distance）的時間序列橫截面配對雙重差分法（Matched DiD），精準比對聘用官僚與未聘用官僚的同質企業在政府貸款上的動態變化；同時輔以中斷時間序列檢驗市場股價反應，並運用新型交錯雙重差分（staggered DiD）及法務會計異常檢驗，評估非營利機構獲得公共合約的潛在舞弊。研究更輔以 19 場針對日本官員與企業高階主管的深度訪談，相互印證因果機制。\n\n【結果】研究揭示了清晰的結構性分流：在逾 1.2 萬名退休官員中，高達 50.7%（6,314 人）進入了非營利公益法人或獨立行政法人，僅 49.3% 流入營利私企。職級與部會聲望決定了命運——51% 的副大臣或審議官等最高層官員順利空降大型上市公司，而普通文官則有近半數（48%）只能轉入公益團體；財政省（MOF）有 59% 退休者進入上市公司，厚勞省、文科省與農水省卻有近七成官僚流向非營利機構。因果估計顯示，聘用經濟部會菁英的私企，在聘任後數年內獲得的政府優惠貸款顯著激增，且伴隨正向股價衝擊；與此同時，由前官僚掌舵的非營利組織則能斬獲金額顯著更高、且充滿法務會計異常的政府非競爭性合約。這證明了「下凡」是一套精密的政商共生體系：國家以公共資源反哺安置組織，藉此向體制內公務員提供延遲薪酬的信號保證。",
+      "en": "**Summary:** The revolving door between government and industry has long been viewed as a corporate-driven rent-seeking vehicle, wherein firms hire former public officials to capture regulators and secure subsidies. Drawing on comprehensive administrative records of post-retirement bureaucratic appointments (\"amakudari\") in Japan, Trevor Incerti presents a groundbreaking structural revision of this paradigm. The study uncovers a deeply bifurcated job market shaped not merely by private market demand, but by ministerial institutional survival. While high-ranking officials from elite economic ministries enter publicly traded corporations—generating measurable windfalls in government loans and equity bumps—lower-ranking bureaucrats without corporate market value are systematically absorbed into state-funded nonprofits. By steering lucrative contracts to these quasi-governmental destinations, government ministries construct a credible deferred compensation pipeline, demonstrating that the revolving door serves state-led institutional maintenance as much as private rent-seeking.\n\n**Problem:** While political connections research has extensively documented the handsome dividends firms reap from employing former legislators, the economic returns of bureaucratic ties have remained surprisingly opaque and fragmented. Civil servants drastically outnumber elected representatives, yet they face severe wage suppression relative to private-sector peers and, in jurisdictions like Japan, face early retirement well before pension eligibility. Previous literature suffered from a major blind spot: by exclusively examining for-profit firms and high-profile regulatory agencies, it failed to account for where the vast majority of mid-tier bureaucrats land, and why ministries actively cultivate post-retirement positions even when private sector demand is absent.\n\n**Approach:** The author assembled a rich dataset by scraping mandatory Cabinet Office disclosures from 2009 to 2019 following the National Public Service Act reform, creating *Amakudata*—a complete record of over 12,000 initial revolving-door hires. This was merged with the Nikkei NEEDS financial database covering 5,809 firms, daily stock returns from Yahoo Finance, and roughly 25,000 national procurement contracts and subsidies awarded to nonprofit entities. Methodologically, Incerti employed a matched differences-in-differences (DiD) framework using Mahalanobis distance to rigorously match treated firms with comparable control firms across pre-hire assets, debts, and performance metrics. To evaluate nonprofit outcomes, the study applied modern staggered DiD estimators that correct for negative weighting, coupled with forensic accounting techniques to detect bid irregularities, all substantiated by 19 in-depth qualitative interviews with Tokyo elites.\n\n**Results:** The empirical findings reveal that over half (50.7%, or 6,314 individuals) of all revolving-door bureaucrats retired into nonprofit \"public interest\" or public corporations, contradicting the assumption that private enterprise is the primary destination. The labor market splits decisively along rank and ministerial prestige: 51% of vice ministers and assistant vice ministers joined publicly traded firms, whereas 48% of officials below that rank moved into public interest organizations. While elite bodies like the Ministry of Finance placed 59% of retirees into listed companies, line ministries such as Health, Labour and Welfare placed 72% into nonprofits. Causal estimates show that private firms hiring senior economic bureaucrats secured substantial increases in government-backed loans within three years, alongside positive stock market reactions. Conversely, nonprofits with former bureaucrats in executive roles secured significantly larger government contracts marked by severe forensic accounting anomalies, illustrating how the state deploys public procurement to preserve deferred career stability for its civil service corps."
+    },
+    "keyArticle": {
+      "title": "How Firms, Bureaucrats, and Ministries Benefit from the Revolving Door: Evidence from Japan",
+      "authors": [
+        "Trevor Incerti"
+      ],
+      "doi": "10.1017/s0003055425101263",
+      "pages": "896-916"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2025-11-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101263",
+      "doi": "https://doi.org/10.1017/s0003055425101263",
+      "preprint": "http://arxiv.org/abs/2509.22173"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-22T22:19:54.446293+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "journal-of-development-economics-2026-08-21",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-08-21",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-21-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "課堂補救與課後互助的化學反應：印度農村教育實驗的破局之道",
+      "en": "The Power of the Bundle: Why Fixing the Learning Crisis Requires Both Classroom and Community"
+    },
+    "summary": {
+      "zh": "【總結】在發展中國家，讓孩子走進校園早已不是難題，但如何讓他們真正「學會」卻成了全球性的治理困境。這項由發展經濟學家與印度知名非政府組織 Pratham 合作的最新實地實驗發現：無論是單純在校內推行按能力分組的「適性教學夏令營」（Learning Camps），還是僅在村落由母親與志工組織課後「互助學習小組」（Study Groups），單打獨鬥都無法顯著提升學童成績。唯有將校內因材施教與村落課後練習巧妙「打包」時，才產生了驚人的協同效應，使學生的數學與語文測驗成績分別提升 0.11 與 0.09 個標準差。這項研究揭示了教育扶貧的關鍵樞紐：課堂干預若缺乏課後社區生態的承接，其邊際效益將迅速耗散。\n\n【研究問題】全球普及義務教育的浪潮下，印度小學入學率已超過 95%，但「學習貧困」卻怵目驚心——在阿薩姆邦，五年級學生中僅有三分之一能閱讀二年級課文，能做簡單除法的更是不足一成半。過去十餘年間，諾貝爾經濟學獎得主提倡的「按能力教學」（Teaching at the Right Level, TaRL）在印度多地取得了優異成果，但跨區域複製時效果起伏巨大，甚至在部分地區出現邊際效益遞減。過去研究大多聚焦於「校內體制改革」或「外部社區賦能」的單一維度，卻忽略了貧困農村家庭普遍存在的參與門檻與學校資源的行為替代效應。研究團隊的核心問題是：當校內的精準補救遇到校外的社區支持，兩者是相互替代，還是能產生不可或缺的互補作用？\n\n【研究方法】研究團隊在印度阿薩姆邦諾貢地區的 200 個村莊展開了一項嚴謹的 2×2 隨機對照試驗（RCT），涵蓋 200 所公立小學、5,726 名學童及 4,592 名主要照顧者，歷時約 17 個月。實驗將村莊隨機分成四組：對照組、僅實施 30 天校內適性分組夏令營（由 NGO 師資帶領不同年級但同程度的學生密集補救）、僅組織由村莊母親主導的課後互助學習小組，以及兩者兼備的完整干預組。透過結合行政追蹤記錄、家長與學校深度問卷，以及結合項目反應理論（IRT）的標準化學習測驗（ASER），研究者精確剝離了純校內教學、純社區互助以及兩者交織所帶來的異質性影響與成本效益。\n\n【結果】研究數據給出了一個極具啟發性的答案：單獨實施夏令營或學習小組，學生成績均未見統計上的顯著改善；然而，完整方案組的數學和語文成績顯著躍升 0.11 與 0.09 個標準差，達到二年級基礎能力的學童比例更是分別激增了 20% 與 13%。工具變數估計（2SLS）進一步顯示，真正全程參與兩項活動的學童，數學與語文增益分別高達 0.48 與 0.38 個標準差。有趣的是，研究亦捕捉到公立學校的「替代效應」——外部援助介入後，學校自身的硬體投入與例行家長會反而有所下滑。在成本效益上，完整方案每提升 0.1 個標準差僅需花費 15 至 18.3 美元，證明在基層教育資源極其匱乏的情境下，以極低成本撬動社區力量為校內教學「兜底與複習」，是扭轉第三世界學習危機不可或缺的複合良方。",
+      "en": "**Summary:** Across the developing world, the expansion of schooling has successfully filled classrooms but largely failed to produce foundational learning. Investigating this persistent learning crisis, a landmark randomized evaluation across 200 rural villages in Assam, India, reveals a striking insight: neither targeted in-school remedial instruction nor community-led after-school study groups moved the needle when deployed on their own. However, when integrated into a single cohesive intervention, the two programs generated powerful synergies—raising primary students' test scores by 0.11 standard deviations in mathematics and 0.09 standard deviations in language. The findings demonstrate that pedagogy within the school gates and practice within the village square are vital complements, offering a scalable and cost-effective blueprint for global education policy.\n\n**Problem:** While India has achieved near-universal primary school enrollment, foundational literacy and numeracy remain alarmingly depressed. In rural Assam, fewer than 35% of fifth-grade pupils can read a second-grade story, and barely 14% can perform basic division. While targeted pedagogical interventions—most notably the celebrated \"Teaching at the Right Level\" (TaRL) model spearheaded by the NGO Pratham—have shown remarkable success in earlier trials, their impacts have varied dramatically across settings. Most existing evaluations have scrutinized pedagogical adjustments within formal school hours, largely overlooking whether children from disadvantaged homes require post-school structural support to consolidate gains. Crucially, the literature has left unanswered whether school-based remediation and community-driven reinforcement function as policy substitutes or essential complements.\n\n**Approach:** Partnering with Pratham, the researchers designed a 2×2 factorial randomized controlled trial spanning 200 public schools, 5,726 pupils, and 4,592 primary caregivers over 17 months in Assam's Nagaon district. Villages were randomly assigned to four arms: a pure control group, an in-school \"Learning Camps\" arm (30 days of level-targeted instruction delivered by NGO personnel), an out-of-school \"Study Groups\" arm (community-based peer clusters facilitated by local mothers), and a full-program arm bundling both components. Tracking student learning through Annual Status of Education Report (ASER) instruments alongside item response theory modeling, the authors analyzed both intent-to-treat and instrumented compliance outcomes, while detailing parental time allocation and school institutional adjustments.\n\n**Results:** The empirical returns demonstrate that neither standalone Learning Camps nor standalone Study Groups yielded statistically distinguishable learning gains over the control group. In contrast, the combined program delivered significant gains of 0.11 standard deviations in math and 0.09 standard deviations in language, boosting the likelihood of mastering grade-two competencies by 20% and 13%, respectively. Among students who actively attended both tracks (instrumented via 2SLS), gains surged to 0.48 standard deviations in math and 0.38 in language. Interestingly, the study uncovered institutional crowd-out: schools receiving external programs reduced internal material investments and formal oversight meetings. Despite this substitution, the combined intervention proved remarkably cost-effective, demanding merely $15.00 to $18.30 per student to generate a 0.1 standard deviation gain, cementing the imperative of linking classroom pedagogy with community-based learning habits."
+    },
+    "keyArticle": {
+      "title": "Supporting learning in and out of school: Experimental evidence from India",
+      "authors": [
+        "Martina Björkman Nyqvist",
+        "Andrea Guariso"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103906",
+      "pages": "103906"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-21-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103906",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103906",
+      "preprint": "http://dx.doi.org/10.2139/ssrn.5011870"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-22T22:21:34.316976+00:00",
+    "source": "openalex"
+  }
+}

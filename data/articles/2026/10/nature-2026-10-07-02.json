@@ -1,0 +1,75 @@
+{
+  "id": "nature-2026-10-07-02",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8137",
+  "date": "2026-10-07",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-07-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "把原子核銬進雷射迴路：全球首座固態「釷-229核鐘」正式閉環運轉",
+      "en": "Closing the Nuclear Loop: The First Operational Thorium-229 Optical Clock"
+    },
+    "summary": {
+      "zh": "【總結】在現代精密計時領域，現行的光學原子鐘仰賴原子外層電子的躍遷，易受外界電磁雜訊與擾動干擾。維也納科技大學與德國聯邦物理技術研究院等團隊，成功構建出全球首個真正具備即時回饋閉環（feedback loop）的「釷-229（229Th）固態光學核鐘」。研究人員利用連續波真空紫外線（VUV）雷射激發摻入氟化鈣晶體中的釷核，並以吸收光譜建立主動回饋機制，使雷射頻率自動「鎖」在原子核共振峰上，成為可獨立閉環運作的核鐘標準。這不僅打破了過去僅能單向以原子鐘校準雷射來探測釷核的被動局面，更憑藉原子核對基礎物理常數的極致敏感度，在新物理與超輕暗物質的探測疆界中開拓出全新視界。\n\n【研究問題】傳統光學原子鐘雖然穩定度已達極致，但外層電子就像漂浮在原子外圍的「風向雞」，極易受雜散電磁場擾動；而原子核由於尺寸僅有原子的十萬分之一，並受電子雲強烈屏蔽，具有絕佳的環境抗擾性。然而，絕大多數原子核激發態需要數千甚至數百萬電子伏特的伽馬射線，雷射根本無法觸及。唯獨釷-229擁有一個僅約 8.4 eV（相當於 148 奈米波長）的反常超低能量同質異能躍遷態。過去數十年，科學界雖一步步測得此躍遷並成功以雷射共振激發，但始終未能實現將探測雷射即時鎖定回核躍遷本身的「閉環回饋系統」。缺乏閉環控制，就無法構成真正意義上的獨立自持計時器，更無法實現長時間連續高精度比對。\n\n【研究方法】研究團隊將微克級的釷-229摻入一顆直徑約 3.1 毫米的毫米級氟化鈣（CaF2）晶體中，形成室溫固態核心。為了擺脫核激發態長達數分鐘甚至數小時的自發螢光衰變限制，團隊採用了靈敏度高出三個數量級的「連續波吸收光譜法」：利用非線性光學晶體（SBO）四倍頻後再倍頻產生 148 奈米深紫外連續雷射，並以 10 Hz 快速在吸收峰兩側微調頻率，從光電倍增管偵測到的透射光計算出對稱的「誤差訊號」（Error Signal）。此誤差訊號每隔一定積分時間（如 20 秒或 30 分鐘）便即時回饋至電光調製器，主動修正預穩定超穩腔的光頻漂移。同時，團隊透過長距離光纖鏈路與頻率梳，將核鐘信號與位於奧地利計量局的鐿離子（Yb+）光學單離子鐘進行不間斷的高精度頻率拍頻比對。\n\n【結果】在閉環運作下，該固態核鐘展現了由散粒雜訊主導的極致性能，分數頻率不穩定度達到 3 × 10⁻¹² / √τ（τ 為平均時間），在連續運行一天後不穩定度直逼 10⁻¹⁵ 等級。更令人矚目的是，由於釷-229的低能態源於強核力與電磁庫倫力在百萬電子伏特尺度的偶然精確抵消，微小的物理常數波動都會被巨幅放大千至十萬倍。團隊藉由比對核鐘與鐿離子鐘在 20 秒到 1 天尺度下的頻率漂移與振盪（測得線性漂移斜率僅 (2 ± 4) × 10⁻¹⁴ d⁻¹，與零一致），為質量在 10⁻²¹ 至 10⁻¹⁷ eV 範圍內的超輕純量暗物質設定了頂尖的耦合上限。其中在與強交互作用（QCD標度與夸克質量）的耦合限制上，更是直接超越現有最強原子鐘 10 至 1,000 倍，正式宣告固態核鐘從理論構想跨入引領基礎物理前沿的實用時代。",
+      "en": "**Summary:** In an epochal milestone for precision metrology, an international consortium led by TU Wien and PTB has developed the world’s first operating solid-state optical nuclear clock stabilized with an active feedback loop. By interrogating the extraordinarily low-energy, 148-nanometer nuclear isomer transition of thorium-229 doped into a room-temperature calcium fluoride crystal, the researchers continuously stabilized a continuous-wave laser directly to the nuclear transition. Operating as an autonomous, closed-loop frequency standard, this nuclear clock achieves a shot-noise-limited fractional frequency instability that scales as 3 × 10⁻¹² / √τ, approaching the 10⁻¹⁵ frontier over a single day. Leveraging the nuclear transition's unprecedented intrinsic sensitivity to fundamental forces, the device also sets pioneering constraints on ultralight scalar dark matter couplings to the strong force.\n\n**Problem:** While optical atomic clocks using electronic transitions in atoms and ions have achieved fractional uncertainties below 10⁻¹⁸, atomic electrons are inherently susceptible to external electromagnetic perturbations, requiring intricate, ultra-high-vacuum trapping apparatuses. Nuclear transitions are orders of magnitude more immune to environmental noise, but their transitions typically reside in the kiloelectronvolt regime—far beyond the reach of coherent laser sources. The isotope thorium-229 is nature’s sole known exception, sporting a nuclear isomer state at a mere 8.4 eV. Although resonant laser excitations and radiative decay have been demonstrated in recent years, prior experiments relied on external frequency references to probe the nucleus. Establishing a bona fide \"clock\" required closing the feedback loop—steering the interrogation laser dynamically using the nuclear transition itself, an achievement previously obstructed by slow isomer lifetimes and low signal-to-noise ratios.\n\n**Approach:** The authors overcame the long-standing bottleneck of sluggish isomer radiative decay by implementing continuous-wave vacuum-ultraviolet (VUV) absorption spectroscopy rather than waiting for fluorescence photons. A 1,187-nanometer diode laser was stabilized to a high-finesse optical cavity and frequency-octupled using a nonlinearly phase-matched strontium tetraborate (SBO) crystal to generate continuous-wave 148-nanometer light. This beam probed roughly 10¹⁶ thorium nuclei inside a millimeter-sized Th:CaF2 crystal. By rapidly switching the probe frequency across the 100-kHz absorption profile, they synthesized an anti-symmetric error signal directly from transmission dips recorded on a solar-blind photomultiplier tube. This signal was fed back every 20 seconds (or 30 minutes) to an electro-optic modulator sideband, dynamically cancelling cavity drift. The resulting clock signal was simultaneously linked across a Doppler-compensated optical fiber to a state-of-the-art Yb+ single-ion optical clock for continuous absolute frequency comparisons.\n\n**Results:** The closed-loop thorium-229 clock operated autonomously for up to 24 hours, exhibiting a shot-noise-limited fractional frequency instability of 3 × 10⁻¹² / √τ, dropping smoothly into the low 10⁻¹⁴ bracket within a single continuous run. Crucially, the minuscule 8.4-eV transition arises from a near-cancellation between mega-electronvolt electromagnetic Coulomb energy and strong nuclear forces, magnifying its sensitivity to shifts in the fine-structure constant (α), the QCD scale (ΛQCD), and quark masses (mq) by several orders of magnitude relative to atomic clocks. Evaluating the beat frequency records via Lomb–Scargle periodograms, the team set new upper bounds on ultralight scalar dark matter couplings across mass scales from 10⁻²¹ to 10⁻¹⁷ eV. In testing interactions with gluons and quarks, this desktop-scale solid-state prototype outpaced the most sophisticated atomic clocks by one to three orders of magnitude, cementing nuclear clocks as a disruptive paradigm for metrology and quantum sensing beyond the Standard Model."
+    },
+    "keyArticle": {
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "authors": [
+        "L. Toscani De Col",
+        "Thomas Riebner",
+        "I. Morawetz",
+        "F. Schneider",
+        "N. Sempelmann",
+        "Juliette Schlachet-Lépinay",
+        "Fabian Schaden",
+        "Michael Bartokos",
+        "Georgy A. Kazakov",
+        "Kjeld Beeks",
+        "B. Gerstenecker",
+        "Martin Pimon",
+        "Sebastian Lahs",
+        "Andreas Hellerschmied",
+        "T. Lercher",
+        "Heiner Denker",
+        "Jörg Premper",
+        "A. Niessner",
+        "Michael Matus",
+        "M. (Martin) Čížek",
+        "O. (Ondřej) Číp",
+        "V. Lal",
+        "G. Zitzer",
+        "V. Petrov",
+        "Johannes Tiedau",
+        "Maksim V. Okhapkin",
+        "E. Peik",
+        "Thorsten Schumm"
+      ],
+      "doi": "10.1038/s41586-026-11084-4",
+      "pages": "897-902"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-07-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11084-4",
+      "doi": "https://doi.org/10.1038/s41586-026-11084-4",
+      "preprint": "https://arxiv.org/abs/2606.04997"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-22T22:08:06.399138+00:00",
+    "source": "openalex"
+  }
+}
