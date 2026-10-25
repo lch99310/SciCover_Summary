@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-10-22",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6822",
+  "date": "2026-10-22",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-22-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "看見電子的量子華爾茲：科學家首次直視「對稱性破缺」陳絕緣體及其量子熔化",
+      "en": "Watching Quantum Crystals Melt: Real-Space Visualization of Symmetry-Broken Chern Insulators"
+    },
+    "summary": {
+      "zh": "【總結】在強磁場與二維晶格的交互作用下，電子會形成如碎形般的能帶結構——著名的「霍夫斯塔特蝴蝶」（Hofstadter's butterfly）。然而，當電子間的強庫侖排斥力加入這場博弈時，電子如何自發打破對稱性、構建全新物態，長期以來缺乏微觀實空間的直接觀測。普林斯頓大學物理學家阿里·亞茲達尼（Ali Yazdani）團隊利用超高精度掃描穿隧顯微鏡（STM），首次在雙層石墨烯與六方氮化硼（h-BN）對齊的莫爾超晶格中，直接「看見」了電子如何自發打破空間對稱性，形成週期放大兩倍、三倍乃至四倍的「對稱性破缺陳絕緣體」（SBCI），並直擊了這些奇異拓撲量子相如何透過拓撲缺陷繁衍或相分離進行「量子熔化」。這項突破揭開了強關聯拓撲物態的神秘面紗，為未來拓撲量子計算提供了關鍵的微觀視角。\n\n【研究問題】當電子置身於週期性莫爾超晶格與外加磁場中，電子能帶會分裂為狹窄的霍夫斯塔特子能帶。當這些能帶處於部分填充時，電子間的強排斥作用會主導體系，理論預言此時可能誕生打破莫爾平移對稱性的奇異量子相。過去的輸運測量只能透過整數陳數（C）和分數填充因子（s）等宏觀量來推測系統狀態，但這些拓撲不變量完全「看不見」內部的空間對稱性重組；更關鍵的是，當體系被連續摻雜時，這些精緻的量子相究竟是如何瓦解或「熔化」的，在微觀層面始終是一片空白。缺乏實空間的波函數成像，科學界無法確證這些關聯拓撲物態的真實微觀結構。\n\n【研究方法】研究團隊精心製備了極致潔淨的伯納爾堆疊雙層石墨烯（BLG），並將其與單側六方氮化硼（h-BN）基底完全對齊，形成週期高達 14.28 奈米的莫爾超晶格。單側基底產生的強內建電場讓電子能精準極化到鄰近氮化硼的底層，大幅放大了莫爾交互作用。在低溫（210 mK）與高達 14 特斯拉（磁通量比達到 0.6）的極限條件下，團隊利用具備超高能量與空間解析度的掃描穿隧光譜與顯微術（STS/STM），測量微小偏壓下的穿隧電流調製，不僅構建出精確的瓦尼爾能譜圖（Wannier diagram），更在實空間中逐點成像出電子波函數的電荷分佈與結構因子。\n\n【結果】研究發現了令人驚嘆的微觀圖景：在整數陳數伴隨分數填充的狀態下，電子自發重構了空間秩序。例如在 (C, s) = (-1, 1/2) 態中，電子形成了週期放大為原本 2 倍的條紋狀電荷密度波（打破 C3 對稱性）；在 (2, 1/3) 態中單元晶胞擴大為 3 倍；而在 (1, 1/2) 態中更意外觀察到擴大 4 倍的奇異電荷結構。甚至在 ( -4, 1) 的整數態內部，也湧現出精緻的籠目（Kagome）晶格微觀紋理。更為震撼的是，團隊觀測到了兩種截然不同的量子熔化機制：條紋態 SBCI 隨摻雜藉由「位錯」與「反位錯」拓撲缺陷的成對湧現與增殖而崩解，完美符合二維科斯特利茨-索利斯（KT）相變；而籠目晶格陳絕緣體則展現出鮮明的一階相分離相變，其邊界伴隨著拓撲無能隙邊緣態的開閉。這些發現不僅解決了長達十數年的對稱性爭論，更為操控非阿貝爾任意子拓撲缺陷鋪平了道路。",
+      "en": "**Summary:** When electrons navigate a magnetic field on a periodic landscape, they typically trace out the intricate fractal energy bands known as Hofstadter’s butterfly. Yet when electron-electron interactions become overwhelmingly dominant, electrons can spontaneously freeze into unexpected crystalline patterns, breaking the underlying lattice symmetries. A Princeton team led by Ali Yazdani has achieved the first real-space visualization of these \"symmetry-broken Chern insulators\" (SBCIs) using high-resolution scanning tunneling microscopy (STM) on Bernal-stacked bilayer graphene aligned with hexagonal boron nitride (h-BN). The researchers revealed exotic phases where the electronic unit cell doubles, triples, or quadruples, and directly filmed how these fragile topological quantum crystals melt—either through the proliferation of topological defect pairs or via first-order phase separation.\n\n**Problem:** In moiré quantum materials under high magnetic fields, flat Hofstadter subbands magnify Coulomb interactions, offering a fertile ground for exotic topological matter. While macroscopic transport experiments have uncovered quantum Hall states characterized by topological indices—a Chern number ($C$) and a band filling fraction ($s$)—these global numbers remain fundamentally blind to spatial symmetry breaking. Distinct microscopic many-body wavefunctions can hide behind identical topological labels. Crucially, macroscopic measurements could not settle whether fractional filling states were topological charge density waves or fractional quantum Hall liquids, nor could they observe the microscopic dynamics of quantum melting as the electronic order decays.\n\n**Approach:** The team engineered an ultraclean heterostructure of Bernal-stacked bilayer graphene precisely aligned with an underlying h-BN crystal, yielding a moiré superlattice with a 14.28 nm periodicity. A strong intrinsic built-in displacement field polarized the electrons toward the h-BN interface, drastically amplifying the moiré potential. Operating at dilution-refrigerator temperatures (210 mK) and magnetic fields up to 14 Tesla—reaching a magnetic flux ratio $\\phi/\\phi_0 \\approx 0.6$ per unit cell—the researchers used low-bias scanning tunneling spectroscopy (STS) and spatial current modulation mapping. This allowed them to construct Diophantine Wannier diagrams and simultaneously image real-space electronic densities and structure factors with sub-nanometer resolution.\n\n**Results:** The resulting real-space images revealed that fractional filling states are indeed symmetry-broken Chern insulators. At $(C, s) = (-1, 1/2)$, the electronic fluid broke threefold rotational symmetry to form a stripe charge density wave that doubled the moiré unit cell. The $(2, 1/3)$ state tripled the unit cell, while the $(1, 1/2)$ state unexpectedly formed an intricate quadrupled lattice containing two electron charges per supercell. Even within symmetry-preserving states like $(C, s) = (-4, 1)$, an emergent Kagome electronic pattern formed inside the unit cell. Crucially, the researchers visualized two distinct quantum melting pathways: the stripe phase melted via the unbinding and multiplication of dislocation/anti-dislocation topological defect pairs, hallmark signatures of a continuous Kosterlitz-Thouless transition; conversely, the Kagome Chern insulator melted via first-order phase separation, showing atomic-scale phase coexistence and gapless topological edge modes at the domain boundaries. These findings open unprecedented pathways to exploring non-Abelian defect states in topological quantum matter."
+    },
+    "keyArticle": {
+      "title": "Visualizing symmetry-broken Chern insulators and their quantum melting",
+      "authors": [
+        "Minhao He",
+        "Yen-Chen Tsui",
+        "Ran Peng",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Oskar Vafek",
+        "Ali Yazdani"
+      ],
+      "doi": "10.1126/science.aef0940",
+      "pages": "440-444"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-22-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aef0940",
+      "doi": "https://doi.org/10.1126/science.aef0940",
+      "preprint": "https://arxiv.org/abs/2606.23795"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-25T21:23:23.501669+00:00",
+    "source": "openalex"
+  }
+}

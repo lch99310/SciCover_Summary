@@ -1,0 +1,76 @@
+{
+  "id": "cell-2026-08-14",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "21",
+  "date": "2026-08-14",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "穿越三千年風浪：古DNA揭開大洋洲「雙重遷徙」與早期斐濟社會階層之謎",
+      "en": "Echoes across the Pacific: Ancient Genomes Uncover Double Dispersals and Deep Stratification in Remote Oceania"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《細胞》（Cell）的前沿古基因組研究，徹底翻新了人類拓殖西遠大洋洲（包含萬那杜、斐濟、東索羅門群島與東加）的歷史劇本。國際研究團隊成功獲取了橫跨過去三千年、共72具古代遺骸的全基因組數據，首度填補了斐濟等地關鍵的遺傳學空白。研究發現，在約三千年前由東南亞族群（拉皮塔文化）主導的閃電式首波定居之後，巴布亞相關族群的擴散速度其實相當緩慢，且至少分兩波次序湧入斐濟，抵達時間比考古學界原先預估提早了數個世紀。此外，研究不僅首次捕捉到約一千年前波里尼西亞人「逆流西遷」的直接遺傳鐵證，更在斐濟早期的辛加托卡（Sigatoka）社群中，發現了一種將財富與高社會地位鎖定在特定父系家族內部的階層分化制度。\n\n【研究問題】浩瀚的西南太平洋分為近大洋洲（如新幾內亞）與遠大洋洲。早期研究已知，具東南亞血統的拉皮塔航海家在大約3000年前以極快速度跨越大洋，但現今遠大洋洲居民卻大多兼具東南亞與巴布亞兩種高度分化的遺傳成分。長久以來，第二波巴布亞人群究竟何時、以何種路徑深入大洋腹地？所謂波里尼西亞人重返西方的「逆流」（Polynesian backflow）究竟在何時留下基因印記？更關鍵的是，缺乏古代遺骸DNA的斐濟一直是大洋洲地圖上的黑洞。這些反覆發生的跨海相遇，又是如何在微觀的島嶼社會內部激盪出階級、親屬關係與權力結構？這些都是解密南島語族歷史的核心謎團。\n\n【研究方法】研究團隊自東索羅門群島、萬那杜南部、斐濟及東加等多個關鍵考古遺址中，成功從72名個體中提取並定序出古DNA。為了克服熱帶氣候對古代DNA嚴苛的降解挑戰，團隊採用了約124萬個單核苷酸多態性（1240K capture）的標靶捕獲技術，並嚴格利用古DNA特徵性的胞嘧啶脫氨損害模式排除現代污染。團隊將古基因組與當代大洋洲及東南亞人群資料庫進行比對，綜合運用主成分分析（PCA）、qpAdm祖源比例建模、DATES基因混血年代測定，以及同源染色體片段（IBD）分析。此外，研究還結合了精確的骨骼碳十四加速器質譜儀定年、海洋食物碳氮同位素校正、鍶同位素地理溯源與KIN親屬演算法，成功重建出斐濟古墓群中跨世代的家族譜系與社會網絡。\n\n【結果】基因數據帶來了連串突破。首先，巴布亞相關血統約在2750年前抵達萬那杜，但直到約1970–1740年前才到達斐濟，顯示其擴散極富節奏且伴隨顯著的男性偏向效應；而在距今約1300–900年前，第二波來自萬那杜方向的巴布亞血統再度注入斐濟，將當地的巴布亞比例從早期的35%–65%推升至晚期遺址的兩倍。其次，萬那杜阿尼瓦島（Aniwa）一名距今約900年的女性個體，被證實擁有約66%的東南亞血統且無當地混血，提供了波里尼西亞向西「逆流」在千年前抵達邊陲島嶼的直接分子證據。最具震撼力的是斐濟辛加托卡遺址（距今1600–1400年）：埋葬於珊瑚砂精緻墓穴、隨葬陶器的高等級個體，形成了一個高度緊密的生物親族，其東南亞祖源比例顯著偏高（中位數達75%），而周圍非親屬個體的巴布亞成分則高得多。這有力證明了在劇烈的文化與人口混合震盪中，島嶼菁英曾透過嚴格的親屬婚配與內婚規範，將特權、財富與祖源記憶牢牢封鎖在宗族內部。",
+      "en": "**Summary:** In a landmark study published in *Cell*, an international team of researchers has reshaped our understanding of the peopling of western Remote Oceania over the past three millennia. By generating genome-wide data from 72 ancient individuals across the eastern Solomon Islands, Vanuatu, Fiji, and Tonga, the authors bridge longstanding biogeographic gaps in the Pacific. They demonstrate that following the initial, breakneck expansion of Southeast Asian-related Lapita voyagers (~3,000 BP), the eastward pulse of Papuan-related groups unfolded at a much slower tempo and entered Fiji via at least two distinct dispersals—centuries earlier than previously assumed. Crucially, the study provides the first direct biological evidence of the ~1,000-year-old \"Polynesian backflow\" in southern Vanuatu, and reveals how an early Fijian community weaponized kinship structures and ancestry barriers to institutionalize high social status.\n\n**Problem:** Remote Oceania was the last habitable frontier colonized by anatomically modern humans. While the pioneering Austronesian-speaking Lapita seafaring culture swept thousands of kilometers into the Pacific around 3,000 years ago carrying predominantly Southeast Asian ancestry, contemporary Pacific Islanders possess a profound blend of Southeast Asian and Papuan ancestries. How and when this massive Papuan genetic turnover moved east across western Remote Oceania remained nebulous, largely due to a complete void of ancient genomic data from Fiji—the pivotal crossroads between Melanesia and Western Polynesia. Furthermore, the genetic timing and demographic reality of subsequent Polynesian westward dispersals (\"Polynesian Outliers\") were poorly resolved, and researchers lacked empirical molecular windows into how ancient Pacific islanders structured their societies and negotiated status in the wake of deep population mixing.\n\n**Approach:** The authors analyzed target-enriched ancient DNA (spanning ~1.24 million SNPs using 1240K capture) from 72 archaeological individuals dating between 2,750 and 100 BP. Authenticated against post-mortem damage profiles and modern contamination, these genomes were integrated with comprehensive regional datasets of modern and ancient Oceanians. The researchers employed formal $f_4$-statistics, competitive *qpAdm* modeling, and the linkage-diseequilibrium-based dating tool DATES to track ancestry sources and admixture horizons across geography. These genomic analyses were meticulously paired with accelerator mass spectrometry (AMS) radiocarbon dating (corrected for marine reservoir effects via stable carbon and nitrogen isotopes), strontium isotope geochemistry ($^{87}\\text{Sr}/^{86}\\text{Sr}$) for natal mobility, and identity-by-descent (IBD) algorithms alongside pedigree reconstruction (KIN) to interrogate intra-cemetery social dynamics.\n\n**Results:** The findings demonstrate that Papuan ancestry—best proxied by Bismarck Archipelago populations and driven primarily by male-biased gene flow—reached Vanuatu around 2750 BP, but took nearly a millennium longer to arrive in Fiji (~1970–1740 BP). Western Fiji experienced a subsequent second wave of Papuan influx around 1364–927 BP, likely from southern or central Vanuatu, which roughly doubled local Papuan ancestry proportions. The study also recovered an ancient female from Aniwa, Vanuatu (~900 BP), showing an unadmixed Polynesian genomic profile (66% Southeast Asian-related ancestry), directly confirming the arrival date of the Polynesian backflow. Finally, at the Fijian coastal site of Sigatoka (~1600–1400 BP), the authors revealed an intricate social hierarchy: individuals interred in coral-lined graves with elite grave goods belonged to a tight biological pedigree characterized by significantly elevated Southeast Asian ancestry (median ~75%), contrasting sharply with surrounding individuals of higher Papuan affinity. This establishes that ancient Pacific communities deliberately utilized kinship systems and endogamous marriage to preserve sociopolitical prestige across generations."
+    },
+    "keyArticle": {
+      "title": "Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania",
+      "authors": [
+        "Michal Feldman",
+        "Lara R. Arauna",
+        "Selina Carlhoff",
+        "Kathrin Naegle",
+        "Rita Radzevičiūtė",
+        "Dorothée G. Drucker",
+        "Claudine H. Stirling",
+        "David Barr",
+        "Malcolm Reid",
+        "Patrick D. Nunn",
+        "Elia Nakoro",
+        "Laurence Kiko",
+        "Martin Gibbs",
+        "Robert B. Rechtman",
+        "James L. Flexner",
+        "Wanda Zinger",
+        "Edson Willie",
+        "Richard Shing",
+        "Takaronga Kuautonga",
+        "Johannes Moser",
+        "Julia Gresky",
+        "Stuart Bedford",
+        "Geoffrey Clark",
+        "David V. Burley",
+        "Hallie R. Buckley",
+        "Rebecca Lorraine Kinaston",
+        "Frédérique Valentin",
+        "Adam Powell",
+        "Johannes Krause",
+        "Cosimo Posth"
+      ],
+      "doi": "10.1016/j.cell.2026.07.044",
+      "pages": "6882-6897.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.044",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.044"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-25T21:27:52.425885+00:00",
+    "source": "openalex"
+  }
+}

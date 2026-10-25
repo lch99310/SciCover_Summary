@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-22T22:21:34.386913+00:00",
+  "lastUpdated": "2026-10-25T21:36:59.137121+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-22",
+      "journal": "Science",
+      "date": "2026-10-22",
+      "path": "articles/2026/10/science-2026-10-22.json",
+      "title_zh": "看見電子的量子華爾茲：科學家首次直視「對稱性破缺」陳絕緣體及其量子熔化",
+      "title_en": "Watching Quantum Crystals Melt: Real-Space Visualization of Symmetry-Broken Chern Insulators",
+      "cover_url": "data/images/science/science-2026-10-22-cover.jpg"
+    },
     {
       "id": "science-2026-10-15",
       "journal": "Science",
@@ -63,6 +72,15 @@
       "title_zh": "把原子核銬進雷射迴路：全球首座固態「釷-229核鐘」正式閉環運轉",
       "title_en": "Closing the Nuclear Loop: The First Operational Thorium-229 Optical Clock",
       "cover_url": "data/images/nature/nature-2026-10-07-02-cover.jpg"
+    },
+    {
+      "id": "nature-2026-10-07-03",
+      "journal": "Nature",
+      "date": "2026-10-07",
+      "path": "articles/2026/10/nature-2026-10-07-03.json",
+      "title_zh": "讓原子核替人類計時：全球首台固態釷-229核鐘誕生，開啟超越原子鐘的精密計時新紀元",
+      "title_en": "Ticking with the Atomic Nucleus: The First Thorium-229 Solid-State Nuclear Clock",
+      "cover_url": "data/images/nature/nature-2026-10-07-03-cover.jpg"
     },
     {
       "id": "nature-2026-10-07",
@@ -623,6 +641,15 @@
       "cover_url": "data/images/cell/cell-2026-08-18-cover.jpg"
     },
     {
+      "id": "cell-2026-08-14",
+      "journal": "Cell",
+      "date": "2026-08-14",
+      "path": "articles/2026/08/cell-2026-08-14.json",
+      "title_zh": "穿越三千年風浪：古DNA揭開大洋洲「雙重遷徙」與早期斐濟社會階層之謎",
+      "title_en": "Echoes across the Pacific: Ancient Genomes Uncover Double Dispersals and Deep Stratification in Remote Oceania",
+      "cover_url": "data/images/cell/cell-2026-08-14-cover.jpg"
+    },
+    {
       "id": "science-2026-08-13",
       "journal": "Science",
       "date": "2026-08-13",
@@ -657,6 +684,15 @@
       "title_zh": "寄生蟲的代謝指揮家：TgPRO如何讓弓形蟲在缺氧與營養匱乏中求生",
       "title_en": "The Metabolic Conductor: How TgPRO Enables Toxoplasma to Survive Starvation and Stress",
       "cover_url": "data/images/cell/cell-2026-08-11-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-08-11",
+      "journal": "Journal of Development Economics",
+      "date": "2026-08-11",
+      "path": "articles/2026/08/journal-of-development-economics-2026-08-11.json",
+      "title_zh": "良藥的悖論：當假藥退場，抗生素濫用危機為何反而加劇？",
+      "title_en": "The Quality Paradox: Why Eliminating Counterfeit Drugs Could Accelerate Antibiotic Overuse",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-11-cover.jpg"
     },
     {
       "id": "cell-2026-08-10",
@@ -864,6 +900,15 @@
       "title_zh": "用手「扭轉」光的左手性：科學家用應力創造人工手性材料",
       "title_en": "Twisting Light with Strain: Scientists Engineer Chirality on Demand",
       "cover_url": "data/images/nature/nature-2026-07-29-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-07-29",
+      "journal": "Political Geography",
+      "date": "2026-07-29",
+      "path": "articles/2026/07/political-geography-2026-07-29.json",
+      "title_zh": "邊界、背叛與救贖：民粹領袖如何將領土紛爭推向流血升級？",
+      "title_en": "The Architecture of Escalation: How Populist Geonarratives Turn Border Disputes Lethal",
+      "cover_url": "data/images/political-geography/political-geography-2026-07-29-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-27-02",
@@ -4086,6 +4131,15 @@
       "title_zh": "「下凡」的雙軌博弈：日本官僚「旋轉門」如何為政商兩端輸送利益？",
       "title_en": "Descent from Heaven: The Bifurcated Political Economy of Japan’s Bureaucratic Revolving Door",
       "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-11-05-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2025-10-30",
+      "journal": "American Political Science Review",
+      "date": "2025-10-30",
+      "path": "articles/2025/10/american-political-science-review-2025-10-30.json",
+      "title_zh": "民主深化還是菁英變形記？印度農村選舉改革如何讓地方豪強「由暗轉明」",
+      "title_en": "Democratic Deepening or Elite Persistence? How Electoral Reform Reshuffles Power in Rural India",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-10-30-cover.jpg"
     }
   ]
 }

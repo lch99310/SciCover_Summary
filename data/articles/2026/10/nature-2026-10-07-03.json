@@ -1,0 +1,86 @@
+{
+  "id": "nature-2026-10-07-03",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8137",
+  "date": "2026-10-07",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-07-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "讓原子核替人類計時：全球首台固態釷-229核鐘誕生，開啟超越原子鐘的精密計時新紀元",
+      "en": "Ticking with the Atomic Nucleus: The First Thorium-229 Solid-State Nuclear Clock"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，人類最精準的計時工具是依靠外層電子躍遷的「光學原子鐘」。然而，外層電子極易受到周遭電磁雜散場與熱輻射的干擾。如果能直接利用深藏在原子內部、受外層電子嚴密屏蔽的「原子核」來計時，時鐘的穩定度與抗干擾能力將迎來質的飛躍。清華大學丁世謙團隊聯合多個科研單位，成功研製出首台鎖定於釷-229（229Th）同質異能躍遷的固態「核鐘」（Nuclear Clock）。研究團隊利用鎘蒸氣四波混頻技術產生窄線寬真空紫外線（VUV）連續雷射，並將其鎖定在微量釷摻雜氟化鈣晶體的特定核躍遷能階上，達成在平均時間 τ 下 $5 \\times 10^{-13} / \\sqrt{\\tau/\\text{s}}$ 的頻率穩定度，且在兩顆獨立生長的晶體中驗證了十兆分之一（$10^{-13}$）等級的高再現性。這項里程碑標誌著人類對原子核的相干量子操控正式邁入實用化時鐘計時時代。\n\n【研究問題】傳統原子鐘的頻率基準建立在電子殼層的能階躍遷上，但環境雜散電磁場和黑體輻射頻移限制了其小型化與便攜應用的潛力。原子核雖然對外界干擾具有極高免疫力，但絕大多數原子核躍遷能階高達數千甚至數百萬電子伏特（keV 至 MeV），波長短至 X 射線或伽馬射線，現有雷射技術根本無法直接相干激發與鎖定。唯一已知的特例是釷-229，其第一激發態（同質異能態）能階罕見地低至約 8.4 eV，對應約 148.4 nm 的真空紫外光波段。然而，要真正造出一台「運轉中的核鐘」，必須解決三大瓶頸：釷-229 同位素極度稀缺且昂貴、缺乏高功率且極致穩定的連續波真空紫外雷射光源，以及原子核弱吸收訊號難以被高速且高訊噪比讀取並形成閉環反饋反饋鎖頻。\n\n【研究方法】研究團隊精巧結合了量子光學、晶體材料生長與精密頻標技術。首先，他們利用 600°C 鎘蒸氣中的雙光子共振增強四波混頻效應（結合 375 nm 與 710 nm 連續雷射），研發出輸出功率達 10 微瓦（μW）、線寬達亞赫茲（sub-Hz）等級的 148.4 nm 真空紫外連續光源，其頻率溯源至低溫矽腔與氫邁射。其次，在晶體製備上，團隊利用溫度梯度法（TGT），在僅使用 1.4 微克（約 1 萬貝克輻射強度）極珍貴釷-229 溶液的極限條件下，一次性成功培育出高品質、高真空紫外透過率（7%）的 bubble-free 釷摻雜氟化鈣晶體（TS1）。最後，針對原子核吸收訊號極其微弱（吸收比例約萬分之一）的挑戰，團隊揚棄易飽和的光電倍增管螢光讀出方式，改採調頻吸收光譜技術搭配耐受高光強的光電管與鎖相放大解調，建構出高速、高訊噪比的核頻率鑑頻器，並將誤差訊號即時反饋至聲光調變器（AOM），實現雷射頻率對核躍遷的緊密鎖定。\n\n【結果】實驗成功鎖定了釷-229 在晶體四極裂分中的「b 線」（$m_g = \\pm 5/2 \\to m_{is} = \\pm 3/2$），該能階具有僅 27 kHz 的窄線寬且對溫度極不敏感。在最佳化的晶體與光電管配置下，該固態核鐘的短期頻率不穩定度達到 $5 \\times 10^{-13} / \\sqrt{\\tau/\\text{s}}$，隨著積分時間延長迅速平滑下探至 $10^{-15}$ 等級，性能逼近光子散粒噪聲極限不到兩倍。此外，團隊比對了兩顆獨立生長晶體（S1 與 TS1）的核躍遷絕對頻率（均精確至 2,020,407,298,798 kHz 附近），兩者頻率差僅 $5.6 \\times 10^2$ Hz，相對偏差僅為 $2.8 \\times 10^{-13}$，且與美國 JILA 團隊過往的光梳量測結果在不確定度內完全吻合。這項成果不僅確立了雷射操控原子核作為高精度時鐘基準的可行性，更為未來探測精細結構常數演化、暗物質搜尋等基礎物理前沿，提供了一個緊湊且穩固的固態量子平台。",
+      "en": "**Summary:** For decades, atomic clocks that measure the gentle dance of valence electrons have defined the cutting edge of precision timekeeping. Yet these outer electrons remain vulnerable to environmental electromagnetic fields and thermal perturbations. A nuclear clock, by contrast, takes timekeeping to the deeply sheltered core of the atom, harnessing an isomeric nuclear transition that is intrinsically shielded from external noise. In a landmark achievement, a research consortium led by Shiqian Ding at Tsinghua University has built and operated the world’s first solid-state thorium-229 (229Th) nuclear clock. By locking a narrow-linewidth 148.4-nanometer continuous-wave laser to a sharp, quadrupole-resolved nuclear transition inside 229Th-doped calcium fluoride crystals, the team achieved a fractional frequency instability of $5 \\times 10^{-13} / \\sqrt{\\tau/\\text{s}}$, averaging down to the $10^{-15}$ level. The work definitively proves that atomic nuclei can serve as operational, highly reproducible frequency references.\n\n**Problem:** While traditional optical lattice clocks and single-ion clocks reach staggering fractional uncertainties, their reliance on electron orbital transitions leaves them sensitive to Stark shifts, blackbody radiation, and magnetic field fluctuations. Atomic nuclei offer an immune sanctuary, but their transition energies typically lie in the kilo- to mega-electron-volt regime, far beyond the reach of coherent optical lasers. The isotope thorium-229 is nature’s sole known exception, possessing a metastable isomer state with an extraordinarily low transition energy in the vacuum-ultraviolet (VUV) spectrum near 8.4 eV (~148.4 nm). Even so, transitioning from passive nuclear spectroscopy to a functional, closed-loop nuclear clock has long been hindered by three immense hurdles: the severe scarcity of purified 229Th, the lack of sufficiently powerful continuous-wave VUV lasers, and the absence of a high-bandwidth, high-signal-to-noise method to read out the faint absorption of atomic nuclei in real time.\n\n**Approach:** The researchers conquered these challenges through an elegant synthesis of non-linear optics, crystal engineering, and precision metrology. To interrogate the nucleus, they generated a 10-microwatt continuous-wave 148.4-nm beam with sub-Hertz linewidth via resonance-enhanced four-wave mixing in 600°C cadmium vapor, referencing the drive lasers to a cryogenic silicon cavity and a hydrogen maser. To create the solid-state reference without wasting radioactive material, they utilized a stationary temperature-gradient technique to grow an exceptionally clear, bubble-free 229Th:CaF2 crystal (TS1) using just 1.4 micrograms (10 kBq) of 229Th. Recognizing that slow fluorescence decay cannot sustain a fast clock servo, the team developed a frequency-modulation absorption detection architecture using a direct-photocurrent phototube and transimpedance amplification. This allowed them to detect an on-resonance absorption dip of only $10^{-4}$ against a bright VUV background, generating a dispersion-shaped error signal to continuously steer the laser frequency via an acousto-optic modulator.\n\n**Results:** Locking to the quadrupole-split 'line b' transition ($m_g = \\pm 5/2 \\to m_{is} = \\pm 3/2$), characterized by an ensemble linewidth of 27 kHz and minimal thermal sensitivity, the nuclear clock demonstrated an Allan deviation of $5 \\times 10^{-13} / \\sqrt{\\tau/\\text{s}}$, operating within a factor of two of the fundamental photon shot-noise limit. Crucially, the team evaluated the transition frequency across two independently fabricated crystals (S1 and TS1) at 301.4 K, finding agreement at $2,020,407,298,798$ kHz with a fractional difference of only $2.8(6) \\times 10^{-13}$. These values were also fully consistent with prior VUV-comb measurements conducted independently at JILA. Beyond validating the long-predicted reproducibility of solid-state nuclear frequency standards, this demonstration paves the way toward robust, portable nuclear clocks and opens an ultra-sensitive window for testing variations in fundamental constants and hunting for topological dark matter."
+    },
+    "keyArticle": {
+      "title": "A nuclear clock synchronized to 229Th",
+      "authors": [
+        "Beichen Huang",
+        "Gaowei Yan",
+        "Qi Xiao",
+        "Wenhao Bu",
+        "Chengchun Zhao",
+        "Zhen Zhang",
+        "Chao Yan",
+        "Zhi-Ang Chen",
+        "Peixiong Zhang",
+        "Gleb Penyazkov",
+        "Zhenhai Zhan",
+        "Lingfeng Yan",
+        "Yuefei Wang",
+        "Lin Li",
+        "Shanming Li",
+        "Dapeng Jiang",
+        "Xiaobo Qian",
+        "Xuegang Liu",
+        "Qiange He",
+        "Taoxiang Sun",
+        "Haochen Tian",
+        "Bing-Kun Lu",
+        "Ningyuan Ma",
+        "Juxian Li",
+        "Yanzhang Wu",
+        "Qiaorui Gong",
+        "李玉香",
+        "Haoyu Shi",
+        "Xiangliang Li",
+        "Longsheng Ma",
+        "Shining N. Zhu",
+        "Yuxiang Mo",
+        "Jun Lin",
+        "Li You",
+        "Yige Lin",
+        "Xibo Zhang",
+        "Hang Yin",
+        "Liangbi Su",
+        "Shiqian Ding"
+      ],
+      "doi": "10.1038/s41586-026-11122-1",
+      "pages": "903-908"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-07-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11122-1",
+      "doi": "https://doi.org/10.1038/s41586-026-11122-1",
+      "preprint": "https://arxiv.org/abs/2606.08870"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-25T21:26:12.155185+00:00",
+    "source": "openalex"
+  }
+}

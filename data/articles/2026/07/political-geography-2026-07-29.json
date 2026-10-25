@@ -1,0 +1,47 @@
+{
+  "id": "political-geography-2026-07-29",
+  "journal": "Political Geography",
+  "volume": "130",
+  "issue": "",
+  "date": "2026-07-29",
+  "coverImage": {
+    "url": "data/images/political-geography/political-geography-2026-07-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "邊界、背叛與救贖：民粹領袖如何將領土紛爭推向流血升級？",
+      "en": "The Architecture of Escalation: How Populist Geonarratives Turn Border Disputes Lethal"
+    },
+    "summary": {
+      "zh": "【總結】\n這項發表於《政治地理學》（Political Geography）的研究揭示了一個反直覺且關鍵的國際政治現象：民粹主義領袖並非憑空製造更多全新的領土擴張或武裝衝突，而是像催化劑一般，將一旦被啟動的邊界與領土紛爭急遽推向血腥升級。學者 Hakkı Taş 指出，民粹政治的核心在於透過道德二元對立來統治。當這種邏輯投射到空間時，領土妥協被描繪為菁英的「叛國」，而強硬對抗則成了人民的「救贖」。民粹領袖藉由建構「民粹地理敘事」，將領土議題轉化為政治忠誠的終極考驗，從而徹底封死了外交折衝與降溫的彈性空間。\n\n【研究問題】\n冷戰後的國際秩序長年建立在「承認既有國界、反對武力奪取領土」的規範之上，然而近年川普對西半球主權的叫囂、艾爾多安在地中海的強硬擴張，以及馬杜洛對蓋亞那艾瑟奎波的領土宣示，打破了這項默契。過去國際關係學界多聚焦於民粹領袖乖張的外交風格與反體制修辭，甚少深入領土政治；政治地理學則偏好研究國內城鄉極化或邊界管制，忽略了對外武裝衝突的升級動態。這項研究填補了兩者之間的斷層，試圖回答：民粹執政究竟如何重塑領土秩序？為什麼「奪回土地」的話語即使在無力實質吞併的狀態下，依然能展現無比強大的政治動員能量？\n\n【研究方法】\n研究採取了結合大樣本計量與深入質性敘事的多重研究設計。在跨國統計層面，作者彙整了 2000 至 2022 年間涵蓋 74 個國家、共 1,263 筆「國家-年度」觀測資料，結合全球民粹主義數據集（GPD）的領袖演說文本評分與烏普薩拉衝突數據庫（UCDP）的戰鬥死亡人數，並運用納入雙向固定效應的卜瓦松偽最大概似估計法（PPML），將領土衝突的「發生頻率」與「戰鬥烈度（傷亡人數）」嚴格拆分檢驗。在機制解釋上，作者提出涵蓋故事、歷史與集體自戀知識的「民粹地理敘事」框架，並以艾爾多安執政二十餘年的土耳其為典型案例，深入剖析其官方演說、歷史教科書修訂、新版地圖與大眾歷史肥皂劇。\n\n【結果】\n跨國計量模型顯示，行政首長的民粹程度與領土衝突的「年發生頻率」並無統計上的顯著關聯，卻與領土武裝衝突的「戰鬥死亡烈度」呈現高度正相關（p < 0.05）：民粹指數每上升一個四分位距（從前 25% 躍升至前 75%），衝突預期傷亡人數便激增約 65%（發生率比 IRR ≈ 1.65）。這證實了民粹主義的本質是「升級加速器」而非單純的「衝突製造機」。在土耳其個案中，研究進一步拆解了三大心理與制度機制：道德化審判（將讓步視為叛國）、公眾成本通膨（煽動選民情緒使妥協變得政治上不可承受）與展演性回報（發動跨境軍事行動來收穫選舉紅利）。艾爾多安將一戰後的《色佛爾條約》受害心理與《洛桑條約》的疆土緊箍感熔鑄為新鄂圖曼主義，向大眾證明邊界退讓絕不可容忍。這項研究警示，民粹主義對當代地緣秩序的最大威脅，並非回到十九世紀式的全面帝國吞併，而是一旦局部磨擦爆發，領導人將被自縛於極端敘事之中，使任何理性的降溫機制徹底失效。",
+      "en": "**Summary:**\nThis pathbreaking study in *Political Geography* uncovers a dangerous dynamic at the nexus of domestic rhetoric and global order: populist executives do not necessarily manufacture territorial conflicts out of thin air, but once a border dispute is activated, they dramatically intensify its violence. Hakkı Taş demonstrates that contemporary populism acts as a political escalation mechanism. By translating the classic \"pure people versus corrupt elite\" antagonism into spatial terms—framing diplomatic compromise as elite betrayal and geopolitical assertiveness as popular redemption—populist leaders trap states in high-stakes militarized crises, drastically narrowing the room for negotiated de-escalation.\n\n**Problem:**\nFor decades after World War II, the global order rested on the illegitimacy of territorial conquest and border revisionism. Yet today, rhetoric of \"reclaiming,\" \"restoring,\" and \"taking back\" land has surged worldwide—from Donald Trump's territorial assertions to Recep Tayyip Erdoğan's cartographic ambitions in the Eastern Mediterranean and Nicolás Maduro's plebiscitary claims over Guyana's Essequibo. International relations scholars have historically treated populism as a matter of performative style or diplomatic skepticism, overlooking territoriality. Conversely, political geographers have focused on domestic regional divides or internal border practices while neglecting international armed escalation. The critical gap is understanding whether, how, and with what empirical severity executive populism transforms international territorial disputes into lethal crises.\n\n**Approach:**\nTaş deploys an integrated mixed-methods design that pairs global panel econometrics with in-depth narrative tracing. Quantitatively, the author constructs a cross-national panel from 2000 to 2022 (74 countries, 1,263 country-year observations), merging continuous populist rhetoric scores from the Global Populism Dataset (GPD) with territorial armed conflict occurrences and battle-related fatalities from the Uppsala Conflict Data Program (UCDP). Using Poisson pseudo-maximum likelihood (PPML) regressions with two-way fixed effects (country and year) and lagged covariates, the model rigorously separates conflict frequency from conflict intensity. Qualitatively, the paper introduces a conceptual framework of \"populist geonarratives\" across four modalities (insulation, restoration, resistance, reclamation) and conducts a purposive narrative analysis of speeches, school curricula, visual maps, and prime-time historical dramas in Turkey under Erdoğan (2003–2025).\n\n**Results:**\nThe statistical analysis reveals that executive populism has no statistically meaningful association with the annual frequency of territorial conflict outbreaks, but it exerts a powerful, statistically significant positive effect on conflict intensity (p < 0.05). Substantively, an interquartile shift across the populism scale corresponds to a roughly 65% increase in battle-related fatalities (IRR ≈ 1.65). The Turkish case elucidates why: through three distinct mechanisms—populist moralization, audience-cost inflation, and performative reward—Erdoğan transformed geopolitical frictions into existential moral dramas. By mobilizing the historical trauma of the 1920 Treaty of Sèvres and weaponizing the 1923 Treaty of Lausanne as an elite-imposed spatial confinement, Turkish neo-Ottoman geonarratives made tactical moderation look like treason while rendering cross-border military incursions politically lucrative. The findings reveal that the primary peril populist leaders pose to global stability is not routine revisionism, but the structural elimination of diplomatic off-ramps once crises ignite."
+    },
+    "keyArticle": {
+      "title": "Populism and territoriality",
+      "authors": [
+        "Hakkı Taş"
+      ],
+      "doi": "10.1016/j.polgeo.2026.103629",
+      "pages": "103629"
+    },
+    "images": [
+      {
+        "url": "data/images/political-geography/political-geography-2026-07-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.polgeo.2026.103629",
+      "doi": "https://doi.org/10.1016/j.polgeo.2026.103629"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-25T21:32:31.204974+00:00",
+    "source": "openalex"
+  }
+}

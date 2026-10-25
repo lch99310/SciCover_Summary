@@ -1,0 +1,52 @@
+{
+  "id": "journal-of-development-economics-2026-08-11",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-08-11",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "良藥的悖論：當假藥退場，抗生素濫用危機為何反而加劇？",
+      "en": "The Quality Paradox: Why Eliminating Counterfeit Drugs Could Accelerate Antibiotic Overuse"
+    },
+    "summary": {
+      "zh": "【總結】在許多發展中國家，劣質與偽劣藥品充斥市場，公衛專家長期致力於提升藥品供應品質與監管力度。然而，發表於《發展經濟學期刊》（Journal of Development Economics）的一項創新研究揭示了一個令人警惕的政策反效果：藥品品質越有保障，病患反而越傾向於跳過正規醫療諮詢、選擇私下「自主服藥」（self-medication）。研究團隊在西非布吉納法索結合了嚴格的化學藥性質檢與田野實驗，證實當地市售抗生素每三種就有一種不合格，而當消費者確信自己能買到合格真藥時，自主濫用抗生素的意願顯著飆升。這項發現表明，單純淨化藥品市場可能在無意中加速全球抗藥性（AMR）的爆發。\n\n【研究問題】在低收入國家，病患因看診費用高昂或等待時間過長，極常私自購買抗生素治病。然而，當前市場環境充滿資訊不對稱與「檸檬市場」的特徵——劣質藥與假藥氾濫，使消費者面臨療效不確定的巨大健康風險。過去的發展經濟學文獻多聚焦於正規醫療服務的定價、供給與看診補貼，卻忽略了「藥品本身的品質不確定性」究竟如何塑造了消費者的就醫或自購行為。若政府與國際組織成功消除了假藥，民眾會因為藥效提升而更健康，還是會因此放心拋棄專業醫師診斷、大肆自購抗生素？\n\n【研究方法】研究團隊在布吉納法索首都瓦加杜古展開多階段調查。首先，研究人員秘密採樣正規藥局與街頭小販的抗生素進行化學質量檢測，量化市場真實的假藥比例，並測評民眾能否依外包裝或價格辨識品質；隨後，團隊設計了一場精巧的「田野實驗室實驗」（lab-in-the-field experiment），共納入400名受訪者。在實驗中，參與者面臨虛擬的患病情境，必須在「尋求正規醫療診斷」與「自行購買藥品」之間做出權衡。研究人員外生操縱了受訪者買到劣質無效藥物的客觀機率（從0%到90%），從而精確識別出品質確定性對自主用藥決策的因果影響，並控制個人風險偏好、財富水準與抗生素認知等變數。\n\n【結果】化學檢驗顯示，市場上高達三分之一（約33%）的抗生素為劣質或假藥；儘管受訪者普遍知曉假藥存在，但根本無法透過肉眼包裝或價格正確判斷藥品質量。實驗結果更給出鮮明警訊：買到假藥的機率每下降10個百分點，病患選擇自主服用抗生素的機率就上升近6個百分點（迴歸係數約為 -0.57 至 -0.60）；當藥品質量達到完全確定的情境（假藥機率為0）時，自購用藥行為大幅攀升近30個百分點。這種效應在女性、風險厭惡者及過往有自購藥習慣的人群中尤為劇烈。這項研究提出了深刻的治理兩難：打擊偽劣藥品的單一市場干預，若未同步配合處方籤嚴格管制與看診成本補貼，恐將直接誘發嚴重的抗生素濫用，進而催生全球公衛系統難以承受的超級細菌危機。",
+      "en": "**Summary:** In developing economies plagued by counterfeit pharmaceuticals, international health agencies have long treated drug quality verification as an unambiguous social good. However, a groundbreaking study published in the *Journal of Development Economics* reveals an alarming behavioral paradox: guaranteeing drug efficacy may inadvertently encourage patients to bypass formal medical diagnosis altogether. Conducting an empirical investigation in Ouagadougou, Burkina Faso, the researchers integrated chemical laboratory assays with a novel lab-in-the-field experiment. They discovered that while one in three retail antibiotics on the local market is substandard or falsified, eliminating this quality uncertainty dramatically increases consumers' propensity to self-medicate. This behavioral shift exposes health systems to severe unintended externalities, notably the rapid escalation of global antimicrobial resistance (AMR).\n\n**Problem:** Self-medication with antibiotics is exceptionally common across Sub-Saharan Africa, where access to formal health clinics is constrained by high user fees, long travel times, and pervasive diagnostic queues. Concurrently, pharmaceutical supply chains are quintessential \"lemons markets,\" wherein substandard and falsified medications pose severe health risks. Although conventional economic literature has extensively evaluated healthcare demand relative to monetary costs and service delivery, little was known about how quality risk itself governs patient decision-making. Does the fear of ineffective, adulterated medication keep patients reliant on formal healthcare consultations, and what happens when that deterrent is removed through regulatory crackdowns?\n\n**Approach:** The authors implemented a comprehensive multi-stage research design in Burkina Faso's capital. First, they chemically tested sample antibiotics procured from both licensed pharmacies and unregulated street vendors to establish baseline market failure rates, while evaluating consumers' ability to discern counterfeit products via packaging or price. Second, they recruited 400 urban participants for a high-stakes lab-in-the-field experiment simulating health shocks. In the experimental game, respondents had to choose between paying for professional clinical consultations or self-medicating. By exogenously varying the explicit probability of purchasing a poor-quality antibiotic across successive rounds (ranging from 0% to 90%), the team isolated the pure causal effect of quality certainty on self-prescription behavior, while controlling for individual risk tolerance, wealth quintiles, and health literacy.\n\n**Results:** Chemical assays confirmed that one-third of available antibiotics were substandard or falsified. Crucially, consumers were thoroughly incapable of identifying defective products using observable physical cues. The experimental results demonstrated that self-medication is highly sensitive to perceived risk: every 10-percentage-point decrease in the probability of purchasing a defective drug increased the likelihood of self-medication by nearly 6 percentage points (linear probability model coefficients between -0.57 and -0.60). When drug quality was rendered fully certain, self-medication surged by roughly 30 percentage points over baseline levels. This behavioral rebound was particularly pronounced among women, risk-averse individuals, and past self-medicators. These findings underscore a critical health policy trade-off: cleaning up pharmaceutical supply chains without simultaneously subsidizing primary clinical consultations and enforcing prescription mandates will inevitably accelerate inappropriate antibiotic consumption and exacerbate the global threat of antimicrobial resistance."
+    },
+    "keyArticle": {
+      "title": "Self-medication under uncertainty: Insights on drug quality and consumer behavior in Burkina Faso",
+      "authors": [
+        "Renate Hartwig",
+        "Moumouni Koala",
+        "Lena Merkel",
+        "Salfo Ouédraogo",
+        "Fadima Yaya Bocoum"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103890",
+      "pages": "103890"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103890",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103890",
+      "preprint": "https://doi.org/10.2139/ssrn.5349031"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-25T21:36:59.067489+00:00",
+    "source": "openalex"
+  }
+}
