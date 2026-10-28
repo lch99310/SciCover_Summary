@@ -1,0 +1,49 @@
+{
+  "id": "american-political-science-review-2025-10-24",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "3",
+  "date": "2025-10-24",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2025-10-24-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "「被宣判淘汰」的憤怒：綠色轉型如何將傳統重工業勞工推向極右翼？",
+      "en": "The Normative Backlash: How the Green Transition Mobilizes Industrial Workers for the Far Right"
+    },
+    "summary": {
+      "zh": "【總結】氣候政策通常被視為拯救地球的進步象徵，然而它對傳統高污染職業（即所謂「棕色工作」）的衝擊，正引發一場劇烈的政治地震。本篇發表於《美國政治學評論》（APSR）的研究發現，當德國極右翼政黨「另類選擇黨」（AfD）於 2016 年率先打破主流政黨的環保共識、豎起反綠旗幟後，高碳排職業比重較高的縣郡與個人顯著倒向極右翼。更耐人尋味的是，這種政治轉向的主因並非實質失業或降薪，而是「道德污名化」帶來的社會地位焦慮——當個人的生計被國家定調為需要被消除的「歷史遺毒」，極右翼便順理成章成為他們反抗主流菁英的政治出口。\n\n【研究問題】過去政治經濟學在解釋民粹極右翼崛起時，多聚焦於自動化與貿易全球化（如「中國衝擊」）造成的「既成」去工業化失業，或是選民對碳稅等消費成本提高的反彈。然而，綠色轉型具有本質上的不同：它不是市場力量偶然造成的副作用，而是一場由國家主導、有預謀且帶有強烈道德評判的產業淘汰。過去研究往往僅檢視特定產業（如煤礦業）或選民需求端，忽視了「供給端」政黨策略與整體職業結構的交互作用。本研究的核心問題在於：當極右翼政黨主動將氣候轉型打造成撕裂選民的政治槓桿時，勞工與仰賴這些高污染產業的社群，是否會產生沿著職業分界線的政治極化？\n\n【研究方法】研究團隊巧妙結合了宏觀選舉資料與微觀追蹤調查，建立了一套雙重差分法（Difference-in-Differences）的嚴謹設計。首先，他們利用美國勞動市場資料經歐洲跨國轉譯的「棕色職業分數」，定義出化工、金屬加工等高污染職業門檻（大於 0.3），並透過德國聯邦就業局的行政數據，計算 2013 年德國 400 個縣郡的「棕色就業比例」。接著，研究者捕捉到 2016 年 AfD 黨綱轉向反氣候倡議的歷史外生衝擊，檢視供給端出現後，各地區在 2017 與 2021 年大選中的投票變化。在微觀層面上，研究者利用德國社會經濟小組（SOEP）長期家戶追蹤調查，精準觀察「從事棕色工作的個人」在 2016 年前後的政黨傾向轉變，成功排除了選民流動、投票率差異與外來移民等常見干擾變因。\n\n【結果】研究結果顯示，2016 年 AfD 全面轉向反對能源轉型後，棕色就業比重越高的縣郡，極右翼得票率的上升幅度顯著超越其他地區，而綠黨則在這些區域遭遇嚴重挫敗。微觀追蹤調查更證實，不僅棕色產業的勞工個人在 2016 年後顯著轉向 AfD，連居住在這些傳統工業縣郡但自身非棕色勞工的居民，也出現了外溢性的極右傾斜。關鍵的機制檢驗揭示：這些轉向並非源自即刻的薪資縮水或失業攀升，而是自覺「社會地位下降」與遭受主流道德污名的心態。這項發現警示各國決策者，未來的公正轉型若僅提供經濟補償，卻忽視了去碳化政策對傳統藍領社群尊嚴與歷史認同的心理打擊，綠色新政恐將持續淪為極右民主倒退的政治溫床。",
+      "en": "**Summary:** While climate policies are framed globally as essential imperatives for planetary survival, they pose an existential threat to workers whose livelihoods depend on high-emission \"brown\" occupations. Published in the *American Political Science Review*, this groundbreaking study demonstrates that Germany's green transition has deepened political polarization along occupational lines. Following the far-right Alternative for Germany's (AfD) 2016 pivot to an overtly anti-green transition platform, both counties reliant on polluting industries and individuals working in brown occupations swung sharply toward the radical right. Crucially, the authors show that this backlash is not primarily driven by realized job or wage losses, but by the anticipatory anxiety of planned occupational obsolescence and the perceived loss of social status inflicted by mainstream climate discourse.\n\n**Problem:** Existing political economy scholarship attributes the surge of radical right populism largely to realized economic shocks—such as deindustrialization from trade competition (\"the China shock\") or automation. In climate politics, research has predominantly focused on consumer grievances, such as fuel price hikes or carbon taxes, or narrowly examined isolated sectors like coal mining. However, the green transition represents a unique socio-economic challenge: it is not a market byproduct, but an intentional, state-engineered phaseout of specific occupations accompanied by moralized norm changes. Previous studies largely failed to explain how this anticipated restructuring interacts with party competition (the political supply side) to realign broader occupational classes across society.\n\n**Approach:** The authors developed an innovative empirical strategy combining county-level administrative data across Germany from 2005 to 2021 with multi-decade individual-level panel surveys from the German Socio-Economic Panel (SOEP). They classified \"brown occupations\" based on standardized occupational pollution scores, identifying roles in chemical processing, metallurgy, and heavy machinery that heavily cluster in polluting sectors. Leveraging a difference-in-differences (DiD) design, they evaluated electoral trends before and after 2016—the year the AfD broke the mainstream elite consensus by adopting a radically climate-skeptic platform. This approach enabled the researchers to isolate the causal intersection of latent demand (local brown employment share) and political supply (AfD’s policy shift), while ruling out confounding factors such as manufacturing exposure, xenophobia, and refugee inflows.\n\n**Results:** The empirical findings demonstrate that following the AfD's 2016 strategic turn, counties with higher pre-existing shares of brown employment saw a substantial and statistically significant increase in AfD vote shares in both the 2017 and 2021 federal elections, alongside notable losses for the Green Party. Individual-level panel results confirm that workers in brown jobs systematically switched their allegiance toward the far right precisely in 2016, with behavioral spillovers extending to neighboring residents regardless of their personal occupation. Probing underlying mechanisms, the researchers found no immediate declines in wages or spikes in unemployment; instead, individuals in brown jobs reported significantly lower self-perceived social status. These results illustrate that decarbonization policies that carry normative stigmas risk triggering deep political backlashes, proving that material compensation alone cannot safeguard democratic stability without addressing the dignity and social status of industrial communities."
+    },
+    "keyArticle": {
+      "title": "The Green Transition and Political Polarization Along Occupational Lines",
+      "authors": [
+        "Vincent Heddesheimer",
+        "Hanno Hilbig",
+        "Erik Voeten"
+      ],
+      "doi": "10.1017/s0003055425101226",
+      "pages": "853-875"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2025-10-24-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055425101226",
+      "doi": "https://doi.org/10.1017/s0003055425101226"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-28T23:21:13.238693+00:00",
+    "source": "openalex"
+  }
+}

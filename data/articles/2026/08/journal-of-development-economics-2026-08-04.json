@@ -1,0 +1,50 @@
+{
+  "id": "journal-of-development-economics-2026-08-04",
+  "journal": "Journal of Development Economics",
+  "volume": "184",
+  "issue": "",
+  "date": "2026-08-04",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "外國軍隊還沒到，馬利人先相信國家了：聯合國一紙決議如何悄悄改變民眾的納稅意願",
+      "en": "Before the Troops Arrived, Hope Did: How a UN Resolution Shifted Malians' Willingness to Pay Taxes"
+    },
+    "summary": {
+      "zh": "【總結】這篇發表於《發展經濟學期刊》的研究，利用一個近乎天然實驗的巧合——聯合國安理會第2085號決議通過的時間，正好落在「非洲晴雨表」民調在馬利南部進行訪問的期間——發現「預期中的外國軍事干預」能顯著改變人民對國家的態度。在決議公布後幾天內受訪的馬利人，比在決議前幾日受訪、背景相似的同胞，更相信國家未來會更民主，也展現出更強的納稅意願（稅賦道德）。研究估計，決議後受訪者表示「未來民主程度會很高」的比例增加了約8個百分點，而稅賦道德指標則上升約0.26個標準差。更細緻的是，這種效應並非全面擴散：只有在國家能力較弱、族群多元性較低的地區，以及不覺得自己族群受到歧視的個人身上，稅賦道德才顯著提升。這表示外國干預的承諾，可以像「國家建設的信號」一樣，讓人民重新評估政府的未來，進而願意參與國家建構的集體事業。\n\n【研究問題】過去研究多半強調國家財政能力的建立，依賴於稅收執行技術、監控與懲罰，或者既有的政治衝突與菁英利益。但一個關鍵問題是：一般公民為什麼願意納稅？稅賦道德——人民相信納稅是公民義務的內在態度——如何被形塑？既有文獻較少探討「對國家未來的預期」能否改變當下的納稅意願。本文填補的缺口在於：當國家瀕臨崩潰時，如果人民接收到「外國即將介入、重建國家」的訊息，會不會因此對國家的前途轉趨樂觀，進而提高配合國家財政的意願？這不只是關於外國干預的效用，更是關於「前瞻性信念」如何影響制度發展的路徑依賴。若能證明一個單純的訊息衝擊就能改變稅賦道德，那麼國家建設的起點可能不在於強制力，而在於人民對未來的信任。\n\n【研究方法】作者利用馬利在2012年的制度危機作為自然實驗背景。當時北部的武裝衝突與南部的軍事政變使國家瀕臨分裂，聯合國安理會於2012年12月20日通過第2085號決議，授權西非國家部隊干預，並明訂擊敗叛軍、統一國家、恢復民主選舉的路線圖。恰好「非洲晴雨表」第五輪民調正在馬利南部進行，訪問集中在決議日前後數日。作者比較決議前後受訪者，並控制地區×族群固定效應、受訪者特徵（性別、年齡、教育、就業、城鄉、宗教、是否主要族群）、以及訪員特徵，以排除混雜因素。他們也驗證了決議前後受訪者在可觀察特徵上沒有顯著差異，支持訪問時點的隨機性。主要的結果變數包括對未來民主程度的預期、稅賦道德（是否同意「人民必須納稅」）、拒絕繳稅的意願、逃稅態度，以及對國家官員貪腐程度、國家財政能力、國家保護、國民驕傲等看法。此外，作者也透過與鄰國在不同民調輪次的比較，檢視馬利稅賦道德的長期變化。\n\n【結果】研究發現，決議公布後受訪者對「未來民主程度高」的預期增加了8個百分點（相對樣本平均約13%），而對「當前民主程度」的評估則沒有改變，顯示衝擊確實是關於未來而非現狀。稅賦道德方面，決議後受訪者同意「人民必須納稅」的比例大幅上升，效果約0.26個標準差，相當於國家服務供給最高與最低地區之間差距的一半。同時，「絕對不會拒絕繳稅」的比例增加12個百分點，「若有機會就會逃稅」的比例下降9.5個百分點，顯示整體稅文化明顯轉向支持國家。機制上，稅賦道德提升集中在國家公共服務供給較少的地區、族群多樣性低的地區、以及未感受到族群歧視的個人身上。此外，決議後受訪者對稅務官員貪腐的感知下降、對國家官員的評價提高、國民驕傲感上升，也較願意在受害時尋求國家保護，但相對的族群認同並未改變。這些結果支持「前瞻性信念」的解釋：人民相信國家未來會更好，因而更願意現在支持國家。這對發展經濟學的啟示是，外國軍事干預不僅是安全議題，也可能透過改變公民信念而成為國家制度建設的催化劑；而族群分裂與歧視感則會阻礙這種正向循環的形成。",
+      "en": "**Summary:** This study, published in the *Journal of Development Economics*, exploits a striking natural experiment: the United Nations Security Council Resolution 2085, adopted on December 20, 2012, authorizing foreign military intervention in Mali, landed right in the middle of Afrobarometer survey fieldwork in southern Mali. Comparing respondents interviewed just days before versus just days after the announcement—who are otherwise similar in characteristics, region, and ethnicity—the authors find that the resolution significantly improved citizens' expectations about the country's future democracy and raised their tax morale. The share of respondents expecting a high level of future democracy rose by 8 percentage points, and tax morale increased by about 0.26 standard deviations. The effect was not uniform: it was concentrated in areas with low state capacity, low ethnic diversity, and among individuals who did not perceive ethnic discrimination. The paper argues that foreign military intervention can act as a \"state-building signal,\" reshaping citizens' beliefs about the state's future trajectory and thereby increasing their willingness to participate in state-building today.\n\n**Problem:** Why do citizens pay taxes? Standard explanations emphasize enforcement, monitoring, and punishment, or the state's current capacity to deliver public goods. But tax morale—the intrinsic belief that paying taxes is a civic duty—remains poorly understood in terms of its determinants. In particular, do forward-looking beliefs about the future functioning of the state affect present-day attitudes toward taxation? This question is crucial for weak or failed states, where state-building requires not only coercive capacity but also popular legitimacy and voluntary cooperation. Previous research has largely focused on how current institutions shape tax compliance, but has rarely considered how expectations of future institutional quality—especially triggered by external interventions—can alter citizens' willingness to support the state. If a simple announcement can shift tax morale, then state-building processes may be jump-started by credible commitments to future governance improvements, rather than solely by incremental capacity building.\n\n**Approach:** The authors use the 2012 Malian institutional crisis as a quasi-natural experiment. Mali faced a coup in March 2012, a rebel occupation in the North, and near state collapse. On December 20, 2012, the UN Security Council adopted Resolution 2085, authorizing an African-led intervention to restore territorial integrity and democracy. Crucially, Afrobarometer Round 5 interviews were being conducted in southern Mali at that exact time. The authors compare respondents interviewed immediately before versus immediately after the resolution, controlling for region-by-ethnic-group fixed effects, individual characteristics (gender, age, education, employment, rural/urban, religiosity, ethnicity), interviewer characteristics, and public goods availability at the primary sampling unit. They show balance: covariates do not differ significantly across the treatment cutoff. The outcome measures include beliefs about future democracy, tax morale (agreement with \"people must pay taxes\"), stated willingness to refuse taxes, attitudes toward tax evasion, perceived corruption of officials, national pride, and perceptions of the social contract. They also benchmark Mali's tax morale trends against neighboring countries across Afrobarometer rounds to examine persistence.\n\n**Results:** The resolution raised expectations of future democracy by 8 percentage points (about 13% of the sample mean) while leaving perceptions of current democracy unchanged—confirming that the shock affected forward-looking beliefs. Tax morale increased substantially: the estimated effect is about 0.26 standard deviations, roughly half the gap in tax morale between areas with the highest and lowest state presence. The share of respondents saying they would never refuse to pay taxes rose by 12 percentage points, while the share saying they would evade taxes if given the chance fell by 9.5 percentage points. The increase in tax morale was concentrated in areas with fewer public goods—where the anticipated gains from state-building are larger—and in areas with low ethnic diversity, as well as among individuals who did not feel discriminated against by the state. In addition, respondents after the resolution perceived less corruption among tax officials, expressed greater national pride, and showed higher willingness to seek state protection. These findings suggest that credible international commitments to restore state capacity can strengthen citizens' fiscal contract with the state. However, ethnic fragmentation and perceived discrimination can undermine this positive loop. The study offers a novel channel for development policy: foreign intervention, when framed as state-building, can raise domestic demand for better governance and tax compliance, potentially initiating a virtuous cycle of institutional development."
+    },
+    "keyArticle": {
+      "title": "Expected foreign military intervention and demand for state-building: Evidence from Mali",
+      "authors": [
+        "Alessandro Belmonte",
+        "Désirée Teobaldelli",
+        "Davide Ticchi"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103897",
+      "pages": "103897"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103897",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103897",
+      "preprint": "https://doi.org/10.2139/ssrn.5076124"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-28T23:22:34.211571+00:00",
+    "source": "openalex"
+  }
+}

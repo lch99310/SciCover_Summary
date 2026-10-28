@@ -1,0 +1,55 @@
+{
+  "id": "nature-2026-10-07-04",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8137",
+  "date": "2026-10-07",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-07-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "告別分詞器的枷鎖：直接讀取位元的全新語言模型「翻新術」",
+      "en": "Beyond the Tokenizer: How Retrofitting Language Models into Bytes Unlocks Raw AI Power"
+    },
+    "summary": {
+      "zh": "【總結】當前主流的大型語言模型（LLM）幾乎都建立在「子詞分詞」（subword tokenization）的基礎上，將文字切割成詞綴或單詞片段。然而，這層看似理所當然的中介過濾器，卻遮蔽了微觀字元結構，讓模型在處理程式碼、DNA序列甚至簡單的字元拼寫時頻頻碰壁。發表於《自然》（Nature）的這項研究帶來了顛覆性突破：研究團隊開創了名為「位元化」（byteification）的翻新架構，僅耗費不到典型預訓練 1% 的運算預算（約 491 億個 Token），就能將既有的開源子詞模型（如 Qwen3、Llama 3、Olmo）直接「改造」為能原生處理 UTF-8 位元組的模型，一舉打破長年以來位元級模型效能始終落後於子詞模型的瓶頸。\n\n【研究問題】傳統大型語言模型並非真正的「端到端」學習，文字在輸入前必須先被切分為詞元（Tokens）。這種人為設計引發了諸多根本缺陷：模型對底層字元缺乏感知（連「strawberry 裡有幾個 r」都會答錯）、在面對程式碼縮排與生物分子序列時容易失真、分詞器嚴重向英語偏向，且詞表過大會引發運算成本龐大的 Softmax 瓶頸。雖然直接以 UTF-8 位元運算的「無分詞」（Tokenizer-free）模型概念由來已久，但過去研究皆嘗試「從零隨機初始化訓練」，在動輒數兆 Token 的算力競賽下，其表現遠遠落後於高度演進的主流模型。如何能不耗費天文數字般的預算，讓成熟模型擺脫分詞器並保留既有智慧，是學界迫切未解的難題。\n\n【研究方法】研究團隊提出了精巧的「隱變量分詞器架構」（LTLM）與兩階段翻新流程。模型架構包含輕量寬闊的區域編碼器（採用高效的矩陣長短期記憶網路 mLSTM）、邊界預測器、主幹全域 Transformer、以及區域解碼器。傳統位元模型在預測分詞切點時僅依賴過去資訊，導致語義切割破碎；團隊首創「非因果邊界預測」，在預填（Prefill）階段引入 1 個位元的微幅未來視野，精準還原人類語言結構；而在解碼端則透過擴展為 512 的輸出空間，將「位元＋分界」融合預測，達成零延遲推論。在訓練上，第一階段透過蒸餾凍結全域模型，僅訓練周邊區域網路快速仿擬原模型行為；第二階段再解凍全模型進行位元級端到端微調。\n\n【結果】翻新後的位元模型交出了令人驚豔的成績單：基於 Qwen3 打造的 Bwen 8B 綜合任務評測達到 69.8 分，幾乎與原始子詞模型（70.3 分）分庭抗禮，更大幅碾壓從頭訓練的位元基準模型 BLT 7B（48.9 分），在 STEM 領域領先逾 16.5 個百分點。在字元理解任務（如 CUTE 基準）中，Bwen 8B 更是以 87.2% 的高分重創原始模型的 66.9%；在程式碼多樣性（pass@16）上亦展現顯著優勢。更具突破性的是，研究團隊證明利用「任務算術」（Task Arithmetic），能直接將原模型的對齊權重差值相加，實現免額外訓練的零樣本指令遵循翻新。這項成果打破了字元級與子詞級模型的鴻溝，為未來更公平、更高效且能理解原始自然世界數據的 AI 架構開闢了一條康莊大道。",
+      "en": "**Summary:** Large language models have long harbored an architectural secret: beneath their linguistic sophistication lies a rigid subword tokenizer that carves text into arbitrary word chunks. This historical crutch clouds a model's grasp of fine-grained spelling, code syntax, and biological strings. A team of researchers from the Allen Institute for AI, Cambridge, and the University of Washington has now shattered this long-standing barrier. Publishing in *Nature*, they introduce \"byteification\"—a general, resource-efficient retrofitting procedure that takes existing state-of-the-art subword models (including Qwen3, Llama 3, and OLMo) and converts them into pure byte-level networks. Requiring less than 1% of a standard pretraining compute budget, the resulting byteified systems match subword performance while dramatically outclassing previous ground-up byte models and solving the notoriously brittle character-level blind spots of modern AI.\n\n**Problem:** Contemporary artificial intelligence is celebrated for end-to-end representation learning, yet language models still depend on an awkward preprocessing heuristic: subword tokenization (such as Byte-Pair Encoding). Tokenizers introduce acute structural pathologies. They render models blind to sub-token orthography—famously stumbling on counting characters or editing programming syntax—enforce heavy linguistic biases that penalize non-English tongues, and impose severe computational overhead via massive vocabulary lookup matrices. While directly consuming raw UTF-8 bytes has long offered theoretical purity and flexibility, byte-level models have historically lagged behind. Training byte models from scratch requires millions of GPU hours to compete against commercial LLMs that have absorbed trillions of tokens, creating an insurmountable resource chasm that kept byte-level intelligence on the research periphery.\n\n**Approach:** To bridge this chasm without exorbitant pretraining costs, the authors devised a Latent Tokenizer Language Model (LTLM) tailored for retrofitting. The architecture routes a raw byte stream through a fast, shallow local encoder powered by matrix long short-term memory (mLSTM) blocks. Crucially, the authors solved the representational asymmetry between subwords and bytes: while prior byte systems enforced causal token boundary detection, standard tokenizers actually peek forward into future bytes. By granting their neural boundary predictor a 1-byte lookahead during the prefill phase, the model matches the semantic coherence of compound words without information leakage, while decoding uses an elegant 512-token fused byte-and-boundary space. Conversion proceeds via a two-stage distillation: stage one aligns the local adapter networks to mirror the frozen core model's latent activations, and stage two unlocks full end-to-end byte adaptation across fewer than 50 billion tokens.\n\n**Results:** The resulting models demonstrated transformative parity. At the 8B-parameter tier, Bwen 8B achieved a benchmark average of 69.8%, matching its subword progenitor Qwen3 8B (70.3%) while outperforming BLT 7B—the previous state-of-the-art byte model trained from scratch—by a staggering margin of +20.9% overall and +16.5% on STEM benchmarks. On the CUTE character-level reasoning suite, Bwen soared to 87.2%, leaving the base subword model trailing at 66.9%. In coding, byteified models achieved higher multi-sample pass@16 diversity. Furthermore, by adjusting patch compression ratios, the byteified architecture smoothly bypassed the softmax vocabulary bottleneck that chokes expanding subword models. Remarkably, using simple parameter weight arithmetic, the team ported post-trained reinforcement learning checkpoints directly into the byte model without any additional training—proving that byteification integrates seamlessly into the wider open-source LLM ecosystem."
+    },
+    "keyArticle": {
+      "title": "Retrofitting language models to operate over bytes",
+      "authors": [
+        "Benjamin Minixhofer",
+        "Tyler Murray",
+        "Tomasz Limisiewicz",
+        "Anna Korhonen",
+        "Luke Zettlemoyer",
+        "Noah A. Smith",
+        "E De Ponti",
+        "Luca Soldaini",
+        "Valentin Hofmann"
+      ],
+      "doi": "10.1038/s41586-026-11111-4",
+      "pages": "915-922"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-07-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11111-4",
+      "doi": "https://doi.org/10.1038/s41586-026-11111-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-28T23:08:31.819707+00:00",
+    "source": "openalex"
+  }
+}

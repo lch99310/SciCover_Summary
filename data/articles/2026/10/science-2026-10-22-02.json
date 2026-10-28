@@ -1,0 +1,64 @@
+{
+  "id": "science-2026-10-22-02",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6822",
+  "date": "2026-10-22",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-22-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "在金屬汪洋中築起孤島：二維晶體中首次捕獲「連續譜中的電子束縛態」",
+      "en": "Islands in a Metallic Sea: Physicists Trap Elusive Electronic Bound States in the Continuum"
+    },
+    "summary": {
+      "zh": "【總結】在凝聚態物理學中，若將一個局域電子狀態置入金屬的導電電子汪洋中，它通常會迅速被沖散並與連續能態雜化。然而，哥倫比亞大學領銜的跨學科研究團隊在新型二維凡德瓦金屬材料（Pd5AlI2）中，首次在實空間直接觀測到了「連續譜中的電子束縛態」（Electronic Bound States in the Continuum, BICs）。藉由晶格中獨特的「受挫躍遷」機制，晶格缺陷所誘發的電子態即使深處於連續導電能帶之中，依然能夠保持亞奈米級別的強烈空間局域化，宛如在奔騰海浪中屹立不搖的隱形孤島。這項發表於《科學》（Science）的重大突破，不僅打破了傳統波動力學的直覺認知，更為無耗散量子傳輸、拓撲量子計算以及原子級缺陷工程開闢了全新路徑。\n\n【研究問題】早在1929年，量子力學奠基人馮·諾紐曼與維格納就從數學上預言：在特定位能條件下，薛丁格方程式容許空間局域化的孤立波函數存在於連續譜內部而不向外擴散，即所謂的 BIC。近數十年來，科學家已在光學、聲學和光子晶體中成功觀測並應用光學 BIC；但在固態金屬系統中實現「電子 BIC」卻始終是物理學界難以攻克的聖杯。在傳統金屬中，點缺陷只會充當散射中心，電子能態極易與浩瀚的導電電子海融合而迅速彌散，過去的研究不僅缺乏確鑿的實空間局域化證據，也缺乏無需繁瑣微調即可自然穩定存在的材料體系。\n\n【研究方法】研究團隊將目光轉向一種具有「修飾棋盤格」結構的二維凡德瓦金屬 Pd5AlI2。該晶格中鈀（Pd）的 dxz/dyz 軌域與鋁（Al）的 pz 軌域之間存在幾何破壞引起的「受挫躍遷」，天然形成了平坦能帶與「緊湊局域態」（CLS）。研究人員在超高真空與極低溫（約 7 K）環境下，利用微型掃描穿隧顯微鏡及能譜儀（STM/STS），對機械剝離出的 Pd5AlI2 樣品表面進行了原子級解析度的形貌掃描與局部態密度（LDOS）探測。同時，結合密度泛函理論（DFT）與包含緊鄰/次緊鄰躍遷的緊束縛三能帶模型，精確反演缺陷幾何構型與波函數對稱性。\n\n【結果】實驗驚喜地發現，PdAl 晶面中心的單個鈀原子空位（密度約 2.3 × 10¹² cm⁻²）在費米能級上方的金屬連續帶中，誘發了兩個極為尖銳的離散電子峰（分別位於 +475 mV 與 +620 mV）。光譜成像顯示，+475 mV 態呈現四瓣狀的 d 軌域對稱特徵，而 +620 mV 態則呈圓形 s 軌域形貌，且兩者的空間局域範圍嚴格限制在 1 奈米之內。更精采的是，當兩個空位間隔僅單個晶格常數時，缺陷態發生了類似雙原子分子的能級分裂，形成四個能量介於 +440 mV 至 +650 mV 的「鍵合態」與「反鍵合態」；而當間隔拉大到兩個晶格常數時則毫無雜化。這證實了局域態源於平帶正交保護，能徹底免疫金屬連續態的侵蝕，為構建抗退相干的原子級量子陣列奠定了堅實基石。",
+      "en": "**Summary:** In quantum mechanics, embedding a localized wavepacket into an energy continuum typically causes it to dissolve instantly into the surrounding sea of delocalized states. Defying this orthodoxy, a research team led by Columbia University has experimentally captured electronic bound states in the continuum (BICs) within a two-dimensional van der Waals metal, Pd5AlI2. By exploiting destructive quantum interference born from \"frustrated electron hopping\" on a decorated checkerboard lattice, the researchers demonstrated that point defects can host discrete electronic states that remain localized to sub-nanometer scales deep inside a continuous metallic band. Published in *Science*, this long-sought realization bridges a foundational quantum paradox first proposed nearly a century ago with tangible material platforms, unlocking radical design paradigms for dissipationless quantum transport and atomic-scale quantum simulators.\n\n**Problem:** In 1929, John von Neumann and Eugene Wigner mathematically proved that certain exotic potentials in the Schrödinger equation could trap spatially localized states within a continuous energy spectrum without leaking out. While this counterintuitive phenomenon has been extensively realized in photonics and acoustic metamaterials, establishing electronic BICs within real metals has historically hit a brick wall. In semiconductors, defect states are protected by insulating bandgaps; in metals, however, dilute vacancies act merely as scattering centers, rapidly hybridizing with the broad sea of conduction electrons. Previous theoretical proposals either required delicate parameter fine-tuning or lacked the nanometer-scale spatial resolution needed to prove that such states were truly localized rather than broad resonances.\n\n**Approach:** The authors overcame this hurdle by harnessing flat-band physics in the 2D van der Waals metal Pd5AlI2. Within its inner PdAl plane, orthogonal palladium d-orbitals interact via aluminum p-orbitals in a decorated checkerboard geometry, causing destructive hopping interference that yields a dispersionless flat band composed of \"compact localized states\" (CLSs). When an atomic vacancy shifts a CLS into the dispersive metallic continuum, its intrinsic mathematical orthogonality shields it from hybridization. Cleaving high-purity single crystals under ultra-high vacuum, the team utilized low-temperature (7 K) scanning tunneling microscopy and spectroscopy (STM/STS) to map the local density of states (LDOS) at atomic resolution, corroborating their measurements with density functional theory (DFT) and tight-binding calculations.\n\n**Results:** STS measurements on single palladium vacancies revealed two distinct, extraordinarily sharp spectroscopic peaks centered at +475 mV and +620 mV above the Fermi level, squarely embedded within the continuous conduction bands. Spatial LDOS mapping demonstrated that these states are confined within less than 1 nanometer: the lower-energy state mirrors a four-lobed atomic d-orbital (eigenvalue -1 under C4 symmetry), while the higher-energy state forms a circular pattern (+i eigenvalue). Strikingly, when two vacancies formed an atomic-scale dimer separated by a single lattice constant (a = 4.05 Å), each BIC split into molecular-like bonding and antibonding orbitals across four discrete levels (+440, +510, +590, and +650 mV), whereas separations of two lattice constants completely decoupled them. This confirms that topological flat bands can protect electronic bound states from metallic dissipation, opening avenues toward lossless charge routing and tailored quantum dot lattices."
+    },
+    "keyArticle": {
+      "title": "Electronic bound states in the continuum in a two-dimensional metal",
+      "authors": [
+        "Morgan Thinel",
+        "Xiong Huang",
+        "Daniel G. Chica",
+        "Simon Turkel",
+        "S. E. Rossi",
+        "Christie S. Koay",
+        "Hong Li",
+        "Willa Mihalyi‐Koch",
+        "Bipasa Samanta",
+        "Madisen Holbrook",
+        "Aravind Devarakonda",
+        "Luca M. Nashabeh",
+        "Alexandru Bogdan Georgescu",
+        "Xavier Roy",
+        "Xiaoyang Zhu",
+        "Abhay N. Pasupathy",
+        "Raquel Queiroz"
+      ],
+      "doi": "10.1126/science.adt9825",
+      "pages": "429-433"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-22-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adt9825",
+      "doi": "https://doi.org/10.1126/science.adt9825",
+      "preprint": "https://arxiv.org/abs/2410.19227"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-28T23:01:16.114018+00:00",
+    "source": "openalex"
+  }
+}

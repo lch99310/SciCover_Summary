@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-25T21:36:59.137121+00:00",
+  "lastUpdated": "2026-10-28T23:22:34.260090+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-22-02",
+      "journal": "Science",
+      "date": "2026-10-22",
+      "path": "articles/2026/10/science-2026-10-22-02.json",
+      "title_zh": "在金屬汪洋中築起孤島：二維晶體中首次捕獲「連續譜中的電子束縛態」",
+      "title_en": "Islands in a Metallic Sea: Physicists Trap Elusive Electronic Bound States in the Continuum",
+      "cover_url": "data/images/science/science-2026-10-22-02-cover.jpg"
+    },
     {
       "id": "science-2026-10-22",
       "journal": "Science",
@@ -83,6 +92,15 @@
       "cover_url": "data/images/nature/nature-2026-10-07-03-cover.jpg"
     },
     {
+      "id": "nature-2026-10-07-04",
+      "journal": "Nature",
+      "date": "2026-10-07",
+      "path": "articles/2026/10/nature-2026-10-07-04.json",
+      "title_zh": "告別分詞器的枷鎖：直接讀取位元的全新語言模型「翻新術」",
+      "title_en": "Beyond the Tokenizer: How Retrofitting Language Models into Bytes Unlocks Raw AI Power",
+      "cover_url": "data/images/nature/nature-2026-10-07-04-cover.jpg"
+    },
+    {
       "id": "nature-2026-10-07",
       "journal": "Nature",
       "date": "2026-10-07",
@@ -108,6 +126,15 @@
       "title_zh": "植物如何指揮根系微生物「挖鐵」？阿拉伯芥隨土壤酸鹼值切換的微觀外交戰",
       "title_en": "Roots in Negotiation: How Plants Modulate Coumarins to Enlist Ancient Bacterial Iron Miners",
       "cover_url": "data/images/cell/cell-2026-10-01-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-10-01-04",
+      "journal": "Cell",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/cell-2026-10-01-04.json",
+      "title_zh": "少了這個免疫基因，血管就會失控——GIMAP6 如何在「正常膽固醇」下引爆致命心臟病？",
+      "title_en": "The Immune Gene That Keeps Arteries Quiet: How GIMAP6 Loss Drives Fatal Heart Disease Without High Cholesterol",
+      "cover_url": "data/images/cell/cell-2026-10-01-04-cover.jpg"
     },
     {
       "id": "cell-2026-10-01",
@@ -315,6 +342,15 @@
       "title_zh": "職場資訊戰：給求職者看市場數據，為什麼有的人找到工作，有的人反而更迷茫？",
       "title_en": "The Grass Is Not Always Greener: Why Labor Market Information Helps Some Job Seekers but Not Others",
       "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-14-cover.jpg"
+    },
+    {
+      "id": "political-geography-2026-09-10",
+      "journal": "Political Geography",
+      "date": "2026-09-10",
+      "path": "articles/2026/09/political-geography-2026-09-10.json",
+      "title_zh": "鑽探主權：跨國巨頭BP如何以化石資本資助印尼對西巴布亞的領土吞併",
+      "title_en": "Drilling for Dominance: How Fossil Capital Subsidizes Indonesian Rule in West Papua",
+      "cover_url": "data/images/political-geography/political-geography-2026-09-10-cover.jpg"
     },
     {
       "id": "science-2026-09-10",
@@ -747,6 +783,15 @@
       "title_zh": "量子糾錯的突破：雙軌腔量子位元的纠缠門實現了「可擦除」錯誤的精密操控",
       "title_en": "The Erasure-Preserving Gate: How Dual-Rail Qubits Are Clearing the Path to Fault-Tolerant Quantum Computing",
       "cover_url": "data/images/nature/nature-2026-08-05-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-08-04",
+      "journal": "Journal of Development Economics",
+      "date": "2026-08-04",
+      "path": "articles/2026/08/journal-of-development-economics-2026-08-04.json",
+      "title_zh": "外國軍隊還沒到，馬利人先相信國家了：聯合國一紙決議如何悄悄改變民眾的納稅意願",
+      "title_en": "Before the Troops Arrived, Hope Did: How a UN Resolution Shifted Malians' Willingness to Pay Taxes",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-08-04-cover.jpg"
     },
     {
       "id": "political-geography-2026-08-04",
@@ -4140,6 +4185,15 @@
       "title_zh": "民主深化還是菁英變形記？印度農村選舉改革如何讓地方豪強「由暗轉明」",
       "title_en": "Democratic Deepening or Elite Persistence? How Electoral Reform Reshuffles Power in Rural India",
       "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-10-30-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2025-10-24",
+      "journal": "American Political Science Review",
+      "date": "2025-10-24",
+      "path": "articles/2025/10/american-political-science-review-2025-10-24.json",
+      "title_zh": "「被宣判淘汰」的憤怒：綠色轉型如何將傳統重工業勞工推向極右翼？",
+      "title_en": "The Normative Backlash: How the Green Transition Mobilizes Industrial Workers for the Far Right",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2025-10-24-cover.jpg"
     }
   ]
 }

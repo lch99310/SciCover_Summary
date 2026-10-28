@@ -1,0 +1,82 @@
+{
+  "id": "cell-2026-10-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "21",
+  "date": "2026-10-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-10-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "少了這個免疫基因，血管就會失控——GIMAP6 如何在「正常膽固醇」下引爆致命心臟病？",
+      "en": "The Immune Gene That Keeps Arteries Quiet: How GIMAP6 Loss Drives Fatal Heart Disease Without High Cholesterol"
+    },
+    "summary": {
+      "zh": "【總結】這項研究發現 GIMAP6 是血管壁的「隱形守門員」：當小鼠缺少這個免疫調控基因時，即使血液膽固醇完全正常，也會自發出現動脈粥狀硬化、心肌梗塞與心臟衰竭，提早死亡。機制上，GIMAP6 缺失先打破內皮屏障，再透過粒線體 ROS→PPARγ→CD36 的連鎖反應，讓巨噬細胞更容易吞噬脂質變成泡沫細胞，並分泌 IL-6、MCP-1、TNF 等發炎因子。人類帶有 GIMAP6 功能減弱變異（尤其是非裔族群常見的 V65I）時，單核球的氧化壓力與 CD36 脂質攝取都會上升，心血管疾病也提早發生。這為「不靠高血脂」的動脈硬化路徑提供了第一個清晰的分子機制與潛在藥物靶點。\n\n【研究問題】過去醫學界把高血脂視為動脈硬化的主因，但很多心肌梗塞患者血脂正常，顯示血管壁本身必然有內在的防禦機制，只是分子身分長久不明。GIMAP6 是免疫相關 GTPase 家族成員，已知與淋巴細胞存活、自噬及氧化還原平衡有關；人類 GIMAP6 缺陷會造成免疫缺陷、血管炎與腦缺血病變，但過去從未有人探討它在血管壁中的直接角色。更早的研究把 Gimap6 缺陷小鼠的早逝歸咎於腎臟微血管病變，而非心臟或血管本身。因此本文要回答：GIMAP6 是否能在沒有高血脂的狀態下，獨立保護內皮、抑制泡沫細胞與發炎，從而防止致命動脈硬化？\n\n【研究方法】作者以多層次策略拆解問題。首先使用基因工程小鼠：Gimap6 剔除鼠、與高血脂的 Ldlr-/- 鼠雜交、再與 Cd36-/- 做成雙重剔除，並以存活曲線、心臟超音波、心電圖、組織切片和主動脈油紅 O 染色追蹤病程。其次分離原代主動脈內皮細胞測通透性與單核球黏附，用電子顯微鏡觀察細胞間連結；再從骨髓培養巨噬細胞，進行泡沫細胞試驗、流式細胞分析 CD36 與脂質攝取、MitoSOX 測粒線體 ROS，並用 MitoTEMPO、NAC、GW9662 抑制特定分子。最後整合單細胞 RNA-seq 與大型人類資料庫（UK Biobank、All of Us、百萬退伍軍人計畫），分析 GIMAP6 變異與早發心病的關聯，並在患者單核球中驗證功能。\n\n【結果】Gimap6-/- 小鼠中位存活僅 21 週（雌）與 31 週（雄），標準飲食下主動脈即出現斑塊，高脂飲食使斑塊面積增加到主動脈表面的 20%。與 Ldlr-/- 雜交後，短短 4 週高脂飲食就造成冠狀動脈斑塊與血栓，8 週時幾乎阻塞血管。關鍵的是，6–7 週齡小鼠已可見主動脈與心臟的 Evans blue 滲漏，代表內皮屏障在斑塊形成前就崩壞。巨噬細胞中，粒線體 ROS 上升會誘導 PPARγ與 CD36，促成泡沫細胞；敲除 Cd36 能部分延長壽命。人類 GIMAP6 低功能變異（如 V65I）與單核球 CD36 上升、脂質攝取增加及早發冠心病/心臟衰竭顯著相關。這些結果確立 GIMAP6 是獨立於高血脂的血管保護因子，也為攜帶 V65I 的高風險族群開啟了精準防治的可能性。",
+      "en": "**Summary:** This study identifies GIMAP6 as a previously unknown, cholesterol-independent guardian of the vessel wall. Mice lacking Gimap6 develop spontaneous atherosclerosis, myocardial infarction, and heart failure even on a normal diet, and die young. The mechanism is a two-hit wave: first, the endothelial barrier fails prematurely; then, mitochondrial ROS drive a PPARγ–CD36 cascade that makes macrophages prone to foam-cell formation and triggers IL-6/MCP-1/TNF inflammation. In humans, hypomorphic GIMAP6 variants — especially the African-ancestry-enriched V65I — are linked to altered monocyte redox balance, increased CD36-mediated lipid uptake, and early cardiovascular disease. The findings reveal a new, lipid-independent route to ASCVD and point to the GIMAP6–ROS–CD36 axis as a therapeutic target.\n\n**Problem:** Despite effective lipid-lowering therapy, atherosclerotic cardiovascular disease still kills millions, and many events occur in people with normal LDL cholesterol. This implies that vessel-wall vulnerability — endothelial dysfunction, local inflammation, and foam-cell formation — can drive disease independently of systemic cholesterol. The molecular safeguards that normally restrain these non-lipid processes have remained obscure. GIMAP6, an immune-related GTPase, was previously implicated in lymphocyte survival, redox homeostasis, and an inborn error of immunity with vasculitis and cerebral ischemia, but no one had asked whether it acts directly inside arteries. This paper asks whether GIMAP6 is the long-sought intrinsic safeguard, and if its loss alone can cause lethal atherosclerosis without hyperlipidemia.\n\n**Approach:** The authors combined mouse genetics with cell biology and human genomics. They generated Gimap6-knockout mice and crossed them onto the Ldlr-/- hyperlipidemia model, and also created Gimap6/Cd36 double knockouts; they tracked survival, cardiac function by echocardiography and ECG, histopathology, and aortic plaque area. They isolated primary aortic endothelial cells to measure permeability and monocyte adhesion under inflammatory stress, and bone-marrow macrophages to quantify foam-cell formation, mitochondrial ROS (MitoSOX), CD36 surface expression, and fatty-acid uptake, using inhibitors MitoTEMPO, NAC, and GW9662 to dissect the pathway. They then integrated single-cell RNA-seq datasets and huge human cohorts (UK Biobank, All of Us, Million Veteran Program) to test whether GIMAP6 variants predict cardiovascular disease, validating mechanisms in primary human monocytes from variant carriers.\n\n**Results:** Gimap6-/- mice had median survival of only 21 weeks (females) and 31 weeks (males) on a standard diet, with normal HDL-dominant cholesterol yet visible aortic plaques; high-fat feeding raised plaque burden to ~20% of the aortic surface. When combined with Ldlr-/-, severe coronary atherosclerosis developed after just 4 weeks of HFD, and by 8 weeks intramyocardial arteries were nearly occluded. Endothelial leak appeared at 6–7 weeks, before any plaque. In macrophages, elevated mitochondrial ROS increased PPARγ and CD36, and deleting Cd36 partially rescued early lethality. In humans, the V65I hypomorphic variant, enriched in African ancestry, was associated with premature CAD/heart failure, increased monocyte CD36, and lipid uptake. This establishes GIMAP6 as a new cholesterol-independent risk pathway and opens avenues for targeted prevention and therapy."
+    },
+    "keyArticle": {
+      "title": "Immunoregulatory gene GIMAP6 suppresses lethal atherosclerotic vasculopathy and ischemic heart failure",
+      "authors": [
+        "Xiang Chen",
+        "Kaja S. Arusha",
+        "Danielle Springer",
+        "Sachiko Nakamori",
+        "Jing Cui",
+        "Ping Du Jiang",
+        "Zhi-Hong Yang",
+        "Yu Zhang",
+        "Huie Jing",
+        "Ann Y. Park",
+        "Maria H Zhu",
+        "Sarah E. Weber",
+        "Deniz N Cağdaş",
+        "Hassan Abolhassani",
+        "Nasrin Behniafard",
+        "Margery G. Smelkinson",
+        "Qihui Liang",
+        "Elif Everest",
+        "Julia F. Kun",
+        "Alyssa Grogan",
+        "Bernd J. Wranik",
+        "Ngoc Vu",
+        "Bryan King",
+        "Jennifer D. Treat",
+        "Nancy Asomaning",
+        "Shijinqiu Gao",
+        "Bryson D. Bennett",
+        "Swee Lay Thein",
+        "Christa S. Zerbe",
+        "Steven M. Holland",
+        "Renu Virmani",
+        "Alan Thomas Remaley",
+        "Helen C. Su",
+        "Lixin Zheng",
+        "Michael J. Lenardo"
+      ],
+      "doi": "10.1016/j.cell.2026.09.032",
+      "pages": "6792-6809.e21"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-10-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.09.032",
+      "doi": "https://doi.org/10.1016/j.cell.2026.09.032",
+      "preprint": "https://www.biorxiv.org/content/10.64898/2026.01.26.701509"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-28T23:12:32.145322+00:00",
+    "source": "openalex"
+  }
+}
