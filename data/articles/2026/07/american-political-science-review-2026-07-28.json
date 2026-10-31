@@ -1,0 +1,48 @@
+{
+  "id": "american-political-science-review-2026-07-28",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "4",
+  "date": "2026-07-28",
+  "coverImage": {
+    "url": "data/images/american-political-science-review/american-political-science-review-2026-07-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "為了反對「外人」而擁抱彩虹？政治學界激辯「工具性包容」與研究複製危機",
+      "en": "Defending the Rainbow to Repel the Out-Group: Methodological Rigor and the Reality of Instrumental Inclusion"
+    },
+    "summary": {
+      "zh": "【總結】西方社會對性少數群體（LGBT+）的接納，究竟是發自內心的平權信念，還是一種用來抗拒特定少數族群（如穆斯林移民）的「工具性修辭」？這項在政治心理學界被稱為「同性戀民族主義」（homonationalism）的現象，近年引發學界針鋒相對的攻防。政治學者圖恩布爾-杜加特（Stuart Turnbull-Dugarte）與羅佩茲·奧爾特加（Alberto López Ortega）先前於頂級期刊發表研究，指出當民眾看見穆斯林反對性別平等教材時，反而會激發對多元性別的挺身支持。面對學界同行對其西班牙實驗樣本權重與統計檢定力提出的尖銳質疑，兩位學者透過近三千種統計組合的「多元宇宙分析」（multiverse analysis）強勢回擊，有力證實：這種「工具性包容」心理機制的確穩固存在，原始研究並非僥倖或挑揀數據的結果。\n\n【研究問題】本研究的核心爭議在於：西方公民是否會因排外情緒而選擇性地擁抱自由主義價值？作者過去在英國具代表性的樣本中發現，反移民群體在面對穆斯林的反同言論時，展現出顯著的自由化傾向；但在西班牙的滾雪球/便利樣本中，這種群體間的差異未達傳統二分法的統計顯著。批評者（De Kadt）隨後發表專文，指控作者在西班牙樣本中對嚴重失衡的便利樣本進行事後分層加權是「隨意且不尋常」的作法，並主張一旦修正穩健標準誤，關鍵效應便會「化為烏有」。這場學術交鋒觸及了當代政治實證研究的核心盲點：當研究受限於經費而必須使用人口特徵高度扭曲的便利樣本時，加權修正究竟是消除偏差的必要手段，還是研究者自由度（researcher degrees of freedom）的黑箱操弄？\n\n【研究方法】為了正面回應學術質疑並徹底檢視結論的穩健性，作者將西班牙實驗數據置於極端嚴苛的方法論顯微鏡下。由於該便利樣本中 18 至 34 歲年輕族群高達 71.1%，而 65 歲以上長者僅佔 1.7%，若不加權將嚴重偏離總體母體推論（PATE）。作者建立了一套跨越 2,970 種替代規格的「多元宇宙分析」架構：他們交叉納入西班牙三大權威人口基準（勞動力調查 EPA、國家統計局 INE、社會學研究中心 CIS）、測試了六種極端權重截斷值（上限 2 至 100）、套用修正後的穩健標準誤（HC3），並測試了 32 種控制變數組合與不同子群體劃分方式。此外，作者更採用隨機推論檢定（Randomization Inference），進行 5,000 次置換模擬，檢驗效應在虛無假說下出現的真實機率。\n\n【結果】這場壓倒性的敏感度檢驗顯示，原研究的核心發現毫無動搖：不論採用何種合理的加權方案或統計模型，接觸穆斯林反對刺激的受訪者，對學校實施 LGBT+ 包容教育的支持度皆顯著提升。在 2,970 種規格中，全樣本平均處理效應（ATE）的中位數為 0.110（在 0 至 1 的量表上），且超過 75% 的模型達到 p < 0.05 的顯著水準；原始發表的點估計值甚至低於多元宇宙的中位數，徹底推翻了批評者所謂「挑揀數據（cherry-picking）」的指控。5,000 次隨機置換檢定更證實，反移民群體出現 0.102 效應的置換 p 值僅為 0.018，屬於極低機率事件。該研究不僅釐清了調查實驗加權的規範，更與英、美、德、荷等跨國研究相互印證，確認了「藉由捍衛少數權利以排斥外群體」已成為當代西方右翼與本土主義者真實而微妙的政治心理動態。",
+      "en": "**Summary:** In contemporary Western democracies, public commitment to progressive values is not always rooted in straightforward egalitarianism. Scholars have increasingly documented \"homonationalism\"—the phenomenon wherein liberal stances on LGBT+ inclusion are deployed instrumentally as cultural cudgels against ethno-religious out-groups, particularly Muslim minorities. When an earlier landmark survey experiment demonstrating this effect in Spain was accused by a commentator of relying on ad hoc survey weights and fragile standard errors, Stuart Turnbull-Dugarte and Alberto López Ortega executed an exhaustive defense. Evaluating 2,970 model specifications across a vast multiverse analysis, the authors demonstrate that the instrumental embrace of LGBT+ inclusion is methodologically robust, disproving claims that the original findings evaporated under scrutiny.\n\n**Problem:** The core theoretical question asks whether exposure to Muslim opposition to LGBT+ education paradoxically causes native citizens—especially anti-immigration individuals—to become more supportive of sexual minority rights to disidentify from an out-group. While the authors found clear evidence of this in a nationally representative British sample, their Spanish replication relied on a crowd-sourced convenience sample where treatment effects were broadly positive across the board. A published critique by Daniel De Kadt argued that the Spanish findings were an artifact of \"peculiar\" post-stratification weighting and improper variance estimation. This dispute highlights a pivotal methodological debate in empirical social science: whether weighting demographic convenience samples is an indispensable prerequisite for population-level causal inference or an unprincipled source of researcher degrees of freedom.\n\n**Approach:** Turnbull-Dugarte and López Ortega met the criticism by systematically testing their hypotheses across the full garden of analytical forking paths. Acknowledging minor coding errata in package syntax and figure labels that did not affect underlying coefficients, they addressed the convenience sample's dramatic skew—where 71.1% of respondents were aged 18–34 and only 1.7% were 65 or older. To prove their Population Average Treatment Effect (PATE) estimates were sound, they implemented iterative proportional fitting (raking) across three independent official population benchmarks (EPA, INE, and CIS) and six weight truncation caps (ranging from 2 to 100). They evaluated 2,970 alternative model specifications with HC3 robust standard errors, diverse covariate adjustments, and distinct moderator stratifications, alongside 5,000-iteration permutation tests for design-based randomization inference.\n\n**Results:** The comprehensive reanalysis decisively refutes the critique. Across the 2,970 specifications, the median estimated treatment effect in the full Spanish sample remained positive at 0.110, with 75.6% of specifications reaching statistical significance at p < 0.05. Crucially, the authors' originally published estimates were equal to or smaller than the median of all possible defensible alternatives, demonstrating that the initial findings were conservative rather than cherry-picked. Randomization inference revealed that observing the 0.102 treatment effect among the anti-immigration cohort under the sharp null occurred in fewer than 1.8% of permuted datasets (p = 0.018), and under a tercile split, the effect surged to 0.319 (p < 0.001). Beyond vindicating standard survey weighting practices, the paper consolidates an unsettling reality across Europe and the US: liberal rights can be powerfully, instrumentally mobilized to reinforce borders and boundaries against perceived civilizational outsiders."
+    },
+    "keyArticle": {
+      "title": "Still Instrumentally Inclusive",
+      "authors": [
+        "Stuart James Turnbull-Dugarte",
+        "Alberto López Ortega"
+      ],
+      "doi": "10.1017/s0003055426101828",
+      "pages": "1561-1569"
+    },
+    "images": [
+      {
+        "url": "data/images/american-political-science-review/american-political-science-review-2026-07-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101828",
+      "doi": "https://doi.org/10.1017/s0003055426101828"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-31T22:19:53.579697+00:00",
+    "source": "openalex"
+  }
+}

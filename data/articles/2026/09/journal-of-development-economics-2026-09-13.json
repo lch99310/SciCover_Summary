@@ -1,0 +1,49 @@
+{
+  "id": "journal-of-development-economics-2026-09-13",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-09-13",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-13-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "誰才是真正的窮人？衣索比亞田野調查揭開「主觀貧窮評估」與客觀數據的巨大落差",
+      "en": "Who Counts as Poor? Why Subjective Village Rankings Diverge from Measured Poverty"
+    },
+    "summary": {
+      "zh": "【總結】在發展中國家推行社會安全網時，政策制定者常仰賴基層村民互評或地方領袖評定（社區為本的目標定位，CBT）來挑選援助對象。這篇發表於《發展經濟學期刊》的最新研究深入衣索比亞農村，系統性比對了家戶自評、鄰里同儕互評與地方菁英評估三種主觀位次，與客觀消費支出及財富資產的吻合度。研究發現，主觀評價與客觀生活水準的相關性普遍偏低，且大眾的目光高度偏向「看資產而非看流動消費」，更普遍忽略了家戶人口規模對人均福祉的稀釋效果。儘管村落頭人的判斷在三者中相對最準確，但資訊不對稱、裙帶偏袒以及對動態貧困的誤判，仍使草根直覺無法完全取代客觀的經濟測量。\n\n【研究問題】在缺乏精確收入數據的低收入國家，入戶調查成本高昂，因此經濟學界長期推崇運用在地社會網絡的「私有資訊」來篩選赤貧家庭。然而，這種主觀排名究竟在多大程度上反映了家庭的真實困境？過去的研究多半假設村民「比外人更懂誰在受苦」，卻鮮少檢驗他們心中衡量的「貧困」究竟是短期的日常消費匱乏、長期的實體資產積累，還是單純對家庭總財富的粗略印象。釐清這層落差至關重要，因為若基層篩選機制存在結構性盲區或菁英尋租，將直接導致有限的扶貧資源錯配，甚至加劇社會不平等。\n\n【研究方法】作者團隊利用衣索比亞的大規模微觀家戶調查資料，在每個受訪村落中選取約 20 個家戶，透過兩兩配對等方式分別取得三種主觀需求排序：家庭自評、鄰里互評與村莊領袖（菁英）評定。研究者隨後將這些主觀位次與由完整問卷測算出的三大基準指標——「人均消費支出」、「家戶總消費」以及「實體資產財富」——進行 Spearman 等級相關分析。此外，研究結合了當地的乾旱氣候監測、武裝衝突事件資料庫，並嵌套了一項控制預算約束與真實轉移支付誘因的實地實驗，藉此檢驗外部衝擊、社會距離、空間鄰近度以及菁英偏袒如何影響主觀評估的準確度。\n\n【結果】數據分析呈現出數個顛覆傳統假設的核心結果：首先，所有主觀評級與「人均消費」的吻合度皆極其薄弱（自評相關係數僅 ρ = 0.065，同儕為 0.145，菁英為 0.201），但與「實體資產」的吻合度明顯較高（菁英達 ρ = 0.358，三者合成指標為 0.417）。這證實大眾眼中的貧窮主要取決於顯眼的耐用財與牲畜，且系統性忽視了家中嗷嗷待哺的扶養比負擔。其次，地方領袖的評估能力全面顯著優於一般同儕與自評。尤為引人深思的是，當村莊遭受乾旱或衝突等共同外部衝擊時，同儕互評的準確度翻倍上升（在乾旱社區中，同儕與總消費的相關性從 0.15 躍升至 0.33），顯示集體危機激發了更密切的鄰里觀察。這項研究提醒政策制定者：在資源匱乏環境下，社區互評可作為補充工具，但絕不能盲目替代人口學修正與客觀審核。",
+      "en": "**Summary:** In resource-constrained developing nations, social protection programs frequently turn to community-based targeting, relying on local villagers and community leaders to identify who is most in need. This study, published in the *Journal of Development Economics*, evaluates the validity of this approach using large-scale household data from Ethiopia. By benchmarking three subjective poverty rankings—self-evaluations, peer assessments, and elite judgments—against standard consumption and wealth metrics, the authors demonstrate that subjective perceptions align weakly with measured welfare, particularly per-capita consumption. Observers intuitively equate deprivation with visible asset shortages while systematically overlooking household size. Although local elites predict objective wealth better than ordinary peers, discrepancies driven by information asymmetries and patronage caution against treating local sentiment as an uncritical substitute for empirical poverty data.\n\n**Problem:** Conventional welfare surveys that capture granular consumption expenditure are prohibitively expensive and logistically demanding to deploy at scale. Consequently, international development agencies have championed community-based targeting on the premise that local social networks possess superior, granular knowledge of intra-village vulnerability. Yet, significant blind spots remain: what economic reality do community members actually perceive when asked who is \"needy\"? Do subjective evaluations track transient shocks to food intake, long-term asset accumulation, or aggregate household wealth? Answering these questions is vital to prevent catastrophic targeting errors, resource misallocation, and the capture of humanitarian transfers by influential community elites.\n\n**Approach:** The authors harnessed a comprehensive dataset from Ethiopia covering 2,625 households across dozens of rural and pastoral localities, where subsets of roughly 20 households per village were ranked along a gradient of relative need by themselves, their neighbors, and village leaders. These subjective ranks were evaluated against three survey-derived benchmarks: per-capita consumption, household-level total expenditure, and a physical asset wealth index. Utilizing Spearman rank correlations and cluster-robust bootstrap tests, the authors examined concordance across groups. They merged the data with geospatial climate records (drought exposure), political conflict datasets, and an embedded randomized field experiment varying budget constraints and financial stakes to trace the structural mechanisms behind divergence, including social distance and elite favoritism.\n\n**Results:** The empirical findings reveal that subjective poverty assessments align poorly with measured per-capita expenditure—correlations range from an abysmal ρ = 0.065 for self-rankings to 0.201 for local elites. Alignment rises significantly when evaluating physical asset wealth (reaching ρ = 0.358 for elites and 0.417 for a composite subjective index). This demonstrates that neighbors and leaders assess poverty through visible capital while failing to account for household demographic burdens. Village elites consistently outperformed peers and self-assessments in approximating objective welfare rankings. Remarkably, accuracy surged in environments facing covariate crises: under severe droughts, peer correlation with expenditure jumped from 0.15 to 0.33, indicating that shared hardship deepens local monitoring. Ultimately, while subjective rankings capture durable wealth and community salience, social protection programs must integrate demographic adjustments to prevent severe mistargeting."
+    },
+    "keyArticle": {
+      "title": "Perceived need and measured well-being: How well do subjective rankings capture relative poverty?",
+      "authors": [
+        "Immacolata Ranucci",
+        "Kibrom A. Abay",
+        "Luca Tiberti"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103943",
+      "pages": "103943"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-13-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103943",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103943"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-31T22:21:57.237727+00:00",
+    "source": "openalex"
+  }
+}

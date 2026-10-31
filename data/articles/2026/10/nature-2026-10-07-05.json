@@ -1,0 +1,62 @@
+{
+  "id": "nature-2026-10-07-05",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8137",
+  "date": "2026-10-07",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-10-07-05-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "隨人類走出非洲的遠古「偷渡客」：深藏於原住民腸道、正於現代文明中消亡的古老菌群",
+      "en": "The Ancient Stowaways: How Vanishing Gut Microbes Accompanied Humankind Across the Globe"
+    },
+    "summary": {
+      "zh": "【總結】人類祖先在數萬年前走出非洲、踏上遍及全球的史詩級遷徙時，隨身攜帶的不僅有石器與生存智慧，還有一整個代代相傳的體內微生態系統。發表於《自然》（Nature）期刊的一項突破性研究中，史丹佛大學團隊深入南美洲玻利維亞的亞馬遜雨林，對維持傳統農耕生活的齊斯曼（Tsimane）原住民糞便樣本進行超深度宏基因組測序，並將其與數萬公里外、遠在東非坦尚尼亞的哈扎（Hadza）狩獵採集部落進行比對。研究發現，這兩個人類族群儘管相隔重洋、分離數萬年，腸道內竟共同保留了多達 1,231 種相同的微生物物種，且其中逾六成在現代工業化社會人群體內已徹底絕跡。藉由創新的微生物群體遺傳學分析，研究人員證實這些細菌的種群分化時間約在 1.7 萬年前，精準呼應了遠古人類跨越白令陸橋遷徙至美洲的歷史節奏。這項研究首度有力證實了腸道菌群與人類數萬年來的全球共遷徙歷程，同時揭示了現代文明生活方式所導致的菌群大滅絕，實質上是在斬斷一場歷經萬年的古老共生契約。\n\n【研究問題】人體腸道菌群是調節免疫、代謝與神經生理的核心引擎，然而科學界長久以來面臨一個根本謎題：現代非工業化部落體內豐富的共生菌，究竟是伴隨智人遷徙數萬年、世代垂直傳承的「遠古遺產」，還是人類抵達各地後才從周遭土壤、水源及動植物中隨機攝取的「環境過客」？回答這個問題的難度極高，主要有三大瓶頸：首先，古糞便化石 DNA 降解極其嚴重，極限通常僅能追溯至一兩千年前；其次，細菌之間極為普遍的「水平基因轉移」與同源重組，會將基因組剪貼成馬賽克般的雜合體，使傳統繪製單一演化樹的親緣分析方法全盤失效；最後，過去的菌群數據庫壓倒性地集中在歐美現代化人群，然而這類人群的腸道菌相早已因過度消毒、加工飲食與抗生素濫用而大幅單一化，關鍵的候選遠古菌株在現代數據中早已難覓蹤影。\n\n【研究方法】為突破技術瓶頸，研究團隊自玻利維亞 Tsimane 族群 85 名成年人中採集 133 份糞便樣本，產生高達 5.25 Tb 的超深度測序數據，組裝出 12,746 個高質量宏基因組組裝基因組（MAGs），並與坦尚尼亞 Hadza 族群的 32,034 個 MAGs 以及來自歐美與亞洲工業化人群的 8,855 個 MAGs 展開跨全球比對。針對細菌重組對時間推算造成的干擾，研究團隊設計了一套結合群體遺傳學與「重組片段衰退」的全新計時模型：首先計算全基因組平均核苷酸一致性（ANI）框定演化上限；接著以核心基因序列完全相同的比例（>10%）鎖定近 5,000 年內共享的近純系菌株；關鍵一步在於，團隊深入分析更遠緣菌株間由古老基因重組留下的同義突變純合片段，測量其第 99 百分位數長度（L99）隨突變逐步碎裂的衰減速率，建立起微觀的化學分子鐘，最後再透過等位基因頻譜模型（Moments）進行獨立交叉驗證，成功推算出細菌族群彼此隔離分化的絕對年代。\n\n【結果】比對結果顯示，Tsimane 族群腸道菌種中有 87.4%（1,231 種）與相隔重洋的 Hadza 族群共享，其中高達 60.2%（848 種）屬於在工業化人群中近乎絕跡的「VANISH」菌群。在 636 種具備充足分析深度的共享菌種中，有 85.6%（545 種）在近 5,000 年內毫無株系共享記錄，徹底排除了近代跨洲際人群接觸或環境交叉污染的可能性。重組片段長度（L99）模型推算出，Tsimane 與 Hadza 的腸道菌群分化時間中位數約為 17,090 年前，這與人類走出非洲（約 6 至 7 萬年前）並穿過白令海峽進入美洲定居（約 1.6 至 2.3 萬年前）的人類學歷史完全吻合；相較之下，歐美工業化人群之間的菌株基因流動極為頻繁，平均分化時間僅約 1,109 年。研究進一步將這些菌種劃分為隨現代化而消亡的遠古菌（VANISH）、隨現代都市化擴散全球的入侵菌（BloSSUM），以及跨越生活形態但深具古老地理隔離特徵的穩定共生菌（StIL）。這些數據雄辯地證明，人類體內的微生態曾跨越千山萬水與宿主命運相連，而當代工業社會中這些古老共生菌的急劇瓦解，很可能正是各類自體免疫、慢性發炎與代謝性疾病急遽攀升的深層演化根源。",
+      "en": "**Summary:** When anatomically modern humans embarked on their epic prehistoric migrations out of Africa, they did not travel alone—they carried an intricate internal ecosystem of microscopic passengers. In a landmark study published in *Nature*, researchers deeply sequenced the gut metagenomes of the Tsimane horticulturalists of the Bolivian Amazon and compared them with those of the Hadza hunter-gatherers of Tanzania. Despite tens of thousands of years of geographic separation, the two Indigenous cohorts share 1,231 gut microbial species, over 60% of which are vanishingly rare or entirely absent in industrialized populations. Using population genetics frameworks that explicitly untangle bacterial recombination, the authors discovered that these shared microbes diverged roughly 17,000 years ago, mirroring the prehistoric human peopling of the Americas via the Bering land bridge. This provides decisive evidence that a vast consortium of gut microbes co-migrated with humankind over millennia, revealing that modern industrial lifestyles are rapidly severing an ancient co-evolutionary pact.\n\n**Problem:** While commensal gut microbes are indispensable orchestrators of human immunity and metabolism, their deep evolutionary history has remained an elusive puzzle. Evolutionary biologists have struggled to resolve whether these internal partners faithfully co-diversified with humans over tens of thousands of years, or were opportunistically and transiently acquired from local diets and environments post-migration. Resolving this has been impeded by three major roadblocks: paleofeces DNA is scarce and severely degraded beyond a few thousand years; conventional phylogenetic tree-building fails because ubiquitous horizontal gene transfer and homologous recombination stitch bacterial genomes into chimeric mosaics; and modern microbiome databases are heavily skewed toward urbanized, industrialized populations whose gut diversity has already undergone catastrophic attrition due to antibiotics, sanitized environments, and ultra-processed diets.\n\n**Approach:** To pierce through these historical and genetic layers, the team generated 5.25 terabases of deep metagenomic sequencing from 133 stool samples collected across nine Tsimane villages, reconstructing 12,746 high-quality metagenome-assembled genomes (MAGs). They compared these with 32,034 Hadza MAGs and 8,855 genomes from industrial cohorts in Europe, Asia, and North America. To conquer the confounding effects of homologous recombination, the researchers devised a multi-tiered population genetics strategy. First, they used pairwise Average Nucleotide Identity (ANI) to place upper bounds on genetic coalescence. Next, they calculated the fraction of identical core genes to identify near-clonal strain sharing occurring within the last 5,000 years. Finally, to evaluate true historical reproductive isolation, they measured the degradation of unbroken synonymous sequence tracts (the 99th percentile tract length, $L_{99}$) generated by ancient recombination events, converting the mutational shortening of these tracts into a molecular clock calibrated against independent demographic modeling (*Moments*) of single-nucleotide variant frequencies.\n\n**Results:** Strikingly, 87.4% (1,231) of Tsimane gut species were shared with the distant Hadza, with 60.2% (848 species) representing ancestral taxa missing from industrialized guts (VANISH taxa). Among 636 well-represented shared species, 85.6% showed a strain-sharing rate of exactly 0% over the last ~5,000 years, firmly ruling out recent environmental or colonial transfer. Instead, tract-decay analysis established a median microbial divergence time of approximately 17,090 years ago between Tsimane and Hadza strains—a figure that closely aligns with the archaeological window for the human settlement of the Americas (16,000–23,000 years ago). Conversely, industrialized populations exhibited pervasive, recent strain transmission (e.g., Europe and North America diverged only ~1,109 years ago). The study parsed microbes into three distinct ecological classes: ancestral lineages vanishing in modern societies (VANISH), urban bloomers spreading globally via industrialization (BloSSUM), and stable commensals (StIL) that persist globally yet harbor deep ancient isolation. These insights indicate that the modern epidemic of inflammatory and metabolic disorders may be fundamentally linked to the tragic loss of these prehistoric, co-migrating microbial partners."
+    },
+    "keyArticle": {
+      "title": "Prehistoric global migration of vanishing gut microbes with humans",
+      "authors": [
+        "Matthew M. Carter",
+        "Zhiru Liu",
+        "Matthew R. Olm",
+        "Melanie Martin",
+        "Daniel D. Sprockett",
+        "Parsa Ghadermazi",
+        "Benjamin C. Trumble",
+        "Hillard S Kaplan",
+        "Jonathan Stieglitz",
+        "Daniel Eid Rodríguez",
+        "David A. Relman",
+        "Erica Dutil Sonnenburg",
+        "Michael Gurven",
+        "Benjamin H. Good",
+        "Justin Laine Sonnenburg"
+      ],
+      "doi": "10.1038/s41586-026-11106-1",
+      "pages": "1008-1014"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-10-07-05-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11106-1",
+      "doi": "https://doi.org/10.1038/s41586-026-11106-1",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.08.15.670570"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-31T22:13:46.357437+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "science-2026-10-29",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6823",
+  "date": "2026-10-29",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-29-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "零磁場下的自旋「左右手」：物理學家在交錯磁體中捕獲手性磁振子",
+      "en": "The Handedness of Zero: Physicists Uncover Chiral Magnons in an Altermagnetic Frontier"
+    },
+    "summary": {
+      "zh": "【總結】\n在傳統磁學認知中，「淨磁矩為零」與「具有方向偏好的手性自旋」宛如水火不容。然而，一項發表於《Science》的重磅研究打破了這道藩籬：國際研究團隊利用先進的共振非彈性 X 射線散射技術，在碲化錳（MnTe）晶體中首次觀測到了具有明確旋向性的集體自旋激發——「手性交錯磁振子」（Chiral Altermagnon）。這項發現不僅證實了第三種基本磁性態「交錯磁性」（Altermagnetism）的奇異動態行為，更補齊了驗證該理論的最後一塊拼圖，為開發無漏磁干擾、超高速且低能耗的新一代自旋電子器件開拓了全新路徑。\n\n【研究問題】\n所謂「手性磁振子」，是指在晶體中傳播、且具有特定左旋或右旋自旋進動的集體波。過去，物理學界認定手性磁振子只能存在於具有宏觀磁化強度的鐵磁體，或是結構複雜的非共線磁結構中；在淨磁矩相互抵消的傳統反鐵磁體裡，相反自旋的子晶格在能量上高度簡併，無法形成自旋的手性偏好。儘管近年理論預言新興的「交錯磁體」雖然宏觀磁矩為零，卻因晶格旋轉對稱性打破了動量空間的自旋簡併，可能孕育獨特的手性自旋波，但此前實驗從未直接捕捉到這種純粹由晶體對稱性催生的手性激發態。\n\n【研究方法】\n為了解開此謎團，研究團隊以錫熔劑法（Sn-flux）合成了高品質的六方相 MnTe 單晶，並進駐歐洲同步輻射裝置（ESRF）的 ID32 光束線。研究者採用了靈敏度極高的圓二色性共振非彈性 X 射線散射（CD-RIXS）技術，將樣品置於 30 K 低溫環境，並將入射光子能量精確鎖定在錳元素的 $L_3$ 吸收邊（約 640 eV），以高達 21 meV 的能量解析度進行探測。透過切換左旋與右旋圓偏振光，實驗巧妙地將光子的角動量注入樣品中，並沿著布里淵區內不同的動量軌跡進行全域掃描，同時結合多重態與密度泛函理論（DFT）計算，深度解析散射張量的對稱特徵。\n\n【結果】\n實驗在能量轉移約 35 meV 處清晰辨識出磁激發訊號。當動量轉移朝向 A–L 方向（例如 $(0.2, 0, 0.5)$ r.l.u.）時，左旋與右旋通道測得的磁振子強度出現顯著失衡，兩者相減呈現鮮明的手性峰值特徵；而將動量掃過特定幾何弧線時，歸一化二色性訊號展現出完美的對稱性節線（Nodal Line）並發生正負號反轉，精確符合交錯磁體特有的 $g$ 波對稱性與 $A_{2g}$ 空間群表象。此外，兩偏振通道顯現出相異的譜線寬度，暗示著微小能階分裂或前所未見的手性相依阻尼效應。這項突破確立了 MnTe 作為原型交錯磁體的地位，並宣示即使在毫無外漏磁場的材料中，太赫茲級的手性自旋資訊操控已成為可能。",
+      "en": "**Summary:** In an elegant experimental breakthrough, an international team of physicists has delivered the first direct observation of a \"chiral altermagnon\"—a collective spin wave endowed with an intrinsic handedness—inside manganese telluride (MnTe). Altermagnets have recently emerged as an enigmatic third fundamental branch of collinear magnetism: like antiferromagnets, they host completely compensated, net-zero magnetization, yet like ferromagnets, their electronic and dynamic states are strongly spin-split. By capturing this elusive excitation using resonant X-ray scattering, the study completes a vital foundational triad for altermagnetic theory and demonstrates how subtle crystal symmetries can sculpt unconventional spin dynamics in materials entirely free of magnetic stray fields.\n\n**Problem:** Chiral magnons, whose spins precess with a fixed directional helicity, represent a coveted mechanism for carrying dissipationless information in quantum technology. Historically, however, physicists believed chiral magnons could only exist where time-reversal symmetry was macroscopically severed by net magnetization (as in ferromagnets) or via twisted real-space spin textures (like skyrmions). In standard collinear antiferromagnets, the energetic equivalence of opposing sublattices renders the spin waves non-chiral and degenerate. While modern theory predicted that the momentum-dependent $g$-wave spin-splitting of altermagnets could break this degeneracy without any net magnetic moment, directly observing chirality in these compensated systems had remained a formidable experimental void.\n\n**Approach:** To unmask these hidden excitations, the researchers synthesized pristine hexagonal single crystals of MnTe using a high-temperature tin-flux technique and examined them at beamline ID32 of the European Synchrotron Radiation Facility (ESRF). They deployed Circular Dichroism Resonant Inelastic X-ray Scattering (CD-RIXS) at a base temperature of 30 K, tuning the incident X-ray energy specifically to the manganese $L_3$ absorption threshold (around 640 eV) with an exceptional combined energy resolution of 21 meV. By bombarding the crystal with alternating left- and right-circularly polarized photons, the team injected angular momentum into the half-filled manganese 3d orbitals, mapping the momentum-resolved scattering cross-sections across the Brillouin zone alongside density functional and multiplet cluster models.\n\n**Results:** The RIXS spectra revealed a distinct magnetic mode at an energy transfer of $\\omega \\approx 35\\text{ meV}$, which dispersed toward zero near the zone center and vanished above the Néel temperature (310 K). Crucially, moving along the out-of-plane momentum trajectory toward $(0.2, 0, 0.5)$ reciprocal lattice units produced a stark intensity discrepancy between left- and right-circular polarization channels, isolating the chiral altermagnon mode. Mapping this circular dichroism across a constant-momentum sheet uncovered a sharp sign reversal across symmetry-enforced nodal regions, precisely mirroring the predicted altermagnetic $g$-wave symmetry and the $A_{2g}$ irreducible representation of the $D_{6h}$ point group. Furthermore, distinct spectral linewidths between polarization channels pointed toward subtle branch degeneracy lifting or chirality-dependent damping. These results unequivocally establish MnTe as the archetypal altermagnet, opening viable frontiers for ultra-dense, interference-free spintronic devices operating at terahertz regimes."
+    },
+    "keyArticle": {
+      "title": "Chiral altermagnon in MnTe",
+      "authors": [
+        "Daniel Jost",
+        "Resham Babu Regmi",
+        "Eder G. Lomeli",
+        "Samuel Sahel-Schackis",
+        "Monika Scheufele",
+        "Marcel Neuhaus",
+        "Rachel Nickel",
+        "F. Yakhou",
+        "K. Kummer",
+        "Nicholas B. Brookes",
+        "L. Shen",
+        "Georgi L. Dakovski",
+        "N. Ghimire",
+        "Stephan Geprägs",
+        "Matthias F. Kling"
+      ],
+      "doi": "10.1126/science.adv3196",
+      "pages": "541-543"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-29-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adv3196",
+      "doi": "https://doi.org/10.1126/science.adv3196",
+      "preprint": "http://arxiv.org/abs/2501.17380"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-10-31T22:10:51.205631+00:00",
+    "source": "openalex"
+  }
+}

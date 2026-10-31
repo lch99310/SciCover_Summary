@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-28T23:22:34.260090+00:00",
+  "lastUpdated": "2026-10-31T22:21:57.309808+00:00",
   "articles": [
+    {
+      "id": "science-2026-10-29",
+      "journal": "Science",
+      "date": "2026-10-29",
+      "path": "articles/2026/10/science-2026-10-29.json",
+      "title_zh": "零磁場下的自旋「左右手」：物理學家在交錯磁體中捕獲手性磁振子",
+      "title_en": "The Handedness of Zero: Physicists Uncover Chiral Magnons in an Altermagnetic Frontier",
+      "cover_url": "data/images/science/science-2026-10-29-cover.jpg"
+    },
     {
       "id": "science-2026-10-22-02",
       "journal": "Science",
@@ -101,6 +110,15 @@
       "cover_url": "data/images/nature/nature-2026-10-07-04-cover.jpg"
     },
     {
+      "id": "nature-2026-10-07-05",
+      "journal": "Nature",
+      "date": "2026-10-07",
+      "path": "articles/2026/10/nature-2026-10-07-05.json",
+      "title_zh": "隨人類走出非洲的遠古「偷渡客」：深藏於原住民腸道、正於現代文明中消亡的古老菌群",
+      "title_en": "The Ancient Stowaways: How Vanishing Gut Microbes Accompanied Humankind Across the Globe",
+      "cover_url": "data/images/nature/nature-2026-10-07-05-cover.jpg"
+    },
+    {
       "id": "nature-2026-10-07",
       "journal": "Nature",
       "date": "2026-10-07",
@@ -135,6 +153,15 @@
       "title_zh": "少了這個免疫基因，血管就會失控——GIMAP6 如何在「正常膽固醇」下引爆致命心臟病？",
       "title_en": "The Immune Gene That Keeps Arteries Quiet: How GIMAP6 Loss Drives Fatal Heart Disease Without High Cholesterol",
       "cover_url": "data/images/cell/cell-2026-10-01-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-10-01-05",
+      "journal": "Cell",
+      "date": "2026-10-01",
+      "path": "articles/2026/10/cell-2026-10-01-05.json",
+      "title_zh": "人體內部的基因拼圖：SMaHT 聯盟如何繪製非癌組織體細胞突變的「終極導航圖」",
+      "title_en": "The Cellular Mosaic: Mapping the Hidden Mutations of the Human Body Telomere to Telomere",
+      "cover_url": "data/images/cell/cell-2026-10-01-05-cover.jpg"
     },
     {
       "id": "cell-2026-10-01",
@@ -342,6 +369,15 @@
       "title_zh": "職場資訊戰：給求職者看市場數據，為什麼有的人找到工作，有的人反而更迷茫？",
       "title_en": "The Grass Is Not Always Greener: Why Labor Market Information Helps Some Job Seekers but Not Others",
       "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-14-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-09-13",
+      "journal": "Journal of Development Economics",
+      "date": "2026-09-13",
+      "path": "articles/2026/09/journal-of-development-economics-2026-09-13.json",
+      "title_zh": "誰才是真正的窮人？衣索比亞田野調查揭開「主觀貧窮評估」與客觀數據的巨大落差",
+      "title_en": "Who Counts as Poor? Why Subjective Village Rankings Diverge from Measured Poverty",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-09-13-cover.jpg"
     },
     {
       "id": "political-geography-2026-09-10",
@@ -954,6 +990,15 @@
       "title_zh": "邊界、背叛與救贖：民粹領袖如何將領土紛爭推向流血升級？",
       "title_en": "The Architecture of Escalation: How Populist Geonarratives Turn Border Disputes Lethal",
       "cover_url": "data/images/political-geography/political-geography-2026-07-29-cover.jpg"
+    },
+    {
+      "id": "american-political-science-review-2026-07-28",
+      "journal": "American Political Science Review",
+      "date": "2026-07-28",
+      "path": "articles/2026/07/american-political-science-review-2026-07-28.json",
+      "title_zh": "為了反對「外人」而擁抱彩虹？政治學界激辯「工具性包容」與研究複製危機",
+      "title_en": "Defending the Rainbow to Repel the Out-Group: Methodological Rigor and the Reality of Instrumental Inclusion",
+      "cover_url": "data/images/american-political-science-review/american-political-science-review-2026-07-28-cover.jpg"
     },
     {
       "id": "political-geography-2026-07-27-02",
