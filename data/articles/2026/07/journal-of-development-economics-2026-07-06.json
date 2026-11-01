@@ -1,0 +1,51 @@
+{
+  "id": "journal-of-development-economics-2026-07-06",
+  "journal": "Journal of Development Economics",
+  "volume": "183",
+  "issue": "",
+  "date": "2026-07-06",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-06-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "阿公的學歷重要嗎？印尼三代研究推翻「階級固化」的老劇本",
+      "en": "Do Grandparents Matter? Indonesia's Three-Generation Story Defies the Mobility Rulebook"
+    },
+    "summary": {
+      "zh": "【總結】在已開發國家，經濟學家發現一個令人沮喪的規律：只看父母與子女的關聯，會低估社會階層的長期延續性——祖父母的優勢會隔代「還魂」。這篇發表於《發展經濟學期刊》的研究，以印尼為案例追蹤三代人的教育程度，卻得到相反的答案：印尼的跨代流動性比單看親子相關所推測的更高，祖輩的影響衰減得更快。作者進一步用理論模型指出兩個關鍵機制——金融信貸限制與婚姻配對的文化習俗——並利用1997–98年亞洲金融危機的地區差異與各地婚姻傳統的差異加以驗證。這是首次在發展中國家系統性檢驗「多代流動」理論的研究之一，結果挑戰了「窮國階級更固化」的直覺。\n\n【研究問題】過去研究多聚焦已開發國家，發現祖父母輩的社經地位會透過各種管道持續影響孫輩，使得單純的親子相關係數低估了優勢的長期黏性。但這個結論是否適用於發展中國家？沒有人確定。這個問題至關重要：發展中國家的教育快速擴張、信貸市場不完善、婚姻習俗多元，這些條件可能徹底改變財富與教育跨代傳遞的邏輯。若政策制定者只依賴親子資料評估流動性，可能對不平等的長期走向做出誤判。\n\n【研究方法】作者結合「印尼家庭生活調查」（IFLS）與人口普查資料，串聯祖父母、父母與子女三代的教育程度，計算跨代相關係數。他們先建立理論框架，比較標準模型與加入信貸限制、婚姻配對後的多代傳遞模式。實證上運用兩個自然實驗：一是1997–98年亞洲金融危機對不同地區的衝擊強度差異（以夜間燈光等指標衡量），用差異中的差異法檢驗信貸限制如何放大經濟衝擊對教育的影響；二是利用印尼各地區婚姻習俗（如同族婚、親表婚等傳統）的差異，檢驗「家族內配對」如何讓祖輩特徵透過配偶選擇延續到孫輩。\n\n【結果】核心發現令人意外：印尼呈現「高多代流動」——祖輩教育對孫輩的影響，比親子相關係數所隱含的衰減速度快得多，與已開發國家「優勢隔代重現」的模式相反。機制驗證顯示：金融危機衝擊較大的地區，弱勢家庭子女的教育受創更深，證實信貸限制是多代傳遞的關鍵管道；而婚姻習俗較封閉的地區，祖輩的影響更持久，證實家族內配對會延續優勢。這對政策的啟示是：在信貸市場不完善的環境中，擴大教育補助與金融可及性，可能比在已開發國家更能有效打破跨代劣勢的循環。",
+      "en": "**Summary:** In wealthy countries, economists have uncovered a sobering pattern: parent–child correlations understate the true persistence of advantage, because grandparents' status quietly resurfaces in their grandchildren. This study in the Journal of Development Economics tests whether that rule holds in the developing world—and finds the opposite. Tracking education across three generations in Indonesia using the Indonesian Family Life Survey and Census data, the authors show that multigenerational mobility is *greater* than parent–child correlations alone would suggest. They build a theoretical framework identifying two forces that shape these dynamics—credit constraints and cultural norms around marital sorting—and validate both empirically, using regional variation in exposure to the 1997–98 Asian financial crisis and in local marriage customs. It is among the first systematic tests of multigenerational mobility theory in a developing country, and it upends the intuition that poorer societies are necessarily more rigid.\n\n**Problem:** Nearly all evidence on long-run social mobility comes from rich countries, where researchers consistently find that a two-generation lens understates persistence: grandparents' advantages leak into grandchildren's outcomes through inheritance, networks, and assortative mating. Whether this pattern generalizes to developing economies was an open question. The stakes are high: developing countries feature rapid educational expansion, imperfect credit markets, and diverse marriage traditions—conditions that could fundamentally alter how advantage transmits across generations. Policymakers relying solely on parent–child data risk misjudging the long-run trajectory of inequality and designing interventions that target the wrong mechanisms.\n\n**Approach:** The authors link education data across grandparents, parents, and children using the Indonesian Family Life Survey (IFLS) and national Census records, estimating inter- and multigenerational correlations. They then develop a formal theoretical framework showing how standard models of transmission change once two features of developing economies are added: financial and credit constraints that force families to ration educational investment, and marital sorting norms—including family-based mating customs—that determine which lineage a spouse's endowments arrive from. Empirically, they exploit two quasi-natural experiments: a difference-in-differences design built on regional variation in the severity of the 1997–98 Asian financial crisis (measured with indicators such as nighttime lights), which tests how credit constraints amplify economic shocks' effects on schooling; and regional variation in traditional marriage customs, which tests how family-based assortative mating transmits grandparental advantages.\n\n**Results:** The headline finding is striking: Indonesia exhibits high multigenerational mobility—the influence of grandparents' education on grandchildren decays faster than parent–child correlations would predict, the mirror image of the \"stickiness\" documented in developed countries. The mechanism tests confirm the theory: in regions hit harder by the Asian financial crisis, children from vulnerable families suffered deeper educational losses, showing that credit constraints are a central channel of transmission; and in regions with more restrictive marriage customs, grandparental influence persists longer, showing that family-based assortative mating preserves advantage across generations. The policy implication is powerful: where credit markets are imperfect, expanding educational subsidies and access to finance can do more to break intergenerational disadvantage than similar interventions in rich countries."
+    },
+    "keyArticle": {
+      "title": "Educational mobility across multiple generations in Indonesia",
+      "authors": [
+        "Sarah Cattan",
+        "Antonio Dalla Zuanna",
+        "Jan Leonard Stuhler",
+        "Po Yin Wong"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103868",
+      "pages": "103868"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-06-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103868",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103868",
+      "preprint": "https://arxiv.org/abs/2604.19969"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-01T22:42:43.168461+00:00",
+    "source": "openalex"
+  }
+}

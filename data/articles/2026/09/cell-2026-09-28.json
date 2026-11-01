@@ -1,0 +1,103 @@
+{
+  "id": "cell-2026-09-28",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "22",
+  "date": "2026-09-28",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-09-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "腸道裡的「天使與惡魔」：這些細菌代謝物，竟決定CAR-T抗癌療法的成敗",
+      "en": "Angels and Demons in Your Gut: How Bacterial Metabolites Decide Whether CAR-T Cancer Therapy Succeeds or Fails"
+    },
+    "summary": {
+      "zh": "【總結】CAR-T細胞療法是近年血液腫瘤治療的明星技術，但仍有近半數病人治療後復發或惡化。這篇《Cell》研究提出了一個令人耳目一新的解答：關鍵可能藏在你的腸道裡。研究團隊分析了德國三家醫學中心129位CAR-T治療病人的糞便與血液代謝物，發現腸道細菌的代謝產物對療效有截然相反的兩種作用——短鏈脂肪酸（尤其是纈草酸）就像「天使」，能強化CAR-T細胞的戰鬥力；而吲哚類代謝物（如吲哚-3-甲醛）與異纈草酸則像「惡魔」，會削弱CAR-T細胞功能、加速病情惡化。更重要的是，團隊在細胞與小鼠實驗中直接證實了因果關係：補充纈草酸能提升療效，補充吲哚-3-甲醛反而會拖垮治療。這代表未來醫生或許能透過「代謝物風險評分」預測療效，甚至用精準的營養補充策略來提高治療成功率。\n\n【研究問題】過去研究已注意到，接受廣效性抗生素治療的CAR-T病人預後較差，並把矛頭指向「腸道菌群失調」——但多數研究只停留在「哪些細菌菌種與療效相關」的層次。這裡有個根本盲點：不同病人的腸道菌種組成差異極大，單一菌種的預測力在不同研究中幾乎無法重現。這篇研究追問更深一層的問題：細菌「做了什麼」（代謝產物）是否比細菌「是誰」（菌種身分）更能決定CAR-T療效？此外，過去文獻幾乎只關注細菌代謝物的「好處」，從未系統性地檢視某些代謝物可能對免疫治療有害。這個問題至關重要，因為如果能找出真正起作用的分子，就能跳過難以操縱的複雜菌群，直接設計可執行的干預手段。\n\n【研究方法】研究設計環環相扣，像偵探辦案一樣層層推進。首先，團隊在2020至2024年間招募129位病人（以瀰漫性大B細胞淋巴瘤為主），在CAR-T輸注前採集糞便與血液樣本。接著運用兩項核心技術：鳥槍法宏基因組定序，讀出腸道裡上千種細菌的「身分證」與它們攜帶的代謝通路基因；以及標靶質譜分析，精準量化糞便和血清中的各類代謝物濃度。然後，團隊把代謝物濃度與病人的無惡化存活期、總存活期做統計關聯分析。關鍵的下一步是驗證因果關係：在培養皿中，讓抗HER2與抗CD19兩種CAR-T細泡在各種代謝物環境下對抗腫瘤細胞，並用單細胞RNA定序與SCENITH代謝分析解剖CAR-T細胞內部發生了什麼變化；最後在小鼠淋巴瘤模型中口服餵食特定代謝物，觀察腫瘤縮小與存活情況，甚至用CRISPR基因編輯敲除關鍵受體AHR來確認分子機制。\n\n【結果】結果相當震撼。第一，單一菌種的預測力幾乎是隨機的：過去文獻報導的「好菌」在這個隊列中的效應方向重現率僅如擲硬幣（ROC曲線下面積0.474），只有長雙歧桿菌（Bifidobacterium longum）與更長的無惡化存活期相關（風險比0.48）。第二，代謝物才是真正的訊號：糞便中乙酸、丁酸、纈草酸等短鏈脂肪酸濃度高的病人，無惡化存活期顯著更長；而異纈草酸、異丁酸等支鏈脂肪酸，以及吲哚-3-乙酸（IAA）、吲哚-3-甲醛（ICA）濃度高的病人，預後明顯更差。第三，機制被拆解清楚了：ICA透過啟動芳香烴受體（AHR）通路，把CAR-T細胞推向「終端耗竭」狀態，殺傷力大減；敲除AHR基因後，這種傷害被完全逆轉。相反地，纈草酸與異纈草酸會提升蛋白質合成與脂肪酸氧化能力，讓CAR-T細胞獲得更充沛的「燃料」。第四，團隊建立了一個結合纈草酸、異纈草酸、IAA與ICA四項指標的糞便風險評分，能穩健地預測病人的存活期，且在多變項校正後依然成立。這為「代謝物導向的菌群療法」鋪平了道路——未來或許只需驗血或驗便，就能在治療前預測成敗，並用精準補充或代謝物調控來扭轉乾坤。",
+      "en": "**Summary:** CAR-T cell therapy has revolutionized the treatment of blood cancers, yet nearly half of patients still relapse or progress after treatment. This Cell study offers a surprising explanation rooted in an unexpected place: the gut. Analyzing 129 patients across three German medical centers, the researchers discovered that bacterial metabolites in the intestine exert strikingly opposing effects on therapy. Short-chain fatty acids—especially valeric acid—act like angels, supercharging CAR-T cells' cancer-killing power. Indole metabolites (indole-3-carboxaldehyde and indole-3-acetic acid) and the branched-chain fatty acid isovaleric acid act like demons, crippling CAR-T function and hastening disease progression. Crucially, the team moved beyond correlation: in cell cultures and mouse models, supplementing valeric acid enhanced CAR-T efficacy, while indole-3-carboxaldehyde undermined it. The work points toward a future where a simple metabolic \"risk score\" from blood or stool could predict treatment success—and where precisely targeted nutritional or microbiome interventions could tip the odds in a patient's favor.\n\n**Problem:** Prior research had established that patients receiving broad-spectrum antibiotics before CAR-T infusion fare worse, blaming a phenomenon called intestinal dysbiosis. But most studies stopped at cataloging which bacterial species correlate with good outcomes—a fundamentally shaky foundation. Gut microbial composition varies enormously between individuals, and previously reported \"beneficial\" species have repeatedly failed to replicate across cohorts. This study asks a deeper question: does what bacteria *do* (their metabolic output) matter more than what bacteria *are* (their taxonomic identity)? Moreover, the field had almost exclusively celebrated the beneficial metabolites of commensal microbes, never systematically investigating that some microbial products might actively sabotage immunotherapy. Solving this matters because if the true molecular players can be identified, clinicians could bypass the unwieldy complexity of the entire microbiome and design direct, actionable interventions.\n\n**Approach:** The study unfolds like a detective investigation, each step narrowing toward causation. First, between 2020 and 2024, the team enrolled 129 patients—mostly with diffuse large B cell lymphoma—and collected stool and blood samples around the time of hospital admission for CAR-T therapy. Two core technologies came into play: shotgun metagenomics, which reads out the identities and metabolic pathway genes of over a thousand gut bacterial species, and targeted mass spectrometry, which precisely quantifies metabolite concentrations in both stool and serum. These were then statistically linked to patients' progression-free and overall survival. The decisive step was functional validation: human anti-CD19 and anti-HER2 CAR-T cells were cultured with individual metabolites and pitted against tumor cells, while single-cell RNA sequencing and SCENITH metabolic profiling dissected what changed inside the T cells. Finally, in mouse lymphoma models, the researchers orally gavaged specific metabolites and tracked tumor burden and survival—and used CRISPR gene editing to delete the aryl hydrocarbon receptor (AHR), pinpointing the molecular mechanism.\n\n**Results:** The findings are striking. First, single bacterial species were nearly useless as predictors: the effect directions of previously published \"beneficial\" species matched this cohort no better than a coin flip (ROC area under the curve of 0.474), with only Bifidobacterium longum showing a significant association with longer progression-free survival (hazard ratio 0.48). Second, metabolites carried the real signal: high stool levels of the short-chain fatty acids acetic, butyric, and valeric acid predicted longer survival, while high levels of isovaleric acid, isobutyric acid, and the indoles IAA and ICA predicted worse outcomes. Third, the mechanism was unraveled: ICA activates the AHR pathway, pushing CAR-T cells into a terminally exhausted, dysfunctional state with reduced cytotoxicity—effects fully reversed when the AHR gene was deleted. In contrast, valeric and isovaleric acid boosted protein translation and shifted cellular metabolism toward fatty acid and amino acid oxidation, fueling CAR-T fitness. Fourth, the team built a four-parameter fecal risk score combining valeric acid, isovaleric acid, IAA, and ICA that robustly predicted survival even after multivariate adjustment. Together, these results lay the groundwork for metabolite-guided microbiome therapeutics—where a simple stool or blood test before treatment could forecast success, and targeted supplementation could rewrite the outcome."
+    },
+    "keyArticle": {
+      "title": "Opposing functions of gut immunomodulatory metabolites on CAR-T therapy",
+      "authors": [
+        "Markus Perl",
+        "Severin Guetter",
+        "Dhyani Shah",
+        "Simon Holzinger",
+        "Luisa Becker",
+        "Misbah Tariq",
+        "Phillipp Menauer",
+        "Simon Delahais",
+        "Gloria Lutzny‐Geier",
+        "Julian N. Scherer",
+        "Sascha Göttert",
+        "Konstantin Herfeld",
+        "Paul Heinrich",
+        "Klaus Kreitmeier",
+        "Claudia Gebhard",
+        "Wolfgang Herr",
+        "Marcel P. Trefny",
+        "Janina Dörr",
+        "Saba Sameri",
+        "Dennis Christoph Harrer",
+        "Kai Ziegler-Martin",
+        "Sarah Staudt",
+        "Leo Hansmann",
+        "Matthias Edinger",
+        "Daniel Wolff",
+        "Daniela Weber",
+        "Elisabeth Meedt",
+        "Alexander Denk",
+        "Andre Gessner",
+        "Ernst Holler",
+        "Tobias Wertheimer",
+        "Klaus Neuhaus",
+        "Tingting Zheng",
+        "David M. Cordas dos Santos",
+        "Sebastian Theurich",
+        "Melanie Schirmer",
+        "Karin Kleigrewe",
+        "Jonas Schlüter",
+        "Marcel van der Brink",
+        "Michael Schmitt",
+        "Markus Feuerer",
+        "Christoph Heuser-Loy",
+        "Baldwin Jeremy",
+        "Luca Gattinoni",
+        "Michael Rehli",
+        "Michael Hudecek",
+        "Camille Bigenwald",
+        "Laurence Zitvogel",
+        "Marion Subklewe",
+        "Viktoria Blumenberg",
+        "Maria-Luisa Schubert",
+        "Christoph Stein-Thoeringer",
+        "Maik Luu",
+        "Sebastian Kobold",
+        "Matthias Alexander Fante",
+        "Erik Thiele Orberg",
+        "Hendrik Poeck"
+      ],
+      "doi": "10.1016/j.cell.2026.09.004",
+      "pages": "6968-6987.e14"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-09-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.09.004",
+      "doi": "https://doi.org/10.1016/j.cell.2026.09.004"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-01T22:38:40.060836+00:00",
+    "source": "openalex"
+  }
+}

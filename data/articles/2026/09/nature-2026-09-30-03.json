@@ -1,0 +1,52 @@
+{
+  "id": "nature-2026-09-30-03",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8136",
+  "date": "2026-09-30",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-30-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "教科書也寫錯了？X光「液體攝影機」揭開偶氮苯異構化之謎",
+      "en": "A Molecular Movie Decades in the Making: X-rays Finally Reveal How Azobenzene Flips"
+    },
+    "summary": {
+      "zh": "【總結】偶氮苯——兩個苯環由偶氮橋連接的「教科書級」分子——其異構化機制爭論了數十年仍無定論。韓國KAIST與IBS團隊運用飛秒X光液體成像術（fs-TRXL），首次以原子級精度捕捉到反式偶氮苯轉變為順式的過程中兩個瞬態中間體的完整結構。研究發現，這場分子變形舞步的順序出乎意料：先由先前幾乎被忽略的C–N扭轉（CNT）啟動，接著由N–N旋轉主導，最後才加入反轉運動。更巧妙的是，整條路徑透過所有原子的協調微小位移，將掃過的溶劑體積降到最低，解釋了為何反應速率不受溶劑黏度影響。這項突破也證明，即使是不含重原子的純有機分子，X光液體成像術也能勝任，為溶液中各式有機反應的「分子拍片」開啟大門。\n\n【研究問題】偶氮苯是最經典的光致異構化分子，結構看似簡單，但「反式如何翻轉成順式」始終眾說紛紜：旋轉、反轉、呼啦圈扭轉、反轉輔助旋轉等機制各有擁護者，連使用相同實驗技術的研究都得出矛盾結論。根本原因在於缺乏直接的结构證據——光譜學只能間接推測，無法「看見」瞬態中間體的原子排列。此外，X光液體成像術過去只適用於含重原子的分子，因為輕原子分子的散射訊號會被溶劑的背景訊號完全淹沒。解開這個謎題不僅關乎一個分子，更關係到光開關、分子馬達等技術的設計基礎。\n\n【研究方法】團隊在浦項加速器實驗室的X光自由電子雷射（PAL-XFEL）進行實驗：用400奈米飛秒雷射激發溶於甲醇的反式偶氮苯，再用15 keV的飛秒X光脈衝在精確控制的時間延遲下「拍照」，每個時間點累積約4,500張散射影像。關鍵難題在於溶劑訊號佔總訊號九成以上。團隊開發了「垂直分量投影萃取法」（PEPC），將數據投影到與已知溶劑貢獻正交的空間，成功剝離出微弱的溶體訊號。接著透過奇異值分解建立三步串聯動力學模型（時間常數0.4、2.7、14皮秒），再以系統性運動掃描（SSPM）搭配貝氏資訊準則，從四種基本運動（旋轉、反轉、N–N鍵長變化、C–N扭轉）中找出最能解釋數據的最簡組合，並用CASPT2量子計算交叉驗證。\n\n【結果】研究捕捉到兩個中間體的精確結構：第一中間體（I1）中，兩個苯環的∠CCNN扭轉角達到±87度，但∠CNNC二面角幾乎不變——這正是被忽視的C–N扭轉（「腳踏板式」運動）的指紋；第二中間體（I2）則顯示∠CNNC旋轉至115.5度，旋轉開始主導。定量分析顯示：反式→I1由CNT單獨驅動；I1→I2由ROT（67%）加CNT（33%）組成；I2→順式則是ROT（56%）加INV（39%）加CNT（5%）。理論計算雖找出相同的基本運動，但時間順序完全相反，凸顯直接實驗測定的必要性。體積分析更顯示，最小位移路徑在第一步僅掃過20立方埃，比直觀路徑減少81%。這項成果確立了X光液體成像術研究輕原子有機分子的能力，未來可應用於解析各種溶液相有機反應的原子級機制。",
+      "en": "**Summary:** Azobenzene—a textbook molecule of two phenyl rings joined by an azo bridge—has puzzled chemists for decades: how exactly does it flip from trans to cis? Proposed mechanisms ranged from rotation to inversion to the hula twist, with no consensus. Now, a team from KAIST and the Institute for Basic Science has used femtosecond X-ray liquidography (fs-TRXL) to film this transformation with atomic-level precision, resolving two transient intermediates that bridge the two forms. The revealed choreography is unexpected: the motion begins with C–N torsion, a movement largely ignored in previous studies, then becomes dominated by N–N rotation, with inversion joining only at the end. Crucially, the pathway conserves volume—atoms move in coordinated small displacements rather than sweeping through solvent—which explains why the reaction is insensitive to solvent viscosity. The work also establishes that TRXL can now study organic molecules made only of light atoms, opening molecular filming to a vast class of reactions.\n\n**Problem:** Despite being the archetypal photoisomerization reaction, azobenzene's trans-to-cis mechanism has remained contentious. Even studies using identical experimental techniques produced conflicting interpretations, and theoretical predictions varied widely. The root cause: spectroscopy cannot directly capture the atomic structures of fleeting intermediates, so mechanistic claims rested on indirect inference from a few geometric parameters. Meanwhile, time-resolved X-ray liquidography had been restricted to molecules containing heavy atoms, because the scattering signal from light-atom molecules is drowned out by solvent response—over 90% of azobenzene's raw signal came from heated methanol. Solving this mattered beyond one molecule: azobenzene underpins photoswitches and molecular machines, and a general method for watching light-atom molecules move would transform solution-phase reaction chemistry.\n\n**Approach:** At the PAL-XFEL facility, the team pumped trans-azobenzene in methanol with 400-nm femtosecond laser pulses and probed it with 15-keV femtosecond X-ray pulses at 140 time delays from −0.5 to 100 picoseconds, accumulating roughly 4,500 laser-on images per delay. The central obstacle was the overwhelming solvent background. To strip it away, the researchers applied a novel data-analysis method called projection to extract the perpendicular component (PEPC), which transforms the data into a space orthogonal to known solvent contributions, isolating the pure solute signal. Singular value decomposition then revealed three time constants (0.4, 2.7, and 14 ps), supporting a three-step sequential kinetic model. Finally, a systematic scan for parsimonious motions (SSPM), guided by the Bayesian information criterion, tested combinations of four elementary motions—N–N rotation, inversion, N–N bond stretching, and C–N torsion—to determine which minimal set of movements best reproduced the experimental scattering curves, cross-validated against CASPT2 quantum calculations.\n\n**Results:** The experiment resolved two intermediates with striking clarity. In the first (I1), the phenyl rings twist by ±87° about the C–N bonds while the CNNC dihedral stays unchanged—the fingerprint of the previously overlooked C–N torsion, executed as a bicycle-pedal-like motion. In the second (I2), the CNNC dihedral rotates to 115.5°, marking the takeover by rotation. Quantitatively: trans→I1 is driven by CNT alone; I1→I2 combines ROT (67%) and CNT (33%); I2→cis involves ROT (56%), INV (39%), and CNT (5%). Notably, theory identified the same elementary motions but in a fundamentally different order—underscoring why direct experimental measurement was essential. Volume analysis showed the minimum-displacement pathway sweeps only 20 Å³ in the first step, an 81% reduction versus the intuitive ring-sweep route, reconciling the large 170° cumulative rotation with the observed solvent-viscosity independence. The study establishes fs-TRXL as a versatile tool for filming light-atom organic reactions in solution."
+    },
+    "keyArticle": {
+      "title": "X-ray liquidography decodes complex motions in azobenzene isomerization",
+      "authors": [
+        "Jungmin Kim",
+        "Hosung Ki",
+        "Seonggon Lee",
+        "Alekos Segalina",
+        "Yunbeom Lee",
+        "Hyotcherl Ihee"
+      ],
+      "doi": "10.1038/s41586-026-11068-4",
+      "pages": "658-665"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-30-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11068-4",
+      "doi": "https://doi.org/10.1038/s41586-026-11068-4"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-01T22:37:10.362630+00:00",
+    "source": "openalex"
+  }
+}

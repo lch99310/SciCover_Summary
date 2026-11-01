@@ -1,0 +1,61 @@
+{
+  "id": "science-2026-10-29-02",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6823",
+  "date": "2026-10-29",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-29-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "AI 從舊論文堆裡挖出 38 種被遺忘的二維材料，再用「一點就著」的化學反應五分鐘合成新 MXene",
+      "en": "The Treasure Chest in the Literature: AI Uncovers 38 Forgotten 2D Materials and a Five-Minute Recipe for Making New MXenes"
+    },
+    "summary": {
+      "zh": "【總結】MXene 是一種二維層狀材料，自 2011 年問世以來被視為能源儲存、電磁屏蔽與催化領域的明日之星，但它們的合成往往依賴氫氟酸等危險試劑，且化學空間遠比目前所知遼闊。瑞典林雪坪大學團隊做了一件聰明的事：與其不斷「發明」新材料，不如先用機器學習把材料資料庫與百年文獻徹底翻一遍。結果他們發現了 38 種早就被合成出來、卻從未被認出是 MXene 的化合物——作者戲稱之為「藏寶箱」。更驚人的是，他們借鑑藏寶箱的化學線索，開發出一種自蔓延高溫合成法：只要用鎢絲短暫點火，反應便自行蔓延，五分鐘內完成，全程不需要持續加熱，也不需要蝕刻劑。這項研究一口氣把 MXene 家族擴充了 49 個成員，包括 11 種全新的稀土基半導體 MXene。\n\n【研究問題】MXene 通常從「MAX 相」前驅物中蝕刻掉 A 層而得，但歷史文獻暗示還有更廣闊的化學空間未被探索。核心問題是：有多少 MXene 類材料其實早已存在於實驗文獻與材料資料庫中，只是因為分類方式不同而沒人認出？例如 1986 年合成的 Zr2CCl2，直到近年才被重新詮釋為 MXene。解決這個問題至關重要：一方面，重複「重新發現」浪費研究資源；另一方面，傳統 MXene 合成流程冗長、使用危險的氫氟酸，難以從實驗室走向量產。找出被遺忘的化學藍圖，加上可規模化的綠色合成路線，正是打通「發現」與「應用」兩道關卡的鑰匙。\n\n【研究方法】團隊的策略分三步。第一步是「資料淘金」：掃描 Materials Project 與 OQMD 兩大晶體結構資料庫，篩選符合 M2XT2 化學計量的三元化合物，得到 541 個候選。第二步是「AI 認臉」：他們訓練了一個以 CIF 晶體檔案為輸入的隨機森林分類器，讓它學會辨識 MXene 特有的層狀結構特徵（對稱性、原子間距、層狀異質性等），在 1050 個標註結構上訓練後，以機率大於 0.8 為門檻過濾，最終鎖定 50 種有實驗紀錄的化合物。第三步是「實驗驗證」：採用自蔓延高溫合成（SHS），將金屬釔與聚四氟乙烯（PTFE）混合，用鎢絲點火約五秒，PTFE 分解產生活性氟原子，與釔反應生成 Y2CF2，反應一旦啟動便自行持續，全程約五分鐘。團隊再以 XRD 精修、STEM 原子級成像、UV-Vis 與拉曼光譜逐一驗證結構與性質。\n\n【結果】成果豐碩：50 種被確認的多層 MXene 中，38 種屬於「藏寶箱」——包括 1949 年就合成出的 Ce2SO2、1958 年一系列稀土硫氧化物，最老的甚至早於 MXene 問世逾半世紀。團隊用 SHS 成功「重新發現」五種 MXene，並首次合成 11 種稀土基 M2CT2（M = Pr、Nd、Sm、Gd、Tb、Ho、Tm），將七種新元素帶入 MXene 家族。理論計算顯示 45 種組合中有 43 種穩定，幾乎全部是半導體，帶隙多落在 1–2 eV，正好適合電晶體與光伏應用；部分化合物（如 Nd2CF2 鐵磁、Gd2CF2 反鐵磁）展現多樣磁序，Gd 系磁矩高達 6.9 μB，某些系統更呈現「半金屬」自旋過濾器潛力。這不僅擴充了 MXene 的化學版圖，更示範了一條通用策略：讓 AI 在既有資料中反向挖掘被忽略的功能材料，再配上快速、永續的合成法，加速從發現到落地。",
+      "en": "**Summary:** MXenes—two-dimensional transition-metal carbides and nitrides discovered in 2011—are among the most promising 2D materials for energy storage, electromagnetic shielding, and catalysis. Yet their synthesis typically demands hazardous etchants like hydrofluoric acid and multi-step processing, and their known chemical space is likely just the tip of the iceberg. A team at Linköping University flipped the usual discovery playbook: instead of inventing new compounds from scratch, they used machine learning to comb through crystal-structure databases and decades of old literature for MXene-like materials hiding in plain sight. The search surfaced 38 compounds that were synthesized long ago—some as far back as 1949—yet never recognized as MXenes, a collection the authors aptly call the \"Treasure Chest.\" Guided by these chemical clues, they also developed a self-propagating high-temperature synthesis (SHS) route: ignite the precursors with a tungsten coil for about five seconds, and the reaction sustains itself, completing within minutes with no sustained heating and no etching. In one stroke, the study expands the MXene family by 49 members, including 11 brand-new rare-earth semiconducting MXenes.\n\n**Problem:** MXenes are conventionally made by etching the A layer out of MAX-phase precursors, but historical reports hinted at a far broader chemical space. The central question: how many MXene-like materials already exist in the experimental literature and databases, unrecognized simply because they were classified under different taxonomies? The case of Zr2CCl2—synthesized in 1986 but only reinterpreted as a MXene in 2023—shows how much can slip through the cracks. This matters for two reasons. First, unknowingly rediscovering known compounds wastes enormous research effort. Second, conventional MXene synthesis is slow, uses dangerous reagents, and resists scale-up, blocking the path from lab discovery to real technology. Recovering forgotten chemical blueprints, paired with a fast and sustainable synthesis route, addresses both bottlenecks at once.\n\n**Approach:** The strategy unfolded in three stages. First, data prospecting: the team screened two large repositories, the Materials Project and OQMD, for ternary compounds with 2:1:2 stoichiometry consistent with an M2XT2 formula, yielding 541 candidates. Second, AI pattern recognition: they trained a Random Forest classifier on CIF crystallographic files, teaching it to recognize the structural fingerprints of multilayer MXenes—symmetry, pair-distance statistics, and layering motifs—using 1,050 labeled structures. Applying a probability threshold of 0.8 narrowed the list to 270, and filtering for experimental precedent left 50 confirmed compounds. Third, experimental validation: the team adopted self-propagating high-temperature synthesis, mixing yttrium metal with polytetrafluoroethylene (PTFE). A brief ~5-second ignition from a tungsten coil depolymerizes the PTFE, releasing reactive fluorine radicals that react exothermically with yttrium to form Y2CF2—and once ignited, the reaction propagates on its own, finishing in about five minutes. Every product was verified with Rietveld refinement of XRD data, atomic-resolution STEM imaging, UV-Vis spectroscopy, and Raman analysis.\n\n**Results:** The haul was remarkable. Of the 50 confirmed multilayer MXenes, 38 belong to the Treasure Chest—including Ce2SO2 synthesized in 1949 and a whole family of rare-earth oxysulfides from 1958—spanning 20 M-site elements, 16 of which had never appeared in any reported MXene. Using SHS, the team rediscovered five MXenes and synthesized 11 rare-earth M2CT2 phases for the first time (M = Pr, Nd, Sm, Gd, Tb, Ho, Tm), adding seven new elements to the family. First-principles calculations showed 43 of 45 compositions are stable, nearly all semiconducting with band gaps of 1–2 eV—ideal for transistors and photovoltaics. The family also displays rich magnetism: Nd2CF2 is ferromagnetic, Gd2CF2 antiferromagnetic with a striking 6.9 μB moment on gadolinium, and some compounds are predicted to be half-metals suitable as spin filters. Beyond the specific compounds, the work establishes a generalizable strategy—use machine learning for inverse discovery of overlooked functional materials, then pair it with rapid, sustainable synthesis—to accelerate the journey from fundamental discovery to real-world technology."
+    },
+    "keyArticle": {
+      "title": "Data-driven discovery and rapid, direct synthesis of MXenes",
+      "authors": [
+        "Ali Saffar Shamshirgar",
+        "Guilherme Ribeiro Portugal",
+        "Soheil Ershadrad",
+        "Roman Ivanov",
+        "Martin Dahlqvist",
+        "Florian Chabanais",
+        "Sanjay Chakraborty",
+        "Rainer Traksmaa",
+        "Topias Jussila",
+        "Maarit J. Karppinen",
+        "Irina Hussainova",
+        "Fredrik Heintz",
+        "Per O. Å. Persson",
+        "Johanna Rosén"
+      ],
+      "doi": "10.1126/science.aeh5957",
+      "pages": "eaeh5957"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-29-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeh5957",
+      "doi": "https://doi.org/10.1126/science.aeh5957",
+      "preprint": "https://arxiv.org/abs/2608.16644"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-01T22:35:50.311283+00:00",
+    "source": "openalex"
+  }
+}
