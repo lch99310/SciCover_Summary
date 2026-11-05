@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T22:42:43.242877+00:00",
+  "lastUpdated": "2026-11-05T00:21:12.906436+00:00",
   "articles": [
     {
       "id": "science-2026-10-29-02",
@@ -9,6 +9,15 @@
       "title_zh": "AI 從舊論文堆裡挖出 38 種被遺忘的二維材料，再用「一點就著」的化學反應五分鐘合成新 MXene",
       "title_en": "The Treasure Chest in the Literature: AI Uncovers 38 Forgotten 2D Materials and a Five-Minute Recipe for Making New MXenes",
       "cover_url": "data/images/science/science-2026-10-29-02-cover.jpg"
+    },
+    {
+      "id": "science-2026-10-29-03",
+      "journal": "Science",
+      "date": "2026-10-29",
+      "path": "articles/2026/10/science-2026-10-29-03.json",
+      "title_zh": "鳥唱的「文法」竟然和人類音樂同一套？橫跨三百種鳥類，揭開旋律背後的古老密碼",
+      "title_en": "The Same Tune in Feathers and Throats: 300 Bird Species Reveal Music's Deep Grammar",
+      "cover_url": "data/images/science/science-2026-10-29-03-cover.jpg"
     },
     {
       "id": "science-2026-10-29",
@@ -216,6 +225,15 @@
       "title_zh": "教科書也寫錯了？X光「液體攝影機」揭開偶氮苯異構化之謎",
       "title_en": "A Molecular Movie Decades in the Making: X-rays Finally Reveal How Azobenzene Flips",
       "cover_url": "data/images/nature/nature-2026-09-30-03-cover.jpg"
+    },
+    {
+      "id": "nature-2026-09-30-04",
+      "journal": "Nature",
+      "date": "2026-09-30",
+      "path": "articles/2026/09/nature-2026-09-30-04.json",
+      "title_zh": "抗生素拆房，甜食遞磚：糖如何讓腸道菌相崩得更徹底",
+      "title_en": "Sugar, the Antibiotic's Accomplice: How Sweets Deepen the Gut Microbiome's Collapse",
+      "cover_url": "data/images/nature/nature-2026-09-30-04-cover.jpg"
     },
     {
       "id": "nature-2026-09-30",
@@ -711,6 +729,15 @@
       "title_zh": "《科學》期刊封面：學界群星璀璨，2026年8月號特輯",
       "title_en": "Science Journal Cover: A Gathering of Scholars — August 2026 Issue",
       "cover_url": ""
+    },
+    {
+      "id": "cell-2026-08-19",
+      "journal": "Cell",
+      "date": "2026-08-19",
+      "path": "articles/2026/08/cell-2026-08-19.json",
+      "title_zh": "藏在密碼裡的密碼：諾羅病毒用 RNA 摺紙術，教我們做出一支不會「復活」的減毒疫苗",
+      "title_en": "The Code Within the Code: How Norovirus Folds Its RNA—and How That Folding Builds a Vaccine",
+      "cover_url": "data/images/cell/cell-2026-08-19-cover.jpg"
     },
     {
       "id": "nature-2026-08-19",
@@ -1388,6 +1415,15 @@
       "cover_url": "data/images/political-geography/political-geography-2026-07-05-cover.jpg"
     },
     {
+      "id": "journal-of-development-economics-2026-07-04",
+      "journal": "Journal of Development Economics",
+      "date": "2026-07-04",
+      "path": "articles/2026/07/journal-of-development-economics-2026-07-04.json",
+      "title_zh": "多一塊錢，能多吃幾口飯？肯亞現金實驗揭穿「觀察法」高估的飲食彈性",
+      "title_en": "What a Dollar Buys in Calories: Kenya's Cash Transfers Reveal How the Poorest Really Eat",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-04-cover.jpg"
+    },
+    {
       "id": "political-geography-2026-07-04",
       "journal": "Political Geography",
       "date": "2026-07-04",
@@ -1745,6 +1781,15 @@
       "path": "articles/2026/06/american-sociological-review-2026-06-09.json",
       "title_zh": "癌症患者的時間戰爭：當命運倒數遇上制度的時鐘",
       "title_en": "The Time War of Cancer Patients: When Countdown Meets the Institutional Clock",
+      "cover_url": ""
+    },
+    {
+      "id": "american-political-science-review-2026-06-08-02",
+      "journal": "American Political Science Review",
+      "date": "2026-06-08",
+      "path": "articles/2026/06/american-political-science-review-2026-06-08-02.json",
+      "title_zh": "信任不是從談判桌開始的：為什麼一國的「家務事」，能讓死敵放下武器？",
+      "title_en": "Trust Begins at Home: How Domestic Policy Can Break the Ice Between Rivals",
       "cover_url": ""
     },
     {

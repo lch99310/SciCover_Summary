@@ -1,0 +1,91 @@
+{
+  "id": "nature-2026-09-30-04",
+  "journal": "Nature",
+  "volume": "658",
+  "issue": "8136",
+  "date": "2026-09-30",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-09-30-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "抗生素拆房，甜食遞磚：糖如何讓腸道菌相崩得更徹底",
+      "en": "Sugar, the Antibiotic's Accomplice: How Sweets Deepen the Gut Microbiome's Collapse"
+    },
+    "summary": {
+      "zh": "【總結】抗生素像一場無差別轟炸，把腸道菌相炸成廢墟；而這篇《Nature》研究指出，糖可能就是替廢墟上的投機者空投的補給。團隊追蹤 173 位接受異體造血幹細胞移植的血癌病人，逐餐記錄 9,419 餐、40,702 項食物，再與 1,009 份糞便菌相樣本配對。結果發現：單獨吃甜食對菌相幾乎無害，但在廣效抗生素作用下，每多攝取 100 公克甜食（脫水重），菌相多樣性平均再多掉 24.1%，腸球菌同步壯大。小鼠實驗進一步證實因果：口服蔗糖讓抗生素誘發的腸球菌暴增在第六天放大 33.4 倍。這意味著「抗生素期間少吃甜」可能是保護腸道最便宜的一招。\n\n【研究問題】飲食是塑造腸道菌相的主力，但過去的人體研究多半針對健康志願者或慢性病患，且依賴「你一週吃幾次雞肉」這類回溯問卷，時間解析度只到數月乃至數年。對於急性重症、密集醫療處置下的極端擾動狀態，我們幾乎一無所知。已知的少數共識是：膳食纖維充足與否，會影響抗生素後菌相能否復原；至於糖、油脂、肉類等類別扮演什麼角色，仍是空白。研究團隊看準一個特殊場景：血癌病人住院移植期間，同時經歷化療、抗生素與菌相崩壞，而醫院廚房對每一口食物都有精确紀錄。這等於是大自然準備好的「天然實驗」，讓研究者得以在廢墟現場，看清飲食究竟做了什麼。\n\n【研究方法】病人的餐盤上附有廚房系統列印的單張，用餐後立刻勾選每道菜吃了 0%、25%、50%、75% 或 100%，營養師每週三次到床邊核對補漏。這些紀錄被換算成美國 FNDDS 的八位數食物編碼，最終涵蓋 622 種食物、歸入九大類（穀物、蔬菜、肉類、乳品、甜食飲料、水果、豆類、油脂、蛋），並建成一棵可計算「飲食多樣性」的食物樹。接著，團隊建立貝氏多層次模型：以抽樣前兩天的進食量為暴露，控制化療強度、靜脈營養與管灌、廣效抗生素，並加入「飲食×抗生素」交互作用項，再以病人與住院週次作為隨機截距，吸收個體差異。人體觀察到的假設，最後用小鼠檢驗：單次皮下注射碳青黴烯類抗生素 biapenem，搭配飲水或飼料中添加蔗糖，於選擇性培養基上計數腸球菌，並另做無菌小鼠、無纖維飼料、果泥與單醣等對照實驗。\n\n【結果】關鍵數字極為鮮明。173 人中 138 人（80%）因發燒或感染，從預防性抗生素升級為廣效抗生素；在這些暴露之後，每 100 公克甜食使菌相多樣性（inverse Simpson 指數）平均再降 24.1%（95% 信賴區間 7.7–38.1%）；改以巨量營養素編碼重跑模型，糖的交互作用依然成立，每 100 公克使多樣性再降 20.6%。同樣的協同作用也出現在菌種層次：E. faecium 的相對豐度每 100 公克甜食上升 0.89 個 CLR 單位。小鼠實驗複製了這一切：抗生素單用可讓內生性腸球菌放大兩到三個數量級，第三天達高峰、第六天大致回落；但加了蔗糖，第三天暴增 16.3 倍（P=0.048）、第六天 33.4 倍（P=0.001）。若沒有抗生素，糖本身毫無作用；無菌小鼠單株定殖時，蔗糖也無效——這說明糖不是直接餵養病菌，而是擾動了整個被抗生素打亂的菌群生態。更耐人尋味的是，這效果與纖維無關，且單醣、果泥同樣有效。臨床上，在糖分占比較高（每千卡糖量高於中位數）的病人中，廣效抗生素每多用一天，死亡風險增加 12%（HR=1.12，P=0.027）；低糖組則無此關聯。值得注意的是，醫院常規發放給移植病人的高糖口服營養補充品，恰好落在這件事的風暴中心。",
+      "en": "**Summary:** Antibiotics are the wildfire; sugar may be the wind that spreads it. Tracking 173 patients undergoing allogeneic haematopoietic cell transplantation, researchers logged 9,419 meals comprising 40,702 food items and paired them with 1,009 faecal microbiome profiles. Sweets alone barely mattered. But during broad-spectrum antibiotic exposure, every additional 100 g of sweets predicted a further 24.1% drop in microbial diversity and a sharp rise in *Enterococcus*. Mouse experiments closed the causal loop: sucrose supplementation amplified antibiotic-driven enterococcal blooms 33.4-fold by day six. The implication is disarmingly practical—short-term sugar restraint during antibiotic therapy may be one of the cheapest microbiome-sparing interventions available.\n\n**Problem:** Diet is presumed to be a dominant force shaping the gut microbiome, yet most human evidence comes from healthy volunteers, small feeding trials in chronic disease, or recall-based food-frequency questionnaires that smear months of eating into a single number. We know almost nothing about how specific food groups behave during extreme perturbation—acute illness, intensive chemotherapy, heavy antibiotic exposure—precisely the settings where the microbiome collapses and patients suffer. The one well-established lever is fibre, which can accelerate or impair post-antibiotic recovery depending on whether it is withheld or supplied. Everything else—sugars, fats, meats—has remained speculative. The authors recognised that transplant wards, where every tray is weighed and every stool sample banked, constitute a natural experiment capable of resolving diet–microbiome dynamics at daily resolution.\n\n**Approach:** Patients marked, immediately after each meal, what fraction (0–100%) of each tray item they consumed; dietitians collected these slips three times weekly and cross-checked at the bedside. Records were translated into FNDDS food codes—622 distinct items nested into nine groups—and organised into a hierarchical food tree that permits ecological measures of dietary diversity. A Bayesian multilevel model then asked how intake in the two days preceding each stool sample predicted microbiome composition, adjusting for conditioning intensity, parenteral and enteral nutrition, broad-spectrum antibiotics, and a diet-by-antibiotic interaction term, with random intercepts per patient and per hospital week. Finally, mice received a single dose of the carbapenem biapenem with or without sucrose, and enterococci were quantified by selective plating, including germ-free, fibre-free, and fruit-purée controls.\n\n**Results:** Of 173 patients, 138 (80%) escalated from prophylaxis to broad-spectrum antibiotics. After such exposure, each 100 g of sweets predicted an additional 24.1% fall in inverse-Simpson diversity (95% CI 7.7–38.1%); re-encoding diet as macronutrients reproduced the effect at 20.6% per 100 g of sugar. *E. faecium* abundance rose by 0.89 CLR units per 100 g. In mice, biapenem alone expanded endogenous enterococci two to three orders of magnitude, peaking day three and largely resolving by day six—but with sucrose, blooms were 16.3-fold larger on day three (P=0.048) and 33.4-fold on day six (P=0.001). Sucrose without antibiotics did nothing, and it did nothing in germ-free mice monocolonised with *Enterococcus*—evidence that sugar acts on the perturbed community, not the pathogen directly. Fibre deprivation was irrelevant, and monosaccharides or fruit purée sufficed. Clinically, among patients with above-median sugar intake, each extra day of broad-spectrum antibiotics carried a 12% higher mortality hazard (HR=1.12, P=0.027); below-median consumers showed no such link. Awkwardly, the sugar-laden oral nutritional supplements routinely handed to transplant patients sit squarely in the crosshairs."
+    },
+    "keyArticle": {
+      "title": "Sugar-rich foods exacerbate antibiotic-induced microbiome disruption",
+      "authors": [
+        "Anqi Dai",
+        "Annamaria Ballweg",
+        "William Jogia",
+        "Madhumitha Rangesa",
+        "Peter A. Adintori",
+        "Mirae Baichoo",
+        "Tyler Funnell",
+        "Teng Fei",
+        "Nicholas R. Waters",
+        "Abrielle Swartz",
+        "Sukanya Sahu",
+        "Brianna Gipson",
+        "Sandeep S. Raj",
+        "Eiko Hayase",
+        "Zoe Pierce",
+        "Kenton Wu",
+        "Natalie Smith",
+        "Justin Neuberger",
+        "Adam Warren",
+        "Marina Burgos da Silva",
+        "Oriana Miltiadous",
+        "Corrado Zuanelli Brambilla",
+        "Marissa Lubin Buchan",
+        "Tatanisha K. Peets",
+        "Ana Gradíssimo",
+        "Luigi A. Amoretti",
+        "Caichen Duan",
+        "Chenzhen Zhang",
+        "Fanny Matheis",
+        "Alexis Sullivan",
+        "John B. Slingerland",
+        "Annelie G. Clurman",
+        "Daniel G. Brereton",
+        "Paul A. Giardina",
+        "Antonio L. C. Gomes",
+        "Abigail J. Johnson",
+        "Dan Knights",
+        "Robert R. Jenq",
+        "Kate Ann Markey",
+        "Miguel‐Angel Perales",
+        "Sergio  A. Giralt",
+        "Marcel R.M. van den Brink",
+        "Jonas Schlüter",
+        "Jonathan U. Peled"
+      ],
+      "doi": "10.1038/s41586-026-11077-3",
+      "pages": "757-764"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-09-30-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11077-3",
+      "doi": "https://doi.org/10.1038/s41586-026-11077-3",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2024.10.14.617881"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-05T00:10:47.217686+00:00",
+    "source": "openalex"
+  }
+}

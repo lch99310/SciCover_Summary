@@ -1,0 +1,50 @@
+{
+  "id": "journal-of-development-economics-2026-07-04",
+  "journal": "Journal of Development Economics",
+  "volume": "183",
+  "issue": "",
+  "date": "2026-07-04",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "多一塊錢，能多吃幾口飯？肯亞現金實驗揭穿「觀察法」高估的飲食彈性",
+      "en": "What a Dollar Buys in Calories: Kenya's Cash Transfers Reveal How the Poorest Really Eat"
+    },
+    "summary": {
+      "zh": "【總結】三個經濟學家在肯亞農村做了件很「笨」但關鍵的事：他們把兩場無條件現金移轉實驗，接上自己新採集的食物數量、營養成分與市場價格資料，算出貧窮家庭的「支出彈性」——家庭總支出每增加 10%，食物支出增加約 8.6%，可取得的熱量增加約 6.6%。這兩個數字（0.86 與 0.66）比跨國文獻的平均值（0.61 與 0.42）高出一截，但比同一批資料用傳統觀察法估出來的低了 10 到 12 個百分點以上。換句話說，這篇論文最重要的產品不是那兩個彈性數字，而是一個警告：用非實驗資料推估的需求彈性，會系統性地高估窮人對所得的反應。\n\n【研究問題】所有針對貧窮的稅收、補助、營養政策，背後都藏著同一個參數：多給一塊錢，家庭會多吃多少、多攝取多少熱量？這個參數也是「營養型貧窮陷阱」辯論的核心——窮人是否因為吃不飽而無法工作、因而繼續貧窮。麻煩在於，所得幾乎從來不是外生的。有錢的家庭本來就比較不同：口味不同、資訊不同、住的地方物價也不同。因此過去靠橫斷面或時間序列資料估出來的彈性，可能把「富人與窮人的差異」誤讀成「變有錢後的行為改變」。作者要問的就是：在極端貧窮的族群裡，真正的因果彈性到底是多少？觀察法能不能當作替代品？\n\n【研究方法】研究建立在兩場已發表的隨機對照試驗上：2017–18 年 Nakuru 的現金移轉（每戶 KES 50,000，約 2017 年購買力平價 1,076 美元），以及 2011–13 年 Rarieda 與 GiveDirectly 合作的計畫（小額 KES 25,200、大額 KES 95,200），兩者都隨機決定誰拿錢。作者補上兩層新資料：一是 Nakuru 的詳細家戶問卷，逐一詢問 75 種食物的支出、數量、購買地點與單位，並涵蓋自家生產；二是市場價格調查，訪談 238 個市場、1,133 位攤商，還把「一把香蕉」這類本地單位實際稱重，才能換算成卡路里。分析上，他們把隨機分派的現金當作總支出的工具變數，放進需求體系，同時控制各村價格，並比較跨村與村內兩種變異來源。\n\n【結果】核心結果是食物支出彈性 0.86、熱量彈性 0.66；各種設定下前者落在 0.79–0.87、後者在 0.54–0.65，合併樣本（4,289 戶）的 95% 信賴區間為 [0.76, 0.93]。對照之下，只用控制組做的「非實驗」估計，食物彈性比實驗估計高出約 10–12 個百分點，熱量彈性差得更多。另外三個發現同樣重要：控制價格與否幾乎不影響結果，代表缺乏價格資料未必是致命傷；跨村與村內估計幾乎一致，顯示溢出效應在這類低覆蓋率場景下很小；一次給付 vs 分期、大額 vs 小額、發給丈夫 vs 妻子，彈性都沒有明顯差異。政策意涵很直接：極貧家庭的確對現金高度敏感，但拿舊文獻的彈性去推估政策效果，恐怕會高估糧食與營養的改善幅度。",
+      "en": "**Summary:** Three economists took two existing randomized cash-transfer experiments in rural Kenya and bolted on something nobody had bothered to collect: detailed food quantities, nutritional composition, and local market prices. The payoff is a clean causal estimate of how budgets translate into diets. A 10 percent increase in total household expenditure raises food spending by about 8.6 percent and available calories by roughly 6.6 percent. Those elasticities — 0.86 and 0.66 — sit well above the cross-country literature's averages of 0.61 and 0.42, yet fall sharply below what the same data yield under conventional observational methods. That last gap, not the headline numbers, may be the paper's real contribution: non-experimental elasticities appear to systematically overstate how the poor respond to money.\n\n**Problem:** Every tax, transfer, and nutrition program aimed at the poor implicitly relies on one parameter: give a household an extra dollar, how much more food and how many more calories does it get? The number sits at the heart of the nutrition-based poverty trap debate, which asks whether hunger itself keeps people poor. The obstacle is that income is almost never exogenous. Richer households differ in tastes, opportunities, and the prices they face, so cross-sectional or time-series estimates risk mistaking \"who rich people are\" for \"what money does.\" The authors ask a blunt question: among the extremely poor, what is the genuinely causal elasticity — and can observational data be trusted as a substitute?\n\n**Approach:** The study piggybacks on two published trials: a 2017–18 Nakuru program giving households KES 50,000 (about $1,076 in 2017 PPP) and a 2011–13 Rarieda program run with GiveDirectly offering KES 25,200 or KES 95,200. Assignment was random in both. The authors then added new fieldwork — a household survey recording expenditure, quantities, purchase locations, and units for 75 food items plus home production, and a price survey of 1,133 vendors across 238 marketplaces. Enumerators even bought and weighed local units like \"a bunch of bananas\" so quantities could be converted into calories. Randomized transfer amounts then instrument for total expenditure inside a demand system controlling for village prices, with across-village variation exploited to sidestep spillovers.\n\n**Results:** Food expenditure elasticity comes out at 0.86; calorie elasticity at 0.66. Across specifications the ranges are 0.79–0.87 and 0.54–0.65, with a pooled 95 percent confidence interval of [0.76, 0.93] for food. The striking contrast: observational estimates on control households alone run 10–12 percentage points higher for food and considerably higher still for calories. Three secondary findings matter too. Controlling for prices barely changes anything, suggesting missing price data may be less fatal than assumed. Within-village and across-village estimates are nearly identical, implying spillovers are small at these low coverage rates. And lump-sum versus installment, large versus small, husband versus wife — none produce meaningful differences. The message for policy: extremely poor households are genuinely responsive to cash, but importing old elasticities into program design will likely overstate nutritional gains."
+    },
+    "keyArticle": {
+      "title": "The expenditure elasticity for food and calories: Evidence from unconditional cash transfers in Kenya",
+      "authors": [
+        "Ingvild Almås",
+        "Johannes Haushofer",
+        "Anders Kjelsrud"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103869",
+      "pages": "103869"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-07-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103869",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103869",
+      "preprint": "https://doi.org/10.2139/ssrn.5182590"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-05T00:21:12.871944+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "science-2026-10-29-03",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6823",
+  "date": "2026-10-29",
+  "coverImage": {
+    "url": "data/images/science/science-2026-10-29-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "鳥唱的「文法」竟然和人類音樂同一套？橫跨三百種鳥類，揭開旋律背後的古老密碼",
+      "en": "The Same Tune in Feathers and Throats: 300 Bird Species Reveal Music's Deep Grammar"
+    },
+    "summary": {
+      "zh": "【總結】一篇發表於《Science》的大規模比較研究，分析了橫跨 50 個科、299 種雀形目鳥類、超過 64,000 個音節的鳴唱，並與全球 118 首人類歌曲直接對照。結果發現：鳥類排音節的方式與人類音樂共享多項「普遍性」——音程偏小、樂句尾音拉長、音高整體下降、音量呈拱形起伏，且相邻音節的「高低交替」明顯少於隨機預期。最耐人尋味的是，這些規律並非全由「學習」造成：不學唱的亞鳴禽在某些特徵上反而更接近人類。這意味著音樂的深層結構，可能早就寫在五億年分歧之前的發聲機制裡。\n\n【研究問題】人類音樂有所謂「音樂普遍性」——像是相鄰音高差距偏小、樂句結尾拉長、下降型旋律輪廓等，這些特徵跨文化存在，卻始終無法解釋其來源。究竟是發聲器官的物理限制（氣流、肌肉、呼吸）造成，還是靠學習與文化傳遞累積出來的認知產物？過去的研究只能針對單一或少數鳥種比較，例如燕雀或蒼頭燕雀，缺乏足夠的分類廣度，因此無法區分「偶然相似」與「真正的普遍規律」。作者意識到，雀形目正好提供了一個天然對照組：會學唱的鳴禽（oscines）與不會學唱的亞鳴禽（suboscines）是姊妹支系，兩者共享發聲器官與呼吸機制，卻在「學習」這一點上分道揚鑣。\n\n【研究方法】團隊沒有進實驗室，而是走進群眾外包的聲音資料庫 xeno-canto。他們用 API 抓取每個物種最高品質（A 級）且無背景物種、無播放引誘的錄音，再用訊號處理自動偵測歌聲片段：以 PCEN 去除背景噪音、計算訊噪比曲線、並以 500 毫秒的靜默間隔切分為獨立歌曲，隨後由受過訓練的標註者人工切出音節並標記「首、中、尾」位置。接著用 Librosa 萃取三項聲學特徵：音節時長、主頻（頻譜質心）、振幅。分析方法相當巧妙：用蒙特卡羅隨機重排音節順序 100 次，算出「若順序隨機，這些特徵會長怎樣」的期望值，再與真實序列比較；並以 MCMCglmm 模型校正親緣關係，避免近親物種造成的統計假象。人類音樂則取自「Natural History of Song」資料集的 118 首世界歌曲樂譜，抽取音高與時值作同樣分析。\n\n【結果】在三項核心指標上，雀形目全面偏向人類音樂的模式：相鄰音節的頻率跳躍顯著小於隨機預期（貝氏 p < 0.001）；音節在歌曲中的位置造成系統性變化——主頻由首至尾下降、時長在句尾拉長、振幅呈拱形；三項特徵的「交替」比例都顯著低於隨機期望值 0.667（皆 p < 0.001）。關鍵的支系對比揭露了兩套機制：在時長交替與時長的位置變化上，鳴禽比亞鳴禽更接近人類，支持「學習」帶來更複雜的序列結構；但在頻率跳躍與頻率交替上，反而是亞鳴禽更接近人類——作者推測，亞鳴禽可能無法獨立控制兩側鳴管肌肉，這種「不靈活」的發聲控制意外地與人類單一喉部控制相似。此外，人類的句尾拉長幅度遠強於所有鳥類，作者歸因於人類唱歌時吸氣次數少，而鳥類會在音節間不斷「偷氣」。這項研究把音樂起源的辯論，從哲學與民族音樂學，推進到可比較、可檢驗的生物學層次。",
+      "en": "**Summary:** A sweeping comparative study in *Science* analyzed more than 64,000 syllables drawn from 299 passerine species across 50 families, then set them against 118 songs from the global Natural History of Song corpus. Bird songs, it turns out, obey many of the same unwritten rules as human music: consecutive pitches sit closer together than chance would allow, phrases end on longer and lower notes, loudness arcs upward and back down, and adjacent elements alternate in pitch, duration, and amplitude far less often than random sequencing predicts. Crucially, these regularities are not simply a byproduct of vocal learning—some of them are strongest in birds that never learn their songs at all.\n\n**Problem:** Musicologists have long catalogued \"music universals\"—small pitch intervals, phrase-final elongation, descending melodic contours—that appear across cultures. But where do they come from? Two candidate explanations compete: the physics of making sound (breath, muscle, anatomy) versus the cognitive machinery of learning and cultural transmission. Testing between them requires a comparison group that shares our vocal hardware but not our learning. Birds offer exactly that, yet prior work examined only a handful of species, usually skilled vocal-learning songbirds, leaving researchers unable to tell genuine universals from coincidence. Passerines solve the problem elegantly: songbirds (oscines) learn their songs, while their sister clade, the suboscines, do not—same throat, different curriculum.\n\n**Approach:** Rather than running experiments, the team mined xeno-canto, a crowd-sourced archive of bird recordings. They pulled the highest-rated (\"A\") recordings per species, filtered for no background species and no playback, then used signal processing—per-channel energy normalization, a signal-to-noise ratio curve, and a 500-millisecond silence threshold—to isolate individual songs. Trained annotators then manually segmented each song into syllables and labeled them as first, middle, or last. Three features were extracted with the Python library Librosa: syllable duration, dominant frequency, and amplitude. The statistical trick was permutation: shuffling each song's syllable order 100 times to compute what the acoustic pattern would look like if sequencing were random, then comparing that expectation with reality. Phylogenetically corrected MCMCglmm models controlled for shared ancestry. The human comparison used transcribed pitch and duration from 118 notated songs worldwide.\n\n**Results:** Across nearly every measure, passerines leaned toward the human pattern. Frequency jumps between syllables were significantly smaller than chance (Bayesian p < 0.001); pitch declined from song beginning to end; syllables lengthened at the finale; amplitude traced an arch. Alternation in frequency, duration, and amplitude all fell well below the random expectation of 0.667 (p < 0.001 for each). The clade comparison split the mechanisms in two. For duration—both alternation and positional change—oscines resembled humans more closely than suboscines did, implicating learning in generating complex temporal structure. But for frequency jumps and frequency alternation, suboscines were the closer match, hinting that their vocal control—possibly unable to drive the two sides of the syrinx independently—may resemble the human larynx more than the songbird's virtuoso instrument does. Humans, meanwhile, elongate phrase endings far more dramatically than any bird, a difference the authors attribute to breathing: birds sneak tiny breaths between syllables, while we sing on long, sustained exhalations."
+    },
+    "keyArticle": {
+      "title": "Pervasive patterns in bird songs resemble those in human speech and song and are independent of vocal learning",
+      "authors": [
+        "Logan S. James",
+        "Kendra Oudyk",
+        "Maria I. Pescaru",
+        "Erin M Wall",
+        "Yining Chen",
+        "William D. Pearse",
+        "Jon T. Sakata"
+      ],
+      "doi": "10.1126/science.adr9983",
+      "pages": "556-561"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-10-29-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adr9983",
+      "doi": "https://doi.org/10.1126/science.adr9983"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-05T00:09:00.234012+00:00",
+    "source": "openalex"
+  }
+}

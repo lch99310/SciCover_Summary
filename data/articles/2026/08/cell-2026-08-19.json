@@ -1,0 +1,51 @@
+{
+  "id": "cell-2026-08-19",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "22",
+  "date": "2026-08-19",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-19-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "藏在密碼裡的密碼：諾羅病毒用 RNA 摺紙術，教我們做出一支不會「復活」的減毒疫苗",
+      "en": "The Code Within the Code: How Norovirus Folds Its RNA—and How That Folding Builds a Vaccine"
+    },
+    "summary": {
+      "zh": "【總結】諾羅病毒（norovirus）是全球腸胃炎的主要元凶之一，卻長年沒有疫苗、也沒有特效藥。Hann 與 Ökten 等人這回做了一件過去沒人做過的事：他們不是在看病毒「製造了什麼蛋白」，而是在看病毒的 RNA 基因體「摺成了什麼形狀」。研究團隊首度在真正被感染的細胞內，描繪出鼠諾羅病毒（MNV）全長 7.4 kb 基因體的二級結構圖，發現這條幾乎全部由蛋白編碼序列組成的 RNA，竟有高達 57% 的鹼基參與配對，遠高於隨機序列的約 30%。更關鍵的是，他們找出 16 個「靜態結構區」，並證明把其中幾個結構「拆開」—只改同義密碼、不動蛋白序列—就能讓病毒在細胞與小鼠體內双双衰弱。這不只是病毒學的結構地圖，更是一套可複製的疫苗設計邏輯：用 RNA 結構當作開關，做出免疫原性完整、基因穩定的減毒活疫苗。\n\n【研究問題】RNA 病毒有個根本矛盾：基因體很小，卻要裝下複製、轉譯、免疫逃逸等一大堆調控指令。解答之一是「雙層編碼」—同一段序列，既寫蛋白質，也靠摺疊出的立體結構執行調控。但這個想法在諾羅病毒上一直停留在紙上：過去的研究幾乎全靠電腦預測，或把 RNA 試管內重新摺疊後再看，從未在真實感染情境中驗證，全長基因體的結構更是空白。之所以重要，是因為諾羅病毒的人類研究長期卡在沒有可規模化的細胞培養、沒有反向遺傳工具、沒有小型動物模型；而結構預測若不能對應到活體中的病毒適應力，就無法轉化為藥物或疫苗。作者要問的是：這些結構在感染細胞裡真的存在嗎？它們對病毒在動物體內的存亡有沒有決定性作用？\n\n【研究方法】研究團隊先讓鼠微膠細胞（BV2）感染 MNV 強毒株 CW3，然後用兩種互補的化學探針「拍照」：SHAPE-MaP 偵測 RNA 骨架的柔軟度，fbDMS-MaP 偵測鹼基是否配對，兩套數據互相驗證後，用 SuperFold 演算法推導出全長二級結構。接著他們用「低 SHAPE 反應、低 Shannon 熵」這個指標，篩出 16 個摺得又緊又穩的「靜態結構區」。功能驗證分三層：第一層用鎖核酸（LNA）像「拉鍊卡榫」一樣卡住結構，看病毒是否複製不良；第二層用同義突變把結構「拆開」但不改蛋白，做出突變病毒，並以螢光酶報導系統確認轉譯變化；第三層把突變病毒打進正常小鼠與免疫缺陷（IFNAR KO）小鼠，測組織中的病毒量、體重與存活率，最後再做八輪連續繼代，檢查突變會不會「回頭」。\n\n【結果】結果相當漂亮。全基因體平均 57% 鹼基配對，16 個靜態結構區平均配對率更高達 66.5%，其中最大的兩個落在基因體兩端（218 與 401 個核苷酸），而結構蛋白基因 VP1、VP2 是結構熱點（約 60% 序列落在靜態結構區）。演化分析顯示，雙股區的同義突變率顯著低於單股區，且人類諾羅病毒 GII 與 MNV 雖已高度分化，卻在基因體兩端、RdRp–VP1 交界與 VP1 基因體內出現幾乎相同的選擇壓力低谷—這意味著這些結構是被演化「保管」下來的功能元件。拆結構的後果也很明確：LNA 打擊可讓細胞存活率提高 15–35%、病毒力價下降最多 1 個對數單位；同義突變版的 lowSS10 病毒力價掉了近 2 個對數單位，在感染小鼠的淋巴結、迴腸、結腸與脾臟中幾乎測不到 RNA；在 IFNAR KO 小鼠中，10 隻裡有 9 隻安然度過致死感染、幾乎不掉體重。最令人振奮的是，這株減毒病毒能誘發抗 MNV IgG，並在兩週後以強毒株挑戰時提供近乎完全的保護，且連續八輪繼代都沒有回復突變。這證明了「用 RNA 結構設計疫苗」不是概念，而是可以動手的工程。",
+      "en": "**Summary:** Norovirus is one of the world's leading causes of gastroenteritis, yet it still has no approved vaccine or antiviral. Hann, Ökten, and colleagues took an angle almost nobody had taken: rather than asking what proteins the virus makes, they asked what shapes its RNA genome folds into. Working inside actually infected cells, the team produced the first full-length secondary-structure map of the 7.4 kb murine norovirus (MNV) genome, finding that nearly 57% of its nucleotides are base-paired—far above the ~30% expected for random RNA—despite the genome being almost entirely protein-coding with UTRs of just 5 and 78 nucleotides. They identified 16 unusually rigid \"static structural regions\" and showed that prying several of them open—using synonymous codons only, leaving every protein untouched—cripples the virus in both cultured cells and mice. The payoff is a generalizable design principle: RNA structure can be engineered as a virulence dial, yielding a genetically stable live-attenuated vaccine that is fully immunogenic.\n\n**Problem:** RNA viruses face a packing problem: tiny genomes must encode replication, translation, and immune-evasion instructions all at once. One solution is a \"code within the code,\" in which the same nucleotides specify protein and fold into regulatory structures. For norovirus, that idea had never left the drawing board. Prior work relied on computational prediction or on RNA refolded in a test tube, none of it validated during real infection, and the full-length genome architecture was simply unknown. The stakes are high: human norovirus research has been stalled for decades by the lack of scalable culture systems, reverse-genetics tools, and small-animal models. If predicted structures do not actually govern viral fitness inside a host, they cannot be turned into drugs or vaccines. The authors asked the decisive questions: do these elements exist in infected cells, and do they determine whether a virus survives in an animal?\n\n**Approach:** The team infected BV2 murine microglial cells with the virulent MNV strain CW3 and probed the RNA with two orthogonal chemistries: SHAPE-MaP, which reports backbone flexibility, and fbDMS-MaP, which reports base-pairing status. Cross-validated reactivities were fed into SuperFold to derive the full-length secondary structure. Using a \"low SHAPE, low Shannon entropy\" criterion—rigid and conformationally unambiguous—they flagged 16 static structural regions. Functional testing proceeded in three layers. First, locked nucleic acids (LNAs) were designed to jam specific structures like a zipper stop, revealing which elements the virus cannot live without. Second, synonymous \"structure-unzipping\" mutations were introduced to break base pairs without altering a single amino acid, with luciferase reporters used to measure translation directly. Third, mutant viruses were introduced into wild-type and IFNAR knockout mice, tracking tissue viral loads, weight loss, and survival, followed by eight serial passages to test for reversion.\n\n**Results:** The genome is densely folded: 57% of bases paired overall, rising to 66.5% within the 16 static regions, the largest of which (218 and 401 nt) sit at the genomic termini, while the capsid genes VP1 and VP2 form structural hotspots (~60% of their sequence). Evolution agrees: synonymous substitution rates are significantly suppressed in double-stranded regions, and despite deep divergence, human norovirus GII shows nearly identical valleys of constraint at the genome ends, the RdRp–VP1 junction, and within VP1—structures evolution has carefully preserved. Disrupting them is costly. Structure-targeting LNAs raised cell viability by 15–35% and cut viral titers by up to 1 log; the lowSS10 unzipping mutant lost nearly 2 logs of titer and was essentially undetectable in mesenteric lymph nodes, ileum, colon, and spleen. In IFNAR knockout mice, nine of ten lowSS10-infected animals survived an otherwise lethal challenge with almost no weight loss. Most strikingly, this attenuated virus elicited anti-MNV IgG and conferred near-complete protection against wild-type challenge two weeks later—with no reversion detected across eight serial passages."
+    },
+    "keyArticle": {
+      "title": "RNA structures regulate norovirus life cycle and enable rational attenuation in vivo",
+      "authors": [
+        "Tanja Hann",
+        "Arya B. Ökten",
+        "Renata B. Filler",
+        "Craig B. Wilen",
+        "Anna Marie Pyle"
+      ],
+      "doi": "10.1016/j.cell.2026.07.051",
+      "pages": "7090-7104.e8"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-19-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.07.051",
+      "doi": "https://doi.org/10.1016/j.cell.2026.07.051"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-05T00:18:10.623827+00:00",
+    "source": "openalex"
+  }
+}

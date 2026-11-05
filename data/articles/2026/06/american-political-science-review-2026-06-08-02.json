@@ -1,0 +1,41 @@
+{
+  "id": "american-political-science-review-2026-06-08-02",
+  "journal": "American Political Science Review",
+  "volume": "120",
+  "issue": "4",
+  "date": "2026-06-08",
+  "coverImage": {
+    "url": "",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "信任不是從談判桌開始的：為什麼一國的「家務事」，能讓死敵放下武器？",
+      "en": "Trust Begins at Home: How Domestic Policy Can Break the Ice Between Rivals"
+    },
+    "summary": {
+      "zh": "【總結】國際關係文獻長年主張：國家要靠「代價高昂的對外政策訊號」——裁軍、簽條約、戰略收縮——才能證明自己沒有野心。但這套邏輯有個致命死結：信任越低，越沒有人敢先出牌，因為怕被騙。Goldfien、Joseph 與 McManus 提出一條被忽略的側門：國內政策也能建立國際信任。只要一國的國內偏好與其國際偏好存在相關性，它對內的政策選擇就等於在向外界洩漏「我到底想不想合作」的底牌。更關鍵的是，國內政策有一種獨門優勢——「獨立性」：它的得失不太看外國對手怎麼反應。於是，在對手信任度近乎為零、連小幅裁軍都覺得風險過高的時刻，一次國內改革反而能安全地送出訊號。這套理論解開了三個老謎題：為何自由主義國家會被獨裁者的鎮壓行動說服、為何戈巴契夫能用驚天動地的國內改革而非小步裁軍破冰、以及為何有人願意單方面先踏出第一步。\n\n【研究問題】傳統「安全困境」研究把國家分成「尋求安全型」與「貪婪型」，並認為前者必須用昂貴的對外讓步來自我證明。問題是：當雙方互信低到極點（例如世仇、冷戰對手），任何對外讓步都可能被視為送人頭，於是雙方都選擇先發制人、彼此背叛，信任建設根本無法啟動。文章由此追問：在信任起點如此低的情況下，破冰的第一根火柴從哪來？作者指出三個既有理論無法解釋的現象：其一，美國曾因納瑟1958年鎮壓埃及共產黨而與他修好，因朴正熙1961年政變後的經濟改革而重拾對南韓的信心——這些都是「不自由」的動作，卻讓自由主義的美國安心；其二，戈巴契夫是用釋放異議人士、放寬猶太人移民、推動公開性與重建這種「革命級」大動作開局，而非文獻預測的小步試探；其三，信任建設有時是單方面先行，而非你一步我一步的對等互惠。既有文獻只在腳註裡提過國內政策可能有用，卻從未系統化，這正是本文要補的缺口。\n\n【研究方法】作者先搭建一個兩期信任賽局，沿用 Kydd 等人的框架：每個國家私下被抽籤決定是「尋求安全型」還是「貪婪型」，初始信任以機率 p 表示；第一期是訊號期，第二期是高風險的合作或對抗。接著他們只做了兩項、但關鍵的改動。第一，假設國內政策偏好與國際偏好之間存在（不完美的）相關性，因此對內選擇能透露對外意圖。第二，引進「獨立性」參數 β（介於0與1之間）：β=0 代表完全依賴——你的得失全看對手怎麼做，這正是裁軍的處境；β=1 代表完全獨立——不論對手幹嘛，你的得失都一樣，例如修改社會福利、土地政策、言論自由尺度。他們把 β 只套用在第一期，第二期仍保持完全依賴，等於刻意給理論設下「最難過關」的測試。求解所有完美貝氏均衡並施加效率精煉後，再以兩個案例檢驗：冷戰結束的美蘇破冰，以及1961年政變後的美韓關係。\n\n【結果】模型給出三個漂亮結論。第一，獨立性越高，啟動信任建設所需的初始信任門檻越低：當 β 從0往上爬，原本「先背叛再說」的死區不斷縮小。第二，存在一個明確的獨立性門檻 β > k/(1+k−L)（k 為被騙成本、L 為尋求安全型從背叛所得的額外好處）；一旦跨過，即使雙方都「確信」對方是貪婪型（p 趨近於0），信任建設仍可成立。以文中參數 k=0.9、H=1.5、L=−0.1 計算，門檻約為0.45；圖中示範的中等獨立性（β_A=0.6、β_B=0.7）便已足夠。第三，當獨立性與信任「雙重不對稱」時，會出現不對稱的信任建設均衡：獨立性高、被信任的一方明知第一期必被佔便宜，仍甘願吃虧，用這次吃虧證明自己不是貪婪型；而獨立性低的一方則以對方是否肯吃這個虧來判斷可否在第二期合作。這正好解釋戈巴契夫的單方面大動作、朴正熙以反共鎮壓加工業化改革取信華府，以及納瑟鎮壓共黨換來美國修好。其意涵是：真正維繫和平的不是「自由主義」本身，而是偏好相容；而遠未達到政權更迭程度的國內改革，也可能動搖世仇之間的第一塊骨牌。",
+      "en": "**Summary:** The trust-building literature has a well-known trap: states prove their peaceful intentions by making costly foreign policy gestures—arms cuts, treaty signatures, retrenchment—but the moment trust is lowest, nobody dares make such a gesture for fear of being played for a fool. Goldfien, Joseph, and McManus argue there is a side door. Because a state's domestic preferences are often correlated with its foreign policy preferences, domestic choices leak information about whether it wants to cooperate abroad. Crucially, domestic choices carry a property the authors call independence: what a state gains or loses from them depends far less on how a foreign rival responds. That makes domestic reform a low-risk way to signal genuine intentions precisely when trust is near zero and international signals look suicidal. The theory explains three anomalies the existing literature cannot: reassurance through illiberal domestic policies, trust-building via grand revolutionary gestures rather than cautious incremental steps, and unilateral first moves that are never immediately reciprocated.\n\n**Problem:** Security dilemma scholarship divides states into security-seekers and greedy types, and holds that security-seekers must reveal themselves through costly foreign policy signals. The catch is that these signals presuppose some baseline of trust: if a rival is believed almost certainly greedy, first-period cooperation becomes irrational for both sides, and mutual defection is the only equilibrium. Enduring rivals may genuinely want peace—exhausted, ideologically transformed, or under new leadership—yet remain paralyzed because whoever moves first risks catastrophe. The authors ask how the first spark is struck. They note that American officials were reassured by Nasser's 1958 crackdown on Egyptian Communists, by Park Chung-hee's post-coup economic program in South Korea, and by Gorbachev's sweeping domestic liberalization—none of which fits the received wisdom that illiberal actors are distrusted, that rivals must start small, or that trust-building is necessarily reciprocal. Domestic policy had been noted in passing but never theorized.\n\n**Approach:** The authors build a two-period trust game in the Kydd tradition. Each state is privately drawn as security-seeking or greedy; initial trust is a probability p; period one is a signaling opportunity, period two a high-stakes choice between cooperation and defection. They then make two targeted modifications. First, they assume an imperfect correlation between domestic and international preferences, so domestic choices can convey information about foreign intentions. Second, they introduce an independence parameter beta between zero and one: at beta equals zero, payoffs depend entirely on what the rival does (the arms-control case); at beta equals one, payoffs depend only on one's own choice, as with welfare reform or land policy. Independence is applied only to period one, while period two remains fully dependent—a deliberately hard test. They solve for perfect Bayesian equilibria under an efficiency refinement, derive comparative statics, then examine US-Soviet rapprochement and US-South Korea relations after the 1961 coup.\n\n**Results:** Three findings stand out. First, as independence rises, the minimum initial trust required for a trust-building equilibrium falls, steadily shrinking the zone of inevitable defection. Second, there is a sharp threshold: once beta exceeds k over one plus k minus L (where k is the cost of being exploited and L the security-seeker's gain from cheating), trust-building survives even when each side is nearly certain the other is greedy. With the paper's parameters (k equals 0.9, H equals 1.5, L equals minus 0.1), that threshold is roughly 0.45; the illustrative case uses beta values of 0.6 and 0.7. Third, when independence and trust are lopsided in opposite directions, an asymmetric equilibrium emerges: the highly independent security-seeker knowingly absorbs exploitation in period one, and that willingness is precisely what persuades the wary, dependent partner to cooperate in period two. This captures Gorbachev's unilateral domestic revolution, Park's anti-Communist repression plus industrialization, and Nasser's 1958 crackdown. The broader implication is that peace rests less on liberalism per se than on compatible preferences—and that domestic reforms well short of regime change can move the first domino between rivals."
+    },
+    "keyArticle": {
+      "title": "The Domestic Sources of International Trust",
+      "authors": [
+        "Michael A. Goldfien",
+        "Michael F. Joseph",
+        "Roseanne W. McManus"
+      ],
+      "doi": "10.1017/s0003055426101713",
+      "pages": "1453-1471"
+    },
+    "images": [],
+    "links": {
+      "official": "https://doi.org/10.1017/s0003055426101713",
+      "doi": "https://doi.org/10.1017/s0003055426101713"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-05T00:20:12.420412+00:00",
+    "source": "openalex"
+  }
+}
