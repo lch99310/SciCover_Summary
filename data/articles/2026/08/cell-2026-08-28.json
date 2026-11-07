@@ -1,0 +1,60 @@
+{
+  "id": "cell-2026-08-28",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "22",
+  "date": "2026-08-28",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-08-28-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "敲除兩千多萬顆人體免疫細胞：全基因組 Perturb-seq 解密 CD4+ T 細胞的「動態控制總線」",
+      "en": "Rewiring Human Immunity: A 22-Million-Cell CRISPR Map Unlocks the Dynamic Logic of T Cells"
+    },
+    "summary": {
+      "zh": "【總結】人體免疫系統如同一座高度戒備的複雜都市，而 CD4+ T 細胞正是調度各方防禦力量的總指揮。然而，究竟是哪些基因開關在背後精準指揮著 T 細胞在平靜、戒備與全面交戰狀態間自如切換，過去在人體原生細胞中始終難以全面窺探。由加州大學舊金山分校 Alexander Marson 與史丹佛大學 Jonathan Pritchard 等團隊合作，在《Cell》發表了一項里程碑研究：他們開發出高通量探針式 Perturb-seq 技術，跨越 4 位健康捐贈者、針對高達 2,200 萬顆「真實原代」人體 CD4+ T 細胞進行全基因組規模的 CRISPRi 基因沉默，首度繪製出涵蓋靜息與活化動態情境的完整人類免疫調控圖譜。\n\n【研究問題】過去數十年來，科學家試圖釐清免疫基因調控網絡時，多半仰賴容易操作的永生化癌細胞株（如 Jurkat），但這些經過腫瘤變異的細胞早已喪失正常原代 T 細胞細膩的生理反應。更棘手的是，細胞內的分子邏輯具備強烈的「情境依賴性」——一顆處於靜止狀態的 T 細胞，與受到抗原刺激 8 小時或 48 小時後的細胞，其內部啟動的調控迴路完全不同。此外，過去全基因組關聯分析（GWAS）雖然指出了成百上千個與自體免疫疾病相關的遺傳變異，但科學家往往無法斷定這些變異究竟在哪種刺激狀態、透過哪個核心基因引發免疫失衡，留下了巨大的轉譯鴻溝。\n\n【研究方法】為了解決原代細胞轉染困難、通量受限且單細胞雜訊高的瓶頸，研究團隊開發了可規模化擴展的探針式單細胞 Perturb-seq（probe-based Perturb-seq）系統。他們從 4 名健康捐贈者血液中分離出原代初始 CD4+ T 細胞，運用 CRISPR 干擾（CRISPRi）技術針對所有表現基因進行單一沉默，並分別在「未刺激（靜息態）」、「活化 8 小時（早期應答）」與「活化 48 小時（晚期增殖與分化）」三種不同生理節點，同步捕獲單細胞全轉錄組變化。隨後，研究團隊建立線性回歸模型，將體外大規模基因擾動的「轉錄特徵碼」與真實人群單細胞圖譜進行特徵解構與擬合，系統性連結基因擾動、細胞極化命運與疾病易感性。\n\n【結果】研究團隊成功解析了 3,341 個強效擾動事件，揭示出基因調控網絡隨刺激時間發生的劇烈重構現象：同一個調控因子在靜止期與活化期的下游受控靶點往往大相徑庭。研究不僅發現了數個過去未曾報導、能特異性調控關鍵細胞因子（如抗發炎的 IL-10 與促淋巴發育的 IL-21）的上游關鍵旋鈕，並經由實驗驗證；其建立的擾動模型還能精準推斷出驅動 Th1 與 Th2 輔助 T 細胞命運分化的核心轉錄因子，以及隨年齡增長導致 T 細胞功能衰退的分子特徵。最關鍵的是，該成果成功將多種自體免疫疾病（包括類風濕性關節炎、紅斑性狼瘡等）的 GWAS 風險位點，錨定至特定刺激情境下的特定基因調控節點，為未來工程化 T 細胞免疫療法與精準自體免疫藥物開發提供了全新的航海圖。",
+      "en": "**Summary:** Human CD4+ T cells act as master conductors of adaptive immunity, interpreting subtle antigen signals to orchestrate broad defensive responses. Yet, decoding the exact gene regulatory networks governing their activation inside genuine human cells has remained a formidable challenge. In a landmark paper published in *Cell*, a team led by Alexander Marson and Jonathan Pritchard broke through these experimental limits. By pioneering an ultra-scalable probe-based Perturb-seq platform, the researchers systematically silenced every expressed gene across 22 million primary human CD4+ T cells from four donors, building the first genome-wide functional regulatory atlas of primary human T cell states and immune traits.\n\n**Problem:** Dissecting mammalian gene circuits has historically leaned on transformed cell lines like Jurkat, which fundamentally fail to capture the nuanced physiology and delicate equilibrium of primary human lymphocytes. Moreover, regulatory networks are deeply dynamic: a quiescent T cell follows an entirely different internal operating manual than one undergoing early receptor activation or sustained clonal expansion. At the same time, while genome-wide association studies (GWAS) have uncovered countless non-coding loci tied to autoimmune disorders, pinpointing which specific genes and cell-activation contexts actually mediate these disease risks has persisted as a critical blind spot in immunology.\n\n**Approach:** To surmount these barriers, the team established a robust, probe-based single-cell Perturb-seq pipeline tailored directly for fragile primary human naive CD4+ T cells. Deploying pooled CRISPR interference (CRISPRi) across all expressed genes, they profiled single-cell transcriptomes across three physiological windows: resting, early activation (8 hours post-stimulation), and late activation (48 hours post-stimulation). Beyond simply catalogueing perturbation effects, they engineered a linear signature decomposition model to project these experimental perturbations directly onto population-scale single-cell and bulk human RNA-seq datasets, mathematically linking causal genetic nodes to downstream cellular trajectories.\n\n**Results:** The study resolved 3,341 high-confidence functional perturbations, demonstrating that regulatory wiring dramatically reshapes over the course of immune activation. The authors uncovered and experimentally validated previously uncharacterized upstream regulators dictating the production of pivotal cytokines, including IL-10 and IL-21. Furthermore, their perturbation-driven models successfully nominated the key transcription factors steering Th1 versus Th2 cell polarization, while mapping the genetic circuits underlying T cell dysfunction in human aging. Crucially, the atlas linked non-coding autoimmune GWAS variants to context-dependent molecular pathways, pinpointing precisely when and where disease alleles distort immune function and paving the way for next-generation therapeutic cell engineering."
+    },
+    "keyArticle": {
+      "title": "Genome-scale perturb-seq in primary human CD4+ T cells maps context-specific regulators of T cell programs and human immune traits",
+      "authors": [
+        "Ronghui Zhu",
+        "Emma Dann",
+        "Jun Yan",
+        "Justine Reyes Retana",
+        "Ryunosuke Goto",
+        "Reese C Guitche",
+        "Lillian Brixi",
+        "Mineto Ota",
+        "Austin Hartman",
+        "Theodore L. Roth",
+        "Ansuman T. Satpathy",
+        "Jonathan K. Pritchard",
+        "Alexander Marson"
+      ],
+      "doi": "10.1016/j.cell.2026.08.002",
+      "pages": "6988-7012.e17"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-08-28-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.002",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.002",
+      "preprint": "https://doi.org/10.2139/ssrn.6137047"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-07T22:38:56.511476+00:00",
+    "source": "openalex"
+  }
+}

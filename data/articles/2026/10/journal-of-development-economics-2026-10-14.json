@@ -1,0 +1,51 @@
+{
+  "id": "journal-of-development-economics-2026-10-14",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-10-14",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-10-14-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "養兒防老還是自求多福？迦納可可農民的代際養老「雙軌制」迷思",
+      "en": "Beyond Filial Piety: How Shared Responsibility Drives Retirement Savings in Rural Ghana"
+    },
+    "summary": {
+      "zh": "【總結】在許多缺乏完善公共養老金制度的發展中國家，傳統社會多依賴「養兒防老」的代際契約。然而，主流經濟學理論長期擔憂，如果父母預期子女會提供經濟支持，可能會引發道德風險，導致自身儲蓄被「擠出」（crowding-out）甚至策略性不儲蓄。發表於《發展經濟學期刊》（Journal of Development Economics）的一項最新實驗研究，顛覆了這種傳統假設。透過在迦納農村對可可小農家庭進行的田野實驗，研究人員發現，父母並沒有因為子女的孝親轉移支付而減少養老儲蓄，子女也不會因父母有錢而降低贍養費。兩代人之間的財務互動並非零和博弈的「相互替代」，而是一種基於深刻社會規範的「共同責任」與互補機制。\n\n【研究問題】撒哈拉以南非洲正面臨快速的人口老齡化，預計到2100年60歲以上人口比例將從5%升至20%，但目前農村養老金覆蓋率不足20%。長期以來，非正式的代際契約是老年人抵禦貧困的生命線。然而，現代經濟學模型通常預測：預期子女會供養的父母會大幅減少私人儲蓄；反之，若子女發現父母存夠了錢，也會減少金錢轉移。過去文獻多聚焦於公共年金對家庭照護的擠出效應，卻鮮少釐清在完全缺乏正式制度的環境中，父母的自主儲蓄與子女的代際轉移究竟是「替代關係」還是「互補關係」。\n\n【研究方法】研究團隊深入迦納東部地區的蘇胡姆（Suhum）和范特阿夸（Fanteakwa）可可產區，招募了197名可可農民（父母）及187名成年子女，開展了一套精巧的「田野實驗室遊戲」（lab-in-the-field experiment）。研究建構了跨期資源配置決策：父母擁有70迦納塞地（GH₵）初始資金，需在代表年輕期的「當期帳戶」與代表無收入退休期的「未來帳戶」間做分配；子女則在未來期分配150 GH₵，決定留給自己或轉移給父母。實驗採用策略法（strategy method），外生操縱了父母對子女匯款的預期以及已知的實際轉移金額（從0到70 GH₵以上不等），並結合激勵相容的社會規範測量工具，評估雙方對彼此行為的社會道德評價。\n\n【結果】實驗結果徹底打破了「策略性減少儲蓄」的假說。在無條件決策下，父母平均儲蓄高達36.55 GH₵，超過半數父母（54.4%）的儲蓄額甚至超越了滿足最低生存門檻所需的30 GH₵，遠高於標準跨期消費平滑模型的預測值。當研究人員外生操縱預期，告知子女實際轉移可能僅有10 GH₵時，父母儲蓄僅微增1.52 GH₵；即使在條件決策下明確知曉子女轉移大幅增加，父母的儲蓄邊際調整率也僅為−0.04（遠低於理論預測的−0.5至−1）。同樣地，子女對父母的轉移支付平均維持在40至50 GH₵之間，不受父母儲蓄多寡影響。規範測量證實，當地文化高度要求「父母必須努力自儲」與「子女必須盡力供養」，養老被視為雙方不可推卸的共同義務，這為普惠金融政策推廣個人微型養老儲蓄產品提供了強而有力的實證支持。",
+      "en": "**Summary:** In developing regions where formal pension systems are virtually non-existent, the traditional \"intergenerational contract\"—where adult children financially sustain their aging parents—has long been seen as the primary bulwark against old-age poverty. Conventional economic theory posits that expectations of filial financial support should crowd out parents' own retirement savings, potentially encouraging strategic under-saving. However, a groundbreaking lab-in-the-field study published in the *Journal of Development Economics* challenges this premise. Examining cocoa-farming households in rural Ghana, the authors demonstrate that parents save aggressively for retirement irrespective of anticipated filial transfers, and adult children maintain their support regardless of parental wealth. Rather than acting as strategic substitutes, informal intergenerational transfers and private retirement savings coexist as complementary pillars anchored by durable social norms of shared responsibility.\n\n**Problem:** Sub-Saharan Africa is experiencing rapid demographic shifts: the share of older adults is projected to quadruple from roughly 5% today to 20% by 2100. Yet formal pension coverage in rural areas remains below 20%, leaving millions of smallholders exposed to destitution in their post-labor years. While international development practitioners have promoted micro-pensions and private savings instruments, economists have worried about a perverse behavioral response: if parents expect their migrating or educated children to provide remittances, will they rationally disincentivize their own savings? Conversely, might children shirk filial duties if their parents accumulate nest eggs? Disentangling whether filial support and private savings crowd each other out is critical for designing effective social protection policies in low-income agrarian economies.\n\n**Approach:** The researchers implemented an innovative framed lab-in-the-field experiment across 15 cocoa-growing communities in Ghana's Eastern Region, engaging 197 cocoa farmers and 187 of their adult children. Adapting Andreoni and Sprenger’s intertemporal allocation framework, the experiment mapped participants' choices into life-cycle phases: parents allocated an endowment of 70 Ghanaian Cedis (GH₵) between present earnings and retirement savings, while children allocated GH₵ 150 between themselves and their retired parents. Utilizing a variant of Selten's strategy method, the authors systematically varied child transfer levels (from GH₵ 0 to GH₵ 70+) to test parents' conditional savings responses and experimentally manipulated parents' beliefs about filial contributions. Crucially, they integrated incentivized norm-elicitation techniques (Krupka and Weber method) to benchmark behavior against community-wide perceptions of moral appropriateness.\n\n**Results:** The empirical findings directly contradict the standard crowding-out hypothesis. Parents saved an average of GH₵ 36.55—significantly higher than the standard theoretical optimum (GH₵ 30 or less under standard discount rates)—with 94.4% meeting or exceeding baseline subsistence requirements. Exogenously deflating parents' transfer expectations by more than GH₵ 30 barely moved the needle, inducing a meager GH₵ 1.52 increase in savings. Under conditional choices, the marginal crowding-out effect was negligible at −0.04 (in stark contrast to theoretical predictions of −0.5 to −1.0). Likewise, adult children transferred roughly GH₵ 40 to 52 across all scenarios, showing no decline even when parents were fully self-sufficient. The elicited social norms explain this inertia: community standards independently mandate that parents save diligently and that children provide financial tribute. This demonstrates that informal family safety nets and formal private savings can operate side-by-side as non-conflicting, resilient mechanisms of social security."
+    },
+    "keyArticle": {
+      "title": "Balancing the burden: Shared responsibility in intergenerational financial support in rural Ghana",
+      "authors": [
+        "Frederick Amon-Armah",
+        "Kristina Czura",
+        "Hanna Fromell",
+        "Robert Lensink"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103953",
+      "pages": "103953"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-10-14-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103953",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103953",
+      "preprint": "https://doi.org/10.2139/ssrn.5223526"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-07T22:44:14.511352+00:00",
+    "source": "openalex"
+  }
+}
