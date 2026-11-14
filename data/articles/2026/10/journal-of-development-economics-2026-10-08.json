@@ -1,0 +1,48 @@
+{
+  "id": "journal-of-development-economics-2026-10-08",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-10-08",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-10-08-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當學校淪為恐攻目標：暴力陰影如何悄悄斬斷跨國兒童認養的愛心援助？",
+      "en": "When Schools Become Targets: How Terrorist Attacks Disrupt Private Child Sponsorship"
+    },
+    "summary": {
+      "zh": "【總結】在戰火與恐攻頻傳的地區，民間慈善捐款究竟會因為同情而湧入，還是因恐懼與徒勞感而退縮？這篇發表於《發展經濟學雜誌》（Journal of Development Economics）的重磅研究，首次揭露了針對教育機構的恐怖攻擊對「跨國兒童認養」這一關鍵民間援助管道的深遠衝擊。研究發現，在社區周邊20公里內發生針對學校的恐怖攻擊後，該社區獲得認養的兒童比例平均顯著下降約3個百分點（相對降幅達4%），並在數年內持續發酵。這項研究突破了過去僅關注政府間雙邊援助的局限，證明針對基層教育的暴力行徑會產生「次生災害」，悄然削弱脆弱社區最急需的民間發展資金。\n\n【研究問題】過去發展經濟學界探討衝突與援助的關係時，焦點幾乎全落在政府間外國援助（ODA）或多邊機構貸款上，但對於依賴數百萬個人捐款者支撐的民間援助（如兒童認養計畫面）卻所知甚少。理論上，恐怖攻擊的發生具有兩種相反的驅動力：一方面，暴力事件暴露了當地極端的脆弱性，可能激發捐贈者的利他心與緊迫感；另一方面，恐攻可能讓捐贈者質疑援助計畫的可行性與安全性，認為資金無法有效轉化為實質改變。這兩種機制何者佔據主導？這攸關仰賴個人小額捐款支撐教育與醫療的數百萬貧困兒童命運，是全球非政府組織急需解開的盲點。\n\n【研究方法】研究團隊整合了國際知名非政府組織國際培幼會（Plan International）跨越50個國家、涵蓋超過140萬名註冊兒童與34,424個基礎抽樣單位（PSU，相當於村落社區）的長達十一年（2008–2018）微觀追蹤數據，並與全球恐怖主義資料庫（GTD）的地理編碼事件進行精準空間對接。為了克服恐攻事件「分散、罕見且可逆（非吸收性）」的計量挑戰，研究採用了 de Chaisemartin 和 D'Haultfœuille 最新的異質性穩健雙重差分模型（staggered DiD），並以PSU周邊20公里內的學校襲擊次數作為核心外生衝擊。研究嚴格檢驗了平行趨勢與安慰劑效應，排除了非政府組織自身規模引來恐攻的內生性疑慮，確保了因果推論的嚴謹性。\n\n【結果】研究結果顯示，周邊20公里內每增加一起針對教育機構的恐攻，該社區兒童的認養比例在後續數年間平均下降3.1個百分點，換算為約4%的相對跌幅。估算顯示，這導致樣本中受波及社區累計損失約390個認養配額，相當於逾61.5萬美元的直接專款流失。由於兒童認養計畫通常採取「地理定點投入」原則（資金緊扣受認養孩童所在社區的基礎建設），這筆資金缺口直接剝奪了受災村落每年每村約500美元的教育與衛生預算——這筆金額足以為數十名貧困學童購置整年度的文具與課本。這項發現警示國際援助體系：當極端分子襲擊學校時，不僅摧毀了實體教室，更引發了民間捐款撤出的外溢傷害，國際NGO亟需建立風險緩衝基金以保護脆弱社區的長期發展。",
+      "en": "**Summary:** Does civilian violence mobilize compassionate aid or deter private philanthropy? This groundbreaking study published in the *Journal of Development Economics* provides the first rigorous causal evidence of how terrorist violence affects international child sponsorship—a primary mechanism of private development aid. Analyzing extensive administrative records from 50 countries, the authors find that terrorist attacks targeting educational institutions significantly reduce the share of sponsored children in nearby communities by approximately 3 percentage points (a 4% decline relative to the mean). The study demonstrates that violence against schools produces severe collateral damage, cutting off private humanitarian lifelines precisely when vulnerable communities need them most.\n\n**Problem:** While a voluminous literature examines how intergovernmental foreign aid interacts with political violence and civil conflict, almost nothing is known about how private, decentralized charity responds to local terrorism. Conceptually, the direction of this effect is ambiguous: a terrorist shock could signal acute deprivation, triggering greater donor empathy and funding; conversely, it could signal state fragility and project vulnerability, discouraging donors who perceive the aid as ineffective or imperiled. Because government aid follows geopolitical logic while child sponsorship depends on millions of autonomous personal giving decisions, existing macroeconomic models fail to explain the resilience of community-level philanthropic flows under violent conflict.\n\n**Approach:** The authors combine longitudinal microdata from Plan International (PI)—spanning over 1.4 million registered children across 34,424 Primary Sampling Units (PSUs, roughly proxying villages) in 50 countries from 2008 to 2018—with georeferenced incident data from the Global Terrorism Database (GTD). Exploiting the quasi-random timing and location of attacks targeting educational institutions within a 20-kilometer radius of each PSU, they estimate treatment effects using modern heterogeneity-robust difference-in-differences estimators suited to staggered, non-absorbing treatments. The design rules out confounding anticipation effects through pre-treatment placebo tests and verifies that NGO operational presence does not endogenously attract insurgent attacks.\n\n**Results:** The empirical findings demonstrate that an additional educational attack within 20 km reduces the local proportion of sponsored children by 3.1 percentage points over a multi-year horizon. This corresponds to an aggregate net decline of roughly 390 sponsorships across affected communities in the sample, translating to an estimated direct funding loss of approximately US$615,000 over the study period. Because sponsorship funds are geographically earmarked for specific host villages rather than pooled nationally, this contraction equates to an annual deficit of roughly US$500 per affected community—funds sufficient to equip dozens of children with essential learning supplies. The research highlights the critical vulnerability of community-targeted philanthropy to security shocks and calls for international NGOs to establish stabilization buffers that insulate local development programs from violent disruptions."
+    },
+    "keyArticle": {
+      "title": "Terrorism and altruistic giving: Evidence from child sponsorship",
+      "authors": [
+        "Alberto Posso",
+        "Simon Feeny"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103951",
+      "pages": "103951"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-10-08-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103951",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103951"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-14T00:29:02.482872+00:00",
+    "source": "openalex"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cell-2026-11-01",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "23",
+  "date": "2026-11-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-11-01-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "大腦如何優雅或殘酷地老去？530萬個細胞揭開靈長類大腦的衰老時鐘",
+      "en": "The Cellular Clockwork of the Primate Brain: A 5-Million-Cell Atlas of Aging"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於頂級期刊《Cell》的重量級研究，構建了迄今最詳盡的靈長類大腦衰老單細胞轉錄組圖譜。研究團隊跨越恆河猴整個生命週期（0.5歲至21歲），對11個大腦區域的530萬個細胞核進行深度測序，拆解出225個精細的細胞亞群。這項突破性工作顛覆了「大腦衰老主要由神經元普遍凋亡驅動」的傳統認知，指出神經膠質細胞的狀態轉變才是推動大腦老化的核心引擎；同時精準鎖定了極少數對衰老特別脆弱的神經元亞型，並揭示了生理衰老與阿茲海默症（AD）共享的分子根源與性別分化軌跡。\n\n【研究問題】衰老是認知退化與神經退行性疾病最大的風險因子，但我們對大腦在細胞與分子維度上「究竟如何變老」的理解仍極為有限。人類腦組織樣本極難獲得，且深受死亡後延遲、採樣差異及慢性共病等混雜因素干擾，難以捕捉疾病症狀出現前數十年的早期自然演變；而傳統的小鼠模型在腦結構與壽命上又與人類相距甚遠。大腦各區域的各類細胞是同步衰老還是各自演進？性別如何在其中發揮調控作用？解開這些謎團是預防與干預大腦退行性病變的先決條件。\n\n【研究方法】研究團隊利用波多黎各卡約聖地亞哥島上自然生活、遺傳背景清晰的自由放養恆河猴群體，選取了55隻涵蓋全生命週期且雌雄均衡的個體。他們精準解剖了包括背外側前額葉（dlPFC）、海馬體、運動皮層與尾狀核在內的11個關鍵腦區，採用高通量單核組合標籤測序技術（sci-RNA-seq3）捕獲了高達530萬個細胞核。結合波松對數常態模型（Hooke）與多變量自適應收縮演算法（MASH），團隊克服了測序噪聲與區域差異，構建出跨越20餘年的非線性衰老動態軌跡，並將其與人類阿茲海默症臨床轉錄組進行跨物種整合比對。\n\n【結果】研究揭示了令人震撼的細胞圖景：大腦衰老的主力竟是非神經元細胞。在成年期，膠質細胞亞群經歷了劇烈的組成轉變，例如小膠質細胞逐漸演化為促發炎且高表達脂質代謝標誌物（如 APOE 與 SPP1）的活化狀態，完美鏡像了人類攜帶 APOEε4 的衰老表型。相對而言，多數神經元數量在全壽命中保持驚人穩定，但特定亞群——如皮層第2/3層的投射神經元（L2/3 IT）與生長抑素（SST）陽性抑制性神經元，卻出現顯著耗竭，恰與阿茲海默症的早期病損區域高度吻合。全腦有高達62%的受測基因（9,372個）發生顯著年齡相關性表達改變，其中前額葉與尾狀核為「衰老熱點」；更重要的是，雄性與雌性在脂質代謝與神經發炎通路上表現出明顯的衰老分化，為男性與女性神經疾病易感性的不同提供了微觀解釋。",
+      "en": "**Summary:** Wei Yang and colleagues construct the most comprehensive single-cell transcriptomic atlas of primate brain aging to date, profiling 5.3 million nuclei across 11 brain regions in 55 rhesus macaques spanning infancy to advanced age (0.5 to 21 years). Their landmark study reveals that brain aging is driven not primarily by sweeping neuronal loss, but by profound, dynamic shifts in glial cell states and cell-type-specific transcriptional reprogramming. By uncovering a molecular continuum linking early developmental pathways to late-life decline, and identifying striking overlaps with human Alzheimer's disease pathology, the work redraws the boundaries between normal cognitive aging and neurodegenerative vulnerability.\n\n**Problem:** Aging is the primary driver of cognitive decline and neurodegeneration, yet mapping its cellular anatomy in humans is notoriously fraught. Postmortem human brain tissue suffers from confounding agonal states, long and variable postmortem intervals, and diverse medical comorbidities, obscuring the silent molecular origins of decay that emerge decades before clinical symptoms appear. Furthermore, conventional rodent models diverge sharply from human neuroanatomy and lifespan. A vital gap remained: how do distinct cell types across diverse brain circuits dynamically age across an entire primate lifespan, and how do biological sex and developmental programs intersect to create localized windows of vulnerability?\n\n**Approach:** Leveraging a unique cohort of free-ranging rhesus macaques from Cayo Santiago, the researchers sampled 11 distinct brain regions—from executive centers like the dorsolateral prefrontal cortex (dlPFC) to motor and subcortical nuclei. Utilizing high-throughput single-nucleus combinatorial indexing RNA sequencing (sci-RNA-seq3), they characterized 5.3 million nuclei across 12 major cell classes resolved into 225 transcriptionally distinct subclusters. The team applied Poisson log-normal modeling (Hooke) and multivariate adaptive shrinkage (MASH) to detect subtle shifts in cell abundance and gene expression, modeling non-linear lifespan trajectories with cubic splines and systematically comparing them to human Alzheimer's disease transcriptomic datasets.\n\n**Results:** The authors uncovered that non-neuronal glial populations are far more sensitive to aging than neurons. While total neuronal numbers remained remarkably resilient, specific fragile populations—such as cortical Layer 2/3 intratelencephalic neurons and SST+ interneurons—suffered severe age-associated attrition, mirroring patterns documented in Alzheimer's disease. Microglia underwent a continuous phenotypic transition from homeostatic surveillance toward a lipid-accumulating, proinflammatory state enriched for APOE and SPP1, mirroring human APOEε4 aging signatures. Broadly, 62% of evaluated genes (9,372 of 15,117) exhibited age-associated differential expression, with the dlPFC, primary motor cortex, and caudate nucleus acting as regional aging hotspots. Furthermore, sex-biased expression critically modulated lipid metabolism and inflammatory pathways, demonstrating that aging trajectories are deeply dimorphic and lay the cellular groundwork for disease decades before clinical onset."
+    },
+    "keyArticle": {
+      "title": "Single-cell, multi-region profiling of the macaque brain across the lifespan",
+      "authors": [
+        "Wei Yang",
+        "Kirsty Watkins",
+        "Alex R. DeCasien",
+        "Mary B. O’Neill",
+        "Martin O. Bohlen",
+        "Diana R. O’Day",
+        "Elliot A. Smith",
+        "Madeleine Duran",
+        "承祥 邱",
+        "Anastasia Meleshko",
+        "Anh Vo",
+        "Melia Menke",
+        "Diego Calderon",
+        "Jérôme Sallet",
+        "James P. Higham",
+        "Melween I. Martínez",
+        "Cole Trapnell",
+        "Lea M. Starita",
+        "Michael L. Platt",
+        "Michael L. Platt",
+        "Kenneth L. Chiou",
+        "Jay Shendure",
+        "Thomas Jude Montine"
+      ],
+      "doi": "10.1016/j.cell.2026.09.014",
+      "pages": "7571-7592.e7"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-11-01-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.09.014",
+      "doi": "https://doi.org/10.1016/j.cell.2026.09.014"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-14T00:22:10.026724+00:00",
+    "source": "openalex"
+  }
+}

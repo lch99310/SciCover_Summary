@@ -35,6 +35,8 @@
   "_meta": {
     "summary_mode": "abstract-only",
     "created_at": "2026-10-10T22:19:51.786642+00:00",
-    "source": "openalex"
+    "source": "openalex",
+    "retry_count": 1,
+    "last_retry_at": "2026-11-14T00:24:27.588356+00:00"
   }
 }

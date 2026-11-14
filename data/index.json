@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-11-07T22:44:14.587732+00:00",
+  "lastUpdated": "2026-11-14T00:29:02.531539+00:00",
   "articles": [
+    {
+      "id": "science-2026-11-12",
+      "journal": "Science",
+      "date": "2026-11-12",
+      "path": "articles/2026/11/science-2026-11-12.json",
+      "title_zh": "當電子化作黏稠液體：科學家如何用「同心圓盤」量測石墨烯中的量子黏滯係數，並顛覆經典費米液體理論？",
+      "title_en": "Measuring the Viscosity of an Electron Sea: How a Concentric Disk Revealed Non-Fermi Fluid Flow in Graphene",
+      "cover_url": "data/images/science/science-2026-11-12-cover.jpg"
+    },
+    {
+      "id": "nature-2026-11-11",
+      "journal": "Nature",
+      "date": "2026-11-11",
+      "path": "articles/2026/11/nature-2026-11-11.json",
+      "title_zh": "不加一滴鹵素：一杯「陰離子雞尾酒」如何讓碘電池跑完四電子全程",
+      "title_en": "Hold the Halogens: A Salty Cocktail Lets Iodine Batteries Run the Full Four-Electron Race",
+      "cover_url": "data/images/nature/nature-2026-11-11-cover.jpg"
+    },
     {
       "id": "science-2026-11-05",
       "journal": "Science",
@@ -18,6 +36,15 @@
       "title_zh": "看透脊椎受壓的祕密：全新 X 光三維成像「TomoSAXS」，揭開椎間盤纖維的微觀力學玄機",
       "title_en": "How the Spine Holds Up: TomoSAXS Peers Inside Loaded Discs to Unravel Nanoscale Fiber Mechanics",
       "cover_url": "data/images/nature/nature-2026-11-04-cover.jpg"
+    },
+    {
+      "id": "cell-2026-11-01",
+      "journal": "Cell",
+      "date": "2026-11-01",
+      "path": "articles/2026/11/cell-2026-11-01.json",
+      "title_zh": "大腦如何優雅或殘酷地老去？530萬個細胞揭開靈長類大腦的衰老時鐘",
+      "title_en": "The Cellular Clockwork of the Primate Brain: A 5-Million-Cell Atlas of Aging",
+      "cover_url": "data/images/cell/cell-2026-11-01-cover.jpg"
     },
     {
       "id": "science-2026-10-29-02",
@@ -90,6 +117,15 @@
       "title_zh": "破解三十年電池黑盒：AI 算力與核磁共振聯手，揭密鋰離子「抱團」如何塑造電池壽命",
       "title_en": "Rethinking the Battery: How Machine Learning Unmasked Lithium's Secret Clustering in Electrolytes",
       "cover_url": "data/images/nature/nature-2026-10-14-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-10-08",
+      "journal": "Journal of Development Economics",
+      "date": "2026-10-08",
+      "path": "articles/2026/10/journal-of-development-economics-2026-10-08.json",
+      "title_zh": "當學校淪為恐攻目標：暴力陰影如何悄悄斬斷跨國兒童認養的愛心援助？",
+      "title_en": "When Schools Become Targets: How Terrorist Attacks Disrupt Private Child Sponsorship",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-10-08-cover.jpg"
     },
     {
       "id": "science-2026-10-08-02",

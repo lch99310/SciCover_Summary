@@ -1,0 +1,59 @@
+{
+  "id": "nature-2026-11-11",
+  "journal": "Nature",
+  "volume": "659",
+  "issue": "8140",
+  "date": "2026-11-11",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-11-11-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "不加一滴鹵素：一杯「陰離子雞尾酒」如何讓碘電池跑完四電子全程",
+      "en": "Hold the Halogens: A Salty Cocktail Lets Iodine Batteries Run the Full Four-Electron Race"
+    },
+    "summary": {
+      "zh": "【總結】\n\n長久以來，碘在水系電池裡只能發揮「兩電子」的能耐——I⁻ 變成 I⁰，理論電容量 211 mAh g⁻¹。若能再往上推到 I⁰→I⁺，容量立刻翻倍到 422 mAh g⁻¹，還能多出一段 1.07 V（對標準氫電極）的高電位平台。問題是：缺電子的 I⁺ 是超級親電體，一碰到水就會被水解成碘酸根而報廢。過去唯一的解法，是把電解液做成高濃度、強腐蝕性的氯鹽或溴鹽，靠 ICl₂⁻、IBr₂⁻ 這類「鹵間化合物」把 I⁺ 抱住。這篇《Nature》論文證明，根本不必動用鹵素。作者提出「穩水陰離子（KA）—極性陰離子（PA）—親核分子（Nuc）」三元電解液框架：醋酸根負責在電極表面築起一道缺水、富陰離子的牆，硫酸根負責把水分子「拉緊」、鬆開 Nuc 與水之間的氫鍵，於是 Nuc 得以空出手來，以 Nuc–I⁺–Nuc 鹵鍵穩住 I⁺。這不只是一瓶新配方，而是一套重新解釋「水系多電子碘化學」的機制典範。\n\n【研究問題】\n\n四電子碘轉換的瓶頸不在體相，而在「界面」。碘的氧化還原發生在電極表面，界面上的水一旦過多，水解反應就會和鹵鍵穩定作用正面對撞：5I⁺ + 3H₂O → IO₃⁻ + 5H⁺ + 2I₂，I⁺ 一旦變成碘酸根，容量與可逆性雙雙崩潰。既有文獻的路線有兩條：一是把鹽濃度拉到極高（例如濃 ZnCl₂），用大量鹵離子壓低水的活度；二是加入特定添加劑進行親核取代。兩者都有明顯缺陷——高鹽、高腐蝕、成本高、可擴展性差，而且多半只針對「分子層次」的穩定，很少人講清楚電解液化學如何同時調控界面微環境、分子間作用與最終的電化學路徑。作者要回答的正是：有沒有一種不含鹵素的電解液，能同時把「界面」與「分子」這兩道關卡一起解掉？\n\n【研究方法】\n\n作者先做減法，再做加法。他們以硫酸鋅為基底，把變因一個一個拆開：只加親核分子（KA–Nuc）、只加極性陰離子（PA–Nuc）、兩者齊備（KA–PA–Nuc），用循環伏安與充放電曲線觀察四電子反應是否「跑得完、回得來」。接著固定 Nuc、替換陰離子，用 DFT 算出極性排序（CH₃COO⁻ > CF₃COO⁻ > CF₃SO₃⁻），再用分子動力學模擬界面水與陰離子的分布，並以原位 ATR-IR 直接「看」界面水分子的 δ-HOH 振動是否被壓下去。分子層次則靠 ²H、¹H、¹³C、¹⁵N 及二維 ¹H–¹⁵N HMBC 核磁共振，追蹤陰離子如何改變水–Nuc 氫鍵；電化學動力學則以原位 EIS 搭配弛豫時間分布（DRT）分析拆解。最後以原位拉曼、微米級 CT、軟包電池與 Al–I₂ 電池驗證普適性。\n\n【結果】\n\n三個關鍵序列撐起了整套論證：極性陰離子的極性越高，界面越缺水、越富陰離子，CH₃COO⁻ 能讓 I⁻/I⁰/I⁺ 三段全部可逆，CF₃COO⁻ 只做得到半套，CF₃SO₃⁻ 幾乎沒有 I⁰/I⁺ 訊號；穩水陰離子的循環穩定性則是 SO₄²⁻ > CH₃COO⁻ > CF₃SO₃⁻ > ClO₄⁻，與 ²H 化學位移所反映的「水被極化程度」完全同步。值得注意的是，連濃 ZnCl₂ 這種體相缺水的電解液，界面竟仍是水富集的——這正是傳統路線的盲點。實件表現上，鋅碘電池在 1 A g⁻¹ 下循環 1,000 圈保有 96% 容量，2 A g⁻¹ 下 2,000 圈仍有 94%，碘負載可推高到 12.2 mg cm⁻²，並成功放大到 1.1 Ah 軟包電池，還延伸到水系 Al–I₂ 體系。作者也誠實指出：要真正守住四電子轉換，光穩定 I⁺ 不夠，還得管好整體的「碘庫存」流失。",
+      "en": "**Summary:**\n\nIodine has long been stuck at half its potential in water. The familiar I⁻/I⁰ couple delivers 211 mAh g⁻¹ at 0.54 V; push the chemistry one step further to I⁰/I⁺ and the theoretical capacity doubles to 422 mAh g⁻¹, with a second plateau at a much higher 1.07 V. The obstacle has always been that electron-starved I⁺ is fiercely electrophilic and hydrolyses on contact with water. The standard fix is brute force: saturate the electrolyte with chloride or bromide so that interhalogen complexes such as ICl₂⁻ or IBr₂⁻ cage the iodine. This Nature paper shows the halogens can be dispensed with entirely. The authors propose a kosmotropic anion (KA)–polar anion (PA)–nucleophile (Nuc) electrolyte framework in which acetate builds a water-deficient, anion-rich interface while sulfate tightens the surrounding water, freeing the nucleophile to stabilise I⁺ through Nuc–I⁺–Nuc halogen bonds. It is less a new recipe than a new mechanistic language for multi-electron iodine chemistry in water.\n\n**Problem:**\n\nThe decisive battlefield is not the bulk electrolyte but the interface. Iodine conversion happens at the electrode surface, and whenever interfacial water is abundant, hydrolysis (5I⁺ + 3H₂O → IO₃⁻ + 5H⁺ + 2I₂) directly outcompetes the halogen-bond stabilisation of I⁺, destroying both capacity and reversibility. Earlier work attacked this from two directions: extremely concentrated halide electrolytes that suppress water activity, and tailored additives that exploit nucleophilic substitution. Both carry real costs — huge salt loading, corrosivity, expense, poor scalability — and both focus narrowly on molecular stabilisation while leaving the interfacial microenvironment largely unexamined. Strikingly, even a water-starved bulk electrolyte such as concentrated ZnCl₂ turns out to retain a water-rich interface. The open question was therefore whether a halogen-free electrolyte could regulate the interface and the molecule at the same time.\n\n**Approach:**\n\nThe authors worked by controlled subtraction and addition. Starting from zinc sulfate, they isolated each ingredient: nucleophile alone, polar anion alone, and both together, tracking with cyclic voltammetry and galvanostatic cycling whether the full four-electron sequence completes and returns. Holding the nucleophile fixed, they swapped anions, ranking polarity by DFT (CH₃COO⁻ > CF₃COO⁻ > CF₃SO₃⁻), mapping interfacial water and anion distributions with molecular dynamics, and confirming the picture with operando ATR-IR by watching the δ-HOH water bending mode fade. NMR — ²H, ¹H, ¹³C, ¹⁵N and 2D ¹H–¹⁵N HMBC — traced how anions reshape water–nucleophile hydrogen bonding. Operando impedance spectroscopy combined with distribution-of-relaxation-times analysis separated competing interfacial processes, while operando Raman, micro-CT, pouch cells and an Al–I₂ analogue tested generality.\n\n**Results:**\n\nTwo clear hierarchies emerge. On the polar-anion side, higher polarity means a drier, more anion-enriched interface: acetate supports fully reversible I⁻/I⁰/I⁺, trifluoroacetate only partially, triflate barely at all. On the kosmotropic side, cycling stability ranks SO₄²⁻ > CH₃COO⁻ > CF₃SO₃⁻ > ClO₄⁻, exactly mirroring the ²H chemical-shift ordering that tracks anion-induced water polarisation. The performance numbers are substantial: Zn–I₂ cells retain 96% of capacity after 1,000 cycles at 1 A g⁻¹ and 94% after 2,000 cycles at 2 A g⁻¹, sustain four-electron conversion at iodine loadings up to 12.2 mg cm⁻², and scale to a 1.1 Ah pouch cell, with the framework also transferring to aqueous Al–I₂ chemistry. The authors are candid about the remaining limit: stabilising I⁺ is necessary but not sufficient — sustained reversibility also demands careful management of the entire iodine inventory."
+    },
+    "keyArticle": {
+      "title": "Non-halogen aqueous electrolytes for four-electron iodine conversion",
+      "authors": [
+        "Guanjie He",
+        "Haobo Dong",
+        "Yuhang Dai",
+        "Jingyu Wang",
+        "Jie Chen",
+        "Jiyang Liu",
+        "Jianrui Feng",
+        "Yunpeng Zhong",
+        "Yunpeng Zhong",
+        "Wei Zhang",
+        "Hang Yang",
+        "Zhe Cui",
+        "Guanjie He"
+      ],
+      "doi": "10.1038/s41586-026-11282-0",
+      "pages": "372-377"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-11-11-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11282-0",
+      "doi": "https://doi.org/10.1038/s41586-026-11282-0"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-14T00:13:56.054025+00:00",
+    "source": "openalex"
+  }
+}

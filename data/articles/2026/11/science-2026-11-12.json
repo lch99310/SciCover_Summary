@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-11-12",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6825",
+  "date": "2026-11-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-11-12-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "當電子化作黏稠液體：科學家如何用「同心圓盤」量測石墨烯中的量子黏滯係數，並顛覆經典費米液體理論？",
+      "en": "Measuring the Viscosity of an Electron Sea: How a Concentric Disk Revealed Non-Fermi Fluid Flow in Graphene"
+    },
+    "summary": {
+      "zh": "【總結】在凝聚態物理的微觀世界中，當電子之間的碰撞極其頻繁且動量守恆時，它們不再各自為政，而是匯聚成一股宛如蜂蜜般的黏稠「電子流體」。長期以來，物理學家一直難以在實驗中精確量化這種流體的核心性質——電子剪切黏滯係數。由哥倫比亞大學 Cory Dean 與麻省理工學院 Leonid Levitov 等人組成的研究團隊，在《科學》（Science）期刊發表突破性成果：他們在高品質單層與雙層石墨烯中設計了同心圓環形狀的「科爾比諾盤」（Corbino disk），將其打造成同時具備歐姆計與黏度計功能的精密探針。該研究首次定量分離了混和流動中的歐姆散射阻力與純黏性流動效應，並意外發現電子碰撞率與溫度呈一次方線性關係，徹底打破了二維費米液體理論數十年來的教科書預測，為帶電體系中新奇的「斷層流」（tomographic flow）提供了關鍵實驗證據。\n\n【研究問題】電子流體動力學雖然極具吸引力，但在固態元件中精準測量黏滯係數卻面臨一道根本性的物理瓶頸。首先，電子與電子之間的碰撞是「動量守恆」的，這意味著粒子間的摩擦本身並不耗散總動量、不直接產生電阻，能量只有在電子撞擊元件物理邊界或晶格雜質時才會消散。因此，黏滯阻力往往與元件邊界形狀緊密糾纏。其次，真實材料很難達到毫無雜質的純流體極限，傳輸過程往往是動量守恆的「黏性流」與動量弛豫的「歐姆流」共存的混和流態。以往無論是改變元件寬度還是探測非局部電壓，都必須假設歐姆散射可以忽略不計，這將量測侷限在極窄的參數區間，無法全面探索黏滯係數隨溫度和載子濃度的演變全貌。\n\n【研究方法】為了解決邊界干擾與混和流的糾纏，研究團隊巧妙採用了沒有任何側壁邊界的「科爾比諾同心圓幾何」（Corbino geometry），讓電流從內圈電極徑向擴散至外圈電極。在微弱垂直磁場下，元件的磁阻展現出拋物線特徵（$R(B) = R_0 + \\alpha B^2$）。研究者利用磁場會隨著迴旋半徑縮小而逐漸抑制電子黏滯係數的物理機制，在磁阻的二次微分曲線中精準辨識出兩個平台：在較高磁場下，黏性效應被完全凍結，曲率 $\\alpha_{\\text{Ohm}}$ 直接對應純歐姆電阻率 $\\rho_0$；而在低磁場下，曲率 $\\alpha$ 則由結合了流體力學斯托克斯方程式與歐姆定律的解析解掌控。透過這種兩段式磁阻分析，研究人員在不引入任何自由擬合參數的前提下，乾淨俐落地從總電阻中剝離出純黏性貢獻、歐姆電阻以及外部接觸電阻，定量繪製出古爾茲長度（Gurzhi length）與黏滯係數。\n\n【結果】這項精密量測帶來了一連串顛覆認知的驚人發現。在電子摻雜較高的費米液體區，單層與雙層石墨烯的運動黏度均表現為與溫度成反比（$\\nu \\propto 1/T$），由此推導出的有效電子碰撞率嚴格正比於溫度（$\\tau_{ee}^{-1} \\propto T$），且完全不依賴載子濃度。這與朗道費米液體理論所預言的 $\\tau_{ee}^{-1} \\propto T^2/E_F$ 完全背道而馳，卻精準契合了近期理論所提出的「斷層傳輸」模型——在二維動量空間中，不同角動量模式的非平衡分佈會導致反常的線性溫度耗散。此外，團隊進一步觀測到從費米液體進入近電荷中性點「狄拉克流體」（Dirac fluid）的連續相變：此時剪切黏度轉而隨溫度升高而上升（單層為 $T^2$，雙層為 $T$ 線性），證實了熱激發電子-電洞對與摻雜載子並聯流動的雙流體機制。在中性點附近，單層石墨烯的黏度與熵密度之比降至約 $0.2\\,\\hbar/k_B$，極度接近全像量子力學所設定的「近乎完美流體」極限，為探索平帶強關聯系統的量子液態奠定了堅實基礎。",
+      "en": "**Summary:** When electrons in a conductor collide with one another far more frequently than with impurities or lattice vibrations, they cease to act as individual ballistic particles and instead organize into a viscous fluid. In a landmark paper published in *Science*, a collaborative team from Columbia University and MIT introduced an elegant method to quantitatively measure electron viscosity in monolayer and bilayer graphene. Utilizing a concentric Corbino-disk geometry, the researchers transformed the system into a simultaneous Ohmmeter and viscometer, successfully disentangling momentum-conserving viscous flow from momentum-relaxing Ohmic dissipation across a wide mixed-flow regime. Their quantitative results unveiled a profound surprise: in the degenerate regime, the electron-electron scattering rate scales strictly linearly with temperature—a direct departure from the quadratic temperature dependence mandated by classic Landau Fermi liquid theory, confirming a newly postulated \"tomographic\" flow regime in two-dimensional charged fluids.\n\n**Problem:** While electron hydrodynamics has emerged as a fertile framework for describing strongly correlated materials, experimental quantification of its central parameter—shear viscosity—has remained notoriously elusive. This difficulty stems from an intrinsic physical paradox: electron-electron ($e\\text{--}e$) scattering conserves momentum and generates no electrical resistance on its own. Energy dissipation only occurs when the moving electronic fluid shears against physical boundaries or scatters off phonons and impurities. In real-world devices, viscous flow almost always coexists with conventional Ohmic resistance. Previous techniques, such as non-local transport or boundary-profile imaging, typically required assuming that Ohmic scattering was negligible, confining measurements to narrow temperature and density windows and leaving fundamental scaling laws poorly understood.\n\n**Approach:** To eliminate lateral boundary effects and cleanly dissect the mixed-flow regime, the authors fabricated concentric Corbino-disk devices using high-quality boron nitride-encapsulated monolayer and bilayer graphene. In this geometry, current flows radially between inner and outer contacts, leaving no side edges. Under a perpendicular magnetic field, the magnetoresistance exhibits a quadratic field response ($R(B) = R_0 + \\alpha B^2$). Because increasing the magnetic field decreases the cyclotron radius and suppresses the hydrodynamic viscosity, the magnetoresistance naturally partitions into two quadratic regimes: a high-field parabolic regime governed solely by pure Ohmic resistivity (yielding curvature $\\alpha_{\\text{Ohm}}$), and a low-field regime governed by a coupled Stokes-Ohm equation containing both Ohmic resistivity and shear viscosity (curvature $\\alpha$). By measuring both regimes in the same device, the authors extracted the Ohmic resistivity, the contact resistance, the shear viscosity $\\eta$, and the characteristic Gurzhi length without relying on arbitrary free fitting parameters.\n\n**Results:** The resulting viscosity measurements delivered several groundbreaking insights. In the degenerate Fermi liquid regime of both monolayer and bilayer graphene, the kinematic viscosity scaled inversely with temperature ($\\nu \\propto 1/T$), translating to an effective electron-electron scattering rate that scaled linearly with temperature ($\\tau_{ee}^{-1} \\propto T$) and independent of carrier density. This decisively refutes the $T^2/E_F$ scaling celebrated by standard two-dimensional Fermi liquid theory, but aligns remarkably with the recently proposed \"tomographic transport\" theory, in which disparate relaxation lifetimes among angular harmonic modes yield an effective $T/n^{1/6}$ scattering behavior. Furthermore, by tuning the carrier density toward the charge neutrality point, the team tracked the smooth crossover into the relativistic \"Dirac fluid\" electron-hole plasma, where viscosity flips its temperature dependence to increase with temperature (scaling as $T^2$ in monolayer and $T$ in bilayer graphene). In this regime, the ratio of shear viscosity to entropy density reached approximately $0.2\\,\\hbar/k_B$, hovering near the universal Kovtun-Son-Starinets quantum bound for a nearly \"perfect fluid\" and opening fresh pathways for probing correlated flat-band systems."
+    },
+    "keyArticle": {
+      "title": "Quantitative measurement of viscosity in two-dimensional electron fluids",
+      "authors": [
+        "Yihang Zeng",
+        "Haoyu Guo",
+        "Olivia Ghosh",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Leonid S Levitov",
+        "Cory R. Dean"
+      ],
+      "doi": "10.1126/science.adr5469",
+      "pages": "786-791"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-11-12-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adr5469",
+      "doi": "https://doi.org/10.1126/science.adr5469",
+      "preprint": "http://arxiv.org/abs/2407.05026"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-14T00:12:30.232184+00:00",
+    "source": "openalex"
+  }
+}
