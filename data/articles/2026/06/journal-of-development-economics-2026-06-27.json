@@ -1,0 +1,50 @@
+{
+  "id": "journal-of-development-economics-2026-06-27",
+  "journal": "Journal of Development Economics",
+  "volume": "183",
+  "issue": "",
+  "date": "2026-06-27",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-06-27-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "開墾新大陸：歐洲移民潮如何重塑巴西農業與現代化轉型？",
+      "en": "Plowing the Frontier: How Mass Migration Fueled Brazil's Agricultural Rise"
+    },
+    "summary": {
+      "zh": "【總結】這項發表於《發展經濟學雜誌》（Journal of Development Economics）的研究，揭開了大移民時代（1855–1920）歐洲移民如何實質推動新興經濟體農業發展的歷史謎題。研究團隊利用巴西歷史鐵路網建設時機與全球移民湧入的交錯關係建立因果識別，發現歐洲移民的湧入顯著提升了巴西各市鎮的農場價值與資本積累。這項成果打破了傳統「農業擴張必然延緩工業化轉型」的發展經濟學迷思，證明了外來勞動力如何透過更集約的土地開墾，在不阻礙甚至加速結構轉型的前提下，奠定現代經濟基石。\n\n【研究問題】過去關於移民經濟影響的探討，多數聚焦於現代已開發國家（如美國）且常限於移民限制政策的短期衝擊；在歷史經濟學領域，亦多著重於工業部門的創新或城市化，鮮少探討大規模移民對發展中農業前線的實質影響。長期以來，發展經濟學與巴西史學界更存在激烈爭辯：引進大量廉價歐洲移民勞動力填補廢除奴隸制後的空缺，究竟是促進了技術進步，還是加劇了資源詛咒、將經濟鎖定在低附加價值的單一經濟作物（如咖啡），進而延緩工業化與現代化腳步？解開這段因果機制至關重要。\n\n【研究方法】為解決移民定居地點往往存在內生性（移民傾向選擇自然條件較好、交通發達地區）的難題，研究者數位化了極為罕見的1920年巴西人口與農業普查數據，並借鑒前沿的工具變數策略。他們利用「全國移民潮波峰波谷」與「各市鎮接入鐵路網時間點」的交互作用建構工具變數——即在移民大潮爆發「前夕」恰好通火車的市鎮，會被動承接遠超預期比例的歐洲移民，而通車時機在統計上與當地既有自然及社會條件平行無偏。研究進一步結合凝膠巴赫（Gelbach）中介分解法與聖保羅州的農場微觀資料，深度拆解地價、基建與農具投資背後的驅動因素。\n\n【結果】實證結果顯示，市鎮中歐洲移民人口比例每提高1個標準差，其每公頃農場價值便大幅上升約0.7個標準差；這種升值不僅體現在土地價值（+0.73標準差），更同步帶動了農業基礎設施（+0.58標準差）與農機農具（+0.75標準差）的深層投資。機制分析表明，約四分之一的增長源自「土地集約化開墾」——移民將大片荒地與原始森林轉化為耕地。最關鍵的是，移民並未阻礙巴西的結構轉型：外來人口份額較高的市鎮，農業勞動力佔比反而下降約0.4個標準差，工商業樞紐形成的機率顯著提高，且無論本國人或外國人的識字率均全面上升，證明移民帶動了以生產力擴張為基礎的良性經濟躍遷。",
+      "en": "**Summary:** This landmark study in the *Journal of Development Economics* provides compelling causal evidence on how European immigration during the Age of Mass Migration (1855–1920) propelled agricultural development in an emerging economy. By cleverly exploiting the rollout of Brazil’s railway network in tandem with international migration waves, the authors demonstrate that an influx of European immigrants dramatically increased farm land values, capital investments, and cultivation intensity. Far from entrenching an agrarian trap or stifling industrial growth, these demographic inflows accelerated Brazil’s broader structural transformation and human capital formation.\n\n**Problem:** While modern literature frequently investigates how labor restrictions affect agriculture in advanced economies, less is known about how mass migration shaped agricultural frontiers in developing nations. In historical Latin America—particularly Brazil, which transitioned from slave labor to subsidized wage labor—scholars have long debated whether immigration stimulated genuine rural modernization or merely perpetuated primary-export dependency on coffee, ultimately delaying the shift toward industry and services. Untangling the causal impact requires overcoming severe endogeneity, as immigrants naturally selected into wealthier, fertile, or better-connected districts.\n\n**Approach:** To establish causality, the authors digitized rich municipality-level records from Brazil’s 1920 Census alongside state-level microdata from São Paulo. They implemented an instrumental variables strategy that interacts national-level immigration booms and lulls with the spatial expansion of Brazil's railroad system. Municipalities connected immediately prior to an aggregate immigration surge received disproportionately more immigrants due to transport logistics rather than unobserved local potential. They then used Gelbach decomposition techniques to parse the precise channels—such as land cultivation, crop specialization, and mechanization—through which immigrants altered farm values and impacted local structural change.\n\n**Results:** The findings reveal that a one-standard-deviation rise in a municipality's European immigrant share boosted farm values per hectare by 0.74 standard deviations. Importantly, this appreciation was not speculative: it extended across land (+0.73 SD), farm infrastructure (+0.58 SD), and tools and machinery (+0.75 SD). Roughly 25% of this value surge was driven by more intensive land use, as immigrants cleared forests and transformed fallow ground into productive plots. Moreover, immigration did not stall modernization; it significantly decreased the agricultural share of employment by roughly 0.4 standard deviations, increased the probability of municipalities becoming commercial or industrial hubs, and elevated literacy rates among both natives and foreigners."
+    },
+    "keyArticle": {
+      "title": "The effects of immigration on agricultural development",
+      "authors": [
+        "David Escamilla‐Guerrero",
+        "Andrea Papadia",
+        "Ariell Zimran"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103861",
+      "pages": "103861"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-06-27-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103861",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103861",
+      "preprint": "https://doi.org/10.2139/ssrn.4703274"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-17T02:44:31.121999+00:00",
+    "source": "openalex"
+  }
+}

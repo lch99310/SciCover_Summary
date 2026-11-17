@@ -1,0 +1,84 @@
+{
+  "id": "cell-2026-11-01-02",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "23",
+  "date": "2026-11-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-11-01-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解碼靈長類大腦深處的分子坐標：科學家繪製首座全亞皮質多組學空間調控地圖",
+      "en": "Cartography of the Primate Deep Brain: Unlocking the Spatial and Epigenetic Architecture of the Subcortex"
+    },
+    "summary": {
+      "zh": "【總結】大腦皮層之下的廣袤亞皮質（subcortex）負責維繫生命基本功能、情感驅動與高階認知整合，然而科學界長期缺乏高解析度的靈長類亞皮質全景分子地圖。由艾倫腦科學研究所與普林斯頓大學等機構組成的研究團隊，在頂級期刊《Cell》發表了一項里程碑研究，建立了首個涵蓋靈長類普通狨猴全亞皮質的單細胞空間轉錄組與染色質開放性圖譜（MSCA）。該研究深入解析了超過67萬個細胞核與47張全腦切片，不僅將人類大腦圖譜中長久未解的龐大「飛濺群」（Splatter）細胞精準歸位至具體的深層核團，更闡明了基因增強子與轉錄因子如何協同編織出空間漸層與演化特異性，為理解靈長類大腦演化及神經精神疾病提供了關鍵基石。\n\n【研究問題】過去數年，小鼠全腦細胞圖譜已日臻完善，但囓齒類與靈長類在腦結構、神經元遷移及迴路規模上存在顯著鴻溝。人類大腦質量是小鼠的3,000倍，由於體積龐大且取得不易，現有人類單核轉錄組研究多仰賴粗略的組織塊微切，難以進行全腦連續的超高解析度空間定位，導致罕見細胞型態與連續空間漸層常被忽略。例如，人類全腦數據中最大、最異質的「Splatter」神經元超群，過去因缺乏解剖坐標而難以分類。更根本的是，基因調控網絡（GRN）在空間中如何形塑細胞身分？同一種轉錄因子何以在不同腦區驅動相異程式？這些問題亟需一個兼具完整靈長類特徵與緊湊體積的動物模型來破局。\n\n【研究方法】研究團隊選用大腦僅重8克、具備完整靈長類演化特徵的普通狨猴（Callithrix jacchus）。他們在4隻狨猴的整個亞皮質連續切出76個精細解剖塊，利用螢光活化細胞核分選（FANS）富集神經元後，透過10x Multiome技術同時測序每個細胞核的RNA轉錄組與ATAC染色質可及性，最終獲得678,917個高質量細胞核數據，聚類出1,737個轉錄簇、212個組與17個大類。隨後，研究者精心設計了包含300個標記基因的探針庫，利用10x Xenium原位空間轉錄組技術掃描了覆蓋整個大腦半球的47個連續冠狀切面。接著，團隊運用SCENIC+演算法將轉錄因子、順式調控元件（cCRE/增強子）及靶基因串聯為「eRegulon」調控單元，將染色質景觀與三維解剖空間進行跨模態、跨物種的精準整合。\n\n【結果】研究揭示了多項深層組織原則：第一，跨物種映射成功將人類模糊的「Splatter」超群拆解為下視丘、韁核、不確定帶（ZI）與終紋床核（BST）等數百個解剖結構分明且演化保守的亞型。第二，揭示了「同因異果」與「異因同果」的調控邏輯——轉錄因子OTX2在視丘抑制神經元與室管膜膠質細胞中高度表現，但因神經元特異性輔助因子（如DMBX1）的協同作用，兩者鎖定的增強子與靶基因截然不同；相反地，端腦星狀膠質細胞與神經元雖共同表現靈長類特異的MOXD1基因，前者依賴啟動子區增強子，後者則由內含子增強子驅動。第三，海馬迴CA3區神經元並非呈現離散邊界，而是由TCF4等轉錄因子與增強子活性的連續空間濃度梯度共同維繫。第四，發現靈長類大幅擴張的視丘GABA能抑制性神經元在調控語法上與演化保守的中腦族群高度同源，為其演化起源提供了強而有力的表觀遺傳學證據。",
+      "en": "**Summary:** The mammalian subcortex orchestrates foundational drives, emotional states, and sensorimotor integration, yet a unified, spatially resolved molecular atlas of this sprawling territory in primates has remained elusive. In a landmark study published in *Cell*, an international consortium from the Allen Institute and Princeton University mapped the complete subcortex of the common marmoset (*Callithrix jacchus*). By coupling single-nucleus multi-omics (simultaneous RNA sequencing and chromatin accessibility) with high-density spatial transcriptomics, the authors generated an atlas of 1,737 transcriptionally distinct cell clusters mapped across 47 serial brain sections. This comprehensive resource resolves longstanding enigmas in human neuroanatomy—including deconstructing the enigmatic, ill-defined human 'Splatter' neuronal supercluster—while unveiling how spatial gradients and cis-regulatory architectures dynamically forge primate brain identity.\n\n**Problem:** While comprehensive single-cell taxonomies exist for the laboratory mouse, rodent brains diverge sharply from primates in architectural scaling, cell-type diversification, and migratory routes. Human brain studies, constrained by a tissue mass roughly 3,000-fold larger than that of mice and reliant on coarse postmortem microdissections, struggle to capture continuous spatial topographies or tiny, dispersed nuclei. Consequently, major human cell groupings—most notably the sprawling 'Splatter' supercluster—remained an unresolved spatial mosaic. Moreover, how cis-regulatory elements (such as enhancers) and transcription factor networks govern subcortical cell diversity across space and evolutionary lineages remained virtually uncharted across intact primate neural systems.\n\n**Approach:** The authors turned to the common marmoset, a New World monkey whose compact 8-gram brain bridges the evolutionary gap between mice and humans while remaining fully accessible to spatial technologies. Across four donors, the entire subcortex was partitioned into 76 contiguous anatomical tiles. Nuclei were isolated, FANS-sorted to enrich neuronal fractions, and profiled via 10x Multiome, yielding 678,917 high-quality joint RNA-and-ATAC profiles categorized into a three-level hierarchy (17 classes, 212 groups, and 1,737 clusters). Concurrently, they profiled 47 serial coronal sections using 10x Xenium in situ spatial transcriptomics with a targeted 300-gene panel. Using SCENIC+, they integrated open chromatin peaks, transcription factor binding motifs, and downstream targets into functional gene regulatory networks ('eRegulons'), cross-referencing these findings against existing human and mouse atlases via interactive platforms.\n\n**Results:** The resulting marmoset subcortical atlas yielded several fundamental discoveries. First, cross-species mapping resolved the enigmatic human 'Splatter' supercluster into hundreds of anatomically discrete, evolutionarily conserved populations anchored to specific nuclei in the hypothalamus, habenula, zona incerta, and bed nucleus of the stria terminalis. Second, the authors uncovered surprising regulatory syntax: master transcription factor OTX2 executes entirely divergent gene programs in neurons versus glia by pairing with lineage-restricted co-factors like DMBX1 at distinct enhancers. Conversely, telencephalic astrocytes and neurons converge on the shared expression of MOXD1 via completely disparate regulatory architectures. Third, spatial gene expression along the hippocampal longitudinal axis (e.g., within CA3) is orchestrated by continuous gradients of transcription factors (such as TCF4) acting upon graded enhancers. Finally, the study demonstrated that primate-expanded thalamic GABAergic interneurons share epigenetic and transcriptional syntax with conserved midbrain populations, providing compelling clues into their evolutionary emergence."
+    },
+    "keyArticle": {
+      "title": "Spatial and regulatory organization of cell identity across the primate subcortex",
+      "authors": [
+        "Shu Dan",
+        "Meghan A. Turner",
+        "Michael DeBerardine",
+        "Lakme Caceres",
+        "Victor E. Nieto-Caballero",
+        "Jessica Schembri",
+        "Kirsten M. Levandowski",
+        "Christopher Cardenas",
+        "Ning Wang",
+        "Chang Li",
+        "Soumyadeep Basu",
+        "Hongyu Zheng",
+        "X. Shirley Liu",
+        "Thomas Höllt",
+        "Jessica Feliciano",
+        "Qiangge Zhang",
+        "Reilly Nakamoto",
+        "Delissa McMillen",
+        "Naomi X. Martin",
+        "Nasmil Valera Cuevas",
+        "Paul A. Olsen",
+        "Josh Nagra",
+        "Jazmin Campos",
+        "Marshall M. VanNess",
+        "Jack Waters",
+        "Shea T. Ransford",
+        "Zoe Juneau",
+        "Sam Hastings",
+        "Stuard Barta",
+        "Augustin Ruiz",
+        "Jeanelle Ariza",
+        "Benjamin J. Raphael",
+        "Hongkui Zeng",
+        "Ed S. Lein",
+        "Boudewijn P. F. Lelieveldt",
+        "Guoping Feng",
+        "Brian Long",
+        "Fenna M. Krienen"
+      ],
+      "doi": "10.1016/j.cell.2026.10.007",
+      "pages": "7471-7491.e10"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-11-01-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.10.007",
+      "doi": "https://doi.org/10.1016/j.cell.2026.10.007"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-17T02:30:43.876733+00:00",
+    "source": "openalex"
+  }
+}

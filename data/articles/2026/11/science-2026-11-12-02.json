@@ -1,0 +1,54 @@
+{
+  "id": "science-2026-11-12-02",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6825",
+  "date": "2026-11-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-11-12-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "狗狗不只是最好的朋友，還是抗癌的最佳替身：770 顆腫瘤繪出的跨物種癌症基因地圖",
+      "en": "Man's Best Friend, Cancer's Best Model: A 770-Tumor Atlas Maps the Canine Cancer Genome"
+    },
+    "summary": {
+      "zh": "【總結】\n\n都靈大學團隊打造的「犬癌症基因體圖譜」（Canine Cancer Genome Atlas, CCGA），把散落在各界、橫跨 2015 至 2022 年的犬腫瘤全外顯子定序資料，整合成一個可供全球免費查詢的平台：770 個病例、10 種腫瘤型態、637 個通過品質檢測的樣本，共捕捉到 34,732 個體細胞單核苷酸變異、1,378 個插入缺失、26 萬多段拷貝數異常，以及近 9 萬個結構變異。最關鍵的訊息是：狗與人的癌症在基因層次上高度共鳴——TP53 在 10 種癌症中有 7 種發生突變，MYC 在多數腫瘤中擴增，PTEN 在多種腫瘤中缺失。這不只是一本狗的癌症字典，更像是一面照向人類腫瘤的鏡子；而且它是個網站，人人可查。\n\n【研究問題】\n\n癌症是十歲以上狗狗的頭號死因之一，將近一半的老狗死於此病；更微妙的是，犬腫瘤在病理形態、臨床行為與治療反應上，常常與人類對應的癌症如出一轍。這讓「狗可以當人類癌症的天然模型」成為極具吸引力的主張。問題在於，過去十多年雖累積了二十多個犬腫瘤定序研究，卻像二十幾本各自為政的帳簿：定序深度不同、變異偵測軟體不同、參考基因體版本各異，更麻煩的是，不同品種狗天生帶有大量「正常」的種系變異，很容易被誤認為致癌突變。結果是——沒有人能權威地回答：哪些基因才是真正的兇手？\n\n【研究方法】\n\n這篇論文其實沒有新養一隻狗、新跑一次定序，而是一場大型的「資料救援行動」。作者從美國 NCBI 的 SRA 資料庫撈出 20 篇已發表的犬腫瘤全外顯子研究，只保留「腫瘤＋同一隻狗的配對正常組織」的樣本，並要求腫瘤覆蓋度至少 15 倍、正常組織至少 10 倍。接著用 BWA 把序列貼回 canFam3.1 犬參考基因體，經 GATK 流程進行鹼基品質校正，再為每個研究建立專屬的「正常樣本面板」，把品種種系變異與福馬林固定造成的假突變濾掉。最關鍵的一步是「三票制」：同時動用 Mutect2、Strelka、VarScan 三套變異偵測軟體，至少兩套都抓到的突變才算數。之後再以 ASCAT 計算絕對拷貝數、GISTIC2 找出反覆擴增／缺失的染色體熱點、dNdScv 篩選正選擇的驅動基因、sigminer 拆解突變印記，並用 Delly 偵測結構變異。\n\n【結果】\n\n數據相當有戲。腫瘤突變負荷從每兆鹼基 0.33 到 4.88 個突變，落差十倍以上：肺腺癌與泌尿道癌最高（符合長期接觸致癌物的模式），黑色素瘤反而偏低——因為犬黑色素瘤多長在口腔、與紫外光無關，這正是犬與人不同的關鍵差異。在 11,506 個曾突變的基因中，有 704 個屬於「反覆出現」，但只有 51 個跨兩種以上癌症，顯示各腫瘤型態的基因規則其實壁壘分明。拷貝數異常占所有變異的 95%，全基因體中位數 21% 受影響；骨肉瘤高達 45.7%，乳腺腫瘤僅 4.8%。254 個拷貝數熱點集中在 CFA22，CFA13 上的 MYC 反覆擴增、CFA26 上的 PTEN 反覆缺失。另有 90,682 個結構變異，其中 51,866 個是倒位，CARD10 在五種癌症中反覆發生倒位。DNA 修復路徑的變異率中位數為 23%，血管肉瘤達 73%、骨肉瘤 67%——暗示這些腫瘤可能對 PARP 抑制劑或 DNA 損傷藥物特別脆弱。",
+      "en": "**Summary:**\n\nA team at the University of Turin has turned two decades of scattered canine sequencing data into the Canine Cancer Genome Atlas (CCGA), a harmonized, freely browsable map of 770 tumors spanning ten histotypes. After quality control, 637 samples yielded 34,732 somatic single-nucleotide variants, 1,378 indels, roughly 265,500 copy-number aberrations and nearly 90,000 structural variants. The headline is convergence: TP53 is mutated in seven of the ten cancer types, MYC is recurrently amplified, and PTEN is recurrently deleted — the same architecture seen in human tumors. Packaged as a cBioPortal-style website, the atlas becomes both a clinical tool for veterinary oncology and a cross-species reference for human cancer biology.\n\n**Problem:**\n\nCancer kills nearly half of dogs over ten years of age, and canine malignancies mimic human ones in pathology, behavior and drug response, making dogs an unusually faithful natural model. Yet canine genomics was a patchwork: two dozen small whole-exome studies, built on different pipelines, coverage depths and reference genomes, with no shared standard. Worse, dog breeds carry abundant germline variants that masquerade as somatic mutations, and FFPE artifacts inflate the noise. Without a harmonized pan-cancer view, nobody could reliably say which genes are genuine drivers — crippling both veterinary precision oncology and the translational argument.\n\n**Approach:**\n\nRather than sequence a single new dog, the authors performed a data rescue. They pulled 20 published canine tumor exome studies from the Sequence Read Archive, keeping only cases with matched normal tissue from the same animal (tumor coverage ≥15X, normal ≥10X). Reads were aligned to canFam3.1 with BWA and processed through GATK base-quality recalibration; a bespoke panel of normals per project stripped out breed germline variants and fixation artifacts. Variant calling used majority voting across three callers — Mutect2, Strelka and VarScan — requiring agreement from at least two. Downstream, ASCAT estimated allele-specific copy number, GISTIC2 located recurrent peaks, dNdScv identified positive selection, sigminer extracted mutational signatures, and Delly found structural rearrangements.\n\n**Results:**\n\nTumor mutational burden ranged from 0.33 to 4.88 mutations per megabase, highest in pulmonary and urinary carcinomas (consistent with carcinogen exposure) and lowest in melanoma — because canine melanoma is predominantly oral and not ultraviolet-driven. Of 11,506 mutated genes, 704 recurred, but only 51 appeared in two or more histotypes; 45 genes showed positive selection. Copy-number events made up 95% of all alterations: a median 21% of the genome was affected, from 45.7% in osteosarcoma to 4.8% in mammary tumors. Peaks clustered on CFA22, with MYC amplification on CFA13 and PTEN deletion on CFA26. Among 90,682 structural variants, 51,866 were inversions, with CARD10 recurrently inverted in five cancer types and no recurrent fusions. DNA repair pathway alterations reached 73% in hemangiosarcoma and 67% in osteosarcoma, hinting at PARP-inhibitor vulnerability."
+    },
+    "keyArticle": {
+      "title": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA)",
+      "authors": [
+        "Eugenio Mazzone",
+        "Laura Marconato",
+        "Antonella Fanelli",
+        "Luciano Cascione",
+        "Francesco Bertoni",
+        "Caterina Marchiò",
+        "Anna Sapino",
+        "Luca Aresu"
+      ],
+      "doi": "10.1126/science.aeg8777",
+      "pages": "eaeg8777"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-11-12-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.aeg8777",
+      "doi": "https://doi.org/10.1126/science.aeg8777"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-17T02:18:42.044197+00:00",
+    "source": "openalex"
+  }
+}

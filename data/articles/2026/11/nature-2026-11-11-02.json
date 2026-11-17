@@ -1,0 +1,55 @@
+{
+  "id": "nature-2026-11-11-02",
+  "journal": "Nature",
+  "volume": "659",
+  "issue": "8140",
+  "date": "2026-11-11",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-11-11-02-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "打破對稱的材料革命：當網路科學遇上超材料，如何用「多尺度混亂」造出抗衝擊奇蹟？",
+      "en": "The Power of Scale-Rich Disorder: Merging Network Science and Mechanical Metamaterials"
+    },
+    "summary": {
+      "zh": "【總結】長久以來，工程師設計機械超材料時，總執著於對稱、均勻的晶格與單一尺度微結構。然而，大自然中的骨骼、葉脈以至網際網路，卻憑藉跨越多個數量級的複雜多尺度網絡展現出驚人的強韌度。由網路科學權威 Barabási 與 MIT 機械工程團隊聯手發表的這項研究，打破了傳統超材料的均質假說，提出僅需兩個參數控制的「多尺度富集」（scale-rich, SR）網絡架構。這種新型超材料在微觀韌帶的長度、厚度與連接度上同時展現冪律分佈，不僅能涵蓋前所未有的彈性各向異性，更在承受劇烈撞擊時徹底消除致命的局部剪切帶，開創了具備自我消能與波導功能的通用材料設計新範式。\n\n【研究問題】傳統機械超材料（如蜂窩狀、方形晶格乃至隨機的 Voronoi 泡沫）雖然能帶來輕量高剛性等特殊力學特性，但其微觀單元往往受限於單一特徵尺寸與均勻連接度。這種「單尺度均質性」是雙面刃：在外力壓縮或衝擊下，局部應力極易沿著特定晶格方向失穩，形成骨牌效應般的壓實帶（compaction bands）或剪切帶，導致結構瞬間瓦解、衝擊峰值力遽增。反觀蜻蜓翅膀或神經血管，尺寸跨越千百倍卻無比強韌。科學界長期缺乏一套能同時讓韌帶長度、厚度與節點度數跨越數個數量級的生成理論，也無法精確預測這種極端非均質性如何塑造宏觀物理力學響應。\n\n【研究方法】研究團隊借鏡網絡科學與道路網絡的生長機制，提出了一種極為優雅的生成演算法：在二維或三維空間中隨機撒下晶核，以隨時間遞減的厚度（$\\lambda_t = \\lambda_0 t^{-\\alpha}$）向兩端延伸韌帶，直到碰觸邊界或其他韌帶即熔融停止，僅憑初始厚度 $\\lambda_0$ 與衰減指數 $\\alpha$ 兩個參數即可調控全局。團隊將韌帶視為節點、交會處視為連線，嚴格推導出長度、厚度與度數皆服從冪律分佈的相圖。接著，他們利用大槽光聚合 3D 列印（公分級）與雙光子微奈米光刻技術（次微米級）製作實體樣本，結合有限元素模擬、高速攝影落錘動態衝擊測試，以及光彈性應力成像，全方位驗證了其靜動態力學與彈性波導行為。\n\n【結果】實驗與理論顯示，SR 超材料展現出單尺度結構無法企及的卓越性能。在彈性範圍內，其剛度各向異性比率橫跨 190 倍，覆蓋了高達 77%（定向生長更達 96% 以上）的密度—各向異性設計空間。在大變形壓縮中，SR 結構的局部化變形參數 $\\Lambda$ 比 Voronoi 低 37%（棋盤式優化後更低 74%），完全消除了局部壓垮帶，展現平穩的應變能吸收；在動態高速衝擊下，它更以所有對比晶格中最低的峰值反作用力達成了最高比耗能。此外，其有效折射率可在 1.5 至 8.3 之間大範圍調控，成功實現了能將彈性波聚焦於 0.1 倍直徑區域的 Luneburg 透鏡，並在保護脆弱元件時使應力驟降 4.9 倍。這項突破為防彈裝甲、深空包裝與波控制材料開闢了全新的非均質設計維度。",
+      "en": "**Summary:** For decades, the paradigm of mechanical metamaterials has rested on architectural homogeneity—periodic unit cells, uniform wall thicknesses, and discrete length scales. In a striking departure from this convention, a collaborative team led by network scientist Albert-László Barabási and MIT mechanician Carlos Portela introduces \"scale-rich\" (SR) metamaterials. By translating the multiscale, power-law heterogeneity found in nature (such as leaf venation, trabecular bone, and neural connectomes) into architected solids, the authors demonstrate an unprecedented material platform governed by just two tuning parameters. These network-based metamaterials simultaneously span orders of magnitude in ligament length, thickness, and node connectivity, yielding mechanical behaviors once deemed mutually exclusive: extreme, programmable elastic anisotropy, distributed deformation that defies catastrophic shear banding, and state-of-the-art dynamic impact mitigation.\n\n**Problem:** While traditional cellular solids and periodic metamaterials boast remarkable strength-to-weight ratios, their structural uniformity is also their fundamental mechanical liability. Imposing fixed nodal coordination numbers and uniform feature sizes predisposes lattices to localized instabilities; under intense compressive or dynamic loading, failure cascades rapidly along preferential planes, producing catastrophic compaction bands and sharp, dangerous peak forces. Although random foams and Voronoi architectures break strict periodicity, they remain tethered to narrowly distributed, characteristic length scales. A critical theoretical and engineering gap has persisted: the absence of a generative framework capable of introducing broad, scale-free distributions across all topological dimensions simultaneously, alongside an analytical understanding of how extreme structural variance governs global constitutive performance.\n\n**Approach:** Drawing inspiration from spatial networks and preferential attachment models, the researchers formulated an iterative sequential growth process. Inside a given domain, ligaments are seeded at random coordinates and orientations, their thicknesses decreasing power-law fashion over time ($\\lambda_t = \\lambda_0 t^{-\\alpha}$), growing bidirectionally until intersecting existing boundaries or struts. This minimal rule set dictates an analytical phase diagram separating jammed and density-tunable regimes, inherently producing power-law distributions in ligament thickness, Erlang-to-power-law lengths, and a degree distribution exponent of $\\gamma = 3$. The authors fabricated physical specimens spanning centimeter dimensions via vat photopolymerization down to sub-micrometer resolutions using two-photon lithography. They benchmarked these against regular square, hexagonal, and Voronoi lattices through finite-element homogenization, quasi-static large-strain uniaxial compression with digital image correlation, high-speed impact experiments ($100\\text{ s}^{-1}$ strain rates), and elastodynamic wave simulations.\n\n**Results:** The resulting scale-rich metamaterials demonstrated unprecedented functional versatility. Linearly, the framework unlocks a 190-fold continuous tuning range of elastic anisotropy, capturing over 77% of the density–anisotropy parameter space (exceeding 96% with directed seeding). The authors unveiled a universal per-ligament elastic energy scaling law ($U_i \\propto k_i^{3/2} \\lambda_i^{1/2}$) independent of the decay exponent $\\alpha$. Nonlinearly, the broad spread of critical buckling loads prevented localized crush bands: the spatial deformation localization parameter $\\Lambda$ dropped by 37% compared to Voronoi foams (and up to 74% via checkerboard seeding), enabling stable, monotonic energy absorption. Under dynamic impact, SR samples uniquely combined the highest specific energy dissipation with the lowest peak force among all surveyed periodic and disordered lattices. Exploiting widely tunable elastodynamic refractive indices ($1.5 \\le n_{\\text{eff}} \\le 8.3$), the team engineered Luneburg-type acoustic lenses that focused elastic waves into a narrow focal spot of 0.1 lens diameters, and demonstrated protective structural mantles that reduced stress on fragile internal payloads by nearly fivefold."
+    },
+    "keyArticle": {
+      "title": "Scale-rich network-based metamaterials",
+      "authors": [
+        "Csaba Both",
+        "Andrew Yen-Jong Chen",
+        "Ting-Ting Gao",
+        "M. N. Mooij",
+        "Mohammad Charara",
+        "Jayna Wadhwa",
+        "Carlos M. Portela",
+        "Albert-Ĺaszló Barabási"
+      ],
+      "doi": "10.1038/s41586-026-11191-2",
+      "pages": "345-356"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-11-11-02-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11191-2",
+      "doi": "https://doi.org/10.1038/s41586-026-11191-2",
+      "preprint": "http://arxiv.org/abs/2511.18108"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-17T02:24:05.447195+00:00",
+    "source": "openalex"
+  }
+}
