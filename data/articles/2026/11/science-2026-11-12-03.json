@@ -1,0 +1,55 @@
+{
+  "id": "science-2026-11-12-03",
+  "journal": "Science",
+  "volume": "394",
+  "issue": "6825",
+  "date": "2026-11-12",
+  "coverImage": {
+    "url": "data/images/science/science-2026-11-12-03-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "輕輕一拉，電阻狂飆：魔角石墨烯中驚現「巨彈性電阻」效應",
+      "en": "A Gentle Tug, a Massive Shift: Giant Elastoresistance Unveiled in Magic-Angle Graphene"
+    },
+    "summary": {
+      "zh": "【總結】華盛頓大學研究團隊在魔角扭轉雙層石墨烯（MATBG）中實現了原位（in-situ）連續單軸應變調控，發現了超乎想像的「巨彈性電阻效應」（giant elastoresistance）。當對這層僅有原子厚度的材料施加不到 0.1% 的極微小機械應變時，其電阻變化率高達普通金屬的數百倍，應變靈敏係數（Gauge Factor）甚至逼近 400。更引人矚目的是，在特定電子填充態下，該效應隨著溫度下降呈現出類似居里-外斯定律（Curie–Weiss law）的發散特徵，並能直接調控非常規的反常霍爾效應。這項突破不僅將傳統用於塊體超導體的應變技術成功移植至脆弱的二維凡德瓦材料，更為解開強關聯電子態中的向列性波動與同位旋熵之謎提供了全新途徑。\n\n【研究問題】魔角石墨烯之所以能展現非常規超導與關聯絕緣態，關鍵在於兩層石墨烯以約 1.1 度的「魔角」疊合時，莫耳超晶格會將電子動能極度壓制，使電子間的庫侖交互作用占據主導地位。然而，這種平帶結構對晶格微觀幾何形變極為敏感。過去的研究中，材料內部的應變多是在微納製備過程中隨機產生且被動固定的，這導致不同樣品間存在無法複製的「莫耳雜亂」（moiré disorder），嚴重阻礙了科學家精準釐清應變對電子態的真實影響。如何在極低溫、具備雙閘極調控的超高質量二維元件中，實現「原位、連續且可逆」的機械應力調控，一直是凝聚態物理領域亟待攻克的高難度瓶頸。\n\n【研究方法】為突破二維材料極易破裂且難以傳遞應力的限制，研究團隊研發了一套微型低溫壓電應變夾具。他們將高品質、六方氮化硼（hBN）封裝的雙閘極石墨烯元件，轉移至經過精密雷射切割、厚度僅 50 微米的彈性矽晶圓微型懸橋上。夾具採用三組並聯壓電陶瓷堆疊，透過反向極化差動伸縮，在 2 K 乃至 100 mK 的極低溫下對樣品施加連續平滑的單軸拉伸或壓縮。此外，研究人員在晶片上整合了蒸鍍金微型應變計與商用壓電感測器，嚴格校準應力傳遞效率，進而在不同載子濃度、溫度與磁場下，精確擷取樣品電阻張量隨應變的動態響應。\n\n【結果】實驗結果顯示，一般伯納爾堆疊雙層石墨烯在 0.16% 的應變下電阻幾乎毫無變化；然而，魔角石墨烯在施加僅約 0.09% 的應變時，電阻便發生劇烈震盪，換算出的應變靈敏係數高達 400 左右，比普通金屬高出兩個數量級以上。尤其在莫耳價帶半填充處（ν = -2），彈性電阻隨溫度降低急遽攀升，完美符合居里-外斯發散關係，其外斯溫度幾近於零，強烈指向電子向列性量子臨界波動的存在，或是平帶重費米子與局域同位旋力矩的強烈熵耦合；單軸應變更將該區域的反常霍爾電阻訊號壓抑了超過一倍，甚至能誘發軌域磁疇壁的位移翻轉。這項研究證實單軸應變能作為探索平帶超導、對稱性破缺與拓撲相變的全能「量子手術刀」，為二維應變電子學（straintronics）開闢了全新維度。",
+      "en": "**Summary:** A research team led by the University of Washington has achieved continuous, in-situ uniaxial strain tuning in magic-angle twisted bilayer graphene (MATBG), discovering a colossal elastoresistance effect. By stretching or compressing the atomically thin moiré superlattice by less than 0.1%, the researchers observed resistance changes far exceeding those of conventional metals, recording gauge factors approaching 400. In specific doping regimes, this elastoresistance diverges upon cooling in accordance with a Curie–Weiss power law, while also affording delicate mechanical control over an emergent anomalous Hall effect. This breakthrough successfully bridges high-precision elastoresistance methods with ultra-fragile two-dimensional heterostructures, offering a transformative lens into electronic nematicity and entropy fluctuations in strongly correlated quantum matter.\n\n**Problem:** The exotic quantum phases in magic-angle graphene—such as unconventional superconductivity and correlated insulating states—arise because a precise ~1.1° twist flattens the electronic energy bands, suppressing kinetic energy and amplifying many-body interactions. However, this flat-band architecture is exquisitely sensitive to sub-percent distortions of the underlying lattice. Historically, strain in moiré materials has been an unintentional, frozen byproduct of device fabrication. Because microscopic strain variations ('moiré disorder') fluctuate irreproducibly from sample to sample, systematically tracking how strain governs correlation physics was nearly impossible. Achieving continuous, in-situ, and reversible mechanical strain in delicate, dual-gated cryogenic 2D devices remained a formidable experimental barrier.\n\n**Approach:** To surmount this challenge, the authors implemented a cryogenic three-piezo-stack apparatus tailored for fragile van der Waals heterostructures. Dual-graphite-gated graphene stacks were mounted across a narrow bridge patterned onto an ultra-thin (50-micrometer) laser-cut silicon wafer. By driving the central and outer piezoelectric stacks with opposing polarities, the stage applied pure, continuous uniaxial stress down to 100 millikelvin. The team coupled on-chip evaporated gold strain gauges with commercial piezoresistive sensors to rigorously calibrate strain transmission, enabling precise mapping of longitudinal and Hall resistivity across diverse carrier fillings, temperatures, and strain values.\n\n**Results:** While conventional Bernal bilayer graphene exhibited no detectable elastoresistance under 0.16% strain, MATBG responded violently to a mere 0.09% deformation. The resulting gauge factor approached 400—more than two orders of magnitude above normal metals, where strain response is purely geometric. Near half-filling of the moiré valence band (ν = -2), the gauge factor climbed sharply upon cooling, following a classic Curie–Weiss divergence (GF ∝ 1/(T - Θ)) with an extrapolated Weiss temperature Θ near zero kelvin. This points directly to underlying electronic nematic fluctuations or inelastic scattering from high-entropy fluctuating isospin moments. Furthermore, compressive strain suppressed the anomalous Hall resistance amplitude by more than a factor of two and mechanically switched orbital-magnetic domain orientations. These findings establish in-situ strain as an indispensable tuning knob for decoding flat-band superconductivity, heavy-fermion behaviors, and topological orders."
+    },
+    "keyArticle": {
+      "title": "Giant elastoresistance in magic-angle twisted bilayer graphene",
+      "authors": [
+        "Xuetao Ma",
+        "Zhaoyu Liu",
+        "Jiaqi Cai",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Xiaodong Xu",
+        "Jiun-Haw Chu",
+        "Matthew Yankowitz"
+      ],
+      "doi": "10.1126/science.adz0597",
+      "pages": "768-772"
+    },
+    "images": [
+      {
+        "url": "data/images/science/science-2026-11-12-03-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1126/science.adz0597",
+      "doi": "https://doi.org/10.1126/science.adz0597",
+      "preprint": "https://arxiv.org/abs/2505.10506"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-20T01:03:06.611858+00:00",
+    "source": "openalex"
+  }
+}

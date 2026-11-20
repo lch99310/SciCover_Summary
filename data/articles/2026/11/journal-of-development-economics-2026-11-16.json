@@ -1,0 +1,48 @@
+{
+  "id": "journal-of-development-economics-2026-11-16",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-11-16",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-11-16-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "為了祖先而繁衍：靈魂信仰如何重塑撒哈拉以南非洲的生育版圖",
+      "en": "Living for the Lineage: Ancestral Beliefs and the Spiritual Roots of African Fertility"
+    },
+    "summary": {
+      "zh": "【總結】長期以來，傳統人口學模型在預測撒哈拉以南非洲的生育率時屢屢失準，低估了其生育率下降的遲滯性。經濟學者 Pablo Álvarez-Aragón 在本研究中提出了一個突破性的文化經濟學視角：根深蒂固的「祖先崇拜」信仰是支撐高生育率的關鍵精神支柱。在該體系中，祖靈被認為持續干預現世生活，而繁衍子嗣則被視為延續宗族的精神天職。這項研究揭示了靈性觀念與親屬繼嗣結構如何深刻交織，並將孩子視為宗族的「公共財」，為理解全球人口轉型的異質性提供了嶄新維度。\n\n【研究問題】傳統人口轉型理論往往假設，隨著教育普及、收入增長與避孕措施普及，生育率必然會像歐美與東亞那樣快速下降。然而在撒哈拉以南非洲，生育意願居高不下，古典經濟學的「孩子品質—數量權衡」模型在此面臨解釋困境。過去的研究多將焦點置於制度缺失或經濟安全感，忽略了精神世界對生殖決策的微觀約束。若無法釐清祖先信仰與宗族倫理如何作用於家庭決策，國際組織所推動的生育健康與家庭計畫政策就可能持續收效甚微。\n\n【研究方法】作者結合了微觀調查、歷史檔案、民族誌資料與跨國文化數據構建多重實證檢驗。首先，利用在西非貝南（Benin）收集的第一手夫妻調查數據，精確控制地理鄰近性（1公里緩衝區固定效應）與當前宗教（如天主教、福音派、巫毒教）；其次，分析1970年代剛果（原薩伊）的城市與農村人口調查，並對比當代剛果民主共和國的「人口與健康調查」（DHS）；最後，結合 Murdock 民族誌圖鑑與 Berezkin 全球民間傳說數據庫進行外在有效性檢驗。在理論上，作者建立了一個「宗族公共財」博弈模型，推導出生育效應在父系與母系社會中的不對稱性，以及同胞間的「搭便車」行為。\n\n【結果】研究發現，在夫妻雙方皆相信祖先能干預生活的貝南家庭中，女性生育子女數顯著高出0.6至0.8個；在歷史與當代剛果數據中，祖先崇拜使女性生育數增加約0.8至1.1個孩子。更具啟發性的是理論驗證：生育效應完全集中於父系社會，在母系社會中則不顯著。此外，數據精確捕捉到了宗族內的「搭便車」現象——在母系社會中，女性擁有的姊妹越多（姊妹的子女同屬該母系），自身生育數越少，但兄弟數量則無影響；在父系社會中，丈夫的親兄弟越多，妻子的生育數也顯著下降。這表明生殖確實被當作宗族層面的公共責任，若有同宗同胞分擔傳宗接代的精神負擔，個體便會減少生育。這項研究強調，任何人口政策若脫離了當地的親屬制度與深層精神信仰，都將難以發揮預期效力。",
+      "en": "**Summary:** Conventional demographic models have persistently overestimated the pace of fertility decline across sub-Saharan Africa. In this pioneering study, economist Pablo Álvarez-Aragón demonstrates that this demographic puzzle has deep spiritual roots: ancestral beliefs, where deceased ancestors are perceived as active agents desiring lineage survival, transform childbearing into a vital spiritual and collective duty. By framing children as a lineage-level public good, the research reveals how cultural belief systems interact with kinship structures to sustain high reproductive goals, reshaping our understanding of the demographic transition in the developing world.\n\n**Problem:** Standard economic theories of demographic transition treat fertility as an individual or nuclear-family trade-off between child quantity and quality, predicting rapid fertility drops alongside urbanization, income growth, and schooling. In sub-Saharan Africa, however, desired and realized fertility remain exceptionally high despite modernization. Demographers have historically overlooked traditional metaphysical worldviews, assuming world religions like Christianity or Islam displaced them. Resolving this blind spot is critical for designing development initiatives and family-planning interventions that actually align with the cultural realities governing reproductive decisions.\n\n**Approach:** The author employs a multi-layered empirical strategy spanning micro-surveys, historical archives, and continental datasets. He analyzes rich first-hand survey data from southern Benin using 1-kilometer spatial buffer fixed effects to isolate ancestral beliefs from geographic and institutional confounders. He corroborates these findings using historical post-colonial surveys from 1970s Zaire and contemporary Demographic and Health Surveys (DHS) from the Democratic Republic of the Congo, alongside Berezkin’s Folklore Atlas and Murdock’s Ethnographic Atlas. Methodologically, Álvarez-Aragón formalizes a public goods model where lineage continuation creates positive externalities, allowing him to theoretically predict and empirically test descent-specific behaviors and sibling free-riding.\n\n**Results:** The empirical findings are striking: in Benin, women in households where both spouses hold ancestral beliefs bear an average of 0.6 to 0.8 more children, and Congolese women from ancestor-venerating ethnicities have roughly 0.8 to 1.1 additional children. Crucially, this fertility premium is driven by patrilineal descent systems, where ancestral mandates align directly with male lineage reproduction. Furthermore, the data document clear \"free-riding\" within lineages: in matrilineal groups, a woman’s fertility decreases significantly with each additional sister—whose children secure the maternal line—but not with brothers. Conversely, in patrilineal settings, a woman’s fertility declines with the number of her husband’s brothers. These results underscore that reproduction in Africa is fundamentally communal, governed by ancestral ties that cannot be discounted in global development policy."
+    },
+    "keyArticle": {
+      "title": "Living for the lineage: Ancestral beliefs and the spiritual foundations of fertility in sub-Saharan Africa",
+      "authors": [
+        "Pablo Álvarez-Aragón"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103966",
+      "pages": "103966"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-11-16-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103966",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103966",
+      "preprint": "https://doi.org/10.2139/ssrn.7483403"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-20T01:22:54.550894+00:00",
+    "source": "openalex"
+  }
+}
