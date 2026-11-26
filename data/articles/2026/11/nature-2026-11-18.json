@@ -1,0 +1,58 @@
+{
+  "id": "nature-2026-11-18",
+  "journal": "Nature",
+  "volume": "659",
+  "issue": "8141",
+  "date": "2026-11-18",
+  "coverImage": {
+    "url": "data/images/nature/nature-2026-11-18-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "實驗桌上的早期宇宙：超冷鉀原子「演出」帶質量的相對論量子場",
+      "en": "A Tabletop Early Universe: Cold Atoms Stage a Massive Relativistic Quantum Field"
+    },
+    "summary": {
+      "zh": "【總結】把兩團超冷鉀原子用無線電波「黏」在一起，竟能變成宇宙學家的時光機。劍橋團隊在二維均勻的玻色—愛因斯坦凝聚體中，以兩個自旋態的相對相位 φ 編碼出 sine-Gordon 模型——一個帶質量、能自我交互作用的相對論性量子場。他們不只量到理論預言的「質量缺口」與相對論色散，還在 2+1 維中直接拍下拓撲疇壁：φ 在極窄的牆面上快速纏繞 2π。這代表早期宇宙的相變、拓撲缺陷生成、真空衰變等難以觀測的難題，首度能在實驗桌上被「重播」與檢驗。\n\n【研究問題】量子場論是從高能物理、宇宙學到凝態物理的共同語言，但一旦離開微擾近似、進入強耦合或隨時間演化的動態區域，尤其在多於一個空間維度時，數值計算幾乎無能為力。過去單分量凝聚體模擬的是「無質量」場（聲學度規），一維雙分量實驗雖已實現 sine-Gordon 模型，但一維均勻系統是可積的，缺少真正的非微擾複雜性；一維的疇壁也只是點缺陷。因此核心問題是：能否在二維造出一個質量可調、可交互作用、且能容納延伸拓撲缺陷的相對論場？這正是天文觀測永遠觸及不到的空白。\n\n【研究方法】團隊把 39K 原子的兩個超精細態｜1,−1⟩與｜1,0⟩關進 30–50 微米的光學盒子，並以最高 2π×20 kHz 的射頻場同調耦合兩態。在「約瑟夫森區」μs ≫ ħΩ 下，密度起伏被強力壓抑，長波長動力學幾乎全由相對相位 φ 主導，其能量代價 U(φ) = −(ħΩ/2)cos φ 正是 sine-Gordon 勢。他們用態選擇吸收成像取得局部自旋不平衡 Z 與相位 φ；用射頻相位跳變和 Ω 的參數調制，分別激發 k=0 與有限動量模態；最後以拉曼—布拉格干涉條紋搭配卷積神經網路重建相位圖，把 2π 纏繞「畫」出來。\n\n【結果】等離子振盪頻率與振幅比 AZ/AY 在 μs/(ħΩ) 跨越三個數量級（最高約 100）的範圍內都吻合理論；量到的色散在 k ≲ 2.6 μm⁻¹ 內貼近 √[(m*c²)² + (ħck)²]，質量 m* 可藉 Ω 調控。最搶眼的是疇壁：多數實驗shots都自發出現、位置隨機，寬度約 1–4 微米，密度與相位剖面完美符合 sech² 與 4arctan(e^{z/w})；把 Ω 從 22 Hz 突然切到 10 或 45 Hz，牆立刻變胖或變瘦，符合 w ∝ 1/√Ω。此平台直指宇宙再加熱（preheating）、Kibble–Zurek 缺陷生成、贗真空衰變、軸子暗物質與疇壁重力波等問題。",
+      "en": "**Summary:** Two coherently coupled spin states in a uniform two-dimensional potassium condensate have been turned into a working simulator of a massive relativistic quantum field. By encoding the sine-Gordon model in the relative phase φ of the two components, the Cambridge-led collaboration observed both the perturbative signature — a relativistic dispersion with a tunable mass gap — and starkly non-perturbative structures: topological domain walls across which φ winds by 2π. This is the first realization of sine-Gordon physics in 2+1 dimensions, moving analogue cosmology beyond one-dimensional toy models to extended defects with genuine spatial structure and real dynamical richness.\n\n**Problem:** Quantum field theories underpin everything from cosmic inflation to condensed matter, yet their non-perturbative, time-dependent dynamics are notoriously hard to compute — especially above one spatial dimension, where integrability is lost and numerical methods strain. Cold atoms have already simulated massless relativistic fields using acoustic metrics, and one-dimensional two-component gases have realized the sine-Gordon model; but in 1D the uniform system is integrable, so genuinely complex behaviour never emerges, and its domain walls are mere point defects. The open question: can one build a tunable, interacting, massive relativistic field with two spatial dimensions — one that supports extended topological defects?\n\n**Approach:** The team trapped 39K atoms in the |1,−1⟩ and |1,0⟩ hyperfine states inside a 30–50 μm optical box and coupled them with a radio-frequency field at Rabi frequencies up to 2π×20 kHz. Deep in the Josephson regime (μs ≫ ħΩ), density fluctuations are frozen out, and the long-wavelength physics is carried entirely by the relative phase, whose energy cost U(φ) = −(ħΩ/2)cos φ is precisely the sine-Gordon potential. State-selective absorption imaging yields the local imbalance Z and phase φ; radio-frequency phase jumps and parametric modulation of Ω excite k = 0 and finite-momentum modes respectively; Raman–Bragg interference fringes, decoded by a neural network, map the 2π winding directly.\n\n**Results:** The plasma frequency and amplitude ratio AZ/AY matched theory across three orders of magnitude in μs/(ħΩ), reaching ≈100. The measured dispersion follows the massive relativistic form, with the field mass m* tuned by Ω, for k ≲ 2.6 μm⁻¹. Most strikingly, domain walls appeared spontaneously in most shots with random patterns, 1–4 μm wide, fitting sech² density and 4arctan(e^{z/w}) phase profiles; quenching Ω/(2π) from 22 Hz to 10 or 45 Hz visibly widened or narrowed them, consistent with w ∝ 1/√Ω. The platform opens studies of cosmological preheating, Kibble–Zurek defect formation, false-vacuum decay, axion dark matter and gravitational waves from domain-wall networks."
+    },
+    "keyArticle": {
+      "title": "Analogue simulation of massive relativistic quantum fields in 2 + 1 dimensions",
+      "authors": [
+        "Yansheng Zhang",
+        "Feiyang Wang",
+        "Paul H. C. Wong",
+        "Alexander C. Jenkins",
+        "Yi Jiang",
+        "Konstantinos Konstantinou",
+        "Gehrig Carlse",
+        "Nishant Dogra",
+        "Joseph H. Thywissen",
+        "Christoph Eigen",
+        "Zoran Hadzibabic"
+      ],
+      "doi": "10.1038/s41586-026-11268-y",
+      "pages": "634-639"
+    },
+    "images": [
+      {
+        "url": "data/images/nature/nature-2026-11-18-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1038/s41586-026-11268-y",
+      "doi": "https://doi.org/10.1038/s41586-026-11268-y",
+      "preprint": "https://arxiv.org/abs/2603.08840"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-26T02:10:59.644414+00:00",
+    "source": "openalex"
+  }
+}

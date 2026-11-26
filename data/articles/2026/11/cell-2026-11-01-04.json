@@ -1,0 +1,103 @@
+{
+  "id": "cell-2026-11-01-04",
+  "journal": "Cell",
+  "volume": "189",
+  "issue": "23",
+  "date": "2026-11-01",
+  "coverImage": {
+    "url": "data/images/cell/cell-2026-11-01-04-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "解鎖大腦暗物質：75萬個腦細胞表觀遺傳圖譜，繪製人類神經命運與疾病的基因開關",
+      "en": "Mapping the Brain's Hidden Switches: A 750,000-Cell Multimodal Atlas of the Human Epigenome"
+    },
+    "summary": {
+      "zh": "【總結】\n人類大腦擁有數百種形態各異、功能獨特的神經細胞，但所有細胞其實共享著同一套DNA代碼。長久以來，科學界未能完全解析究竟是怎樣的分子開關指揮著這場精密的交響樂。一項發表於頂級期刊《Cell》的重磅研究，構建了迄今最完整的人類大腦單細胞多模態表觀基因組圖譜。研究團隊聯合測量了來自18個腦區、跨越160種細胞類型的逾75萬個細胞核，同時精確捕捉單一細胞內的轉錄組與活化態（H3K27ac）或抑制態（H3K27me3）組蛋白修飾。這項研究不僅繪製出超過50萬個候選順式調控元件（cCREs）的動態功能狀態，更建立了神經遺傳變異與特定細胞類型的因果橋樑，為理解大腦結構特異性與神經精神疾病機制立下了關鍵里程碑。\n\n【研究問題】\n大腦的發育與功能依賴於嚴格調控的基因表現，而基因表現的開與關受組蛋白修飾、染色質開放度和空間三維折疊共同支配。過去的單細胞研究大多著重於轉錄組（RNA）或染色質可及性（ATAC-seq），但染色質「開放」並不等同於基因「啟動」；相反地，抑制性組蛋白標記（如由Polycomb蛋白複合物介導的H3K27me3）在維持細胞身份、鎖定未成熟或非目標基因中扮演決定性角色，卻長年在單細胞水平受到忽視。此外，絕大多數神經退化與精神疾病相關的遺傳變異座落在非編碼區，缺乏高解析度、跨腦區的表觀遺傳地圖，使得科學家難以判斷致病突變究竟是在哪一種腦細胞、於哪條基因調控網絡中興風作浪。\n\n【研究方法】\n研究團隊採用了先進的高通量微流控技術「Droplet Paired-Tag」，在單一細胞核內同時測量RNA轉錄組與組蛋白標記（活化標記H3K27ac或抑制標記H3K27me3）。他們從18個成人大腦解剖區域取樣，涵蓋大腦皮質、小腦及腦橋，獲得了751,077個高質量細胞核數據。隨後，作者將這些數據與單細胞染色質可及性（snATAC-seq）、單細胞DNA甲基化結合三維染色質構象（snm3C-seq）以及超高解析度空間轉錄組（MERFISH Ultra）進行深度多模態整合。透過9態隱馬爾可夫模型（ChromHMM）對全基因組的染色質狀態進行系統性標註，並結合基於活動-接觸（ABC）模型與深度學習序列預測模型，精確模擬非編碼基因突變對細胞特異性轉錄因子的破壞潛力。\n\n【結果】\n研究成功解析出500,000多個調控元件的功能狀態，發現活化型增強子（H3K27ac+）高度富集於啟動子附近（10.32% vs. 1.04%），且在物種演化中極為保守；相反地，抑制性標記H3K27me3在人與小鼠間呈現顯著的演化分歧，顯示物種演化可能藉由重塑「基因沉默屏障」來特化腦功能。在三維基因組中，研究團隊發現了由Polycomb複合體介導的「超長距離」染色質環（loops），甚至跨越了巨型基因組區域來協同沉默發育關鍵基因。空間分析進一步揭示了皮質分層中精準的表觀遺傳梯度（如SST中間神經元沿深淺軸向的漸變）。最後，透過深度學習序列模型，研究團隊成功將精神分裂症、雙相情緒障礙症及阿茲海默症等多種疾病的風險變異，精準錨定至特定神經元亞群與微膠細胞的關鍵增強子，為未來神經疾病的靶向基因治療鋪平了道路。",
+      "en": "**Summary:**\nEvery specialized cell in the human brain carries the exact same genetic blueprint, yet how distinct cellular identities and regional specializations are epigenetically orchestrated remains one of neuroscience's grandest mysteries. In a landmark study published in *Cell*, researchers unveiled a massive single-cell multimodal epigenomic atlas of the adult human brain. By simultaneously capturing RNA transcripts alongside either active (H3K27ac) or repressive (H3K27me3) histone modifications across more than 750,000 single nuclei from 18 anatomical regions, the consortium systematically annotated the functional states of over 500,000 candidate cis-regulatory elements across 160 distinct cell types. This comprehensive atlas illuminates the 3D genome architecture, spatial organization, and evolutionary trajectories governing brain function while delivering a predictive framework for deciphering noncoding variants linked to neuropsychiatric disorders.\n\n**Problem:**\nPrior single-cell atlases of the human brain have largely focused on transcriptomics or open chromatin (snATAC-seq). However, chromatin accessibility is merely a permissive state; it fails to distinguish primed elements from active transcription drivers or actively silenced domains. In particular, the repressive chromatin landscape orchestrated by Polycomb repressive complexes—marked by H3K27me3—acts as an epigenetic lock vital for preserving cell fate and silencing inappropriate developmental programs, yet it has remained virtually uncharted at single-cell resolution across the human brain. Furthermore, over 90% of disease-associated variants identified by genome-wide association studies (GWAS) reside in noncoding genomic regions, leaving a critical knowledge gap in linking pathogenic mutations to specific regulatory elements, target genes, and vulnerable cell classes.\n\n**Approach:**\nThe authors harnessed high-throughput Droplet Paired-Tag technology to simultaneously profile single-nucleus RNA expression paired with either H3K27ac (339,097 nuclei) or H3K27me3 (411,980 nuclei) across 18 distinct human brain regions spanning the cerebral cortex, cerebellum, and pons. They computationally integrated this dataset with single-nucleus chromatin accessibility, DNA methylation, single-cell chromosome conformation capture (snm3C-seq), and high-plex spatial transcriptomics (MERFISH Ultra). Using a 9-state ChromHMM framework, they classified chromatin states across 32 major cell subclasses, mapped enhancer-promoter loops using Activity-by-Contact (ABC) modeling, constructed cell-type-specific gene regulatory networks, and developed a sequence-to-function deep learning model to predict the functional consequences of neurological disease risk variants at single-base resolution.\n\n**Results:**\nThe team annotated over 500,000 candidate cis-regulatory elements, uncovering stark functional divisions: active H3K27ac+ enhancers were heavily enriched at promoters (10.32% vs. 1.04% in non-active elements) and conserved across species, whereas repressive H3K27me3 programs exhibited striking evolutionary divergence between humans and mice. Architectural analysis revealed specialized Polycomb-associated, ultra-long-range chromatin contacts holding developmentally critical gene clusters in a state of coordinated repression. Integration with MERFISH captured subtle laminar epigenetic gradients within cortical layers, exemplified by depth-dependent states in SST interneurons. Crucially, the deep learning sequence-to-function model mapped neuropsychiatric and neurodegenerative risk loci (including schizophrenia and Alzheimer's disease) to disruption of specific transcription factor binding sites within cell-type-restricted enhancers, providing an unprecedented functional roadmap for targeted therapeutic intervention."
+    },
+    "keyArticle": {
+      "title": "Single-cell multimodal atlas reveals regulatory programs in the human brain",
+      "authors": [
+        "Yang Xie",
+        "Lei Chang",
+        "Guojie Zhong",
+        "Jonathan A. Rink",
+        "Tatiana Baez-Becerra",
+        "Ethan J. Armand",
+        "Wubin Ding",
+        "Kai Li",
+        "Éric Bonne",
+        "Hannah S. Indralingam",
+        "Anita Lie",
+        "Keyi Dong",
+        "Timothy H. Loe",
+        "Bohan Huang",
+        "Zhaoning Wang",
+        "Ariana S. Barcoma",
+        "Jackson K. Willier",
+        "Kyle W. Knutson",
+        "Jiayi Liu",
+        "Silvia Cho",
+        "Stella Maris Cao",
+        "Kaitlyn G. Russo",
+        "Carissa K. Young",
+        "Jessica Arzavala",
+        "Yareli Sanchez",
+        "Aleksandra Bikkina",
+        "Natalie M. Schenker-Ahmed",
+        "Colin Kern",
+        "Zoey Zhao",
+        "Amit Klein",
+        "Jesus Flores",
+        "Chu-Yi Tai",
+        "Jacqueline Olness",
+        "Alexander Monell",
+        "Siavash Moghadami",
+        "Cesar Barragan",
+        "Chumo Chen",
+        "William S. Owens",
+        "Wenliang Wang",
+        "Carolyn O'Connor",
+        "Michelle Liem",
+        "Mikayla V. Marrin",
+        "Cynthia Rose",
+        "Shane N. Alt",
+        "Nora Emerson",
+        "Julia Osteen",
+        "Jacinta Lucero",
+        "Nathan R. Zemke",
+        "Daofeng Li",
+        "Rebecca D. Hodge",
+        "Ting Wang",
+        "C. Dirk Keene",
+        "Xiangming Xu",
+        "Quan Zhu",
+        "Joseph R. Ecker",
+        "M. Margarita Behrens",
+        "Bing Ren"
+      ],
+      "doi": "10.1016/j.cell.2026.08.012",
+      "pages": "7447-7470.e18"
+    },
+    "images": [
+      {
+        "url": "data/images/cell/cell-2026-11-01-04-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.cell.2026.08.012",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.012"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-26T02:12:27.238276+00:00",
+    "source": "openalex"
+  }
+}

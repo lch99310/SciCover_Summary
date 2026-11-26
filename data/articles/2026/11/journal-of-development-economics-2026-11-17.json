@@ -1,0 +1,49 @@
+{
+  "id": "journal-of-development-economics-2026-11-17",
+  "journal": "Journal of Development Economics",
+  "volume": "185",
+  "issue": "",
+  "date": "2026-11-17",
+  "coverImage": {
+    "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-11-17-cover.jpg",
+    "credit": ""
+  },
+  "coverStory": {
+    "title": {
+      "zh": "把手機趕出教室之後：成績沒動，學生的自信卻先掉了一角",
+      "en": "Phones Out of the Classroom, Confidence Out the Window"
+    },
+    "summary": {
+      "zh": "【總結】當各國政府紛紛對校園手機下禁令時，一篇發表於《Journal of Development Economics》的研究澆了一盆冷水。兩位作者利用智利全國行政資料與師生問卷，追蹤超過 36 萬名學生，發現老師在課堂上「管得比較嚴」確實讓八年級學生上課玩手機的比率下降約 3 個百分點——但考試成績毫無變化，學生自認「這科我很行」的比例反而掉了 2.2 至 2.3 個百分點。換句話說，沒收手機換來的不是更好的學習，而是更低的自我評價。這個結論對開發中國家尤其重要：在那裡，手機往往是廉價的教學工具，而校內執行力度參差不齊。\n\n【研究問題】過去關於手機禁令的研究，幾乎都聚焦在「全校層級、嚴格執行」的禁令，例如英國、挪威、美國佛州，結果莫衷一是：有的發現成績大幅提升，有的完全測不到效果。但全球更多地區——尤其是中低收入國家——的現實是「分散式管理」：教育部不管，學校授權老師自行決定，同一所學校裡甲班禁、乙班不禁。更關鍵的是，手機在這些地方不只是娛樂裝置，還是學生查資料、拍照抄黑板的教學輔助工具。於是問題變成：當執行鬆散、手機又身兼教具時，老師的「寬鬆或嚴格」究竟改變了什麼？這個問題過去幾乎沒有大樣本的因果證據。\n\n【研究方法】作者把兩份資料串起來：一份是智利教育品質局在標準化測驗（SIMCE）期間發給師生的問卷，另一份是教育部提供的學生社經背景與教師人事紀錄。關鍵變數是老師自陳「多久允許學生在課堂使用手機」，採四級量表。他們用兩套互補的準實驗設計交叉驗證：第一套是「同一位老師、跨年度」的政策變化——2017 至 2019 年間約有一到一成半的八年級數學老師改變了做法，換句話說，比較的是同一位老師在收緊前後的同一批課程；第二套是「同一位學生、跨科目」——同一名學生在同一年修數學與閱讀，兩位老師的規定一鬆一嚴，學生自身的能力、動機、家庭背景都被「學生—年度固定效果」吸收掉。兩套設計各有假設，但結論彼此吻合，是本文最有力的地方。\n\n【結果】在八年級樣本中，把「經常允許」改為「從不允許或偶爾允許」，學生「不同意自己上課用手機娛樂」的機率上升 3 個百分點，約為基準值（70%）的 4%；若把標準拉高到「非常不同意」，效果達 5 個百分點，超過平均值的 15%。但十年級學生幾乎毫無反應。成績方面，兩套設計的估計值都貼近零，且能排除大於 0.03 至 0.06 個標準差的進步。真正值得注意的是「自我效能」：八年級學生覺得自己「相當有能力或非常有能力」的機率下降 2.2 至 2.3 個百分點，約 3%、0.05 個標準差。唯一的異質效果出現在少數老師身上——那些原本幾乎不拿手機教學的老師，一旦收緊規定，學生的娛樂使用下降最多，自我評價也掉得最兇。這意味著手機管制不是萬靈丹，它與既有的教學文化緊緊纏繞。\n\n【研究方法】補充：樣本涵蓋 172,865 名八年級生（4,984 位教師）與 187,343 名十年級生（5,685 位教師）；八年級使用數學科、十年級使用閱讀科，因為這兩個年級僅有該科目教師接受問卷調查。",
+      "en": "**Summary:** As governments rush to ban phones in schools, a study in the *Journal of Development Economics* offers a cautionary counterpoint. Using linked Chilean administrative records and teacher-student surveys covering more than 360,000 pupils, Ying Shi and Francisco Villarroel Riquelme find that stricter classroom phone rules did modestly curb eighth graders' recreational phone use—by about 3 percentage points—yet produced no detectable change in test scores. Instead, students' belief that they were capable in a subject fell by 2.2 to 2.3 percentage points. Banning phones did not buy better learning; it appears to have cost students a measure of academic self-confidence. The finding matters most for low- and middle-income countries, where phones double as cheap instructional tools and enforcement is uneven.\n\n**Problem:** Nearly all rigorous evidence on phone restrictions comes from school-wide bans with strong enforcement—England, Norway, Florida, Swedish municipalities, U.S. pouch-based lockdowns—and the results disagree sharply, ranging from large test-score gains to precise nulls. But that is not how most of the world operates. In much of Latin America, Africa and Asia, regulation is decentralized: ministries issue guidance, schools improvise, and individual teachers decide classroom by classroom. In those settings phones are also pedagogical infrastructure—students search for information, photograph the board, join teacher-run activities. So the real question is not whether a hard ban works, but what a teacher's discretion actually changes when enforcement is soft and phones are simultaneously a distraction and a teaching aid.\n\n**Approach:** The authors merge two datasets: surveys administered by Chile's Education Quality Agency during national standardized testing, and Ministry of Education records on student socioeconomic status and teacher assignments. The treatment is a teacher's self-reported frequency of allowing phones in class, on a four-point scale. Identification comes from two complementary designs. The first tracks the same teacher across cohorts—roughly 10-15% of teachers changed their policy between 2017 and 2019—so comparisons are within teacher and school. The second exploits the fact that each student is tested in two subjects with two different teachers; student-year fixed effects absorb motivation, family background and anything else shared across math and reading. Roughly 11-16% of students experienced genuinely different policies in their two classrooms. The designs rest on different assumptions, which makes their agreement reassuring.\n\n**Results:** Among eighth graders, moving from frequent phone permission to \"never or a few times\" raised the probability of disagreeing that they use phones in class for entertainment by 3 percentage points, about 4% of the 70% baseline; on the stricter \"strongly disagree\" margin the effect reached 5 points, over 15% of the mean. Tenth graders showed essentially no behavioral response. Test-score estimates sit near zero across both designs, ruling out gains larger than 0.03-0.06 standard deviations. The sting is in the perceptions: eighth graders' likelihood of feeling \"quite\" or \"very capable\" in a subject dropped 2.2-2.3 points, roughly 3% or 0.05 SD. One heterogeneity stands out—students of teachers who had rarely used phones for instruction at baseline cut recreational use most and lost the most confidence. Restrictions, in other words, do not operate in a pedagogical vacuum; they interact with how teachers already teach."
+    },
+    "keyArticle": {
+      "title": "The consequences of cellphone restrictions in classrooms",
+      "authors": [
+        "Ying Shi",
+        "Francisco Villarroel Riquelme"
+      ],
+      "doi": "10.1016/j.jdeveco.2026.103968",
+      "pages": "103968"
+    },
+    "images": [
+      {
+        "url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-11-17-cover.jpg",
+        "caption": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    ],
+    "links": {
+      "official": "https://doi.org/10.1016/j.jdeveco.2026.103968",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2026.103968",
+      "preprint": "https://doi.org/10.2139/ssrn.6902948"
+    }
+  },
+  "_meta": {
+    "summary_mode": "full-text",
+    "created_at": "2026-11-26T02:18:03.933193+00:00",
+    "source": "openalex"
+  }
+}

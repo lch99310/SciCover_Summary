@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-11-20T01:22:54.600745+00:00",
+  "lastUpdated": "2026-11-26T02:18:03.993867+00:00",
   "articles": [
+    {
+      "id": "science-2026-11-19",
+      "journal": "Science",
+      "date": "2026-11-19",
+      "path": "articles/2026/11/science-2026-11-19.json",
+      "title_zh": "沒人看的時候，月亮還在嗎？Google 用 105 個量子位元證明「脈絡性」就是量子優勢的來源",
+      "title_en": "The Moon Isn't There Until You Look: Turning Quantum Contextuality into a Measurable Computational Advantage",
+      "cover_url": "data/images/science/science-2026-11-19-cover.jpg"
+    },
+    {
+      "id": "nature-2026-11-18",
+      "journal": "Nature",
+      "date": "2026-11-18",
+      "path": "articles/2026/11/nature-2026-11-18.json",
+      "title_zh": "實驗桌上的早期宇宙：超冷鉀原子「演出」帶質量的相對論量子場",
+      "title_en": "A Tabletop Early Universe: Cold Atoms Stage a Massive Relativistic Quantum Field",
+      "cover_url": "data/images/nature/nature-2026-11-18-cover.jpg"
+    },
+    {
+      "id": "journal-of-development-economics-2026-11-17",
+      "journal": "Journal of Development Economics",
+      "date": "2026-11-17",
+      "path": "articles/2026/11/journal-of-development-economics-2026-11-17.json",
+      "title_zh": "把手機趕出教室之後：成績沒動，學生的自信卻先掉了一角",
+      "title_en": "Phones Out of the Classroom, Confidence Out the Window",
+      "cover_url": "data/images/journal-of-development-economics/journal-of-development-economics-2026-11-17-cover.jpg"
+    },
     {
       "id": "journal-of-development-economics-2026-11-16",
       "journal": "Journal of Development Economics",
@@ -99,6 +126,15 @@
       "title_zh": "解密7600萬年的大腦指揮中心：靈長類基底核跨物種多體學單細胞圖譜",
       "title_en": "Mapping 76 Million Years of Circuit Evolution: A Cross-Species Multiomic Atlas of the Primate Basal Ganglia",
       "cover_url": "data/images/cell/cell-2026-11-01-03-cover.jpg"
+    },
+    {
+      "id": "cell-2026-11-01-04",
+      "journal": "Cell",
+      "date": "2026-11-01",
+      "path": "articles/2026/11/cell-2026-11-01-04.json",
+      "title_zh": "解鎖大腦暗物質：75萬個腦細胞表觀遺傳圖譜，繪製人類神經命運與疾病的基因開關",
+      "title_en": "Mapping the Brain's Hidden Switches: A 750,000-Cell Multimodal Atlas of the Human Epigenome",
+      "cover_url": "data/images/cell/cell-2026-11-01-04-cover.jpg"
     },
     {
       "id": "cell-2026-11-01",
